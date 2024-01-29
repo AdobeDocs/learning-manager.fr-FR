@@ -1,0 +1,544 @@
+---
+description: Lisez cet article pour savoir comment télécharger l’application Élève Learning Manager pour les smartphones et les tablettes. Découvrez comment suivre des cours sur votre mobile ou votre tablette.
+jcr-language: en_us
+title: Application des élèves pour appareils mobiles et tablettes
+contentowner: manochan
+source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+workflow-type: tm+mt
+source-wordcount: '2635'
+ht-degree: 0%
+
+---
+
+
+
+# Application des élèves pour appareils mobiles et tablettes
+
+Lisez cet article pour savoir comment télécharger l’application Élève Learning Manager pour les smartphones et les tablettes. Découvrez comment suivre des cours sur votre mobile ou votre tablette.
+
+## Présentation {#overview}
+
+L’application Learning Manager pour les élèves est disponible pour les utilisateurs de téléphones Android et d’iPhone. Accédez au Google Play Store (système d’exploitation Android) ou à iTunes (macOS) et téléchargez l’application Learning Manager.
+
+Après avoir téléchargé et installé cette application, connectez-vous à l’aide de vos informations d’identification d’élève. Lorsque vous ouvrez l’application mobile Learning Manager, l’écran suivant s’affiche par défaut.
+
+![](assets/1.png)
+
+*Page d’accueil de l’application Learning Manager*
+
+## Page d’accueil {#homepage}
+
+Pour tous les comptes pour lesquels l’option Mise en page immersive est activée, une toute nouvelle page d’accueil prend en charge la configuration de mise en page immersive. La page d’accueil est organisée sous la forme d’une liste de cartes pour les éléments suivants :
+
+| ![](assets/image002.png) | ![](assets/image005.png) |
+|---|---|
+| ![](assets/image006.png) | ![](assets/image008.png) |
+
+*Liste des cartes sur la page d’accueil*
+
+![](assets/image010.png)
+
+*Flux social de l’élève*
+
+## Évaluation {#feedbackrating}
+
+Learning Manager invite l’élève à fournir un retour d’informations sur son expérience avec l’application mobile. Ce retour d’informations s’affiche une fois par mois et laisse suffisamment de temps aux utilisateurs pour qu’ils puissent tester l’application, puis donner leur avis.
+
+<!--
+| ![](assets/image013.png) | ![](assets/image014.png)|
+|---|---|
+-->
+
+Pour les utilisateurs existants, la fenêtre contextuelle de commentaires doit s’afficher une fois qu’ils ferment le lecteur pour la première fois après la mise à jour de l’application vers la dernière version.
+
+Notez que la collecte des commentaires est anonyme et s’affiche uniquement pour les utilisateurs qui ont activé cette option **Partager les données d’utilisation** via une configuration dans les paramètres de l’application.
+
+## Télécharger le badge {#downloadbadge}
+
+Les élèves peuvent télécharger leurs badges au format PDF et Image. Dans la section Profil utilisateur, faites défiler vers le bas, puis cliquez sur un lien pour télécharger un badge. Le badge téléchargé est enregistré dans le dossier par défaut de l’appareil. L’application vous permet d’ouvrir le dossier ou le fichier immédiatement après la fin du téléchargement.
+
+| ![](assets/image016.png) |
+|---|
+
+*Télécharger un badge*
+
+## Mise en page web mobile réactive {#responsive}
+
+Une expérience web mobile entièrement réactive qui garantit que les élèves utilisent leurs appareils pour suivre la formation même s’ils n’ont pas installé l’application mobile.
+
+Lorsque vous vous connectez pour la première fois à l’application de l’élève via le navigateur de votre appareil, l’application s’affiche sous la forme d’une mise en page réactive, adaptée aux appareils mobiles.
+
+La prise en charge de l’interface utilisateur Web réactive mobile est uniquement disponible lorsqu’un compte **est configuré pour une disposition immersive uniquement**. L’interface utilisateur réactive est **non disponible pour la mise en page classique**.
+
+<!--
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><strong>Home page</strong></p><img src="assets/home-page1.png">
+    <p><strong>View options</strong></p><img src="assets/view-options.jpg">
+    <p><strong>Start course</strong></p><img src="assets/start-course.jpg"></td>
+   <td>
+    <p><strong>My Learning List</strong></p><img src="assets/learning-list.jpg">
+    <p><strong>View catalog</strong></p><img src="assets/catalog-new.jpg">
+    <p><strong>Apply filters</strong></p><img src="assets/apply-filters.jpg"></td>
+   <td>
+    <p><strong>Recommendations based on interest</strong></p><img src="assets/rec-area-interest.jpg">
+    <p><strong>View notifications</strong></p><img src="assets/notifications.jpg">
+    <p><strong>Share url</strong></p><img src="assets/share-url.jpg"></td>
+  </tr>
+ </tbody>
+</table>
+-->
+
+## Fonctionnalités non prises en charge dans l’expérience immersive mobile {#unsupportedfeaturesinmobileimmersiveexperience}
+
+Les workflows suivants apparaissent dans l’expérience classique pour un élève :
+
+* Tentatives multiples
+* Flexi LP
+* Scénarios de téléchargement de fichier
+* Envoi d’un retour d’informations L1
+
+Les autres fonctionnalités de l’application non prises en charge sont les suivantes :
+
+* Application pour les réseaux sociaux : un élève est redirigé vers l’expérience classique s’il clique sur le widget Réseaux sociaux sur la page d’accueil
+* Paramètres du profil/Modifier le profil
+* Afficher le badge/les compétences
+* Tableau des scores : un élève est redirigé vers l’expérience classique s’il clique sur le widget Tableau des scores sur la page d’accueil
+* Téléchargement des assistances à la tâche.
+* Options de filtre dans la recherche.
+
+L’apprentissage par les réseaux sociaux prend désormais en charge les expériences web immersives mobiles.
+
+Certaines fonctionnalités ne sont pas prises en charge par l’application immersive mobile. Il s’agit des éléments suivants :
+
+| **Zone** | **Non pris en charge** |
+|---|---|
+| Tableau | Création de forums, Modification de forums, Copier l’URL , Supprimer , Signaler, Trier , Filtrer |
+| Post | Type de sondage Après la création, Modifier, Pièce jointe multiple à la publication, Copier l’URL, Épingler au début |
+| Commentaire/Réponse | Modifier, Marquer comme bonne réponse, Chargement d’une image/vidéo/audio dans un commentaire ou une réponse |
+| Média | Capture audio ; chargement de fichiers audio uniquement |
+| Autres | Notifications, Vue de la publication, Tableau des scores des réseaux sociaux, Personnes que je suis, Profil utilisateur |
+
+## Autoriser les élèves à télécharger l&#39;assistance à la tâche {#download-job-aid}
+
+En mode immersif mobile, un élève peut télécharger une assistance à la tâche. Appuyer **Paramètres** puis appuyez sur **Catalogues**. Téléchargez une assistance à la tâche dans la liste qui s’affiche.
+
+| ![](assets/image018.jpg) |
+|---|
+
+*Télécharger une assistance à la tâche*
+
+## Autoriser les élèves à télécharger le relevé de notes de l’élève {#download-learner-transcript}
+
+En mode immersif mobile, un élève peut télécharger ses relevés de notes.
+
+| ![](assets/image021.jpg) | ![](assets/image022.jpg) |
+|---|---|
+
+*Télécharger les relevés de notes des élèves*
+
+## Afficher les badges et les compétences {#viewbadgesandskills}
+
+**Affichage des badges, compétences et points de ludification**
+
+L’écran par défaut affiche vos badges, compétences et points de ludification récemment acquis juste en dessous des informations de votre profil. Si vous utilisez un téléphone, les badges récemment acquis s’affichent. Faites glisser le curseur vers la droite pour afficher plus d’informations.
+
+**Mes apprentissages en attente**
+
+Par défaut, l’écran affiche les cours auxquels vous êtes inscrit. Le graphique en anneau affiche l&#39;apprentissage en retard, les apprentissages approchant de l&#39;échéance et les apprentissages en cours.
+
+Appuyez sur un cours pour afficher les détails du cours, votre date d’achèvement (le cas échéant). Vous pouvez soit Continuer, soit Revenir sur le cours à partir de cet écran, en fonction de l’état d’achèvement.
+
+![](assets/2.png)
+
+*Afficher les apprentissages en attente*
+
+**Affichage des catalogues**
+
+Appuyez sur l’icône en regard de l’icône de livre en bas de l’écran. Vous pouvez immédiatement afficher le catalogue avec tous les objets d’apprentissage associés. Vous pouvez choisir de les afficher sous forme de grille ou en mode d’affichage détaillé. Sélectionnez des recommandations pour afficher les recommandations de cours en fonction de votre historique d’apprentissage.
+
+![](assets/4.png)
+
+*Afficher les recommandations de cours*
+
+## Tri et filtrage des objets d’apprentissage {#sortandfilterlearningobjects}
+
+**Tri et filtrage**
+
+Cliquez sur l&#39;icône de tri dans l&#39;angle supérieur droit de l&#39;écran des cours ou du catalogue pour trier les objets d&#39;apprentissage par ordre alphabétique (croissant ou décroissant) ou par date de publication. Vous pouvez également filtrer les objets d’apprentissage par type, état d’achèvement, compétences ou balises. Appuyez et sélectionnez le filtre, puis appuyez sur Appliquer pour appliquer le filtre.
+
+**Utilisation de la fonctionnalité de recherche**
+
+En haut à droite de l’écran de votre téléphone, vous pouvez voir une icône de recherche. Appuyez sur cette icône pour rechercher des objets d’apprentissage par métadonnées de cours, ID unique, compétences, etc.
+
+**Gestion du profil, des paramètres et des notifications**
+
+Appuyer ![](assets/hamburger.jpg) dans le coin supérieur gauche de l’écran pour afficher votre profil, les notifications ainsi que les paramètres du compte.
+
+Ce menu vous permet également de numériser le code QR pour marquer l&#39;assiduité pour les cours.
+
+Il vous suffit d’appuyer sur la touche **Scanner le code QR** et scannez le code.
+
+**Consommation hors ligne des cours**
+
+Lorsque vous utilisez des cours téléchargés alors que vous êtes en ligne, Learning Manager accède au cours téléchargé au lieu d’effectuer des appels au serveur.
+
+## Scannez le code QR pour vous inscrire {#qrcode}
+
+Vous pouvez scanner un code QR et vous inscrire à un cours. Une fois que l&#39;administrateur d&#39;apprentissage a généré un code QR, vous pouvez scanner le code QR à partir de l&#39;application et vous inscrire à un cours.
+
+1. Pour numériser le code QR, appuyez sur ![](assets/hamburger.jpg) dans le coin supérieur gauche de l’écran.
+1. Appuyer **Scanner le code QR**.
+
+La fonctionnalité d’analyse QR permet à un élève d’effectuer l’une des actions mentionnées ci-dessous en fonction du code QR généré par l’administrateur d’apprentissage :
+
+* **Inscription :** Cela permet à l’élève de s’inscrire à un cours en scannant le code QR.
+* **Achèvement :** Cela permet à l’élève de marquer le cours comme étant terminé en scannant le code QR.
+* **Inscription et achèvement :** Cela permet à l’élève de s’inscrire et de marquer l’achèvement en même temps en scannant le code QR.
+* **Marquer la présence :** Cela permet à l’élève de marquer l’assiduité pour une session particulière en scannant le code QR.
+
+## Renommer les objets d’apprentissage {#renaminglearningobjects}
+
+Les administrateurs peuvent renommer la terminologie des objets d’apprentissage. Pour renommer, voir [Renommer les objets d’apprentissage](../../administrators/feature-summary/settings.md#main-pars_header_1570157145).
+
+## Apprentissage par les réseaux sociaux {#socialmobile}
+
+Dans cette mise à jour, les fonctionnalités suivantes ne sont pas prises en charge. Vous ne pouvez pas :
+
+* Créez ou suivez un forum.
+* Copiez une URL vers une publication.
+* Ajouter un article en tant qu’article ou ajouter en tant qu’article favori ou épingler au début.
+* Afficher un tableau des scores des réseaux sociaux.
+
+L’apprentissage par les réseaux sociaux est une plate-forme dans l’application mobile Learning Manager qui incite les utilisateurs à partager des idées et des informations significatives dans un environnement informel. C&#39;est une méthodologie qui complète l&#39;idée d&#39;apprentissage traditionnel.
+
+L’apprentissage par les réseaux sociaux permet aux utilisateurs d’utiliser l’expertise qui les entoure pour obtenir des informations correctes et concises. Les élèves peuvent rapidement appliquer ces informations pour terminer une tâche et atteindre un objectif.
+
+À l’aide de l’application mobile, les utilisateurs peuvent interagir les uns avec les autres en partageant du contenu et obtenir la validation du contenu partagé.
+
+Sur cette plateforme, les différents types de contenu pouvant être partagés sont les suivants : vidéo, audio, capture d’écran, texte, question et sondage. Les utilisateurs peuvent également partager leurs apprentissages en ligne avec leurs homologues.
+
+Cette fonctionnalité n’est disponible sur l’application pour appareil qu’une fois que l’administrateur a activé **Apprentissage par les réseaux sociaux** pour le compte.
+
+## Lancer l’apprentissage par les réseaux sociaux sur l’application {#launchsociallearningontheapp}
+
+Lors du lancement de l’application, appuyez sur **Social** icône.
+
+![](assets/home.png)
+
+*Afficher l’apprentissage par les réseaux sociaux*
+
+## Création d’une publication dans un forum {#createapostinaboard}
+
+Comme toute autre plate-forme sociale, dans l’application mobile Learning Manager, vous pouvez créer une publication dans un forum, afin que tous les élèves qui font partie du même forum puissent voir votre publication, commenter et télécharger un fichier avec le commentaire.
+
+Pour créer une publication, appuyez sur ![icône d’ajout](/help/migrated/learners/feature-summary/assets/prime-add.png) icône en bas à droite de l’écran.
+
+L’écran suivant s’affiche.
+
+![](assets/add-post.png)
+
+*Ajouter un post*
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><img src="assets/prime-write-1.png" alt=""></p></td>
+   <td>
+    <p>Rédigez une publication ou collez une URL.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><img src="assets/prime-camera.png" alt=""></p></td>
+   <td>
+    <p>Prenez une photo avec votre appareil photo mobile et téléchargez-la avec votre post.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><img src="assets/prime-video.png" alt=""></p></td>
+   <td>
+    <p>Enregistrez une vidéo avec votre caméra mobile.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><img src="assets/prime-record.png" alt=""> </p></td>
+   <td>
+    <p>Enregistrez des données audio sur votre mobile.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><img src="assets/prime-upload.png" alt=""></p></td>
+   <td>
+    <p>Chargez n’importe quel document ou fichier dans le forum.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><img src="assets/prime-ask.png" alt=""> </p></td>
+   <td>
+    <p>Posez une question.</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p><img src="assets/prime-poll.png" alt=""> </p></td>
+   <td>
+    <p>Créez un sondage avec votre post.</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Format de contenu pris en charge {#supportedcontentformat}
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><strong>Type de contenu</strong></p></td>
+   <td>
+    <p><strong>Extensions</strong></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Vidéo</p></td>
+   <td>
+    <p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Audio</p></td>
+   <td>
+    <p>mp3, amr, m4a, wav, wma, aac</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Fichiers statiques</p></td>
+   <td>
+    <p>PDF, ppt, pptx, doc, docx, xls, xlsx</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Image</p></td>
+   <td>
+    <p>jpg, jpeg, png, bmp, gif</p></td>
+  </tr>
+ </tbody>
+</table>
+
+Après avoir créé un post, choisissez le forum sur lequel vous souhaitez télécharger le post. Appuyez sur Sélectionner un forum et recherchez le forum requis.
+
+Après avoir créé une publication, appuyez sur Publier et publiez votre commentaire pour que les autres élèves puissent voir votre publication.
+
+Dans l’application mobile, vous ne pouvez pas créer de tableau. Pour créer un forum, vous devez vous connecter à l’application web en tant qu’élève. Pour plus d’informations sur la création d’un forum, voir Apprentissage par les réseaux sociaux dans [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
+
+## Actions pouvant être effectuées sur une publication {#actionsthatcanbeperformedonapost}
+
+* Commenter une publication et, en fonction de l’autorisation, afficher la publication dans un forum.
+* Modifiez ou supprimez des commentaires dans un forum.
+* Modifiez ou supprimez une publication en fonction des autorisations.
+* Signalez un abus d’une publication si celle-ci viole leur vie privée ou si son contenu est inapproprié. Une fois qu’une publication est signalée, une notification est envoyée à l’administrateur du forum et aux modérateurs pour d’autres actions.
+* Aimer  ![](assets/prime-like.png)  ou détester  ![](assets/prime-dislike.png)   un post.
+* Aimer  ![](assets/prime-like.png) ou détester ![](assets/prime-dislike.png) un commentaire.
+
+## Création d’une publication dans d’autres forums {#createapostinotherboards}
+
+Vous pouvez également créer une publication dans d’autres forums.
+
+Appuyer **Tous les tableaux** et vous pouvez afficher les activités effectuées par d’autres élèves dans le forum.
+
+![](assets/all-boards-1.png)
+
+*Afficher toutes les activités du forum*
+
+Accédez au forum requis et publiez votre commentaire.
+
+## Partage de médias dans un forum {#sharemedia}
+
+<!--![](assets/cp-prime-share.png)-->
+
+Partagez des photos, des documents ou des fichiers audio ou vidéo sur n’importe quel forum, afin que les autres membres du forum puissent voir votre publication et commencer une interaction. Pour partager n’importe quel média,
+
+1. Ouvrez le média que vous souhaitez partager.
+1. Appuyez sur le bouton Partager et choisissez Learning Manager.
+1. Sélectionnez le forum sur lequel vous souhaitez partager les médias.
+1. Appuyer **Post**.
+
+Vous pouvez également publier du contenu à partir d’une application externe, par exemple, vous pouvez partager un commentaire de Reddit ou Quora.
+
+## Charger des actifs dans un certificat externe comme justificatif d’accomplissement {#externalcert}
+
+Procédez comme suit :
+
+1. Connectez-vous à l’application pour appareil à l’aide de vos identifiants d’élève.
+1. Recherchez le certificat créé par l’auteur.
+1. Dans la liste des certificats externes, sélectionnez le certificat requis, puis inscrivez-vous au certificat.
+1. Appuyer **Preuve d’accomplissement** et téléchargez un fichier, par exemple, un pdf ou une image.
+
+   | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
+   |---|---|
+   *Charger le justificatif d’accomplissement*
+
+1. Après avoir chargé un fichier, appuyez sur l’onglet **Envoyer**. Un message de confirmation s’affiche.
+
+**Chargement d’un fichier**
+
+1. Après avoir chargé un fichier, appuyez sur **Envoyer**.
+
+   Vous ne pouvez charger qu’un seul fichier comme justificatif d’accomplissement. Lorsque vous essayez de télécharger plusieurs fichiers, le message suivant s’affiche :
+
+   **Les modifications apportées seront perdues. Voulez-vous continuer ?**
+
+1. Le statut passe à **En attente d’approbation**, affiché dans une couleur orange.
+
+   Vous ne pouvez pas afficher ou télécharger le fichier chargé sur l’application mobile.
+
+Une fois que le responsable a approuvé la soumission, le statut passe à **Approuvé**, coloré en vert.
+
+Si le responsable rejette l&#39;envoi, le statut passe à **Refusé**, coloré en rouge.
+
+| ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
+|---|---|---|
+
+*Afficher l’état de la soumission*
+
+Après le rejet, vous êtes autorisé à charger un fichier comme preuve d’accomplissement.
+
+* Vous ne pouvez soumettre un fichier que lorsque le statut est **Envoi en attente et rejeté**.
+* Vous ne pouvez pas soumettre de fichier lorsque le statut est **En attente d’approbation et approuvé**.
+
+## Suivre des cours de LinkedIn Learning {#linkedin}
+
+Learning Manager prend déjà en charge les cours LinkedIn Learning sur la plateforme d’apprentissage. Les élèves peuvent désormais suivre ces cours LinkedIn Learning dans l’application mobile Learning Manager. Dans l’application pour appareil, recherchez un cours, puis démarrez-le.
+
+Si l’application LinkedIn est déjà installée, le cours s’ouvrira dans l’application, ou dans le navigateur par défaut, où vous devrez vous connecter à l’aide de vos informations d’identification LinkedIn.
+
+Si vous suivez le cours via l’application LinkedIn, votre progression ne sera pas suivie dans Learning Manager. Par conséquent, il est recommandé de lancer le cours dans le navigateur au lieu de l’application LinkedIn Learning.
+
+>[!NOTE]
+>
+>Vous ne pouvez suivre les cours que si vous disposez d’une connexion Internet active.
+
+| ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
+|---|---|---|
+
+*Inscription à des cours dans LinkedIn Learning*
+
+Le temps d’apprentissage consacré aux cours LinkedIn Learning est communiqué par le contenu LinkedIn/la plate-forme LinkedIn à la plate-forme d’apprentissage Learning Manager.
+
+Si l’apprentissage LinkedIn n’envoie pas le temps d’apprentissage, il ne peut pas être enregistré par notre plateforme d’apprentissage. Dans ce cas, le temps d’apprentissage passé affiché par Learning Manager est égal à zéro.
+
+## Envoyer un fichier pour la classe et les modules d’activité {#submitfile}
+
+En tant qu’élève, vous pouvez envoyer des fichiers à votre instructeur comme justificatif de l’accomplissement du cours. L&#39;instructeur peut ensuite approuver ou rejeter votre envoi, en fonction du contenu du fichier.
+
+Un auteur ne peut créer que des modules de classe et d’activité qu’un élève peut utiliser dans l’application mobile.
+
+Une fois que l’élève a commencé un cours, il peut voir l’état **Envoi de fichier** comme en attente avec le lien pour télécharger le fichier, à l&#39;écran, comme indiqué dans la capture d&#39;écran ci-dessous.
+
+![](assets/pending-approval.png)
+
+*État de l’envoi du fichier*
+
+Pour charger le fichier, cliquez sur **Télécharger le fichier**.
+
+Chargez un fichier et cliquez sur le bouton **Envoyer** bouton.
+
+![](assets/upload-file.png) ![](assets/pending-file-approval.png)
+
+*Envoyer un fichier*
+
+## Types de fichiers pris en charge pour le téléchargement {#supportedfiletypesforupload}
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><b>Type de contenu</b></p></td>
+   <td>
+    <p><b>Extensions</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Vidéo</p></td>
+   <td>
+    <p>wmv, f4v, asf, 3gp, 3g2, avi, mov, h264, m4v, mp4, MPEG, mpg</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Audio</p></td>
+   <td>
+    <p>mp3, amr, m4a, wav, wma, aac</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Fichiers statiques</p></td>
+   <td>
+    <p>PDF, ppt, pptx, doc, docx, xls, xlsx</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Image</p></td>
+   <td>
+    <p>jpg, jpeg, png, bmp, gif</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Approbation ou rejet de la soumission {#approvalorrejectionofsubmission}
+
+Une fois le fichier téléchargé, l’état passe à **En attente d’approbation.**. L’instructeur affiche ensuite la liste des [soumissions en attente](/help/migrated/instructors/feature-summary/learners.md) et approuve ou rejette l’envoi via l’application web Instructeur.
+
+Lorsque l’instructeur approuve l’envoi, le statut de l’application mobile de l’élève passe à **Approuvé**.
+
+<!--![](assets/approved.jpg)-->
+
+Lorsque l’instructeur rejette l’envoi, l’état de l’application mobile de l’élève passe à **Refusé**.
+
+<!--![](assets/rejected.jpg)-->
+
+Pour renvoyer le fichier, cliquez sur le lien **Télécharger le fichier**.
+
+## Learning Manager pour iPad et tablettes {#captivateforipadandtablets}
+
+Dans l’application Learning Manager sur tablette iPad ou Android, une fois que vous vous êtes connecté en tant qu’élève, vous pouvez voir les éléments suivants : **Accueil** écran :
+
+<!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
+
+Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur **Menu** et choisissez l’option appropriée.
+
+<!--![](assets/menu-ipad.png)-->
+
+Vous avez la possibilité d’afficher l’ensemble des cours dans une vue sous forme de liste au lieu de la vue mosaïque/cartes.
+
+## Accès hors ligne à l’application {#accesstheappoffline}
+
+Vous pouvez accéder à l’application Learning Manager hors ligne sur les tablettes iPad et Android. Vous pouvez télécharger des cours et des programmes d’apprentissage. Suivez des cours, utilisez les programmes d’apprentissage en mode hors ligne et synchronisez le contenu avec l’application en ligne lorsque vous vous connectez au réseau.
+
+1. Appuyer **Menu** liste déroulante en haut et appuyez sur **Formation** option. Une liste de tous les cours disponibles s’affiche sous forme de vignettes.
+1. Appuyez sur l’icône de téléchargement en bas de chaque vignette d’objet d’apprentissage pour télécharger le contenu d’apprentissage.
+
+   ![](assets/download-cards.png)
+
+   *Télécharger le contenu*
+
+   Une invite s’affiche dans une barre en haut de l’application pour indiquer l’état du réseau de l’appareil.
+
+   * Une barre rouge indique que le réseau n&#39;est pas disponible pour le périphérique.
+   * Une barre verte indique que le réseau est à nouveau en ligne.
+
+L’utilisateur peut revenir au mode en ligne en cliquant sur **afficher le contenu en ligne** sur la barre verte. Le contenu du périphérique est synchronisé lorsque l’utilisateur passe en mode en ligne.
+
+<!--## Track device storage {#trackdevicestorage}
+
+You can monitor your device storage periodically.
+
+Tap the profile icon at the upper-right corner of the app and tap **Device Storage** menu option.
+
+![](assets/app-device-storage.png)
+
+An app storage information dialog appears as shown below.
+
+![](assets/app-storage.png)
+
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->

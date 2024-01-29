@@ -1,0 +1,54 @@
+---
+jcr-language: en_us
+title: Conformité de Learning Manager au RGPD
+description: Adobe de la conformité de Learning Manager au RGPD
+contentowner: dvenkate
+source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 0%
+
+---
+
+
+
+# Conformité de Learning Manager au RGPD
+
+>[!IMPORTANT]
+>
+>Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Veuillez consulter le service juridique de votre entreprise pour obtenir des conseils concernant le RGPD.
+
++++ Qu’est-ce que le RGPD ?
+
+Le RGPD est un nouveau règlement de l’Union européenne qui entre en vigueur le 25 mai 2018. Il offre un contrôle strict de la confidentialité des données et permet aux utilisateurs finaux de prendre en charge leurs propres données personnelles.
+
++++
+
++++En quoi et pourquoi s’applique-t-il à vous en tant que client Learning Manager d’Adobe ?
+
+Bien que le RGPD soit un règlement de l’UE, il s’applique aux entités commerciales du monde entier, qui collectent des informations personnelles pour tout utilisateur susceptible d’être résident de l’UE.  En tant que client Learning Manager, déterminez si le RGPD s’applique à votre organisation.
+
++++
+
++++Quel rôle joue Adobe dans ce domaine en tant que fournisseur de Learning Manager ?
+
+Conformément au RGPD, si votre entreprise fournit un produit ou un service à des résidents de l’UE et détermine comment et pourquoi collecter, suivre et surveiller leurs données, vous êtes considéré comme un [contrôleur de données](https://gdpr-info.eu/art-24-gdpr/). En tant que client Learning Manager d’Adobe, si vous effectuez l’une de ces activités, vous êtes considéré comme un responsable du traitement des données.
+
+Les entreprises qui traitent des données pour le compte des responsables du traitement sont prises en compte  [processeurs de données](https://gdpr-info.eu/art-28-gdpr/). En tant que fournisseur d’Adobe LMS Learning Manager hébergé dans le cloud, Adobe joue le rôle d’un responsable du traitement des données. Voici quelques détails supplémentaires sur  [Le RGPD et votre entreprise](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+
++++
+
++++Comment Learning Manager vous permet-il de vous conformer au RGPD ?
+
+Learning Manager a intégré les outils et processus suivants qui vous aideront à vous conformer au RGPD. Pour prendre en charge tous les processus qui vont au-delà du produit pour être entièrement conforme à la réglementation, vous devrez peut-être encore effectuer une évaluation avec votre équipe de conformité.
+
+**Droit à l’oubli - Joindre le responsable du traitement des données :** Le RGPD exige que les responsables du traitement des données prennent en charge une fonctionnalité de droit à l’oubli pour leurs utilisateurs. Cela signifie que tout utilisateur a le droit de demander au responsable du traitement de supprimer définitivement toutes les données personnelles stockées pour cet utilisateur. Si vous recevez une demande de ce type et estimez qu’elle est valide, cette fonctionnalité est désormais fournie dans Learning Manager via son [Purger les utilisateurs](../administrators/feature-summary/purge-users.md) fonctionnalité. Cette fonctionnalité permet à l’administrateur d’initier une suppression permanente de toutes les données relatives à un individu spécifique, à la demande de l’individu, auquel cas Learning Manager supprimera instantanément les données de sa base de données et purgera automatiquement les journaux de sauvegarde (destinés à la récupération du système).
+
+**Droit à l’oubli - Joindre le sous-traitant des données :** L’utilisateur final peut également contacter indépendamment l’Adobe pour supprimer ses informations personnelles. Dans ce cas, Learning Manager détectera automatiquement les comptes propriétaires des informations personnelles de cet utilisateur et l’Adobe informera immédiatement l’administrateur d’une telle demande. L’administrateur peut ensuite évaluer la validité de la demande et prendre un appel sur la demande via la fonctionnalité Purger les utilisateurs.
+
+**Droit d&#39;accès :** Le RGPD donne à l’utilisateur final le droit de demander des données qu’un contrôleur peut avoir stockées pour cet utilisateur final. Pour prendre en charge cette demande, Learning Manager permet à l’administrateur de générer automatiquement le relevé de notes de l’élève, qui peut être partagé avec l’utilisateur.
+
+**Confidentialité intégrée, chiffrement des données :** Nous traitons les données en transit et au repos en utilisant les meilleures normes de chiffrement de sa catégorie pour assurer la sécurité des données. Les algorithmes de chiffrement utilisés sont SHA-256. Cela garantit que toutes les données que vous stockez sont correctement protégées afin qu&#39;elles ne tombent pas entre de mauvaises mains.
+
++++
+

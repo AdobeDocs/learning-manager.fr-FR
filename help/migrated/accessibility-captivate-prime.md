@@ -1,0 +1,277 @@
+---
+jcr-language: en_us
+title: Accessibilité dans Adobe Learning Manager
+description: Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion de l’apprentissage Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité de la plateforme.
+contentowner: saghosh
+source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
+workflow-type: tm+mt
+source-wordcount: '932'
+ht-degree: 0%
+
+---
+
+
+# Accessibilité dans Adobe Learning Manager
+
+Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion de l’apprentissage Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité de la plateforme.
+
+Learning Manager suit les normes d’accessibilité WCAG 2.1 de niveau A et AA de W3C pour la plateforme.
+
+Le rôle Élève d’Adobe Learning Manager permet aux élèves de parcourir la plateforme et de tirer parti des fonctionnalités d’accessibilité clés suivantes :
+
+* Reader d’écran
+* Clavier
+* Sous-titres
+* Autres
+
+## Prise en charge des Readers d’écran {#supportforscreenreaders}
+
+Adobe Learning Manager prend en charge les lecteurs d’écran tels que NVDA, JAWS et Voice-over sur les ordinateurs de bureau, Talkback et Voice-over sur les appareils mobiles, qui permettent aux élèves de lire le texte sur la plateforme Learning Manager et de naviguer en conséquence.
+
+Voici la combinaison de lecteur d’écran et de navigateur que nous prenons en charge sur ordinateur :
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p style="text-align: left;"><b>Système d’exploitation</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Navigateur</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Lecteur d’écran</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Windows</p></td>
+   <td>
+    <p>Chrome</p></td>
+   <td>
+    <p>NVDA</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Windows</p></td>
+   <td>
+    <p>Firefox</p></td>
+   <td>
+    <p>Mâchoires</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>macOS</p></td>
+   <td>
+    <p>Safari</p></td>
+   <td>
+    <p>VoiceOver</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Android</p></td>
+   <td>
+    <p>Chrome</p></td>
+   <td>
+    <p>Talkback</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>iOS</p></td>
+   <td>
+    <p>Safari</p></td>
+   <td>
+    <p>VoiceOver</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Prise en charge de la navigation au clavier {#supportforkeyboardnavigation}
+
+Les élèves peuvent utiliser les touches standard pour naviguer dans les pages avec ou sans lecteur d’écran. Cela permet aux élèves de parcourir les éléments de la page et de lire le contenu à l’aide d’un lecteur d’écran.
+
+En outre, Learning Manager prend en charge les raccourcis clavier suivants :
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><b>Fonctionnalité</b></p></td>
+   <td>
+    <p><b>Windows</b></p></td>
+   <td>
+    <p><b>macOS</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Ignorer la navigation</p></td>
+   <td>
+    <p>Alt + 1</p></td>
+   <td>
+    <p>Option+1</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Fonctionnalité<br></p></td>
+   <td>
+    <p>Windows<br></p></td>
+   <td>
+    <p>macOS<br></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Notification utilisateur<br></p></td>
+   <td>
+    <p>Alt + 2<br></p></td>
+   <td>
+    <p>Option+2<br></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Paramètres du profil<br></p></td>
+   <td>
+    <p>Alt + 3<br></p></td>
+   <td>
+    <p>Option+3<br></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Recherche globale<br></p></td>
+   <td>
+    <p>Alt + 4<br></p></td>
+   <td>
+    <p>Option+4<br></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Ignorer la navigation<br></p></td>
+   <td>
+    <p>Alt + 1<br></p></td>
+   <td>
+    <p>Option+1<br></p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Commandes du lecteur
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p><b>Fonctionnalité</b></p></td>
+   <td>
+    <p><b>Windows</b></p></td>
+   <td>
+    <p><b>macOS</b></p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Lecture/Pause</p></td>
+   <td>
+    <p>Alt + P</p></td>
+   <td>
+    <p>Option+P</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Alt + V</p></td>
+   <td>
+    <p>Option+V</p></td>
+   <td>
+    <p>Volume</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Alt + M</p></td>
+   <td>
+    <p>Option+M</p></td>
+   <td>
+    <p>Plein écran</p></td>
+  </tr>
+ </tbody>
+</table>
+
+## Autre support {#supportforcolorcontrast}
+
+Le rôle Élève dans Learning Manager prend en charge plusieurs autres fonctionnalités d’accessibilité, notamment :
+
+1. Une structure sémantique des pages du rôle d’élève, y compris l’en-tête, le balisage de liste, les titres descriptifs, etc. est fournie.
+1. La prise en charge du zoom du navigateur jusqu’à 200 % sans perte de contenu ou de fonctionnalité est maintenue tout au long du rôle d’élève.
+1. Le contraste de couleur des éléments textuels et non textuels est conservé pour le rôle d’élève. Pour une meilleure expérience, utilisez la commande [Vif](/help/migrated/administrators/feature-summary/themes.md) thème.
+1. Prise en charge des modèles de conception WAI ARIA de W3C pour maintenir la cohérence et les meilleures pratiques du secteur.
+
+Pour plus d’informations, voir :
+
+* [Rapport de conformité d’accessibilité pour un élève](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
+* [Rapport de conformité d’accessibilité pour tous les rôles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+
+## Workflows principaux de Learning Manager (rôle Élève) {#captivateprimetopworkflowslearnerrole}
+
+Voyons comment les fonctionnalités d’accessibilité vous aident à naviguer dans certaines fonctionnalités clés pour les élèves dans Learning Manager.
+
+Utilisez la commande `kbd Tab`pour parcourir les éléments de la page. Utilisez la commande `kbd Shift + Tab` pour inverser le sens de la navigation. La sélection du clavier est indiquée par un contour bleu affiché autour d’un élément. Un lecteur d’écran doit lire à haute voix le texte de l’élément actif.
+
+## Rechercher une formation dans Learning Manager {#searchforatrainingincaptivateprime}
+
+1. Utilisez ces repères pour naviguer et atteindre la zone de recherche dans le coin supérieur droit de la page d’accueil.
+1. Saisissez du texte à l’aide du clavier. Les résultats de la recherche s’affichent.
+1. Utilisation du clavier `kbd Up/Down` flèches pour naviguer dans les résultats ou appuyez sur `kbd ENTER`pour voir tous les résultats.
+
+1. Une fois la formation identifiée, appuyez sur `kbd ENTER`pour accéder à la page de formation.
+
+## Suivre une formation dans Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
+
+1. Une fois la formation identifiée, utilisez `kbd Tab`ou `kbd Shift + Tab` pour accéder au bouton Inscrire/Démarrer. Le statut du bouton dépend de votre statut d’inscription pour cette formation.
+
+1. Toucher `kbd ENTER`pour commencer la formation.
+1. Voici les commandes qui apparaissent quel que soit le type de contenu :
+
+   * Table des matières
+   * Notes
+   * Bouton Lecture/Pause
+   * Plein écran
+   * Bouton Fermer
+   * Paramètres
+   * Libellé du nom du module
+
+1. Voici les commandes qui apparaissent en fonction du type de contenu :
+
+   * VIDÉO : commandes Avance, Arrière, Curseur.
+   * CONTENU DU DOCUMENT - Numéro de page, Page précédente, Page suivante, Zoom avant, Zoom arrière.
+   * eLEARNING : bouton Sous-titres.
+
+1. Touches de contrôle clavier `kbd Tab`ou `kbd Shift + Tab` pour naviguer dans les contrôles et appuyer sur `kbd ENTER`pour activer/désactiver un contrôle.
+
+1. Pour le type DOCUMENT, utilisez les commandes fléchées comme `kbd UP/DOWN` pour faire défiler le document.
+
+## Prise en charge de l’accessibilité pour des besoins spécifiques
+
+Examinons les fonctionnalités d’accessibilité que les élèves peuvent utiliser en fonction de leurs besoins spécifiques.
+
+### Utilisateurs sourds ou malentendants
+
+* Utilisez les sous-titres disponibles dans le contenu créé à l’aide de l’outil de création Adobe Captivate.
+* Pour les vidéos, les auteurs peuvent coder les vidéos avec du texte de sous-titres. De telles vidéos ont des sous-titres intégrés et peuvent être visionnées par les élèves.
+* Learning Manager permet de charger des fichiers WebVTT de sous-titres pour le contenu vidéo. Pour plus d’informations, voir  [*Charger un fichier WebVTT pour le sous-titrage*](authors/feature-summary/content-library.md#webvtt).
+
+### Utilisateurs aveugles ou malvoyants
+
+* Utilisez les raccourcis clavier et les commandes standard pour parcourir la page.
+* Utilisation de lecteurs d’écran, comme mentionné ci-dessus, pour lire les informations sur la page Web.
+* Utilisation d’agrandisseurs d’écran pour améliorer la lisibilité et zoom du navigateur à 200 % pour lire le contenu.
+
+### Utilisateurs qui éprouvent des difficultés avec la couleur
+
+Le rôle Élève d’Adobe Learning Manager s’efforce de fournir aux utilisateurs une interface utilisateur claire et lisible conformément aux normes WCAG 2.1.
+
+Pour une meilleure expérience sur la page de l’élève, utilisez la [Thème dynamique](/help/migrated/administrators/feature-summary/themes.md).
+
+### Utilisateurs ayant une mobilité et une portée limitées
+
+Adobe Learning Manager continue de se concentrer sur l’accessibilité et prévoit d’améliorer les capacités actuelles afin de permettre aux élèves du système de mieux naviguer dans le rôle « Élève ».
+
+### Prise en charge du sous-titrage pour les vidéos
+
+Lors de la création d’un cours, les auteurs peuvent charger des fichiers webVTT en même temps que les fichiers vidéo. Les élèves peuvent ensuite afficher les sous-titres lorsqu’ils regardent les vidéos.
+
+## Éléments qui seront traités dans une prochaine version {#whatwillbeaddressedinafuturerelease}
+
+* Prise en charge du sous-titrage pour les vidéos. Les auteurs doivent pouvoir charger des fichiers SRT en même temps que les fichiers vidéo. Les élèves doivent pouvoir afficher les sous-titres des vidéos.

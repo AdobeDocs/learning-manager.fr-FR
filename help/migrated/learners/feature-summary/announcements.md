@@ -1,0 +1,41 @@
+---
+jcr-language: en_us
+title: Annonce
+description: Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur diffuse pour un ensemble défini d’utilisateurs.
+source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
+
+---
+
+
+
+# Annonce
+
+Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur diffuse pour un ensemble défini d’utilisateurs.
+
+L&#39;administrateur peut diffuser des annonces aux élèves les informant de l&#39;occurrence d&#39;un événement ou d&#39;une activité. Lorsqu&#39;une annonce est diffusée à un groupe particulier ou à des utilisateurs d&#39;objets d&#39;apprentissage, tous les élèves associés au groupe cible reçoivent des notifications.
+
+## Notification d’annonces {#announcementsnotification}
+
+Un message de diffusion de notification apparaît sur le tableau de bord de l’élève sous la forme d’une barre de titre en surbrillance. Si l’élève n’est pas en ligne au moment de l’annonce, la notification s’affiche chaque fois qu’il se connecte à l’application Learning Manager. Les élèves peuvent également afficher les anciennes annonces à partir des notifications.
+
+![](assets/pending-announcements.png)
+
+*Notification de l&#39;annonce en attente*
+
+Lorsque vous cliquez sur Afficher, la liste des annonces s&#39;affiche. Voici un exemple de liste d&#39;annonces :
+
+![](assets/learner-announcements-list.png)
+
+*Afficher toutes les annonces*
+
+## Exemple d’annonce {#asampleannouncement}
+
+Un exemple d’annonce est présenté ci-dessous pour référence.
+
+![](assets/announcement-details.png)
+
+*Afficher les détails d’une annonce*
+
