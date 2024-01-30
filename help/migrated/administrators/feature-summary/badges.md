@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Badges
-description: Les badges sont une mesure de la réussite que votre employé peut gagner à la fin d’un cours. Adobe Learning Manager introduit l’un des plus récents concepts d’apprentissage en ligne appelé Badges. Les professionnels du monde entier utilisent ces badges comme une représentation d'une compétence particulière ou d'une réussite d'apprentissage.
+description: Les badges sont une mesure de l’accomplissement que vos collaborateurs peuvent obtenir à l’issue d’un cours. Adobe Learning Manager introduit l’un des plus récents concepts d’apprentissage en ligne appelé Badges. Les professionnels à travers le monde utilisent ces badges en tant que représentation de l’acquisition d’une compétence particulière ou de l’achèvement d’un apprentissage.
 contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Badges
 
-Les badges sont une mesure de la réussite que votre employé peut gagner à la fin d’un cours. Adobe Learning Manager introduit l’un des plus récents concepts d’apprentissage en ligne appelé Badges. Les professionnels du monde entier utilisent ces badges comme une représentation d&#39;une compétence particulière ou d&#39;une réussite d&#39;apprentissage.
+Les badges sont une mesure de l’accomplissement que vos collaborateurs peuvent obtenir à l’issue d’un cours. Adobe Learning Manager introduit l’un des plus récents concepts d’apprentissage en ligne appelé Badges. Les professionnels à travers le monde utilisent ces badges en tant que représentation de l’acquisition d’une compétence particulière ou de l’achèvement d’un apprentissage.
 
-Vous pouvez définir des badges susceptibles de motiver les utilisateurs.
+Vous pouvez définir des badges qui peuvent servir de motivation aux utilisateurs.
 
-Les administrateurs peuvent créer les badges pour les élèves comme suit :
+Les administrateurs peuvent créer des badges pour les participants comme suit :
 
-1. Connectez-vous en tant qu’administrateur et cliquez sur **[!UICONTROL Badges]** dans le volet de gauche. Une liste de badges pour l’élève s’affiche.
+1. Connectez-vous en tant qu’administrateur et cliquez sur **[!UICONTROL Badges]** dans le volet de gauche. Une liste de badges d’élève s’affiche.
 
    >[!NOTE]
    >
@@ -32,4 +32,4 @@ Les administrateurs peuvent créer les badges pour les élèves comme suit :
 
    *Ajouter un nom de badge et son image*
 
-1. Saisissez le nom du badge. Chargez le badge en cliquant sur **[!UICONTROL Charger un badge]** et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Entrez le nom du badge. Chargez le badge en cliquant sur **[!UICONTROL Charger un badge]** et cliquez sur **[!UICONTROL Enregistrer]**.

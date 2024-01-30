@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Administrateurs
-description: Lisez ce document pour découvrir les fonctionnalités de Learning Manager et les questions fréquentes associées au rôle d’administrateur.
+description: Lisez ce document pour découvrir les fonctionnalités de Learning Manager et les questions fréquentes associées au rôle d’administrateur.
 contentowner: manochan
 preview: true
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,24 +19,24 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/administrator2.png"></td> 
-   <td><p>Lisez ce document pour découvrir les fonctionnalités de Learning Manager et les questions fréquentes associées au rôle d’administrateur. </p></td> 
+   <td><p>Lisez ce document pour découvrir les fonctionnalités de Learning Manager et les questions fréquentes associées au rôle d’administrateur. </p></td> 
   </tr> 
  </tbody>
 </table>
 
 ## Guide des meilleures pratiques pour les administrateurs {#bestpracticesguideforadministrators}
 
-[Guide des bonnes pratiques pour les administrateurs afin de configurer et de prendre en main Learning Manager](administrators/getting-started.md)
+[Guide des meilleures pratiques pour les administrateurs sur l&#39;installation et le démarrage de Learning Manager](administrators/getting-started.md)
 
-## Foire aux questions (FAQ) {#frequentlyaskedquestionsfaq}
+## Forum aux questions (FAQ) {#frequentlyaskedquestionsfaq}
 
-[Forum aux questions sur le rôle d’administrateur](administrators/frequently-asked-questions-for-administrators.md)
+[Questions fréquemment posées sur le rôle d’administrateur](administrators/frequently-asked-questions-for-administrators.md)
 
-## Fonctionnalités {#features}
+## Fonctions {#features}
 
-* [Thèmes de couleur et image de marque](administrators/feature-summary/themes.md)
-* [Intégration d’Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-* [Relevés de notes des élèves](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Thèmes de couleur et identité visuelle](administrators/feature-summary/themes.md)
+* [Intégration d&#39;Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
+* [Relevés de notes de l&#39;élève](/help/migrated/administrators/feature-summary/learner-transcripts.md)
 * [Ludification](administrators/feature-summary/gamification.md)
 * [Ajouter des utilisateurs/groupes d’utilisateurs](administrators/feature-summary/add-users-user-groups.md)
 * [Badges](administrators/feature-summary/badges.md)
@@ -44,19 +44,19 @@ ht-degree: 0%
 * [Catalogues](administrators/feature-summary/catalogs.md)
 * [Certifications](administrators/feature-summary/certifications.md)
 * [Cours](administrators/feature-summary/courses.md)
-* [Modèles de courrier électronique](administrators/feature-summary/email-templates.md)
+* [Modèles de courriers électroniques](administrators/feature-summary/email-templates.md)
 * [Lecteur Fluidic](administrators/feature-summary/fluidic-player.md)
-* [Utilisateurs de tablettes iPad et Android](administrators/feature-summary/ipad-android-tablet-users.md)
+* [Utilisateurs de tablettes Android et iPad](administrators/feature-summary/ipad-android-tablet-users.md)
 * [Plans d’apprentissage](administrators/feature-summary/learning-plans.md)
 * [Programmes d’apprentissage](administrators/feature-summary/learning-programs.md)
 * [Rapports](administrators/feature-summary/reports.md)
 * [Paramètres](administrators/feature-summary/settings.md)
 * [Compétences et niveaux](administrators/feature-summary/skills-levels.md)
 * [Connexion utilisateur](administrators/feature-summary/user-login.md)
-* [Notifications utilisateur](administrators/feature-summary/user-notifications.md)
+* [Notifications aux utilisateurs](administrators/feature-summary/user-notifications.md)
 * [Gestion de la liste d’attente et de l’assiduité](administrators/feature-summary/waitlist-attendance-management.md)
 * [Comptes de pairs](administrators/feature-summary/peer-account.md)
 
 ## Référence technique {#technicalreference}
 
-[Vous pouvez télécharger le guide de référence technique d’Adobe Learning Manager ici.](assets/technicaloverview.pdf)
+[Vous pouvez télécharger le guide de référence technique d’Adobe Learning Manager ici.](assets/technicaloverview.pdf)

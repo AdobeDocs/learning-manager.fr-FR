@@ -1,43 +1,43 @@
 ---
 jcr-language: en_us
-title: Intégration d’Adobe Connect
-description: Les auteurs peuvent créer des cours de classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l’administrateur de votre organisation.
+title: Intégration d'Adobe Connect
+description: Les auteurs peuvent créer des cours d'une classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l'administrateur de votre entreprise.
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
 
-# Intégration d’Adobe Connect
+# Intégration d&#39;Adobe Connect
 
-Les auteurs peuvent créer des cours de classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l’administrateur de votre organisation.
+Les auteurs peuvent créer des cours d&#39;une classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l&#39;administrateur de votre entreprise.
 
-## Création d’un cours en salle de classe virtuelle (VC) avec Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
+## Création d’un cours de classe virtuelle (VC) avec Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
-1. Sur la page Mes cours, cliquez sur Ajouter des modules et choisissez Salle de classe virtuelle. La boîte de dialogue Créer une salle de classe virtuelle s’affiche.
+1. Dans la page Mes cours, cliquez sur Ajouter des modules et choisissez Classe virtuelle. La boîte de dialogue Créer une classe virtuelle s’affiche.
 1. Dans le panneau **Système De Conférence** , choisissez Adobe Connect.
 
    ![](assets/create-vc-author.png)
 
    *Créer une salle de classe virtuelle*
 
-1. Entrez le titre, la description, la date VC, l&#39;heure de début et l&#39;heure de fin.
+1. Entrez le titre, la description, la date de la classe virtuelle, l’heure de début et l’heure de fin.
 
-   Si Adobe Connect n’est pas configuré pour votre compte, un message d’avertissement s’affiche, comme illustré dans la capture d’écran ci-dessus. Les options de modèle, d’instructeurs et d’autres options Adobe Connect sont désactivées. Vous devez contacter votre administrateur pour configurer Adobe Connect pour votre compte.
+   Si Adobe Connect n&#39;est pas configuré pour votre compte, un message d&#39;avertissement s&#39;affiche comme illustré dans la capture d&#39;écran ci-dessus. Le modèle, les instructeurs et d’autres options d’Adobe Connect sont désactivés. Vous devez contacter votre administrateur pour configurer Adobe Connect pour votre compte.
 
-1. L’application Adobe Learning Manager récupère la liste des modèles par défaut (réunion, formation et événement) et des instructeurs (utilisateurs avec des autorisations d’hôte) à partir d’Adobe Connect. Choisissez le modèle de votre choix.
-1. Choisissez l’instructeur pour votre cours VC dans la liste des instructeurs.
+1. L’application d’Adobe Learning Manager récupère la liste des modèles par défaut (réunion, formation et événement) et des formateurs (les utilisateurs avec des autorisations d’hôte) à partir d’Adobe Connect. Sélectionnez le modèle de votre choix.
+1. Sélectionnez l’instructeur pour votre cours de classe virtuelle à partir de la liste des formateurs.
 
    ![](assets/instructors-list-author.png)
 
    *Sélectionnez l’instructeur dans la liste*
 
-1. Fournissez les critères d&#39;achèvement du cours de classe virtuelle. Le critère d’achèvement est le pourcentage de la durée totale du cours auquel un élève doit assister pour être considéré comme ayant terminé le cours. Par exemple, la durée du cours est de 1 heure. Si vous fournissez 50 % comme critère d’achèvement, alors si un élève suit le cours même pendant 30 minutes, il est considéré comme un cours terminé pour l’élève.
-1. Cliquez sur **[!UICONTROL Terminé]**.
+1. Saisissez les critères de fin du cours VC. Les critères d’achèvement représentent le pourcentage de la durée totale du cours qu’un élève doit suivre pour que le cours soit considéré comme terminé. Supposons par exemple que la durée du cours est d’1 heure. Si vous indiquez 50% comme critères d’achèvement, le cours sera considéré comme terminé pour un élève qui suit le cours pendant 30 minutes.
+1. Cliquez sur **[!UICONTROL Terminé]**.
 
-## Modèles partagés d’Adobe Connect {#sharedtemplatesofadobeconnect}
+## Modèles partagés d’Adobe Connect {#sharedtemplatesofadobeconnect}
 
-Par défaut, tous les modèles partagés créés dans le compte Adobe Connect sont récupérés dans l’application Learning Manager. Vous pouvez ajouter des modèles personnalisés en les partageant dans le compte Adobe Connect.
+Par défaut, tous les modèles partagés créés dans le compte Adobe Connect sont récupérés dans l’application Learning Manager. Vous pouvez ajouter des modèles personnalisés en les partageant dans le compte Adobe Connect.

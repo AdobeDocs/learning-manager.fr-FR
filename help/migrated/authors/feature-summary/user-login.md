@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 42%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Connexion utilisateur
 
-Lorsque vous utilisez Adobe Learning Manager pour la première fois, vous devez créer votre compte en procédant comme suit :
+Lorsque vous utilisez Adobe Learning Manager pour la première fois, vous devez créer votre compte, en suivant les étapes ci-dessous :
 
-1. Lancez Adobe Learning Manager à l’aide du lien sécurisé que vous avez reçu par courrier électronique de bienvenue de votre administrateur.
+1. Lancez Adobe Learning Manager à l’aide du lien sécurisé que vous avez reçu par courrier électronique de bienvenue envoyé par l’administrateur.
 
    L’écran Connexion s’affiche.
 
@@ -34,4 +34,4 @@ Lorsque vous utilisez Adobe Learning Manager pour la première fois, vous devez 
 
 >[!NOTE]
 >
->Une fois connecté pour la première fois, votre Adobe ID est associé à votre compte d’entreprise. Pour toutes les connexions suivantes, vous pouvez ajouter à vos favoris l’URL de votre compte (deuxième URL) que vous avez reçue dans le courrier électronique de bienvenue.
+>Une fois connecté pour la première fois, votre Adobe ID est associé à votre compte d’entreprise. Pour toutes les connexions suivantes, vous pouvez mettre en signet l’URL de votre compte (deuxième URL) que vous avez reçue dans le courrier électronique de bienvenue.

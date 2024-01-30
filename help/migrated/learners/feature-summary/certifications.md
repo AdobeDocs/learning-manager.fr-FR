@@ -1,12 +1,12 @@
 ---
-description: Découvrez comment suivre des certifications à l’aide de l’application Learning Manager Learners.
+description: Découvrez comment suivre des certifications à l’aide de l’application Learning Manager Learners.
 jcr-language: en_us
 title: Certifications
 contentowner: manochan
 source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 # Certifications
 
-Découvrez comment suivre des certifications à l’aide de l’application Learning Manager Learners.
+Découvrez comment suivre des certifications à l’aide de l’application Learning Manager Learners.
 
-Certifiez vos élèves de manière ponctuelle ou sur une période récurrente à l’aide de cette fonctionnalité. Seuls les administrateurs peuvent définir des certifications pour les élèves.
+Certifiez vos élèves individuellement ou selon un cadre chronologique périodique à l’aide de cette fonction. Seuls les administrateurs peuvent définir les certifications des participants.
 
-Les élèves peuvent accepter les certifications qui leur sont attribuées par les administrateurs de l’organisation. Il existe deux types de certifications dans Learning Manager.
+Les élèves peuvent suivre les certifications qui leur sont assignées par les administrateurs de l’entreprise. Il existe deux types de certifications dans Learning Manager.
 
 1. Externe
 
-   Ces certificats peuvent être obtenus en dehors de votre organisation. Votre organisation vous recommande de prendre ces certifications et de soumettre une preuve.
+   Ces certificats peuvent être obtenus en dehors de votre organisation. Votre organisation vous recommande d’obtenir ces certifications et d’en fournir un justificatif.
 
 1. Interne
 
-   Ces certificats peuvent être obtenus en suivant certains cours prescrits dans le cadre du curriculum. Votre organisation délivre ces certifications une fois l’opération terminée.
+   Ces certificats peuvent être obtenus en suivant certains cours prescrits dans le cadre du curriculum. Votre entreprise émet ces certifications une fois le cours terminé.
 
-## Prise en charge des certifications internes {#takingupinternalcertifications}
+## Obtention des certifications internes {#takingupinternalcertifications}
 
-1. Dans la page d’accueil des élèves, dans le widget Mon apprentissage, cliquez sur Certifications.
+1. Depuis la page d’accueil des élèves, dans le widget Mon apprentissage, cliquez sur Certifications.
 
 Une page s’affiche avec une liste de toutes les certifications qui vous concernent.
 
@@ -38,7 +38,7 @@ Une page s’affiche avec une liste de toutes les certifications qui vous concer
 
    1. Cliquez sur Widget En attente pour afficher toutes les certifications que vous devez remplir.
    1. Cliquez sur Mon apprentissage dans le volet de gauche, puis sélectionnez Certifications pour afficher toutes les certifications.
-   1. Triez et affichez la liste des certifications en fonction de la pertinence et de la date de publication.
+   1. Triez et affichez la liste des certifications selon la pertinence et la date de publication.
 
 1. Dans Widget En attente de la page Accueil, cliquez sur la certification interne que vous devez accepter.\
    Les certifications en attente s’affichent sous le widget.
@@ -47,11 +47,11 @@ Une page s’affiche avec une liste de toutes les certifications qui vous concer
 
 >[!NOTE]
 >
->Si vous avez plusieurs cours dans la certification, le dernier cours en attente apparaît dans un lecteur, suivi des autres cours en attente. Vous pouvez également cliquer sur chaque cours de certification en attente associé et suivre le cours.
+>Si vous avez plusieurs cours dans la certification, le dernier cours en attente apparaît dans un lecteur, suivi des autres cours en attente. Une autre solution consiste à cliquer sur chaque cours en attente associé à la certification et à suivre le cours.
 
-## Acceptation de certifications externes {#takingupexternalcertifications}
+## Obtention des certifications externes {#takingupexternalcertifications}
 
-Vous devez obtenir la certification externe en dehors de votre organisation et soumettre la preuve.
+Vous devez obtenir la certification externe en dehors de votre entreprise et fournir un justificatif.
 
 1. Dans le volet de gauche, cliquez sur Mon apprentissage.
 
@@ -63,8 +63,8 @@ Vous devez obtenir la certification externe en dehors de votre organisation et s
 
 1. Pour envoyer le justificatif d’accomplissement de votre certification, cliquez sur Parcourir, sélectionnez le fichier dans votre chemin d’accès local et cliquez sur **[!UICONTROL Charger]**.
 
-## Terminer des certifications {#completingcertifications}
+## Obtention des certifications {#completingcertifications}
 
-Les critères d’achèvement de la certification dépendent du nombre de cours que l’auteur ou l’administrateur a définis comme obligatoires. Par exemple, pour une certification contenant quatre cours, si l’auteur ou l’administrateur a défini deux cours comme obligatoires, lorsqu’un élève termine deux cours sur quatre, l’élève atteint l’état d’achèvement.
+Les critères d’achèvement des certifications dépendent du nombre de modules définis comme obligatoires par l’auteur ou l’administrateur. Par exemple, pour une certification contenant quatre cours, si l’auteur ou administrateur a défini deux cours comme étant obligatoires, lorsqu’un élève termine deux cours sur quatre, l’élève atteint l’état d’achèvement.
 
-En revanche, si tous les cours sont obligatoires dans une certification, l’élève doit terminer tous les cours de la certification.
+En revanche, si tous les cours d’une certification sont obligatoires, l’élève doit terminer l’ensemble des cours de la certification.

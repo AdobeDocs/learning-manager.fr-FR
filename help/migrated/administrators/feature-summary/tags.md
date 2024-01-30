@@ -1,12 +1,12 @@
 ---
-description: Découvrez comment gérer les balises dans Learning Manager.
+description: Découvrez comment gérer les balises dans Learning Manager
 jcr-language: en_us
 title: Balises
 contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -14,53 +14,53 @@ ht-degree: 0%
 
 # Balises
 
-Les administrateurs peuvent désormais gérer les balises dans Learning Manager. Utilisez un meilleur balisage et une base de données gérable pour aider les élèves à mieux rechercher et à accéder rapidement aux résultats de recherche appropriés. Vous pouvez gérer les balises redondantes, mal orthographiées et non pertinentes à l’aide de cette fonction. Vous pouvez également ajouter, modifier, supprimer, ajouter ou remplacer des balises.
+Les administrateurs peuvent désormais gérer les balises dans Learning Manager. Utilisez un meilleur balisage et une base de données gérable pour faciliter les recherches pour les élèves et obtenir des résultats de recherche appropriés plus rapidement. Vous pouvez gérer les balises redondantes, mal orthographiées et non pertinentes à l’aide de cette fonctionnalité. Vous pouvez également ajouter, modifier, supprimer, associer ou remplacer des balises.
 
-La liste des objets d’apprentissage associés à la balise peut être affichée en cliquant sur le nombre indiqué en regard de chaque balise. La liste affiche le nombre de cours, de programmes d&#39;apprentissage, de certificats, d&#39;assistances à la tâche et de groupes de contenus. Cliquez sur l’une de ces options pour afficher la liste.
+La liste des objets d’apprentissage associés à la balise peut être affichée en cliquant sur le numéro fourni à côté de chaque balise. La liste affiche le numéro de cours, de programmes d’apprentissage, de certificats, d’assistances à la tâche et de groupes de contenu. Cliquez sur l’une de ces options pour afficher la liste.
 
-Vous pouvez trier les balises en fonction de leur utilisation ou de leur ordre alphabétique à l’aide de la commande **[!UICONTROL Trier par]** option.
+Vous pouvez trier les balises en fonction de leur utilisation ou par ordre alphabétique à l’aide de l’option **[!UICONTROL Trier par]**.
 
-## Ajouter/Supprimer/Modifier des balises {#adddeleteedittags}
+## Ajout/Suppression/Modification de balises {#adddeleteedittags}
 
-1. En tant qu’administrateur, dans le volet de navigation de gauche, cliquez sur **[!UICONTROL Balises]**. Le **[!UICONTROL Tag Management]** la page s’ouvre.
-1. Pour ajouter une nouvelle balise, cliquez sur **[!UICONTROL Ajouter]**. Le bouton Ajouter est disponible dans le coin supérieur droit de la page. S’il n’existe aucune balise existante, le **[!UICONTROL Ajouter]** sera également disponible au milieu du **[!UICONTROL Tag Management]** page.
+1. En tant qu’administrateur, sur le panneau de navigation gauche, cliquez sur **[!UICONTROL Balises]**. La page **[!UICONTROL Gestion des balises]** s’ouvre.
+1. Pour ajouter une nouvelle balise, cliquez sur **[!UICONTROL Ajouter]**. Le bouton Ajouter est disponible en haut à droite de la page. S’il n’y a pas de balises existantes, le bouton **[!UICONTROL Ajouter]** s’affiche également au milieu de la page **[!UICONTROL Gestion des balises]**.
 
-   Lors de l’ajout de plusieurs balises, séparez-les à l’aide des balises (,) ou (;). Un nom de balise peut contenir jusqu’à 50 caractères.
+   Lors de l’ajout de plusieurs balises, séparez-les à l’aide de (,) ou de (;). Un nom de balise peut contenir un maximum de 50 caractères.
 
-1. Pour supprimer une balise existante, sélectionnez-la en cochant la case. Vous pouvez sélectionner plusieurs balises jusqu’à cinquante à supprimer à la fois. Pour supprimer, procédez comme suit :
+1. Pour supprimer une balise existante, sélectionnez la balise en cliquant sur la case à cocher. Vous pouvez sélectionner plusieurs balises jusqu’à cinquante à supprimer à la fois. Pour les supprimer, procédez comme suit :
 
-   * Sélectionnez les balises à supprimer > ouvrez le panneau **[!UICONTROL Action]** menu déroulant > sélectionner **[!UICONTROL Supprimer]**.
+   * Sélectionnez les balises à supprimer > ouvrez le menu déroulant **[!UICONTROL Action]** > sélectionnez **[!UICONTROL Supprimer]**.
 
-1. Une seule balise peut être modifiée à la fois. Pour modifier une balise, procédez comme suit :
+1. Vous ne pouvez modifier qu’une seule balise à la fois. Pour modifier une balise, procédez comme suit :
 
    * Sélectionnez la balise à modifier > ouvrir le **[!UICONTROL Actions]**menu déroulant > cliquez sur **[!UICONTROL Modifier]**.
 
-   Le **[!UICONTROL Modifier la balise]** s’affiche. Entrez le nouveau nom de balise et cliquez sur **[!UICONTROL Enregistrer]**.
+   La boîte de dialogue **[!UICONTROL Modifier une balise]** s’affiche. Saisissez le nom de la nouvelle balise et cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Si le nom de balise que vous avez entré existe déjà, Adobe Learning Manager affiche un message d’avertissement. Il ne peut pas y avoir deux balises portant le même nom.
+   Si le nom de balise que vous avez entré existe déjà, Adobe Learning Manager affiche un message d’avertissement. Deux balises ne peuvent pas porter le même nom.
 
-## Remplacer les balises {#replacetags}
+## Remplacement des balises {#replacetags}
 
-1. Sélectionnez les balises à remplacer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le panneau **[!UICONTROL Actions]** menu déroulant et sélectionnez **[!UICONTROL Remplacer]**.
+1. Sélectionnez les balises que vous voulez remplacer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le panneau **[!UICONTROL Actions]** menu déroulant et sélectionnez **[!UICONTROL Remplacer]**.
 1. Le **[!UICONTROL Remplacer les balises]** s’affiche avec les balises sélectionnées.
 
-1. Dans le panneau **[!UICONTROL Nom des balises remplacées]** , saisissez le nom de la nouvelle balise par laquelle vous souhaitez remplacer les balises sélectionnées. Vous pouvez les remplacer par une balise existante dans la liste déroulante ou ajouter une nouvelle balise.
+1. Dans l’option **[!UICONTROL Nom pour les balises remplacées]**, saisissez le nom de la nouvelle balise par laquelle vous souhaitez remplacer les balises sélectionnées. Vous pouvez les remplacer par une balise existante dans le menu déroulant ou ajouter une nouvelle balise.
 
-   Un point-virgule ou une virgule ne peut pas faire partie du nom de la balise.  Notez que les balises sans point-virgule et l’affichage des messages d’erreur lors de l’utilisation de telles balises dans le cadre de certains objets d’apprentissage ne sont pas traités pour les scénarios de migration.
+   Un point-virgule ou une virgule ne peut pas faire partie du nom de la balise.  Notez que les balises sans point-virgule et l’affichage de messages d’erreur lors de l’utilisation de ces balises dans certains objets d’apprentissage ne seront pas traités pour les scénarios de migration.
 
 1. Cliquez sur **[!UICONTROL Remplacer]**.
 
-## Ajouter des balises {#appendtags}
+## Association de balises {#appendtags}
 
 Dans le cas d’une opération d’ajout de balises, la balise nouvelle/existante est ajoutée à toutes les listes d’objets d’apprentissage et de groupes de contenus associés aux balises sélectionnées.
 
-1. Sélectionnez les balises à ajouter. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le menu déroulant Actions et sélectionnez **[!UICONTROL Ajouter]**.
+1. Sélectionnez les balises que vous voulez associer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le menu déroulant Actions et sélectionnez **[!UICONTROL Ajouter]**.
 1. Le  **[!UICONTROL Ajouter des balises]** s’affiche avec les balises sélectionnées.
-1. Vous pouvez ajouter une balise supplémentaire à tous les apprentissages avec les balises sélectionnées en saisissant le nom de la balise **[!UICONTROL Nouvelle balise]** ou dans la liste déroulante des balises existantes. La nouvelle balise sera ajoutée à tous les éléments d’apprentissage associés dans Learning Manager.
+1. Vous pouvez associer une balise supplémentaire à tous les éléments d’apprentissage avec les balises sélectionnées en saisissant le nom de la **[!UICONTROL nouvelle balise]** ou dans la liste déroulante des balises existantes. La nouvelle balise sera associée à tous les éléments d’apprentissage dans Learning Manager.
 
-   Un point-virgule ou une virgule ne peut pas faire partie du nom de la balise. S’il est utilisé, Prime affichera un message d’erreur. Notez que les balises sans point-virgule et l’affichage des messages d’erreur lors de l’utilisation de telles balises dans le cadre de certains objets d’apprentissage ne sont pas traités pour les scénarios de migration.
+   Les points-virgules ou les virgules ne peuvent pas faire partie du nom de balise. S’ils sont utilisés, Prime affichera un message d’erreur. Notez que les balises sans point-virgule et l’affichage de messages d’erreur lors de l’utilisation de ces balises dans certains objets d’apprentissage ne seront pas traités pour les scénarios de migration.
 
-1. Cliquez sur **[!UICONTROL Ajouter]**.
+1. Cliquez sur **[!UICONTROL Associer]**.
 
 ## Paramètres {#settings}
 
@@ -72,8 +72,8 @@ En tant qu’administrateur, vous pouvez autoriser l’auteur à créer des bali
 
 * Lorsqu’un utilisateur est autorisé à créer des balises et sélectionne des balises existantes actuellement non valides,
 
-  Un message d’erreur s’affiche, suggérant que la balise sélectionnée n’est plus valide. Les nouvelles balises seront créées en supprimant les caractères non pris en charge. Dans ce cas, l’auteur doit être en mesure de voir ses anciennes balises être remplacées par de nouvelles balises avant d’enregistrer.
+  Un message d’erreur s’affiche, suggérant que la balise sélectionnée n’est plus valide. Les nouvelles balises seront créées en supprimant les caractères non pris en charge. Dans ce cas, l’auteur doit s’assurer que ses anciennes balises ont bien été modifiées avant de les enregistrer.
 
-* Si l’utilisateur ne dispose pas des autorisations nécessaires pour créer de nouvelles balises, un message d’erreur s’affiche pour indiquer que la balise sélectionnée n’est plus valide. Les auteurs peuvent contacter les administrateurs pour modifier les balises non valides.
+* Si l’utilisateur ne dispose pas des autorisations nécessaires pour créer de nouvelles balises, un message d’erreur s’affiche pour indiquer que la balise sélectionnée n’est plus valide. Les auteurs peuvent contacter l’administrateur pour modifier les balises non valides.
 
   Les auteurs ne peuvent pas créer ou enregistrer de balises non valides. Ils peuvent supprimer les balises non valides et ajouter toute autre balise valide existante, puis continuer.

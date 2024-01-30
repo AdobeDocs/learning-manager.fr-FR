@@ -7,7 +7,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 0%
+ht-degree: 40%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Lisez cet article pour découvrir comment intégrer le lecteur Fluidic dans une application personnalisée.
 
-En tant qu’entreprise, vous pouvez désormais fournir une expérience personnalisée à vos élèves même en dehors de Learning Manager. À l’aide de l’API publique, vous pouvez récupérer toutes les informations liées aux objets d’apprentissage, aux inscriptions des élèves et à la progression de l’apprentissage et les afficher sur votre site Web. Plus important encore, vous pouvez même intégrer le lecteur Fluidic de Learning Manager dans votre site Web, afin que l’élève puisse utiliser le contenu directement sur votre site Web. Le lecteur Fluidic vous permet de lire n’importe quel contenu pris en charge par Learning Manager. Lorsqu’il est intégré à votre propre site Web, il possède exactement les mêmes fonctionnalités que lorsqu’il est utilisé dans Learning Manager.
+En tant qu’entreprise, vous pouvez désormais proposer une expérience personnalisée à vos élèves même en dehors de Learning Manager. À l’aide de l’API publique, vous pouvez récupérer toutes les informations liées aux objets d’apprentissage, aux inscriptions des élèves et à la progression de l’apprentissage et les afficher sur votre site Web. Vous pouvez même intégrer le lecteur Fluidic de Learning Manager à votre site Web afin que l’élève puisse utiliser le contenu directement sur votre site Web. Le lecteur Fluidic vous permet de lire n’importe quel contenu pris en charge par Learning Manager. Lorsqu’il est intégré à votre propre site Web, il possède exactement les mêmes fonctionnalités que lorsqu’il est utilisé dans Learning Manager.
 
 **Lire n’importe quel contenu de formation en ligne[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
-Le lecteur Fluidic lit pratiquement n’importe quel type de contenu de formation en ligne de la même manière cohérente et intuitive sans nécessiter de plug-ins ou de téléchargements. L’élève peut lancer le contenu et, quel que soit le type de fichier de contenu, la lecture commence.
+Le lecteur Fluidic lit pratiquement n’importe quel type de contenu d’apprentissage en ligne d’une manière également cohérente et intuitive sans nécessiter de plug-ins ou de téléchargements. L’élève peut lancer le contenu, dont la lecture commence quel que soit le type de fichier de contenu.
 
 **Notes et marquage de signets**
 
-Vous pouvez prendre des notes et ajouter des signets à n’importe quel contenu, quel que soit son type de fichier. Si vous voulez faire une certaine sélection à partir d&#39;un long fichier ou d&#39;une vidéo, vous pouvez mettre en signet les points mêmes où vous avez trouvé les informations qui sont pertinentes à vos besoins. Les notes et les signets peuvent être recherchés ou envoyés par e-mail. Un clic dessus vous place dans le lecteur Fluidic exactement à ce point de la vidéo ou de la page du document.
+Vous pouvez prendre des notes et mettre en signet n’importe quel contenu quel que soit son type de fichier. Si vous voulez faire une certaine sélection à partir d&#39;un long fichier ou d&#39;une vidéo, vous pouvez mettre en signet les points mêmes où vous avez trouvé les informations qui sont pertinentes à vos besoins. Les notes et les signets peuvent être recherchés ou envoyés par e-mail. Le fait de cliquer dessus vous redirige vers l’emplacement concerné exact de la vidéo, de la page ou du document.
 
 Pour plus d’informations sur le lecteur Fluidic, voir [Lecteur Fluidic](../../learners/feature-summary/fluidic-player.md).
 
@@ -33,26 +33,26 @@ Voici quelques exemples d’utilisation du lecteur Fluidic intégrable.
 
 * Vous pouvez utiliser le lecteur Fluidic intégrable sur votre site Web **** pour répertorier les cours auxquels votre employé est inscrit et également fournir un lien permettant de lancer une formation sur la même page. Cela signifie que vos élèves peuvent suivre des formations sur votre site intranet.
 
-* Si vous êtes dans le domaine de la formation, vous avez peut-être un site Web où vos clients achètent des cours. Vous pouvez intégrer le lecteur au même site Web afin que vos clients puissent utiliser le contenu qu’ils achètent sur votre site Web.
+* Si vous êtes dans le domaine de la formation, vous disposez peut-être d’un site Web sur lequel vos clients achètent des cours. Vous pouvez intégrer le lecteur au même site Web afin que vos clients puissent utiliser le contenu qu’ils achètent sur votre site Web.
 
-## Étapes pour intégrer le lecteur Fluidic à votre site web {#stepstoembedfluidicplayerinyourwebsite}
+## Étapes pour intégrer le lecteur Fluidic à votre site Web {#stepstoembedfluidicplayerinyourwebsite}
 
-La création d’une application personnalisée pour intégrer le lecteur Fluidic à votre site web implique trois étapes de base :
+Construire une application personnalisée pour intégrer un lecteur Fluidic dans votre site Web implique trois étapes de base :
 
-1. Créez une application dans l’application d’administration d’intégration de Learning Manager.
-1. Récupérer le jeton d’accès.
+1. Créez une application dans l’application d’administration d’intégration de Learning Manager.
+1. Récupérez le jeton d’accès.
 1. Utilisez le jeton d’accès pour récupérer des ressources de Learning Manager à l’aide de l’API publique.
 
-### 1. Création d’une application dans l’administrateur d’intégration {#1createanapplicationinintegrationadmin}
+### 1. Création d’une application dans l’administration d’intégration {#1createanapplicationinintegrationadmin}
 
-Cette étape est nécessaire pour créer un ID d’application/client et un secret d’application/client qui est utilisé pour récupérer le jeton d’actualisation et le jeton d’accès. Pour plus d’informations sur la création d’une application, voir  [Processus de développement d’applications.](developer-manual.md#main-pars_header_994876235)
+Cette étape est requise pour créer un identifiant d’application/client et un secret d’application/client qui sont utilisés pour récupérer le jeton d’actualisation et le jeton d’accès. Pour plus d’informations sur la création d’une application, voir  [Processus de développement d’applications.](developer-manual.md#main-pars_header_994876235)
 
-1. Accéder à **[!UICONTROL IntegrationAdmin]** application et ouvrir **[!UICONTROL Applications]**.
+1. Accédez à l’application **[!UICONTROL IntegrationAdmin]** et ouvrez **[!UICONTROL Applications]**.
 
-1. Sélectionner **[!UICONTROL S&#39;inscrire]** dans le coin supérieur droit de la page.
-1. Le **[!UICONTROL Enregistrer une nouvelle application]** s’ouvre. Renseignez les champs requis.
+1. Cliquez sur **[!UICONTROL Enregistrer]** dans l’angle supérieur droit de la page.
+1. La fenêtre **[!UICONTROL Enregistrer une nouvelle application]** s’ouvre. Complétez les champs requis.
 1. Si l’application personnalisée doit être partagée entre plusieurs comptes, sélectionnez **[!UICONTROL Non]** dans le champ option  **[!UICONTROL Pour ce compte uniquement ?]**
-1. Pour enregistrer l’application et générer votre ID et votre secret d’application, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Pour enregistrer l’application et générer l’identifiant et le secret de votre application, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ### 2. Récupération du jeton d’accès {#2retrievingaccesstoken}
 
@@ -60,7 +60,7 @@ Comme Learning Manager utilise OAUTH2.0., un jeton d’accès est requis pour r�
 
 **2.1 Jeton d’actualisation**
 
-* Récupérer le code OAuth
+* Récupération du code OAuth
 
 Le code OAuth est requis pour récupérer le jeton d’actualisation. Learning Manager redirige l’utilisateur vers l’URL de redirection avec le code OAuth lorsqu’il est connecté à l’aide de l’URL ci-dessous (l’extraction de code OAuth est illustrée dans le fichier « oauthredirect.html » de l’exemple d’application) :
 
@@ -83,13 +83,13 @@ Ici, **[!UICONTROL id client]** est l&#39;id d&#39;application obtenu à l&#39;�
 **[!UICONTROL e-mail]** est un champ facultatif\
 &#42; Si l’ID de compte et l’adresse électronique sont fournis, l’URL ci-dessus permettra à l’utilisateur de se connecter au même compte. Cet exemple de point de terminaison est décrit dans le fichier « index.html » dans l’exemple d’application.
 
-* Récupérer le jeton d’actualisation
+* Récupération du jeton d’actualisation
 
 Une fois le code OAuth reçu, le jeton d’actualisation peut être récupéré à l’aide du code OAuth, de l’ID client et du secret client reçus à partir du point d’entrée ci-dessous :
 
 **https://learningmanager.adobe.com/oauth/token**
 
-En réponse à votre demande de publication, vous recevrez ce qui suit :
+En réponse à votre requête de publication, vous recevrez ce qui suit :
 
 i. refresh_token\
 ii. access_token\
@@ -104,7 +104,7 @@ Pour récupérer votre jeton d’accès, envoyez une autre demande avec vos para
 
 **https://learningmanager.adobe.com/oauth/token/refresh**
 
-En réponse à votre demande de publication, vous recevrez ce qui suit :\
+En réponse à votre requête de publication, vous recevrez ce qui suit :\
 i. refresh_token\
 ii. access_token\
 iii. user_id\
@@ -112,7 +112,7 @@ iv. expires_in\
 v. user_role\
 vi. account_id
 
-### 3. Récupérer des ressources à l’aide de l’api publique {#3retrieveresourcesusingpublicapi}
+### 3. Récupération des ressources en utilisant l’API publique {#3retrieveresourcesusingpublicapi}
 
 Comme troisième étape, vous devez utiliser le jeton d’accès pour récupérer des ressources de Learning Manager à l’aide de l’api publique .  Le jeton d’accès est requis pour effectuer tout appel d’api public et doit être ajouté dans l’en-tête comme illustré dans l’exemple d’application.
 
@@ -120,15 +120,15 @@ Comme troisième étape, vous devez utiliser le jeton d’accès pour récupére
 
 Les applications tierces peuvent utiliser un lecteur intégrable pour lire le contenu d’un objet d’apprentissage.
 
-**Ouvrir un cours dans un lecteur intégrable**
+**Ouverture d’un cours dans un lecteur intégrable**
 
-1. Création d’une URL intégrable
+1. Créer une URL intégrable
 
    Pour ouvrir un cours à l&#39;aide d&#39;un lecteur intégrable, vous devez créer une URL intégrable comme indiqué ci-dessous :
 
    `https://learningmanager.adobe.com/app/player?lo_id=<v2-api course id>&access_token=<access_token>`
 
-   Ici, lo_id doit être conforme au format d’ID de cours de l’API V2.
+   Ici, lo_id doit respecter le format d’ID de cours de l’API V2.
 
    Exemple : `https://learningmanager.adobe.com/app/player?lo_id=course:123456&access_token=45b269b75ac65d6696d53617f512450f`
 
@@ -152,7 +152,7 @@ code window.addEventListener("message", function closePlayer(){
 });
 ```
 
-## Exemple de tutoriel d’application {#sampleapplicationtutorial}
+## Exemple de didacticiel d’application {#sampleapplicationtutorial}
 
 Le document pdf joint contient un exemple de tutoriel d’application.
 [Exemple de source de tutoriel et de didacticiel pour intégrer le lecteur Fluidic](assets/sample-applicationtutorial.zip) Contenus alternatifs
@@ -163,7 +163,7 @@ Commandes spécifiques à la vidéo
 
 La technologie de diffusion en continu utilisée par le lecteur Fluidic de Learning Manager offre une expérience de lecture vidéo à ses élèves sans aucun retard dans le démarrage de la vidéo et sans aucune exigence d’espace disque sur aucun appareil. Le lecteur Fluidic offre également des commandes intelligentes telles que la vitesse de lecture (1x, 1,5X) et l&#39;option Sauter +-10 secondes, qui sont conçues pour donner à l&#39;élève le niveau de contrôle exact dont il a besoin pour correspondre à sa vitesse d&#39;apprentissage.
 
-Il s&#39;agit d&#39;un effort qui doit être entrepris par une personne de votre équipe informatique ou un consultant externe qui peut créer une application qui est ensuite hébergée sur votre site.
+Cette manipulation doit être effectuée par une personne de votre équipe informatique ou un consultant externe capable de créer une application hébergée sur votre site.
 
 1. Modifiez l’URL du lecteur intégré Learning Manager avec des paramètres qui pointent vers l’objet d’apprentissage exact qui doit être pris.
 
@@ -181,7 +181,7 @@ Il s&#39;agit d&#39;un effort qui doit être entrepris par une personne de votre
 
    * access_token : il s’agit du paramètre de sécurité, utilisez le jeton d’accès oauth de l’API publique
 
-   Vous pouvez obtenir votre jeton en configurant votre lecteur Fluidic intégrable dans votre administrateur d’intégration. Vous pouvez obtenir votre jeton d’authentification qui peut être utilisé comme jeton d’accès.
+   Vous pouvez obtenir votre jeton en configurant votre lecteur Fluidic intégrable dans votre administration d’intégration. Vous pouvez obtenir votre jeton d’authentification utilisable comme jeton d’accès.
 
    Exemple d’URL créée ; https://learningmanager.adobe.com/app/player?lo_id=« +lo_id+« &amp;access_token=« +accToken
 
@@ -191,9 +191,9 @@ Il s&#39;agit d&#39;un effort qui doit être entrepris par une personne de votre
 
 1. Effectuez des appels API Learning Manager pour récupérer les paramètres susmentionnés.
 
-   Ces appels d&#39;API doivent être effectués par l&#39;application que votre équipe informatique/consultant rédigerait et hébergerait sur votre site.
+   Ces appels d’API doivent être effectués par l’application créée et hébergée sur votre site par votre équipe/consultant informatique.
 
-   Pour plus d’informations sur l’utilisation de l’API, cliquez ici :
+   Vous trouverez plus de détails sur l’utilisation de l’API ici :
 
    API Learning Manager V1 - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
 
@@ -201,15 +201,15 @@ Il s&#39;agit d&#39;un effort qui doit être entrepris par une personne de votre
 
    API Learning Manager V2 - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
-   Les ID des objets diffèrent de ceux de l’API V1 et V2. Le lecteur intégrable attend des ID au format v2. Utilisez l’API de mappage d’ID dans la version 2 pour convertir des ID V1 en ID V2.
+   Les identifiants des objets diffèrent des API V1 et V2. Le lecteur intégrable requiert des identifiants au format v2. Utilisez l’API de mappage d’identifiants V2 pour convertir des identifiants V1 en V2.
 
-   Après avoir créé l’URL, l’application peut l’utiliser pour l’afficher à l’élève en la plaçant dans un iFrame. En cliquant sur ce lien, le lecteur Fluidic est lancé avec le cours particulier en contexte.
+   Une fois l’URL créée, l’application peut l’afficher pour l’apprenant en l’insérant dans un iFrame. En cliquant sur ce lien, le lecteur Fluidic sera lancé avec le cours spécifique en contexte.
 
    ![](assets/salesforce-player.png)
 
    Pour vérifier les rapports d’avancement et d’achèvement, connectez-vous à Learning Manager.
 
-   Lorsque l’élève ferme le lecteur, le lecteur Fluidic envoie un message « fermer » à l’élément parent à l’aide de html5 postMessage. Le contrôleur de chargement doit traiter ce message et continuer.
+   Lorsque l’élève ferme le lecteur Fluidic, celui-ci envoie un message de &quot;fermeture&quot; à l’élément parent en utilisant la fonction HTML5 postMessage. Le contrôleur de chargement doit traiter ce message et continuer.
 
 Modifiez l’URL du lecteur intégré Learning Manager avec des paramètres qui pointent vers l’objet d’apprentissage exact qui doit être pris.
 
@@ -226,9 +226,9 @@ Paramètre obligatoire :
 
 * access_token : il s’agit du paramètre de sécurité, utilisez le jeton d’accès oauth de l’API publique
 
-Effectuez des appels API Learning Manager pour récupérer les paramètres susmentionnés. Ces appels d&#39;API doivent être effectués par l&#39;application que votre équipe informatique/consultant rédigerait et hébergerait sur votre site.
+Effectuez des appels API Learning Manager pour récupérer les paramètres susmentionnés. Ces appels d’API doivent être effectués par l’application créée et hébergée sur votre site par votre équipe/consultant informatique.
 
-Pour plus d’informations sur l’utilisation de l’API, cliquez ici :
+Vous trouverez plus de détails sur l’utilisation de l’API ici :
 
 API Learning Manager V1 - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
 

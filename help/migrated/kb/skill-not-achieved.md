@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Impossible d’acquérir une compétence après avoir suivi un cours
-description: Un élève, même après avoir terminé un cours, n’obtient pas de compétence. Les compétences attribuées à ce cours restent En cours pour l’élève.
+description: Même après avoir terminé un cours, un élève n’obtient pas de compétence. Les compétences attribuées à ce cours restent En cours pour l’élève.
 contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 0%
+ht-degree: 52%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Problème
 
-Un élève, même après avoir terminé un cours, n’obtient pas de compétence. Les compétences attribuées à ce cours restent les suivantes : **En cours** pour l’élève.
+Même après avoir terminé un cours, un élève n’obtient pas de compétence. Les compétences attribuées à ce cours restent les suivantes : **En cours** pour l’élève.
 
 ## Cause
 
@@ -24,9 +24,9 @@ Ce problème se produit si **Crédits requis** pour atteindre cette compétence,
 
 ## Solution
 
-Vérifier la **Crédits de compétences** et **Point** informations requises pour acquérir la compétence. Procédez comme suit :
+Vérifier la **Crédits de compétences** et **Point** informations requises pour acquérir la compétence. Procédez comme suit :
 
-1. Pour l’élève, générez une **Relevé de notes de l’élève** rapport.
+1. Pour l’élève, générez un rapport **Relevé de notes de l’élève**.
 1. Lors de la génération du relevé de notes de l’élève, cliquez sur **[!UICONTROL Options avancées]** et cochez l’option **[!UICONTROL Inclure les données sur les compétences et les fiches récapitulatives]**.
 
    ![](assets/advanced-options.png)
@@ -34,15 +34,15 @@ Vérifier la **Crédits de compétences** et **Point** informations requises pou
    *Sélectionnez l’option Inclure les données de compétences et les fiches récapitulatives*
 
 1. Ouvrez le rapport Relevé de notes de l’élève téléchargé.
-1. Accédez à la section **[!UICONTROL Relevé de notes des compétences]** feuille. Ici, vous pouvez voir le **[!UICONTROL Crédits requis]** et **[!UICONTROL Crédits gagnés]** par l’élève.
+1. Accédez à la feuille **[!UICONTROL Relevé des compétences]**. Ici, vous pouvez voir le **[!UICONTROL Crédits requis]** et **[!UICONTROL Crédits gagnés]** par l’élève.
 
-   Par exemple, dans l’exemple ci-dessous, les crédits requis pour acquérir la compétence pour un cours sont de 50. Mais l’élève n’a obtenu qu’un seul crédit.
+   Dans l’exemple ci-dessous, les crédits requis pour acquérir la compétence pour un cours s’élèvent à 50. Mais l’élève n’a obtenu qu’un seul crédit.
 
    ![](assets/skill-transcript.png)
 
    *Afficher les crédits requis*
 
-1. Pour vérifier les crédits attribués à une compétence particulière, connectez-vous en tant qu’administrateur et accédez à **Compétences** onglet, comme indiqué ci-dessous :
+1. Pour vérifier les crédits qui sont attribués pour une compétence particulière, connectez-vous en tant qu’administrateur et accédez à **Compétences**, comme indiqué ci-dessous :
 
    ![](assets/skill.png)
 

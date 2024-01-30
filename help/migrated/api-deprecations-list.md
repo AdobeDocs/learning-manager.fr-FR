@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -41,12 +41,12 @@ Le tableau suivant répertorie les limites de taux et de rafale pour les API.
         <td>5</td>
     </tr>
     <tr>
-        <td>Élève</td>
+        <td>Gestion</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Search</td>
+        <td>Recherche</td>
         <td>50</td>
         <td>5</td>
     </tr>
@@ -126,24 +126,24 @@ Dans la prochaine version d’Adobe Learning Manager, name et -name sont obsolè
 
 ### Indicateur de remplacement
 
-Dans la version de novembre 2023 d’Adobe Learning Manager, nous avons supprimé l’indicateur de remplacement des API. L’indicateur de remplacement ne fait pas partie de la spécification d’API publique et est destiné aux tests principaux. L’indicateur n’est plus disponible pour les API des élèves. Cependant, l’indicateur est toujours valide pour les API d’administration.
+Dans la version de novembre 2023 d’Adobe Learning Manager, nous avons supprimé l’indicateur de remplacement des API. L’indicateur de remplacement ne fait pas partie de la spécification d’API publique et est destiné aux tests backend. L’indicateur n’est plus disponible pour les API des élèves. Cependant, l’indicateur reste valide pour les API d’administrateur.
 
 La raison pour laquelle nous déprécions l&#39;indicateur pour les API des élèves est que l&#39;indicateur de remplacement récupérait une grande quantité de données via les API des élèves.
 
-À l’avenir, l’API de l’élève suivante cessera de fonctionner car elle comporte l’indicateur de remplacement.
+À l’avenir, l’API des élèves suivante cessera de fonctionner car elle comporte l’indicateur de remplacement.
 
 <code>https://captivateprime.adobe.com/primeapi/v2/users?page[décalage]=0&amp;page[limite]=10&amp;sort=id&amp;override=TRUE</code>
 
 ### Modifications d’API pour les nouvelles recommandations basées sur les compétences
 
-Adobe Learning Manager améliore les recommandations pour les comptes clients et partenaires. Cette amélioration de l’algorithme de recommandation avec le changement de l’algorithme de classement pour le cours, le parcours d’apprentissage et la certification offre une meilleure expérience utilisateur en matière de découverte de contenu.
+Adobe Learning Manager améliore les recommandations pour les comptes clients et partenaires. Grâce à l’amélioration de l’algorithme de recommandation due à la modification de l’algorithme de classement des cours, des parcours d’apprentissage et des certifications, les utilisateurs bénéficient d’une expérience optimisée en termes de découverte de contenu.
 
-L’algorithme n’autorisera plus les recommandations basées sur les pairs. La modification n’affectera pas les utilisateurs existants, mais l’option Correspondant au secteur continuera d’exister. Pour l’option Personnalisé, Adobe Learning Manager n’autorisera plus la sélection personnalisée par les pairs.
+L’algorithme n’autorise plus les recommandations basées sur les pairs. La modification n’affecte pas les utilisateurs existants. Toutefois, l’option Correspondant au secteur continue d’exister. Pour l’option Personnalisé, Adobe Learning Manager n’autorise plus la sélection personnalisée basée sur les pairs.
 
-Le groupe de pairs devient désormais un compte, et les élèves verront une chaîne qui montre les sujets tendance dans le groupe. Toutes les recommandations sont explicables. Par exemple, si vous visualisez quelque chose sur un sujet, la carte sur la bande affichera la raison du cours.
+Le groupe de pairs devient désormais un compte. Les élèves verront une chaîne présentant les sujets tendance dans le groupe. Toutes les recommandations sont explicables. Par exemple, si vous consultez un contenu sur un certain type de sujet, la carte sur la bande affiche la raison de la suggestion du cours.
 
 ### Modifications Apportées Au Rapport D&#39;Annonce Des Notifications
 
-Dans les versions antérieures d’Adobe Learning Manager, le rapport Annonce de notification ne disposait d’aucun filtre. Adobe Learning Manager a téléchargé toutes les notifications du compte.
+Dans les versions antérieures d’Adobe Learning Manager, le rapport Annonce de notification ne disposait d’aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des notifications du compte.
 
 Dans la version de novembre 2023, nous avons ajouté un filtre de date, à l’aide duquel vous pouvez télécharger les notifications au cours d’une période spécifiée.  Cependant, vous ne pouvez télécharger que le rapport des six derniers mois.

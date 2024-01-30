@@ -6,7 +6,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '2232'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
@@ -20,7 +20,7 @@ La configuration technique de votre compte Learning Manager est principalement r
 
 ### Configuration de l’authentification unique {#configuresinglesignon}
 
-En tant qu’administrateur système du Admin Console, l’une de vos premières tâches consiste à définir et à configurer un système d’identité par rapport auquel vos utilisateurs finaux seront authentifiés. À mesure que votre organisation achète des licences pour Learning Manager, vous devrez les provisionner pour vos utilisateurs finaux. Pour cela, vous aurez besoin d’un moyen d’authentifier ces utilisateurs. Effectuez la procédure suivante pour configurer l’authentification unique pour vos utilisateurs.
+En tant qu’administrateur système sur l’Admin Console, l’une de vos premières tâches consiste à définir et à configurer un système d’identité à partir duquel vos utilisateurs finaux seront authentifiés. À mesure que votre organisation achète des licences pour Learning Manager, vous devrez les provisionner pour vos utilisateurs finaux. Pour ce faire, vous devrez trouver un moyen d’authentifier ces utilisateurs. Effectuez la procédure suivante pour configurer l’authentification unique pour vos utilisateurs.
 
 1. Dans la page d’accueil de Learning Manager, cliquez sur **[!UICONTROL ** Paramètres **>** Méthodes de connexion **.]**
 
@@ -38,7 +38,7 @@ En tant qu’administrateur système du Admin Console, l’une de vos premières
 
    ![](assets/configure-sso-step4.png)
 
-1. Dans le panneau ****[!UICONTROL URL d’authentification initiée par l’IDP]**** , saisissez l’URL d’authentification fournie par votre fournisseur de services.
+1. Dans le champ ****[!UICONTROL URL d&#39;authentification initiée par le fournisseur d&#39;identités]****, entrez l&#39;URL d&#39;authentification donnée par votre fournisseur de services.
 
 
 
@@ -46,7 +46,7 @@ En tant qu’administrateur système du Admin Console, l’une de vos premières
 
 1. Cliquez sur **[!UICONTROL **Charger **]**à côté de la**[!UICONTROL  **Fichier XML de métadonnées IDP **]****** et téléchargez votre fichier XML.
 1. Cliquez sur **[!UICONTROL ** Enregistrer **.]**
-1. L’authentification SSO a été configurée pour votre compte. Vous devriez être en mesure de vous connecter à votre compte Learning Manager à l’aide de l’authentification unique.
+1. L’authentification SSO est correctement configurée pour votre compte. Vous devriez être en mesure de vous connecter à votre compte Learning Manager à l’aide de l’authentification unique.
 
    ***L’authentification unique que vous configurez dans Learning Manager doit prendre en charge SAML 2.0.***
 
@@ -56,13 +56,13 @@ En tant qu’administrateur, lorsque votre entreprise achète Learning Manager, 
 
 Learning Manager vous permet de migrer à partir de votre LMS existant via un assistant étape par étape, en sprints itératifs. Vous bénéficiez d’une visibilité complète sur l’état de chaque sprint pour vous assurer que vos élèves ne subissent aucun temps d’arrêt pendant la migration de vos données héritées vers Adobe Learning Manager.
 
-Pour exécuter le flux de migration, vous devez disposer des privilèges d’administrateur d’intégration. En tant qu’administrateur, vous pouvez soit assumer le rôle d’administrateur d’intégration, soit attribuer ce rôle à un autre utilisateur.
+Pour exécuter le flux de migration, vous devez disposer des droits d’administrateur d’intégration. En tant qu’administrateur, vous pouvez soit assumer le rôle d’un administrateur d’intégration, soit affecter ce rôle à un autre utilisateur.
 
 **Nous pouvons utiliser l&#39;aide de Shaleen ici pour créer un visuel.**
 
-1. Conditions préalables requises
+1. Prérequis
 1. Évaluation du contenu existant et des données utilisateur
-1. Exporter et mapper les données à partir du LMS existant
+1. Exportation et mappage des données à partir du LMS existant
 1. Configuration des dossiers FTP et BOX pour la migration
 1. Transfert des élèves vers Learning Manager
 1. Transfert de contenu d’apprentissage vers Learning Manager
@@ -70,9 +70,9 @@ Pour exécuter le flux de migration, vous devez disposer des privilèges d’adm
 
 
 
-### Conditions préalables requises {#prerequisite}
+### Prérequis {#prerequisite}
 
-Avant de commencer le processus de migration, vous devez effectuer les prérequis suivants :
+Avant de commencer le processus de migration, vous devez effectuer les prérequis suivants :
 
 * Extraction des données et du contenu du système de gestion de l’apprentissage (LMS) en place et transformation des données aux formats de fichier définis par Learning Manager.
 * Importation d’utilisateurs à l’aide de connecteurs FTP et BOX. L’administrateur de l’intégration doit s’assurer que les connecteurs sont configurés avant le processus de migration.
@@ -81,44 +81,44 @@ Avant de commencer le processus de migration, vous devez effectuer les prérequi
 
 ***Il est recommandé aux administrateurs d’essayer le processus de migration dans un compte d’évaluation avant de migrer les données et le contenu dans l’environnement de production Learning Manager. ***
 
-### Évaluation et exportation de données {#evaluatingandexportingdata}
+### Évaluation et exportation des données {#evaluatingandexportingdata}
 
-L’administrateur de l’intégration doit d’abord examiner les données disponibles dans le LMS actuel. En tant qu’administrateur de l’intégration, vous pouvez migrer uniquement les objets d’apprentissage suivants :
+L’administrateur de l’intégration doit d’abord examiner les données disponibles dans le LMS actuel. En tant qu’administrateur de l’intégration, vous pouvez migrer uniquement les objets d’apprentissage suivants :
 
 * Module
 * Cours
 * Version du module
-* Instance de cours
-* Module Cours
+* Instance du cours
+* Module du cours
 * Compétences
 * Niveau de compétence
-* Cours de compétences
+* Cours de compétence
 * Certification
 * Cours de certification
 * Validation de certification
 * Programme d’apprentissage
-* Cours du programme d’apprentissage
-* Instance de programme d&#39;apprentissage
-* Instance de cours du programme d&#39;apprentissage
+* Cours de programme d’apprentissage
+* Instance du programme d’apprentissage
+* Instance de cours de programme d’apprentissage
 * Inscriptions
-* Inscription à la certification
-* Inscription au programme d&#39;apprentissage
+* Inscription à une certification
+* Inscription à un programme d’apprentissage
 * Notes de cours de l’utilisateur
 
 
 
-Après avoir évalué vos données existantes, vous devez mapper ces données avec les spécifications CSV standard dans Learning Manager. Téléchargez l’exemple suivant ***csv-specifications.zip*** fichier qui contient sept feuilles excel requises pour cette migration. Ces feuilles Excel contiennent des spécifications avec des descriptions pour vous permettre de comprendre comment mapper les données existantes avec les champs dans les fichiers .csv.
+Après avoir évalué vos données existantes, vous devez mapper ces données avec les spécifications CSV standard dans Learning Manager. Téléchargez le fichier d&#39;exemple ***csv-specifications.zip*** suivant qui contient sept feuilles Excel requises pour cette migration. Ces feuilles Excel contiennent des spécifications avec des descriptions pour vous permettre de comprendre comment mapper les données existantes avec les champs dans les fichiers .csv.
 
 <!--
 <Download link to the zip file>
 -->
 
-Assurez-vous que chaque fichier .csv contient les données de chaque champ au format prescrit :
+Assurez-vous que chaque fichier .csv contient les données de chaque champ au format prescrit :
 
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>Non.</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>N°</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Nom de la feuille Excel</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Description du contenu</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Notes</strong></p></th> 
@@ -133,13 +133,13 @@ Assurez-vous que chaque fichier .csv contient les données de chaque champ au fo
    <td><p>2</p></td> 
    <td><p>course.xlsx</p></td> 
    <td><p>Métadonnées pour course.csv</p></td> 
-   <td><p>Mentionnez un seul nom d'auteur pour un cours donné, car parfois plusieurs noms d'auteurs ne s'affichent pas correctement dans l'application après la migration. </p></td> 
+   <td><p>Indiquez un seul nom d’auteur pour un cours donné dans la mesure où les noms d’auteurs multiples s’affichent parfois de manière incorrecte dans l’application après la migration. </p></td> 
   </tr> 
   <tr> 
    <td><p>3</p></td> 
    <td><p>module_version.xlsx </p></td> 
    <td><p>Métadonnées pour module_version.csv</p></td> 
-   <td><p>Assurez-vous de fournir le chemin d’accès URL du dossier du compte Box dans lequel vous avez chargé le contenu. </p></td> 
+   <td><p>Veillez à fournir le chemin d’accès URL au dossier du compte Box dans lequel vous avez chargé le contenu. </p></td> 
   </tr> 
   <tr> 
    <td><p>4</p></td> 
@@ -235,7 +235,7 @@ Assurez-vous que chaque fichier .csv contient les données de chaque champ au fo
    <td><p>19</p></td> 
    <td><p>User_course_grade.xlsx</p></td> 
    <td><p>Métadonnées pour User_course_grade.csv</p></td> 
-   <td><p>Fournissez les données des dossiers d’élève requises dans le fichier .csv même si elles ne sont pas obligatoires. Sans ces informations, même si le fichier .csv est traité pour la migration, l’application Learning Manager peut ne pas refléter de données. </p></td> 
+   <td><p>Fournissez les données de dossiers d’élèves requises dans le fichier .csv même si elles ne sont pas obligatoires. Sans ces informations, même si le fichier .csv est traité pour la migration, l’application Learning Manager peut ne pas indiquer les données. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -244,20 +244,20 @@ Assurez-vous que chaque fichier .csv contient les données de chaque champ au fo
 
 ### Dépendances lors de l’importation de données dans des fichiers csv {#dependencieswhileimportingdatatocsvfiles}
 
-Lorsque vous importez les données existantes au format csv standard, tenez compte des dépendances suivantes :
+Lorsque vous importez les données existantes au format csv standard, tenez compte des dépendances suivantes :
 
-* module_version.csv dépend de module.csv
-* course_instance.csv dépend de course.csv
-* course_module.csv dépend de course.csv, module.csv et module_version.csv
-* course_instance.csv dépend de course.csv
-* enrollment.csv dépend de course.csv
-* user_course_grade.csv dépend de course.csv et module.csv
+* Le fichier module_version.csv dépend du fichier module.csv
+* Le fichier course_instance.csv dépend du fichier course.csv
+* Le fichier course_module.csv dépend des fichiers course.csv, module.csv et module_version.csv
+* Le fichier course_instance.csv dépend du fichier course.csv
+* Le fichier enrollment.csv dépend du fichier course.csv
+* Le fichier user_course_grade.csv dépend des fichiers course.csv et module.csv
 * skill_course.csv dépend de course.csv
 * skill_level.csv dépend de skill.csv
 * learning_program_instance.csv dépend du programme d’apprentissage et de learning_program_course.csv
 * learning_program_course.csv dépend de learning_program.csv
 * learning_program_enrollment.csv dépend du programme d’apprentissage et de learning_program_instance.csv
-* learning_program_instance_course_instance.csv dépend de learning_program.csv, learning_program_instance.csv et course_instance.csv
+* learning_program_instance_course_instance.csv dépend de learning_program.csv, learning_program_instance.csv et de course_instance.csv
 * certification_course.csv dépend de certification.csv et course.csv
 * certification_commit.csv dépend de certification.csv et certification_course.csv
 * certification_enrollment.csv dépend de certification.csv, certification_course.csv et certification_enrollment.csv
@@ -268,13 +268,13 @@ Après avoir exporté les données, enregistrez les fichiers .csv sur votre ordi
 
 ## Configuration des dossiers FTP et BOX pour la migration {#setupftpandboxfoldersforthemigration}
 
-Avant de planifier et de commencer la migration réelle de tout le contenu, vous devez d’abord configurer les dossiers FTP et BOX. Vous avez besoin de ces dossiers pour déposer vos fichiers .csv dans ces dossiers. Une fois que votre contenu hérité, sous forme de fichiers .csv, est disponible dans les dossiers FTP et BOX, Learning Manager peut utiliser les données.
+Avant de planifier et de commencer la migration réelle de tout le contenu, vous devez d’abord configurer les dossiers FTP et BOX. Vous devez disposer de ces dossiers pour déposer vos fichiers .csv dans ces dossiers. Une fois que votre contenu hérité, sous forme de fichiers .csv, est disponible dans les dossiers FTP et BOX, Learning Manager peut utiliser les données.
 
 ### Configuration d’un compte FTP {#setupanftpaccount}
 
-Dans la page Accueil de l’administrateur d’intégration, cliquez sur **[!UICONTROL ** Demande de dossier FTP CSV **.]** Dans la boîte de dialogue contextuelle qui s’affiche, entrez votre ID de messagerie. Passez par l’assistant en ligne pour créer le compte FTP Exavault. Dès que vous avez créé votre compte, vous pouvez afficher vos dossiers de projet de migration et de sprint sur le FTP Exavault.
+Dans la page Accueil de l’administrateur d’intégration, cliquez sur **[!UICONTROL ** Demande de dossier FTP CSV **.]** Dans la boîte de dialogue contextuelle qui s’affiche, entrez votre ID de messagerie. Accédez à l’assistant en ligne pour créer le compte FTP Exavault. Dès que vous avez créé votre compte, vous pouvez afficher vos dossiers de projet de migration et de sprint sur le FTP Exavault.
 
-Consultez un exemple d’instantané des fichiers de projet et du dossier ExaVault comme indiqué ici :
+Consultez un exemple d’instantané des fichiers de projet et du dossier d’ExaVault, comme illustré ici :
 
 ![](assets/set-up-an-ftp-account.png)
 
@@ -282,7 +282,7 @@ Lorsque vous avez configuré avec succès le dossier FTP, le système affiche le
 
 ## Configuration d’un compte BOX {#setupaboxaccount}
 
-Pour créer un compte BOX et configurer un dossier BOX, procédez comme suit :
+Pour créer un compte BOX et configurer un dossier BOX, procédez comme suit :
 
 Dans la page d’accueil de l’administrateur d’intégration, sélectionnez Migration.
 
@@ -290,11 +290,11 @@ Dans la section Configuration, cliquez sur Demander un dossier Box.
 
 ![](assets/set-up-a-box-account.png)
 
-Dans le panneau ****[!UICONTROL Saisir l’adresse e-mail]**** , saisissez l’ID de messagerie dans lequel vous souhaitez recevoir les instructions de connexion pour vous connecter à Box.
+Dans le champ ****[!UICONTROL Entrer l’adresse électronique]****, entrez l’ID de messagerie dans lequel vous souhaitez recevoir les instructions de connexion pour vous connecter à Box.
 
 Cliquez sur **[!UICONTROL ** Se connecter **.]**
 
-Vous recevrez un e-mail de Box avec un lien vers le dossier partagé. Si vous n’avez pas de compte Box, cliquez sur S’abonner et créez un compte. Les instructions de connexion sont ensuite envoyées à l’ID de messagerie de l’administrateur de l’intégration.
+Vous recevrez un courrier électronique depuis Box contenant un lien vers le dossier partagé. Si vous n’avez pas de compte Box, cliquez sur S’inscrire et créez un compte. Les instructions de connexion sont ensuite envoyées à l’ID de messagerie de l’administrateur d’intégration.
 
 Après avoir enregistré la connexion, la page de migration affiche le message suivant : « La configuration du dossier Box est terminée ».
 
@@ -302,26 +302,26 @@ Après avoir enregistré la connexion, la page de migration affiche le message s
 
 Avant de commencer la migration, il est important de noter les points suivants :
 
-* Un seul projet de migration peut être actif dans un compte à un moment donné. Dans un projet, un seul sprint peut être actif à un moment donné.
-* Vous ne pouvez pas annuler une exécution déjà en cours. Cependant, vous pouvez utiliser l’option de suppression existante dans chaque fonctionnalité de Learning Manager pour annuler toute migration de données ou de contenu.
+* Un compte ne peut contenir qu’un seul projet de migration actif à un moment donné. Un compte ne peut contenir qu’un seul sprint actif dans un projet à un moment donné.
+* Vous ne pouvez pas annuler une exécution faisant déjà partie du processus de Vous pouvez néanmoins utiliser l’option Supprimer existante dans chaque fonctionnalité de Learning Manager pour annuler la migration des données et du contenu.
 
 Dès que le projet de migration démarre, le projet passe à l’état « Migration en cours ». Dans cet état, aucun autre utilisateur que l’administrateur de l’intégration ne peut se connecter à Learning Manager.
 
-Charger le contenu de formation vers les dossiers de contenu :
+Charger le contenu de formation vers les dossiers de contenu :
 
-Dans la page Accueil de l’administrateur d’intégration, cliquez sur **[!UICONTROL Migration.]**
+Dans la page d’accueil de l’administrateur d’intégration, cliquez sur **[!UICONTROL Migration.]**
 
-Dans la page d’accueil de la migration, le système affiche les projets de migration déjà créés dans votre organisation.
+Dans la page d’accueil de la migration, le système affiche les projets de migration déjà créés dans votre entreprise.
 
 Cliquez sur **[!UICONTROL **Nouveau**]**dans le coin supérieur droit de la page, pour créer un projet de migration.
 
 ***Si vous n’avez pas encore créé de dossier FTP, vous serez invité à créer un compte Exavault pour le dossier FTP. Cette étape est obligatoire avant de commencer à créer un projet de migration. ***
 
-Dans le panneau ****[!UICONTROL Créer un projet de migration]**** , spécifiez le nom de votre projet.
+Dans la page ****[!UICONTROL Créer un projet de migration]****, indiquez le nom de votre projet.
 
 ![](assets/migrating-the-content-1.png)
 
-Spécifiez une balise pour votre projet, le catalogue de cours et fournissez une description pour le projet de migration. Les éléments de données de migration sont identifiés à l’aide de la balise de projet de migration. Si vous n’avez pas de catalogue de cours spécifique, choisissez le catalogue par défaut dans la liste déroulante, tous les cours que vous migrez à l’aide d’un projet de migration seront inclus dans le catalogue que vous choisissez à ce stade. Si vous ne choisissez aucun catalogue, tous les cours migrés feront partie du catalogue par défaut.
+Spécifiez une balise pour votre projet, le catalogue de cours et fournissez une description pour le projet de migration. Les éléments de données de la migration sont identifiés à l’aide de la balise de projet de migration. Si vous n’avez pas de catalogue de cours spécifique, choisissez le catalogue par défaut dans la liste déroulante, tous les cours que vous migrez à l’aide d’un projet de migration seront inclus dans le catalogue que vous choisissez à ce stade. Si vous ne sélectionnez pas de catalogue, tous les cours migrés seront affichés dans le catalogue par défaut.
 
 Cliquez sur **[!UICONTROL Créer.]**
 
@@ -343,28 +343,28 @@ Cliquez sur **[!UICONTROL **Début**]**pour démarrer la migration Sprint avec v
 
 Cliquez sur ****.[!UICONTROL Arrêter]****à tout moment au cours du processus de migration de sprint, pour interrompre la migration de sprint.
 
-Le système affiche l’état de la migration par rapport à chacun des éléments de données sprint et de leur contenu. Vérifiez le nombre d’éléments ayant réussi et échoué lors de l’exécution du sprint de migration.
+Le système affiche l’état de la migration par rapport à chacun des éléments de données sprint et de leur contenu. Vérifiez le nombre d’éléments ayant réussi et échoué dans le cadre de l’exécution du sprint de migration.
 
-Si vous chargez le contenu du module, assurez-vous que le chemin du dossier de contenu est fourni dans le fichier *module_version.csv *. Si vous manquez cette étape, vous risquez de subir des erreurs lors de la migration. Par exemple, si vous chargez un contenu de module en auto-apprentissage, tel que des vidéos, vous devez spécifier le chemin URL Box relatif dans le fichier *module_version.csv *.
+Si vous chargez le contenu du module, assurez-vous que le chemin du dossier de contenu est fourni dans le fichier *module_version.csv *. Si vous ne réalisez pas cette étape, des erreurs peuvent survenir au cours de la migration. Par exemple, si vous chargez un contenu de module en auto-apprentissage, tel que des vidéos, vous devez spécifier le chemin URL Box relatif dans le fichier *module_version.csv *.
 
-Un exemple d’instantané de la progression de la migration est fourni ci-dessous à titre de référence. Comme le montre l&#39;instantané, vous pouvez afficher le nombre d&#39;enregistrements traités pour chaque élément de données de migration, ainsi que l&#39;état des éléments ayant réussi et échoué. Cliquez sur Télécharger les enregistrements d’erreur correspondant aux éléments en échec pour télécharger et afficher les journaux d’erreurs. Vous pouvez résoudre les problèmes dans le fichier CSV et le charger à nouveau par FTP.
+Un exemple de capture d’écran de la boîte de dialogue de progression est fourni ci-dessous pour référence. Comme le montre la capture d’écran, vous pouvez consulter le nombre d’enregistrements traités pour chaque élément de données de migration ainsi que l’état des éléments ayant réussi et échoué. Cliquez sur Télécharger les enregistrements d’erreur à côté des éléments ayant échoué pour télécharger et visionner les journaux d’erreurs. Corrigez les problèmes dans les CSV et téléchargez-les de nouveau sur le serveur FTP.
 
 ![](assets/migrating-the-content-4.png)
 
-Pour afficher la liste de tous les sprints d’un projet de migration, cliquez sur **[!UICONTROL **Sprint**]** dans le volet de navigation de gauche. Vous pouvez afficher une liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme illustré dans l’exemple de capture d’écran ci-dessous.
+Pour afficher la liste de tous les sprints d’un projet de migration, cliquez sur **[!UICONTROL **Sprint**]** dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
 
 ![](assets/migrating-the-content-5.png)
 
-Pour afficher la liste de tous les sprints d’un projet de migration, cliquez sur **[!UICONTROL **Sprint**]** dans le volet de navigation de gauche. Vous pouvez afficher une liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme illustré dans l’exemple de capture d’écran ci-dessous.
+Pour afficher la liste de tous les sprints d’un projet de migration, cliquez sur **[!UICONTROL **Sprint**]** dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
 
-Pour afficher la liste de tous les sprints d’un projet de migration, cliquez sur **[!UICONTROL **Sprint**]** dans le volet de navigation de gauche. Vous pouvez afficher une liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme illustré dans l’exemple de capture d’écran ci-dessous.
+Pour afficher la liste de tous les sprints d’un projet de migration, cliquez sur **[!UICONTROL **Sprint**]** dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
 
-***Avant de marquer le projet de migration comme terminé, assurez-vous que tous les sprints du projet sont terminés. Une fois que vous avez marqué le projet de migration comme terminé, vous ne pouvez plus revenir en arrière et créer des sprints dans ce projet. Vous ne pouvez pas modifier ce projet. Vous pouvez uniquement créer un autre projet de migration et y ajouter des sprints.***
+***Avant de marquer le projet de migration comme terminé, assurez-vous que tous les sprints du projet sont terminés. Une fois que vous avez marqué le projet de migration comme terminé, vous ne pouvez pas revenir en arrière et créer des sprints dans ce projet. Vous ne pouvez pas apporter de modifications à ce projet. Vous pouvez uniquement créer un autre projet de migration et y ajouter des sprints.***
 
-Après avoir migré les données et le contenu d’apprentissage à partir du LMS hérité de votre entreprise, vérifiez si les données et le contenu sont importés correctement. Vous pouvez vérifier en vous connectant en tant qu’administrateur et en vérifiant la disponibilité des données et du contenu des modules et cours importés
+Après avoir migré les données et le contenu d’apprentissage à partir du LMS hérité de votre entreprise, vérifiez si les données et le contenu sont importés correctement. Vous pouvez vérifier en vous connectant en tant qu’administrateur et en vérifiant la disponibilité des modules et cours importés, des données et du contenu
 
-Pour obtenir des ressources utiles sur la migration, reportez-vous aux sections suivantes :
+Pour obtenir des ressources utiles sur la migration, reportez-vous aux sections suivantes :
 
-* Dépannage des problèmes de migration
-* FAQ sur le chargement de fichiers CSV
+* Résolution des problèmes de migration
+* FAQ sur le chargement des fichiers CSV
 

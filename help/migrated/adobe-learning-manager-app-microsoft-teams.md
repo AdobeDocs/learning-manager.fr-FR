@@ -1,37 +1,37 @@
 ---
-description: Adobe de l’application Learning Manager pour les Microsofts Teams
+description: Application Adobe Learning Manager pour Microsoft Teams
 jcr-language: en_us
-title: Adobe de l’application Learning Manager pour les Microsofts Teams
+title: Application Adobe Learning Manager pour Microsoft Teams
 contentowner: saghosh
 source-git-commit: 81dd3cecf7393c08434a70e15457d967a56df8d3
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
 
-# Adobe de l’application Learning Manager pour les Microsofts Teams
+# Application Adobe Learning Manager pour Microsoft Teams
 
 ## Configuration
 
-La configuration d’ALM sur MS Teams implique trois étapes et nécessite l’aide de l’administrateur ALM et de l’administrateur Microsoft Azure. Dans certaines organisations, les administrateurs Azure et MS Teams ne sont pas les mêmes et nécessitent donc des administrateurs MS Teams supplémentaires.
+La configuration d’ALM sur MS Teams comprend trois étapes et nécessite l’assistance de l’administrateur ALM et de l’administrateur Microsoft Azure. Dans certaines organisations, l’administrateur Azure et les administrateurs MS Teams ne sont pas les mêmes personnes. Par conséquent, des administrateurs MS Teams supplémentaires sont également nécessaires.
 
 **Administrateur ALM : le rôle Administrateur d’intégration approuve l’application Teams**
 
-Une fois que l’administrateur d’intégration a approuvé l’application MS Teams, l’application Adobe Learning Manager est disponible dans la boutique d’applications MS Teams et vos élèves peuvent y accéder. Cependant, l’application n’aura pas de notifications, de connexion silencieuse et l’application ne sera pas épinglée pour les élèves dans MS Teams.
+Une fois que l’administrateur d’intégration a approuvé l’application MS Teams, l’application Adobe Learning Manager est disponible dans la boutique d’applications MS Teams et vos élèves peuvent y accéder. Cependant, l’application ne recevra pas de notifications, ne se connectera pas en mode silencieux et ne sera pas épinglée pour les élèves dans MS Teams.
 
 **L’administrateur Microsoft Azure approuve l’autorisation pour l’application ALM dans le tableau de bord Azure**
 
-L’administrateur Azure devra approuver les autorisations requises pour l’application ALM. Cela permettra à cette application ALM d’envoyer des notifications à MS Teams et d’autoriser la connexion silencieuse. Dans le cas d’une connexion silencieuse, les utilisateurs n’ont pas besoin de se connecter séparément à Adobe Learning Manager sur le navigateur.
+L’administrateur Azure devra approuver les autorisations requises pour l’application ALM. Cela permet à cette application ALM d’envoyer des notifications à MS Teams et de se connecter en mode silencieux. Lors d’une connexion en mode silencieux, les utilisateurs n’ont pas besoin de se connecter séparément à Adobe Learning Manager dans le navigateur.
 
 **L’administrateur MS Teams crée une stratégie pour les équipes ALM**
 
-L’administrateur MS Teams dans son centre d’administration doit épingler l’application ALM pour tous ses utilisateurs et l’autoriser en tant que stratégie globale. Si ALM n’est utilisé que par un certain groupe de la société, l’administrateur de MS Teams doit choisir une stratégie personnalisée et l’appliquer à ce groupe spécifique uniquement.
+L’administrateur MS Teams doit, dans son centre d’administration, épingler l’application ALM pour tous ses utilisateurs et l’autoriser en tant que stratégie globale. Dans le cas où ALM n’est utilisé que par un certain groupe dans l’entreprise, l’administrateur MS Teams doit choisir une stratégie personnalisée et l’appliquer uniquement à ce groupe spécifique.
 
 ## Le rôle d’administrateur d’intégration approuve l’application Teams
 
-Procédez comme suit :
+Procédez comme suit :
 
 1. Dans l’application Integration Administrator, sélectionnez **[!UICONTROL Applications]** > **[!UICONTROL Applications fournies]**, puis sélectionnez **[!UICONTROL Application ALM Teams]**.
 
@@ -55,9 +55,9 @@ Procédez comme suit :
 
 Les utilisateurs peuvent désormais accéder à l’application ALM sur MS Teams.
 
-## L’administrateur Microsoft Azure approuve l’autorisation pour l’application ALM dans le tableau de bord Azure
+## L’administrateur Microsoft Azure approuve l’autorisation pour l’application ALM dans le tableau de bord Azure
 
-Procédez comme suit :
+Procédez comme suit :
 
 1. En tant qu’administrateur Azure, accédez à la section Gérer Azure Active Directory dans le tableau de bord Azure.
 
@@ -100,21 +100,21 @@ Procédez comme suit :
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
    *L’accès est accordé*
 
-## L’administrateur MS Teams crée une stratégie pour l’application Teams
+## L’administrateur MS Teams crée une stratégie pour les équipes Teams
 
-Procédez comme suit :
+Procédez comme suit :
 
 1. En tant qu’administrateur MS Teams, dans le Centre d’administration, créez une politique pour ajouter l’application Équipes à l’application Équipes de vos élèves.
 
    ![](assets/microsoft_teams_admin_center.png)
    *Création d’une stratégie*
 
-1. Accédez à la section Configurer les stratégies. Créer une stratégie globale et sélectionner **[!UICONTROL Ajout d’applications]** dans la sous-section Applications épinglées.
+1. Accédez à la section Configuration de stratégies. Créer une stratégie globale et sélectionner **[!UICONTROL Ajout d’applications]** dans la sous-section Applications épinglées.
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *Ajouter la stratégie*
 
-1. Dans la boîte de dialogue qui suit, recherchez **[!UICONTROL Adobe Learning Manager]**, puis ajoutez l’application. Cela ajoute Adobe Learning Manager dans la section Applications installées.
+1. Dans la boîte de dialogue qui s’affiche, recherchez **[!UICONTROL Adobe Learning Manager]** et ajoutez l’application. Cela ajoute Adobe Learning Manager dans la section Applications installées.
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
    *Installation de l’application*

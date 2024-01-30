@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Prise en main en tant qu’administrateur
 
-La page de prise en main vous aide à parcourir les principales fonctionnalités de l’application.
+La page Prise en main vous permet de parcourir les principales fonctionnalités de l’application.
 
-Dès que vous vous connectez en tant qu’administrateur, vous pouvez afficher la fenêtre contextuelle avec une liste de vidéos.
+Dès que vous ouvrez une session en tant qu’administrateur, vous pouvez visualiser une fenêtre contextuelle contenant une liste de vidéos.
 
-## Afficher des exemples de vidéos {#viewsamplevideos}
+## Affichage d’exemples de vidéos {#viewsamplevideos}
 
-Parcourez les exemples de tutoriels vidéo pour comprendre les principales fonctionnalités de votre rôle d’administrateur. Si vous ne souhaitez pas que cette fenêtre contextuelle apparaisse lors de la connexion, vous pouvez la désactiver en cliquant sur **[!UICONTROL Ne pas afficher lors de la connexion]** dans le coin inférieur droit de la fenêtre contextuelle.
+Parcourez les didacticiels des exemples de vidéos pour comprendre les principales fonctionnalités de votre rôle en tant qu’administrateur. Si vous ne souhaitez pas que cette fenêtre contextuelle apparaisse lors de la connexion, vous pouvez la désactiver en cliquant sur **[!UICONTROL Ne pas afficher lors de la connexion]** dans le coin inférieur droit de la fenêtre contextuelle.
 
 Cliquez sur **[!UICONTROL Fermer la fenêtre]** pour fermer la fenêtre contextuelle.
 
@@ -28,13 +28,13 @@ Cliquez sur **[!UICONTROL Fermer la fenêtre]** pour fermer la fenêtre contextu
 
 ## Page Prise en main {#gettingstartedpage}
 
-Dans la page de prise en main, vous pouvez effectuer les activités suivantes :
+Depuis la page Prise en main, vous pouvez réaliser les activités suivantes :
 
-* Création de cours
+* Créer des cours
 * Ajouter des utilisateurs
-* Gestion des utilisateurs
+* Gérer les utilisateurs
 * Afficher les rapports
 
-Vous pouvez également en savoir plus sur l’application Learning Manager en consultant les didacticiels vidéo, le contenu de l’aide et découvrir les différents rôles.
+Vous pouvez également en savoir plus sur l’application Learning Manager en consultant les didacticiels vidéo, le contenu de l’aide et découvrir les différents rôles.
 
 <!--![](assets/admin-landing-page-300x204.png)-->

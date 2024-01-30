@@ -1,28 +1,28 @@
 ---
-description: Télécharger le relevé de notes de l’élève et gérer les rapports à l’aide de Learning Manager.
+description: Téléchargez le relevé de notes de l’élève et gérez les rapports à l’aide de Learning Manager.
 jcr-language: en_us
-title: Relevés de notes des élèves
+title: Relevés de notes de l'élève
 contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1910'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
 
 
-# Relevés de notes des élèves
+# Relevés de notes de l&#39;élève
 
-Télécharger le relevé de notes de l’élève et gérer les rapports à l’aide de Learning Manager.
+Téléchargez le relevé de notes de l’élève et gérez les rapports à l’aide de Learning Manager.
 
-Adobe Learning Manager permet aux administrateurs d’une organisation de générer des relevés de notes associés aux élèves.
+Adobe Learning Manager permet aux administrateurs d&#39;une organisation de générer des relevés liés aux élèves.
 
 ## Générer les relevés de notes des élèves {#generatelearnertranscripts}
 
 1. Pour générer les relevés de notes des élèves, cliquez sur **[!UICONTROL Rapports]** dans le volet gauche de la connexion Administrateur.
 
-   L’administrateur accède à l’onglet Rapports Excel dans le panneau **[!UICONTROL Rapports]** page.
+   L’administrateur accède à l’onglet Rapports Excel dans la page **[!UICONTROL Rapports]**.
 
 1. Cliquez sur le lien **[!UICONTROL Relevés de notes des élèves]**.
 
@@ -30,29 +30,29 @@ Adobe Learning Manager permet aux administrateurs d’une organisation de géné
 
    <!--[](assets/learner-transcripts.png)-->
 
-   Une boîte de dialogue Relevés de notes des élèves s’affiche. Choisissez la période pour laquelle vous souhaitez que le relevé de notes soit généré.
+   Une boîte de dialogue concernant les relevés de notes des stagiaires s&#39;affiche. Sélectionnez la plage de dates pour laquelle vous souhaitez générer le relevé de notes.
 
    >[!NOTE]
    >
-   >Par défaut, la date de début est la date d&#39;inscription de l&#39;élève et la date de fin est toujours la date du jour. Vous ne pouvez modifier que la date de début à partir de laquelle vous avez besoin des données.
+   >Par défaut, la date de début est la date d&#39;inscription de l&#39;élève et la date de fin est toujours la date du jour. Vous pouvez modifier la date de départ uniquement à partir du moment où vous avez besoin des données.
 
 1. Choisissez les noms des élèves dans le menu **[!UICONTROL Sélectionner des élèves]** et cliquez sur **[!UICONTROL Générer].**
-1. Vous pouvez choisir un seul élève ou des groupes d’élèves. Pour ajouter plusieurs élèves, cliquez sur **[!UICONTROL Ajouter plus d’élèves]**.
+1. Vous pouvez sélectionner un élève ou un groupe d’élèves. Cliquez **[!UICONTROL Ajouter des élèves]** pour en ajouter davantage.
 
    ![](assets/add-learners-lt.png)
 
    *Ajouter d’autres élèves*
 
-1. Vous pouvez choisir des catalogues spécifiques en activant la case à cocher. La transcription est téléchargée uniquement pour les catalogues spécifiés. Vous pouvez choisir des catalogues spécifiques en sélectionnant le catalogue dans le menu **[!UICONTROL Sélectionner des catalogues]** liste déroulante.
+1. Vous pouvez choisir des catalogues spécifiques en activant la case à cocher. Le relevé de notes est uniquement téléchargé pour les catalogues spécifiés. Vous pouvez choisir des catalogues spécifiques en sélectionnant le catalogue dans le menu **[!UICONTROL Sélectionner des catalogues]** liste déroulante.
 
    ![](assets/select-catalogs-lt.png)
 
-1. Lors de l’exportation des relevés de notes des élèves, une option est disponible : **[!UICONTROL Statut d’inscription]**. Cette liste déroulante contient les options suivantes :
+1. Lors de l’exportation des relevés de notes des élèves, une option est disponible : **[!UICONTROL Statut d’inscription]**. Cette liste déroulante contient les options suivantes :
 
    * Tout sélectionner
    * Terminé
    * En cours
-   * Non commencé
+   * Non démarré
    * Non inscrit
 
    ![](assets/add-enrollment-status-lt.png)
@@ -70,11 +70,11 @@ Adobe Learning Manager permet aux administrateurs d’une organisation de géné
 1. Vous pouvez choisir de télécharger les informations de niveau module dans le relevé de notes de l’élève en activant le paramètre **[!UICONTROL Activer les informations au niveau du module]** case à cocher. Dans ce cas, les noms des modules et le temps passé sur chaque module sont récupérés dans le cadre du relevé de notes si cette option est activée.
 1. Vous pouvez choisir de télécharger les données de compétences et les fiches récapitulatives en activant l’option «**[!UICONTROL Inclure les données sur les compétences et les fiches récapitulatives]** case à cocher.
 
-   Les transcriptions sont générées et téléchargées sur votre ordinateur sous forme de fichiers .csv lorsque les données de compétences ne sont pas incluses. Si la case à cocher Données de compétences est activée, des transcriptions sont générées et téléchargées sur les fichiers .xls.
+   Les relevés de notes sont générés et téléchargés sur votre ordinateur en tant que fichiers .csv lorsque les données de compétences ne sont pas incluses. Si la case Données de compétences est sélectionnée, les relevés de notes sont générés et téléchargés sous forme de fichiers .xls.
 
-## Générer le relevé de notes de l’élève en utilisant le copier-coller
+## Générer le relevé de notes de l’élève à l’aide du copier-coller
 
-La récupération des relevés de notes des élèves devient un processus fastidieux, car il ne peut être obtenu que pour un seul élève ou groupe d’utilisateurs à la fois. Ici, avec la fonctionnalité copier-coller, vous pouvez copier la liste des ID de messagerie des élèves et la coller en une seule fois.
+La récupération des relevés de notes de l’élève devient un processus fastidieux, car il ne peut être obtenu que pour un seul élève ou un seul groupe d’utilisateurs à la fois. Ici, avec la fonction copier-coller, vous pouvez copier la liste des identifiants de messagerie des élèves et la coller en une seule fois.
 
 1. Connectez-vous en tant que **[!UICONTROL Administrateur]** ou **[!UICONTROL Responsable]**.
 1. Accéder à **[!UICONTROL Rapports]** en dessous de **[!UICONTROL Gérer]**, il charge le fichier **[!UICONTROL Activité de l’utilisateur]** page.
@@ -108,7 +108,7 @@ La récupération des relevés de notes des élèves devient un processus fastid
 
    La génération des relevés de notes des élèves peut être combinée pour les ID de messagerie saisis sous les deux **[!UICONTROL Utilisateurs]** et **[!UICONTROL ID de messagerie]** onglet.
 
-## Historique des téléchargements de relevés de notes des élèves {#ltdownload}
+## Historique des téléchargements des relevés de notes des élèves {#ltdownload}
 
 Sur la **[!UICONTROL Relevé de notes de l’élève]** page de téléchargement, pour générer un rapport, lorsque vous cliquez sur le bouton **[!UICONTROL Nouveau]** , la boîte de dialogue Relevés de notes des élèves s’affiche.
 
@@ -118,13 +118,13 @@ Sur la **[!UICONTROL Relevé de notes de l’élève]** page de téléchargement
 
 Cliquez sur **[!UICONTROL Options avancées]** et développez le panneau.
 
-Choisissez les utilisateurs et le catalogue auquel ils appartiennent. Après **[!UICONTROL Générer]** , une boîte de dialogue s’affiche mentionnant le temps approximatif qui sera nécessaire pour télécharger le rapport. Pour générer le rapport, cliquez sur **[!UICONTROL Générer]**.
+Choisissez les utilisateurs et le catalogue auquel ils appartiennent. Après avoir cliqué sur le bouton **[!UICONTROL Générer]**, une boîte de dialogue indiquant le temps de téléchargement approximatif du rapport s’affiche. Pour générer le rapport, cliquez sur **[!UICONTROL Générer]**.
 
 ![](assets/download-learnertranscripts.png)
 
 *Cliquez sur le bouton Générer.*
 
-La transcription est générée en arrière-plan et vous pouvez continuer à effectuer vos tâches dans Learning Manager. Une fois la transcription générée, vous pouvez la télécharger à partir de la liste.
+Le relevé est généré en arrière-plan et vous pouvez poursuivre vos tâches dans Learning Manager. Une fois le relevé généré, vous pouvez le télécharger dans la liste.
 
 En tant qu’administrateur, vous pouvez afficher toutes les transcriptions générées par n’importe qui dans le système.
 
@@ -132,13 +132,13 @@ En tant qu’administrateur, vous pouvez afficher toutes les transcriptions gén
 
 *Affichage de l’historique des téléchargements*
 
-La liste de téléchargement affiche les attributs suivants :
+La liste de téléchargements affiche les attributs suivants :
 
 * **Élèves :** Les élèves/groupes d&#39;élèves dont les relevés de notes doivent être téléchargés.
-* **Données supplémentaires incluses :** Dépend des données supplémentaires que l’administrateur souhaite télécharger à partir de l’option Avancé du modèle Ajouter le relevé de notes de l’élève
+* **Données supplémentaires incluses :** dépend des données supplémentaires que l’administrateur souhaite télécharger depuis l’option Avancé dans le module Ajouter un relevé de notes de l’élève.
 * **Statut :** Téléchargé, en attente ou en cours.
-* **De** et **Pour**: durée des transcriptions à télécharger.
-* **Filtres appliqués :** Si vous avez appliqué les filtres pour le statut d’inscription.
+* **De** et **À** : durée des relevés à télécharger.
+* **Filtres appliqués :** spécifie si vous avez appliqué les filtres pour le statut de l&#39;inscription.
 * **Généré par :** L’ID utilisateur de l’utilisateur Learning Manager qui a demandé le téléchargement.
 * **Statut :** Téléchargé, en attente ou en cours.
 
@@ -152,9 +152,9 @@ Vous pouvez **annuler** le téléchargement à tout moment. Si une tâche est an
 
 ## Données des élèves supprimés {#dataofdeletedlearners}
 
-Vous pouvez inclure les données des élèves supprimés dans la liste Relevé de notes de l’élève. Dans la boîte de dialogue Relevés de notes des élèves, activez l’option **[!UICONTROL Inclure les données des élèves supprimés]**.
+Vous pouvez inclure les données des élèves supprimés dans la liste des relevés de notes des élèves. Dans la boîte de dialogue Relevés de notes des élèves, activez l’option **[!UICONTROL Inclure les données des élèves supprimés]**.
 
-Après avoir activé l’option et cliqué sur **[!UICONTROL Générer]**, les fonctionnalités de données des élèves supprimés dans la page de téléchargement du relevé de notes de l’élève, comme indiqué ci-dessous :
+Après avoir activé l’option et cliqué sur **[!UICONTROL Générer]**, les données des élèves supprimés apparaissent dans la page de téléchargement des relevés de notes des élèves, comme illustré ci-dessous :
 
 ![](assets/deleted-learnersondownloadpage.png)
 
@@ -170,31 +170,31 @@ Sur la **[!UICONTROL Relevés de notes des élèves]** , cliquez sur **[!UICONTR
 
 *Personnalisation des colonnes à exporter*
 
-La personnalisation est autorisée uniquement lorsqu’un utilisateur télécharge le relevé de notes de l’élève au format .CSV. Lors du téléchargement au format .XLSX, la sélection des préférences de colonne ne sera pas respectée et toutes les colonnes par défaut seront exportées.
+La personnalisation n’est autorisée que lorsqu’un utilisateur télécharge le relevé de notes de l’élève au format .CSV. Si le relevé est téléchargé au format .XLSX, la sélection des préférences de colonne ne sera pas respectée, et toutes les colonnes par défaut seront exportées.
 
-## Contenu du fichier de relevé de notes de l’élève {#learnertranscriptfilecontent}
+## Contenu du fichier Relevé de notes des élèves {#learnertranscriptfilecontent}
 
-Un fichier typique de relevé de notes d&#39;élève se compose de six feuilles Excel dans un seul fichier. Les feuilles de relevé de notes de l&#39;élève donnent un aperçu global des données, y compris le nombre d&#39;élèves impliqués par cours, leurs compétences, le pourcentage d&#39;achèvement en fonction du cours ou de l&#39;élève et un tableau de bord de conformité. Voici les tableaux de bord disponibles dans les relevés de notes des élèves :
+Un fichier typique de relevé de notes de l’élève se compose de six feuilles Excel dans un seul fichier. Les feuilles de relevé de notes de l&#39;élève donnent un aperçu global des données, y compris le nombre d&#39;élèves impliqués par cours, leurs compétences, le pourcentage d&#39;achèvement en fonction du cours ou de l&#39;élève et un tableau de bord de conformité. Les tableaux de bord suivants sont disponibles dans les relevés de notes des élèves :
 
 **Relevé de notes de l’élève**
 
-Dans la feuille Excel du relevé de notes de l&#39;élève, ainsi que les détails du profil de l&#39;élève, des détails sur la consommation des objets d&#39;apprentissage sont fournis, tels que la date d&#39;inscription, la date de début, le niveau atteint et le score du quiz obtenu. Si les cours font partie d’un programme d’apprentissage, ils sont répertoriés séparément des détails de consommation des cours individuels.
+Dans la feuille Excel du relevé de notes de l’élève se trouvent des détails d’utilisation des objets d’apprentissage, comme sa date d’inscription, sa date de début, sa note obtenue et son score au quiz, en plus des informations relatives au profil de l’élève. Si les cours font partie d’un programme d’apprentissage, ils sont répertoriés séparément des détails de consommation des cours individuels.
 
 **1- Tableau de bord Activité d’apprentissage**
 
-Dans ce tableau de bord spécifique à l’objet d’apprentissage, vous pouvez afficher le nombre d’élèves par cours, programme d’apprentissage ou certification. Vous pouvez afficher la feuille de progression pour les élèves d&#39;un objet d&#39;apprentissage particulier. Cette feuille affiche des données telles que le nombre d&#39;élèves ayant terminé le cours ou le programme d&#39;apprentissage, les élèves en cours et les dates d&#39;échéance des élèves.
+Dans ce tableau de bord spécifique aux objets d’apprentissage, vous pouvez afficher le nombre d’élèves inscrits à chaque cours, programme d’apprentissage ou certification. Vous pouvez afficher la fiche de progression des élèves suivant un objet d’apprentissage en particulier. Cette fiche présente des données telles que le nombre d’élèves ayant terminé le cours ou le programme d’apprentissage, les élèves en cours d’apprentissage et les échéances des élèves.
 
-La progression des utilisateurs pour le cours spécifique est calculée en fonction des champs de saisie dans lesquels vous spécifiez les seuils d&#39;échéance et de pourcentage de progression. Par exemple, si vous spécifiez 7 jours et 70 % comme valeurs dans votre champ de saisie, la progression du cours pour les cours dont la durée est de 7 jours et pour les cours dont la progression est supérieure à 70 % s&#39;affiche. Vous pouvez également modifier la période dans cette feuille, où les données modifiées s&#39;affichent automatiquement dans ce tableau de bord.
+La progression des utilisateurs pour le cours en question est calculée en fonction des champs de saisie dans lesquels vous spécifiez la date d’échéance et les seuils de pourcentage de progression. Par exemple, si vous spécifiez 7 jours et 70 % en tant que valeurs dans le champ de saisie, la progression s’affiche pour les cours dont la date d’échéance est dans 7 jours et ceux dont la progression est supérieure à 70%. Vous pouvez également modifier la période dans cette feuille. Les données modifiées s’affichent automatiquement dans ce tableau de bord.
 
-**2 - Tableau de bord Activité d’apprentissage**
+**2- Tableau de bord Activité d’apprentissage**
 
-Ce tableau de bord d&#39;apprentissage affiche les données d&#39;un utilisateur spécifique. À partir de ce tableau de bord, vous pouvez voir les cours, programmes d’apprentissage ou certifications auxquels un utilisateur particulier s’est inscrit. Le tableau affiche également des données sur les objets d’apprentissage terminés par l’utilisateur, les objets d’apprentissage en cours et les échéances à venir pour l’utilisateur.
+Ce tableau de bord d’apprentissage affiche les données d’un utilisateur en particulier. Il vous permet de voir les cours, programmes d’apprentissage ou certifications auxquels s’est inscrit un utilisateur spécifique. Le tableau affiche également des données sur les objets d’apprentissage que cet utilisateur a terminés, les objets d’apprentissage en cours et les échéances à venir pour cet utilisateur.
 
-La progression de l’utilisateur pour chaque cours est calculée en fonction des entrées que vous spécifiez. Autrement dit, les valeurs de date d&#39;échéance et de pourcentage d&#39;avancement. Par exemple, si vous spécifiez 7 jours et 70 % comme valeurs dans votre champ de saisie, la progression de l&#39;utilisateur pour les différents cours qui doivent être suivis dans 7 jours et pour les cours dont la progression est supérieure à 70 % s&#39;affiche.
+La progression des utilisateurs pour chaque cours est calculée en fonction des informations saisies, à savoir les valeurs de date d’échéance et de pourcentage de progression. Par exemple, si vous spécifiez 7 jours et 70 % en tant que valeurs dans le champ de saisie, la progression de l’utilisateur s’affiche pour les cours dont la date d’échéance est dans 7 jours et ceux dont la progression est supérieure à 70%.
 
 **Compétence**
 
-Dans la feuille des compétences, le nom de la compétence, le niveau de compétence, les crédits requis, les crédits acquis, le pourcentage d’achèvement et d’autres détails du profil sont fournis. Un exemple de feuille d&#39;excellence des compétences est fourni ci-dessous à titre de référence.
+La feuille Compétences indique le nom des compétences, leur niveau, les crédits requis et acquis, le pourcentage d’achèvement et d’autres informations de profil. Un exemple de capture d’écran de la feuille Excel des compétences est fourni ci-dessous pour référence.
 
 ![](assets/skills-learner-transcript.png)
 
@@ -202,21 +202,21 @@ Dans la feuille des compétences, le nom de la compétence, le niveau de compét
 
 **1- Tableau de bord Compétence**
 
-Dans ce tableau de bord, vous pouvez voir si votre organisation est équipée sur diverses compétences. Pour une compétence spécifique, vous pouvez vérifier le nombre d’utilisateurs d’une organisation qui sont censés avoir cette compétence par rapport au nombre d’utilisateurs qui ont réellement cette compétence. Ce tableau de bord spécifie également les utilisateurs qui doivent actualiser leurs compétences. Cette valeur est calculée en fonction de la saisie que vous saisissez dans le champ Saisie. Par exemple, si vous saisissez 50 jours, le tableau de bord fournit des données sur les utilisateurs dont les compétences doivent être actualisées après 50 jours.
+Dans ce tableau de bord, vous pouvez vérifier si votre entreprise dispose de diverses compétences. Vous pouvez comparer le nombre d’utilisateurs dans une entreprise qui sont censés posséder une compétence spécifique par rapport au nombre d’utilisateurs qui la possèdent réellement. Ce tableau de bord indique également les utilisateurs qui doivent actualiser leurs compétences. Cette valeur est calculée en fonction des informations que vous saisissez dans le champ de saisie. Par exemple, si vous entrez 50 jours, le tableau de bord vous permet d’accéder aux informations sur les utilisateurs qui doivent actualiser leurs compétences dans 50 jours.
 
 **2- Tableau de bord Compétence**
 
-Ce tableau de bord de compétences est plus spécifique à l’utilisateur. Vous pouvez filtrer un utilisateur spécifique ou plusieurs utilisateurs et afficher leur niveau de compétence sous forme de tableau de bord. Cette feuille peut aider les responsables et les administrateurs à suivre le niveau de compétence de chaque élève par rapport au niveau de compétence attendu. Le tableau de bord des compétences met également en lumière les élèves qui doivent actualiser leurs compétences. La liste d&#39;actualisation des élèves est calculée en fonction du nombre de jours que vous saisissez dans le champ de saisie.
+Ce tableau de bord des compétences est davantage axé sur l’utilisateur. Il permet de filtrer un utilisateur spécifique ou plusieurs utilisateurs et de voir leur niveau de compétence sous forme de tableau de bord. Cette fiche peut aider les responsables et les administrateurs à suivre les compétences effectives de chaque élève par rapport aux compétences attendues de celui-ci. Le tableau de bord Compétence permet également de savoir quels élèves ont besoin de se perfectionner. La liste d’actualisation des compétences des élèves est calculée en fonction du nombre de jours que vous entrez dans le champ de saisie.
 
 **Tableau de bord Conformité**
 
-Le tableau de bord de conformité se compose de deux parties : rapport de conformité par utilisateur et rapport de conformité par formation. Pour le rapport basé sur l’utilisateur, vous pouvez utiliser le tableau de bord Conformité pour suivre les utilisateurs qui ont des échéances à venir pour des initiatives de conformité importantes. Pour le rapport basé sur la formation, vous pouvez filtrer par programme d’apprentissage ou certification.
+Ce tableau de bord se compose de deux parties : un rapport de conformité par utilisateur et un rapport de conformité par formation. Pour le rapport basé sur l’utilisateur, vous pouvez utiliser le tableau de bord Conformité pour suivre les utilisateurs ayant des échéances proches pour des initiatives de conformité importantes. Pour le rapport basé sur la formation, vous pouvez filtrer par programme d’apprentissage ou par certification.
 
-Pour les deux rapports de conformité, filtrez par date d&#39;échéance pour afficher les données appropriées.
+Pour ces deux rapports de conformité, filtrez par échéance pour afficher les données adéquates.
 
 ### Colonnes d’heure et de date dans le relevé de notes {#datetime}
 
-Les valeurs des colonnes suivantes ont des minutes arrondies à la minute la plus proche et des secondes à 00 :
+Pour les valeurs des colonnes suivantes, les minutes sont arrondies à la minute la plus proche et les secondes à 00 :
 
 * Date d’inscription (fuseau horaire UTC)
 * Date de début (fuseau horaire UTC)
@@ -234,18 +234,18 @@ Le relevé de notes de l’élève affiche également les colonnes - **[!UICONTR
 
 *Colonnes de durée et d’ID du module dans le relevé de notes*
 
-### AUTRES colonnes du relevé de notes {#ModuledurationandIDcolumnsinthetranscript-1}
+### AUTRES colonnes dans le relevé {#ModuledurationandIDcolumnsinthetranscript-1}
 
 | **Colonne** | **Description** |
 |---|---|
-| Après | Nombre d’élèves qui ont acquis la compétence avant le nombre (valeur) de jours saisi qui doit être actualisé |
+| Après | Nombre d’élèves qui ont acquis la compétence avant le nombre (valeur) de jours saisi qui doivent être actualisés |
 | Compétence | Noms des compétences attribuées aux élèves |
 | Nom du responsable | Nom du responsable dont les données d’engagement des compétences des subordonnés doivent être affichées dans le tableau de résumé des compétences |
-| Libellés de ligne | Nom de l’élève avec la liste des compétences attribuées |
-| Nombre de compétences que chaque utilisateur doit posséder | Nombre de compétences attribuées à l’élève |
+| Libellés de ligne | Nom de l’élève avec la liste des compétences assingées |
+| Nombre de compétences que chaque utilisateur doit posséder | Nombre de compétences assignées à l’élève |
 | Nombre de compétences dont dispose chaque utilisateur | Nombre de compétences acquises par l’élève |
 | Nombre de compétences nécessitant une actualisation | Nombre d’élèves dont la compétence doit être actualisée |
 | Pourcentage de conformité | Pourcentage de progression de la compétence assignée |
 | Chemin incorporé | Ces lignes affichent le nom du programme d’apprentissage intégré. |
-| ID du chemin incorporé | Ces lignes affichent les ID du programme d’apprentissage intégré |
+| ID du parcours intégré | Ces lignes affichent les ID du programme d’apprentissage intégré |
 | Langue du chemin incorporé | Ces lignes affichent la langue dans laquelle le programme d’apprentissage a été créé. |

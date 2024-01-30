@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Les boutons de sélection n’apparaissent pas dans Learning Manager
 
-## Problème
+## Le problème 
 
 En raison de boutons radio manquants, un administrateur ne peut pas effectuer les opérations suivantes (liste non exhaustive) :
 
-* Attribuez ou supprimez des rôles.
-* Envoyez un e-mail de bienvenue.
+* Affecter ou supprimer des rôles.
+* Envoyer un e-mail de bienvenue.
 * Supprimer un utilisateur.
 
 ## Cause
@@ -32,15 +32,15 @@ Le problème se produit en raison de thèmes incorrects dans le compte.
 
 ## Résolution
 
-Rechargez les thèmes et corrigez l’apparence des boutons radio. Effectuez les étapes suivantes :
+Rechargez les thèmes et corrigez l’apparence des boutons radio. Procédez comme suit :
 
-1. En tant qu’administrateur, cliquez sur **[!UICONTROL Branding]**.
+1. En tant qu’administrateur, cliquez sur **[!UICONTROL Identité visuelle]**.
 1. Dans le panneau **Thèmes** section, cliquez sur **[!UICONTROL Modifier].**
-1. Choisissez un thème et enregistrez les modifications.
+1. Sélectionnez un thème et enregistrez les modifications.
 
    ![](assets/set-themes.png)
 
    *Sélectionner un thème*
 
-1. Revenez au thème précédent et enregistrez les modifications.
+1. Rétablir le thème précédent et enregistrez les modifications.
 1. Déconnectez-vous d’Adobe Learning Manager et reconnectez-vous.

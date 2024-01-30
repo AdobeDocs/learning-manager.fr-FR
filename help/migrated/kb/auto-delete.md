@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 61%
 
 ---
 
@@ -22,11 +22,11 @@ Un utilisateur est supprimé de Learning Manager, mais l’administrateur n’a 
 
 Dans Adobe Learning Manager, une option permet de supprimer un utilisateur s’il ne s’est pas connecté au système depuis un certain temps.
 
-## Comment modifier/appliquer le paramètre ?
+## Comment modifier/appliquer le paramètre ?
 
 ### Pour les élèves internes
 
-1. Connectez-vous en tant que **Administrateur**.
+1. Connectez-vous en tant qu’**administrateur**.
 1. Sous **Configurer**, cliquez sur **Paramètres** > **Généralités**.
 1. Dans la page Paramètres généraux, recherchez l’option **Supprimer automatiquement les utilisateurs internes**.
 1. Cliquez sur **[!UICONTROL Modifier]** pour saisir le nombre de jours dans le champ, pour supprimer automatiquement un élève s’il n’a pas accédé au système.
@@ -42,13 +42,13 @@ Dans Adobe Learning Manager, une option permet de supprimer un utilisateur s’i
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour conserver les paramètres définis.
 
-### Pour les élèves externes :
+### Pour les élèves externes :
 
-1. Connectez-vous en tant que **Administrateur**.
+1. Connectez-vous en tant qu’**administrateur**.
 1. Sous **Gérer**, cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Externe]**.
 1. Cliquez sur le nom d’un utilisateur externe pour lequel le paramètre doit être appliqué.
 
-   Cette action ouvre le panneau **Modifier le profil d&#39;inscription externe** fenêtre.
+   La fenêtre **Modifier un profil d’inscription externe** s’ouvre.
 
 1. Cliquez sur **[!UICONTROL Paramètres avancés]** en bas à gauche.
 

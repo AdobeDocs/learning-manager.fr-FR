@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -20,13 +20,13 @@ Un programme d’apprentissage est automatiquement retiré.
 
 ## Cause
 
-Dans certaines situations, un programme d’apprentissage a été retiré sans qu’un administrateur/auteur ait explicitement mis hors service le programme d’apprentissage.
+Dans certaines situations, un programme d’apprentissage est retiré sans qu’un administrateur/auteur ait explicitement demandé ce retrait.
 
-Ce problème se produit car un programme d’apprentissage est un ensemble de cours. Les formations de niveau supérieur sont retirées si l’un de leurs cours contient une instance retirée ou si l’instance de cours est retirée.
+Ce problème vient du fait qu’un programme d’apprentissage représente un ensemble de cours. Les formations de niveau supérieur sont retirées si l’un de leurs cours contient une instance qui a été retirée, ou si l’instance du cours est retirée.
 
 ## Résolution
 
-Pour vérifier le cours qui contient une instance retirée, procédez comme suit :
+Pour vérifier le cours contenant une instance qui a été retirée, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur et lancez le programme d’apprentissage correspondant.
 
@@ -44,7 +44,7 @@ Pour vérifier le cours qui contient une instance retirée, procédez comme suit
 
    *Modifier la date d&#39;achèvement d&#39;un cours*
 
-1. Une fois l’opération terminée, cliquez sur la liste déroulante comme indiqué dans l’image ci-dessous. Cliquez ensuite sur **[!UICONTROL Rouvrir l’instance]**.
+1. Lorsque vous avez terminé, cliquez sur la liste déroulante comme indiqué dans l’image ci-dessous. Cliquez ensuite sur **[!UICONTROL Rouvrir l’instance]**.
 
    ![](assets/re-open-instance.png)
 

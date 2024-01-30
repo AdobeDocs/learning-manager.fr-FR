@@ -4,7 +4,7 @@ description: Le portail natif d’Adobe Learning Manager prend en charge un mode
 source-git-commit: aef2dfe9d6f49dcccaf1f71b57ffa25a3075efe8
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
@@ -14,7 +14,7 @@ Le portail natif d’Adobe Learning Manager prend en charge un mode d’accès n
 
 L’expérience hors connexion permet aux élèves de parcourir les cours sans être connectés à un portail.
 
-Pour que la page d’accueil hors connexion soit activée, l’administrateur de l’intégration doit activer et configurer le paramètre [Connecteur de données de formation](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access).
+Pour que la page d’accueil hors connexion soit activée, l’administrateur de l’intégration doit activer et configurer le [Connecteur de données de formation](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access).
 
 La formation peut ensuite être exportée à partir du connecteur.
 
@@ -72,6 +72,6 @@ Toutes les formations exportées seront présentes.
 * Évaluation par étoiles/efficacité.
 * Paramètre d’icône de carte.
 * Définition des compétences et des balises pertinentes.
-* Vue de l’application de l’élève affichée au niveau du catalogue.
-* Pages de présentation de la formation : cliquez sur la carte pour rediriger vers Inscription, après quoi un utilisateur est redirigé vers la page de présentation de la formation/page d’instance.
-* Tous les catalogues activés seront présents. Tout élève n’ayant pas accès à un catalogue ne peut pas voir le catalogue et la formation qu’il contient après s’être connecté.
+* Vue de l&#39;application de l&#39;élève affichée dans le catalogue.
+* Pages de présentation de la formation : cliquez sur la carte pour rediriger vers Inscription, après quoi un utilisateur est redirigé vers la page de présentation de la formation/page d’instance.
+* Tous les catalogues activés seront présents. Tout élève n’ayant pas accès à un catalogue ne peut pas le voir ni y suivre la formation après s’être connecté.

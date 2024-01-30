@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -18,7 +18,7 @@ Dans ce document, vous apprendrez à intégrer Adobe Learning Manager à Okta Ac
 
 * Vérifier et contrôler l’accès de l’utilisateur Learning Manager dans Okta AD.
 * Permettre aux utilisateurs d’être automatiquement connectés à Adobe Learning Manager avec leurs comptes Okta AD.
-* Gérez vos comptes dans un emplacement central : le portail Okta.
+* Gérer vos comptes dans un emplacement central : le portail Okta.
 
 Adobe Learning Manager prend en charge l’authentification unique initiée par le fournisseur d’identité (IdP) et le fournisseur de services (SP).
 
@@ -51,15 +51,15 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 
    *Saisissez le nom de l’application*
 
-1. Effectuez les étapes suivantes sur la page Configurer les paramètres SAML :
+1. Effectuez les étapes suivantes sur la page Configurer les paramètres SAML :
 
    **Pour la configuration du FI :**
 
    1. Dans le champ URL d’authentification unique, saisissez l’URL : [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. Dans le champ URL de l’audience, saisissez l’URL : [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. Dans le panneau **Format d’ID de nom** liste déroulante, sélectionnez **Adresse e-mail**.
-   1. Dans le panneau **Nom d’utilisateur de l’application** dans la liste déroulante, sélectionnez Nom d’utilisateur Okta.
-   1. Si vous souhaitez transmettre des attributs supplémentaires, vous pouvez ajouter les attributs sous la rubrique **Attributes, instruction** (Facultatif)
+   1. Dans la liste déroulante **Nom d&#39;utilisateur de l&#39;application**, sélectionnez Nom d&#39;utilisateur Okta.
+   1. Si vous souhaitez transmettre des attributs supplémentaires, vous pouvez ajouter les attributs sous l&#39;**Instruction Attributes** (Facultatif)
 
    ![](assets/cp-saml-integration-step1.png)
 
@@ -69,15 +69,15 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 
    1. Dans le champ URL d’authentification unique, saisissez l’URL : [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. Dans le champ URL de l’audience, saisissez l’URL : [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. Dans la liste déroulante Format d’ID de nom, sélectionnez **Adresse e-mail**.
+   1. Dans la liste déroulante Format d’ID de nom, sélectionnez **Adresse électronique**.
    1. Dans la liste déroulante Application, sélectionnez Nom d’utilisateur Okta.
    1. Cliquez sur **Afficher les paramètres avancés**.
    1. Sous **Algorithme de signature**, sélectionnez RSA-SHA256
-   1. Dans le panneau **Algorithme d&#39;assertion**, sélectionnez SHA256
-   1. Dans le panneau **Chiffrement d&#39;assertion** dropbox, sélectionner **Chiffré**.
+   1. Dans l&#39;**algorithme d&#39;assertion**, sélectionnez SHA256.
+   1. Dans la boîte de dialogue **Chiffrement d&#39;assertion**, sélectionnez **Chiffrement chiffré**.
 
-   1. Dans le panneau **Certificat de chiffrement** , téléchargez le fichier de certificat partagé par Adobe.
-   1. Si vous souhaitez transmettre des attributs supplémentaires, vous pouvez ajouter les attributs sous la rubrique **Attributes, instruction** (Facultatif)
+   1. Dans l&#39;option **Certificat de chiffrement**, chargez le fichier de certificat partagé par Adobe.
+   1. Si vous souhaitez transmettre des attributs supplémentaires, vous pouvez les ajouter sous l&#39;**Instruction Attributs** (Facultatif).
 
    ![](assets/cp-saml-integration-step2.png)
 
@@ -91,7 +91,7 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 
    *Terminer la configuration SAML*
 
-## Extraction de l’URL et du fichier de métadonnées initiés par l’IDP
+## Extraction du fichier d’URL et de métadonnées initié par l’IDP
 
 Pour afficher l’URL et le fichier de métadonnées initiés par l’IdP/SP, effectuez les étapes ci-dessous :
 
@@ -107,15 +107,15 @@ Pour afficher l’URL et le fichier de métadonnées initiés par l’IdP/SP, ef
    1. L’URL d’authentification unique du fournisseur d’identité est l’URL initiée par l’IdP.
    1. Copiez tout le texte présent sous **Facultatif** champ.
    1. Ouvrez un nouveau document du bloc-notes et collez le texte copié.
-   1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]** > « filename.xml ». Il s’agira du fichier de métadonnées.
+   1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]** > « filename.xml ». Il s’agit du fichier de métadonnées.
 
    **Pour SP :**
 
    1. L’URL d’authentification unique du fournisseur d’identité est l’URL initiée par l’IdP.
-   1. L’émetteur du fournisseur d’identité est l’ID d’entité.
+   1. L&#39;émetteur du fournisseur d&#39;identité est l&#39;ID d&#39;entité.
    1. Copiez tout le texte présent sous **Facultatif** champ.
    1. Ouvrez un nouveau document du bloc-notes et collez le texte copié.
-   1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]** > **[!UICONTROL filename.xml]**. Il s’agira du fichier de métadonnées.
+   1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]** > **[!UICONTROL filename.xml]**. Il s’agit du fichier de métadonnées.
 
    ![](assets/cp-saml-integration-step4.png)
 
@@ -125,7 +125,7 @@ Pour afficher l’URL et le fichier de métadonnées initiés par l’IdP/SP, ef
 
 ## Configuration de l’authentification unique Adobe Learning Manager
 
-Pour configurer l’authentification unique Learning Manager Adobe, effectuez les étapes mentionnées dans l’article ci-dessous.
+Pour configurer l’authentification unique Adobe Learning Manager, effectuez les étapes mentionnées dans l’article ci-dessous.
 
 <!--
 

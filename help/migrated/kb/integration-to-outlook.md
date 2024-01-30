@@ -1,13 +1,13 @@
 ---
-description: Découvrez comment un administrateur et un instructeur peuvent afficher la réponse d’un élève à une invitation de calendrier.
+description: Découvrez comment un administrateur et un instructeur peuvent voir la réponse de l’élève à une invitation de calendrier.
 jcr-language: en_us
-title: Afficher la réponse de l’élève à une invitation du calendrier Outlook sur Learning Manager
+title: Voir la réponse de l’élève à une invitation du calendrier Outlook sur Learning Manager
 contentowner: kuppan
 preview: true
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # Afficher la réponse de l’élève à une invitation du calendrier Outlook sur [!DNL Learning Manager]
 
-Découvrez comment un administrateur et un instructeur peuvent afficher la réponse d’un élève à une invitation de calendrier.
+Découvrez comment un administrateur et un instructeur peuvent voir la réponse de l’élève à une invitation de calendrier.
 
-Dans Learning Manager, lorsqu’un élève est inscrit à une session de classe virtuelle/salle de classe d’un cours, il reçoit une invitation détaillée du calendrier Outlook.
+Dans Learning Manager, lorsqu’un élève est inscrit à une session de classe virtuelle/salle de classe d’un cours, l’élève reçoit une invitation détaillée du calendrier Outlook.
 
 La réponse de l’élève à l’invitation à la session est enregistrée dans Learning Manager et l’administrateur et l’instructeur peuvent afficher les détails.
 
@@ -32,7 +32,7 @@ Si les élèves sont inscrits à une session de classe virtuelle/salle de classe
 
 ## Affichage des réponses aux invitations en tant qu’administrateur {#viewinginviteresponsesasanadmin}
 
-Si la fonctionnalité de suivi des réponses aux invitations est activée pour une session de classe virtuelle/salle de classe, l’administrateur peut afficher les réponses de l’élève à l’invitation, ainsi que d’autres autorisations, comme suit :
+Si la fonctionnalité de suivi des réponses aux invitations est activée pour une session de classe virtuelle/salle de classe, l’administrateur peut afficher les réponses de l’élève à l’invitation, ainsi que d’autres autorisations, comme suit :
 
 1. Cliquez sur **[!UICONTROL Cours]** dans le panneau de navigation de gauche et affichez le cours créé après l’activation de la fonctionnalité de suivi des réponses aux invitations.
 1. Cliquez sur **[!UICONTROL Présence et notation]** à partir du panneau de navigation de gauche.

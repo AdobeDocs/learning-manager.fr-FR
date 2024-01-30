@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -32,13 +32,13 @@ Si un élève est inscrit par le biais d’un objet d’apprentissage supérieur
 
 **Comment afficher l’objet d’apprentissage supérieur auquel l’élève est inscrit ?**
 
-Vous pouvez vérifier ces informations dans le rapport Relevé de notes de l’apprentissage. Pour générer un relevé de notes de l’élève, procédez comme suit :
+Vous pouvez vérifier ces informations dans le rapport Relevés de notes de l’apprentissage. Pour générer un relevé de notes des élèves, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur.
 1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Relevé de notes de l’élève]**.
 
 1. Entrez le nom de l’attribut **[!UICONTROL Élève]** et spécifiez les **[!UICONTROL Date]** plage.
-1. Développer la section **[!UICONTROL Options avancées]** et sélectionnez l’option **[!UICONTROL Activer les informations au niveau du module]**.
+1. Développez la section **[!UICONTROL Options avancées]** et sélectionnez l’option **[!UICONTROL Activer les informations de niveau de module]**.
 1. Cliquez sur **[!UICONTROL Générer]**.
 
-   Dans le relevé de notes de l’élève, vous pouvez afficher l’objet d’apprentissage par lequel l’élève est inscrit.
+   Dans la transcription de l’apprenant, vous pouvez afficher l’objet d’apprentissage par le biais duquel l’élève est inscrit.

@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -24,9 +24,9 @@ Lorsqu’un administrateur tente de modifier la date d’expiration d’un profi
 
 ## Cause
 
-Le problème se produit pour les raisons suivantes :
+Le problème se produit pour les raisons suivantes :
 
-* Le niveau de zoom du navigateur est supérieur à 100 %.
+* Le niveau de zoom du navigateur est supérieur à 100 %.
 * L’échelle et la disposition dans les paramètres d’affichage sont supérieures à 100 %.
 
 ## Résolution
@@ -34,16 +34,16 @@ Le problème se produit pour les raisons suivantes :
 ### Navigateur
 
 1. Lancez le navigateur.
-1. Connectez-vous à Adobe Learning Manager.
-1. Dans la barre d’adresses, cliquez sur l’icône de zoom.
+1. Connectez-vous à Adobe Learning Manager.
+1. Sur la barre d’adresses, cliquez sur l’icône de zoom.
 1. Cliquez sur **[!UICONTROL Réinitialiser]**.
-1. Modifiez la date d’expiration du profil d’inscription.
+1. Modifier la date d’expiration du profil d’inscription.
 
 ### Paramètres d’affichage
 
 1. Cliquez sur **[!UICONTROL Début]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Système]**.
-1. Cliquez sur **[!UICONTROL Affichage]**.
-1. Sous le **[!UICONTROL Échelle et disposition]** , utilisez la liste déroulante. Définissez les paramètres sur 100 %.
+1. Cliquez sur **[!UICONTROL Afficher]**.
+1. Dans la section **[!UICONTROL Échelle et mise en page]**, utilisez la liste déroulante. Définissez les paramètres sur 100 %.
 
    ![](assets/scale-layout.png)
 

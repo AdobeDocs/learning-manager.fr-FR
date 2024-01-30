@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
@@ -18,9 +18,9 @@ Dans les grandes organisations, le personnel du service clientèle a besoin d’
 
 Grâce à cette possibilité d’emprunter l’identité d’autres utilisateurs, les administrateurs et les administrateurs personnalisés peuvent identifier et effectuer toutes les activités effectuées par les élèves et les responsables de leur organisation.
 
-## Fonctionnement
+## Fonctionnement du logiciel
 
-Les administrateurs (et/ou les administrateurs personnalisés) peuvent rechercher un utilisateur (interne ou externe), puis emprunter son identité. L’administrateur est ensuite redirigé vers la page de l’utilisateur (application du gestionnaire, le cas échéant, ou autre application de l’élève), puis il déconnecte l’administrateur de sa session. L’administrateur est ensuite redirigé vers la page Compléter votre profil, au cas où celui-ci aurait été configuré pour l’utilisateur emprunté par l’administrateur.
+Les administrateurs (et/ou les administrateurs personnalisés) peuvent rechercher un utilisateur (interne ou externe), puis emprunter l’identité d’un utilisateur. L’administrateur est ensuite redirigé vers la page de l’utilisateur (application de gestionnaire, le cas échéant, ou autre application d’élève), puis il déconnecte l’administrateur de sa session. L’administrateur est ensuite redirigé vers la page Compléter votre profil, au cas où l’identité de l’utilisateur a été empruntée par l’administrateur.
 
 Si un administrateur personnalisé est autorisé à accéder à la page d’un utilisateur, il peut rechercher les utilisateurs dont il souhaite emprunter l’identité.
 
@@ -28,20 +28,20 @@ Voici ce que vous devez garder à l’esprit lorsque vous empruntez l’identit�
 
 * Tous les administrateurs voient cette fonctionnalité par défaut.
 * Seuls les utilisateurs actifs du compte peuvent se voir emprunter leur identité.
-* Un administrateur ne peut pas emprunter son identité.
+* Un administrateur ne peut pas emprunter sa propre identité.
 * Un administrateur personnalisé qui a accès à la page Utilisateurs peut emprunter l’identité des utilisateurs.
-* Un administrateur/administrateur personnalisé ne peut emprunter l’identité que pendant 60 minutes.
+* Un administrateur/administrateur personnalisé ne peut emprunter une identité que pendant 60 minutes.
 
 ## Emprunter l’identité d’un utilisateur
 
-Pour emprunter l’identité d’un utilisateur, procédez comme suit :
+Pour emprunter l’identité d’un utilisateur, suivez les étapes ci-dessous :
 
 1. Connectez-vous à l’application en tant qu’administrateur.
 1. Sélectionnez Profil > Emprunter l’identité de l’utilisateur.
 
    Vous ne pouvez emprunter l’identité que d’un seul utilisateur à la fois.
 
-1. Recherchez un utilisateur (interne/externe) dans la zone de recherche présente dans le modèle. Vous ne pouvez emprunter l’identité que d’un seul utilisateur à la fois. Sélectionnez Continuer.
+1. Recherchez un utilisateur (interne/externe) dans la zone de recherche présente dans la fenêtre modale. Vous ne pouvez emprunter l’identité que d’un seul utilisateur à la fois. Sélectionnez Continuer.
 
    Vous pouvez également effectuer une recherche avec l’adresse e-mail de l’utilisateur, l’UUID, etc.
 
@@ -55,27 +55,27 @@ Pour emprunter l’identité d’un utilisateur, procédez comme suit :
 
 Lors du passage à un rôle d’élève ou de responsable, un message s’affiche indiquant que l’administrateur/l’administrateur personnalisé est en mode d’emprunt d’identité de l’utilisateur.
 
-## Rapport de connexion et d’accès
+## Rapport sur les connexions et accès
 
-La connexion et l’accès d’un administrateur sont capturés dans le rapport de connexion et d’accès. Pour chaque utilisateur représenté par l’administrateur, un enregistrement est créé dans le rapport.
+La connexion et l’accès d’un administrateur sont capturés dans le rapport de connexion et d’accès. Un enregistrement est créé dans le rapport pour chaque utilisateur représenté par l’administrateur.
 
-Les colonnes faisant partie de cette fonctionnalité sont les suivantes :
+Les colonnes qui font partie de cette fonction sont les suivantes :
 
-* Personnifié par nom d’utilisateur
-* Personnifié par e-mail d’utilisateur
+* Identité empruntée par le nom d’utilisateur
+* Identité empruntée par l’adresse électronique de l’utilisateur
 
 Ces colonnes sont ajoutées à la fin du rapport.
 
-Chaque connexion est comptabilisée séparément dans le rapport.
+Chaque connexion est comptée séparément dans le rapport.
 
 ## Éléments non pris en charge
 
 * Emprunt d’identité des composants AEM.
 * Emprunt d’identité dans l’application mobile.
 * Emprunt d’identité en immersif mobile.
-* Emprunt d’identité d’applications immersives. Elle s’applique uniquement aux applications ALM.
+* Emprunt d’identité d’applications immersives. S’applique uniquement aux applications ALM.
 
-## Foire aux questions
+## Forum aux questions
 
 +++Puis-je me connecter à Adobe Learning Manager même lorsque mon identité est empruntée ?
 
@@ -89,5 +89,5 @@ Oui, chaque accès/visite de connexion par l’administrateur pendant l’emprun
 
 +++Quel est le délai d’expiration de l’emprunt d’identité ?
 
-C&#39;est 60 minutes. Si un utilisateur qui emprunte l’identité ferme la fenêtre du navigateur, puis accède à une URL principale dans les 60 minutes, l’activité d’emprunt d’identité se poursuit et le message de bannière doit être affiché.
+Il est de 60 minutes. Si un utilisateur qui emprunte l’identité ferme la fenêtre du navigateur, puis accède à une URL principale dans les 60 minutes, l’activité d’emprunt d’identité se poursuit et le message de bannière doit s’afficher.
 +++

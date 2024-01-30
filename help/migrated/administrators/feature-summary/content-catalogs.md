@@ -1,18 +1,18 @@
 ---
-description: Learning Manager introduit le catalogue de contenu
+description: Learning Manager introduit le catalogue de contenu
 jcr-language: en_us
-title: Catalogue de contenu Learning Manager
+title: Catalogue de contenu Learning Manager
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6ab762701908a280325fd6a60bf49f87a2a60da7
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 32%
 
 ---
 
 
 
-# Catalogue de contenu Learning Manager
+# Catalogue de contenu Learning Manager
 
 <!--Learning Manager introduces Content Catalog-->
 
@@ -27,11 +27,11 @@ Dans le volet de gauche, cliquez sur Marché de contenus, puis sur **[!UICONTROL
 
 <!--![](assets/content-catalog.png)-->
 
-Pour afficher les détails du catalogue et les cours de chaque catalogue, cliquez sur **[!UICONTROL Afficher]**. La nouvelle fenêtre affiche tous les cours.
+Pour afficher les détails du catalogue et les cours dans chacun des catalogues, cliquez sur **[!UICONTROL Afficher]**. La nouvelle fenêtre affiche tous les cours.
 
 <!--![](assets/course-details.png)-->
 
-Pour afficher les détails du cours, cliquez sur **[!UICONTROL Visite]**. Cochez les cases appropriées pour sélectionner les cours qui vous intéressent.
+Pour voir les détails du cours, cliquez sur **[!UICONTROL Consulter]**. Utilisez les cases à cocher pour sélectionner les cours qui vous intéressent.
 
 * Vous pouvez partager les cours sélectionnés avec vos homologues en sélectionnant  **[!UICONTROL Partager]**.
 * Vous pouvez contacter l’Adobe en sélectionnant  **[!UICONTROL Adobe de contact]**.
@@ -42,4 +42,4 @@ Votre client de messagerie s’ouvre par défaut dans les deux instances. Si vou
 
 Si votre client de messagerie ne s’ouvre pas par défaut, vous pouvez envoyer un e-mail à l’adresse `learningmanagercontentcontentadmin@adobe.com`.
 
-Vous devez être connecté à Learning Manager pour accéder au catalogue de contenu.
+Vous devez être connecté à Learning Manager pour accéder au catalogue de contenu.

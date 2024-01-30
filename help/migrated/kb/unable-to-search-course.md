@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
@@ -22,9 +22,9 @@ Un élève ne peut pas rechercher un cours dans Learning Manager.
 
 ### Résumé
 
-Dans certains scénarios, un élève recherche un cours et celui-ci n’est pas répertorié. Mais si l’élève s’est inscrit à un programme d’apprentissage/une certification, il peut afficher le cours dans l’objet d’apprentissage.
+Dans certains scénarios, un élève recherche un cours et celui-ci n’est pas répertorié. Mais si l’élève s’est inscrit à un programme d’apprentissage ou à une certification, il peut afficher le cours dans l’objet d’apprentissage.
 
-### Pourquoi cela se produit-il ?
+### Pourquoi est-ce que cela se produit ?
 
 Dans Learning Manager, lorsqu’un élève est inscrit par le biais d’un programme d’apprentissage ou d’une certification, l’inscription à ce cours se fait par le biais du programme d’apprentissage ou de la certification.
 
@@ -36,11 +36,11 @@ Cependant, l’élève ne peut pas afficher les cours dans le programme d’appr
 
 ### Résumé
 
-Un élève ne peut pas rechercher des cours dans le catalogue ou le tableau de bord d’apprentissage.
+Un élève ne peut pas rechercher des cours dans le catalogue ou dans le tableau de bord d’apprentissage.
 
-### Pourquoi cela se produit-il ?
+### Pourquoi est-ce que cela se produit ?
 
-Ce problème se produit si :
+Ce problème se produit si :
 
 * L’élève ne fait pas partie du catalogue contenant le cours **OU**
 * Le cours ne fait pas partie du catalogue auquel l’élève a accès.
@@ -56,7 +56,7 @@ Ce problème se produit si :
 
    *Partage du catalogue en interne*
 
-1. Passez en revue les scénarios ci-dessous :
+1. Passez en revue les scénarios ci-dessous :
 
    * L’élève ne fait pas partie du catalogue
 

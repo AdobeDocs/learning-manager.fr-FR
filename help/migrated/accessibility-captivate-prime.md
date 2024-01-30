@@ -1,34 +1,34 @@
 ---
 jcr-language: en_us
 title: Accessibilité dans Adobe Learning Manager
-description: Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion de l’apprentissage Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité de la plateforme.
+description: Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion d’apprentissage d’Adobe Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité sur la plate-forme.
 contentowner: saghosh
 source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
 
 # Accessibilité dans Adobe Learning Manager
 
-Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion de l’apprentissage Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité de la plateforme.
+Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion d’apprentissage d’Adobe Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité sur la plate-forme.
 
 Learning Manager suit les normes d’accessibilité WCAG 2.1 de niveau A et AA de W3C pour la plateforme.
 
 Le rôle Élève d’Adobe Learning Manager permet aux élèves de parcourir la plateforme et de tirer parti des fonctionnalités d’accessibilité clés suivantes :
 
-* Reader d’écran
+* Lecteur d’écran
 * Clavier
 * Sous-titres
 * Autres
 
-## Prise en charge des Readers d’écran {#supportforscreenreaders}
+## Prise en charge des lecteurs d’écran {#supportforscreenreaders}
 
 Adobe Learning Manager prend en charge les lecteurs d’écran tels que NVDA, JAWS et Voice-over sur les ordinateurs de bureau, Talkback et Voice-over sur les appareils mobiles, qui permettent aux élèves de lire le texte sur la plateforme Learning Manager et de naviguer en conséquence.
 
-Voici la combinaison de lecteur d’écran et de navigateur que nous prenons en charge sur ordinateur :
+Voici la combinaison lecteur d’écran et navigateur que nous prenons en charge sur ordinateur de bureau :
 
 <table>
  <tbody>
@@ -54,7 +54,7 @@ Voici la combinaison de lecteur d’écran et de navigateur que nous prenons en 
    <td>
     <p>Firefox</p></td>
    <td>
-    <p>Mâchoires</p></td>
+    <p>Jaws</p></td>
   </tr>
   <tr>
    <td>
@@ -83,11 +83,11 @@ Voici la combinaison de lecteur d’écran et de navigateur que nous prenons en 
  </tbody>
 </table>
 
-## Prise en charge de la navigation au clavier {#supportforkeyboardnavigation}
+## Prise en charge de la navigation via le clavier {#supportforkeyboardnavigation}
 
-Les élèves peuvent utiliser les touches standard pour naviguer dans les pages avec ou sans lecteur d’écran. Cela permet aux élèves de parcourir les éléments de la page et de lire le contenu à l’aide d’un lecteur d’écran.
+Les élèves peuvent utiliser les touches standard pour parcourir les pages avec ou sans lecteur d’écran. Ils peuvent ainsi parcourir les éléments de la page et lire le contenu à l’aide d’un lecteur d’écran.
 
-En outre, Learning Manager prend en charge les raccourcis clavier suivants :
+En outre, Learning Manager prend en charge les raccourcis clavier suivants :
 
 <table>
  <tbody>
@@ -103,7 +103,7 @@ En outre, Learning Manager prend en charge les raccourcis clavier suivants :
    <td>
     <p>Ignorer la navigation</p></td>
    <td>
-    <p>Alt + 1</p></td>
+    <p>Alt+1</p></td>
    <td>
     <p>Option+1</p></td>
   </tr>
@@ -117,9 +117,9 @@ En outre, Learning Manager prend en charge les raccourcis clavier suivants :
   </tr>
   <tr>
    <td>
-    <p>Notification utilisateur<br></p></td>
+    <p>Notification à l’utilisateur<br></p></td>
    <td>
-    <p>Alt + 2<br></p></td>
+    <p>Alt+2<br></p></td>
    <td>
     <p>Option+2<br></p></td>
   </tr>
@@ -135,7 +135,7 @@ En outre, Learning Manager prend en charge les raccourcis clavier suivants :
    <td>
     <p>Recherche globale<br></p></td>
    <td>
-    <p>Alt + 4<br></p></td>
+    <p>Alt+4<br></p></td>
    <td>
     <p>Option+4<br></p></td>
   </tr>
@@ -143,7 +143,7 @@ En outre, Learning Manager prend en charge les raccourcis clavier suivants :
    <td>
     <p>Ignorer la navigation<br></p></td>
    <td>
-    <p>Alt + 1<br></p></td>
+    <p>Alt+1<br></p></td>
    <td>
     <p>Option+1<br></p></td>
   </tr>
@@ -166,13 +166,13 @@ En outre, Learning Manager prend en charge les raccourcis clavier suivants :
    <td>
     <p>Lecture/Pause</p></td>
    <td>
-    <p>Alt + P</p></td>
+    <p>Alt+P</p></td>
    <td>
     <p>Option+P</p></td>
   </tr>
   <tr>
    <td>
-    <p>Alt + V</p></td>
+    <p>Alt+V</p></td>
    <td>
     <p>Option+V</p></td>
    <td>
@@ -180,7 +180,7 @@ En outre, Learning Manager prend en charge les raccourcis clavier suivants :
   </tr>
   <tr>
    <td>
-    <p>Alt + M</p></td>
+    <p>Alt+M</p></td>
    <td>
     <p>Option+M</p></td>
    <td>
@@ -189,30 +189,30 @@ En outre, Learning Manager prend en charge les raccourcis clavier suivants :
  </tbody>
 </table>
 
-## Autre support {#supportforcolorcontrast}
+## Autre prise en charge {#supportforcolorcontrast}
 
-Le rôle Élève dans Learning Manager prend en charge plusieurs autres fonctionnalités d’accessibilité, notamment :
+Le rôle Élève dans Learning Manager prend en charge plusieurs autres fonctionnalités d’accessibilité, notamment :
 
-1. Une structure sémantique des pages du rôle d’élève, y compris l’en-tête, le balisage de liste, les titres descriptifs, etc. est fournie.
-1. La prise en charge du zoom du navigateur jusqu’à 200 % sans perte de contenu ou de fonctionnalité est maintenue tout au long du rôle d’élève.
-1. Le contraste de couleur des éléments textuels et non textuels est conservé pour le rôle d’élève. Pour une meilleure expérience, utilisez la commande [Vif](/help/migrated/administrators/feature-summary/themes.md) thème.
+1. La structure sémantique des pages du rôle d’élève, y compris l’en-tête, le balisage de liste, les titres descriptifs, etc., est fournie.
+1. La prise en charge du zoom du navigateur jusqu’à 200 % sans perte de contenu ou de fonctionnalité est maintenue pour le rôle d’élève.
+1. Le contraste de couleur des éléments textuels et non textuels est conservé pour le rôle d’élève. Pour une meilleure expérience, utilisez le [thème dynamique](/help/migrated/administrators/feature-summary/themes.md).
 1. Prise en charge des modèles de conception WAI ARIA de W3C pour maintenir la cohérence et les meilleures pratiques du secteur.
 
-Pour plus d’informations, voir :
+Pour plus d’informations, voir :
 
-* [Rapport de conformité d’accessibilité pour un élève](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Rapport de conformité d’accessibilité pour tous les rôles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Rapport de conformité d’accessibilité pour un élève](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
+* [Rapport de conformité d’accessibilité pour tous les rôles](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
 ## Workflows principaux de Learning Manager (rôle Élève) {#captivateprimetopworkflowslearnerrole}
 
 Voyons comment les fonctionnalités d’accessibilité vous aident à naviguer dans certaines fonctionnalités clés pour les élèves dans Learning Manager.
 
-Utilisez la commande `kbd Tab`pour parcourir les éléments de la page. Utilisez la commande `kbd Shift + Tab` pour inverser le sens de la navigation. La sélection du clavier est indiquée par un contour bleu affiché autour d’un élément. Un lecteur d’écran doit lire à haute voix le texte de l’élément actif.
+Utilisez la commande `kbd Tab`pour parcourir les éléments de la page. Utilisez la commande `kbd Shift + Tab` pour inverser le sens de la navigation. La mise en évidence du clavier est indiquée par un contour bleu affiché autour d’un élément. Un lecteur d’écran doit lire le texte de l’élément mis en évidence.
 
 ## Rechercher une formation dans Learning Manager {#searchforatrainingincaptivateprime}
 
-1. Utilisez ces repères pour naviguer et atteindre la zone de recherche dans le coin supérieur droit de la page d’accueil.
-1. Saisissez du texte à l’aide du clavier. Les résultats de la recherche s’affichent.
+1. Utilisez ces repères pour naviguer et atteindre la zone de recherche en haut à droite de la page d’accueil.
+1. Saisissez du texte à l’aide du clavier. Les résultats de la recherche apparaîtront.
 1. Utilisation du clavier `kbd Up/Down` flèches pour naviguer dans les résultats ou appuyez sur `kbd ENTER`pour voir tous les résultats.
 
 1. Une fois la formation identifiée, appuyez sur `kbd ENTER`pour accéder à la page de formation.
@@ -232,7 +232,7 @@ Utilisez la commande `kbd Tab`pour parcourir les éléments de la page. Utilisez
    * Paramètres
    * Libellé du nom du module
 
-1. Voici les commandes qui apparaissent en fonction du type de contenu :
+1. Voici les commandes qui apparaissent en fonction du type de contenu :
 
    * VIDÉO : commandes Avance, Arrière, Curseur.
    * CONTENU DU DOCUMENT - Numéro de page, Page précédente, Page suivante, Zoom avant, Zoom arrière.
@@ -248,30 +248,30 @@ Examinons les fonctionnalités d’accessibilité que les élèves peuvent utili
 
 ### Utilisateurs sourds ou malentendants
 
-* Utilisez les sous-titres disponibles dans le contenu créé à l’aide de l’outil de création Adobe Captivate.
-* Pour les vidéos, les auteurs peuvent coder les vidéos avec du texte de sous-titres. De telles vidéos ont des sous-titres intégrés et peuvent être visionnées par les élèves.
+* Utilisez les sous-titres pour sourds et malentendants disponibles dans le contenu créé à l’aide de l’outil de création Adobe Captivate.
+* Pour les vidéos, les auteurs peuvent encoder les vidéos avec du texte de sous-titre pour sourds et malentendants. Ces vidéos contiennent des sous-titres pour sourds et malentendants intégrés et peuvent être visionnés par les élèves.
 * Learning Manager permet de charger des fichiers WebVTT de sous-titres pour le contenu vidéo. Pour plus d’informations, voir  [*Charger un fichier WebVTT pour le sous-titrage*](authors/feature-summary/content-library.md#webvtt).
 
 ### Utilisateurs aveugles ou malvoyants
 
 * Utilisez les raccourcis clavier et les commandes standard pour parcourir la page.
-* Utilisation de lecteurs d’écran, comme mentionné ci-dessus, pour lire les informations sur la page Web.
-* Utilisation d’agrandisseurs d’écran pour améliorer la lisibilité et zoom du navigateur à 200 % pour lire le contenu.
+* Utilisez des lecteurs d’écran, comme ceux mentionnés plus haut, pour lire les informations sur la page Web.
+* Utilisez des loupes pour zoomer sur l’écran et améliorer la lisibilité, et zoomez jusqu’à 200 % dans le navigateur pour lire le contenu.
 
-### Utilisateurs qui éprouvent des difficultés avec la couleur
+### Utilisateurs ayant des difficultés à percevoir les couleurs
 
-Le rôle Élève d’Adobe Learning Manager s’efforce de fournir aux utilisateurs une interface utilisateur claire et lisible conformément aux normes WCAG 2.1.
+Le rôle Élève d’Adobe Learning Manager s’efforce de fournir aux utilisateurs une interface claire et lisible conformément aux normes WCAG 2.1.
 
-Pour une meilleure expérience sur la page de l’élève, utilisez la [Thème dynamique](/help/migrated/administrators/feature-summary/themes.md).
+Pour une meilleure expérience sur la page de l’élève, utilisez le [thème dynamique](/help/migrated/administrators/feature-summary/themes.md).
 
 ### Utilisateurs ayant une mobilité et une portée limitées
 
-Adobe Learning Manager continue de se concentrer sur l’accessibilité et prévoit d’améliorer les capacités actuelles afin de permettre aux élèves du système de mieux naviguer dans le rôle « Élève ».
+Adobe Learning Manager continue de se concentrer sur l’accessibilité et prévoit d’améliorer les capacités actuelles afin de permettre aux élèves du système de mieux parcourir le rôle « Élève ».
 
-### Prise en charge du sous-titrage pour les vidéos
+### Prise en charge des sous-titres pour sourds et malentendants pour les vidéos
 
-Lors de la création d’un cours, les auteurs peuvent charger des fichiers webVTT en même temps que les fichiers vidéo. Les élèves peuvent ensuite afficher les sous-titres lorsqu’ils regardent les vidéos.
+Lors de la création d’un cours, les auteurs peuvent charger des fichiers webVTT avec les fichiers vidéo. Les élèves peuvent alors afficher les sous-titres lorsqu’ils regardent les vidéos.
 
-## Éléments qui seront traités dans une prochaine version {#whatwillbeaddressedinafuturerelease}
+## Améliorations de la future version {#whatwillbeaddressedinafuturerelease}
 
-* Prise en charge du sous-titrage pour les vidéos. Les auteurs doivent pouvoir charger des fichiers SRT en même temps que les fichiers vidéo. Les élèves doivent pouvoir afficher les sous-titres des vidéos.
+* Prise en charge des sous-titres pour sourds et malentendants pour les vidéos. Les auteurs devraient avoir la possibilité de télécharger des fichiers SRT avec les fichiers vidéo. Les élèves devraient pouvoir afficher des sous-titres pour sourds et malentendants pour les vidéos.

@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: Attribution par défaut des rôles d’instructeur aux groupes d’utilisateurs dans Learning Manager
-description: Attribution par défaut des rôles d’instructeur aux groupes d’utilisateurs dans Learning Manager
+title: Attribution par défaut des rôles d’instructeurs aux groupes d’utilisateurs dans Learning Manager
+description: Attribution par défaut des rôles d’instructeurs aux groupes d’utilisateurs dans Learning Manager
 contentowner: nluke
 preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
 
 
-# Attribution par défaut des rôles d’instructeur aux groupes d’utilisateurs dans Learning Manager
+# Attribution par défaut des rôles d’instructeurs aux groupes d’utilisateurs dans Learning Manager
 
 ## Problème
 
@@ -21,15 +21,15 @@ Le rôle d’instructeur est attribué à tous les utilisateurs affectés à une
 
 ## Description
 
-Dans certains cas, une session peut nécessiter plusieurs instructeurs ou un administrateur/auteur affecte un groupe d’utilisateurs à une session. Le rôle d’instructeur est ainsi attribué à tous les utilisateurs du groupe d’utilisateurs.
+Dans certains cas, une session peut nécessiter plusieurs instructeurs ou qu’un administrateur/auteur affecte un groupe d’utilisateurs à une session. Le rôle d’instructeur est ainsi attribué à tous les utilisateurs du groupe d’utilisateurs.
 
 ## Cause
 
-Comme les rôles ne peuvent pas être embranchés lors de l’affectation en bloc d’utilisateurs dans un groupe d’utilisateurs, le rôle d’instructeur est attribué à tous les utilisateurs.
+Comme les rôles ne peuvent pas être embranchés lors de l’attribution en bloc d’utilisateurs dans un groupe d’utilisateurs, le rôle d’instructeur est attribué à tous les utilisateurs.
 
 ## Solution
 
-Créez des groupes d’utilisateurs personnalisés pour filtrer les rôles d’utilisateurs attribués à une session. Pour supprimer les rôles d’instructeur attribués dans un groupe d’utilisateurs, effectuez les étapes suivantes :
+Créez des groupes d’utilisateurs personnalisés pour filtrer les rôles d’utilisateurs affectés à une session. Pour supprimer les rôles d’instructeur attribués dans un groupe d’utilisateurs, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur. Dans le panneau de gauche, cliquez sur **[!UICONTROL Modèles de courrier électronique]**.
 1. Pour éviter les déclencheurs d’e-mail pour les modifications à apporter, cliquez sur **[!UICONTROL Tout désactiver]**.

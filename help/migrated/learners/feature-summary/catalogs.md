@@ -1,26 +1,26 @@
 ---
-description: Découvrez comment utiliser les catalogues dans Learning Manager pour afficher les objets d’apprentissage éligibles
+description: Découvrez comment utiliser les catalogues dans Learning Manager afin d’afficher les objets d’apprentissage éligibles
 jcr-language: en_us
 title: Catalogues
 contentowner: manochan
 source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
 
 
-# Catalogues
+# Les catalogues
 
-Découvrez comment utiliser les catalogues dans Learning Manager pour afficher les objets d’apprentissage éligibles
+Découvrez comment utiliser les catalogues dans Learning Manager afin d’afficher les objets d’apprentissage éligibles
 
 **Catalogue** se compose de tous les cours, programmes d’apprentissage, certifications et assistances à la tâche disponibles pour un rôle d’élève dans le compte de l’entreprise.
 
 Les élèves peuvent afficher tous les objets d’apprentissage attribués et éligibles (programmes d’apprentissage, cours et certifications) dans le panneau **Catalogue par défaut**. Ces objets d’apprentissage sont uniques à chaque élève en fonction de son rôle, de sa désignation, de son groupe d’utilisateurs, de son profil, etc.
 
-Vous pouvez filtrer la liste des objets d’apprentissage en utilisant les compétences et le type des objets d’apprentissage (auto-apprentissage, fusionné, salle de classe, classe virtuelle, activité) . Vous pouvez également filtrer à l’aide des options du volet de gauche : par objet d’apprentissage, par compétence et par état d’achèvement.
+Vous pouvez filtrer la liste des objets d’apprentissage en fonction des compétences et du type d’objet d’apprentissage (auto-apprentissage, fusionné, salle de classe, salle de classe virtuelle, activité). Vous pouvez également filtrer à l’aide des options du volet de gauche : par objet d’apprentissage, par compétence et par état d’achèvement.
 
 Utilisez la barre de recherche en haut de la page pour saisir les noms de vos objets d’apprentissage familiers.
 

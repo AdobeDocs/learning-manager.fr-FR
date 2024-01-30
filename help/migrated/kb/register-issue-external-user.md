@@ -1,26 +1,26 @@
 ---
 jcr-language: en_us
-title: Impossible de s’inscrire en tant qu’utilisateur externe
+title: Inscription impossible en tant qu’utilisateur externe
 description: Les élèves externes ne peuvent pas s’inscrire à un profil dans Adobe Learning Manager.
 contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
 
 
-# Impossible de s’inscrire en tant qu’utilisateur externe
+# Inscription impossible en tant qu’utilisateur externe
 
 ## Problème
 
-Les élèves externes ne peuvent pas s&#39;inscrire à un profil.
+Les élèves externes ne peuvent pas s’inscrire à un profil.
 
 ## Erreur
 
-L’ID de messagerie est déjà enregistré. Veuillez utiliser une autre adresse e-mail.
+Cet ID de messagerie est déjà enregistré. Veuillez utiliser une autre adresse électronique.
 
 ![](assets/cp-register-profile.png)
 
@@ -32,19 +32,19 @@ Dans certains cas, un utilisateur ne peut pas s’inscrire à un profil externe.
 
 ## Cause
 
-Ce problème se produit dans l’un des scénarios suivants :
+Ce problème se produit dans l’un des cas suivants :
 
 * L’utilisateur est déjà inscrit à un autre profil externe.
 * L’utilisateur est déjà un élève interne.
 * L’utilisateur est dans un état supprimé.
 
-## Résolution :
+## Résolution :
 
 **Scénario 1 :** L’utilisateur est déjà inscrit à un autre profil externe.
 
 1. Connectez-vous en tant qu’administrateur.
 1. Sous **Gérer**, cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Externe]**.
-1. Ouvrez le profil dont l’utilisateur fait déjà partie en cliquant sur Places utilisées.
+1. Ouvrez le profil dont l’utilisateur fait déjà partie en cliquant sur Places utilisées
 
    ![](assets/cp-seats-used.png)
 
@@ -56,13 +56,13 @@ Ce problème se produit dans l’un des scénarios suivants :
 
    *Modifier le profil de l’utilisateur*
 
-   Cela ouvre une fenêtre pour sélectionner un nouveau profil comme ci-dessous.
+   Une fenêtre s’ouvre alors pour sélectionner un nouveau profil comme illustré ci-dessous.
 
    ![](assets/cp-select-profiles.png)
 
    *Sélectionner un profil utilisateur*
 
-1. Une fois sélectionné, cliquez sur **[!UICONTROL Modifier]**.
+1. Une fois la sélection effectuée, cliquez sur **[!UICONTROL Modifier]**.
 
 **Scénario 2 :** L’utilisateur est présent en tant qu’élève interne.
 
@@ -80,7 +80,7 @@ Ce problème se produit dans l’un des scénarios suivants :
 
 1. Cliquez sur **Enregistrer** pour conserver les modifications apportées.
 
-**Scénario 3**: l’utilisateur est dans un état supprimé.
+**Scénario 3** : L’utilisateur est dans un état supprimé.
 
 1. Connectez-vous en tant qu’administrateur.
 1. Sous **Gérer**, cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Nettoyage de l’utilisateur]**.

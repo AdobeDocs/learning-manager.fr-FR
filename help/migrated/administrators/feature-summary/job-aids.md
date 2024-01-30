@@ -1,12 +1,12 @@
 ---
-description: Assistances à la tâche pour les administrateurs dans Learning Manager.
+description: Assistances à la tâche pour les administrateurs dans Learning Manager.
 jcr-language: en_us
 title: Assistances à la tâche
 contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Assistances à la tâche
 
-Assistances à la tâche pour les administrateurs dans Learning Manager.
+Assistances à la tâche pour les administrateurs dans Learning Manager.
 
-Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se référer à ces assistances à la tâche pour obtenir de l&#39;aide pour effectuer une activité ou une tâche dans une organisation.
+Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l&#39;aide afin d&#39;effectuer toute activité ou tâche au sein d&#39;une organisation.
 
-Les assistances à la tâche peuvent être utilisées indépendamment ou avec le suivi des cours dans Learning Manager.
+Les assistances à la tâche peuvent être utilisées indépendamment ou avec le suivi des cours dans Learning Manager.
 
-Les administrateurs d&#39;une organisation peuvent gérer l&#39;affectation d&#39;assistances à la tâche aux élèves et également retirer ou republier les assistances à la tâche.
+Les administrateurs d’une organisation peuvent gérer l’affectation des assistances à la tâche aux élèves et également retirer ces assistances ou les republier.
 
 ## Retirer/republier des assistances à la tâche {#withdrawrepublishjobaids}
 
@@ -34,7 +34,7 @@ Vous pouvez retirer une assistance à la tâche publiée en cliquant sur l’ic�
 
 Affichez les assistances à la tâche retirées en cliquant sur l’onglet Retiré. Vous pouvez republier les tâches supprimées en cliquant sur l’icône des paramètres et en choisissant Publier. Cliquez sur Aperçu dans les paramètres pour prévisualiser l’assistance à la tâche dans le lecteur.
 
-## Gestion des affectations d’assistance à la tâche {#managejobaidassignments}
+## Gérer les affectations d’assistances à la tâche {#managejobaidassignments}
 
 1. Dans l’onglet Publié, cliquez sur l’icône des paramètres en regard d’une assistance à la tâche.
 
@@ -51,7 +51,7 @@ Affichez les assistances à la tâche retirées en cliquant sur l’onglet Retir
 1. Cliquez sur **[!UICONTROL Ajouter].**
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Foire aux questions {#frequentlyaskedquestions}
+## Forum aux questions {#frequentlyaskedquestions}
 
 +++Comment exporter des rapports d’assistance à la tâche ?
 
@@ -61,7 +61,7 @@ Dans le coin supérieur droit de l’écran, cliquez sur **[!UICONTROL Actions]*
 
 +++Comment gérer les affectations d&#39;assistance à la tâche ?
 
-Entrée **[!UICONTROL Publié]** , cliquez sur l’icône paramètres à côté d’une assistance à la tâche. Ajouter un élève et cliquer sur **[!UICONTROL Ajouter]**.
+Entrée **[!UICONTROL Publié]** , cliquez sur l’icône paramètres à côté d’une assistance à la tâche. Ajoutez un élève, puis cliquez sur **[!UICONTROL Ajouter]**.
 
 +++
 

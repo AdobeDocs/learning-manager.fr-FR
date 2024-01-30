@@ -1,34 +1,34 @@
 ---
-description: Découvrez comment afficher et suivre les apprentissages à partir du tableau de bord du responsable.
+description: Découvrez comment afficher et suivre des apprentissages dans le tableau de bord du responsable.
 jcr-language: en_us
-title: Tableau de bord du responsable
+title: Tableau de bord des responsables
 contentowner: kuppan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
 
 
-# Tableau de bord du responsable
+# Tableau de bord des responsables
 
-Découvrez comment afficher et suivre les apprentissages à partir du tableau de bord du responsable.
+Découvrez comment afficher et suivre des apprentissages dans le tableau de bord du responsable.
 
-Les gestionnaires jouent un rôle important dans les initiatives d&#39;apprentissage d&#39;une équipe. Pour mieux les guider, la plateforme d’apprentissage fournit au responsable une vue de tableau de bord pour suivre les apprentissages dans son équipe.
+Les gestionnaires jouent un rôle important dans les initiatives d&#39;apprentissage d&#39;une équipe. Pour mieux les guider, la plateforme d’apprentissage fournit au responsable un tableau de bord permettant de suivre les apprentissages de son équipe.
 
 ![](assets/dashboard-final.png)
 
 *Rapport de tableau de bord pour un responsable*
 
-Pour afficher les détails d’un graphique, cliquez sur le graphique ou sur **[!UICONTROL Détails]** lien hypertexte.
+Pour afficher les informations d’un graphique, cliquez dessus ou sur le lien hypertexte **[!UICONTROL Détails]**.
 
 ## Résumé de l’apprentissage {#learningsummary}
 
-Un responsable peut afficher le résumé des activités d’apprentissage pour son équipe sur une période sélectionnée. Sélectionnez le mois, le trimestre ou l’année dans le menu déroulant.
+Un responsable peut afficher le résumé des activités d’apprentissage de son équipe sur une période sélectionnée. Sélectionnez un mois, un trimestre ou une année dans le menu déroulant.
 
-« Mois » et « Année » sont basés sur l’année civile, tandis que « Trimestre » est basé sur l’exercice financier tel que configuré par l’administrateur dans les paramètres du compte.
+« Mois » et « Année » sont basés sur l’année civile, tandis que « Trimestre » est basé sur l’année financière configurée par l’administrateur dans les paramètres du compte.
 
 ![](assets/learning-summarydashboard.png)
 
@@ -36,7 +36,7 @@ Un responsable peut afficher le résumé des activités d’apprentissage pour s
 
 ## Vue Équipe {#teamview}
 
-La vue Équipe affiche les équipes, leurs membres, ainsi que leurs inscriptions, progressions et achèvements respectifs pour les objets d&#39;apprentissage.
+La vue Équipe affiche les équipes, leurs membres et leurs inscriptions respectives, leurs progressions et les achèvements pour des objets d’apprentissage.
 
 ![](assets/ls-team-view.png)
 
@@ -48,13 +48,13 @@ En cliquant sur les noms des équipes, par exemple Équipe de Venkatesh, vous po
 
 *Sélectionner un membre de l’équipe*
 
-Pour afficher le Résumé de l’apprentissage pour chaque membre de l’équipe, cliquez sur le numéro de la colonne correspondante dans la colonne correspondante du responsable d’équipe. Un tableau s&#39;ouvre et affiche la liste des objets d&#39;apprentissage avec la date d&#39;inscription, la date d&#39;échéance et les informations de progression.
+Pour afficher le résumé de l’apprentissage de chaque membre de l’équipe, cliquez sur le numéro correspondant à chaque responsable d’équipe dans la colonne correspondante. Un forum s’ouvre et affiche la liste des objets d’apprentissage avec les informations Date d’inscription, Date d’échéance et Progression.
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
 *Sélectionner un chef d’équipe*
 
-De même, vous pouvez afficher les objets d’apprentissage ainsi que le nombre d’inscriptions, de progressions ou d’achèvements en cliquant sur les valeurs sous les colonnes correspondantes.
+De la même manière, vous pouvez afficher les objets d’apprentissage avec le nombre d’inscriptions, de progressions ou d’achèvements en cliquant sur les valeurs sous les colonnes correspondantes.
 
 ![](assets/ls-on-clicking-valuesinteamviewforateam.png)
 
@@ -68,43 +68,43 @@ En cliquant davantage sur le nombre d’inscriptions, de progressions ou d’ach
 
 ## Vue Apprentissages {#learningsview}
 
-La vue Apprentissages affiche le nombre d&#39;inscriptions, de progressions et d&#39;achèvements pour un objet d&#39;apprentissage.
+La vue Apprentissages affiche le nombre d’inscriptions, de progressions et d’achèvements pour un objet d’apprentissage.
 
 ![](assets/ls-learning-view.png)
 
-Pour afficher des détails tels que les personnes, les dates d&#39;inscription, les dates d&#39;échéance et la progression pour les objets d&#39;apprentissage respectifs, cliquez sur les valeurs correspondantes dans les colonnes inscriptions, progressions et achèvements.
+Pour afficher les informations, y compris les personnes, les dates d’inscription, les dates d’échéance et les progrès des objets d’apprentissage respectifs, cliquez sur les valeurs correspondantes dans les colonnes d’inscriptions, de progressions et d’achèvements.
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
 *Vue Apprentissages*
 
-## Exporter le rapport {#exportreport}
+## Rapport d’exportation {#exportreport}
 
 Pour générer un rapport Excel, cliquez **[!UICONTROL Actions] > [!UICONTROL Signaler]**
 
 ## État de conformité {#compliancestatus}
 
-Les responsables peuvent afficher l’état de conformité global de l’équipe pour les apprentissages configurés dans le tableau de bord de conformité. La liste des apprentissages est configurable et le responsable peut sélectionner les apprentissages pour suivre l&#39;état de conformité.
+Les responsables peuvent afficher l’état de conformité global de l’équipe pour les apprentissages configurés dans le tableau de bord de conformité. La liste des apprentissages est configurable et le responsable peut sélectionner les apprentissages pour suivre le statut de conformité.
 
-Sur ce tableau de bord, les responsables peuvent également afficher les élèves qui sont conformes, dans une échéance sûre, qui approchent de l&#39;échéance et qui ne sont pas conformes pour un objet d&#39;apprentissage sélectionné.
+Sur ce tableau de bord, les responsables peuvent également afficher les élèves conformes, dans un délai sécurisé, à l’approche de l’échéance, et les élèves non conformes pour un objet d’apprentissage sélectionné.
 
-Les objets d’apprentissage avec des échéances d’achèvement peuvent être configurés dans le tableau de bord de conformité pour le suivi.
+Les objets d’apprentissage avec des délais d’achèvement peuvent être configurés dans le tableau de bord de conformité pour le suivi.
 
-**Conforme**: affiche le nombre d’élèves qui ont terminé l’objet d’apprentissage dans le délai imparti.
+**Conforme** : affiche le nombre d’élèves qui ont terminé l’objet d’apprentissage dans les délais.
 
-**Échéance sécurisée**: affiche le nombre d&#39;élèves qui disposent de moins de 30 jours pour terminer un objet d&#39;apprentissage.
+**Échéance sûre** : affiche le nombre d’élèves à qui il reste moins de 30 jours pour terminer un objet d’apprentissage.
 
-**Échéance à venir**: affiche le nombre d&#39;élèves disposant de plus de 30 jours pour terminer un objet d&#39;apprentissage.
+**Échéance à venir** : affiche le nombre d’élèves à qui il reste plus de 30 jours pour terminer un objet d’apprentissage.
 
-**Non conforme**: affiche le nombre d’élèves qui n’ont pas terminé l’objet d’apprentissage dans le délai imparti.
+**Non conforme** : affiche le nombre d’élèves qui n’ont pas terminé l’objet d’apprentissage dans les délais.
 
 ![](assets/cs-dashboard.png)
 
 *Afficher le tableau de bord de conformité*
 
-## Vue de l’équipe {#TeamView-1}
+## Vue Équipe {#TeamView-1}
 
-Affiche l’état de conformité d’un cours pour les équipes respectives. Conformité, Échéance sécurisée, Échéance à venir et Non conforme sont des colonnes du tableau Vue de l&#39;équipe.
+Affiche le statut de conformité d’un cours pour des équipes respectives. Conforme, Échéance sûre, Échéance à venir et Non conforme sont des colonnes du tableau Vue Équipe.
 
 ![](assets/cs-team-view.png)
 
@@ -116,7 +116,7 @@ Pour afficher les noms des membres d&#39;une équipe et le nombre individuel de 
 
 *Sélection d’équipes individuelles*
 
-En cliquant davantage sur les valeurs des colonnes Conforme, Échéance sûre, Échéance à venir et Non conforme, les détails du cours correspondants s’affichent : nom de l’objet d’apprentissage, date d’inscription/d’achèvement, date d’échéance et progression en pourcentage.
+En cliquant sur les valeurs dans la colonne Conforme, Échéance sûre, Échéance à venir et Non conforme, les informations de cours correspondantes sont affichées : nom de l’objet d’apprentissage, date d’inscription/d’achèvement, date d’échéance et pourcentage de progression.
 
 ![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png)
 
@@ -124,19 +124,19 @@ En cliquant davantage sur les valeurs des colonnes Conforme, Échéance sûre, �
 
 ## Vue Apprentissages {#LearningsView-1}
 
-Dans la vue Apprentissages de l&#39;état de conformité, la liste des objets d&#39;apprentissage et le nombre correspondant de membres de l&#39;équipe qui sont conformes, dans un délai sûr, ont une échéance à venir ou sont non conformes s&#39;affiche.
+Dans la vue Apprentissages du Statut de conformité, la liste d’objets d’apprentissages et le nombre correspondant de membres de l’équipe qui son Conformes, dans une Échéance sûre, avec une Échéance à venir ou qui sont Non conformes, s’affiche.
 
 ![](assets/cs-learnings-view.png)
 
 *Affichage de l’échéance et de l’état de conformité*
 
-En cliquant davantage sur les valeurs des colonnes Conforme, Échéance sûre, Échéance à venir et Non conforme, les données suivantes s&#39;affichent : Personnes, Date d&#39;inscription, Date d&#39;achèvement et Progression.
+En cliquant sur les valeurs dans la colonne Conforme, Échéance sûre, Échéance à venir et Non conforme, les données suivantes s’affichent : Personnes, Date d’inscription, Date d’achèvement et Progression.
 
 ![](assets/cs-learnings-view-onfurtherclickingvalues.png)
 
 *Afficher les détails de la conformité*
 
-## Exportation de données et envoi d’e-mails {#exportdataampsendemails}
+## Exporter des données et envoyer des courriers électroniques {#exportdataampsendemails}
 
 * Pour exporter l’état de conformité pour la vue Équipe et Apprentissages, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Exportation]**.
 
@@ -146,13 +146,13 @@ En cliquant davantage sur les valeurs des colonnes Conforme, Échéance sûre, �
 
 *Exportation et envoi de données par e-mail*
 
-## Compétences de l’équipe {#teamskills}
+## Compétences d’équipe {#teamskills}
 
-Les responsables peuvent afficher le graphique d’achèvement des compétences et configurer une prévision d’achèvement des compétences à différents niveaux. Cinq compétences sont répertoriées dans la liste déroulante des compétences. Le responsable apprend à connaître l&#39;expertise acquise par les membres de l&#39;équipe et à identifier des talents forts dans certaines compétences.
+Les responsables peuvent afficher le graphique d’achèvement des compétences et configurer une prévision d’achèvement des compétences à différents niveaux. Cinq compétences sont répertoriées dans la liste déroulante des compétences. Le responsable découvre alors l’expertise acquise par les membres de l’équipe et identifie les meilleurs talents dans certaines compétences.
 
-Les responsables peuvent également développer certaines compétences au sein d’une équipe en fixant un objectif et en prévoyant le temps qu’il faudrait pour atteindre une compétence pour un pourcentage spécifique d’une équipe dans un délai donné.
+Les responsables peuvent également acquérir certaines compétences au sein d’une équipe en fixant un objectif et en prévoyant le temps nécessaire pour acquérir une compétence correspondant à un pourcentage spécifique d’une équipe dans un journal.
 
-Cette prévision est basée sur des calculs de système qui donnent une vue de l&#39;avenir pour un progrès de cette compétence spécifique.
+Cette prévision est basée sur des calculs système qui donnent une idée de l’évolution de cette compétence spécifique.
 
 ![](assets/ts-dashboard-02.png)
 
@@ -161,17 +161,17 @@ Cette prévision est basée sur des calculs de système qui donnent une vue de l
 Pour afficher l’état des compétences d’une équipe, procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Compétences de l’équipe]** dans le volet gauche sous la section Mon mode Équipe.
-1. Pour afficher les compétences affichées, cliquez sur le filtre de compétence et sélectionnez-en un dans la liste déroulante.
-1. Pour sélectionner un niveau (Niveau 1, Niveau 2 ou Niveau 3), cliquez sur le menu déroulant Niveau.
-1. En fonction de la compétence et du niveau sélectionnés, un graphique avec son statut de compétence s’affiche. Lorsque vous survolez le graphique, vous pouvez afficher les pourcentages suivants de l’état de compétence : **En cours** et **Atteint**.
+1. Pour afficher les compétences, cliquez sur le filtre de compétences et sélectionnez-en une dans la liste déroulante.
+1. Pour sélectionner un niveau (niveau 1, niveau 2 ou niveau 3), cliquez sur le menu déroulant du niveau.
+1. En fonction de la compétence et du niveau sélectionnés, un graphique avec le statut de compétence est affiché. En plaçant le curseur sur le graphique, les pourcentages du statut de compétence suivants s’affichent : **En cours** et **Obtenues**.
 
    ![](assets/first-graph.png)
 
    *Afficher le pourcentage de l’état des compétences*
 
-## Comment prévoir le % d’achèvement d’équipe pour une compétence {#howtoforecasttheteamcompletionforaskill}
+## Comment prévoir le % d’achèvement de l’équipe pour une compétence {#howtoforecasttheteamcompletionforaskill}
 
-Pour prévoir le % d’achèvement d’équipe pour une compétence, procédez comme suit :
+Pour prévoir le % d’achèvement de l’équipe par rapport à une compétence, suivez les étapes ci-dessous :
 
 1. Pour afficher le suivi de configuration, cliquez sur le lien hypertexte de configuration.
 
@@ -185,7 +185,7 @@ Pour prévoir le % d’achèvement d’équipe pour une compétence, procédez c
 
    *Entrer le pourcentage d&#39;achèvement cible*
 
-1. Pour afficher la sortie de votre prévision, cliquez sur le bouton **Estimation** bouton. La sortie ressemble à la capture d’écran ci-dessous.
+1. Pour afficher les résultats de vos prévisions, cliquez sur le bouton **Estimation**. La sortie ressemble à la capture d’écran ci-dessous.
 
    ![](assets/skill-tracker-output.png)
 
@@ -193,9 +193,9 @@ Pour prévoir le % d’achèvement d’équipe pour une compétence, procédez c
 
 ## Prévision d’achèvement du niveau de compétence {#skilllevelcompletionforecast}
 
-Le responsable d’une équipe peut afficher et configurer le pourcentage d’achèvement d’équipe d’une compétence pour une période de temps donnée en fonction du pourcentage d’achèvement cible et de la date et de l’heure fournis dans le suivi des compétences.
+Le responsable d’une équipe peut afficher et configurer le pourcentage d’achèvement d’une compétence d’une équipe pour une période donnée, en fonction du pourcentage d’achèvement cible et de la date indiqués dans le suivi des compétences.
 
-Dans le graphique de prévision, il existe deux types de lignes (ligne pleine et ligne pointillée) avec trois sommets chacun.
+Dans le graphique de prévision, il existe deux types de lignes (lignes continues et pointillées) avec trois sommets chacune.
 
 Sur la ligne continue, le premier point affiche la date de la première inscription pour un niveau de compétence.
 
@@ -203,13 +203,13 @@ Sur la ligne continue, le premier point affiche la date de la première inscript
 
 *Afficher la première inscription pour un niveau de compétence*
 
-Le deuxième point indique la date actuelle et le niveau d’achèvement d’équipe (%) de la compétence.
+Le deuxième point indique la date actuelle et le pourcentage d’achèvement de l’équipe de la compétence.
 
 ![](assets/2-solid-line.png)
 
 *Afficher la date actuelle et le pourcentage d’achèvement d’équipe de la compétence*
 
-Le troisième point de la ligne indique le pourcentage d’achèvement prévu et la date d’achèvement prévue.
+Le troisième point de la ligne indique le % d’accomplissement prévu et la date d’achèvement cible.
 
 ![](assets/3-solid-line.png)
 
@@ -217,33 +217,33 @@ Le troisième point de la ligne indique le pourcentage d’achèvement prévu et
 
 ## Ligne de prévision {#forecastline}
 
-La ligne pointillée est la ligne de prévision qui affiche la prévision en fonction du pourcentage d&#39;achèvement actuel de l&#39;équipe pour une compétence sur une période donnée.
+La ligne en pointillé est la ligne de prévision qui affiche la prévision en fonction du pourcentage d’achèvement de l’équipe en cours pour une compétence au cours d’une période donnée.
 
-Le premier point sur la ligne pointillée représente le pourcentage d’achèvement d’équipe et le pourcentage d’achèvement d’équipe prévu pour une compétence à cette date.
+Le premier point sur la ligne pointillée représente le % d’achèvement de l’équipe et le % d’achèvement estimé par l’équipe pour une compétence à cette date.
 
 ![](assets/1-dotted-line.png)
 
 *Afficher le % d’achèvement d’équipe et le % d’achèvement d’équipe prévu pour une compétence*
 
-Le deuxième point affiche la date à laquelle le pourcentage d’achèvement d’équipe prévu a été atteint pour une compétence.
+Le deuxième point affiche la date à laquelle le % d’achèvement estimé par l’équipe a été atteint pour une compétence.
 
 ![](assets/2-dotted-line.png)
 
 *Afficher la date à laquelle le pourcentage d’achèvement d’équipe prévu a été atteint pour une compétence*
 
-Le troisième point de la ligne de prévision affiche le pourcentage d’achèvement d’équipe atteint à la date cible fournie dans le suivi des compétences.
+Le troisième point de la ligne de prévision affiche le pourcentage d’achèvement de l’équipe atteint à la date cible indiquée dans le suivi des compétences.
 
 ![](assets/3-dotted-line.png)
 
 *Afficher le % d’achèvement d’équipe qui est atteint à la date cible fournie dans le suivi des compétences*
 
-Sous le graphique, un tableau s’affiche avec la vue de l’équipe et le nombre de compétences qui ont été inscrites, acquises et en cours. Si un apprentissage a une date d’achèvement, la date d’achèvement attendue est également affichée.
+Sous le graphique, un tableau s’affiche avec la vue de l’équipe et le nombre de compétences inscrites, acquises et en cours. Si un apprentissage a une date d’achèvement, la date d’achèvement prévue est également affichée.
 
 ![](assets/ts-details.png)
 
 *Tableau présentant la vue de l’équipe et le nombre de compétences qui ont été inscrites, acquises et en cours*
 
-Lorsque vous cliquez sur le nom de l&#39;équipe, la liste des membres inscrits à la compétence, l&#39;état de la compétence et la date d&#39;achèvement s&#39;affiche.
+En cliquant sur le nom de l’équipe, la liste des membres inscrits à la compétence, son statut et sa date d’achèvement s’affichent.
 
 ![](assets/ts-click-the-teamnames.png)
 
@@ -255,11 +255,11 @@ En cliquant sur l’équipe, vous pouvez afficher les membres qui la composent e
 
 *Afficher les compétences des membres*
 
-Lors de la sélection des valeurs pour une équipe dans la colonne Inscription, atteint et en cours, vous pouvez afficher le nombre d&#39;utilisateurs qui se sont inscrits à la compétence. Vous pouvez également afficher la date à laquelle l’utilisateur s’est inscrit à la compétence, le statut et la date d’achèvement si la compétence a été achevée par l’utilisateur.
+Lors de la sélection des valeurs pour une équipe dans les colonnes Inscription, Acquise et En cours, vous pouvez afficher le nombre d’utilisateurs inscrits à la compétence. Vous pouvez également afficher la date à laquelle l’utilisateur s’est inscrit à la compétence, le statut et la date d’achèvement si la compétence a été acquise par l’utilisateur.
 
 <!--![](assets/ts-click-on-valuesunderskillstatus.png) ![](assets/1-solid-line.png)-->
 
-## Exporter le rapport {#Exportreport-1}
+## Rapport d’exportation {#Exportreport-1}
 
 * Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Exportation]** pour exporter les données sous forme de fichier excel.
 

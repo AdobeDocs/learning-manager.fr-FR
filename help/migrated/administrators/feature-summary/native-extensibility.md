@@ -4,15 +4,15 @@ description: Configurez des expériences personnalisées dans la version native 
 source-git-commit: 86c80607e2f50e6abf6d64fd7a916ef5b024b837
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
 # Extensibilité native
 
-Vous pouvez configurer des expériences personnalisées dans la version native d’Adobe Learning Manager, ce qui vous permet de ne pas utiliser l’interface sans en-tête pour les cas moins compliqués. Vous pouvez également créer des applications personnalisées et les placer à différents endroits dans la version native des workflows de l’élève, du responsable, de l’administrateur, de l’auteur ou de l’instructeur.
+Vous pouvez configurer des expériences personnalisées dans la version native d’Adobe Learning Manager, ce qui vous permet de ne pas utiliser d’approche headless pour les cas moins complexes. Vous pouvez également créer des applications personnalisées et les placer à différents points de la version native des flux de travail de l’élève, du responsable, de l’administrateur, de l’auteur ou de l’instructeur.
 
-Adobe Learning Manager prend en charge 15 points d’appel dans l’application d’administration, d’auteur, d’élève, de responsable et d’instructeur.
+Adobe Learning Manager prend en charge 15 points d’invocation dans l’application pour l’administrateur, l’auteur, l’élève, le responsable et l’instructeur.
 
 ## Création d’une extension
 
@@ -20,7 +20,7 @@ Adobe Learning Manager prend en charge 15 points d’appel dans l’application 
 1. Sélectionnez Ajouter une extension.
 1. Saisissez le nom de l’extension dans le champ **[!UICONTROL Nom]** champ.
 1. Saisissez la description de l’extension dans le champ **[!UICONTROL Description]** champ.
-1. Sélectionnez un point d’appel. Un point d’appel est un emplacement dans Adobe Learning Manager où un lien ou un bouton peut être inséré dans une application personnalisée. Les points d’appel suivants sont disponibles :
+1. Sélectionnez un point d’invocation. Dans Adobe Learning Manager, un point d’invocation est un emplacement où un lien ou un bouton peut être inséré dans une application personnalisée. Les points d’invocation suivants sont disponibles :
 
    Pour cet exemple, sélectionnez **[!UICONTROL Administrateur]**, **[!UICONTROL Auteur : Cours]**, **[!UICONTROL Parcours d’apprentissage]** - **[!UICONTROL Instances]** - **[!UICONTROL Ligne d’instance]**.
 
@@ -28,11 +28,11 @@ Adobe Learning Manager prend en charge 15 points d’appel dans l’application 
    *Sélectionner le point d’appel*
 
 1. Saisissez l’étiquette d’extension qui apparaîtra sur l’interface utilisateur dans le champ **[!UICONTROL Libellé d’extension]** champ.
-1. Saisissez l’URL où vous souhaitez héberger l’extension dans le champ **[!UICONTROL URL]** champ.
+1. Saisissez l’URL de votre choix pour héberger l’extension dans le champ **[!UICONTROL URL]**.
 1. Dans la liste déroulante Ouvrir dans, indiquez si l’extension doit être lancée dans un nouvel onglet ou dans un nouvel onglet.
-1. Sélectionnez la taille du modèle. Les options sont disponibles si vous avez sélectionné *Dans l’application* modale à l’étape précédente.
+1. Sélectionnez la taille de la fenêtre modale. Les options sont disponibles si vous avez sélectionné *Dans l’application* modale à l’étape précédente.
 
-   Pour conserver l’accessibilité dans la fenêtre contextuelle, l’application d’extension doit être envoyée à l’événement une fois qu’elle se trouve sur le dernier élément pouvant recevoir le focus sur son site web, puis l’utilisateur sélectionne la touche TAB. Cela est nécessaire pour garder l’accent dans la fenêtre contextuelle afin de prendre en charge l’accessibilité.
+   Pour conserver l’accessibilité dans la fenêtre contextuelle, l’application d’extension doit être envoyée à l’événement une fois qu’elle se trouve sur le dernier élément pouvant recevoir le focus sur son site web, puis l’utilisateur sélectionne la touche TAB. Cela est nécessaire pour garder le focus dans la fenêtre contextuelle et prendre en charge l’accessibilité.
 
    ```
    window.parent.postMessage({*}
@@ -42,20 +42,20 @@ Adobe Learning Manager prend en charge 15 points d’appel dans l’application 
    ,{}'');
    ```
 
-1. Définissez la portée de l’extension. Les étendues suivantes sont disponibles :
+1. Définissez l’étendue de l’extension. Les étendues suivantes sont disponibles :
 
    * **[!UICONTROL Tous les cours, cursus et certifications]**: cette extension est activée pour tous les cours, parcours d’apprentissage et certifications. Avec les administrateurs, les auteurs peuvent la désactiver pour certains cours, parcours d’apprentissage et certifications.
    * **[!UICONTROL Cours, parcours d’apprentissage et certifications sélectionnés]**: cette extension est désactivée pour tous les cours, parcours d’apprentissage et certifications. Avec les administrateurs, les auteurs peuvent l’activer pour certains cours, parcours d’apprentissage et certifications.
 
-1. Sélectionnez l’option **[!UICONTROL Activer]** activez/désactivez pour activer l’extension. Une fois active, l’extension apparaît au point d’appel spécifié en fonction de l’étendue.
-1. Sélectionner **[!UICONTROL Enregistrer]** dans le coin supérieur droit de la page pour créer l’extension.
+1. Sélectionnez l’option **[!UICONTROL Activer]** pour activer l’extension. Une fois active, l’extension apparaît au point d’appel spécifié en fonction de l’étendue.
+1. Sélectionnez **[!UICONTROL Enregistrer]** en haut à droite de la page pour créer l’extension.
 
 ## Accès à l’extension en tant qu’administrateur
 
 1. En tant qu’administrateur, sélectionnez **[!UICONTROL Parcours d’apprentissage]** dans la barre d’outils de gauche.
-1. Sélectionner un cours > **[!UICONTROL Afficher le parcours d’apprentissage]**.
-1. Sélectionner **[!UICONTROL Instances]** dans le panneau de gauche.
-1. Sélectionner **[!UICONTROL Plus]** dans la section Instances. L’extension apparaît dans la section Instances.
+1. Sélectionnez un cours > **[!UICONTROL Afficher le parcours d’apprentissage]**.
+1. Sélectionnez **[!UICONTROL Instances]** dans le panneau de gauche.
+1. Sélectionnez **[!UICONTROL Plus]** dans la section Instances. L’extension s’affiche dans la section Instances.
 
    ![image d’instances](assets/instances-extension.png)
    *Sélectionner l’extension*
@@ -65,16 +65,16 @@ Adobe Learning Manager prend en charge 15 points d’appel dans l’application 
 ## Accès à l’extension en tant qu’auteur
 
 1. En tant qu’administrateur, sélectionnez **[!UICONTROL Parcours d’apprentissage]** dans la barre d’outils de gauche.
-1. Sélectionner un cours > **[!UICONTROL Afficher le parcours d’apprentissage]**.
-1. Sélectionner **[!UICONTROL Instances]** dans le panneau de gauche.
-1. Sélectionner **[!UICONTROL Plus]** dans la section Instances. L’extension apparaît dans la section Instances.
+1. Sélectionnez un cours > **[!UICONTROL Afficher le parcours d’apprentissage]**.
+1. Sélectionnez **[!UICONTROL Instances]** dans le panneau de gauche.
+1. Sélectionnez **[!UICONTROL Plus]** dans la section Instances. L’extension s’affiche dans la section Instances.
 
    ![image d’instances](assets/instances-extension.png)
    *Accéder à l’extension en tant qu’auteur*
 
    Lorsque vous sélectionnez l’extension, celle-ci apparaît dans la fenêtre modale.
 
-## Voir toutes les extensions
+## Affichage de l’ensemble des extensions
 
 En tant qu’administrateur, vous pouvez afficher toutes les extensions sur la page Extensions natives. Pour afficher la liste, sélectionnez Extensions natives dans le panneau de gauche de l’application.
 
@@ -101,7 +101,7 @@ Dans l’onglet Paramètres, générez la clé.
 ![partager l’image clé](assets/share-extension.png)
 *Partage de la clé d’accès*
 
-## Télécharger le rapport d’extension
+## Téléchargement du rapport d’extension
 
 Il existe deux façons de télécharger ce rapport.
 
@@ -119,15 +119,15 @@ Il existe deux façons de télécharger ce rapport.
    ![génération de l’image du rapport](assets/generating-report.png)
    *Génération du rapport*
 
-   Le rapport contient les champs suivants :
+   Le rapport contient les champs suivants :
 
    * Nom de l’extension
-   * Point d’appel
-   * Libellé
+   * Point d’invocation
+   * Étiquette
    * Ouvrir dans l’URL
    * Portée
-   * Activer
-   * ID unique de l’objet d’apprentissage
+   * Activation
+   * ID unique d’objet d’apprentissage
    * ID de formation
    * Type de formation
    * Nom de la formation

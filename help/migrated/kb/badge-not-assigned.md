@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Impossible d’attribuer un badge
-description: Une fois qu’un élève a terminé un cours/programme d’apprentissage/certification, le badge ne lui est pas attribué.
+description: Lorsqu’un élève a terminé un cours, un programme d’apprentissage ou une certification, aucun badge ne lui est décerné.
 contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 74%
 
 ---
 
@@ -20,19 +20,19 @@ Même après avoir suivi un cours ou une formation, un badge n’est pas décern
 
 ## Description
 
-Une fois qu’un élève a terminé un cours/programme d’apprentissage/certification, le badge ne lui est pas attribué.
+Lorsqu’un élève a terminé un cours, un programme d’apprentissage ou une certification, aucun badge ne lui est décerné.
 
 ## Cause
 
 Le badge attribué à l’objet d’apprentissage est ajouté une fois que l’élève a terminé l’objet d’apprentissage.
 
-Dans la version antérieure, un badge ne pouvait pas être ajouté ultérieurement s’il n’y avait pas de badge attribué à un objet d’apprentissage au moment où l’élève terminait l’objet d’apprentissage.
+Dans la version précédente, un badge ne pouvait pas être ajouté ultérieurement s’il n’y avait pas de badge attribué à un objet d&#39;apprentissage au moment où l’élève complétait l’objet d&#39;apprentissage.
 
-Dans les versions actuelles, la fonctionnalité est disponible.
+Dans les versions actuelles, cette fonctionnalité est disponible.
 
 ## Résolution
 
-Si un élève rencontre le problème, essayez les étapes ci-dessous :
+Si un élève rencontre le problème, procédez comme suit :
 
 ## Cours/Programme d’apprentissage
 
@@ -57,7 +57,7 @@ Si un élève rencontre le problème, essayez les étapes ci-dessous :
 1. Connectez-vous en tant qu’administrateur.
 1. Ouvrez la certification.
 1. Cliquez sur **[!UICONTROL Présentation]** > **[!UICONTROL Badge]**.
-1. Supprimez le badge de la certification et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Supprimez le badge de la certification, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/remove-a-badge-cert.png)
 

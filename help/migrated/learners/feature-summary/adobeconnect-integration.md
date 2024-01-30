@@ -1,38 +1,38 @@
 ---
 jcr-language: en_us
-title: Intégration d’Adobe Connect
+title: Intégration d'Adobe Connect
 description: En tant qu’élève, vous pouvez suivre des cours en salle de classe virtuelle à l’aide d’Adobe Connect si votre société intègre Adobe Connect à votre compte Learning Manager. Contactez l’administrateur de votre société si vous ne pouvez pas utiliser Adobe Connect.
 source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
 
 
-# Intégration d’Adobe Connect
+# Intégration d&#39;Adobe Connect
 
 En tant qu’élève, vous pouvez suivre des cours en salle de classe virtuelle à l’aide d’Adobe Connect si votre société intègre Adobe Connect à votre compte Learning Manager. Contactez l’administrateur de votre société si vous ne pouvez pas utiliser Adobe Connect.
 
-## Suivre des cours de classe virtuelle Adobe Connect {#consumeadobeconnectvirtualclassroomcourses}
+## Suivre les cours d’une classe virtuelle Adobe Connect {#consumeadobeconnectvirtualclassroomcourses}
 
 Connectez-vous à Learning Manager en tant qu’élève et cliquez sur la carte de cours de classe virtuelle à partir du widget Mon apprentissage. Vous pouvez également choisir Catalogue dans le volet de gauche, filtrer les cours et cliquer sur le cours de classe virtuelle requis.
 
-Si vous vous êtes inscrit à une session de classe virtuelle Adobe Connect, vous recevrez une notification avant le début de la session avec l’URL de votre compte.
+Si vous êtes inscrit à une session de classe virtuelle Adobe Connect, vous recevrez une notification avant le début de la session avec l’URL de votre compte.
 
-1. Cliquez sur l’URL, puis sur la carte de salle de classe virtuelle.
-1. Vous pouvez commencer à suivre le cours en cliquant sur Démarrer dans l&#39;angle supérieur droit de la page, puis en cliquant sur l&#39;URL de la session dans le lecteur OU
+1. Cliquez sur l’URL et cliquez sur la carte de la classe virtuelle.
+1. Vous pouvez commencer à suivre le cours en cliquant sur Démarrer dans le coin supérieur droit de la page, puis sur l’URL de la session dans le lecteur OU
 
    Cliquez sur l’URL de la session directement sur la page.
 
-Une fois le cours terminé, vous recevrez une notification de réussite du cours.
+Après l&#39;exécution du cours, vous recevrez une notification de fin de cours.
 
-Si l’administrateur a activé le retour d’informations L1 pour vous, l’application Learning Manager envoie un rappel pour fournir un retour d’informations L1.
+Si l&#39;administrateur a activé les commentaires L1 pour vous, l&#39;application Learning Manager envoie un rappel pour fournir des commentaires L1.
 
-## Afficher les sessions de classe virtuelle enregistrées {#viewrecordedvirtualclassroomsessions}
+## Affichage des sessions de classe virtuelle enregistrées {#viewrecordedvirtualclassroomsessions}
 
-Si vous souhaitez écouter des sessions de classe virtuelle enregistrées, cliquez sur le cours Salle de classe virtuelle. Vous pouvez afficher toutes les URL de session enregistrées. Cela s’applique uniquement si l’hôte de la session enregistre les sessions.
+Si vous souhaitez écouter les sessions de classe virtuelle enregistrées, cliquez sur le cours de la classe virtuelle. Vous pouvez alors afficher toutes les URL des sessions enregistrées. Cela s’applique uniquement si l’hôte des sessions enregistre les sessions.
 
 >[!NOTE]
 >

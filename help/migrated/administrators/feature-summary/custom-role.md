@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '2224'
-ht-degree: 0%
+ht-degree: 64%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Cette fonctionnalité vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d&#39;attribuer des responsabilités en dehors du rôle existant de la personne.
 
-Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de création limitées à un catalogue particulier. Vous pouvez également créer un rôle dédié à la gestion des rapports. Ces rôles peuvent ensuite être attribués à des personnes qui sont censées assumer ces responsabilités spécifiques.
+Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de création limitées à un catalogue particulier. Vous pouvez également créer un rôle dédié à la gestion des rapports. Ces rôles peuvent ensuite être affectés à des personnes qui sont censées assumer ces responsabilités spécifiques.
 
-## Créer un rôle personnalisé {#create-role}
+## Création d’un rôle personnalisé {#create-role}
 
 1. Connectez-vous en tant qu’administrateur. Ouvrir **[!UICONTROL Utilisateurs]** > **[!UICONTROL Rôle personnalisé]**.
-1. Sélectionner **[!UICONTROL Créer un rôle]**. Le **[!UICONTROL Créer un rôle]** l’onglet s’ouvre.
+1. Sélectionner **[!UICONTROL Créer un rôle]**. L’onglet **[!UICONTROL Créer un rôle]** s’ouvre.
 
    ![](assets/create-new-role.png)
 
    *Créer un rôle personnalisé*
 
 1. Saisissez le nom dans le champ **[!UICONTROL Nom du rôle]** champ.
-1. **[!UICONTROL Privilèges de compte]**: ces privilèges donnent aux propriétaires des rôles l’accès à des aspects spécifiques de la configuration du système et qui agissent sur l’ensemble du compte. Choisissez les autorisations d’accès. L’utilisateur a un contrôle total sur les autorisations attribuées.
+1. **[!UICONTROL Privilèges de compte]**: ces privilèges donnent aux propriétaires des rôles l’accès à des aspects spécifiques de la configuration du système et qui agissent sur l’ensemble du compte. Choisissez les autorisations d’accès. L’utilisateur obtient le contrôle total sur les autorisations affectées.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
 *Définir la portée*
 
-1. **Droits de fonctionnalités - fonctionnalités de base**: utilisé pour accorder l’accès à des fonctionnalités spécifiques de gestion des activités d’apprentissage. Cette option permet d’accorder des autorisations pour les fonctionnalités suivantes.
+1. **Droits de fonctionnalités - fonctionnalités de base**: utilisé pour accorder l’accès à des fonctionnalités spécifiques de gestion des activités d’apprentissage. Les autorisations sur les fonctionnalités suivantes peuvent être accordées à l’aide de cette option.
 
    * Catalogues
    * Rapports
@@ -56,12 +56,12 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
    * Assistances à la tâche
    * Programmes d’apprentissage
 
-   Vous pouvez également accorder un contrôle d’opération spécifique pour les objets d’apprentissage. L’autorisation peut être l’une des suivantes :
+   Vous pouvez également accorder un contrôle d’opération spécifique pour les objets d’apprentissage. L’autorisation peut être l’une des suivantes :
 
-   * Contrôle total
+   * Contrôle complet
    * Modifier et supprimer
    * Inscription
-   * Signaler
+   * Rapport
 
    ![](assets/learning-objects.png)
 
@@ -69,15 +69,15 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
 1. **Portée des privilèges de fonctionnalité :** La portée des privilèges de fonctionnalité alloués à ce rôle peut être limitée à un groupe d’utilisateurs spécifique ou à un ou plusieurs catalogues.
 
-   Catalogues : utilisez la case d’option pour contrôler **[!UICONTROL Tous les catalogues]** ou utilisez **[!UICONTROL Définir l’accès par catalogue]** pour donner accès à des catalogues spécifiques. Vous pouvez également sélectionner plusieurs catalogues.
+   Catalogues : utilisez le bouton radio pour contrôler **[!UICONTROL Tous les catalogues]** ou utilisez l’option **[!UICONTROL Définir l’accès par catalogue]** pour donner accès à des catalogues spécifiques. Vous pouvez également sélectionner plusieurs catalogues.
 
-   Groupes d’utilisateurs : permet d’accéder à **[!UICONTROL Tous les groupes d’utilisateurs]** ou utilisez **[!UICONTROL Définir l’accès par groupe d’utilisateurs]** pour fournir l’accès à des groupes d’utilisateurs spécifiques. Un seul groupe d’utilisateurs peut être spécifié.
+   Groupes d’utilisateurs : fournissez un accès à **[!UICONTROL Tous les groupes d’utilisateurs]** ou utilisez l’option **[!UICONTROL Définir l’accès par groupe d’utilisateurs]** pour donner accès à des groupes d’utilisateurs spécifiques. Un seul groupe d’utilisateurs peut être spécifié.
 
    >[!NOTE]
    >
    >Si vous avez sélectionné Annonce, Ludification, Modèles d’e-mail, Compétences et Utilisateurs sous Privilèges de compte, l’accès Groupe d’utilisateurs est fourni à tous les groupes d’utilisateurs par défaut et cette option est désactivée.
 
-   Si vous avez sélectionné Plans d&#39;apprentissage sous Privilèges de compte, l&#39;accès à tous les catalogues et groupes d&#39;utilisateurs est fourni par défaut et ces options sous Portée sont désactivées.
+   Si vous avez sélectionné Programmes d’apprentissage sous Droits du compte, l’accès à tous les catalogues et aux groupes d’utilisateurs est fourni par défaut et ces options sont désactivées sous Portée.
 
    ![](assets/define-scope-of-privileges.png)
 
@@ -85,13 +85,13 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
 >[!NOTE]
 >
->   Dans Learning Manager 27.6, vous pouvez créer un rôle personnalisé dont la portée s’étend à plusieurs catalogues disposant chacun d’ensembles d’autorisations différents.
+>   Dans Learning Manager 27.6, vous pouvez créer un rôle personnalisé dont la portée s’étend à plusieurs catalogues disposant chacun d’ensembles d’autorisations différents.
 
 
-Pour accorder diverses autorisations aux catalogues, procédez comme suit :
+Pour accorder différentes autorisations aux catalogues, suivez les étapes ci-dessous :
 
 1. Cliquez sur l’option **[!UICONTROL Définir l’accès par catalogue]**.
-1. Choisissez les catalogues et vous pouvez voir le niveau d’autorisation pour chaque catalogue. Les autorisations sont les suivantes :
+1. Choisissez les catalogues. Vous pouvez voir le niveau d’autorisation pour chaque catalogue. Les autorisations sont les suivantes :
 
    <table>
         <tbody>
@@ -103,53 +103,53 @@ Pour accorder diverses autorisations aux catalogues, procédez comme suit :
         </tr>
         <tr>
           <td>
-          <p>Contrôle total</p></td>
+          <p>Contrôle complet</p></td>
           <td>
-          <p>Permet un contrôle total sur tous les objets d’apprentissage. Les autorisations incluent Ajouter, Modifier, Supprimer, Lire, Inscrire et Rapport.<br></p></td>
+          <p>Accorde un contrôle complet sur tous les objets d’apprentissage. Les autorisations incluent Ajouter, Modifier, Supprimer, Lire, Inscrire et Rapport.<br></p></td>
         </tr>
         <tr>
           <td>
-          <p>Signaler</p></td>
+          <p>Rapport</p></td>
           <td>
-          <p>Accorde l’accès à l’onglet Rapports uniquement de l’objet d’apprentissage.</p></td>
+          <p>Accorde uniquement l’accès à l’onglet Rapports de l’objet d’apprentissage.</p></td>
         </tr>
         <tr>
           <td>
-          <p>S’inscrire</p></td>
+          <p>Inscrire</p></td>
           <td>
-          <p>Autorise uniquement l’inscription à l’objet d’apprentissage.</p></td>
+          <p>Accorde uniquement l’autorisation de s’inscrire à l’objet d’apprentissage.</p></td>
         </tr>
         <tr>
           <td>
           <p>Lecture seule</p></td>
           <td>
-          <p>Autorise uniquement l’affichage des objets d’apprentissage dans le catalogue.</p></td>
+          <p>Accorde uniquement l’autorisation d’afficher les objets d’apprentissage dans le catalogue.</p></td>
         </tr>
         </tbody>
       </table>
 
-1. Activez ou désactivez les autorisations en fonction de vos besoins.
-1. Pour enregistrer les modifications, cliquez sur **[!UICONTROL OK]**. Ensuite, pour enregistrer les modifications pour le rôle personnalisé, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Activez ou désactivez les autorisations conformément à vos exigences.
+1. Cliquez sur **[!UICONTROL OK]** pour enregistrer les modifications. Ensuite, pour enregistrer les modifications pour le rôle personnalisé, cliquez sur **[!UICONTROL Enregistrer]**.
 
-Prenons par exemple le scénario suivant.
+Par exemple, considérons le scénario suivant.
 
-L&#39;autorisation résultante, qu&#39;un utilisateur personnalisé aurait sur un objet d&#39;apprentissage, est une intersection de l&#39;autorisation de l&#39;objet d&#39;apprentissage et de l&#39;autorisation du catalogue.
+L’autorisation résultante qu’un utilisateur personnalisé aurait sur un objet d’apprentissage est une combinaison de l’autorisation de l’objet d’apprentissage et de l’autorisation du catalogue.
 
-Un utilisateur personnalisé dispose d&#39;une autorisation complète sur les cours et d&#39;un accès en lecture seule uniquement sur le catalogue A, mais d&#39;une autorisation complète sur le catalogue B. Les résultats sont un accès en lecture seule sur les cours du catalogue A et un contrôle total sur les cours du catalogue B.
+Un utilisateur personnalisé a une autorisation complète pour les cours, un accès en lecture seule seulement pour le catalogue A et une autorisation complète pour le catalogue B. Il aura donc un accès en lecture seule aux cours du catalogue A et le contrôle complet sur les cours du catalogue B.
 
-Un utilisateur avec un rôle personnalisé peut :
+Un utilisateur avec un rôle personnalisé peut :
 
-* Afficher uniquement le contenu des catalogues auxquels il a accès.
-* Accédez à n’importe quel objet d’apprentissage en fonction des autorisations du catalogue dont l’objet d’apprentissage fait partie.
+* afficher le contenu des catalogues auxquels il a accès uniquement ;
+* accéder à n’importe quel objet d’apprentissage conformément aux autorisations du catalogue dont l’objet d’apprentissage fait partie.
 
-En tant qu’administrateur, vous pouvez :
+En tant qu’administrateur, vous pouvez :
 
-* Choisissez plusieurs catalogues pour un rôle personnalisé.
-* Modifiez les autorisations d’un catalogue à tout moment.
-* Supprimez les catalogues d’une étendue pour laquelle vous ne souhaitez plus accorder d’autorisations.
-* Accordez implicitement l’autorisation Lecture seule à un catalogue lorsque vous accordez des autorisations au catalogue.
+* choisir plus d’un catalogue pour un rôle personnalisé ;
+* modifier les autorisations d’un catalogue à tout moment ;
+* supprimer les catalogues d’une portée à laquelle vous ne souhaitez plus accorder d’autorisations ;
+* accorder implicitement l’autorisation Lecture seule à un catalogue lorsque vous accordez des autorisations au catalogue.
 
-Le tableau ci-dessous illustre comment les autorisations sont accordées.
+Le tableau ci-dessous illustre la façon dont les autorisations sont accordées.
 
 <table>
     <tbody>
@@ -162,35 +162,35 @@ Le tableau ci-dessous illustre comment les autorisations sont accordées.
      <tr>
       <td>
        <p><strong>Autorisation au niveau de l’objet d’apprentissage</strong></p>
-       <p><strong>(Ex. : Cours)</strong></p></td>
+       <p><strong>(Ex : cours)</strong></p></td>
       <td>
-       <p>Contrôle total</p></td>
+       <p>Contrôle complet</p></td>
       <td>
-       <p>S’inscrire</p></td>
+       <p>Inscrire</p></td>
       <td>
-       <p>Signaler</p></td>
-      <td>
-       <p>Lecture seule</p></td>
-     </tr>
-     <tr>
-      <td>
-       <p>Contrôle total</p></td>
-      <td>
-       <p>Contrôle total</p></td>
-      <td>
-       <p>S’inscrire</p></td>
-      <td>
-       <p>Signaler</p></td>
+       <p>Rapport</p></td>
       <td>
        <p>Lecture seule</p></td>
      </tr>
      <tr>
       <td>
-       <p>S’inscrire</p></td>
+       <p>Contrôle complet</p></td>
       <td>
-       <p>S’inscrire</p></td>
+       <p>Contrôle complet</p></td>
       <td>
-       <p>S’inscrire</p></td>
+       <p>Inscrire</p></td>
+      <td>
+       <p>Rapport</p></td>
+      <td>
+       <p>Lecture seule</p></td>
+     </tr>
+     <tr>
+      <td>
+       <p>Inscrire</p></td>
+      <td>
+       <p>Inscrire</p></td>
+      <td>
+       <p>Inscrire</p></td>
       <td>
        <p>Lecture seule</p></td>
       <td>
@@ -210,13 +210,13 @@ Le tableau ci-dessous illustre comment les autorisations sont accordées.
      </tr>
      <tr>
       <td>
-       <p>Signaler</p></td>
+       <p>Rapport</p></td>
       <td>
-       <p>Signaler</p></td>
+       <p>Rapport</p></td>
       <td>
        <p>Lecture seule</p></td>
       <td>
-       <p>Signaler</p></td>
+       <p>Rapport</p></td>
       <td>
        <p>Lecture seule</p></td>
      </tr>
@@ -228,28 +228,28 @@ Le tableau ci-dessous illustre comment les autorisations sont accordées.
 
 CustomRole columnNote :
 
-* Vous ne pouvez pas rechercher dans les groupes d’utilisateurs.
-* Vous ne pouvez pas rechercher les utilisateurs auxquels un rôle Administrateur a déjà été attribué.
+* Vous ne pouvez pas rechercher des groupes d’utilisateurs.
+* Vous ne pouvez pas rechercher les utilisateurs auxquels le rôle d’administrateur a déjà été affecté.
 * L’affectation d’un nouveau rôle personnalisé à un utilisateur remplace le rôle personnalisé précédent de l’utilisateur.
 
 <!--![](assets/users.png)-->
 
 * Un administrateur personnalisé ayant l’autorisation d’accéder à Paramètres pourra configurer la planification pour la synchronisation ou synchroniser les utilisateurs à partir de la source de données même s’ils n’ont pas l’autorisation d’accéder à l’entité Utilisateurs.
-* Si un administrateur personnalisé dispose d’une autorisation sur l’entité Utilisateurs, il peut s’attribuer un rôle d’administrateur et devenir un administrateur standard.
+* Si un administrateur personnalisé dispose d’une autorisation pour l’entité Utilisateurs, il peut s’affecter un rôle d’administrateur et devenir un administrateur standard.
 
-## Restreindre l’accès au dossier pour les auteurs personnalisés {#folder-custom-author}
+## Restreindre l&#39;accès aux dossiers aux auteurs personnalisés {#folder-custom-author}
 
-Learning Manager prend déjà en charge la possibilité de donner accès à la bibliothèque de contenu à l’aide de rôles personnalisés. Tous les auteurs personnalisés qui ont déjà accès à la bibliothèque de contenu continueront d’avoir accès à tous les fichiers de contenu même après la configuration des dossiers de contenu. Il s’agit de conserver le comportement hérité. Les administrateurs n’ont pas besoin d’apporter de modifications s’ils souhaitent continuer à adopter le comportement actuel.
+Learning Manager prend déjà en charge la possibilité de donner accès à la bibliothèque de contenu à l’aide de rôles personnalisés. Tous les auteurs personnalisés qui ont déjà accès à la bibliothèque de contenu continueront d’avoir accès à tous les fichiers de contenu même après la configuration des dossiers de contenu. Cette approche vise à conserver l&#39;ancien comportement. Les administrateurs n’ont pas besoin d’apporter de modifications s’ils souhaitent continuer à adopter le comportement actuel.
 
 S’ils souhaitent restreindre l’accès à ces auteurs personnalisés, les administrateurs doivent modifier le rôle personnalisé existant et le configurer en ne donnant accès qu’à des dossiers de contenu spécifiques.
 
 ![](assets/folder-access-forcustomauthors.png)
 
-*Restreindre l’accès au dossier pour les auteurs personnalisés*
+*Restreindre l’accès aux dossiers aux auteurs personnalisés*
 
-Lors de la création d’un auteur personnalisé, vous pouvez désormais lui attribuer des dossiers de contenu. Choisir l’option **Dossiers sélectionnés**.
+Lorsque vous créez un auteur personnalisé, vous pouvez désormais lui attribuer des dossiers de contenu. Choisir l’option **Dossiers sélectionnés**.
 
-Après avoir cliqué sur l’option, une nouvelle boîte de dialogue s’ouvre, dans laquelle vous pouvez attribuer les dossiers à l’auteur personnalisé.
+Lorsque vous cliquez sur l&#39;option, une nouvelle boîte de dialogue s&#39;ouvre, dans laquelle vous pouvez attribuer les dossiers à l&#39;auteur personnalisé.
 
 ![](assets/choose-folder.png)
 
@@ -257,7 +257,7 @@ Après avoir cliqué sur l’option, une nouvelle boîte de dialogue s’ouvre, 
 
 Sélectionnez les dossiers et cliquez sur **[!UICONTROL OK]**.
 
-## Tableau de bord Résumé de l’apprentissage pour l’administrateur personnalisé {#custom-admin-dashboard}
+## Tableau de bord récapitulatif des apprentissages pour un administrateur personnalisé {#custom-admin-dashboard}
 
 Les administrateurs personnalisés peuvent afficher la même vue que les autres utilisateurs. Un administrateur personnalisé peut stocker des données en dehors de son périmètre. Cela s’applique uniquement si l’administrateur personnalisé a une portée complète. Pour accorder une portée complète, lors de la création d’un administrateur personnalisé, activez l’option **[!UICONTROL Contrôle total]** dans Rapport récapitulatif du compte.
 
@@ -279,22 +279,22 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
  <tbody>
   <tr>
    <th>Type d’accès</th>
-   <th>Autorisation d’entité accordée par l’administrateur</th>
-   <th>Autorisation d'entité implicite</th>
+   <th>Autorisation pour l’entité accordée par l’administrateur</th>
+   <th>Autorisations implicites pour l’entité</th>
    <th>Accès implicite</th>
   </tr>
   <tr>
    <td>Gérer</td>
    <td>Utilisateur</td>
    <td>Groupe</td>
-   <td>Grossier</td>
+   <td>Crud</td>
   </tr>
   <tr>
-   <td>S’inscrire</td>
-   <td>Toutes les pertes (cours, aide à l'emploi, programme d'apprentissage, certification)</td>
+   <td>Inscrire</td>
+   <td>Tous les objets d’apprentissage (cours, assistance à la tâche, programme d’apprentissage, certification)</td>
    <td>Utilisateur<br>
      Plan d’apprentissage</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>Créer</td>
@@ -302,7 +302,7 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
     <p>Groupe de contenus<br>
       Assistance à la tâche<br></p></td>
    <td>Balise</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>Créer</td>
@@ -312,7 +312,7 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
      Compétence<br>
      Badge<br>
      Assistance à la tâche</td>
-   <td>Lire sur tout</td>
+   <td>Lire tout</td>
   </tr>
   <tr>
    <td>Créer</td>
@@ -322,16 +322,16 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
      Balise<br>
      Compétence<br>
      Badge</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>Créer</td>
-   <td>Plan d’apprentissage</td>
+   <td>Programme d’apprentissage</td>
    <td>Catalogue<br>
      Groupe<br>
      Compétence<br>
      Toutes les pertes (cours, aide à l'emploi, programme d'apprentissage, certification)</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>Créer</td>
@@ -339,77 +339,77 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
    <td>Utilisateur<br>
      Groupe<br>
      Toutes les pertes (cours, aide à l'emploi, programme d'apprentissage, certification)</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>Créer</td>
    <td>Ludification</td>
-   <td>Branding</td>
-   <td>Écriture</td>
+   <td>Identité visuelle</td>
+   <td>Écrire</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Utilisateur</td>
    <td>Facturation</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Catalogue</td>
    <td>Groupe<br>
      Toutes les pertes (cours, aide à l'emploi, programme d'apprentissage, certification)</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Paramètre</td>
    <td>Branding<br>
      Utilisateur</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>*</td>
-   <td>Branding</td>
+   <td>Identité visuelle</td>
    <td>Paramètre</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Facturation<br>
      Ludification</td>
    <td>Utilisateur</td>
-   <td>Lecture</td>
+   <td>Lire</td>
   </tr>
  </tbody>
 </table>
 
 ## Accès à un rôle personnalisé {#accessacustomrole}
 
-Lorsqu’un administrateur attribue un rôle personnalisé, vous recevez une notification par e-mail.
+Lorsqu’un administrateur attribue un rôle personnalisé, vous recevez une notification par courrier électronique.
 
-Remarque : si vous êtes déjà connecté à Learning Manager sous un rôle personnalisé, vous devrez vous reconnecter à Learning Manager pour accéder au nouveau rôle.
+Remarque : si vous êtes déjà connecté à Learning Manager avec un rôle personnalisé, vous devez vous reconnecter à Learning Manager pour accéder au nouveau rôle.
 
-Pour basculer entre les rôles, cliquez sur l’icône de profil dans le coin supérieur droit de Learning Manager et sélectionnez le rôle.
+Pour changer de rôle, cliquez sur l’icône de votre profil en haut à droite de Learning Manager et sélectionnez le rôle.
 
-## Portée des plans d’apprentissage définie en fonction de rôles configurables {#scopeconfigure}
+## Portée des plans d&#39;apprentissage définie en fonction de rôles configurables {#scopeconfigure}
 
-Dans les versions antérieures de Learning Manager, tout rôle personnalisé autorisé à créer des plans d&#39;apprentissage pouvait étendre le plan d&#39;apprentissage à tous les types de groupes d&#39;utilisateurs et d&#39;objets d&#39;apprentissage.
+Dans les versions antérieures de Learning Manager, tout rôle personnalisé autorisé à créer des plans d’apprentissage pouvait étendre le plan d’apprentissage à tous les types de groupes d’utilisateurs et d’objets d’apprentissage.
 
 Le paramètre d&#39;étendue était désactivé lorsque l&#39;accès au plan d&#39;apprentissage était accordé, ce qui donnait à l&#39;utilisateur l&#39;accès à Tous les catalogues et Tous les groupes d&#39;utilisateurs par défaut.
 
-Tous les plans d’apprentissage créés par un administrateur, par défaut, s’appliquent à tous les utilisateurs. Les utilisateurs peuvent également se voir attribuer n’importe quel objet d’apprentissage. D&#39;autre part, les utilisateurs avec des rôles personnalisés ont accès à des portées complètes, par exemple, tous les catalogues, objets d&#39;apprentissage ou groupes d&#39;utilisateurs. Cela signifiait que les administrateurs n’étaient pas en mesure de créer des rôles personnalisés comme prévu, qui permettaient d’accéder aux plans d’apprentissage pour les utilisateurs avec une portée limitée.
+Tous les plans d’apprentissage créés par un administrateur s’appliquent par défaut à tous les utilisateurs. Les utilisateurs peuvent également se voir attribuer n’importe quel objet d’apprentissage. D’un autre côté, les utilisateurs avec des rôles personnalisés bénéficient d’un accès complet, par exemple à tous les catalogues, objets d’apprentissage ou groupes d’utilisateurs. Cela signifiait que les administrateurs n’étaient pas en mesure de créer des rôles personnalisés comme prévu, ce qui aurait permis aux utilisateurs bénéficiant d’une portée limitée d’accéder aux plans d’apprentissage.
 
-Dans cette mise à jour de Learning Manager, vous pouvez créer des rôles personnalisés pour les plans d&#39;apprentissage qui permettent de définir la portée des utilisateurs et des objets d&#39;apprentissage. En d’autres termes, les plans d’apprentissage peuvent être créés avec une portée limitée dérivée de la portée du rôle d’un administrateur personnalisé.
+Avec cette mise à jour de Learning Manager, vous pouvez créer des rôles personnalisés pour les plans d’apprentissage qui permettent de définir leur portée en ce qui concerne les utilisateurs et les objets d’apprentissage. En d&#39;autres termes, les plans d&#39;apprentissage peuvent être créés avec une portée limitée dérivée de la portée d&#39;un rôle d&#39;administrateur personnalisé.
 
-Désormais, un administrateur peut définir ou restreindre la portée tout en accordant un accès en tant que responsable du plan d&#39;apprentissage.
+Un administrateur peut désormais définir ou restreindre la portée tout en accordant un accès en tant que responsable du plan d&#39;apprentissage.
 
-Les administrateurs personnalisés peuvent créer des plans d’apprentissage avec une portée limitée, déterminée par la portée du rôle configurable de l’administrateur personnalisé. Ces plans d’apprentissage sont uniquement accessibles aux administrateurs personnalisés ayant le même rôle, en plus d’être accessibles aux administrateurs réguliers. En outre, les administrateurs personnalisés ne peuvent pas voir d’autres plans d’apprentissage dans le compte.
+Les administrateurs personnalisés peuvent créer des plans d’apprentissage avec une portée limitée, déterminée par la portée du rôle configurable de l’administrateur personnalisé. Ces plans d’apprentissage ne sont accessibles qu’aux administrateurs personnalisés ayant le même rôle, en plus d’être accessibles aux administrateurs réguliers. De plus, les administrateurs personnalisés ne peuvent voir aucun autre plan d’apprentissage dans le compte.
 
-Les administrateurs personnalisés existants qui ont accès aux plans d’apprentissage auront toujours une portée complète (par définition). Ils auront accès à tous les plans d’apprentissage du compte, tout comme les administrateurs habituels. Les nouveaux rôles personnalisés créés avec une portée complète et les nouveaux administrateurs personnalisés ajoutés à ces rôles continueront d&#39;avoir accès à tous les plans d&#39;apprentissage.
+Les administrateurs personnalisés existants ayant accès aux plans d’apprentissage bénéficieront toujours d’une portée complète (par définition). Ils auront accès à tous les plans d’apprentissage du compte, comme les administrateurs habituels. De nouveaux rôles personnalisés créés avec une portée complète et de nouveaux administrateurs personnalisés ajoutés à ces rôles continueront d’avoir accès à tous les plans d’apprentissage.
 
-Les plans d’apprentissage créés par les administrateurs et les administrateurs personnalisés avec une portée complète seront créés comme d’habitude et ne seront pas limités par la portée.
+Les plans d’apprentissage créés par les administrateurs et les administrateurs personnalisés bénéficiant d’une portée complète seront créés comme d’habitude et ne seront pas limités par la portée.
 
-Dans la section **Portée des privilèges de fonctionnalité**, accordez l’accès aux groupes d’utilisateurs et/ou au catalogue pour le rôle personnalisé.
+Dans la section **Portée des droits de fonctionnalités**, accordez l’accès aux groupes d’utilisateurs et/ou au catalogue pour le rôle personnalisé.
 
 ![](assets/scope-for-featureprivileges.png)
 
@@ -421,9 +421,9 @@ Attribuez un utilisateur au rôle personnalisé.
 
 *Affectation d’un utilisateur à un rôle personnalisé*
 
-L’utilisateur se connecte désormais à Learning Manager en tant qu’administrateur personnalisé et ajoute désormais un plan d’apprentissage.
+L’utilisateur se connecte désormais à Learning Manager en tant qu’administrateur personnalisé et ajoute un plan d’apprentissage.
 
-Lorsqu’un nouvel élève est ajouté, l’administrateur personnalisé peut uniquement sélectionner une formation à partir des catalogues étendus du rôle configurable.
+Lorsqu’un nouvel élève est ajouté, l’administrateur personnalisé peut sélectionner une formation uniquement dans le rôle configurable dont la portée s’étend à plusieurs catalogues.
 
 Ce plan d&#39;apprentissage ne s&#39;applique désormais à l&#39;élève que si l&#39;utilisateur est également ajouté au groupe au sein du groupe d&#39;utilisateurs de la portée du plan d&#39;apprentissage. Tous les autres élèves sont exemptés de ce plan d’apprentissage.
 
@@ -431,55 +431,55 @@ Ce plan d&#39;apprentissage ne s&#39;applique désormais à l&#39;élève que si
 
 <!--![](assets/add-learner-to-thegroup.png)-->
 
-L’administrateur personnalisé peut sélectionner n’importe quel groupe d’utilisateurs ayant des utilisateurs dans le groupe d’utilisateurs dont la portée est celle du rôle.
+L’administrateur personnalisé peut sélectionner n’importe quel groupe d’utilisateurs qui a des utilisateurs dans le groupe d’utilisateurs concerné.
 
-Lorsqu&#39;un utilisateur est ajouté au groupe spécifié, seuls les utilisateurs qui font déjà partie du groupe d&#39;utilisateurs étendu du plan d&#39;apprentissage et qui n&#39;ont pas été ajoutés au groupe d&#39;utilisateurs spécifié se verront attribuer l&#39;objet d&#39;apprentissage.
+Lorsqu’un utilisateur est ajouté au groupe spécifié, seuls les utilisateurs qui font déjà partie du groupe d’utilisateurs du plan d’apprentissage et qui ont été ajoutés au groupe d’utilisateurs spécifié se verront attribuer l’objet d’apprentissage.
 
-## Modification de l’étendue {#changeinscope}
+## Modification de la portée {#changeinscope}
 
-Lorsque l’administrateur modifie l’étendue du rôle personnalisé, la modification est également répercutée sur l’administrateur personnalisé. Lorsque l’administrateur personnalisé choisit un plan d’apprentissage dont la portée était déjà définie par un rôle personnalisé précédent, un message s’affiche, comme indiqué ci-dessous :
+Lorsque l’administrateur modifie la portée du rôle personnalisé, la modification se répercute également sur l’administrateur personnalisé. Lorsque l’administrateur personnalisé choisit un plan d’apprentissage qui était déjà défini par un rôle personnalisé précédent, un message s’affiche, comme illustré ci-dessous :
 
 ![](assets/change-scope.png)
 
 *Message après les modifications de l’étendue*
 
-L’administrateur personnalisé doit maintenant mettre à jour ou actualiser l’étendue précédente vers la nouvelle étendue.
+L’administrateur personnalisé doit maintenant mettre à jour ou actualiser la portée précédente vers la nouvelle portée.
 
-Clic **[!UICONTROL Actualiser la portée]** met à jour la portée. Un message d’avertissement s’affiche.
+Il suffit de cliquer sur **[!UICONTROL Actualiser la portée]** pour mettre à jour la portée. Un message d’avertissement s’affiche.
 
 ![](assets/refresh-scope-message.png)
 
 *Message d’avertissement après l’actualisation d’une portée*
 
-Clic **[!UICONTROL Oui]** met à jour la portée.
+Il suffit de cliquer sur **[!UICONTROL Oui]** pour mettre à jour la portée.
 
 ## Ajouter un rapport de ludification à un rôle personnalisé {#gamification-custom}
 
 Un administrateur peut activer les rapports de ludification pour un utilisateur personnalisé.
 
-1. Dans le panneau **[!UICONTROL Rôles personnalisés]** , saisissez le nom du rôle personnalisé.
+1. Dans la page **[!UICONTROL Rôles personnalisés]**, saisissez le nom du rôle personnalisé.
 1. Dans le panneau **[!UICONTROL Privilèges de fonctionnalité : fonctionnalités principales]** section, activer l’option **[!UICONTROL Contrôle total]** pour la catégorie **[!UICONTROL Rapports]**.
 
 1. Dans la section **[!UICONTROL Utilisateurs]**, sélectionnez l’utilisateur auquel sera attribué le rôle personnalisé nouvellement créé.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Lorsqu’un utilisateur se connecte en tant qu’administrateur personnalisé et clique sur **[!UICONTROL Rapports]** dans le volet de gauche, les transcriptions s’affichent, comme indiqué ci-dessous :
+Lorsqu’un utilisateur se connecte en tant qu’administrateur personnalisé et clique sur **[!UICONTROL Rapports]** dans le volet de gauche, les relevés de notes apparaissent, comme illustré ci-dessous :
 
 ![](assets/download-gamificationtranscripts.png)
 
 *Télécharger les transcriptions de ludification*
 
-Cliquez sur **[!UICONTROL Transcriptions de ludification]**, choisissez un utilisateur et générez le rapport.
+Cliquez sur **[!UICONTROL Relevés de notes de ludification]**, choisissez un utilisateur et générez le rapport.
 
 Si un administrateur modifie les points de niveau, les rapports affichent les niveaux en fonction des points actuels.
 
-La réinitialisation de la ludification ne réinitialise pas le niveau atteint à la date spécifiée.
+La réinitialisation de la ludification ne réinitialise pas la date à laquelle le niveau a été atteint.
 
-## Foire aux questions {#frequentlyaskedquestions}
+## Forum aux questions {#frequentlyaskedquestions}
 
 +++Comment créer un rôle personnalisé ?
 
-Un rôle personnalisé est comparable à un sous-ensemble d’un rôle d’auteur ou d’administrateur. Autorisez un ou plusieurs privilèges, définissez l’étendue et attribuez le rôle à un utilisateur.
+Un rôle personnalisé est semblable à un sous-ensemble d’un rôle d’auteur ou d’administrateur. Autoriser un ou plusieurs privilèges, définir la portée et attribuer le rôle à un utilisateur.
 
-Cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Rôles personnalisés]**. Dans la page Rôles personnalisés, cliquez sur **[!UICONTROL Créer un rôle]**. Entrez le nom du rôle personnalisé et définissez les privilèges du rôle. Pour plus d’informations, voir [Créer un rôle personnalisé](custom-role.md#create-role).
+Cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Rôles personnalisés]**. Dans la page Rôles personnalisés, cliquez sur **[!UICONTROL Créer un rôle]**. Entrez le nom du rôle personnalisé et définissez les privilèges du rôle. Pour plus d’informations, voir [Création d’un rôle personnalisé](custom-role.md#create-role).
 +++

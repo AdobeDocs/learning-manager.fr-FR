@@ -1,11 +1,11 @@
 ---
 title: Nouveautés de cette version (juillet 2023)
-description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
+description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
 hidefromtoc: true
 source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -13,33 +13,33 @@ ht-degree: 0%
 
 ## Recommandations améliorées
 
-Adobe Learning Manager a introduit un nouveau système de recommandations remanié pour les cours. Cette fonctionnalité de recommandations utilise des algorithmes d’IA et les intérêts des utilisateurs tels que les produits, les rôles et les niveaux pour fournir des recommandations de contenu personnalisées.
+Adobe Learning Manager a introduit un nouveau système revisité de recommandations de cours. Cette fonctionnalité de recommandations utilise des algorithmes d’IA et les intérêts des utilisateurs tels que les produits, les rôles et les niveaux pour fournir des recommandations de contenu personnalisées.
 
-Pour plus d’informations, voir [Recommendations dans Adobe Learning Manager](recommendations-adobe-learning-manager.md).
+Pour plus d’informations, consultez [Recommandations dans Adobe Learning Manager](recommendations-adobe-learning-manager.md).
 
 ## Inscription multiple
 
-Dans cette version d&#39;Adobe Learning Manager, nous introduisons l&#39;inscription multiple pour les élèves qui permet aux élèves de s&#39;inscrire à plusieurs instances d&#39;un cours à une ou plusieurs périodes.
+Dans cette version d’Adobe Learning Manager, nous introduisons l’inscription multiple pour les élèves afin de leur permettre de s’inscrire à plusieurs instances d’un cours à une ou plusieurs périodes.
 
-Pour plus d’informations, voir [Inscriptions multiples](/help/migrated/authors/feature-summary/courses.md).
+Pour plus d’informations, consultez [Inscriptions multiples](/help/migrated/authors/feature-summary/courses.md).
 
-### Plusieurs inscriptions dans une application mobile ou immersive
+### Inscriptions multiples dans l’application mobile ou en mode immersif
 
-Les élèves ne peuvent pas s&#39;inscrire dans plusieurs instances à partir d&#39;une application mobile/immersive. Les inscriptions multiples ne sont pas prises en charge dans l’application mobile et le web mobile immersif.
+Les élèves ne peuvent pas s’inscrire à plusieurs instances à partir d’une application mobile/en mode immersif. Les inscriptions multiples ne sont pas prises en charge dans l’application mobile et le web mobile immersif.
 
 >[!NOTE]
 >
->L&#39;activation de la multi-inscription entraîne l&#39;ajout de plusieurs lignes au rapport du relevé de notes de l&#39;élève pour chaque cours (une ligne pour chaque instance).
+>L’activation de l’inscription multiple entraîne l’ajout de plusieurs lignes au rapport de relevé de notes de l’élève pour chaque cours (une ligne par instance).
 >
 >Si la configuration de Reporting Automation ne prévoit qu&#39;une seule ligne par cours, vous devez effectuer les ajustements nécessaires avant d&#39;activer la fonction d&#39;inscription multiple.
 
-### Format des badges dans une instance multi-inscrite
+### Format des badges dans une instance à inscription multiple
 
 Pour prendre en charge les badges dans une instance multi-inscrite, le format du badge est remplacé par `userId_badgeId_COURSE_courseId_courseInstanceId`.
 
-### Lancer le lecteur en mode multi-inscription à l’aide d’un mode sans tête
+### Lancer le lecteur en mode inscription multiple via un mode sans tête
 
-Dans cette version, nous avons modifié la bibliothèque utilisée pour la communication avec le lecteur sans en-tête.
+Dans cette version, nous avons modifié la bibliothèque utilisée pour la communication avec le lecteur sans tête.
 
 Dans le cas d’une inscription multiple, vous devez transmettre les arguments placés à l’intérieur d’un objet.
 
@@ -53,9 +53,9 @@ argument_object=
 
 ## Dépréciation du connecteur Exavault
 
-Cette version d’Adobe Learning Manager inclut un nouveau connecteur qui utilise le protocole SFTP de la famille de transfert AWS.
+Cette version d’Adobe Learning Manager inclut un nouveau connecteur, qui utilise le protocole SFTP de la famille AWS Transfer.
 
-Cette modification remplacera également le connecteur ExaVault, qui ne sera plus disponible pour les nouveaux utilisateurs. Vous pouvez utiliser tout client FTP open source en remplacement d’ExaVault. Pour plus d’informations, voir [Transition à partir du gestionnaire FTP d’Adobe](transition-from-ftp-manager.md).
+Cette modification remplacera également le connecteur Exavault, qui ne sera plus disponible pour les nouveaux utilisateurs. Vous pouvez utiliser n’importe quel client FTP open source pour remplacer ExaVault. Pour plus d’informations, voir [Transition à partir du gestionnaire FTP d’Adobe](transition-from-ftp-manager.md).
 
 ## Rappels dans Outlook pour la salle de classe et les sessions virtuelles
 
@@ -63,45 +63,45 @@ Les sessions de salle de classe et de salle de classe virtuelle créées à part
 
 ## Améliorations apportées à l’affectation de compétences aux cours
 
-Nous avons apporté des améliorations au workflow d’affectation de compétences pour les auteurs. La liste de suggestions de compétences sur la page Paramètres du cours inclut désormais une fonctionnalité de recherche par frappe anticipée. Les auteurs peuvent désormais rechercher des compétences en saisissant les premiers caractères, et les suggestions s’affichent dans la liste déroulante Compétence en fonction de l’entrée. Grâce à cette amélioration, les auteurs n’ont pas besoin de faire défiler la liste complète pour rechercher et affecter des compétences aux cours.
+Nous avons apporté des améliorations au flux d’attribution de compétences pour les auteurs. La liste des suggestions de compétences sur la page Paramètres du cours inclut désormais une fonction de recherche par frappe anticipée. Les auteurs peuvent désormais rechercher des compétences en saisissant les premiers caractères, et les suggestions s’affichent dans la liste déroulante Compétence en fonction de l’entrée. Grâce à cette amélioration, les auteurs n’ont pas besoin de parcourir la liste complète pour rechercher et attribuer des compétences à des cours.
 
 ## Améliorations du workflow des cours approuvés par le responsable
 
-Les cours approuvés par le responsable fournissent désormais des informations d&#39;erreur appropriées aux responsables et aux élèves.
+Les cours approuvés par le responsable fournissent désormais les bonnes informations d’erreur aux responsables et aux élèves.
 
 ![messages d’erreur](assets/error-messages.png)
 
-Les responsables peuvent désormais afficher les messages d&#39;erreur pertinents avec des informations (par exemple, la date limite d&#39;inscription est passée) lorsqu&#39;ils ne peuvent pas approuver une demande d&#39;inscription à un cours. Les élèves voient l’erreur et l’action corrective.
+Les responsables peuvent désormais consulter des messages d’erreur pertinents ainsi que des informations (par exemple, la date limite d’inscription est passée) lorsqu’ils ne peuvent pas approuver une demande d’inscription à un cours. Les élèves voient l’erreur et l’action corrective.
 
 ## Rapport Nouveau plan d’apprentissage
 
-Les administrateurs/administrateurs personnalisés peuvent désormais exporter une liste de tous les plans d’apprentissage du compte et des métadonnées, telles que le statut, les groupes d’utilisateurs applicables, les informations sur les déclencheurs, les cours/parcours d’apprentissage inclus dans le plan d’apprentissage et les informations de rappel.
+Les administrateurs/administrateurs personnalisés peuvent désormais exporter une liste de tous les plans d’apprentissage du compte ainsi que des métadonnées telles que l’état, les groupes d’utilisateurs applicables, les informations de déclencheur, les cours/parcours d’apprentissage inclus dans le plan d’apprentissage et les informations de rappel.
 
 ## Rapport pour suivre les instances retirées à venir
 
-Le rapport de formations comprend une colonne supplémentaire pour afficher l’échéance des instances présentes dans les cours ou les parcours d’apprentissage, afin que les administrateurs et les auteurs sachent quelles instances seront retirées et puissent prendre les mesures nécessaires.
+Le rapport de formation comprend une colonne supplémentaire pour afficher l’échéance d’achèvement des instances présentes dans les cours ou les parcours d’apprentissage, afin que les administrateurs et les auteurs sachent quelles instances seront supprimées et puissent prendre les mesures nécessaires.
 
 ## Améliorations apportées à la capture des évaluations de cours des élèves
 
-Une fenêtre contextuelle permettant de capturer l&#39;évaluation par étoiles d&#39;un cours s&#39;affiche dès que l&#39;utilisateur termine le dernier module du cours.
+Une fenêtre contextuelle permettant de capturer l’évaluation par étoiles d’un cours s’affiche dès que l’utilisateur termine le dernier module du cours.
 
 ![notes](assets/ratings.png)
 
 ## Personnalisation des modèles de courrier électronique
 
-Les modèles de courrier électronique dans Learning Manager incluent désormais des sections entièrement modifiables, ce qui offre une plus grande flexibilité pour personnaliser les communications par courrier électronique en fonction des préférences de messagerie et de marque.
+Les modèles de courrier électronique dans Learning Manager incluent désormais des sections entièrement modifiables, qui offrent une plus grande flexibilité pour personnaliser les communications par e-mail en fonction des préférences de messagerie et d’éléments de marque.
 
-Pour plus d’informations, voir [Personnalisation du modèle d’e-mail](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates).
+Pour plus d’informations, consultez [Personnaliser les modèles de courrier électronique](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates).
 
 ## Améliorations apportées à l’assistant de planification
 
-Affinez le processus de sélection d’un instructeur pour la classe ou les sessions virtuelles. Un filtre Groupe d’utilisateurs a été ajouté au champ Instructeur dans l’assistant de planification. Les auteurs peuvent désormais filtrer les instructeurs en fonction de leurs « compétences » et de tout paramètre supplémentaire tel que l’emplacement, la langue, la désignation, etc.
+Affiner le processus de sélection d’un instructeur pour les sessions en salle de classe ou virtuelles. Un filtre Groupe d’utilisateurs a été ajouté au champ Instructeur dans l’assistant de planification. Les auteurs peuvent désormais filtrer les instructeurs en fonction de leurs « compétences » et de tout paramètre supplémentaire tel que l’emplacement, la langue, la désignation, etc.
 
-Pour plus d’informations, voir [Filtre Groupe d&#39;utilisateurs dans l&#39;Assistant Planification](/help/migrated/authors/feature-summary/courses.md#user-group-filter).
+Pour plus d’informations, consulter [Filtre du groupe d’utilisateurs dans l’assistant Planification](/help/migrated/authors/feature-summary/courses.md#user-group-filter).
 
 ## Améliorations apportées au processus de retrait de l&#39;objet d&#39;apprentissage
 
-Les auteurs peuvent désormais fournir une **Retrait automatique** date d&#39;un cours. Cela permet d’éviter l’inflation du catalogue au fil du temps et la nécessité de revenir en arrière et de retirer manuellement les cours.
+Les auteurs peuvent désormais fournir une date de **Suppression automatique** d’un cours. Cela permet d’éviter l’inflation du catalogue au fil du temps et de devoir revenir en arrière pour supprimer manuellement les cours.
 
 Les administrateurs peuvent également décider au niveau du compte de la nature de l’accès aux objets d’apprentissage « retirés ».
 
@@ -109,74 +109,74 @@ Le rapport de formation comprend une nouvelle colonne, **Date de retrait automat
 
 ## Valeurs d’étiquette de catalogue par auteur
 
-Les auteurs peuvent désormais ajouter leurs valeurs pour les étiquettes de catalogue lors de la création ou de la modification d&#39;un cours. Les administrateurs peuvent activer cette fonctionnalité au niveau du compte. Une fois qu’un auteur a ajouté une nouvelle valeur d’étiquette de catalogue, celle-ci fait partie de la recherche par frappe anticipée.
+Les auteurs peuvent désormais ajouter leurs valeurs aux étiquettes de catalogue lors de la création ou de la modification d’un cours. Les administrateurs peuvent activer cette fonctionnalité au niveau du compte. Lorsqu’un auteur ajoute une nouvelle valeur d’étiquette de catalogue, elle devient partie intégrante de la recherche par frappe anticipée.
 
 ![sélectionner un catalogue](assets/select-catalog.png)
 
 ## Améliorations apportées à la recherche de cours pour les rôles d’administrateur, d’auteur et de responsable
 
-Des améliorations de recherche ont été apportées pour les rôles d’administrateur, d’auteur et de responsable. Ils pourront désormais effectuer des recherches avec des mots-clés pour les titres. Cela s’applique aux cours, aux parcours d’apprentissage et aux certifications.
+Des améliorations ont été apportées à la recherche pour les rôles d’administrateur, d’auteur et de responsable. Ils pourront désormais rechercher les titres à l’aide de mots-clés. Cela s’applique aux cours, aux parcours d’apprentissage et aux certifications.
 
 ## Notifications pour les échecs de migration
 
-Les administrateurs d’intégration sont informés par e-mail si des opérations d’importation ou d’exportation échouent pendant la migration ou lors de l’utilisation de connecteurs de données tels que PowerBI, FTP, Box, etc.
+Les administrateurs de l’intégration sont avertis par courrier électronique si des opérations d’importation ou d’exportation échouent pendant la migration ou lors de l’utilisation de connecteurs de données tels que PowerBI, FTP, Box, etc.
 
 ## Configuration multi-gestionnaire via des API
 
-Une nouvelle API a été ajoutée à l&#39;ensemble d&#39;API Managed Office pour prendre en charge la configuration multi-responsables.
+Une nouvelle API a été ajoutée à l’ensemble d’API Managed Office pour prendre en charge la configuration de plusieurs responsables.
 
 ## Améliorations apportées à l’API d’inscription
 
-Des améliorations ont été apportées à l’API d’inscription pour prendre en charge et optimiser les inscriptions groupées à grande échelle.
+Des améliorations ont été apportées à l’API d’inscription afin de prendre en charge et d’optimiser les inscriptions en masse à grande échelle.
 
 ## Application mobile - Affichage de contenu hors ligne
 
-Les élèves peuvent télécharger et utiliser du contenu en mode hors ligne. Les parcours d’apprentissage imbriqués et flexibles ne sont pas pris en charge pour l’affichage hors ligne.
+Les élèves peuvent télécharger et consommer le contenu hors connexion. Les parcours d’apprentissage imbriqués et flexibles ne sont pas pris en charge pour l’affichage hors connexion.
 
 *Dans cette version, l’affichage de contenu hors ligne est pris en charge uniquement pour le contenu en anglais.*
 
 ## Accessibilité
 
-De nombreuses améliorations ont été apportées pour améliorer l’accessibilité, y compris des améliorations pour optimiser la lisibilité par les lecteurs d’écran.
+De nombreuses améliorations ont été apportées pour améliorer l’accessibilité, notamment pour optimiser la lisibilité par les lecteurs d’écran.
 
 ## Prise en charge des applications mobiles
 
-Avec la prochaine version majeure, l’application mobile Adobe Learning Manager ne prendra en charge que les trois versions les plus récentes du système d’exploitation mobile.
+Lorsque la prochaine version majeure sera publiée, l’application mobile Adobe Learning Manager prendra en charge uniquement les trois versions les plus récentes du système d’exploitation de l’appareil mobile.
 
-## Contenu sur LinkedIn
+## Contenu de LinkedIn
 
-Le contenu linkedIn ne se charge pas comme prévu dans l’application immersive du navigateur Safari. Pour résoudre ce problème, procédez comme suit :
+Le contenu de LinkedIn n’est pas chargé comme prévu dans l’application immersive du navigateur Safari. Pour contourner ce problème, procédez comme suit :
 
 1. Sur l’appareil, sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Safari]**.
-1. Désactiver **Empêcher le suivi entre sites**.
-1. Désactiver **Bloquer tous les cookies**.
-1. Connectez-vous à l’application immersive.
-1. Lisez le contenu.
-1. Autorisez les pop-ups.
+1. Désactivez **Empêcher le suivi intersite**.
+1. Désactivez **Bloquer tous les cookies**.
+1. Connectez-vous à l’application Immersive.
+1. Lancez la lecture du contenu.
+1. Autorisez les fenêtres contextuelles.
 
 ## Autres améliorations
 
-### Changer d’instance dans MS Teams
+### Changer d’instance dans MS Teams
 
-Un élève peut passer à une autre instance de cours jusqu’à son achèvement et conserver la progression du cours.
+Un élève peut passer à une autre instance de cours jusqu’à ce qu’il soit terminé et conserver la progression du cours.
 
 ### Prise en charge de plusieurs inscriptions dans MS Teams
 
-Un élève peut s’inscrire à une autre instance de cours, quel que soit l’état d’achèvement des instances précédentes. Ainsi, l’élève s’inscrira à plusieurs instances du même cours.
+Un élève peut s’inscrire à une autre instance de cours, quel que soit l’état d’achèvement des instances précédentes. Cela permet à l’élève de s’inscrire à plusieurs instances du même cours.
 
-### Les notes de cours prennent en charge les inscriptions multiples dans MS Teams
+### Les notes de cours sont compatibles avec l’inscription multiple dans MS Teams
 
-Les notes de cours sont disponibles au niveau de l’instance de cours pour prendre en charge les inscriptions multiples.
+Les notes de cours sont disponibles au niveau de l’instance de cours pour être compatibles avec l’inscription multiple.
 
-## Modifications d’API
+## Modifications de l’API
 
-Pour plus d’informations sur les modifications d’API, consultez la section [Référence API Adobe Learning Manager](https://captivateprime.adobe.com/docs/primeapi/v2/).
+Pour plus d’informations sur les modifications de l’API, consultez [Référence API Adobe Learning Manager](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
 ### Prise en charge des API pour les nouvelles recommandations
 
 **GET /account**
 
-Renvoie si prlrecommendation est activée.
+Renvoie si prlRecommendation est activé.
 
 **Demande**
 
@@ -184,7 +184,7 @@ Renvoie si prlrecommendation est activée.
 
 **GET /data?filter.recommendationCriteria=product**
 
-Renvoie la liste des produits/rubriques. Les résultats dépendent des paramètres du compte qui confirment si tous les produits seront visibles pour l’élève ou le catalogue visible pour les produits/rubriques.
+Renvoie la liste des produits/rubriques. Les résultats dépendent des paramètres du compte qui confirment que tous les produits seront visibles par l’élève ou que le catalogue sera visible par les produits/rubriques.
 
 **Demande**
 
@@ -208,7 +208,7 @@ Renvoie la liste des rôles recommandés.
 
 **POST /search/query**
 
-La recherche inclut également les produits et les paramètres de rôle dans la requête. Il n&#39;y a aucune modification dans la requête et le corps. Nous ajouterons de nouvelles options de tri
+La recherche inclut également les produits et les paramètres de rôle dans la requête. Il n’y a aucune modification dans la requête et le corps. Nous ajouterons de nouvelles options de tri
 
 **Demande**
 
@@ -216,7 +216,7 @@ La recherche inclut également les produits et les paramètres de rôle dans la 
 
 **GET /learningObjects**
 
-Le modèle d’objet d’apprentissage renvoie des recommandations balisées par l’auteur si la recommandation PRL est active.
+Le modèle Objet d’apprentissage renvoie des recommandations portant la balise Auteur si la recommandation PRL est en ligne.
 
 **Demander l’URL**
 
@@ -302,7 +302,7 @@ Les attributs suivants sont pris en charge dans le corps de l&#39;appel de requ�
 
 **GET /recommendationProducts**
 
-Récupère le produit PRL par recommendationProduct Id.
+Récupère le produit PRL par ID de produit de recommandation.
 
 **Demander l’URL**
 
@@ -310,7 +310,7 @@ Récupère le produit PRL par recommendationProduct Id.
 
 GET /recommendationRoles
 
-Récupère le produit PRL par recommendationProduct Id. Seuls les rôles visibles de (objets d’apprentissage) seront renvoyés.
+Récupère le produit PRL par ID de produit de recommandation. Seuls les rôles visibles de (objets d’apprentissage) seront renvoyés.
 
 **Demander l’URL**
 
@@ -318,7 +318,7 @@ Récupère le produit PRL par recommendationProduct Id. Seuls les rôles visible
 
 `POST /users/{id}/recommendationPreferences`
 
-Crée/recrée (remplace) les préférences de recommandation PRL. Exemple de charge utile :
+Crée/recrée (remplace) les préférences de recommandation PRL. Exemple de charge utile :
 
 ```javascript {line-numbers="true"}
 {
@@ -380,13 +380,13 @@ Supprime les préférences utilisateur de recommandation PRL pour un produit ou 
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
 
-Paramètres :
+Paramètres :
 
-Id = Liste des ID à supprimer
+Ids = Liste des id à supprimer
 
 **PATCH /users/{id}/recommendationPreferences**
 
-Ajout partiel/Mise à jour. Exemple de charge utile :
+Ajout/Mise à jour partiel. Exemple de charge utile :
 
 ```javascript {line-numbers="true"}
 {
@@ -421,7 +421,7 @@ Ajout partiel/Mise à jour. Exemple de charge utile :
 
 **POST /recommendationPreferences/learningObjects/{id}/ignore**
 
-Ajouter un objet d’apprentissage aux recommandations bloquées.
+Ajouter LO aux recommandations bloquées.
 
 **Demander l’URL**
 
@@ -437,40 +437,40 @@ Supprime l’objet d’apprentissage des recommandations bloquées.
 
 **`GET /users/{id}/recommendationStrips`**
 
-Récupère toutes les bandes à utiliser pour afficher les recommandations prl
+Extrait toutes les bandes à utiliser pour afficher les recommandations prl
 
 ### Prise en charge de plusieurs inscriptions pour l’API
 
 **GET /primeapi/v2/account**
 
-Deux nouveaux attributs sont ajoutés :
+Deux nouveaux attributs sont ajoutés :
 
 * instanceSwitchEnabled
-* multiEnenrollmentEnabled
+* multiEnrollmentEnabled
 
 **GET /users/{userId}/userNotifications**
 
-ID d&#39;instance de cours ajouté dans les notifications du nouvel attribut de métadonnées.
+Ajout de l’ID d’instance de cours dans les notifications du nouvel attribut de métadonnées.
 
 **GET /learningObjects**
 
-La relation d&#39;inscription affiche uniquement l&#39;inscription principale, c&#39;est-à-dire la première inscription ou la première finalisée.
+La relation d’inscription affiche uniquement l’inscription principale, c’est-à-dire la première inscription ou la première inscription terminée.
 
 **`GET /learningObjects/{id}`**
 
-La relation d&#39;inscription affiche uniquement l&#39;inscription principale, c&#39;est-à-dire la première inscription ou la première finalisée.
+La relation d’inscription affiche uniquement l’inscription principale, c’est-à-dire la première inscription ou la première inscription terminée.
 
 **`GET /learningObjects/{loId}/instances/{loInstanceId}`**
 
-Une nouvelle relation est ajoutée au modèle d’instance LO.
+Une nouvelle relation est ajoutée au modèle d’instance d’objet d’apprentissage.
 
 **`GET /enrollments/{id}`**
 
-Récupérer les inscriptions à des cours multi-inscrits.
+Récupère l’inscription des cours à inscription multiple.
 
 **`DELETE /enrollments/{id}`**
 
-Se désinscrit d&#39;une instance d&#39;objet d&#39;apprentissage particulière.
+Se désinscrit d’une instance d’objet d’apprentissage particulière.
 
 **POST /enrollments**
 
@@ -478,15 +478,15 @@ Prend en charge l’inscription dans différentes instances.
 
 **GET /enrollments**
 
-Obtient les inscriptions uniquement pour les inscriptions principales pour l&#39;objet d&#39;apprentissage.
+Obtient les inscriptions pour les inscriptions primaires uniquement pour l’objet d’apprentissage.
 
 **`GET /learningObjects/{id}/note`**
 
-Récupère la liste des notes d&#39;un cours.
+Récupère une liste de notes pour un cours.
 
 **`GET /learningObjects/{lo_id}/instances/{loi_id}/note`**
 
-Récupère la liste des notes d&#39;un cours et de l&#39;instance.
+Récupère une liste de notes pour un cours et l’instance.
 
 **`GET /learningObjects/{id}/resources/{loResourceId}/note`**
 
@@ -498,15 +498,15 @@ Ajoute une note dans un module pour un cours donné.
 
 **`DELETE /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-Supprime des notes spécifiques d&#39;un module donné par rapport à une instance spécifique (partie de l&#39;ID loResource).
+Supprime des notes spécifiques d’un module donné par rapport à une instance spécifique (faisant partie de l’ID loResource).
 
 **`GET /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-Récupère une note spécifique dans un module d&#39;un cours pour une instance donnée (partie de loResourceId).
+Récupère une note spécifique dans un module de cours pour une instance donnée (partie de loResourceId).
 
 **`PATCH /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-Met à jour les notes spécifiques d&#39;un module donné par rapport à une instance spécifique (faisant partie de l&#39;ID loResource).
+Met à jour les notes spécifiques d’un module donné par rapport à une instance spécifique (faisant partie de l’ID loResource).
 
 **Modifications apportées à l’API d’administration**
 
@@ -526,27 +526,27 @@ Exemple de requête
 
 ### Mise en œuvre des modifications de l’API de recherche (paramètres régionaux anglais)
 
-La racine est le processus de réduction d&#39;un mot à sa forme racine. Cela permet d’assurer la correspondance des variantes d’un mot pendant une recherche. Par exemple, marcher et marcher peut être lié au même mot racine : marcher. Une fois la chaîne terminée, une occurrence de l’un des mots correspondrait à l’autre dans une recherche.
+La racine est le processus de réduction d&#39;un mot à sa forme racine. Cela garantit que les variantes d’un mot sont mises en correspondance lors d’une recherche. Par exemple, marcher et marcher peut être lié au même mot racine : marcher. Une fois la chaîne terminée, une occurrence de l’un des mots correspondrait à l’autre dans une recherche.
 
 Dans cette version, nous avons ajouté un enchaînement pour les langues anglaises, qui comprend les variantes suivantes : en_US, en_AU, en_GB.
 
-L’attribut stemmed indique si le stemming est requis dans les résultats de recherche. Par défaut, cette propriété est définie sur False
+L’attribut racinisé indique si la racinisation est requise dans les résultats de recherche. Par défaut, cette propriété est définie sur False
 
-### Suppression des points d’entrée V1
+### Suppression des points de terminaison V1
 
-Les API V1 cesseront de fonctionner dans cette version. Pour plus d’informations, voir la section [Manuel du développeur](/help/migrated/integration-admin/feature-summary/developer-manual.md).
+Les API V1 cesseront de fonctionner dans cette version. Pour plus d’informations, consultez le [Manuel du développeur](/help/migrated/integration-admin/feature-summary/developer-manual.md).
 
-### Notifications d&#39;inscription ou de désinscription à un cours
+### Notifications pour l’inscription ou la désinscription aux cours
 
 Cette version introduit la prise en charge de l’ID d’instance de cours avec des notifications dans le nouvel attribut de métadonnées.
 
 ### Prise en charge du retour d’informations L1
 
-Permet à l’élève de fournir un retour d’informations à chaque niveau d’instance de la fonctionnalité Inscription multiple.
+Permet à l’élève de fournir un retour d’informations à chaque niveau d’instance de la fonction d’inscription multiple.
 
 **API :** `POST /enrollments/{id}/l1Feedback`
 
-### Liste des champs activés par l’objet d’apprentissage
+### Liste des champs appliqués par l’objet d’apprentissage
 
 Dans cette version, vous devez envoyer explicitement des sections, prequisiteConstraints, prerequisiteLOs, subLOs, additionalResources, additionalLOs, instances, catalogLabels à learningObject.
 
@@ -554,10 +554,10 @@ Par exemple,
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 
-### Avis d’obsolescence pour la prochaine version
+### Avis d’abandon pour la prochaine version
 
 * Indicateur de remplacement pour les API des élèves.
-* Nous allons modifier la valeur par défaut de highlightResults=false. Nous allons également modifier la valeur par défaut de snippetType=courseName.
+* Nous allons modifier la valeur par défaut pour highlightResults=false. Nous allons également modifier la valeur par défaut de snippetType=courseName.
 * Nous allons déprécier matchType=bool dans le point de terminaison de recherche.
 * autoCompleteMode a la propriété [Obsolète] et pour fournir la même fonctionnalité d&#39;autoCompleteMode =false, nous avons ajouté un matchType appelé Match.
 
@@ -571,40 +571,40 @@ Pour plus d’informations sur les versions actuelles et précédentes de l’ap
 
 ## Problèmes connus ou limitations de cette version
 
-Les limitations de cette version sont les suivantes :
+Voici les limitations de cette version :
 
-### Affichage de contenu hors ligne dans l’application mobile
+### Affichage du contenu hors connexion dans l’application mobile
 
-Les éléments suivants ne sont pas pris en charge lors de l’affichage de contenu hors ligne dans l’application :
+Les éléments suivants ne sont pas pris en charge lors de l’affichage hors connexion du contenu dans l’application :
 
-* Cours, plans d’apprentissage ou certifications Flex.
+* Cours, plans d’apprentissage ou certifications flexibles.
 * Cours, plans d’apprentissage ou certifications améliorés.
-* Quiz multiple activé : cours, plans d’apprentissage ou certifications.
+* Cours, plans d’apprentissage ou certifications avec fonction de quiz multiple activée.
 * Harvard Manage Mentor, Content Marketplace, GetAbstract ou LinkedIn Courses, Learning Plans ou Certifications.
-* Plans d’apprentissage et certificats avec prérequis activés.
-* Cours, plans d’apprentissage ou certifications retirés.
+* Plans d’apprentissage et certificats avec les conditions préalables activées.
+* Cours, plans d’apprentissage ou certifications ayant été retirés.
 * Cours, plans d’apprentissage ou certifications dont l’échéance a expiré.
 * Certificats externes.
 * Cours, plans d’apprentissage ou certifications compatibles avec le commerce électronique.
 
-Les parcours d’apprentissage, cours ou certifications suivants présentent quelques problèmes de synchronisation hors ligne :
+Les parcours d’apprentissage, cours ou certifications suivants rencontrent quelques problèmes de synchronisation hors ligne :
 
 * Tous les parcours d’apprentissage.
 * Tous les certificats internes.
-* Contenu avec appels de POST.
+* Contenu avec appels POST.
 
-### Recommendations
+### Recommandations
 
-Les éléments suivants ne sont pas pris en charge pour Produit/Rôle/Niveau dans le nouveau système de recommandation :
+Le nouveau système de recommandations ne prend pas en charge les éléments suivants pour Produit/Rôle/Niveau :
 
 * Adobe Experience Manager, Teams, SFDC et Non connecté.
-* L’application mobile ne prend pas en charge la modification des produits et des rôles sur la page Recommandation.
-* Le mappage n’est pas possible pendant la migration.
+* L’application mobile ne prend pas en charge la modification des produits et des rôles sur la page de recommandation.
+* Le mappage n’est pas possible lors de la migration.
 * Balisage automatique de LinkedIn, du marché de contenus et d’autres cours, plans d’apprentissage ou certifications externes.
-* Revenir à Compétences ou Classique après la mise en ligne.
-* Le menu de recherche pour les produits et les rôles dans l’application de l’élève.
+* Retour à l’environnement basé sur les compétences ou classique après la mise en ligne.
+* Menu de recherche pour les produits et les rôles dans l’application des élèves.
 * Mappage en bloc des cours, des plans d’apprentissage ou des certifications, et des utilisateurs dans l’application d’administration.
 
 ## Configuration requise
 
-[Configuration requise pour Learning Manager](/help/migrated/system-requirements.md)
+[Configuration requise pour Learning Manager](/help/migrated/system-requirements.md)

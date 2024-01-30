@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '1840'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 Création et gestion de rapports pour les responsables.
 
-Adobe Learning Manager vous permet de créer divers rapports pour suivre, surveiller et contrôler les activités des élèves. Les activités des élèves sont suivies et capturées automatiquement dans la base de données. Les rapports des responsables et des administrateurs sont générés à partir de la base de données.
+Adobe Learning Manager vous permet de créer différents rapports pour suivre, surveiller et contrôler les activités des élèves. Les activités des élèves font l’objet d’un suivi et sont capturées automatiquement dans la base de données. Les rapports Responsable et Administrateur sont générés à partir de la base de données.
 
-## Présentation {#overview}
+## Vue d’ensemble {#overview}
 
-Le processus de génération des rapports est le même pour l’administrateur et le responsable. Les responsables peuvent afficher les rapports correspondant à leurs subordonnés, tandis que les administrateurs peuvent afficher tous les rapports de l’organisation.
+Le processus de génération des rapports est le même pour Administrateur et pour Responsable. Les responsables peuvent afficher les rapports correspondant à leurs subordonnés tandis que les administrateurs peuvent afficher tous les rapports à l’échelle de l’entreprise.
 
-Les rapports sont regroupés dans un tableau de bord. Un rapport doit exister dans un tableau de bord. A **Tableau de bord par défaut** existe par défaut dans la page rapports. Tout rapport que vous ajoutez passe dans ce tableau de bord par défaut. Pour ajouter des rapports à des tableaux de bord individuels, utilisez la flèche déroulante et choisissez Ajouter un rapport. Pour plus d&#39;informations sur la création de tableaux de bord, consultez la section Tableaux de bord sur cette page.
+Les rapports sont regroupés dans un tableau de bord. Un rapport se trouve toujours dans un tableau de bord. A **Tableau de bord par défaut** existe par défaut dans la page rapports. Tout rapport supplémentaire de votre part entre dans ce tableau de bord par défaut. Pour ajouter des rapports à des tableaux de bord individuels, utilisez la flèche déroulante et choisissez Ajouter un rapport. Pour plus d’informations sur la création des tableaux de bord, consultez la section Tableaux de bord sur cette page.
 
-## Tableaux de bord de gestion {#manager-dashboards}
+## Tableaux de bord du responsable {#manager-dashboards}
 
 Un responsable peut afficher des informations sur son équipe directe ou indirecte, sous forme de résumé.
 
@@ -50,7 +50,7 @@ Vérifiez la conformité de votre équipe et le membre qui frise la non-conformi
 
 ## État des compétences {#skillsstatus}
 
-Voir le pourcentage d’élèves pour chaque compétence. Choisissez au maximum cinq compétences pour lesquelles vous souhaitez afficher les compétences des élèves. La visualisation se présente sous la forme d’un graphique à barres empilées. Lorsque vous passez la souris sur chaque barre, vous pouvez voir la répartition de l’état de cette compétence.
+Consultez le pourcentage d’élèves pour chaque compétence. Choisissez au maximum cinq compétences pour lesquelles vous souhaitez afficher le niveau des élèves. La visualisation prend la forme d&#39;un graphique à barres empilées. Lorsque vous passez la souris sur chaque barre, vous pouvez voir le détail de l’état de cette compétence.
 
 ![](assets/manager-skills-status.png)
 
@@ -58,9 +58,9 @@ Voir le pourcentage d’élèves pour chaque compétence. Choisissez au maximum 
 
 ## Suivi des compétences {#skilstracker}
 
-Affichez une projection de l’achèvement des compétences dans une équipe. Choisissez le pourcentage d’achèvement cible et la date d’une compétence.
+Affichez une projection de l&#39;accomplissement des compétences au sein d’une équipe. Choisissez le pourcentage d’achèvement cible et la date d’une compétence.
 
-En fonction des données historiques, vous pouvez voir une représentation graphique de la projection de l’achèvement des compétences à la date sélectionnée.
+En fonction des données historiques, vous pouvez voir une représentation graphique de la projection de l&#39;accomplissement des compétences à la date sélectionnée.
 
 ![](assets/historical-data.png)
 
@@ -68,37 +68,37 @@ En fonction des données historiques, vous pouvez voir une représentation graph
 
 ## Création de rapports {#creatingreports}
 
-1. Cliquez sur Rapports dans le volet de gauche. La page Résumé du rapport s’affiche.\
+1. Cliquez sur Rapports dans le volet de gauche. La page Synthèse des rapports s’affiche.\
    **Remarque**
-Par défaut, au moins trois exemples de rapport apparaissent dans la page de résumé du rapport. Vous pouvez uniquement consulter ces exemples de rapports pour vous faire une idée de la façon dont vous pourriez les créer et les personnaliser.
+Par défaut, au moins trois exemples de rapport apparaissent dans la page de résumé du rapport. Vous pouvez seulement afficher ces exemples de rapport pour avoir une idée quant à la manière dont vous pouvez les créer et les personnaliser.
 
-1. Dans la page Résumé du rapport, cliquez sur Ajouter. La boîte de dialogue de création de rapport s’affiche.
-1. Cliquez sur Enregistrer pour terminer la création d’un rapport. Un exemple de rapport est présenté ci-dessous à titre de référence.
+1. Dans la page Synthèse des rapports, cliquez sur Ajouter. La boîte de dialogue de création de rapport s’affiche.
+1. Cliquez sur Enregistrer pour terminer la création d’un rapport. Un exemple de rapport est affiché ci-dessous en référence.
 
 ![](assets/add-report.png)
 
 *Boîte de dialogue Ajouter un rapport*
 
-Dans Type de rapport, vous pouvez choisir un ensemble prédéfini de rapports ou choisir personnalisé. Vous pouvez afficher les rapports suivants dans le cadre d’un ensemble prédéfini de rapports :
+Dans Type de rapport, vous pouvez choisir un ensemble prédéfini de rapports ou sélectionner Personnalisé. Vous pouvez afficher les rapports suivants en tant que partie d’un ensemble prédéfini de rapports :
 
-* Compétences attribuées et acquises
-* Cours inscrit et terminé
-* Efficacité des cours
+* Compétences attribuées et obtenues
+* Cours inscrits et terminé
+* Efficacité pour les cours
 * Programmes d’apprentissage inscrits et terminés
-* Temps d’apprentissage par cours
-* Temps d’apprentissage par trimestre
+* Temps passé à apprendre par cours
+* Temps passé à apprendre par trimestre
 
-Vous pouvez utiliser les types de rapports mentionnés ci-dessus pour générer des rapports de plus de 300 variations.
+Vous pouvez utiliser les types de rapport mentionnés ci-dessus pour générer plus de 300 rapports différents.
 
 Nom du rapport Tapez un titre pour votre rapport.
 
-**Axe Y principal** Choisissez le premier/le critère principal de votre rapport dans les options déroulantes. Pour certains des critères sélectionnés, vous avez la possibilité de choisir un ou plusieurs états dans la liste déroulante États adjacente. Par exemple, pour un critère principal de statistiques d&#39;inscription à un cours, les états peuvent être terminé, Incomplet, Inscrit, etc. Les données de plage principales sont représentées sous la forme de graphiques à barres dans le rapport.
+**Axe Y principal** Choisissez le premier/le critère principal de votre rapport dans les options déroulantes. Pour certains des critères sélectionnés, vous avez la possibilité de choisir un ou plusieurs états dans la liste déroulante États adjacente. Par exemple, pour un critère principal de statistiques d&#39;inscription à un cours, les états peuvent être terminé, Incomplet, Inscrit, etc. Les données de plage principale sont représentées sous forme de graphiques à barres dans le rapport.
 
-**Axe Y secondaire** Choisissez les critères/la plage de l’axe Y secondaire pour votre rapport dans les options déroulantes. Par exemple, dans l&#39;option d&#39;inscription au programme d&#39;apprentissage, choisissez un ou plusieurs états dans la liste déroulante États adjacente. Les données de plage secondaire sont représentées sous la forme de graphiques linéaires.
+**Axe Y secondaire** Choisissez les critères/la plage de l’axe Y secondaire pour votre rapport dans les options déroulantes. Par exemple, dans l&#39;option d&#39;inscription au programme d&#39;apprentissage, choisissez un ou plusieurs états dans la liste déroulante États adjacente. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
 
-**Axe X** Choisissez les critères d’axe x appropriés pour votre rapport dans les options déroulantes. Si l&#39;axe des x est choisi comme date, une option permettant de regrouper votre critère d&#39;axe des x par jour, mois, trimestre et année est disponible.
+**Axe X** Choisissez les critères d’axe x appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
 
-**Date** Choisissez l’option appropriée dans la liste déroulante. Options : dernier mois, trimestre, année, QTD (90 derniers jours), Cumul annuel cumulé (365 derniers jours) et période. Si vous choisissez une plage de dates, indiquez les dates De et A comme suit :
+**Date** Choisissez l’option appropriée dans la liste déroulante. Options : dernier mois, dernier trimestre, dernière année, QTD (90 derniers jours), YTD (365 derniers jours) et la plage de dates. Si vous sélectionnez la plage de dates, indiquez les dates Du et Au comme suit :
 
 **De** Choisissez la date à partir de laquelle vous souhaitez afficher le rapport.
 
@@ -106,13 +106,13 @@ Nom du rapport Tapez un titre pour votre rapport.
 
 ## Filtres {#filters}
 
-Les filtres s’affichent dans la boîte de dialogue Ajouter un rapport en bas en fonction des types de rapports que vous avez choisis. Certains des filtres importants sont mentionnés ci-dessous.
+Les filtres s&#39;affichent dans la boîte de dialogue Ajouter un rapport en bas en fonction des types de rapports que vous avez sélectionnés. Certains de ces filtres principaux sont mentionnés ci-dessous.
 
-**Responsable** Vous pouvez choisir l’un des responsables en fonction de la hiérarchie. Pour certains responsables, il peut y avoir des responsables subordonnés et plusieurs employés relevant de chaque responsable subordonné.
+**Responsable :** vous pouvez sélectionner l’un des responsables en fonction de la hiérarchie. Pour certains responsables, il peut exister des responsables subordonnés ainsi que plusieurs employés supervisés par chaque responsable subordonné.
 
-**Profil** Choisissez la désignation de votre employé. Cela aiderait à consulter les rapports des employés en fonction de leur profil/désignation. Par exemple, informaticien, ingénieur, etc.
+**Profil :** choisissez la désignation de votre employé. Il est plus pratique d’afficher les rapports des employés selon leur profil/désignation. Par exemple, informaticien, ingénieur, et ainsi de suite.
 
-**Groupe d’utilisateurs** Choisissez le groupe d’utilisateurs en fonction duquel vous souhaitez filtrer les rapports. Learning Manager récupère les groupes d’utilisateurs définis pour votre compte à partir de la fonctionnalité Utilisateurs.
+**Groupe d&#39;utilisateurs** Choisissez le groupe d&#39;utilisateurs à partir duquel vous souhaitez filtrer les rapports. Learning Manager récupère les groupes d’utilisateurs définis pour votre compte depuis la fonction Utilisateurs.
 
 **Cours** Vous pouvez filtrer votre rapport en fonction de n’importe quel cours en les sélectionnant dans la liste déroulante.
 
@@ -122,13 +122,13 @@ Les filtres s’affichent dans la boîte de dialogue Ajouter un rapport en bas e
 
 >[!NOTE]
 >
->Au-dessus de la légende du graphique, vous pouvez voir une zone de zoom. Déplacez le curseur dessus, cliquez et faites glisser la barre transversale sur n’importe quelle partie de la zone de zoom avant.
+>Au-dessus de la légende du graphique, vous pouvez afficher une case de zoom. Vous pouvez y placer le pointeur de la souris, cliquer et faire glisser la barre transversale sur n’importe quelle partie de la zone de zoom que vous souhaitez agrandir.
 
-Les valeurs de l’axe y secondaire s’affichent sous la forme d’une ligne sur les barres du graphique. Par exemple, dans l’exemple ci-dessus, les valeurs d’efficacité s’affichent en grisé sur le graphique.
+Vous pouvez afficher les valeurs de l’axe Y secondaire sous forme de ligne à travers le graphique à barres. Par exemple, dans l’exemple ci-dessus, vous pouvez voir les valeurs de l’efficacité dans une ligne grise à travers le graphique.
 
-## Rapports de groupe d’utilisateurs {#user-group-reporting}
+## Rapports de groupes d’utilisateurs {#user-group-reporting}
 
-Suivez les performances des groupes d’utilisateurs tels que les services, les partenaires externes et les rôles par rapport aux autres groupes d’utilisateurs ou à d’autres objectifs d’apprentissage.
+Suivez la manière dont les groupes d’utilisateurs, tels que des services, des partenaires externes et des rôles se comportent en comparaison d’autres groupes d’utilisateurs ou par rapport à d’autres objectifs pédagogiques.
 
 ### Groupes d’utilisateurs {#usergroups}
 
@@ -138,82 +138,82 @@ Pour générer des rapports en fonction des groupes d’utilisateurs, choisissez
 
 *Générer des rapports de groupe d’utilisateurs*
 
-Un autre **Sélectionner** Une liste déroulante apparaît en regard de l’axe X et affiche la liste des groupes d’utilisateurs disponibles pour votre compte. Dans cette liste déroulante, vous pouvez sélectionner un ou plusieurs groupes d’utilisateurs.
+Un autre menu déroulant **Sélectionner** s&#39;affiche en regard de l&#39;axe x avec une liste de groupes d&#39;utilisateurs disponibles pour votre compte. Dans cette liste déroulante, vous pouvez sélectionner un ou plusieurs groupes d’utilisateurs.
 
-Une fois que vous avez enregistré et généré ce rapport, si vous avez sélectionné plusieurs groupes d’utilisateurs, le rapport est généré avec tous les groupes d’utilisateurs représentés dans le graphique à barres adjacents sur l’axe des x.
+Une fois que vous avez enregistré et généré le rapport, si vous avez sélectionné plusieurs groupes d&#39;utilisateurs, le rapport est généré avec tous les groupes d&#39;utilisateurs représentés dans le graphique à barres à côté des autres sur l&#39;axe des x.
 
-Ce rapport de groupe d’utilisateurs vous permet de comparer les performances d’un service/division/rôle par rapport à l’autre afin d’évaluer leurs acquis en matière d’apprentissage.
+Ce rapport de groupe d’utilisateurs vous permet de comparer la performance d’un(e) service/division/rôle par rapport à l’autre pour leurs progrès en termes de formation.
 
-### Groupes d’utilisateurs/attributs utilisateur personnalisés {#customusergroupsuserattributes}
+### Attributs personnalisés de groupes d&#39;utilisateurs/utilisateur {#customusergroupsuserattributes}
 
-Vous pouvez également créer des groupes d’utilisateurs personnalisés à l’aide de la fonctionnalité Ajouter des utilisateurs/groupes d’utilisateurs dans Learning Manager. Après avoir créé les groupes d’utilisateurs, vous pouvez générer des rapports pour ces groupes d’utilisateurs personnalisés à l’aide d’une liste d’attributs tels que l’emplacement, la branche, etc.
+Vous pouvez également créer des groupes d&#39;utilisateurs personnalisés à l&#39;aide de la fonction Ajouter des utilisateurs/un groupe d’utilisateurs dans Learning Manager. Après avoir créé des groupes d&#39;utilisateurs, vous pouvez générer des rapports pour ces groupes d&#39;utilisateurs personnalisés avec l&#39;aide d&#39;une liste d&#39;attributs, tels que l&#39;emplacement, la succursale, et ainsi de suite.
 
 Dans l’axe des X, choisissez l’option Attribut utilisateur et sélectionnez l’attribut depuis **sélectionner** liste déroulante en regard de celui-ci. Pour créer un rapport de groupe d’utilisateurs personnalisé basé sur ces attributs, vous devez également choisir le groupe d’utilisateurs approprié dans le filtre.
 
-Les responsables peuvent créer des rapports de groupe d&#39;utilisateurs uniquement pour les membres de leur propre équipe en tant qu&#39;élèves.
+Les responsables peuvent créer des rapports de groupe d&#39;utilisateurs uniquement pour les membres de leur propre équipe comme stagiaires.
 
 ## Types de rapports {#typesofreports}
 
-* Statistiques de prestation de cours pour les élèves
-* Rapport sur l&#39;efficacité des cours
-* Rapport basé sur les compétences de l’élève
-* Statistiques d&#39;inscription au programme d&#39;apprentissage pour les élèves
-* Temps d’apprentissage passé par les élèves
-* Certification terminée
+* Statistiques de fourniture des cours aux élèves
+* Rapport sur l’efficacité des cours
+* Rapport basé sur la compétence de l’élève
+* Statistiques d’inscription aux programmes d’apprentissage des élèves
+* Temps d’apprentissage des élèves
+* Fin de certification
 
 ## Mes rapports {#myreports}
 
-Un tableau de bord est un ensemble de rapports. Les rapports peuvent être regroupés dans un tableau de bord selon votre choix.
+Un tableau de bord est une série de rapports. Les rapports peuvent être regroupés dans un tableau de bord selon votre choix.
 
-**Exemples de rapports**
+**Exemples de rapport** 
 
-Cliquez sur cet onglet pour afficher certains rapports indicatifs basés sur des exemples de points de données. Explorez ces rapports pour vous faire une idée des différents types de rapports riches en fonctionnalités que vous pouvez générer à l’aide des données de votre compte.
+Cliquez sur cet onglet pour afficher certains rapports indicatifs basés sur des exemples de points de données. Explorez ces rapports pour avoir une idée des différents types de rapports riches en fonctions, pouvant être générés en utilisant les données de votre compte.
 
-**Mes rapports**
+**Mes rapports** 
 
 Cliquez sur l’onglet de ce tableau pour afficher tous les tableaux que vous avez créés. Dans la liste déroulante du tableau de bord d’affichage, vous pouvez sélectionner le tableau par défaut ou l’un des tableaux de bord que vous avez créés.
 
-**Ajouter un tableau de bord**
+**Ajouter le tableau de bord** 
 
-1. Cliquez sur Ajouter un tableau de bord sur le côté droit de la page pour commencer à créer vos propres tableaux.
+1. Cliquez sur Ajouter un tableau de bord, sur le côté droit de la page, pour commencer à créer vos propres tableaux.
 
    ![](assets/add-dashboard.png)
 
    *Créer votre propre forum*
 
-1. Indiquez le nom et la description du tableau de bord, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Fournissez le nom et une description du tableau de bord, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 Vous pouvez afficher le tableau récemment créé dans la liste Mes tableaux de bord.
 
-Pour ajouter des rapports à votre forum, cliquez sur la liste déroulante dans l’angle supérieur droit de la fenêtre du forum, puis cliquez sur Ajouter un rapport. Le rapport ainsi créé est associé à votre tableau de bord.
+Pour ajouter des rapports à votre forum, cliquez sur la liste déroulante dans l’angle supérieur droit de la fenêtre du forum, puis cliquez sur Ajouter un rapport. Le rapport que vous créez ainsi est associé à votre tableau de bord.
 
 >[!NOTE]
 >
 >Les rapports que vous créez en cliquant sur Ajouter dans l’angle supérieur droit de la page Rapports sont ajoutés à votre tableau de bord par défaut.
 
-**Rapports partagés**
+**Rapports partagés** 
 
-Les rapports partagés sont un ensemble de rapports qui ont été partagés avec vous par d’autres utilisateurs au sein de votre organisation. Si vous disposez des autorisations nécessaires, vous pouvez télécharger ou dupliquer les rapports partagés. Contactez l’administrateur de votre organisation pour obtenir les droits de téléchargement/de duplication sur les rapports partagés.
+Les rapports partagés sont un ensemble de rapports qui ont été partagés ave vous par d&#39;autres utilisateurs dans votre entreprise. Si vous disposez des autorisations, vous pouvez télécharger ou dupliquer les rapports partagés. Contactez l&#39;administrateur de votre société pour obtenir des droits d&#39;accès pour télécharger/dupliquer les rapports partagés.
 
-**Rapports abonnés**
+**Rapports abonné** 
 
-Vous pouvez vous abonner à vos rapports préférés en fournissant votre ID de messagerie ici. Les rapports souscrits vous sont envoyés par e-mail.
+Vous pouvez souscrire à vos rapports favoris en fournissant votre adresse électronique ici. Vos rapports abonnés vous sont envoyés par courrier électronique.
 
 Cliquez sur le bouton **Modifier** dans le coin droit du nom de votre rapport à partir de la liste des rapports pour modifier votre abonnement à tout moment.
 
 ## Affichage des rapports {#viewingreports}
 
-Sur la page Résumé du rapport, vous pouvez afficher tous les rapports. Vous pouvez réduire chaque rapport en cliquant sur l’icône moins (-) dans le coin supérieur droit de chaque rapport. Cliquez sur l’icône + pour afficher à nouveau votre rapport.
+Dans la page Synthèse des rapports, vous pouvez afficher tous les rapports. Vous pouvez réduire chaque rapport en cliquant sur l’icône moins (-) dans l’angle supérieur droit de chaque rapport. Cliquez sur l’icône + pour afficher votre rapport.
 
 **Affichage rapide avec différentes dates**
 
-Les valeurs de date que vous utilisez pour afficher le rapport sont temporaires. Cette vue du rapport n’est pas téléchargée lorsque vous sélectionnez l’option de téléchargement. Il s’agit uniquement d’une vue temporaire.
+Les valeurs de date que vous utilisez pour afficher le rapport sont temporaires. Cette vue de rapport n’est pas téléchargée lorsque vous sélectionnez l’option de téléchargement. Il ne s’agit que d’une vue temporaire.
 
-Vous pouvez modifier la plage/valeur de date pour n’importe quel rapport et afficher rapidement une date différente sans modifier ni enregistrer le rapport. Cliquez sur l’icône Modifier (comme illustré par une flèche dans l’instantané ci-dessous) en regard de la plage de dates, telle que QTD, dernière année, etc. Choisissez la nouvelle valeur dans le menu déroulant et cliquez sur la coche pour confirmer la modification. Vous pouvez annuler la modification en cliquant sur la croix (X).
+Vous pouvez modifier la valeur/plage de dates de tout rapport et afficher rapidement une date différente sans modifier ni enregistrer le rapport. Cliquez sur l’icône Modifier (comme illustré avec une flèche dans l’instantané ci-dessous) en regard de la plage de dates, telle que QTD, la dernière année et ainsi de suite. Choisissez la nouvelle valeur dans le menu déroulant et cliquez sur la coche pour confirmer la modification. Vous pouvez annuler la modification en cliquant sur le symbole X.
 
-**Affichage rapide avec différents responsables**
+**Affichage rapide avec différents responsables** 
 
-Si plusieurs responsables vous rendent des comptes, vous pouvez afficher rapidement les rapports de chaque responsable. Choisissez le nom du responsable dans la liste déroulante pour afficher un rapport unique pour chaque responsable.
+Si vous supervisez plusieurs responsables, vous pouvez afficher rapidement les rapports de chaque responsable. Choisissez le nom du responsable dans la liste déroulante pour afficher un rapport unique pour chaque responsable.
 **Modifier/Déplacer vers le tableau de bord/Créer une copie/Supprimer/Redimensionner les rapports** Cliquez sur la flèche déroulante dans le coin supérieur droit de chaque rapport pour afficher les options déroulantes Modifier/Déplacer vers le tableau de bord/Créer une copie/Supprimer/Redimensionner.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
@@ -224,15 +224,15 @@ Si plusieurs responsables vous rendent des comptes, vous pouvez afficher rapidem
 
 **Créer une copie** Vous pouvez copier le rapport dans le même tableau de bord ou dans un autre, qui est choisi dans la liste des tableaux de bord.
 
-**Supprimer** Cliquez sur Supprimer pour supprimer le rapport. Un message d’avertissement/de confirmation s’affiche avant la suppression du rapport.
+**Supprimer** Cliquez sur Supprimer pour supprimer le rapport. Un message d’avertissement/de confirmation s’affiche avant de pouvoir supprimer le rapport.
 
 **Redimensionner** Vous pouvez redimensionner vos rapports en taille 1×1 (moyenne) et 2×2 (grande).
 
-## Abonnements aux e-mails {#emailsubscriptions}
+## Abonnements par e-mail {#emailsubscriptions}
 
-Vous pouvez obtenir vos rapports préférés par courrier électronique en vous abonnant à ceux-ci.
+Vous pouvez obtenir vos rapports favoris par courrier électronique en vous abonnant.
 
-Dans la page Rapports, cliquez sur Abonnement par e-mail en regard du bouton Ajouter dans le coin supérieur droit de la page. La page d’abonnement Rapports s’affiche.
+Dans la page Rapports, cliquez sur Abonnement par e-mail, en regard du bouton Ajouter dans l’angle supérieur droit de la page. La page Abonnement aux rapports s’affiche.
 
 Commencez à saisir le nom du rapport dans le champ Rapports pour sélectionner le nom du rapport dans la liste déroulante. Choisissez la fréquence du courrier électronique : quotidienne, hebdomadaire, mensuelle, selon votre choix. Ajoutez l’objet du courrier électronique et cliquez sur Ajouter pour vous abonner.
 

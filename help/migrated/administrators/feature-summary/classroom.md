@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Ajouter des emplacements de salle de classe
-description: Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de salle de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
+description: Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Salle de classe
 
-## Présentation
+## Vue d’ensemble
 
-Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de salle de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
+Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
 
 Vous pouvez utiliser les deux méthodes suivantes pour ajouter un emplacement de salle de classe.
 
-## Ajout de salles de classe à l’aide de l’interface utilisateur
+## Ajouter une salle de classe via l’interface utilisateur
 
 Vous pouvez ajouter un emplacement de salle de classe en utilisant l’interface utilisateur :
 
@@ -28,12 +28,12 @@ Vous pouvez ajouter un emplacement de salle de classe en utilisant l’interface
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** bouton.
 
-1. Dans le panneau **[!UICONTROL Lieu de la salle de classe]** dans la boîte de dialogue, entrez les informations suivantes :
+1. Dans la boîte de dialogue **[!UICONTROL Emplacement de salle de classe]**, entrez les informations suivantes :
 
-   * Saisissez le **[!UICONTROL Nom du lieu de salle de classe]**. Utilisez un nom unique. Sinon, Learning Manager affiche un message d’erreur.
-   * Saisissez la description de l’emplacement dans le champ **[!UICONTROL Informations de localisation]** champ. Ce champ est facultatif.
-   * Saisissez le **[!UICONTROL URL d’emplacement]**. L’élève peut voir ces informations dans les détails de la salle de classe. L’URL peut également être une URL d’emplacement de mappage, si nécessaire. Il s’agit d’un champ facultatif.
-   * Saisissez le nombre de sièges disponibles dans le champ **[!UICONTROL Limite de places]** champ. Cela indique la capacité en sièges de la salle de classe. Cette valeur peut être modifiée lors de la création de l’événement de formation dirigée par un instructeur.
+   * Saisissez le **[!UICONTROL Nom de l’emplacement de la salle de classe]**. Utilisez un nom unique. Sinon, Learning Manager affiche un message d’erreur.
+   * Saisissez la description de l’emplacement dans le champ **[!UICONTROL Informations de localisation]**. Ce champ est facultatif.
+   * Saisissez l’**[!UICONTROL URL de localisation]**. L’élève peut voir ces informations dans les détails de la salle de classe. L’URL peut également être une URL d’emplacement de mappage, si nécessaire. Il s’agit d’un champ facultatif.
+   * Saisissez le nombre de places disponibles dans le champ **[!UICONTROL Limite de siège]**. Cela indique la capacité en sièges de la salle de classe. Cette valeur peut être modifiée lors de la création de l’événement de formation dirigée par un instructeur.
 
    ![](assets/add-classroom-location.png)
 
@@ -45,7 +45,7 @@ Après avoir ajouté l’emplacement, le **[!UICONTROL Paramètres]** > **[!UICO
 
 *Voir toutes les salles de réunion*
 
-La liste comporte les champs suivants :
+La liste comporte les champs suivants :
 
 **[!UICONTROL Nom de l’emplacement]** - Nom du lieu de la salle de classe.
 
@@ -69,24 +69,24 @@ Vous pouvez également ajouter un ou plusieurs emplacements de salle de classe e
 
 Entrée **[!UICONTROL Application d’administration]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Lieux de salle de classe]**, cliquez sur le bouton **[!UICONTROL Importer les emplacements au format CSV]** bouton. Accédez à l’emplacement contenant le fichier CSV et sélectionnez le fichier.
 
-Le fichier CSV utilise ces champs pour stocker des détails sur un ou plusieurs emplacements de salle de classe :
+Le fichier CSV utilise ces champs pour stocker des détails sur un ou plusieurs emplacements de classe :
 
-* nom
-* infos
+* name
+* info
 * url
 * seatLimit
 
 Vous pouvez personnaliser les en-têtes.
 
-Le fichier CSV doit obligatoirement contenir toutes les colonnes dans l’ordre spécifié ici.
+Le fichier CSV doit obligatoirement contenir toutes les colonnes dans le même ordre que celui spécifié ici.
 
 Une fois que le système a importé le fichier CSV, les emplacements sont ajoutés à la bibliothèque.
 
-## Rechercher des salles de classe
+## Recherche de salles de classe
 
-Un auteur ou un administrateur peut commencer à saisir le nom de l’emplacement pour voir les résultats pertinents qui commencent à apparaître. Un auteur ou un administrateur peut ensuite sélectionner un emplacement parmi les résultats affichés. Si aucun emplacement n’est affiché dans les résultats de la frappe anticipée, l’utilisateur peut toujours ajouter le nom du nouvel emplacement de salle de classe. Notez que ce nom d’emplacement créé à l’aide du flux de création de session n’est pas ajouté à la bibliothèque d’emplacements créée par l’administrateur.
+Un auteur ou un administrateur peut commencer à taper le nom de l’emplacement pour voir les résultats pertinents qui commencent à apparaître. Un auteur ou un administrateur peut alors sélectionner un emplacement parmi les résultats affichés. Si aucun emplacement n’est affiché dans les résultats de la recherche par frappe anticipée, l’utilisateur peut toujours ajouter le nom du nouvel emplacement de salle de classe. Notez que ce nom d’emplacement créé à l’aide du processus de création de sessions n’est pas ajouté à la bibliothèque d’emplacements créée par l’administrateur.
 
-Lorsqu’une salle de classe est ajoutée, la plateforme d’apprentissage indique également si la salle de classe est déjà réservée pour la période mentionnée. Il fournit même des créneaux horaires alternatifs comme suggestions. Par conséquent, cela permet à l’auteur d’ajuster l’heure de la réunion s’il décide d’utiliser le même emplacement de salle de classe.
+Lorsqu’une salle de classe est ajoutée, la plateforme d’apprentissage indique également si la salle de classe est déjà réservée pour la période mentionnée. Elle fournit même des créneaux horaires alternatifs comme suggestions. Cela permet donc à l’auteur d’ajuster l’heure de la réunion s’il décide d’utiliser le même emplacement de salle de classe.
 
 ![](assets/classroom-search.png)
 
@@ -106,14 +106,14 @@ Pour configurer un instructeur, les administrateurs peuvent sélectionner **[!UI
 
 ## Auteur
 
-Si l’administrateur sélectionne l’option **[!UICONTROL Gestion des instructeurs]** , un auteur peut uniquement rechercher et ajouter les utilisateurs dotés du rôle d’instructeur aux sessions de salle de classe, aux sessions de classe virtuelle, aux listes de contrôle et aux modules d’envoi de fichiers.
+Si l’administrateur sélectionne l’option **[!UICONTROL Gestion des instructeurs]**, un auteur peut uniquement rechercher et ajouter les utilisateurs dotés du rôle d’instructeur aux sessions de salle de classe, aux sessions de classe virtuelle, aux listes de contrôle et aux modules d’envoi de fichiers.
 
-En outre, un auteur peut :
+En outre, un auteur peut :
 
-* Ajoutez et supprimez des instructeurs dans les sessions existantes.
-* Ajoutez des instructeurs aux sessions existantes qui ont déjà un ou plusieurs instructeurs.
+* Ajouter et supprimer des instructeurs dans des sessions existantes.
+* Ajouter des instructeurs aux sessions existantes qui ont déjà un ou plusieurs instructeurs.
 
-Par conséquent, une fois qu’un administrateur a activé le paramètre **[!UICONTROL Gestion des instructeurs]** , seuls les utilisateurs dotés du rôle d’instructeur peuvent être ajoutés en tant qu’instructeur.
+Par conséquent, une fois qu’un administrateur a activé le paramètre **[!UICONTROL Gestion des instructeurs]**, seuls les utilisateurs dotés du rôle d’instructeur peuvent être ajoutés en tant qu’instructeurs.
 
 >[!NOTE]
 >
@@ -125,46 +125,46 @@ Un auteur ou un administrateur peut annuler une session et la replanifier, si n�
 
 Lorsqu’un utilisateur annule une session, le système envoie un e-mail d’annulation de réunion à tous les élèves et instructeurs inscrits. L’e-mail inclut les détails de la session mis à jour.
 
-Il existe un modèle appelé **[!UICONTROL Annulation de session]** cela permet d’annuler une session.
+Il existe un modèle nommé **[!UICONTROL Annulation de session]** qui aide à annuler une session.
 
-Sur la **[!UICONTROL Instance de cours]** , chaque session répertoriée sous une instance de cours inclut une option permettant d&#39;annuler la session.
+Sur la page **[!UICONTROL Instance de cours]**, chaque session répertoriée sous une instance de cours inclut une option permettant d’annuler la session.
 
 ![](assets/cancel-session.png)
 
 *Annuler une session existante*
 
-Lorsque vous cliquez sur le bouton **[!UICONTROL Annuler la session]** , un message d’avertissement s’affiche.
+Lorsque vous cliquez sur le bouton **[!UICONTROL Annuler la session]**, un message d’avertissement s’affiche.
 
 Dans la boîte de dialogue Message d’avertissement, si vous cliquez sur **[!UICONTROL Continuer]**, le système annule la session.
 
-Le système efface également les détails suivants après l’annulation d’une session :
+Le système efface également les détails suivants après l’annulation d’une session :
 
 * Date de début de la session
 * Date de fin de la session
 * Heure de début de la session
 * Heure de fin de la session
 * Instructeurs ajoutés à la session
-* URL de la salle de classe virtuelle
+* URL de classe virtuelle
 * Emplacement/lieu ajouté à la session
-* Limite de liste d’attente ajoutée par l’instructeur
+* Limite de liste d’attente ajoutée par le formateur
 
 ## Administrateur
 
-Sur la **[!UICONTROL Instance de cours]** , un administrateur peut annuler une ou plusieurs sessions. Une fois que l’administrateur a annulé une session, le système efface tous les détails de la session, à l’exception de la limite de sièges.
+Sur la page **[!UICONTROL Instance de cours]**, un administrateur peut annuler une ou plusieurs sessions. Une fois que l’administrateur a annulé une session, le système efface tous les détails de la session, à l’exception de la limite de sièges.
 
-En outre, un administrateur peut :
+En outre, un administrateur peut :
 
 * Afficher les élèves inscrits et les élèves inscrits sur liste d’attente d’une session.
 * Désinscrire des élèves d’un cours avec une ou plusieurs sessions annulées.
 * Marquer la participation pour les sessions annulées.
-* Marquer un cours comme terminé qui contient une ou plusieurs sessions annulées.
-* Replanifier une session annulée.
+* Marquez un cours comme terminé et contenant une ou plusieurs sessions annulées.
+* Replanifier une session qui a été annulée.
 * Ajouter un instructeur à une session annulée lors de sa replanification.
 
-Notez que même après l’annulation, les élèves inscrits à l’instance de formation restent inscrits. Leur statut d’inscription (inscription confirmée, liste d’attente et attente de l’approbation du responsable) reste inchangé. Cela est utile car l’administrateur peut configurer et replanifier la session annulée à l’avenir.
+Notez que même après l’annulation, les élèves inscrits à l’instance de formation y sont toujours inscrits. Leur statut d’inscription (inscription confirmée, liste d’attente et attente de l’approbation du responsable) reste inchangé. Cela est utile car l’administrateur peut configurer et replanifier la session annulée à l’avenir.
 
 ## Auteur
 
-Sur la **[!UICONTROL Instance de cours]** , un Auteur peut annuler une ou plusieurs sessions. Une fois que l’auteur a annulé une session, le système efface tous les détails de la session, à l’exception de la limite de sièges.
+Sur la page **[!UICONTROL Instance de cours]**, un auteur peut annuler une ou plusieurs sessions. Une fois que l’auteur a annulé une session, le système efface tous les détails de la session, à l’exception de la limite de sièges.
 
 Par conséquent, un auteur peut utiliser la fonction **[!UICONTROL Annuler la session]** des liens pour annuler une ou plusieurs sessions de classe ou sessions de classe virtuelle disponibles dans la même instance de cours ou dans des instances de cours différentes.

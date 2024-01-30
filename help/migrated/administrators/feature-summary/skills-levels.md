@@ -1,36 +1,36 @@
 ---
-description: Créer, attribuer et modifier des compétences et des niveaux.
+description: Créez, attribuez et modifiez des compétences et niveaux.
 jcr-language: en_us
-title: Création et modification de compétences et de niveaux
+title: Création et modification de compétences et niveaux
 contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1718'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
 
 
-# Création et modification de compétences et de niveaux
+# Création et modification de compétences et niveaux
 
-Créer, attribuer et modifier des compétences et des niveaux.
+Créez, attribuez et modifiez des compétences et niveaux.
 
-La carte des compétences est un regroupement d’ensembles de compétences, de connaissances et de traits d’un employé au sein d’une organisation. Ces cartes de compétences aident les entreprises/organisations à définir ou à augmenter les attentes en matière de performance de leurs employés. Les compétences permettent aux employés d&#39;aligner leurs comportements sur les attentes de l&#39;organisation.
+Une carte de compétences est un regroupement d’ensembles de compétences, de connaissances et de caractéristiques d’un employé dans une organisation. Ces cartes de compétences aident les entreprises/organisations à définir ou augmenter leurs attentes en termes de performance de leurs employés. Les compétences permettent aux employés d’aligner leurs comportements sur les attentes de leur entreprise.
 
-Adobe Learning Manager vous permet de mapper les performances des élèves en fonction de leurs compétences à l’aide de la carte des compétences. Une fois que les élèves ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en consultant les cartes de compétences.
+Adobe Learning Manager vous permet de déterminer les performances des élèves en fonction de leurs compétences à l’aide de la carte des compétences. Une fois que les élèves ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en consultant les cartes de compétences.
 
-L’objectif fondamental des compétences dans le LMS Learning Manager est de fournir à l’administrateur un outil qui aligne l’apprentissage sur les objectifs commerciaux.
+Le but fondamental des compétences dans le système de gestion d’apprentissage (LMS) Learning Manager est de fournir à l’administrateur un outil qui adapte l’apprentissage aux objectifs de l’entreprise.
 
-## Ajouter une compétence {#addaskill}
+## Ajout d’une compétence {#addaskill}
 
-En tant qu’administrateur, vous pouvez effectuer les opérations suivantes :
+En tant qu’administrateur, vous pouvez réaliser les actions suivantes :
 
-* Mappez un domaine à une compétence.
-* Ajoutez plusieurs niveaux d’une compétence.
-* Ajoutez un badge à un niveau.
+* Mapper une compétence à un domaine
+* Ajouter plusieurs niveaux à une compétence
+* Ajouter un badge à un niveau
 
-Pour ajouter une compétence, procédez comme suit :
+Pour ajouter une compétence, suivez les étapes ci-dessous :
 
 1. Dans le volet de gauche, cliquez sur **[!UICONTROL Compétences]**. Donnez un nom et une description à la compétence.
 
@@ -38,9 +38,9 @@ Pour ajouter une compétence, procédez comme suit :
 
    *Ajouter le nom et la description d’une compétence*
 
-1. Attribuez un domaine à la compétence. Lors de la création d’une compétence, vous pouvez la mapper avec les domaines de compétence les plus pertinents pris en charge par Learning Manager. Pour plus d’informations, voir [***Mapper les compétences avec les domaines***](/help/migrated/administrators/feature-summary/curation-skills.md).
+1. Attribuez un domaine à la compétence. Lors de la création d’une compétence, vous pouvez la mapper avec les domaines de compétence les plus pertinents pris en charge par Learning Manager. Pour plus d’informations, voir [***Mappage de compétences avec les domaines***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
-   Commencez à saisir le domaine dans le champ et vous pouvez voir les recommandations. Choisissez l’option ou les options pertinentes pour la compétence.
+   Commencez à saisir le domaine dans le champ et les recommandations s’affichent. Sélectionnez l’option ou les options adaptées à la compétence.
 
    ![](assets/map-domain-with-skills.png)
 
@@ -48,48 +48,48 @@ Pour ajouter une compétence, procédez comme suit :
 
 1. Attribuez les niveaux à la compétence. Pour ajouter un niveau, cliquez sur **[!UICONTROL Ajouter]**.
 
-   Vous pouvez créer et affecter des compétences aux employés. Il y a différents niveaux de compétences et chaque niveau exige un certain nombre de crédits à gagner.
+   Vous pouvez créer et attribuer des compétences aux employés. Il existe différents niveaux de compétences et chaque niveau nécessite un certain nombre de crédits.
 
-   Vous pouvez affecter un maximum de trois niveaux à une compétence. Le parcours d’apprentissage est celui qui consiste à inscrire des élèves à divers objets d’apprentissage, qui se traduisent ensuite par un certain nombre de crédits qui répondent aux exigences des différents niveaux d’une compétence.
+   Vous pouvez attribuer un maximum de trois niveaux à une compétence. Le cursus d’apprentissage consiste à inscrire les élèves à divers objets d’apprentissage, qui se traduisent ensuite par un certain nombre de crédits répondant aux exigences des différents niveaux d’une compétence.
 
-   Une fois que ces objets d’apprentissage (LO) et niveaux ont été atteints, l’élève est désormais équipé pour effectuer des performances à un niveau plus productif qu’auparavant.
+   Une fois que ces objets d’apprentissage et niveaux ont été atteints, l’élève est à présent capable d’augmenter sa productivité.
 
    ![](assets/add-skill-levels.png)
 
    *Ajouter des niveaux de compétence*
 
-   Lorsque vous ajoutez une compétence, vous pouvez également affecter des décimales aux crédits. Les crédits sont affichés avec deux décimales maximum.
+   Lorsque vous ajoutez une compétence, vous pouvez également attribuer des décimales aux crédits. Les crédits sont affichés jusqu’à deux décimales.
 
-   La prise en charge des décimales est uniquement disponible en anglais.
+   La prise en charge des décimales n’est disponible qu’en anglais.
 
-1. Choisissez un badge pour le niveau. À partir de **[!UICONTROL Badge]** dans la liste déroulante, sélectionnez une image qui doit être utilisée comme badge pour ce niveau.
-1. Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Sélectionnez un badge pour le niveau. Dans la liste déroulante **[!UICONTROL Badge]**, sélectionnez une image qui doit être utilisée comme badge pour ce niveau.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
 
-   Une fois la compétence créée, vous pouvez localiser la compétence nouvellement créée sur la page **[!UICONTROL Compétence]** page. Vous pouvez également voir les domaines et la brève description de la compétence. Vous pouvez également afficher les niveaux et les crédits qui ont été affectés à chaque niveau.
+   Une fois la compétence créée, vous pouvez la localiser dans la page **[!UICONTROL Compétence]**. Vous pouvez également y consulter les domaines et la description rapide de la compétence. Vous pouvez également afficher les niveaux et les crédits attribués à chaque niveau.
 
    ![](assets/list-of-skills.png)
 
    *Afficher la liste des compétences*
 
-## Attribuer la compétence aux élèves {#assigntheskilltolearners}
+## Attribution de la compétence aux élèves {#assigntheskilltolearners}
 
-Les administrateurs peuvent affecter les compétences aux élèves.
+Les administrateurs peuvent attribuer des compétences aux élèves.
 
-Une fois que vous avez créé vos compétences et que vous les avez enregistrées, elles sont répertoriées dans la page des compétences. Vous pouvez maintenant commencer à affecter ces compétences aux élèves comme suit :
+Une fois que vos compétences sont créées et enregistrées, elles sont répertoriées dans la page Compétences. Vous pouvez maintenant commencer à attribuer ces compétences aux élèves de la façon suivante :
 
-1. Sur la **[!UICONTROL Compétence]** , cliquez sur l’hyperlien avec le nombre d’élèves inscrits à la compétence. Pour une compétence nouvellement créée, le nombre d’élèves pour tous les niveaux est égal à zéro.
+1. Sur la page **[!UICONTROL Compétence]**, cliquez sur le lien hypertexte indiquant le nombre d’élèves inscrits à la compétence. Pour une nouvelle compétence, le nombre d’élèves est égal à zéro pour tous les niveaux.
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
    *Afficher les élèves affectés à une compétence*
 
-   Pour cet exemple, ajoutez des élèves pour le niveau 1. Cliquez sur l’hyperlien en regard de Niveau 1.
+   Pour cet exemple, ajoutez des élèves au niveau 1. Cliquez sur le lien hypertexte adjacent au niveau 1.
 
 1. Dans la boîte de dialogue Élèves, cliquez sur **[!UICONTROL Ajouter des élèves]**.
 
    ![](assets/add-learners.png)
 
-   *Ajouter des élèves*
+   *Ajout d’élèves*
 
 1. Recherchez des élèves et ajoutez-les. Vous pouvez également ajouter des groupes d’utilisateurs.
 
@@ -97,9 +97,9 @@ Une fois que vous avez créé vos compétences et que vous les avez enregistrée
 
    *Rechercher et ajouter des élèves*
 
-1. Pour enregistrer les modifications, cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
 
-   Une fois que vous avez affecté des élèves, tous les élèves d&#39;un groupe d&#39;utilisateurs, le cas échéant, sont automatiquement inscrits à la compétence, par défaut. Vous pouvez faire en sorte que les élèves choisissent de ne pas s’inscrire automatiquement en cliquant sur le bouton **[!UICONTROL Inscription automatique]** bouton.
+   Une fois que vous avez attribué les élèves, tous les élèves d’un groupe d’utilisateurs, le cas échéant, sont automatiquement inscrits à la compétence, par défaut. Vous pouvez forcer les élèves à se désinscrire de l’inscription automatique en cliquant sur le bouton **[!UICONTROL Inscription automatique]**.
 
    ![](assets/turn-off-auto-enrollment.png)
 
@@ -107,90 +107,90 @@ Une fois que vous avez créé vos compétences et que vous les avez enregistrée
 
    Chaque élève peut s&#39;inscrire automatiquement ou peut être inscrit par l&#39;administrateur à un programme d&#39;apprentissage.
 
-1. Après avoir cliqué **[!UICONTROL Fermer]**, vous pouvez voir le nombre total d’élèves qui ont été affectés à la compétence que vous aviez créée.
+1. Après avoir cliqué sur **[!UICONTROL Fermer]**, vous pouvez voir le nombre total d’élèves attribués à la compétence que vous avez créée.
 
-   Dans cet exemple, il y a deux élèves individuels et trois élèves dans un groupe d&#39;utilisateurs.
+   Dans cet exemple, il y a deux élèves individuels et trois élèves appartenant à un groupe d’utilisateurs.
 
    ![](assets/learners-assignedtoaskill.png)
 
    *Nombre d’élèves affectés à une compétence*
 
-## Attribuer la compétence à un cours {#assignskilltocourse}
+## Attribution de la compétence à un cours {#assignskilltocourse}
 
-Une fois que vous avez créé la compétence, un auteur peut créer un cours et attribuer la compétence au cours.
+Une fois que vous avez créé la compétence, un auteur peut créer un cours et lui attribuer la compétence.
 
 ![](assets/assign-skill-to-acourse.png)
 
 *Attribution de compétences à un cours*
 
-Une fois que l’auteur a publié le cours, sur la page **[!UICONTROL Compétence]** , vous pouvez voir le nombre de cours associés à un niveau de compétence, qui est incrémenté lorsque vous affectez la compétence à un nouveau cours.
+Après la publication du cours par l’auteur, sur la page **[!UICONTROL Compétences]**, vous pouvez voir le nombre de cours associés à un niveau de compétence ; ce nombre augmente lorsque vous attribuez la compétence à un nouveau cours.
 
 ![](assets/skill-assigned-tothecourse.png)
 
 *Nombre de cours associés à un niveau de compétence*
 
-## Affecter une assistance à la tâche à la compétence {#assignajobaidtotheskill}
+## Attribution d’une assistance à la tâche à la compétence {#assignajobaidtotheskill}
 
-Les assistances à la tâche sont du contenu de formation auquel un élève peut accéder sans s’inscrire à un objet d’apprentissage spécifique comme un cours ou un programme d’apprentissage.
+Les assistances à la tâche constituent du contenu de formation auquel un élève peut accéder sans s’inscrire à un objet d’apprentissage spécifique comme un cours ou un programme d’apprentissage.
 
-Lors de la création d’une assistance à la tâche, un auteur peut lui associer un niveau de compétence. La création d&#39;une assistance à la tâche sans compétence et son association à un cours avec une compétence ne relie pas la compétence à l&#39;assistance à la tâche.
+Lors de la création d’une assistance à la tâche, un auteur peut y associer un niveau de compétence. La création d’une assistance à la tâche sans compétence et son association à un cours comprenant une compétence ne lie pas la compétence à l’assistance à la tâche.
 
 ![](assets/create-a-job-aid.png)
 
 *Création d’une assistance à la tâche*
 
-Sur la **[!UICONTROL Compétence]** , vous pouvez voir le nombre d&#39;assistances à la tâche associées à ce niveau de compétence.
+Sur la page **[!UICONTROL Compétence]**, vous pouvez voir le nombre d’assistances à la tâche associées à ce niveau de compétence.
 
 ![](assets/job-aid-assignedtotheskill.png)
 
 *Nombre d&#39;assistances à la tâche d&#39;une compétence*
 
-## Rechercher une compétence {#searchskill}
+## Recherche d’une compétence {#searchskill}
 
-Recherchez une compétence en saisissant son nom et en la choisissant parmi les options disponibles. La recherche par frappe anticipée s’applique également ici.
+Recherchez une compétence en saisissant son nom et en la sélectionnant parmi les options présentes. La recherche par frappe anticipée s’applique également ici.
 
-Vous pouvez rechercher des compétences dans les deux **[!UICONTROL Actif]** et **[!UICONTROL Retraité]** de la page Compétences.
+Vous pouvez rechercher des compétences dans les sections **[!UICONTROL Active]** et **[!UICONTROL Retirée]** de la page Compétences.
 
-## Modifier une compétence {#editaskill}
+## Modification d’une compétence {#editaskill}
 
-Sur la **[!UICONTROL Compétence]** , cliquez sur la compétence que vous souhaitez modifier. Dans le panneau **[!UICONTROL Modifier la compétence]** , effectuez les modifications requises, par exemple,
+Sur la page **[!UICONTROL Compétence]**, cliquez sur la compétence que vous souhaitez modifier. Dans le panneau **[!UICONTROL Modifier la compétence]** , effectuez les modifications requises, par exemple,
 
-* Ajout ou suppression d’un domaine de compétence.
-* Modification du nom et de la description de la compétence.
-* Ajouter un niveau de compétence ou modifier un niveau existant.
-* Ajouter ou supprimer un badge pour une compétence.
+* Ajout ou suppression d’un domaine de compétence
+* Modification du nom et de la description de la compétence
+* Ajout d’un niveau de compétence ou modification d’un niveau existant
+* Ajout ou suppression d’un badge à une compétence
 
-Après avoir apporté les modifications, cliquez sur **[!UICONTROL Enregistrer]**.
+Après avoir effectué les modifications, cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Retrait d’une compétence {#retireaskill}
 
-Pour retirer une compétence, sur la page **[!UICONTROL Compétence]** , sélectionnez la compétence que vous souhaitez retirer.
+Pour retirer une compétence, sur la page **[!UICONTROL Compétence]**, sélectionnez la compétence que vous souhaitez retirer.
 
-À partir de **[!UICONTROL Actions]** dans le coin supérieur droit de la page, cliquez sur **[!UICONTROL Retirer]**.
+Dans le menu **[!UICONTROL Actions]**, situé dans le coin supérieur droit de la page, cliquez sur **[!UICONTROL Retirer]**.
 
-Lorsque vous retirez une compétence, celle-ci n’apparaît plus sur le cours.
+Lorsque vous retirez une compétence, celle-ci n’apparaît plus dans le cours.
 
-Lorsqu&#39;une compétence est retirée, elle ne peut pas être associée à d&#39;autres cours ou assistances à la tâche, ni affectée à des élèves tant qu&#39;elle n&#39;est pas republiée. Les associations et les affectations existantes ne sont pas affectées par le retrait de la compétence.
+Lorsqu’une compétence est retirée, elle ne peut plus être associée à des cours ou à des assistances à la tâche, ni être attribuée à des élèves jusqu’à ce qu’elle soit republiée. Les associations et attributions existantes ne sont pas modifiées par le retrait de la compétence.
 
-## Republier une compétence {#republishaskill}
+## Republication d’une compétence {#republishaskill}
 
-Une fois que vous avez retiré une compétence, la compétence retirée apparaît dans le panneau **[!UICONTROL Retraité]** onglet. L’onglet affiche la liste de toutes les compétences retirées.
+Une fois que vous avez retiré une compétence, celle-ci apparaît dans l’onglet **[!UICONTROL Retirée]**. L’onglet affiche la liste de toutes les compétences retirées.
 
-Pour republier une compétence retirée, choisissez la compétence, puis choisissez l’une des **[!UICONTROL Actions]** , cliquez sur **[!UICONTROL Republier]**.
+Pour republier une compétence retirée, sélectionnez la compétence, puis dans le menu **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Republier]**.
 
-Cela restaure la compétence et vous pouvez la voir à nouveau dans le panneau **[!UICONTROL Actif]** onglet.
+Cette action restaure la compétence et vous pouvez à nouveau la trouver dans l’onglet **[!UICONTROL Active]**.
 
-## Supprimer une compétence {#deleteaskill}
+## Suppression d’une compétence {#deleteaskill}
 
-Vous ne pouvez supprimer qu’une compétence précédemment retirée.
+Vous pouvez uniquement supprimer une compétence qui a été retirée.
 
-Dans le panneau **[!UICONTROL Retraité]** , sélectionnez la compétence que vous souhaitez supprimer, puis dans le menu **[!UICONTROL Actions]** , cliquez sur **[!UICONTROL Supprimer]**.
+Dans l’onglet **[!UICONTROL Retiré]**, sélectionnez la compétence que vous souhaitez supprimer, puis dans le menu **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Supprimer]**.
 
-Vous pouvez supprimer une compétence uniquement lorsqu’elle n’est associée à aucun élève, cours ou assistances à la tâche.
+Vous pouvez uniquement supprimer une compétence lorsqu’elle n’est associée à aucun élève, cours ou assistance à la tâche.
 
-## Attribution de compétences aux instructeurs
+## Attribuer des compétences aux instructeurs
 
-Ajoutez un fichier CSV composé des compétences des instructeurs. Ces compétences sont ensuite ajoutées à la liste des compétences.
+Ajoutez un fichier CSV qui contient les compétences des instructeurs. Ces compétences sont ensuite ajoutées à la liste des compétences.
 
 1. Dans le coin supérieur droit de l’écran, sélectionnez **[!UICONTROL Ajouter]** > **[!UICONTROL Attribution de compétences à un instructeur]**.
 1. Chargez un fichier CSV. Les colonnes du fichier CSV sont les suivantes :
@@ -217,7 +217,7 @@ Ajoutez un fichier CSV composé des compétences des instructeurs. Ces compéten
 
 ### Page Compétences
 
-Sur la page Compétences, une colonne intitulée Instructeurs indique le nombre d’instructeurs affectés à une compétence. Si vous cliquez sur le nombre d’instructeurs, une fenêtre contextuelle s’affiche, affichant les instructeurs affectés à la compétence.
+La page Compétences comporte une colonne intitulée Instructeurs qui indique le nombre d’instructeurs associés à une compétence. Si vous cliquez sur le nombre d’instructeurs, une fenêtre contextuelle s’affiche, affichant les instructeurs affectés à la compétence.
 
 ![Compétences attribuées aux instructeurs](assets/instructor-skill-assigned.png)
 
@@ -231,57 +231,57 @@ Sur la page Compétences, une colonne intitulée Instructeurs indique le nombre 
 
 >[!NOTE]
 >
->Nous vous recommandons de télécharger d’abord le fichier CSV d’affectation de compétences, de le modifier, puis de charger le fichier.
+>Nous vous recommandons de télécharger d’abord le fichier CSV d’attribution de compétences, de le modifier, puis de charger le fichier.
 
-## Foire aux questions {#frequentlyaskedquestions}
+## Forum aux questions {#frequentlyaskedquestions}
 
 +++Comment puis-je supprimer un élève d’une compétence ?
 
-Vous ne pouvez pas supprimer un élève d’une compétence. Vous pouvez toutefois ajouter de nouveaux élèves ou groupes d’utilisateurs à la compétence.
+Vous ne pouvez pas retirer un élève d’une compétence. Vous pouvez cependant ajouter de nouveaux élèves ou groupes d’utilisateurs à la compétence.
 +++
 
 +++Comment inscrire automatiquement des élèves à une compétence ?
 
-La fonctionnalité d’inscription automatique est réservée aux groupes d’utilisateurs. Lorsque vous inscrivez un groupe d’utilisateurs, par exemple Tous les auteurs, à une compétence et l’enregistrez, l’inscription automatique est activée par défaut. Ainsi, tout nouvel ajout au groupe d’utilisateurs Tous les auteurs se voit également attribuer la compétence.
+La fonction d’inscription automatique est réservée aux groupes d’utilisateurs. L’inscription automatique est activée par défaut lorsque vous inscrivez un groupe d’utilisateurs, comme par exemple, Tous les auteurs, à une compétence et que vous l’enregistrez. Ainsi, la compétence sera attribuée à tout nouvel utilisateur ajouté au groupe d’utilisateurs Tous les auteurs.
 
-Si vous arrêtez l’inscription automatique pour ce niveau de compétence pour Tous les auteurs, les nouveaux utilisateurs qui sont ajoutés au groupe d’utilisateurs Tous les auteurs ne se voient pas attribuer la compétence.
+Si vous désactivez l’inscription automatique à ce niveau de compétence pour Tous les auteurs, la compétence ne sera pas attribuée aux nouveaux utilisateurs ajoutés à ce groupe d’utilisateurs.
 +++
 
 +++Comment redémarrer l’inscription automatique ?
 
-Inscrivez à nouveau le même groupe d’utilisateurs au niveau de compétence pour lequel l’inscription automatique avait été interrompue.
+Inscrivez à nouveau le même groupe d’utilisateurs au niveau de compétence pour lequel l’inscription automatique a été désactivée.
 
-Cela permet de redémarrer l’inscription automatique et les élèves qui ont été ajoutés au groupe lorsque cette fonctionnalité était désactivée se voient désormais attribuer la compétence.
+Cette opération réactive l’inscription automatique et les élèves qui ont été ajoutés au groupe lorsque cette fonction était désactivée se voient désormais attribuer la compétence.
 
-En d’autres termes, chaque fois que vous réinscrivez un groupe d’utilisateurs pour démarrer l’inscription automatique, il actualise les membres du groupe d’utilisateurs et affecte la compétence à tous les membres actuels.
+Autrement dit, à chaque fois que vous réactivez l’inscription automatique pour un groupe d’utilisateurs, les membres du groupe d’utilisateurs sont réactualisés et la compétence est attribuée à tous les membres actuels.
 +++
 
 +++Comment puis-je affecter une compétence à un cours ?
 
-Voir la section [Attribution de compétences à un cours](skills-levels.md#assignskilltocourse) pour plus d&#39;informations sur la procédure.
+Voir la section [Attribution d’une compétence à un cours](skills-levels.md#assignskilltocourse) pour obtenir plus d’informations sur la procédure.
 +++
 
 +++Comment modifier un niveau de compétence ?
 
-Pour modifier un ou plusieurs niveaux d’une compétence, modifiez la compétence et modifiez les propriétés des niveaux existants.
+Pour modifier un ou plusieurs niveaux dans une compétence, modifiez cette dernière et modifiez les propriétés des niveaux existants.
 +++
 
 +++Comment puis-je activer les badges et les compétences afin qu’ils soient liés à l’achèvement du cours ?
 
-Les compétences peuvent être liées à l&#39;achèvement du cours lors de la création d&#39;un cours en tant qu&#39;auteur. Dans la section Paramètres, vous pouvez définir les critères de compétence pour l’achèvement du cours.
+Les compétences peuvent être liées à l’achèvement d’un cours lors de la création de ce cours par un auteur. Dans la section Paramètres, vous pouvez définir les critères de compétence pour l’achèvement du cours.
 
 ![](assets/course-skills.png)
 
-Pour activer les badges pour terminer le cours, dans la section **[!UICONTROL Instances]** de l’application d’auteur, activez le badge requis.
+Pour activer des badges pour l’achèvement du cours, dans la section **[!UICONTROL Instances]** de l’application d’auteur, activez le badge requis.
 +++
 
 +++ Un administrateur peut-il marquer un badge comme terminé même s’il indique « En cours » ?
 
-Un administrateur peut marquer un objet d’apprentissage comme terminé. La compétence et les badges sont associés à l’objet d’apprentissage et ne peuvent pas être marqués **[!UICONTROL Terminé]** séparément.
+Un administrateur peut marquer un objet d’apprentissage comme terminé. Les compétences et les badges sont associés à l’objet d’apprentissage et ne peuvent pas être marqués comme **[!UICONTROL Terminés]** séparément.
 
-Autrement dit, pour obtenir le badge, **vous devez terminer l’objet d’apprentissage associé**.
+En d’autres termes, pour obtenir le badge, **un élève doit terminer l’objet d’apprentissage associé**.
 +++
 
-### Plus comme ceci
+### Articles connexes
 
 * [Learning Manager Compétences et Adobe](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

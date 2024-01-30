@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/manager2.png"></td> 
-   <td><p>Lisez ce document pour découvrir les fonctionnalités de Learning Manager et les questions fréquentes associées au rôle de responsable. </p></td> 
+   <td><p>Lisez ce document pour découvrir les fonctionnalités de Learning Manager et les questions fréquentes associées au rôle de responsable. </p></td> 
   </tr> 
  </tbody>
 </table>
 
-## Foire aux questions (FAQ) {#frequentlyaskedquestionsfaq}
+## Forum aux questions (FAQ) {#frequentlyaskedquestionsfaq}
 
-[Questions fréquentes concernant le rôle de responsable](managers/frequently-asked-questions-for-managers.md)
+[Forum aux questions sur le rôle de Responsable](managers/frequently-asked-questions-for-managers.md)
 
-## Fonctionnalités {#features}
+## Fonctions {#features}
 
 * [Prise en main](managers/feature-summary/learning-objects.md#main-pars_header)
 * [Utilisateurs de tablettes iPad et Android](managers/feature-summary/ipad-android-tablet-users.md)
