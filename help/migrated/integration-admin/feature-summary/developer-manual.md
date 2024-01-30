@@ -728,7 +728,7 @@ l&#39;identifiant\
 name\
 pointsEarned\
 profile\
-ROLE\
+|||ROLE|||\
 l&#39;état\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 lire\
-ROLE
+||ROLE||
 
 +++
 
