@@ -2,10 +2,10 @@
 description: Manuel de référence pour les administrateurs d’intégration qui souhaitent migrer leur système LMS vers le LMS Learning Manager.
 jcr-language: en_us
 title: Manuel de migration
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3705'
-ht-degree: 72%
+source-wordcount: '3641'
+ht-degree: 73%
 
 ---
 
@@ -419,11 +419,11 @@ Avant de commencer la procédure de migration, il est important de noter les poi
 
 La planification de votre projet de migration est très importante. Il est recommandé de diviser vos projets en plusieurs sprints et d’identifier clairement ce que vous souhaitez migrer dans chaque version. Il peut même être judicieux d’effectuer une validation après chaque sprint afin d’être sûr des données migrées dans ce sprint, au lieu de procéder à une grande phase de validation à la fin du projet. Avant de débuter le sprint dans le cadre de votre projet de migration, vous devez télécharger les fichiers CSV des données et du contenu respectivement sur les serveurs FTP et Box. Si vous ne disposez pas de comptes pour FTP et Box personnalisés, vous pouvez les créer.
 
-**Créer un compte FTP** 
+<!--**Create FTP account**-->
 
-Cliquez sur **[!UICONTROL Demander le dossier FTP des fichiers CSV]**. Une boîte de dialogue contextuelle s’affiche pour vous inviter à saisir votre identifiant de courrier électronique. Suivez les instructions en ligne et créez un compte FTP. Dès que vous avez créé votre compte, vous pouvez afficher vos dossiers de projet de migration et de sprint sur FTP.
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-Un exemple d’instantané de fichiers de projet et de dossier FTP est présenté ci-dessous pour référence.
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
