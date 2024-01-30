@@ -3,7 +3,7 @@ description: Découvrez les nouvelles fonctionnalités et améliorations d’Ado
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Pour plus d’informations, voir  [***Nouveautés de la version d’août 2020 d
 
 **Annonces**
 
-* Si une annonce contient la balise <a>, l’annonce n’est pas créée comme prévu.
+* Si une annonce contient la balise `<a>`, l’annonce n’est pas créée comme prévu.
 
 **Un compte**
 
