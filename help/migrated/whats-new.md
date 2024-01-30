@@ -1,7 +1,7 @@
 ---
 title: Nouveautés de cette version
 description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ Si l’autorisation Utilisateur ou Tous les groupes d’utilisateurs est sélect
 
 Un administrateur personnalisé peut accéder aux rapports suivants en fonction de la portée définie :
 
-| Signaler | Disponible | Portée |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Signaler</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Disponible</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Portée</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Piste d’audit de contenu</p></td>
+   <td>
+    <p>Oui</p></td>
+   <td>
+    <p>Catalogue complet</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Piste d’audit de l’utilisateur</p></td>
+   <td>
+    <p>Oui</p></td>
+   <td>
+    <p>Utilisateur complet</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Accès à la connexion</p></td>
+   <td>
+    <p>Oui</p></td>
+   <td>
+    <p>Utilisateur complet</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Piste d’audit de contenu | Oui | Catalogue complet |
-| Piste d’audit de l’utilisateur | Oui | Utilisateur complet |
-| Accès à la connexion | Oui | Utilisateur complet |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Intégration Connect améliorée
 
