@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Mappage d'une compétence avec les domaines de compétence
 description: Pour conserver automatiquement la publication soumise par un utilisateur par le moteur de curation activé pour l’IA pour un domaine de compétences particulier, l’entreprise de l’utilisateur doit disposer de compétences personnalisées mappées sur les domaines de compétences pris en charge et présents dans le LMS Learning Manager.
 contentowner: kuppan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 95%
