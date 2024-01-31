@@ -3,10 +3,10 @@ jcr-language: en_us
 title: L’utilisateur est automatiquement supprimé dans Learning Manager
 description: Un utilisateur est supprimé de Learning Manager, mais l’administrateur n’a jamais effectué une telle action.
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 61%
+ht-degree: 55%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 ## Problème
 
-Un utilisateur est supprimé de Learning Manager, mais l’administrateur n’a jamais effectué une telle action.
+A **utilisateur** est supprimé de Learning Manager, mais l’administrateur n’a jamais effectué une telle action.
 
 ## Cause
 
