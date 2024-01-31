@@ -2,7 +2,7 @@
 description: Apprenez à créer un contenu aligné sur les cours en tant que contenu d’auto-apprentissage.
 jcr-language: en_us
 title: Bibliothèque de contenu
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
 1. Dans le champ Description, saisissez la description du contenu. Assurez-vous que la description que vous voulez saisir est significative. La limite de caractères est de 245 caractères.
 1. Pour ajouter du contenu, cliquez sur Ajouter un fichier de contenu, puis téléchargez votre fichier de ressources. Lorsque vous ajoutez du contenu dans diverses langues, vous ne pouvez pas combiner le contenu statique et le contenu interactif dans un même groupe. L’ensemble de votre contenu dans toutes les langues doit être soit statique, soit interactif.
 
-* [Types de fichiers pris en charge](content-library.md#supported)*
+* [Types de fichiers pris en charge](content-library.md#supported)
 
   Le contenu interactif peut être une option SCORM, AICC ou un projet publié Captivate. Ce fichier doit être un fichier zip.
 
