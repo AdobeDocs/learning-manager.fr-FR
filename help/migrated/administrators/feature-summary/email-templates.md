@@ -3,10 +3,10 @@ description: Les événements se produisant dans votre activité de formation d�
 jcr-language: en_us
 title: Modèles de courriers électroniques
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ L’application Learning Manager envoie des notifications par courrier électro
 En tant qu’administrateur, vous pouvez personnaliser les modèles de courrier électronique en ajoutant ou en modifiant le contenu et en envoyant des notifications aux utilisateurs pour les différents événements déclenchés par les élèves, les responsables et les auteurs.
 
 Les administrateurs peuvent également choisir de ne pas envoyer de notifications par courrier électronique pour certains événements.
+
+## Présentation des modèles de courrier électronique
+
+Dans cette formation, vous apprendrez à personnaliser des modèles d’e-mail individuels et à personnaliser les paramètres au niveau du cours et du compte pour les modèles d’e-mail.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Configurer des modèles de courrier électronique {#configureemailtemplates}
 
