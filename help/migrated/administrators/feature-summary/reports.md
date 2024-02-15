@@ -3,9 +3,9 @@ description: Découvrez les rapports liés au rôle d’administrateur dans l’
 jcr-language: en_us
 title: Rapports
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
+source-wordcount: '6502'
 ht-degree: 65%
 
 ---
@@ -25,6 +25,14 @@ Le processus de génération des rapports est similaire pour Administrateur et p
 Les rapports sont regroupés dans un tableau de bord. Un rapport se trouve toujours dans un tableau de bord. A **[!UICONTROL Tableau de bord par défaut]** existe par défaut dans la page rapports. Tout rapport supplémentaire de votre part entre dans ce tableau de bord par défaut. Pour ajouter des rapports à des tableaux de bord individuels, utilisez la flèche déroulante et choisissez **[!UICONTROL Ajouter un rapport]**. Pour plus d’informations sur la création des tableaux de bord, consultez la section Tableaux de bord sur cette page.
 
 ## Tableaux de bord récapitulatifs des apprentissages {#dashboards}
+
+### Générer des rapports de tableau de bord
+
+Dans cette formation, vous apprendrez à générer des rapports de tableau de bord à partir de la base de données.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Consultez un rapport récapitulatif de toutes les activités d’apprentissage de la plateforme. Sur cette page, vous pouvez voir les informations récapitulatives suivantes pour l’équipe et les profils externes de l’utilisateur racine sélectionné. Vous pouvez également sélectionner une plage horaire :
 
@@ -502,6 +510,14 @@ Si vous supervisez plusieurs responsables, vous pouvez afficher rapidement les r
 >Les valeurs de responsable que vous utilisez pour afficher le rapport sont temporaires. Cette vue de rapport n’est pas téléchargée lorsque vous sélectionnez l’option de téléchargement. Il ne s’agit que d’une vue temporaire.
 
 ## Affichage des rapports sur les cours {#viewcoursereports}
+
+### Générer des rapports de cours
+
+Dans cette formation, vous apprendrez à exporter des rapports de cours et à configurer des abonnements par e-mail pour ces rapports.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Vous pouvez afficher les rapports spécifiques de chaque cours en procédant comme suit :
 
