@@ -3,10 +3,10 @@ description: Thèmes de couleur et image de marque dans Learning Manager
 jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 63%
+source-wordcount: '881'
+ht-degree: 61%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 63%
 Thèmes de couleur et image de marque dans Learning Manager
 
 Learning Manager vous permet de modifier l&#39;apparence de l&#39;application en fonction des exigences de la politique d&#39;identité visuelle de la marque de votre entreprise.
+
+## Personnalisation de l’interface utilisateur
+
+Dans cette formation, vous découvrirez comment personnaliser l’apparence de l’interface pour la faire correspondre aux exigences de l’image de marque d’une entreprise.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Identité visuelle {#branding}
 
