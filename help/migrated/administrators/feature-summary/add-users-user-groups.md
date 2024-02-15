@@ -3,10 +3,10 @@ description: Découvrez comment ajouter des utilisateurs ou des groupes d'utilis
 jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
 workflow-type: tm+mt
-source-wordcount: '3913'
-ht-degree: 65%
+source-wordcount: '3984'
+ht-degree: 64%
 
 ---
 
@@ -17,6 +17,39 @@ ht-degree: 65%
 Découvrez comment ajouter des utilisateurs ou des groupes d&#39;utilisateurs dans l&#39;application Learning Manager.
 
 <!--![](assets/user-mgmt-new.png)-->
+
+## Gestion des groupes d’utilisateurs
+
+Dans cette formation, vous apprendrez à créer un groupe d’utilisateurs par noms, ID de messagerie et combinaison de plusieurs groupes d’utilisateurs générés automatiquement.
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
+   <button type="button">Lancer la formation</button>
+</a>
+
+<br/>
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Vue d’ensemble {#overview}
 
@@ -35,11 +68,43 @@ En tant qu’administrateur, vous pouvez créer des utilisateurs de trois maniè
 
 ## Ajouter un utilisateur unique {#addasingleuser}
 
+Ajoutez des élèves internes à Adobe Learning Manager à l’aide d’une option d’utilisateur unique.
+
+<style>
+   button {
+    background-color: #1373E6; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+}
+
+button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+</style>
+
+<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
+   <button type="button">Lancer la formation</button>
+</a>
+
+<br/>
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+
 Pour ajouter des utilisateurs,
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
 1. Sur la page d’accueil, cliquez sur **[!UICONTROL Ajouter des utilisateurs]**. Sur cette page, vous pouvez ajouter un ou plusieurs utilisateurs à la fois en utilisant un CSV. Vous pouvez également créer un lien d’auto-inscription pour les employés internes ou créer un profil d’élève externe.
 1. Pour ajouter un utilisateur unique, cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la page et choisissez l’option **[!UICONTROL Utilisateur unique]**.
+
+1. Pour ajouter un utilisateur unique, cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la page et choisissez l’option **Utilisateur unique**.
+
 
    ![](assets/single-user.png)
    *Ajout d’un utilisateur interne unique*
@@ -54,6 +119,7 @@ Pour ajouter des utilisateurs,
 ## Ajouter des utilisateurs par groupe {#addusersinbulk}
 
 Généralement, la plupart des organisations utilisent un système de gestion des RH (HRMS), qui tient à jour tous les dossiers des employés, comme la désignation, le lieu, la date d’entrée en fonction ou la hiérarchie des employés. Vous pouvez exporter ces données au format CSV. Pour importer un CSV, suivez les étapes ci-dessous :
+
 
 1. Cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la page et sélectionnez l’option **[!UICONTROL Charger un CSV]**.
 
@@ -153,7 +219,10 @@ Types de champs actifs :
 
 Vous pouvez également permettre aux employés de votre organisation de s’inscrire en tant qu’élèves au compte Adobe Learning Manager, sans nécessiter votre aide en tant qu’administrateur. L’administrateur peut créer un lien d’auto-inscription et le partager avec les employés, qui peuvent ensuite s’inscrire à Learning Manager à l’aide de leurs identifiants d’Adobe.
 
-Cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la page et sélectionnez **[!UICONTROL Auto-inscription]**.
+
+
+Dans le coin supérieur droit de la page, cliquez sur **[!UICONTROL Ajouter]**, puis sélectionnez **[!UICONTROL Auto-inscription]**.
+
 
 ![](assets/self-registration.png)
 *Créer un lien pour s’inscrire automatiquement en tant qu’élève*
@@ -209,7 +278,9 @@ Pour inscrire des utilisateurs externes, suivez les étapes ci-dessous :
    *Inscription d’utilisateurs externes*
 
 1. Cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la page.
-1. Dans la boîte de dialogue **[!UICONTROL Ajouter un profil d’inscription externe]**, ajoutez les informations suivantes :
+
+1. Dans la boîte de dialogue **Ajouter un profil d’inscription externe**, ajoutez les informations suivantes :
+
 
    * Nom du profil de l’organisation partenaire.
    * Adresse e-mail du responsable de l’organisation partenaire.
@@ -253,7 +324,7 @@ Pour suspendre les groupes d’utilisateurs externes, choisissez un ou plusieurs
 
 ## Reprendre un profil externe {#resumeanexternalprofile}
 
-Vous pouvez à tout moment révoquer l’état de suspension d’un partenaire externe et reprendre les services normaux. Cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit de la page et choisissez **[!UICONTROL Reprendre]**.
+Vous pouvez à tout moment révoquer l’état de suspension d’un partenaire externe et reprendre les services normaux. Cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit de la page et sélectionnez **[!UICONTROL Reprendre]**.
 
 Les états suivants s’appliquent à des utilisateurs externes :
 
@@ -306,7 +377,9 @@ En plus des groupes générés automatiquement, vous pouvez créer des groupes p
 
 1. Saisissez le nom et la description du groupe.
 1. Saisissez un nom d’utilisateur ou un profil dans le champ de recherche en temps réel et ajoutez des utilisateurs en les sélectionnant dans la liste déroulante.
-1. Pour ajouter d’autres élèves, cliquez sur **[!UICONTROL Ajouter plus d’utilisateurs].**
+
+1. Pour ajouter d’autres élèves, cliquez sur **[!UICONTROL Ajouter plus d’utilisateurs]**.
+
 1. Pour créer le groupe d’utilisateurs, cliquez sur **[!UICONTROL Enregistrer]**.
 
 Ce groupe personnalisé est maintenant créé et ajouté au profil. Les groupes d’utilisateurs que vous créez sont de nature dynamique. Si de nouveaux utilisateurs avec des attributs similaires sont ajoutés, ils sont automatiquement ajoutés au groupe d’utilisateurs.
@@ -322,11 +395,13 @@ Par exemple, si vous voulez configurer un plan d&#39;apprentissage de sortie que
 
 ## Paramètres avancés {#advancedsettings}
 
-## Sources de données {#datasources}
+### Sources de données {#datasources}
 
 Vous pouvez utiliser cette fonctionnalité lorsque vous souhaitez importer/synchroniser les utilisateurs ou les données d’apprentissage de la base de données de votre organisation dans l’application Learning Manager. Vous pouvez également configurer la fréquence de cette fonction.
 
+
 Cliquez sur **[!UICONTROL Sources de données]** dans le volet gauche sous **[!UICONTROL Avancé]** section.
+
 
 ![](assets/data-sources-add-users.png)
 
@@ -336,11 +411,11 @@ Choisissez le type de source de données dans le menu **[!UICONTROL Source]** da
 
 Vous pouvez ajouter plusieurs sources de données.
 
-## Champs actifs {#activefields}
+### Champs actifs {#activefields}
 
 Cette fonction permet aux administrateurs d&#39;ajouter des champs supplémentaires en sus de ce qui a été fourni lors de l&#39;enregistrement de l&#39;utilisateur.
 
-Cliquez sur **Champs actifs** disponible dans la page utilisateurs internes. Les élèves peuvent uniquement choisir parmi les valeurs données dans les valeurs personnalisées.
+Cliquez sur **[!UICONTROL Champs actifs]** disponible dans la page utilisateurs internes. Les élèves peuvent uniquement choisir parmi les valeurs données dans les valeurs personnalisées.
 
 ![](assets/active-fields.png)
 *Champs actifs*
@@ -429,6 +504,7 @@ Il arrive qu’un utilisateur ne souhaite pas mapper un champ Actif à un champ 
 
 Ajoutez un champ de votre choix dans le cadre des informations utilisateur, et cliquez sur **[!UICONTROL Enregistrer]**. Après avoir ajouté les champs, vous pouvez également vérifier les disponibilités des champs dans le panneau **[!UICONTROL Modifier les utilisateurs]** boîte de dialogue.
 
+
 Après avoir ajouté les champs, vous pouvez noter que les champs repérés par une coche proviennent de la source de données ou de CSV, comme indiqué dans l&#39;instantané ci-dessous. L&#39;administrateur peut modifier ces champs de sources en activant ou en désactivant les champs.
 
 **Valeurs des champs actifs dans Learning Manager**
@@ -461,7 +537,7 @@ Les utilisateurs peuvent choisir parmi les champs prédéfinis pour les champs 
 
 ## Journaux d&#39;importation {#importlogs}
 
-Dans cet espace, vous pouvez consulter l&#39;historique d&#39;importation CSV pour les utilisateurs que l&#39;administrateur a ajoutés à l&#39;aide de la fonction d&#39;importation en bloc. Vous pouvez également cliquer sur **Ajouter** dans le coin supérieur droit de la page pour ajouter des utilisateurs à l’aide de la fonction de chargement CSV.
+Dans cet espace, vous pouvez consulter l&#39;historique d&#39;importation CSV pour les utilisateurs que l&#39;administrateur a ajoutés à l&#39;aide de la fonction d&#39;importation en bloc. Vous pouvez également cliquer sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la page pour ajouter des utilisateurs à l’aide de la fonction de chargement CSV.
 
 ## Champs actifs à plusieurs valeurs
 
@@ -548,7 +624,7 @@ Pour modifier un utilisateur, suivez les étapes ci-dessous :
 
 ![](assets/edit-user-data.png)
 
-Dans la boîte de dialogue **[!UICONTROL Modifier l’utilisateur]**, effectuez les modifications que vous souhaitez. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
+Dans la boîte de dialogue **Modifier l’utilisateur**, effectuez les modifications que vous souhaitez. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications.
 
 +++
 
@@ -595,8 +671,6 @@ Si vous souhaitez que les élèves voient uniquement les champs actifs qui ne so
 Vous pouvez restreindre la sélection pour les élèves afin qu’ils puissent uniquement sélectionner les valeurs prédéfinies et qu&#39;ils ne puissent pas saisir de valeurs aléatoires. Procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Champs actifs]**.
-1. Dans la section **[!UICONTROL Configurer les champs]**, cliquez sur **[!UICONTROL Modifier les valeurs]**.
-
 1. Activez l’option **[!UICONTROL Restreindre la sélection]**.
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
