@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Parcours d’apprentissage
 description: Création de plans d’apprentissage pour les administrateurs de Learning Manager.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ Souvent, les administrateurs souhaitent élaborer un programme détaillé qui of
 C’est là que le parcours d’apprentissage entre en jeu. Un parcours d’apprentissage est un parcours qu’un élève doit parcourir pour maîtriser un sujet au fil du temps. Les élèves contrôlent leur expérience de formation et peuvent acquérir et conserver leurs connaissances d&#39;une manière individualisée et plus efficace.
 
 Par exemple, lors de l’intégration d’un nouvel employé, une entreprise offre une formation sur les politiques et les procédures, la culture, l’histoire, etc. Un parcours d’apprentissage définit les cours en fonction des besoins des employés, de sorte qu’ils puissent s’inscrire aux cours en fonction du parcours d’apprentissage qui leur est défini. vous choisissez, et vous pouvez inscrire des utilisateurs à ce parcours afin qu’ils puissent progresser d’un cours à l’autre.
+
+## Créer et configurer des parcours d’apprentissage
+
+Dans cette formation, vous apprendrez à créer un parcours d’apprentissage, à y ajouter un cours, à publier et retirer un parcours d’apprentissage, et à configurer des instances dans un parcours d’apprentissage.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Avantages d’un parcours d’apprentissage
 
