@@ -1,10 +1,10 @@
 ---
 title: Expérience hors connexion pour les élèves
 description: Le portail natif d’Adobe Learning Manager prend en charge un mode d’accès non connecté au site de formation. Lorsque ce mode est activé, les élèves peuvent découvrir et accéder au site de formation et consulter divers cours et contenus disponibles. L’expérience hors connexion permet aux élèves de parcourir les cours sans être connectés à un portail.
-source-git-commit: aef2dfe9d6f49dcccaf1f71b57ffa25a3075efe8
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 54%
+source-wordcount: '555'
+ht-degree: 43%
 
 ---
 
@@ -23,6 +23,11 @@ La formation peut ensuite être exportée à partir du connecteur.
 >Assurez-vous que l’option Native Learning Manager est sélectionnée.
 
 L’administrateur peut modifier et configurer la page d’accueil, qui est destinée aux utilisateurs non connectés.
+
+>[!IMPORTANT]
+>
+>Les API des élèves d’Adobe Learning Manager vous permettent de créer une expérience d’apprentissage personnalisée pour vos utilisateurs. L’utilisation de ces API nécessite un jeton utilisateur valide et doit être utilisée uniquement dans le cadre des workflows où il y a un élève entièrement licencié/inscrit. Ils ne doivent pas être utilisés tels quels pour tout type de récupération de données afin de prendre en charge des utilisateurs/utilisateurs partagés non connectés ou tout autre cas de ce type. Les cas d’utilisation non enregistrés nécessitent une manipulation spéciale. Si vous avez des questions sur l&#39;utilisation appropriée de ces API, contactez l&#39;équipe en charge de l&#39;architecture de la solution et assurez-vous qu&#39;un architecte de solution a validé une solution avant de la déployer.
+
 
 ## Lancer les options de la page d’accueil
 

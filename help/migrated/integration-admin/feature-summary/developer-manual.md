@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Manuel du développeur d’applications
 description: L’API Learning Manager V1 est désormais obsolète. Les API V1 cesseront de fonctionner à partir du 28 février 2021. Nous vous recommandons d’utiliser les API V2 pour interagir avec Learning Manager.
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 65%
+source-wordcount: '3383'
+ht-degree: 63%
 
 ---
 
@@ -14,7 +14,10 @@ ht-degree: 65%
 
 # Manuel du développeur d’applications
 
-L’API Learning Manager V1 est désormais obsolète. Les API V1 cesseront de fonctionner à partir du 28 février 2021. Nous vous recommandons d’utiliser les API V2 pour interagir avec Learning Manager.
+>[!NOTE]
+>
+>L’API Learning Manager V1 est désormais obsolète. Nous vous recommandons d’utiliser les API V2 pour interagir avec Learning Manager.
+
 
 ## Vue d’ensemble {#overview}
 
@@ -29,6 +32,10 @@ En utilisant l’API Learning Manager, les développeurs peuvent créer des ap
 L’API Learning Manager est basée sur des principes REST et expose les éléments clés du modèle d’objet Learning Manager aux développeurs d’applications via HTTP. Avant de connaître les détails des points de terminaison API et des méthodes HTTP, les développeurs peuvent se familiariser avec les différents objets Learning Manager, leurs attributs et leurs relations. Une fois les modèles bien compris, il est utile de bien cerner la structure des demandes et des réponses d’API et de bien comprendre quelques termes courants de programmation que nous utilisons de manière générique dans l’ensemble de l’API.
 
 Pour plus d’informations sur les différents points de terminaison et méthodes API, reportez-vous à la section  [Documentation de l’API Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>Les API des élèves d’Adobe Learning Manager vous permettent de créer une expérience d’apprentissage personnalisée pour vos utilisateurs. L’utilisation de ces API nécessite un jeton utilisateur valide et doit être utilisée uniquement dans le cadre des workflows où il y a un élève entièrement licencié/inscrit. Ils ne doivent pas être utilisés tels quels pour tout type de récupération de données afin de prendre en charge des utilisateurs/utilisateurs partagés non connectés ou tout autre cas de ce type. Les cas d’utilisation non enregistrés nécessitent une manipulation spéciale. Si vous avez des questions sur l&#39;utilisation appropriée de ces API, contactez l&#39;équipe en charge de l&#39;architecture de la solution et assurez-vous qu&#39;un architecte de solution a validé une solution avant de la déployer.
 
 ## Authentification API {#apiauthentication}
 
@@ -763,7 +770,7 @@ dateStart\
 inscrit\
 l&#39;identifiant\
 mois\
-quart
+trimestre
 
 **Relations**
 containerLO(learningObject)\
