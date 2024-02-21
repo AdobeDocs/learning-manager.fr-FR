@@ -3,10 +3,10 @@ description: Thèmes de couleur et image de marque dans Learning Manager
 jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
-source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
+source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 61%
+source-wordcount: '887'
+ht-degree: 60%
 
 ---
 
@@ -56,6 +56,11 @@ L’application Learning Manager propose cinq options de thème de couleur à se
 * Automne
 * Ciel d&#39;hiver
 * Vif
+
+>[!NOTE]
+>
+>Le thème dynamique est compatible avec l’accessibilité.
+
 
 ![](assets/prime-customize-theme.png)
 
