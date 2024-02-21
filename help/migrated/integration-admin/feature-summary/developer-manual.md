@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Manuel du développeur d’applications
 description: L’API Learning Manager V1 est désormais obsolète. Les API V1 cesseront de fonctionner à partir du 28 février 2021. Nous vous recommandons d’utiliser les API V2 pour interagir avec Learning Manager.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3385'
 ht-degree: 63%
 
 ---
@@ -33,9 +33,17 @@ L’API Learning Manager est basée sur des principes REST et expose les él�
 
 Pour plus d’informations sur les différents points de terminaison et méthodes API, reportez-vous à la section  [Documentation de l’API Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## API des élèves
+
+Adobe Learning Manager - Les API des élèves vous permettent de créer une expérience d’apprentissage personnalisée pour vos utilisateurs. L’utilisation de ces API nécessite un jeton utilisateur valide et doit être utilisée uniquement dans le cadre des workflows où il y a un élève entièrement licencié/inscrit.
+
 >[!IMPORTANT]
 >
->Les API des élèves d’Adobe Learning Manager vous permettent de créer une expérience d’apprentissage personnalisée pour vos utilisateurs. L’utilisation de ces API nécessite un jeton utilisateur valide et doit être utilisée uniquement dans le cadre des workflows où il y a un élève entièrement licencié/inscrit. Ils ne doivent pas être utilisés tels quels pour tout type de récupération de données afin de prendre en charge des utilisateurs/utilisateurs partagés non connectés ou tout autre cas de ce type. Les cas d’utilisation non enregistrés nécessitent une manipulation spéciale. Si vous avez des questions sur l&#39;utilisation appropriée de ces API, contactez l&#39;équipe en charge de l&#39;architecture de la solution et assurez-vous qu&#39;un architecte de solution a validé une solution avant de la déployer.
+>Ils ne doivent pas être utilisés tels quels pour tout type de récupération de données afin de prendre en charge des utilisateurs/utilisateurs partagés non connectés ou tout autre cas de ce type.
+
+Les cas d’utilisation non enregistrés nécessitent une manipulation spéciale.
+
+**Si vous avez des questions sur l&#39;utilisation appropriée de ces API, contactez l&#39;équipe en charge de l&#39;architecture de la solution et assurez-vous qu&#39;un architecte de solution a validé une solution avant de la déployer**.
 
 ## Authentification API {#apiauthentication}
 
