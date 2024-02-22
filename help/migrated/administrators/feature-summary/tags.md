@@ -3,10 +3,10 @@ description: Découvrez comment gérer les balises dans Learning Manager
 jcr-language: en_us
 title: Balises
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ Les administrateurs peuvent désormais gérer les balises dans Learning Manager
 La liste des objets d’apprentissage associés à la balise peut être affichée en cliquant sur le numéro fourni à côté de chaque balise. La liste affiche le numéro de cours, de programmes d’apprentissage, de certificats, d’assistances à la tâche et de groupes de contenu. Cliquez sur l’une de ces options pour afficher la liste.
 
 Vous pouvez trier les balises en fonction de leur utilisation ou par ordre alphabétique à l’aide de l’option **[!UICONTROL Trier par]**.
+
+## Présentation des balises
+
+Cette formation vous apprendra à ajouter, modifier, remplacer, ajouter et supprimer des balises. Vous apprendrez également à modifier les paramètres d’autorisation et à utiliser les filtres de balise.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Ajout/Suppression/Modification de balises {#adddeleteedittags}
 

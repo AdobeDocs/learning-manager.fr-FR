@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Ajouter des utilisateurs par groupe
 description: Découvrez comment ajouter plusieurs utilisateurs à la fois.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 33%
+source-wordcount: '316'
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 33%
 
 # Ajouter des utilisateurs par groupe
 
-Oui, vous pouvez ajouter plusieurs utilisateurs à la fois en suivant les étapes ci-dessous :
+Dans cette formation, vous apprendrez à ajouter des utilisateurs en bloc via un fichier CSV.
+
+[![bouton](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+
+## Comment ajouter plusieurs utilisateurs
+
+Vous pouvez ajouter plusieurs utilisateurs à la fois en procédant comme suit :
 
 1. Cliquez sur **[!UICONTROL Utilisateurs]** dans le volet gauche de la connexion Administrateur, puis cliquez sur **[!UICONTROL Ajouter]** > **[!UICONTROL Chargement d’un fichier CSV]**. Une boîte de dialogue contextuelle s’affiche.
 

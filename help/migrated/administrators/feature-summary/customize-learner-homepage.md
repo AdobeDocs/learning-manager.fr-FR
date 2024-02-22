@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Personnalisation de la page d’accueil des élèves
 description: Un administrateur peut personnaliser la page d’accueil de l’élève et la rendre plus moderne, plus axée sur le contenu et plus personnalisée pour l’élève.
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 47%
+source-wordcount: '1158'
+ht-degree: 46%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 47%
 
 Un administrateur peut personnaliser la page d’accueil de l’élève et la rendre plus moderne, plus axée sur le contenu et plus personnalisée pour l’élève.
 
-L’approche personnalisée offre une manière widgetisée de créer une page d’accueil des élèves, que l’administrateur de l’organisation peut configurer dans l’interface utilisateur d’administration de manière WYSIWYG.
+L’approche personnalisée offre un moyen basé sur un widget de créer une page d’accueil des élèves, que l’administrateur de l’organisation peut configurer dans l’interface utilisateur d’administration de manière WYSIWYG.
 
 L’expérience est basée sur des recommandations de formation personnalisées issues d’un algorithme basé sur l’IA qui analyse le contenu tiers en fonction des compétences du secteur, intègre l’activité des pairs et les centres d’intérêt des élèves à l’aide de données explicites et implicites.
+
+### Personnalisation de la page d’accueil des élèves
+
+Dans cette formation, vous découvrirez comment personnaliser la page d’accueil des élèves.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Configuration de la page d’accueil des élèves {#configurethelearnerhomepage}
 

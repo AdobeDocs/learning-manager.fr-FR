@@ -3,10 +3,10 @@ description: Découvrez comment ajouter des utilisateurs ou des groupes d'utilis
 jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 64%
+source-wordcount: '4000'
+ht-degree: 63%
 
 ---
 
@@ -155,13 +155,21 @@ Dans la liste des utilisateurs, sélectionnez-en un, puis cliquez dessus. Dans l
 ![](assets/edit-user.png)
 *Boîte de dialogue Modifier l’utilisateur*
 
-## Processus pour les champs actifs et les valeurs de champs actifs préservant la sensibilité à la casse
+## Champs actifs
 
-Dans cette version, Learning Manager préserve la sensibilité à la casse de l’attribut utilisateur et de sa valeur. **Par exemple**, la sensibilité à la casse d&#39;un attribut utilisateur est &#39;location&#39; et sa valeur &#39;PARIS&#39; sera préservée et affichée de la même manière. En cas de problème, l’administrateur peut désormais modifier le nom et les valeurs de l’attribut pour corriger toute erreur de sensibilité à la casse.
+### Gestion des attributs utilisateur
+
+Dans cette formation, vous apprendrez à ajouter, personnaliser et configurer des champs actifs.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+
+Adobe Learning Manager préserve la sensibilité à la casse de l’attribut utilisateur et de sa valeur. **Par exemple**, la sensibilité à la casse d&#39;un attribut utilisateur est &#39;location&#39; et sa valeur &#39;PARIS&#39; sera préservée et affichée de la même manière. En cas de problème, l’administrateur peut désormais modifier le nom et les valeurs de l’attribut pour corriger toute erreur de sensibilité à la casse.
 
 Pour ce faire, l’administrateur peut visiter le site **[!UICONTROL Application d’administration]** > **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** et en cliquant sur le nom du groupe.
 
-L’administrateur peut ajouter et mettre à jour les valeurs d’attributs autorisées pour un élève via l’interface utilisateur.
+Un administrateur peut ajouter et mettre à jour les valeurs d’attribut autorisées pour un élève via l’interface utilisateur.
 
 Types de champs actifs :
 
