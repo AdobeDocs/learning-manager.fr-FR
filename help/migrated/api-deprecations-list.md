@@ -3,54 +3,55 @@ jcr-language: en_us
 title: Dépréciations d’API dans Adobe Learning Manager
 description: À mesure que les API dans Adobe Learning Manager évoluent, elles sont régulièrement réorganisées ou mises à niveau. Lorsque les API évoluent, l’ancienne API est obsolète et finalement supprimée. Cette page contient les informations que vous devez connaître lors de la migration de versions d’API obsolètes vers des versions d’API plus récentes et plus stables.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# Dépréciations d’API dans Adobe Learning Manager
+# Dépréciations et modifications d’API dans Adobe Learning Manager
 
 ## Dépréciations d’API dans la version de mars 2024 d’Adobe Learning Manager
 
-### Modification des limites de taux
+<!-- ### Changes in Rate Limits
 
-Avec la prochaine version d’Adobe Learning Manager, nous restructurons les limites de taux des API pour les nouveaux comptes. Pour les comptes existants, seules les API d’administration seront limitées par le taux. Après 90 jours (environ 3 mois), nous restructurerons les limites de taux pour toutes les API, mais les comptes existants seront autorisés en fonction de l’utilisation actuelle. Les comptes existants doivent revoir l’utilisation de leur API d’élève.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-Pour les nouveaux comptes, s’ils souhaitent augmenter les limites de taux, ils doivent contacter l’équipe de réussite client d’ALM.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### Quelles API seront limitées par des tarifs ?
+#### Which APIs will be rate limited 
 
-Pour les nouveaux comptes, toutes les API d’administration, d’élève et de recherche auront des limites de taux et des bustes appliqués.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-Le taux de rafale de l’API ou la limite de rafale fait référence au nombre maximal de demandes pouvant être adressées à une API en rafale courte sur une période limitée.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-Le tableau suivant répertorie les limites de taux et de rafale pour les API.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>Nombre de demandes-RPM</th>
-        <th>Nombre de demandes-Rafale</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>Administrateur</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Gestion</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Recherche</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Modification des limites de décalage
 
