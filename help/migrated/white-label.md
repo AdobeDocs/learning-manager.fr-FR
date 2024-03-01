@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Dépréciations d’API dans Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Les éléments suivants peuvent être personnalisés :
 
   <td>
 
-  <p>Nom sous lequel le système d’exploitation identifie l’application. Le format généralement utilisé est - com.`<company-name>`.`<product-name>`.</p></td>
+  <p>Nom sous lequel le système d’exploitation identifie l’application. Le format généralement utilisé est : com.company-name.product-name.</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ Les éléments suivants peuvent être personnalisés :
 
   <td>
 
-  <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est `<account-id>`_appIcon.png.</p></td>
+  <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Les éléments suivants peuvent être personnalisés :
 
   <td>
 
-  <p>Pour l’écran de démarrage de votre application, fournissez une image (png) qui apparaît lorsque vos utilisateurs lancent l’application. Le format à nommer est `<account-id>`_splashIcon.png.</p></td>
+  <p>Dans l’écran de démarrage de votre application, indiquez une image (png) qui s’affiche lorsque vos utilisateurs lancent l’application. Le format à nommer est account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ Les éléments suivants peuvent être personnalisés :
 
   <td>
 
-  <p>L’administrateur d’intégration de votre compte fournit les détails lors de l’enregistrement de l’application. L’administrateur de l’intégration doit utiliser les éléments suivants :<ul><li>« learner:read, learner:write » comme rôle.</li><li>`<internal app name>`://rediriger comme URL de redirection. </li></ul> </p></td>
+  <p>L’administrateur d’intégration de votre compte fournit les détails lors de l’enregistrement de l’application. L’administrateur de l’intégration doit utiliser les éléments suivants : * learner:read, learner:write en tant que rôle * application interne name://redirect en tant qu’URL de redirection
+
+  </p></td>
 
   </tr>
 
