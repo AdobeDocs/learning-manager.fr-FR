@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Dépréciations d’API dans Adobe Learning Manager
 description: À mesure que les API dans Adobe Learning Manager évoluent, elles sont régulièrement réorganisées ou mises à niveau. Lorsque les API évoluent, l’ancienne API est obsolète et finalement supprimée. Cette page contient les informations que vous devez connaître lors de la migration de versions d’API obsolètes vers des versions d’API plus récentes et plus stables.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ La raison pour laquelle nous déprécions l&#39;indicateur pour les API des él�
 
 À l’avenir, l’API des élèves suivante cessera de fonctionner car elle comporte l’indicateur de remplacement.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[décalage]=0&amp;page[limite]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[décalage]=0&amp;page[limite]=10&amp;sort=id&amp;override=TRUE_
 
 ### Modifications d’API pour les nouvelles recommandations basées sur les compétences
 
