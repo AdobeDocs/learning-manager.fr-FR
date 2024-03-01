@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Dépréciations d’API dans Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ Après avoir généré les fichiers binaires, insérez-les dans Play Store ou Ap
 
 ## Comment appliquer les modifications
 
-Le client envoie les ressources et les fichiers requis à l’équipe CSM. L’équipe CSM remplit ensuite le [formulaire](https://forms.office.com/r/bJRRaRBvSh) avec les modifications requises et joint les ressources requises. L&#39;équipe examinera ensuite les modifications et en informera les équipes d&#39;ingénieurs. L’équipe d’ingénieurs génère ensuite une build et la partage avec l’équipe CSM.
+Envoie les ressources et les fichiers requis à l’équipe CSM. L’équipe CSM remplit ensuite le [formulaire](https://forms.office.com/r/bJRRaRBvSh) avec les modifications requises et joint les ressources requises. L&#39;équipe examinera ensuite les modifications et en informera les équipes d&#39;ingénieurs. L’équipe d’ingénieurs génère ensuite une build et la partage avec l’équipe CSM.
 
 L’équipe CSM partage la version avec le client.
 
