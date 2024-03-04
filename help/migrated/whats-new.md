@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Afficher [Plusieurs personnalisations de marque](administrators/feature-summary/
 
 ### Administrateur - Pages Cours ou Parcours d’apprentissage
 
-Si un grand nombre d&#39;élèves sont inscrits au cours, par exemple, plus de 50 000, la liste des élèves ne s&#39;affiche pas. Vous pouvez soit rechercher un élève dans la section *Rechercher des élèves* barre de recherche ou sélectionner **Télécharger** cliquez sur le lien au-dessus de la barre de recherche pour télécharger la liste des élèves.
+Si un grand nombre d&#39;élèves sont inscrits au cours, par exemple, plus de 50 000, la liste des élèves ne s&#39;affiche pas. Vous pouvez soit rechercher un élève dans la section *Rechercher des élèves* barre de recherche ou sélectionner **Télécharger** lien en haut de la barre de recherche pour télécharger la liste des élèves.
 
 ### Page Administrateur - Élèves
 
