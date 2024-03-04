@@ -2,9 +2,9 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 90%
 
 ---
@@ -55,6 +55,7 @@ ht-degree: 90%
    * [Comptes de pairs](administrators/feature-summary/peer-account.md)
    * [Création et modification de compétences et niveaux](administrators/feature-summary/skills-levels.md)
    * [Recommandation de cours basée sur l’IA](ai-based-recommendations.md)
+   * [Importer des compétences](administrators/feature-summary/import-skills-external-sources.md)
    * [Ludification](administrators/feature-summary/gamification.md)
    * [Personnalisation de la page d’accueil des élèves](administrators/feature-summary/customize-learner-homepage.md)
    * [Badges](administrators/feature-summary/badges.md)
