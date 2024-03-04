@@ -1,327 +1,462 @@
 ---
-title: Nouveautés de cette version
-description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
-source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
+description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de mars 2024 d’Adobe Learning Manager
+jcr-language: en_us
+title: Résumé des nouvelles fonctionnalités
+contentowner: jayakarr
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '2372'
-ht-degree: 70%
+source-wordcount: '3102'
+ht-degree: 2%
 
 ---
 
-# Nouveautés de cette version
 
-## Réorganisation de l’interface utilisateur
 
-L’interface utilisateur d’Adobe Learning Manager a fait l’objet de quelques mises à jour pour offrir une expérience plus propre et plus moderne. Les pages d’accueil des rôles d’administrateur et d’auteur ont été réorganisées et les thèmes de l’interface utilisateur ont été mis à jour pour tous les rôles. Cependant, aucune modification n’a été apportée à l’emplacement des menus, boutons ou liens. Vous pourrez les retrouver exactement à l’endroit où ils se trouvaient auparavant.
+# Résumé des nouvelles fonctionnalités {#new-features-summary}
 
-Les mises à jour des thèmes s’appliquent automatiquement aux comptes utilisant le thème par défaut. Les mises à jour des thèmes de l’interface utilisateur n’affectent pas les comptes ayant apporté des modifications afin d’utiliser un thème personnalisé. Ces comptes doivent redéfinir le thème par défaut pour obtenir le thème mis à jour.
+Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
 
-![Image de l’interface utilisateur](assets/refreshed-ui.png)
+## Nouveautés de cette version {#whatsnewandchanged}
 
-*Interface utilisateur remaniée d’Adobe Learning Manager*
+### Importation de compétences à partir de sources externes
 
-### À propos de cette modification
+Importez des compétences à partir de fournisseurs de contenu, tels que LinkedIn et Go1, à l’aide des connecteurs respectifs. Cette amélioration fait partie de l&#39;objectif visant à renforcer la capacité de Learning Manager à s&#39;intégrer à des systèmes externes de gestion des compétences et des nuages. Les compétences importées seront ajoutées aux compétences définies par l’administrateur dans Learning Manager et seront disponibles pour les auteurs pendant le processus de création du cours. Des améliorations ont également été apportées à la fonctionnalité de recherche de compétences sur toute la plateforme afin de fournir une meilleure expérience de recherche lorsque le compte a un grand nombre de compétences.
 
-**Modifications apportées dans cette version**
+Afficher [Importer des compétences](administrators/feature-summary/import-skills-external-sources.md) pour en savoir plus.
 
-L’en-tête contient un nouveau modèle permettant de redimensionner automatiquement le logo selon un format et une position fixes, tout en conservant les proportions. L’objectif de cette modification est d’améliorer l’apparence dans l’expérience de l’élève.
+### Personnalisation du branding
 
-Le nom de l’organisation dans l’en-tête est également redimensionné automatiquement au format 336 (minimum) x 680 px (maximum) pour les élèves.
-
-**Quelle est la taille recommandée pour le logo ?**
-
-La largeur maximale du logo est de 210 px. Les logos présentant une largeur supérieure à 210 px ou une hauteur supérieure à 42 px sont redimensionnés au format 42 x 210 px.
-
-Si la taille du logo est inférieure à la taille recommandée, le logo est chargé et centré sans aucune modification.
-
-**Quel est l&#39;impact?**
-
-Les noms d’entreprise plus longs seront rognés et affichés avec des points de suspension.
-
-**Que recommandons-nous ?**
-
-* Redimensionnez l’image en conservant les proportions. La taille du logo maximale recommandée est de 42 px (hauteur) x 210 px (largeur).
-* Pour de nombreux comptes, ce changement s’applique automatiquement et aucune modification n’est nécessaire.
-
-## Extensibilité native
-
-Configurez des expériences personnalisées dans la version native d’Adobe Learning Manager, ce qui permet de ne pas utiliser l’approche headless pour les cas moins complexes. Vous pouvez également créer des applications personnalisées et les placer à différents points de la version native des flux de travail de l’élève, du responsable, de l’administrateur, de l’auteur ou de l’instructeur.
-
-Un élève peut utiliser une application personnalisée ou une extension créée par un administrateur.
-
-Afficher [Extensibilité native](/help/migrated/administrators/feature-summary/native-extensibility.md) pour en savoir plus.
-
-## Outil de création de quiz
-
-Vous pourrez désormais créer des évaluations dans Learning Manager avec le nouvel outil de création de quiz sur la page Bibliothèque de contenu. Les évaluations créées font partie de la bibliothèque de contenu et peuvent être ajoutées à un dossier « public » pour faciliter la réutilisation des cours.
-
-Afficher [Créer un quiz](/help/migrated/authors/feature-summary/content-library.md) pour en savoir plus.
-
-## Modifications concernant les rapports dans cette version
-
-### Modifications apportées au rapport d’inscription à l’assistance à la tâche
-
-Dans les versions antérieures d’Adobe Learning Manager, le rapport d’inscription de l’assistance à la tâche ne comportait aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des données d’un compte.
-
-Dans cette version, nous avons ajouté une liste déroulante dans la boîte de dialogue Rapport des assistances à la tâche.
-
-### Modifications apportées au rapport d’annonce de notifications
-
-Dans les versions antérieures d’Adobe Learning Manager, le rapport Annonce de notification ne disposait d’aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des notifications du compte.
-
-Dans cette version, nous avons ajouté un filtre de date, à l’aide duquel vous pouvez télécharger les notifications au cours d’une période spécifiée.  Cependant, vous ne pouvez télécharger que le rapport des six derniers mois.
-
-### Modifications apportées aux données de suivi de cours dans le rapport d’inscription
-
-Dans cette version, vous pouvez télécharger les informations de retour au cours dans un rapport d’inscription en spécifiant une heure. La période de téléchargement est limitée à six mois pour les comptes comprenant plus de cinq millions d’inscriptions. Pour tous les autres comptes, la période est de quinze mois.
-
-Vous pouvez télécharger le rapport à partir de **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports historiques]** > **[!UICONTROL Rapport d’accès au cours]**.
-
-### Modifications apportées au relevé de notes de l’élève
-
-Dans les versions antérieures d’Adobe Learning Manager, si un administrateur personnalisé était défini sur l’étendue Utilisateur, le relevé de notes de l’apprentissage contenait les utilisateurs supprimés. Dans cette version, le relevé de notes contient les utilisateurs supprimés si l’administrateur personnalisé est défini sur l’étendue Utilisateur ou s’il a accès à tous les groupes d’utilisateurs.
-
-### Modifications apportées au rapport de présence
-
-Le rapport de participation sur la page de participation des cours dans l’application d’administrateur et sur la page des élèves de la session dans l’application Instructeur était téléchargé de manière synchrone. Dans cette version, ce rapport est téléchargé de manière asynchrone via une notification.
-
-Pour plus d&#39;informations sur les rapports, voir [Rapports](/help/migrated/administrators/feature-summary/reports.md) dans Adobe Learning Manager.
-
-## Mise hors service du Marché de contenus
-
-Les cours ayant expiré dans le catalogue du Marché de contenu importé (formation d’entreprise) sont supprimés automatiquement une fois le délai expiré. Les cours sont définis de telle manière qu’ils sont supprimés si le contenu est défini sur la mise hors service. Les élèves inscrits existants peuvent les suivre dans un délai limité, après quoi les cours sont supprimés. Le catalogue reste ainsi toujours clair et les utilisateurs ne voient plus de cours expirés.
-
-## Nouvelles recommandations basées sur les compétences
-
-Adobe Learning Manager améliore les recommandations pour les comptes clients et partenaires. Grâce à l’amélioration de l’algorithme de recommandation due à la modification de l’algorithme de classement des cours, des parcours d’apprentissage et des certifications, les utilisateurs bénéficient d’une expérience optimisée en termes de découverte de contenu.
-
-L’algorithme n’autorise plus les recommandations basées sur les pairs. La modification n’affecte pas les utilisateurs existants. Toutefois, l’option Correspondant au secteur continue d’exister. Pour l’option Personnalisé, Adobe Learning Manager n’autorise plus la sélection personnalisée basée sur les pairs.
-
-Le groupe de pairs devient désormais un compte. Les élèves verront une chaîne présentant les sujets tendance dans le groupe. Toutes les recommandations sont explicables. Par exemple, si vous consultez un contenu sur un certain type de sujet, la carte sur la bande affiche la raison de la suggestion du cours.
-
-## Améliorations du processus d’administration personnalisé
-
-Les administrateurs personnalisés bénéficient désormais d’une meilleure parité par rapport aux rôles d’administrateur quant à l’accès aux rapports. Les administrateurs pourront configurer l’accès aux rapports pour avoir un meilleur contrôle.
-
-Dans Adobe Learning Manager, seuls les relevés de notes d’apprentissage et de ludification sont disponibles pour les administrateurs personnalisés. Dans cette version, les administrateurs personnalisés peuvent accéder à l’ensemble des rapports personnalisés, à l’exception des rapports xAPI et e-mail, qui restent disponibles uniquement pour l’administrateur. L’accès à l’ensemble des rapports est sujet à l’étendue catalogue et utilisateur défini pour l’administrateur personnalisé. Peu de rapports sont disponibles uniquement avec une étendue complète. Ce sont :
-
-<table>
-    <tbody>
-        <tr>
-            <td>
-    <p style="text-align: left;"><b>Rapport</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Disponible</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Portée</b></p></td>
-        </tr>
-    <tr>
-   <td>
-    <p>Piste d’audit de contenu</p></td>
-   <td>
-    <p>Oui</p></td>
-   <td>
-    <p>Catalogue complet</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Piste d’audit de l’utilisateur</p></td>
-   <td>
-    <p>Oui</p></td>
-   <td>
-    <p>Utilisateur complet</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Accès à la connexion</p></td>
-   <td>
-    <p>Oui</p></td>
-   <td>
-    <p>Utilisateur complet</p></td>
-  </tr>
-    </tbody>
-</table>
-
-**Nouveaux contrôles en lecture seule**
-
-Dans la page Rôles personnalisés, nous avons ajouté les options en lecture seule suivantes pour permettre aux administrateurs de fournir des options plus flexibles à l’administrateur personnalisé : l’administrateur personnalisé disposera désormais d’autorisations en lecture seule supplémentaires pour les utilisateurs, les modèles de courrier électronique et les plans d’apprentissage.
-
-**Utilisateurs**:
-
-Si vous sélectionnez l’option Lecture seule, les administrateurs personnalisés peuvent afficher tous les utilisateurs, mais ils ne peuvent pas modifier les données utilisateur, ni créer de portail d’auto-inscription pour les utilisateurs.
-
-**Plans d’apprentissage**:
-
-Si vous sélectionnez Lecture seule, les administrateurs personnalisés ne peuvent pas ajouter ni modifier de plan d’apprentissage. Ils peuvent télécharger un rapport de plan d’apprentissage et consulter les détails. Toutefois, ils ne peuvent pas modifier les détails du cours.
+Vous pourrez désormais personnaliser certains éléments de l’interface utilisateur (nom de l’organisation, logo et thème de l’interface utilisateur) en fonction des groupes d’utilisateurs disponibles dans le compte. Par exemple, une organisation avec plusieurs divisions peut configurer un logo et un thème d’interface utilisateur personnalisés à afficher pour chaque division.
 
 >[!NOTE]
 >
->Les plans d’apprentissage seront en lecture seule supplémentaire avec un contrôle total.
+>Cette fonctionnalité de marque multiple ne s’applique pas à la vue de l’administrateur. Ils verront toujours l’image de marque au niveau de l’organisation dans leur compte. Ceci est dû au fait qu’il s’agit d’une fonctionnalité destinée aux élèves et que les administrateurs peuvent ne pas la vouloir dans leur compte.
 
-**Modèles de courrier électronique**
+Afficher [Plusieurs personnalisations de marque](administrators/feature-summary/themes.md#multiple-branding) pour plus d’informations.
 
-Si vous sélectionnez l’option Lecture seule, les administrateurs personnalisés peuvent afficher les modèles de courrier électronique. Ils ne peuvent pas activer ni désactiver les paramètres des modèles de courrier électronique. Toutefois, ils peuvent télécharger des rapports d’accès aux e-mails.
 
-### Relevés de notes de l&#39;élève
+## Modifications pour les comptes avec une grande base d’utilisateurs
 
-Si l’autorisation Utilisateur ou Tous les groupes d’utilisateurs est sélectionnée et que l’administrateur personnalisé tente de télécharger les relevés de notes des élèves, l’option Inclure les élèves supprimés renvoie tous les élèves supprimés dans le rapport.
+### Administrateur - Pages Cours ou Parcours d’apprentissage
 
-### Rapports
+Si un grand nombre d&#39;élèves sont inscrits au cours, par exemple, plus de 50 000, la liste des élèves ne s&#39;affiche pas. Vous pouvez soit rechercher un élève dans la section *Rechercher des élèves* barre de recherche ou sélectionner **Télécharger** cliquez sur le lien au-dessus de la barre de recherche pour télécharger la liste des élèves.
 
-Les administrateurs personnalisés peuvent accéder aux rapports suivants selon l’étendue définie :
+### Page Administrateur - Élèves
+
+Lors de la recherche d’un utilisateur, le **Télécharger l’élève** et **Exportation** options télécharger le même rapport. En attendant, lors de la recherche d’un groupe d’utilisateurs, vous pouvez désormais télécharger des utilisateurs filtrés à partir de ce groupe d’utilisateurs. Lors de la recherche d’un groupe d’utilisateurs, le **Télécharger la liste des élèves** modifications apportées à **Télécharger la liste des élèves pour le groupe d’utilisateurs** Le **Exportation** télécharge à nouveau la liste complète.
+
+### Page Administrateur - Utilisateurs
+
+#### Utilisateurs internes
+
+Si le nombre d&#39;utilisateurs dépasse, par exemple, 50 000, un message vous invitera à télécharger les données pour une analyse plus détaillée ultérieurement. La barre de recherche est maintenant visible et affiche un utilisateur au format *Nom, adresse e-mail | UUID*.
+
+>[!NOTE]
+>
+>L’UUID s’affiche uniquement si l’UUID est activé pour le compte.
+
+#### Utilisateurs externes
+
+Pour les utilisateurs externes, le même comportement s’applique. Si le nombre d’utilisateurs est élevé, vous pouvez télécharger les utilisateurs et récupérer les détails les concernant après une recherche au format *Nom, adresse e-mail | UUID*.
+
+#### Page Nettoyage de l’utilisateur
+
+Sur la page Nettoyage de l’utilisateur, pour les utilisateurs supprimés, nous avons supprimé la fonctionnalité de tri sur **Date de suppression**. Vous ne pouvez trier que sur les UUID.
+
+### Pages Admin - Instance
+
+#### Cours ou parcours d’apprentissage
+
+Si le nombre d’inscriptions est élevé, Adobe Learning Manager n’affichera pas le nombre d’élèves. Une icône s’affiche à la place. Vous pouvez la sélectionner, afficher le nombre d’élèves et accéder à la page Élèves.
+
+Le nombre d’élèves sera affiché sous forme de valeur approximative. Par exemple, si le nombre d’élèves est supérieur à 50 000, la valeur s’affichera comme étant supérieure à 50 K.
+
+### Administrateur - Pages L1/L3
+
+Sur la page Retour d&#39;informations L1, si le nombre d&#39;inscriptions au cours est élevé, la liste des élèves ne s&#39;affiche pas. Au lieu de cela, vous pouvez exporter la liste des utilisateurs pour une analyse plus détaillée ultérieurement.
+
+La recherche prend en charge la saisie anticipée et les résultats sont limités à l’instance sélectionnée.
+
+#### Page Présence et notation
+
+Sur la page, lorsque vous recherchez un utilisateur, la recherche s’exécute sur toutes les instances disponibles. Cependant, le résultat s’applique à l’instance sélectionnée.
+
+Sur la page Présence, si vous recherchez un groupe d&#39;utilisateurs et que le nombre d&#39;utilisateurs dépasse 10 000 dans le groupe d&#39;utilisateurs, indépendamment de l&#39;inscription, vous ne pouvez effectuer que des actions au niveau global. Vous ne pourrez pas afficher la liste des utilisateurs.
+
+Si le nombre d’utilisateurs dans le groupe d’utilisateurs est inférieur à 10 000, vous pouvez effectuer des actions individuelles au niveau de l’utilisateur ainsi que des actions au niveau global. Dans ce cas, la liste des utilisateurs n’est pas désactivée.
+
+### Page Administrateur - Certifications
+
+Dans les versions actuelles d’Adobe Learning Manager, si un grand nombre d’utilisateurs sont inscrits à une certification, vous ne pouvez pas afficher les élèves non inscrits depuis le **Statut** la liste déroulante est désactivée.
+
+Dans cette version d’Adobe Learning Manager, si le nombre d’utilisateurs inscrits est élevé, le **Statut** la liste déroulante affiche uniquement deux options : **Inscrit** et **Non inscrit**. L’option **Inscrit** est sélectionné par défaut. Si vous **Non inscrit**, la liste des élèves non inscrits s’affiche.
+
+#### Modifications apportées au groupe d’utilisateurs
+
+Dans le cas d’un groupe d’utilisateurs, si le nombre d’utilisateurs dans le groupe d’utilisateurs est inférieur à, par exemple, 50 000, le **Statut** La liste déroulante affiche toutes les options Certifié, Attribué et Expirant.
+
+Si le nombre d’utilisateurs d’un groupe d’utilisateurs est élevé, le **Statut** la liste déroulante affiche uniquement deux options : **Inscrit** et **Non inscrit**, selon le nouveau design.
+
+### Tableau de comparaison
 
 <table>
     <tbody>
         <tr>
-            <td>
-    <p style="text-align: left;"><b>Rapport</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Disponible</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Portée</b></p></td>
+            <td><b>Page</b></td>
+            <td><b>Avant modification du seuil</b></td>
+            <td><b>Après modification du seuil</b></td>
         </tr>
-    <tr>
-   <td>
-    <p>Piste d’audit de contenu</p></td>
-   <td>
-    <p>Oui</p></td>
-   <td>
-    <p>Catalogue complet</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Piste d’audit de l’utilisateur</p></td>
-   <td>
-    <p>Oui</p></td>
-   <td>
-    <p>Utilisateur complet</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Accès à la connexion</p></td>
-   <td>
-    <p>Oui</p></td>
-   <td>
-    <p>Utilisateur complet</p></td>
-  </tr>
+        <tr>
+            <td>Administrateur - Instance de cours</td>
+            <td>Les occurrences s’affichent comme suit :
+            <ul>
+                <li>Modules</li>
+                <li>Élèves inscrits</li>
+                <li>Séances</li>
+                <li>Badge</li>
+                <li>Retour d’informations L1 activé</li>
+                <li>Alertes de notification</li>
+                <li>Points de ludification</li>
+                <li>Code QR</li>
+                <li>Extension du parcours d’apprentissage</li>
+            </ul>
+            <td>
+                <ul>
+                    <li>Si le nombre d'inscriptions dépasse le seuil prédéfini, ALM n'affiche pas le nombre ; il remplace le nombre par une icône qui, lorsqu'il est cliqué, affiche le nombre réel d'élèves et un lien pour vous amener à la page Élèves.</li>
+                    <li>Le nombre d'inscriptions sera affiché sous une forme approximative. Par exemple, si le nombre est supérieur à 50 000, le nombre sera affiché comme supérieur à 50 K au niveau du cours.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Page Administrateur - Élèves</td>
+            <td>
+                    <ul>
+                        <li>La liste des élèves s'affiche pour chaque instance.</li>
+                        <li>Vous pouvez rechercher un utilisateur ou un groupe d'utilisateurs inscrit à un cours.</li>
+                        <li>Le rapport exporté n’est constitué d’aucun filtre pour le groupe d’utilisateurs.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>La sélection de l'instance est désactivée.</li>
+                    <li>Télécharger la liste des élèves télécharge également les mêmes données, à une exception près. Si vous recherchez un groupe d’utilisateurs, puis sélectionnez Télécharger la liste des élèves, il téléchargera ces données de groupe d’utilisateurs.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Administrateur - Page de commentaires L1/L3</td>
+            <td>
+                <p>Aucun changement dans le comportement existant</p>
+            </td>
+            <td>
+                <ul>
+                    <li>La sélection de l'instance est désactivée.</li>
+                    <li>Si l’inscription à un cours dépasse 50 000, ALM ne répertorie pas les élèves et affiche uniquement la barre de recherche. Si l'inscription est inférieure à 50 000, ALM affiche à la fois la liste des élèves et la barre de recherche.</li>
+                    <li>La mise en vente est désactivée par défaut.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Page Administrateur - Présence et notation</td>
+            <td>
+                <p>Aucun changement dans le comportement existant</p>
+            </td>
+            <td>
+                <ul>
+                    <li>La sélection de l’instance est désactivée lors de la recherche d’un utilisateur.</li>
+                    <li>Si le nombre d'utilisateurs dépasse, par exemple, 50 000, il y aura un message supplémentaire pour télécharger les données pour une analyse plus détaillée plus tard. La barre de recherche est maintenant visible et affiche un utilisateur au format Nom, e-mail | UUID.</li>
+                    <li>Si le nombre d’utilisateurs dans le groupe d’utilisateurs est inférieur à 10 000 indépendamment de l’inscription, vous pouvez effectuer des actions individuelles au niveau de l’utilisateur ainsi que des actions au niveau global. Dans ce cas, la liste des utilisateurs n’est pas désactivée.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Page Administrateur - Score du quiz L2</td>
+            <td>
+                    <ul>
+                        <li>La recherche utilisateur est également implémentée.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>La recherche utilisateur est également implémentée. Lors des recherches de frappe anticipée au niveau objet d’apprentissage, la liste est filtrée pour l’instance actuellement sélectionnée.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Page Administrateur - Utilisateurs (interne, externe)</td>
+            <td>
+                    <ul>
+                        <li>L’ID de messagerie s’affiche lors de la recherche d’un utilisateur.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Si le nombre d'utilisateurs dépasse, par exemple, 50 000, il y aura un message supplémentaire pour télécharger les données pour une analyse plus détaillée plus tard. La barre de recherche est maintenant visible et affiche un utilisateur au format Nom, e-mail | UUID.</li>
+                    <li>Sur la page Nettoyage de l’utilisateur, pour les utilisateurs supprimés, nous avons supprimé la fonctionnalité de tri sur **Date de suppression**. Vous ne pouvez trier que sur les UUID.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Instructeurs - Envoi</td>
+            <td>
+                    <ul>
+                        <li>Pagination des modules à soumettre.</li>
+                        <li>En tant qu’instructeur, vous pouvez désormais filtrer les envois de fichiers des élèves en fonction du statut, de la fin de la révision, de l’envoi en attente, de la réussite et de l’échec. </li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Vous pouvez uniquement rechercher des utilisateurs, pas des groupes d’utilisateurs dans cette instance.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Compter sur l’aperçu en tant que page de l’élève</td>
+            <td>
+                    <ul>
+                        <li>Le nombre inclut les données de l'inscription d'ordre supérieur.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Le nombre exclut les données des inscriptions de commande supérieure.</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
-|--- |--- |
-| Content Audit Trail | Yes | Full Catalog |
-| User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+## Fonctionnalités de recherche avancées
 
-## Intégration de Connect améliorée
+Dans cette version, nous avons amélioré l’expérience de recherche. Les résultats de la recherche sont récupérés en fonction non seulement des métadonnées, mais également de la sémantique et de la recherche dans le contenu pour obtenir des résultats basés sur la précision, l’actualité et le contenu pertinent.
 
-Les instructeurs peuvent personnaliser leur expérience de session en sélectionnant des salles spécifiques à l’instructeur. Dans cette version, nous avons apporté les améliorations suivantes :
+Cette modification se traduit par :
+* Catalogue et page Mon apprentissage : l’action de survol du cours, du parcours d’apprentissage et de la certification a été supprimée.
+* Apparence de la barre de recherche.
+* Ajout de balises de filtre dans l’application d’apprentissage.
 
-### Importation des relevés de notes
+Pour activer les fonctionnalités de recherche, contactez l’équipe CSAM d’Adobe Learning Manager.
 
-Vous pourrez importer des transcriptions de session à partir de Connect et les analyser. Les élèves reçoivent le relevé de notes après l’enregistrement, qu’ils peuvent télécharger ultérieurement.
+## Modifications apportées aux rapports
 
-### Modification des vidéos
+* Les colonnes Balise(s) et Compétence(s) dans le rapport de formations sont remplacées par Balise et Compétences.
+* Ajout du rapport [Piste d’audit de ludification](administrators/feature-summary/reports.md#gamification-audit-trail).
+* Si un compte contient plus de 280000 élèves affectés à une compétence, le rapport d’élève est téléchargé au format csv compressé.
+Si le compte comporte moins de 250000 élèves, le même rapport est téléchargé au format CSV.
+Dans la page Administrateur, sélectionnez **Administrateur** > **Compétences** > **Compétence** > **Élèves**. Le rapport est téléchargé au format CSV.
+* Le [Rapport récapitulatif de la session](administrators/feature-summary/reports.md#session-summary-report) comporte deux nouvelles colonnes : Informations sur le lieu et Région Lieu.
 
-Les instructeurs peuvent modifier la vidéo et améliorer l’expérience de visionnage des élèves. Un lien s’affiche pour les instructeurs sur la page de présentation de la session permettant d’accéder à la page de connexion à Adobe Connect. Une fois que l’instructeur est connecté, le lien d’enregistrement s’affiche. S’il clique sur le lien, il est redirigé vers la vidéo qu’il peut rogner.
+## Modifications apportées à la création de salles de classe
 
-## Restriction des rapports de tableau de bord aux utilisateurs avec le rôle de responsable
+D’après [Paramètres administrateur](administrators/feature-summary/classroom.md#classroom-settings), vous, en tant qu’auteur, pouvez [création, modification et suppression d’emplacements](administrators/feature-summary/classroom.md#add-classroom-location).
+>[!NOTE]
+>
+>Lors de l’ajout d’emplacements et de libellés de catalogue, les auteurs (sur la page de création de cours) et les administrateurs (sur la page d’instance) verront une liste auto-remplie d’emplacements et de libellés de catalogue, respectivement.
 
-Les administrateurs peuvent rechercher uniquement des responsables dans les rapports de tableau de bord.
+En tant qu’administrateur, vous pouvez appliquer des restrictions à un auteur pour modifier ou supprimer un emplacement de salle de classe. Afficher [Paramètres de la salle de classe](administrators/feature-summary/classroom.md#classroom-settings) pour plus d’informations.
 
-## Limitation du traitement des rapports de tableau de bord hérités
+## Modifications apportées au parcours d’apprentissage flexible
 
-Lorsqu’un administrateur tente de tracer un rapport de tableau de bord et que le tracé du rapport prend trop de temps (plus de 2,5 minutes), Adobe Learning Manager affiche le message suivant :
+Tous les comptes (anciens et nouveaux) de commenceront à inclure Échéance d’inscription, Échéance de désinscription et Limite de places dans l’application de l’élève pour un parcours d’apprentissage flexible.
+Les élèves pourront désormais s’inscrire au parcours d’apprentissage flexible sans sélectionner d’instance du cours.
 
-![image de rapport héritée](assets/error-message.png)
-*Message d’erreur lorsque le rapport prend trop de temps*
+## Nouveau déclencheur pour les plans d’apprentissage
 
-L’interface utilisateur ne permet pas d’afficher les rapports de cette taille. Toutefois, l’administrateur peut les télécharger.
+Un nouveau déclencheur a été ajouté à la page de configuration du plan d&#39;apprentissage. Les auteurs et les administrateurs pourront désormais déclencher des actions lorsqu’un élève échoue dans un module d’un cours.
 
-## Prise en charge de la migration pour les étiquettes de catalogue
+Afficher [Plans d’apprentissage](administrators/feature-summary/learning-plans.md) pour plus d’informations.
 
-Le processus de migration prend désormais en charge les étiquettes de catalogue. Les fichiers CSV de migration permettent d’importer des clés d’étiquette de catalogue et des valeurs d’étiquette de catalogue et les associer à des cours, des parcours d’apprentissage, des certifications et des assistances à la tâche. Ce processus permet également de supprimer des valeurs et des clés incorrectes si nécessaire.
+## Nouvel état d’envoi
 
-## Améliorations de l’API pour filtrer les cours complexes
+En tant qu’instructeur, vous pouvez désormais filtrer les envois de fichiers des élèves en fonction du statut, de la fin de la révision, de l’envoi en attente, de la réussite et de l’échec.
 
-Le filtrage avancé des cours par balises et étiquettes de catalogue (en utilisant une combinaison des conditions « ET » et « OU ») sera désormais possible via les API Learning Manager.
+Afficher [Statut de la soumission](instructors/feature-summary/learners.md#filter-file-submissions) pour plus d’informations.
+
+### Améliorations de la liste de contrôle
+
+Dans les versions actuelles d’Adobe Learning Manager, pour une liste de contrôle, la progression d’un module était autorisée même si un réviseur avait marqué les modules comme Échec. Dans cette version, un auteur peut effectuer une configuration pour empêcher la progression d’un élève s’il échoue à la liste de contrôle.
+
+Pour plus d’informations, voir [Améliorations de la liste de contrôle](authors/feature-summary/courses.md#mandatory-checklist) dans Adobe Learning Manager.
+
+## Autres améliorations
+
+### Modifications apportées à la liste de contrôle
+
+Lors de la création d’une liste de contrôle, vous pouvez sélectionner **Liste de contrôle obligatoire** case à cocher Cela empêche le module ou le cours de continuer si un élève ne parvient pas à la liste de contrôle.
+
+### Modifications apportées au site de référence AEM
+
+Dans un site de référence AEM, nous avons ajouté la prise en charge de l’ajout d’un jeton d’actualisation administrateur au jeton d’accès élève.
+
+### Masquer les envois des instructeurs
+
+Une fois que les élèves ont téléchargé leurs fichiers à l&#39;aide du workflow d&#39;envoi de fichier, si un instructeur ne prend aucune action (approuver ou rejeter) sur l&#39;envoi, l&#39;URL d&#39;envoi est masquée de la vue après un nombre de jours prédéfini. Contactez les équipes CSAM d’Adobe Learning Manager pour définir ou modifier le nombre de jours.
+
+### Modifications de la terminologie du produit
+
+Nous avons ajouté les colonnes *Instance* et *Élève* au vocabulaire de terminologie du produit.
+
+### Modifications apportées à l’application mobile
+
+Dans cette version de l’application mobile, les élèves peuvent planifier et gérer les rappels de cours en retard. Cliquer sur une notification de rappel en retard vous permet d’accéder aux options suivantes :
+
+* Annuler
+* Accéder au cours
+* Me le rappeler dans 3 jours
+* Me le rappeler dans une semaine
+
+Sur Android : cliquez sur la notification push pour accéder à la page **Présentation du cours** page.
+Sur iOS : cliquez sur la notification push pour accéder à la page d’accueil de l’application. Il s’agit d’une limitation connue dans iOS.
+
+### Modifications de la liste de contrôle dans l’application de l’élève sur Salesforce
+
+Si un élève échoue à une liste de contrôle, il ne peut pas passer au module ou cours suivant. Lorsque la case à cocher Liste de contrôle obligatoire est sélectionnée, l&#39;élève ne peut pas progresser dans un cours s&#39;il ne parvient pas à respecter la liste de contrôle.
+
+Comme avec l’application web, si un élève ne parvient pas à une liste de contrôle sur l’application Salesforce, il verra un message et ne pourra pas continuer.
+
+### Modifications apportées à Connect VC
+
+Dans les versions actuelles d’Adobe Learning Manager, un élève est marqué comme **Non Terminé** lorsqu&#39;ils sont inscrits à une session Connect VC, mais ne répondent pas aux critères d&#39;achèvement.
+
+Dans cette version, le statut passe à **Encore à marquer**.
+
+### Étiquetage blanc dans Adobe Learning Manager
+
+L’application mobile Adobe Learning Manager prend désormais en charge l’étiquetage blanc, ce qui signifie que vous pouvez désormais publier l’application sous votre propre marque.
+
+Afficher l’étiquetage blanc dans [Application mobile Adobe Learning Manager](white-label.md) pour plus d’informations.
+
+### Évaluation de l’application
+
+Un élève peut fournir ses commentaires sur l’application Learning Manager d’Adobe pour améliorer encore l’expérience de l’application. Si l’élève note quatre étoiles ou plus, une fenêtre contextuelle s’affiche et lui demande d’évaluer l’application sur Play Store ou App Store.
 
 ## Modifications apportées aux API dans cette version
 
-### Validation dans l’API de traitement
+### API des élèves
 
-Dans cette version, si le rapport d’assistance à la tâche dépasse les 10 millions générés à l’aide de l’API de tâche, la réponse affiche le message « Le rapport demandé contient trop de données à générer, envisagez d’appliquer des filtres d’assistance à la tâche ! ».
+Dans cette version, nous avons ajouté la prise en charge d’API pour permettre aux élèves d’afficher le logo de marque et les thèmes personnalisés au niveau du groupe d’utilisateurs.
 
-### Notification de post supprimé
+Les API /account et /user?include=account renvoient quatre champs, qui sont remplacés spécifiques au champ actif de l’utilisateur appartenant à logoUrl, logoStyling et themeData.
 
-Dans les versions précédentes d’Adobe Learning Manager, si un cours, une certification ou un plan d’apprentissage est supprimé et que sa notification est présente, il reste possible d’accéder au cours, à la certification ou au plan d’apprentissage en consultant sa notification.
+### Nouveaux attributs
 
-Dans cette version, nous nous assurerons qu’une publication supprimée n’est plus accessible. Si vous spécifiez l’id dans le répertoire /posts/{id} API et que l’ID de la publication n’est plus disponible, l’API affiche le message « Publication introuvable pour la ressource spécifiée ».
+Un nouvel attribut, isExpiredsubmission, dans learningObjectResource, qui indique si l&#39;envoi dans la ressource a expiré ou non.
 
-### Échéance d’accomplissement des API de l’élève
+* API GET /account : renvoie un nouvel attribut **expiresubmissionDuration** X, où X est le nombre de jours défini. Si ce paramètre n’est pas défini, 0 est renvoyé
+* API GET /LO avec ressource incluant un nouvel attribut **isExpiredsubmission** » Vrai ou faux.
+   * True, si l&#39;envoi a expiré et que « submissionUrl » ne s&#39;affiche pas.
+   * Si la valeur est False, l&#39;envoi n&#39;est pas expiré et « submissionUrl » est récupéré.
 
-Dans les versions précédentes, Adobe Learning Manager récupérait l’échéance à partir du tableau d’inscription. Dans cette version, Adobe Learning Manager calcule l’échéance à partir du tableau des instances de cours. Si l’échéance n’est pas disponible, le tableau d’inscription est utilisé.
+### Modifications d’API dans la liste de contrôle
 
-### Indicateur de remplacement
+Un cours peut être composé de plusieurs modules dont Liste de contrôle est un type de module. Ce module de liste de contrôle est évalué par l’instructeur et peut être marqué comme Échec ou Réussite en fonction de l’évaluation.
 
-Dans la version de novembre 2023 d’Adobe Learning Manager, nous supprimons l’indicateur de remplacement des API. L’indicateur de remplacement ne fait pas partie de la spécification d’API publique et est destiné aux tests backend. L’indicateur n’est plus disponible pour les API des élèves. Cependant, l’indicateur reste valide pour les API d’administrateur.
+Mais dans les deux cas, l&#39;état de la liste de contrôle est marqué comme Terminé et de cette façon, le cours est marqué comme Terminé.
 
-La raison pour laquelle nous déprécions l&#39;indicateur pour les API des élèves est que l&#39;indicateur de remplacement récupérait une grande quantité de données via les API des élèves.
+Dans cette version, l’API LO inclut le paramètre *isChecklistMandatory*. Si la valeur est True, la liste de contrôle est obligatoire.
 
-À l’avenir, l’API des élèves suivante cessera de fonctionner car elle comporte l’indicateur de remplacement.
+### Prise en charge de plusieurs paramètres régionaux
 
-`https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id&override=TRUE`
+Un administrateur peut désormais télécharger le rapport de retour d’informations L1 dans la langue de son choix. Cependant, vous ne pouvez pas encore télécharger de rapports de retour d&#39;informations L1 pour Power BI. Dans la demande d’API, utilisez le paramètre preferencesLocale pour spécifier les paramètres régionaux de votre choix.
 
-### Mise en surbrillance des résultats
+### Modifications apportées au nombre de résumés d’instances
 
-Dans la prochaine version d’Adobe Learning Manager, par exemple, dans l’API /search, nous modifions la valeur par défaut de highlightResults sur false.
+Cela s’applique aux comptes où les inscriptions à un cours Classroom/VC sont supérieures à 1 000.
 
-En outre, nous allons remplacer la valeur par défaut de snippetTypes par courseName. Cela mettra en surbrillance les noms de cours dans la recherche uniquement si highlightResults a la valeur True.
+Si le nombre est inférieur à 1 000, les inscriptions invalident le cache et retournent les valeurs mises à jour dans un appel API de résumé du GET, telles que le nombre d&#39;inscriptions, l&#39;achèvement et seatLimit.
 
-### Nouveau type de ressource pour les questionnaires
+Si le compte est activé pour cette fonctionnalité et que le nombre d’inscriptions est supérieur à 1 000, les valeurs sont extraites du cache.
 
-Le `instances.loResources.resources` le point de terminaison reviendra `ResourceContentType` avec le quiz.
+### Tracés obsolètes
 
-## Avis d’abandon
+Actuellement, les API Learning Manager suivent une structure de données de graphique, qui vous permet de récupérer des données en parcourant le modèle d’API par le biais d’inclusions. Même si vous pouvez parcourir une API jusqu’à sept niveaux, la récupération des données à l’aide d’un seul appel API est coûteuse en termes de calcul.
 
-À compter du 30 novembre 2023, LinkedIn Learning abandonne l’utilisation de la méthode GET HTTP pour obtenir un jeton OAuth. Après la dépréciation, vous ne pourrez générer un jeton OAuth qu’à l’aide de la méthode de POST HTTP.
-Adobe Learning Manager supprimera BlueJeans en février 2024. Tous les nouveaux comptes créés après février 2024 n’incluront pas le connecteur BlueJeans.
+Nous recommandons à tous les clients existants et nouveaux de passer de petits appels plusieurs fois au lieu d&#39;un seul appel important. Cette approche empêchera le chargement de données indésirables dans l&#39;appel.
 
-## Notes de mise à jour
+#### Quels chemins sont obsolètes ?
 
-Pour plus d’informations sur les versions actuelles et précédentes de l’application web et de l’application pour appareil Learning Manager, consultez la section [Notes de mise à jour](release-note/release-notes.md).
+Les chemins suivants sont obsolètes :
 
-## Bogues corrigés dans cette version
+* /learningObjects
+   * Chemins d’accès obsolètes :
+      * enrollment.loInstance.loResources.resources
+      * instances.loResources.resources
+   * Chemins d’accès existants :
+      * enrollment.loInstance
+      * instances.loResources
+* /learningObjects/{id}
+   * Chemin d’accès obsolète :
+      * enrollment.instances.subLoInstances.learningObject
+   * Chemin existant :
+      * enrollment.instances.subLoInstances
+* /enrollments
+   * Chemin d’accès obsolète :
+      * loInstance.learningObject.enrollment
+   * Nouveau chemin :
+      * loInstance.learningObject
+* /learningObjects/{id}
+   * Chemin d’accès obsolète :
+      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+   * Nouveau chemin :
+      * instance.subLoInstances
 
-* Une vignette de cours, qui constitue un prérequis pour un parcours d’apprentissage ou un autre cours, ne s’affiche pas lorsqu’un élève ouvre la page d’aperçu du parcours d’apprentissage ou du cours.
-* Si les options Calendrier, Ludification et Apprentissage par les réseaux sociaux ne sont pas sélectionnées, le paramètre du tableau de bord de l’élève ne conserve pas le paramètre suivant. Les options telles que Recommandé dans vos champs d’intérêt et Rechercher par catalogue ne semblent pas sélectionnées, mais elles s’affichent dans l’aperçu.
-* Un élève reçoit un e-mail de rappel l’invitant à terminer le cours alors qu’il l’a terminé en classe virtuelle.
-* Pour les comptes de pairs, vous ne pouvez pas télécharger les rapports de tableau de bord.
-* La suppression et l’ajout d’un module de liste de contrôle dans un cours entraînent une erreur interne.
-* Dans les modèles d’invitation à une session, l’ID de messagerie de l’expéditeur comprend le texte captivatePrime au lieu d’AdobeLearningManager.
-* Si vous définissez l’efficacité du cours pour l’axe Y secondaire, le téléchargement du rapport échoue avec une exception de valeur nulle du pointeur.
-* Si un rôle d’administrateur personnalisé est attribué à un élève, il accède au profil d’administrateur personnalisé par défaut. Cependant, lorsqu’une URL de redirection d’élève est définie sur le compte, l’administrateur personnalisé est dirigé vers une autre destination, et non vers le profil de rôle d’administrateur personnalisé par défaut.
-* L’étendue de la ludification ne fonctionne pas comme prévu si disabled_sub_groups est défini sur un grand nombre.
-* Dans certains cas, les utilisateurs supprimés déclenchent une migration.
-* Un élève ne peut pas lire les cours LinkedIn dans l’application MS Teams.
-* L’API d’inscription ne renvoie pas les inscriptions à un plan d’apprentissage flexible ou à un plan d’apprentissage intégré comme prévu.
-* Dans l’application mobile, les noms d’un cours, d’une certification ou d’un plan d’apprentissage s’affichent en minuscules.
-* Dans les versions précédentes d’Adobe Learning Manager, si un cours, une certification ou un plan d’apprentissage est supprimé et que sa notification est présente, il reste possible d’accéder au cours, à la certification ou au plan d’apprentissage en consultant sa notification. Dans cette version, nous nous assurerons qu’une publication supprimée n’est plus accessible. Si vous spécifiez l’id dans le répertoire /posts/{id} API et que l’ID de la publication n’est plus disponible, l’API affiche le message « Publication introuvable pour la ressource spécifiée ».
-* Dans l’API des élèves, le champ d’échéance d’achèvement ne s’affiche pas dans la réponse de l’API d’inscription.
-* Dans l’API Get Enrollment pour les élèves, les détails d’inscription s’affichent même si vous avez spécifié un ID d’instance incorrect.
+### Modifications de l’archivage des accès de connexion et du rapport d’audit utilisateur pour l’API de tâche
 
-## Problèmes connus dans cette version
+Avec cette version, l’API de tâche conserve le rapport d’accès de connexion pendant cinq trimestres et le rapport d’audit de l’utilisateur pendant six mois. Si vous souhaitez télécharger les données antérieures à cette période, vous devez transmettre le paramètre archive en spécifiant trimestre et année. Reportez-vous à l’exemple de charge utile.
 
-* Une nouvelle inscription ou la mise à jour d’une inscription échoue si un plan d’apprentissage flexible est inclus dans un autre plan d’apprentissage flexible.
-* L’URL de relevés de notes n’affiche pas les enregistrements de session dans les sessions Adobe Connect.
-* Un élève peut répondre à un questionnaire hors ligne dans l’application mobile même en cas d’échec.
+```
+{
+    "data": {
+        "type": "job",
+        "attributes": {
+            "description": "description of your choice",
+            "jobType": "generateLoginAccessReport",
+            "payload": {
+                "fromDate": "2023-04-01T18:30:00.000Z",
+                "toDate": "2023-04-30T18:30:00.000Z",
+                "archive": {
+                    "quarter": "4",
+                    "year": "2021"
+                }
+            }
+        }
+    }
+}
+```
 
-## Configuration requise
+Si vous tentez de télécharger le fichier **Accès à la connexion** rapport qui dépasse cinq trimestres, un message d’erreur s’affiche. Un message d’erreur similaire s’affiche si vous tentez de télécharger le fichier **Audit de l’utilisateur** rapport qui va au-delà de six mois.
 
-[Configuration requise pour Learning Manager](system-requirements.md)
+## Bogues corrigés dans cette mise à jour {#bug-fixes}
+
+* Lorsqu&#39;un élève est inscrit à un cours, puis tente de s&#39;inscrire à un autre cours, un message d&#39;avertissement s&#39;affiche.
+* Un groupe d’utilisateurs, même après sa suppression, est visible dans la recherche.
+* Lorsque les utilisateurs déclenchent de nombreux relevés de notes d’élèves avec une grande quantité de données, la file d’attente des relevés de notes des élèves est bloquée et empêche toute nouvelle demande.
+* Si un compte enfant demande à son compte parent de partager un rapport, le compte parent ne peut pas le faire.
+* Les URL d’un cours et d’un parcours d’apprentissage sont redirigées vers des emplacements incorrects.
+* Un élève consulte par intermittence l&#39;instance de cours d&#39;un autre cours en cliquant sur le lien du cours sur la page du catalogue.
+* Le **Se désinscrire** le bouton ne s’affiche pas comme prévu après la première inscription, mais il s’affiche après une actualisation.
+* Vous ne pouvez pas enregistrer le contenu ou un quiz dont le nom comporte un espace vide.
+* Dans les cours approuvés par le responsable, vous pouvez réinscrire des élèves à un groupe d’utilisateurs.
+* Dans certains cas, si vous tentez d’ajouter un champ actif supplémentaire, le message d’erreur « Impossible d’enregistrer les champs actifs » s’affiche.
+* Le texte déborde dans le nom d&#39;un cours à l&#39;intérieur d&#39;une carte de cours dans la section Cours associés.
+* Après le changement d&#39;instance et l&#39;inscription d&#39;un élève à l&#39;instance, les anciennes instances existent toujours dans le calendrier Outlook.
+* Lorsqu&#39;un élève d&#39;un compte de pairs tente de sélectionner la miniature d&#39;un cours, un message d&#39;erreur s&#39;affiche.
+* Lorsque les élèves s&#39;inscrivent à un cours, ils reçoivent plusieurs notifications pour l&#39;inscription.
+* Si un utilisateur modifie manuellement le nom des catalogues créés dans un connecteur, de nouveaux catalogues sont créés et les cours sont publiés dans les catalogues incorrects.
+* Les utilisateurs appartenant à des comptes inactifs reçoivent toujours des e-mails d’abonnement.
+
+### Correctifs de bugs liés à l’API
+
+* Le GET d’API/les utilisateurs ne récupèrent pas les détails d’un responsable.
+* Dans un compte, les utilisateurs ont été créés via une importation d’utilisateur FTP planifiée pendant un temps d’arrêt planifié.
+* Dans l&#39;application mobile ou le mode immersif, après avoir supprimé ou retiré une instance de cours et sélectionné l&#39;instance active suivante, le **Enregistrer les intérêts** au lieu de s’afficher **S’inscrire**.
+* Lorsqu&#39;un élève d&#39;un compte de pairs tente de sélectionner la miniature d&#39;un cours à l&#39;aide de l&#39;API d&#39;objet d&#39;apprentissage, l&#39;erreur 403 Interdit s&#39;affiche.
+
+## Configuration système
+
+Afficher [Configuration requise pour Adobe Learning Manager](system-requirements.md).
 
 ## Versions précédentes d’Adobe Learning Manager
 
-<!--* [November 2023 release](whats-new-november-2023.md)-->
+* [Version de novembre 2023](whats-new-november-2023.md)
 * [Version de juillet 2023](whats-new-2023-july.md)
-* [Version d’avril 2023](whats-new-2023-april.md)

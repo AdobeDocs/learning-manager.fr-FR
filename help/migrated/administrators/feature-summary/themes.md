@@ -3,10 +3,10 @@ description: Thèmes de couleur et image de marque dans Learning Manager
 jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
-source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 60%
+source-wordcount: '1195'
+ht-degree: 45%
 
 ---
 
@@ -85,6 +85,39 @@ Cliquez sur **[!UICONTROL Aperçu en direct]** dans le coin inférieur gauche de
 Sélectionnez le thème de votre choix dans la liste déroulante, réglez les paramètres et cliquez sur **[!UICONTROL Aperçu]** pour afficher en direct les modifications de votre application. Désormais, vous pouvez parcourir toutes les fonctions de l&#39;application et constater les modifications. Vous pouvez également modifier vos rôles tout en visionnant l&#39;aperçu en direct. Une fois que vous êtes satisfait des modifications, vous pouvez revenir à la fonctionnalité contextuelle Aperçu du thème en direct et cliquer sur **[!UICONTROL Appliquer le thème]**.
 
 Lorsque vous prévisualisez les modifications en direct, la fenêtre d&#39;aperçu en direct du thème s&#39;affiche toujours dans la partie inférieure de l&#39;écran. Vous pouvez réduire la fenêtre.
+
+## Identité visuelle multiple {#multiple-branding}
+
+Voici comment mettre en œuvre plusieurs stratégies de marque :
+
+1. Dans l’application d’administration, sélectionnez **Branding** dans le volet de gauche.
+1. Sélectionner **Modifier** dans la section Identité visuelle multiple.
+1. Sélectionnez le bouton bascule et activez-le.
+
+### Utilisateurs internes
+
+1. Sélectionnez un champ actif dans la liste déroulante.
+1. En fonction de la sélection, vous pouvez modifier le nom de l’organisation et charger un nouveau logo pour les utilisateurs.
+
+### Utilisateurs externes
+
+1. Sélectionnez un champ actif dans la liste déroulante.
+1. En fonction de la sélection, vous pouvez modifier le nom de l’organisation et charger un nouveau logo pour les utilisateurs.
+
+>[!NOTE]
+>
+>Les utilisateurs internes peuvent avoir des champs actifs comme les utilisateurs externes (par exemple, l’administrateur doit ajouter le multi-branding pour les utilisateurs internes et les utilisateurs externes séparément en sélectionnant les valeurs de champ actif séparément).
+
+#### Points importants
+
+* Un administrateur peut ajouter le branding à plusieurs niveaux pour cette valeur de champ actif et l’utilisateur externe peut se connecter avec différents mécanismes (SSO unique (Okta, Mini orange), Connexion par réseau social) et vérifier si le branding multiple est applicable.
+* Un utilisateur externe a un champ actif et une valeur de champ actif comme l’utilisateur interne : même s’il est partagé, il doit être spécifié séparément dans le multi-branding par l’administrateur. Une fois appliqué, l’utilisateur externe peut se connecter avec différents mécanismes (SSO Single (Okta, Mini orange), Social Login) et vérifier si le multi-branding est applicable.
+* Un utilisateur externe déplacé d’un profil à un autre : le déplacement de l’utilisateur externe d’un profil à un autre n’affectera pas la valeur du champ actif pour l’utilisateur, sauf si la valeur du champ actif est modifiée/supprimée par l’administrateur ou l’utilisateur externe lors de la connexion ou de l’enregistrement
+
+>[!NOTE]
+>
+>Lorsque plusieurs marques sont définies pour les utilisateurs internes et externes, avec le même nom de champ actif, la même valeur de champ actif mais une configuration différente. Dans ce cas, il est recommandé aux clients d’utiliser le même paramètre de configuration (logo, thème, nom de l’organisation) pour éviter les différences.
+
 
 ## Personnalisation de votre compte {#customize}
 
