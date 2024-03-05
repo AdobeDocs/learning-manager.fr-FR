@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ En tant qu’instructeur, vous pouvez désormais filtrer les envois de fichiers 
 
 Afficher [Statut de la soumission](instructors/feature-summary/learners.md#filter-file-submissions) pour plus d’informations.
 
-### Améliorations de la liste de contrôle
+## Améliorations de la liste de contrôle
+
+### Liste de contrôle obligatoire
 
 Dans les versions actuelles d’Adobe Learning Manager, pour une liste de contrôle, la progression d’un module était autorisée même si un réviseur avait marqué les modules comme Échec. Dans cette version, un auteur peut effectuer une configuration pour empêcher la progression d’un élève s’il échoue à la liste de contrôle.
 
-#### Réévaluation de la liste de contrôle
+### Réévaluation de la liste de contrôle
 
 Dans le même workflow, vous pouvez, en tant qu’auteur, réévaluer un élève qui a échoué à une liste de contrôle. Sélectionnez l’option **Activer** dans la section Réévaluation, lors de la création d&#39;une liste de contrôle.
 
