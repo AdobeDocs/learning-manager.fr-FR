@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 2%
 
 ---
@@ -425,6 +425,10 @@ Avec cette version, l’API de tâche conserve le rapport d’accès de connexio
 ```
 
 Si vous tentez de télécharger le fichier **Accès à la connexion** rapport qui dépasse cinq trimestres, un message d’erreur s’affiche. Un message d’erreur similaire s’affiche si vous tentez de télécharger le fichier **Audit de l’utilisateur** rapport qui va au-delà de six mois.
+
+### API obsolètes
+
+Afficher [Dépréciations d’API dans Adobe Learning Manager](api-deprecations-list.md) pour obtenir la liste cumulée de toutes les API obsolètes du produit.
 
 ## Bogues corrigés dans cette mise à jour {#bug-fixes}
 
