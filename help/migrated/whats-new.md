@@ -3,10 +3,10 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
-ht-degree: 2%
+source-wordcount: '3259'
+ht-degree: 1%
 
 ---
 
@@ -276,13 +276,33 @@ Afficher [Statut de la soumission](instructors/feature-summary/learners.md#filte
 
 Dans les versions actuelles d’Adobe Learning Manager, pour une liste de contrôle, la progression d’un module était autorisée même si un réviseur avait marqué les modules comme Échec. Dans cette version, un auteur peut effectuer une configuration pour empêcher la progression d’un élève s’il échoue à la liste de contrôle.
 
-Pour plus d’informations, voir [Améliorations de la liste de contrôle](authors/feature-summary/courses.md#mandatory-checklist) dans Adobe Learning Manager.
+#### Réévaluation de la liste de contrôle
+
+Dans le même workflow, vous pouvez, en tant qu’auteur, réévaluer un élève qui a échoué à une liste de contrôle. Sélectionnez l’option **Activer** dans la section Réévaluation, lors de la création d&#39;une liste de contrôle.
+
+Afficher [Création d’une liste de contrôle](authors/feature-summary/courses.md#checklist-fail) pour plus d’informations.
 
 ## Autres améliorations
 
-### Modifications apportées à la liste de contrôle
+### Notifications par e-mail relatives à la session
 
-Lors de la création d’une liste de contrôle, vous pouvez sélectionner **Liste de contrôle obligatoire** case à cocher Cela empêche le module ou le cours de continuer si un élève ne parvient pas à la liste de contrôle.
+Dans les versions antérieures d’Adobe Learning Manager, un élève n’a pas effectué de courriers électroniques liés à la session, de mise à jour des détails de la session, d’invitation à la session et de rappel de session, lorsque :
+
+* Les élèves ont terminé un cours,
+* De nouvelles sessions sont ajoutées à un cours, ou
+* Des modifications ont été apportées aux sessions existantes.
+
+Dans la version de mars 2024 d’Adobe Learning Manager, les nouvelles modifications sont les suivantes :
+
+* Détails de la session mis à jour et invitation à la session (pour l’élève et l’instructeur)
+   * Pour les sessions à venir, envoyez des e-mails à **Détails de la session mis à jour**, **Invitation à une session** pour les élèves inscrits et les instructeurs actuels seront obsolètes. Pour les sessions précédentes, e-mails pour **Détails de la session mis à jour** et **Invitation à une session** pour les élèves inscrits et les instructeurs actuels resteront en l’état.
+* E-mails de rappel (pour l’administrateur et l’élève)
+   * Pour les sessions suivantes, uniquement **Rappel de session** des e-mails seront envoyés.
+
+>[!NOTE]
+>
+>Les e-mails ne dépendent pas de la fin de la session et du cours.
+
 
 ### Modifications apportées au site de référence AEM
 
