@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ Afficher l’étiquetage blanc dans [Application mobile Adobe Learning Manager](
 ### Évaluation de l’application
 
 Un élève peut fournir ses commentaires sur l’application Learning Manager d’Adobe pour améliorer encore l’expérience de l’application. Si l’élève note quatre étoiles ou plus, une fenêtre contextuelle s’affiche et lui demande d’évaluer l’application sur Play Store ou App Store.
+
+### Bluejeans a atteint sa fin de vie en février 2024
+
+Nous voulions vous informer que Bluejeans a atteint sa fin de vie (EOL) en février 2024. Après février 2024, Bluejeans ne recevra plus de mises à jour ni d’assistance. Nos équipes CSAM et support vous aideront pour toutes les questions ou préoccupations que vous pourriez avoir pendant cette période de transition.
+
+Afficher [Connecteurs dans Adobe Learning Manager](integration-admin/feature-summary/connectors.md) pour plus d&#39;informations sur la configuration des connecteurs.
 
 ## Modifications apportées aux API dans cette version
 
