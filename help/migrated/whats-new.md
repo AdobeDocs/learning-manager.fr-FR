@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
+source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3528'
 ht-degree: 1%
 
 ---
@@ -274,13 +274,32 @@ Afficher [Statut de la soumission](instructors/feature-summary/learners.md#filte
 
 ## Améliorations de la liste de contrôle
 
-### Liste de contrôle obligatoire
+Dans la version de mars 2024 d’Adobe Learning Manager, les améliorations apportées au workflow de liste de contrôle sont les suivantes :
 
-Dans les versions actuelles d’Adobe Learning Manager, pour une liste de contrôle, la progression d’un module était autorisée même si un réviseur avait marqué les modules comme Échec. Dans cette version, un auteur peut effectuer une configuration pour empêcher la progression d’un élève s’il échoue à la liste de contrôle.
+### Interdire la progression en cas d’échec d’une liste de contrôle
 
-### Réévaluation de la liste de contrôle
+Lors de la création d’une liste de contrôle, un auteur peut sélectionner **Activer** dans la section Liste de vérification obligatoire. Cela empêche un élève de continuer dans le module s’il échoue à la liste de contrôle. Ils ne peuvent poursuivre que s&#39;ils réussissent la liste de vérification.
 
-Dans le même workflow, vous pouvez, en tant qu’auteur, réévaluer un élève qui a échoué à une liste de contrôle. Sélectionnez l’option **Activer** dans la section Réévaluation, lors de la création d&#39;une liste de contrôle.
+Les examinateurs de la liste de contrôle, c&#39;est-à-dire les instructeurs ou les gestionnaires, peuvent ensuite vérifier l&#39;état de la liste de contrôle. Les réviseurs peuvent également réviser la liste de contrôle d’un élève dans l’ordre.
+
+### Réévaluation d&#39;une liste de contrôle
+
+Lors de la création d’une liste de contrôle, un auteur peut sélectionner **Activer** dans la section Réévaluation. Cela permet à un responsable ou à un instructeur de réévaluer un élève jusqu’à ce qu’il réussisse la liste de contrôle.
+
+Si le module est obligatoire, la case de réévaluation est cochée par défaut.
+
+Un instructeur ou un responsable peut également faire passer l’état d’une liste de contrôle de Échec à Réussite lorsque la réévaluation est activée.
+
+Sur la page Liste de contrôle, un instructeur peut voir le nombre d’élèves à l’état En attente. En tant qu’instructeur, vous pouvez évaluer un élève et le réussir ou l’échouer. Si un élève est dans un état d’échec, vous pouvez uniquement afficher la liste de contrôle lorsque la réévaluation n’est pas activée.
+
+Cela signifie que le **Activer** La case à cocher n&#39;a pas été sélectionnée dans la section Réévaluation lors de la création de la liste de contrôle. Si cette case est cochée, vous pouvez voir le bouton Afficher/Réévaluer sur la page Liste de contrôle de l’instructeur.
+
+Sélectionnez le bouton pour réévaluer un élève et le marquer comme réussi ou échoué.
+
+>[!NOTE]
+>
+>Ces deux fonctionnalités - Réévaluation et Définition de la liste de contrôle comme obligatoire - ne s’appliquent qu’aux modules nouvellement créés. Une fois qu’un cours est publié, il n’est plus possible d’activer/désactiver ces éléments.
+
 
 Afficher [Création d’une liste de contrôle](authors/feature-summary/courses.md#checklist-fail) pour plus d’informations.
 
