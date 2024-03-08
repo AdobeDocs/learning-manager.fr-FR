@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
-source-wordcount: '3983'
+source-wordcount: '3985'
 ht-degree: 66%
 
 ---
@@ -438,7 +438,7 @@ Activation ou désactivation des paramètres suivants :
 
 >[!NOTE]
 >
->Une fois le paramètre d’importation des compétences activé, la mise en page du compte ne peut pas être basculée vers le compte Classique, c’est-à-dire que le basculement vers un compte Classique est désactivé après le **Importation de compétences** est activée.
+>Une fois le paramètre d’importation des compétences activé, la mise en page du compte ne peut pas être basculée vers la vue Classique, c’est-à-dire que le basculement vers un compte Classique est désactivé après le **Importation de compétences** est activée.
 
 
 ## Recommandation basée sur l’IA
