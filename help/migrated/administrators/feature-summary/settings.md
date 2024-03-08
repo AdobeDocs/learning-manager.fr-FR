@@ -3,14 +3,13 @@ description: Découvrez les paramètres de compte Learning Manager que vous pou
 jcr-language: en_us
 title: Paramètres
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3815'
-ht-degree: 69%
+source-wordcount: '3980'
+ht-degree: 66%
 
 ---
-
-
 
 # Paramètres
 
@@ -421,10 +420,26 @@ Activation ou désactivation des paramètres suivants :
    <td>
     <p>Gestion de l’instructeur<br></p></td>
    <td>
-    <p>Activez ce paramètre pour restreindre la liste des instructeurs qui peuvent être sélectionnés lors de la création des sessions de salle de classe/salle de classe virtuelle Tous les utilisateurs avec le privilège instructeur ne peuvent être désignés que comme instructeur dans une session. Cette restriction ne s’applique pas aux workflows de migration.<br></p></td>
+    <p>Activez ce paramètre pour restreindre la liste des instructeurs qui peuvent être sélectionnés lors de la création des sessions de salle de classe/salle de classe virtuelle Tous les utilisateurs avec le privilège instructeur ne peuvent être désignés que comme instructeur dans une session. Cette restriction ne s’applique pas aux workflows de migration.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Importation des compétences</p>
+    </td>
+    <td>
+      <p>Si cette option est activée, vous pouvez choisir une source externe pour importer les compétences. Les compétences des ressources d’apprentissage existantes seront importées dans le référentiel de compétences une seule fois lors de l’exécution initiale. Pour toutes les importations ultérieures de ressources d’apprentissage, les compétences seront importées dans le référentiel de compétences uniquement pour les éléments nouvellement importés.
+      Une fois l’option activée, l’action est irréversible. Vous ne pouvez pas désactiver ou passer à une autre source ultérieurement.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Une fois le paramètre d’importation des compétences activé, la mise en page du compte ne peut pas être basculée vers la version classique. C’est-à-dire que le passage au compte classique est désactivé après l’activation de l’importation des compétences.
+
 
 ## Recommandation basée sur l’IA
 
@@ -578,6 +593,13 @@ Vous pouvez également ajouter le lieu à l’aide d’un fichier CSV. Le fichie
 * (région)
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Paramètres {#admin-classroom-settings}
+
+Sélectionner **Modifier** pour modifier les éléments suivants :
+
+* **Autoriser les auteurs à créer des emplacements**: une fois activé, tous les emplacements créés par les auteurs seront répertoriés sous l’onglet Tous les emplacements. Les élèves verront également ces emplacements sous les filtres Catalogue et Calendrier.
+* **Autoriser les auteurs à modifier et à supprimer des emplacements**: une fois cette option activée, les auteurs pourront modifier et supprimer tous les emplacements de salle de classe. Les modifications apportées par les auteurs seront répercutées sur l’ensemble de la plateforme, y compris dans les rapports.
 
 ## Forum aux questions {#frequentlyaskedquestions}
 

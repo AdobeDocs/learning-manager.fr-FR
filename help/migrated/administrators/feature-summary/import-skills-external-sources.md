@@ -3,13 +3,13 @@ jcr-language: en_us
 title: Importation de compétences à partir de sources externes
 description: Importez des compétences à partir de fournisseurs de contenu, tels que LinkedIn et Go1, à l’aide des connecteurs respectifs.  Les compétences importées seront ajoutées aux compétences définies par l’administrateur dans Learning Manager et seront disponibles pour les auteurs pendant le processus de création du cours.
 contentowner: saghosh
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '452'
+ht-degree: 1%
 
 ---
-
 
 # Importation de compétences à partir de sources externes
 
@@ -23,6 +23,23 @@ Suivez les étapes de la procédure pour activer l’importation de compétences
 1. Sélectionner **Généralités**.
 1. Dans le panneau **Importation des compétences** section, sélectionner **Activer**. Si cette option est activée, vous pouvez choisir une source externe à importer **Compétences**. Les compétences des ressources d’apprentissage existantes seront importées dans le référentiel de compétences une seule fois lors de l’exécution initiale. Pour toutes les importations ultérieures de ressources d’apprentissage, les compétences seront importées dans le référentiel de compétences uniquement pour les éléments nouvellement importés.
 1. Sélectionnez un fournisseur de contenu dans la liste déroulante.
+
+En tant qu’administrateur, vous ne pouvez importer qu’une seule compétence en tant que source.
+
+### Niveau de compétence par défaut
+
+Le niveau de compétence par défaut est un et le crédit est de 10 après la migration des compétences. Un administrateur ultérieur peut modifier le crédit.
+
+Vous ne pouvez pas modifier le nom de la compétence, la description et ajouter des niveaux aux compétences externes. Vous pouvez toutefois ajouter un domaine, des badges et modifier des crédits.
+
+#### Modifications des rapports
+
+Nous avons ajouté une nouvelle colonne **Source** avec des valeurs - Interne, LinkedIn Learning, Go1, qui indique la source de l’importation des compétences.
+
+Les compétences récemment ajoutées figureront en tête de liste.
+
+Sur la page des paramètres du cours, nous avons ajouté une nouvelle colonne **Attribué par** contenant des valeurs, Internal et Content Provider.
+
 
 ## Workflow d’administration de l’intégration
 
