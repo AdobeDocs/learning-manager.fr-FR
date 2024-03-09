@@ -3,14 +3,13 @@ description: Les événements se produisant dans votre activité de formation d�
 jcr-language: en_us
 title: Modèles de courriers électroniques
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 58%
 
 ---
-
-
 
 # Modèles de courriers électroniques
 
@@ -219,6 +218,14 @@ Vous pouvez également personnaliser les éléments suivants :
 * Modifiez le pied de page de l’e-mail. La zone de pied de page contient des variables prédéfinies pour l’URL du compte, la signature et tout texte libre ajouté par l’utilisateur.
 
 Les modèles prennent également en charge des fonctions de modification avancées, telles que la conservation de la mise en forme lorsque le contenu est copié et collé depuis et vers Microsoft Word.
+
+### Configuration d’instances
+
+Dans cette formation, vous apprendrez à configurer les paramètres par défaut des instances, à ajouter une nouvelle instance, à retirer et rouvrir une instance, et à configurer des modèles de courrier électronique pour une instance.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Invitations en ligne {#inlineinvitations}
 

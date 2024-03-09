@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Catalogues
 description: 'Les catalogues sont un ensemble de formations : cours, programmes d’apprentissage et certifications. Les catalogues vous permettent d’offrir aux élèves un accès à un ensemble personnalisé d’objets d’apprentissage. Vous pouvez associer les objets d’apprentissage à un catalogue pendant la création d’un nouveau catalogue.'
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # Catalogues
 
@@ -132,6 +131,14 @@ Vous pouvez également supprimer plusieurs catalogues.
 Un administrateur peut partager des catalogues avec les utilisateurs internes de l’entreprise ou avec tous les utilisateurs externes. Toutefois, le partage est exclusif. En d’autres termes, un catalogue partagé en interne ne peut pas être partagé avec les groupes externes et vice versa.
 
 Les objets d’apprentissage pris en charge dans les catalogues que vous pouvez partager sont les cours, les programmes d’apprentissage, les assistances à la tâche et les certifications.
+
+### Partage de catalogues
+
+Cette formation vous apprendra à partager des catalogues avec des groupes d’utilisateurs internes et des comptes Adobe Learning Manager externes.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Partage du catalogue en interne {#int}
 
@@ -340,4 +347,3 @@ Une fois que vous avez créé des étiquettes de catalogue, vous pouvez les appl
 Désactivez le catalogue par défaut et activez uniquement le catalogue qui a été créé et auquel les utilisateurs externes ont accès.
 
 +++
-

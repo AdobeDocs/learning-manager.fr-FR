@@ -3,14 +3,13 @@ description: Découvrez les rapports liés au rôle d’administrateur dans l’
 jcr-language: en_us
 title: Rapports
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 65%
+source-wordcount: '6624'
+ht-degree: 64%
 
 ---
-
-
 
 # Rapports
 
@@ -580,6 +579,14 @@ Lors de la création d’un compte d’homologue, si vous n’avez pas sélectio
 
 Vous pouvez obtenir vos rapports favoris par courrier électronique en vous abonnant.
 
+### Configuration des abonnements aux e-mails
+
+Dans cette formation, vous apprendrez à configurer des abonnements par e-mail pour les rapports de tableau de bord.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+
 Entrée **[!UICONTROL Rapports]** , cliquez sur  **[!UICONTROL Abonnement]** onglet. La page Abonnement aux rapports s’affiche.
 
 Pour sélectionner le nom du rapport dans la liste déroulante, commencez à saisir le nom du rapport dans le champ Rapports. Sélectionnez la fréquence du courrier électronique dans la liste déroulante. Vous pouvez ajouter l’objet du courrier électronique et fournir un autre ID de courrier électronique.
@@ -600,6 +607,7 @@ Vous pouvez télécharger les types de rapport suivants :
 * Piste d’audit de l’utilisateur
 * Rapport de connexion/d’accès
 * Transcriptions de ludification
+* Piste d’audit de ludification
 
 ## Relevés de notes de l&#39;élève {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Les administrateurs peuvent télécharger une transcription de ludification au f
 
    Lorsque l’administrateur réinitialise la ludification, tous les points de l’élève sont réinitialisés en conséquence.
 
+## Rapport de piste d’audit de ludification {#gamification-audit-trail}
+
+Ce rapport contient l’historique et les raisons des points de ludification des élèves obtenus pour chaque règle.
+
+### Télécharger le rapport
+
+1. Sélectionnez l’URL de la piste d’audit de ludification.
+1. Sur la **Piste d’audit de ludification** fenêtre contextuelle, sélectionnez la plage de dates.
+1. Sélectionner **Générer**.
+
+Le rapport est téléchargé au format CSV. Le fichier contient les colonnes suivantes :
+
+* Nom
+* E-mail/UUID,
+* Statut
+* Action
+* Points,
+* Points d’équilibre
+* Règle/Tâche
+* Sous-tâche Règle/Tâche,
+* Détails de la règle/tâche
+* Type,
+* Nom,
+* Nom de l’instance Date d’obtention (fuseau horaire UTC)
+* Heure de début de la règle/tâche
+* Heure de fin de la règle/tâche
+
 ## Rapport d’inscription et de désinscription {#enrollmentandunenrollmentreport}
 
 Les administrateurs et les responsables peuvent extraire un rapport des élèves qui ont été inscrits et désinscrits. En tant qu’administrateur, vous pouvez afficher tout élève, administrateur ou responsable qui a été inscrit ou désinscrit d’une instance d’un cours, d’un programme d’apprentissage ou d’une certification et exporter le rapport. En tant que responsable, vous ne pouvez récupérer qu’un rapport des membres de votre équipe. En tant que responsable, vous ne pouvez pas voir les élèves supprimés ou votre propre nom dans l’application du responsable en tant qu’élève inscrit ou non inscrit.
@@ -900,7 +935,7 @@ Le rapport contiendra les champs suivants :
 ![](assets/more-options.png)
 *Options supplémentaires*
 
-## Rapport récapitulatif de la session
+## Rapport récapitulatif de la session {#session-summary-report}
 
 Le rapport récapitulatif de la session contient toutes les sessions prévues pour un élève à une date spécifiée.
 
@@ -925,17 +960,17 @@ Le fichier CSV téléchargé contient les champs suivants :
 * Nombre de sièges
 * Lieu
 * Nom d’instance
-
 * Nom du cours
 * ID du cours
 * Nom de l’instructeur
 * E-mail de l&#39;instructeur
 * Nombre d’inscriptions
-
 * Type de session
 * Limite de liste d’attente
 * Nombre d’utilisateurs en liste d’attente
 * E-mails des utilisateurs en liste d’attente
+* Informations sur le lieu
+* Région de l’emplacement
 
 ## Rapport sur l’utilisation de l’instructeur
 

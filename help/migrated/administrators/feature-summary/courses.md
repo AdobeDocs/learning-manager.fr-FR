@@ -3,14 +3,13 @@ description: Ce document fournit une aide destinée au rôle d’administrateur 
 jcr-language: en_us
 title: Création de modules de cours, d’instances et de programmes d’apprentissage
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
+source-wordcount: '4604'
 ht-degree: 65%
 
 ---
-
-
 
 # Création de modules de cours, d’instances et de programmes d’apprentissage
 
@@ -23,6 +22,16 @@ Les auteurs créent des cours. Les élèves peuvent prendre des cours et les adm
 Les auteurs créent des cours. Les élèves peuvent ensuite prendre des cours et les administrateurs peuvent suivre les performances des élèves selon le nombre de cours suivis. Les administrateurs peuvent afficher les cours créés par les auteurs et mener à bien certaines activités comme décrit dans cette section. En tant qu’administrateur, vous pouvez créer des programmes d’apprentissage uniques avec un ensemble prédéfini de cours destinés aux élèves.
 
 ## Création de l’instance d’un cours {#createinstanceofacourse}
+
+### Gestion des instances
+
+Dans cette formation, vous apprendrez à modifier les détails et les propriétés de l&#39;instance.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+
+### Création d’une instance
 
 Une fois qu’un auteur a créé un cours, vous pouvez créer des instances de ce cours. En créant des instances d’un cours, vous pouvez offrir le même cours à vos élèves à différentes périodes. Les élèves peuvent choisir n’importe quelle instance et s’y inscrire. Pour chaque instance, il est possible de configurer un jeu de badges, un retour d’informations et d’autres paramètres.
 
@@ -105,6 +114,14 @@ Pour envoyer aux élèves inscrits des e-mails au niveau de l’instance :
 1. Après avoir cliqué sur **[!UICONTROL Enregistrer]**, un message de confirmation s’affiche pour confirmer la création de l’annonce. Pour publier l’annonce, cliquez sur **[!UICONTROL Publier maintenant]**.
 
    ![Annonce créée avec succès](assets/announcement-successful.png)
+
+### Inscription d’élèves à des cours
+
+Dans cette formation, vous apprendrez à vous inscrire, à vous désinscrire et à vous réinscrire des élèves.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ### Inscrire des élèves dans diverses instances
 
