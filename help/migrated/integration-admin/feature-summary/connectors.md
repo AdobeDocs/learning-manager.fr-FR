@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '15183'
+source-wordcount: '15243'
 ht-degree: 64%
 
 ---
@@ -1946,15 +1946,22 @@ Pour plus d’informations, voir  [**Installer le connecteur de Microsofts Teams
 
 ## Accès aux données de formation
 
+
+>[!IMPORTANT]
+>
+>Cette fonctionnalité spécifique est disponible uniquement si Adobe Learning Manager est vendu en tant que module complémentaire à Adobe Experience Manager. Les données du cours seraient périmées en 24 heures.
+
+
 >[!NOTE]
 >
->**Cette fonctionnalité spécifique est disponible uniquement si Adobe Learning Manager est vendu en tant que module complémentaire à Adobe Experience Manager.**
+>La section présente le fonctionnement de l’infrastructure, mais pour créer une expérience sans tête ou AEM sans connexion, veuillez nous contacter. Nous vous proposerons la bonne approche en fonction de votre cas d&#39;utilisation. Cette fonctionnalité n’est actuellement pas disponible en libre-service.
+
 
 Le connecteur Training Data Access permet à votre interface utilisateur personnalisée basée sur AEM Sites de récupérer et de rendre les informations de formation aux élèves. Il facilite et accélère la recherche.
 
 Ce connecteur exporte des métadonnées de formation vers une solution de stockage et d’extraction de données. Vous pouvez ensuite configurer votre interface AEM Sites pour utiliser ces deux services afin de récupérer les données de formation, de rendre des pages Web et de fournir aux élèves une fonctionnalité optimisée de recherche de formation.
 
-Par exemple, une interface AEM Sites non connectée peut utiliser les métadonnées exportées pour aider un élève à rechercher, parcourir et accéder aux pages de formation qui affichent des informations de formation
+L’article explique le fonctionnement de l’infrastructure, mais pour créer une expérience sans tête ou AEM sans connexion, veuillez nous contacter. Nous vous proposerons la bonne approche en fonction de votre cas d&#39;utilisation. Cette fonctionnalité n’est actuellement pas disponible en libre-service.
 
 Activez ce connecteur pour créer et afficher vos pages Web AEM Sites, et proposez des expériences personnalisées à vos élèves depuis AEM, où les informations sur les cours sont récupérées à l’aide d’une API publique (système LMS sans tête).
 

@@ -1,10 +1,11 @@
 ---
 title: Expérience hors connexion pour les élèves
 description: Le portail natif d’Adobe Learning Manager prend en charge un mode d’accès non connecté au site de formation. Lorsque ce mode est activé, les élèves peuvent découvrir et accéder au site de formation et consulter divers cours et contenus disponibles. L’expérience hors connexion permet aux élèves de parcourir les cours sans être connectés à un portail.
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 43%
+source-wordcount: '581'
+ht-degree: 41%
 
 ---
 
@@ -30,7 +31,7 @@ Adobe Learning Manager - Les API des élèves vous permettent de créer une exp�
 
 >[!IMPORTANT]
 >
->Ils ne doivent pas être utilisés tels quels pour tout type de récupération de données afin de prendre en charge des utilisateurs/utilisateurs partagés non connectés ou tout autre cas de ce type.
+>Ils ne doivent pas être utilisés tels quels pour tout type de récupération de données afin de prendre en charge des utilisateurs/utilisateurs partagés non connectés ou tout autre cas de ce type. Pour créer une expérience sans tête ou AEM sans connexion, contactez-nous. Nous vous proposerons la bonne approche en fonction de vos besoins.
 
 Les cas d’utilisation non enregistrés nécessitent une manipulation spéciale.
 
