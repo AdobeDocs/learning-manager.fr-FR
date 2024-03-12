@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15243'
+source-wordcount: '15334'
 ht-degree: 64%
 
 ---
@@ -745,6 +745,12 @@ L’exportation des compétences d’utilisateur permet aux utilisateurs d’exp
 >[!NOTE]
 >
 >Les compétences de plusieurs comptes Learning Manager ne peuvent pas être exportées simultanément à l’aide du même compte Workday.
+
+#### Points importants
+
+* Assurez-vous que l’UUID, l’adresse e-mail et le nom de l’employé sont uniques dans plusieurs intégrations Workday. Des valeurs incorrectes entraîneront l’échec de la connexion.
+* Le champ UUID une fois renseigné via Workday le ne peut pas être supprimé par un client confronté à l’administrateur LMS. Si vous souhaitez modifier la valeur, contactez l’équipe d’intégration ou d’assistance d’Adobe Learning Manager.
+* L’option Purge utilisateur peut également ne pas fonctionner, car elle ne prend en charge que 50 utilisateurs à purger par exécution. Faites preuve d&#39;une extrême prudence lors du chargement des utilisateurs via les UUID.
 
 ### Planification {#Scheduling-1}
 
