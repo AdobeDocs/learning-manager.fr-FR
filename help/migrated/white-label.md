@@ -4,7 +4,7 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
+source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -145,9 +145,7 @@ Les éléments suivants peuvent être personnalisés :
 
   <td>
 
-  <p>L’administrateur d’intégration de votre compte fournit les détails lors de l’enregistrement de l’application. L’administrateur de l’intégration doit utiliser les éléments suivants : * learner:read, learner:write en tant que rôle * application interne name://redirect en tant qu’URL de redirection
-
-  </p></td>
+  <p>L’administrateur d’intégration de votre compte fournit les détails lors de l’enregistrement de l’application. L’administrateur de l’intégration doit utiliser les éléments suivants :<ul><li>learner:read, learner:write as role</li><li>application interne name://redirect comme URL de redirection</li></ul></p></td>
 
   </tr>
 

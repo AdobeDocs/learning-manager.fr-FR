@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Prise en main en tant qu’élève
 description: Utilisez la page de prise en main pour parcourir les principaux parcours d’apprentissage d’Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 77%
 
 ---
-
-
 
 # Prise en main en tant qu’élève
 
@@ -26,7 +25,7 @@ Après vous être connecté en tant qu’élève, vous pouvez voir les widgets s
 
 **Mon apprentissage** : vous pouvez afficher et trier les objets d’apprentissage par type et par échéance. Cliquez sur le cercle dans le widget Mon apprentissage pour aller directement au type d’objet d’apprentissage ou pour voir les objets d’apprentissage par échéance.
 
-**Mes compétences** : vous pouvez également voir une carte des compétences en haut à droite de la page. Refer  [table des compétences](skills-levels.md)pour plus d’informations.
+**Mes compétences** : vous pouvez également voir une carte des compétences en haut à droite de la page. Refer  [table des compétences](skills-levels.md) pour plus d’informations.
 
 **Widget Objet d’apprentissage** : il se situe juste au-dessous de Mon apprentissage et affiche les objets d’apprentissage de l’utilisateur. Sous Mon apprentissage, vous pouvez afficher tous les  [cours](courses.md),  [programmes d’apprentissage](learning-programs.md) et  [certifications](certifications.md) que vous avez inscrits ou qui vous ont été attribués. Vous pouvez directement commencer à utiliser ou revisiter un objet d’apprentissage à partir de ce widget.
 
