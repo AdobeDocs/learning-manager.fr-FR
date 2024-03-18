@@ -1,15 +1,14 @@
 ---
-description: Manuel de référence pour les administrateurs d’intégration qui souhaitent migrer leur système LMS vers le LMS Learning Manager.
+description: Manuel de référence pour les administrateurs d’intégration qui souhaitent migrer un LMS existant vers le LMS Learning Manager.
 jcr-language: en_us
 title: Manuel de migration
-source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
+exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
+source-git-commit: 0a5c51c6d56de2c9e2404ba6ddac5a82a62174a5
 workflow-type: tm+mt
 source-wordcount: '3614'
 ht-degree: 73%
 
 ---
-
-
 
 # Manuel de migration
 
@@ -576,4 +575,3 @@ Pour plus d’informations sur cette rubrique, reportez-vous au contenu de l’a
 
 * [FAQ sur le chargement des fichiers CSV](/help/migrated/administrators/add-users-in-bulk.md)
 * [Fonctionnalité d’aide pour l’ajout d’utilisateurs](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
-
