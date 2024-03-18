@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
+source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
 workflow-type: tm+mt
 source-wordcount: '3661'
 ht-degree: 1%
@@ -368,7 +368,7 @@ Afficher l’étiquetage blanc dans [Application mobile Adobe Learning Manager](
 
 ### Nouvelle colonne dans les fichiers CSV de migration
 
-Dans cette version, il existe une nouvelle colonne (facultative), uniqueLoId, dans les fichiers CSV de migration suivants.
+Dans cette version, il existe une nouvelle colonne facultative, uniqueLoId, dans les fichiers CSV de migration suivants.
 
 * certification.csv
 * course.csv
