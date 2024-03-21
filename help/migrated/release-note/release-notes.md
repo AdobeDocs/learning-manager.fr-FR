@@ -3,14 +3,13 @@ description: Découvrez les nouvelles fonctionnalités et améliorations d’Ado
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
 workflow-type: tm+mt
-source-wordcount: '26196'
+source-wordcount: '26225'
 ht-degree: 72%
 
 ---
-
-
 
 # Résumé des nouvelles fonctionnalités
 
@@ -24,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Mise à jour 95 : version de novembre 2023 d’Adobe Learning Manager
++++Mise à jour 96 : version de mars 2024 d’Adobe Learning Manager
 
 **Date de publication :** 18 novembre 2023
 
 ## Nouveautés de cette version
 
 Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new.md).
++++
+
++++Mise à jour 95 : version de novembre 2023 d’Adobe Learning Manager
+
+**Date de publication :** 18 novembre 2023
+
+## Nouveautés de cette version
+
+Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023).
 +++
 
 +++Mise à jour 94
