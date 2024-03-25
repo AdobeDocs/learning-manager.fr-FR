@@ -4,7 +4,7 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ Si vous utilisez un domaine personnalisé ou learningmanager\*.adobe.com en tant
 
 Reportez-vous aux liens suivants pour plus d’informations :
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Générer des notifications push
 
@@ -257,6 +256,7 @@ Procédez comme suit :
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 Si vous pouvez vous connecter au serveur, le certificat que vous avez créé est valide. Dans le fichier myapnappkey.pem, copiez les valeurs du certificat et de la clé privée.
 
 ### Notifications Push sur Android
@@ -324,5 +324,5 @@ L’équipe CSM partage la version avec le client.
 
 ## Éléments non personnalisables
 
-- Écran Mettre à jour le mot de passe
-- Écran Création d’un compte
+* Écran Mettre à jour le mot de passe
+* Écran Création d’un compte
