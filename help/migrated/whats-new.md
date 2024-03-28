@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -245,7 +245,7 @@ Lors du mappage des cours à un niveau de compétence, la liste des compétences
 
 ### Groupes d&#39;utilisateurs
 
-#### Page Administrateur - Élèves
+#### Page Administrateur : Élèves
 
 Lors de la recherche d’un utilisateur, le **Télécharger l’élève** et **Exportation** options télécharger le même rapport. En attendant, lors de la recherche d’un groupe d’utilisateurs, vous pouvez désormais télécharger des utilisateurs filtrés à partir de ce groupe d’utilisateurs. Lors de la recherche d’un groupe d’utilisateurs, le **Télécharger la liste des élèves** modifications apportées à **Télécharger la liste des élèves pour le groupe d’utilisateurs** Le **Exportation** télécharge à nouveau la liste complète.
 
