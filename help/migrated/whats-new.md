@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ Dans la page Administrateur, sélectionnez **Administrateur** > **Compétences**
 ## Modifications apportées à la création de salles de classe
 
 D’après [Paramètres administrateur](administrators/feature-summary/classroom.md#classroom-settings), vous, en tant qu’auteur, pouvez [création, modification et suppression d’emplacements](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >Lors de l’ajout d’emplacements et de libellés de catalogue, les auteurs (sur la page de création de cours) et les administrateurs (sur la page d’instance) verront une liste auto-remplie d’emplacements et de libellés de catalogue, respectivement.

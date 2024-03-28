@@ -3,14 +3,13 @@ description: Créez, attribuez et modifiez des compétences et niveaux.
 jcr-language: en_us
 title: Création et modification de compétences et niveaux
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # Création et modification de compétences et niveaux
 
@@ -32,7 +31,7 @@ En tant qu’administrateur, vous pouvez réaliser les actions suivantes :
 
 Pour ajouter une compétence, suivez les étapes ci-dessous :
 
-1. Dans le volet de gauche, cliquez sur **[!UICONTROL Compétences]**. Donnez un nom et une description à la compétence.
+1. Dans le volet de gauche, sélectionnez **[!UICONTROL Compétences]** > **[!UICONTROL Ajouter]** > **[!UICONTROL Ajouter des compétences]**. Donnez un nom et une description à la compétence.
 
    ![](assets/add-skill-name-anddescription.png)
 

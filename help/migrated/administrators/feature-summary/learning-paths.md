@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Parcours d’apprentissage
 description: Création de plans d’apprentissage pour les administrateurs de Learning Manager.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # Parcours d’apprentissage
 
@@ -132,9 +131,9 @@ Le **[!UICONTROL Permettre aux élèves de choisir des instances (parcours d’a
 
 Trois options s&#39;offrent à vous :
 
-1. **[!UICONTROL Tous les niveaux, cours et parcours d’apprentissage (sélectionnés par défaut)]:** L’élève reçoit des notifications pour tout cours incomplet, quel que soit le niveau dans un parcours d’apprentissage.
+1. **[!UICONTROL Tous les niveaux de compétence, cours et parcours d’apprentissage (sélectionnés par défaut)]:** L’élève reçoit des notifications pour tout cours incomplet, quel que soit le niveau dans un parcours d’apprentissage.
 1. **[!UICONTROL Parcours d’apprentissage racine]:** L’élève reçoit des notifications pour tout cours incomplet appartenant à un parcours d’apprentissage parent.
-1. **[!UICONTROL Parcours d’apprentissage et enfant de premier niveau uniquement]:** L’élève reçoit des notifications concernant tout cours incomplet qui est le premier enfant d’un parcours d’apprentissage parent.
+1. **[!UICONTROL Parcours d’apprentissage + enfants du premier niveau de compétence uniquement]:** L’élève reçoit des notifications concernant tout cours incomplet qui est le premier enfant d’un parcours d’apprentissage parent.
 
 Les rappels de notification sont déclenchés en fonction de l’option. Par défaut, l’option **[!UICONTROL Tous les niveaux, cours et parcours d’apprentissage]** est activé pour une instance.
 

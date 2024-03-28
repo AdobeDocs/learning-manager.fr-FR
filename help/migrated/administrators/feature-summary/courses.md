@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Création de modules de cours, d’instances et de programmes d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4604'
+source-wordcount: '4613'
 ht-degree: 65%
 
 ---
@@ -53,6 +53,7 @@ Pour créer une instance,
    * Cliquez sur **[!UICONTROL Afficher plus d’options]** pour afficher d’autres options d’échéance.
    * **[!UICONTROL Échéance d’inscription]:** Il s&#39;agit de la date à laquelle un élève doit s&#39;inscrire à un objet d&#39;apprentissage en cas d&#39;auto-inscription.
    * **[!UICONTROL Échéance de désinscription]:** Vous pouvez choisir de restreindre la désinscription par l&#39;élève lui-même en fixant une échéance de désinscription.
+   * **[!UICONTROL Fuseau horaire]:** Rechercher, puis sélectionner **[!UICONTROL Fuseau horaire]** dans la liste déroulante.
 
    L’administrateur peut décider de fixer ou non une date d’échéance d’achèvement pour un cours ou un programme d’apprentissage en fonction des besoins. Toutefois, il est recommandé d’en fixer une pour les formations en salle de classe/en salle de classe virtuelle.
 
@@ -99,13 +100,13 @@ Pour restaurer une instance retirée et la replacer en état d’activation, pro
 
 Pour envoyer aux élèves inscrits des e-mails au niveau de l’instance :
 
-1. Sur la page Instances, sélectionnez les options d’une instance, puis cliquez sur **[!UICONTROL Envoyer un e-mail aux élèves inscrits]**.
+1. Sur la **[!UICONTROL Instances]** , sélectionnez les options sur n&#39;importe quelle instance, puis cliquez sur **[!UICONTROL Envoyer un e-mail aux élèves inscrits]**.
 
 ![e-mails au niveau de l’instance](assets/adhoc-email.png)
 
 *Envoyer un courrier électronique aux élèves inscrits à l’instance*
 
-1. Dans la boîte de dialogue Créer une annonce, sélectionnez Saisir comme e-mail. Spécifiez l’objet, saisissez le message, puis cliquez sur Enregistrer. La formation est automatiquement sélectionnée.
+1. Sur la **[!UICONTROL Créer une annonce]** , sélectionnez Texte comme adresse e-mail. Spécifiez l’objet, saisissez le message, puis cliquez sur **[!UICONTROL Enregistrer]**. La formation est automatiquement sélectionnée.
 
    ![Créer une annonce par e-mail](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ Le fichier Excel contient des feuilles de calcul pour chaque instance. Une feuil
 
 >[!NOTE]
 >
->Remarque : l’activation des inscriptions multiples entraîne l’ajout de plusieurs lignes au rapport du relevé de notes de l’élève pour chaque cours (une ligne pour chaque instance).
+>L’activation de l’inscription multiple entraîne l’ajout de plusieurs lignes au rapport de relevé de notes de l’élève pour chaque cours (une ligne par instance).
 >
 >Si la configuration de Reporting Automation ne prévoit qu&#39;une seule ligne par cours, vous devez effectuer les ajustements nécessaires avant d&#39;activer la fonction d&#39;inscription multiple.
 

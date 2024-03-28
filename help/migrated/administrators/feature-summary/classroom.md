@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Ajouter des emplacements de salle de classe
 description: Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 78%
+source-wordcount: '1240'
+ht-degree: 77%
 
 ---
-
-
 
 # Salle de classe
 
@@ -26,13 +25,14 @@ Vous pouvez ajouter un emplacement de salle de classe en utilisant l’interface
 
 1. Dans l’application Administration (interface utilisateur des rôles d’administrateur), cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Lieux de salle de classe]**.
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** bouton.
+1. Cliquez sur **[!UICONTROL Ajouter]** > **[!UICONTROL Nouvel emplacement]**.
 
 1. Dans la boîte de dialogue **[!UICONTROL Emplacement de salle de classe]**, entrez les informations suivantes :
 
-   * Saisissez le **[!UICONTROL Nom de l’emplacement de la salle de classe]**. Utilisez un nom unique. Sinon, Learning Manager affiche un message d’erreur.
+   * Saisissez le **[!UICONTROL Nom de l’emplacement]**. Utilisez un nom unique. Sinon, Learning Manager affiche un message d’erreur.
    * Saisissez la description de l’emplacement dans le champ **[!UICONTROL Informations de localisation]**. Ce champ est facultatif.
    * Saisissez l’**[!UICONTROL URL de localisation]**. L’élève peut voir ces informations dans les détails de la salle de classe. L’URL peut également être une URL d’emplacement de mappage, si nécessaire. Il s’agit d’un champ facultatif.
+   * Saisissez et sélectionnez l’option **[!UICONTROL Région d’emplacement]**. Ce champ est facultatif.
    * Saisissez le nombre de places disponibles dans le champ **[!UICONTROL Limite de siège]**. Cela indique la capacité en sièges de la salle de classe. Cette valeur peut être modifiée lors de la création de l’événement de formation dirigée par un instructeur.
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ La boîte de dialogue affiche les détails de chaque session, y compris le nom d
 
 Le **[!UICONTROL Sessions futures]** affichages de champ **zéro** lorsque la salle de classe n’est utilisée pour aucune session ou lorsqu’elle est associée à des sessions précédentes.
 
+**[!UICONTROL Limite de places]** - Affiche la capacité en sièges de la salle de classe.
+
 **URL d’emplacement** - URL fournie lors de la création de l’emplacement de la salle de classe.
 
 **Informations de localisation** - Les informations sur la salle de classe que vous avez fournies lors de sa création.
@@ -67,7 +69,7 @@ Le **[!UICONTROL Sessions futures]** affichages de champ **zéro** lorsque la sa
 
 Vous pouvez également ajouter un ou plusieurs emplacements de salle de classe en important un fichier CSV contenant les informations de la salle de classe.
 
-Entrée **[!UICONTROL Application d’administration]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Lieux de salle de classe]**, cliquez sur le bouton **[!UICONTROL Importer les emplacements au format CSV]** bouton. Accédez à l’emplacement contenant le fichier CSV et sélectionnez le fichier.
+Entrée **[!UICONTROL Application d’administration]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Lieux de salle de classe]** > **[!UICONTROL Ajouter]**, cliquez sur le bouton **[!UICONTROL Emplacements d’importation en bloc]** bouton. Accédez à l’emplacement contenant le fichier CSV et sélectionnez le fichier.
 
 Le fichier CSV utilise ces champs pour stocker des détails sur un ou plusieurs emplacements de classe :
 

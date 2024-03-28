@@ -3,14 +3,13 @@ description: En tant qu’administrateur, vous pouvez activer, désactiver et su
 jcr-language: en_us
 title: Surveillance et modération de l’Apprentissage par les réseaux sociaux en tant qu’administrateur
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # Surveillance et modération de l’Apprentissage par les réseaux sociaux en tant qu’administrateur
 
@@ -265,9 +264,9 @@ Vous disposez de quelques options supplémentaires :
 * **[!UICONTROL Répliquer]:** Cliquez sur ce bouton pour répliquer le titre et le sous-titre dans toutes les langues.
 * **[!UICONTROL Réinitialiser]:** Cliquez sur ce bouton pour revenir au titre et au sous-titre d’origine.
 
-Sur la page d’accueil de l’apprentissage par les réseaux sociaux, les informations fournies par l’administrateur s’affichent en tant qu’en-tête de page.
+  Sur la page d’accueil de l’apprentissage par les réseaux sociaux, les informations fournies par l’administrateur s’affichent en tant qu’en-tête de page.
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## Tendances {#trends}
 

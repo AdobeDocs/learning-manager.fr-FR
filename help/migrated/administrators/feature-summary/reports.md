@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6629'
 ht-degree: 64%
 
 ---
@@ -46,7 +46,7 @@ S&#39;il y a des gestionnaires internes de niveau racine, ils seront affichés l
 
 Tous les profils externes sont répertoriés après les profils internes (utilisateurs racine internes).
 
-Si un profil externe a un responsable, la hiérarchie du responsable s’affiche dans le panneau **[!UICONTROL Affichage des données pour]** liste déroulante. - L’utilisateur sera répertorié dans la hiérarchie du responsable dans toutes les pages de détails (Résumé de l’apprentissage, Conformité et État des compétences)
+Si un profil externe a un responsable, la hiérarchie du responsable s’affiche dans le panneau **[!UICONTROL Affichage des données pour]** liste déroulante. L’utilisateur sera répertorié dans la hiérarchie du responsable dans toutes les pages de détails (Résumé de l’apprentissage, Conformité et État des compétences)
 
 Si ce n’est pas le cas, tous les détails des utilisateurs individuels seront affichés dans la liste.
 
@@ -58,9 +58,9 @@ Pour afficher des détails plus précis sur les inscriptions des différentes é
 Lorsque vous cliquez sur une inscription, vous pouvez voir les élèves de chaque responsable et l’inscription à laquelle chaque objet d’apprentissage est associé. Vous pouvez également voir les détails de progression et d’achèvement de chaque élève.
 
 ![](assets/learners-for-a-manager.png)
-*Voir les élèves affectés à un responsable*
+*élèves affectés à un responsable*
 
-Cliquez sur une équipe et exportez son rapport sous la forme d’un fichier .csv. Un administrateur peut exporter le rapport pour n’importe quel utilisateur du groupe d’utilisateurs ou utilisateur individuel en sélectionnant le groupe d’utilisateurs ou l’utilisateur individuel, puis exporter les détails dans la liste déroulante Action.
+Cliquez sur une équipe et exportez son rapport sous la forme d’un fichier .csv. Un administrateur peut exporter le rapport pour n’importe lequel des utilisateurs du groupe d’utilisateurs ou de l’utilisateur individuel en sélectionnant le groupe d’utilisateurs ou l’utilisateur individuel, puis exporter les détails à partir du panneau **[!UICONTROL Action]** liste déroulante.
 
 En outre, vous pouvez voir un graphique à barres des compétences qui sont en cours et ont été acquises. Vous pouvez ajouter/supprimer des compétences que vous souhaitez afficher dans le graphique.
 
@@ -69,7 +69,7 @@ En outre, vous pouvez voir un graphique à barres des compétences qui sont en c
 
 Dans la visualisation finale, vous pouvez vérifier l’état de conformité des élèves et prendre les mesures appropriées.
 
-En outre, un administrateur peut afficher les données de formation individuelles dans le tableau de bord Conformité.
+En outre, un administrateur peut afficher des données de formation individuelles dans le panneau **[!UICONTROL Tableau de bord Conformité]**.
 
 Par exemple, l’Administrateur a identifié trois formations pour suivre la conformité. Learning Manager fournit un instantané de la conformité pour les trois formations en même temps.
 
@@ -617,7 +617,7 @@ Les relevés de notes des élèves dans les rapports Excel affichent les colonne
 
 En tant qu’administrateur, vous pouvez télécharger des rapports pour les cours. Procédez comme suit :
 
-1. Ouvrir **[!UICONTROL Rapports]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapports de cours]**.
+1. Ouvrir **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapports de cours]**.
 1. La boîte de dialogue **[!UICONTROL Rapport de cours]** s’affiche. Sélectionnez le cours dont vous souhaitez récupérer le rapport et cliquez sur **[!UICONTROL Afficher]**.
 
    ![](assets/course-reports.png)
@@ -657,13 +657,13 @@ En tant qu’administrateur, vous pouvez générer un rapport de toutes les anno
 
 Pour télécharger un rapport, suivez l’une de ces étapes :
 
-1. Ouvrir **[!UICONTROL Rapports]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapport Annonces]**. La boîte de dialogue **[!UICONTROL Génération d’une demande de rapport]** s’ouvre. Cliquez sur OK.
+1. Ouvrir **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapport Annonces]**. La boîte de dialogue **[!UICONTROL Génération d’une demande de rapport]** s’ouvre. Cliquez sur OK.
 1. [!UICONTROL **Annonce**] > [!UICONTROL **Actions**] > [!UICONTROL **Exporter le rapport**].
 
    ![](assets/announcements.png)
    *Rapport Annonces*
 
-1. Vous pouvez extraire un rapport pour une annonce spécifique en cliquant sur Exporter le rapport sous l’icône des paramètres.
+1. Vous pouvez extraire un rapport pour une annonce spécifique en cliquant sur **[!UICONTROL Exporter le rapport]** sous l’icône paramètres.
 
    ![](assets/announcements-specific-report.png)
    *Rapport pour des annonces spécifiques*
@@ -686,7 +686,7 @@ Le rapport extrait comprend les informations suivantes :
 
 Pour télécharger un rapport, effectuez l’une des opérations suivantes :
 
-* Ouvrir  **[!UICONTROL Rapports]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapports d’assistance à la tâche]**. La boîte de dialogue **[!UICONTROL Génération d’une demande de rapport]** s’affiche. Cliquez sur **[!UICONTROL OK]**.
+* Ouvrir  **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapports d’assistance à la tâche]**. La boîte de dialogue **[!UICONTROL Génération d’une demande de rapport]** s’affiche. Cliquez sur **[!UICONTROL OK]**.
 * Ouvrir **[!UICONTROL Assistance à la tâche]** > **[!UICONTROL Actions]** > **[!UICONTROL Exporter le rapport]**.
 
 ![](assets/job-aids.png)

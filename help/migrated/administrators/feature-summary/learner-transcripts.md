@@ -3,14 +3,13 @@ description: Téléchargez le relevé de notes de l’élève et gérez les rapp
 jcr-language: en_us
 title: Relevés de notes de l'élève
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # Relevés de notes de l&#39;élève
 
@@ -22,7 +21,7 @@ Adobe Learning Manager permet aux administrateurs d&#39;une organisation de g�
 
 1. Pour générer les relevés de notes des élèves, cliquez sur **[!UICONTROL Rapports]** dans le volet gauche de la connexion Administrateur.
 
-   L’administrateur accède à l’onglet Rapports Excel dans la page **[!UICONTROL Rapports]**.
+   L’administrateur accède à la section **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** tabulation dans le panneau **[!UICONTROL Rapports]** page.
 
 1. Cliquez sur le lien **[!UICONTROL Relevés de notes des élèves]**.
 

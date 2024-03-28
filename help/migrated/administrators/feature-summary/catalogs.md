@@ -4,7 +4,7 @@ title: Catalogues
 description: 'Les catalogues sont un ensemble de formations : cours, programmes d’apprentissage et certifications. Les catalogues vous permettent d’offrir aux élèves un accès à un ensemble personnalisé d’objets d’apprentissage. Vous pouvez associer les objets d’apprentissage à un catalogue pendant la création d’un nouveau catalogue.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -220,31 +220,31 @@ Toutes les modifications effectuées pour les objets d’apprentissage au niveau
    <td>
     <p><strong>Programme d’apprentissage</strong></p></td>
    <td>
-    <p>nom, description et autres champs de l'objet LP, sauf badgeId, retrait</p></td>
+    <p>Nom, description et autres champs de l'objet LP, sauf badgeId, retrait</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Certification</strong></p></td>
    <td>
-    <p>toutes les propriétés de l'objet de certification sauf badgeId, retrait de la certification</p></td>
+    <p>Toutes les propriétés de l'objet de certification sauf badgeId, retrait de la certification</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Badge</strong></p></td>
    <td>
-    <p>nom et retrait du badge</p></td>
+    <p>Nom et retrait du badge</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Catégorie </strong></p></td>
    <td>
-    <p>nom, description, couleur et retrait de la catégorie, ajout d'un nouveau niveau</p></td>
+    <p>Nom, description, couleur et retrait de la catégorie, ajout d'un nouveau niveau</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Assistance à la tâche</strong></p></td>
    <td>
-    <p>toutes les propriétés de l'objet jobAid</p></td>
+    <p>Toutes les propriétés de l'objet jobAid</p></td>
   </tr>
   <tr>
    <td>

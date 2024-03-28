@@ -3,14 +3,13 @@ description: Découvrez comment ajouter des utilisateurs ou des groupes d'utilis
 jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '4000'
-ht-degree: 63%
+ht-degree: 62%
 
 ---
-
-
 
 # Ajouter des utilisateurs et créer des groupes d’utilisateurs
 
@@ -610,7 +609,7 @@ Lors de l’ajout d’un utilisateur externe, dans la section **[!UICONTROL Ajou
 
 +++Comment créer des groupes d’utilisateurs personnalisés ?
 
-Cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** et sur la page Groupes d’utilisateurs, cliquez sur **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un groupe d’utilisateurs, ajoutez les utilisateurs individuellement et par équipe.
+Cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** et sur la page Groupes d’utilisateurs, cliquez sur **[!UICONTROL Ajouter]**. Dans la boîte de dialogue Ajouter un groupe d’utilisateurs, ajoutez les utilisateurs individuellement et en équipe.
 
 ![](assets/custom-user-group.png)
 

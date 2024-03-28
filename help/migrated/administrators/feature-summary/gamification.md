@@ -3,14 +3,13 @@ description: La ludification est l’utilisation de l’esprit et de la mécaniq
 jcr-language: en_us
 title: Ludification
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 70%
 
 ---
-
-
 
 # Ludification
 
@@ -76,7 +75,7 @@ Pour réinitialiser le score de l’élève et la configuration, cliquez sur Ré
 
 ## Désactivation de la ludification {#disablegamification}
 
-Cliquez sur [!UICONTROL **Ludification**] > [!UICONTROL **Fonctionnalité de ludification**]. Cela vous permet d’activer la fonction de ludification et le tableau des scores séparément pour vos élèves. Choisissez entre Activer pour les élèves internes et Activer pour les élèves externes selon les besoins, puis cliquez sur OK. Tous les points sont conservés lorsque vous réactivez la ludification.
+Cliquez sur [!UICONTROL **Ludification**] > **[!UICONTROL Paramètres]** > [!UICONTROL **Fonctionnalité de ludification**]. Cela vous permet d’activer la fonction de ludification et le tableau des scores séparément pour vos élèves. Choisissez entre Activer pour les élèves internes et Activer pour les élèves externes selon les besoins, puis cliquez sur OK. Tous les points sont conservés lorsque vous réactivez la ludification.
 
 ![](assets/gamification-feature.png)
 

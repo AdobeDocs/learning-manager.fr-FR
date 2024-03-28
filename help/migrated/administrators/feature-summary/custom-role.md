@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 64%
+source-wordcount: '2223'
+ht-degree: 65%
 
 ---
-
-
 
 # Rôles personnalisés
 
@@ -142,16 +141,16 @@ Un utilisateur avec un rôle personnalisé peut :
 * afficher le contenu des catalogues auxquels il a accès uniquement ;
 * accéder à n’importe quel objet d’apprentissage conformément aux autorisations du catalogue dont l’objet d’apprentissage fait partie.
 
-En tant qu’administrateur, vous pouvez :
+  En tant qu’administrateur, vous pouvez :
 
 * choisir plus d’un catalogue pour un rôle personnalisé ;
 * modifier les autorisations d’un catalogue à tout moment ;
 * supprimer les catalogues d’une portée à laquelle vous ne souhaitez plus accorder d’autorisations ;
 * accorder implicitement l’autorisation Lecture seule à un catalogue lorsque vous accordez des autorisations au catalogue.
 
-Le tableau ci-dessous illustre la façon dont les autorisations sont accordées.
+  Le tableau ci-dessous illustre la façon dont les autorisations sont accordées.
 
-<table>
+  <table>
     <tbody>
      <tr>
       <td>
@@ -222,17 +221,17 @@ Le tableau ci-dessous illustre la façon dont les autorisations sont accordées.
      </tr>
     </tbody>
    </table>
-1. **Utilisateurs :** utilisez cette option pour déterminer les utilisateurs auxquels ce rôle est attribué. Vous pouvez choisir un ou plusieurs utilisateurs à l’aide de la zone de recherche.
+1. **Utilisateurs :** utilisez cette option pour déterminer les utilisateurs auxquels ce rôle est affecté. Vous pouvez choisir un ou plusieurs utilisateurs à l’aide de la zone de recherche.
 
-**Ajouter des utilisateurs au chargement CSV de rôle personnalisé :** Pour ajouter des utilisateurs via le chargement CSV, ajoutez une colonne CustomRole au fichier .csv que l’administrateur a utilisé pour importer des utilisateurs. Entrez le rôle de l’utilisateur dans la colonne CustomRole pour les utilisateurs auxquels vous souhaitez attribuer un rôle personnalisé. Pour charger le fichier CSV, cliquez sur  **[!UICONTROL Ajouter > Charger un fichier CSV]**.
+   **Ajouter des utilisateurs au chargement CSV de rôle personnalisé :** Pour ajouter des utilisateurs via le chargement CSV, ajoutez une colonne CustomRole au fichier .csv que l’administrateur a utilisé pour importer des utilisateurs. Entrez le rôle de l’utilisateur dans la colonne CustomRole pour les utilisateurs auxquels vous souhaitez attribuer un rôle personnalisé. Pour charger le fichier CSV, cliquez sur  **[!UICONTROL Ajouter > Charger un fichier CSV]**.
 
-CustomRole columnNote :
+   CustomRole columnNote :
 
 * Vous ne pouvez pas rechercher des groupes d’utilisateurs.
 * Vous ne pouvez pas rechercher les utilisateurs auxquels le rôle d’administrateur a déjà été affecté.
 * L’affectation d’un nouveau rôle personnalisé à un utilisateur remplace le rôle personnalisé précédent de l’utilisateur.
 
-<!--![](assets/users.png)-->
+  <!--![](assets/users.png)-->
 
 * Un administrateur personnalisé ayant l’autorisation d’accéder à Paramètres pourra configurer la planification pour la synchronisation ou synchroniser les utilisateurs à partir de la source de données même s’ils n’ont pas l’autorisation d’accéder à l’entité Utilisateurs.
 * Si un administrateur personnalisé dispose d’une autorisation pour l’entité Utilisateurs, il peut s’affecter un rôle d’administrateur et devenir un administrateur standard.
