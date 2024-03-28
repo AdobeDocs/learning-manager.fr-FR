@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
+source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3764'
 ht-degree: 1%
 
 ---
@@ -230,11 +230,24 @@ Si le nombre d’utilisateurs d’un groupe d’utilisateurs est élevé, le **S
 Dans cette version, nous avons amélioré l’expérience de recherche. Les résultats de la recherche sont récupérés en fonction non seulement des métadonnées, mais également de la sémantique et de la recherche dans le contenu pour obtenir des résultats basés sur la précision, l’actualité et le contenu pertinent.
 
 Cette modification se traduit par :
+
 * Catalogue et page Mon apprentissage : l’action de survol du cours, du parcours d’apprentissage et de la certification a été supprimée.
 * Apparence de la barre de recherche.
 * Ajout de balises de filtre dans l’application d’apprentissage.
 
 Pour activer les fonctionnalités de recherche, contactez l’équipe CSAM d’Adobe Learning Manager.
+
+## Modifications de l&#39;interface utilisateur {#ui-changes}
+
+### Page de création de cours
+
+Lors du mappage des cours à un niveau de compétence, la liste des compétences est de recherche en premier. En d’autres termes, recherchez des compétences, et vous verrez une liste de compétences correspondant au terme recherché.
+
+### Groupes d&#39;utilisateurs
+
+#### Page Administrateur - Élèves
+
+Lors de la recherche d’un utilisateur, le **Télécharger l’élève** et **Exportation** options télécharger le même rapport. En attendant, lors de la recherche d’un groupe d’utilisateurs, vous pouvez désormais télécharger des utilisateurs filtrés à partir de ce groupe d’utilisateurs. Lors de la recherche d’un groupe d’utilisateurs, le **Télécharger la liste des élèves** modifications apportées à **Télécharger la liste des élèves pour le groupe d’utilisateurs** Le **Exportation** télécharge à nouveau la liste complète.
 
 ## Modifications apportées aux rapports
 
