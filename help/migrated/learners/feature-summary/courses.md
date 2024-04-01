@@ -3,14 +3,13 @@ description: Lisez cet article pour découvrir comment afficher et suivre des co
 jcr-language: en_us
 title: Cours
 contentowner: manochan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2736'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
-
-
 
 # Cours
 
@@ -170,7 +169,7 @@ Ce n’est qu’après s’être inscrit à un cours qu’un élève peut fourni
 
 Un élève pourra sélectionner une étoile particulière (sur 5) et soumettre l’évaluation. L’élève peut également modifier la sélection en cliquant sur une autre étoile. Une fois l’envoi effectué, un message « Merci pour votre retour d’informations ! » s’affiche.
 
-Si l’élève souhaite renvoyer le retour d’informations, il peut le faire en cliquant sur le message. Le bouton ** Envoyer ** est réactivé. Un élève peut attribuer plusieurs étoiles après s’être inscrit à un cours. L’évaluation la plus récente sera toujours prise en compte.
+Si l’élève souhaite renvoyer le retour d’informations, il peut le faire en cliquant sur le message. Le **Envoyer** est réactivé. Un élève peut attribuer plusieurs étoiles après s’être inscrit à un cours. L’évaluation la plus récente sera toujours prise en compte.
 
 Une fois que l&#39;élève a fourni une évaluation, l&#39;évaluation moyenne par étoiles et le nombre d&#39;élèves qui ont fourni une évaluation apparaissent dans la section **Présentation du cours** page.
 
@@ -211,7 +210,7 @@ Tous les filtres et toutes les autres options sont présentés dans la vidéo ci
 
 ### Aperçu du contenu
 
-Vous pouvez explorer et prévisualiser le cours et vérifier s’il répond à vos besoins d’apprentissage. Cliquez sur le bouton **Aperçu **pour afficher l&#39;aperçu du cours. L’aperçu est disponible pendant deux minutes.
+Vous pouvez explorer et prévisualiser le cours et vérifier s’il répond à vos besoins d’apprentissage. Cliquez sur le bouton **Aperçu** et afficher l&#39;aperçu du cours. L’aperçu est disponible pendant deux minutes.
 
 ![](assets/content-marketplace-learner.gif)
 *Aperçu du contenu sur le marché*
@@ -272,7 +271,7 @@ En tant qu&#39;élève, vous pouvez interagir avec les autres élèves et les fo
 
 Lorsque vous cliquez sur l&#39;onglet Discussions, vous pouvez voir les publications et les commentaires existants pour ce cours. Si vous vous êtes déjà inscrit au cours, vous pouvez également effectuer des publications ou des commentaires à l&#39;intention des autres utilisateurs. Une fois le message saisi, cliquez sur Publier. Votre publication doit contenir au moins 10 caractères.
 
-La publication est immédiatement visible dans l&#39;onglet Discussions. Vous pouvez également trier les publications pour afficher les plus récentes ou les plus anciennes en premier et supprimer celles dont vous êtes l&#39;auteur. Même après votre désinscription du cours, vous pouvez afficher toutes les publications et supprimer les publications que vous avez écrites.
+La publication est immédiatement visible dans l&#39;onglet Discussions. Vous pouvez trier les publications par ordre croissant en premier ou par ordre décroissant et supprimer celles que vous avez écrites. Même après votre désinscription du cours, vous pouvez afficher toutes les publications et supprimer les publications que vous avez écrites.
 
 ![](assets/learner-discussion.png)
 *Afficher les discussions des participants*

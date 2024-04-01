@@ -3,14 +3,13 @@ description: Pour apprendre à créer des cours, des certifications et des progr
 jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # Création, modification et publication de cours
 
@@ -70,6 +69,7 @@ Pour créer un cours, suivez les étapes ci-dessous :
    REMARQUE : cette option est uniquement activée lorsque le connecteur Adobe Commerce est configuré.
 
 1. Si vous voulez donner aux élèves la possibilité de se désinscrire de votre cours, activez la case à cocher **Les élèves peuvent se désinscrire**.
+
 1. **Configuration des instances**
 
    Si vous activez cette option, les élèves qui se trouvent dans l’état En cours peuvent consulter d’autres instances et s’y inscrire. Les élèves peuvent alors conserver la progression de l’instance précédente.
@@ -898,4 +898,3 @@ Pour plus d’informations, reportez-vous à la [section sur les tentatives mult
 Non, le contenu chargé sur Learning Manager est un fichier zip publié et n’est pas le fichier source. Par conséquent, même si le contenu est téléchargé, il ne peut pas être modifié dans un outil de création. Un fichier source est nécessaire pour modifier le contenu.
 
 +++
-

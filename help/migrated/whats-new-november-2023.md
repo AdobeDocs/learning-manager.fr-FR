@@ -1,7 +1,8 @@
 ---
 title: Nouveautés de cette version
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2023 d’Adobe Learning Manager.
-source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -168,11 +169,48 @@ Si l’autorisation Utilisateur ou Tous les groupes d’utilisateurs est sélect
 
 Les administrateurs personnalisés peuvent accéder aux rapports suivants selon l’étendue définie :
 
-| Rapport | Disponible | Portée |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Rapport</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Disponible</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Portée</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Piste d’audit de contenu</p></td>
+   <td>
+    <p>Oui</p></td>
+   <td>
+    <p>Catalogue complet</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Piste d’audit de l’utilisateur</p></td>
+   <td>
+    <p>Oui</p></td>
+   <td>
+    <p>Utilisateur complet</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Accès à la connexion</p></td>
+   <td>
+    <p>Oui</p></td>
+   <td>
+    <p>Utilisateur complet</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Piste d’audit de contenu | Oui | Catalogue complet |
-| Piste d’audit de l’utilisateur | Oui | Utilisateur complet |
-| Accès à la connexion | Oui | Utilisateur complet |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Intégration de Connect améliorée
 

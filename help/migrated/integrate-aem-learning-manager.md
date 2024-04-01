@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Intégration de Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
-
-
 
 # Intégration de Learning Manager à AEM
 
@@ -136,7 +135,7 @@ Le widget Catalogue contient les options suivantes :
 
 * **[!UICONTROL ID de catalogue]:** ID de catalogue séparés par des virgules pour lesquels la formation doit être affichée.
 * **[!UICONTROL Trier]:** Ordre de tri pour la formation. Les options sont : nom, date, dateCreated, dateEnrolled, etc.
-* **[!UICONTROL État de l’élève]:** Renvoie toutes les formations qui utilisent les éléments suivants en tant que filtres inscrits, démarrés, terminés et non inscrits. Les résultats de la recherche ne s&#39;affichent pas si l&#39;option de tri est dateEnrolled, dueDate ou dateEnrolled.
+* **[!UICONTROL État de l’élève]:** Retourne toutes les formations qui utilisent les éléments suivants en tant que filtres inscrits, démarrés, terminés et non inscrits. Les résultats de la recherche ne s&#39;affichent pas si l&#39;option de tri est dateEnrolled, dueDate ou dateEnrolled.
 * **[!UICONTROL Nom de la compétence]:** Compétence utilisée pour filtrer la formation exacte.
 * **[!UICONTROL Nom de la balise]:** Balise utilisée pour filtrer les résultats exacts.
 

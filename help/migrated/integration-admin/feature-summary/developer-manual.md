@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Manuel du développeur d’applications
 description: L’API Learning Manager V1 est désormais obsolète. Les API V1 cesseront de fonctionner à partir du 28 février 2021. Nous vous recommandons d’utiliser les API V2 pour interagir avec Learning Manager.
 contentowner: jayakarr
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '3385'
 ht-degree: 63%
 
 ---
-
-
 
 # Manuel du développeur d’applications
 

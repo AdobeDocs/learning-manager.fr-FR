@@ -4,7 +4,7 @@ title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 65%
@@ -221,6 +221,7 @@ Un utilisateur avec un rôle personnalisé peut :
      </tr>
     </tbody>
    </table>
+
 1. **Utilisateurs :** utilisez cette option pour déterminer les utilisateurs auxquels ce rôle est affecté. Vous pouvez choisir un ou plusieurs utilisateurs à l’aide de la zone de recherche.
 
    **Ajouter des utilisateurs au chargement CSV de rôle personnalisé :** Pour ajouter des utilisateurs via le chargement CSV, ajoutez une colonne CustomRole au fichier .csv que l’administrateur a utilisé pour importer des utilisateurs. Entrez le rôle de l’utilisateur dans la colonne CustomRole pour les utilisateurs auxquels vous souhaitez attribuer un rôle personnalisé. Pour charger le fichier CSV, cliquez sur  **[!UICONTROL Ajouter > Charger un fichier CSV]**.
