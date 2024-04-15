@@ -1,7 +1,7 @@
 ---
-description: Notes de mise à jour d’Adobe Learning Manager
+description: Notes de mise à jour de Adobe Learning Manager
 jcr-language: en_us
-title: Notes de mise à jour d’Adobe Learning Manager
+title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
@@ -11,7 +11,7 @@ ht-degree: 72%
 
 ---
 
-# Notes de mise à jour d’Adobe Learning Manager
+# Notes de mise à jour de Adobe Learning Manager
 
 <!--<table>
  <tbody>
@@ -23,7 +23,7 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Mise à jour 96 : version de mars 2024 d’Adobe Learning Manager
++++Mise à jour 96 : version de mars 2024 de Adobe Learning Manager
 
 **Date de publication :** 7 mars 2023
 
@@ -104,7 +104,7 @@ Pour plus d’informations, voir [Nouveautés de la version de juillet 2023 d’
 
 ### Bogues corrigés dans cette mise à jour
 
-* Adobe La description de l’application mobile Learning Manager de Play Store indique de manière incorrecte qu’un élève peut suivre un cours hors ligne.
+* La description de l’application mobile Adobe Learning Manager de Play Store indique à tort qu’un élève peut suivre un cours hors ligne.
 * Des problèmes sont survenus lors de la migration du contenu (module_version.csv et course_module.csv) de LinkedIn vers Adobe Learning Manager.
 * Si un compte est inactif et créé il y a plus de trois ans, tous les utilisateurs du compte sont supprimés conformément au RGPD, quel que soit leur statut.
 * Dans l’application Instructeur, lorsque vous définissez la limite de la liste d’attente sur zéro dans une session et que vous enregistrez la session, l’interface utilisateur affiche l’information erronée « Non applicable » au lieu de zéro.
@@ -121,7 +121,7 @@ Pour plus d’informations, voir [Nouveautés de la version de juillet 2023 d’
 La connexion SAML échoue si l’URL de connexion SSO contient entity_id.
 +++
 
-+++Mise à jour 89 : version de mars 2023 d’Adobe Learning Manager
++++Mise à jour 89 : version de mars 2023 de Adobe Learning Manager
 
 **Date de publication :** 4 avril 2023
 
@@ -375,7 +375,7 @@ Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learnin
 
 **Date de publication :** 05 novembre 2022
 
-**Remarque :** Avec cette version d’Adobe Learning Manager, les utilisateurs disposant de comptes inactifs ne peuvent plus accéder à leurs comptes à l’aide de sous-domaines. Les comptes sont accessibles à l’aide de l’ID de compte ou en utilisant la page acapindex.html et en saisissant l’ID de messagerie.
+**Remarque :** Avec cette version de Adobe Learning Manager, les utilisateurs disposant de comptes inactifs ne peuvent plus accéder à leurs comptes à l’aide de sous-domaines. Les comptes sont accessibles à l’aide de l’ID de compte ou en utilisant la page acapindex.html et en saisissant l’ID de messagerie.
 
 ### Nouveautés de cette version
 
@@ -1147,7 +1147,7 @@ Cette version se concentre sur les éléments suivants :
 * Améliorations apportées à LinkedIn Learning
 * … et bien d&#39;autres
 
-Pour plus d’informations, voir  [***Nouveautés de la version de décembre 2020 d’Adobe Learning Manager***](../whats-new.md).
+Pour plus d’informations, voir  [***Nouveautés de la version de décembre 2020 de Adobe Learning Manager***](../whats-new.md).
 
 ### Fonctions non prises en charge dans l&#39;expérience immersive mobile {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -2034,7 +2034,7 @@ Date de publication : 25 mars 2018
 
 La version d&#39;Adobe Learning Manager de mars 2018 propose de nouvelles fonctions et améliorations intéressantes. Il vous permet de générer des rapports de piste d’audit d’utilisateur et des rapports de connexion/accès, et donne aux élèves la capacité de choisir des instances de cours, des améliorations aux salles de classe et aux classes virtuelles, et bien plus encore. Cette version corrige également des bogues et améliore les performances générales.
 
-Pour prendre connaissance de toutes les nouveautés de cette version, voir  [Nouveautés d’Adobe Learning Manager](../whats-new.md).
+Pour prendre connaissance de toutes les nouveautés de cette version, voir  [Nouveautés de Adobe Learning Manager](../whats-new.md).
 
 ### Problème connu {#KnownIssue-1}
 
