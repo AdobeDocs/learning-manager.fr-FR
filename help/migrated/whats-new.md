@@ -1,19 +1,19 @@
 ---
-description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de mars 2024 d’Adobe Learning Manager
+description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de mars 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # Résumé des nouvelles fonctionnalités {#new-features-summary}
 
-Découvrez les nouvelles fonctionnalités et les améliorations de la version de mars 2024 d’Adobe Learning Manager.
+Découvrez les nouvelles fonctionnalités et les améliorations de la version de mars 2024 de Adobe Learning Manager.
 
 ## Nouveautés de cette version {#whatsnewandchanged}
 
@@ -86,9 +86,9 @@ Si le nombre d’utilisateurs dans le groupe d’utilisateurs est inférieur à 
 
 ### Page Administrateur - Certifications
 
-Dans les versions actuelles d’Adobe Learning Manager, si un grand nombre d’utilisateurs sont inscrits à une certification, vous ne pouvez pas afficher les élèves non inscrits depuis le **Statut** la liste déroulante est désactivée.
+Dans les versions actuelles de Adobe Learning Manager, si un grand nombre d’utilisateurs sont inscrits à une certification, vous ne pouvez pas afficher les élèves non inscrits depuis le **Statut** la liste déroulante est désactivée.
 
-Dans cette version d’Adobe Learning Manager, si le nombre d’utilisateurs inscrits est élevé, le **Statut** la liste déroulante affiche uniquement deux options : **Inscrit** et **Non inscrit**. L’option **Inscrit** est sélectionné par défaut. Si vous **Non inscrit**, la liste des élèves non inscrits s’affiche.
+Dans cette version de Adobe Learning Manager, si le nombre d’utilisateurs inscrits est élevé, le **Statut** la liste déroulante affiche uniquement deux options : **Inscrit** et **Non inscrit**. L’option **Inscrit** est sélectionné par défaut. Si vous **Non inscrit**, la liste des élèves non inscrits s’affiche.
 
 #### Modifications apportées au groupe d’utilisateurs
 
@@ -235,7 +235,7 @@ Cette modification se traduit par :
 * Apparence de la barre de recherche.
 * Ajout de balises de filtre dans l’application d’apprentissage.
 
-Pour activer les fonctionnalités de recherche, contactez l’équipe CSAM d’Adobe Learning Manager.
+Pour activer les fonctionnalités de recherche, contactez l’équipe CSAM de Adobe Learning Manager.
 
 ## Modifications de l&#39;interface utilisateur {#ui-changes}
 
@@ -287,7 +287,7 @@ Afficher [Statut de la soumission](instructors/feature-summary/learners.md#filte
 
 ## Améliorations de la liste de contrôle
 
-Dans la version de mars 2024 d’Adobe Learning Manager, les améliorations apportées au workflow de liste de contrôle sont les suivantes :
+Dans la version de mars 2024 de Adobe Learning Manager, les améliorations apportées au workflow de liste de contrôle sont les suivantes :
 
 ### Interdire la progression en cas d’échec d’une liste de contrôle
 
@@ -326,7 +326,7 @@ Dans les versions antérieures d’Adobe Learning Manager, un élève n’a pas 
 * De nouvelles sessions sont ajoutées à un cours, ou
 * Des modifications ont été apportées aux sessions existantes.
 
-Dans la version de mars 2024 d’Adobe Learning Manager, les nouvelles modifications sont les suivantes :
+Dans la version de mars 2024 de Adobe Learning Manager, les nouvelles modifications sont les suivantes :
 
 * Détails de la session mis à jour et invitation à la session (pour l’élève et l’instructeur)
    * Pour les sessions à venir, envoyez des e-mails à **Détails de la session mis à jour**, **Invitation à une session** pour les élèves inscrits et les instructeurs actuels seront obsolètes. Pour les sessions précédentes, e-mails pour **Détails de la session mis à jour** et **Invitation à une session** pour les élèves inscrits et les instructeurs actuels resteront en l’état.
@@ -344,7 +344,7 @@ Dans un site de référence AEM, nous avons ajouté la prise en charge de l’aj
 
 ### Masquer les envois des instructeurs
 
-Une fois que les élèves ont téléchargé leurs fichiers à l&#39;aide du workflow d&#39;envoi de fichier, si un instructeur ne prend aucune action (approuver ou rejeter) sur l&#39;envoi, l&#39;URL d&#39;envoi est masquée de la vue après un nombre de jours prédéfini. Contactez les équipes CSAM d’Adobe Learning Manager pour définir ou modifier le nombre de jours.
+Une fois que les élèves ont téléchargé leurs fichiers à l&#39;aide du workflow d&#39;envoi de fichier, si un instructeur ne prend aucune action (approuver ou rejeter) sur l&#39;envoi, l&#39;URL d&#39;envoi est masquée de la vue après un nombre de jours prédéfini. Contactez les équipes CSAM de Adobe Learning Manager pour définir ou modifier le nombre de jours.
 
 ### Modifications de la terminologie du produit
 
@@ -370,7 +370,7 @@ Comme avec l’application web, si un élève ne parvient pas à une liste de co
 
 ### Modifications apportées à Connect VC
 
-Dans les versions actuelles d’Adobe Learning Manager, un élève est marqué comme **Non Terminé** lorsqu&#39;ils sont inscrits à une session Connect VC, mais ne répondent pas aux critères d&#39;achèvement.
+Dans les versions actuelles de Adobe Learning Manager, un élève est marqué comme **Non Terminé** lorsqu&#39;ils sont inscrits à une session Connect VC, mais ne répondent pas aux critères d&#39;achèvement.
 
 Dans cette version, le statut passe à **Encore à marquer**.
 
@@ -378,7 +378,7 @@ Dans cette version, le statut passe à **Encore à marquer**.
 
 L’application mobile Adobe Learning Manager prend désormais en charge l’étiquetage blanc, ce qui signifie que vous pouvez désormais publier l’application sous votre propre marque.
 
-Afficher l’étiquetage blanc dans [Application mobile Adobe Learning Manager](white-label.md) pour plus d’informations.
+Afficher l’étiquetage blanc dans [application mobile Adobe Learning Manager](white-label.md) pour plus d’informations.
 
 ### Nouvelle colonne dans les fichiers CSV de migration
 
@@ -388,7 +388,21 @@ Dans cette version, il existe une nouvelle colonne facultative, uniqueLoId, dans
 * course.csv
 * learning_program.csv
 
-La colonne uniqueLoId ne s’applique pas au fichier CSV de l’assistance à la tâche.
+>[!NOTE]
+>
+>Le **uniqueLoId** est facultatif.
+
+
+Si vous effectuez une migration pour mettre à jour un cours, un plan d’apprentissage ou une certification existant, le cours, le plan d’apprentissage ou la certification avec le **uniqueLOId** s’ajoutent à l’application d’auteur.
+
+Lors de la migration, vous devez mettre à jour le **uniqueLOId** dans les fichiers CSV pour le cours, le plan d’apprentissage ou la certification, même s’il s’agit d’une colonne facultative.
+
+Si le **uniqueLoId** n’est pas ajouté avant d’effectuer la migration lors de la mise à jour du cours, du plan d’apprentissage ou de la certification existant ayant **uniqueLOId** s, puis après la migration **uniqueLOId** les valeurs seront remplacées par des valeurs NULL.
+
+>[!NOTE]
+>
+>La colonne uniqueLoId ne s’applique pas au fichier CSV de l’assistance à la tâche.
+
 
 >[!IMPORTANT]
 >
@@ -399,7 +413,7 @@ Téléchargez les fichiers CSV à partir de [Manuel de migration](integration-ad
 
 ### Évaluation de l’application
 
-Un élève peut fournir ses commentaires sur l’application Learning Manager d’Adobe pour améliorer encore l’expérience de l’application. Si l’élève note quatre étoiles ou plus, une fenêtre contextuelle s’affiche et lui demande d’évaluer l’application sur Play Store ou App Store.
+Un élève peut fournir ses commentaires sur l’application Adobe Learning Manager pour améliorer encore l’expérience de l’application. Si l’élève note quatre étoiles ou plus, une fenêtre contextuelle s’affiche et lui demande d’évaluer l’application sur Play Store ou App Store.
 
 ### Bluejeans a atteint sa fin de vie en février 2024
 
@@ -413,7 +427,7 @@ Le rapport Accès par connexion ne sera disponible que pour les cinq derniers tr
 
 ### Modifications apportées à ADFS
 
-D’après les mappages, les champs Type d’employé et ID d’employé d’ADFS sont désormais disponibles sur Adobe Learning Manager.
+D’après les mappages, les champs Type d’employé et ID d’employé d’ADFS sont désormais disponibles dans Adobe Learning Manager.
 
 ## Modifications apportées aux API dans cette version
 
