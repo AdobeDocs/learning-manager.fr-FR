@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3992'
 ht-degree: 66%
 
 ---
@@ -17,11 +17,16 @@ Découvrez les paramètres de compte Learning Manager que vous pouvez configure
 
 Vous pouvez modifier les paramètres du profil de l’administrateur et mettre à jour les paramètres du compte. Affichage des informations de votre profil, ajout/modification d’une photo de profil et modification **[!UICONTROL À propos de moi]** contenu. Mettez à jour les informations de votre entreprise, installez les méthodes de connexion pour les utilisateurs, et configurez l’intégration de Connect à l’aide des paramètres du compte.
 
-## Configuration de votre Adobe Learning Manager
+## Configuration de Adobe Learning Manager
 
 Cette formation aborde les bases des paramètres au niveau du compte.
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+>[!NOTE]
+>
+>Exemple de bouton <br>[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
+
 
 
 Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
