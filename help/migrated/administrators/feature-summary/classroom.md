@@ -4,10 +4,10 @@ title: Ajouter des emplacements de salle de classe
 description: Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
 contentowner: saghosh
 exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 8cb8a95812c97b0b59a2ae5188500cfafe09bd27
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 77%
+source-wordcount: '1315'
+ht-degree: 54%
 
 ---
 
@@ -65,6 +65,18 @@ Le **[!UICONTROL Sessions futures]** affichages de champ **zéro** lorsque la sa
 
 **Informations de localisation** - Les informations sur la salle de classe que vous avez fournies lors de sa création.
 
+### Modification des emplacements de salle de classe
+
+Pour modifier les emplacements de salle de classe, procédez comme suit :
+
+1. Dans l’application d’administration (interface utilisateur des rôles d’administrateur), sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Lieux de salle de classe]**.
+
+1. Passez la souris sur l’emplacement de salle de classe souhaité que vous souhaitez modifier.
+
+1. Sélectionner **[!UICONTROL Modifier le lieu de la salle de classe]** icône.
+
+1. Modifier l’emplacement de la salle de classe et sélectionner **[!UICONTROL Enregistrer]**.
+
 ## Ajout d’une salle de classe à l’aide du fichier CSV
 
 Vous pouvez également ajouter un ou plusieurs emplacements de salle de classe en important un fichier CSV contenant les informations de la salle de classe.
@@ -76,6 +88,7 @@ Le fichier CSV utilise ces champs pour stocker des détails sur un ou plusieurs 
 * name
 * info
 * url
+* (région)
 * seatLimit
 
 Vous pouvez personnaliser les en-têtes.
@@ -86,7 +99,7 @@ Une fois que le système a importé le fichier CSV, les emplacements sont ajout�
 
 ## Recherche de salles de classe
 
-Un auteur ou un administrateur peut commencer à taper le nom de l’emplacement pour voir les résultats pertinents qui commencent à apparaître. Un auteur ou un administrateur peut alors sélectionner un emplacement parmi les résultats affichés. Si aucun emplacement n’est affiché dans les résultats de la recherche par frappe anticipée, l’utilisateur peut toujours ajouter le nom du nouvel emplacement de salle de classe. Notez que ce nom d’emplacement créé à l’aide du processus de création de sessions n’est pas ajouté à la bibliothèque d’emplacements créée par l’administrateur.
+Pour rechercher des salles de classe, sélectionnez le cours de classe virtuelle, puis accédez à **[!UICONTROL Instances]** > **[!UICONTROL Sessions]**. Un auteur ou un administrateur peut commencer à taper le nom de l’emplacement pour voir les résultats pertinents qui commencent à apparaître. Ils peuvent ensuite sélectionner un emplacement parmi les résultats affichés. Si aucun emplacement n’est affiché dans les résultats de type d’avance, l’utilisateur peut toujours ajouter le nom du nouvel emplacement de salle de classe. Notez que ce nom d’emplacement créé à l’aide du processus de création de sessions n’est pas ajouté à la bibliothèque d’emplacements créée par l’administrateur.
 
 Lorsqu’une salle de classe est ajoutée, la plateforme d’apprentissage indique également si la salle de classe est déjà réservée pour la période mentionnée. Elle fournit même des créneaux horaires alternatifs comme suggestions. Cela permet donc à l’auteur d’ajuster l’heure de la réunion s’il décide d’utiliser le même emplacement de salle de classe.
 
@@ -94,32 +107,60 @@ Lorsqu’une salle de classe est ajoutée, la plateforme d’apprentissage indiq
 
 *Rechercher des salles de classe*
 
-## Se limiter à une liste prédéterminée d’instructeurs
+## L’administrateur
 
-Actuellement, les utilisateurs peuvent ajouter n’importe quel utilisateur inscrit en tant qu’instructeur lors de la création d’une salle de classe ou d’une session de classe virtuelle. Cette fonctionnalité reste inchangée dans cette version.
+En tant qu’administrateur, vous pouvez gérer les instructeurs et les instances de cours.
 
-Cependant, les administrateurs disposent désormais d’une option supplémentaire pour contrôler plus précisément qui est affecté en tant qu’instructeur sur la plateforme d’apprentissage. Cela empêche tout ajout accidentel d’un nouvel instructeur lors de la création d’une session.
+### Configuration des instructeurs :
 
-## Administrateur
+Dans l’application d’administration, sous **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]**, les administrateurs peuvent trouver les **[!UICONTROL Gestion des instructeurs]** option. Cette fonctionnalité garantit que seuls des utilisateurs préapprouvés affectés à titre d’instructeurs peuvent être ajoutés pour mener des sessions.
 
-Un administrateur peut sélectionner l’option **[!UICONTROL Gestion des instructeurs]** option (disponible sous **[!UICONTROL Application d’administration]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]**) pour vous assurer que seuls les utilisateurs qui sont des instructeurs prédéterminés peuvent être ajoutés en tant qu’instructeurs pour une session.
+Pour affecter un instructeur, procédez comme suit :
 
-Pour configurer un instructeur, les administrateurs peuvent sélectionner **[!UICONTROL GÉRER]** > **[!UICONTROL Utilisateurs]** pour ouvrir la page Gestion des utilisateurs, sélectionnez un utilisateur, puis attribuez le rôle d’instructeur à l’utilisateur (à l’aide de **[!UICONTROL Actions]** > **[!UICONTROL Attribuer un rôle]**).
+1. Accéder à la section **[!UICONTROL Prise en main]** et sélectionnez **[!UICONTROL Utilisateurs]** dans le volet de gauche.
+
+1. Sélectionnez l’utilisateur souhaité.
+
+1. Attribuez le rôle d’instructeur à l’utilisateur en sélectionnant **[!UICONTROL Actions]** > **[!UICONTROL Attribuer un rôle]**.
+
+### Annulation des sessions :
+
+Sur la **[!UICONTROL Instance de cours]** , les administrateurs peuvent annuler une ou plusieurs sessions. Lorsque des sessions sont annulées, le système supprime tous les détails de la session, mais conserve la limite de places.
+
+En outre, les administrateurs peuvent :
+
+* **[!UICONTROL Afficher l’inscription]**: Obtenir des informations sur les élèves inscrits et sur liste d’attente pour chaque session.
+* **[!UICONTROL Désinscription des élèves]**: supprimer des élèves d’un cours avec des sessions annulées sans modifier leur statut d’inscription.
+* **[!UICONTROL Gestion de la présence]**: marquer la présence pour les sessions, même si les sessions sont annulées.
+* **[!UICONTROL Achèvement du cours]**: les administrateurs peuvent marquer un cours comme terminé même si les sessions ont été annulées.
+* **[!UICONTROL Replanification]**: planifier des sessions annulées pour des dates ultérieures et ajouter un instructeur pendant la replanification.
+
+Notez qu’après l’annulation, les élèves restent inscrits à l’instance de formation. Leur statut d’inscription (inscription confirmée, liste d’attente et attente de l’approbation du responsable) reste inchangé. Cela est utile, car l’administrateur peut configurer et replanifier la session annulée à l’avenir.
 
 ## Auteur
 
-Si l’administrateur sélectionne l’option **[!UICONTROL Gestion des instructeurs]**, un auteur peut uniquement rechercher et ajouter les utilisateurs dotés du rôle d’instructeur aux sessions de salle de classe, aux sessions de classe virtuelle, aux listes de contrôle et aux modules d’envoi de fichiers.
+Si l’administrateur sélectionne l’option **[!UICONTROL Gestion des instructeurs]** , un auteur peut uniquement rechercher et ajouter les utilisateurs dotés du rôle d’instructeur aux sessions de salle de classe, aux sessions de classe virtuelle, aux listes de contrôle et aux modules d’envoi de fichiers.
 
 En outre, un auteur peut :
 
 * Ajouter et supprimer des instructeurs dans des sessions existantes.
 * Ajouter des instructeurs aux sessions existantes qui ont déjà un ou plusieurs instructeurs.
 
-Par conséquent, une fois qu’un administrateur a activé le paramètre **[!UICONTROL Gestion des instructeurs]**, seuls les utilisateurs dotés du rôle d’instructeur peuvent être ajoutés en tant qu’instructeurs.
+Par conséquent, une fois qu’un administrateur a activé le paramètre **[!UICONTROL Gestion des instructeurs]** , seuls les utilisateurs avec le rôle d’instructeur peuvent être ajoutés en tant qu’instructeur.
 
 >[!NOTE]
 >
 >Cela ne s’applique pas lorsque vous migrez des sessions à l’aide du fichier CSV des sessions. Dans ce cas, un utilisateur qui ne dispose pas du rôle d’instructeur peut être ajouté en tant qu’instructeur.
+
+Sur la **[!UICONTROL Instance de cours]** , un auteur peut annuler une ou plusieurs sessions. Lorsque des sessions sont annulées, le système supprime tous les détails de la session, mais conserve la limite de places.
+
+Par conséquent, un auteur peut utiliser la fonction **[!UICONTROL Annuler la session]** des liens pour annuler une ou plusieurs sessions de classe ou sessions de classe virtuelle disponibles dans la même instance de cours ou dans des instances de cours différentes.
+
+## Se limiter à une liste prédéterminée d’instructeurs
+
+Actuellement, les utilisateurs peuvent ajouter n’importe quel utilisateur inscrit en tant qu’instructeur lors de la création d’une salle de classe ou d’une session de classe virtuelle. Cette fonctionnalité reste inchangée dans cette version.
+
+Cependant, les administrateurs disposent désormais d’une option supplémentaire pour contrôler plus précisément qui est affecté en tant qu’instructeur sur la plateforme d’apprentissage. Cela empêche tout ajout accidentel d’un nouvel instructeur lors de la création d’une session.
 
 ## Annuler la session existante
 
@@ -149,24 +190,3 @@ Le système efface également les détails suivants après l’annulation d’un
 * URL de classe virtuelle
 * Emplacement/lieu ajouté à la session
 * Limite de liste d’attente ajoutée par le formateur
-
-## Administrateur
-
-Sur la page **[!UICONTROL Instance de cours]**, un administrateur peut annuler une ou plusieurs sessions. Une fois que l’administrateur a annulé une session, le système efface tous les détails de la session, à l’exception de la limite de sièges.
-
-En outre, un administrateur peut :
-
-* Afficher les élèves inscrits et les élèves inscrits sur liste d’attente d’une session.
-* Désinscrire des élèves d’un cours avec une ou plusieurs sessions annulées.
-* Marquer la participation pour les sessions annulées.
-* Marquez un cours comme terminé et contenant une ou plusieurs sessions annulées.
-* Replanifier une session qui a été annulée.
-* Ajouter un instructeur à une session annulée lors de sa replanification.
-
-Notez que même après l’annulation, les élèves inscrits à l’instance de formation y sont toujours inscrits. Leur statut d’inscription (inscription confirmée, liste d’attente et attente de l’approbation du responsable) reste inchangé. Cela est utile car l’administrateur peut configurer et replanifier la session annulée à l’avenir.
-
-## Auteur
-
-Sur la page **[!UICONTROL Instance de cours]**, un auteur peut annuler une ou plusieurs sessions. Une fois que l’auteur a annulé une session, le système efface tous les détails de la session, à l’exception de la limite de sièges.
-
-Par conséquent, un auteur peut utiliser la fonction **[!UICONTROL Annuler la session]** des liens pour annuler une ou plusieurs sessions de classe ou sessions de classe virtuelle disponibles dans la même instance de cours ou dans des instances de cours différentes.
