@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Assistances à la tâche
 description: Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d'inscription ou d'achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l'aide afin d'effectuer toute activité ou tâche au sein d'une organisation.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # Assistances à la tâche
 
@@ -35,6 +34,19 @@ Les auteurs peuvent créer des assistances à la tâche pour les élèves. Utili
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    L’assistance à la tâche est publiée.
+
+## Ajouter une assistance à la tâche dans différentes langues {#addcontentfordifferentlanguages}
+
+1. Pour ajouter l’assistance à la tâche dans différentes langues, sélectionnez l’option **Ajouter une nouvelle langue** et sélectionnez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Ajout d’une nouvelle langue pour un contenu*
+
+1. Répétez le processus de téléchargement de l’assistance à la tâche pour les nouvelles langues.
+1. Si vous souhaitez supprimer une langue, sélectionnez l’onglet Ajouter une nouvelle langue, puis effacez votre sélection.
+
+   Après avoir apporté les modifications, sélectionnez Enregistrer.
 
 ## Types d’assistance à la tâche pris en charge {#typesofsupportedjobaids}
 

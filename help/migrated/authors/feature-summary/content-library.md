@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '3124'
-ht-degree: 57%
+source-wordcount: '3239'
+ht-degree: 56%
 
 ---
 
@@ -234,7 +234,20 @@ Créez des évaluations dans Adobe Learning Manager avec le nouvel outil de cré
 1. Ajoutez un logo et un arrière-plan au questionnaire.
 1. Dans le coin supérieur droit de la page, sélectionnez **Publier**.
 
-Le questionnaire est ajouté à la bibliothèque de contenu. Comme tout contenu de la bibliothèque de contenu, vous pouvez retirer un questionnaire, puis le supprimer.
+Pour ajouter les quiz dans une autre langue, procédez comme suit :
+
+1. Pour ajouter le quiz pour différentes langues, sélectionnez **Ajouter une nouvelle langue** et sélectionnez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Ajout d’une nouvelle langue pour un contenu*
+
+1. Répétez le processus de téléchargement de contenu pour les nouvelles langues.
+1. Si vous souhaitez supprimer une langue, sélectionnez l’option **[!UICONTROL Ajouter une nouvelle langue]** et effacez votre sélection.
+
+   Après avoir apporté les modifications, cliquez sur **[!UICONTROL Enregistrer]**. Dans la bibliothèque, le nouveau contenu est maintenant disponible pour le suivi.
+
+Le quiz est ajouté au **[!UICONTROL Bibliothèque de contenu]**. Comme tout contenu de la bibliothèque de contenu, vous pouvez retirer un questionnaire, puis le supprimer.
 
 
 ## Ajouter au dossier {#add-folder}
@@ -430,6 +443,11 @@ Pour retirer du contenu, procédez comme suit :
 * Sélectionnez Action > Retirer.
 
 Tout contenu utilisé dans des objets d’apprentissage n’est pas affecté. Les élèves peuvent continuer d’accéder au contenu.
+
+>[!NOTE]
+>
+>Vous pouvez également ajouter du contenu à partir de **[!UICONTROL Retraité]** section, accéder à **[!UICONTROL Bibliothèque de contenu]** > **[!UICONTROL Retraité]** et sélectionnez **[!UICONTROL Ajouter du contenu]**. Pour plus d’informations, voir [Ajout de contenu statique](content-library.md#addstaticcontent).
+
 
 ## Republier le contenu retiré {#republishretiredcontent}
 
