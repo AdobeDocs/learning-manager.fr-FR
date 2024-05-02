@@ -2,9 +2,10 @@
 title: Nouveautés de cette version (juillet 2023)
 description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -59,7 +60,7 @@ Cette modification remplacera également le connecteur Exavault, qui ne sera plu
 
 ## Rappels dans Outlook pour la salle de classe et les sessions virtuelles
 
-Les sessions de salle de classe et de salle de classe virtuelle créées à partir d’Adobe Learning Manager qui ont été ajoutées au calendrier Outlook de l’élève prennent désormais en charge les rappels d’Outlook de manière cohérente (similaires aux rappels de réunion dans Outlook).
+Les sessions de salle de classe et de salle de classe virtuelle créées à partir de Adobe Learning Manager et ajoutées au calendrier Outlook de l’élève prennent désormais en charge les rappels d’Outlook de manière cohérente (comme les rappels de réunion dans Outlook).
 
 ## Améliorations apportées à l’affectation de compétences aux cours
 
@@ -530,7 +531,11 @@ La racine est le processus de réduction d&#39;un mot à sa forme racine. Cela g
 
 Dans cette version, nous avons ajouté un enchaînement pour les langues anglaises, qui comprend les variantes suivantes : en_US, en_AU, en_GB.
 
-L’attribut racinisé indique si la racinisation est requise dans les résultats de recherche. Par défaut, cette propriété est définie sur False
+L’attribut racinisé indique si la racinisation est requise dans les résultats de recherche. Par défaut, cette propriété est définie sur False.
+
+Paramètres de requête API :
+
+matchType=phrase_and_match_stemmed=true
 
 ### Suppression des points de terminaison V1
 
