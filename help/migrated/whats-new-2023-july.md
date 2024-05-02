@@ -3,7 +3,7 @@ title: Nouveautés de cette version (juillet 2023)
 description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
+source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
 source-wordcount: '2059'
 ht-degree: 67%
@@ -535,7 +535,8 @@ L’attribut racinisé indique si la racinisation est requise dans les résultat
 
 Paramètres de requête API :
 
-matchType=phrase_and_match_stemmed=true
+* matchType=expression_and_match
+* stemmed=true
 
 ### Suppression des points de terminaison V1
 
