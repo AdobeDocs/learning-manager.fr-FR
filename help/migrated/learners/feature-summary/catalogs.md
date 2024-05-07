@@ -3,14 +3,13 @@ description: Découvrez comment utiliser les catalogues dans Learning Manager a
 jcr-language: en_us
 title: Catalogues
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # Les catalogues
 
@@ -22,7 +21,7 @@ Les élèves peuvent afficher tous les objets d’apprentissage attribués et é
 
 Vous pouvez filtrer la liste des objets d’apprentissage en fonction des compétences et du type d’objet d’apprentissage (auto-apprentissage, fusionné, salle de classe, salle de classe virtuelle, activité). Vous pouvez également filtrer à l’aide des options du volet de gauche : par objet d’apprentissage, par compétence et par état d’achèvement.
 
-Utilisez la barre de recherche en haut de la page pour saisir les noms de vos objets d’apprentissage familiers.
+Utilisez la barre de recherche en haut de la page pour saisir les noms de vos objets d’apprentissage familiers. Les élèves peuvent passer de la grille à la vue de liste en sélectionnant cette option ![](assets/icon-list.png) icône.
 
 ![](assets/catalogs.png)
 *Afficher les catalogues*

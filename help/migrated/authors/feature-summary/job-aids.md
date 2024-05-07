@@ -3,16 +3,16 @@ jcr-language: en_us
 title: Assistances à la tâche
 description: Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d'inscription ou d'achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l'aide afin d'effectuer toute activité ou tâche au sein d'une organisation.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
 # Assistances à la tâche
 
-Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l&#39;aide afin d&#39;effectuer toute activité ou tâche au sein d&#39;une organisation.
+**Assistances à la tâche** est un référentiel de contenu de formation accessible aux élèves sans aucun critère d’inscription ou d’achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l&#39;aide afin d&#39;effectuer toute activité ou tâche au sein d&#39;une organisation.
 
 Les assistances à la tâche peuvent être utilisées indépendamment ou avec le suivi des cours dans Learning Manager.
 
@@ -20,9 +20,9 @@ Les auteurs peuvent créer des assistances à la tâche pour les élèves. Utili
 
 ## Créer une assistance à la tâche {#createjobaid}
 
-1. Dans la connexion Auteur, cliquez sur Assistances à la tâche dans le volet de gauche.
-1. Cliquez sur Créer dans le coin supérieur droit de la page qui s’affiche.
-1. Indiquez le nom, la description et les balises. Sélectionnez les compétences et les niveaux associés. Définissez le contenu sur Privé si vous ne souhaitez pas que d’autres auteurs accèdent à l’assistance à la tâche pour l’affecter à leurs cours respectifs.
+1. Dans la connexion Auteur, sélectionnez **[!UICONTROL Assistances à la tâche]** dans le volet de gauche.
+1. Sélectionner **[!UICONTROL Créer]** dans le coin supérieur droit de la page qui s’affiche.
+1. Saisissez le nom, la description et les balises. Sélectionnez les compétences et les niveaux associés. Définissez le contenu sur Privé si vous ne souhaitez pas que d’autres auteurs accèdent à l’assistance à la tâche pour l’affecter à leurs cours respectifs.
 
    Seules les compétences existantes peuvent être utilisées pour les assistances à la tâche. Les compétences ne sont pas obligatoires.
 
@@ -44,7 +44,7 @@ Les auteurs peuvent créer des assistances à la tâche pour les élèves. Utili
    *Ajout d’une nouvelle langue pour un contenu*
 
 1. Répétez le processus de téléchargement de l’assistance à la tâche pour les nouvelles langues.
-1. Si vous souhaitez supprimer une langue, sélectionnez l’onglet Ajouter une nouvelle langue, puis effacez votre sélection.
+1. Si vous souhaitez supprimer une langue, sélectionnez l’option **[!UICONTROL Ajouter une nouvelle langue]** et effacez votre sélection.
 
    Après avoir apporté les modifications, sélectionnez Enregistrer.
 
