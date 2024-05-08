@@ -3,14 +3,13 @@ description: Découvrez comment créer des certifications, inscrire des élèves
 jcr-language: en_us
 title: Certifications
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # Certifications
 
@@ -103,6 +102,10 @@ En tant qu’administrateur, vous pouvez créer un programme de certification h�
  </tbody>
 </table>
 
+Sélectionnez le niveau de produits, de rôles et de rôles dans la liste **[!UICONTROL Recommander pour]** pour suggérer ce parcours d’apprentissage aux utilisateurs qui ont exprimé leur intérêt pour ces produits et rôles.
+
+![](assets/recommend-for.png)
+
 Choisir les cours à ajouter à la certification à partir de **[!UICONTROL Cours]** > **[!UICONTROL Catalogue]** onglet.
 
 Passez le curseur de la souris sur chaque vignette de cours, cliquez sur + pour les ajouter à la certification. Cliquez sur **[!UICONTROL Aperçu]** pour afficher le cours en tant qu’élève avant de l’ajouter.
@@ -165,6 +168,8 @@ Une certification peut être modifiée par un administrateur à l’état publi�
 Pour modifier une certification publiée, cliquez sur la carte de certification, puis sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
 
 Lors de la modification des sections d’une certification, si vous devez vous extraire de la page, vous devez publier de nouveau la certification. Vous recevez une confirmation par l’intermédiaire d’une boîte de dialogue vous demandant de publier de nouveau la certification.
+
+![](assets/edit-a-certificate.png)
 
 ## Inscription {#subscription}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Ludification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 70%
+source-wordcount: '1646'
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,7 @@ La ludification est l’utilisation de l’esprit et de la mécanique du jeu dan
 
 ## Vue d’ensemble {#overview}
 
-Learning Manager vous permet d’appliquer une couche de ludification structurelle au contenu pour engager les élèves et les motiver à atteindre leurs objectifs d’apprentissage. Il permet aux élèves de marquer des points pour diverses activités d&#39;apprentissage et d&#39;atteindre des niveaux de bronze, d&#39;argent, d&#39;or et de platine.
+Le Adobe Learning Manager comprend une fonctionnalité appelée Ludification, conçue pour impliquer les élèves et promouvoir l’apprentissage grâce à des éléments de jeu interactifs. Il encourage les comportements d’apprentissage souhaités par le biais de récompenses et permet aux élèves de gagner des points et de se mesurer à leurs pairs. Cette fonctionnalité améliore l’engagement et la motivation des utilisateurs au sein de la plateforme d’apprentissage.
 
 Par défaut, quelques points et données de ludification d’exemple sont disponibles pour les utilisateurs afin de comprendre la finalité. Vous pouvez modifier les points en conséquence.
 
@@ -32,57 +32,6 @@ Pour accéder aux paramètres, procédez comme suit :
 1. Connectez-vous en tant qu’administrateur puis, dans le volet de gauche, cliquez sur **[!UICONTROL Ludification]**.
 1. Lorsque vous créez un compte Learning Manager, la ludification est désactivée par défaut. Pour l’activer, cliquez sur **[!UICONTROL Activer]** dans le coin supérieur droit de la page.
 
-## Actions de l’administrateur {#administratoractions}
-
-L’administrateur peut créer une liste d’utilisateurs confidentiels, réinitialiser les points de ludification et activer/désactiver la fonctionnalité de ludification des élèves. Cliquez sur la liste déroulante Actions dans l’angle supérieur droit de la page pour afficher les actions comme illustré dans l’instantané ci-dessous.
-
-![](assets/gamification-actions.png)
-
-*Options de ludification pour un administrateur*
-
-## Paramètres de confidentialité {#confidentialitysettings}
-
-Si nécessaire, vous pouvez faire de certains utilisateurs de haut niveau des utilisateurs confidentiels. Les activités de ludification des utilisateurs confidentiels ne sont pas visibles par les autres utilisateurs du tableau des scores.
-
-Des paramètres de confidentialité peuvent être appliqués pour les utilisateurs internes et externes.
-
-1. Cliquez sur **[!UICONTROL Ludification]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres de confidentialité]**.
-
-![](assets/confidentiality-settings.png)
-
-*Afficher les paramètres de confidentialité*
-
-1. Dans la liste des utilisateurs, cliquez sur la case à cocher en regard du nom de l’utilisateur et cliquez sur Masquer pour faire de l’utilisateur un utilisateur confidentiel.
-
-   >[!NOTE]
-   >
-   >Vous pouvez identifier les utilisateurs confidentiels dans les utilisateurs répertoriés en cochant la case en regard du nom d’utilisateur.
-
-1. Cliquez sur l’onglet Utilisateurs confidentiels pour afficher la liste des utilisateurs confidentiels. Par défaut, ils ne sont pas visibles. Cliquez sur la flèche déroulante pour afficher la liste.
-1. Cochez la case en regard du nom de l’utilisateur dans la liste des utilisateurs confidentiels et cliquez sur Ajouter pour supprimer des utilisateurs de la liste confidentielle.
-
-## Réinitialisation de la ludification {#resetgamification}
-
-Vous pouvez réinitialiser les points de ludification obtenus par un participant et aussi réinitialiser les paramètres de configuration. Si vous choisissez de réinitialiser les scores des utilisateurs, tous les points obtenus par les utilisateurs sont effacés et remis à zéro. Si vous choisissez de réinitialiser les scores des utilisateurs et les paramètres de configuration, tous les points par défaut attribués aux niveaux et aux tâches sont remis à zéro.
-
-Réinitialiser les paramètres de ludification peut être appliqué pour les utilisateurs internes et externes.
-
-Pour réinitialiser le score de l’élève et la configuration, cliquez sur Réinitialiser la ludification, puis choisissez une option, selon vos besoins. Vous pouvez choisir entre Réinitialiser les scores de l’élève uniquement et Réinitialiser les scores d’élèves et les paramètres de configuration. Une fois l’option sélectionnée, cliquez sur OK.
-
-![](assets/reset-gamification.png)
-
-*Réinitialiser les points de ludification*
-
-## Désactivation de la ludification {#disablegamification}
-
-Cliquez sur [!UICONTROL **Ludification**] > **[!UICONTROL Paramètres]** > [!UICONTROL **Fonctionnalité de ludification**]. Cela vous permet d’activer la fonction de ludification et le tableau des scores séparément pour vos élèves. Choisissez entre Activer pour les élèves internes et Activer pour les élèves externes selon les besoins, puis cliquez sur OK. Tous les points sont conservés lorsque vous réactivez la ludification.
-
-![](assets/gamification-feature.png)
-
-*Désactiver la ludification*
-
-Vous pouvez désactiver la ludification pour les utilisateurs internes et externes.
-
 ## Configuration des points {#setuppoints}
 
 Les administrateurs peuvent configurer les points de ludification pour les participants en suivant les étapes ci-dessous :
@@ -92,6 +41,8 @@ Les administrateurs peuvent configurer les points de ludification pour les parti
 1. Cliquez sur l’icône Modifier située en regard de chaque tâche pour configurer les points.
 1. Modifiez la fréquence d’occurrence pour des tâches telles que l’exécution d’un nombre spécifique de cours par mois ou trimestre ou année.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+![](assets/set-up-points.png)
 
 ## Tâches {#tasks}
 
@@ -177,9 +128,15 @@ Les scénarios possibles pour les super perfectionnistes dans les niveaux d’un
 >
 >La période ne s’applique pas à cette tâche. Si les participants atteignent un niveau supérieur, puis atteignent un niveau inférieur d&#39;une compétence, ils obtiennent des points seulement pour le plus haut niveau.
 
+**Pour référence**
+
+Cette tâche s’applique aux élèves qui font référence à leur cours terminé dans les N jours suivant l’achèvement.
+
+Scénario possible : lorsqu’un élève fait référence au cours terminé dans les 30 jours suivant la fin, il reçoit 50 points.
+
 **Points d’accomplissement précoce**
 
-Cette tâche s’applique aux élèves qui sont parmi les premiers à achever le cours.
+Cette tâche s’applique aux élèves qui renvoient à un cours avec signet dans les N jours pour terminer le cours.
 
 Scénario possible :\
 Lorsqu’un élève devient l’un des 10 premiers élèves à terminer le cours, il obtient 100 points.
@@ -190,6 +147,87 @@ Cette tâche s’applique aux élèves qui terminent un cours dans un nombre don
 
 Scénario possible :\
 Lorsque les élèves terminent un cours dans les 10 jours du début du cours, ils obtiennent 100 points.
+
+**Élève complet**
+
+Cette tâche s’applique aux élèves qui consomment du matériel d’apprentissage facultatif tel que la préparation au travail, les ressources et les assistances à la tâche par mois.
+
+Scénarios possibles :
+
+1. Lorsque les élèves terminent un ou plusieurs apprentissages par mois, ils obtiennent 20 points.
+1. Lorsque les élèves terminent deux apprentissages par mois, ils obtiennent 40 points.
+1. Lorsque les élèves terminent trois apprentissages par mois, ils obtiennent 80 points.
+
+**Apprentissage cohérent**
+
+Cette tâche s’applique aux élèves qui participent à des activités d’apprentissage pendant un nombre spécifique de jours par semaine, par mois ou par trimestre. Les activités comprennent l’utilisation du contenu d’apprentissage, le téléchargement des ressources et des instructions.
+
+Scénarios possibles :
+
+1. Lorsque les élèves participent à des activités d’apprentissage pendant une journée chaque semaine, ils obtiennent 20 points.
+1. Lorsque les élèves participent à des activités d’apprentissage pendant deux jours chaque semaine, ils obtiennent 40 points.
+1. Lorsque les élèves participent à des activités d’apprentissage pendant une journée chaque semaine, ils obtiennent 80 points.
+
+**Commentaire** 
+
+Cela s’applique aux élèves qui fournissent des commentaires sur les cours.
+
+Scénarios possibles :
+
+1. Pour commencer à évaluer les commentaires, ils obtiennent 20 points.
+1. Pour les réactions, ils obtiennent 20 points.
+1. Pour le retour d’informations du responsable, ils obtiennent 20 points.
+
+## Actions de l’administrateur {#administratoractions}
+
+L’administrateur peut créer une liste d’utilisateurs confidentiels, réinitialiser les points de ludification et activer/désactiver la fonctionnalité de ludification des élèves. Sélectionnez l’option **[!UICONTROL Paramètres]** sur la page de ludification pour afficher les actions comme indiqué dans l’instantané ci-dessous.
+
+![](assets/gamification-actions.png)
+
+*Options de ludification pour un administrateur*
+
+## Paramètres de confidentialité {#confidentialitysettings}
+
+Si nécessaire, vous pouvez faire de certains utilisateurs de haut niveau des utilisateurs confidentiels. Les activités de ludification des utilisateurs confidentiels ne sont pas visibles par les autres utilisateurs du tableau des scores.
+
+Des paramètres de confidentialité peuvent être appliqués pour les utilisateurs internes et externes.
+
+1. Cliquez sur **[!UICONTROL Ludification]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres de confidentialité]**.
+
+![](assets/confidentiality-settings.png)
+
+*Afficher les paramètres de confidentialité*
+
+1. Dans la liste des utilisateurs, cliquez sur la case à cocher en regard du nom de l’utilisateur et cliquez sur Masquer pour faire de l’utilisateur un utilisateur confidentiel.
+
+   >[!NOTE]
+   >
+   >Vous pouvez identifier les utilisateurs confidentiels dans les utilisateurs répertoriés en cochant la case en regard du nom d’utilisateur.
+
+1. Cliquez sur l’onglet Utilisateurs confidentiels pour afficher la liste des utilisateurs confidentiels. Par défaut, ils ne sont pas visibles. Cliquez sur la flèche déroulante pour afficher la liste.
+1. Cochez la case en regard du nom de l’utilisateur dans la liste des utilisateurs confidentiels et cliquez sur Ajouter pour supprimer des utilisateurs de la liste confidentielle.
+
+## Réinitialisation de la ludification {#resetgamification}
+
+Vous pouvez réinitialiser les points de ludification obtenus par un participant et aussi réinitialiser les paramètres de configuration. Si vous choisissez de réinitialiser les scores des utilisateurs, tous les points obtenus par les utilisateurs sont effacés et remis à zéro. Si vous choisissez de réinitialiser les scores des utilisateurs et les paramètres de configuration, tous les points par défaut attribués aux niveaux et aux tâches sont remis à zéro.
+
+Réinitialiser les paramètres de ludification peut être appliqué pour les utilisateurs internes et externes.
+
+Pour réinitialiser le score de l’élève et la configuration, cliquez sur Réinitialiser la ludification, puis choisissez une option, selon vos besoins. Vous pouvez choisir entre Réinitialiser les scores de l’élève uniquement et Réinitialiser les scores d’élèves et les paramètres de configuration. Une fois l’option sélectionnée, cliquez sur OK.
+
+![](assets/reset-gamification.png)
+
+*Réinitialiser les points de ludification*
+
+## Désactivation de la ludification {#disablegamification}
+
+Cliquez sur [!UICONTROL **Ludification**] > **[!UICONTROL Paramètres]** > [!UICONTROL **Fonctionnalité de ludification**]. Cela vous permet d’activer la fonction de ludification et le tableau des scores séparément pour vos élèves. Choisissez entre Activer pour les élèves internes et Activer pour les élèves externes selon les besoins, puis cliquez sur OK. Tous les points sont conservés lorsque vous réactivez la ludification.
+
+![](assets/gamification-feature.png)
+
+*Désactiver la ludification*
+
+Vous pouvez désactiver la ludification pour les utilisateurs internes et externes.
 
 ## Ludification de niveau de groupe {#grouplevelgamification}
 

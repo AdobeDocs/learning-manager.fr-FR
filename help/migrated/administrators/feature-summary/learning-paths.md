@@ -4,9 +4,9 @@ title: Parcours d’apprentissage
 description: Création de plans d’apprentissage pour les administrateurs de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ Vous pouvez ajouter des compétences et attribuer un badge au parcours d’appre
 ![](assets/add-skills.png)
 
 Attribuez un badge au parcours d’apprentissage. Sélectionnez un badge dans la liste des badges disponibles.
+
+Sélectionnez le niveau de produits, de rôles et de rôles dans la liste **[!UICONTROL Recommander pour]** pour suggérer ce parcours d’apprentissage aux utilisateurs qui ont exprimé leur intérêt pour ces produits et rôles.
+
+![](assets/recommend-for.png)
 
 Choisissez le type de séquençage pour les sections et la formation, Ordonné ou Non ordonné, en fonction de vos préférences.
 
