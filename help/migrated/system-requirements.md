@@ -3,59 +3,15 @@ jcr-language: en_us
 title: Configuration système
 description: Configuration requise pour Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
 # Configuration requise pour Adobe Learning Manager
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (versions 64 bits uniquement).
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## Mémoire RAM
-
-8 Go de RAM.
-
-## Affichage
-
-Résolution minimale prise en charge : 1024 x 720.
-
-## Espace disque
-
-5 Go minimum d’espace disque disponible.
-
-## Enregistrement
-
-* Microphone requis pour l’enregistrement audio.
-* Webcam requise pour l’enregistrement vidéo.
-
-## Divers
-
-Connexion Internet active et compte d’élève Adobe Learning Manager requis pour utiliser l’application.
-
-## Spécification de navigateur
-
-La page d’accueil avec mise en page immersive n’est pas prise en charge dans le navigateur IE 11.
-
-* Google Chrome version 43 et ultérieure.
-* Dernières versions d’Edge, de Safari (version 13 et ultérieure), et de Firefox.
-* Internet Explorer version 11 et ultérieure
-
-## Taille recommandée des images {#recommendedsizeofimages}
-
-* En-tête : 1 280 x 360 px.
-* Image sur la carte du catalogue : 280 x 100 px
-* Taille de la carte de formation : 300 x 240 px
-* Bannière pour réseaux sociaux : 1600 x 240 px
 
 ## Ordinateur
 
@@ -114,6 +70,25 @@ Un microphone est nécessaire pour l’enregistrement audio ; une webcam est n�
 >[!NOTE]
 >
 >L’application mobile Learning Manager prend uniquement en charge le rôle d’élève.
+
+## Divers
+
+Connexion Internet active et compte d’élève Adobe Learning Manager requis pour utiliser l’application.
+
+## Spécification de navigateur
+
+La page d’accueil avec mise en page immersive n’est pas prise en charge dans le navigateur IE 11.
+
+* Google Chrome version 43 et ultérieure.
+* Dernières versions d’Edge, de Safari (version 13 et ultérieure), et de Firefox.
+* Internet Explorer version 11 et ultérieure
+
+## Taille recommandée des images {#recommendedsizeofimages}
+
+* En-tête : 1 280 x 360 px.
+* Image sur la carte du catalogue : 280 x 100 px
+* Taille de la carte de formation : 300 x 240 px
+* Bannière pour réseaux sociaux : 1600 x 240 px
 
 ## Taille maximale du contenu {#maximumcontentsize}
 
