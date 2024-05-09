@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Gérer des rôles personnalisés via les fichiers CSV
 description: L’administrateur de l’intégration peut ajouter un certain nombre de rôles personnalisés à son compte en masse via un fichier CSV et les attribuer à différents utilisateurs. Cette approche automatise le processus de création des rôles personnalisés.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # Gérer des rôles personnalisés via les fichiers CSV
 
@@ -18,7 +17,7 @@ L’administrateur de l’intégration peut ajouter un certain nombre de rôles 
 
 Vous pouvez configurer les rôles via les connecteurs Learning Manager FTP et Box.
 
-Après vous être connecté à votre compte de stockage Box ou ExaVault, l’administrateur de l’intégration peut ajouter les fichiers CSV suivants dans le compte :
+Une fois connecté à votre compte de stockage Box, l’administrateur d’intégration peut ajouter les fichiers .csv suivants dans le compte :
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Après vous être connecté à votre compte de stockage Box ou ExaVault, l’adm
 Pour commencer, téléchargez les fichiers CSV et modifiez les valeurs en fonction de vos besoins.
 
 **role.csv**
-[Exemple de fichier - role.csv](assets/role.csv) [Exemple de fichier : user_role.csv](assets/user-role.csv)
+* Fichier d’exemple : [role.csv](assets/role.csv)
+* Fichier d’exemple : [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ Si des noms de catalogue ou des noms de groupes d’utilisateurs sont fournis da
 * Plans d’apprentissage
 * Modèles de courriers électroniques
 
-## Ajouter les fichiers CSV du rôle dans le compte {#addtherolecsvsintheaccount}
+## Ajouter les fichiers CSV de rôle dans le compte {#addtherolecsvsintheaccount}
 
 Dans votre compte Box, sélectionnez **Importer > utilisateur > interne**, et téléchargez les fichiers role.csv et user_role.csv.
 
