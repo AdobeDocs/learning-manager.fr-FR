@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Création de modules de cours, d’instances et de programmes d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ Les auteurs créent des cours. Les élèves peuvent ensuite prendre des cours et
 
 ### Gestion des instances
 
-Dans cette formation, vous apprendrez à modifier les détails et les propriétés de l&#39;instance.
+>[!INFO]
+>
+>Dans cette formation, vous apprendrez à modifier les détails et les propriétés de l&#39;instance.<br><br>[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ Un cycle de vie habituel de cours se présente comme suit :
 
 **Retraité** - Après la publication d&#39;un cours, un auteur peut le passer au stade retiré s&#39;il ne veut pas que le cours apparaisse dans le catalogue de cours pour les élèves. Vous pouvez republier ou supprimer un cours dans cet état.
 
-**Supprimé** Adobe - Un cours est à l’état Supprimé lorsqu’il a été complètement supprimé de l’application Learning Manager. Les cours peuvent être supprimés par l’auteur uniquement lorsqu’ils sont à l’état de brouillon. Vous pouvez également supprimer des cours de l&#39;état retiré.
+**Supprimé** - Un cours à l&#39;état Supprimé est lorsqu&#39;il a été complètement supprimé de l&#39;application Adobe Learning Manager. Les cours peuvent être supprimés par l’auteur uniquement lorsqu’ils sont à l’état de brouillon. Vous pouvez également supprimer des cours de l&#39;état retiré.
 
 ![](assets/lifecycle-03.png)
 

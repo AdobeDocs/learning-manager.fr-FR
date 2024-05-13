@@ -4,14 +4,13 @@ title: Accessibilité dans Adobe Learning Manager
 description: Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion d’apprentissage d’Adobe Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité sur la plate-forme.
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Accessibilité dans Adobe Learning Manager
 
@@ -19,7 +18,7 @@ Ce document décrit la prise en charge de l’accessibilité fournie par le syst
 
 Learning Manager suit les normes d’accessibilité WCAG 2.1 de niveau A et AA de W3C pour la plateforme.
 
-Le rôle Élève d’Adobe Learning Manager permet aux élèves de parcourir la plateforme et de tirer parti des fonctionnalités d’accessibilité clés suivantes :
+Le rôle Élève de Adobe Learning Manager permet aux élèves de parcourir la plateforme et de tirer parti des fonctionnalités d’accessibilité clés suivantes :
 
 * Lecteur d’écran
 * Clavier
@@ -151,8 +150,8 @@ Le rôle Élève dans Learning Manager prend en charge plusieurs autres fonction
 
 Pour plus d’informations, voir :
 
-* [Rapport de conformité d’accessibilité pour un élève](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Rapport de conformité d’accessibilité pour tous les rôles](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Rapport de conformité d’accessibilité pour un élève](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Rapport de conformité d’accessibilité pour tous les rôles](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Workflows principaux de Learning Manager (rôle Élève) {#captivateprimetopworkflowslearnerrole}
 
