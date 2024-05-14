@@ -3,17 +3,17 @@ jcr-language: en_us
 title: Dépréciations d’API dans Adobe Learning Manager
 description: À mesure que les API dans Adobe Learning Manager évoluent, elles sont régulièrement réorganisées ou mises à niveau. Lorsque les API évoluent, l’ancienne API est obsolète et finalement supprimée. Cette page contient les informations que vous devez connaître lors de la migration de versions d’API obsolètes vers des versions d’API plus récentes et plus stables.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
 
-
 # Dépréciations et modifications d’API dans Adobe Learning Manager
 
-## Dépréciations d’API dans la version de mars 2024 d’Adobe Learning Manager
+## Dépréciations d’API dans la version de mars 2024 de Adobe Learning Manager
 
 <!-- ### Changes in Rate Limits
 
@@ -105,7 +105,7 @@ Actuellement, dans le point de terminaison résumé de l’objet d’apprentissa
 
 Le processus d&#39;extraction du nombre d&#39;achèvements et d&#39;inscriptions est coûteux sur le plan informatique. Par conséquent, le calcul est effectué sur demande. Si les données ne sont pas présentes dans la mémoire cache, elles sont rechargées, ce qui représente une charge de calcul importante. Si de nombreux utilisateurs s&#39;inscrivent à un cours, le nombre sera important et aura un impact réel sur les performances du processeur.
 
-Dans la prochaine version d’Adobe Learning Manager, dans le point de terminaison résumé de l’instance d’objet d’apprentissage, completionCount, enrollmentCount, seatLimit et waitlistCount sont mis en cache. Les informations mises en cache sont conservées jusqu&#39;à ce que des modifications soient apportées aux inscriptions ou aux désinscriptions. Pour les nombres supérieurs à 1 000 inscriptions, nous supposerons les nombres estimés et invaliderons les résultats pour tous les comptes existants et nouveaux.
+Dans la prochaine version de Adobe Learning Manager, dans le point de terminaison résumé de l’instance d’objet d’apprentissage, completionCount, enrollmentCount, seatLimit et waitlistCount sont mis en cache. Les informations mises en cache sont conservées jusqu&#39;à ce que des modifications soient apportées aux inscriptions ou aux désinscriptions. Pour les nombres supérieurs à 1 000 inscriptions, nous supposerons les nombres estimés et invaliderons les résultats pour tous les comptes existants et nouveaux.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Dans la prochaine version d’Adobe Learning Manager, dans le point de terminais
 
 ### Trier par nom
 
-Dans la prochaine version d’Adobe Learning Manager, name et -name sont obsolètes dans le champ de tri des API suivantes :
+Dans la prochaine version de Adobe Learning Manager, name et -name sont obsolètes dans le champ de tri des API suivantes :
 
 * GET /userGroups/{userGroupId}/users
 * GET /users
@@ -123,11 +123,11 @@ Dans la prochaine version d’Adobe Learning Manager, name et -name sont obsolè
 >Pour tous les comptes existants et nouveaux, le tri par nom et par -nom sera déconseillé.
 
 
-## Dépréciations d’API dans la version de novembre 2023 d’Adobe Learning Manager
+## Dépréciations d’API dans la version de novembre 2023 de Adobe Learning Manager
 
 ### Indicateur de remplacement
 
-Dans la version de novembre 2023 d’Adobe Learning Manager, nous avons supprimé l’indicateur de remplacement des API. L’indicateur de remplacement ne fait pas partie de la spécification d’API publique et est destiné aux tests backend. L’indicateur n’est plus disponible pour les API des élèves. Cependant, l’indicateur reste valide pour les API d’administrateur.
+Dans la version de novembre 2023 de Adobe Learning Manager, nous avons supprimé l’indicateur de remplacement des API. L’indicateur de remplacement ne fait pas partie de la spécification d’API publique et est destiné aux tests backend. L’indicateur n’est plus disponible pour les API des élèves. Cependant, l’indicateur reste valide pour les API d’administrateur.
 
 La raison pour laquelle nous déprécions l&#39;indicateur pour les API des élèves est que l&#39;indicateur de remplacement récupérait une grande quantité de données via les API des élèves.
 
@@ -145,6 +145,11 @@ Le groupe de pairs devient désormais un compte. Les élèves verront une chaîn
 
 ### Modifications Apportées Au Rapport D&#39;Annonce Des Notifications
 
-Dans les versions antérieures d’Adobe Learning Manager, le rapport Annonce de notification ne disposait d’aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des notifications du compte.
+Dans les versions antérieures de Adobe Learning Manager, le rapport Annonce de notification ne comportait aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des notifications du compte.
 
 Dans la version de novembre 2023, nous avons ajouté un filtre de date, à l’aide duquel vous pouvez télécharger les notifications au cours d’une période spécifiée.  Cependant, vous ne pouvez télécharger que le rapport des six derniers mois.
+
+### Dépréciation des valeurs de décalage élevées dans le point de terminaison GET /users
+
+Pour améliorer les performances du système et gérer plus efficacement l’utilisation des ressources, Adobe a déprécié les valeurs de décalage élevées dans le point d’entrée GET /users pour les deux **ADMINISTRATEUR** et **ÉLÈVE** étendues. Nous vous recommandons d’utiliser la **API des tâches** pour extraire les enregistrements avec une valeur de décalage.
+
