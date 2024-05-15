@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Ludification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1649'
 ht-degree: 56%
 
 ---
@@ -43,6 +43,8 @@ Les administrateurs peuvent configurer les points de ludification pour les parti
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/set-up-points.png)
+
+*Définition de points*
 
 ## Tâches {#tasks}
 
@@ -103,7 +105,7 @@ Scénarios possibles de l’inscription d’élèves à des cours s’ajoutant �
 
 Cette tâche s’applique lorsque les élèves terminent un nombre spécifique de compétences. L’administrateur peut sélectionner cette tâche pour inciter les élèves à acquérir autant de compétences que possible.
 
-Scénarios possibles pour l’élargissement des compétences :
+Scénarios possibles de perfectionnement des compétences :
 
 1. Lorsque l’élève atteint une compétence, il obtient 100 points.
 1. Lorsqu’un élève atteint deux compétences, il obtient 300 points.

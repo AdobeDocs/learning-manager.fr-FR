@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Annonces
 description: Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur diffuse pour un ensemble défini d’utilisateurs.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # Annonces
 
@@ -29,6 +28,11 @@ Il existe quatre types d&#39;annonces :
 1. En tant qu&#39;utilisateur administrateur, cliquez sur Annonces dans le volet de gauche.
 1. Cliquez sur Ajouter dans l’angle supérieur droit de la page.
 1. Dans la liste déroulante Type, sélectionnez l’option **Comme notification**.
+
+![](assets/as-notofocation.png)
+
+*Personnalisation de la notification*
+
 1. Dans le champ Message, ajoutez le message de l’annonce. Vous pouvez également ajouter une URL pour les annonces ici. Cependant, vous devez ajouter l’URL dans le formulaire HTML.
 
    Par exemple,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
@@ -125,7 +129,7 @@ Par défaut, toutes les annonces sont définies pour une diffusion immédiate. S
 
 Dans l’onglet Planifié, vous pouvez afficher toutes les annonces planifiées pour la diffusion à une date ultérieure.
 
-### Envoyé {#sent}
+### Envoyés {#sent}
 
 Dans l’onglet Envoyé, vous pouvez afficher toutes les annonces déjà diffusées.
 

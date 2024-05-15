@@ -4,10 +4,10 @@ title: Parcours d’apprentissage
 description: Création de plans d’apprentissage pour les administrateurs de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ Dans le panneau **[!UICONTROL Parcours d’apprentissage]** page, cliquez sur **
 
 *Ajouter un nouveau parcours d’apprentissage*
 
+Dans le panneau **Type d’inscription** option, sélectionner **Auto-inscription** ou **Inscription administrateur**.
+
+>[!NOTE]
+>
+>Si vous sélectionnez **Inscription administrateur** , les élèves ne verront que des cours nommés par le responsable ou approuvés par le responsable. Les élèves ne pourront pas voir le parcours d’apprentissage dans la section des recommandations.
+
 Après avoir créé le parcours d’apprentissage, sélectionnez le nouveau parcours d’apprentissage et ajoutez les cours dans le parcours.
 
 Vous pouvez ajouter des compétences et attribuer un badge au parcours d’apprentissage. Pour ajouter une compétence, sélectionnez la ou les compétences requises dans la liste **[!UICONTROL Choisir une compétence]** liste déroulante. Sélectionnez également le niveau de la compétence ou des compétences.
 
 ![](assets/add-skills.png)
 
+*Ajouter une compétence*
+
 Attribuez un badge au parcours d’apprentissage. Sélectionnez un badge dans la liste des badges disponibles.
 
 Sélectionnez le niveau de produits, de rôles et de rôles dans la liste **[!UICONTROL Recommander pour]** pour suggérer ce parcours d’apprentissage aux utilisateurs qui ont exprimé leur intérêt pour ces produits et rôles.
 
 ![](assets/recommend-for.png)
+
+*Recommandation*
 
 Choisissez le type de séquençage pour les sections et la formation, Ordonné ou Non ordonné, en fonction de vos préférences.
 
@@ -141,6 +151,20 @@ Trois options s&#39;offrent à vous :
 
 Les rappels de notification sont déclenchés en fonction de l’option. Par défaut, l’option **[!UICONTROL Tous les niveaux, cours et parcours d’apprentissage]** est activé pour une instance.
 
+## Abonnements
+
+Vous pouvez vous abonner aux parcours d’apprentissage individuels pour recevoir des données complètes, notamment les scores du quiz et le statut de l’élève directement dans votre boîte de réception.
+
+Procédez comme suit :
+
+1. Accédez à n’importe quel parcours d’apprentissage > Abonnements.
+1. Sélectionnez Ajouter.
+1. Sélectionnez les détails et saisissez l’ID de messagerie pour recevoir les rapports.
+
+![](assets/subscriptions.png)
+
+*Abonnement à un parcours d’apprentissage individuel*
+
 ## Note importante
 
 Veuillez noter que la fonctionnalité existante des programmes d’apprentissage sera renommée « Parcours d’apprentissage » immédiatement après la publication. Si vous souhaitez continuer à l’appeler Programmes d’apprentissage, nous vous recommandons d’utiliser la fonction « Terminologies » pour appliquer la terminologie requise. Ainsi, vous pouvez utiliser le mot Programme d’apprentissage.
@@ -151,76 +175,76 @@ Les élèves peuvent continuer à utiliser les programmes d’apprentissage (dé
 
 Le **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]** La page propose une nouvelle option pour activer les parcours d’apprentissage. Si cette option est activée, vous pouvez ajouter des cours et des programmes d’apprentissage dans un parcours d’apprentissage Vous ne pouvez pas modifier cette option une fois qu’elle est activée.
 
-## Autres détails relatifs au parcours d’apprentissage
+<!-- ## Other Learning Path-related details 
 
-### L’option Parcours d’apprentissage est désactivée/décochée dans les paramètres d’administration.
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**Comptes utilisant des applications Web natives**
+**Accounts using Native Web apps**
 
-**Élèves**
+**Learners**
 
-* Par défaut, les élèves remarqueront un changement de terminologie, de « Programme d’apprentissage » à « Parcours d’apprentissage ». Cela a été fait pour rendre l&#39;interface plus intuitive. Si vous ne souhaitez pas cette modification, reportez-vous aux points ci-dessous.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* Toutefois, cette modification ne sera pas reflétée dans l’interface utilisateur si vous avez déjà utilisé la fonction « Terminologie personnalisée » pour remplacer la terminologie « Programmes d’apprentissage » par du texte personnalisé.
-* Si vous n’avez pas encore utilisé la fonction Terminologie personnalisée, mais que vous souhaitez maintenant conserver « Programmes d’apprentissage » comme terminologie, vous pouvez le faire via la fonction « Terminologie personnalisée » après la publication.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* L&#39;aspect esthétique global des anciens « programmes d&#39;apprentissage » sera mis à jour pour donner un aspect plus riche visuellement.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**Auteurs et administrateurs**
+**Authors and Admins**
 
-* La terminologie des applications administrateur/auteur est la même que celle des élèves.
-* L&#39;interface utilisateur que les auteurs et les administrateurs doivent créer et mettre à jour les anciens objets « Programme d&#39;apprentissage » sera désormais mise à jour vers la nouvelle interface utilisateur. Il n&#39;y a pas de perte de fonctionnalité, simplement que l&#39;interface utilisateur pour effectuer l&#39;opération sera beaucoup plus intuitive. Ces modifications de l’interface utilisateur seront répercutées dans votre compte, même si vous avez choisi de ne pas activer les « fonctionnalités étendues du parcours d’apprentissage », sans perte de fonctionnalité.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Notez que les objets existants du programme d’apprentissage ne changeront pas, de sorte qu’il n’y a aucune incidence sur les élèves (à l’exception du point de terminologie mentionné ci-dessus). Les auteurs/administrateurs peuvent remarquer un regroupement par défaut appelé « Section » dans leurs objets existants, qui n’aurait aucun impact significatif en termes de fonctionnalité. Les auteurs/administrateurs verront également des fonctionnalités supplémentaires telles que les compétences, les aides à l’emploi, etc. Mais comme vous ne l’avez pas encore utilisé, cela n’aura aucun impact sur l’élève tant que vous ne l’aurez pas commencé à l’utiliser.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**Rapports**
+**Reporting**
 
-* Si vous n’activez pas l’option Parcours d’apprentissage , la structure du rapport Relevé de notes de l’élève ne sera pas modifiée en raison du parcours d’apprentissage. Mais comme indiqué dans un avis antérieur (consultez le tableau partagé dans une communication antérieure), une nouvelle colonne sera ajoutée à l&#39;extrême droite du relevé de notes de l&#39;élève immédiatement après la publication.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**Comptes utilisant un LMS sans en-tête**
+**Accounts using Headless LMS**
 
-**Élèves**
+**Learners**
 
-* Il n’y a aucune modification pour les élèves dans l’interface sans en-tête. Les API également utilisées pour générer les rapports n’ont pas de modifications immédiates.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**Auteurs et administrateurs**
+**Authors and Admins**
 
-* Les mêmes modifications que celles apportées aux auteurs/administrateurs indiqués ci-dessus.
+* Same changes as that of Authors/Admins stated above.
 
-**Rapports**
+**Reporting**
 
-* Les mêmes modifications que celles du rapport mentionné ci-dessus.
+* Same changes as that of Reporting stated above.
 
-### L’option Parcours d’apprentissage est activée/cochée dans les Paramètres d’administration.
+### Learning Paths option is enabled/checked in Admin Settings
 
-**Comptes utilisant des applications Web natives**
+**Accounts using Native Web apps**
 
-**Élèves**
+**Learners**
 
-* Les mêmes modifications que celles appliquées aux élèves lorsque l’option est désactivée.
-* Lorsque vous commencerez à utiliser les fonctionnalités étendues des parcours d’apprentissage, les élèves bénéficieront de parcours plus élaborés avec des sections et des parcours intégrés, des compétences et des badges acquis à l’achèvement du parcours, des ressources au niveau du parcours et d’autres avantages.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**Auteurs et administrateurs**
+**Authors and Admins**
 
-* Les mêmes modifications que celles appliquées aux auteurs et aux administrateurs lorsque l’option est désactivée.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* Les utilisateurs bénéficieront de fonctionnalités supplémentaires dans la création de parcours élaborés. Vous pouvez définir des niveaux de compétence qui seraient automatiquement atteints par un élève à la fin du parcours (il n’est pas nécessaire de se concentrer sur l’arithmétique des crédits pour les niveaux). Des ressources peuvent être ajoutées au niveau du parcours (impossible jusqu’à présent). Des sections peuvent être créées avec chaque section ayant la possibilité d’avoir des options X de Y. On peut incorporer un parcours d’apprentissage dans un autre parcours (un niveau de hiérarchie pris en charge).
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**Rapports**
+**Reporting**
 
-* Quelques nouvelles colonnes seront ajoutées aux structures « Relevé de notes de l’élève » et « Rapport de contenu » pour incorporer la nouvelle fonctionnalité d’incorporation de parcours dans des parcours. Cela peut affecter le code d’intégration que vous avez peut-être écrit pour exporter ces données vers votre entrepôt de données personnalisé/votre base de données personnalisée en dehors de Learning Manager. Ces informations sont communiquées dans le tableau fourni dans les communications antérieures.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**Comptes utilisant un LMS sans en-tête**
+**Accounts using Headless LMS**
 
-**Élèves**
+**Learners**
 
-* Il n’y a pas de changement pour vos élèves, à moins que vous apportiez des modifications à votre implémentation de LMS sans en-tête, car les API sur lesquelles vous avez construit votre interface sans en-tête ne changeront pas.
-* Si vous commencez à utiliser les fonctionnalités étendues des parcours d’apprentissage en créant de nouveaux parcours d’apprentissage, vous devrez toutefois apporter des modifications à la mise en oeuvre du LMS sans en-tête pour refléter celles de votre application d’apprentissage. Les API Learning Manager permettent d’effectuer ces opérations.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**Auteurs et administrateurs**
+**Authors and Admins**
 
-* Les mêmes modifications que celles apportées aux auteurs/administrateurs indiqués ci-dessus.
+* Same changes as that of Authors/Admins stated above.
 
-**Rapports**
+**Reporting**
 
-* Les mêmes modifications que celles du rapport mentionné ci-dessus.
+* Same changes as that of Reporting stated above. -->

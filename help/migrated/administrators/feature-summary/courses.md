@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création de modules de cours, d’instances et de programmes d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ Pour restaurer une instance retirée et la replacer en état d’activation, pro
    *Restauration d’une instance*
 
 1. L’instance est maintenant restaurée en mode actif.
+
+## Suppression d’une instance
+
+Les administrateurs peuvent supprimer l’instance à l’aide de **Supprimer cette instance** immédiatement après la création. Vous ne pouvez pas supprimer d’instances si une session est liée à celle-ci ou si des élèves y sont inscrits.
+
+![](assets/delete-this-instance.png)
+
+*Suppression d’une instance*
+
+>[!NOTE]
+>
+>Vous ne pouvez pas supprimer l&#39;instance par défaut.
 
 ## Envoyer des e-mails d’instance
 

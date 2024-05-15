@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Certifications
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1024'
 ht-degree: 68%
 
 ---
@@ -106,6 +106,8 @@ Sélectionnez le niveau de produits, de rôles et de rôles dans la liste **[!UI
 
 ![](assets/recommend-for.png)
 
+*Recommandation*
+
 Choisir les cours à ajouter à la certification à partir de **[!UICONTROL Cours]** > **[!UICONTROL Catalogue]** onglet.
 
 Passez le curseur de la souris sur chaque vignette de cours, cliquez sur + pour les ajouter à la certification. Cliquez sur **[!UICONTROL Aperçu]** pour afficher le cours en tant qu’élève avant de l’ajouter.
@@ -170,6 +172,8 @@ Pour modifier une certification publiée, cliquez sur la carte de certification,
 Lors de la modification des sections d’une certification, si vous devez vous extraire de la page, vous devez publier de nouveau la certification. Vous recevez une confirmation par l’intermédiaire d’une boîte de dialogue vous demandant de publier de nouveau la certification.
 
 ![](assets/edit-a-certificate.png)
+
+*Modification d’un certificat*
 
 ## Inscription {#subscription}
 

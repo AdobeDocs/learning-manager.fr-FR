@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Notifications
 description: La fonctionnalité Notifications s’applique à tous les utilisateurs d’Adobe Learning Manager. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications selon différents scénarios.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 66%
 
 ---
-
-
 
 # Notifications
 
@@ -42,7 +41,11 @@ Un exemple de fenêtre de notification pour le rôle d’administrateur est illu
 
 Cette fenêtre contextuelle affiche les zones en surbrillance de toutes les notifications, ainsi que l’heure de l’occurrence et une barre de défilement. Vous pouvez connaître le nombre des dernières notifications basées sur le nombre en surbrillance sur l’icône des notifications. Par exemple, s’il y a cinq dernières notifications depuis votre connexion précédente, vous pouvez voir le numéro 5 affiché sur l’icône de notification. Ces numéros disparaissent une fois que vous avez lu toutes les dernières notifications.
 
-Cliquez sur **[!UICONTROL Afficher toutes les notifications]** un lien en bas de la fenêtre contextuelle des notifications permet d’afficher toutes les notifications dans une page distincte.
+Cliquez sur **[!UICONTROL Afficher toutes les notifications]** un lien en bas de la fenêtre contextuelle des notifications permet d’afficher toutes les notifications dans une page distincte. Sur la page des notifications, vous pouvez voir les éléments suivants :
+
+* **Toutes les notifications**: afficher toutes les notifications ici
+* **En attente**: afficher les notifications en attente ici
+* **Discussion**: recherchez des cours pour voir les discussions qui ont lieu.
 
 ## Configurer des notifications d’escalade à plusieurs niveaux {#setupmultilevelescalationnotifications}
 
