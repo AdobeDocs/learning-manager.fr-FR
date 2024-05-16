@@ -4,9 +4,9 @@ title: Configuration système
 description: Configuration requise pour Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '570'
 ht-degree: 65%
 
 ---
@@ -337,3 +337,7 @@ Assurez-vous que les domaines tiers suivants sont ajoutés à la liste blanche s
 ## Présentation technique {#technicaloverview}
 
 [Présentation technique de Learning Manager](assets/learning-manager-technicaloverview.pdf)
+
+## Livre blanc sur la sécurité ALM
+
+[Livre blanc ALM](assets/alm-security-whitepaper.pdf)
