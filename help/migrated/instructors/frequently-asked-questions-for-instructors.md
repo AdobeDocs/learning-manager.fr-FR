@@ -3,14 +3,13 @@ description: Lisez ce document pour découvrir les questions fréquentes des ins
 jcr-language: en_us
 title: Forum aux questions pour les instructeurs
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # Forum aux questions pour les instructeurs
 
@@ -49,4 +48,3 @@ Oui, un auteur peut affecter plusieurs instructeurs à un même module. Dans ce 
 Un instructeur peut uniquement afficher ou modifier les informations sur les sessions auxquelles il a été affecté. Il ne peut pas modifier la session ou la liste des participants d’autres sessions.
 
 +++
-
