@@ -1,8 +1,8 @@
 ---
 title: Nouveautés de cette version
-description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2023 d’Adobe Learning Manager.
+description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2023 de Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Réorganisation de l’interface utilisateur
 
-L’interface utilisateur d’Adobe Learning Manager a fait l’objet de quelques mises à jour pour offrir une expérience plus propre et plus moderne. Les pages d’accueil des rôles d’administrateur et d’auteur ont été réorganisées et les thèmes de l’interface utilisateur ont été mis à jour pour tous les rôles. Cependant, aucune modification n’a été apportée à l’emplacement des menus, boutons ou liens. Vous pourrez les retrouver exactement à l’endroit où ils se trouvaient auparavant.
+L’interface utilisateur de Adobe Learning Manager a fait l’objet de quelques mises à jour pour offrir une expérience plus propre et plus moderne. Les pages d’accueil des rôles d’administrateur et d’auteur ont été réorganisées et les thèmes de l’interface utilisateur ont été mis à jour pour tous les rôles. Cependant, aucune modification n’a été apportée à l’emplacement des menus, boutons ou liens. Vous pourrez les retrouver exactement à l’endroit où ils se trouvaient auparavant.
 
 Les mises à jour des thèmes s’appliquent automatiquement aux comptes utilisant le thème par défaut. Les mises à jour des thèmes de l’interface utilisateur n’affectent pas les comptes ayant apporté des modifications afin d’utiliser un thème personnalisé. Ces comptes doivent redéfinir le thème par défaut pour obtenir le thème mis à jour.
 
@@ -66,7 +66,7 @@ Dans cette version, nous avons ajouté une liste déroulante dans la boîte de d
 
 ### Modifications apportées au rapport d’annonce de notifications
 
-Dans les versions antérieures d’Adobe Learning Manager, le rapport Annonce de notification ne disposait d’aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des notifications du compte.
+Dans les versions antérieures de Adobe Learning Manager, le rapport Annonce de notification ne comportait aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des notifications du compte.
 
 Dans cette version, nous avons ajouté un filtre de date, à l’aide duquel vous pouvez télécharger les notifications au cours d’une période spécifiée.  Cependant, vous ne pouvez télécharger que le rapport des six derniers mois.
 
@@ -273,7 +273,7 @@ La raison pour laquelle nous déprécions l&#39;indicateur pour les API des él�
 
 ### Mise en surbrillance des résultats
 
-Dans la prochaine version d’Adobe Learning Manager, par exemple, dans l’API /search, nous modifions la valeur par défaut de highlightResults sur false.
+Dans la prochaine version de Adobe Learning Manager, par exemple, dans l’API /search, nous modifions la valeur par défaut de highlightResults sur false.
 
 En outre, nous allons remplacer la valeur par défaut de snippetTypes par courseName. Cela mettra en surbrillance les noms de cours dans la recherche uniquement si highlightResults a la valeur True.
 
@@ -324,3 +324,5 @@ Pour plus d’informations sur les versions actuelles et précédentes de l’ap
 * [Version de juillet 2023](whats-new-2023-july.md)
 * [Version d’avril 2023](whats-new-2023-april.md)
 * [Version de novembre 2022](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
