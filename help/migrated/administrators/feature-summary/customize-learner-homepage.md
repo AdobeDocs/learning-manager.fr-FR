@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Personnalisation de la page d’accueil des élèves
 description: Un administrateur peut personnaliser la page d’accueil de l’élève et la rendre plus moderne, plus axée sur le contenu et plus personnalisée pour l’élève.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 46%
 
 ---
-
-
 
 # Personnalisation de la page d’accueil des élèves
 
@@ -85,7 +84,7 @@ Cette option est activée et grisée si vous choisissez l’expérience immersiv
 
 ![](assets/option-immersive.png)
 
-*Sélection pour une expérience classique*
+*Paramètres de la page d’accueil de l’élève*
 
 La mise en page immersive est définie par défaut pour tous les nouveaux comptes. La mise en page est contrôlée par des widgets qu’un administrateur peut activer ou désactiver. En fonction du positionnement des widgets, cela se reflète sur la page d’accueil de l’élève.
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création de modules de cours, d’instances et de programmes d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Pour envoyer des notifications par e-mail, un administrateur doit choisir explic
 ![](assets/escalation-notification.png)
 
 *Définir le niveau d&#39;escalade*
+
+## Liste d’attente
+
+La section Liste d&#39;attente permet aux élèves d&#39;être sur liste d&#39;attente pour des cours en classe lorsque les places sont limitées, en fonction de leur ordre d&#39;inscription. Les administrateurs peuvent gérer cela en sélectionnant les élèves inscrits sur liste d&#39;attente et en allouant des places au-delà de la limite initiale. Une fois une place allouée par l’administrateur, l’élève est immédiatement inscrit au cours.
+
+## Forum de discussion
+
+La fonctionnalité Forum de discussion permet aux élèves d&#39;afficher les discussions du cours. En tant qu’administrateur, vous pouvez supprimer tous les commentaires nécessaires. Les administrateurs peuvent activer cette option dans les paramètres du cours.
 
 ## Modération de cours {#coursemoderation}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # Résumé des nouvelles fonctionnalités {#new-features-summary}
 
 Découvrez les nouvelles fonctionnalités et les améliorations de la version de mars 2024 de Adobe Learning Manager.
+
+Explorez quelques-unes des dernières fonctionnalités de Adobe Learning Manager, telles que :
+
+1. Importation de compétences à partir de sources externes
+1. Prise en charge de plusieurs marques
+1. Module Activité de réévaluation de la liste de contrôle
+1. Application d’apprentissage mobile avec étiquette blanche
+
+>[!NOTE]
+>
+>Voir ceci [webinaire](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) pour en savoir plus sur les nouvelles fonctionnalités de cette version.
+
 
 ## Nouveautés de cette version {#whatsnewandchanged}
 
@@ -320,7 +332,7 @@ Afficher [Création d’une liste de contrôle](authors/feature-summary/courses.
 
 ### Notifications par e-mail relatives à la session
 
-Dans les versions antérieures d’Adobe Learning Manager, un élève n’a pas effectué de courriers électroniques liés à la session, de mise à jour des détails de la session, d’invitation à la session et de rappel de session, lorsque :
+Dans les versions antérieures de Adobe Learning Manager, un élève n’a pas envoyé d’e-mails relatifs à la session, les détails de la session ont été mis à jour, l’invitation à la session et le rappel de session, lorsque :
 
 * Les élèves ont terminé un cours,
 * De nouvelles sessions sont ajoutées à un cours, ou
