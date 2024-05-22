@@ -4,9 +4,9 @@ title: Personnalisation de la page d’accueil des élèves
 description: Un administrateur peut personnaliser la page d’accueil de l’élève et la rendre plus moderne, plus axée sur le contenu et plus personnalisée pour l’élève.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 46%
 
 ---
@@ -137,6 +137,12 @@ Pour les comptes existants, l’option **Immersif** sera **DÉSACTIVÉ**. Il est
   </tr>
   <tr>
    <td>
+    <p>Inscriptions affichant une échéance</p></td>
+   <td>
+    <p>Affiche les inscriptions en retard, dont les échéances sont proches ou qui sont en cours. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Ludification</p></td>
    <td>
     <p>Affiche le tableau des scores basé sur les activités d’apprentissage.</p></td>
@@ -159,24 +165,24 @@ Pour les comptes existants, l’option **Immersif** sera **DÉSACTIVÉ**. Il est
       <p>Deuxièmement, l’administrateur peut également décider si les recommandations sont activées immédiatement ou à une date spécifiée.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Recommandation fondée sur le domaine d'intérêt</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>Affiche les objets d’apprentissage en fonction de la zone d’intérêt choisie par l’élève. La recommandation est pilotée par un algorithme de machine learning.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>Parcourir par catalogue<br></p></td>
    <td>
     <p>Affiche les catalogues sous forme de mosaïques sur la page d’accueil. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Recommandation sur la base de l’activité des pairs<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>Affiche la formation en fonction de ce que suivent les pairs d’un élève. Là encore, il est piloté par un algorithme de machine learning.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ Sur la **Généralités** , vous disposez des options suivantes :
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Pour le nouveau compte, les paramètres Page d’accueil de l’élève, Type de formation et Portée de la recommandation ne seront pas visibles.
+
