@@ -4,10 +4,10 @@ title: Dépréciations d’API dans Adobe Learning Manager
 description: À mesure que les API dans Adobe Learning Manager évoluent, elles sont régulièrement réorganisées ou mises à niveau. Lorsque les API évoluent, l’ancienne API est obsolète et finalement supprimée. Cette page contient les informations que vous devez connaître lors de la migration de versions d’API obsolètes vers des versions d’API plus récentes et plus stables.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
+source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 32%
 
 ---
 
@@ -59,15 +59,13 @@ En raison du nombre élevé d’enregistrements récupérés par la valeur de d�
 
 Si vous avez besoin d’autres enregistrements à récupérer, utilisez la commande **Offres d’emploi GET** API.
 
-La modification des limites de compensation s&#39;applique à tous les nouveaux clients. Pour les clients existants, la règle des 90 jours s’applique.
+<!--### Exclude paths 
 
-### Exclure des tracés
+At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
-Actuellement, les API Learning Manager suivent une structure de données de graphique, qui vous permet de récupérer des données en parcourant le modèle d’API par le biais d’inclusions. Même si vous pouvez parcourir une API jusqu’à sept niveaux, la récupération des données à l’aide d’un seul appel API est coûteuse en termes de calcul.
+We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-Nous recommandons à tous les clients existants et nouveaux de passer de petits appels plusieurs fois au lieu d&#39;un seul appel important. Cette approche empêchera le chargement de données indésirables dans l&#39;appel.
-
-Nous voulons appliquer ces restrictions aux nouveaux comptes et maintenir une liste blanche des comptes existants.
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
 
 #### Quels chemins sont obsolètes ?
 
@@ -99,17 +97,17 @@ Les chemins suivants sont obsolètes :
    * Nouveau chemin :
       * instance.subLoInstances
 
-### Modifications du nombre de résumés d&#39;instances
+<!--### Instance summary count changes 
 
-Actuellement, dans le point de terminaison résumé de l’objet d’apprentissage, vous récupérez le nombre de toutes les instances possibles. Par exemple, pour un cours, vous pouvez afficher le nombre d&#39;inscriptions et de listes d&#39;attente dans la réponse pour **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. Vous pouvez ensuite afficher completionCount et enrollmentCount dans la réponse. Si le cours est une classe virtuelle ou une salle de classe, vous pouvez également afficher sa limite de places et sa limite de liste d’attente.
+Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
-Le processus d&#39;extraction du nombre d&#39;achèvements et d&#39;inscriptions est coûteux sur le plan informatique. Par conséquent, le calcul est effectué sur demande. Si les données ne sont pas présentes dans la mémoire cache, elles sont rechargées, ce qui représente une charge de calcul importante. Si de nombreux utilisateurs s&#39;inscrivent à un cours, le nombre sera important et aura un impact réel sur les performances du processeur.
+The process of retrieving the completion and enrollment counts is computationally expensive, therefore the calculation is done on a request basis. If the data is not present in the cache, the data is reloaded, which is computationally intensive. If there are many users enrolling in a course, the counts will be large, and effectively impacts CPU performance. 
 
-Dans la prochaine version de Adobe Learning Manager, dans le point de terminaison résumé de l’instance d’objet d’apprentissage, completionCount, enrollmentCount, seatLimit et waitlistCount sont mis en cache. Les informations mises en cache sont conservées jusqu&#39;à ce que des modifications soient apportées aux inscriptions ou aux désinscriptions. Pour les nombres supérieurs à 1 000 inscriptions, nous supposerons les nombres estimés et invaliderons les résultats pour tous les comptes existants et nouveaux.
+In the next release of Adobe Learning Manager, in the LO Instance summary endpoint, the completionCount, enrollmentCount, seatLimit, and waitlistCount are cached. The cached information persists till there are changes in enrollments or unenrollments. For counts exceeding 1000 enrollments, we'll assume the estimated counts, and invalidate the results for all existing and new accounts.
 
 >[!NOTE]
 >
->Pour les nombres, tels que completionCount, enrollmentCount, seatLimit et waitlistCount supérieurs à 1 000, il est conseillé de les interpréter comme des estimations plutôt que comme des chiffres précis, car ils seront récupérés à partir du cache.
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
 
 ### Trier par nom
 
