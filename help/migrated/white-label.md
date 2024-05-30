@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
-description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
+description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Pour déployer et gérer votre propre application avec étiquette blanche, proc�
 
 ## Vue d’ensemble
 
-L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
+L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 
 ## Éléments personnalisables
 
@@ -121,7 +121,7 @@ Les éléments suivants peuvent être personnalisés :
 
   <td>
 
-  <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png.</p></td>
+  <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png. Les dimensions de l’icône de l’application sont de 512 × 512 pixels.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Les éléments suivants peuvent être personnalisés :
 
   <td>
 
-  <p>Dans l’écran de démarrage de votre application, indiquez une image (png) qui s’affiche lorsque vos utilisateurs lancent l’application. Le format à nommer est account-id_splashIcon.png.</p></td>
+  <p>Dans l’écran de démarrage de votre application, indiquez une image (png) qui s’affiche lorsque vos utilisateurs lancent l’application. Le format à nommer est account-id_splashIcon.png. Les dimensions des écrans de démarrage à base carrée sont de 1 052 × 1 052 pixels et celles des écrans de démarrage à base circulaire sont de 768 x 768 pixels.</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Réutilisez le même projet que celui que vous avez créé dans les étapes ci-d
 
 >[!IMPORTANT]
 >
->Envoyez les fichiers à l’équipe CSAM d’Adobe Learning Manager pour les inclure dans la build de votre fichier binaire d’application.
+>Envoyez les fichiers à l’équipe Adobe Learning Manager CSAM pour les inclure dans la version de votre fichier binaire d’application.
 
 
 ## Génération des fichiers binaires signés
