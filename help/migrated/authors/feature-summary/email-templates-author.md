@@ -2,14 +2,13 @@
 description: Lisez cet article pour savoir comment configurer les modèles de courrier électronique pour les événements liés à tous les objets d’apprentissage.
 jcr-language: en_us
 title: Modèles de courriers électroniques
-source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 89%
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
-
-
 
 # Modèles de courriers électroniques
 
@@ -21,11 +20,13 @@ En tant qu’auteur, vous pouvez personnaliser les modèles de courrier électro
 
 Vous pouvez également choisir de ne pas envoyer de notifications par courrier électronique pour certains événements en désactivant l’option de modèle de courrier électronique.
 
-## Paramétrage des notifications par courrier électronique {#settingemailnotifications}
+## Configuration des notifications par e-mail {#settingemailnotifications}
 
-1. Depuis l’application d’auteur, cliquez sur l’objet d’apprentissage pour lequel vous voulez configurer le modèle de courrier électronique. Par exemple, Cours.
+1. Dans l’application d’auteur, sélectionnez l’objet d’apprentissage pour lequel vous souhaitez configurer le modèle de courrier électronique. Par exemple, Cours.
+
 1. Dans la page Objet d’apprentissage, cliquez sur le cours, la certification ou le programme d’apprentissage pour configurer les paramètres de courrier électronique.
-1. À partir de la page des détails de l’objet d’apprentissage, cliquez sur Modèles de courrier électronique.
+
+1. Dans la page de détails de l’objet d’apprentissage, sélectionnez **Modèles de courrier électronique** > **Tous les modèles**. Des modèles de courrier électronique sont disponibles pour **Instance par défaut** et **Cours actuel**. Vous pouvez basculer entre eux à l’aide de la liste déroulante dans le coin supérieur droit.
 
    Vous pouvez afficher la liste des modèles disponibles pour l’objet d’apprentissage que vous avez sélectionné.
 
@@ -68,3 +69,11 @@ Vous pouvez également choisir de ne pas envoyer de notifications par courrier �
 Si le cercle dans le bouton de notification en regard de chaque nom d’événement est adjacent à Oui (avec un arrière-plan de nuance bleue), la notification est activée. Si l’arrière-plan est de nuance grise et le cercle est adjacent à Non, la notification est désactivée.
 
 À chaque fois que vous configurez un modèle de courrier électronique au niveau du cours, il est prioritaire sur les paramètres de niveau administrateur pour le cours en question.
+
+## Paramètres du modèle d’e-mail
+
+L’auteur peut configurer les éléments suivants dans les paramètres du modèle de courrier électronique :
+
+* **Bannière d’e-mail**: permet de modifier la bannière de l’e-mail.
+
+* **Signature électronique**: permet d’ajouter ou de modifier la signature électronique.

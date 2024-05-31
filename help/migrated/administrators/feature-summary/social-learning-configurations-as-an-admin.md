@@ -4,16 +4,18 @@ jcr-language: en_us
 title: Surveillance et modération de l’Apprentissage par les réseaux sociaux en tant qu’administrateur
 contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3604'
-ht-degree: 63%
+source-wordcount: '3756'
+ht-degree: 62%
 
 ---
 
 # Surveillance et modération de l’Apprentissage par les réseaux sociaux en tant qu’administrateur
 
 En tant qu’administrateur, vous pouvez activer, désactiver et surveiller les activités effectuées dans l’Apprentissage par les réseaux sociaux. Une fois que la fonction d’Apprentissage par les réseaux sociaux est activée, les élèves peuvent la visualiser et commencer à participer à l’Apprentissage par les réseaux sociaux.
+
+L’apprentissage par les réseaux sociaux permet aux élèves d’étudier où qu’ils soient et de partager du contenu avec leurs collègues. Cette fonctionnalité permet aux élèves d’interagir, d’exchange des idées et de collaborer, améliorant ainsi leur expérience d’apprentissage globale.
 
 ## Activer et configurer les paramètres dans l’Apprentissage par les réseaux sociaux {#enableandconfiguresettingsinsociallearning}
 
@@ -32,7 +34,7 @@ Pour activer et configurer la fonctionnalité d’Apprentissage par les réseaux
 
 L’administrateur peut configurer les paramètres pour l’apprentissage par les réseaux sociaux. Les paramètres incluent des types de certifications de contenu tels que **[!UICONTROL Curation manuelle uniquement]** et **[!UICONTROL Aucune curation]**. Les paramètres d’étendue peuvent être définis sur une étendue différente, comme le type d’utilisateur (interne/externe) ou tout autre champ actif présent dans le compte. L’administrateur peut définir le chemin d’URL à partir duquel les élèves peuvent télécharger l’application de bureau Adobe Learning Manager.
 
-## Curation de contenu {#contentcuration}
+### Curation de contenu {#contentcuration}
 
 L’Apprentissage par les réseaux sociaux étant un apprentissage informel, ses fonctionnalités sont similaires à celles d’autres plateformes de médias sociaux. Les gens trouvent souvent les médias sociaux distrayants parce qu&#39;ils consomment souvent du contenu non pertinent qui affecte leur productivité. Cette pensée peut être prise en compte par la modération du contenu et la curation.
 
@@ -40,11 +42,163 @@ L’Apprentissage par les réseaux sociaux étant un apprentissage informel, ses
 
 **[!UICONTROL Curation manuelle à assistance automatique]:** Learning Manager dispose d’un moteur d’auto-curation basé sur l’intelligence artificielle qui peut trouver intelligemment l’essence du contenu de n’importe quel format qui peut être ultérieurement diffusé aux élèves souhaités. Il peut également approuver ou rejeter la publication d’un contenu en fonction de son score de confiance donné.
 
-Par exemple, Adarsh est un élève et il a trouvé un blog intéressant, il le publie donc sur la plateforme d’apprentissage par les réseaux sociaux d’Adobe Learning Manager. La publication est ensuite transmise au moteur de curation de contenu alimenté par l’IA, qui prédit les compétences présentes dans le contenu et compare ces compétences avec les compétences associées au forum. Si l’une des compétences correspond, le contenu est publié, sinon il est envoyé pour une curation manuelle uniquement.
+Par exemple, Adarsh est un élève et il a trouvé un blog intéressant, il le publie donc sur la plateforme d’apprentissage par les réseaux sociaux de Adobe Learning Manager. La publication est ensuite transmise au moteur de curation de contenu alimenté par l’IA, qui prédit les compétences présentes dans le contenu et compare ces compétences avec les compétences associées au forum. Si l’une des compétences correspond, le contenu est publié, sinon il est envoyé pour une curation manuelle uniquement.
 
 Le score de confiance minimum requis pour l’affichage est de 50 %.
 
 **[!UICONTROL Curation manuelle uniquement]:** Pour vérifier l’authenticité du contenu avant sa mise en ligne, l’administrateur peut activer le paramètre Curation manuelle uniquement. Une fois que le paramètre Curation manuelle uniquement est activé, il est transféré aux meilleurs experts (3 maximum) pour la curation. Sur la base de la réponse moyenne, la publication est approuvée/rejetée en conséquence. Si la réponse est supérieure à 50 %, la publication en direct est rejetée. Pour plus d’informations sur les experts, [cliquez ici](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+
+
+Dans la nouvelle étendue, il/elle obtient des points pour des activités sur les forums.
+
+Dans les sections Tableau des scores des réseaux sociaux, un utilisateur peut voir tous les utilisateurs de son étendue ainsi que les utilisateurs spéciaux.
+
+Si vous avez obtenu des privilèges d’utilisateur spécial, vous pouvez voir tous les utilisateurs dans le compte de votre tableau des scores, indépendamment de l’étendue des utilisateurs.
+
+Si des utilisateurs spéciaux deviennent des experts en gagnant suffisamment de points, ils apparaissent dans le panneau **[!UICONTROL Experts en la matière]** dans le tableau des scores sociaux.
+
+Patientez 60 minutes pour que les modifications prennent effet.
+
+### Paramètres de l’étendue {#scopesettings}
+
+Dans l’Apprentissage par les réseaux sociaux, le paramètre de l’étendue détermine les forums que vous voyez, ce qui contrôle la visibilité du contenu. Si un utilisateur a une portée, par exemple, ***Vendor_A***, il/elle ne peut voir que les forums et les publications associées qui ont été créés par d’autres personnes appartenant à la même portée ***Vendor_A***.
+
+Cela permet aux administrateurs de gérer un groupe d’utilisateurs, par exemple, des fournisseurs, des partenaires ou des départements dans une organisation séparée.
+
+Activez l’apprentissage par les réseaux sociaux et le tableau des scores pour les utilisateurs internes et externes.
+
+Des sections séparées sont prévues pour autoriser les utilisateurs internes et externes.
+
+**Activer pour les élèves internes**
+
+Dans cette section, vous pouvez choisir la caractéristique de l’utilisateur pour définir l’étendue de l’apprentissage par les réseaux sociaux pour les utilisateurs internes. Utilisateurs ayant les mêmes caractéristiques **valeur** partager le même espace Apprentissage par les réseaux sociaux.
+
+À partir de **Caractéristique de l’utilisateur** dans la liste déroulante, sélectionnez l’option requise.
+
+![](assets/choose-value-of-usercharacteristic.png)
+
+*Sélectionner les caractéristiques de l’utilisateur pour définir l’étendue*
+
+Par défaut, l’option **[!UICONTROL Tous les utilisateurs internes]** dans la liste déroulante des caractéristiques de l’utilisateur, l’option est toujours sélectionnée.
+
+Vous pouvez définir les utilisateurs internes en fonction de leurs champs actifs.
+
+**Activer pour les élèves externes**
+
+Pour définir l’étendue de l’apprentissage pour les utilisateurs externes, utilisez un profil externe. Les élèves ayant le même profil externe partagent un espace commun d’apprentissage par les réseaux sociaux.
+
+![](assets/choose-an-externalprofile.png)
+
+*Activer l’étendue pour les élèves externes*
+
+Les utilisateurs externes sont évalués en fonction de leurs profils externes.
+
+Par exemple, dans la liste ci-dessus, si vous activez **[!UICONTROL Acme Corp]**, tous les élèves appartenant à Acme Corp peuvent voir les forums qu’ils ont créés. Si vous désactivez l’option **Henry Cavill**, les élèves ne peuvent voir aucun forum créé par Henry Cavill.
+
+L’administrateur peut étendre la visibilité du contenu en fonction du champ actif affiché dans le champ **[!UICONTROL Caractéristique utilisateur]**.
+
+Par exemple, l’administrateur peut définir l’étendue sur **[!UICONTROL Type d’utilisateur (interne/externe)]** utilisateurs. Lors de la définition de l’étendue sur Type d’utilisateur, le contenu partagé sur la plateforme d’apprentissage par les réseaux sociaux par n’importe quel élève interne n’est visible que par les autres élèves internes de l’organisation et non par les utilisateurs externes et inversement.
+
+Une fois qu’une caractéristique d’utilisateur est sélectionnée par l’administrateur, ce dernier peut limiter la fonctionnalité d’Apprentissage par les réseaux sociaux aux élèves et aux groupes d’élèves en cochant la case située sous le champ Caractéristique de l’utilisateur. Cliquez sur le champ de valeur pour sélectionner l’élève ou les groupes d’élèves pour lesquels vous souhaitez activer la fonctionnalité d’Apprentissage par les réseaux sociaux.
+
+Par défaut, la portée est définie par **[!UICONTROL Type d’utilisateur]** qui sont des élèves internes ou externes.
+
+Si le champ actif ne contient aucune valeur, la liste déroulante du champ **[!UICONTROL Valeur]** n’est pas visible pour l’administrateur.
+
+<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
+
+Les utilisateurs peuvent également publier leur contenu à l’aide de l’application de bureau Adobe Learning Manager. En fonction de ce que vous utilisez, Mac ou Windows, cliquez sur les liens donnés pour télécharger l’application de bureau et suivez les étapes décrites pour l’installer sur votre système. Si vous êtes confrontés à des difficultés d’installation, [cliquez ici](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+
+### Télécharger des configurations {#downloadconfigurations}
+
+<!--![](assets/download-config.png)-->
+
+Pour les serveurs d’entreprise, l’administrateur peut modifier l’emplacement depuis lequel les élèves peuvent télécharger l’application de bureau pour Windows et Mac.
+
+![](assets/enterprise-servers.png)
+
+*Modification de l’emplacement de téléchargement*
+
+L’URL du serveur d’entreprise doit être hébergée publiquement.
+
+### Autorisations de création de forums {#permission}
+
+Pour restreindre la création de forums par tous les élèves et pour modérer efficacement les forums, un administrateur peut accorder des autorisations pour créer des forums dédiés à un groupe d’utilisateurs sélectionné.
+
+![](assets/grant-permissiontocreateboards.png)
+
+*Définir les autorisations pour créer un forum*
+
+Par défaut, l’option **[!UICONTROL Tous les élèves]** est activée.
+
+**[!UICONTROL Tous les élèves]:** Si vous choisissez cette option, tous les utilisateurs internes et externes peuvent créer des tableaux.
+
+**Un groupe d’élèves :** si vous sélectionnez cette option, seuls les utilisateurs ayant les autorisations de créer un forum voient le lien **[!UICONTROL Créer un nouveau forum]** dans l’Apprentissage par les réseaux sociaux. Choisissez le groupe d’utilisateurs auquel vous devez accorder l’autorisation de créer un forum. Vous pouvez également ajouter des groupes d’utilisateurs générés automatiquement ainsi que des groupes personnalisés.
+
+<!--![](assets/grant-permissiontoausergroup.png)-->
+
+Les utilisateurs qui partagent la même étendue peuvent uniquement voir le forum. Pour les utilisateurs qui n’ont pas obtenu d’autorisation, le lien **[!UICONTROL Créer un nouveau forum]** reste invisible.
+
+Patientez 60 minutes pour que les modifications prennent effet.
+
+## Utilisateurs spéciaux {#privilege}
+
+Un administrateur peut accorder des privilèges spéciaux à un groupe d’utilisateurs, en utilisant les membres du groupe qui peuvent participer à tous les forums. Toutes les restrictions qui ont été définies dans la section Paramètres de l’étendue sont contournées par le groupe d’utilisateurs spéciaux.
+
+Le groupe d’utilisateurs peut être généré automatiquement ou personnalisé.
+
+Un utilisateur auquel ce privilège a été accordé a accès à tous les forums, à l’exception des **forums privés**.
+
+![](assets/special-users.png)
+
+*Octroi de privilèges spéciaux*
+
+Lorsque l’administrateur sélectionne un groupe d’utilisateurs, par défaut, tous les utilisateurs du groupe peuvent accéder à tous les forums, quelle que soit l’étendue de l’utilisateur. Tout utilisateur bénéficiant de ces privilèges élevés peut afficher tous les forums internes et externes et y participer.
+
+Les utilisateurs spéciaux reçoivent des demandes de curation dans toutes les étendues si les utilisateurs ont suffisamment de points d’expert pour cette compétence.
+
+Si l’utilisateur n’a pas les points d’expert requis, les privilèges de curation sont transmis aux trois premiers experts de cette compétence.
+
+Dans la nouvelle étendue, il/elle obtient des points pour des activités sur les forums.
+
+Dans les sections Tableau des scores des réseaux sociaux, un utilisateur peut voir tous les utilisateurs de son étendue ainsi que les utilisateurs spéciaux.
+
+Si vous avez obtenu des privilèges d’utilisateur spécial, vous pouvez voir tous les utilisateurs dans le compte de votre tableau des scores, indépendamment de l’étendue des utilisateurs.
+
+Si des utilisateurs spéciaux deviennent des experts en gagnant suffisamment de points, ils apparaissent dans le panneau **[!UICONTROL Experts en la matière]** dans le tableau des scores sociaux.
+
+Patientez 60 minutes pour que les modifications prennent effet.
+
+### Personnalisation de la bannière pour réseaux sociaux {#customize-social-banner}
+
+L’administrateur peut personnaliser le titre et le sous-titre qui apparaissent sur l’image d’en-tête sur la page d’accueil Apprentissage par les réseaux sociaux. Quelle que soit la décision de l’administrateur de saisir le titre et le sous-titre, les mêmes fonctionnalités sont disponibles sur la page d’accueil de l’apprentissage par les réseaux sociaux de l’élève.
+
+1. Dans l’application d’administration, cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]** > **[!UICONTROL Paramètres]**.
+1. Cliquez sur **[!UICONTROL Personnaliser]**.
+1. Modifiez l’image de la bannière. Les dimensions de l&#39;image doivent être au moins **1 600 x 240 px**.
+1. Activez/désactivez l’option permettant de masquer ou d’afficher les **[!UICONTROL En savoir plus]** lien sur la bannière.
+1. Saisissez le titre et le sous-titre dans les champs spécifiés ci-dessous :
+
+   ![](assets/image012.png)
+
+   *Personnalisation de la bannière pour réseaux sociaux*
+
+Vous disposez de quelques options supplémentaires :
+
+* **[!UICONTROL Langue]:** Dans la liste déroulante, sélectionnez la langue vers laquelle traduire le titre et le sous-titre. Vous pouvez également ajouter du texte personnalisé pour différentes langues.
+* **[!UICONTROL Répliquer]:** Cliquez sur ce bouton pour répliquer le titre et le sous-titre dans toutes les langues.
+* **[!UICONTROL Réinitialiser]:** Cliquez sur ce bouton pour revenir au titre et au sous-titre d’origine.
+
+  Sur la page d’accueil de l’apprentissage par les réseaux sociaux, les informations fournies par l’administrateur s’affichent en tant qu’en-tête de page.
+
+  <!--![](assets/banner-learner.png)-->
+
+### Vue Apprentissage par les réseaux sociaux
+
+Un administrateur peut sélectionner l’affichage Apprentissage par les réseaux sociaux parmi les paramètres suivants :
+
+* Post-affichage : sélectionnez cette option pour afficher les publications individuelles de tous les tableaux.
+* Mode Tableau : la sélection de cette option affiche tous les tableaux disponibles.
 
 ## Auto-curation du contenu {#autocuration}
 
@@ -145,128 +299,6 @@ Une évaluation d&#39;approbation de 50 % est requise pour approuver la publica
 Si elle n&#39;atteint pas 50 % après un jour, elle est envoyée à l&#39;ensemble suivant d&#39;experts, menant à l&#39;expiration des précédentes demandes de curation sans réponse.
 
 +++
-
-## Paramètres de l’étendue {#scopesettings}
-
-Dans l’Apprentissage par les réseaux sociaux, le paramètre de l’étendue détermine les forums que vous voyez, ce qui contrôle la visibilité du contenu. Si un utilisateur a une portée, par exemple, ***Vendor_A***, il/elle ne peut voir que les forums et les publications associées qui ont été créés par d’autres personnes appartenant à la même portée ***Vendor_A***.
-
-Cela permet aux administrateurs de gérer un groupe d’utilisateurs, par exemple, des fournisseurs, des partenaires ou des départements dans une organisation séparée.
-
-Activez l’apprentissage par les réseaux sociaux et le tableau des scores pour les utilisateurs internes et externes.
-
-Des sections séparées sont prévues pour autoriser les utilisateurs internes et externes.
-
-**Activer pour les élèves internes**
-
-Dans cette section, vous pouvez choisir la caractéristique de l’utilisateur pour définir l’étendue de l’apprentissage par les réseaux sociaux pour les utilisateurs internes. Utilisateurs ayant les mêmes caractéristiques **valeur** partager le même espace Apprentissage par les réseaux sociaux.
-
-À partir de **Caractéristique de l’utilisateur** dans la liste déroulante, sélectionnez l’option requise.
-
-![](assets/choose-value-of-usercharacteristic.png)
-
-*Sélectionner les caractéristiques de l’utilisateur pour définir l’étendue*
-
-Par défaut, l’option **[!UICONTROL Tous les utilisateurs internes]** dans la liste déroulante des caractéristiques de l’utilisateur, l’option est toujours sélectionnée.
-
-Vous pouvez définir les utilisateurs internes en fonction de leurs champs actifs.
-
-**Activer pour les élèves externes**
-
-Pour définir l’étendue de l’apprentissage pour les utilisateurs externes, utilisez un profil externe. Les élèves ayant le même profil externe partagent un espace commun d’apprentissage par les réseaux sociaux.
-
-![](assets/choose-an-externalprofile.png)
-
-*Activer l’étendue pour les élèves externes*
-
-Les utilisateurs externes sont évalués en fonction de leurs profils externes.
-
-Par exemple, dans la liste ci-dessus, si vous activez **[!UICONTROL Acme Corp]**, tous les élèves appartenant à Acme Corp peuvent voir les forums qu’ils ont créés. Si vous désactivez l’option **Henry Cavill**, les élèves ne peuvent voir aucun forum créé par Henry Cavill.
-
-L’administrateur peut étendre la visibilité du contenu en fonction du champ actif affiché dans le champ **[!UICONTROL Caractéristique utilisateur]**.
-
-Par exemple, l’administrateur peut définir l’étendue sur **[!UICONTROL Type d’utilisateur (interne/externe)]** utilisateurs. Lors de la définition de l’étendue sur Type d’utilisateur, le contenu partagé sur la plateforme d’apprentissage par les réseaux sociaux par n’importe quel élève interne n’est visible que par les autres élèves internes de l’organisation et non par les utilisateurs externes et inversement.
-
-Une fois qu’une caractéristique d’utilisateur est sélectionnée par l’administrateur, ce dernier peut limiter la fonctionnalité d’Apprentissage par les réseaux sociaux aux élèves et aux groupes d’élèves en cochant la case située sous le champ Caractéristique de l’utilisateur. Cliquez sur le champ de valeur pour sélectionner l’élève ou les groupes d’élèves pour lesquels vous souhaitez activer la fonctionnalité d’Apprentissage par les réseaux sociaux.
-
-Par défaut, la portée est définie par **[!UICONTROL Type d’utilisateur]** qui sont des élèves internes ou externes.
-
-Si le champ actif ne contient aucune valeur, la liste déroulante du champ **[!UICONTROL Valeur]** n’est pas visible pour l’administrateur.
-
-<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
-
-Les utilisateurs peuvent également publier leur contenu à l’aide de l’application de bureau Adobe Learning Manager. En fonction de ce que vous utilisez, Mac ou Windows, cliquez sur les liens donnés pour télécharger l’application de bureau et suivez les étapes décrites pour l’installer sur votre système. Si vous êtes confrontés à des difficultés d’installation, [cliquez ici](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
-
-## Autorisations de création de forums {#permission}
-
-Pour restreindre la création de forums par tous les élèves et pour modérer efficacement les forums, un administrateur peut accorder des autorisations pour créer des forums dédiés à un groupe d’utilisateurs sélectionné.
-
-![](assets/grant-permissiontocreateboards.png)
-
-*Définir les autorisations pour créer un forum*
-
-Par défaut, l’option **[!UICONTROL Tous les élèves]** est activée.
-
-**[!UICONTROL Tous les élèves]:** Si vous choisissez cette option, tous les utilisateurs internes et externes peuvent créer des tableaux.
-
-**Un groupe d’élèves :** si vous sélectionnez cette option, seuls les utilisateurs ayant les autorisations de créer un forum voient le lien **[!UICONTROL Créer un nouveau forum]** dans l’Apprentissage par les réseaux sociaux. Choisissez le groupe d’utilisateurs auquel vous devez accorder l’autorisation de créer un forum. Vous pouvez également ajouter des groupes d’utilisateurs générés automatiquement ainsi que des groupes personnalisés.
-
-<!--![](assets/grant-permissiontoausergroup.png)-->
-
-Les utilisateurs qui partagent la même étendue peuvent uniquement voir le forum. Pour les utilisateurs qui n’ont pas obtenu d’autorisation, le lien **[!UICONTROL Créer un nouveau forum]** reste invisible.
-
-Patientez 60 minutes pour que les modifications prennent effet.
-
-## Utilisateurs spéciaux {#privilege}
-
-Un administrateur peut accorder des privilèges spéciaux à un groupe d’utilisateurs, en utilisant les membres du groupe qui peuvent participer à tous les forums. Toutes les restrictions qui ont été définies dans la section Paramètres de l’étendue sont contournées par le groupe d’utilisateurs spéciaux.
-
-Le groupe d’utilisateurs peut être généré automatiquement ou personnalisé.
-
-Un utilisateur auquel ce privilège a été accordé a accès à tous les forums, à l’exception des **forums privés**.
-
-![](assets/special-users.png)
-
-*Octroi de privilèges spéciaux*
-
-Lorsque l’administrateur sélectionne un groupe d’utilisateurs, par défaut, tous les utilisateurs du groupe peuvent accéder à tous les forums, quelle que soit l’étendue de l’utilisateur. Tout utilisateur bénéficiant de ces privilèges élevés peut afficher tous les forums internes et externes et y participer.
-
-Les utilisateurs spéciaux reçoivent des demandes de curation dans toutes les étendues si les utilisateurs ont suffisamment de points d’expert pour cette compétence.
-
-Si l’utilisateur n’a pas les points d’expert requis, les privilèges de curation sont transmis aux trois premiers experts de cette compétence.
-
-Dans la nouvelle étendue, il/elle obtient des points pour des activités sur les forums.
-
-Dans les sections Tableau des scores des réseaux sociaux, un utilisateur peut voir tous les utilisateurs de son étendue ainsi que les utilisateurs spéciaux.
-
-Si vous avez obtenu des privilèges d’utilisateur spécial, vous pouvez voir tous les utilisateurs dans le compte de votre tableau des scores, indépendamment de l’étendue des utilisateurs.
-
-Si des utilisateurs spéciaux deviennent des experts en gagnant suffisamment de points, ils apparaissent dans le panneau **[!UICONTROL Experts en la matière]** dans le tableau des scores sociaux.
-
-Patientez 60 minutes pour que les modifications prennent effet.
-
-## Personnalisation de la bannière pour réseaux sociaux {#customize-social-banner}
-
-L’administrateur peut personnaliser le titre et le sous-titre qui apparaissent sur l’image d’en-tête sur la page d’accueil Apprentissage par les réseaux sociaux. Quelle que soit la décision de l’administrateur de saisir le titre et le sous-titre, les mêmes fonctionnalités sont disponibles sur la page d’accueil de l’apprentissage par les réseaux sociaux de l’élève.
-
-1. Dans l’application d’administration, cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]** > **[!UICONTROL Paramètres]**.
-1. Cliquez sur **[!UICONTROL Personnaliser]**.
-1. Modifiez l’image de la bannière. Les dimensions de l&#39;image doivent être au moins **1 600 x 240 px**.
-1. Activez/désactivez l’option permettant de masquer ou d’afficher les **[!UICONTROL En savoir plus]** lien sur la bannière.
-1. Saisissez le titre et le sous-titre dans les champs spécifiés ci-dessous :
-
-   ![](assets/image012.png)
-
-   *Personnalisation de la bannière pour réseaux sociaux*
-
-Vous disposez de quelques options supplémentaires :
-
-* **[!UICONTROL Langue]:** Dans la liste déroulante, sélectionnez la langue vers laquelle traduire le titre et le sous-titre. Vous pouvez également ajouter du texte personnalisé pour différentes langues.
-* **[!UICONTROL Répliquer]:** Cliquez sur ce bouton pour répliquer le titre et le sous-titre dans toutes les langues.
-* **[!UICONTROL Réinitialiser]:** Cliquez sur ce bouton pour revenir au titre et au sous-titre d’origine.
-
-  Sur la page d’accueil de l’apprentissage par les réseaux sociaux, les informations fournies par l’administrateur s’affichent en tant qu’en-tête de page.
-
-  <!--![](assets/banner-learner.png)-->
 
 ## Tendances {#trends}
 
@@ -449,18 +481,6 @@ Pour ajouter des experts à une compétence, suivez les étapes indiquées :
 **Les experts reçoivent des points en fonction des activités de curation pour les éléments suivants :**
 
 * Lorsqu’une publication est envoyée pour une curation manuelle parce que l’auto-curation ne garantit pas que le contenu est pertinent ou non, l’expert gagne 5 points lors de la soumission de la modération.
-
-## Télécharger des configurations {#downloadconfigurations}
-
-<!--![](assets/download-config.png)-->
-
-Pour les serveurs d’entreprise, l’administrateur peut modifier l’emplacement depuis lequel les élèves peuvent télécharger l’application de bureau pour Windows et Mac.
-
-![](assets/enterprise-servers.png)
-
-*Modification de l’emplacement de téléchargement*
-
-L’URL du serveur d’entreprise doit être hébergée publiquement.
 
 ## Activités sociales pour la facturation mensuelle des utilisateurs actifs {#socialactivitiesformonthlyactiveusersbillingplan}
 

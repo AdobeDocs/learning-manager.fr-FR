@@ -2,26 +2,30 @@
 description: Ce document comprend des informations sur les objets d’apprentissage pour les responsables.
 jcr-language: en_us
 title: Objets d’apprentissage
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 72%
+source-wordcount: '1725'
+ht-degree: 60%
 
 ---
-
-
 
 # Objets d’apprentissage
 
 Ce document comprend des informations sur les objets d’apprentissage pour les responsables.
 
-Un responsable peut inscrire des élèves en dessous à des cours, des programmes d’apprentissage et des certifications. Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[ Inscription des élèves.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
+Un responsable peut inscrire les élèves qui lui sont subordonnés à des cours, des parcours d’apprentissage et des certifications. Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[ Inscription des élèves.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
 
 ## Cours {#courses}
 
 ## Affichage des cours {#viewingcourses}
 
 En tant que responsable, vous pouvez afficher une liste de tous les cours disponibles. Cliquez sur **[!UICONTROL Cours]** dans le volet de gauche pour afficher la liste des cours avec les options de recherche et de filtre. Vous pouvez également afficher le pourcentage d’efficacité de cours pour chaque cours sur les vignettes de cours. Notez que vous pouvez inscrire uniquement des membres de l’équipe à des cours qui sont visibles sous l’application de l’élève.
+
+![](assets/view-course.png)
+
+*Afficher les cours*
+
 
 >[!NOTE]
 >
@@ -46,6 +50,10 @@ En tant que responsable, vous pouvez gérer la liste des élèves pour les membr
 ![](assets/courses-learners.png)
 
 *Sélectionner une action d’élève*
+
+>[!NOTE]
+>
+>**Exporter les approbations en attente** peut être effectué à partir de l’application de l’élève.
 
 Vous pouvez réaliser les actions suivantes depuis la page Élèves :
 
@@ -98,20 +106,30 @@ Dans cet exemple, 1 sur 1 utilisateur a reçu les trois retours d’information,
 
 Selon le diagramme circulaire ci-dessus, le retour d’informations L3 de la part du responsable est davantage pondéré.
 
-## Recherche de cours, de programmes d’apprentissage et de certifications {#searchingcourseslearningprogramsandcertifications}
+## Recherche de cours, parcours d’apprentissage et certifications {#searchingcourseslearningprogramsandcertifications}
 
-Adobe Learning Manager facilite la recherche rapide des cours de votre choix. Vous pouvez rechercher vos cours de deux manières :
+Adobe Learning Manager vous permet de trouver rapidement les cours/parcours d’apprentissage de votre choix. Vous pouvez rechercher vos cours de deux manières :
 
-1. À l’aide du champ Rechercher. Cliquez sur l’icône Rechercher affichée dans l’angle supérieur droit. Un champ de recherche s’affiche. Saisissez le nom du cours ou tout mot-clé associé à vos cours pour localiser vos cours/programmes d&#39;apprentissage. Vous pouvez également effectuer une recherche à l’aide de balises prédéfinies telles que Captivate, C, Java et HTML. Les balises sont indexées dans le champ de recherche, ce qui signifie que les balises sont affichées dans le champ de recherche lors de la saisie. La recherche peut également être exécutée à l’aide de l’ID unique.
-1. En filtrant la liste de cours/programmes d’apprentissage/certifications à l’aide de filtres. Vous pouvez filtrer les cours par état (Tous, Publié et Retiré).
+1. À l’aide du champ Rechercher. Cliquez sur l’icône Rechercher affichée dans l’angle supérieur droit. Un champ de recherche s’affiche. Saisissez le nom du cours ou tout mot-clé associé à vos cours pour localiser vos cours/parcours d’apprentissage. Vous pouvez également effectuer une recherche à l’aide de balises prédéfinies telles que Captivate, C, Java et HTML. Les balises sont indexées dans le champ de recherche, ce qui signifie que les balises sont affichées dans le champ de recherche lors de la saisie. La recherche peut également être exécutée à l’aide de l’ID unique.
+1. En filtrant la liste des cours/parcours d’apprentissage/certifications à l’aide des filtres. Vous pouvez filtrer les cours par état (Tous, Publié et Retiré).
 
-Vous pouvez rechercher par compétences en cliquant sur Compétences et en les sélectionnant. En tant que responsable, vous pouvez trier les cours de quatre manières, afin de mieux localiser le cours requis. Cliquez sur Trier par et choisissez l’ordre croissant alphabétique, l’ordre décroissant alphabétique, la date de mise à jour du cours ou l’efficacité des cours :
+Vous pouvez effectuer une recherche en fonction des compétences en sélectionnant **Compétences** et les choisir. En tant que responsable, vous pouvez trier les cours de quatre manières, afin de mieux localiser le cours requis. Cliquez sur Trier par et choisissez l’ordre croissant alphabétique, l’ordre décroissant alphabétique, la date de mise à jour du cours, la date de création du cours ou l’efficacité des cours :
 
-![](assets/admin-sortby.png)
+* Nom (a-z)
+* Nom (z-a)
+* Date de mise à jour
+* Date de création
+* Efficacité du cours
 
-*Recherche basée sur les compétences*
+![](assets/filter-courses.png)
 
-Vous pouvez trier les programmes d’apprentissage de trois façons : ordre croissant alphabétique, ordre décroissant alphabétique et selon la date de mise à jour.
+*Filtrer les cours*
+
+Vous pouvez trier les parcours d’apprentissage de trois manières : ordre croissant alphabétique, ordre décroissant alphabétique et en fonction de la date de mise à jour.
+
+![](assets/filter-learning-paths.png)
+
+*Filtrer le parcours d’apprentissage*
 
 ## Inscription des élèves à des cours {#enrollinglearnersintocourses}
 
@@ -128,28 +146,28 @@ Le responsable inscrit certains élèves à des cours obligatoires en raison des
 >
 >Vous ne pouvez inscrire que des élèves qui appartiennent à votre équipe.
 
-## Programmes d’apprentissage {#learningprograms}
+## Parcours d’apprentissage {#learningprograms}
 
 Le responsable peut inscrire, consulter les scores du quiz, le commentaire L1 et L3 et désinscrire uniquement ses journalistes.
 
-## Ajout d’élèves à un programme d’apprentissage {#addlearnerstoalearningprogram}
+## Ajouter des élèves à un parcours d’apprentissage {#addlearnerstoalearningprogram}
 
-1. En mode Responsable, cliquez sur Programmes d’apprentissage dans le volet de gauche.
-1. Sélectionnez le programme d’apprentissage publié dans la liste des vignettes, auquel vous souhaitez ajouter des élèves.
+1. En mode Responsable, cliquez sur Parcours d’apprentissage dans le volet de gauche.
+1. Sélectionnez le parcours d’apprentissage publié dans la liste des vignettes auxquelles vous souhaitez ajouter des élèves.
 1. Cliquez sur Élèves dans le volet gauche sous la catégorie Rapports du programme. Remarque : le programme d’apprentissage doit d’abord être publié avant d’ajouter des élèves.
 1. Cliquez sur le lien Inscrire dans la page.
 1. Commencez à saisir le nom ou le profil des élèves et sélectionnez-les dans la liste déroulante des élèves. Cliquez sur Enregistrer.
 
 ## Affichage des scores du quiz {#Viewquizscores-1}
 
-1. Cliquez sur n’importe quelle vignette de programme d’apprentissage.
+1. Cliquez sur n’importe quelle vignette de parcours d’apprentissage.
 1. Cliquez sur Score du quiz dans le volet de gauche.
 
-Vous pouvez afficher les scores du quiz de n’importe quel programme d’apprentissage spécifique en fonction du nom d’utilisateur ou de chaque question. Sélectionnez les onglets Par utilisateur ou Par question en conséquence. Les scores du quiz apparaissent pour un cours à la fois. Changez le nom du cours dans la liste déroulante pour afficher les scores du quiz pour d’autres cours. Vous pouvez également exporter les scores du quiz de chaque cours. Sélectionnez le type d’instance dans la liste déroulante pour afficher les scores en fonction de chaque instance du programme d’apprentissage.
+Vous pouvez afficher les scores du quiz de tout parcours d’apprentissage particulier en fonction du nom d’utilisateur ou de chaque question. Sélectionnez les onglets Par utilisateur ou Par question en conséquence. Les scores du quiz apparaissent pour un cours à la fois. Changez le nom du cours dans la liste déroulante pour afficher les scores du quiz pour d’autres cours. Vous pouvez également exporter les scores du quiz de chaque cours. Choisissez le type d’instance dans la liste déroulante pour afficher les scores en fonction de chaque instance du parcours d’apprentissage.
 
 ## Désinscription des stagiaires {#unenrollmentforlearners}
 
-Le responsable peut désinscrire un élève si celui-ci n’a pas encore commencé le programme d’apprentissage.
+Le responsable peut désinscrire un élève si celui-ci n’a pas encore commencé le parcours d’apprentissage.
 
 ## Marquer comme terminé {#markcompletion}
 
@@ -217,7 +235,7 @@ Si l’élève envoie le fichier, le responsable peut afficher le fichier à par
 
 Lorsque les cours sont définis comme obligatoires :
 
-* La page d’envoi répertorie les élèves uniquement après que ceux-ci ont terminé les cours.
+* La page de soumission répertorie les élèves uniquement une fois qu’ils ont terminé les cours.
 * L’élève ne peut télécharger un fichier qu’après avoir terminé le cours.
 
 ## Assistances à la tâche {#jobaids}
