@@ -3,14 +3,13 @@ description: En savoir plus sur la fonction qui permet de purger les données ut
 jcr-language: en_us
 title: Purger les utilisateurs
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 72%
+source-wordcount: '853'
+ht-degree: 75%
 
 ---
-
-
 
 # Purger les utilisateurs
 
@@ -28,13 +27,13 @@ Une action Purger l’utilisateur peut avoir les conséquences suivantes :
 * Purger un utilisateur dans Learning Manager ne supprime pas l’utilisateur dans d’autres applications externes (systèmes tiers ou autres applications que vous avez écrites). Contactez les propriétaires des applications externes pour obtenir la suppression des utilisateurs dans ces applications.
 * Si un utilisateur purgé est référencé dans les paramètres de configuration d’un connecteur, ce dernier est désactivé. Le connecteur doit être reconfiguré par l’administrateur pour reprendre.
 
-### Gérer les utilisateurs
+<!---### Manage users
 
-Dans cette formation, vous apprendrez à attribuer et à supprimer des rôles, à envoyer un e-mail de bienvenue, et à supprimer et purger des utilisateurs.
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 ## Comment purger les utilisateurs
 

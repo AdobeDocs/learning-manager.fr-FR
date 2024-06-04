@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '4016'
+source-wordcount: '4050'
 ht-degree: 62%
 
 ---
@@ -78,6 +78,14 @@ Pour ajouter des utilisateurs,
 1. Pour ajouter le nouvel utilisateur dans Learning Manager, cliquez sur **[!UICONTROL Ajouter]**. Après l’ajout de l’utilisateur, celui-ci reçoit un e-mail de vérification. L’élève active ensuite le compte et commence à utiliser Learning Manager. Ce workflow est utile si vous devez ajouter un nombre limité d’élèves à votre compte Learning Manager. Mais si vous prévoyez d’inscrire tous les employés d’une grande organisation, vous pouvez les ajouter en une seule fois. Pour plus d’informations, voir la section suivante.
 
 ## Ajouter des utilisateurs par groupe {#addusersinbulk}
+
+### Gérer les utilisateurs
+
+Dans cette formation, vous apprendrez à attribuer et à supprimer des rôles, à envoyer un e-mail de bienvenue, et à supprimer et purger des utilisateurs.
+
+[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Généralement, la plupart des organisations utilisent un système de gestion des RH (HRMS), qui tient à jour tous les dossiers des employés, comme la désignation, le lieu, la date d’entrée en fonction ou la hiérarchie des employés. Vous pouvez exporter ces données au format CSV. Pour importer un CSV, suivez les étapes ci-dessous :
 
