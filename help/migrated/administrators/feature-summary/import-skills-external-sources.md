@@ -4,9 +4,9 @@ title: Importation de compétences à partir de sources externes
 description: Importez des compétences à partir de fournisseurs de contenu, tels que LinkedIn et Go1, à l’aide des connecteurs respectifs.  Les compétences importées seront ajoutées aux compétences définies par l’administrateur dans Learning Manager et seront disponibles pour les auteurs pendant le processus de création du cours.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Vous ne pouvez pas modifier le nom de la compétence, la description et ajouter 
 
 ### Compétences et crédits de cours par défaut
 
-Après avoir importé des compétences, elles sont ajoutées aux ressources d’apprentissage importées à partir de la source qui a été sélectionnée en tant que source de compétences. Par exemple, si votre source de compétences était LinkedIn Learning, toutes les ressources d’apprentissage importées à partir de LinkedIn Learning auront les compétences qu’elle fournit. Lorsqu’elles sont importées dans les ressources d’apprentissage, chaque ressource d’apprentissage donne une valeur par défaut de 10 crédits. Si vous souhaitez modifier ce paramètre, contactez votre CSM.
+Après avoir importé des compétences, elles sont ajoutées aux ressources d’apprentissage importées à partir de la source qui a été sélectionnée en tant que source de compétences. Par exemple, si votre source de compétences était LinkedIn Learning, toutes les ressources d’apprentissage importées à partir de LinkedIn Learning auront les compétences qu’elle fournit. Lorsqu’elles sont importées dans les ressources d’apprentissage, chaque ressource d’apprentissage donne une valeur par défaut de 10 crédits.
 
 #### Rapports
 
