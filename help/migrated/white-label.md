@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f25edb0883b71ed9807c347e0ae6733e7b55d40c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -307,16 +307,31 @@ Si vous pouvez vous connecter au serveur, le certificat que vous avez créé est
 
 ### Notifications Push sur Android
 
-Configurez un projet dans Firebase et partagez la clé du serveur avec le CSAM.
+Pour Android, l’utilisateur doit fournir le fichier services.json à partir du projet Firebase pour ajouter l’entrée au service SNS.
 
-Contactez l’équipe CSM et obtenez les fichiers ajoutés aux services SNS sur AWS. Les utilisateurs devront obtenir l’entrée enregistrée dans le service SNS pour la notification push, qui les obligera à partager les certificats générés ci-dessus pour validation.
+Créez un projet dans Firebase et partagez le fichier services.json avec l’équipe CSM. Ce fichier est nécessaire pour l’entrée basée sur les jetons dans le SNS. Notez que la clé de serveur n’est plus utilisée. Voir [Créer un projet dans Firebase](#create-project-in-firebase).
 
->[!NOTE]
->
->Pour Android, l’utilisateur doit fournir la clé de serveur du projet Firebase qu’il crée pour Android afin d’ajouter l’entrée au service SNS.
+Pour télécharger le fichier services.json, procédez comme suit :
 
+1. Connectez-vous à la **Firebase** console.
+1. Accéder à **Paramètres du projet** et sélectionnez **Cloud Messaging**.
+1. Rechercher **API de messagerie Firebase Cloud** et sélectionnez **Gérer les comptes de service**.
+1. Dans le panneau **Comptes de service** , sélectionnez la page **Comptes de service** dans le panneau de gauche.
+1. Recherchez l’entrée de projet, puis sélectionnez **Gérer les détails** sous actions.
 
-## Créer un projet dans Firebase
+   >[!NOTE]
+   >
+   >   Le format d’entrée du projet sera &lt;-accountname->@appspot.gserviceaccount.com.
+
+1. Accéder à la section **Touches** et sélectionnez **Ajouter une clé**.
+1. S’il n’y a pas de clé, sélectionnez **Créer une clé** et sélectionnez **JSON** comme type de clé. Cette opération génère et télécharge le fichier JSON.
+1. S’il existe déjà une clé, sélectionnez **Télécharger la clé existante**, collez la clé, puis téléchargez-la. Cette opération génère et télécharge le fichier JSON.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+Contactez l’équipe CSM et partagez le fichier JSON pour ajouter l’entrée aux services SNS sur AWS. Les utilisateurs devront obtenir l’entrée enregistrée dans le service SNS pour la notification push, qui les obligera à partager les certificats générés ci-dessus pour validation.
+
+## Créer un projet dans Firebase {#create-project-in-firebase}
 
 ### Android
 
