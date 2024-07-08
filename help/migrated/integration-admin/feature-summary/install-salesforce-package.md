@@ -4,9 +4,9 @@ title: Installation du package Salesforce
 description: Learning Manager propose un package d’application Salesforce. Une fois le package installé et configuré dans SFDC, les vendeurs peuvent effectuer leurs activités de formation sur le portail SFDC. Cette application permet aux utilisateurs de SFDC d’explorer les nouvelles formations, de consulter les recommandations et de les utiliser directement dans le portail SFDC. Les utilisateurs reçoivent également les annonces envoyées par les administrateurs sous forme d’en-têtes de mât directement dans l’application dans le portail SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Pour ajouter le domaine Adobe aux URL approuvées, procédez comme suit :
 1. Dans la console Salesforce, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Recherche]** rapide.
 1. Search pour **[!UICONTROL URL approuvées]** et sélectionnez **[!UICONTROL Nouvelle URL]** approuvée.
 1. Saisissez un nom dans le champ Nom de ]**l’API**[!UICONTROL .
-1. Ajoutez l’URL en tant que `{}.adobe.com{*}`fichier .
+1. Saisissez `*.adobe.com` dans le champ d’URL.
 1. Cochez toutes les cases des directives **CSP** et enregistrez les modifications.
 1. Modifiez le jeton d’actualisation de l’application Salesforce et enregistrez-le.
 1. Relancez l’application Salesforce.
