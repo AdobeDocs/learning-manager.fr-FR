@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Relevés de notes de l'élève
 contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
 source-wordcount: '1912'
 ht-degree: 66%
@@ -19,13 +19,13 @@ Adobe Learning Manager permet aux administrateurs d&#39;une organisation de g�
 
 ## Générer les relevés de notes des élèves {#generatelearnertranscripts}
 
-1. Pour générer les relevés de notes des élèves, cliquez sur **[!UICONTROL Rapports]** dans le volet gauche de la connexion Administrateur.
+1. Pour générer les relevés de notes des élèves, cliquez sur **[!UICONTROL Rapports]** dans le volet gauche de la connexion administrateur.
 
-   L’administrateur accède à la section **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** tabulation dans le panneau **[!UICONTROL Rapports]** page.
+   L’administrateur accède à l’onglet Rapports personnalisés > **[!UICONTROL rapports]** Excel de la **[!UICONTROL page Rapports]**.]****[!UICONTROL 
 
-1. Cliquez sur le lien **[!UICONTROL Relevés de notes des élèves]**.
+1. Cliquez sur le lien **[!UICONTROL Relevés de notes des apprenants]**.
 
-   Le **[!UICONTROL Relevé de notes de l’élève]** la page historique s’affiche avec le message suivant : **Aucun relevé de notes des élèves n&#39;a encore été généré** ou une liste des téléchargements qui ont été déclenchés après l’implémentation de la page d’historique des relevés de notes d’apprentissage.
+   La **[!UICONTROL page d’historique des relevés de notes de l’apprenant]** s’affiche avec le message - **Aucun relevé de notes de l’apprenant n’a encore** été généré ou une liste des téléchargements qui ont été déclenchés après la mise en œuvre de la page d’historique des relevés de notes d’apprentissage.
 
    <!--[](assets/learner-transcripts.png)-->
 
@@ -33,20 +33,20 @@ Adobe Learning Manager permet aux administrateurs d&#39;une organisation de g�
 
    >[!NOTE]
    >
-   >Par défaut, la date de début est la date d&#39;inscription de l&#39;élève et la date de fin est toujours la date du jour. Vous pouvez modifier la date de départ uniquement à partir du moment où vous avez besoin des données.
+   >Par défaut, à partir de la date de début est la date d’inscription de l’apprenant et la date de fin est toujours la date actuelle. Vous pouvez modifier la date de départ uniquement à partir du moment où vous avez besoin des données.
 
-1. Choisissez les noms des élèves dans le menu **[!UICONTROL Sélectionner des élèves]** et cliquez sur **[!UICONTROL Générer].**
+1. Choisissez les noms des élèves dans le **[!UICONTROL champ Sélectionner les apprenants]** , puis cliquez sur **[!UICONTROL Générer].**
 1. Vous pouvez sélectionner un élève ou un groupe d’élèves. Cliquez **[!UICONTROL Ajouter des élèves]** pour en ajouter davantage.
 
    ![](assets/add-learners-lt.png)
 
-   *Ajouter d’autres élèves*
+   *Ajouter d’autres apprenants*
 
-1. Vous pouvez choisir des catalogues spécifiques en activant la case à cocher. Le relevé de notes est uniquement téléchargé pour les catalogues spécifiés. Vous pouvez choisir des catalogues spécifiques en sélectionnant le catalogue dans le menu **[!UICONTROL Sélectionner des catalogues]** liste déroulante.
+1. Vous pouvez choisir des catalogues spécifiques en activant la case à cocher. Le relevé de notes est uniquement téléchargé pour les catalogues spécifiés. Vous pouvez choisir des catalogues spécifiques en les sélectionnant dans la **[!UICONTROL liste déroulante Sélectionner des catalogues]** .
 
    ![](assets/select-catalogs-lt.png)
 
-1. Lors de l’exportation des relevés de notes des élèves, une option est disponible : **[!UICONTROL Statut d’inscription]**. Cette liste déroulante contient les options suivantes :
+1. Lors de l’exportation de relevés de notes d’apprenants, il existe une option, **[!UICONTROL État]** d’inscription. Cette liste déroulante contient les options suivantes :
 
    * Tout sélectionner
    * Terminé
@@ -58,62 +58,62 @@ Adobe Learning Manager permet aux administrateurs d&#39;une organisation de g�
 
    *Sélectionner le catalogue*
 
-1. Vous pouvez également télécharger des relevés de notes pour les élèves qui ont été supprimés d’un compte.
+1. Vous pouvez également télécharger les relevés de notes des apprenants qui ont été supprimés d’un compte.
 
-   Pour télécharger les relevés de notes des élèves des utilisateurs supprimés, cliquez sur le bouton **[!UICONTROL Options avancées]** et activez la case à cocher **[!UICONTROL Inclure les données des élèves supprimés]**.
+   Pour télécharger les relevés de notes des apprenants des utilisateurs supprimés, cliquez sur la flèche Options **[!UICONTROL avancées]** et activez la case **[!UICONTROL à cocher Inclure les données des apprenants]** supprimés.
 
    ![](assets/data-deleted-learners.png)
 
-   *Télécharger les relevés de notes des élèves supprimés*
+   *Télécharger les relevés de notes des apprenants supprimés*
 
-1. Vous pouvez choisir de télécharger les informations de niveau module dans le relevé de notes de l’élève en activant le paramètre **[!UICONTROL Activer les informations au niveau du module]** case à cocher. Dans ce cas, les noms des modules et le temps passé sur chaque module sont récupérés dans le cadre du relevé de notes si cette option est activée.
-1. Vous pouvez choisir de télécharger les données de compétences et les fiches récapitulatives en activant l’option «**[!UICONTROL Inclure les données sur les compétences et les fiches récapitulatives]** case à cocher.
+1. Vous pouvez choisir de télécharger des informations au niveau du module dans le relevé de notes de l’apprenant en cochant la case «**[!UICONTROL Activer les informations]** au niveau du module ». Dans ce cas, les noms des modules et le temps passé sur chaque module sont récupérés dans le cadre du relevé de notes si cette option est activée.
+1. Vous pouvez choisir de télécharger des données de compétences et des feuilles de synthèse en cochant l’option « **[!UICONTROL Inclure les données de compétences et les feuilles]** de synthèse ».
 
-   Les relevés de notes sont générés et téléchargés sur votre ordinateur en tant que fichiers .csv lorsque les données de compétences ne sont pas incluses. Si la case Données de compétences est sélectionnée, les relevés de notes sont générés et téléchargés sous forme de fichiers .xls.
+   Les relevés de notes sont générés et téléchargés sur votre ordinateur sous forme de fichiers .zip lorsque les données sur les compétences ne sont pas incluses. Si la case Données de compétences est sélectionnée, les relevés de notes sont générés et téléchargés sous forme de fichiers .xls.
 
 ## Générer le relevé de notes de l’élève à l’aide du copier-coller
 
 La récupération des relevés de notes de l’élève devient un processus fastidieux, car il ne peut être obtenu que pour un seul élève ou un seul groupe d’utilisateurs à la fois. Ici, avec la fonction copier-coller, vous pouvez copier la liste des identifiants de messagerie des élèves et la coller en une seule fois.
 
-1. Connectez-vous en tant que **[!UICONTROL Administrateur]** ou **[!UICONTROL Responsable]**.
-1. Accéder à **[!UICONTROL Rapports]** en dessous de **[!UICONTROL Gérer]**, il charge le fichier **[!UICONTROL Activité de l’utilisateur]** page.
-1. Cliquez sur **[!UICONTROL Rapports personnalisés]** dans le volet de gauche et sélectionnez **[!UICONTROL Relevés de notes des élèves]** dans la liste.
-1. Sur la **[!UICONTROL Relevés de notes des élèves]** page, cliquez sur **[!UICONTROL Nouveau]** dans le coin supérieur gauche.
-1. Sélectionner les dates préférées en cliquant sur à partir de **[!UICONTROL Sélectionner une plage de dates]** liste déroulante. Cliquez sur **[!UICONTROL ID de messagerie]** pour saisir la liste copiée des identifiants de messagerie uniques.
+1. Connectez-vous en tant qu’administrateur **** ou **[!UICONTROL gestionnaire]**.
+1. Accédez à **[!UICONTROL Rapports]** sous **[!UICONTROL Gérer]**, il charge la page Activité **** utilisateur.
+1. Cliquez sur **[!UICONTROL Rapports]** personnalisés dans le volet gauche et sélectionnez **[!UICONTROL Relevés de]** notes des élèves dans la liste.
+1. Sur la **[!UICONTROL page Relevés de notes des]** élèves, cliquez sur **[!UICONTROL le bouton Générer nouveau]** dans le coin supérieur gauche.
+1. Sélectionnez les dates préférées en cliquant dans la liste déroulante Sélectionner une plage de **[!UICONTROL dates]** . Cliquez sur **[!UICONTROL l’onglet ID de message électronique pour accéder à la liste copiée]** des ID de message électronique uniques.
 
    ![](assets/cp-copy-paste-feature.png)
 
-   *Copier-coller d’ID de messagerie*
+   *Copier-coller des identifiants de courriel*
 
-1. Utilisation **[!UICONTROL Valider les ID de messagerie]** pour vérifier si l’id saisi est correct.
+1. Utilisez **[!UICONTROL l’option Valider les ID de]** message électronique pour vérifier si l’ID saisi est correct.
 
    ![](assets/cp-learnertran-gdpr.png)
 
-   *Valider les ID de messagerie*
+   *Valider les ID d’email*
 
    Si l’ID de messagerie saisi est incorrect, il est mis en surbrillance en rouge avec un message de validation comme ci-dessus.
 
-   **[!UICONTROL Générer]** Le bouton n’est disponible que si tous les ID de messagerie saisis sont corrects.
+   **[!UICONTROL Le bouton Générer]** ne sera pas disponible tant que tous les ID de courrier électronique saisis ne sont pas corrects.
 
    ![](assets/cp-copy-paste-generate.png)
 
-   *Générer les relevés de notes des élèves*
+   *Générer les relevés de notes des apprenants*
 
-1. Cliquez sur **[!UICONTROL Générer]** pour générer les relevés de notes des élèves pour tous les ID de messagerie mentionnés. Vous recevrez un message de confirmation comme ci-dessous indiquant la génération du rapport.
+1. Cliquez sur **[!UICONTROL le bouton Générer]** pour générer les relevés de notes des apprenants pour tous les identifiants de messagerie mentionnés. Vous recevrez un message de confirmation comme ci-dessous indiquant la génération du rapport.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
-   *Message de confirmation du rapport généré*
+   *Message de confirmation de la génération du rapport*
 
-   La génération des relevés de notes des élèves peut être combinée pour les ID de messagerie saisis sous les deux **[!UICONTROL Utilisateurs]** et **[!UICONTROL ID de messagerie]** onglet.
+   La génération de relevés de notes d’apprenants peut être combinée pour les ID de courrier électronique saisis sous les **[!UICONTROL onglets Utilisateurs]** et **[!UICONTROL ID de]** courrier électronique.
 
 ## Historique des téléchargements des relevés de notes des élèves {#ltdownload}
 
-Sur la **[!UICONTROL Relevé de notes de l’élève]** page de téléchargement, pour générer un rapport, lorsque vous cliquez sur le bouton **[!UICONTROL Nouveau]** , la boîte de dialogue Relevés de notes des élèves s’affiche.
+Dans la page de téléchargement Relevé de notes de l’élève ****, pour générer un rapport, lorsque vous cliquez sur le **[!UICONTROL bouton Générer nouveau]**, la boîte de dialogue Relevés de notes de l’élève s’affiche.
 
 ![](assets/history-lt.png)
 
-*Générer un rapport de tous les relevés de notes des élèves*
+*Générer un rapport de tous les relevés de notes des apprenants*
 
 Cliquez sur **[!UICONTROL Options avancées]** et développez le panneau.
 
@@ -121,7 +121,7 @@ Choisissez les utilisateurs et le catalogue auquel ils appartiennent. Après avo
 
 ![](assets/download-learnertranscripts.png)
 
-*Cliquez sur le bouton Générer.*
+*Cliquez sur le bouton Générer*
 
 Le relevé est généré en arrière-plan et vous pouvez poursuivre vos tâches dans Learning Manager. Une fois le relevé généré, vous pouvez le télécharger dans la liste.
 
@@ -129,55 +129,55 @@ En tant qu’administrateur, vous pouvez afficher toutes les transcriptions gén
 
 ![](assets/download-history.png)
 
-*Affichage de l’historique des téléchargements*
+*Afficher l’historique des téléchargements*
 
 La liste de téléchargements affiche les attributs suivants :
 
-* **Élèves :** Les élèves/groupes d&#39;élèves dont les relevés de notes doivent être téléchargés.
+* **Apprenants :** Les apprenants / groupes d’apprenants dont les relevés de notes doivent être téléchargés.
 * **Données supplémentaires incluses :** dépend des données supplémentaires que l’administrateur souhaite télécharger depuis l’option Avancé dans le module Ajouter un relevé de notes de l’élève.
-* **Statut :** Téléchargé, en attente ou en cours.
+* **État :** téléchargé, en file d’attente ou en cours.
 * **De** et **À** : durée des relevés à télécharger.
 * **Filtres appliqués :** spécifie si vous avez appliqué les filtres pour le statut de l&#39;inscription.
-* **Généré par :** L’ID utilisateur de l’utilisateur Learning Manager qui a demandé le téléchargement.
-* **Statut :** Téléchargé, en attente ou en cours.
+* **Généré par :** ID utilisateur de l’utilisateur de Learning Manager qui a demandé le téléchargement.
+* **État :** téléchargé, en file d’attente ou en cours.
 
 Vous pouvez annuler le téléchargement à tout moment. Si une tâche est annulée par l’administrateur, Learning Manager envoie une notification dans l’application à l’utilisateur qui a déclenché le relevé de notes de l’élève.
 
 ![](assets/queued-status.png)
 
-*File d’attente de téléchargement du relevé de notes de l’élève*
+*File d’attente de téléchargement des relevés de notes de l’apprenant*
 
-Vous pouvez **annuler** le téléchargement à tout moment. Si une tâche est annulée, Learning Manager envoie une notification dans l’application à l’utilisateur qui a annulé la tâche.
+Vous pouvez **annuler** le téléchargement à tout moment. Si une tâche est annulée, Learning Manager envoie une notification dans l’application à l’utilisateur qui l’a annulée.
 
 ## Données des élèves supprimés {#dataofdeletedlearners}
 
-Vous pouvez inclure les données des élèves supprimés dans la liste des relevés de notes des élèves. Dans la boîte de dialogue Relevés de notes des élèves, activez l’option **[!UICONTROL Inclure les données des élèves supprimés]**.
+Vous pouvez inclure les données des élèves supprimés dans la liste des relevés de notes des élèves. Dans la boîte de dialogue Relevés de notes des élèves, activez l’option **[!UICONTROL Inclure les données des apprenants]** supprimés.
 
 Après avoir activé l’option et cliqué sur **[!UICONTROL Générer]**, les données des élèves supprimés apparaissent dans la page de téléchargement des relevés de notes des élèves, comme illustré ci-dessous :
 
 ![](assets/deleted-learnersondownloadpage.png)
 
-*Afficher les données des élèves supprimés*
+*Afficher les données des learbers supprimés*
 
 ## Personnalisation des colonnes {#customize-columns-lt}
 
 Un administrateur peut personnaliser les colonnes exportées dans un rapport de relevé de notes de l’élève. Les administrateurs, les administrateurs personnalisés et les responsables peuvent configurer les colonnes avant d’exporter le rapport.
 
-Sur la **[!UICONTROL Relevés de notes des élèves]** , cliquez sur **[!UICONTROL Options avancées]**. Dans le panneau **[!UICONTROL Configurer le format d’exportation]** , choisissez les colonnes à exporter.
+Dans la **[!UICONTROL boîte de dialogue Relevés de notes des]** élèves, cliquez sur **[!UICONTROL Options avancées]**. Dans la section Configurer le **[!UICONTROL format]** d’exportation, choisissez les colonnes que vous souhaitez exporter.
 
 ![](assets/image024.png)
 
-*Personnalisation des colonnes à exporter*
+*Personnaliser les colonnes à exporter*
 
 La personnalisation n’est autorisée que lorsqu’un utilisateur télécharge le relevé de notes de l’élève au format .CSV. Si le relevé est téléchargé au format .XLSX, la sélection des préférences de colonne ne sera pas respectée, et toutes les colonnes par défaut seront exportées.
 
 ## Contenu du fichier Relevé de notes des élèves {#learnertranscriptfilecontent}
 
-Un fichier typique de relevé de notes de l’élève se compose de six feuilles Excel dans un seul fichier. Les feuilles de relevé de notes de l&#39;élève donnent un aperçu global des données, y compris le nombre d&#39;élèves impliqués par cours, leurs compétences, le pourcentage d&#39;achèvement en fonction du cours ou de l&#39;élève et un tableau de bord de conformité. Les tableaux de bord suivants sont disponibles dans les relevés de notes des élèves :
+Un fichier typique de relevé de notes de l’élève se compose de six feuilles Excel dans un seul fichier. Les feuilles de relevé de notes de l’apprenant donnent un aperçu global des données, y compris le nombre d’apprenants impliqués par cours, leurs compétences, le pourcentage d’achèvement basé sur le cours ou l’apprenant et un tableau de bord de conformité. Les tableaux de bord suivants sont disponibles dans les relevés de notes des élèves :
 
 **Relevé de notes de l’élève**
 
-Dans la feuille Excel du relevé de notes de l’élève se trouvent des détails d’utilisation des objets d’apprentissage, comme sa date d’inscription, sa date de début, sa note obtenue et son score au quiz, en plus des informations relatives au profil de l’élève. Si les cours font partie d’un programme d’apprentissage, ils sont répertoriés séparément des détails de consommation des cours individuels.
+Dans la feuille Excel du relevé de notes de l’élève se trouvent des détails d’utilisation des objets d’apprentissage, comme sa date d’inscription, sa date de début, sa note obtenue et son score au quiz, en plus des informations relatives au profil de l’élève. Si les cours font partie d’un programme d’apprentissage, ils sont répertoriés séparément en dehors des détails de consommation de cours individuels.
 
 **1- Tableau de bord Activité d’apprentissage**
 
@@ -197,7 +197,7 @@ La feuille Compétences indique le nom des compétences, leur niveau, les crédi
 
 ![](assets/skills-learner-transcript.png)
 
-*Exemple de feuille Excel de compétences*
+*Exemple de la fiche Excel de compétences*
 
 **1- Tableau de bord Compétence**
 
@@ -223,15 +223,15 @@ Pour les valeurs des colonnes suivantes, les minutes sont arrondies à la minute
 
 ![](assets/time-columns-in-thetranscript.png)
 
-*Colonnes d&#39;heure et de date de la feuille Excel*
+*Colonnes d’heure et de date dans la feuille Excel*
 
 ### Colonnes de durée et d’ID du module dans le relevé de notes {#moduledurationandidcolumnsinthetranscript}
 
-Le relevé de notes de l’élève affiche également les colonnes - **[!UICONTROL Durée du module]** et **[!UICONTROL ID]**.
+Le relevé de notes de l’apprenant affiche également les colonnes Durée **[!UICONTROL et**[!UICONTROL  ID ]**du module]**.
 
 ![](assets/lt-id-duration.png)
 
-*Colonnes de durée et d’ID du module dans le relevé de notes*
+*Durée du module et colonnes d’ID dans la transcription*
 
 ### AUTRES colonnes dans le relevé {#ModuledurationandIDcolumnsinthetranscript-1}
 
@@ -245,6 +245,6 @@ Le relevé de notes de l’élève affiche également les colonnes - **[!UICONTR
 | Nombre de compétences dont dispose chaque utilisateur | Nombre de compétences acquises par l’élève |
 | Nombre de compétences nécessitant une actualisation | Nombre d’élèves dont la compétence doit être actualisée |
 | Pourcentage de conformité | Pourcentage de progression de la compétence assignée |
-| Chemin incorporé | Ces lignes affichent le nom du programme d’apprentissage intégré. |
-| ID du parcours intégré | Ces lignes affichent les ID du programme d’apprentissage intégré |
+| Chemin incorporé | Ces lignes affichent le nom du programme de formation intégré. |
+| ID du parcours intégré | Ces lignes afficheront les identifiants du programme d’apprentissage intégré |
 | Langue du chemin incorporé | Ces lignes affichent la langue dans laquelle le programme d’apprentissage a été créé. |

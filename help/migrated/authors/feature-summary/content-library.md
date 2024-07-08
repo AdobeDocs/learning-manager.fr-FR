@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
 workflow-type: tm+mt
-source-wordcount: '3239'
-ht-degree: 56%
+source-wordcount: '3542'
+ht-degree: 50%
 
 ---
 
@@ -105,32 +105,71 @@ Le tableau ci-dessous affiche les types de fichiers interactifs et statiques que
    <td>
     <p>xlsx, xls</p></td>
   </tr>
+  <tr>
+   <td>
+    <p> </p></td>
+   <td>
+    <p>HTML</p></td>
+   <td>
+    <p>html ou htm</p></td>
+  </tr>
  </tbody>
 </table>
 
 ## Ajouter du nouveau contenu dans la bibliothèque {#addnewcontentinthelibrary}
 
-**Auteurs** peut ajouter des contenus dans ALM. Il existe deux types de contenu dans ALM : **[!UICONTROL Contenu]** et **[!UICONTROL Quiz]**. Pour savoir comment ajouter des contenus, voir [Ajout de contenu statique](content-library.md#addstaticcontent) et [Créer un quiz](content-library.md##createaquiz).
+**Les auteurs** peuvent ajouter du contenu dans ALM. Il existe deux types de contenus dans ALM : **[!UICONTROL Contenu]** et **[!UICONTROL Quiz]**. Pour savoir comment ajouter du contenu, voir [Ajouter du contenu](content-library.md#addstaticcontent) statique et [Créer un quiz](content-library.md##createaquiz).
 
 ## Ajouter du contenu statique {#addstaticcontent}
 
-1. Sélectionner **[!UICONTROL Bibliothèque de contenu]** dans le volet de gauche après vous être connecté en tant que **Auteur** et sélectionnez **[!UICONTROL Ajouter]**.
+1. Sélectionnez **[!UICONTROL Bibliothèque]** de contenu dans le volet gauche après vous être connecté en tant qu’auteur ****, puis sélectionnez **[!UICONTROL Ajouter]**.
 
-   Vous pouvez également sélectionner **[!UICONTROL Créer du contenu]** à partir du **[!UICONTROL Prise en main]** page.
+   Vous pouvez également sélectionner **[!UICONTROL Créer du contenu]** dans la **[!UICONTROL page Prise en main]** .
 
-1. Dans le panneau **[!UICONTROL Nom]** , saisissez un nom pour le contenu que vous souhaitez télécharger.
-1. Dans le panneau **[!UICONTROL Description]** , saisissez la description du contenu. Assurez-vous que la description que vous voulez saisir est significative. La limite de caractères est de 400 caractères.
-1. Pour ajouter le contenu, sélectionnez **[!UICONTROL Ajouter un fichier de contenu]**, puis téléchargez votre fichier de ressources. Lorsque vous ajoutez du contenu dans diverses langues, vous ne pouvez pas combiner le contenu statique et le contenu interactif dans un même groupe. L’ensemble de votre contenu dans toutes les langues doit être soit statique, soit interactif.
+1. Dans le **[!UICONTROL champ Nom]** , saisissez un nom pour le contenu à télécharger.
+1. Dans le **[!UICONTROL champ Description]** , entrez la description du contenu. Assurez-vous que la description que vous voulez saisir est significative. La limite de caractères est de 400 caractères.
+1. Pour ajouter le contenu, sélectionnez **[!UICONTROL Ajouter un fichier]** de contenu et téléchargez votre fichier de ressources. Lorsque vous ajoutez du contenu dans diverses langues, vous ne pouvez pas combiner le contenu statique et le contenu interactif dans un même groupe. L’ensemble de votre contenu dans toutes les langues doit être soit statique, soit interactif.
 
    Si vous voulez remplacer le contenu, vous pouvez remplacer un contenu statique par un contenu statique différent. Le même procédé peut s’appliquer au contenu interactif.
 
-1. Dans le panneau **[!UICONTROL Durée]** vous pouvez éventuellement saisir le temps qu’un élève doit passer dans ce module. La durée est calculée en minutes.
+1. Dans le **[!UICONTROL champ Durée]** , vous pouvez éventuellement taper le temps attendu qu’un élève passerait dans ce module. La durée est calculée en minutes.
 
-   Le temps d’apprentissage de l’élève est calculé sur la base de la durée spécifiée si l’élève a indiqué qu’un cours est terminé. Si l’élève utilise le contenu du lecteur, le temps passé dans le lecteur est ajouté au temps d’apprentissage passé. Si la durée réelle du contenu est inférieure à la durée spécifiée, rien ne se passe car le lecteur respecte toujours la durée d’affichage du contenu.
+   Si l’apprenant marque un cours comme terminé, nous calculons le temps d’apprentissage en fonction de la durée spécifiée. Si l’élève consomme le contenu du lecteur, le temps passé dans le lecteur est ajouté au temps d’apprentissage passé. Si la durée réelle du contenu est inférieure à la durée spécifiée, le lecteur affiche l’heure du contenu telle quelle. Aucune modification n’est apportée dans ce cas.
 
-1. Dans le panneau **[!UICONTROL Balises]** , saisissez les balises du contenu téléchargé afin que votre contenu puisse être découvert.
+1. Dans le **[!UICONTROL champ Balises]** , saisissez les balises du contenu téléchargé afin que votre contenu soit détectable.
 
-   Un auteur peut utiliser ces balises pour rechercher le contenu lors de l&#39;ajout du contenu au cours.
+   Un auteur peut utiliser ces balises pour rechercher le contenu tout en ajoutant le contenu au cours.
+
+### Ajouter le type de fichier HTML5 dans la bibliothèque de contenu
+
+Les auteurs peuvent ajouter du contenu HTML5 sous forme de fichier .zip au contenu à leur propre rythme. Le dossier .zip doit contenir un fichier HTML nommé `index.html`. S’il existe plusieurs fichiers HTML, ils doivent tous être liés, avec le fichier principal nommé `index.html`. Les apprenants peuvent afficher le contenu HTML5 dans le lecteur fluidique. L’auteur peut ajouter ce contenu HTML5 au module auto-rythmé d’un cours et définir les critères d’achèvement. Les auteurs peuvent définir les critères pour terminer le cours HTML de l’une des deux façons suivantes :
+
+* L’apprenant peut le marquer lui-même comme complet.
+* Il sera marqué comme terminé une fois qu’ils auront lancé le cours.
+
+Pour ajouter le(s) type(.zip) de fichier HTML à la bibliothèque de contenu, procédez comme suit.
+
+1. Dans l’application de création, sélectionnez **[!UICONTROL Créer du contenu]** sur la page d’accueil.
+1. Dans l’écran Bibliothèque de contenu, sélectionnez **[!UICONTROL Ajouter]** du contenu ]**>**[!UICONTROL .****
+1. Entrez le nom et la description du contenu.
+1. Sélectionnez l’option **[!UICONTROL Ajouter un fichier]** de contenu, puis recherchez et sélectionnez les fichiers HTML (compressés en tant que dossier).
+1. Une fois le contenu ajouté, vous pouvez afficher le contenu dans la section Bibliothèque ]**de**[!UICONTROL  contenu.
+1. Sélectionnez le contenu HTML, puis sélectionnez **[!UICONTROL Modifier]**.
+1. Sélectionnez l’une des options suivantes dans l’option **[!UICONTROL Critères]** d’achèvement.
+   * **[!UICONTROL Au lancement du contenu]** : Le cours sera marqué comme terminé automatiquement lorsque l’apprenant le lancera.
+   * **[!UICONTROL Notes de l’apprenant terminées]** : L’apprenant a la possibilité de marquer le cours comme terminé dans le lecteur fluidique.
+
+   ![](assets/completion-criteria.png)
+   _Critères d’achèvement_
+
+1. Sélectionnez **[!UICONTROL Enregistrer]**.
+1. Créez un cours en ajoutant ce contenu.  Pour plus d’informations, consultez [Créer, modifier et publier des cours](/help/migrated/authors/feature-summary/courses.md).
+
+Dans l’application de l’apprenant, si un auteur sélectionne des critères de sélection sur **[!UICONTROL le contenu]** Au lancement, le cours sera marqué comme terminé lorsque l’apprenant le lancera. Lorsqu’un auteur choisit **[!UICONTROL Learner marks Termin,]** l’apprenant aura la possibilité de marquer le cours comme terminé.
+
+![](assets/completion-criteria-fluidic-player.png)
+
+_Notes de l’apprenant terminées_
 
 ### Contrôle de version {#versioning}
 
@@ -138,13 +177,18 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
 
 ## Ajouter du contenu interactif {#addinteractivecontent}
 
-1. Sélectionner **[!UICONTROL Bibliothèque de contenu]** dans le volet de gauche après vous être connecté en tant que **Auteur** et sélectionnez **[!UICONTROL Ajouter]**.
+1. Sélectionnez **[!UICONTROL Bibliothèque]** de contenu dans le volet gauche après vous être connecté en tant qu’auteur ****, puis sélectionnez **[!UICONTROL Ajouter]**.
 
-   Vous pouvez également sélectionner **[!UICONTROL Créer du contenu]** à partir du **[!UICONTROL Prise en main]** page.
+   Vous pouvez également sélectionner **[!UICONTROL Créer du contenu]** dans la **[!UICONTROL page Prise en main]** .
 
-1. Dans le panneau **[!UICONTROL Nom]** , saisissez un nom pour le contenu que vous souhaitez télécharger.
-1. Dans le panneau **[!UICONTROL Description]** , saisissez la description du contenu. Assurez-vous que la description que vous voulez saisir est significative. La limite de caractères est de 245 caractères.
-1. Pour ajouter le contenu, sélectionnez **[!UICONTROL Ajouter un fichier de contenu]**, puis téléchargez votre fichier de ressources. Lorsque vous ajoutez du contenu dans diverses langues, vous ne pouvez pas combiner le contenu statique et le contenu interactif dans un même groupe. L’ensemble de votre contenu dans toutes les langues doit être soit statique, soit interactif.
+1. Dans le **[!UICONTROL champ Nom]** , saisissez un nom pour le contenu à télécharger.
+1. Dans le **[!UICONTROL champ Description]** , entrez la description du contenu.
+
+   >[!NOTE]
+   >
+   >Assurez-vous que la description que vous voulez saisir est significative. La limite de caractères est de 245 caractères.
+
+1. Pour ajouter le contenu, sélectionnez **[!UICONTROL Ajouter un fichier]** de contenu et téléchargez votre fichier de ressources. Lorsque vous ajoutez du contenu dans diverses langues, vous ne pouvez pas combiner le contenu statique et le contenu interactif dans un même groupe. L’ensemble de votre contenu dans toutes les langues doit être soit statique, soit interactif.
 
 * [Types de fichiers pris en charge](content-library.md#supported)
 
@@ -156,66 +200,66 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
 
    Les élèves peuvent ensuite afficher les légendes pendant la lecture du module vidéo.
 
-   Le format pris en charge est  [Pistes de texte des vidéos web (webVTT)](https://www.w3.org/TR/webvtt1/).
+   Le format pris en charge est [Web Video Text Tracks (webVTT).](https://www.w3.org/TR/webvtt1/)
 
    La prise en charge des légendes est disponible pour le contenu vidéo chargé dans la bibliothèque de contenu dans Learning Manager.
 
-   En tant qu’auteur, lorsque vous chargez un contenu vidéo ou audio, vous pouvez également charger le fichier VTT qui contient les sous-titres.
+   En tant qu’auteur, lorsque vous téléchargez un contenu vidéo ou audio, vous pouvez également télécharger le fichier VTT contenant les sous-titres.
 
-   Les sous-titres apparaissent ensuite dans le lecteur Fluidic. Les légendes sont également conformes à [normes WCAG2.0](https://www.w3.org/TR/WCAG20/).
+   Les sous-titres apparaissent alors dans le lecteur fluidique. Les légendes sont également conformes aux [normes](https://www.w3.org/TR/WCAG20/) WCAG 2.0.
 
-   Lorsque vous ajoutez un contenu vidéo à la bibliothèque, vous pouvez également ajouter le fichier VTT, qui **incontournable** être un fichier valide.
+   Lorsque vous ajoutez un contenu vidéo à la bibliothèque, vous pouvez également ajouter le fichier VTT, qui **doit** être un fichier valide.
 
    ![](assets/webvtt.png)
 
-   *Ajout d’un fichier webvtt*
+   *Ajouter un fichier webvtt*
 
-   Le fichier VTT chargé correspond à la version existante du contenu. Ainsi, le fichier webVTT chargé ne renvoie pas à l’ancienne version du contenu.
+   Le fichier VTT chargé correspond à la version existante du contenu. Ainsi, le fichier webVTT téléchargé n’est pas lié à l’ancienne version du contenu.
 
    Si vous créez le contenu dans différentes langues, vous pouvez charger un fichier webVTT différent pour chaque langue. Les élèves pourront voir les légendes correspondant à la langue sélectionnée pendant la lecture.
 
    >[!NOTE]
    >
-   >   Un fichier VTT prend en charge une langue. Pour prendre en charge plusieurs langues, chargez plusieurs fichiers vidéo pour chaque langue de contenu, puis chargez son fichier VTT respectif pour chaque fichier vidéo.
+   >   Un fichier VTT prend en charge une langue. Pour prendre en charge plusieurs langues, téléchargez plusieurs fichiers vidéo pour chaque langue de contenu, puis téléchargez son fichier VTT respectif pour chaque fichier vidéo.
 
-   En tant qu’auteur, chaque fois que vous modifiez le contenu, la vidéo ou l’audio, Learning Manager vous invite à créer un fichier vtt.
+   En tant qu’auteur, chaque fois que vous modifiez le contenu, vidéo ou audio, Learning Manager vous invite à entrer un nouveau fichier vtt.
 
-   Après avoir ajouté ce contenu à un cours et lorsque vous affichez un aperçu du cours en tant qu’élève, vous pouvez voir les légendes sur la vidéo.
+   Après avoir ajouté ce contenu à un cours et lorsque vous prévisualisez le cours en tant qu’élève, vous pouvez voir les légendes sur la vidéo.
 
    Sur le lecteur, activez ou désactivez le bouton CC sur le lecteur Fluidic pour afficher ou masquer les légendes.
 
    La même vue apparaît dans **l&#39;application de l&#39;élève** ainsi que dans **Aperçu en tant qu&#39;élève**.
 
-   Lorsque vous **ajouter, mettre à jour ou supprimer** dans le fichier vtt, vous recevez une notification.
-La prise en charge de WebVTT n’est pas disponible pour :
+   Lorsque vous **ajoutez, mettez à jour ou supprimez** le fichier vtt, vous recevez une notification.
+WebVTT n’est pas pris en charge pour :
 
    1. Annonces vidéo.
-   1. Vidéo lue dans le contenu de formation en ligne. Cela dépend du contenu.
+   1. Vidéo lue dans le contenu eLearning. Cela dépend du contenu.
    1. Vidéo téléchargée dans l&#39;apprentissage par les réseaux sociaux.
    1. Vidéo créée dans l’application de bureau Learning Manager.
    1. Contenu vidéo créé à l’aide du processus de migration.
    1. Lecture vidéo dans l’application mobile en mode hors ligne.
 
-1. Dans le panneau **[!UICONTROL Durée]** vous pouvez éventuellement saisir le temps qu’un élève doit passer dans ce module. La durée est calculée en minutes.
-1. Dans le panneau **[!UICONTROL Balises]** , saisissez les balises du contenu téléchargé afin que votre contenu puisse être découvert.
+1. Dans le **[!UICONTROL champ Durée]** , vous pouvez éventuellement entrer le temps prévu qu’un élève passerait dans ce module. La durée est calculée en minutes.
+1. Dans le **[!UICONTROL champ Balises]** , entrez les balises du contenu téléchargé afin que votre contenu soit détectable.
 
 ### Prise en charge du catalogue partagé
 
-Si un compte vendeur partage un catalogue contenant les cours et que ces derniers contiennent les modules, audio ou vidéo avec sous-titres, les cours doivent se comporter de la même manière dans le compte acheteur.
+Si un compte vendeur partage un catalogue contenant les cours et que les cours contiennent les modules, audio ou vidéo avec les sous-titres, les cours doivent se comporter de la même manière dans le compte acheteur.
 
-La propagation du module doit fonctionner correctement du compte Vendeur au compte Acheteur. Cela peut inclure - modifier/supprimer/ajouter le fichier vtt dans le module.
+La propagation du module doit fonctionner correctement du compte Vendeur au compte Acheteur. Cela peut inclure - modifier / supprimer / ajouter le fichier vtt dans le module.
 
 Une fois que vous avez téléchargé le contenu, une notification s’affiche lorsque vous cliquez sur l’icône en forme de cloche dans le coin supérieur droit de la page. Chaque fois que vous modifiez un contenu et que vous le téléchargez à nouveau, vous recevez une notification. Si vous effectuez les modifications, vous êtes le seul à recevoir la notification. Les autres auteurs ne la recevront pas.
 
 ## Création d’un quiz {#createaquiz}
 
-Créez des évaluations dans Adobe Learning Manager avec le nouvel outil de création de questionnaire de la page de la bibliothèque de contenus. Les évaluations créées font partie de la bibliothèque de contenu et peuvent être ajoutées à un dossier « public » pour faciliter la réutilisation des cours.
+Créez des évaluations dans Adobe Learning Manager avec le nouvel outil de création de questionnaire de la page de la bibliothèque de contenus. Les évaluations créées font partie de la bibliothèque de contenu et peuvent être ajoutées à un dossier « public » pour la réutilisation des cours.
 
-1. Sélectionnez Bibliothèque de contenu dans le panneau de gauche.
-1. Dans le coin supérieur droit de l’écran, sélectionnez **Ajouter > Quiz**.
-1. Sur la page Créer un quiz, saisissez le nom et la description du quiz.
+1. Sélectionnez Bibliothèque de contenu dans le volet de gauche.
+1. Dans le coin supérieur droit de l’écran, sélectionnez **Ajouter > questionnaire**.
+1. Dans la page Créer un quiz, tapez le nom et la description du quiz.
 1. Dans la section Contenu du questionnaire, sélectionnez **Ajouter une question de questionnaire**.
-1. Dans la boîte de dialogue Question de quiz, sélectionnez le type de question. Il existe trois types de questions :
+1. Dans la boîte de dialogue Quiz question, sélectionnez le type de question. Il existe trois types de questions :
    * Question à choix multiple
    * Vrai ou faux
    * Champ à compléter
@@ -223,31 +267,31 @@ Créez des évaluations dans Adobe Learning Manager avec le nouvel outil de cré
 1. Définissez le nombre de points pour le questionnaire.
 1. Si vous souhaitez que la réponse correcte à la question soit indispensable pour réussir le questionnaire, cochez la case **Réponse correcte obligatoire pour réussir le questionnaire**.
 1. Sélectionnez **Enregistrer et fermer**.
-1. Saisissez les points pour réussir le quiz dans le champ **Critères de réussite** champ.
-1. Si vous souhaitez qu’un élève voie une réponse correcte, activez le bouton à bascule **Afficher les bonnes réponses** aux élèves après le quiz.
+1. Entrez les points pour réussir le quiz dans le **champ Critères** de réussite.
+1. Si vous souhaitez qu’un élève affiche une réponse correcte, activez la bascule **Afficher les réponses** correctes aux apprenants après le quiz.
 1. Si vous souhaitez que les questions et les réponses s’affichent dans un ordre aléatoire, activez les options :
    * Ordre aléatoire des questions
    * Ordre aléatoire des réponses
 1. Spécifiez un dossier où ajouter le questionnaire afin qu’il soit disponible pour tous les auteurs.
-1. Dans le panneau **Durée** champ, spécifiez le temps que l’élève doit consacrer au quiz.
+1. Dans le **champ Durée** , spécifiez le temps que l’élève doit passer sur le quiz.
 1. Spécifiez une balise de la liste des balises déjà créées.
 1. Ajoutez un logo et un arrière-plan au questionnaire.
-1. Dans le coin supérieur droit de la page, sélectionnez **Publier**.
+1. Dans l’angle supérieur droit de la page, sélectionnez **Publish**.
 
-Pour ajouter les quiz dans une autre langue, procédez comme suit :
+Pour ajouter les quiz dans différentes langues, suivez les étapes s’il vous plaît :
 
-1. Pour ajouter le quiz pour différentes langues, sélectionnez **Ajouter une nouvelle langue** et sélectionnez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
+1. Pour ajouter le quiz pour différentes langues, sélectionnez l’onglet **Ajouter une nouvelle langue** , puis choisissez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
 
    ![](assets/add-new-languagetab.png)
 
-   *Ajout d’une nouvelle langue pour un contenu*
+   *Ajouter une nouvelle langue pour un contenu*
 
 1. Répétez le processus de téléchargement de contenu pour les nouvelles langues.
-1. Si vous souhaitez supprimer une langue, sélectionnez l’option **[!UICONTROL Ajouter une nouvelle langue]** et effacez votre sélection.
+1. Si vous souhaitez supprimer une langue, sélectionnez l’onglet **[!UICONTROL Ajouter une nouvelle langue]** et effacez votre sélection.
 
-   Après avoir apporté les modifications, cliquez sur **[!UICONTROL Enregistrer]**. Dans la bibliothèque, le nouveau contenu est maintenant disponible pour le suivi.
+   Une fois les modifications effectuées, cliquez sur **[!UICONTROL Enregistrer]**. Dans la bibliothèque, le nouveau contenu est maintenant disponible pour le suivi.
 
-Le quiz est ajouté au **[!UICONTROL Bibliothèque de contenu]**. Comme tout contenu de la bibliothèque de contenu, vous pouvez retirer un questionnaire, puis le supprimer.
+Le quiz est ajouté à la bibliothèque ]**de**[!UICONTROL  contenu. Comme tout contenu de la bibliothèque de contenu, vous pouvez retirer un questionnaire, puis le supprimer.
 
 
 ## Ajouter au dossier {#add-folder}
@@ -256,29 +300,29 @@ Une fois qu’un administrateur a créé les dossiers de contenu, vous pouvez, e
 
 **Exemple d’utilisation**
 
-Par exemple, les agences veulent garder le contrôle total du contenu et une personne qui surveille le contenu doit avoir accès à tout le contenu. En même temps, les créateurs de contenu dans les agences doivent avoir accès à leur propre contenu uniquement, et dans certains cas, à celui de quelqu&#39;un d&#39;autre.
+Par exemple, les agences veulent garder le contrôle total du contenu et quelqu’un qui supervise le contenu doit avoir accès à tout le contenu. Dans le même temps, les créateurs de contenu dans les agences doivent avoir accès uniquement à leur propre contenu et, dans certains cas, au contenu de quelqu’un d’autre.
 
-La bibliothèque de contenu avec du contenu existant (c’est-à-dire du contenu chargé avant de configurer les dossiers de contenu) est définie comme **Dossier public**. Ce dossier ne peut pas être retiré ou supprimé. Le contenu qui fait partie du dossier Public est accessible à tous les types d’auteurs. Une fois les dossiers de contenu configurés, les auteurs standard et les auteurs personnalisés doivent sélectionner le dossier où le contenu doit être placé, lors du chargement du nouveau contenu.
+La bibliothèque de contenu avec le contenu existant (c’est-à-dire le contenu téléchargé avant la configuration des dossiers de contenu) est définie comme **Dossier** public. Ce dossier ne peut pas être retiré ou supprimé. Le contenu faisant partie du dossier Public est accessible à tous les types d’auteurs. Une fois les dossiers de contenu configurés, les auteurs standard et les auteurs personnalisés doivent sélectionner le dossier dans lequel le contenu doit être placé, lors du téléchargement du nouveau contenu.
 
 >[!NOTE]
 >
->Le dossier public et les dossiers privés s’excluent mutuellement. Cela signifie que le contenu **impossible** être associé à la fois au dossier public et au dossier privé. Il peut être associé au dossier Public, **ou** il peut être associé à un ou plusieurs dossiers privés à tout moment.
+>Les dossiers public et les dossiers privés s’excluent mutuellement. Cela signifie que le contenu **ne peut pas** être associé à dossier public et dossier privé en même temps. Il peut être associé à un dossier **public ou** à un ou plusieurs dossiers privés à tout moment.
 
-Lorsque vous ajoutez un contenu, vous pouvez choisir le dossier dans lequel le contenu résidera.
+Lorsque vous ajoutez un contenu, vous pouvez choisir le dossier dans lequel résidera le contenu.
 
 ![](assets/add-to-content-folder.png)
 
 *Ajouter du contenu au dossier*
 
-Si vous **Public**, le contenu sera visible par tous les auteurs. Par défaut, tout le contenu existant dans le compte qui ne fait partie d’aucun dossier se trouve dans le dossier public.
+Si vous choisissez **Public**, le contenu sera visible par tous les auteurs. Tout le contenu qui existait dans le compte et qui ne fait partie d’aucun dossier sera dans le dossier public, par défaut.
 
-Notez que les dossiers de contenu sont simplement des compartiments virtuels permettant de lier le contenu. Si un contenu est placé dans deux dossiers, cela signifie que le fichier de contenu est toujours un seul fichier, mais lié à plusieurs dossiers. Ainsi, si le contenu est mis à jour par le custom-author-1 ayant accès au dossier-personnalisé-1, le même contenu mis à jour sera également reflété dans le dossier-personnalisé-2 accessible par le custom-author-2.
+Notez que les dossiers de contenu sont simplement des compartiments virtuels permettant de lier le contenu. Dans le cas où un contenu est placé dans deux dossiers, cela signifie que le fichier de contenu est toujours un seul fichier mais lié à plusieurs dossiers. Ainsi, dans le cas où le contenu est mis à jour par l’auteur-personnalisé-1 ayant accès à custom-folder-1, le même contenu mis à jour sera également reflété dans custom-folder-2 accédé par custom-author-2.
 
 Dans la bibliothèque de contenu, deux options permettent de gérer les dossiers de contenu :
 
 **Tous les dossiers**
 
-Il s’agit d’une liste qui affiche tous les dossiers créés dans le compte.
+C’est une liste qui affiche tous les dossiers créés dans le compte.
 
 ![](assets/list-of-all-folders.png)
 
@@ -286,49 +330,49 @@ Il s’agit d’une liste qui affiche tous les dossiers créés dans le compte.
 
 **Tous les auteurs**
 
-Il s’agit d’une liste qui affiche les auteurs qui ont créé du contenu et l’ont chargé dans la bibliothèque.
+Il s’agit d’une liste qui affiche les auteurs qui ont créé du contenu et l’ont téléchargé dans la bibliothèque.
 
 ![](assets/list-of-all-authors.png)
 
-*Voir tous les auteurs*
+*Afficher tous les auteurs*
 
-Cette option est disponible **uniquement** lorsqu’un administrateur crée un dossier.
+Cette option n’est disponible **que** lorsqu’un administrateur crée un dossier.
 
 ## Déplacer le contenu vers le dossier {#movecontenttofolder}
 
 Pour déplacer le contenu d’un dossier public vers un dossier privé,
 
-1. Sélectionner **Public** dossier du **Tous les dossiers** liste déroulante.
+1. Sélectionnez **Dossier public** dans la **liste déroulante Tous les dossiers** .
 
    ![](assets/list-of-public-folders.png)
 
    *Afficher tout le contenu chargé*
 
-1. Choisissez le contenu que vous souhaitez déplacer vers un dossier. Cliquez ensuite sur **[!UICONTROL Actions]** > **[!UICONTROL Organiser le contenu]** > **[!UICONTROL Déplacer le contenu vers le dossier]**.
+1. Choisissez le contenu qui doit être déplacé vers un dossier. Cliquez ensuite sur Actions > **[!UICONTROL Organiser le contenu]** > **[!UICONTROL Déplacer le contenu vers un dossier]**.]****[!UICONTROL 
 
    ![](assets/move-content-to-folder.png)
 
-   *Déplacer un contenu sélectionné vers le dossier*
+   *Déplacer un contenu sélectionné vers un dossier*
 
 1. Sélectionnez le dossier vers lequel vous souhaitez déplacer le contenu. Cliquez sur **[!UICONTROL Déplacer]**.
 
 ## Copier le contenu vers le dossier {#copycontenttofolder}
 
-Si vous copiez un dossier, cela signifie que vous ajouteriez une balise au dossier. L’opération de copie ne crée pas de copies du contenu, mais ajoute uniquement une association avec les dossiers spécifiés.
+La copie d’un dossier signifie que vous ajouterez une balise au dossier. L’opération de copie ne créera pas de copies du contenu, mais ajoutera uniquement une association avec des dossiers spécifiés.
 
 ![](assets/copy-content-to-folder.png)
 
-*Copie d’un dossier*
+*Copier un dossier*
 
 ## Annuler le lien d&#39;un dossier {#unlinkfolder}
 
 Dissocier signifie supprimer le contenu du dossier sélectionné.
 
-Le contenu peut être dissocié d’un dossier spécifié **UNIQUEMENT** s’il est également associé à d’autres dossiers. Si le contenu dissocié n’est associé qu’à un seul dossier, il est conseillé d’utiliser l’opération MOVE à la place.
+Le contenu peut être dissocié d’un dossier **spécifié UNIQUEMENT** s’il est également associé à d’autres dossiers. Si le contenu dissocié n’est associé qu’à un seul dossier, il est conseillé d’utiliser l’opération MOVE à la place.
 
 >[!NOTE]
 >
->Le menu Organiser, sous Actions, est initialement désactivé. Pour utiliser cette option, vous devez d’abord sélectionner un dossier dans la liste déroulante des dossiers.
+>Le menu Organiser, sous Actions, est désactivé initialement. Pour utiliser cette option, vous devez d’abord sélectionner un dossier dans la liste déroulante des dossiers.
 
 ![](assets/unlink-a-folder.png)
 
@@ -336,16 +380,16 @@ Le contenu peut être dissocié d’un dossier spécifié **UNIQUEMENT** s’il 
 
 ## Ajouter du contenu pour différentes langues {#addcontentfordifferentlanguages}
 
-1. Pour ajouter du contenu pour différentes langues, cliquez sur le bouton **Ajouter une nouvelle langue** et sélectionnez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
+1. Pour ajouter le contenu pour différentes langues, cliquez sur l’onglet **Ajouter une nouvelle langue** et choisissez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
 
    ![](assets/add-new-languagetab.png)
 
-   *Ajout d’une nouvelle langue pour un contenu*
+   *Ajouter une nouvelle langue pour un contenu*
 
 1. Répétez le processus de téléchargement de contenu pour les nouvelles langues.
 1. Si vous souhaitez supprimer une langue, cliquez sur l’onglet Ajouter une nouvelle langue et désélectionnez votre sélection.
 
-   Après avoir apporté les modifications, cliquez sur Enregistrer. Dans la bibliothèque, le nouveau contenu est maintenant disponible pour le suivi.
+   Une fois les modifications effectuées, cliquez sur Enregistrer. Dans la bibliothèque, le nouveau contenu est maintenant disponible pour le suivi.
 
 ## Définir des critères d’achèvement {#setcompletioncriteria}
 
@@ -371,12 +415,12 @@ Le contenu peut être dissocié d’un dossier spécifié **UNIQUEMENT** s’il 
      <li>Basé sur le pourcentage minimal requis</li>
      <li>Quiz réussi ou options tentées</li>
     </ul>
-    <p><b>REMARQUE :</b> Seul le contenu HTML du Captivate, de Presenter Video Express ou de Presenter peut être modifié.</p></td>
+    <p><b>REMARQUE :</b> seul le contenu HTML de Captivate, Presenter, Video Express ou Presenter peut être modifié.</p></td>
   </tr>
  </tbody>
 </table>
 
-Après avoir ajouté du contenu, vous pouvez modifier les critères d’achèvement du contenu.
+Après avoir ajouté le contenu, vous pouvez modifier les critères d’achèvement du contenu.
 
 Dans Learning Manager, les badges et les compétences sont attribués en fonction de la réussite et de l’achèvement. Si l’élève a terminé un cours mais qu’il ne l’a pas réussi, il ne reçoit pas le badge et la compétence correspondant à l’Objet d’apprentissage.
 
@@ -394,14 +438,14 @@ Dans la section Critères d’achèvement, vous pouvez définir les options ment
 * **Quiz tenté :** le statut est considéré comme terminé si les élèves tentent le quiz, qu’ils le réussissent ou non.
 * **Quiz réussi ou nombre maximal de tentatives atteint :** le statut est défini sur Terminé si l’utilisateur réussit le quiz ou atteint le nombre maximal de tentatives. Par exemple, si le nombre de tentatives pour le cours est de deux et :
 
-   * Si les élèves font la première tentative et réussissent, l&#39;état est défini sur Terminé et Réussi.
-   * Si les élèves font la première tentative et échouent, l&#39;état est signalé comme Incomplet et Échec car la limite de tentatives n&#39;est toujours pas atteinte.
-   * Si les élèves reprennent le quiz et échouent, l’état est défini sur Terminé et Échec.
-   * Si les élèves tentent à nouveau le quiz et le réussissent, l’état est défini sur Terminé et Réussi.
+   * Si les apprenants font la première tentative et réussissent, l’état est signalé comme terminé et réussi.
+   * Si les apprenants font la première tentative et échouent, l’état est signalé comme incomplet et échoué car la limite de tentative n’est toujours pas atteinte.
+   * Si les élèves repassent le quiz et échouent, l’état est signalé comme Terminé et Échec.
+   * Si les apprenants tentent à nouveau le quiz et réussissent, l’état est signalé comme terminé et réussi.
 
 ## Définir des critères de réussite {#setsuccesscriteria}
 
-Vous pouvez également définir les critères de réussite pour le cours. Un critère de réussite indique que les performances d’un élève ont réussi ou échoué. Si vous avez créé un cours dans Captivate, vous pouvez définir les critères de réussite du cours dans la boîte de dialogue Préférences, comme indiqué ci-dessous :
+Vous pouvez également définir les critères de réussite pour le cours. Un critère de réussite indique la performance d’un apprenant comme réussie ou échouée. Si vous avez créé un cours dans Captivate, vous pouvez définir les critères de réussite du cours dans la boîte de dialogue Préférences, comme indiqué ci-dessous :
 
 Par exemple, vous avez téléchargé un module qui contient un quiz. Maintenant, vous avez défini les critères d’achèvement pour ce module dans Au lancement du contenu et les critères de réussite sur Quiz réussi.
 
@@ -423,7 +467,7 @@ Organisez le contenu selon qu’il est utilisé ou non dans un cours. Dans la li
 
 ![](assets/according-to-usage.png)
 
-*Trier le contenu par utilisation*
+*Tri du contenu par usage*
 
 ## Rechercher des contenus {#searchforcontent}
 
@@ -446,7 +490,7 @@ Tout contenu utilisé dans des objets d’apprentissage n’est pas affecté. Le
 
 >[!NOTE]
 >
->Vous pouvez également ajouter du contenu à partir de **[!UICONTROL Retraité]** section, accéder à **[!UICONTROL Bibliothèque de contenu]** > **[!UICONTROL Retraité]** et sélectionnez **[!UICONTROL Ajouter du contenu]**. Pour plus d’informations, voir [Ajout de contenu statique](content-library.md#addstaticcontent).
+>Vous pouvez également ajouter du contenu à partir de la **[!UICONTROL section Retiré]** , accédez à **[!UICONTROL Bibliothèque]** de contenu > **[!UICONTROL Retiré]** et sélectionnez **[!UICONTROL Ajouter du contenu]**. Pour plus d’informations, voir [Ajouter du contenu](content-library.md#addstaticcontent) statique.
 
 
 ## Republier le contenu retiré {#republishretiredcontent}
@@ -456,7 +500,7 @@ Une fois que vous retirez un contenu, vous pouvez le republier et le faire appar
 Pour republier le contenu retiré,
 
 1. Accédez à l’onglet **Retiré** et sélectionnez le contenu que vous souhaitez republier.
-1. Sélectionner **Action** > **Republier**.
+1. Sélectionnez **Action** > **republier**.
 
 Le contenu apparaît maintenant dans la liste Publié.
 
@@ -476,12 +520,12 @@ Sachez que les cours existants qui utilisent le contenu, qui sont supprimés de 
 Créez un cours d’e-learning compatible SCORM dans n’importe quel outil, tel qu’Adobe Captivate, et publiez le contenu sous forme de fichier zip. Ensuite, dans Learning Manager, téléchargez le fichier zip dans le catalogue et définissez les critères d’achèvement et de réussite.
 +++
 
-+++Comment puis-je télécharger une nouvelle version du même contenu sur Learning Manager ?
++++Comment puis-je charger une nouvelle version du même contenu dans Learning Manager ?
 
-Dans Learning Manager, la bibliothèque de contenu conserve également les versions de vos contenus téléchargés. Si vous modifiez le contenu d’une présentation PowerPoint, par exemple, et que vous la téléchargez à nouveau dans la bibliothèque, le numéro de version est incrémenté d’une unité. Cela vous aide à suivre l’évolution de votre contenu. Une nouvelle version du contenu peut être appliquée à tous les objets d’apprentissage simultanément ou vous pouvez appliquer des mises à jour individuelles pour chaque cours.
+Dans Learning Manager, la bibliothèque de contenu conserve également les versions de vos contenus chargés. Si vous apportez des modifications au contenu, par exemple, une présentation PowerPoint, et que vous téléchargez à nouveau la présentation dans la bibliothèque, le numéro de version est incrémenté d’une unité. Cela vous aide à suivre l’évolution de votre contenu. Une nouvelle version du contenu peut être appliquée à tous les objets d’apprentissage simultanément ou vous pouvez appliquer des mises à jour individuelles pour chaque cours.
 +++
 
-+++Comment modifier les détails d’un cours dans une autre langue ?
++++Comment éditer les détails d’un cours dans une autre langue ?
 Après avoir ajouté une langue/des langues, comme décrit dans une section précédente, cliquez sur chaque onglet de langue, puis ajoutez/modifiez les informations sur le cours.
 
 &lt;!--![](assets/edit-course-language.png)--->
