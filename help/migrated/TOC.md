@@ -2,24 +2,24 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
+source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 88%
 
 ---
 
 
-# Guide du gestionnaire de la formation {#using}
+# Guide de Learning Manager {#using}
 
 * [Guide de l’utilisateur Learning Manager](user-guide.md)
 * Introduction {#introduction}
    * [Résumé des nouvelles fonctionnalités](whats-new.md)
-   * [Nouvelles fonctionnalités Mars 2024](whats-new-march-2024.md)
-   * [Nouvelles fonctionnalités Novembre 2023](whats-new-november-2023.md)
-   * [Nouvelles fonctionnalités : juillet 2023](whats-new-2023-july.md)
-   * [Nouvelles fonctionnalités avril 2023](whats-new-2023-april.md)
-   * [Nouvelles fonctionnalités Novembre 2022](whats-new-2022-november.md)
+   * [Nouvelles fonctionnalités de mars 2024](whats-new-march-2024.md)
+   * [Nouvelles fonctionnalités de novembre 2023](whats-new-november-2023.md)
+   * [Nouvelles fonctionnalités - Juillet 2023](whats-new-2023-july.md)
+   * [Nouvelles fonctionnalités - Avril 2023](whats-new-2023-april.md)
+   * [Nouvelles fonctionnalités de novembre 2022](whats-new-2022-november.md)
    * [Notes de mise à jour](release-note/release-notes.md)
    * [Configuration système](system-requirements.md)
    * [Package de site de référence ALM pour AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -29,9 +29,9 @@ ht-degree: 88%
    * [Prise en charge du domaine personnalisé](custom-domain.md)
    * [Recommandations dans Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Transition depuis Adobe FTP Manager](transition-from-ftp-manager.md)
-   * [Obsolescence et modification des API dans Adobe Learning Manager](api-deprecations-list.md)
-   * [Étiquetage blanc dans Adobe Learning Manager](white-label.md)
-* Démarrer {#get-started}
+   * [Dépréciations et modifications d’API dans Adobe Learning Manager](api-deprecations-list.md)
+   * [Anticrènelage dans Adobe Learning Manager](white-label.md)
+* Commencer {#get-started}
    * [Prise en main en tant qu’administrateur](administrators/feature-summary/getting-started-admin.md)
    * [Prise en main en tant qu’auteur](authors/feature-summary/getting-started-author.md)
    * [Prise en main en tant qu’élève](learners/feature-summary/getting-started-learner.md)
@@ -56,7 +56,7 @@ ht-degree: 88%
    * [Comptes de pairs](administrators/feature-summary/peer-account.md)
    * [Création et modification de compétences et niveaux](administrators/feature-summary/skills-levels.md)
    * [Recommandation de cours basée sur l’IA](ai-based-recommendations.md)
-   * [Importation de compétences](administrators/feature-summary/import-skills-external-sources.md)
+   * [Importer des compétences](administrators/feature-summary/import-skills-external-sources.md)
    * [Ludification](administrators/feature-summary/gamification.md)
    * [Personnalisation de la page d’accueil des élèves](administrators/feature-summary/customize-learner-homepage.md)
    * [Badges](administrators/feature-summary/badges.md)
@@ -80,10 +80,11 @@ ht-degree: 88%
    * [Activer le contrôle complet du catalogue partagé](administrators/feature-summary/shared-catalog-full-control.md)
    * [Mappage de compétences avec les domaines de compétence](administrators/feature-summary/curation-skills.md)
    * [Extensibilité native](administrators/feature-summary/native-extensibility.md)
-   * [Inscriptions multiples](administrators/feature-summary/multiple-enrollment.md)
+   * [Inscription multiple](administrators/feature-summary/multiple-enrollment.md)
    * [Expérience hors connexion pour les élèves](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programmes d’apprentissage](administrators/feature-summary/learning-programs.md)
-* Administrateur d’intégration {#integration}
+   * [Terminologie du produit](administrators/feature-summary/product-terminology.md)
+* Administrateur de l’intégration {#integration}
    * [Manuel de migration](integration-admin/feature-summary/migration-manual.md)
    * [Connecteurs Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API non connectées](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -110,7 +111,7 @@ ht-degree: 88%
 * Instructeur {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
    * [Gestion des élèves pour votre session](instructors/feature-summary/learners.md)
-* Apprenant {#learner}
+* Élève {#learner}
    * [Se connecter](learners/feature-summary/user-login.md)
    * [Paramètres de profils](learners/feature-summary/settings.md)
    * [Catalogues](learners/feature-summary/catalogs.md)
@@ -119,7 +120,7 @@ ht-degree: 88%
    * [Programmes d’apprentissage](learners/feature-summary/learning-programs.md)
    * [Certifications](learners/feature-summary/certifications.md)
    * [Assistances à la tâche](learners/feature-summary/job-aids.md)
-   * [Panier d’articles multiples dans ALM](learners/feature-summary/multi-item-cart.md)
+   * [Chariot multi-articles dans ALM](learners/feature-summary/multi-item-cart.md)
    * [Badges](learners/feature-summary/badges.md)
    * [Compétences et niveaux](learners/feature-summary/skills-levels.md)
    * [Ludification](learners/feature-summary/gamification.md)
@@ -134,7 +135,7 @@ ht-degree: 88%
    * [Page d’accueil de l’élève](learners/feature-summary/learner-home-page.md)
    * [Partager sur l’Apprentissage par les réseaux sociaux](learners/feature-summary/share-to-social.md)
    * [Configuration requise | Application de bureau Adobe Learning Manager](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* Gérant {#manager}
+* Responsable {#manager}
    * [Connexion utilisateur](managers/feature-summary/user-login.md)
    * [Tableau de bord des responsables](managers/feature-summary/manager-dashboard.md)
    * [Rapports](managers/feature-summary/reports.md)
@@ -143,7 +144,7 @@ ht-degree: 88%
    * [Relevés de notes des élèves](managers/feature-summary/learner-transcripts.md)
    * [Paramètres](managers/feature-summary/settings.md)
    * [Utilisateurs de tablettes Android et iPad](managers/feature-summary/ipad-android-tablet-users.md)
-* Questions fréquentes {#faq}
+* Foire aux questions {#faq}
    * [Questions fréquentes des administrateurs](administrators/frequently-asked-questions-for-administrators.md)
    * [Questions fréquemment posées pour les auteurs](authors/frequently-asked-questions-for-authors.md)
    * [Forum aux questions pour les instructeurs](instructors/frequently-asked-questions-for-instructors.md)

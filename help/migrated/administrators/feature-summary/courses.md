@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création de modules de cours, d’instances et de programmes d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '4746'
-ht-degree: 63%
+source-wordcount: '4868'
+ht-degree: 61%
 
 ---
 
@@ -62,7 +62,7 @@ Pour créer une instance,
 
    *Définir l’échéance d’achèvement*
 
-## Affichage des propriétés de l’instance {#viewpropertiesoftheinstance}
+### Affichage des propriétés de l’instance {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -73,7 +73,11 @@ Pour créer une instance,
 1. **Sessions :** nombre de modules de salle de classe virtuelle et de modules de salle de classe dans le cours.
 1. **Retour d’information activé :** affiche si les retours d’informations L1, L2 et L3 sont activés pour ce cours.
 
-## Retrait d’une instance {#retireaninstance}
+>[!NOTE]
+>
+>L’administrateur annule les sessions en accédant à Instances > Sessions et en sélectionnant Annuler la session.
+
+### Retrait d’une instance {#retireaninstance}
 
 Pour retirer une instance, procédez comme suit :
 
@@ -85,7 +89,7 @@ Pour retirer une instance, procédez comme suit :
 
 1. Pour rechercher toutes les instances retirées, cliquez sur l’onglet **[!UICONTROL Retirées]** sur la page Instances.
 
-## Restauration d’une instance {#restoreaninstance}
+### Restauration d’une instance {#restoreaninstance}
 
 Pour restaurer une instance retirée et la replacer en état d’activation, procédez comme suit :
 
@@ -97,7 +101,7 @@ Pour restaurer une instance retirée et la replacer en état d’activation, pro
 
 1. L’instance est maintenant restaurée en mode actif.
 
-## Suppression d’une instance
+### Suppression d’une instance
 
 Les administrateurs peuvent supprimer l’instance à l’aide de **Supprimer cette instance** immédiatement après la création. Vous ne pouvez pas supprimer d’instances si une session est liée à celle-ci ou si des élèves y sont inscrits.
 
@@ -109,7 +113,7 @@ Les administrateurs peuvent supprimer l’instance à l’aide de **Supprimer ce
 >
 >Vous ne pouvez pas supprimer l&#39;instance par défaut.
 
-## Envoyer des e-mails d’instance
+### Envoyer des e-mails d’instance
 
 Pour envoyer aux élèves inscrits des e-mails au niveau de l’instance :
 
@@ -129,7 +133,7 @@ Pour envoyer aux élèves inscrits des e-mails au niveau de l’instance :
 
    ![Annonce créée avec succès](assets/announcement-successful.png)
 
-### Inscription d’élèves à des cours
+## Inscription d’élèves à des cours
 
 Dans cette formation, vous apprendrez à vous inscrire, à vous désinscrire et à vous réinscrire des élèves.
 
@@ -145,7 +149,7 @@ Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.co
 
    ![Inscription d’élèves](assets/enroll-learners-new.png)
 
-   *Publier le cours*
+   *Publish du cours*
 
 1. Dans la boîte de dialogue [!UICONTROL **Inscription des élèves**], vous pouvez :
 
@@ -196,42 +200,57 @@ Le fichier Excel contient des feuilles de calcul pour chaque instance. Une feuil
 >
 >Si la configuration de Reporting Automation ne prévoit qu&#39;une seule ligne par cours, vous devez effectuer les ajustements nécessaires avant d&#39;activer la fonction d&#39;inscription multiple.
 
-## Définir le niveau d’escalade {#escalation}
+### Gérer la liste des élèves pour un cours {#managelearnerslistforacourse}
 
-Pour envoyer des notifications par e-mail, un administrateur doit choisir explicitement le niveau d’escalade pour les personnes suivantes :
+1. Cliquez sur le nom du cours dans la vignette du cours.
+1. Dans le volet de gauche, cliquez sur **[!UICONTROL Élèves]**.
 
-* Responsable
-* Responsable direct et N+2
+![](assets/courses-learners.png)
 
-![](assets/escalation-notification.png)
+*Sélectionner des élèves dans un cours*
 
-*Définir le niveau d&#39;escalade*
+Vous pouvez réaliser les actions suivantes depuis la page Élèves :
+
+* Sélectionnez l’élève à supprimer, puis cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Supprimer**].
+* Sélectionnez l’élève dont vous souhaitez marquer l’assiduité, puis cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Marquer comme terminé**].
+
+Pour permettre aux élèves de réinitialiser un module et de l’utiliser à nouveau, cliquez sur [!UICONTROL **Réinitialiser**]. Dans la boîte de dialogue contextuelle, cliquez sur Oui pour confirmer la réinitialisation. Les modules terminés ne peuvent pas être réinitialisés. Seuls les modules auxquels les élèves ont échoué ou qui sont incomplets peuvent être réinitialisés.
+
+Vous pouvez également exporter la liste des élèves dans une feuille Excel. Pour exporter la liste des élèves, cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Exportation**].
+
+>[!NOTE]
+>
+>S&#39;il existe plusieurs instances d&#39;un cours, la liste des élèves dans Excel est fournie dans chaque onglet séparément. La liste des élèves est constituée du nom des stagiaires, de leur statut et des critères de sélection. Le statut des élèves peut être **Non démarré** ou **En cours** ou **Terminé**.
+
+### Exporter les apprenants dans l’état d’approbation en attente
+
+Un administrateur, un gestionnaire ou un administrateur personnalisé peut exporter les données des apprenants en attente d’une inscription à l’approbation. Vous pouvez exporter les données via l’onglet **Cours > Learner**, puis cliquer sur la liste déroulante Action.
+
+L’option est présente lorsqu’aucun stagiaire n’est inscrit/en attente d’approbation du cours approuvé par le gestionnaire et un rapport vide est généré. Vous pouvez également exporter lorsque les élèves sont dans l&#39;état d&#39;approbation en attente, l&#39;état inscrit, l&#39;état en attente et l&#39;état non inscrit.
+
+Le rapport contient les données des utilisateurs actifs, supprimés et suspendus s’ils sont en attente d’approbation. Le rapport contient également les données des utilisateurs internes et externes, qui sont en attente d&#39;approbation.
+
+Si un élève qui se trouvait auparavant dans l’état d’approbation en attente se désinscrit, son enregistrement ne sera pas présent dans le rapport. En outre, si un stagiaire qui se trouvait auparavant dans l’état d’approbation en attente est inscrit au cours par inscription d’administrateur/de gestionnaire/d’administrateur personnalisé, son enregistrement est présent dans le rapport.
 
 ## Liste d’attente
 
 La section Liste d&#39;attente permet aux élèves d&#39;être sur liste d&#39;attente pour des cours en classe lorsque les places sont limitées, en fonction de leur ordre d&#39;inscription. Les administrateurs peuvent gérer cela en sélectionnant les élèves inscrits sur liste d&#39;attente et en allouant des places au-delà de la limite initiale. Une fois une place allouée par l’administrateur, l’élève est immédiatement inscrit au cours.
 
-## Forum de discussion
+## Exporter le rapport d’assiduité des élèves {#attendance}
 
-La fonctionnalité Forum de discussion permet aux élèves d&#39;afficher les discussions du cours. En tant qu’administrateur, vous pouvez supprimer tous les commentaires nécessaires. Les administrateurs peuvent activer cette option dans les paramètres du cours.
+Vous pouvez télécharger la liste des participants à n’importe quel cours en classe ou virtuel.
 
-## Modération de cours {#coursemoderation}
+Sur la page Détails du cours, cliquez sur **[!UICONTROL Assiduité et notation]** dans le volet de droite.
 
-Dès qu’un auteur ajoute, met à jour ou supprime des modules et republie un cours, tous les administrateurs reçoivent des notifications à ce sujet. En tant qu’administrateur, vous pouvez afficher les modifications et comparer le nouveau contenu à l’ancien en cliquant sur le lien, puis approuver ou rejeter les modifications en conséquence.
+Dans le coin supérieur droit de la page, cliquez sur la liste déroulante **[!UICONTROL Actions]**. Cliquez ensuite sur l’option **[!UICONTROL Exporter la liste des élèves (PDF)]**.
 
-Pour activer la modération de cours, cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]**. Cochez la case **[!UICONTROL Modération de cours]** pour activer cette fonction.
+![](assets/export-list-of-learners.png)
 
-![](assets/2.png)
+*Exporter la liste des élèves en tant que PDF*
 
-*Activer la modération de cours*
+Sur le PDF, vous pouvez afficher le même groupe d’élèves qu’un instructeur.
 
-Cliquez sur la notification pour afficher les modifications que l’auteur a apportées au cours. Ensuite, approuvez ou rejetez ces modifications. Si vous les approuvez, le cours sera republié. Si vous les rejetez, la version précédente du cours continuera d’exister. Dans les deux cas, l’auteur recevra une notification.
-
-![](assets/1.png)
-
-*Demandes de l’auteur pour les mises à jour de cours*
-
-Si plusieurs auteurs mettent à jour le même cours, la dernière modification effectuée s’affichera dans la notification de l’administrateur. Vous pouvez ensuite approuver ou rejeter les modifications les plus récentes.
+Lorsque vous téléchargez le PDF, vous pouvez voir le fuseau horaire (UTC) utilisé lors de la création du cours.
 
 ## Ajout d’un retour d’informations L1 et L3 {#addl1andl3feedback}
 
@@ -243,7 +262,7 @@ Vous pouvez ajouter des options de retour d’informations L1 et L3 lorsque vous
 1. Cliquez sur le cercle du bouton bascule en regard du retour d’informations L1 ou L3 pour l’activer.
 1. Ajoutez une question de retour d’informations L3 dans la zone de texte située sous la question L3.
 
-## Retour d’informations L1 obligatoire {#mandatory-l1-feedback}
+### Retour d’informations L1 obligatoire {#mandatory-l1-feedback}
 
 Vous pouvez rendre obligatoires toutes les questions ou la première question d&#39;un retour d&#39;informations L1.
 
@@ -269,7 +288,7 @@ Dans la page Valeurs par défaut de l’instance, si vous activez **[!UICONTROL 
 
 *Affichage de la page Valeurs par défaut de l’instance*
 
-## Retour d’informations L1 au niveau du cours {#l1-feedback-course-level}
+### Retour d’informations L1 au niveau du cours {#l1-feedback-course-level}
 
 Dans les versions précédentes de Learning Manager, un administrateur pouvait activer le retour d&#39;informations L1 pour le programme d&#39;apprentissage.
 
@@ -293,7 +312,7 @@ Dans cette version de Learning Manager, l&#39;administrateur peut envoyer un re
 
    Si le retour d&#39;informations L1 est activé pour tous les cours, mais désactivé dans l&#39;instance du programme d&#39;apprentissage, le retour d&#39;informations L1 ne sera pas déclenché pour les cours.
 
-## Rapports de quiz spécifiques à la langue
+### Rapports de quiz spécifiques à la langue
 
 Les rapports de quiz permettent d&#39;évaluer la performance d&#39;un apprenant après l&#39;achèvement d&#39;un programme ou d&#39;un cours d&#39;apprentissage.
 
@@ -303,7 +322,7 @@ Un rapport de quiz contiendra des données dans différentes langues si le cours
 
 Cela est désormais corrigé, car l’administrateur est désormais en mesure d’afficher tous les rapports dans la langue respective que l’apprenant a tenté tous en même temps, indépendamment de la langue de contenu choisie. Dans cette version, si le cours est disponible dans plusieurs langues, les réponses au quiz fournies dans différentes langues seront ajoutées en tant que colonnes supplémentaires dans le rapport de quiz.
 
-## Activer le retour d’informations L1 au niveau du compte {#l1-feedback-account-level}
+### Activer le retour d’informations L1 au niveau du compte {#l1-feedback-account-level}
 
 *Activer le retour d&#39;informations L1 au niveau du compte*
 
@@ -329,7 +348,7 @@ Vous pouvez également désactiver le retour d&#39;informations L1 en activant l
 
 *Activation ou désactivation du retour d&#39;informations L1*
 
-## Ajout de questions descriptives pour le retour d’informations L1 ou L3 {#descriptive}
+### Ajout de questions descriptives pour le retour d’informations L1 ou L3 {#descriptive}
 
 Dans la version de novembre de Learning Manager, une option permettant d’ajouter des questions descriptives a été ajoutée. Les administrateurs ont la possibilité d’ajouter ces questions pour les élèves. Cette fonctionnalité vient s’ajouter à l’ensemble de questions par défaut fournies par Learning Manager. Si nécessaire, vous pouvez également les rendre obligatoires en sélectionnant l’option située sous la question.
 
@@ -363,7 +382,7 @@ Un exemple de sortie du questionnaire L3 est fourni ci-dessous pour référence.
 
 *Afficher la sortie du retour d’informations L3*
 
-## Configuration du questionnaire de retour d’informations L1 et L3 {#setupl1andl3feedbackquestionnaire}
+### Configuration du questionnaire de retour d’informations L1 et L3 {#setupl1andl3feedbackquestionnaire}
 
 Vous pouvez configurer un questionnaire de retour d’informations L1 et L3 et également définir des rappels au niveau du compte.
 
@@ -379,6 +398,36 @@ Vous pouvez configurer un questionnaire de retour d’informations L1 et L3 et �
 1. Cliquez sur **[!UICONTROL Enregistrer]** dans le coin supérieur droit de la page.
 
 Dans Retour d’informations L1, vous pouvez voir deux jeux de questions avec une question par défaut. Le premier jeu de questions fait référence aux cours en auto-apprentissage, qui peuvent également être utilisés pour les cours basés sur des activités. Le deuxième jeu de questions peut être utilisé pour le type de cours de salle de classe et de classe virtuelle.
+
+## Affichage des retours d’informations L1 et L3 {#viewl1andl3feedback}
+
+Vous pouvez afficher le retour d’informations L1 fourni par les élèves au sujet d’un cours et un retour d’informations L3 fourni par les responsables des élèves.
+
+1. Cliquez sur n’importe quelle vignette de cours dans la liste des cours.
+1. Cliquez sur Retour d’informations L1 ou Retour d’informations L3 dans le volet de gauche afin de visualiser les retours d’informations reçus.
+1. Sélectionnez l’instance dans la liste déroulante pour afficher le retour d’informations de cette instance particulière.
+
+## Forum de discussion
+
+La fonctionnalité Forum de discussion permet aux élèves d&#39;afficher les discussions du cours. En tant qu’administrateur, vous pouvez supprimer tous les commentaires nécessaires. Les administrateurs peuvent activer cette option dans les paramètres du cours.
+
+## Modération de cours {#coursemoderation}
+
+Dès qu’un auteur ajoute, met à jour ou supprime des modules et republie un cours, tous les administrateurs reçoivent des notifications à ce sujet. En tant qu’administrateur, vous pouvez afficher les modifications et comparer le nouveau contenu à l’ancien en cliquant sur le lien, puis approuver ou rejeter les modifications en conséquence.
+
+Pour activer la modération de cours, cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]**. Cochez la case **[!UICONTROL Modération de cours]** pour activer cette fonction.
+
+![](assets/2.png)
+
+*Activer la modération de cours*
+
+Cliquez sur la notification pour afficher les modifications que l’auteur a apportées au cours. Ensuite, approuvez ou rejetez ces modifications. Si vous les approuvez, le cours sera republié. Si vous les rejetez, la version précédente du cours continuera d’exister. Dans les deux cas, l’auteur recevra une notification.
+
+![](assets/1.png)
+
+*Demandes de l’auteur pour les mises à jour de cours*
+
+Si plusieurs auteurs mettent à jour le même cours, la dernière modification effectuée s’affichera dans la notification de l’administrateur. Vous pouvez ensuite approuver ou rejeter les modifications les plus récentes.
 
 ## Exporter les données de liste de contrôle {#export-checklist-data}
 
@@ -429,61 +478,26 @@ Vous pouvez afficher les scores du quiz de tout cours particulier selon le nom d
 
 Sélectionnez le type d’instance dans la liste déroulante pour afficher les scores en fonction de chaque instance du cours.
 
-## Gérer la liste des élèves pour un cours {#managelearnerslistforacourse}
+## Instance par défaut
 
-1. Cliquez sur le nom du cours dans la vignette du cours.
-1. Dans le volet de gauche, cliquez sur **[!UICONTROL Élèves]**.
+Les administrateurs peuvent définir des badges par défaut, des paramètres de ludification et des rappels dans **[!UICONTROL Instance par défaut]** page. Pour modifier les paramètres d&#39;instance par défaut, sélectionnez **[!UICONTROL Instance par défaut]** > **[!UICONTROL Modifier]**.
 
-![](assets/courses-learners.png)
+* **[!UICONTROL Badge]**: sélectionnez les badges par défaut dans le menu déroulant.
+* **[!UICONTROL Ludification]**: configurez les paramètres de ludification, y compris les points d’achèvement, d’achèvement précoce et d’achèvement en temps opportun. Les administrateurs ont la possibilité de sélectionner les paramètres au niveau du compte ou de personnaliser les points de ludification pour cette instance.
+* **[!UICONTROL Retour d&#39;informations L1]**: activer les questions prédéfinies pour le retour d’informations de l’élève à la fin du cours, avec des options pour rendre les questions obligatoires.
+***[!UICONTROL Retour d&#39;informations L3 sur le changement de comportement]**: activez les questions de retour d’informations pour le responsable de l’élève à la fin du cours.
+***[!UICONTROL Paramètres de rappel]**: définissez et gérez des rappels pour les échéances, avec des options de réaffectation.
 
-*Sélectionner des élèves dans un cours*
+### Définir le niveau d’escalade {#escalation}
 
-Vous pouvez réaliser les actions suivantes depuis la page Élèves :
+Pour envoyer des notifications par e-mail, un administrateur doit choisir explicitement le niveau d’escalade pour les personnes suivantes :
 
-* Sélectionnez l’élève à supprimer, puis cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Supprimer**].
-* Sélectionnez l’élève dont vous souhaitez marquer l’assiduité, puis cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Marquer comme terminé**].
+* Responsable
+* Responsable direct et N+2
 
-Pour permettre aux élèves de réinitialiser un module et de l’utiliser à nouveau, cliquez sur [!UICONTROL **Réinitialiser**]. Dans la boîte de dialogue contextuelle, cliquez sur Oui pour confirmer la réinitialisation. Les modules terminés ne peuvent pas être réinitialisés. Seuls les modules auxquels les élèves ont échoué ou qui sont incomplets peuvent être réinitialisés.
+![](assets/escalation-notification.png)
 
-Vous pouvez également exporter la liste des élèves dans une feuille Excel. Pour exporter la liste des élèves, cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Exportation**].
-
->[!NOTE]
->
->S&#39;il existe plusieurs instances d&#39;un cours, la liste des élèves dans Excel est fournie dans chaque onglet séparément. La liste des élèves est constituée du nom des stagiaires, de leur statut et des critères de sélection. Le statut des élèves peut être **Non démarré** ou **En cours** ou **Terminé**.
-
-## Exporter le rapport d’assiduité des élèves {#attendance}
-
-Vous pouvez télécharger la liste des participants à n’importe quel cours en classe ou virtuel.
-
-Sur la page Détails du cours, cliquez sur **[!UICONTROL Assiduité et notation]** dans le volet de droite.
-
-Dans le coin supérieur droit de la page, cliquez sur la liste déroulante **[!UICONTROL Actions]**. Cliquez ensuite sur l’option **[!UICONTROL Exporter la liste des élèves (PDF)]**.
-
-![](assets/export-list-of-learners.png)
-
-*Exporter la liste des élèves en tant que PDF*
-
-Sur le PDF, vous pouvez afficher le même groupe d’élèves qu’un instructeur.
-
-Lorsque vous téléchargez le PDF, vous pouvez voir le fuseau horaire (UTC) utilisé lors de la création du cours.
-
-## Exporter les apprenants dans l’état d’approbation en attente
-
-Un administrateur, un gestionnaire ou un administrateur personnalisé peut exporter les données des apprenants en attente d’une inscription à l’approbation. Vous pouvez exporter les données via l’onglet **Cours > Learner**, puis cliquer sur la liste déroulante Action.
-
-L’option est présente lorsqu’aucun stagiaire n’est inscrit/en attente d’approbation du cours approuvé par le gestionnaire et un rapport vide est généré. Vous pouvez également exporter lorsque les élèves sont dans l&#39;état d&#39;approbation en attente, l&#39;état inscrit, l&#39;état en attente et l&#39;état non inscrit.
-
-Le rapport contient les données des utilisateurs actifs, supprimés et suspendus s’ils sont en attente d’approbation. Le rapport contient également les données des utilisateurs internes et externes, qui sont en attente d&#39;approbation.
-
-Si un élève qui se trouvait auparavant dans l’état d’approbation en attente se désinscrit, son enregistrement ne sera pas présent dans le rapport. En outre, si un stagiaire qui se trouvait auparavant dans l’état d’approbation en attente est inscrit au cours par inscription d’administrateur/de gestionnaire/d’administrateur personnalisé, son enregistrement est présent dans le rapport.
-
-## Affichage des retours d’informations L1 et L3 {#viewl1andl3feedback}
-
-Vous pouvez afficher le retour d’informations L1 fourni par les élèves au sujet d’un cours et un retour d’informations L3 fourni par les responsables des élèves.
-
-1. Cliquez sur n’importe quelle vignette de cours dans la liste des cours.
-1. Cliquez sur Retour d’informations L1 ou Retour d’informations L3 dans le volet de gauche afin de visualiser les retours d’informations reçus.
-1. Sélectionnez l’instance dans la liste déroulante pour afficher le retour d’informations de cette instance particulière.
+*Définir le niveau d&#39;escalade*
 
 ## Aperçu des cours {#previewcourses}
 

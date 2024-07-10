@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 66%
+source-wordcount: '3836'
+ht-degree: 68%
 
 ---
 
@@ -483,24 +483,6 @@ Fusionné\
 Salle de classe\
 Salle de classe virtuelle\
 Activité
-
-Pour renommer les terminologies, procédez comme suit.
-
-1. En tant qu’administrateur, cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]** > **[!UICONTROL Terminologie du produit]**. L’option de terminologie du produit s’ouvre.
-
-   ![](assets/product-terminology.png)
-
-   *Renommer la terminologie du produit*
-
-1. Vous pouvez apporter des modifications en téléchargeant un modèle de terminologie de produit modifié à l’aide du fichier d’exemple CSV. Pour télécharger l’exemple de fichier CSV, cliquez sur l’icône **[!UICONTROL Télécharger ici]** option.
-1. Le fichier CSV téléchargé contient le nom des objets de la colonne A. Dans la colonne B, choisissez le nom à attribuer à l’objet correspondant. Notez que vous devez mettre à jour la forme singulière et plurielle du nom séparé par un (|).
-1. Vous pouvez choisir de modifier une ou plusieurs lignes. Vous pouvez soit conserver les lignes non modifiées soit les supprimer du fichier CSV avant de les charger vers le serveur.
-1. Chargez le fichier CSV modifié et cliquez sur **[!UICONTROL Enregistrer]**. Learning Manager est actualisé pour refléter vos modifications.
-1. Pour rétablir les terminologies par défaut, cliquez sur **[!UICONTROL Réinitialiser la terminologie du produit]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Réinitialisation des terminologies du produit*
 
 ## Paramètres du profil {#profilesettings}
 

@@ -4,10 +4,10 @@ title: Gérer des rôles personnalisés via les fichiers CSV
 description: L’administrateur de l’intégration peut ajouter un certain nombre de rôles personnalisés à son compte en masse via un fichier CSV et les attribuer à différents utilisateurs. Cette approche automatise le processus de création des rôles personnalisés.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ Vous pouvez configurer les rôles via les connecteurs Learning Manager FTP et 
 
 Une fois connecté à votre compte de stockage Box, l’administrateur d’intégration peut ajouter les fichiers .csv suivants dans le compte :
 
+* user.csv
 * role.csv
 * user_role.csv
 
 Pour commencer, téléchargez les fichiers CSV et modifiez les valeurs en fonction de vos besoins.
 
-**role.csv**
 * Fichier d’exemple : [role.csv](assets/role.csv)
 * Fichier d’exemple : [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ Si des noms de catalogue ou des noms de groupes d’utilisateurs sont fournis da
 
 Dans votre compte Box, sélectionnez **Importer > utilisateur > interne**, et téléchargez les fichiers role.csv et user_role.csv.
 
-* Les fichiers CSV de rôle personnalisé doivent être copiés dans le dossier « import->user->internal->user_role »
-* Le fichier CSV des utilisateurs doit être copié dans le dossier « import->user->internal »
+* Les fichiers role.csv et user_role.csv doivent être copiés dans le dossier **Importer** > **utilisateur** > **interne** > **user_role**.
+* Le fichier user.csv doit être copié dans le dossier **Importer** > **utilisateur** > **interne**.
 
-Les deux fichiers CSV doivent être téléchargés via Box ou FTP uniquement et ne peuvent pas être téléchargés via l’interface utilisateur.
+Les deux fichiers CSV doivent être chargés via Box uniquement et ne peuvent pas être chargés via l’interface utilisateur.
 
 >[!NOTE]
 >
