@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
-source-wordcount: '3836'
-ht-degree: 68%
+source-wordcount: '3595'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 68%
 
 Découvrez les paramètres de compte Learning Manager que vous pouvez configurer en tant qu’administrateur.
 
-Vous pouvez modifier les paramètres du profil de l’administrateur et mettre à jour les paramètres du compte. Affichage des informations de votre profil, ajout/modification d’une photo de profil et modification **[!UICONTROL À propos de moi]** contenu. Mettez à jour les informations de votre entreprise, installez les méthodes de connexion pour les utilisateurs, et configurez l’intégration de Connect à l’aide des paramètres du compte.
+Vous pouvez modifier les paramètres du profil de l’administrateur et mettre à jour les paramètres du compte. Affichez vos informations de profil, ajoutez/modifiez la photo de profil et modifiez le contenu de **[!UICONTROL À propos de moi]**. Mettez à jour les informations de votre entreprise, installez les méthodes de connexion pour les utilisateurs, et configurez l’intégration de Connect à l’aide des paramètres du compte.
+
+![](assets/settings-admin.png)
 
 ## Configuration de Adobe Learning Manager
 
@@ -24,26 +26,26 @@ Cette formation aborde les bases des paramètres au niveau du compte.
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
 
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Paramètres du compte {#accountsettings}
 
-Pour mettre à jour les paramètres de compte de votre organisation, cliquez sur **[!UICONTROL Paramètres]** dans le volet de gauche.
+Pour mettre à jour les paramètres du compte de votre organisation, cliquez sur **[!UICONTROL Paramètres]** dans le volet de gauche.
 
 **Informations de base (Informations sur la société)**
 
-Cliquez sur **[!UICONTROL Modifier]** sur la page et modifiez les paramètres de pays, de fuseau horaire, de paramètres régionaux et d&#39;exercice financier.
+Cliquez sur **[!UICONTROL Modifier]** sur la page et modifiez le pays, le fuseau horaire, les paramètres régionaux et les paramètres de l&#39;exercice.
 
 **Configuration des données de contact de l’administrateur**
 
-Si vous souhaitez ajouter ou modifier les adresses électroniques des administrateurs de support pour votre entreprise, vous pouvez les configurer en cliquant sur **[!UICONTROL Général]** dans le volet de gauche. Cliquez sur **[!UICONTROL Modifier]** adjacent à **[!UICONTROL ID de l’e-mail d’assistance]** et ajoutez les identifiants de messagerie. Un e-mail est envoyé à ces administrateurs lorsque l’élève clique sur **[!UICONTROL Contacter l’administrateur]** en bas de page.
+Si vous souhaitez ajouter ou modifier les adresses électroniques des administrateurs de support pour votre entreprise, vous pouvez les configurer en cliquant sur **[!UICONTROL Général]** dans le volet de gauche. Cliquez sur **[!UICONTROL Modifier]** en regard de **[!UICONTROL ID de messagerie de support]** et ajoutez les ID de messagerie. Un e-mail est envoyé à ces administrateurs lorsque l&#39;élève clique sur **[!UICONTROL Contacter l&#39;administrateur]** en bas de page.
 
 Ajoutez d’autres ID de messagerie avec un point-virgule comme séparateur.
 
-**Méthodes de connexion** - Les administrateurs peuvent choisir le mode d’accès au compte pour vos utilisateurs internes et externes.
+**Méthodes de connexion** : les administrateurs peuvent choisir le mode d’accès au compte pour vos utilisateurs internes ou externes.
 
-* **Utilisateurs internes :** Pour les utilisateurs internes, vous pouvez définir Adobe ID ou l’authentification unique comme mode de connexion.
-* **Utilisateurs externes :** Pour les utilisateurs externes, vous pouvez définir un ID Adobe ID, Authentification unique ou Learning Manager.
+* **Utilisateurs internes :** pour les utilisateurs internes, vous pouvez définir Adobe ID ou l’authentification unique comme mode de connexion.
+* **Utilisateurs externes :** pour les utilisateurs externes, vous pouvez définir un ID Adobe ID, Authentification unique ou Learning Manager.
 
 Si vous choisissez l’ID Learning Manager, les utilisateurs externes peuvent se connecter à ce compte après avoir créé leurs nom d’utilisateur et mot de passe Learning Manager.
 
@@ -55,17 +57,17 @@ Vous pouvez accéder à l’application Learning Manager en utilisant un ID Ado
 
 **Commentaire** 
 
-Cliquez sur **[!UICONTROL Commentaire]** dans le panneau de gauche pour installer le questionnaire pour obtenir des commentaires des stagiaires après l&#39;exécution d&#39;un cours. Reportez-vous à [contenu de l&#39;aide sur les fonctionnalités des cours](courses.md) lors de la création d&#39;un retour d&#39;informations L1 et L3.
+Cliquez sur **[!UICONTROL Commentaire]** dans le panneau de gauche pour installer le questionnaire pour obtenir des commentaires des stagiaires après l&#39;exécution d&#39;un cours. Reportez-vous au [contenu d&#39;aide sur les fonctionnalités des cours](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) concernant la création de commentaires L1 et L3.
 
 **Tentatives multiples**
 
-Sélectionner **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]** > **[!UICONTROL Tentatives multiples]**.
+Sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Tentatives Multiples]**.
 
 Si vous activez la case à cocher « Tentatives multiples », les auteurs peuvent définir « Tentatives multiples » pour les cours ou modules de formation en ligne interactifs. Lorsque vous cochez la deuxième case, les administrateurs peuvent définir « Tentatives infinies » par défaut pour tout cours de formation en ligne interactif nouvellement créé.
 
 ![](assets/admin-config.png)
 
-*Cochez la case Tentatives multiples.*
+*Cochez la case Tentatives multiples*
 
 **Modération de cours**
 
@@ -81,7 +83,7 @@ Dans le volet de gauche, cliquez sur Tableau de bord de l’élève. Cette page 
 
 **Adobe Connect** 
 
-Cliquez sur **[!UICONTROL Adobe Connect]** dans le volet de gauche pour configurer le compte Adobe Connect afin d&#39;héberger les sessions de classe virtuelle. Pour plus d’informations, voir  [Adobe Connect](adobeconnect-integration.md) aide sur les fonctionnalités.
+Cliquez sur **[!UICONTROL Adobe Connect]** dans le volet de gauche pour configurer le compte Adobe Connect afin d&#39;héberger les sessions de classe virtuelle. Pour plus d&#39;informations, consultez l&#39;aide sur les fonctionnalités d&#39;[Adobe Connect](adobeconnect-integration.md).
 
 ## Paramètres généraux {#general}
 
@@ -204,7 +206,7 @@ Activation ou désactivation des paramètres suivants :
     </ol>
     <p>De plus, vous pouvez :</p>
     <ul>
-     <li>Cliquez sur le bouton <b>Réinitialiser</b> pour réinitialiser les valeurs par défaut dans le panneau <b>Aide</b> et <b>Contacter l’administrateur</b> champs.</li>
+     <li>Cliquez sur l'icône <b>Réinitialiser</b> pour réinitialiser les valeurs par défaut dans les champs <b>Aide</b> et <b>Contacter l'administrateur</b>.</li>
      <li>Personnaliser le lien sur le pied de page pour toutes les langues. Cliquez sur la liste déroulante <b>Langue</b>, sélectionnez la langue et ajoutez le <b>Nom</b> et l’<b>URL</b> dans les champs spécifiés. Après avoir sauvegardé les modifications, les liens mis à jour s’affichent dans le pied de page.<br></li>
     </ul></td>
   </tr>
@@ -217,7 +219,7 @@ Activation ou désactivation des paramètres suivants :
      <li>Préférence de fuseau horaire au niveau du compte</li>
     </ul>
     <p>Le relevé de notes de l’élève téléchargé à l’aide de l’API des tâches télécharge également les données dans le fuseau horaire sélectionné.</p>
-    <p><b>Remarque : </b>Aucune modification n’est attendue dans le relevé de notes de l’élève par défaut immédiatement après la publication. Les administrateurs peuvent configurer ce paramètre dans l’application d’administration &gt; Paramètres &gt; Général &gt; Fuseau horaire du rapport.</p></td>
+    <p><b>Remarque :</b>Aucune modification n'est attendue dans le relevé de notes de l'élève par défaut immédiatement après la publication. Les administrateurs peuvent configurer ce paramètre dans l’application d’administration &gt; Paramètres &gt; Général &gt; Fuseau horaire du rapport.</p></td>
   </tr>
  </tbody>
 </table>
@@ -400,10 +402,10 @@ Activation ou désactivation des paramètres suivants :
      <li>Si l’option <b>Efficacité du cours</b> est activée, les élèves ne pourront voir que la valeur de l’efficacité du cours.</li>
      <li>Si l’option <b>Évaluation par étoiles</b> est activée, les élèves ne pourront afficher que la note moyenne et le nombre d’élèves ayant évalué le cours.<br></li>
     </ul>
-    <p>Cette fonctionnalité est uniquement disponible pour les cours. L’évaluation par étoiles n’est pas prise en charge pour les programmes d’apprentissage ou les certificats.<br><br><b>Remarque : </b>Cette modification affecte uniquement l’application de l’élève. </p>
+    <p>Cette fonctionnalité est uniquement disponible pour les cours. L’évaluation par étoiles n’est pas prise en charge pour les programmes d’apprentissage ou les certificats.<br><br><b>Remarque :</b>Cette modification affecte uniquement l’application de l’élève. </p>
     <p>Dans toutes les autres applications (administrateur, auteur, manager, administrateur personnalisé, auteur personnalisé), les modifications des paramètres (évaluation par étoiles/efficacité du cours/désactivation de l’affichage de l’évaluation) n’auront aucun effet. </p>
-    <p>Pour les nouveaux comptes, le champ <b>Afficher les évaluations</b> section aura l’option <b>Évaluation par étoiles</b> activé par défaut.</p>
-    <p>Pour les comptes existants, si le compte avait précédemment l’option <b>Efficacité du cours</b> activé, puis <b>Afficher les évaluations</b> La section sera activée avec l’option Efficacité du cours sélectionnée. Si l’option <b>Efficacité du cours</b>s est désactivé, puis le <b>Afficher les évaluations</b> sera également désactivée. Lorsque l’option <b>Afficher les évaluations</b> est activée, l'option <b>Évaluation par étoiles</b> sera activé par défaut.</p></td>
+    <p>Pour les nouveaux comptes, la section <b>Afficher les évaluations</b> aura l'option <b>Évaluation par étoiles</b> activée par défaut.</p>
+    <p>Pour les comptes existants, si l'option <b>Efficacité du cours</b> était activée pour le compte précédemment, la section <b>Afficher les évaluations</b> sera activée avec l'option Efficacité du cours sélectionnée. Si l'option <b>Efficacité du cours</b>s est désactivée, la section <b>Afficher les évaluations</b> sera également désactivée. Lorsque la section <b>Afficher les évaluations</b> est activée, l'option <b>Évaluation par étoiles</b> est activée par défaut.</p></td>
   </tr>
  </tbody>
 </table>
@@ -438,22 +440,7 @@ Activation ou désactivation des paramètres suivants :
 
 >[!NOTE]
 >
->Une fois le paramètre d’importation des compétences activé, la mise en page du compte ne peut pas être basculée vers la vue Classique, c’est-à-dire que le basculement vers un compte Classique est désactivé après le **Importation de compétences** est activée.
-
-
-## Recommandation basée sur l’IA
-
-Learning Manager comprend une toute nouvelle page d’accueil pour les élèves, qui est moderne, plus orientée sur le contenu et personnalisée selon les préférences d’un élève. Les recommandations d’apprentissage basées sur l’IA visent à renforcer l’engagement des élèves, à identifier et à combler les lacunes dans l’apprentissage.
-
-L’algorithme de recommandation est conçu pour prendre en compte plusieurs sources d’entrée, y compris les données du secteur d’activité sur les postes professionnels, les titres et les descriptions obtenus par Adobe de ses partenaires. Ces données sont ensuite utilisées pour entraîner les algorithmes d&#39;IA de l&#39;Adobe afin que Learning Manager puisse produire une carte qui relie les compétences alignées sur le secteur d&#39;activité aux titres et/ou désignations de postes. Cela devient alors une entrée dans l’algorithme de recommandation.
-
-Learning Manager utilise ensuite des algorithmes de modélisation de rubrique pour analyser le contenu de formation dans un compte et le mapper aux compétences.
-
-Learning Manager utilise les données d’activité des pairs comme une autre indication pour exploiter l’algorithme de recommandation de manière personnalisée. Des activités telles que l’inscription, l’accomplissement et tout retour d’informations explicite fourni par les élèves, sont utilisées ici.
-
-En outre, Learning Manager utilise des informations explicites et implicites recueillies auprès de chaque élève pour personnaliser davantage les recommandations. Un élève pourra indiquer explicitement ses centres d’intérêt par le biais des inscriptions et Learning Manager recevra ces informations implicitement en fonction de la façon dont l’élève finira par suivre les formations.
-
-Enfin, l’administrateur sera également en mesure d’influencer l’algorithme de recommandation à l’aide des attributs de l’élève que Learning Manager devrait examiner lors de la définition de groupes de pairs, ainsi qu’en mettant en évidence les formations pour des groupes d’utilisateurs spécifiques.
+>Une fois le paramètre d&#39;importation des compétences activé, la mise en page du compte ne peut pas être basculée vers la vue classique, c&#39;est-à-dire que le basculement vers un compte classique est désactivé après l&#39;activation de l&#39;option **Importation des compétences**.
 
 ## Renommer des objets d’apprentissage {#renaminglearningobjects}
 
@@ -486,9 +473,9 @@ Activité
 
 ## Paramètres du profil {#profilesettings}
 
-1. Cliquez sur la flèche déroulante dans le coin supérieur droit, à côté de votre photo/compte et choisissez **[!UICONTROL Paramètres du profil]**.
-1. Dans la boîte de dialogue contextuelle, vous pouvez ajouter/modifier une photo en plaçant le curseur de la souris et en cliquant **[!UICONTROL Modifier]** dans la zone photo de profil.
-1. Ajouter/modifier **[!UICONTROL À propos]** contenu en cliquant sur **[!UICONTROL Modifier]** adjacente à celle-ci.
+1. Cliquez sur la flèche déroulante dans le coin supérieur droit, à côté de votre photo/compte, puis choisissez **[!UICONTROL Paramètres de profil]**.
+1. Dans la boîte de dialogue contextuelle, vous pouvez ajouter/modifier une photo en passant le curseur de la souris et en cliquant sur **[!UICONTROL Modifier]** dans la zone de la photo de profil.
+1. Ajoutez/modifiez du contenu **[!UICONTROL À propos]** en cliquant sur **[!UICONTROL Modifier]** à côté.
 1. Cliquez sur **[!UICONTROL Enregistrer].**
 
 ## Dossier de contenu {#content-folder}
@@ -497,7 +484,7 @@ Learning Manager prend en charge les dossiers de contenu privés. Un administrat
 
 Les dossiers de contenu peuvent être configurés par les administrateurs. Une fois configurés, les dossiers de contenu deviennent visibles pour les auteurs, qui peuvent alors placer le contenu dans un ou plusieurs dossiers.
 
-Pour ajouter un dossier de contenu, dans l’application Administrateur, cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier de contenu]**.
+Pour ajouter un dossier de contenu, dans l&#39;application Administrateur, cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier de contenu]**.
 
 ![](assets/manage-content-folders.png)
 
@@ -532,7 +519,7 @@ Ce dossier ne peut pas faire partie de la définition de rôle configurable. Par
 
 **Ajouter un dossier**
 
-Pour ajouter un dossier, cliquez **[!UICONTROL Ajouter]** dans le coin supérieur droit de la fenêtre.
+Pour ajouter un dossier, cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la fenêtre.
 
 **Supprimer un dossier**
 
@@ -578,16 +565,17 @@ Vous pouvez également ajouter le lieu à l’aide d’un fichier CSV. Le fichie
 
 ### Paramètres {#admin-classroom-settings}
 
-Sélectionner **Modifier** pour modifier les éléments suivants :
+Sélectionnez **Modifier** pour modifier les éléments suivants :
 
-* **Autoriser les auteurs à créer des emplacements**: une fois activé, tous les emplacements créés par les auteurs seront répertoriés sous l’onglet Tous les emplacements. Les élèves verront également ces emplacements sous les filtres Catalogue et Calendrier.
-* **Autoriser les auteurs à modifier et à supprimer des emplacements**: une fois cette option activée, les auteurs pourront modifier et supprimer tous les emplacements de salle de classe. Les modifications apportées par les auteurs seront répercutées sur l’ensemble de la plateforme, y compris dans les rapports.
+* **Autoriser les auteurs à créer des emplacements** : une fois activé, tous les emplacements créés par les auteurs seront répertoriés sous l&#39;onglet « Tous les emplacements ». Les élèves verront également ces emplacements sous les filtres Catalogue et Calendrier.
+* **Autoriser les auteurs à modifier et à supprimer des emplacements** :
+Une fois cette option activée, les auteurs pourront modifier et supprimer tous les emplacements de salle de classe. Les modifications apportées par les auteurs seront répercutées sur l’ensemble de la plateforme, y compris dans les rapports.
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
 +++Comment créer différents dossiers pour la bibliothèque de contenu ?
 
-Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier de contenu]**. Pour ajouter un dossier, cliquez **[!UICONTROL Ajouter]** dans le coin supérieur droit et dans la boîte de dialogue, entrez le nom et la description du dossier.
+Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier de contenu]**. Pour ajouter un dossier, cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit, puis entrez le nom et la description du dossier dans la boîte de dialogue.
 
 Les dossiers de contenu peuvent être configurés par les administrateurs. Une fois configurés, les dossiers de contenu deviennent visibles pour les auteurs, qui peuvent alors placer le contenu dans un ou plusieurs dossiers.
 
@@ -596,5 +584,5 @@ Pour plus d’informations, consultez la section [Dossier de contenu](settings.m
 
 +++Comment ajouter un exercice pour le compte ?
 
-Entrée **[!UICONTROL Paramètres]** > **[!UICONTROL Informations de base]**, cliquez sur **[!UICONTROL Modifier]**. À partir de **[!UICONTROL L&#39;exercice commence à partir de]** dans la liste déroulante, sélectionnez le mois.
+Dans **[!UICONTROL Paramètres]** > **[!UICONTROL Informations de base]**, cliquez sur **[!UICONTROL Modifier]**. Dans la liste déroulante **[!UICONTROL L&#39;exercice commence à partir de]**, sélectionnez le mois.
 +++
