@@ -1,53 +1,54 @@
 ---
-description: Découvrez les nouvelles fonctionnalités et améliorations de la version de juillet 2024 de Adobe Learning Manager
+description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de juillet 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
-source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
+source-git-commit: b27bacab34c39dc99f72ff77819b89e16aca2d5f
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 2%
+source-wordcount: '2240'
+ht-degree: 3%
 
 ---
 
 
 # Résumé des nouvelles fonctionnalités {#new-features-summary}
 
-Découvrez les nouvelles fonctionnalités et améliorations de la version de juillet 2024 de Adobe Learning Manager.
+Découvrez les nouvelles fonctionnalités et les améliorations de la version de juillet 2024 de Adobe Learning Manager.
 
 ## Amélioration du tableau de bord de conformité
 
 ### Qu’est-ce qu’un tableau de bord de conformité ? {#whatiscompliancedashboard}
 
-Le **[!UICONTROL tableau de bord de conformité de** Adobe Learning Manager **]** permet aux responsables de surveiller et de surveiller les progrès des apprenants vers leurs objectifs d’apprentissage. Ils peuvent vérifier si les membres de l’équipe respectent les délais et suivent leur processus d’apprentissage, ce qui contribue à assurer la conformité. L’administrateur peut configurer le tableau de bord de conformité et le partager avec les gestionnaires.
+Le **[!UICONTROL Tableau de bord de conformité]** dans **Adobe Learning Manager** permet aux responsables de surveiller les progrès des élèves vers leurs objectifs d&#39;apprentissage. Ils peuvent vérifier si les membres de l’équipe respectent les délais et suivent leur processus d’apprentissage, ce qui contribue à assurer la conformité. L’administrateur peut configurer le tableau de bord de conformité et le partager avec les responsables.
 
-Pour accéder au tableau de bord de conformité dans l’application Admin, sélectionnez **[!UICONTROL Rapports]** > **[!UICONTROL résumé]** des formations > **[!UICONTROL tableau de bord]** de conformité.
+Pour accéder au tableau de bord de conformité dans l&#39;application d&#39;administration, sélectionnez **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l&#39;apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
 
-### Changements dans la version
+### Modifications apportées à la version
 
-Avec le tableau de bord de conformité amélioré, les administrateurs et les responsables peuvent afficher les cours de type conformité, le cursus de formation ou les certifications liés à leur catégorie spécifique (par exemple, Ventes, Marketing et Juridique). Les administrateurs peuvent classer les cours de conformité personnalisée dans des catégories spécifiques. Les catégories de conformité personnalisées sont alimentées par des étiquettes de catalogue.  Les administrateurs peuvent créer un tableau de bord de cours et le partager avec les responsables. Les responsables peuvent alors afficher le même tableau de bord sur leurs instances respectives. Des améliorations ont également été apportées à l’interface utilisateur du tableau de bord de conformité et des notifications électroniques de conformité.![](assets/compliance-dashboard-admin.png)
+Grâce au tableau de bord de conformité amélioré, les administrateurs et les responsables peuvent afficher les cours, le parcours d’apprentissage ou les certifications de type conformité associés à leur catégorie spécifique (par exemple, Ventes, Marketing et Juridique). Les administrateurs peuvent classer les cours de conformité personnalisés dans des catégories spécifiques. Les catégories de conformité personnalisées sont optimisées par des étiquettes de catalogue.  Les administrateurs peuvent créer un tableau de bord de cours et le partager avec les responsables. Les responsables peuvent ensuite afficher le même tableau de bord sur leurs instances respectives. Des améliorations ont également été apportées à l’interface utilisateur du tableau de bord de conformité et des notifications par courrier électronique relatives à la conformité.
+![](assets/compliance-dashboard-admin.png)
 
 #### Workflow
 
-Voici les étapes d’utilisation du tableau de bord de conformité amélioré :
+Voici les étapes pour utiliser le tableau de bord de conformité amélioré :
 
 | Rôle | Tâche | Informations supplémentaires |
 |---|---|---|
-| Administrateur | Création d’étiquettes de conformité personnalisées | Reportez-vous à cet article [Création d’étiquettes](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) de conformité personnalisées pour plus d’informations |
-| Auteur | Ajoutez ces étiquettes au cours | Reportez-vous à cet article [Ajouter des étiquettes de conformité à un cours/cursus d’apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) pour plus d’informations. |
-| Administrateur | Créer le tableau de bord avec le cours de conformité et le partager avec les responsables | Reportez-vous à cet article [Créer et partager un tableau de bord](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) de conformité pour plus d’informations. |
-| Responsable | Afficher le tableau de bord de conformité | Reportez-vous à cet article [État](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) de conformité pour plus d’informations |
+| Administrateur | Création d’étiquettes de conformité personnalisées | Reportez-vous à cet article [Créer des étiquettes de conformité personnalisées](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) pour plus d&#39;informations |
+| Auteur | Ajouter ces libellés au cours | Reportez-vous à cet article [Ajouter des étiquettes de conformité au cours/parcours d&#39;apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) pour plus d&#39;informations. |
+| Administrateur | Créer le tableau de bord avec le cours de conformité et le partager avec les responsables | Reportez-vous à cet article [Créer et partager un tableau de bord de conformité](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) pour plus d&#39;informations. |
+| Responsable | Afficher le tableau de bord de conformité | Reportez-vous à cet article [État de la conformité](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) pour plus d&#39;informations |
 
-## Refonte de l’interface utilisateur de l’apprenant
+## Réorganisation de l’interface utilisateur de l’élève
 
 >[!IMPORTANT]
 >
->La nouvelle interface utilisateur de l’apprenant sera lancée par phases.
+>La nouvelle interface utilisateur des élèves sera publiée en plusieurs phases.
 
-L’interface **utilisateur** de l’apprenant a été mise à jour avec un design plus élégant et moderne. Les pages de destination Accueil de l’apprenant **[!UICONTROL ,**[!UICONTROL  Mon apprentissage ]**,**[!UICONTROL  Catalogue ]**et**[!UICONTROL  Aperçu ]**du cours font peau neuve et]** moderne. Les cartes de cours ont également un nouveau design pour afficher les détails d’une manière moderne. Pointez sur une carte de cours pour afficher la description du cours et la date de publication.
+L&#39;**interface utilisateur des élèves** a été mise à jour avec un design plus élégant et plus moderne. Les pages de destination **[!UICONTROL Accueil de l&#39;élève]**, **[!UICONTROL Mon apprentissage]**, **[!UICONTROL Catalogue]** et **[!UICONTROL Présentation du cours]** prennent un aspect nouveau et moderne. Les cartes de cours ont également un nouveau design pour afficher les détails de manière moderne. Placer le pointeur de la souris sur une carte de cours affiche la description du cours et la date de publication.
 
 >[!NOTE]
 >
->L’interface utilisateur remaniée s’applique uniquement à la disposition immersive. Ces modifications ne sont pas encore prises en charge sur le web mobile ou l’application et seront mises à jour dans une version ultérieure.
+>L’interface utilisateur remaniée s’applique uniquement à la mise en page immersive. Ces modifications ne sont pas encore prises en charge sur le Web ou l’application mobile et seront mises à jour dans une prochaine version.
 
 ![](assets/old-ui.png)
 _Ancienne interface utilisateur_
@@ -55,125 +56,125 @@ _Ancienne interface utilisateur_
 ![](assets/new-ui.png)
 _Nouvelle interface utilisateur_
 
-### Changements dans cette version
+### Modifications apportées à cette version
 
-**Moderniser l’apparence et la convivialité**
+**Moderniser l’aspect**
 
-Les nouveaux éléments visuels rafraîchis s’alignent sur les tendances du design moderne, rendant le produit intuitif et attrayant. Cela inclut un nouveau masthead, un panneau latéral et des widgets d’aspect moderne.
+Les nouveaux éléments visuels actualisés s’alignent sur les tendances de design moderne, ce qui rend le produit intuitif et attrayant. Cela inclut un nouvel en-tête, un panneau latéral et des widgets modernes.
 
-**Amélioration de l’expérience utilisateur**
+**Expérience utilisateur améliorée**
 
-Les apprenants verront désormais un mode Carte similaire sur les pages suivantes : page d’accueil, catalogue, Ma formation et Aperçu du cours offrant une expérience unifiée.
+Les élèves pourront désormais visualiser une carte similaire sur les pages suivantes : Page d&#39;accueil, Catalogue, Mon apprentissage et Présentation du cours, offrant ainsi une expérience unifiée.
 
-Voir [la page](/help/migrated/learners/feature-summary/learner-home-page.md) d’accueil Apprenant pour plus d’informations.
+Consultez la [page d&#39;accueil des élèves](/help/migrated/learners/feature-summary/learner-home-page.md) pour plus d&#39;informations.
 
-**Modification des dates de publication des cours**
+**Modifications des dates de publication des cours**
 
-Avec cette amélioration, les dates de publication des cours LinkedIn et Go1 importés dans Adobe Learning Manager seront les dates de publication réelles sur LinkedIn et Go1. Vous pouvez également consulter les dates de publication réelles des cours LinkedIn et Go1 sur l’interface utilisateur. Consultez les [fiches de](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) cours pour plus d’informations.
+Grâce à cette amélioration, les dates de publication des cours LinkedIn et Go1 importés dans Adobe Learning Manager seront les dates de publication réelles sur LinkedIn et Go1. Vous pouvez également afficher les dates réelles de publication des cours LinkedIn et Go1 sur l’interface utilisateur. Pour plus d&#39;informations, consultez les [cartes de cours](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards).
 
-## Mises à jour de l’expérience des utilisateurs non connectés
+## Mises à jour de l’expérience hors connexion
 
-L’expérience non connectée vous permet de créer une expérience en temps réel pour les clients non connectés. Cela sert de page de destination pour leurs campagnes marketing, fournissant suffisamment d’informations pour encourager les inscriptions.
+L’expérience hors connexion vous permet de créer une expérience en temps réel pour les clients non connectés. Cela leur permet de lancer leurs campagnes marketing et de disposer de suffisamment d’informations pour encourager les inscriptions.
 
-### Changements dans cette version
+### Modifications apportées à cette version
 
-Les clients peuvent acheter un plan premium pour créer cette expérience non connectée hautement évolutive. Cette expérience non enregistrée, optimisée par Training Data Access](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), fournit des données en temps réel sur les [limites de sièges, les sièges occupés, les limites des listes d’attente et le nombre de listes d’attente à l’aide des API Adobe Learning Manager. Les clients peuvent utiliser ces API pour offrir aux apprenants non connectés des fonctionnalités de recherche et de filtrage ainsi qu’un résumé complet du cours. Reportez-vous à cet article [API non connectées](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) pour plus d’informations sur les API.
+Les clients peuvent acheter une formule Premium pour créer ces expériences hors connexion hautement évolutives. Cette expérience hors connexion, optimisée par l&#39;[accès aux données de formation](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access), fournit des données en temps réel sur les limites de places, les places occupées, les limites de liste d&#39;attente et le nombre de listes d&#39;attente à l&#39;aide des API Adobe Learning Manager. Les clients peuvent utiliser ces API pour offrir aux élèves non connectés des fonctionnalités de recherche et de filtrage, ainsi qu’un résumé complet du cours. Reportez-vous à cet article [API non connectées](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) pour plus d&#39;informations sur les API.
 
 >[!NOTE]
 >
->Veuillez contacter l’équipe d’assistance ou CSAM pour acheter le plan premium.
+>Veuillez contacter l’équipe d’assistance ou le CSAM pour acheter la formule Premium.
 
-## Prise en charge de plusieurs unités de maintien de Stock (SKU)
+## Prise en charge de plusieurs unités de stockage (SKU)
 
-Les apprenants peuvent désormais ajouter plusieurs cours, parcours d’apprentissage ou certifications au panier et les acheter ensemble.
+Les élèves peuvent désormais ajouter plusieurs cours, parcours d’apprentissage ou certifications au panier et les acheter ensemble.
 
-### Changements dans la version
+### Modifications apportées à la version
 
-Auparavant, les apprenants ne pouvaient acheter qu’un seul cours à la fois. Dans cette version de **Adobe Learning Manager**, ils peuvent acheter plusieurs cours, cursus de formation ou certifications à la fois à l’aide du panier.
+Auparavant, les élèves ne pouvaient acheter qu’un seul cours à la fois. Dans cette version de **Adobe Learning Manager**, ils peuvent acheter plusieurs cours, parcours d&#39;apprentissage ou certifications à la fois à l&#39;aide du panier.
 
-Cette fonctionnalité est disponible uniquement dans les applications de l’apprenant (IU existante, nouvelle interface utilisateur de l’apprenant et application immersive mobile).
+Cette fonctionnalité est disponible uniquement dans les applications de l’élève (interface utilisateur existante, nouvelle interface utilisateur de l’élève et application immersive mobile).
 
-Afficher [le panier d’articles multiples dans ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
+Afficher le [panier de plusieurs articles dans ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-## Prise en charge du contenu HTML5 dans Fluidic Player
+## Prise en charge du contenu HTML5 dans le lecteur Fluidic
 
-**Adobe Learning Manager** prend désormais en charge le téléchargement de contenu HTML5 en tant que fichier .zip dans la bibliothèque de contenu. Une fois téléchargés, ces fichiers peuvent être inclus en tant que modules dans un cours. En outre, les auteurs peuvent définir les critères d’achèvement pour les modules HTML5 à leur propre rythme, permettant soit l’achèvement marqué par l’apprenant, soit l’achèvement automatique au lancement.
+**Adobe Learning Manager** prend désormais en charge le chargement de contenu HTML5 en tant que fichier .zip dans la bibliothèque de contenu. Une fois chargés, ces fichiers peuvent être inclus en tant que modules dans un cours. En outre, les auteurs peuvent définir les critères d’achèvement pour les modules HTML 5 d’auto-apprentissage, permettant ainsi l’achèvement marqué par l’élève ou l’achèvement automatique au lancement.
 
-### Changements dans cette version
+### Modifications apportées à cette version
 
-Adobe Learning Manager prend désormais en charge le contenu pris en charge par HTML5 dans les cours à votre rythme. Les auteurs peuvent ajouter du contenu HTML5 sous forme de fichier .zip au contenu à leur propre rythme. Les apprenants peuvent afficher le contenu HTML5 dans Fluidic Player. Avec la nouvelle fonctionnalité, les apprenants peuvent désormais marquer le cours comme terminé directement dans le lecteur fluidique pour les cours à leur rythme. Voir [Ajouter un type de fichier HTML5 dans la bibliothèque](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) de contenu pour plus d’informations.
+Adobe Learning Manager prend désormais en charge le contenu pris en charge par HTML5 dans les cours d’auto-apprentissage. Les auteurs peuvent ajouter du contenu HTML5 sous forme de fichier .zip au contenu d’auto-apprentissage. Les élèves peuvent afficher le contenu HTML5 dans le lecteur Fluidic. Avec la nouvelle fonctionnalité, les élèves peuvent désormais marquer le cours comme étant terminé directement dans le lecteur Fluidic pour les cours en auto-apprentissage. Pour plus d&#39;informations, consultez [Ajouter un type de fichier HTML5 dans la bibliothèque de contenu](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library).
 
-Avec la nouvelle amélioration, le cours avec le lien externe sera automatiquement marqué comme terminé lorsque l’URL est visitée, tant que l’auteur a défini les critères d’achèvement de la nouvelle option **[!UICONTROL Sur le lancement du contenu]**. La nouvelle option **[!UICONTROL Critères]** d’achèvement a été ajoutée à la page Module d’activité où l’auteur peut définir les critères d’achèvement pour les liens externes. Voir [Ajouter un lien HTML dans le module](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) d’activité pour plus d’informations.
+Avec la nouvelle amélioration, le cours avec le lien externe sera automatiquement marqué comme terminé lors de la consultation de l&#39;URL, à condition que l&#39;auteur ait défini les critères d&#39;achèvement sur la nouvelle option **[!UICONTROL Au lancement du contenu]**. La nouvelle option **[!UICONTROL Critères d&#39;achèvement]** a été ajoutée dans la page Module d&#39;activité où l&#39;auteur peut définir les critères d&#39;achèvement pour les liens externes. Voir [Ajouter un lien de HTML dans le module d&#39;activité](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) pour plus d&#39;informations.
 
 ![](assets/completion-criteria-activity-module.png)
-_Option Critères d’achèvement - Module d’activité_
+_Critère d&#39;achèvement option-Module d&#39;activité_
 
-## Notifications push en retard sur l’application mobile
+## Notifications push de cours en retard sur l&#39;application mobile
 
-Les apprenants recevront des notifications push chaque fois qu’ils manqueront une échéance de cours. Grâce à cette nouvelle amélioration, les apprenants auront désormais la possibilité de répéter un rappel pendant 24 heures ou de se faire rappeler la semaine prochaine pour chaque rappel en retard qu’ils reçoivent. Ceci s’applique uniquement aux notifications en retard. Afficher [le planning de la notification push](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+Les élèves recevront des notifications push chaque fois qu&#39;ils manqueront une date limite de cours. Grâce à cette nouvelle amélioration, les élèves auront désormais la possibilité d&#39;effectuer une pause dans un rappel pendant 24 heures ou d&#39;obtenir un rappel la semaine prochaine pour chaque rappel en retard qu&#39;ils reçoivent. Cela s’applique uniquement aux notifications de retard de délai. Afficher [Planifier la notification push](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## Modifications apportées aux API dans cette version
 
-### Search API
+### API de recherche
 
-L’API Search comprend les modifications suivantes :
+L’API de recherche inclut les modifications suivantes :
 
-Les apprenants peuvent rechercher des tags dans les filtres du catalogue à l’aide de l’API ```GET /search``` . Les apprenants peuvent rechercher les balises en les sélectionnant ```tag``` comme valeur pour ```filter.loTypes``` le paramètre.
+Les élèves peuvent rechercher des balises dans les filtres de catalogue à l&#39;aide de l&#39;API ```GET /search```. Les élèves peuvent rechercher les balises en sélectionnant ```tag``` comme valeur pour le paramètre ```filter.loTypes```.
 
-**Exemple de curl**
+**Exemple de boucle**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-Les nouveaux filtres, sièges disponibles, liste d’attente disponibles et filtre de plage de temps ont été ajoutés aux API suivantes : ```GET /search``` et `GET /learningObjects`.
+Les nouveaux filtres, siège disponible, liste d&#39;attente disponible et filtre de plage horaire ont été ajoutés aux API suivantes : ```GET /search``` et `GET /learningObjects`.
 
-Les nouveaux filtres `filter.session.includeEnrollmentDeadline` ont été ajoutés à l’API ```GET /search```suivante :
+Les nouveaux filtres `filter.session.includeEnrollmentDeadline` ont été ajoutés à l&#39;API suivante ```GET /search```.
 
 ### API de compte
 
-La nouvelle colonne `custom_injections`, `showComplianceLabel`et `complianceLabelDefaultID` ont été ajoutées à l’API ```GET /account``` pour obtenir les données de compte du point de terminaison de l’utilisateur.
+Les nouvelles colonnes `custom_injections`, `showComplianceLabel` et `complianceLabelDefaultID` ont été ajoutées dans l&#39;API ```GET /account``` pour obtenir les données de compte du point de terminaison de l&#39;utilisateur.
 
 ### API de l’objet d’apprentissage
 
-Les modifications suivantes ont été apportées à l’API de l’objet d’apprentissage dans cette mise à jour :
+Voici les modifications apportées à l’API de l’objet d’apprentissage dans cette mise à jour :
 
-La nouvelle réponse, l’ID d’auteur hérité et d’autres détails ajoutés sous `authorDetails` dans l’API `GET /learningObjects` . En outre, un nouveau filtre, `filter.authors`, a été ajouté pour filtrer les auteurs existants et leurs cours.
+Le nouvel ID d&#39;auteur hérité et d&#39;autres détails ajoutés sous `authorDetails` dans l&#39;API `GET /learningObjects`. En outre, un nouveau filtre, `filter.authors`, a été ajouté pour filtrer les auteurs hérités et leurs cours.
 
-Le nouvel attribut appelé `effectivenessIndex` vous aidera à obtenir les données sur l’efficacité du cours.
+Le nouvel attribut appelé `effectivenessIndex` vous aidera à obtenir les données d&#39;efficacité du cours.
 
-**Exemple de curl**
+**Exemple de boucle**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+--header 'Authorization: oauth <oauth_token>'
 ```
 
-La nouvelle réponse `whoShouldTake`, qui donne des détails sur qui devrait suivre ce cours, a été ajoutée aux API suivantes : `POST /learningObjects/query`, `GET /learningObjects/{id}`et `GET /learningObjects`.
+La nouvelle réponse `whoShouldTake`, qui donne des détails sur les personnes qui doivent suivre ce cours, a été ajoutée aux API suivantes : `POST /learningObjects/query`, `GET /learningObjects/{id}` et `GET /learningObjects`.
 
-**Exemple de curl**
+**Exemple de boucle**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
 ```
 
-La nouvelle réponse `waitlistLimit`, qui donne des détails sur la limitation de la liste d’attente, a été ajoutée à l’API `GET /learningObjects` .
+La nouvelle réponse `waitlistLimit`, qui donne des détails sur la limitation de la liste d&#39;attente, a été ajoutée à l&#39;API `GET /learningObjects`.
 
-La nouvelle réponse `count` , qui donne le nombre total d’objets d’apprentissage, a été ajoutée aux API `GET/ learningObjects` et `POST/ learningObjects/query`.
+La nouvelle réponse `count` qui indique le nombre total d&#39;objets d&#39;apprentissage a été ajoutée aux API `GET/ learningObjects` et `POST/ learningObjects/query`.
 
-Les nouvelles réponses et `catalogFieldId` `fieldValueId` ont été ajoutées sous `catalogLabels` dans l’API `GET/ learningObjects` .
+Les nouvelles réponses `catalogFieldId` et `fieldValueId` ont été ajoutées sous `catalogLabels` dans l&#39;API `GET/ learningObjects`.
 
-Les apprenants peuvent obtenir les valeurs des étiquettes du catalogue dans l’API `GET /preview/learningObjects`.
+Les élèves peuvent obtenir les valeurs d&#39;étiquette de catalogue dans l&#39;API `GET /preview/learningObjects`.
 
 ### Nouvelle API pour obtenir le nombre de places de marché
 
-Dans cette version, une nouvelle API a été ajoutée. `GET /search/marketplace/count` Cela vous aide à obtenir un compte sur les objets d’apprentissage disponibles dans le marché de contenu.
+Dans cette version, une nouvelle API, `GET /search/marketplace/count`, a été ajoutée. Cela vous aide à obtenir le nombre d’objets d’apprentissage disponibles dans le marché de contenus.
 
-**Exemple de curl**
+**Exemple de boucle**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
 ```
 
 **Exemple de réponse**
@@ -186,52 +187,61 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 
 ### API d’instance d’objet d’apprentissage
 
-Voici les modifications apportées à l’API d’instance d’objet d’apprentissage dans cette mise à jour :
+Voici les modifications apportées à l&#39;API de l&#39;instance d&#39;objet d&#39;apprentissage dans cette mise à jour :
 
-Dans cette version, une clé appelée `gamificationEnabled` a été ajoutée à l’API `GET /learningObjects/{loId}/instances/{loInstanceId}`d’instance d’objet d’apprentissage.
+Dans cette version, une nouvelle clé appelée `gamificationEnabled` a été ajoutée à l&#39;API d&#39;instance d&#39;objet d&#39;apprentissage `GET /learningObjects/{loId}/instances/{loInstanceId}`.
 
-**Exemple de curl**
+**Exemple de boucle**
 
 ```
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
 ```
 
-Le nouvel `gamificationSettings` attribut à l’API ci-dessus pour obtenir les détails des paramètres de Gamification. Par exemple : `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+Le nouvel attribut `gamificationSettings` de l&#39;API ci-dessus pour obtenir les détails des paramètres de ludification. Par exemple : `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
 
-**Exemple de curl**
+**Exemple de boucle**
 
 ```
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
 ```
 
-Le nouvel `leaderboard` attribut à l’API ci-dessus pour obtenir les détails des paramètres de Gamification. Par exemple : `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+Le nouvel attribut `leaderboard` de l&#39;API ci-dessus pour obtenir les détails des paramètres de ludification. Par exemple : `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
 
-**Exemple de curl**
+**Exemple de boucle**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+--header 'Authorization: oauth <oauth_token>'
 ```
+
+### Modification du comportement de tri pour date et -date
+
+Les API qui prennent en charge le tri par date et par -date affichent les résultats en fonction de la date de publication de tous les objets d’apprentissage, à l’exception du parcours d’apprentissage. Le parcours d’apprentissage sera toujours répertorié en fonction de la date de **modification effective**. Cette modification sera visible dans les API suivantes :
+
+* GET /learningObjects
+* GET /search
+* POST /learningObjects/query
+* POST /Search/query
 
 ### Modification des limites de décalage
 
-Pour améliorer les performances du système et gérer plus efficacement l’utilisation des ressources, Adobe a déconseillé les valeurs de décalage élevées dans le point de terminaison GET /users pour les étendues ADMIN et LEARNER. Nous vous recommandons d’utiliser l’API Jobs pour récupérer les enregistrements avec une valeur de décalage.
+Pour améliorer les performances du système et gérer plus efficacement l’utilisation des ressources, Adobe a déprécié les valeurs de décalage élevées dans le point de terminaison GET /users pour les portées ADMIN et LEARNER. Nous vous recommandons d’utiliser l’API Jobs pour récupérer les enregistrements avec une valeur de décalage.
 
 ### API obsolètes
 
-Affichez [les obsolescences d’API dans Adobe Learning Manager](/help/migrated/api-deprecations-list.md) pour obtenir la liste cumulative de toutes les API obsolètes du produit.
+Consultez [Dépréciations d’API dans Adobe Learning Manager](/help/migrated/api-deprecations-list.md) pour obtenir la liste cumulée de toutes les API déconseillées dans le produit.
 
 ## Modifications apportées aux rapports
 
 ### Tableau de bord Conformité
 
-Dans cette version, le rapport Tableau de bord de conformité comporte deux nouvelles colonnes :
+Dans cette version, le rapport Tableau de bord Conformité comporte deux nouvelles colonnes :
 
 * Statut
 * Type de conformité
 
-Cela s’ajoute aux colonnes existantes :
+Ces colonnes viennent s’ajouter aux colonnes existantes :
 
 * Nom d’utilisateur
 * Courrier électronique de l’utilisateur
@@ -244,95 +254,95 @@ Cela s’ajoute aux colonnes existantes :
 
 ### Rapport des formations
 
-Le rapport de formation dans Admin > Reports > Rapports personnalisés et l’API **** Tâches avaient des colonnes appelées **Compétences(s)** et **Balise(s).************** Ces colonnes sont désormais renommées Compétences **** et **balises**.
+Le rapport de formation dans **Admin** > **Rapports** > **Rapports personnalisés** et l&#39;**API des emplois** comportaient auparavant des colonnes intitulées **Compétence(s)** et **Balise(s)**. Ces colonnes sont désormais renommées en **Compétences** et **Balises**.
 
 ### Rapport d’audit de contenu
 
-Dans cette version, le rapport Journal ]**d’audit**[!UICONTROL  de contenu inclut désormais les nouveaux attributs suivants dans la colonne Type de modification :
+Dans cette version, le rapport **[!UICONTROL Piste d&#39;audit de contenu]** inclut désormais les nouveaux attributs suivants dans la colonne Type de modification :
 
-* Ajout d’un groupe d’utilisateurs
-* Suppression d’un groupe d’utilisateurs
+* Ajouter un groupe d’utilisateurs
+* Groupe d’utilisateurs supprimé
 * Ajouter une étiquette personnalisée
-* Suppression d’étiquette personnalisée
-* Ajouter un catalogue partagé
+* Supprimer l’étiquette personnalisée
+* Ajout de catalogue partagé
 * Suppression du catalogue partagé
 * Mise à jour du catalogue partagé
 
 ## Bogue corrigé dans cette mise à jour
 
-**Envoi d’activité**
+**Soumission d&#39;activité**
 
-* La tentative de rechargement d’un fichier dans le module de soumission d’activité échoue avec une erreur 500 dans l’appel réseau.
+* La tentative de rechargement d&#39;un fichier vers le module d&#39;envoi d&#39;activité échoue avec une erreur 500 dans l&#39;appel réseau.
 
 **API**
 
-* La création d’une réunion Connect VC échoue si plusieurs instructeurs ont la même adresse e-mail.
-* Après s’être inscrit à un cursus de formation, MS Teams VC affiche une URL incorrecte sur la page Vue d’ensemble.
-* L’URL pré-signée du rapport utilisateur fournie dans le cadre de la réponse de Job API expire au bout de six heures.
-* Lors de la génération d’un rapport d’inscription pour un cours, la colonne Nom du cours affiche un nom de cours incorrect.
-* Le travailleur de migration ne parvient pas à envoyer l’ID LO unique lors de l’appel de l’API en bloc pour le cours, mais l’ID est supprimé.
-* Lorsqu’un cours est inclus dans un catalogue spécifique auquel un utilisateur peut accéder (alors que le catalogue par défaut est désactivé), malgré le paramètre qui empêche les apprenants non inscrits de consulter le cours, vous pouvez toujours récupérer les métadonnées du cours via le point de terminaison learningobject/id.
+* La création d&#39;une réunion Connect VC échoue si plusieurs instructeurs ont la même adresse e-mail.
+* Après s’être inscrit à un parcours d’apprentissage, MS Teams VC affiche une URL incorrecte sur la page Présentation.
+* L’URL présignée du rapport d’utilisateur fournie dans le cadre de la réponse de l’API de tâche expire après six heures.
+* Lors de la génération d&#39;un rapport d&#39;inscription pour un cours, la colonne Nom du cours affiche un nom de cours incorrect.
+* Le processus de migration n’envoie pas l’identifiant unique lors de l’appel de l’API en bloc pour le cours, mais l’identifiant est supprimé.
+* Lorsqu’un cours est inclus dans un catalogue spécifique auquel un utilisateur peut accéder (alors que le catalogue par défaut est désactivé), malgré le paramètre qui empêche les élèves non inscrits de consulter le cours, vous pouvez toujours récupérer les métadonnées du cours via le point de terminaison de l’objet d’apprentissage/de l’ID.
 * Le filtre de compétences ne fonctionne pas comme prévu lorsque skillname comporte des virgules dans le nom de l’API GET /learningObject.
-* Il existe un manque d’incohérence dans les métadonnées d’horodatage du fichier dans le travailleur de rétention des données pour SFTP.
-* Si un connecteur est supprimé et reconfiguré, l’état de migration du projet semble fermé.
-* Le rapport d’entraînement contient « Balise(s) » comme en-tête de colonne au lieu de « Balises ».
-* L’exportation du connecteur Commerce échoue si le catalogue est désactivé et si une partie du cours exporté n’est qu’une partie du catalogue désactivé.
+* Il existe une incohérence dans les métadonnées d’horodatage du fichier dans le processus de rétention des données pour SFTP.
+* Si un connecteur est supprimé et reconfiguré, le statut de migration du projet semble être fermé.
+* Le rapport de formation a « Balise(s) » comme en-tête de colonne au lieu de « Balises ».
+* L’exportation du connecteur Commerce échoue si le catalogue est désactivé et si l’un des cours exportés ne fait que partie du catalogue désactivé.
 
 **Certification**
 
-* Parfois, la réinscription d’un utilisateur à une certification périodique échoue.
+* Parfois, la réinscription d’un utilisateur à une certification récurrente échoue.
 
 **Rôle personnalisé**
 
-* Dans certains cas, lorsqu’un administrateur personnalisé tente de passer à un rôle d’instructeur, l’erreur 403 interdite s’affiche.
+* Dans certains cas, lorsqu’un administrateur personnalisé tente de passer à un rôle d’instructeur, l’erreur 403 interdit s’affiche.
 
-**Modèle de courrier électronique et notification**
+**Modèle d’e-mail et notification**
 
 * Les notifications par e-mail, après l’annulation d’une session, ne sont pas envoyées au dernier groupe d’instructeurs lorsque les instructeurs sont supprimés de la session.
-* L’organisateur ne reçoit pas de notifications par e-mail pour MS Teams après la création d’une formation virtuelle dirigée par un instructeur. Ce n’est qu’une fois le cours publié et que les modèles de courrier électronique sont activés que les e-mails sont déclenchés.
-* Parfois, un modèle de courrier électronique se compose d’un format de date et d’une traduction incorrects.
+* L’organisateur ne reçoit pas de notifications par e-mail pour MS Teams après la création d’une formation virtuelle dirigée par un instructeur. Les e-mails ne sont déclenchés qu’après la publication du cours et l’activation des modèles d’e-mail.
+* Parfois, un modèle d’e-mail se compose d’un format de date et d’une traduction incorrects.
 
 **Élève**
 
-* Lorsqu’un élève est inscrit à plusieurs instances d’un cours et que vous téléchargez le rapport de présence, le rapport contient des informations incorrectes.
-* Un utilisateur peut afficher les publications privées d’un autre utilisateur si elles sont ajoutées à une histoire publique.
-* Dans certains cas, vous ne parvenez pas à désinscrire des apprenants d’une certification. Un message d’erreur s’affiche lorsque vous tentez de vous désinscrire.
-* Une certification est marquée comme terminée même après qu’un administrateur l’ait terminée après avoir sélectionné un seul cours.
-* Un administrateur ne peut pas marquer un VC comme terminé si l’heure de fin de la session est reportée à une date précédente.
-* Le rapport Présence à la session apparaît comme « Non assisté » pour les apprenants qui sont sur une liste d’attente.
+* Lorsqu&#39;un élève est inscrit à plusieurs instances d&#39;un cours et que vous téléchargez le rapport de présence, le rapport contient des informations incorrectes.
+* Un utilisateur peut afficher les publications privées d’un autre utilisateur si elles sont ajoutées à un article public.
+* Dans certains cas, vous ne pouvez pas désinscrire des élèves d’une certification. Un message d’erreur s’affiche lors de la tentative de désinscription.
+* Une certification est marquée comme terminée même lorsqu’un administrateur la marque comme terminée après avoir sélectionné un seul cours.
+* Un administrateur ne peut pas marquer une classe virtuelle comme terminée si l&#39;heure de fin de la session est remplacée par une date précédente.
+* Le rapport de présence à la session s&#39;affiche comme « Non présent » pour les élèves qui sont sur une liste d&#39;attente.
 
 **Application de l’élève**
 
-* Après avoir téléchargé les notes de cours au format PDF, les notes apparaissent de manière aléatoire. Ils ne suivent pas l’ordre.
+* Après avoir téléchargé les notes de cours en tant que PDF, les notes s&#39;affichent de manière aléatoire. Ils ne suivent pas l&#39;ordre.
 
-**Cursus de formation**
+**Parcours d’apprentissage**
 
-* Une fois que vous avez sélectionné une compétence dans un cursus de formation, la liste déroulante ne s’affiche pas comme prévu lorsque vous sélectionnez le champ de texte.
-* Dans certains cas, vous ne pouvez pas supprimer des compétences d’un cursus de formation.
+* Après avoir sélectionné une compétence dans un parcours d’apprentissage, la liste déroulante ne s’affiche pas comme prévu lorsque vous sélectionnez le champ de texte.
+* Dans certains cas, vous ne pouvez pas supprimer des compétences d’un parcours d’apprentissage.
 
 **Programme d’apprentissage**
 
-* Si un programme d’apprentissage flexible comporte de nombreux cours, le plan d’apprentissage n’est pas terminé même après qu’un administrateur l’ait noté comme terminé.
-* La colonne last_modified_by du rapport Inscription n’est pas mise à jour lorsqu’un élève change d’instance.
+* Si un programme d’apprentissage flexible comporte de nombreux cours, le plan d’apprentissage n’est pas terminé même lorsqu’un administrateur l’a marqué comme terminé.
+* La colonne last_modified_by du rapport d’inscription n’est pas mise à jour lorsqu’un élève modifie des instances.
 
 **Rapport**
 
-* Dans certains cas, un administrateur n’est pas en mesure d’exporter le rapport Formation.
-* Lorsqu’un contenu SCORM contient des questions ou des réponses de plus de 32 767 caractères, vous ne pouvez pas télécharger le rapport du quiz de cours dans Excel.
-* Lorsque vous sélectionnez Réinitialiser la gamification, la date de niveau atteint n’est pas réinitialisée.
+* Dans certains cas, un administrateur ne peut pas exporter le rapport de formation.
+* Lorsqu&#39;un contenu SCORM contient des questions ou des réponses de plus de 32 767 caractères, vous ne pouvez pas télécharger le rapport de quiz de cours dans Excel.
+* Après avoir sélectionné Réinitialiser la ludification, la date Niveau atteint ne se réinitialise pas.
 
 **Recherche**
 
 * Actuellement, après l’exportation de tous les groupes d’utilisateurs, les groupes d’utilisateurs supprimés figurent également dans la sortie.
-* En raison de problèmes de recherche intermittents, vous ne pouvez pas rechercher une certification.
+* En raison de problèmes de recherche intermittents, vous ne pouvez pas rechercher de certification.
 
 ## Problème connu dans cette version
 
-Le lecteur mobile hors ligne ne charge pas le contenu HTML5.
+Le lecteur hors ligne mobile ne charge pas le contenu HTML5.
 
 ## Configuration système
 
-Consultez [Adobe configuration système requise](/help/migrated/system-requirements.md) pour Learning Manager.
+Voir [Configuration requise pour Adobe Learning Manager](/help/migrated/system-requirements.md).
 
 ## Versions précédentes d’Adobe Learning Manager
 
