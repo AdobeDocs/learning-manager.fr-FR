@@ -27,11 +27,11 @@ La feuille de style CSS jointe contient le style appliqué par Learning Manager
 
 Le style par défaut peut ne pas répondre aux besoins de tous. Les personnalisations peuvent être effectuées en ignorant les feuilles de style CSS fournies. Tout le style est enveloppé sous la classe ql-editor en tant que sélecteurs descendants. Les classes suivantes sont utilisées :
 
-* **Retrait**: li.ql-indent-$number. $number varie entre 1 et 9
-* **taille**: ql-size-small, ql-size-large, ql-size-énorme
-* **alignement**: ql-align-center, ql-align-validate, ql-align-right
-* **couleur**: ql-color-$color. $color = blanc, rouge, orange, jaune, vert, bleu, violet
-* **arrière plan**: ql-bg-$color. $color = noir, rouge, orange, jaune, vert, bleu, violet
-* **balises html**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
+* **Indentation** : li.ql-indent-$number. $number varie entre 1 et 9
+* **size** : ql-size-small, ql-size-large, ql-size-énorme
+* **alignement** : ql-align-center, ql-align-validate, ql-align-right
+* **color** : ql-color-$color. $color = blanc, rouge, orange, jaune, vert, bleu, violet
+* **arrière-plan** : ql-bg-$color. $color = noir, rouge, orange, jaune, vert, bleu, violet
+* **balises html** : p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
 [Fichier CSS à utiliser pour la personnalisation.](assets/ql-headless.css)

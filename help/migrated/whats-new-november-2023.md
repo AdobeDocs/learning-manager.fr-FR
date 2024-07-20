@@ -17,7 +17,7 @@ L’interface utilisateur de Adobe Learning Manager a fait l’objet de quelques
 
 Les mises à jour des thèmes s’appliquent automatiquement aux comptes utilisant le thème par défaut. Les mises à jour des thèmes de l’interface utilisateur n’affectent pas les comptes ayant apporté des modifications afin d’utiliser un thème personnalisé. Ces comptes doivent redéfinir le thème par défaut pour obtenir le thème mis à jour.
 
-![Image de l’interface utilisateur](assets/refreshed-ui.png)
+![Image de l&#39;interface utilisateur](assets/refreshed-ui.png)
 
 ### À propos de cette modification
 
@@ -33,7 +33,7 @@ La largeur maximale du logo est de 210 px. Les logos présentant une largeur su
 
 Si la taille du logo est inférieure à la taille recommandée, le logo est chargé et centré sans aucune modification.
 
-**Quel est l&#39;impact?**
+**Quel est l’impact ?**
 
 Les noms d’entreprise plus longs seront rognés et affichés avec des points de suspension.
 
@@ -54,7 +54,7 @@ Afficher [Extensibilité native](/help/migrated/administrators/feature-summary/n
 
 Vous pourrez désormais créer des évaluations dans Learning Manager avec le nouvel outil de création de quiz sur la page Bibliothèque de contenu. Les évaluations créées font partie de la bibliothèque de contenu et peuvent être ajoutées à un dossier « public » pour faciliter la réutilisation des cours.
 
-Afficher [Créer un quiz](/help/migrated/authors/feature-summary/content-library.md) pour en savoir plus.
+Consultez [Créer un quiz](/help/migrated/authors/feature-summary/content-library.md) pour en savoir plus.
 
 ## Modifications concernant les rapports dans cette version
 
@@ -74,7 +74,7 @@ Dans cette version, nous avons ajouté un filtre de date, à l’aide duquel vou
 
 Dans cette version, vous pouvez télécharger les informations de retour au cours dans un rapport d’inscription en spécifiant une heure. La période de téléchargement est limitée à six mois pour les comptes comprenant plus de cinq millions d’inscriptions. Pour tous les autres comptes, la période est de quinze mois.
 
-Vous pouvez télécharger le rapport à partir de **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports historiques]** > **[!UICONTROL Rapport d’accès au cours]**.
+Vous pouvez télécharger le rapport à partir de **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports historiques]** > **[!UICONTROL Rapport d&#39;accès aux cours]**.
 
 ### Modifications apportées au relevé de notes de l’élève
 
@@ -149,7 +149,7 @@ Dans la page Rôles personnalisés, nous avons ajouté les options en lecture se
 
 Si vous sélectionnez l’option Lecture seule, les administrateurs personnalisés peuvent afficher tous les utilisateurs, mais ils ne peuvent pas modifier les données utilisateur, ni créer de portail d’auto-inscription pour les utilisateurs.
 
-**Plans d’apprentissage**:
+**Plans d’apprentissage** :
 
 Si vous sélectionnez Lecture seule, les administrateurs personnalisés ne peuvent pas ajouter ni modifier de plan d’apprentissage. Ils peuvent télécharger un rapport de plan d’apprentissage et consulter les détails. Toutefois, ils ne peuvent pas modifier les détails du cours.
 
@@ -255,7 +255,7 @@ Dans cette version, si le rapport d’assistance à la tâche dépasse les 10 mi
 
 Dans les versions précédentes d’Adobe Learning Manager, si un cours, une certification ou un plan d’apprentissage est supprimé et que sa notification est présente, il reste possible d’accéder au cours, à la certification ou au plan d’apprentissage en consultant sa notification.
 
-Dans cette version, nous nous assurerons qu’une publication supprimée n’est plus accessible. Si vous spécifiez l’id dans le répertoire /posts/{id} API et que l’ID de la publication n’est plus disponible, l’API affiche le message « Publication introuvable pour la ressource spécifiée ».
+Dans cette version, nous nous assurerons qu’une publication supprimée n’est plus accessible. Si vous spécifiez l&#39;ID dans l&#39;API /posts/{id} et que l&#39;ID du post n&#39;est plus disponible, l&#39;API affiche le message « Post introuvable pour la ressource spécifiée ».
 
 ### Échéance d’accomplissement des API de l’élève
 
@@ -279,7 +279,7 @@ En outre, nous allons remplacer la valeur par défaut de snippetTypes par course
 
 ### Nouveau type de ressource pour les questionnaires
 
-Le `instances.loResources.resources` le point de terminaison reviendra `ResourceContentType` avec le quiz.
+Le point de terminaison `instances.loResources.resources` retournera `ResourceContentType` avec le quiz.
 
 ## Avis d’abandon
 
@@ -288,7 +288,7 @@ Adobe Learning Manager supprimera BlueJeans en février 2024. Tous les nouveaux
 
 ## Notes de mise à jour
 
-Pour plus d’informations sur les versions actuelles et précédentes de l’application web et de l’application pour appareil Learning Manager, consultez la section [Notes de mise à jour](release-note/release-notes.md).
+Pour plus d&#39;informations sur les versions actuelles et précédentes de l&#39;application web et de l&#39;application pour appareil Learning Manager, consultez les [Notes de mise à jour](release-note/release-notes.md).
 
 ## Bogues corrigés dans cette version
 
@@ -305,7 +305,7 @@ Pour plus d’informations sur les versions actuelles et précédentes de l’ap
 * Un élève ne peut pas lire les cours LinkedIn dans l’application MS Teams.
 * L’API d’inscription ne renvoie pas les inscriptions à un plan d’apprentissage flexible ou à un plan d’apprentissage intégré comme prévu.
 * Dans l’application mobile, les noms d’un cours, d’une certification ou d’un plan d’apprentissage s’affichent en minuscules.
-* Dans les versions précédentes d’Adobe Learning Manager, si un cours, une certification ou un plan d’apprentissage est supprimé et que sa notification est présente, il reste possible d’accéder au cours, à la certification ou au plan d’apprentissage en consultant sa notification. Dans cette version, nous nous assurerons qu’une publication supprimée n’est plus accessible. Si vous spécifiez l’id dans le répertoire /posts/{id} API et que l’ID de la publication n’est plus disponible, l’API affiche le message « Publication introuvable pour la ressource spécifiée ».
+* Dans les versions précédentes d’Adobe Learning Manager, si un cours, une certification ou un plan d’apprentissage est supprimé et que sa notification est présente, il reste possible d’accéder au cours, à la certification ou au plan d’apprentissage en consultant sa notification. Dans cette version, nous nous assurerons qu’une publication supprimée n’est plus accessible. Si vous spécifiez l&#39;ID dans l&#39;API /posts/{id} et que l&#39;ID du post n&#39;est plus disponible, l&#39;API affiche le message « Post introuvable pour la ressource spécifiée ».
 * Dans l’API des élèves, le champ d’échéance d’achèvement ne s’affiche pas dans la réponse de l’API d’inscription.
 * Dans l’API Get Enrollment pour les élèves, les détails d’inscription s’affichent même si vous avez spécifié un ID d’instance incorrect.
 

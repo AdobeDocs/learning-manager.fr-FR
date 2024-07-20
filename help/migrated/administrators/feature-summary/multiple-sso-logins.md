@@ -2,13 +2,13 @@
 description: Adobe Learning Manager prend en charge plusieurs méthodes de connexion via plusieurs configurations SSO pour les utilisateurs internes et externes.
 title: Plusieurs connexions SSO
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
 
 ---
-
 
 # Plusieurs connexions SSO {#multiple-sso-logins}
 
@@ -39,7 +39,7 @@ Pour configurer une authentification unique, procédez comme suit :
    * Entrez le nom de la connexion SSO.
    * Sélectionnez le type de SSO - Initié par le fournisseur d’identités (IDP) ou Initié par le fournisseur de services (SP).
 
-      * Si vous avez sélectionné Initié par le FI, saisissez l’URL du FI. Il s’agit de l’URL qui sera l’identifiant unique de votre application et des informations fournies par votre fournisseur de services IDP. Il s’agit de l’URL vers laquelle tous les utilisateurs d’Adobe Learning Manager seront redirigés après s’être connectés.
+      * Si vous avez sélectionné Initié par le FI, saisissez l’URL du FI. Il s’agit de l’URL qui sera l’identifiant unique de votre application et des informations fournies par votre fournisseur de services IDP. Il s’agit de l’URL vers laquelle tous les utilisateurs de Adobe Learning Manager seront redirigés après s’être connectés.
       * Chargez le fichier XML de métadonnées des métadonnées IDP à partir de votre fournisseur IDP. Ce fichier contient des informations sur le fournisseur d’identité qui permettent à Adobe Learning Manager d’accepter les assertions SAML qu’il contient
       * Si vous avez sélectionné Initié SP, saisissez l’ID d’entité. L’ID d’entité est une URL fournie par le fournisseur de services (SP).
       * Entrez l’URL de connexion SP. Cette URL est utilisée par les utilisateurs pour se connecter à l’application.

@@ -31,11 +31,11 @@ Il existe quatre types d&#39;annonces :
 
 ![](assets/as-notofocation.png)
 
-*Personnalisation de la notification*
+*Personnaliser la notification*
 
 1. Dans le champ Message, ajoutez le message de l’annonce. Vous pouvez également ajouter une URL pour les annonces ici. Cependant, vous devez ajouter l’URL dans le formulaire HTML.
 
-   Par exemple,  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   Par exemple, `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    Lorsque vous spécifiez une cible vide, lorsqu’un utilisateur clique sur l’URL de l’annonce, le lien s’ouvre dans un nouvel onglet. Si vous ne spécifiez pas de cible, le lien s’ouvre dans le même navigateur.
 
@@ -49,7 +49,7 @@ Il existe quatre types d&#39;annonces :
    * Modifiez cette annonce en annonce pense-bête en cochant la case Activer l’annonce pense-bête.
    * Sélectionnez le délai de livraison pour l’annonce.
 
-1. Sélectionner **[!UICONTROL À une date]** si vous souhaitez planifier une annonce pour une date ultérieure et cliquez sur la zone de texte adjacente. Une fenêtre contextuelle de calendrier s’affiche, dans laquelle vous pouvez sélectionner la date de début. Sélectionnez la date de fin en suivant les mêmes étapes.
+1. Sélectionnez **[!UICONTROL À une date]** si vous souhaitez planifier une annonce pour une date ultérieure et cliquez sur la zone de texte adjacente. Une fenêtre contextuelle de calendrier s’affiche, dans laquelle vous pouvez sélectionner la date de début. Sélectionnez la date de fin en suivant les mêmes étapes.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Dans l’onglet Brouillons, cliquez sur l’icône des paramètres en regard d’une annonce, puis cliquez sur Envoyer.
 
@@ -61,7 +61,7 @@ Lorsque vous sélectionnez cette option, tout fichier multimédia que vous séle
 
 ![](assets/masthead-announcement.png)
 
-*Personnalisation de l’en-tête*
+*Personnaliser l&#39;en-tête*
 
 1. Recherchez et choisissez une image qui représentera l&#39;en-tête. La taille recommandée est 1 280 x 360 px.
 1. Choisissez la langue à laquelle vous souhaitez ajouter un en-tête. Pour chaque langue, vous devez choisir un en-tête.
@@ -70,15 +70,15 @@ Lorsque vous sélectionnez cette option, tout fichier multimédia que vous séle
 
    Commencez à saisir le nom de groupe d’utilisateurs dans la zone de texte, puis effectuez la sélection dans la liste déroulante. De même, sélectionnez la formation en saisissant le nom de l’objet dans la zone de texte.
 
-1. Dans le panneau **[!UICONTROL Paramètres avancés]** , vous disposez des options suivantes :
+1. Dans la section **[!UICONTROL Paramètres avancés]**, vous disposez des options suivantes :
 
-   * Cliquez sur **[!UICONTROL Immédiatement]** si vous voulez que l&#39;annonce soit publiée immédiatement.
+   * Cliquez sur **[!UICONTROL Immédiatement]** si vous souhaitez que l&#39;annonce soit publiée immédiatement.
    * Cliquez sur **[!UICONTROL Jamais]** si vous ne souhaitez pas que votre annonce expire.
-   * Sélectionnez l’option **[!UICONTROL Début]** et **[!UICONTROL Fin]** dates de l&#39;annonce.
+   * Sélectionnez les dates de **[!UICONTROL début]** et de **[!UICONTROL fin]** pour l&#39;annonce.
 
    ![](assets/advanced-settings.png)
 
-   *Définition de la durée d’affichage d’un en-tête*
+   *Définir l&#39;heure d&#39;affichage de l&#39;en-tête*
 
 **Existe-t-il une limite au nombre d&#39;annonces En-tête en direct ?**
 
@@ -90,7 +90,7 @@ Lorsque vous sélectionnez cette option, toutes les formations que vous choisiss
 
 ![](assets/recommendation-announcement.png)
 
-*Sélectionner la formation recommandée à afficher à un élève*
+*Sélectionnez la formation recommandée à afficher pour un élève*
 
 1. Sélectionnez la formation que vous souhaitez recommander aux élèves. Vous pouvez ajouter jusqu’à 10 formations.
 
@@ -102,9 +102,9 @@ Lorsque vous sélectionnez cette option, toutes les formations que vous choisiss
 
 1. La section Paramètres avancés propose les options suivantes :
 
-   * Cliquez sur **[!UICONTROL Immédiatement]** si vous voulez que l&#39;annonce soit publiée immédiatement.
+   * Cliquez sur **[!UICONTROL Immédiatement]** si vous souhaitez que l&#39;annonce soit publiée immédiatement.
    * Cliquez sur **[!UICONTROL Jamais]** si vous ne souhaitez pas que votre annonce expire.
-   * Sélectionnez l’option **[!UICONTROL Début]** et **[!UICONTROL Fin]** dates de l&#39;annonce.
+   * Sélectionnez les dates de **[!UICONTROL début]** et de **[!UICONTROL fin]** pour l&#39;annonce.
 
    <!--![](assets/advanced-settings.png)-->
 
@@ -137,13 +137,13 @@ Dans l’onglet Envoyé, vous pouvez afficher toutes les annonces déjà diffus�
 
 Utilisez cette option pour envoyer des courriers électroniques ad hoc ciblés aux élèves d&#39;un groupe d&#39;utilisateurs sélectionné ou aux élèves inscrits à une formation spécifique.
 
-![L’administrateur crée une annonce par e-mail](assets/email-announcement-admin.png)
+![L&#39;administrateur crée une annonce par e-mail](assets/email-announcement-admin.png)
 
 *Envoyer des courriers électroniques ad hoc ciblés aux élèves*
 
-*L’administrateur crée une annonce par e-mail*
+*L&#39;administrateur crée une annonce par e-mail*
 
-1. Sélectionner **[!UICONTROL Saisir comme adresse e-mail]**.
+1. Sélectionnez **[!UICONTROL Saisir comme adresse électronique]**.
 1. Saisissez l’objet et le contenu du message.
 1. Dans la section Cible, vous pouvez :
 

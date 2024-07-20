@@ -1,5 +1,5 @@
 ---
-description: Utilisez la page de prise en main pour parcourir les principaux parcours d’apprentissage d’Adobe Learning Manager.
+description: Utilisez la page de prise en main pour parcourir les principaux parcours d’apprentissage de Adobe Learning Manager.
 jcr-language: en_us
 title: Prise en main en tant qu’élève
 contentowner: manochan
@@ -24,17 +24,17 @@ Après vous être connecté en tant qu’élève, vous pouvez voir les widgets s
 
 **Mon apprentissage** : vous pouvez afficher et trier les objets d’apprentissage par type et par échéance. Cliquez sur le cercle dans le widget Mon apprentissage pour aller directement au type d’objet d’apprentissage ou pour voir les objets d’apprentissage par échéance.
 
-**Mes compétences** : vous pouvez également voir une carte des compétences en haut à droite de la page. Refer  [table des compétences](skills-levels.md)pour plus d’informations.
+**Mes compétences** : vous pouvez également voir une carte des compétences en haut à droite de la page. Reportez-vous à la fonctionnalité [table des compétences](skills-levels.md) pour plus d&#39;informations.
 
-**Widget Objet d’apprentissage** : il se situe juste au-dessous de Mon apprentissage et affiche les objets d’apprentissage de l’utilisateur. Sous Mon apprentissage, vous pouvez afficher tous les [cours](courses.md), [programmes d’apprentissage](learning-programs.md) et [certifications](certifications.md) que vous avez inscrits ou qui vous ont été attribués. Vous pouvez directement commencer à utiliser ou revisiter un objet d’apprentissage à partir de ce widget.
+**Widget Objet d’apprentissage** : il se situe juste au-dessous de Mon apprentissage et affiche les objets d’apprentissage de l’utilisateur. Sous Mon apprentissage, vous pouvez afficher tous les [cours](courses.md), [programmes d&#39;apprentissage](learning-programs.md) et [certifications](certifications.md) que vous inscrivez ou qui vous sont attribués. Vous pouvez directement commencer à utiliser ou revisiter un objet d’apprentissage à partir de ce widget.
 
 **Calendrier d’apprentissage** : ce widget affiche la liste des apprentissages à venir et planifiés dans votre organisation pour chaque trimestre. L’état d’inscription indique Inscrit si vous êtes inscrit à un cours en particulier.
 
 **Apprentissage recommandé** : ce widget vous permet de voir tous les cours recommandés pour votre profil par l’administrateur/le responsable de votre société. Vous pouvez cliquer sur ces liens pour accéder aux pages de cours.
 
-**Mes réussites** : vous obtenez des badges en terminant des cours. Ces badges sont affichés près de votre profil en haut de la page. Cliquez sur Badges pour obtenir des informations spécifiques. Pour plus d’informations sur les badges, reportez-vous à la section  [badges](badges.md) fonctionnalité.
+**Mes réussites** : vous obtenez des badges en terminant des cours. Ces badges sont affichés près de votre profil en haut de la page. Cliquez sur Badges pour obtenir des informations spécifiques. Pour plus d&#39;informations sur les badges, consultez la fonctionnalité [badges](badges.md).
 
-Ce widget affiche également les points de ludification pour l’élève. Cliquez sur le lien de la ludification pour voir le score détaillé, ainsi que d’autres fonctionnalités de la ludification. Pour plus d&#39;informations sur les points de ludification et le tableau de conduite, consultez  [Ludification](gamification.md) fonctionnalité.
+Ce widget affiche également les points de ludification pour l’élève. Cliquez sur le lien de la ludification pour voir le score détaillé, ainsi que d’autres fonctionnalités de la ludification. Pour plus d&#39;informations sur les points de ludification et le tableau des scores, consultez la fonctionnalité [Ludification](gamification.md).
 
 Si vous accédez à Learning Manager depuis un iPad ou une tablette Android, consultez la section relative à l’application pour tablettes iPad et Android sur cette page.
 
@@ -52,7 +52,7 @@ Dans l’application Learning Manager sur tablette iPad ou Android, une fois que
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur **Menu** et choisissez l’option appropriée.
+Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
 
 ![](assets/menu-ipad.png)
 
@@ -70,7 +70,7 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
 **Suivi de l’espace de stockage de votre périphérique**
 
 Vous pouvez surveiller votre espace de stockage régulièrement.\
-Appuyez sur l’icône de profil dans le coin supérieur droit de l’application, puis appuyez sur **Stockage sur l’appareil** option de menu.
+Appuyez sur l&#39;icône de profil dans le coin supérieur droit de l&#39;application et appuyez sur l&#39;option de menu **Stockage sur l&#39;appareil**.
 
 ![](assets/device-storage-option-ipad.png)
 

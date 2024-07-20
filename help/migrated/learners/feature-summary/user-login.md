@@ -3,14 +3,13 @@ description: Connectez-vous à Learning Manager en tant qu’élève.
 jcr-language: en_us
 title: Se connecter
 contentowner: manochan
-source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 58%
 
 ---
-
-
 
 # Se connecter
 
@@ -26,7 +25,7 @@ Lorsque vous utilisez Adobe Learning Manager pour la première fois, vous deve
 
    ![](assets/adobeid-signin.png)
 
-   *Connexion avec nom d’utilisateur et mot de passe*
+   *Se connecter avec un nom d&#39;utilisateur et un mot de passe*
 
 1. Entrez l’Adobe ID, le mot de passe, puis cliquez sur Se connecter.
 

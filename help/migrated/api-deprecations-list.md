@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### Modification des limites de décalage
 
-En raison du nombre élevé d’enregistrements récupérés par la valeur de décalage et du ralentissement des performances globales, nous appliquons une limite de **500** enregistrements. Dans la prochaine version, pour l’administrateur et l’élève, le **Utilisateurs GET** L’API renvoie un maximum de **500** enregistrements.
+En raison du nombre élevé d&#39;enregistrements récupérés par la valeur de décalage et du ralentissement des performances globales, nous appliquons une limite de **500** enregistrements. Dans la prochaine version, pour l&#39;administrateur et l&#39;élève, l&#39;API **Utilisateurs de GET** retournera un maximum de **500** enregistrements.
 
-Si vous avez besoin d’autres enregistrements à récupérer, utilisez la commande **Offres d’emploi GET** API.
+Si vous avez besoin d&#39;autres enregistrements à récupérer, utilisez l&#39;API **GET Jobs**.
 
 <!--### Exclude paths 
 
@@ -131,7 +131,7 @@ La raison pour laquelle nous déprécions l&#39;indicateur pour les API des él�
 
 À l’avenir, l’API des élèves suivante cessera de fonctionner car elle comporte l’indicateur de remplacement.
 
-_/primeapi/v2/users?page[décalage]=0&amp;page[limite]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### Modifications d’API pour les nouvelles recommandations basées sur les compétences
 
@@ -149,5 +149,5 @@ Dans la version de novembre 2023, nous avons ajouté un filtre de date, à l’a
 
 ### Dépréciation des valeurs de décalage élevées dans le point de terminaison GET /users
 
-Pour améliorer les performances du système et gérer plus efficacement l’utilisation des ressources, Adobe a déprécié les valeurs de décalage élevées dans le point d’entrée GET /users pour les deux **ADMINISTRATEUR** et **ÉLÈVE** étendues. Nous vous recommandons d’utiliser la **API des tâches** pour extraire les enregistrements avec une valeur de décalage.
+Pour améliorer les performances du système et gérer plus efficacement l&#39;utilisation des ressources, Adobe a déprécié les valeurs de décalage élevées dans le point de terminaison GET /users pour les portées **ADMIN** et **ÉLÈVE**. Nous vous recommandons d&#39;utiliser l&#39;**API Jobs** pour récupérer les enregistrements avec une valeur de décalage.
 

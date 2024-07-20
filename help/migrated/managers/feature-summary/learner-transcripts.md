@@ -2,14 +2,13 @@
 description: Découvrez comment télécharger le relevé de notes d’un élève en fonction des utilisateurs, des objets d’apprentissage ou des compétences dans Learning Manager.
 jcr-language: en_us
 title: Relevés de notes de l'élève
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 85%
 
 ---
-
-
 
 # Relevés de notes de l&#39;élève
 
@@ -19,9 +18,9 @@ Adobe Learning Manager permet aux responsables d&#39;une organisation de gén�
 
 ## Générer les relevés de notes des élèves {#generatelearnertranscripts}
 
-1. Pour générer les relevés de notes des élèves, cliquez sur **[!UICONTROL Rapports]** dans le volet gauche de la connexion à Manager.
-1. Cliquez sur **[!UICONTROL Mes rapports]** sur la page.
-1. Cliquez sur **[!UICONTROL Relevés de notes des élèves]** lien.
+1. Pour générer les relevés de notes des élèves, cliquez sur **[!UICONTROL Rapports]** dans le volet gauche de la connexion au responsable.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Mes rapports]** sur la page.
+1. Cliquez sur le lien **[!UICONTROL Relevés de notes des élèves]**.
 
    ![](assets/learner-transcripts.png)
 
@@ -33,7 +32,7 @@ Adobe Learning Manager permet aux responsables d&#39;une organisation de gén�
    >
    >Par défaut, la date de début est la date d&#39;inscription de l&#39;élève et la date de fin est toujours la date du jour. Vous pouvez modifier la date de départ uniquement à partir du moment où vous avez besoin des données.
 
-1. Choisissez les noms des élèves dans le champ Sélectionner des élèves, puis cliquez sur **[!UICONTROL Générer]**.
+1. Choisissez les noms des élèves dans le champ Sélectionner les élèves, puis cliquez sur **[!UICONTROL Générer]**.
 
 Vous pouvez sélectionner un élève ou un groupe d’élèves. Cliquez Ajouter des élèves pour en ajouter davantage.
 

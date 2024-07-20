@@ -19,15 +19,15 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
 ## Création d’un rôle personnalisé {#create-role}
 
-1. Connectez-vous en tant qu’administrateur. Ouvrir **[!UICONTROL Utilisateurs]** > **[!UICONTROL Rôle personnalisé]**.
-1. Sélectionner **[!UICONTROL Créer un rôle]**. L’onglet **[!UICONTROL Créer un rôle]** s’ouvre.
+1. Connectez-vous en tant qu’administrateur. Ouvrez **[!UICONTROL Utilisateurs]** > **[!UICONTROL Rôle personnalisé]**.
+1. Sélectionnez **[!UICONTROL Créer un rôle]**. L’onglet **[!UICONTROL Créer un rôle]** s’ouvre.
 
    ![](assets/create-new-role.png)
 
    *Créer un rôle personnalisé*
 
-1. Saisissez le nom dans le champ **[!UICONTROL Nom du rôle]** champ.
-1. **[!UICONTROL Privilèges de compte]**: ces privilèges donnent aux propriétaires des rôles l’accès à des aspects spécifiques de la configuration du système et qui agissent sur l’ensemble du compte. Choisissez les autorisations d’accès. L’utilisateur obtient le contrôle total sur les autorisations affectées.
+1. Saisissez le nom dans le champ **[!UICONTROL Nom du rôle]**.
+1. **[!UICONTROL Privilèges de compte]** : ces privilèges donnent aux propriétaires des rôles l&#39;accès à des aspects spécifiques de la configuration du système et qui agissent sur l&#39;ensemble du compte. Choisissez les autorisations d’accès. L’utilisateur obtient le contrôle total sur les autorisations affectées.
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
 *Définir la portée*
 
-1. **Droits de fonctionnalités - fonctionnalités de base**: utilisé pour accorder l’accès à des fonctionnalités spécifiques de gestion des activités d’apprentissage. Les autorisations sur les fonctionnalités suivantes peuvent être accordées à l’aide de cette option.
+1. **Droits de fonctionnalités - fonctionnalités de base** : utilisés pour accorder l’accès à des fonctionnalités spécifiques pour la gestion des activités d’apprentissage. Les autorisations sur les fonctionnalités suivantes peuvent être accordées à l’aide de cette option.
 
    * Catalogues
    * Rapports
@@ -48,7 +48,7 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
    *Définir l&#39;étendue des catalogues, rapports et balises*
 
-1. **Droits de fonctionnalité - Objets d’apprentissage :**  Utilisez cette option pour donner accès aux fonctionnalités liées aux objets d’apprentissage. Vous pouvez fournir l’accès aux objets d’apprentissage suivants.
+1. **Droits de fonctionnalité - Objets d’apprentissage :** utilisez cette option pour fournir l’accès aux fonctionnalités liées aux objets d’apprentissage. Vous pouvez fournir l’accès aux objets d’apprentissage suivants.
 
    * Certifications
    * Cours
@@ -64,9 +64,9 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
    ![](assets/learning-objects.png)
 
-   *Octroi d’autorisations spécifiques*
+   *Octroyer des autorisations spécifiques*
 
-1. **Portée des privilèges de fonctionnalité :** La portée des privilèges de fonctionnalité alloués à ce rôle peut être limitée à un groupe d’utilisateurs spécifique ou à un ou plusieurs catalogues.
+1. **Portée des privilèges de fonctionnalité :** la portée des privilèges de fonctionnalité alloués à ce rôle peut être limitée à un groupe d&#39;utilisateurs spécifique ou à un ou plusieurs catalogues.
 
    Catalogues : utilisez le bouton radio pour contrôler **[!UICONTROL Tous les catalogues]** ou utilisez l’option **[!UICONTROL Définir l’accès par catalogue]** pour donner accès à des catalogues spécifiques. Vous pouvez également sélectionner plusieurs catalogues.
 
@@ -80,7 +80,7 @@ Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de c
 
    ![](assets/define-scope-of-privileges.png)
 
-   *Définition de l’étendue des privilèges*
+   *Définir l&#39;étendue des privilèges*
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ Un utilisateur avec un rôle personnalisé peut :
 
 1. **Utilisateurs :** utilisez cette option pour déterminer les utilisateurs auxquels ce rôle est affecté. Vous pouvez choisir un ou plusieurs utilisateurs à l’aide de la zone de recherche.
 
-   **Ajouter des utilisateurs au chargement CSV de rôle personnalisé :** Pour ajouter des utilisateurs via le chargement CSV, ajoutez une colonne CustomRole au fichier .csv que l’administrateur a utilisé pour importer des utilisateurs. Entrez le rôle de l’utilisateur dans la colonne CustomRole pour les utilisateurs auxquels vous souhaitez attribuer un rôle personnalisé. Pour charger le fichier CSV, cliquez sur  **[!UICONTROL Ajouter > Charger un fichier CSV]**.
+   **Ajouter des utilisateurs au chargement CSV de rôle personnalisé :** pour ajouter des utilisateurs via le chargement de CSV, ajoutez une colonne CustomRole au fichier .csv que l&#39;administrateur a utilisé pour importer des utilisateurs. Entrez le rôle de l’utilisateur dans la colonne CustomRole pour les utilisateurs auxquels vous souhaitez attribuer un rôle personnalisé. Pour télécharger le fichier CSV, cliquez sur **[!UICONTROL Ajouter > Télécharger un fichier CSV]**.
 
    CustomRole columnNote :
 
@@ -247,29 +247,29 @@ S’ils souhaitent restreindre l’accès à ces auteurs personnalisés, les adm
 
 *Restreindre l’accès aux dossiers aux auteurs personnalisés*
 
-Lorsque vous créez un auteur personnalisé, vous pouvez désormais lui attribuer des dossiers de contenu. Choisir l’option **Dossiers sélectionnés**.
+Lorsque vous créez un auteur personnalisé, vous pouvez désormais lui attribuer des dossiers de contenu. Sélectionnez l&#39;option **Dossiers sélectionnés**.
 
 Lorsque vous cliquez sur l&#39;option, une nouvelle boîte de dialogue s&#39;ouvre, dans laquelle vous pouvez attribuer les dossiers à l&#39;auteur personnalisé.
 
 ![](assets/choose-folder.png)
 
-*Sélectionner les dossiers de l’auteur personnalisé*
+*Sélectionner les dossiers de l&#39;auteur personnalisé*
 
 Sélectionnez les dossiers et cliquez sur **[!UICONTROL OK]**.
 
 ## Tableau de bord récapitulatif des apprentissages pour un administrateur personnalisé {#custom-admin-dashboard}
 
-Les administrateurs personnalisés peuvent afficher la même vue que les autres utilisateurs. Un administrateur personnalisé peut stocker des données en dehors de son périmètre. Cela s’applique uniquement si l’administrateur personnalisé a une portée complète. Pour accorder une portée complète, lors de la création d’un administrateur personnalisé, activez l’option **[!UICONTROL Contrôle total]** dans Rapport récapitulatif du compte.
+Les administrateurs personnalisés peuvent afficher la même vue que les autres utilisateurs. Un administrateur personnalisé peut stocker des données en dehors de son périmètre. Cela s’applique uniquement si l’administrateur personnalisé a une portée complète. Pour accorder l&#39;étendue complète, lors de la création d&#39;un administrateur personnalisé, activez l&#39;option **[!UICONTROL Contrôle total]** dans Rapport récapitulatif du compte.
 
 ![](assets/create-custom-role.png)
 
 *Créer un rôle personnalisé*
 
-Par conséquent, les options, **[!UICONTROL Tous les catalogues]** et **[!UICONTROL Tous les groupes d’utilisateurs]** sera sélectionné et le reste désactivé.
+Par conséquent, les options **[!UICONTROL Tous les catalogues]** et **[!UICONTROL Tous les groupes d&#39;utilisateurs]** seront sélectionnées et les autres options seront désactivées.
 
 ![](assets/scope-of-featureprivileges.png)
 
-*Définition de l’étendue des privilèges*
+*Définir l&#39;étendue des privilèges*
 
 ## Autorisations implicites {#implicitpermissions}
 
@@ -308,7 +308,7 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
    <td>Créer</td>
    <td>Cours</td>
    <td>Groupe de contenus<br>
-     Balise<br>
+     Balise <br>
      Compétence<br>
      Badge<br>
      Assistance à la tâche</td>
@@ -316,10 +316,10 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
   </tr>
   <tr>
    <td>Créer</td>
-   <td>Programme d’apprentissage<br>
+   <td>Programme d'apprentissage<br>
      Certification<br></td>
    <td>Cours<br>
-     Balise<br>
+     Balise <br>
      Compétence<br>
      Badge</td>
    <td>Lire</td>
@@ -363,7 +363,7 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
   <tr>
    <td>*</td>
    <td>Paramètre</td>
-   <td>Branding<br>
+   <td>Identité visuelle<br>
      Utilisateur</td>
    <td>Lire</td>
   </tr>
@@ -413,13 +413,13 @@ Dans la section **Portée des droits de fonctionnalités**, accordez l’accès 
 
 ![](assets/scope-for-featureprivileges.png)
 
-*Octroyer l’accès aux groupes d’utilisateurs et/ou au catalogue pour le rôle personnalisé*
+*Accorder l&#39;accès aux groupes d&#39;utilisateurs et/ou au catalogue pour le rôle personnalisé*
 
 Attribuez un utilisateur au rôle personnalisé.
 
 ![](assets/assign-users-to-customrole.png)
 
-*Affectation d’un utilisateur à un rôle personnalisé*
+*Attribuer un utilisateur à un rôle personnalisé*
 
 L’utilisateur se connecte désormais à Learning Manager en tant qu’administrateur personnalisé et ajoute un plan d’apprentissage.
 
@@ -441,7 +441,7 @@ Lorsque l’administrateur modifie la portée du rôle personnalisé, la modific
 
 ![](assets/change-scope.png)
 
-*Message après les modifications de l’étendue*
+*Message après les modifications de l&#39;étendue*
 
 L’administrateur personnalisé doit maintenant mettre à jour ou actualiser la portée précédente vers la nouvelle portée.
 
@@ -449,7 +449,7 @@ Il suffit de cliquer sur **[!UICONTROL Actualiser la portée]** pour mettre à j
 
 ![](assets/refresh-scope-message.png)
 
-*Message d’avertissement après l’actualisation d’une portée*
+*Message d&#39;avertissement après l&#39;actualisation d&#39;une étendue*
 
 Il suffit de cliquer sur **[!UICONTROL Oui]** pour mettre à jour la portée.
 
@@ -458,7 +458,7 @@ Il suffit de cliquer sur **[!UICONTROL Oui]** pour mettre à jour la portée.
 Un administrateur peut activer les rapports de ludification pour un utilisateur personnalisé.
 
 1. Dans la page **[!UICONTROL Rôles personnalisés]**, saisissez le nom du rôle personnalisé.
-1. Dans le panneau **[!UICONTROL Privilèges de fonctionnalité : fonctionnalités principales]** section, activer l’option **[!UICONTROL Contrôle total]** pour la catégorie **[!UICONTROL Rapports]**.
+1. Dans la section **[!UICONTROL Privilèges de fonctionnalités : fonctionnalités principales]**, activez l&#39;option **[!UICONTROL Contrôle total]** pour la catégorie **[!UICONTROL Rapports]**.
 
 1. Dans la section **[!UICONTROL Utilisateurs]**, sélectionnez l’utilisateur auquel sera attribué le rôle personnalisé nouvellement créé.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
@@ -467,7 +467,7 @@ Lorsqu’un utilisateur se connecte en tant qu’administrateur personnalisé et
 
 ![](assets/download-gamificationtranscripts.png)
 
-*Télécharger les transcriptions de ludification*
+*Téléchargez les transcriptions de ludification*
 
 Cliquez sur **[!UICONTROL Relevés de notes de ludification]**, choisissez un utilisateur et générez le rapport.
 

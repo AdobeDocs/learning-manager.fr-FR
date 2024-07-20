@@ -3,14 +3,13 @@ description: Les catalogues dans Learning Manager regroupent les cours, program
 jcr-language: en_us
 title: Catalogues
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 88%
 
 ---
-
-
 
 # Les catalogues
 
@@ -30,7 +29,7 @@ Utilisez les options de filtre, comme illustré dans l’instantané ci-dessous,
 
 ![](assets/search-options.png)
 
-*Localisation des cours dans le catalogue*
+*Localiser les cours dans le catalogue*
 
 ## Création d’un cours de classe virtuelle (VC) avec Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
@@ -46,7 +45,7 @@ Utilisez les options de filtre, comme illustré dans l’instantané ci-dessous,
 
    ![](assets/choose-instructor.png)
 
-   *Sélectionnez l’instructeur dans la liste*
+   *Sélectionnez l&#39;instructeur dans la liste*
 
 1. Saisissez les critères de fin du cours VC. Les critères d’achèvement représentent le pourcentage de la durée totale du cours qu’un élève doit suivre pour que le cours soit considéré comme terminé. Supposons par exemple que la durée du cours est d’1 heure. Si vous indiquez 50% comme critères d’achèvement, le cours sera considéré comme terminé pour un élève qui suit le cours pendant 30 minutes.
 

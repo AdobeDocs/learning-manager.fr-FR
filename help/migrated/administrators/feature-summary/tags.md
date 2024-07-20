@@ -3,14 +3,13 @@ description: Découvrez comment gérer les balises dans Learning Manager
 jcr-language: en_us
 title: Balises
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
 
 ---
-
-
 
 # Balises
 
@@ -26,7 +25,7 @@ Cette formation vous apprendra à ajouter, modifier, remplacer, ajouter et suppr
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Ajout/Suppression/Modification de balises {#adddeleteedittags}
 
@@ -41,16 +40,16 @@ Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.co
 
 1. Vous ne pouvez modifier qu’une seule balise à la fois. Pour modifier une balise, procédez comme suit :
 
-   * Sélectionnez la balise à modifier > ouvrir le **[!UICONTROL Actions]**menu déroulant > cliquez sur **[!UICONTROL Modifier]**.
+   * Sélectionnez la balise à modifier > ouvrez le menu déroulant **[!UICONTROL Actions]**cliquez sur **[!UICONTROL Modifier]**.
 
    La boîte de dialogue **[!UICONTROL Modifier une balise]** s’affiche. Saisissez le nom de la nouvelle balise et cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Si le nom de balise que vous avez entré existe déjà, Adobe Learning Manager affiche un message d’avertissement. Deux balises ne peuvent pas porter le même nom.
+   Si le nom de balise saisi existe déjà, Adobe Learning Manager affiche un message d’avertissement. Deux balises ne peuvent pas porter le même nom.
 
 ## Remplacement des balises {#replacetags}
 
-1. Sélectionnez les balises que vous voulez remplacer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le panneau **[!UICONTROL Actions]** menu déroulant et sélectionnez **[!UICONTROL Remplacer]**.
-1. Le **[!UICONTROL Remplacer les balises]** s’affiche avec les balises sélectionnées.
+1. Sélectionnez les balises que vous voulez remplacer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le menu déroulant **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Remplacer]**.
+1. La boîte de dialogue **[!UICONTROL Remplacer les balises]** apparaît et affiche les balises sélectionnées.
 
 1. Dans l’option **[!UICONTROL Nom pour les balises remplacées]**, saisissez le nom de la nouvelle balise par laquelle vous souhaitez remplacer les balises sélectionnées. Vous pouvez les remplacer par une balise existante dans le menu déroulant ou ajouter une nouvelle balise.
 
@@ -63,7 +62,7 @@ Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.co
 Dans le cas d’une opération d’ajout de balises, la balise nouvelle/existante est ajoutée à toutes les listes d’objets d’apprentissage et de groupes de contenus associés aux balises sélectionnées.
 
 1. Sélectionnez les balises que vous voulez associer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le menu déroulant Actions et sélectionnez **[!UICONTROL Ajouter]**.
-1. Le  **[!UICONTROL Ajouter des balises]** s’affiche avec les balises sélectionnées.
+1. La boîte de dialogue **[!UICONTROL Ajouter des balises]** s&#39;affiche et indique les balises sélectionnées.
 1. Vous pouvez associer une balise supplémentaire à tous les éléments d’apprentissage avec les balises sélectionnées en saisissant le nom de la **[!UICONTROL nouvelle balise]** ou dans la liste déroulante des balises existantes. La nouvelle balise sera associée à tous les éléments d’apprentissage dans Learning Manager.
 
    Les points-virgules ou les virgules ne peuvent pas faire partie du nom de balise. S’ils sont utilisés, Prime affichera un message d’erreur. Notez que les balises sans point-virgule et l’affichage de messages d’erreur lors de l’utilisation de ces balises dans certains objets d’apprentissage ne seront pas traités pour les scénarios de migration.
@@ -76,7 +75,7 @@ En tant qu’administrateur, vous pouvez autoriser l’auteur à créer des bali
 
 ![](assets/unknown-1.jpeg)
 
-*Page Paramètres pour la création d’une balise*
+*Page Paramètres pour la création d&#39;une balise*
 
 * Lorsqu’un utilisateur est autorisé à créer des balises et sélectionne des balises existantes actuellement non valides,
 

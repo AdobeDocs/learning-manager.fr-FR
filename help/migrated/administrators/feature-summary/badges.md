@@ -19,7 +19,7 @@ Vous pouvez définir des badges qui peuvent servir de motivation aux utilisateur
 
 Les administrateurs peuvent créer des badges pour les participants comme suit :
 
-1. Connectez-vous en tant qu’administrateur et cliquez sur **[!UICONTROL Badges]** dans le volet de gauche. Une liste de badges d’élève s’affiche.
+1. Connectez-vous en tant qu&#39;administrateur et cliquez sur **[!UICONTROL Badges]** dans le volet de gauche. Une liste de badges d’élève s’affiche.
 
    >[!NOTE]
    >
@@ -31,4 +31,4 @@ Les administrateurs peuvent créer des badges pour les participants comme suit 
 
    *Ajouter un nom de badge et son image*
 
-1. Entrez le nom du badge. Chargez le badge en cliquant sur **[!UICONTROL Charger un badge]** et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Entrez le nom du badge. Chargez le badge en cliquant sur **[!UICONTROL Télécharger le badge]** et cliquez sur **[!UICONTROL Enregistrer]**.

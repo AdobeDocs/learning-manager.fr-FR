@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Questions fréquemment posées par les élèves
-description: Forum aux questions pour les élèves d’Adobe Learning Manager
+description: Forum aux questions pour les élèves de Adobe Learning Manager
 contentowner: admin
 preview: true
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
@@ -32,7 +32,7 @@ Toutefois, vous avez la possibilité de parcourir les cours répertoriés sous C
 
 Oui, vous pouvez accéder au contenu hors ligne sur iPad, sur des tablettes Android et sur des smartphones.
 
-Pour plus d’informations sur l’accès hors ligne, reportez-vous à  [Utilisateurs de tablettes iPad et Android](feature-summary/ipad-android-tablet-users.md) fonctionnalité.
+Pour plus d&#39;informations sur l&#39;accès hors ligne, consultez la fonctionnalité [Utilisateurs de tablettes iPad et Android](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -48,7 +48,7 @@ Cliquez sur le champ de recherche. Vous pouvez rechercher en temps réel dans ce
 
 Oui, vous pouvez comparer vos points d’apprentissage à ceux de vos collègues. Placez le pointeur de la souris sur le cercle de profil. Vous pouvez afficher vos propres points ici. Pour afficher la boîte de dialogue Tableau des scores, cliquez sur Accéder au tableau des scores. Dans cette boîte de dialogue, vous pouvez afficher la liste de vos collègues dont le classement est similaire au vôtre.
 
-Pour plus d’informations, voir  [Classement](feature-summary/gamification.md)fonctionnalité.
+Pour plus d&#39;informations, reportez-vous à la fonctionnalité [Tableau des scores](feature-summary/gamification.md).
 
 +++
 
@@ -68,7 +68,7 @@ Cliquez sur la flèche vers le bas dans l’angle inférieur droit de la fenêtr
 
 +++ Quelle est la différence entre l’apprentissage et le catalogue ?
 
-Dans l’onglet Apprentissage, vous pouvez afficher tous les  [cours](feature-summary/courses.md),  [programmes d’apprentissage](feature-summary/learning-programs.md) et  [certifications](feature-summary/certifications.md) que vous avez inscrits ou qui vous ont été attribués. Vous pouvez également passer à l’onglet Apprentissage en cliquant sur le lien Aller à l’apprentissage.
+Dans l&#39;onglet Apprentissage, vous pouvez afficher tous les [cours](feature-summary/courses.md), [programmes d&#39;apprentissage](feature-summary/learning-programs.md) et [certifications](feature-summary/certifications.md) que vous inscrivez ou qui vous sont attribués. Vous pouvez également passer à l’onglet Apprentissage en cliquant sur le lien Aller à l’apprentissage.
 
 Dans l’onglet Catalogue, vous pouvez voir tous les cours, programmes d’apprentissage et certifications disponibles pour votre rôle dans le compte de l’entreprise. Vous pouvez également passer à l’onglet Catalogue en cliquant sur le lien Aller au catalogue.
 
@@ -94,7 +94,7 @@ Une fois que les élèves ont terminé certains cours, ils peuvent connaître le
 
 Pour afficher les compétences, cliquez sur l’un des noms de compétence dans la zone des cartes de compétences, dans l’angle supérieur droit de la page d’accueil. Les compétences s’affichent avec leurs niveaux en regard de chacune d’elles.
 
-Pour plus d’informations, voir  [Compétences et niveaux](feature-summary/skills-levels.md) fonctionnalité.
+Pour plus d&#39;informations, consultez la fonctionnalité [Compétences et niveaux](feature-summary/skills-levels.md).
 
 +++
 
@@ -102,7 +102,7 @@ Pour plus d’informations, voir  [Compétences et niveaux](feature-summary/skil
 
 Oui, vous pouvez accéder à Learning Manager sur des smartphones, des iPad ou toute autre tablette Android.
 
-Pour plus d’informations sur cette fonctionnalité, voir  [Utilisateurs de l’application iPad et Android](feature-summary/ipad-android-tablet-users.md) fonctionnalité.
+Pour plus d&#39;informations sur cette fonctionnalité, consultez la section [Utilisateurs de l&#39;application iPad et Android](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -110,19 +110,19 @@ Pour plus d’informations sur cette fonctionnalité, voir  [Utilisateurs de l�
 
 Oui, Learning Manager est accessible à l’aide d’un iPad. Vous pouvez télécharger l’application depuis App Store ou Google Play.
 
-Seules les fonctions du rôle Élève sont accessibles à l’aide d’une tablette iPad ou toute tablette Android. Vous pouvez également suivre des cours hors ligne et les synchroniser avec l’application lorsque vous reconnectez. Pour plus d’informations, voir  [Utilisateurs de l’application iPad et Android](feature-summary/ipad-android-tablet-users.md) fonctionnalité
+Seules les fonctions du rôle Élève sont accessibles à l’aide d’une tablette iPad ou toute tablette Android. Vous pouvez également suivre des cours hors ligne et les synchroniser avec l’application lorsque vous reconnectez. Pour plus d&#39;informations, consultez la fonctionnalité [Utilisateurs d&#39;applications iPad et Android](feature-summary/ipad-android-tablet-users.md)
 
 +++
 
 +++Impossible de se connecter à Learning Manager. Que faire ?
 
-Si vous disposez d’un ID Adobe, vous pouvez vous connecter à Learning Manager. Suivez les instructions à l’adresse  [connexion utilisateur](feature-summary/user-login.md) pour plus d’informations sur la connexion à l’application. Si le problème persiste, contactez notre équipe d’assistance.
+Si vous disposez d’un ID Adobe, vous pouvez vous connecter à Learning Manager. Suivez les instructions de la fonctionnalité [connexion utilisateur](feature-summary/user-login.md) pour plus d&#39;informations sur la connexion à l&#39;application. Si le problème persiste, contactez notre équipe d’assistance.
 
 +++
 
 +++Comment atteindre un niveau de compétence ?
 
-Vous obtenez des crédits chaque fois que vous acquérez un nouveau niveau de compétence. Les crédits sont associés aux niveaux de compétence. Pour plus d’informations sur les compétences et les niveaux, reportez-vous à la section  [compétences et niveaux](feature-summary/skills-levels.md) fonctionnalité.
+Vous obtenez des crédits chaque fois que vous acquérez un nouveau niveau de compétence. Les crédits sont associés aux niveaux de compétence. Pour plus d&#39;informations sur les compétences et les niveaux, consultez la fonctionnalité [compétences et niveaux](feature-summary/skills-levels.md).
 
 +++
 
@@ -140,9 +140,9 @@ Vous pouvez exprimer votre intérêt à prendre part à tout cours de salle de c
 
 +++ Quelle est la différence entre les crédits et les points de ludification ?
 
-Vous obtenez des crédits chaque fois que vous acquérez un nouveau niveau de compétence. Les crédits sont associés aux niveaux de compétence. Pour plus d’informations sur les crédits, les compétences et les niveaux, voir  [compétences et niveaux](feature-summary/skills-levels.md) fonctionnalité.
+Vous obtenez des crédits chaque fois que vous acquérez un nouveau niveau de compétence. Les crédits sont associés aux niveaux de compétence. Pour plus d&#39;informations sur les crédits, les compétences et les niveaux, consultez la fonctionnalité [compétences et niveaux](feature-summary/skills-levels.md).
 
-Vous obtenez des points de ludification chaque fois que vous terminez une tâche. Actuellement, six tâches de ludification sont disponibles dans Learning Manager. A l&#39;achèvement de chaque tâche, vous obtenez un nombre spécifique de points associés à cette tâche. Pour plus d’informations, voir  [ludification](feature-summary/gamification.md) fonctionnalité.
+Vous obtenez des points de ludification chaque fois que vous terminez une tâche. Actuellement, six tâches de ludification sont disponibles dans Learning Manager. A l&#39;achèvement de chaque tâche, vous obtenez un nombre spécifique de points associés à cette tâche. Pour plus d&#39;informations, consultez la fonctionnalité de [ludification](feature-summary/gamification.md).
 
 +++
 
@@ -154,7 +154,7 @@ Une liste de badges acquis par l’élève s’affiche en haut de la page.
 
 Les badges sont attribués aux élèves selon un critère spécifique défini par votre organisation, qui est généralement l’achèvement réussi d’un cours ou d’un objet d’apprentissage.
 
-Pour plus d’informations, voir  [badges](feature-summary/badges.md) fonctionnalité.
+Pour plus d&#39;informations, consultez la fonctionnalité [badges](feature-summary/badges.md).
 
 +++
 
@@ -164,7 +164,7 @@ Les programmes d’apprentissage sont des ensembles de cours uniquement destiné
 
 Pour commencer à suivre le programme d’apprentissage, cliquez sur le programme qui vous est assigné. Vous pouvez afficher les informations détaillées de ce programme particulier.
 
-A **Démarrer le programme** s&#39;affiche dans le coin supérieur droit de la page du programme d&#39;apprentissage. Cliquez sur **[!UICONTROL Démarrer le programme]** pour commencer à suivre le cours.
+Un bouton **Démarrer le programme** apparaît dans le coin supérieur droit de la page du programme d&#39;apprentissage. Cliquez sur **[!UICONTROL Démarrer le programme]** pour commencer à suivre le cours.
 
 +++
 
@@ -181,7 +181,7 @@ En fonction des points obtenus en terminant les cours, vous obtenez les niveaux 
 
 Vous pouvez afficher vos points de niveau actuel dans votre profil et votre cible pour obtenir des points plus élevés, si nécessaire.
 
-Refer  [Fonction de ludification](feature-summary/gamification.md) pour plus d’informations.
+Reportez-vous à la [fonctionnalité de ludification](feature-summary/gamification.md) pour plus d&#39;informations.
 
 +++
 
@@ -189,7 +189,7 @@ Refer  [Fonction de ludification](feature-summary/gamification.md) pour plus d�
 
 Tous les cours dans Learning Manager sont lus dans un navigateur. Vous pouvez afficher les cours en plein écran à l’aide du lecteur Fluidic de Learning Manager.
 
-Refer  [Fonctionnalité Lecteur Fluidic](feature-summary/fluidic-player.md) pour plus d’informations sur Player.
+Reportez-vous à la [fonctionnalité Lecteur Fluidic](feature-summary/fluidic-player.md) pour plus d&#39;informations sur le lecteur.
 
 [Puis-je exporter mes notes personnelles ?](frequently-asked-questions-for-learners.md)
 
@@ -225,10 +225,10 @@ Vous pouvez prendre des notes en lisant le contenu de votre cours en suivant ces
 Vous avez la possibilité de télécharger ou d’envoyer par e-mail vos notes de cours en suivant les étapes ci-dessous :
 
 1. Cliquez sur la vignette du cours pour lequel vous voulez visualiser les notes.
-1. Cliquez sur le bouton **Notes** onglet adjacent à **Modules** onglet.
+1. Cliquez sur l&#39;onglet **Notes** en regard de l&#39;onglet **Modules**.
 
-1. Cliquez sur **[!UICONTROL Télécharger les notes]** pour télécharger au format pdf.
-1. Cliquez sur **[!UICONTROL Notes par e-mail]** pour recevoir les notes par e-mail à votre compte de messagerie.
+1. Cliquez sur **[!UICONTROL Télécharger les notes]** pour les télécharger au format PDF.
+1. Cliquez sur **[!UICONTROL Envoyer les notes par e-mail]** pour les recevoir par e-mail dans votre compte de messagerie.
 
 +++
 
@@ -259,7 +259,7 @@ Vous recevrez une notification à la fin du cours ainsi qu’un lien pour fourni
 
 Dans le cadre de la récompense et de la reconnaissance des accomplissements des élèves, Learning Manager introduit des badges en ligne pour les élèves. Les badges sont attribués en fonction d&#39;un critère défini et sont ensuite affichés sur le profil d&#39;un élève en haut de la page d&#39;accueil des élèves.
 
-Refer  [Fonctionnalité Certifications](feature-summary/certifications.md) pour plus d&#39;informations sur les certifications pour les élèves.
+Reportez-vous à la [fonctionnalité Certifications](feature-summary/certifications.md) pour plus d&#39;informations sur les certifications pour les élèves.
 
 +++
 
@@ -308,8 +308,8 @@ En fonction de votre choix, vous pouvez afficher la liste de cours filtrée et s
 
 +++ Comment accéder à mes cours dans Learning Manager ?
 
-1. Impossible de se connecter à Learning Manager. Si vous avez oublié le mot de passe, cliquez sur **[!UICONTROL Mot de passe oublié]** lien fourni dans la page de connexion pour renvoyer le document à votre adresse e-mail.
-1. Une fois connecté, vous pouvez voir l’onglet COURS en haut de l’écran. Cliquez sur **[!UICONTROL COURS]** pour afficher la liste des cours qui vous ont été attribués.
+1. Impossible de se connecter à Learning Manager. Si vous avez oublié le mot de passe, cliquez sur le lien **[!UICONTROL Mot de passe oublié]** fourni dans la page de connexion pour le récupérer dans votre ID de messagerie.
+1. Une fois connecté, vous pouvez voir l’onglet COURS en haut de l’écran. Cliquez sur l&#39;onglet **[!UICONTROL COURS]** pour afficher la liste des cours qui vous ont été attribués.
 
 +++
 

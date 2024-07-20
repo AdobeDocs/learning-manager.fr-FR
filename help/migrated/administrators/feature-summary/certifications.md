@@ -26,7 +26,7 @@ En tant qu’administrateur, vous pouvez créer un programme de certification h�
 
 1. Afficher les certifications dans différents modes :
 
-   1. Cliquez sur **[!UICONTROL Brouillon]** pour afficher toutes les certifications qui sont à l&#39;état de brouillon. Vous devez terminer leur création.
+   1. Cliquez sur l&#39;onglet **[!UICONTROL Brouillon]** pour afficher toutes les certifications à l&#39;état de brouillon. Vous devez terminer leur création.
    1. Cliquez sur **[!UICONTROL Publié]** pour afficher toutes les certifications que vous avez publiées.
    1. Cliquez sur **[!UICONTROL Tous]** pour afficher les certifications dans tous les états.
    1. Triez et affichez la liste des certifications par ordre croissant, décroissant ou selon la date à laquelle vous les avez mises à jour.
@@ -79,7 +79,7 @@ En tant qu’administrateur, vous pouvez créer un programme de certification h�
   <tr>
    <td>Émetteur de la certification<br></td>
    <td>
-    <p>Choisir <b>Interne</b> s’il appartient à votre organisation, ou choisissez <b>Externe</b> pour les certifications d’organisations externes.</p>
+    <p>Choisissez <b>Interne</b> s'il appartient à votre organisation, ou choisissez <b>Externe</b> pour les certifications d'organisation externe.</p>
     <p>Lorsque vous choisissez <b>Certification externe</b>, deux options supplémentaires s’affichent :</p>
     <ul>
      <li>Identique à la date d’approbation<br></li>
@@ -102,18 +102,18 @@ En tant qu’administrateur, vous pouvez créer un programme de certification h�
  </tbody>
 </table>
 
-Sélectionnez le niveau de produits, de rôles et de rôles dans la liste **[!UICONTROL Recommander pour]** pour suggérer ce parcours d’apprentissage aux utilisateurs qui ont exprimé leur intérêt pour ces produits et rôles.
+Sélectionnez le niveau de produits, de rôles et de rôles dans la section **[!UICONTROL Recommander pour]** pour suggérer ce parcours d’apprentissage aux utilisateurs qui ont exprimé leur intérêt pour ces produits et rôles.
 
 ![](assets/recommend-for.png)
 
 *Recommandation*
 
-Choisir les cours à ajouter à la certification à partir de **[!UICONTROL Cours]** > **[!UICONTROL Catalogue]** onglet.
+Choisissez les cours à ajouter à la certification dans l&#39;onglet **[!UICONTROL Cours]** > **[!UICONTROL Catalogue]**.
 
-Passez le curseur de la souris sur chaque vignette de cours, cliquez sur + pour les ajouter à la certification. Cliquez sur **[!UICONTROL Aperçu]** pour afficher le cours en tant qu’élève avant de l’ajouter.
+Passez le curseur de la souris sur chaque vignette de cours, cliquez sur + pour les ajouter à la certification. Cliquez sur **[!UICONTROL Aperçu]** pour afficher le cours en tant qu&#39;élève avant de l&#39;ajouter.
 
-1. Cliquez sur **[!UICONTROL Curriculum]** pour afficher/vérifier la liste des cours que vous avez ajoutés.
-1. Cliquez sur **[!UICONTROL Publier]**.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Curriculum]** pour afficher/vérifier la liste des cours que vous avez ajoutés.
+1. Cliquez sur **[!UICONTROL Publish]**.
 
 ## Mappage d’instance de cours pour les certifications {#courseinstancemappingforcertifications}
 
@@ -148,12 +148,12 @@ Lors de la création des certifications, l’administrateur dispose d’une opti
 
 Les administrateurs peuvent marquer une certification comme terminée à lֹ’aide de l’option qui leur est proposée. Pour indiquer qu’une certification est terminée, suivez les étapes suivantes.
 
-1. Ouvrir **[!UICONTROL Certification]** > **[!UICONTROL Élèves]**.
+1. Ouvrez **[!UICONTROL Certification]** > **[!UICONTROL Élèves]**.
 
    La page Élèves s’ouvre avec la liste des élèves inscrits.
 
 1. Sélectionnez un/plusieurs/tous les élèves et marquez la certification comme terminée à l’aide de la case à cocher disponible pour tous les élèves.
-1. Cliquez sur  **[!UICONTROL Action]** > **[!UICONTROL Marquer comme terminé.]**
+1. Cliquez sur **[!UICONTROL Action]** > **[!UICONTROL Marquer comme terminé.]**
 
    Remarque : si une certification comprend plusieurs cours, tous les cours seront marqués comme terminés.
 
@@ -161,19 +161,19 @@ Les administrateurs peuvent marquer une certification comme terminée à lֹ’a
 
 Dans les versions précédentes de Learning Manager, l’achèvement du cours d’un élève en certification externe n’était pas obligatoire pour obtenir un certificat.
 
-Vous pouvez désormais rendre les cours obligatoires en activant l’option **[!UICONTROL Définition des cours obligatoires comme étant obligatoires pour l’obtention de la certification]** dans l’onglet Curriculum lors de la modification de la certification.
+Vous pouvez désormais rendre les cours obligatoires en activant l&#39;option **[!UICONTROL Définir les cours obligatoires comme étant obligatoires pour l&#39;obtention de la certification]** dans l&#39;onglet Curriculum lors de la modification de la certification.
 
 ## Modification d’une certification publiée {#editingapublishedcertification}
 
 Une certification peut être modifiée par un administrateur à l’état publié. À ce stade, l’administrateur peut modifier toutes les parties d’une certification et les republier.
 
-Pour modifier une certification publiée, cliquez sur la carte de certification, puis sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
+Pour modifier une certification publiée, cliquez sur la carte de certification et cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
 
 Lors de la modification des sections d’une certification, si vous devez vous extraire de la page, vous devez publier de nouveau la certification. Vous recevez une confirmation par l’intermédiaire d’une boîte de dialogue vous demandant de publier de nouveau la certification.
 
 ![](assets/edit-a-certificate.png)
 
-*Modification d’un certificat*
+*Modifier un certificat*
 
 ## Inscription {#subscription}
 
@@ -181,4 +181,4 @@ Un administrateur peut récupérer les scores de quiz et les rapports d’état 
 
 ![](assets/report-subscription.jpeg)
 
-*Définition de la fréquence des rapports et d’autres propriétés*
+*Définir la fréquence du rapport et d&#39;autres propriétés*

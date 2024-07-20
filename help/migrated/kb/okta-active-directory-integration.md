@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Intégration d’Okta Active Directory à Adobe Learning Manager
 description: Intégration d’Okta Active Directory à Adobe Learning Manager
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 57%
 
 ---
-
-
 
 # Intégration d’Okta Active Directory à Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
@@ -29,46 +28,46 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 
    ![](assets/cp-application-store.png)
 
-   *Afficher la boutique d’applications dans Okta*
+   *Afficher le magasin d&#39;applications dans Okta*
 
-1. Cliquez sur **[!UICONTROL Créer une intégration d’application]**.
+1. Cliquez sur **[!UICONTROL Créer une intégration d&#39;application]**.
 
    ![](assets/cp-app-integrations.png)
 
-   *Sélectionnez Créer une intégration d’application*
+   *Sélectionnez Créer Une Intégration D&#39;Application*
 
-1. Sélectionner **[!UICONTROL SAML 2.0]** à partir de la fenêtre nouvelle intégration d’application.
+1. Sélectionnez **[!UICONTROL SAML 2.0]** dans la nouvelle fenêtre d’intégration de l’application.
 
    ![](assets/cp-saml2.0.png)
 
-   *Sélectionner l’option SAML2.0*
+   *Sélectionner l&#39;option SAML2.0*
 
-1. Sélectionner **[!UICONTROL Création d’une intégration SAML]** > **[!UICONTROL Page Paramètres généraux]**. Saisissez un nom d’application.
+1. Sélectionnez **[!UICONTROL Créer une intégration SAML]** > **[!UICONTROL Page des paramètres généraux]**. Saisissez un nom d’application.
 
    Notez qu’il peut s’agir de n’importe quel nom pour identifier votre application de manière unique. Une fois terminé, cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/cp-saml-integration.png)
 
-   *Saisissez le nom de l’application*
+   *Entrez le nom de l&#39;application*
 
 1. Effectuez les étapes suivantes sur la page Configurer les paramètres SAML :
 
    **Pour la configuration du FI :**
 
-   1. Dans le champ URL d’authentification unique, saisissez l’URL : [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Dans le champ URL de l’audience, saisissez l’URL : [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. Dans le panneau **Format d’ID de nom** liste déroulante, sélectionnez **Adresse e-mail**.
+   1. Dans le champ URL d&#39;authentification unique, saisissez l&#39;URL : [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Dans le champ URL du public, saisissez l’URL : [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. Dans la liste déroulante **Format d&#39;ID de nom**, sélectionnez **Adresse électronique**.
    1. Dans la liste déroulante **Nom d&#39;utilisateur de l&#39;application**, sélectionnez Nom d&#39;utilisateur Okta.
    1. Si vous souhaitez transmettre des attributs supplémentaires, vous pouvez ajouter les attributs sous l&#39;**Instruction Attributes** (Facultatif)
 
    ![](assets/cp-saml-integration-step1.png)
 
-   *Ajout d’attributs SAML*
+   *Ajouter des attributs SAML*
 
-   **Pour la configuration SP :**
+   **Configuration SP :**
 
-   1. Dans le champ URL d’authentification unique, saisissez l’URL : [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Dans le champ URL de l’audience, saisissez l’URL : [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. Dans le champ URL d&#39;authentification unique, saisissez l&#39;URL : [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Dans le champ URL du public, saisissez l’URL : [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. Dans la liste déroulante Format d’ID de nom, sélectionnez **Adresse électronique**.
    1. Dans la liste déroulante Application, sélectionnez Nom d’utilisateur Okta.
    1. Cliquez sur **Afficher les paramètres avancés**.
@@ -81,11 +80,11 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 
    ![](assets/cp-saml-integration-step2.png)
 
-   *Ajout d’attributs supplémentaires*
+   *Ajouter des attributs supplémentaires*
 
    Une fois terminé, cliquez sur **[!UICONTROL Suivant]**.
 
-1. Le **Commentaires**  est facultatif. Une fois que vous avez sélectionné les options et donné votre avis, cliquez sur **[!UICONTROL Terminer]**.
+1. L&#39;onglet **Commentaires** est facultatif. Une fois que vous avez sélectionné les options et donné votre avis, cliquez sur **[!UICONTROL Terminer]**.
 
    ![](assets/cp-saml-integration-step3.png)
 
@@ -96,16 +95,16 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 Pour afficher l’URL et le fichier de métadonnées initiés par l’IdP/SP, effectuez les étapes ci-dessous :
 
 1. Ouvrez l’application que vous avez créée.
-1. Sous le **Authentification unique** onglet, cliquez sur **[!UICONTROL Afficher les instructions]**.
+1. Sous l&#39;onglet **Authentification unique**, cliquez sur **[!UICONTROL Afficher les instructions]**.
 
    ![](assets/cp-prime-sso.png)
 
-   *Sélectionnez l’onglet SSO.*
+   *Sélectionnez l’onglet SSO*
 
-   **Pour les FI :**
+   **Pour le FI :**
 
    1. L’URL d’authentification unique du fournisseur d’identité est l’URL initiée par l’IdP.
-   1. Copiez tout le texte présent sous **Facultatif** champ.
+   1. Copiez tout le texte présent sous le champ **Facultatif**.
    1. Ouvrez un nouveau document du bloc-notes et collez le texte copié.
    1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]** > « filename.xml ». Il s’agit du fichier de métadonnées.
 
@@ -113,7 +112,7 @@ Pour afficher l’URL et le fichier de métadonnées initiés par l’IdP/SP, ef
 
    1. L’URL d’authentification unique du fournisseur d’identité est l’URL initiée par l’IdP.
    1. L&#39;émetteur du fournisseur d&#39;identité est l&#39;ID d&#39;entité.
-   1. Copiez tout le texte présent sous **Facultatif** champ.
+   1. Copiez tout le texte présent sous le champ **Facultatif**.
    1. Ouvrez un nouveau document du bloc-notes et collez le texte copié.
    1. Cliquez sur **[!UICONTROL Fichier]** > **[!UICONTROL Enregistrer sous]** > **[!UICONTROL filename.xml]**. Il s’agit du fichier de métadonnées.
 

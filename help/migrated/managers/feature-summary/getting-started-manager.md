@@ -3,14 +3,13 @@ description: Prise en main de Learning Manager en tant que responsable.
 jcr-language: en_us
 title: Prise en main pour les responsables
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # Prise en main pour les responsables
 
@@ -36,4 +35,3 @@ Depuis la page Prise en main, vous pouvez réaliser les activités suivantes :
 Vous pouvez également en savoir plus sur l’application Learning Manager en consultant les didacticiels vidéo, le contenu de l’aide et découvrir les différents rôles.
 
 <!--![](assets/manager-experienceprime.png)-->
-

@@ -3,22 +3,21 @@ jcr-language: en_us
 title: Utilisateurs de tablettes Android et iPad
 description: Utilisateurs de tablettes Android et iPad
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 72%
 
 ---
 
-
-
 # Utilisateurs de tablettes Android et iPad
 
-Dans l’application Learning Manager sur tablette iPad ou Android, une fois que vous vous êtes connecté en tant qu’élève, vous pouvez voir les éléments suivants : **Accueil** écran :
+Dans l&#39;application Learning Manager sur tablette iPad ou Android, une fois connecté en tant qu&#39;élève, l&#39;écran d&#39;**accueil** suivant s&#39;affiche :
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur **Menu** et choisissez l’option appropriée.
+Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
 
 ![](assets/menu-ipad.png)
 
@@ -37,7 +36,7 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
 
 Vous pouvez surveiller votre espace de stockage régulièrement.
 
-Appuyez sur l’icône de profil dans le coin supérieur droit de l’application, puis appuyez sur **Stockage sur l’appareil** option de menu.
+Appuyez sur l&#39;icône de profil dans le coin supérieur droit de l&#39;application et appuyez sur l&#39;option de menu **Stockage sur l&#39;appareil**.
 
 ![](assets/app-device-storage.png)
 

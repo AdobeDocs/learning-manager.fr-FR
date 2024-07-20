@@ -56,7 +56,7 @@ argument_object=
 
 Cette version d’Adobe Learning Manager inclut un nouveau connecteur, qui utilise le protocole SFTP de la famille AWS Transfer.
 
-Cette modification remplacera également le connecteur Exavault, qui ne sera plus disponible pour les nouveaux utilisateurs. Vous pouvez utiliser n’importe quel client FTP open source pour remplacer ExaVault. Pour plus d’informations, voir [Transition à partir du gestionnaire FTP d’Adobe](transition-from-ftp-manager.md).
+Cette modification remplacera également le connecteur Exavault, qui ne sera plus disponible pour les nouveaux utilisateurs. Vous pouvez utiliser n’importe quel client FTP open source pour remplacer ExaVault. Pour plus d&#39;informations, voir [Transition à partir du gestionnaire FTP Adobe](transition-from-ftp-manager.md).
 
 ## Rappels dans Outlook pour la salle de classe et les sessions virtuelles
 
@@ -70,7 +70,7 @@ Nous avons apporté des améliorations au flux d’attribution de compétences p
 
 Les cours approuvés par le responsable fournissent désormais les bonnes informations d’erreur aux responsables et aux élèves.
 
-![messages d’erreur](assets/error-messages.png)
+![messages d&#39;erreur](assets/error-messages.png)
 
 Les responsables peuvent désormais consulter des messages d’erreur pertinents ainsi que des informations (par exemple, la date limite d’inscription est passée) lorsqu’ils ne peuvent pas approuver une demande d’inscription à un cours. Les élèves voient l’erreur et l’action corrective.
 
@@ -86,7 +86,7 @@ Le rapport de formation comprend une colonne supplémentaire pour afficher l’�
 
 Une fenêtre contextuelle permettant de capturer l’évaluation par étoiles d’un cours s’affiche dès que l’utilisateur termine le dernier module du cours.
 
-![notes](assets/ratings.png)
+![évaluations](assets/ratings.png)
 
 ## Personnalisation des modèles de courrier électronique
 
@@ -106,13 +106,13 @@ Les auteurs peuvent désormais fournir une date de **Suppression automatique** d
 
 Les administrateurs peuvent également décider au niveau du compte de la nature de l’accès aux objets d’apprentissage « retirés ».
 
-Le rapport de formation comprend une nouvelle colonne, **Date de retrait automatique**, pour afficher la date de retrait de chaque objet d’apprentissage (si elle est définie).
+Le rapport de formation comprend une nouvelle colonne, **Date de retrait automatique**, pour afficher la date de retrait pour chaque objet d&#39;apprentissage (si elle est définie).
 
 ## Valeurs d’étiquette de catalogue par auteur
 
 Les auteurs peuvent désormais ajouter leurs valeurs aux étiquettes de catalogue lors de la création ou de la modification d’un cours. Les administrateurs peuvent activer cette fonctionnalité au niveau du compte. Lorsqu’un auteur ajoute une nouvelle valeur d’étiquette de catalogue, elle devient partie intégrante de la recherche par frappe anticipée.
 
-![sélectionner un catalogue](assets/select-catalog.png)
+![sélectionner le catalogue](assets/select-catalog.png)
 
 ## Améliorations apportées à la recherche de cours pour les rôles d’administrateur, d’auteur et de responsable
 
@@ -134,7 +134,7 @@ Des améliorations ont été apportées à l’API d’inscription afin de prend
 
 Les élèves peuvent télécharger et consommer le contenu hors connexion. Les parcours d’apprentissage imbriqués et flexibles ne sont pas pris en charge pour l’affichage hors connexion.
 
-*Dans cette version, l’affichage de contenu hors ligne est pris en charge uniquement pour le contenu en anglais.*
+*Dans cette version, l&#39;affichage de contenu hors ligne est pris en charge uniquement pour le contenu en anglais.*
 
 ## Accessibilité
 
@@ -148,7 +148,7 @@ Lorsque la prochaine version majeure sera publiée, l’application mobile Adobe
 
 Le contenu de LinkedIn n’est pas chargé comme prévu dans l’application immersive du navigateur Safari. Pour contourner ce problème, procédez comme suit :
 
-1. Sur l’appareil, sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Safari]**.
+1. Sur l&#39;appareil, sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Safari]**.
 1. Désactivez **Empêcher le suivi intersite**.
 1. Désactivez **Bloquer tous les cookies**.
 1. Connectez-vous à l’application Immersive.
@@ -219,7 +219,7 @@ La recherche inclut également les produits et les paramètres de rôle dans la 
 
 Le modèle Objet d’apprentissage renvoie des recommandations portant la balise Auteur si la recommandation PRL est en ligne.
 
-**Demander l’URL**
+**Demander l&#39;URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects?sort=recommendationScore&filter.recommendationProducts=...&filter.recommendationRoles=...&filter.excludeIgnoredRecommendations=true`
 
@@ -305,7 +305,7 @@ Les attributs suivants sont pris en charge dans le corps de l&#39;appel de requ�
 
 Récupère le produit PRL par ID de produit de recommandation.
 
-**Demander l’URL**
+**Demander l&#39;URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationProducts`
 
@@ -313,7 +313,7 @@ GET /recommendationRoles
 
 Récupère le produit PRL par ID de produit de recommandation. Seuls les rôles visibles de (objets d’apprentissage) seront renvoyés.
 
-**Demander l’URL**
+**Demander l&#39;URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/prlRecommendations/roles`
 
@@ -369,7 +369,7 @@ Crée/recrée (remplace) les préférences de recommandation PRL. Exemple de cha
 
 **`GET /users/{id}/recommendationPreferences`**
 
-**Demander l’URL**
+**Demander l&#39;URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2//users/123/recommendationPreferences`
 
@@ -377,7 +377,7 @@ Crée/recrée (remplace) les préférences de recommandation PRL. Exemple de cha
 
 Supprime les préférences utilisateur de recommandation PRL pour un produit ou un rôle.
 
-**Demander l’URL**
+**Demander l&#39;URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
 
@@ -424,7 +424,7 @@ Ajout/Mise à jour partiel. Exemple de charge utile :
 
 Ajouter LO aux recommandations bloquées.
 
-**Demander l’URL**
+**Demander l&#39;URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
@@ -432,7 +432,7 @@ Ajouter LO aux recommandations bloquées.
 
 Supprime l’objet d’apprentissage des recommandations bloquées.
 
-**Demander l’URL**
+**Demander l&#39;URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
@@ -565,15 +565,15 @@ Par exemple,
 * Indicateur de remplacement pour les API des élèves.
 * Nous allons modifier la valeur par défaut pour highlightResults=false. Nous allons également modifier la valeur par défaut de snippetType=courseName.
 * Nous allons déprécier matchType=bool dans le point de terminaison de recherche.
-* autoCompleteMode a la propriété [Obsolète] et pour fournir la même fonctionnalité d&#39;autoCompleteMode =false, nous avons ajouté un matchType appelé Match.
+* autoCompleteMode a la balise [Obsolète] et pour fournir la même fonctionnalité autoCompleteMode =false, nous avons ajouté un matchType appelé Match.
 
 ### Format d’ID de badge avec inscription multiple
 
-Pour prendre en charge les badges d&#39;instance multi-inscrits, nous modifions le format des badges de cours de `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` pour identifier les badges de manière unique.
+Pour prendre en charge les badges d&#39;instance inscrits plusieurs fois, nous remplaçons le format des badges de cours `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` par des badges d&#39;identification unique.
 
 ## Notes de mise à jour
 
-Pour plus d’informations sur les versions actuelles et précédentes de l’application web et de l’application pour appareil Learning Manager, consultez la section [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
+Pour plus d&#39;informations sur les versions actuelles et précédentes de l&#39;application web et de l&#39;application pour appareil Learning Manager, consultez les [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
 
 ## Problèmes connus ou limitations de cette version
 

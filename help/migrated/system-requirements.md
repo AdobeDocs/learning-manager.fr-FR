@@ -65,7 +65,7 @@ Un microphone est nécessaire pour l’enregistrement audio ; une webcam est n�
 
 >[!NOTE]
 >
->Le navigateur mobile prend uniquement en charge le rôle d’élève dans **disposition immersive**.
+>Le navigateur mobile prend uniquement en charge le rôle d&#39;élève dans la **disposition immersive**.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ La taille de fichier maximale pouvant être téléchargée est de 600 Mo.
 >
 >Si la taille du fichier *user.csv* dépasse 100 Mo, l’importation de ce fichier peut entraîner un comportement inattendu de la part du navigateur. Le problème se produit car la mémoire du navigateur est insuffisante.
 
-Nous vous recommandons d’importer des fichiers de grande taille *user.csv* à l’aide du workflow automatisé Box/Exavault. Pour en savoir plus, voir [Migration de fichiers](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Nous vous recommandons d&#39;importer des fichiers *user.csv* de grande taille à l&#39;aide du workflow automatisé Box/Exavault. Pour en savoir plus, voir [Migration de fichiers](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Format de contenu pris en charge
@@ -309,7 +309,7 @@ Assurez-vous que les domaines tiers suivants sont ajoutés à la liste blanche s
   </tr>
   <tr>
    <td>Connecteur getAbstract</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Connecteur Box</td>

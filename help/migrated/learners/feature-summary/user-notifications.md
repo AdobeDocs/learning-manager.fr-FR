@@ -15,7 +15,7 @@ ht-degree: 72%
 
 <!--User notifications for Learners in Learning Manager.-->
 
-La fonctionnalité de notifications est applicable à tous les utilisateurs de Adobe Learning Manager. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications dans différents scénarios. Toutes les alertes et notifications aux utilisateurs sont affichées dans la boîte de dialogue contextuelle de notifications.
+La fonctionnalité de notifications s’applique à tous les utilisateurs de Adobe Learning Manager. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications dans différents scénarios. Toutes les alertes et notifications aux utilisateurs sont affichées dans la boîte de dialogue contextuelle de notifications.
 
 ## Notifications d’accès {#accessnotifications}
 
@@ -25,7 +25,7 @@ Un exemple de fenêtre de notification pour le rôle d’élève est illustré d
 
 ![](assets/learner-notifications.png)
 
-*Voir toutes les notifications*
+*Afficher toutes les notifications*
 
 Cette fenêtre contextuelle affiche les points forts de toutes les notifications ainsi que la période de l’occurrence et une barre de défilement.
 
@@ -33,17 +33,17 @@ Vous pouvez connaître le nombre des dernières notifications basées sur le nom
 
 Les élèves peuvent rejeter un cours qui leur est affecté par les responsables en cliquant sur Rejeter dans la fenêtre contextuelle de notifications.
 
-## Planification de la notification push
+## Planifier la notification push
 
-Les apprenants recevront des notifications push chaque fois qu’ils manqueront une échéance de cours. Les apprenants auront la possibilité de répéter un rappel pendant 24 heures ou de se faire rappeler la semaine prochaine pour chaque rappel en retard qu’ils reçoivent. Ceci s’applique uniquement aux notifications en retard.
+Les élèves recevront des notifications push chaque fois qu&#39;ils manqueront une date limite de cours. Les élèves auront la possibilité d&#39;effectuer une pause d&#39;un rappel pendant 24 heures ou d&#39;obtenir un rappel la semaine prochaine pour chaque rappel en retard qu&#39;ils reçoivent. Cela s’applique uniquement aux notifications de retard de délai.
 
 ## Afficher toutes les notifications {#showallnotifications}
 
-Cliquez sur **[!UICONTROL le lien Afficher toutes les notifications]** en bas de la fenêtre contextuelle des notifications pour afficher toutes les notifications dans une page distincte.
+Cliquez sur le lien **[!UICONTROL Afficher toutes les notifications]** en bas de la fenêtre contextuelle des notifications pour afficher toutes les notifications dans une page distincte.
 
 ![](assets/notifications-page.png)
 
-*Afficher toutes les notifications dans une page distincte*
+*Afficher toutes les notifications sur une page distincte*
 
 **Types de notifications destinées aux élèves**
 
@@ -61,7 +61,7 @@ Les élèves reçoivent des notifications qui sont déclenchées par les événe
 1. L’élève a rejeté une nomination
 1. Pour les cours approuvés par le responsable, ce dernier approuve/rejette une demande d’inscription à un cours
 1. La liste d’attente des élèves est effacée.
-1. L’apprenant a été inscrit automatiquement à un cours, à un programme d’apprentissage ou à une certification
+1. L’élève a été automatiquement inscrit à un cours, un programme d’apprentissage ou une certification
 1. L’élève termine une certification
 1. Le responsable approuve/rejette le document de preuve de fin de certification téléchargé par l’élève
 1. Lorsque l’échéance d’une instance particulière de cours approche. (L’administrateur peut définir la date à partir de laquelle les notifications de rappel peuvent apparaître pour l’élève).
@@ -72,8 +72,8 @@ Les élèves peuvent fournir un retour d’informations L1 après avoir terminé
 
 ![](assets/feedback.png)
 
-*Fournir des commentaires sur les cours*
+*Envoyer un retour d&#39;informations sur le cours*
 
 >[!NOTE]
 >
->Les apprenants reçoivent l’option de commentaires pour les cours uniquement lorsqu’un administrateur l’active pour un cours particulier.
+>Les élèves obtiennent l’option de retour d’informations pour les cours uniquement lorsqu’un administrateur l’active pour un cours particulier.

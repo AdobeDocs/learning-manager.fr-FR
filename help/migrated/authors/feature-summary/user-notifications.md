@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Notifications aux utilisateurs
 description: La fonctionnalité Notifications s’applique à tous les utilisateurs d’Adobe Learning Manager. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications dans différents scénarios. Toutes les alertes et notifications aux utilisateurs sont affichées dans la boîte de dialogue contextuelle de notifications.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 85%
 
 ---
-
-
 
 # Notifications aux utilisateurs
 
@@ -28,7 +27,7 @@ Cette fenêtre contextuelle affiche les points forts de toutes les notifications
 
 Vous pouvez connaître le nombre des dernières notifications grâce au nombre mis en surbrillance sur l’icône de notification. Par exemple, s’il y a cinq notifications récentes depuis votre connexion précédente, vous pouvez voir le chiffre cinq affiché en haut de l’icône de notification. Ces numéros disparaissent une fois que vous avez lu toutes les dernières notifications.
 
-Cliquez sur **[!UICONTROL Afficher toutes les notifications]** un lien en bas de la fenêtre contextuelle des notifications permet d’afficher toutes les notifications dans une page distincte.
+Cliquez sur le lien **[!UICONTROL Afficher toutes les notifications]** en bas de la fenêtre contextuelle des notifications pour afficher toutes les notifications dans une page distincte.
 
 ![](assets/author-notifications-page.png)
 

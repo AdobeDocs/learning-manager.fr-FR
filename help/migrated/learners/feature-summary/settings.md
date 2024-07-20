@@ -37,9 +37,9 @@ Lisez cet article pour savoir comment définir les paramètres du profil d’él
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-**1. Comment télécharger un relevé de notes en tant qu’élève ?**
+**1. Comment télécharger un relevé de notes d’élève en tant qu’élève ?**
 
-Dans le coin supérieur droit, cliquez sur votre **[!UICONTROL profil utilisateur]** > **[!UICONTROL Paramètres du profil]**. Dans la boîte de dialogue qui apparaît, cliquez sur **Télécharger Mon relevé de notes d’apprentissage (XLS)**.
+Dans le coin supérieur droit, cliquez sur votre **[!UICONTROL profil utilisateur]** > **[!UICONTROL Paramètres de profil]**. Dans la boîte de dialogue qui s’affiche, cliquez sur **Télécharger mon relevé de notes d’apprentissage (XLS)**.
 
 ![](assets/dowload-lt.png)
-*Télécharger le relevé de notes de l’élève*
+*Télécharger Le Relevé De Notes De L’Élève*

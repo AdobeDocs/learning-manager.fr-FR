@@ -3,14 +3,13 @@ description: Consultez cette rubrique pour savoir comment ajouter des cours, des
 jcr-language: en_us
 title: Ajouter des objets d’apprentissage à diverses endroits
 contentowner: shhivkum
-source-git-commit: 6ad199812dda35eee8cd78593db0709b94623309
+exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 96%
 
 ---
-
-
 
 # Ajouter des objets d’apprentissage à diverses endroits
 
@@ -30,6 +29,6 @@ Dans la boîte de dialogue contextuelle, sélectionnez la ou les langue(s) suppl
 
 ![](assets/selectlang.png)
 
-*Sélection d’une langue*
+*Sélectionner une langue*
 
 Republiez le cours afin que vos modifications prennent effet.

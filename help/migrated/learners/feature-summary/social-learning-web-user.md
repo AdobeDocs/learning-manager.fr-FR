@@ -3,14 +3,13 @@ description: Apprenez à utiliser l’apprentissage par les réseaux sociaux en 
 jcr-language: en_us
 title: Apprentissage par les réseaux sociaux dans Learning Manager
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 78%
 
 ---
-
-
 
 # Apprentissage par les réseaux sociaux dans Learning Manager
 
@@ -22,15 +21,15 @@ Suivre une formation ne garantit pas que les utilisateurs retiennent tout ce qu�
 
 De même, la fonctionnalité Apprentissage par les réseaux sociaux de Learning Manager permet aux utilisateurs d’interagir les uns avec les autres en partageant et en apprenant du contenu.
 
-Sur cette plate-forme, les différents types de contenu pouvant être partagés sont les suivants : vidéo, audio, capture d’écran, texte, question et sondage. Les utilisateurs peuvent également partager leurs apprentissages en ligne avec leurs homologues à l’aide de la fonctionnalité **Partage sur un signet de réseau social**. Pour plus d’informations, voir  [Partager sur l’apprentissage par les réseaux sociaux](share-to-social.md).
+Sur cette plate-forme, les différents types de contenu pouvant être partagés sont les suivants : vidéo, audio, capture d’écran, texte, question et sondage. Les utilisateurs peuvent également partager leurs apprentissages en ligne avec leurs homologues à l&#39;aide du signet **Partager sur les réseaux sociaux**. Pour plus d&#39;informations, voir [Partager sur l&#39;apprentissage par les réseaux sociaux](share-to-social.md).
 
-Le contenu peut également être publié à l’intérieur d’un forum à l’aide du **Application de bureau Adobe Learning Manager**. Pour plus d’informations, voir  [Application de bureau Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+Le contenu peut également être publié dans un forum à l&#39;aide de l&#39;**application de bureau Adobe Learning Manager**. Pour plus d&#39;informations, voir [Application Adobe Learning Manager pour ordinateur](../adobe-learning-manager-app-for-desktop.md).
 
 La fonctionnalité est visible par un élève uniquement si l’administrateur autorise l’apprentissage par les réseaux sociaux.
 
 ![](assets/social-dashboarddashboard.png) ![](assets/social-learning-dashboard.png)
 
-*Afficher le tableau de bord d’apprentissage*
+*Afficher le tableau de bord d&#39;apprentissage*
 
 <table>
  <tbody>
@@ -48,9 +47,9 @@ La fonctionnalité est visible par un élève uniquement si l’administrateur a
    <td>
     <p>Mes forums</p></td>
    <td>
-    <p>Un tableau est <code>
+    <p>Un forum représente <code>
       collection
-     </code> des publications créées par un utilisateur. L’option Mes forums affiche toutes les publications auxquelles l’utilisateur a participé, qu’il a créées et suivies.</p></td>
+     </code> publications créées par un utilisateur. L’option Mes forums affiche toutes les publications auxquelles l’utilisateur a participé, qu’il a créées et suivies.</p></td>
   </tr>
   <tr>
    <td>
@@ -138,39 +137,39 @@ Le contenu est créé sous forme de publication dans un forum. Pour créer une p
 
 1. Sélectionnez l’un des types de contenu suivants à publier : texte, question, vidéo, audio, sondage et copie d’écran. Le contenu existant peut être téléchargé sur le système des utilisateurs ou sur la galerie de l’application de bureau Adobe Learning Manager.
 
-   Utilisez l’application de bureau Adobe Learning Manager pour enregistrer une vidéo ou un écran, un audio, et faites une copie d’écran. Pour plus d’informations, voir [Application de bureau Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+   Utilisez l’application de bureau Adobe Learning Manager pour enregistrer une vidéo ou un écran, un audio, et faites une copie d’écran. Pour plus d&#39;informations, voir [Application de bureau Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Recherchez un forum ou une compétence en rapport avec la publication. Si le forum n’existe pas, cliquez sur **[!UICONTROL Créer un nouveau forum]**.
+1. Recherchez un forum ou une compétence en rapport avec la publication. Si le forum n&#39;existe pas, cliquez sur **[!UICONTROL Créer un forum]**.
 
    ![](assets/create-a-new-board-04.png)
 
-   *Création d’un forum*
+   *Créer un forum*
 
-   Si vous êtes un utilisateur externe ou interne, et si l’administrateur vous a donné accès à la création d’un forum, il vous est possible d’en créer un. Si vous ne disposez pas des autorisations nécessaires pour créer un forum, le lien **Créer un nouveau forum** n’apparaît pas.
+   Si vous êtes un utilisateur externe ou interne, et si l’administrateur vous a donné accès à la création d’un forum, il vous est possible d’en créer un. Si vous ne disposez pas des autorisations nécessaires pour créer un forum, le lien **Créer un nouveau forum** ne s&#39;affiche pas.
 
 1. Dans la boîte de dialogue contextuelle, remplissez les champs, sélectionnez le type de forum suivant :
 
-   * **Public** - La participation et la visibilité des posts sont disponibles pour tous les utilisateurs.
-   * **Privé** - La publication est uniquement visible par le créateur du forum, les modérateurs et les utilisateurs ajoutés au forum.
-   * **Restreint** - Seuls le propriétaire, l’administrateur et les modérateurs du forum peuvent créer une publication. Les autres utilisateurs peuvent participer en commentant/répondant, en votant pour/contre, etc.
+   * **Public** : la participation et la visibilité des publications sont disponibles pour tous les utilisateurs.
+   * **Privé** : la publication est uniquement visible par le créateur du forum, les modérateurs et les utilisateurs ajoutés au forum.
+   * **Restreint** : seuls le propriétaire du forum, l’administrateur et les modérateurs du forum peuvent créer une publication. Les autres utilisateurs peuvent participer en commentant/répondant, en votant pour/contre, etc.
 
    <!--![](assets/new-board-05.png)-->
 
    >[!NOTE]
    >
-   >Dans l’application Social Learner, seul un **Administrateur** a la possibilité de créer un forum privé avec des groupes d’utilisateurs (internes/externes).
+   >Dans l&#39;application Social Learner, seul un **administrateur** peut créer un forum privé avec des groupes d&#39;utilisateurs (internes/externes).
    >
-   >Tout autre utilisateur à l’exception de l’administrateur, de l’auteur, de l’apprenant, du responsable, de l’instructeur, etc. **impossible** créer des forums privés avec des groupes d’utilisateurs. Ils ne peuvent pas voir la section de **groupes d’utilisateurs** pendant la création du forum privé.
+   >Tout autre utilisateur à l’exception de l’administrateur, de l’auteur, de l’apprenant, du responsable, de l’instructeur, etc. **impossible** de créer des forums privés avec des groupes d&#39;utilisateurs. Ils ne peuvent pas voir la section des **groupes d&#39;utilisateurs** lors de la création d&#39;un forum privé.
 
    Administrateur uniquement - Lorsque vous sélectionnez l’option **Privé**, deux options s’affichent : **Utilisateurs** et **Groupes d’utilisateurs**. Sélectionnez l’option **Groupes d’utilisateurs**, puis ajoutez les groupes d’utilisateurs avec lesquels vous souhaitez partager le forum privé.
 
    Dans le champ Groupes d’utilisateurs, vous pouvez sélectionner des groupes internes, externes ou personnalisés. Votre forum privé sera alors visible par tous les groupes d’utilisateurs spécifiés, quels que soient les paramètres d’étendue.
 
-1. Pour partager du contenu, cliquez sur **[!UICONTROL Post]**. En cliquant sur Publier, l’utilisateur reçoit une notification.
+1. Pour partager du contenu, cliquez sur **[!UICONTROL Publier]**. En cliquant sur Publier, l’utilisateur reçoit une notification.
 
-   Le contenu est publié en fonction du paramètre de curation défini par l’administrateur pour le contenu d’apprentissage par les réseaux sociaux qui peut être curé par  [Modérateurs/Experts](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   Le contenu est publié en fonction du paramètre de curation défini par l’administrateur pour le contenu d’apprentissage par les réseaux sociaux qui peut être curé par les [modérateurs de forums/experts](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
@@ -184,13 +183,13 @@ Lorsque vous créez ou répondez à un message dans Apprentissage par les résea
 
 ![](assets/rte-learner.png)
 
-*Utilisation de l’éditeur de texte enrichi pour créer un post*
+*Utiliser l&#39;éditeur de texte enrichi pour créer un post*
 
 En outre, lors de la création d’un forum, vous avez accès au même ensemble d’options dans l’éditeur de texte enrichi.
 
 ![](assets/create-board.png)
 
-*Utilisation de l’éditeur de texte enrichi pour créer un post*
+*Utiliser l&#39;éditeur de texte enrichi pour créer un post*
 
 ## Affichage du contenu approuvé {#viewingapprovedcontent}
 
@@ -224,7 +223,7 @@ Un élève peut voir tous les tableaux dans une vue sous forme de liste. Connect
 
 *Mode Tableau dans les réseaux sociaux*
 
-Lorsque vous affichez les publications dans un format de tableau, vous pouvez trier les publications en fonction de **Post** et **Contributeur**.
+Lorsque vous affichez les publications dans un format de tableau, vous pouvez ensuite trier les publications en fonction de **Publication** et de **Contributeur**.
 
 ![](assets/image004.png)
 
@@ -243,7 +242,7 @@ Le filtre Compétence vous permet de sélectionner plusieurs compétences pour f
 
 ![](assets/image008.png)
 
-*Filtrage des niveaux d’activité*
+*Filtrer les niveaux d&#39;activité*
 
 Le filtre Activité vous permet de trier les tableaux en fonction de l’ampleur des interactions qui s’y produisent. Vous pouvez trier les tableaux à l’aide des filtres suivants :
 
@@ -386,23 +385,23 @@ Une story sur réseaux sociaux permet aux utilisateurs d’ajouter ou de créer 
 
 Pour ajouter une publication à une story, suivez les étapes ci-dessous :
 
-1. Cliquez sur l’icône de menu réduite dans l’angle supérieur droit d’une publication, puis cliquez sur **[!UICONTROL Ajouter à ma story]**.
+1. Cliquez sur l&#39;icône de menu réduite dans le coin supérieur droit d&#39;une publication et cliquez sur **[!UICONTROL Ajouter à mon story]**.
 
    ![](assets/add-to-my-story-05.png)
 
-   *Ajouter à un article*
+   *Ajouter à une histoire*
 
 1. Dans la boîte de dialogue **Sélectionner une story**, sélectionnez une story pertinente à ajouter à la publication. Si aucune story pertinente n’existe, créez-en une en cliquant sur **Nouvelle story**.
 
    ![](assets/select-story-or-newstory-06.png)
 
-   *Création d’un article*
+   *Créer une histoire*
 
 1. Dans la boîte de dialogue Nouvelle story, renseignez les champs Nom de la story et Description. Vous pouvez également définir la visibilité de la story sur Publique ou Privée.
 
    ![](assets/new-story-1-2x.png)
 
-   *Ajouter le nom et la description de l’article*
+   *Ajouter un nom et une description d&#39;article*
 
    Pour afficher les stories créées par les utilisateurs, cliquez sur le nom de l’utilisateur dans les options du menu du profil.
 
@@ -491,11 +490,11 @@ Les forums sont un ensemble de publications. Chaque forum Apprentissage par les 
 
 Dans la page Tous les forums, les publications ou les forums créés par tous les utilisateurs d’une étendue d’activité sont visibles. Mais dans la page Mes forums, seuls les forums créés, suivis et auxquels participe un utilisateur sont visibles.
 
-Dans la page Mes tableaux, les tableaux visibles peuvent être filtrés selon les critères suivants : **Tous**, **Créé par moi**, **Commenté par moi**, **Suivi par moi**.
+Sur la page Mes forums, les forums visibles peuvent être filtrés selon les critères suivants : **Tous**, **Créés par moi**, **Commentés par moi**, **Suivis par moi**.
 
 ![](assets/board-filter-07.png)
 
-*Filtrage des panneaux visibles*
+*Filtrer les tableaux visibles*
 
 Dans Mes forums et Tous les forums, les utilisateurs peuvent trier les forums par **Pertinence** ou **Date**.
 
@@ -503,7 +502,7 @@ Dans Mes forums et Tous les forums, les utilisateurs peuvent trier les forums pa
 
 *Trier les tableaux par pertinence et par date*
 
-Lors de la création d’une publication, s’il n’y a pas de forums pertinents pour la publication, cliquez sur [Création d’un nouveau forum](social-learning-web-user.md#Creatingcontentasapost).  Pour afficher, modifier, supprimer, signaler, copier l’URL et ajouter un forum à votre liste de forums préférés, procédez comme suit :
+Lors de la création d&#39;une publication, s&#39;il n&#39;y a pas de forums pertinents pour la publication, cliquez sur [Créer un forum](social-learning-web-user.md#Creatingcontentasapost).  Pour afficher, modifier, supprimer, signaler, copier l’URL et ajouter un forum à votre liste de forums préférés, procédez comme suit :
 
 1. Cliquez sur le nom du forum ou cliquez sur **[!UICONTROL Accéder au forum]**.
 1. Sur la page des forums, cliquez sur l’icône du menu réduit et sélectionnez une option dans la liste déroulante.
@@ -524,7 +523,7 @@ Le signet Partager vers les réseaux sociaux permet aux utilisateurs de partager
 
 ![](assets/share-to-social-11.png)
 
-*Partager sur l’apprentissage par les réseaux sociaux*
+*Partager sur les réseaux sociaux*
 
 ## Mes compétences {#myskills}
 
@@ -532,7 +531,7 @@ Les utilisateurs peuvent afficher les compétences et le nombre de publications 
 
 ![](assets/my-skills-12.png)
 
-*Voir toutes les compétences*
+*Afficher toutes les compétences*
 
 ## Personnes que je suis {#peopleifollow}
 
@@ -549,7 +548,7 @@ Pour suivre d’autres utilisateurs, suivez les étapes ci-dessous :
 
    ![](assets/follow-unfollow-peers-14.png)
 
-   *Abonnement ou désabonnement d’un utilisateur*
+   *Abonnement ou désabonnement d&#39;un utilisateur*
 
 ## Tableau des scores des réseaux sociaux {#socialleaderboard}
 
@@ -588,7 +587,7 @@ L’administrateur de l’organisation a également le privilège d’ajouter pl
 
    <!--![](assets/curation-awaitingnotification.png)-->
 
-1. Pour modérer la publication, cliquez sur le bouton **Cliquer pour réviser** lien. Cette action permet à l’expert de se rendre sur la page de modération des contenus, qui ressemble à la copie d’écran ci-dessous.
+1. Pour modérer la publication, cliquez sur le lien **Cliquer pour réviser**. Cette action permet à l’expert de se rendre sur la page de modération des contenus, qui ressemble à la copie d’écran ci-dessous.
 
    <!--![](assets/sme-moderation-page.png)-->
 
@@ -603,7 +602,7 @@ Chaque page de l’Apprentissage par les réseaux sociaux comporte un champ de r
 
 <!--![](assets/search-16.png)-->
 
-Les pages suivantes de l’apprentissage informel disposent d’un champ de recherche : **Mes tableaux**, **Tous les tableaux**, **Page Forums**, de l’utilisateur **Page Profil**, et **page profil d’un autre élève**.
+Les pages suivantes de l&#39;apprentissage informel ont un champ de recherche : **Mes forums**, **Tous les forums**, **Page des forums**, **Page de profil** de l&#39;utilisateur et **Page de profil d&#39;un autre élève**.
 
 Lorsqu’un utilisateur recherche du contenu dans l’apprentissage informel, le nombre total de résultats de recherche pour le contenu de l’apprentissage informel et formel de Learning Manager s’affiche.
 
@@ -611,7 +610,7 @@ De même, le nombre de résultats de recherche trouvés dans l’apprentissage i
 
 ![](assets/formal-learning-search-20.png)
 
-*Résultats de la recherche pour l’apprentissage*
+*Résultats de la recherche pour l&#39;apprentissage*
 
 Sur la page du forum d’apprentissage informel, seules des recherches relatives au forum peuvent être effectuées. Les recherches non liées à un forum ne sont pas affichées.
 
@@ -627,7 +626,7 @@ Dans la page de profil, les élèves peuvent voir le nombre total de points gagn
 
 Les élèves peuvent également afficher les compétences pour lesquelles ils sont désignés comme experts en la matière.
 
-La page de l’élève affiche également celle de **stories organisées**, **activités récentes** effectué, et **personnes suivies** par eux.
+La page de l&#39;élève affiche également les **stories organisées**, les **activités récentes** effectuées et les **personnes suivies** de l&#39;élève.
 
 ## Notifications {#notifications}
 

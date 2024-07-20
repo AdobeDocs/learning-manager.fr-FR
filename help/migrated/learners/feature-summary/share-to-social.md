@@ -3,14 +3,13 @@ description: Apprenez à utiliser le signet Réseaux sociaux pour partager insta
 jcr-language: en_us
 title: Partager sur l’Apprentissage par les réseaux sociaux
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 76%
 
 ---
-
-
 
 # Partager sur l’Apprentissage par les réseaux sociaux
 
@@ -26,7 +25,7 @@ Assurez-vous d’avoir autorisé les fenêtres contextuelles dans votre navigate
 
 Si vous êtes connecté à Learning Manager, le signet se connecte automatiquement à votre compte. Sinon, vous devez vous connecter en tant qu’élève à l&#39;aide de vos informations d’identification Learning Manager.
 
-Ajoutez une description pour votre publication, puis sélectionnez le forum sur lequel vous souhaitez publier et cliquez sur **[!UICONTROL Publier]**. Le tableau est publié sur votre tableau de bord qui peut être consulté en cliquant sur **Accéder à la publication**.
+Ajoutez une description pour votre publication, puis sélectionnez le forum sur lequel vous souhaitez publier et cliquez sur **[!UICONTROL Publier]**. Le tableau est publié sur votre tableau de bord qui peut être affiché en cliquant sur **Accéder au post**.
 
 ## Ajouter un partage à un signet Réseaux sociaux - le laisser dans la barre de signets {#addsharetosocialbookmarklettothebookmarksbar}
 
@@ -46,7 +45,7 @@ Ajoutez une description pour votre publication, puis sélectionnez le forum sur 
 ## Chrome {#chrome}
 
 * Cliquez sur le bouton du menu principal, représenté par trois points situés dans le coin supérieur droit de la fenêtre du navigateur.
-* Sélectionnez Paramètres dans le menu déroulant. L’écran des paramètres est également accessible en entrant **chrome://settings** dans la barre d’adresse du navigateur.
+* Sélectionnez Paramètres dans le menu déroulant. L&#39;écran des paramètres est également accessible en entrant **chrome://settings** dans la barre d&#39;adresse du navigateur.
 * Recherchez la section Apparence, qui contient une option d’affichage de la barre de signets accompagnée d’une case à cocher. Pour vous assurer que la barre de signets est toujours affichée lorsque vous chargez une page, cochez la case en cliquant une fois dessus. Pour désactiver cette fonctionnalité, il suffit de supprimer la coche.
 
 ## Mozilla Firefox {#mozillafirefox}
@@ -57,7 +56,7 @@ Ajoutez une description pour votre publication, puis sélectionnez le forum sur 
 
 ## Internet Explorer {#internetexplorer}
 
-* Cliquez avec le bouton droit de la souris sur l’icône des paramètres dans le coin supérieur droit du navigateur. Ou utiliser **Alt + C** sur le clavier pour que la fenêtre de la barre des favoris s’ouvre.
+* Cliquez avec le bouton droit de la souris sur l’icône des paramètres dans le coin supérieur droit du navigateur. Ou utilisez **Alt + C** sur le clavier pour ouvrir la fenêtre de la barre des favoris.
 * Pour afficher la barre des favoris dans le navigateur, cliquez sur **[!UICONTROL Barre des favoris]**.
 
 ## Microsoft Edge {#microsoftedge}
@@ -71,19 +70,19 @@ Ajoutez une description pour votre publication, puis sélectionnez le forum sur 
 
 ## Comment ajouter manuellement des signets à la barre de signets de différents navigateurs {#add-bookmark-let-manually}
 
-Pour ajouter manuellement des signets à la barre de signets, cliquez avec le bouton droit sur le bouton **Partager sur les réseaux sociaux** icône > **Copier l’adresse du lien** et suivez la procédure ci-dessous :
+Pour ajouter manuellement des signets à la barre des signets, cliquez avec le bouton droit de la souris sur l&#39;icône **Partager sur les réseaux sociaux** > **Copier l&#39;adresse du lien**, puis suivez la procédure ci-dessous :
 
 ## Chrome sous Mac OS {#chromeinmacos}
 
-1. Cliquez sur l’icône de menu réduit dans le navigateur >  **Signets** > **Gestionnaire de signets.**
-1. Cliquez sur les options du menu Signets > **Ajouter un nouveau signet.**
+1. Cliquez sur l&#39;icône de menu réduit dans votre navigateur > **Signets** > **Gestionnaire de signets.**
+1. Cliquez sur les options du menu Signets > **Ajouter un nouveau signet**.
 1. Deux champs de saisie dans la boîte de dialogue contextuelle apparaissent. Saisissez un nom de votre choix pour le signet, tel que **Partager vers les réseaux sociaux** dans le premier champ.
 1. Collez l’adresse du lien **Partager vers les réseaux sociaux** dans le deuxième champ.
 
 ## Microsoft Edge sous Windows {#microsoftedgeinwindows}
 
 1. Assurez-vous que votre barre des favoris est visible. Cliquez avec le bouton droit de la souris sur la barre des favoris > **Créer un nouveau dossier**.
-1. Pour ajouter l’URL au dossier de la barre des favoris que vous aimez, cliquez sur le bouton **Concentrateur de signets** icône > **Icône Signets**.
+1. Pour ajouter l&#39;URL au dossier de la barre des favoris que vous aimez, cliquez sur l&#39;icône **Bookmarks hub** > **Bookmarks icon**.
 1. Enregistrez une page en ligne dans le dossier et renommez-le en Partager vers les réseaux sociaux.
 1. Sélectionnez l’icône du hub de signets > Partager sur les réseaux sociaux > Modifier l’URL.
 1. Collez l’adresse du lien et cliquez sur le bouton Entrée.

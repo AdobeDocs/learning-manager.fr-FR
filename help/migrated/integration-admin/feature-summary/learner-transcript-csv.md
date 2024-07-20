@@ -29,7 +29,7 @@ Ces informations peuvent être utiles à tout développeur qui envisage d’int�
 
 ## Obtenir le relevé de notes de l&#39;élève à partir de l&#39;interface utilisateur {#fetchlearnertranscriptfromtheuserinterface}
 
-Un élève peut télécharger son relevé de notes depuis les paramètres du profil. Pour plus d’informations, voir *** [Télécharger le relevé de notes de l’élève](../../administrators/feature-summary/learner-transcripts.md)***.
+Un élève peut télécharger son relevé de notes depuis les paramètres du profil. Pour plus d&#39;informations, voir *** [Télécharger le relevé de notes de l&#39;élève](../../administrators/feature-summary/learner-transcripts.md)***.
 
 Les administrateurs peuvent générer des relevés de notes des élèves pour l&#39;ensemble de l&#39;organisation, un ensemble spécifique d&#39;utilisateurs ou un ensemble spécifique d&#39;objets d&#39;apprentissage, ou un ensemble spécifique d&#39;utilisateurs et d&#39;objets d&#39;apprentissage. Ils peuvent également obtenir tous les dossiers d&#39;apprentissage pour une période donnée et indiquer si des informations sur le niveau du module sont requises (par défaut, les informations sur le niveau du module sont omises). Pour plus de détails, voir [***Télécharger les relevés de notes des élèves***](../../administrators/feature-summary/learner-transcripts.md).
 
@@ -59,13 +59,13 @@ Bien entendu, les connecteurs permettent également de récupérer sur demande l
 
 Précisons maintenant ce que l&#39;on entend par Relevé de notes incrémentiel de l’élève
 
-Dans le relevé de notes de l&#39;élève, chaque ligne représente une activité spécifique impliquant un élève spécifique et un objet d&#39;apprentissage spécifique. Nous nous intéressons principalement à l’état d’un élève par rapport à l’objet d’apprentissage : **Inscrit**, **Commencé**, **En cours**, et **Terminé**. Par conséquent, le relevé de notes de l&#39;élève capture également quatre dates correspondantes.
+Dans le relevé de notes de l&#39;élève, chaque ligne représente une activité spécifique impliquant un élève spécifique et un objet d&#39;apprentissage spécifique. Nous nous intéressons principalement à l’état d’un élève par rapport à l’objet d’apprentissage : **Inscrit**, **Commencé**, **En cours** et **Terminé**. Par conséquent, le relevé de notes de l&#39;élève capture également quatre dates correspondantes.
 
 Il existe désormais trois types d’objets d’apprentissage, dans lesquels Learning Manager suit la progression de l’élève. Les données exportées contiennent des informations de progression au niveau du module, qui est l’unité de contenu la plus granulaire qu’un élève peut expérimenter dans Learning Manager.
 
-* **Cours** - une composition d&#39;un ou plusieurs modules
-* **Programme d’apprentissage** - une composition d&#39;un ou plusieurs cours
-* **Certification** - une composition d&#39;un ou plusieurs cours.
+* **Cours** : composition d’un ou de plusieurs modules
+* **Programme d’apprentissage** : composition d’un ou de plusieurs cours
+* **Certification** : composition d&#39;un ou de plusieurs cours.
 
 Chaque ligne du relevé de notes de l’élève peut faire référence à l’engagement d’un utilisateur spécifique dans un module, un cours, un programme d’apprentissage ou une certification. Lorsqu’un utilisateur est inscrit à un programme d’apprentissage, le relevé indique que l’utilisateur est inscrit.
 

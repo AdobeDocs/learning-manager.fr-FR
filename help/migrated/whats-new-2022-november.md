@@ -2,7 +2,8 @@
 title: Nouveautés de cette version (novembre 2022)
 description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -145,7 +146,7 @@ Les résultats de la recherche sont maintenant homogènes pour tous les apprenti
 
 La recherche est plus ciblée et plus précise. Vous pouvez afficher les résultats de la recherche à trois endroits : apprentissage formel, apprentissage social et marché du contenu.
 
-![recherche](assets/search-image.png)
+![rechercher](assets/search-image.png)
 
 #### Recherche basée sur les expressions
 
@@ -315,7 +316,7 @@ Dans cette version, nous avons rendu certaines API publiques.
 
 ### Application Salesforce
 
-Le **Ignorer les LO de niveau supérieur** doit être activée dans l’application Salesforce afin que tous les cours, programmes d’apprentissage et certificats puissent être affichés en même temps.
+L’option **Ignorer les LO de niveau supérieur** doit être activée dans l’application Salesforce afin que tous les cours, programmes d’apprentissage et certificats puissent être affichés en même temps.
 
 ### API pour la personnalisation du lecteur
 
@@ -339,23 +340,23 @@ L’API /primeapi/v2/learningObjects/certification:xxxxx dispose de l’attribut
 
 ### Données de prévisualisation Get LO
 
-Le GET /preview/learningObjects/{id} L’API est ajoutée pour obtenir des informations d’aperçu sur un objet d’apprentissage.
+L&#39;API GET /preview/learningObjects/{id} est ajoutée à Obtenir des informations d&#39;aperçu sur un objet d&#39;apprentissage.
 
 ### Déplacement d’utilisateurs externes dans des profils
 
-Le `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` l&#39;appel permet de déplacer un utilisateur vers un autre profil externe en spécifiant un nouvel ID externalProfile.
+L&#39;appel `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` permet de déplacer un utilisateur vers un autre profil externe en spécifiant un nouvel ID externalProfile.
 
 ### Ajout d’utilisateurs aux profils externes
 
-Le `POST /externalProfiles/{id}/users` ajoute des utilisateurs externes dans le profil externe.
+`POST /externalProfiles/{id}/users` ajoute des utilisateurs externes dans le profil externe.
 
 ## Notes de mise à jour
 
-Pour plus d’informations sur les versions actuelles et précédentes de l’application web et de l’application pour appareil Learning Manager, consultez la section [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
+Pour plus d&#39;informations sur les versions actuelles et précédentes de l&#39;application web et de l&#39;application pour appareil Learning Manager, consultez les [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
 
 ## Correctifs de bogues
 
-Pour voir les bogues corrigés dans cette mise à jour, reportez-vous à la section [Liste des problèmes résolus](release-note/release-notes.md#bugs-fixed-in-this-release).
+Pour voir les bogues corrigés dans cette mise à jour, consultez la [liste des bogues corrigés](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Configuration requise
 

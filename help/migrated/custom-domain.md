@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Prise en charge du domaine personnalisé
 description: Les domaines personnalisés ne sont pas pris en charge dans une instance Azure de Learning Manager.
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 67%
 
 ---
-
-
 
 # Prise en charge du domaine personnalisé
 
@@ -22,7 +21,7 @@ La prise en charge du domaine personnalisé permet aux clients d’avoir un cont
 
 Cela permet au client de valider la connexion et l’expérience d’accès, de sorte que les utilisateurs ne constatent aucune présence d’Adobe ou d’Adobe Learning Manager.
 
-Par exemple, vous souhaitez personnaliser votre domaine afin que vos utilisateurs bénéficient de la même expérience que s’ils se trouvaient dans le domaine Adobe. Si ABC Inc veut former ses clients, elle aimerait qu&#39;ils atterrissent sur un domaine appelé `abc.com/mylearning`, au lieu de `learningmanager.adobe.com/abc-inc/mylearning`.
+Par exemple, vous souhaitez personnaliser votre domaine afin que vos utilisateurs bénéficient de la même expérience que s’ils se trouvaient dans le domaine Adobe. Si ABC Inc souhaite former ses clients, elle souhaite qu’ils accèdent à un domaine appelé `abc.com/mylearning`, au lieu de `learningmanager.adobe.com/abc-inc/mylearning`.
 
 >[!NOTE]
 >
@@ -31,8 +30,8 @@ Par exemple, vous souhaitez personnaliser votre domaine afin que vos utilisateur
 
 La fonctionnalité de domaine personnalisé est disponible moyennant des frais supplémentaires. Pour plus d’informations, contactez votre gestionnaire de succès client.
 
-* Pour le rôle d’élève, le domaine commence par `https://cdn.<customer_custom_domain>/` Par exemple, `https://cdn.elearningstage1.cpdomaintest.in/`
-* Pour tous les autres rôles, le domaine commence par `https://<customer_custom_domain>/`. Par exemple, `https://elearningstage1.cpdomaintest.in/`
+* Pour le rôle d’élève, le domaine commencera par `https://cdn.<customer_custom_domain>/`. Par exemple, `https://cdn.elearningstage1.cpdomaintest.in/`
+* Pour tous les autres rôles, le domaine commencera par `https://<customer_custom_domain>/`. Par exemple, `https://elearningstage1.cpdomaintest.in/`
 
 `<customer_custom_domain>` est la partie personnalisable.
 
@@ -46,9 +45,9 @@ Suivez les étapes ci-dessous pour configurer un domaine personnalisé.
 
 1. Le client doit **ajouter trois enregistrements CNAME** dans le domaine :
 
-   * **learning.acme.com :** Point de terminaison public ALB de Learning Manager partagé par Adobe
-   * **lrs.learning.acme.com :** Point de terminaison public ALB pointé par learning.acme.com
-   * **cdn.learning.acme.com :** Point de terminaison CDN partagé par Adobe
+   * **learning.acme.com:** point de terminaison public ALB de Learning Manager partagé par l&#39;Adobe
+   * **lrs.learning.acme.com:** point de terminaison public ALB pointé par learning.acme.com
+   * **cdn.learning.acme.com:** point de terminaison CDN partagé par Adobe
 
 1. Le client doit fournir des certificats SSL pour ces domaines :
 

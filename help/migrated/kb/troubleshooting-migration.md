@@ -3,14 +3,13 @@ description: Ce document contient des conseils de dépannage de base permettant 
 jcr-language: en_us
 title: Dépannage des problèmes de migration
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 43%
 
 ---
-
-
 
 # Dépannage des problèmes de migration
 
@@ -66,19 +65,19 @@ Assurez-vous que le sprint actuel est marqué comme terminé, avant de marquer l
 
 ### la migration du fichier module_version.csv échoue et le contenu n’est pas encore migré {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Assurez-vous que le contenu est disponible dans le dossier Contenu (compte Box sous le projet de migration spécifié, chemin d’accès sprint). Assurez-vous également d’avoir sélectionné l’option **Oui** pour **Allez-vous migrer du contenu pour ce sprint ?** dans la page de création Sprint.
+Assurez-vous que le contenu est disponible dans le dossier Contenu (compte Box sous le projet de migration spécifié, chemin d’accès sprint). Assurez-vous également d&#39;avoir sélectionné l&#39;option **Oui** pour **Allez-vous migrer le contenu pour ce sprint ?Question** dans la page de création Sprint.
 
-Si vous omettez de sélectionner **Oui**, puis poursuivez cette exécution de Sprint, vous devez attendre la fin de l’exécution. Créez un autre sprint et assurez-vous de cliquer **[!UICONTROL Oui]**.
+Si vous omettez de sélectionner **Oui**, puis poursuivez cette exécution de Sprint, vous devez attendre la fin de l’exécution. Créez un autre sprint et cliquez sur **[!UICONTROL Oui]**.
 
 ### Les enregistrements enrollment.csv ou user_course_grade.csv échouent avec un message d’erreur « ID Learning Manager non valide » {#enrollmentcsvorusercoursegradecsvrecordsfailwithanerrormessagenotavalidprimeid}
 
 Assurez-vous que l’identifiant de courrier électronique indiqué dans les champs userId, assignedByUserID fait partie des utilisateurs valides de Learning Manager. Dans le cas contraire, ajoutez l’utilisateur, créez un nouvel élément Sprint en sélectionnant l’option **Synchroniser les utilisateurs**. Si l’utilisateur ne fait pas partie de l’organisation, ajoutez-le en tant qu’utilisateur supprimé dans Learning Manager en utilisant la spécification CSV Ajouter des utilisateurs. Un exemple de spécification CSV pour ajouter des utilisateurs supprimés est fourni ci-dessous pour référence.
 
-[Users.csv](assets/users.zip) Reportez-vous à **Spécifications et exemples de fichiers CSV** section dans [Manuel de migration](../integration-admin/feature-summary/migration-manual.md) pour télécharger l’ensemble complet des spécifications CSV et des exemples de fichiers CSV.
+[Users.csv](assets/users.zip) Reportez-vous à la section **Spécifications CSV et exemples de fichiers CSV** dans le [Manuel de migration](../integration-admin/feature-summary/migration-manual.md) pour télécharger l’ensemble complet des spécifications CSV et exemples de fichiers CSV.
 
 ### Les cours apparaissent vides ou les modules incorrects sont lus pour un cours migré {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Assurez-vous que le **moduleOrderInCourse** La valeur clé d’un cours commence par **0** et est dans l&#39;ordre continu. L&#39;ordre en termes de courseModuleType doit être PRETEST, TESTOUT, CONTENT
+Assurez-vous que la valeur de clé **moduleOrderInCourse** d&#39;un cours commence par **0** et est dans l&#39;ordre continu. L&#39;ordre en termes de courseModuleType doit être PRETEST, TESTOUT, CONTENT
 
 Assurez-vous également que deux versions d’Activity, Classroom et VC ne sont pas liées au cours existant.
 

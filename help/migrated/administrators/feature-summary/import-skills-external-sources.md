@@ -19,9 +19,9 @@ Importez des compétences à partir de fournisseurs de contenu, tels que LinkedI
 
 Suivez les étapes de la procédure pour activer l’importation de compétences dans le compte.
 
-1. Dans l’application d’administration, sélectionnez **Paramètres** dans le volet de gauche.
-1. Sélectionner **Généralités**.
-1. Dans le panneau **Importation des compétences** section, sélectionner **Activer**. Si cette option est activée, vous pouvez choisir une source externe pour importer les compétences. Une fois activées, pour toutes les importations suivantes de ressources d’apprentissage, les compétences seront importées dans le référentiel de compétences pour les éléments nouvellement importés. Les compétences des ressources d’apprentissage existantes peuvent être importées dans le référentiel de compétences une seule fois. Pour exécuter cette exécution initiale, contactez votre CSM.
+1. Dans l&#39;application Administration, sélectionnez **Paramètres** dans le volet de gauche.
+1. Sélectionnez **Général**.
+1. Dans la section **Importation de compétences**, sélectionnez **Activer**. Si cette option est activée, vous pouvez choisir une source externe pour importer les compétences. Une fois activées, pour toutes les importations suivantes de ressources d’apprentissage, les compétences seront importées dans le référentiel de compétences pour les éléments nouvellement importés. Les compétences des ressources d’apprentissage existantes peuvent être importées dans le référentiel de compétences une seule fois. Pour exécuter cette exécution initiale, contactez votre CSM.
 1. Sélectionnez un fournisseur de contenu dans la liste déroulante.
 
 En tant qu’administrateur, vous ne pouvez importer des compétences qu’à partir d’une seule source de compétences.
@@ -42,7 +42,7 @@ La colonne **Source** avec des valeurs - Interne, LinkedIn Learning, Go1, qui in
 
 Les compétences récemment ajoutées figureront en tête de liste.
 
-Sur la page des paramètres du cours, la colonne **Attribué par** contenant des valeurs, Internal et Content Provider.
+Sur la page des paramètres du cours, la colonne **Attribué par** contient des valeurs, Interne et Fournisseur de contenu.
 
 
 ## Workflow d’administration de l’intégration
@@ -53,9 +53,9 @@ L’administrateur d’intégration charge les fichiers CSV (compétence, niveau
 
 En tant qu’administrateur,
 
-1. Sélectionner **Compétences** dans le volet de gauche.
+1. Sélectionnez **Compétences** dans le volet de gauche.
 1. Sélectionnez la source de n’importe quelle compétence. Vous pouvez afficher les cours, les assistances à la tâche, les élèves inscrits et les instructeurs du cours.
 
 ### Modification d’une compétence
 
-Sélectionnez une compétence. Dans le panneau **Modifier une compétence** dans la fenêtre contextuelle, vous ne pouvez pas modifier le nom et la description de la compétence. Vous pouvez toutefois ajouter des domaines de compétence et un badge pour la compétence.
+Sélectionnez une compétence. Dans la fenêtre contextuelle **Modifier une compétence**, vous ne pouvez pas modifier le nom et la description de la compétence. Vous pouvez toutefois ajouter des domaines de compétence et un badge pour la compétence.

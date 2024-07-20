@@ -35,7 +35,7 @@ Pour ajouter une compétence, suivez les étapes ci-dessous :
 
    ![](assets/add-skill-name-anddescription.png)
 
-   *Ajouter le nom et la description d’une compétence*
+   *Ajouter le nom et la description d&#39;une compétence*
 
 1. Attribuez un domaine à la compétence. Lors de la création d’une compétence, vous pouvez la mapper avec les domaines de compétence les plus pertinents pris en charge par Learning Manager. Pour plus d’informations, voir [***Mappage de compétences avec les domaines***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
@@ -68,7 +68,7 @@ Pour ajouter une compétence, suivez les étapes ci-dessous :
 
    ![](assets/list-of-skills.png)
 
-   *Afficher la liste des compétences*
+   *Afficher la liste des compétences oif*
 
 ## Attribution de la compétence aux élèves {#assigntheskilltolearners}
 
@@ -102,7 +102,7 @@ Une fois que vos compétences sont créées et enregistrées, elles sont répert
 
    ![](assets/turn-off-auto-enrollment.png)
 
-   *Désactiver l’inscription automatique*
+   *Désactiver l&#39;inscription automatique*
 
    Chaque élève peut s&#39;inscrire automatiquement ou peut être inscrit par l&#39;administrateur à un programme d&#39;apprentissage.
 
@@ -120,7 +120,7 @@ Une fois que vous avez créé la compétence, un auteur peut créer un cours et 
 
 ![](assets/assign-skill-to-acourse.png)
 
-*Attribution de compétences à un cours*
+*Attribuer des compétences à un cours*
 
 Après la publication du cours par l’auteur, sur la page **[!UICONTROL Compétences]**, vous pouvez voir le nombre de cours associés à un niveau de compétence ; ce nombre augmente lorsque vous attribuez la compétence à un nouveau cours.
 
@@ -136,7 +136,7 @@ Lors de la création d’une assistance à la tâche, un auteur peut y associer 
 
 ![](assets/create-a-job-aid.png)
 
-*Création d’une assistance à la tâche*
+*Créer une assistance à la tâche*
 
 Sur la page **[!UICONTROL Compétence]**, vous pouvez voir le nombre d’assistances à la tâche associées à ce niveau de compétence.
 
@@ -152,7 +152,7 @@ Vous pouvez rechercher des compétences dans les sections **[!UICONTROL Active]*
 
 ## Modification d’une compétence {#editaskill}
 
-Sur la page **[!UICONTROL Compétence]**, cliquez sur la compétence que vous souhaitez modifier. Dans le panneau **[!UICONTROL Modifier la compétence]** , effectuez les modifications requises, par exemple,
+Sur la page **[!UICONTROL Compétence]**, cliquez sur la compétence que vous souhaitez modifier. Dans la boîte de dialogue **[!UICONTROL Modifier la compétence]**, effectuez les modifications requises, par exemple :
 
 * Ajout ou suppression d’un domaine de compétence
 * Modification du nom et de la description de la compétence
@@ -191,7 +191,7 @@ Vous pouvez uniquement supprimer une compétence lorsqu’elle n’est associée
 
 Ajoutez un fichier CSV qui contient les compétences des instructeurs. Ces compétences sont ensuite ajoutées à la liste des compétences.
 
-1. Dans le coin supérieur droit de l’écran, sélectionnez **[!UICONTROL Ajouter]** > **[!UICONTROL Attribution de compétences à un instructeur]**.
+1. Dans le coin supérieur droit de l&#39;écran, sélectionnez **[!UICONTROL Ajouter]** > **[!UICONTROL Attribuer des compétences à un instructeur]**.
 1. Chargez un fichier CSV. Les colonnes du fichier CSV sont les suivantes :
 
    * Nom de la compétence
@@ -202,7 +202,7 @@ Ajoutez un fichier CSV qui contient les compétences des instructeurs. Ces comp�
 
    Cliquez sur Enregistrer.
 
-   ![Ajouter un fichier CSV de compétences d’instructeur](assets/instructor-skills.png)
+   ![Ajouter des compétences d&#39;instructeur au format CSV](assets/instructor-skills.png)
 
    *Ajout de compétences d’instructeur à partir d’un fichier CSV*
 
@@ -210,7 +210,7 @@ Ajoutez un fichier CSV qui contient les compétences des instructeurs. Ces comp�
 
    Remarque : le message d’erreur suivant s’affiche si le fichier CSV comporte des champs incorrects.
 
-   ![Message d’erreur si le fichier CSV contient des champs incorrects](assets/error-csv-upload.png)
+   ![Message d’erreur si le fichier CSV comporte des champs incorrects](assets/error-csv-upload.png)
 
    *Message d’erreur pour les champs incorrects*
 
@@ -220,12 +220,12 @@ La page Compétences comporte une colonne intitulée Instructeurs qui indique le
 
 ![Compétences attribuées aux instructeurs](assets/instructor-skill-assigned.png)
 
-*Page Compétences*
+*Page des compétences*
 
 ### Télécharger le fichier CSV d’affectation de compétences
 
-1. Sur la page Compétences, cliquez sur **[!UICONTROL Ajouter]** > **[!UICONTROL Attribution de compétences à un instructeur]**.
-1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Affectation ajoutée précédemment]**.
+1. Sur la page Compétences, cliquez sur **[!UICONTROL Ajouter]** > **[!UICONTROL Attribuer des compétences à un instructeur]**.
+1. Dans la boîte de dialogue, cliquez sur **[!UICONTROL Attribution ajoutée précédemment]**.
 1. Le fichier CSV que vous avez chargé en dernier sera téléchargé.
 
 >[!NOTE]
@@ -283,4 +283,4 @@ En d’autres termes, pour obtenir le badge, **un élève doit terminer l’obje
 
 ### Articles connexes
 
-* [Learning Manager Compétences et Adobe](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [Compétences et Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

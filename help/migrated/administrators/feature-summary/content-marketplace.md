@@ -3,20 +3,19 @@ jcr-language: en_us
 title: Marché de contenus
 description: Learning Manager propose désormais un Marché de contenus qui vous permet d’explorer et d’acheter des formations. Explorez plus de 70 000 cours couvrant un large éventail de sujets, disponibles dans plusieurs formats. Faites votre choix parmi des listes de lecture sélectionnées qui correspondent à une grande variété de rôles et répondent à vos besoins en matière d’apprentissage et d’acquisition de compétences.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 69%
 
 ---
 
-
-
 # Marché de contenus
 
 Learning Manager propose désormais un Marché de contenus qui vous permet d’explorer et d’acheter des formations. Explorez plus de 70 000 cours couvrant un large éventail de sujets, disponibles dans plusieurs formats. Faites votre choix parmi des listes de lecture sélectionnées qui correspondent à une grande variété de rôles et répondent à vos besoins en matière d’apprentissage et d’acquisition de compétences.
 
-L’application Administrateur propose une nouvelle option **[!UICONTROL Marché de contenus]**, qui se trouve dans le panneau de gauche.
+Dans l&#39;application Administrateur, une nouvelle option **[!UICONTROL Marché de contenus]** est disponible dans le panneau de gauche.
 
 Les utilisateurs peuvent effectuer des achats dans des listes de lecture sélectionnées couvrant différents sujets ou acheter l’intégralité du catalogue.
 
@@ -28,17 +27,17 @@ La page Formation en entreprise de l’application Administrateur vous permet d�
 
 Invitez les utilisateurs à explorer le Marché de contenus et à exprimer leur intérêt. En tant qu’administrateur, vous pouvez inviter tous les élèves du compte ou inviter des élèves sélectionnés. Pour accorder l’accès aux élèves, vous devez les inviter.
 
-Un élève peut également être supprimé de l’option Marché de contenus. Pour révoquer l’accès, cliquez sur le bouton **[!UICONTROL Révoquer l’accès]** lien.  Les utilisateurs ne pourront plus voir la page Marché de contenus dans l’application de l’élève.
+Un élève peut également être supprimé de l’option Marché de contenus. Pour révoquer l&#39;accès, cliquez sur le lien **[!UICONTROL Révoquer l&#39;accès]**.  Les utilisateurs ne pourront plus voir la page Marché de contenus dans l’application de l’élève.
 
 Cette option est sélectionnée par défaut pour tous les nouveaux comptes. Pour les comptes existants, l’administrateur doit inviter les utilisateurs à explorer le marché.
 
 ## Achat
 
-Vous bénéficiez d’un accès illimité à l’ensemble de la bibliothèque de cours. Cliquez sur le bouton **[!UICONTROL Achat]** pour télécharger un formulaire de demande d’achat.
+Vous bénéficiez d’un accès illimité à l’ensemble de la bibliothèque de cours. Cliquez sur le bouton **[!UICONTROL Achat]** pour télécharger un formulaire de demande d&#39;achat.
 
 ![](assets/purchase-request.png)
 
-*Saisissez le nombre de places à acheter*
+*Entrez le nombre de places à acheter*
 
 Spécifiez le nombre de places pour lesquelles vous souhaitez acheter les cours. Téléchargez le formulaire de demande d’achat, puis envoyez-le à l’équipe commerciale de Learning Manager.
 
@@ -48,7 +47,7 @@ Une fois la clé générée par l’équipe CSAM, l’administrateur peut utilis
 
 Lors de la migration des cours, l’état **[!UICONTROL Importation de cours]** s’affiche. Une fois la migration terminée, l’administrateur reçoit une notification indiquant que la migration est terminée et réussie.
 
-Le **[!UICONTROL Licences]** La section affiche ensuite toutes les licences acquises pour le compte.
+La section **[!UICONTROL Licences]** affiche ensuite toutes les licences acquises pour le compte.
 
 L’administrateur peut voir les liens des catalogues achetés dans la page Présentation du catalogue.
 
@@ -70,9 +69,9 @@ Lorsqu’un élève clique sur Exprimer l’intérêt pour le catalogue dans l�
 
 Pour prendre en charge ce flux de travail, vous pouvez choisir entre trois modèles de courriers électroniques :
 
-1. **[!UICONTROL Activation du contenu réussie]:** Cet e-mail est envoyé lorsque l’achat d’un contenu avec un nom de clé a réussi. Toute la formation achetée est alors disponible.
+1. **[!UICONTROL Activation du contenu réussie]:** Cet e-mail est envoyé lorsque l&#39;achat d&#39;un contenu portant un nom de clé a réussi. Toute la formation achetée est alors disponible.
 1. **[!UICONTROL Échec du chargement utilisateur automatisé]:** Cet e-mail est envoyé lorsque la mise à jour automatique du fichier CSV dans le compte échoue pour une raison quelconque.
-1. **[!UICONTROL Inviter les utilisateurs à explorer le contenu]:** Il s’agit d’un e-mail d’invitation envoyé aux élèves lorsque l’administrateur a acheté des cours. L’administrateur peut consulter le rapport des intérêts pour comprendre les exigences générales et prendre la décision d’achat.
+1. **[!UICONTROL Inviter les utilisateurs à explorer le contenu]:** Il s&#39;agit d&#39;un e-mail d&#39;invitation envoyé aux élèves lorsque l&#39;administrateur a acheté des cours. L’administrateur peut consulter le rapport des intérêts pour comprendre les exigences générales et prendre la décision d’achat.
 
 1. Les cours achetés ne peuvent pas être ajoutés aux certificats récurrents.
 1. Les cours achetés ne peuvent pas être partagés avec des comptes d’homologues.
@@ -87,7 +86,7 @@ Un administrateur peut inviter les experts en la matière à sélectionner la li
 
 ![](assets/content-hub.png)
 
-*Lancer le Hub de contenu à partir du marché*
+*Lancer le hub de contenu à partir du marketplace*
 
 Le Hub de contenu est disponible dans le rôle Élève pour tous les administrateurs. Les administrateurs autorisent les experts en la matière à présélectionner la liste de lecture qu’ils souhaitent acheter.
 
@@ -99,10 +98,10 @@ La page Hub de contenu est toujours visible par les administrateurs dans leur r�
 
 Learning Manager permet également aux administrateurs de télécharger une liste de lecture présélectionnée et de la partager avec l’équipe des ventes d’Adobe. Avant de télécharger la présélection, rendez-vous sur le Hub de contenu et sélectionnez une liste de lecture en ajoutant une liste de lecture à votre bibliothèque.
 
-Ensuite, en tant qu’administrateur, cliquez sur **[!UICONTROL Marché de contenus]** > **[!UICONTROL Formation en entreprise]** > **[!UICONTROL Section Achat]** > **[!UICONTROL Listes de lecture sélectionnées]**. Cliquez sur le bouton **[!UICONTROL Acheter]** pour télécharger le formulaire de demande d’achat qui contient les détails de votre liste de lecture présélectionnée.
+Ensuite, en tant qu&#39;administrateur, cliquez sur **[!UICONTROL Marché de contenus]** > **[!UICONTROL Formation en entreprise]** > **[!UICONTROL Section Achat]** > **[!UICONTROL Listes de lecture sélectionnées]**. Cliquez sur le bouton **[!UICONTROL Acheter]** pour télécharger le formulaire de demande d’achat qui contient les détails de votre liste de lecture présélectionnée.
 
 ![](assets/download-purchase-request.png)
 
-*Télécharger le formulaire de demande d’achat*
+*Télécharger le formulaire de demande d&#39;achat*
 
 Les cours et la liste de lecture que vous voyez dans le Hub de contenu sont les mêmes que ceux que vous voyez dans le Marché de contenus. Le Hub de contenu permet simplement aux administrateurs et aux experts en la matière avec accès limité de présélectionner facilement une liste de lecture en vue de l’acheter.

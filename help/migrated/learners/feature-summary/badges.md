@@ -3,14 +3,13 @@ description: Découvrez comment afficher et télécharger des badges à l’aide
 jcr-language: en_us
 title: Badges
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
 
 ---
-
-
 
 # Badges
 
@@ -30,13 +29,13 @@ Les badges récemment obtenus sont affichés à l’extrême gauche de la liste,
 
 Cliquez sur n’importe quel badge pour obtenir la liste de tous les badges que vous avez acquis. Vous pouvez également afficher tous les badges disponibles en phase avec les cours respectifs. Dans Badges à réaliser, cliquez sur le nom du cours pour afficher le cours aligné sur le badge. Un exemple est illustré ci-dessous pour référence.
 
-Cliquez sur **[!UICONTROL Télécharger tous les badges]** lien pour télécharger tous vos badges acquis au format zip. Vous pouvez également télécharger un badge individuel en cliquant sur l&#39;icône de cube en regard de chaque nom badge.
+Cliquez sur le lien **[!UICONTROL Télécharger tous les badges]** pour télécharger tous les badges acquis au format zip. Vous pouvez également télécharger un badge individuel en cliquant sur l&#39;icône de cube en regard de chaque nom badge.
 
 **Télécharger le badge au format PDF** 
 
 Vous pouvez également télécharger un ensemble de badges ou un badge individuel au format PDF.
 
-* Cliquez sur **[!UICONTROL Télécharger tous les enregistrements de badge]** pour télécharger les badges acquis par vous en tant que PDF.
+* Cliquez sur **[!UICONTROL Télécharger tous les enregistrements de badge]** pour télécharger les badges que vous avez acquis en tant que PDF.
 * Pour télécharger de badges individuels, sélectionnez le badge et cliquez sur l&#39;icône pdf en regard du noms de badge.
 
 ![](assets/badges.png)
@@ -57,7 +56,7 @@ Les élèves peuvent intégrer leur compte de plateforme d’apprentissage à le
 
 Les badges ouverts sont des badges qui comportent des métadonnées intégrées à l’image du badge. Ces métadonnées fournissent des informations sur l’émetteur, le destinataire, la tâche accomplie, la validité du badge, etc. Le sac à dos des badges sera accessible directement à partir de Learning Manager afin de fournir un emplacement central pour stocker tous les badges et les partager. Les élèves peuvent se connecter à leur compte Badgr et établir l’intégration. À partir de ce moment-là, les badges obtenus dans Learning Manager sont automatiquement chargés sur le compte Badgr.
 
-Une fois que l’administrateur a activé l’option **Intégration de Badgr**, un élève peut ensuite l’intégrer à Badgr et configurer son badge. Pour l’intégrer, l’élève doit se connecter au compte Badgr à partir de Learning Manager.
+Une fois que l&#39;administrateur a activé l&#39;option **Intégration Badgr**, un élève peut l&#39;intégrer à Badgr et configurer son badge. Pour l’intégrer, l’élève doit se connecter au compte Badgr à partir de Learning Manager.
 
 >[!NOTE]
 >
@@ -81,4 +80,4 @@ Ce processus de mise à jour de la page est appelé recréation manuelle. Dans c
 
 **1. Comment télécharger un badge en tant qu’élève ?**
 
-Sur la page Badges, vous pouvez télécharger un Badge sous forme d’image ou au format PDF. Choisissez une compétence ou un cours, puis cliquez sur l’une des options suivantes : **PDF** ou **Badge**.
+Sur la page Badges, vous pouvez télécharger un Badge sous forme d’image ou au format PDF. Choisissez une compétence ou un cours, puis cliquez sur **PDF** ou sur **Badge**.

@@ -40,24 +40,24 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 Pour purger les utilisateurs, procédez comme suit :
 
 1. En tant qu’administrateur, cliquez sur **[!UICONTROL Utilisateurs]** dans le volet de gauche. La page **[!UICONTROL Utilisateurs internes]** s’ouvre.
-1. Supprimez l’utilisateur que vous souhaitez purger. Pour cela, sélectionnez un ou plusieurs utilisateurs à l’aide de la case à cocher. Ouvrez le panneau **[!UICONTROL Action]** liste déroulante et sélectionnez **[!UICONTROL Supprimer l’utilisateur.]**
+1. Supprimez l’utilisateur que vous souhaitez purger. Pour cela, sélectionnez un ou plusieurs utilisateurs à l’aide de la case à cocher. Ouvrez la liste déroulante **[!UICONTROL Action]** et sélectionnez **[!UICONTROL Supprimer l’utilisateur]**.
 1. Dans le volet de gauche, sélectionnez **[!UICONTROL Suppression de l’utilisateur]**. La page **[!UICONTROL Suppression de l’utilisateur]** apparaît avec la liste des utilisateurs supprimés. Utilisez les boutons radio pour sélectionner l’utilisateur à purger. Vous ne pouvez purger qu’un utilisateur à la fois.
 
    ![](assets/purge-1.png)
 
    *Sélectionner un utilisateur à purger*
 
-1. Ouvrez le panneau **[!UICONTROL Actions]** menu déroulant et sélectionnez **[!UICONTROL Purger l’utilisateur]**.
+1. Ouvrez le menu déroulant **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Purger l&#39;utilisateur]**.
 
    ![](assets/purge-2.png)
 
-   *Sélectionnez l’option Purger l’utilisateur*
+   *Sélectionnez l&#39;option Purger l&#39;utilisateur*
 
 1. Une boîte de dialogue s’affiche vous demandant une confirmation. Une fois purgés, toutes les données d’utilisateur et les dossiers d’apprentissage associés à l’utilisateur sélectionné sont supprimés de façon permanente. Une fois effectuée, l’action de purge est irréversible. Pour confirmer, cliquez sur **[!UICONTROL Purger]**.
 
    ![](assets/purge-3.png)
 
-   *Message de confirmation après la purge d’un utilisateur*
+   *Message de confirmation après la purge d&#39;un utilisateur*
 
 1. Une fois que vous confirmez et cliquez sur Purger, la demande de purge est acceptée. Vous recevez une notification une fois l’action terminée. Un ID de demande de purge est également fourni. Vous pouvez fournir cet ID au CSM pour effectuer le suivi de la demande.
 
@@ -138,7 +138,7 @@ Vous pouvez sélectionner les 50 premiers utilisateurs et purger les utilisateu
    <td>Oui</td>
   </tr>
   <tr>
-   <td><strong>Purger</strong> <strong>autres utilisateurs - Particuliers (personnes qui ne sont pas des utilisateurs internes ou externes de Learning Manager)</strong></td>
+   <td><strong>Purger</strong> <strong>d’autres utilisateurs hors entreprise (personnes qui ne sont pas des utilisateurs internes ou externes de Learning Manager)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ Vous pouvez sélectionner les 50 premiers utilisateurs et purger les utilisateu
 
 +++
 
-Learning Manager est désormais conforme au RGPD. Pour plus d’informations sur la conformité au RGPD, voir  [Conformité de Learning Manager au RGPD](../../kb/prime-gdpr.md).
+Learning Manager est désormais conforme au RGPD. Pour plus d&#39;informations sur la conformité au RGPD, voir [Conformité de Learning Manager au RGPD](../../kb/prime-gdpr.md).
 
 ## Forum aux questions {#frequentlyaskedquestions}
 

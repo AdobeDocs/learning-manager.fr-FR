@@ -17,7 +17,7 @@ Ce document décrit la prise en charge de l’accessibilité fournie par le syst
 
 Learning Manager suit les normes d’accessibilité WCAG 2.1 de niveau A et AA de W3C pour la plateforme.
 
-Le rôle Élève d’Adobe Learning Manager permet aux élèves de parcourir la plateforme et de tirer parti des fonctionnalités d’accessibilité clés suivantes :
+Le rôle Élève de Adobe Learning Manager permet aux élèves de parcourir la plateforme et de tirer parti des fonctionnalités d’accessibilité clés suivantes :
 
 * Lecteur d’écran
 * Clavier
@@ -201,27 +201,27 @@ Le rôle Élève dans Learning Manager prend en charge plusieurs autres fonction
 Pour plus d’informations, voir :
 
 * [Rapport de conformité d’accessibilité pour un élève](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Rapport de conformité d’accessibilité pour tous les rôles](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Rapport de conformité d&#39;accessibilité pour tous les rôles](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
 ## Workflows principaux de Learning Manager (rôle Élève) {#captivateprimetopworkflowslearnerrole}
 
 Voyons comment les fonctionnalités d’accessibilité vous aident à naviguer dans certaines fonctionnalités clés pour les élèves dans Learning Manager.
 
-Utilisez la commande `kbd Tab`pour parcourir les éléments de la page. Utilisez la commande `kbd Shift + Tab` pour inverser le sens de la navigation. La mise en évidence du clavier est indiquée par un contour bleu affiché autour d’un élément. Un lecteur d’écran doit lire le texte de l’élément mis en évidence.
+Utilisez la touche `kbd Tab` pour naviguer dans les éléments de la page. Utilisez la touche `kbd Shift + Tab` pour inverser le sens de la navigation. La mise en évidence du clavier est indiquée par un contour bleu affiché autour d’un élément. Un lecteur d’écran doit lire le texte de l’élément mis en évidence.
 
 ## Rechercher une formation dans Learning Manager {#searchforatrainingincaptivateprime}
 
 1. Utilisez ces repères pour naviguer et atteindre la zone de recherche en haut à droite de la page d’accueil.
 1. Saisissez du texte à l’aide du clavier. Les résultats de la recherche apparaîtront.
-1. Utilisation du clavier `kbd Up/Down` flèches pour naviguer dans les résultats ou appuyez sur `kbd ENTER`pour voir tous les résultats.
+1. Utilisez les flèches du clavier `kbd Up/Down` pour parcourir les résultats ou appuyez sur `kbd ENTER` pour afficher tous les résultats.
 
-1. Une fois la formation identifiée, appuyez sur `kbd ENTER`pour accéder à la page de formation.
+1. Une fois la formation identifiée, appuyez sur `kbd ENTER` pour accéder à la page de formation.
 
 ## Suivre une formation dans Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Une fois la formation identifiée, utilisez `kbd Tab`ou `kbd Shift + Tab` pour accéder au bouton Inscrire/Démarrer. Le statut du bouton dépend de votre statut d’inscription pour cette formation.
+1. Une fois qu&#39;une formation est identifiée, utilisez `kbd Tab` ou `kbd Shift + Tab` pour accéder au bouton S&#39;inscrire/Démarrer. Le statut du bouton dépend de votre statut d’inscription pour cette formation.
 
-1. Toucher `kbd ENTER`pour commencer la formation.
+1. Appuyez sur `kbd ENTER` pour commencer la formation.
 1. Voici les commandes qui apparaissent quel que soit le type de contenu :
 
    * Table des matières
@@ -238,7 +238,7 @@ Utilisez la commande `kbd Tab`pour parcourir les éléments de la page. Utilisez
    * CONTENU DU DOCUMENT - Numéro de page, Page précédente, Page suivante, Zoom avant, Zoom arrière.
    * eLEARNING : bouton Sous-titres.
 
-1. Touches de contrôle clavier `kbd Tab`ou `kbd Shift + Tab` pour naviguer dans les contrôles et appuyer sur `kbd ENTER`pour activer/désactiver un contrôle.
+1. Appuyez sur les commandes clavier `kbd Tab` ou `kbd Shift + Tab` pour parcourir les commandes et appuyez sur `kbd ENTER` pour activer/désactiver un contrôle.
 
 1. Pour le type DOCUMENT, utilisez les commandes fléchées comme `kbd UP/DOWN` pour faire défiler le document.
 
@@ -250,7 +250,7 @@ Examinons les fonctionnalités d’accessibilité que les élèves peuvent utili
 
 * Utilisez les sous-titres pour sourds et malentendants disponibles dans le contenu créé à l’aide de l’outil de création Adobe Captivate.
 * Pour les vidéos, les auteurs peuvent encoder les vidéos avec du texte de sous-titre pour sourds et malentendants. Ces vidéos contiennent des sous-titres pour sourds et malentendants intégrés et peuvent être visionnés par les élèves.
-* Learning Manager permet de charger des fichiers WebVTT de sous-titres pour le contenu vidéo. Pour plus d’informations, voir  [*Charger un fichier WebVTT pour le sous-titrage*](authors/feature-summary/content-library.md#webvtt).
+* Learning Manager permet de charger des fichiers WebVTT de sous-titres pour le contenu vidéo. Pour plus d&#39;informations, voir [*Charger un fichier WebVTT pour le sous-titrage*](authors/feature-summary/content-library.md#webvtt).
 
 ### Utilisateurs aveugles ou malvoyants
 

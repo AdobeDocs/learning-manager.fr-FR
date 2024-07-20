@@ -37,32 +37,32 @@ Un exemple de fenêtre de notification pour le rôle d’administrateur est illu
 
 ![](assets/admin-notification.png)
 
-*Afficher les notifications de l’administrateur*
+*Afficher les notifications de l&#39;administrateur*
 
 Cette fenêtre contextuelle affiche les zones en surbrillance de toutes les notifications, ainsi que l’heure de l’occurrence et une barre de défilement. Vous pouvez connaître le nombre des dernières notifications basées sur le nombre en surbrillance sur l’icône des notifications. Par exemple, s’il y a cinq dernières notifications depuis votre connexion précédente, vous pouvez voir le numéro 5 affiché sur l’icône de notification. Ces numéros disparaissent une fois que vous avez lu toutes les dernières notifications.
 
-Cliquez sur **[!UICONTROL Afficher toutes les notifications]** un lien en bas de la fenêtre contextuelle des notifications permet d’afficher toutes les notifications dans une page distincte. Sur la page des notifications, vous pouvez voir les éléments suivants :
+Cliquez sur le lien **[!UICONTROL Afficher toutes les notifications]** en bas de la fenêtre contextuelle des notifications pour afficher toutes les notifications dans une page distincte. Sur la page des notifications, vous pouvez voir les éléments suivants :
 
-* **Toutes les notifications**: afficher toutes les notifications ici
-* **En attente**: afficher les notifications en attente ici
-* **Discussion**: recherchez des cours pour voir les discussions qui ont lieu.
+* **Toutes les notifications** : consultez toutes les notifications ici
+* **En attente** : affichez les notifications en attente ici
+* **Discussion** : recherchez des cours pour voir les discussions en cours.
 
 ## Configurer des notifications d’escalade à plusieurs niveaux {#setupmultilevelescalationnotifications}
 
 Lorsque les élèves ne respectent pas les échéances, les courriers électroniques d’escalade peuvent être envoyés au responsable et à un responsable direct. Vous pouvez configurer des notifications d’escalade à plusieurs niveaux pour le non-achèvement du cours pendant le processus de création d’un cours, ou même après sa création. Les notifications d’escalade peuvent être configurées pour être envoyées à une fréquence définie à un responsable ou à un responsable direct.
 
 1. Connectez-vous en tant qu’administrateur ou auteur et cliquez sur Cours.
-1. Sélectionnez le cours pour lequel vous souhaitez modifier les notifications d’escalade et cliquez sur **[!UICONTROL Afficher le cours]**.
+1. Sélectionnez le cours pour lequel vous souhaitez modifier les notifications d&#39;escalade et cliquez sur **[!UICONTROL Afficher le cours]**.
 
    ![](assets/view-courses.png)
 
-   *Sélectionnez l’option Afficher le cours*
+   *Sélectionnez l&#39;option Afficher le cours*
 
-1. Cliquez sur **[!UICONTROL Instances]** > **[!UICONTROL Alertes de notification]**.
+1. Cliquez sur **[!UICONTROL Instances]** > **[!UICONTROL Avertissements]**.
 
    ![](assets/notification-alert.png)
 
-   *Sélectionnez l’option Alertes de notification*
+   *Sélectionnez l&#39;option Alertes de notification*
 
 1. Un calendrier s’ouvre indiquant l’échéance définie pour le cours surligné en rouge. Cliquez sur la date en surbrillance pour voir que les rappels sont définis pour l’élève.
 
@@ -74,19 +74,19 @@ Lorsque les élèves ne respectent pas les échéances, les courriers électroni
 
    ![](assets/deadline-reminder.png)
 
-   *Définition d’une date de rappel d’échéance*
+   *Définir une date de rappel d&#39;échéance*
 
 1. Sélectionnez une date après l’échéance pour configurer un calendrier de rappels pour l’élève et de notifications d’escalade pour le responsable.
 
    ![](assets/set-reminders-andescalation.png)
 
-   *Définition de rappels et de dates de remontée*
+   *Définir des rappels et des dates de réaffectation*
 
-1. Si l’élève ne parvient toujours pas à terminer le cours même après la réaffectation au responsable, les paramètres vous permettent de réaffecter le cours au responsable de l’erreur de l’élève. Cliquez sur une date après l’échéance étendue, sélectionnez la périodicité des rappels, le nombre de jours pour la planification et sélectionnez **Responsable et ignorer le gestionnaire de niveau** dans le **Escalade** liste déroulante. Cliquez sur la coche bleue pour enregistrer les paramètres de notification.
+1. Si l’élève ne parvient toujours pas à terminer le cours même après la réaffectation au responsable, les paramètres vous permettent de réaffecter le cours au responsable de l’erreur de l’élève. Cliquez sur une date après l&#39;échéance prolongée, sélectionnez la périodicité des rappels, le nombre de jours pour la planification et sélectionnez **Manager et ignorer le gestionnaire de niveau** dans le menu déroulant **Escalade**. Cliquez sur la coche bleue pour enregistrer les paramètres de notification.
 
    ![](assets/reminder-to-managerandskipmanager.png)
 
-   *Enregistrement des paramètres de notification*
+   *Enregistrer les paramètres de notification*
 
 ## Forum aux questions {#frequentlyaskedquestions}
 

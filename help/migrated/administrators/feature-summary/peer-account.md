@@ -3,14 +3,13 @@ description: Lisez cet article pour savoir comment créer et gérer les comptes 
 jcr-language: en_us
 title: Comptes de pairs
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 62%
 
 ---
-
-
 
 # Comptes de pairs
 
@@ -27,7 +26,7 @@ Learning Manager vous permet de partager les places achetées grâce à la fonc
 
    *Ajouter un compte de pairs*
 
-1. Dans le panneau **[!UICONTROL Sous-domaine de compte]** spécifiez le sous-domaine avec lequel vous souhaitez établir un compte de pairs.
+1. Dans le champ **[!UICONTROL Sous-domaine de compte]**, spécifiez le sous-domaine avec lequel vous souhaitez établir un compte de pairs.
 
    ![](assets/addpeer.png)
 
@@ -69,11 +68,11 @@ Si vous ne souhaitez plus partager des places ou des achats avec un compte, vous
 L’administrateur peut afficher le rapport d’utilisateur du compte de pairs. L’administrateur du compte parent peut demander l’accès au rapport. Une fois que l’administrateur du compte de pairs accepte cette demande, l’administrateur parent pourra afficher le nombre d’utilisateurs enregistrés dans le compte de pairs et télécharger le rapport d’utilisateur pour le compte de pairs.
 
 1. Dans la page Comptes d’homologues, cliquez sur **[!UICONTROL Ajouter]**.
-1. Activez l’option. **[!UICONTROL Demander l’autorisation de télécharger les rapports d’utilisateur pour l’ensemble du compte]**.
+1. Activez l&#39;option **[!UICONTROL Demander l&#39;autorisation de télécharger des rapports d&#39;utilisateur pour l&#39;ensemble du compte]**.
 
 ![](assets/image034.png)
 
-*Afficher le rapport d’utilisateur d’un compte de pairs*
+*Afficher le rapport d&#39;utilisateur d&#39;un compte de pairs*
 
 Pour télécharger les rapports des comptes de pairs, cliquez sur **[!UICONTROL Télécharger]**.
 
@@ -85,5 +84,5 @@ Lors de l’ajout d’un compte de pairs, spécifiez le nombre de places que vou
 
 ![](assets/share-seats.png)
 
-*Partage de places d’un compte à un autre*
+*Partager des places d’un compte à un autre*
 +++

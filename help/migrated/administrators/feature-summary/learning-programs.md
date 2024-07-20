@@ -4,14 +4,13 @@ jcr-language: en_us
 title: Programmes d’apprentissage
 contentowner: manochan
 preview: true
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 75%
 
 ---
-
-
 
 # Programmes d’apprentissage
 
@@ -41,7 +40,7 @@ Les administrateurs peuvent créer des programmes d’apprentissage. Pour créer
 
    Tous les types de cours peuvent être ajoutés à un programme d’apprentissage. Il s’agit notamment des cours en salle de classe et en salle de classe virtuelle, des cours d’activité, en auto-apprentissage et fusionnés. Les cours nommés par le responsable et approuvés par le responsable n&#39;apparaissent pas lors de la sélection des cours dans les programmes d&#39;apprentissage.
 
-1. Vous devez ajouter des cours au programme d’apprentissage avant de le publier. Cliquez sur **[!UICONTROL Catalogue]** pour associer des cours au programme d&#39;apprentissage. Une liste de tous les cours disponibles s’affiche.
+1. Vous devez ajouter des cours au programme d’apprentissage avant de le publier. Cliquez sur l&#39;onglet **[!UICONTROL Catalogue]** pour associer les cours au programme d&#39;apprentissage. Une liste de tous les cours disponibles s’affiche.
 
 1. Sélectionnez les cours que vous souhaitez ajouter au programme d’apprentissage en plaçant le pointeur de la souris sur une carte de cours et en cliquant dessus. Si le cours n’est pas encore ajouté au programme d’apprentissage, vous pouvez voir le symbole + au milieu de cette carte de cours.
 
@@ -49,18 +48,18 @@ Les administrateurs peuvent créer des programmes d’apprentissage. Pour créer
 
    **Remarque**
 
-   Afficher la liste de tous les cours ajoutés à votre programme d’apprentissage dans **[!UICONTROL Curriculum]** onglet. Le libellé des cours ajoutés est visible au bas de la carte de cours, dans l’onglet **[!UICONTROL Catalogue]**.
+   Consultez la liste de tous les cours ajoutés à votre programme d&#39;apprentissage dans l&#39;onglet **[!UICONTROL Curriculum]**. Le libellé des cours ajoutés est visible au bas de la carte de cours, dans l’onglet **[!UICONTROL Catalogue]**.
 
-1. Cliquez sur **[!UICONTROL Revenir aux programmes]** en haut du volet de gauche, pour afficher la liste de tous les programmes d&#39;apprentissage. Vous pouvez voir que le programme d’apprentissage qui vient d’être ajouté est maintenant dans la liste.
+1. Cliquez sur **[!UICONTROL Revenir aux programmes]** en haut du volet gauche pour afficher la liste de tous les programmes d&#39;apprentissage. Vous pouvez voir que le programme d’apprentissage qui vient d’être ajouté est maintenant dans la liste.
 1. Vous pouvez publier le programme d’apprentissage en cliquant sur Présentation dans le volet de gauche, puis en choisissant Actions > Publier. Vous pouvez également publier le programme d’apprentissage dans la vue Cours et instances en cliquant sur Publier dans l’angle supérieur droit de la page.
 
 ## Ajout d’élèves à un programme d’apprentissage {#addlearnerstoalearningprogram}
 
-Pour plus d&#39;informations sur l&#39;inscription des élèves et les étapes à suivre, voir  [Inscription des élèves.](courses.md#main-pars_header_1058138132)
+Pour plus d&#39;informations sur l&#39;inscription des élèves et les étapes à suivre, voir [Inscription d&#39;élèves](courses.md#main-pars_header_1058138132).
 
 ## Activation du contrôle de catalogue complet pour les programmes d’apprentissage {#catalog}
 
-Comme accorder la licence complète [contrôle de catalogue pour les apprentissages ou les modules](shared-catalog-full-control.md), vous pouvez également activer le contrôle de catalogue complet pour les programmes d’apprentissage.
+Comme pour l&#39;octroi du contrôle de catalogue complet [pour les apprentissages ou les modules](shared-catalog-full-control.md), vous pouvez également activer le contrôle de catalogue complet pour les programmes d&#39;apprentissage.
 
 ## Réinitialiser le cours
 
@@ -70,11 +69,11 @@ Un administrateur peut réinitialiser la progression d&#39;un cours dans un prog
 
 Pour réinitialiser un cours, l’administrateur doit sélectionner un cours dans la liste déroulante Cours.
 
-Puis à partir du **[!UICONTROL Actions]** liste déroulante, cliquez sur **[!UICONTROL Réinitialiser le cours]**.
+Ensuite, dans la liste déroulante **[!UICONTROL Actions]**, cliquez sur **[!UICONTROL Réinitialiser le cours]**.
 
 Les élèves peuvent désormais lancer d’emblée les modules des cours sélectionnés.
 
-**Remarque : seuls les modules ayant échoué et incomplets du cours seront réinitialisés.**
+**Remarque : seuls les modules du cours qui ont échoué et qui sont incomplets seront réinitialisés.**
 
 ## Création de plusieurs instances des programmes d’apprentissage {#createmultipleinstancesoflearningprograms}
 
@@ -155,7 +154,7 @@ Les administrateurs peuvent définir l’ordre dans lequel les élèves suivront
 
 Pour mettre à jour l’ordre des cours d’un programme d’apprentissage,
 
-1. Cliquez sur la carte du programme d&#39;apprentissage de votre choix, puis cliquez sur **[!UICONTROL Cours]** dans le volet de gauche.
+1. Cliquez sur la carte du programme d&#39;apprentissage de votre choix et cliquez sur **[!UICONTROL Cours]** dans le volet de gauche.
 
 1. Une liste de cartes de cours associées au programme d’apprentissage s’affiche. Cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
 1. Vous pouvez modifier l’ordre de la liste en cliquant et en faisant glisser chaque carte de cours dans la position appropriée.
@@ -165,6 +164,6 @@ Pour mettre à jour l’ordre des cours d’un programme d’apprentissage,
 
 Un programme d’apprentissage peut être modifié par un administrateur à un état publié. À ce stade, l’administrateur peut modifier toutes les sections d’un programme d’apprentissage et les republier à nouveau.
 
-Pour modifier un programme d&#39;apprentissage publié, cliquez sur la carte du programme d&#39;apprentissage, puis cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
+Pour modifier un programme d&#39;apprentissage publié, cliquez sur la carte du programme d&#39;apprentissage et cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
 
 Lors de la modification des sections d’un programme d’apprentissage, si vous devez vous extraire de la page, vous devez publier de nouveau le programme d’apprentissage. Vous recevez une confirmation de la boîte de dialogue qui s’affiche vous invitant à republier le programme d’apprentissage.

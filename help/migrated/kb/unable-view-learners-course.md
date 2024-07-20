@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Impossible d’afficher les élèves dans un cours
 description: L’onglet Élèves d’un cours n’affiche aucun élève inscrit à Adobe Learning Manager. Toutefois, si vous générez un rapport, vous pouvez afficher les élèves inscrits dans le rapport.
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 58%
 
 ---
-
-
 
 # Impossible d’afficher les élèves dans un cours
 
@@ -37,7 +36,7 @@ Vous pouvez vérifier ces informations dans le rapport Relevés de notes de l’
 1. Connectez-vous en tant qu’administrateur.
 1. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Relevé de notes de l’élève]**.
 
-1. Entrez le nom de l’attribut **[!UICONTROL Élève]** et spécifiez les **[!UICONTROL Date]** plage.
+1. Entrez le nom de l&#39;**[!UICONTROL élève]** et spécifiez la plage **[!UICONTROL Date]**.
 1. Développez la section **[!UICONTROL Options avancées]** et sélectionnez l’option **[!UICONTROL Activer les informations de niveau de module]**.
 1. Cliquez sur **[!UICONTROL Générer]**.
 

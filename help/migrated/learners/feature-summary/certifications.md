@@ -3,14 +3,13 @@ description: Découvrez comment suivre des certifications à l’aide de l’app
 jcr-language: en_us
 title: Certifications
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 62%
 
 ---
-
-
 
 # Certifications
 
@@ -61,7 +60,7 @@ Vous devez obtenir la certification externe en dehors de votre entreprise et fou
 
    Une page de certification s’affiche avec la présentation de la certification, la date de validité de la certification, l’émetteur, la date d’achèvement, le type (périodique ou permanente) et le badge.
 
-1. Pour envoyer le justificatif d’accomplissement de votre certification, cliquez sur Parcourir, sélectionnez le fichier dans votre chemin d’accès local et cliquez sur **[!UICONTROL Charger]**.
+1. Pour soumettre le justificatif d&#39;accomplissement de votre certification, cliquez sur Parcourir, sélectionnez le fichier dans votre chemin local et cliquez sur **[!UICONTROL Charger]**.
 
 ## Obtention des certifications {#completingcertifications}
 

@@ -26,7 +26,7 @@ Vous pouvez également choisir de ne pas envoyer de notifications par courrier �
 
 1. Dans la page Objet d’apprentissage, cliquez sur le cours, la certification ou le programme d’apprentissage pour configurer les paramètres de courrier électronique.
 
-1. Dans la page de détails de l’objet d’apprentissage, sélectionnez **Modèles de courrier électronique** > **Tous les modèles**. Des modèles de courrier électronique sont disponibles pour **Instance par défaut** et **Cours actuel**. Vous pouvez basculer entre eux à l’aide de la liste déroulante dans le coin supérieur droit.
+1. Dans la page de détails de l&#39;objet d&#39;apprentissage, sélectionnez **Modèles de courrier électronique** > **Tous les modèles**. Des modèles de courrier électronique sont disponibles pour **l&#39;instance par défaut** et le **cours actuel**. Vous pouvez basculer entre eux à l’aide de la liste déroulante dans le coin supérieur droit.
 
    Vous pouvez afficher la liste des modèles disponibles pour l’objet d’apprentissage que vous avez sélectionné.
 
@@ -37,12 +37,12 @@ Vous pouvez également choisir de ne pas envoyer de notifications par courrier �
 
    ![](assets/preview-the-emailtemplateforyourlearningobject.png)
 
-   *Voir Aperçu du modèle*
+   *Afficher l&#39;aperçu du modèle*
 
    Vous pouvez personnaliser chaque modèle en cliquant sur le texte du corps du modèle. Vous pouvez insérer des variables dans le texte en cliquant sur les icônes appropriées comme indiqué dans l’instantané. Placez le pointeur au-dessus de chaque icône pour afficher les noms.
 
    ![](assets/insert-variable.png)
-   *Insertion d’une variable*
+   *Insérer une variable*
 
    Les variables suivantes sont disponibles :
 
@@ -74,6 +74,6 @@ Si le cercle dans le bouton de notification en regard de chaque nom d’événem
 
 L’auteur peut configurer les éléments suivants dans les paramètres du modèle de courrier électronique :
 
-* **Bannière d’e-mail**: permet de modifier la bannière de l’e-mail.
+* **Bannière d&#39;e-mail** : vous permet de modifier la bannière d&#39;e-mail.
 
-* **Signature électronique**: permet d’ajouter ou de modifier la signature électronique.
+* **Signature par e-mail** : vous permet d&#39;ajouter ou de modifier la signature par e-mail.

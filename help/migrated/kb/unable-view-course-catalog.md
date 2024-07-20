@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Impossible d’afficher certains cours dans le catalogue lors de la création d’un Programme d’apprentissage
 description: Lors de la recherche d’un cours spécifique pour l’ajouter à un Programme d’apprentissage, vous ne pouvez pas afficher le cours dans le catalogue.
 contentowner: saghosh
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 5920b4e4-f552-4b89-9126-2f1bbf5c8e9b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 90%
 
 ---
-
-
 
 # Impossible d’afficher certains cours dans le catalogue lors de la création d’un Programme d’apprentissage
 

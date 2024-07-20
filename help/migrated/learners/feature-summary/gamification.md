@@ -3,14 +3,13 @@ description: Impliquez les élèves à l’aide des techniques de ludification d
 jcr-language: en_us
 title: Ludification
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
 
 ---
-
-
 
 # Ludification
 
@@ -28,13 +27,13 @@ Les élèves peuvent également voir leur niveau d’achèvement en fonction du 
 
 Le Tableau des scores est une fonctionnalité de la ludification qui joue le rôle de tableau indicateur pour afficher le classement des meilleurs scores. Les participants peuvent voir leurs points de ludification dans le Tableau des scores.
 
-Dans la page d’accueil de l’élève, cliquez sur **[!UICONTROL Ludification]** dans le volet de gauche. Cliquez sur le lien Tableau des scores pour afficher le tableau des scores. Cette fonction permet aux élèves de comprendre comment ils se classent par rapport à un membre particulier de l’équipe. Elle affiche également leur position de classement par rapport aux autres membres de l’équipe.
+Dans la page d&#39;accueil de l&#39;élève, cliquez sur **[!UICONTROL Ludification]** dans le volet de gauche. Cliquez sur le lien Tableau des scores pour afficher le tableau des scores. Cette fonction permet aux élèves de comprendre comment ils se classent par rapport à un membre particulier de l’équipe. Elle affiche également leur position de classement par rapport aux autres membres de l’équipe.
 
 Quelques-unes des fonctionnalités du Tableau des scores des participants :
 
 * Les élèves inscrits à une instance de programme d&#39;apprentissage peuvent voir les points des autres si la ludification est activée pour cette instance.
 * Cliquez sur **[!UICONTROL Ajouter des collègues]** pour inclure un membre de l’équipe auquel vous souhaitez vous comparer. L’image de profil du membre de votre équipe est ajoutée à l’échelle de temps en haut de la page du tableau des scores. Ce montage chronologique affiche vos points au début et déplace votre position vers la droite lorsque vous obtenez plus de points que les membres de votre équipe. Vous pouvez uniquement le comparer à d’autres membres du même groupe.
-* **Groupes d’utilisateurs :** À tout moment, vous pouvez choisir les profils des membres de votre équipe avec lesquels vous souhaitez comparer votre rang, à l’aide de la fonction **[!UICONTROL Classement]** option. Dans le champ Sélectionner des groupes d’utilisateurs, saisissez et choisissez le groupe. La liste de tous les membres de l’équipe, ainsi que leurs derniers points, sont répertoriés ci-dessous. Les utilisateurs internes et externes peuvent afficher la liste, mais seuls les utilisateurs internes sont activés pour rechercher d&#39;autres élèves internes.
+* **Groupes d&#39;utilisateurs :** à tout moment, vous pouvez choisir les profils des membres de votre équipe avec lesquels vous souhaitez comparer votre rang, à l&#39;aide de l&#39;option **[!UICONTROL Classement avec]**. Dans le champ Sélectionner des groupes d’utilisateurs, saisissez et choisissez le groupe. La liste de tous les membres de l’équipe, ainsi que leurs derniers points, sont répertoriés ci-dessous. Les utilisateurs internes et externes peuvent afficher la liste, mais seuls les utilisateurs internes sont activés pour rechercher d&#39;autres élèves internes.
 
 * En outre, la fonction Personnes à votre rang affiche les noms des membres de l’équipe qui sont juste au-dessus, au-dessous ou au même niveau que vous.
 * Lorsqu’un utilisateur externe devient un utilisateur interne, la chronologie est automatiquement mise à jour.
@@ -55,13 +54,13 @@ Les activités suivantes sont considérées comme des activités d’apprentissa
 * Commentaires sur le tableau de bord d’apprentissage par les réseaux sociaux.
 * Publication sur le tableau de bord d’apprentissage par les réseaux sociaux.
 
-**Points de ludification pour fournir un retour d’informations L1 et L3 et une évaluation par étoiles**
+**Points de ludification pour fournir des commentaires L1 et L3 et une évaluation par étoiles**
 
 Adobe Learning Manager permet désormais à un administrateur d’activer un critère de ludification qui attribue des points aux utilisateurs lorsqu’ils fournissent un retour d’informations L1, un retour d’informations L3 et une évaluation par étoiles.
 
 ![](assets/feedback-rating.png)
 
-*Afficher l’évaluation*
+*Afficher l&#39;évaluation*
 
 Cette fonctionnalité encourage les utilisateurs à fournir activement des commentaires, ce qui bénéficie aux élèves ainsi qu’aux administrateurs, qui comprennent désormais mieux le point de vue de l’élève et peuvent mieux évaluer l’efficacité d’un cours.
 
@@ -176,6 +175,6 @@ L’état du niveau des élèves est affiché dans l’angle supérieur droit de
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-**1. Comment voir le Tableau des scores en tant qu’élève ?**
+**1. Comment afficher le tableau des scores en tant qu’élève ?**
 
 Dans l’application d’apprentissage, dans le volet de gauche, cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]**. Vous pouvez voir le tableau des scores des réseaux sociaux en bas à droite de la page.

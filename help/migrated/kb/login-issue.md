@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Problèmes de connexion dans Learning Manager
 description: Problèmes de connexion dans Adobe Learning Manager
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 87%
 
 ---
-
-
 
 # Problèmes de connexion dans Learning Manager
 
@@ -24,7 +23,7 @@ Lorsque vous tentez de vous connecter à Adobe Learning Manager, le message d’
 
 ![](assets/cp-error.png)
 
-*Message d’erreur pour une session expirée*
+*Message d&#39;erreur pour une session expirée*
 
 ## Cause
 
@@ -46,4 +45,4 @@ Il existe d’autres raisons pour lesquelles cette erreur se produit, mais le ca
 
 ## Liens de référence :
 
-[Microsoft : session d’accès conditionnel dans une vie](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft : session d&#39;accès conditionnel dans une vie](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

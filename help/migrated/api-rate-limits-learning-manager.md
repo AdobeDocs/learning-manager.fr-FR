@@ -110,7 +110,7 @@ Vous pouvez facilement le tester en atteignant ce point d’entrée avec des vit
 
 Pour vous faciliter la tâche, consultez cet exemple de code JavaScript qui illustre ce point. Cliquez ici [jouer du violon](https://jsfiddle.net/ACAPJS/9yv8zcmL/) et voir le code en action.
 
-Cette application nécessite que vous fournissiez un jeton d’application de rôle d’élève pour votre compte. Reportez-vous à [Manuel du développeur d’applications](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) pour plus d’informations sur les jetons d’API et vous pouvez utiliser l’Assistant de jeton dans la section des ressources pour les développeurs de l’application d’administration de l’intégration Learning Manager pour générer les jetons.
+Cette application nécessite que vous fournissiez un jeton d’application de rôle d’élève pour votre compte. Reportez-vous au [Manuel du développeur d’applications](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/) pour plus d’informations sur les jetons d’API. Vous pouvez utiliser l’assistant de jeton dans la section Ressources pour les développeurs de l’application d’administration de l’intégration Learning Manager pour générer les jetons.
 
 Cette application effectue 10 appels à l’API factice en une boucle, en une seule fois. Étant donné que la limite de taux est de (5, 2) pour l’API factice, elle sera dépassée une fois que les 5+2 premiers appels reçus par Learning Manager auront réussi et que vous verrez une réponse positive à ces appels.
 

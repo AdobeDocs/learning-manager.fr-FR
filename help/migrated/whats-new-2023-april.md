@@ -2,7 +2,8 @@
 title: Nouveautés de cette version (avril 2023)
 description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 62%
@@ -15,7 +16,7 @@ ht-degree: 62%
 
 La nouvelle application Adobe Learning Manager sur Microsofts Teams est conçue pour favoriser l’apprentissage dans le flux de travail et stimuler l’apprentissage social. Les élèves pourront accéder au contenu d&#39;apprentissage depuis la plateforme Microsofts Teams sans avoir à passer par un navigateur. Pour obtenir la version bêta de l’application Adobe Learning Manager sur MS Teams, contactez votre CSAM.
 
-Pour plus d’informations, voir [Adobe de l’application Learning Manager pour les Microsofts Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Pour plus d&#39;informations, voir [Application Adobe Learning Manager pour Microsofts Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Améliorations de l&#39;expérience de formation avec instructeur (ILT)
 
@@ -28,7 +29,7 @@ Plusieurs améliorations ont été apportées à l&#39;expérience de formation 
 
 Pour plus d’informations, voir [Attribuer des compétences aux instructeurs](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
-![CSV de l’instructeur](assets/instructor-csv-new.png)
+![Fichier CSV de l&#39;instructeur](assets/instructor-csv-new.png)
 
 ### Assistant de planification
 
@@ -42,7 +43,7 @@ Pour plus d’informations, voir [Assistant Planification](/help/migrated/author
 
 Une toute nouvelle application mobile Adobe Learning Manager pour Android et iOS permet aux élèves d’accéder facilement à la formation lorsqu’ils sont en déplacement. L’application permet aux élèves de suivre la formation sur leurs appareils mobiles et de la reprendre ultérieurement sur leurs ordinateurs de bureau. Avec la prise en charge des notifications, des chargements de fichiers, la facilité de création de signets et de partage du contenu d&#39;apprentissage, l&#39;apprentissage par les réseaux sociaux, etc., l&#39;application mobile offre davantage de flexibilité aux élèves et prend en charge l&#39;apprentissage « juste à temps ».
 
-![Nouvelle image de l’interface de mappage mobile](assets/mobile-app.png)
+![Nouvelle image de l&#39;interface de mappage mobile](assets/mobile-app.png)
 
 Téléchargez le mobile à partir du Google Play Store et d’Apple App Store. Les utilisateurs de l’ancienne version de l’application seront invités à télécharger et à installer la nouvelle application.
 
@@ -88,7 +89,7 @@ Dans cette version, nous avons mis à jour la bande de recommandations d’une o
 
 Les administrateurs peuvent diriger les élèves vers des cours ou des formations spécifiques en fonction du profil des élèves. Les élèves peuvent alors rechercher des cours en fonction du profil dont ils font partie.
 
-**Ce qui a changé**
+**Modifications**
 
 Une option de la page Annonce indique à un élève pourquoi ce cours ou cette formation lui a été recommandé.
 
@@ -109,7 +110,7 @@ L’administrateur crée une annonce en ajoutant le cours pour n’importe quel 
 
 Un élève voit une bande avec des cours recommandés sur la page d’accueil et un lien vers le cours sur la vignette.
 
-![apprenant de la bande de recommandations](assets/recommendation-strip-learner.png)
+![élève de la bande de recommandations](assets/recommendation-strip-learner.png)
 
 Lorsque l’élève clique sur le lien ou sur le bouton Accéder au catalogue, il est redirigé vers la page du catalogue du cours. L’élève affiche ensuite la liste des groupes d’utilisateurs à filtrer en fonction des groupes d’utilisateurs dans le catalogue et la page Mon apprentissage.
 
@@ -133,9 +134,9 @@ En tant qu’élève, vous pouvez filtrer les sessions qui vous sont attribuées
 
 ![Sessions sur le calendrier sans filtre appliqué](assets/sessions-on-calendar-no-filters.png)
 
-![Filtres appliqués aux emplacements](assets/location-filter-applied.png)
+![Filtres appliqués sur les emplacements](assets/location-filter-applied.png)
 
-![Sessions sur le calendrier avec filtres d’emplacement appliqués](assets/session-with-location-filters-applied.png)
+![Sessions sur le calendrier avec filtres d&#39;emplacement appliqués](assets/session-with-location-filters-applied.png)
 
 En outre, l&#39;emplacement de la formation s&#39;affiche désormais sur la page de présentation du cours si l&#39;emplacement est ajouté par l&#39;auteur lors de la création du cours.
 
@@ -219,15 +220,15 @@ Lorsque l’élève sélectionne **Afficher toutes les instances**, l’élève 
 
 Un administrateur peut changer les instances pour les élèves.
 
-![changer d’instance](assets/switch-instances.png)
+![changer d&#39;instance](assets/switch-instances.png)
 
-![changer d’instance sélectionner](assets/switch-instances-select.png)
+![sélectionner des instances de commutateur](assets/switch-instances-select.png)
 
 Vous ne pouvez pas changer d’instance tant qu’une instance du cours n’est pas terminée à partir de l’application Élève ou Administrateur.
 
 Lors de la création d’un cours, les auteurs peuvent basculer entre l’activation ou la désactivation du « changement d’instance ». Le changement d&#39;instance est disponible uniquement pour les cours gratuits.
 
-Pour plus d’informations, voir [Configuration de l’instance](/help/migrated/authors/feature-summary/courses.md).
+Pour plus d&#39;informations, voir [Configuration de l&#39;instance](/help/migrated/authors/feature-summary/courses.md).
 
 **Élèves**
 
@@ -245,7 +246,7 @@ Après s’être inscrit au parcours d’apprentissage ou à la certification, s
 
 Le rapport Piste d’audit de l’utilisateur capture des informations sur les élèves qui ont changé d’instance, de « de l’instance » à « vers l’instance », qui ont changé de date, d’heure, etc.
 
-![Afficher le rapport de piste d’audit de l’utilisateur](assets/user-audit-trail.png)
+![Afficher le rapport de piste d&#39;audit de l&#39;utilisateur](assets/user-audit-trail.png)
 
 Pour plus d’informations, consultez la section [Rapport de piste d’audit d’utilisateur](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
@@ -253,7 +254,7 @@ Pour plus d’informations, consultez la section [Rapport de piste d’audit d�
 
 Ce rapport capture le temps (en minutes) passé chaque jour par un instructeur pour enseigner les sessions qui lui sont assignées. Le rapport peut être téléchargé pendant une période de trois mois à compter de la date de début sélectionnée.
 
-Pour plus d’informations, voir [Rapport d’utilisation de l’instructeur](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Pour plus d&#39;informations, voir [Rapport d&#39;utilisation de l&#39;instructeur](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
 ![rapport d’utilisation des instructeurs](assets/instructor-utilization.png)
 
@@ -261,15 +262,15 @@ Pour plus d’informations, voir [Rapport d’utilisation de l’instructeur](/h
 
 Nouveau rapport permettant de suivre les assistances à la tâche présentes dans le compte et diverses informations sur les assistances à la tâche, notamment la langue, le type, la durée, l’auteur, les balises, etc.
 
-Pour plus d’informations, voir [Rapport d&#39;inscription des assistances à la tâche](/help/migrated/administrators/feature-summary/reports.md).
+Pour plus d&#39;informations, consultez le [rapport d&#39;inscription des assistances à la tâche](/help/migrated/administrators/feature-summary/reports.md).
 
 ### E-mails ad hoc ciblés pour les élèves inscrits à une instance de cours spécifique
 
 Les administrateurs et les auteurs pourront envoyer des communications par e-mail ciblées aux élèves inscrits à une instance spécifique d&#39;un cours. L’option permettant d’envoyer des e-mails au niveau de l’instance a été ajoutée pour les cours et les programmes d’apprentissage.
 
-![Envoi d’e-mails au niveau de l’instance](assets/adhoc-email.png)
+![Envoyer des e-mails au niveau de l’instance](assets/adhoc-email.png)
 
-*Envoi d’e-mails au niveau de l’instance*
+*Envoyer des e-mails au niveau de l’instance*
 
 Dans la boîte de dialogue Créer une annonce, l’option Saisir comme e-mail et Formation, ainsi que l’instance, sont sélectionnées par défaut. Spécifiez l’objet, saisissez le message, puis cliquez sur Enregistrer.
 
@@ -281,7 +282,7 @@ Pour les administrateurs, un nouveau type d&#39;annonce a été ajouté : « C
 
 L’administrateur personnalisé et les auteurs peuvent également afficher cette option au niveau de l’instance s’ils disposent des droits d’accès nécessaires.
 
-Pour plus d’informations, voir [Annonce](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+Pour plus d&#39;informations, voir [Annonces](/help/migrated/administrators/feature-summary/announcements.md#as-email).
 
 ### Nouveaux modèles de courriers électroniques
 
@@ -302,10 +303,10 @@ Ces options sont activées par défaut.
 
 Nous avons ajouté un nouvel attribut, jobType, à l’API des tâches. L’attribut accepte les valeurs suivantes :
 
-* **generateInstructorUtilisationReport**: renvoie le rapport d’utilisation d’un instructeur.
-* **generateJobAidMetadataReport**: renvoie les métadonnées d&#39;un rapport d&#39;assistance à la tâche.
+* **generateInstructorUtilisationReport** : renvoie le rapport d&#39;utilisation d&#39;un instructeur.
+* **generateJobAidMetadataReport** : renvoie les métadonnées d&#39;un rapport d&#39;assistance à la tâche.
 
-**Point de terminaison**: POST /primeapi/v2/jobs
+**Point de terminaison** : POST /primeapi/v2/jobs
 
 Requête generateJobAidMetadataReport :
 
@@ -406,7 +407,7 @@ Nous avons ajouté un nouveau paramètre de requête, enrollmentID, pour lequel 
 
 La réponse contient un nouvel attribut, currencyCode.
 
-**Point de terminaison**: GET /primeapi/v2/account
+**Point de terminaison** : GET /primeapi/v2/account
 
 ### Association de compétences et de niveaux de compétence pour les instructeurs
 
@@ -417,14 +418,14 @@ Les attributs suivants sont ajoutés :
 * instructorSkills
 * instructorSkillLevel
 
-**Point de terminaison**: GET /primeapi/v2/account /&lt;account_id>/instructorskill/search
+**Point de terminaison** : GET /primeapi/v2/account /&lt;account_id>/instructorskill/search
 
 ### Modifications ILT
 
 | Description | Nouveau paramètre/réponse | Point de terminaison |
 |--- |--- |--- |
 | Liste de toutes les villes | filter.cityName=true/false | GET /primeapi/v2/data |
-| Rechercher et filtrer des villes | filter.cityName=nom_ville<br>Prend également en charge une liste de villes séparées par des virgules |
+| Rechercher et filtrer des villes | filter.cityName=city_name<br>Prend également en charge une liste de villes séparées par des virgules |
 | GET /primeapi/v2/search |
 | Détails de la salle de retour | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Objet d&#39;apprentissage pour filtrer les villes | filter.cityName=nom_ville <br> Prend également en charge une liste de villes séparées par des virgules. | GET /primeapi/v2/learningObjects |
@@ -439,7 +440,7 @@ Nous avons ajouté les champs suivants :
 * loID
 * loInstanceID
 
-**Point de terminaison**: `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
+**Point De Terminaison** : `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
 
 ### Salle de classe dans VC
 
@@ -451,13 +452,13 @@ Nous avons apporté les modifications suivantes :
 
 Nouveau paramètre de requête, filter.loFormat=Virtual Classroom pour l’API learningObjects.
 
-**Point de terminaison**: GET /primeapi/v2/learningObjects
+**Point de terminaison** : GET /primeapi/v2/learningObjects
 
 **Calendrier**
 
 Nouveau paramètre de requête, filter.allSessions=false pour l’API de calendrier. La valeur par défaut du paramètre est false. Si la valeur est true, l’API renvoie toutes les sessions du calendrier d’un élève.
 
-**Point de terminaison**: `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
+**Point De Terminaison** : `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
 
 ### Historique de recherche des élèves
 
@@ -465,7 +466,7 @@ Nouveau paramètre de requête, filter.allSessions=false pour l’API de calendr
 
 Nouveau paramètre de requête, persistSearchHistory. La valeur par défaut est true, qui conserve la requête pour les suggestions de recherche.
 
-**Point de terminaison**: GET /primeapi/v2/search?persistSearchHistory=true
+**Point de terminaison** : GET /primeapi/v2/search?persistSearchHistory=true
 
 **Suggestions**
 
@@ -474,7 +475,7 @@ Nouveau paramètre de requête, suggestionType. Les valeurs acceptées sont les 
 * learnerHistory (par défaut)
 * accountHistory
 
-**Point de terminaison**: GET /primeapi/v2/search/suggestions/?suggestionType=learnerHistory
+**Point de terminaison** : GET /primeapi/v2/search/suggestions/?suggestionType=learnerHistory
 
 ### Filtrage de groupe d’utilisateurs
 
@@ -520,7 +521,7 @@ DELETE /userGroups/{id}/users
 
 ### Filtrage du groupe d&#39;utilisateurs des annonces pour les pertes dans l&#39;application Élève
 
-* Le GET /users/{userId}L&#39;API /userGroups a un nouveau paramètre, filter.announcementsGroupsOnly, qui prend une valeur booléenne (true/false). Cela permet de filtrer uniquement les groupes d’utilisateurs que l’administrateur annonce. La valeur par défaut de ce paramètre est false.
+* L&#39;API GET /users/{userId}/userGroups a un nouveau paramètre, filter.announcementsGroupsOnly, qui prend une valeur booléenne (true/false). Cela permet de filtrer uniquement les groupes d’utilisateurs que l’administrateur annonce. La valeur par défaut de ce paramètre est false.
 * L’API GET /learningObjects possède un nouveau paramètre, filter.announcementsGroupes, qui accepte les ID de groupe d’annonces pour filtrer les résultats.
 * L&#39;API GET /search a un nouveau paramètre, filter.announcementsGroups, qui accepte les ID de groupe d&#39;annonces pour filtrer les résultats.
 
@@ -631,11 +632,11 @@ Exemple de réponse ci-dessous :
 
 ## Notes de mise à jour
 
-Pour plus d’informations sur les versions actuelles et précédentes de l’application web et de l’application pour appareil Learning Manager, consultez la section [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
+Pour plus d&#39;informations sur les versions actuelles et précédentes de l&#39;application web et de l&#39;application pour appareil Learning Manager, consultez les [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
 
 ## Correctifs de bogues
 
-Pour voir les bogues corrigés dans cette mise à jour, reportez-vous à la section [Liste des problèmes résolus](release-note/release-notes.md#bugs-fixed-in-this-release).
+Pour voir les bogues corrigés dans cette mise à jour, consultez la [liste des bogues corrigés](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Configuration requise
 

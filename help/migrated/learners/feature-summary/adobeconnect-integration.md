@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Intégration d'Adobe Connect
 description: En tant qu’élève, vous pouvez suivre des cours en salle de classe virtuelle à l’aide d’Adobe Connect si votre société intègre Adobe Connect à votre compte Learning Manager. Contactez l’administrateur de votre société si vous ne pouvez pas utiliser Adobe Connect.
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 54%
 
 ---
-
-
 
 # Intégration d&#39;Adobe Connect
 

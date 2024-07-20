@@ -32,7 +32,7 @@ ht-degree: 72%
 Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new.md).
 +++
 
-+++Mise à jour 95 : version de novembre 2023 d’Adobe Learning Manager
++++Mise à jour 95 : version de novembre 2023 de Adobe Learning Manager
 
 **Date de publication :** 18 novembre 2023
 
@@ -51,7 +51,7 @@ Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](h
 * Modifier la qualité et la vitesse d’une vidéo sur les réseaux sociaux.
 +++
 
-+++Mise à jour 93 : version de juillet 2023 d’Adobe Learning Manager
++++Mise à jour 93 : version de juillet 2023 de Adobe Learning Manager
 
 **Date de publication :** 10 juillet 2023
 
@@ -69,14 +69,14 @@ Dans cette version d’Adobe Learning Manager, nous introduisons l’inscripti
 
 Cette version d’Adobe Learning Manager inclut un nouveau connecteur, qui utilise le protocole SFTP de la famille AWS Transfer.
 
-Pour plus d’informations, voir [Nouveautés de la version de juillet 2023 d’Adobe Learning Manager](/help/migrated/whats-new-2023-july.md).
+Pour plus d&#39;informations, voir [Nouveautés de la version de juillet 2023 de Adobe Learning Manager](/help/migrated/whats-new-2023-july.md).
 +++
 
 +++Mise à jour : 92
 
 **Date de publication : 23 juin 2023**
 
-**Bogues corrigés dans cette mise à jour**
+**Problèmes résolus dans cette mise à jour**
 
 * Après avoir terminé un module, l’API Grade n’est pas déclenchée automatiquement, ce qui entraîne l’affichage de la coche verte de l’interface utilisateur de manière inattendue.
 * Lorsque quelques modules d’un parcours d’apprentissage ou d’une certification sont terminés, la coche verte indiquant la réussite ne s’affiche pas comme prévu.
@@ -131,7 +131,7 @@ La connexion SAML échoue si l’URL de connexion SSO contient entity_id.
 
 Plusieurs améliorations ont été apportées à l’expérience de formation dirigée par un instructeur (ILT). Les principales améliorations incluent : la possibilité de filtrer les sessions de classe en fonction de l’emplacement, la possibilité de changer d’instance (VILT) sans perdre la progression, un nouvel « Assistant de planification » pour la gestion des conflits dans la réservation des instructeurs et des salles de classe, la possibilité d’associer des « compétences » aux instructeurs et de choisir des instructeurs en fonction des compétences.
 
-**Améliorations apportées à la liste de contrôle de l&#39;observation**:
+**Améliorations apportées à la liste de contrôle de l&#39;observation** :
 
 Les auteurs peuvent désormais sélectionner « Manager » et « Store Manager » en tant qu’observateur pour les listes de contrôle. Les responsables peuvent afficher et compléter les listes de contrôle dans l&#39;interface du responsable sans avoir à basculer vers un rôle d’instructeur. Une notification est envoyée à un responsable lorsqu&#39;une liste de contrôle lui est attribuée.
 
@@ -143,11 +143,11 @@ Les élèves pourront désormais utiliser n&#39;importe quelle application de nu
 
 Un nouveau rapport Utilisation de l’instructeur, un rapport Revue des formations, un rapport Assistances à la tâche et d’autres améliorations apportées aux rapports.
 
-**Prise en charge des sessions hybrides**
+**Prise en charge des sessions « hybrides »**
 
 Adobe Learning Manager prend désormais en charge la création de sessions de formation « hybrides » avec instructeur (ILT). Des sessions ILT virtuelles peuvent être créées avec des informations d’emplacement facultatives afin que les élèves puissent également assister à la session en personne si elles sont présentes sur place.
 
-**Meilleur suivi des progrès pour la salle de classe et l’ILT virtuelle**
+**Meilleur suivi de l’avancement pour la salle de classe et l’ILT virtuelle**
 
 Les modules de salle de classe et d’ILT virtuel permettent désormais de signaler l’état du quiz d’un élève (réussite ou échec) ainsi que l’état de présence. Par conséquent, la participation et la réussite du quiz peuvent être prises en compte pour évaluer les progrès de l&#39;élève.
 
@@ -172,7 +172,7 @@ La nouvelle application Adobe Learning Manager sur Microsofts Teams est conçue 
 * Les info-bulles s’affichent correctement lorsque la langue de l’interface est l’anglais, mais renvoient une erreur de console lorsque la langue de l’interface est différente.
 * Renommez « Obligatoire » en « Obligatoire » dans le tableau de bord des élèves.
 
-**Application d’instructeur**
+**Application d&#39;instructeur**
 
 * Le format horaire dans l’application de l’instructeur n’est pas cohérent avec les autres applications.
 
@@ -247,7 +247,7 @@ Nous avons optimisé le traitement des plans d’apprentissage pour les comptes 
 ## Bogues Corrigés Dans Cette Mise À Jour
 
 * Un élève ne reçoit pas l’e-mail d’annulation de session si le module CR/VC est supprimé du cours inscrit.
-* Changez GetNotificationData de GET en POST. La mise en œuvre initiale a produit l&#39;erreur, **IllegalArgumentException : l&#39;en-tête de la demande est trop grand**, qui ont conduit à des notifications qui ont échoué.
+* Changez GetNotificationData de GET en POST. L&#39;implémentation d&#39;origine a produit l&#39;erreur **IllegalArgumentException : l&#39;en-tête de demande est trop volumineux**, ce qui a entraîné l&#39;échec des notifications.
 +++
 
 +++Mise à jour : 86
@@ -279,7 +279,7 @@ Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs v
 
 ### Modifications apportées à cette mise à jour
 
-**Rapport d’assistance à la tâche**
+**Rapport d&#39;assistance à la tâche**
 
 Cette mise à jour comporte un nouveau rapport d&#39;assistances à la tâche qui répertorie toutes les assistances à la tâche du compte.
 
@@ -324,11 +324,11 @@ Vous pouvez désormais ajouter un prérequis dans quelques modèles de courrier 
 
 **Nouvelle colonne**
 
-Une nouvelle colonne, **unenrollmentAllowed**, est ajouté à course.xlsx. Téléchargez le fichier à partir de ce manuel.
+Une nouvelle colonne, **unenrollmentAllowed**, est ajoutée à course.xlsx. Téléchargez le fichier à partir de ce manuel.
 
-**Connecteur LinkedIn Learning**
+**Connecteur Linkedin Learning**
 
-Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learning. Les élèves peuvent se désinscrire sur la page Filtres. Pour plus d’informations, voir [Connecteur linkedIn Learning](/help/migrated/integration-admin/feature-summary/connectors.md).
+Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learning. Les élèves peuvent se désinscrire sur la page Filtres. Pour plus d&#39;informations, voir [Connecteur LinkedIn Learning](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 ### Bogues Corrigés Dans Cette Mise À Jour
 
@@ -361,7 +361,7 @@ Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learnin
 * Nous avons ajouté un nouveau module ILT qui peut enregistrer le statut Réussite/Échec de l’élève ainsi que son assiduité. Les instructeurs peuvent désormais marquer un élève comme ayant participé avec l’option Réussite ou ayant participé avec l’option Échec.
 * Un administrateur peut désormais exiger auprès des élèves de terminer et de réussir avant de passer au module/cours suivant. Cela s’applique aux prérequis, aux cours commandés et aux programmes d’apprentissage.
 
-**Correctifs de bogues**
+**Correctifs**
 
 * Problèmes avec la langue bahasa dans l’expérience mobile immersive sur la barre latérale et le pied de page.
 * Correctifs de vue immersive liés à la prévisualisation du module.
@@ -371,11 +371,11 @@ Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learnin
 * Les utilisateurs n’étaient pas été correctement identifiés lorsqu’ils participaient à des sessions Zoom/BJ VC.
 +++
 
-+++Mise à jour 81 - Version de novembre 2022 d’Adobe Learning Manager
++++Mise à jour 81 - Version de novembre 2022 de Adobe Learning Manager
 
-**Date de publication :** 05 novembre 2022
+**Date de publication :** 5 novembre 2022
 
-**Remarque :** Avec cette version de Adobe Learning Manager, les utilisateurs disposant de comptes inactifs ne peuvent plus accéder à leurs comptes à l’aide de sous-domaines. Les comptes sont accessibles à l’aide de l’ID de compte ou en utilisant la page acapindex.html et en saisissant l’ID de messagerie.
+**Remarque :** avec cette version de Adobe Learning Manager, les utilisateurs disposant de comptes inactifs ne peuvent plus accéder à leurs comptes à l’aide de sous-domaines. Les comptes sont accessibles à l’aide de l’ID de compte ou en utilisant la page acapindex.html et en saisissant l’ID de messagerie.
 
 ### Nouveautés de cette version
 
@@ -389,7 +389,7 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 
 Pour plus d’informations, voir [Nouveautés dans la version de novembre 2022 d’Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
 
-**Remarque :** Avec la version de novembre 2022 d’Adobe Learning Manager, Zoom sera abandonné [Authentification JWT avant juin 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). En conséquence, le connecteur Zoom avec JWT continuera de fonctionner jusqu’à la date mentionnée. Toutefois, nous recommandons aux utilisateurs de créer une application OAuth de serveur à serveur pour remplacer la fonctionnalité dans leur compte. Par défaut, l’authentification OAuth Zoom est appliquée aux nouvelles connexions.
+**Remarque :** avec la version de novembre 2022 de Adobe Learning Manager, Zoom abandonnera l&#39;authentification [JWT d&#39;ici juin 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). En conséquence, le connecteur Zoom avec JWT continuera de fonctionner jusqu’à la date mentionnée. Toutefois, nous recommandons aux utilisateurs de créer une application OAuth de serveur à serveur pour remplacer la fonctionnalité dans leur compte. Par défaut, l’authentification OAuth Zoom est appliquée aux nouvelles connexions.
 
 ### Bogues corrigés dans cette mise à jour
 
@@ -452,7 +452,7 @@ Pour plus d’informations, voir [Nouveautés dans la version de novembre 2022 
 
 * Si vous avez un cours contenant un module avec un aperçu, puis utilisez une API pour récupérer les ressources du cours, la réponse ne contiendra aucune donnée de l&#39;emplacement, contentZipUrl et contentStructureInfoUrl.
 * Réponse incorrecte après l’envoi d’une demande XAPI à partir du document Swagger, où le nom de domaine est learningmanager.
-* Dans /boards/{id}Réponse de l’API /posts : la propriété « post.attributes.myPoll » s’affiche comme un objet vide.
+* Dans la réponse de l&#39;API /boards/{id}/posts, la propriété « post.attributes.myPoll » s&#39;affiche comme un objet vide.
 * Dans certains cas, pour un utilisateur non connecté, le bouton Ajouter au panier est désactivé pour certains cours ou parcours d’apprentissage.
 * URL de sous-domaine incorrecte sur la page de l’identité visuelle.
 +++
@@ -478,11 +478,11 @@ L’équipe produit prend toutes les mesures nécessaires afin d’éviter tout 
 
 Dans le cadre de cette modification, les URL d’accès à Learning Manager sont affectées.
 
-Par exemple, si l’URL d’accès de votre compte est `https://learningmanager.adobe.com/XYZ`, alors la nouvelle URL sera `https://learningmanager.adobe.com/XYZ`.
+Par exemple, si l&#39;URL d&#39;accès de votre compte est `https://learningmanager.adobe.com/XYZ`, la nouvelle URL sera `https://learningmanager.adobe.com/XYZ`.
 
 Toutes les URL existantes continueront de fonctionner.
 
-Pour terminer cette action, contactez le service informatique de votre organisation. Pour plus d’informations, contactez-nous à l’adresse `learningmanagersupport@adobe.com`.
+Pour terminer cette action, contactez le service informatique de votre organisation. Pour plus d&#39;informations, contactez-nous à l&#39;adresse `learningmanagersupport@adobe.com`.
 +++
 
 +++Mise à jour 76
@@ -511,7 +511,7 @@ Pour terminer cette action, contactez le service informatique de votre organisat
 
 ### Vue d’ensemble
 
-Une [instance](https://learningmanagerapac.adobe.com/acapindex.html) de Learning Manager sera désormais hébergé sur AWS à Mumbai (ap-south-1). Pour les clients utilisant cette instance en Inde, les informations d’identification personnelle (PII) et les dossiers d’apprentissage de l’utilisateur sont stockés uniquement en Inde.
+Une [instance](https://learningmanagerapac.adobe.com/acapindex.html) de Learning Manager sera désormais hébergée sur AWS à Mumbai (ap-south-1). Pour les clients utilisant cette instance en Inde, les informations d’identification personnelle (PII) et les dossiers d’apprentissage de l’utilisateur sont stockés uniquement en Inde.
 
 ### Éléments pris en charge
 
@@ -520,7 +520,7 @@ L’instance Adobe Learning Manager en Inde est au même niveau en matière de
 * Paiement par carte de crédit pour l’achat de places
 * catalogue de contenu du Creative Cloud
 * Application Slack
-* **&#42;** En attente de certification pour la conformité SOC2
+* **&#42;** en attente de certification pour la conformité SOC2
 
 ### Forum aux questions
 
@@ -531,9 +531,9 @@ Il n’y a pas de différence. L’instance de Mumbai est identique aux instance
 * Paiement par carte de crédit pour l’achat de places
 * catalogue de contenu du Creative Cloud
 * Application Slack
-* **&#42;** En attente de certification pour la conformité SOC2
+* **&#42;** en attente de certification pour la conformité SOC2
 
-**Cet environnement sera-t-il conforme au framework CCF (Common Controls Framework) ?**
+**Cet environnement sera-t-il conforme au framework CCF ?**
 
 Oui. La nouvelle instance est conforme au framework CCF (Common Control Framework).
 +++
@@ -591,7 +591,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * La variable « Nom du lieu » était manquante dans le modèle de courrier électronique « Rappel de la session à venir » pour les élèves dans la langue allemande. Ceci est maintenant ajouté.
 * Le lien permettant de créer un compte dans le cadre de l’e-mail de bienvenue envoyé à l’utilisateur ne tenait pas compte des paramètres régionaux de l’utilisateur, ce qui est maintenant corrigé.
 
-**E-mails de rappel**
+**Rappels par e-mail**
 
 * Si les élèves étaient inscrits à la formation via un plan d’apprentissage, les courriers électroniques de rappel d’achèvement étaient envoyés plusieurs fois en fonction du nombre de modifications apportées aux dates d’achèvement du même plan d’apprentissage. Ce problème a été résolu.
 
@@ -625,7 +625,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 * Un responsable n’a pas pu exporter le rapport pour son équipe directe à partir de la page des compétences d’équipe du tableau de bord des responsables. Ce problème a été résolu.
 
-**Publier**
+**Publish**
 
 * En Europe, le contenu Learning Manager directement publié sur Adobe Learning Manager à partir d’Adobe Captivate était publié en langue allemande par défaut. Ce problème est maintenant corrigé.
 
@@ -637,7 +637,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Localisation**
 
-* `NormalTextRun  BCX0 SCXW38820519 For the`Applications d’administrateur, d’auteur et d’élève, certains contenus en allemand ne s’affichent pas comme prévu.
+* `NormalTextRun  BCX0 SCXW38820519 For the`Applications d&#39;administrateur, d&#39;auteur et d&#39;élève, certains contenus en allemand ne s&#39;affichent pas comme prévu.
 
 ## Problèmes connus dans cette version
 
@@ -655,9 +655,9 @@ Date de publication : 17 novembre 2021
 
 Learning Manager propose un tableau de bord de conformité à tous les administrateurs et responsables. Les responsables trouvent très utile de suivre la conformité des membres de leur équipe pour une formation particulière. Parallèlement, les administrateurs souhaitent que tous les responsables ajoutent des formations sur la conformité à leur tableau de bord et en assurent le suivi.
 
-Dans Learning Manager, le **Partager avec les responsables** permet aux administrateurs de partager la formation avec les responsables, afin qu&#39;ils puissent être ajoutés au tableau de bord de conformité d&#39;un responsable. Ainsi, les responsables n’ont rien à faire et peuvent commencer immédiatement à suivre la conformité.
+Dans Learning Manager, le workflow **Partager avec les responsables** permet aux administrateurs de partager la formation avec les responsables, afin qu&#39;ils puissent être ajoutés au tableau de bord de conformité d&#39;un responsable. Ainsi, les responsables n’ont rien à faire et peuvent commencer immédiatement à suivre la conformité.
 
-Pour plus d’informations, voir  [**Partager la formation avec les responsables**](../administrators/feature-summary/reports.md#share_training_managers).
+Pour plus d&#39;informations, voir [**Partager la formation avec les responsables**](../administrators/feature-summary/reports.md#share_training_managers).
 
 ### Bogues corrigés dans cette mise à jour
 
@@ -689,11 +689,11 @@ Date de publication : 28 octobre 2021
 
 ### Parcours d’apprentissage
 
-Le **Version d’octobre 2021 d’Adobe Learning Manager** introduit le concept de parcours d’apprentissage.
+La version d&#39;**octobre 2021 de Adobe Learning Manager** introduit le concept de parcours d&#39;apprentissage.
 
 >[!NOTE]
 >
->Le **Paramètres > Général** propose une nouvelle option pour activer les fonctionnalités étendues des parcours d’apprentissage. Si cette option est activée, vous pouvez ajouter des parcours d’apprentissage dans un autre parcours d’apprentissage. Vous ne pouvez pas modifier cette option une fois qu’elle est activée.
+>La page **Paramètres > Général** propose une nouvelle option pour activer les fonctionnalités étendues des parcours d’apprentissage. Si cette option est activée, vous pouvez ajouter des parcours d’apprentissage dans un autre parcours d’apprentissage. Vous ne pouvez pas modifier cette option une fois qu’elle est activée.
 
 Les parcours d’apprentissage remplacent notre fonction existante des programmes d’apprentissage. Imaginez que les programmes d’apprentissage bénéficient d’améliorations puissantes sans abandonner les fonctionnalités existantes. En outre, la fonctionnalité est marquée comme parcours d’apprentissage.
 
@@ -714,7 +714,7 @@ Pour plus d&#39;informations, voir [***Nouveautés de la version d&#39;octobre 
 ### Bogues corrigés dans cette mise à jour
 
 * Les modèles de courrier électronique, tels que Annulation de cours, Annulation du programme d’apprentissage ou Annulation de la certification, ne reflètent pas les dernières terminologies de produit telles que définies dans le fichier csv. Désormais, le texte par défaut dans les modèles d’e-mail prend en charge les terminologies personnalisées.
-* La langue utilisateur dans Learning Manager n’est pas prise en charge dans la procédure Publier vers Learning Manager. Si la langue de l’utilisateur est différente, Publier sur Learning Manager se passe en anglais.
+* La langue utilisateur dans Learning Manager n’est pas prise en charge dans la procédure Publier vers Learning Manager. Si la langue de l’utilisateur est différente, Publish vers Learning Manager se passe en anglais.
 * Si vous ajoutez de nombreux catalogues à un rôle personnalisé, une erreur se produit lorsque vous mettez à jour le rôle. Désormais, la limite du nombre de catalogues est augmentée à 50 catalogues.
 * Dans certains cas, les formations supprimées sont toujours visibles dans un catalogue. Ce problème s’est produit dans l’application administrateur uniquement et est maintenant résolu.
 * Lorsque le rôle de responsable est passé d’un utilisateur à un autre, le rôle de responsable de l’utilisateur précédent était toujours reflété dans l’interface utilisateur. Ce problème est maintenant corrigé. Ce problème était présent uniquement pour les utilisateurs externes et non pour les utilisateurs internes.
@@ -779,14 +779,14 @@ Cette mise à jour introduit une nouvelle instance d’Azure.
 
 +++Mise à jour 66 - Version d’août 2021 de Learning Manager
 
-Le **Août 2021** **version d’Adobe Learning Manager** se concentre sur l&#39;amélioration de l&#39;expérience des élèves, des rapports et des workflows administratifs. Voici quelques-uns des points forts :
+La version **d&#39;août 2021** **de Adobe Learning Manager** se concentre sur l&#39;amélioration de l&#39;expérience des élèves, des rapports et des workflows administratifs. Voici quelques-uns des points forts :
 
 * **Marché de contenus :** Learning Manager propose désormais plus de 70000 cours dans divers domaines, tels que la technologie, la gestion, le leadership, etc.
-* **Prise en charge de l’accessibilité améliorée :** La prise en charge de l’accessibilité pour le rôle d’élève est renforcée par une navigation au clavier améliorée, la fonctionnalité de lecteur d’écran et la conformité au taux de contraste.
-* **Formatage de texte enrichi :** Learning Manager propose désormais l’édition de texte enrichi pour les descriptions de cours, de programmes, de certificats et d’assistances à la tâche. Cela permet aux auteurs de spécifier des descriptions en texte enrichi, y compris des hyperliens, des images et d’autres options de formatage de texte, au lieu d’utiliser du texte brut.
-* **Évaluation par étoiles :** Un élève peut désormais évaluer un cours sur une échelle de 5 points. Un administrateur peut choisir entre l’évaluation de l’efficacité existante ou l’évaluation à 5 étoiles.
-* **Intégration de Badgr :** Les élèves peuvent désormais autoriser Learning Manager à envoyer automatiquement les badges qu’ils ont acquis dans Learning Manager vers leur compte Badgr, d’où ils peuvent les partager sur leurs réseaux sociaux.
-* **Exportation d’événements d’apprentissage vers Salesforce :** Learning Manager permet désormais d’exporter certains événements spécifiques dans Learning Manager, tels que l’ajout d’un nouvel utilisateur, l’inscription et l’achèvement vers un client Salesforce, et permet de les lier à l’objet Utilisateur ou Contact approprié dans Salesforce.
+* **Prise en charge améliorée de l&#39;accessibilité :** la prise en charge de l&#39;accessibilité pour le rôle d&#39;élève est renforcée par une navigation au clavier améliorée, la capacité du lecteur d&#39;écran et la conformité au taux de contraste.
+* **Formatage de texte enrichi :** Learning Manager propose désormais l&#39;édition de texte enrichi pour les descriptions de cours, de programmes, de certificats et d&#39;assistances à la tâche. Cela permet aux auteurs de spécifier des descriptions en texte enrichi, y compris des hyperliens, des images et d’autres options de formatage de texte, au lieu d’utiliser du texte brut.
+* **Évaluation par étoiles :** un élève peut désormais évaluer un cours sur une échelle de 5 points. Un administrateur peut choisir entre l’évaluation de l’efficacité existante ou l’évaluation à 5 étoiles.
+* **Intégration de Badgr :** les élèves peuvent désormais autoriser Learning Manager à envoyer automatiquement les badges qu&#39;ils ont acquis dans Learning Manager vers leur compte Badgr, d&#39;où ils peuvent les partager sur leurs réseaux sociaux.
+* **Exporter des événements d’apprentissage vers Salesforce :** Learning Manager offre désormais la possibilité d’exporter certains événements spécifiques dans Learning Manager, tels que l’ajout d’un nouvel utilisateur, l’inscription et l’achèvement vers un client Salesforce, permettant ainsi de les lier à l’objet Utilisateur ou Contact approprié dans Salesforce.
 
 Pour plus d’informations, voir [***Nouveautés et modifications de la version d&#39;août 2021 d&#39;Adobe Learning Manager***](../whats-new.md).
 
@@ -795,7 +795,7 @@ Pour plus d’informations, voir [***Nouveautés et modifications de la version 
 
 ### Bogues corrigés dans cette mise à jour
 
-**Expérience de l’élève**
+**Expérience des élèves**
 
 * Une fois qu’un élève a été ajouté à deux groupes d’utilisateurs et qu’un plan d’apprentissage a été ajouté, il est inscrit à une instance différente du même cours.
 * Dans certains cas, après l’inscription et le début du cours, la lecture du cours ne s’effectue pas comme prévu.
@@ -918,11 +918,11 @@ Date de publication : avril 2021
 **Application de l’élève**
 
 * Sur la page Présentation de la certification, la certification externe n&#39;affiche pas la durée ajoutée par un auteur.
-* Ajout de l’option **Tous** dans le filtre Compétence.
+* Ajoutez l&#39;option **Tout** dans le filtre Compétence.
 * Les élèves recevaient plusieurs e-mails de résumé.
 * Le nombre de lignes sélectionnées n&#39;est pas reflété comme prévu sur une page.
 
-**composant AEM**
+**Composant AEM**
 
 * Les widgets ne sont pas mis à jour comme prévu après une actualisation de page.
 
@@ -968,7 +968,7 @@ La mise à jour 3.3 de l’application mobile Captivate Learning Manager introdu
 
 En outre, cette mise à jour permet également aux élèves de télécharger leur badge en tant que PDF et en tant qu’image. La mise à jour introduit également une fenêtre contextuelle de retour d’informations, qui permet aux élèves de fournir des commentaires anonymes sur l’application.
 
-Pour plus d’informations, voir  [Application pour appareil Learning Manager](../learners/feature-summary/ipad-android-tablet-users.md).
+Pour plus d&#39;informations, voir [Application pour appareil Learning Manager](../learners/feature-summary/ipad-android-tablet-users.md).
 
 Lisez ce qui suit pour en savoir plus.
 
@@ -1007,7 +1007,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 **Certification**
 
 * Dans certains cas, un élève n’a pas pu reprendre un cours faisant partie d’une certification, même si le nombre maximal de tentatives pour ce cours est défini sur infini. Ce problème a été résolu.
-* Dans certains cas, un élève ne peut pas s’inscrire à une certification en raison de **S’inscrire** le bouton n&#39;est pas visible comme prévu.
+* Dans certains cas, un élève ne peut pas s&#39;inscrire à une certification car le bouton **S&#39;inscrire** n&#39;est pas visible comme prévu.
 
 **Bibliothèque de contenu**
 
@@ -1026,12 +1026,12 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 **Administrateur**
 
 * Les cours retirés n&#39;apparaissent pas dans les résultats de recherche comme prévu. Ce problème a été résolu.
-* L’administrateur n’a pas pu rechercher les cours retirés dans **Application d’administration** -> **Rapports personnalisés** -> **Rapports Excel** -> **Rapports de cours**, qui est maintenant corrigé.
+* L&#39;administrateur ne pouvait pas rechercher des cours retirés dans l&#39;**application d&#39;administration** -> **Rapports personnalisés** -> **Rapports Excel** -> **Rapports de cours**, ce qui est maintenant corrigé.
 
 * Le téléchargement d&#39;un rapport de quiz au format Excel ne fonctionne pas si le fichier contient des élèves qui ont suivi les formations avant et après la mise à jour du contenu. Ce problème a été résolu.
 * Le chargement d’un fichier CSV échoue si les champs actifs contiennent des caractères spéciaux. Ce problème a été résolu.
 * Dans certains cas, lorsqu&#39;un élève répond à un quiz créé dans Captivate, les réponses ne sont pas capturées comme prévu.
-* Après avoir créé un abonnement et tenté de le modifier, le **Enregistrer** et **Annuler** les boutons ne s’affichent pas comme prévu. Ce problème a été résolu.
+* Après avoir créé un abonnement et tenté de le modifier, les boutons **Enregistrer** et **Annuler** ne s&#39;affichent pas comme prévu. Ce problème a été résolu.
 
 **Lecteur**
 
@@ -1051,7 +1051,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 * Certains élèves, dont les noms d&#39;utilisateur comportent des caractères spéciaux, ne reçoivent pas de notifications par e-mail comme prévu.
 * Dans la vue immersive, dans certains cas, le widget Calendrier n&#39;affiche pas les sessions VC à venir comme prévu.
-* Dans l’application de l’élève, le **Compétence** le filtre ne fonctionnait pas comme prévu. Ce problème a été résolu.
+* Dans l&#39;application de l&#39;élève, le filtre **Compétence** ne fonctionnait pas comme prévu. Ce problème a été résolu.
 
 **Recherche**
 
@@ -1061,7 +1061,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 * Lors de l’exportation d’un rapport de groupe d’utilisateurs comptant plus de 500 utilisateurs, les valeurs de données et les en-têtes de colonne du rapport ne correspondaient pas, ce qui est maintenant corrigé.
 * Lorsque l&#39;administrateur modifie la signature électronique dans des modèles d&#39;e-mail et ajoute plusieurs lignes, il ne voit les balises html que dans l&#39;interface d&#39;administration. Ce problème a été résolu.
-* Entrée **Application d’administration > Catalogue > rechercher un catalogue**, vous ne pouvez pas effectuer de recherche.
+* Dans **Application d&#39;administration > Catalogue > rechercher un catalogue**, vous ne pouvez pas effectuer de recherche.
 
 **Utilisateurs**
 
@@ -1098,11 +1098,11 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 ### Problèmes connus de cette mise à jour {#known-issues}
 
-* Lors de l’utilisation de **Durée** Dans l’application de l’élève, le contenu et le filtre peuvent ne pas être synchronisés si l’élève utilise d’autres paramètres régionaux de contenu et ne fait pas partie de l’instance par défaut en termes d’inscription.
+* Lors de l&#39;utilisation du filtre **Durée** dans l&#39;application de l&#39;élève, le contenu et le filtre peuvent ne pas être synchronisés si l&#39;élève utilise d&#39;autres paramètres régionaux de contenu et ne fait pas partie de l&#39;instance par défaut en termes d&#39;inscription.
 
 >[!NOTE]
 >
->La formation **Durée**&#39; et &#39;**Format**&#39; les filtres sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.
+>Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.****
 
 +++
 
@@ -1116,8 +1116,8 @@ Date de publication : 18 décembre 2020
 
 Le connecteur d&#39;événement BlueJeans connecte les systèmes Learning Manager et BlueJeans pour automatiser la synchronisation des données. Grâce à ce connecteur, vous pouvez :
 
-* **Configuration de sessions virtuelles à l’aide d’événements BlueJeans :** Configurez un nouvel événement dans BlueJeans et configurez une session VC dans Learning Manager en sélectionnant l’événement BlueJeans approprié. Les détails sur la date et l’heure sont automatiquement sélectionnés à partir des événements BlueJeans.
-* **Synchronisation automatisée de l’achèvement des travaux des utilisateurs :** Un processus automatisé de synchronisation de l’achèvement des travaux des utilisateurs permet à l’administrateur de Learning Manager de récupérer automatiquement les enregistrements d’achèvement pour les événements BlueJeans.
+* **Configurer des sessions virtuelles à l&#39;aide d&#39;événements BlueJeans :** configurez un nouvel événement dans BlueJeans et une session VC dans Learning Manager en sélectionnant l&#39;événement BlueJeans approprié. Les détails sur la date et l’heure sont automatiquement sélectionnés à partir des événements BlueJeans.
+* **Synchronisation automatisée de l’achèvement des travaux des utilisateurs :** un processus automatisé de synchronisation de l’achèvement des travaux des utilisateurs permet à l’administrateur de Learning Manager de récupérer automatiquement les enregistrements d’achèvement pour les événements BlueJeans.
 
 La configuration de ce nouveau connecteur nécessite un ensemble distinct d&#39;informations d&#39;identification.
 
@@ -1147,7 +1147,7 @@ Cette version se concentre sur les éléments suivants :
 * Améliorations apportées à LinkedIn Learning
 * … et bien d&#39;autres
 
-Pour plus d’informations, voir  [***Nouveautés de la version de décembre 2020 de Adobe Learning Manager***](../whats-new.md).
+Pour plus d&#39;informations, voir [***Nouveautés de la version de décembre 2020 de Adobe Learning Manager***](../whats-new.md).
 
 ### Fonctions non prises en charge dans l&#39;expérience immersive mobile {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -1185,8 +1185,8 @@ Date de publication : 23 septembre 2020
 
 **Bibliothèque de contenu**
 
-* Dans la bibliothèque de contenu, le retrait d’un contenu ne supprime pas le contenu de la **Publié** onglet. Lorsque vous actualisez la page, le contenu retiré ne s’affiche plus.
-* Lors de la création d’un dossier de contenu, le **Nom** n’est pas marqué comme obligatoire, ce qui est en fait un champ obligatoire.
+* Dans la bibliothèque de contenu, le retrait d&#39;un contenu ne supprime pas le contenu de l&#39;onglet **Publié**. Lorsque vous actualisez la page, le contenu retiré ne s’affiche plus.
+* Lors de la création d&#39;un dossier de contenu, le champ **Nom** n&#39;est pas marqué comme obligatoire, alors qu&#39;il s&#39;agit en fait d&#39;un champ obligatoire.
 
 **Demande du client**
 
@@ -1259,7 +1259,7 @@ Cette version se concentre sur les éléments suivants :
 * Modifications de la stratégie de rétention des données
 * … et bien d’autres
 
-Pour plus d’informations, voir  [***Nouveautés de la version d’août 2020 d’Adobe Learning Manager***](../whats-new.md).
+Pour plus d&#39;informations, voir [***Nouveautés de la version d&#39;août 2020 de Adobe Learning Manager***](../whats-new.md).
 
 ### Notes relatives à cette version {#notes}
 
@@ -1353,7 +1353,7 @@ Pour plus d’informations, voir  [***Nouveautés de la version d’août 2020 d
 
 **Annonces**
 
-* Si une annonce contient la balise `<a>`, l’annonce n’est pas créée comme prévu.
+* Si une annonce contient la balise `<a>`, l&#39;annonce n&#39;est pas créée comme prévu.
 
 **Un compte**
 
@@ -1453,7 +1453,7 @@ Dans cette mise à jour, un élève peut charger des actifs comme justificatif d
 
 Un élève peut ouvrir un certificat externe et charger des actifs, tels que des fichiers PDF, texte ou image.
 
-Pour plus d’informations, voir  [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
+Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problèmes résolus dans cette version {#issuesfixedinthisrelease}
 
@@ -1486,11 +1486,11 @@ Pour plus d&#39;informations, voir [***Portée des plans d&#39;apprentissage dé
 
 ### Restriction des champs actifs dans les rapports {#restrictactivefieldsinreports}
 
-Pour les champs actifs, nous avons ajouté deux nouvelles options... **Déclarable** et **Exportable**.
+Pour les champs actifs, nous avons ajouté deux nouvelles options : **Reportable** et **Exportable**.
 
 Pour les champs CSV et les champs ajoutés manuellement, si un champ actif est marqué comme **reportable**, il peut être recherché dans un filtre au sein d&#39;un rapport de tableau de bord.
 
-Pour plus d’informations, voir  [***Restreindre les champs actifs dans les rapports***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***,***
+Pour plus d&#39;informations, voir [***Restriction des champs actifs dans les rapports***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***.***
 
 ### Affichage de la description du module de contenu {#viewdescriptionofcontentmodule}
 
@@ -1506,7 +1506,7 @@ En tant qu&#39;instructeur, vous pouvez afficher le nom des sessions et des cour
 
 Les élèves peuvent désormais afficher une annonce en plein écran au lieu d&#39;utiliser une vue sous forme de liste. Cela se produit lorsque l&#39;élève a une annonce non lue. Cette fonction améliore l&#39;expérience des élèves lors de l&#39;affichage de l&#39;annonce.
 
-Adobe Learning Manager vous permet de personnaliser votre compte afin d’améliorer l’expérience de vos utilisateurs. Voici une liste des éléments qui peuvent être personnalisés. Contact [Prise en charge de Learning Manager](mailto:learningmanagersupport@adobe.com)pour apporter ces modifications.
+Adobe Learning Manager vous permet de personnaliser votre compte afin d’améliorer l’expérience de vos utilisateurs. Voici une liste des éléments qui peuvent être personnalisés. Contactez l&#39;[assistance Learning Manager](mailto:learningmanagersupport@adobe.com) pour effectuer ces modifications.
 
 * Couleurs de cartes de formation.
 * Icône de progression
@@ -1734,7 +1734,7 @@ Un administrateur peut accorder des privilèges spéciaux à un groupe d&#39;uti
 
 **Modifications apportées à l’interface utilisateur**
 
-* Dans le panneau **Ajouter un rapport** , la boîte de dialogue **Plage temporelle** et **Filtres** par défaut, les sélecteurs s’affichent sous la forme de sections distinctes réduites. Pour plus d&#39;informations, voir [***Création de rapports***](../administrators/feature-summary/reports.md#report).
+* Dans la boîte de dialogue **Ajouter un rapport**, les sélecteurs **Intervalle de temps** et **Filtres** apparaissent sous forme de sections distinctes, qui sont réduites par défaut. Pour plus d&#39;informations, voir [***Création de rapports***](../administrators/feature-summary/reports.md#report).
 
 * Dans la boîte de dialogue **Ajouter un rapport**, pour un groupe d&#39;utilisateurs, vous pouvez utiliser la recherche par frappe anticipée pour choisir un ou plusieurs groupes d&#39;utilisateurs. Pour plus d’informations, voir [***Rapports de groupe d’utilisateurs***](../administrators/feature-summary/reports.md#user-group-reporting).
 
@@ -1746,9 +1746,9 @@ Dans les colonnes de temps des relevés de notes des élèves, les minutes sont 
 
 **Tableau de bord de l’élève**
 
-* Un calendrier d&#39;apprentissage affichait l&#39;état **Inscrit à la session** même lorsqu’un responsable devait encore approuver l’inscription. Statut correct **En attente** s’affiche pour l’élève jusqu’à ce que le responsable approuve l’inscription.
+* Un calendrier d&#39;apprentissage affichait l&#39;état **Inscrit à la session** même lorsqu&#39;un responsable devait encore approuver l&#39;inscription. L&#39;état **En attente** correct s&#39;affiche maintenant pour l&#39;élève jusqu&#39;à ce que le responsable approuve l&#39;inscription.
 
-* Dans un cas particulier, pour une session, le calendrier d&#39;apprentissage affichait le statut **Inscrit** même si l’élève a terminé un cours.
+* Dans un cas particulier, pour une session, le calendrier d&#39;apprentissage affichait l&#39;état **Inscrit** même si l&#39;élève avait terminé un cours.
 
 **Tableau de bord des responsables**
 
@@ -1777,7 +1777,7 @@ Date de publication : 2 août 2019
 
 ### Nouvelles fonctionnalités et fonctionnalités améliorées {#Newandenhancedfeatures-5}
 
-**Séparation de l’étendue dans l’apprentissage par les réseaux sociaux pour les utilisateurs internes et externes** Un administrateur peut définir des portées distinctes pour les élèves internes et externes. Il existe deux nouvelles sections pour les utilisateurs internes et externes. Dans les deux sections, vous pouvez définir les étendues pour les groupes d&#39;élèves. Pour les utilisateurs internes, vous pouvez définir les valeurs de la Caractéristique utilisateur. Pour les utilisateurs externes, vous pouvez définir le profil externe, dans lequel les élèves peuvent partager le même espace de réseaux sociaux. Pour plus d’informations, voir [***Paramètres d’étendue***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **Restrictions concernant la création de forums de réseaux sociaux** Pour restreindre la création de forums par tous les élèves et pour modérer efficacement les forums, un administrateur peut accorder des autorisations pour créer des forums dédiés à un groupe d’utilisateurs sélectionné. L&#39;administrateur peut restreindre la création d&#39;un forum à un groupe sélectionné et non à tous les élèves qui participent à l&#39;apprentissage par les réseaux sociaux. Pour plus d’informations, voir [***Autorisations de création de forums***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).  **Afficher uniquement les champs actifs vides pour les élèves** Un administrateur peut choisir d’afficher les champs actifs ou de masquer les champs une fois les valeurs renseignées. Pour plus d’informations, voir [***Affichage de l’utilisateur***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **Les utilisateurs internes sont supprimés après une durée d’inactivité spécifiée** Un administrateur peut définir la durée (en jours) pendant laquelle un élève interne est supprimé si l’élève reste inactif pendant la durée spécifiée. Pour plus d’informations, voir ***[Supprimer automatiquement les utilisateurs](../administrators/feature-summary/settings.md#autodelete)***.  **Personnalisation des liens du pied de page** Un administrateur peut ajouter et personnaliser des liens dans le pied de page. Les liens peuvent également être personnalisés en fonction des différentes langues. La méthode existante pour ajouter le lien Contacter l’administrateur dans le pied de page est également disponible dans la section **Liens du pied de page** section. Pour plus d’informations, voir [***Personnalisation des liens de pied de page***](../administrators/feature-summary/settings.md#footer).
+**Séparation de l’étendue dans l’apprentissage par les réseaux sociaux pour les utilisateurs internes et externes** Un administrateur peut définir des étendues distinctes pour les élèves internes et externes. Il existe deux nouvelles sections pour les utilisateurs internes et externes. Dans les deux sections, vous pouvez définir les étendues pour les groupes d&#39;élèves. Pour les utilisateurs internes, vous pouvez définir les valeurs de la Caractéristique utilisateur. Pour les utilisateurs externes, vous pouvez définir le profil externe, dans lequel les élèves peuvent partager le même espace de réseaux sociaux. Pour plus d&#39;informations, voir [***Paramètres d&#39;étendue***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **Restrictions concernant la création de forums de réseaux sociaux** Pour restreindre la création de forums par tous les élèves et pour modérer efficacement les forums, un administrateur peut accorder des autorisations pour créer des forums dédiés à un groupe d&#39;utilisateurs sélectionné. L&#39;administrateur peut restreindre la création d&#39;un forum à un groupe sélectionné et non à tous les élèves qui participent à l&#39;apprentissage par les réseaux sociaux. Pour plus d&#39;informations, voir [***Autorisations de création de forums***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).  **Afficher uniquement les champs actifs vides pour les élèves** Un administrateur peut choisir d&#39;afficher les champs actifs ou de masquer les champs après que les valeurs ont été renseignées. Pour plus d&#39;informations, voir [***Affichage utilisateur***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **Les utilisateurs internes sont supprimés après une durée d&#39;inactivité spécifiée** Un administrateur peut définir la durée (en jours) pendant laquelle un élève interne est supprimé si l&#39;élève reste inactif pendant la durée spécifiée. Pour plus d&#39;informations, voir ***[Supprimer automatiquement les utilisateurs](../administrators/feature-summary/settings.md#autodelete)***.  **Personnaliser les liens du pied de page** Un administrateur peut ajouter et personnaliser des liens du pied de page. Les liens peuvent également être personnalisés en fonction des différentes langues. La méthode existante pour ajouter le lien Contacter l&#39;administrateur dans le pied de page est également disponible dans la section **Liens de pied de page**. Pour plus d&#39;informations, voir [***Personnaliser les liens du pied de page***](../administrators/feature-summary/settings.md#footer).
 
 ### Problèmes connus dans cette version {#Knownissuesinthisrelease-2}
 
@@ -1807,7 +1807,7 @@ Partagez des idées et des informations significatives dans un environnement inf
 
 **Partager des médias dans un forum**
 
-Partagez des photos, des documents ou des fichiers audio ou vidéo sur n’importe quel forum, afin que les autres membres du forum puissent voir votre publication et commencer une interaction.  Pour plus d’informations, voir [***Partager la publication***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
+Partagez des photos, des documents ou des fichiers audio ou vidéo sur n’importe quel forum, afin que les autres membres du forum puissent voir votre publication et commencer une interaction.  Pour plus d&#39;informations, voir [***Partager la publication***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
 
 **Envoyer un fichier pour la classe et les modules d’activités**
 
@@ -1836,7 +1836,7 @@ Date de publication : 20 juin 2019
 
 **Auto-curation du contenu**
 
-L’apprentissage par les réseaux sociaux permet au contenu publié par les élèves d’être conservé de deux manières : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d’informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L&#39;apprentissage par les réseaux sociaux permet au contenu publié par les élèves d&#39;être conservé de deux manières, à savoir : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d&#39;informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappage de compétences avec les domaines de compétence**
 
@@ -1844,7 +1844,7 @@ Mappez les compétences de votre compte avec les domaines de compétence présen
 
 **Spécifications et exemples de fichiers CSV**
 
-Spécifications CSV mises à jour que vous pouvez utiliser pour mapper vos données de migration LMS existantes. Utilisez les dernières spécifications csv téléchargeables et les fichiers zip d’exemple csv pour comprendre le format prescrit des données à saisir. Pour plus d’informations, voir  [***Manuel de migration***.](../integration-admin/feature-summary/migration-manual.md)
+Spécifications CSV mises à jour que vous pouvez utiliser pour mapper vos données de migration LMS existantes. Utilisez les dernières spécifications csv téléchargeables et les fichiers zip d’exemple csv pour comprendre le format prescrit des données à saisir. Pour plus d&#39;informations, voir [***Manuel de migration***.](../integration-admin/feature-summary/migration-manual.md)
 
 ### Problèmes résolus dans cette version {#Issuesfixedinthisrelease-4}
 
@@ -1854,7 +1854,7 @@ Spécifications CSV mises à jour que vous pouvez utiliser pour mapper vos donn�
 
 **Tableau de bord des responsables**
 
-* Lorsqu’un responsable a sélectionné l’option **Ce trimestre**, les détails d&#39;inscription, de progression et d&#39;achèvement d&#39;un objet d&#39;apprentissage ne s&#39;affichaient pas. Dans cette version, ces détails s&#39;affichent désormais comme prévu.
+* Lorsqu&#39;un responsable a sélectionné l&#39;option **Ce trimestre**, l&#39;inscription, la progression et les détails de l&#39;achèvement d&#39;un objet d&#39;apprentissage ne s&#39;affichaient pas. Dans cette version, ces détails s&#39;affichent désormais comme prévu.
 
 **Élèves inscrits sur liste d&#39;attente**
 
@@ -1877,12 +1877,12 @@ Date de publication : 30 mai 2019
 **Nouvelles fonctionnalités et fonctionnalités améliorées**
 
 * Recherche consolidée dans toutes les instances pour les élèves inscrits dans la section des élèves de l&#39;objet d&#39;apprentissage. Recherchez les utilisateurs inscrits dans la section Élève de l&#39;objet d&#39;apprentissage à l&#39;aide de la recherche par frappe anticipée. Pour plus d&#39;informations, voir [***Rechercher des utilisateurs inscrits***](../administrators/feature-summary/courses.md#searchforusers).
-* Fonctions d’édition complètes des objets d’apprentissage acquis via un catalogue partagé. Pour plus d’informations, voir [***Contrôle de catalogue partagé***](../administrators/feature-summary/shared-catalog-full-control.md). Pour activer cette fonctionnalité, contactez l&#39;assistance de Learning Manager.
-* Les instructeurs peuvent désormais facilement identifier les sessions et modules avec des révisions en attente. Pour plus d’informations, voir [***Révisions en attente***](../instructors/feature-summary/learners.md#pending).
+* Fonctions d’édition complètes des objets d’apprentissage acquis via un catalogue partagé. Pour plus d&#39;informations, voir [***Contrôle de catalogue partagé***](../administrators/feature-summary/shared-catalog-full-control.md). Pour activer cette fonctionnalité, contactez l&#39;assistance de Learning Manager.
+* Les instructeurs peuvent désormais facilement identifier les sessions et modules avec des révisions en attente. Pour plus d&#39;informations, voir [***Révisions en attente***](../instructors/feature-summary/learners.md#pending).
 
-* Les compétences prennent désormais en charge l&#39;attribution des valeurs de crédit au format décimal. Cela permet aux auteurs d’attribuer une valeur de crédit de niveau décimal à un cours donné. Pour plus d’informations, voir [***Prise en charge des décimales***](../administrators/feature-summary/skills-levels.md#decimal).
+* Les compétences prennent désormais en charge l&#39;attribution des valeurs de crédit au format décimal. Cela permet aux auteurs d’attribuer une valeur de crédit de niveau décimal à un cours donné. Pour plus d&#39;informations, voir [***Prise en charge des décimales***](../administrators/feature-summary/skills-levels.md#decimal).
 * Automatisez la création des rôles personnalisés. Pour plus d&#39;informations, voir [***Configurer les rôles via des fichiers CSV***](../integration-admin/feature-summary/configure-role-csv-files.md).
-* Les envois requis pour les certifications externes et les modules d&#39;activité sont désormais facultatifs. Cela permet aux responsables et aux instructeurs d&#39;évaluer sans envoi. Pour plus d’informations, voir [***Envoi facultatif***](../managers/feature-summary/learning-objects.md#optional).
+* Les envois requis pour les certifications externes et les modules d&#39;activité sont désormais facultatifs. Cela permet aux responsables et aux instructeurs d&#39;évaluer sans envoi. Pour plus d&#39;informations, voir [***Envoi facultatif***](../managers/feature-summary/learning-objects.md#optional).
 * Téléchargez les relevés de notes des élèves pour les utilisateurs supprimés. Pour plus d&#39;informations, voir [***Relevés de notes des élèves***](../administrators/feature-summary/learner-transcripts.md).
 * Prise en charge des langues suivantes :
 
@@ -1910,15 +1910,15 @@ Date de publication : 30 mai 2019
 
 Date de publication : 26 avril 2019
 
-* **Modifications apportées à l’interface utilisateur :** Dans l’application, le  ![](assets/hamburger.jpg) et le  ![](assets/search-magnifying-glass-icon.png) Les options s’affichent désormais en haut.
+* **Modifications de l&#39;interface utilisateur :** sur l&#39;application, les options ![](assets/hamburger.jpg) et ![](assets/search-magnifying-glass-icon.png) apparaissent désormais en haut.
 
 ![](assets/1.png)
 
-* **Scannez le code QR pour vous inscrire :** Les fonctionnalités de code QR sont améliorées. En plus de prendre en charge le marquage des présences à l&#39;aide du code QR, il prend désormais en charge l&#39;inscription à un cours et l&#39;achèvement d&#39;un cours à l&#39;aide du code QR.
+* **Scannez le code QR pour vous inscrire :** les fonctionnalités du code QR sont améliorées. En plus de prendre en charge le marquage des présences à l&#39;aide du code QR, il prend désormais en charge l&#39;inscription à un cours et l&#39;achèvement d&#39;un cours à l&#39;aide du code QR.
 
-  Pour vous inscrire à un cours et le terminer, vous pouvez lire un code QR fourni par votre administrateur. Pour plus d’informations sur la numérisation des codes QR dans la version web de Learning Manager, voir  [***Scanner le code QR***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+  Pour vous inscrire à un cours et le terminer, vous pouvez lire un code QR fourni par votre administrateur. Pour plus d&#39;informations sur la numérisation des codes QR dans la version web de Learning Manager, voir [***Numériser le code QR***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Tentatives multiples au cours :** L’application Learning Manager permet à l’élève d’utiliser des cours avec plusieurs tentatives activées. Pour plus d’informations sur la configuration des tentatives multiples, voir  [***Tentatives multiples***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Tentatives multiples à un cours :** l&#39;application Learning Manager permet à l&#39;élève d&#39;utiliser des cours avec plusieurs tentatives activées. Pour plus d&#39;informations sur la configuration des tentatives multiples, voir [***Tentatives multiples***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -1997,9 +1997,9 @@ Amélioration des performances
 
 Date de publication : 19 mai 2018.
 
-* Cette version d&#39;Adobe Learning Manager propose de nouvelles fonctions et des améliorations. Elle vous permet de créer des rôles personnalisés, d&#39;ajouter des étiquettes de catalogue, de purger les utilisateurs, de gérer les balises, de renommer les objets d&#39;apprentissage, d&#39;intégrer des Slack, de nouvelles intégrations de connecteurs, de prendre en charge xAPI, et bien plus encore. Pour plus d&#39;informations sur les nouvelles fonctionnalités et améliorations, voir  [Résumé de la nouvelle fonctionnalité](../whats-new.md#main-pars_text).
+* Cette version d&#39;Adobe Learning Manager propose de nouvelles fonctions et des améliorations. Elle vous permet de créer des rôles personnalisés, d&#39;ajouter des étiquettes de catalogue, de purger les utilisateurs, de gérer les balises, de renommer les objets d&#39;apprentissage, d&#39;intégrer des Slack, de nouvelles intégrations de connecteurs, de prendre en charge xAPI, et bien plus encore. Pour plus d&#39;informations sur les nouvelles fonctionnalités et les améliorations, voir [Résumé des nouvelles fonctionnalités](../whats-new.md#main-pars_text).
 
-* Learning Manager est conforme au RGPD. Pour plus d’informations, voir [Conformité de Learning Manager au RGPD](/help/migrated/kb/prime-gdpr.md).
+* Learning Manager est conforme au RGPD. Pour plus d&#39;informations, voir Conformité de [Learning Manager au RGPD](/help/migrated/kb/prime-gdpr.md).
 
 ## Problème connu {#knownissue}
 
@@ -2034,13 +2034,13 @@ Date de publication : 25 mars 2018
 
 La version d&#39;Adobe Learning Manager de mars 2018 propose de nouvelles fonctions et améliorations intéressantes. Il vous permet de générer des rapports de piste d’audit d’utilisateur et des rapports de connexion/accès, et donne aux élèves la capacité de choisir des instances de cours, des améliorations aux salles de classe et aux classes virtuelles, et bien plus encore. Cette version corrige également des bogues et améliore les performances générales.
 
-Pour prendre connaissance de toutes les nouveautés de cette version, voir  [Nouveautés de Adobe Learning Manager](../whats-new.md).
+Pour lire toutes les nouveautés de cette version, consultez [Nouveautés de Adobe Learning Manager](../whats-new.md).
 
 ### Problème connu {#KnownIssue-1}
 
-**Problème :** L’accès à quelques objets d’apprentissage spécifiques à l’aide d’Internet Explorer v11.1478.10586.0 peut entraîner le blocage de Learning Manager.
+**Problème :** accéder à quelques objets d&#39;apprentissage spécifiques à l&#39;aide d&#39;Internet Explorer v11.1478.10586.0 peut entraîner le blocage de Learning Manager.
 
-**Solution :** Mettez à jour votre navigateur Internet Explorer 11 vers la dernière version en contactant l’équipe informatique de votre organisation.
+**Solution :** mettez à jour votre navigateur Internet Explorer 11 vers la dernière version en contactant l’équipe informatique de votre organisation.
 
 +++
 
@@ -2148,7 +2148,7 @@ Les élèves recevaient souvent des courriers électroniques avec des rappels d�
 
 Le montage chronologique du tableau des scores de ludification d&#39;un élève interne peut afficher un élève externe lorsqu&#39;il est converti d&#39;un élève externe en élève interne. Ce problème a été résolu.
 
-**Le champ UUID d&#39;un élève est affiché dans un format modifiable lors de la création d&#39;utilisateurs uniques et CSV dans un compte UUID.**
+**Le champ UUID d’un élève est affiché dans un format modifiable lors de la création d’utilisateurs uniques et CSV dans un compte UUID.**
 
 L&#39;élève voyait le champ UUID lors du remplissage de son profil même si l&#39;administrateur avait fourni l&#39;UUID pour les utilisateurs uniques et CSV. Ce problème a été résolu.
 
@@ -2159,7 +2159,7 @@ Les données de durée d’apprentissage n’étaient pas affichées dans les ra
 * Si sa présence est marquée automatiquement par le système pour les modules de connexion.
 * Lorsqu&#39;un code QR est scanné pour les modules CR et VC à l&#39;aide de l&#39;application pour appareil Learning Manager.
 
-**Cette version de Learning Manager a également introduit des améliorations et des correctifs de bogues liés au lecteur de périphérique.**
+**Cette version de Learning Manager a également introduit des améliorations et des correctifs de bogues liés au lecteur d’appareil.**
 
 * Problèmes liés à la réalisation des modules d&#39;activité. Ces problèmes ont été résolus.
 * Lorsque l&#39;élève lisait une vidéo en mode portrait, les boutons +10 et -10 pouvaient ne pas fonctionner. Ce problème a été résolu
@@ -2252,7 +2252,7 @@ Avec cette mise à jour, l&#39;expérience des élèves de Learning Manager pre
 
 Les rappels d&#39;échéance mentionnaient de manière incorrecte le nombre de jours restants pour les élèves dans certains fuseaux horaires. Ce problème a été résolu.
 
-**Problèmes liés au programme d’apprentissage dans le cas d’une instance expirée du programme**
+**Problèmes de programme d’apprentissage dans le cas d’une instance de programme expirée**
 
 Le lancement des modules du programme d&#39;apprentissage a rencontré des problèmes si l&#39;instance du programme est arrivée à expiration. Cet incident conduit à l&#39;extension du module non fonctionnel et les élèves ne peuvent pas lancer le lecteur et consulter le contenu. Ce problème a été résolu.
 
@@ -2272,13 +2272,13 @@ Date de publication : 9 avril 2017
 
 ### Nouvelles fonctionnalités {#newfeatures}
 
-Pour obtenir une liste des nouvelles fonctionnalités et améliorations effectuées dans la version d&#39;avril de Learning Manager, consultez [Nouveautés.](../whats-new.md)
+Pour obtenir une liste des nouvelles fonctionnalités et améliorations effectuées dans la version d&#39;avril de Learning Manager, consultez la section [Nouveautés](../whats-new.md).
 
 **Application Élève basée sur des widgets**
 
 Utilisez des widgets sur la page d’accueil pour gérer vos cours, compétences et réussites. Utilisez la barre de recherche pour effectuer une recherche dans l&#39;ensemble de votre système de gestion de l&#39;apprentissage qui couvre l&#39;intégralité des objets d&#39;apprentissage, catalogues, compétences, notes et discussions
 
-Pour plus d’informations sur la nouvelle page d’accueil, voir  [Page d’accueil de l’élève dans Learning Manager](../learners/feature-summary/getting-started-learner.md).
+Pour plus d&#39;informations sur la nouvelle page d&#39;accueil, voir [Page d&#39;accueil des élèves dans Learning Manager](../learners/feature-summary/getting-started-learner.md).
 
 **Paramètres administrateur pour le Tableau de bord de l’élève**
 
@@ -2288,7 +2288,7 @@ En tant qu’administrateur, vous pouvez contrôler la page d’accueil des él�
 
 La nouvelle application mobile Learning Manager permet aux élèves de s&#39;inscrire et de suivre des cours. L&#39;application peut également être utilisée pour gérer les tableaux de bord.
 
-Pour en savoir plus sur l&#39;utilisation de Learning Manager sur les appareils mobiles, voir  [Application des élèves Learning Manager pour appareils mobiles](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
+Pour en savoir plus sur l&#39;utilisation de Learning Manager sur les appareils mobiles, voir [Application des élèves Learning Manager pour appareils mobiles](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
 
 **Indication de l’assiduité à l’aide du code QR**
 
@@ -2298,17 +2298,17 @@ Utilisez l’option Lire le code QR pour noter votre assiduité à des sessions 
 
 Learning Manager présente désormais des instructeurs pour les modules. Les instructeurs peuvent gérer les sessions des modules qui leur sont attribués, mais aussi la durée, la salle et la limite de places de ces modules.
 
-Pour afficher des informations détaillées sur les instructeurs, voir  [Instructeurs dans Learning Manager](../instructors/feature-summary/getting-started.md#main-pars_header).
+Pour afficher des informations détaillées sur les instructeurs, voir [Instructeurs dans Learning Manager](../instructors/feature-summary/getting-started.md#main-pars_header).
 
 **Compte de pairs**
 
 Si vous êtes un administrateur, vous pouvez créer des comptes de pairs avec lesquels vous pouvez partager les places que vous avez achetées.
 
-Pour savoir comment créer et gérer des comptes de pairs, voir  [Comptes de pairs](../administrators/feature-summary/peer-account.md#main-pars_text).
+Pour savoir comment créer et gérer des comptes de pairs, voir [Comptes de pairs](../administrators/feature-summary/peer-account.md#main-pars_text).
 
 **Offres d’équivalence de cours**
 
-Utilisation **[!UICONTROL Ajouter une nouvelle langue]** lorsque vous ajoutez un module ou un cours pour le rendre disponible dans plusieurs langues et sous plusieurs formats.
+Utilisez l&#39;option **[!UICONTROL Ajouter une nouvelle langue]** lorsque vous ajoutez un module ou un cours pour le rendre disponible dans plusieurs langues et formats.
 
 **Relevé de notes de l’élève**
 
@@ -2318,7 +2318,7 @@ Learning Manager permet aux responsables et administrateurs de télécharger le
 
 Learning Manager a introduit trois nouveaux connecteurs dans cette version, afin que les élèves puissent accéder aux cours des fournisseurs de contenu suivants et les suivre : Lynda.com, getAbstract et Harvard ManageMentor.
 
-Pour savoir comment configurer et utiliser chacun de ces connecteurs, voir  [Connecteurs](../integration-admin/feature-summary/connectors.md#main-pars_header).
+Pour savoir comment configurer et utiliser chacun de ces connecteurs, voir [Connecteurs](../integration-admin/feature-summary/connectors.md#main-pars_header).
 
 **ID unique pour les objets d’apprentissage**
 
@@ -2326,7 +2326,7 @@ Lors de la création d&#39;objets d&#39;apprentissage, les auteurs et les admini
 
 **Forum de discussion pour les élèves**
 
-Utilisez le forum de discussion dans les cours pour interagir avec vos pairs et les instructeurs. En tant qu’élève, vous pouvez voir toutes les publications concernant les cours. Toutefois, vous ne pouvez supprimer que les publications que vous avez saisies. Pour plus d&#39;informations sur le forum de discussion, voir  [Affichage et participation aux discussions](../learners/feature-summary/courses.md#main-pars_header_1772461149).
+Utilisez le forum de discussion dans les cours pour interagir avec vos pairs et les instructeurs. En tant qu’élève, vous pouvez voir toutes les publications concernant les cours. Toutefois, vous ne pouvez supprimer que les publications que vous avez saisies. Pour plus d&#39;informations sur le forum de discussion, voir [Affichage et participation aux discussions](../learners/feature-summary/courses.md#main-pars_header_1772461149).
 
 ### Améliorations {#Enhancements-3}
 
@@ -2334,7 +2334,7 @@ Utilisez le forum de discussion dans les cours pour interagir avec vos pairs et 
 
 Les critères d’achèvement des objets d’apprentissage, comme les cours, les certifications et les plans d’apprentissage peuvent être définis de telle sorte que les élèves ont besoin de terminer uniquement X modules ou cours sur Y. De la même manière, les auteurs peuvent également définir les critères d’achèvement des certifications et des plans l’apprentissage.
 
-Pour plus d’informations sur cette fonctionnalité, voir  [Critères d’achèvement du cours](../learners/feature-summary/courses.md#main-pars_image_1164377098).
+Pour plus d&#39;informations sur cette fonctionnalité, voir [Critères d&#39;achèvement du cours](../learners/feature-summary/courses.md#main-pars_image_1164377098).
 
 **Modération de cours**
 
@@ -2434,7 +2434,7 @@ Adobe permet aux entreprises de migrer leurs données et le contenu de formation
 
 Learning Manager fournit les outils et modèles nécessaires à l&#39;administrateur d&#39;intégration de votre entreprise pour installer et exécuter les tâches de migration.
 
-Pour plus d’informations sur la fonctionnalité de migration, consultez  [Aide du manuel de migration](../integration-admin/feature-summary/migration-manual.md)
+Pour plus d&#39;informations sur la fonctionnalité de migration, consultez l&#39;[Aide du manuel de migration](../integration-admin/feature-summary/migration-manual.md)
 
 ### Améliorations {#Enhancements-4}
 
@@ -2442,13 +2442,13 @@ Pour plus d’informations sur la fonctionnalité de migration, consultez  [Aide
 
 En tant qu’administrateur, vous pouvez désormais ajouter des noms de domaines spécifiques lors de l’ajout d’utilisateurs externes. Lorsque les élèves s&#39;inscrivent au compte, ils ne peuvent entrer que les adresses électroniques de ces noms de domaine.
 
-Vous pouvez également envoyer des liens de vérification par courrier électronique à l&#39;adresse des utilisateurs lorsqu&#39;ils s&#39;inscrivent au compte. Pour plus d&#39;informations sur cette amélioration, voir  [Ajouter des utilisateurs/groupes d’utilisateurs](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
+Vous pouvez également envoyer des liens de vérification par courrier électronique à l&#39;adresse des utilisateurs lorsqu&#39;ils s&#39;inscrivent au compte. Pour plus d&#39;informations sur cette amélioration, voir [Ajouter des utilisateurs/groupes d&#39;utilisateurs](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
 
 **Lecteur Fluidic**
 
 Le lecteur Fluidic permet désormais de modifier la vitesse de lecture. Vous pouvez choisir parmi cinq variations de vitesse. Le lecteur Fluidic permet également de régler les paramètres du volume lorsque vous suivez un cours.
 
-En tant qu&#39;élève, vous pouvez également avancer ou reculer de 10 secondes à l&#39;aide des nouvelles icônes de chaque côté du bouton de lecture dans le lecteur Fluidic. Pour plus d&#39;informations sur ces améliorations, voir  [Lecteur Fluidic](../learners/feature-summary/fluidic-player.md).
+En tant qu&#39;élève, vous pouvez également avancer ou reculer de 10 secondes à l&#39;aide des nouvelles icônes de chaque côté du bouton de lecture dans le lecteur Fluidic. Pour plus d&#39;informations sur ces améliorations, voir [Lecteur Fluidic](../learners/feature-summary/fluidic-player.md).
 
 Les améliorations apportées au lecteur Fluidic s&#39;appliquent à la vidéo uniquement.
 
@@ -2472,7 +2472,7 @@ Dans le cadre de cette mise à jour, Learning Manager fournit un point de termin
 
 **Lecteur Fluidic**
 
-Lorsque vous suivez un cours qui a été développé en Captivate à l’aide de  `code cpQuizInfoStudentName` variable, le nom de l&#39;étudiant ne s&#39;affichait pas comme prévu. Ce problème a été résolu.
+Lorsque vous suiviez un cours développé en Captivate à l&#39;aide de la variable `code cpQuizInfoStudentName`, le nom de l&#39;étudiant ne s&#39;affichait pas comme prévu. Ce problème a été résolu.
 
 +++
 
@@ -2486,17 +2486,17 @@ Date de publication : 17 novembre 2016.
 
 La fonctionnalité de catalogue partagé permet aux administrateurs des différents comptes de partager ou d’acquérir des catalogues avec des objets d’apprentissage. Comme extension à cette fonctionnalité de catalogue partagé, nous prenons en charge la propagation des mises à jour aux objets d&#39;apprentissage tels que les badges, les compétences, les modules, les cours, les programmes de formation, les certifications et les assistances à la tâche.
 
-Pour plus d’informations sur cette fonctionnalité, reportez-vous à la section  [Aide sur les catalogues partagés](../administrators/feature-summary/catalogs.md#propagation)
+Pour plus d&#39;informations sur cette fonctionnalité, consultez [Aide des catalogues partagés](../administrators/feature-summary/catalogs.md#propagation)
 
 **Retour d’informations L1 et L3**
 
 * La boîte de dialogue de retour d’informations L1 s’affiche dès qu’un élève a terminé de suivre un cours. De plus, l&#39;élève reçoit une notification lorsque le retour d&#39;informations L1 est achevé.
 * Une option permettant d&#39;ajouter des questions descriptives dans la fonctionnalité de retour d&#39;informations L1 et L3 a été fournie. Les administrateurs peuvent ajouter ces questions descriptives pour les élèves. Cette fonctionnalité vient s&#39;ajouter à l&#39;ensemble de questions par défaut fournies par Learning Manager. Vous pouvez ajouter deux questions descriptives pour le retour d&#39;informations L1 et une pour le retour d&#39;informations L3.\
-  Pour plus d’informations sur cette fonctionnalité, reportez-vous à la section [Aide sur les questions descriptives de retour d&#39;informations L1 et L3](../administrators/feature-summary/courses.md#descriptive)
+  Pour plus d&#39;informations sur cette fonctionnalité, consultez l&#39;aide sur les [questions descriptives de retour d&#39;informations L1 et L3](../administrators/feature-summary/courses.md#descriptive)
 
 **Exportation d’utilisateurs**
 
-* À la demande de certains utilisateurs provenant de grandes entreprises, une nouvelle option pour télécharger la liste de tous les utilisateurs est disponible dans le compte Learning Manager. Dans Connexion administrateur, cliquez sur **[!UICONTROL Utilisateurs]** dans le volet de gauche et cliquez sur **[!UICONTROL Exportation des données utilisateur]** pour télécharger la liste des utilisateurs sous forme de feuille excel.
+* À la demande de certains utilisateurs provenant de grandes entreprises, une nouvelle option pour télécharger la liste de tous les utilisateurs est disponible dans le compte Learning Manager. Dans la connexion Administrateur, cliquez sur **[!UICONTROL Utilisateurs]** dans le volet de gauche et cliquez sur **[!UICONTROL Exporter les données utilisateur]** pour télécharger la liste des utilisateurs sous forme de feuille Excel.
 
 ### Problèmes résolus {#Issuesfixed-1}
 
@@ -2559,7 +2559,7 @@ Date de publication : 12 octobre 2016.
 
 **Efficacité du cours**
 
-* Dans le rôle d&#39;élève, l&#39;efficacité du cours était affichée comme l&#39;une des **Trier par** filtrer les options même lorsqu’un administrateur a désactivé l’efficacité du cours pour les élèves. Ce problème a été résolu.
+* Dans le rôle d&#39;élève, l&#39;efficacité du cours était affichée comme l&#39;une des options de filtre **Trier par** même lorsqu&#39;un administrateur désactivait l&#39;efficacité du cours pour les élèves. Ce problème a été résolu.
 
 **Certifications**
 
@@ -2567,7 +2567,7 @@ Date de publication : 12 octobre 2016.
 
 **Rapports**
 
-* Lorsqu&#39;un administrateur tente de générer un rapport de certification avec **Jusqu’à la date** par défaut, les utilisateurs inactifs n&#39;étaient pas affichés dans le rapport. Ce problème a été résolu.
+* Lorsqu&#39;un administrateur essayait de générer un rapport de certification avec l&#39;option **À la date** comme option, les utilisateurs inactifs n&#39;étaient pas affichés dans le rapport. Ce problème a été résolu.
 * Lorsqu&#39;un administrateur cliquait sur le lien des rapports de cours dans l&#39;onglet Rapports > Mes rapports, une boîte de dialogue contextuelle s&#39;affichait sans le bouton Fermer. Ce problème a été résolu.
 
 **Lecteur Fluidic**
@@ -2614,7 +2614,7 @@ Dans cette mise à jour, nous avons corrigé certains problèmes principaux rela
 ### Problèmes résolus {#Issuesfixed-4}
 
 * Un problème survenait lors de l&#39;exportation des données de module dans les relevés de notes de l&#39;élève, cela entraînait une exportation de données incorrectes. Ce problème a été résolu.
-* Lorsqu&#39;un utilisateur utilisait une extension d&#39;ID de messagerie comportant plus de quatre caractères, celle-ci n&#39;était pas prise en charge. Par exemple, si un ID de messagerie est <abcd@company.world> elle n’était pas prise en charge, car l’extension world comportait plus de quatre caractères. Nous avons corrigé ce problème afin de prendre en charge les extensions de plus de quatre caractères.
+* Lorsqu&#39;un utilisateur utilisait une extension d&#39;ID de messagerie comportant plus de quatre caractères, celle-ci n&#39;était pas prise en charge. Par exemple, si un ID de messagerie est <abcd@company.world>, il n&#39;était pas pris en charge car l&#39;extension world comportait plus de quatre caractères. Nous avons corrigé ce problème afin de prendre en charge les extensions de plus de quatre caractères.
 
 +++
 
@@ -2817,11 +2817,11 @@ Certaines fonctions d&#39;amélioration sont répertoriées ci-dessous pour réf
 
 **Relevé de notes de l’élève**
 
-Learning Manager vous fournit une fonctionnalité permettant de générer des relevés de notes pour les élèves Learning Manager de votre organisation. Pour plus d’informations, voir  [Contenu d’aide sur les relevés de notes des élèves](../administrators/feature-summary/learner-transcripts.md).
+Learning Manager vous fournit une fonctionnalité permettant de générer des relevés de notes pour les élèves Learning Manager de votre organisation. Pour plus d&#39;informations, consultez le [contenu d&#39;aide sur les relevés de notes des élèves](../administrators/feature-summary/learner-transcripts.md).
 
 **Exportation d’un badge au format PDF**
 
-Learning Manager vous permet d&#39;exporter vos badges sous forme de fichiers PDF. Pour plus d’informations, voir  [Contenu des fonctionnalités des badges](../administrators/feature-summary/badges.md).
+Learning Manager vous permet d&#39;exporter vos badges sous forme de fichiers PDF. Pour plus d&#39;informations, consultez le [contenu des badges](../administrators/feature-summary/badges.md).
 
 **Score du quiz pour les modules**
 
@@ -2846,7 +2846,7 @@ Les administrateurs peuvent désormais marquer une activité d’apprentissage d
 **Rapports**
 
 * Vous pouvez vous abonner à des rapports de cours, de programmes d&#39;apprentissage ou de certificats. Vous pouvez également vous abonner à des rapports de cours individuels pour des données telles que le score du quiz et le statut de l&#39;élève. Les abonnements seront envoyés à votre ID de messagerie enregistré dans le compte Learning Manager. Vous pouvez également modifier cet ID de messagerie.
-* Lorsque vous exportez le rapport d&#39;inscription de certification, une nouvelle colonne nommée **Échéance** est également exporté. Ces données de colonne permettent aux administrateurs de connaître les élèves qui ont manqué les échéances de consommation de leurs objets d&#39;apprentissage.
+* Lorsque vous exportez le rapport d&#39;inscription de certification, une nouvelle colonne nommée **Date d&#39;échéance** est également exportée. Ces données de colonne permettent aux administrateurs de connaître les élèves qui ont manqué les échéances de consommation de leurs objets d&#39;apprentissage.
 
 **Modèles de courriers électroniques**
 
@@ -2876,7 +2876,7 @@ Date de publication : 10 juin 2016.
 
 ## Problèmes résolus {#Issuefixed-1}
 
-Certains clients rencontraient des problèmes lors de l&#39;utilisation de la fonctionnalité de connexion unique sur Learning Manager. Ce problème a été résolu en renvoyant l’entityId de Learning Manager vers une URL (<https://learningmanager.adobe.com>) au lieu d’un mot-clé. Learning Manager est conforme à la spécification SAML 2.0.
+Certains clients rencontraient des problèmes lors de l&#39;utilisation de la fonctionnalité de connexion unique sur Learning Manager. Ce problème a été résolu en renvoyant l&#39;entityId de Learning Manager vers une URL (<https://learningmanager.adobe.com>) au lieu d&#39;un mot-clé. Learning Manager est conforme à la spécification SAML 2.0.
 
 +++
 
@@ -2903,13 +2903,13 @@ Lorsque des élèves externes consultent la page d’inscription à l’aide d�
 
 **Prévisualisation et publication des cours**
 
-* Dans le rôle d&#39;auteur, lorsque vous prévisualisez un cours qui a été téléchargé à partir du Captivate en tant que contenu SCORM+SWF avec `code $$cpQuizInfoStudentName$$` variable, la variable affichait une valeur nulle. Ce problème a été résolu.
+* Dans le rôle d&#39;auteur, lorsque vous prévisualisiez un cours téléchargé à partir du Captivate en tant que contenu SCORM+SWF avec la variable `code $$cpQuizInfoStudentName$$`, la variable affichait une valeur nulle. Ce problème a été résolu.
 * Lorsqu&#39;un cours Presenter avec un titre contenant une apostrophe (&#39;) était publié et affiché dans Learning Manager, des points d&#39;interrogation (???) s&#39;affichaient dans la table des matières. Ce problème a été résolu.
 
 **Certifications**
 
 * Si une certification est associée à un catalogue et qu’elle se répète, elle s’affiche dans tous les catalogues associés. Auparavant, dans certains cas, les utilisateurs ne pouvaient pas afficher les certifications récurrentes dans leurs catalogues.
-* Lors de la création de certifications, si un administrateur entre **jours pour terminer** valeur supérieure ou égale à la période de validité de la certification, un message d&#39;avertissement s&#39;affiche. Auparavant, le message d&#39;avertissement ne s&#39;affichait pas pour les administrateurs.
+* Lors de la création des certifications, si un administrateur saisit la valeur **jours pour terminer** supérieure ou égale à la période de validité de la certification, un message d&#39;avertissement s&#39;affiche. Auparavant, le message d&#39;avertissement ne s&#39;affichait pas pour les administrateurs.
 * La validité de la **certification** s&#39;affiche en mois pour les utilisateurs. Auparavant, la valeur de base s’affichait en années.
 
 **Définition des programmes d’apprentissage**
@@ -2970,10 +2970,10 @@ L’exportation des données d’inscription échouait si l’un des élèves in
 
 **Modèles de courrier électronique**
 
-* Le mot **partenaires,** qui a été utilisée pour représenter des groupes extérieurs,**** est **** supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
-  **Remarque :** Ce modèle mis à jour n’apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Rétablir l’original** dans **Aperçu du modèle** boîte de dialogue.
+* Le mot **partenaires,** utilisé pour représenter des groupes externes **** est **** supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
+  **Remarque :** ce modèle mis à jour n&#39;apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Revenir à l&#39;original** dans la boîte de dialogue **Aperçu du modèle**.
 
-* L&#39;URL n&#39;est pas cliquable dans l&#39;e-mail reçu par les administrateurs lorsque **Profil Créé (Auto-Inscription)** et **Profil Créé (Externe/Partenaires)** les modèles de courrier électronique sont modifiés. Ce problème a été résolu.
+* L&#39;URL n&#39;est pas cliquable dans le courrier électronique reçu par les administrateurs chaque fois que les modèles de courrier électronique **Profil créé(auto-inscription)** et **Profil créé(externe/partenaires)** sont modifiés. Ce problème a été résolu.
 
 +++
 
@@ -3011,9 +3011,9 @@ Dans la connexion Administrateur, la pagination ne fonctionnait pas sur la page 
 
 **Programmes et plans d’apprentissage**
 
-* Lorsqu’un élève tentait d’ignorer un module de cours ordonné dans un programme d’apprentissage, un message d’erreur n’était pas affiché. Ce problème a été résolu. Un message d’erreur **Impossible d’ignorer les modules** apparaît.
+* Lorsqu’un élève tentait d’ignorer un module de cours ordonné dans un programme d’apprentissage, un message d’erreur n’était pas affiché. Ce problème a été résolu. Un message d&#39;erreur **Impossible d&#39;ignorer les modules** s&#39;affiche.
 * Si la pagination était utilisée dans la liste des cours, ceux-ci n&#39;étaient pas ajoutés aux programmes d&#39;apprentissage. Ce problème a été résolu.
-* **Retraité** s&#39;affichait deux fois dans Programmes d&#39;apprentissage > Instances. Ce problème a été résolu.
+* L&#39;onglet **Retiré** s&#39;affichait deux fois dans Programmes d&#39;apprentissage > Instances. Ce problème a été résolu.
 
 **Assistances à la tâche**
 
@@ -3028,16 +3028,16 @@ Dans la connexion Administrateur, la pagination ne fonctionnait pas sur la page 
 
 **Création de compétences**
 
-Dans la connexion Élèves, info-bulle du nom de compétence dans **Mappage des compétences **était** **le nom **** complet n’est pas affiché. Ce problème a été résolu.
+Dans la connexion Élèves, l&#39;info-bulle du nom de compétence dans **Mappage de compétences **était** **n&#39;affichait pas le nom **** complet. Ce problème a été résolu.
 
 **Ajout de partenaires externes**
 
-* Un message texte a été inclus dans la page d’enregistrement des utilisateurs externes comme **Les utilisateurs doivent d’abord s’enregistrer et créer un nom d’utilisateur et un mot de passe pour les connexions suivantes**.
+* Un message texte a été inclus dans la page d&#39;enregistrement des utilisateurs externes, car **les utilisateurs doivent d&#39;abord s&#39;enregistrer et créer un nom d&#39;utilisateur et un mot de passe pour les connexions suivantes**.
 
 **Notifications aux utilisateurs**
 
-* Lorsqu’un élève externe clique sur le bouton **Ouvrir les notes** lien dans l’e-mail de notification de nouveau suivi d’un cours, le lecteur s’ouvre mais le panneau Notes ne fonctionne pas. Ce problème a été résolu.
-* Lorsqu’un élève externe tente d’ouvrir les modules préparatoires ou de test à l’aide de **Ouvrir les notes** lien dans l’e-mail de notification de nouveau suivi du cours, le contenu des notes n’était pas visible. Ce problème a été résolu.
+* Lorsqu&#39;un élève externe cliquait sur le lien **Ouvrir les annotations** dans l&#39;e-mail de notification de nouveau suivi d&#39;un cours, le lecteur s&#39;ouvrait mais le panneau Annotations ne fonctionnait pas. Ce problème a été résolu.
+* Lorsqu&#39;un élève externe essayait d&#39;ouvrir les modules préparatoires ou de test à l&#39;aide du lien **Ouvrir les annotations** dans le courrier électronique de notification de nouveau suivi d&#39;un cours, le contenu des annotations n&#39;était pas visible. Ce problème a été résolu.
 
 **Création de cours contenant des modules**
 
@@ -3057,7 +3057,7 @@ Date de publication : 15 mars 2016
 
 **Création de cours contenant des modules**
 
-* Dans la connexion Administrateur, lorsque vous essayez de créer une nouvelle instance pour les cours de **Retraité** tab, une erreur s&#39;est produite. Ce problème a été résolu.
+* Dans la connexion Administrateur, lorsque vous tentiez de créer une nouvelle instance pour les cours de l&#39;onglet **Retiré** une erreur se produisait. Ce problème a été résolu.
 * Dans la connexion Administrateur du contenu localisé, les mises en page des écrans Actions et Inscription étaient déformés lors de l&#39;inscription d&#39;élèves à des instances de cours. Ce problème a été résolu.
 * Lorsqu&#39;un auteur créait des modules de classe ou de classe virtuelle, le mois du calendrier utilisé par défaut était janvier 2015. Ce problème est résolu ; la date du jour est désormais utilisée par défaut.
 * Si le nom d&#39;une instance de cours se composait d&#39;une barre oblique ou d&#39;une barre oblique inverse, l&#39;action d&#39;exportation de la liste des élèves échouait. Ce problème a été résolu.
@@ -3068,7 +3068,7 @@ Lorsqu’un élève passait le curseur de la souris sur une publicité vidéo, l
 
 **Notifications aux utilisateurs**
 
-Lorsqu’un élève externe clique sur le bouton **Ouvrir les notes** lien dans l’e-mail de notification de nouveau suivi d’un cours, cela ne fonctionnait pas. Ce problème a été résolu. Ce lien ouvre le lecteur avec des notes, même si l’utilisateur n’est pas connecté à Learning Manager.
+Lorsqu&#39;un élève externe cliquait sur le lien **Ouvrir les notes** dans l&#39;e-mail de notification de nouveau suivi d&#39;un cours, cela ne fonctionnait pas. Ce problème a été résolu. Ce lien ouvre le lecteur avec des notes, même si l’utilisateur n’est pas connecté à Learning Manager.
 
 **Prise en charge du français et de l’allemand**
 
@@ -3098,13 +3098,13 @@ Date de publication : 28 février 2016.
 
 Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l’aide afin d’effectuer toute activité ou tâche au sein d’une organisation. L’administrateur peut suivre le nombre de téléchargements de chaque assistance à la tâche.
 
-Pour plus d’informations sur cette fonctionnalité, reportez-vous à la section  [Aide sur les assistances à la tâche](../learners/feature-summary/job-aids.md).
+Pour plus d&#39;informations sur cette fonctionnalité, consultez l&#39;[Aide des assistances à la tâche](../learners/feature-summary/job-aids.md).
 
 ### Annonces
 
 Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur peut créer et diffuser pour un ensemble défini d’utilisateurs. Utilisez les annonces pour motiver les élèves à participer à des formations et créer ainsi une culture d’apprentissage.
 
-Pour plus d’informations sur cette fonctionnalité, reportez-vous à la section  [Aide sur les annonces](../learners/feature-summary/announcements.md).
+Pour plus d&#39;informations sur cette fonctionnalité, consultez [Aide des annonces](../learners/feature-summary/announcements.md).
 
 ### Prise en charge de l&#39;API Tin Can
 
@@ -3116,7 +3116,7 @@ Pour plus d&#39;informations, contactez l&#39;équipe d&#39;assistance d&#39;Ado
 
 Vous pouvez créer un cursus d&#39;apprentissage en affectant un cours de suivi ou toute activité d&#39;apprentissage automatiquement.
 
-Les événements des plans d’apprentissage ont été mis à jour. Plusieurs nouveaux événements ont été ajoutés. Reportez-vous à  [Plans d’apprentissage](../learners/feature-summary/learning-programs.md) pour plus d’informations.
+Les événements des plans d’apprentissage ont été mis à jour. Plusieurs nouveaux événements ont été ajoutés. Reportez-vous à [Formules d&#39;apprentissage](../learners/feature-summary/learning-programs.md) pour plus d&#39;informations.
 
 ### Rappel de notes
 
@@ -3124,7 +3124,7 @@ Si vous prenez des notes lorsque vous suivez un cours, Learning Manager vous ra
 
 ### Ludification de niveau de groupe
 
-Les administrateurs peuvent définir l’étendue de la ludification en modifiant les paramètres de l’étendue. Vous pouvez activer de manière sélective la ludification parmi des utilisateurs, des groupes ou des emplacements de profil similaires. Reportez-vous à  [Ludification](../learners/feature-summary/gamification.md) pour plus d’informations.
+Les administrateurs peuvent définir l’étendue de la ludification en modifiant les paramètres de l’étendue. Vous pouvez activer de manière sélective la ludification parmi des utilisateurs, des groupes ou des emplacements de profil similaires. Reportez-vous à la fonctionnalité de [ludification](../learners/feature-summary/gamification.md) pour plus d&#39;informations.
 
 ### Prise en charge du français et de l&#39;allemand
 
@@ -3136,7 +3136,7 @@ Il existe des améliorations importantes apportées aux fonctionnalités existan
 
 ### Importation d&#39;un fichier CSV
 
-Si vous supprimez des utilisateurs, vous ne pouvez pas les ajouter à nouveau dans l&#39;application à l&#39;aide de l&#39;ajout d&#39;utilisateur unique. Cependant, vous pouvez le faire à l&#39;aide du processus de chargement CSV. Il existe des modifications importantes apportées à la restriction de champs obligatoires de la fonctionnalité de chargement de fichier CSV. Reportez-vous à  [FAQ sur les fichiers CSV](../administrators/add-users-in-bulk.md) pour plus d’informations.
+Si vous supprimez des utilisateurs, vous ne pouvez pas les ajouter à nouveau dans l&#39;application à l&#39;aide de l&#39;ajout d&#39;utilisateur unique. Cependant, vous pouvez le faire à l&#39;aide du processus de chargement CSV. Il existe des modifications importantes apportées à la restriction de champs obligatoires de la fonctionnalité de chargement de fichier CSV. Reportez-vous à la [FAQ sur CSV](../administrators/add-users-in-bulk.md) pour plus d&#39;informations.
 
 ### Vue de la liste des cours
 
@@ -3144,7 +3144,7 @@ Par défaut, vous pouvez afficher les cours sous forme de cartes. Une vue sous f
 
 ### Suppression de cours
 
-Vous pouvez désormais supprimer des cours aux étapes Brouillon et Retiré. Reportez-vous à  [Cours](../administrators/feature-summary/courses.md) pour plus d’informations. Si un objet d&#39;apprentissage est supprimé, toutes les données de rapport associées sont également supprimées. Si un cours est supprimé et s&#39;il faisait partie d&#39;un autre objet d&#39;apprentissage, un message approprié s&#39;affiche pour l&#39;utilisateur.
+Vous pouvez désormais supprimer des cours aux étapes Brouillon et Retiré. Reportez-vous à la fonctionnalité [Cours](../administrators/feature-summary/courses.md) pour plus d&#39;informations. Si un objet d&#39;apprentissage est supprimé, toutes les données de rapport associées sont également supprimées. Si un cours est supprimé et s&#39;il faisait partie d&#39;un autre objet d&#39;apprentissage, un message approprié s&#39;affiche pour l&#39;utilisateur.
 
 **Programmes et plans d’apprentissage**
 
@@ -3194,7 +3194,7 @@ Si un utilisateur auto-inscrit existant tente de s’enregistrer à nouveau à l
 
 **Rapports**
 
-Si vous souhaitez que le contenu identifie le temps passé par l’utilisateur dans le contenu, vous pouvez l’identifier à l’aide d’une variable, `code cmi.core.session_time`. Celle-ci n&#39;était précédemment pas disponible. Ce problème a été résolu.
+Si vous souhaitez que le contenu identifie le temps passé par l&#39;utilisateur dans le contenu, vous pouvez l&#39;identifier à l&#39;aide d&#39;une variable, `code cmi.core.session_time`. Celle-ci n&#39;était précédemment pas disponible. Ce problème a été résolu.
 
 **Création de cours contenant des modules**
 
@@ -3212,7 +3212,7 @@ Date de publication : 9 février 2016.
 
 ## Mise à jour du comportement de déconnexion {#signoutbehaviorupdated}
 
-Lorsque les utilisateurs cliquent sur **[!UICONTROL Se déconnecter]** dans Learning Manager, ils sont désormais déconnectés de l’application Learning Manager et de leur ID d’Adobe.
+Lorsque les utilisateurs cliquent sur **[!UICONTROL Se déconnecter]** dans Learning Manager, ils sont à présent déconnectés de l’application Learning Manager et de leur ID d’Adobe.
 
 +++
 
@@ -3232,7 +3232,7 @@ Date de publication : 20 janvier 2016.
 
 **Lien direct vers les objets d’apprentissage**
 
-* Vous pouvez accéder aux objets d’apprentissage (à l’exception de la certification) à l’aide d’une URL directe. Le **[!UICONTROL Copier l’URL]** s’affiche sur les mosaïques des objets d’apprentissage. Les utilisateurs peuvent cliquer sur **[!UICONTROL Copier l’URL]** et collez le lien dans une page de navigateur distincte pour accéder directement à l’objet d’apprentissage.
+* Vous pouvez accéder aux objets d’apprentissage (à l’exception de la certification) à l’aide d’une URL directe. L&#39;option **[!UICONTROL Copier l&#39;URL]** s&#39;affiche sur les vignettes des objets d&#39;apprentissage. Les utilisateurs peuvent cliquer sur **[!UICONTROL Copier l&#39;URL]** et coller le lien dans une page de navigateur distincte pour accéder directement à l&#39;objet d&#39;apprentissage.
 
 **Création de cours contenant des modules**
 
@@ -3246,11 +3246,11 @@ Date de publication : 20 janvier 2016.
 
 **Création d’un catalogue**
 
-* Dans le rôle d&#39;administrateur, lors de la création de catalogues à l&#39;aide de **Ajout d’objets d’apprentissage** , les cours retirés n&#39;apparaissent pas dans la liste des cours.
+* Dans le rôle d&#39;administrateur, lors de la création de catalogues à l&#39;aide de la boîte de dialogue **Ajouter des objets d&#39;apprentissage**, les cours retirés n&#39;apparaissent pas dans la liste des cours.
 
 **Autres corrections**
 
-* Dans le rôle d&#39;administrateur, le nom complet des élèves est affiché dans **Élèves** onglet. Auparavant, seul le prénom de l&#39;élève s&#39;affichait.
+* Dans le rôle d&#39;administrateur, le nom complet des élèves s&#39;affiche dans l&#39;onglet **Élèves**. Auparavant, seul le prénom de l&#39;élève s&#39;affichait.
 
 +++
 
@@ -3279,7 +3279,7 @@ Date de publication : 22 décembre 2015
 
 **Tableau de bord personnel**
 
-* Lors de l&#39;accès aux cours, catalogues et programmes d&#39;apprentissage dans les rôles d&#39;administrateur et d&#39;auteur, l&#39;ordre des onglets est modifié en **Publié - Brouillon - Tous - Retiré**. La sélection par défaut est **Publié.**
+* Lors de l&#39;accès aux cours, catalogues et programmes d&#39;apprentissage dans les rôles d&#39;administrateur et d&#39;auteur, l&#39;ordre des onglets est désormais le suivant : **Publié - Brouillon - Tous - Retiré**. La sélection par défaut est **Publié**.
 
 ### Problèmes résolus {#Issuesfixed-16}
 
@@ -3297,7 +3297,7 @@ Date de publication : 22 décembre 2015
 
 **Création d’un catalogue personnalisé pour un groupe d’utilisateurs**
 
-* Lors de l’utilisation de **Ajout d’objets d’apprentissage** dans le rôle d&#39;administrateur, vous pouvez filtrer des cours, choisir un cours et ajouter à l&#39;aide de **Ajouter** au bas de la boîte de dialogue. Dans certains cas, **Ajouter** n&#39;apparaissait pas pour certains utilisateurs.
+* Lors de l&#39;utilisation de la boîte de dialogue **Ajouter des objets d&#39;apprentissage** dans le rôle d&#39;administrateur, vous pouvez filtrer des cours, choisir un cours et l&#39;ajouter à l&#39;aide du bouton **Ajouter** au bas de la boîte de dialogue. Dans certains cas, le bouton **Ajouter** n&#39;apparaissait pas pour certains utilisateurs.
 
 +++
 
@@ -3357,7 +3357,7 @@ Date de publication : 9 décembre 2015
 * Les problèmes liés aux liens URL dans les modèles de courrier électronique sont corrigés.
 * Prise en charge pour
 
-   * Publier sur Learning Manager
+   * Publish vers Learning Manager
    * Prise en charge du chargement accéléré de contenu pour la version CP 8 (correctif CP803 requis)
 
 +++
@@ -3378,7 +3378,7 @@ Date de publication : 26 octobre 2015.
 
 **Facturation**
 
-* Dans le rôle d’administrateur, lorsqu’un utilisateur saisit le nombre d’élèves et clique sur **Passer une commande,** une boîte de dialogue contenant des détails sur les frais d’abonnement mensuels et annuels par utilisateur s’affiche.
+* Dans le rôle d&#39;administrateur, lorsqu&#39;un utilisateur saisit le nombre d&#39;élèves et clique sur **Passer une commande**, une boîte de dialogue s&#39;affiche avec des détails sur les frais d&#39;abonnement mensuels et annuels par utilisateur.
 
 ### Problèmes résolus {#Issuesfixed-19}
 

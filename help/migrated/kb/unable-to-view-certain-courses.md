@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Impossible d’afficher certains cours dans le catalogue lors de la création d’une certification
 description: Lors de la recherche d’un cours spécifique pour l’ajouter à une certification, vous ne pouvez pas afficher le cours dans le catalogue.
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 84%
 
 ---
-
-
 
 # Impossible d’afficher certains cours dans le catalogue lors de la création d’une certification
 
@@ -42,7 +41,7 @@ Ces cours peuvent uniquement être nommés par les responsables. Un élève ne p
 
 Vous pouvez uniquement ajouter dans une certification des cours auto-inscrits ; vous ne pouvez pas ajouter de cours nommés par le responsable ou approuvés par le responsable.
 
-* **Certifications permanentes :**  Vous pouvez ajouter des cours de session CR ou VC dans une certification.
+* **Certifications permanentes :** vous pouvez ajouter des cours de session CR ou VC dans une certification.
 * **Certifications récurrentes :** vous ne pouvez pas ajouter de cours de session CR ou VC dans une certification.
 
 Il s’agit du comportement par défaut dans Learning Manager.

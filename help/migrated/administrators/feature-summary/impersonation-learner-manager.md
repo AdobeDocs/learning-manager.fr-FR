@@ -3,14 +3,13 @@ description: Les administrateurs peuvent lancer une session avec emprunt d’ide
 jcr-language: en_us
 title: Emprunt d’identité de l’élève et du responsable
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 71%
 
 ---
-
-
 
 # Emprunt d’identité de l’élève et du responsable {#impersonation-of-learner-and-manager}
 

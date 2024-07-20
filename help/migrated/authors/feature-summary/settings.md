@@ -15,17 +15,17 @@ ht-degree: 4%
 
 ## Paramètres {#Settings-1}
 
-Affichage des informations de votre profil, ajout/modification d’une photo de profil et modification **À propos de moi** contenu.
+Affichez vos informations de profil, ajoutez/modifiez la photo de profil et modifiez le contenu de **À propos de moi**.
 
 ## Paramètres du compte {#accountsettings}
 
-1. Sélectionnez la flèche déroulante dans le coin supérieur droit, à côté de votre photo/compte et choisissez **Paramètres du profil**.
-1. Dans la boîte de dialogue contextuelle, vous pouvez ajouter/modifier une photo en passant le curseur de la souris et en sélectionnant **Modifier** dans la zone photo de profil.
-1. Ajouter/modifier **À propos de moi** en cliquant sur la zone de texte située en dessous.
+1. Sélectionnez la flèche déroulante dans le coin supérieur droit, à côté de votre photo/compte et choisissez **Paramètres de profil**.
+1. Dans la boîte de dialogue contextuelle, vous pouvez ajouter/modifier une photo en passant le curseur de la souris et en sélectionnant **Modifier** dans la zone de la photo de profil.
+1. Ajoutez/modifiez du contenu **À propos de moi** en cliquant sur la zone de texte en dessous.
 1. Modifiez les paramètres suivants :
-   * **Langue de l’interface**: vous pouvez sélectionner la langue de l’interface ALM dans le menu déroulant.
-   * **Langue du contenu**: vous pouvez sélectionner la langue par défaut dans laquelle le contenu sera affiché dans le lecteur. Vous pouvez afficher les langues disponibles dans le lecteur.
-   * **Fuseau horaire**: sélectionnez votre fuseau horaire
-   * **[!UICONTROL Préférences]**: Cliquer sur le module permet de s’inscrire et de lancer la formation.
-   * **Transcription**: vous pouvez télécharger vos relevés de notes d’apprentissage.
+   * **Langue d&#39;interface** : vous pouvez sélectionner la langue d&#39;interface ALM dans le menu déroulant.
+   * **Langue du contenu** : vous pouvez sélectionner la langue par défaut dans laquelle le contenu sera affiché dans le lecteur. Vous pouvez afficher les langues disponibles dans le lecteur.
+   * **Fuseau horaire** : sélectionnez votre fuseau horaire
+   * **[!UICONTROL Préférences]** : cliquez sur le module pour vous inscrire et lancer la formation.
+   * **Transcription** : vous pouvez télécharger vos relevés de notes d&#39;apprentissage.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.

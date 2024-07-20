@@ -25,8 +25,8 @@ Une fois connecté à votre compte de stockage Box, l’administrateur d’inté
 
 Pour commencer, téléchargez les fichiers CSV et modifiez les valeurs en fonction de vos besoins.
 
-* Fichier d’exemple : [role.csv](assets/role.csv)
-* Fichier d’exemple : [user_role.csv](assets/user_role.csv)
+* Fichier d&#39;exemple : [role.csv](assets/role.csv)
+* Fichier d&#39;exemple : [user_role.csv](assets/user_role.csv)
 
 **role.csv**
 
@@ -98,7 +98,7 @@ Vous pouvez spécifier les champs d’application des groupes d’utilisateurs p
 * Attribut et valeur de la feuille (par exemple, Department=HR)
 * Groupes de profils d’auto-inscription (self_registration=profilename)
 * Groupes de profils d’inscription externe (self_registration=profilename)
-* L&#39;équipe de subordonnés directs d&#39;un responsable (manager_direct=`<emailid>`)
+* Équipe de subordonnés directs d&#39;un responsable (manager_direct=`<emailid>`)
 * Organisation complète d’un responsable (manager_org=`<emailid>`)
 
 **user_role.csv**
@@ -149,8 +149,8 @@ Si des noms de catalogue ou des noms de groupes d’utilisateurs sont fournis da
 
 Dans votre compte Box, sélectionnez **Importer > utilisateur > interne**, et téléchargez les fichiers role.csv et user_role.csv.
 
-* Les fichiers role.csv et user_role.csv doivent être copiés dans le dossier **Importer** > **utilisateur** > **interne** > **user_role**.
-* Le fichier user.csv doit être copié dans le dossier **Importer** > **utilisateur** > **interne**.
+* Les fichiers role.csv et user_role.csv doivent être copiés dans le dossier **Import** > **user** > **internal** > **user_role**.
+* Le fichier user.csv doit être copié dans le dossier **Import** > **user** > **internal**.
 
 Les deux fichiers CSV doivent être chargés via Box uniquement et ne peuvent pas être chargés via l’interface utilisateur.
 

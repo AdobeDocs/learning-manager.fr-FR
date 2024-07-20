@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Questions fréquemment posées par les responsables
-description: Forum aux questions pour les responsables d’Adobe Learning Manager
+description: Forum aux questions pour les responsables Adobe Learning Manager
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # Questions fréquemment posées par les responsables
 
@@ -71,7 +70,7 @@ Vos pouvez cliquer sur l’icône de liste déroulante pour modifier la plage de
 
 Vous pouvez créer des rapports pour les membres de votre équipe afin d’afficher la liste des compétences attribuées et acquises par chacun d’eux. Cliquez sur Rapports dans le volet de gauche, puis sur l’onglet Exemples de rapports pour afficher un exemple de rapport Compétences/Responsables.
 
-Pour plus d’informations, voir [Rapports](feature-summary/reports.md) dans l’aide de Learning Manager.
+Pour plus d&#39;informations, consultez la fonctionnalité [Rapports](feature-summary/reports.md) dans l&#39;aide de Learning Manager.
 
 +++
 
@@ -95,7 +94,7 @@ Pour annuler les modifications, vous pouvez cliquer sur Réinitialiser.
 
 Pour redimensionner le rapport, cliquez sur Redimensionner et sélectionnez l’une des deux options : 1×1 est petit et 1×2 est grand.
 
-Pour plus d’informations, voir  [Fonctionnalité Rapports.](feature-summary/reports.md)
+Pour plus d&#39;informations, consultez la fonctionnalité [Rapports](feature-summary/reports.md).
 
 +++
 
@@ -117,7 +116,7 @@ Vous pouvez afficher tous ces rapports avec une plage de dates.
 
 +++Puis-je afficher tous les cours disponibles ? Comment ?
 
-Vous pouvez passer au rôle d’élève pour afficher tous les cours disponibles. Reportez-vous à  [Cours](../learners/feature-summary/courses.md) fonctionnalité pour plus d’informations
+Vous pouvez passer au rôle d’élève pour afficher tous les cours disponibles. Consultez la fonctionnalité [Cours](../learners/feature-summary/courses.md) pour plus d&#39;informations
 
 +++
 

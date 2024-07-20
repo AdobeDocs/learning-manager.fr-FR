@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Intégration d'Adobe Connect
 description: Les auteurs peuvent créer des cours d'une classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l'administrateur de votre entreprise.
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 70%
 
 ---
-
-
 
 # Intégration d&#39;Adobe Connect
 
@@ -22,9 +21,9 @@ Les administrateurs d’une organisation peuvent configurer les paramètres du c
 
    ![](assets/left-pane.png)
 
-   *Sélectionnez Adobe Connect dans le volet de gauche.*
+   *Sélectionnez Adobe Connect dans le volet de gauche*
 
-1. Cliquez sur **[!UICONTROL Configurer maintenant]** lien entrant **[!UICONTROL Configuration d’Adobe Connect]** section.
+1. Cliquez sur le lien **[!UICONTROL Configurer maintenant]** dans la section **[!UICONTROL Configuration Adobe Connect]**.
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -32,7 +31,7 @@ Les administrateurs d’une organisation peuvent configurer les paramètres du c
 
    ![](assets/adobeconnect-config.png)
 
-   *Ajouter un nom de domaine et des informations d’identification*
+   *Ajouter un nom de domaine et des informations d&#39;identification*
 
    Exemple d’URL Adobe Connect : mycompany.adobeconnect.com\
    Vous devez fournir l’ID de messagerie de l’administrateur du compte Connect d’Adobe.
@@ -55,7 +54,7 @@ Dans Connexion administrateur, cliquez sur le nom du cours de classe virtuelle (
 
 ![](assets/session-creation-admin.png)
 
-*Ajout d’informations sur les sessions de classe virtuelle*
+*Ajouter des informations de session de classe virtuelle*
 
 Grâce à l’intégration d’Adobe Learning Manager et d’Adobe Connect pour la création de modules ou sessions de classe virtuelle, votre compte Connect doit prendre en charge les salles de réunion avec un nombre de salles et d’utilisateurs simultanés adapté à votre scénario d’utilisation. Ces salles de réunion sont utilisées pour héberger des modules de classe virtuelle Learning Manager. Une nouvelle salle de réunion Connect est créée de manière dynamique par Learning Manager pour chaque module ou session de classe virtuelle dans Learning Manager.
 

@@ -27,12 +27,12 @@ Certains clients FTP recommandés par AWS sont répertoriés [ici](https://docs.
 Vous devez configurer le nouveau connecteur FTP basé sur AWS sur l’administrateur de l’intégration.
 
 ![image des connecteurs](assets/alm-ftp.png)
-*Sélectionnez l’option FTP.*
+*Sélectionnez l&#39;option FTP*
 
 Une fois la connexion établie, la page Détails de la connexion s’affiche.
 
-![page de détails connecter](assets/connection-name.png)
-*Affichage de la page Détails de la connexion*
+![page de détails connect](assets/connection-name.png)
+*Afficher la page Détails de la connexion*
 
 Il existe trois options d’authentification :
 
@@ -46,14 +46,14 @@ Vous avez créé une connexion FTP.
 
 ### Création d’une authentification à l’aide de clés SSH existantes
 
-Si vous disposez déjà d’une clé SSH, collez la clé publique dans le **[!UICONTROL Clé publique FTP]** , puis cliquez sur Se connecter.
+Si vous disposez déjà d&#39;une clé SSH, collez la clé publique dans le champ **[!UICONTROL Clé publique FTP]**, puis cliquez sur Se connecter.
 
-![Touches SSH](assets/ssh-keys.png)
+![Clés SSH](assets/ssh-keys.png)
 *Coller les touches*
 
 ### Création d’une authentification de base par mot de passe
 
-Il s’agit du mécanisme d’authentification de base. Sélectionnez la première option. **[!UICONTROL Créer une authentification de base à l’aide d’un mot de passe]**. Saisissez le mot de passe, puis cliquez sur **[!UICONTROL Se connecter]**.
+Il s’agit du mécanisme d’authentification de base. Sélectionnez la première option, **[!UICONTROL Créer une authentification de base à l&#39;aide d&#39;un mot de passe]**. Saisissez le mot de passe, puis cliquez sur **[!UICONTROL Se connecter]**.
 
 La connexion s’établit.
 
@@ -66,7 +66,7 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
 ### Exemple de test d’exportation
 
 * Dans votre client FTP, remplacez l’emplacement du FTP ExaVault par le nouvel emplacement FTP. Le nouveau domaine est `http://almftp.adobelearningmanager.com/`.
-* Vous devez également ajouter l’adresse IP à la liste d’autorisation. `18.195.107.67`.
+* Vous devez également mettre l&#39;IP en liste blanche, `18.195.107.67`.
 * Après l’authentification, vous devez télécharger quelques exemples de fichiers vers et depuis le nouvel emplacement FTP à l’aide de clients FTP externes ou de scripts d’automatisation.
 * Vous devez transférer des données de l’ancien emplacement vers le nouveau.
 * La stratégie de rétention des données pour le connecteur reste inchangée. ExaVault prend également en charge certaines stratégies de rétention des données en plus de la stratégie officielle. Ces stratégies de rétention des données ne seront pas disponibles pour le nouveau connecteur. Vérifiez si votre connecteur utilise une rétention des données au-delà des stratégies officiellement prises en charge.
@@ -83,23 +83,23 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
 
 1. Connectez-vous au nouveau connecteur FTP ALM. Cliquez sur Se connecter.
 
-   ![connecter une image](assets/connect-client.png)
+   ![connecter l&#39;image](assets/connect-client.png)
    *Se connecter au nouveau connecteur FTP ALM*
 
 1. Pour vous connecter via une authentification de base par mot de passe, entrez le nom de domaine et le nom d’utilisateur FTP, puis définissez un mot de passe selon les critères de validation du mot de passe. Cliquez sur Se connecter. La nouvelle connexion FTP sera créée et sera accessible via le client SFTP de votre choix.
 
    ![paramètres ftp](assets/connect-settings.png)
-   *via l’authentification de base via mot de passe*
+   *via l&#39;authentification de base par mot de passe*
 
 1. Installez le client SFTP de votre choix, par exemple FileZilla. Lancez File Zilla et cliquez sur Open Site Manager dans le coin supérieur gauche.
 
-   ![client SFTP](assets/sftp-client-install.png)
+   ![Client SFTP](assets/sftp-client-install.png)
    *Se connecter via un client SFTP*
 
 1. Cliquez sur **[!UICONTROL Nouveau site]** pour créer un nouveau site. Renommez le site comme vous le souhaitez.
 
    ![nouveau site](assets/new-site.png)
-   *Création d’un site*
+   *Créer un site*
 
 1. Mappez les détails de la page d’informations d’identification du connecteur.
 
@@ -110,8 +110,8 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
 
 1. Cliquez sur Se connecter.
 
-   ![informations d’identification](assets/connector-credentials.png)
-   *Saisir les informations d’identification*
+   ![informations d&#39;identification](assets/connector-credentials.png)
+   *Saisir les informations d&#39;identification*
 
    >[!NOTE]
    >
@@ -124,12 +124,12 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
    ![mot de passe](assets/password.png)
    *Saisir un mot de passe*
 
-   (Facultatif) Sélectionnez l’option **[!UICONTROL Toujours faire confiance à cet hôte]** case à cocher pour approuver l’hôte.
+   (Facultatif) Cochez la case **[!UICONTROL Toujours approuver cet hôte]** pour approuver l&#39;hôte.
 
 1. Cliquez sur OK.
 
    ![clé d&#39;hôte inconnue](assets/unknown-host-key.png)
-   *Clé d’hôte*
+   *Clé d&#39;hôte*
 
 1. Vérifiez l’état et la progression de la connexion en haut.
 
@@ -141,7 +141,7 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
    * Double-cliquez sur le fichier.
 
    ![état de la connexion](assets/connection-status-progress.png)
-   *Vérification de l’état de la connexion*
+   *Vérifier l&#39;état de la connexion*
 
 Vous pouvez modifier et mettre à jour le type d’authentification à tout moment.
 
@@ -149,10 +149,10 @@ Vous pouvez également vous authentifier via les clés SSH :
 
 Collez votre clé publique dans la zone de texte pour utiliser les clés SSH existantes. Cliquez sur Connecter/Enregistrer.
 
-Pour générer de nouvelles clés SSH, cliquez sur le bouton **[!UICONTROL Générer une clé SSH]** bouton. La clé privée sera téléchargée. Cliquez sur **[!UICONTROL Connexion/Enregistrement]**.
+Pour générer de nouvelles clés SSH, cliquez sur le bouton « **[!UICONTROL Générer la clé SSH]** ». La clé privée sera téléchargée. Cliquez sur **[!UICONTROL Connexion/Enregistrement]**.
 
 ![générer la clé ssh](assets/ssh-key.png)
-*Générer une clé SSH*
+*Générer la clé SSH*
 
 Mappez les détails. Sélectionnez le type d’authentification Fichier de clé. Sélectionnez le fichier de clé privée.
 

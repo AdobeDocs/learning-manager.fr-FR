@@ -19,7 +19,7 @@ Dans l’application Learning Manager sur tablette iPad ou Android, une fois que
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur **Menu** et choisissez l’option appropriée.
+Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
 
 ![](assets/menu-ipad.png)
 
@@ -36,7 +36,7 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
 
 Vous pouvez surveiller votre espace de stockage régulièrement.
 
-Appuyez sur l’icône de profil dans le coin supérieur droit de l’application, puis appuyez sur **Stockage sur l’appareil** option de menu.
+Appuyez sur l&#39;icône de profil dans le coin supérieur droit de l&#39;application et appuyez sur l&#39;option de menu **Stockage sur l&#39;appareil**.
 
 ![](assets/app-device-storage.png)
 

@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Prise en main en tant qu’auteur
-description: Utilisez la page de prise en main pour parcourir les principales fonctionnalités de création d’Adobe Learning Manager.
+description: Utilisez la page de prise en main pour parcourir les principales fonctionnalités de création de Adobe Learning Manager.
 contentowner: manochan
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt

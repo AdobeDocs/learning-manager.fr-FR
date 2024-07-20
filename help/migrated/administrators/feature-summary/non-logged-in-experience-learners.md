@@ -1,6 +1,6 @@
 ---
 title: Expérience hors connexion pour les élèves
-description: Le portail natif d’Adobe Learning Manager prend en charge un mode d’accès non connecté au site de formation. Lorsque ce mode est activé, les élèves peuvent découvrir et accéder au site de formation et consulter divers cours et contenus disponibles. L’expérience hors connexion permet aux élèves de parcourir les cours sans être connectés à un portail.
+description: Le portail natif de Adobe Learning Manager prend en charge un accès non consigné au site de formation. Lorsque ce mode est activé, les élèves peuvent découvrir et accéder au site de formation et consulter divers cours et contenus disponibles. L’expérience hors connexion permet aux élèves de parcourir les cours sans être connectés à un portail.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
 source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 41%
 
 # Expérience hors connexion pour les élèves
 
-Le portail natif d’Adobe Learning Manager prend en charge un mode d’accès non connecté au site de formation. Lorsque ce mode est activé, les élèves peuvent découvrir et accéder au site de formation et consulter divers cours et contenus disponibles.
+Le portail natif de Adobe Learning Manager prend en charge un accès non consigné au site de formation. Lorsque ce mode est activé, les élèves peuvent découvrir et accéder au site de formation et consulter divers cours et contenus disponibles.
 
 L’expérience hors connexion permet aux élèves de parcourir les cours sans être connectés à un portail.
 
@@ -27,7 +27,7 @@ L’administrateur peut modifier et configurer la page d’accueil, qui est dest
 
 ## API des élèves
 
-Adobe Learning Manager - Les API des élèves vous permettent de créer une expérience d’apprentissage personnalisée pour vos utilisateurs. L’utilisation de ces API nécessite un jeton utilisateur valide et doit être utilisée uniquement dans le cadre des workflows où il y a un élève entièrement licencié/inscrit.
+Adobe Learning Manager : les API des élèves vous permettent de créer une expérience d’apprentissage personnalisée pour vos utilisateurs. L’utilisation de ces API nécessite un jeton utilisateur valide et doit être utilisée uniquement dans le cadre des workflows où il y a un élève entièrement licencié/inscrit.
 
 >[!IMPORTANT]
 >
@@ -35,19 +35,19 @@ Adobe Learning Manager - Les API des élèves vous permettent de créer une exp�
 
 Les cas d’utilisation non enregistrés nécessitent une manipulation spéciale.
 
-**Si vous avez des questions sur l&#39;utilisation appropriée de ces API, contactez l&#39;équipe en charge de l&#39;architecture de la solution et assurez-vous qu&#39;un architecte de solution a validé une solution avant de la déployer**.
+**Si vous avez des questions sur l&#39;utilisation appropriée de ces API, contactez l&#39;équipe d&#39;architecture de solution et assurez-vous qu&#39;un architecte de solution a validé une solution avant de la déployer**.
 
 ## Lancer les options de la page d’accueil
 
-Sur la page d’accueil d’Adobe Learning Manager, sélectionnez **Branding**. Ensuite, dans le volet de gauche, sélectionnez Page d’accueil non connectée.
+Sur la page d&#39;accueil de Adobe Learning Manager, sélectionnez **Identité visuelle**. Ensuite, dans le volet de gauche, sélectionnez Page d’accueil non connectée.
 
-![options de la page d’accueil](assets/non-logged-in-homepage.png)
+![options de page d’accueil](assets/non-logged-in-homepage.png)
 
-*Sélectionnez l’option Page d’accueil non connectée*
+*Sélectionnez l&#39;option Page d&#39;accueil non connectée*
 
 ## Ajouter une bannière
 
-Ajoutez une bannière pour n’importe quelle annonce marketing ou présentez le sujet tendance du jour. Sélectionner **Ajouter une bannière**.
+Ajoutez une bannière pour n’importe quelle annonce marketing ou présentez le sujet tendance du jour. Sélectionnez **Ajouter une bannière**.
 
 ![bannière](assets/add-banner-image.png)
 
@@ -59,11 +59,11 @@ Accédez à l’emplacement de l’image à utiliser comme bannière. Fournissez
 
 Ce composant peut être utilisé pour filtrer le catalogue par balises, compétences et catalogue. Cette section contient un en-tête et une description pour chaque catégorie. Après avoir cliqué, l’utilisateur est redirigé vers la page du catalogue avec les filtres appliqués.
 
-Sélectionner **[!UICONTROL Ajouter une catégorie]**. Saisissez ensuite les détails de la catégorie.
+Sélectionnez **[!UICONTROL Ajouter une catégorie]**. Saisissez ensuite les détails de la catégorie.
 
 ![ajouter une catégorie](assets/add-category.png)
 
-*Ajout des catégories*
+*Ajouter les catégories*
 
 Enregistrez la catégorie. La catégorie est ajoutée à la section.
 

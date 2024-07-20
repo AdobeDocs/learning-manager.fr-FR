@@ -13,7 +13,7 @@ ht-degree: 36%
 
 
 
-# Afficher la réponse de l’élève à une invitation du calendrier Outlook sur [!DNL Learning Manager]
+# Afficher la réponse de l&#39;élève à une invitation du calendrier Outlook sur [!DNL Learning Manager]
 
 Découvrez comment un administrateur et un instructeur peuvent voir la réponse de l’élève à une invitation de calendrier.
 
@@ -25,7 +25,7 @@ Si un élève répond à la même invitation plusieurs fois, la dernière répon
 
 ## Activation de la fonctionnalité de suivi des réponses aux invitations {#enablingtheinvitereplytrackingfeature}
 
-* Contactez l’assistance d’Adobe Learning Manager pour activer la fonctionnalité de suivi des réponses aux invitations.
+* Contactez l’assistance Adobe Learning Manager pour activer la fonctionnalité de suivi des réponses aux invitations.
 * Une fois la fonctionnalité activée pour le compte, toutes les futures sessions de classe virtuelle/salle de classe créées par un auteur peuvent enregistrer la réponse de l’élève à l’invitation de calendrier.
 
 Si les élèves sont inscrits à une session de classe virtuelle/salle de classe créée avant l’activation de la fonctionnalité de suivi des réponses aux invitations, les réponses de l’élève à l’invitation de calendrier ne sont pas enregistrées.
@@ -35,33 +35,33 @@ Si les élèves sont inscrits à une session de classe virtuelle/salle de classe
 Si la fonctionnalité de suivi des réponses aux invitations est activée pour une session de classe virtuelle/salle de classe, l’administrateur peut afficher les réponses de l’élève à l’invitation, ainsi que d’autres autorisations, comme suit :
 
 1. Cliquez sur **[!UICONTROL Cours]** dans le panneau de navigation de gauche et affichez le cours créé après l’activation de la fonctionnalité de suivi des réponses aux invitations.
-1. Cliquez sur **[!UICONTROL Présence et notation]** à partir du panneau de navigation de gauche.
-1. Pour afficher un tableau ci-dessous avec les noms des élèves et leurs réponses à l’invitation du calendrier, sélectionnez l’option **Instance** et **[!UICONTROL Module]** sur la page Présence et notation.
-1. Utilisez la commande **[!UICONTROL Inviter]** filtre pour afficher les élèves en fonction des options suivantes : toutes les réponses, accepté, refusé, provisoire et envoyé
+1. Cliquez sur **[!UICONTROL Présence et notation]** dans le panneau de navigation de gauche.
+1. Pour afficher un tableau ci-dessous avec les noms des élèves et leurs réponses à l&#39;invitation du calendrier, sélectionnez l&#39;**instance** et le **[!UICONTROL module]** sur la page Présence et notation.
+1. Utilisez le filtre **[!UICONTROL Inviter]** pour afficher les élèves en fonction des options suivantes : toutes les réponses, acceptées, refusées, provisoires et envoyées
 
    ![](assets/invite-filter.png)
 
-1. Pour envoyer des courriers électroniques aux seuls élèves sélectionnés, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer un e-mail à la sélection]** dans le coin supérieur droit de la page Présence et notation.
+1. Pour envoyer des courriers électroniques aux seuls élèves sélectionnés, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer un courrier électronique aux élèves sélectionnés]** dans le coin supérieur droit de la page Présence et notation.
 
-   Pour envoyer des courriers électroniques à tous les élèves affichés sur la page Présence et notation, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer un e-mail à tous].**
+   Pour envoyer des courriers électroniques à tous les élèves affichés sur la page Présence et notation, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer un courrier électronique à tous].**
 
-1. Pour télécharger un rapport csv des détails de la session de l’élève qui s’affiche dans la page Présence et notation, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Exportation].**
+1. Pour télécharger un rapport csv des détails de la session de l&#39;élève qui s&#39;affiche sur la page de présence et de notation, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Exporter].**
 
 ## Affichage des réponses aux invitations en tant qu’instructeur {#viewinginviteresponsesasaninstructor}
 
 Si la fonctionnalité de suivi des réponses aux invitations est activée pour le compte, suivez la procédure ci-dessous pour afficher les réponses de l’élève à l’invitation du calendrier :
 
 1. Cliquez sur **[!UICONTROL Sessions à venir]** dans le panneau de navigation de gauche et sélectionnez un cours.
-1. Cliquez sur **[!UICONTROL Élèves]** dans le panneau de navigation de gauche pour obtenir une vue détaillée des élèves qui ont répondu à l’invitation du calendrier.
-1. Utilisez la commande **[!UICONTROL Inviter]** filtrer pour filtrer les noms des élèves en fonction des options suivantes : Accepté, Refusé, Provisoire et Envoyé
+1. Cliquez sur **[!UICONTROL Élèves]** dans le panneau de navigation de gauche pour obtenir une vue détaillée des élèves qui ont répondu à l&#39;invitation du calendrier.
+1. Utilisez le filtre **[!UICONTROL Inviter]** pour filtrer les noms des élèves en fonction des options suivantes : Accepté, Refusé, Provisoire et Envoyé
 
    ![](assets/invite-filter.png)
 
 1. En fonction des informations de l’élève affichées, vous pouvez envoyer des courriers électroniques aux élèves.
 
-   Pour envoyer des courriers électroniques aux seuls élèves sélectionnés, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer par e-mail à la sélection]**.
+   Pour envoyer des courriers électroniques aux seuls élèves sélectionnés, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer un courrier électronique aux élèves sélectionnés]**.
 
-   Pour envoyer des courriers électroniques à tous les élèves dans le tableau affiché, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer par e-mail à tous]**.
+   Pour envoyer des courriers électroniques à tous les élèves dans le tableau affiché, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer un courrier électronique à tous]**.
 
    ![](assets/instructor-actions1.png)
 

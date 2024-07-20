@@ -3,14 +3,13 @@ description: Lisez cet article pour découvrir comment acquérir des compétence
 jcr-language: en_us
 title: Compétences et niveaux
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 90%
 
 ---
-
-
 
 # Compétences et niveaux
 
@@ -26,7 +25,7 @@ Pour afficher les compétences, cliquez sur l’un des noms de compétence dans 
 
 ![](assets/learner-skills1.png)
 
-*Voir toutes les compétences*
+*Afficher toutes les compétences*
 
 Le pourcentage d’achèvement de chaque compétence est disponible dans le widget, en regard de la compétence. Lorsque vous cliquez sur chaque compétence, l’application ouvre la page Compétences, sur laquelle vous pouvez visualiser les détails de la compétence sur lequel vous avez cliqué.
 

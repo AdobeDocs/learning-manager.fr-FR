@@ -3,14 +3,13 @@ description: Découvrez comment utiliser l’application de bureau Adobe Learni
 jcr-language: en_us
 title: Application de bureau Adobe Learning Manager
 contentowner: kuppan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 76%
 
 ---
-
-
 
 # Application de bureau Adobe Learning Manager
 
@@ -51,15 +50,15 @@ Procédez comme suit pour créer un enregistrement vidéo et le publier sur la p
 
    **Webcam** La webcam capture le narrateur qui montre ou présente un projet ou une application, y compris l’audio. Sélectionnez l’icône de webcam parmi les options ci-dessus pour que la fenêtre Live apparaisse.
 
-   **Écran** Enregistrez les actions effectuées sur l’écran du moniteur. En sélectionnant l’icône de l’écran, l’écran est mis en surbrillance avec une boîte de dialogue d’enregistrement au centre de votre écran.
+   **Écran** : enregistre les actions effectuées sur l&#39;écran du moniteur. En sélectionnant l’icône de l’écran, l’écran est mis en surbrillance avec une boîte de dialogue d’enregistrement au centre de votre écran.
 
-   **Les deux** Enregistre les actions du narrateur et de l’écran. En sélectionnant la dernière icône, l’écran est mis en surbrillance et l’utilisateur reçoit une fenêtre en direct.
+   **Les deux** enregistrent les actions du narrateur et de l&#39;écran. En sélectionnant la dernière icône, l’écran est mis en surbrillance et l’utilisateur reçoit une fenêtre en direct.
 
 1. Définissez des préférences d’enregistrement.
 
    **Sélectionner Appareil photo** Cliquez sur l’icône de la caméra vidéo au bas de la fenêtre d’enregistrement vidéo. Sélectionnez une caméra que l’utilisateur souhaiterait utiliser parmi les options proposées.
 
-   **Sélectionner le microphone** Cliquez sur l’icône de microphone au bas de la fenêtre vidéo ou audio et sélectionnez un microphone que l’utilisateur souhaite utiliser parmi les options données.
+   **Sélectionner le microphone** Cliquez sur l&#39;icône de microphone au bas de la fenêtre vidéo ou audio et sélectionnez un microphone que l&#39;utilisateur souhaite utiliser parmi les options données.
 
    >[!NOTE]
    >
@@ -82,7 +81,7 @@ Pour enregistrer un fichier audio, procédez comme suit :
 1. Cliquez sur le bouton d’enregistrement pour commencer.
 1. Une fois que les utilisateurs ont fini d’enregistrer l’audio, cliquez sur le bouton Pause pour arrêter l’enregistrement.
 1. Pour entendre un aperçu de l’enregistrement, cliquez sur le bouton de lecture.
-1. Si des utilisateurs veulent enregistrer un audio supplémentaire dans le même fichier, cliquez sur **[!UICONTROL Reprendre]**. Une fois l’enregistrement souhaité terminé, cliquez sur **[!UICONTROL Suivant]** pour enregistrer le fichier à l’emplacement souhaité. L’enregistrement est sauvegardé dans l’application Adobe Learning Manager et ajouté à la galerie de bureau où les utilisateurs peuvent visualiser leurs enregistrements et leurs captures d’écran.
+1. Si des utilisateurs veulent enregistrer un audio supplémentaire dans le même fichier, cliquez sur **[!UICONTROL Reprendre]**. Une fois l&#39;enregistrement souhaité terminé, cliquez sur **[!UICONTROL Suivant]** pour enregistrer le fichier à l&#39;emplacement souhaité. L’enregistrement est sauvegardé dans l’application Adobe Learning Manager et ajouté à la galerie de bureau où les utilisateurs peuvent visualiser leurs enregistrements et leurs captures d’écran.
 1. Pour modifier l’enregistrement, voir [Modification d’un enregistrement](adobe-learning-manager-app-for-desktop.md#Editing) et pour en publier un voir [Publication d’un enregistrement](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Création d’une capture d’écran {#creatingascreenshot}
@@ -96,7 +95,7 @@ Pour faire une copie d’écran, procédez comme suit :
    *Capture a screenshot*-->
 
 1. Pour aider les autres élèves à mieux comprendre et conserver la présentation ou le contenu statique, ajoutez des annotations au contenu.
-1. Pour modifier la capture d’écran, [cliquez ici](adobe-learning-manager-app-for-desktop.md#Editing)et pour publier une capture d’écran [cliquez ici](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Pour modifier la capture d&#39;écran, [cliquez ici](adobe-learning-manager-app-for-desktop.md#Editing) et pour publier une capture d&#39;écran [cliquez ici](adobe-learning-manager-app-for-desktop.md#Publishing).
 
 ## Modification d’une vidéo, d’un audio et d’une copie d’écran {#editing}
 
@@ -123,19 +122,19 @@ Les annotations peuvent être utilisées sur des enregistrements vidéo et des c
 
 Pour découper ou supprimer des parties d’une vidéo ou d’un fichier audio qui ne sont pas nécessaires, utilisez l’outil de rognage.
 
-Pour rogner, cliquez sur **[!UICONTROL Commencer le rognage]** ou cliquez sur l’icône plus sur le montage pour commencer le raccord. Cliquez ensuite sur le bouton de pause du lecteur pour arrêter le rognage. Cliquez sur le bouton **[!UICONTROL Confirmer]** pour terminer le rognage.
+Pour rogner, cliquez sur le bouton **[!UICONTROL Commencer le rognage]** ou cliquez sur l&#39;icône plus sur le montage pour commencer le rognage. Cliquez ensuite sur le bouton de pause du lecteur pour arrêter le rognage. Cliquez sur le bouton **[!UICONTROL Confirmer]** pour terminer le rognage.
 
-Les enregistrements peuvent être rognés en entrant la durée dans le champ **[!UICONTROL Heure de début]** et **[!UICONTROL Heure de fin]** champs de saisie après activation **[!UICONTROL Modifier le minutage]**.
+Les enregistrements peuvent être rognés en entrant l&#39;heure dans les champs de saisie **[!UICONTROL Heure de début]** et **[!UICONTROL Heure de fin]** après avoir activé **[!UICONTROL Minutage des modifications]**.
 
 ![](assets/start-trim-05.png)
-*Commencer le rognage*
+*Démarrer le rognage*
 
 ![](assets/confirm-trim-06.png)
 *Confirmer le rognage*
 
 ## Panoramique et zoom (tout enregistrement vidéo) {#panampzoomanyvideorecording}
 
-L’action Panoramique et zoom ne peut être effectuée que sur **Les deux** enregistrements vidéo (webcam et écran). Par défaut, l’intégralité de la webcam ou de l’écran est sélectionnée. Sélectionnez la poignée d’angle et faites glisser pour sélectionner la partie de l’écran à afficher ou à mettre au point. Double-cliquez sur la fenêtre pour le plein écran.
+L&#39;action Panoramique et zoom ne peut être effectuée que sur les **enregistrements vidéo** (webcam et écran). Par défaut, l’intégralité de la webcam ou de l’écran est sélectionnée. Sélectionnez la poignée d’angle et faites glisser pour sélectionner la partie de l’écran à afficher ou à mettre au point. Double-cliquez sur la fenêtre pour le plein écran.
 
 ![](assets/pan-zoom-artboard10.png)
 *Panoramique et zoom*
@@ -147,7 +146,7 @@ Pour créer un nom unique pour une vidéo avec un thème cohérent, sélectionne
 Pour ajouter une marque ou un thème à une vidéo, procédez comme suit :
 
 1. Cliquez sur l’icône de la marque dans le panneau de navigation de gauche dans la fenêtre d’édition.
-1. Sélectionner un **Thème** à partir des options données, les utilisateurs peuvent personnaliser leur propre thème en ajoutant un **début**, **arrière-plan,** et **fin** vidéo de leur système.
+1. Sélectionnez un **thème** dans les options données ou les utilisateurs peuvent personnaliser leur propre thème en ajoutant une vidéo **début**, **arrière-plan** et **fin** à partir de leur système.
 
    >[!NOTE]
    >
@@ -165,7 +164,7 @@ Pour ajouter une marque ou un thème à une vidéo, procédez comme suit :
 
    ![](assets/branding-options.png)
 
-   *Branding*
+   *Identité visuelle*
 
 ## Enregistrement de clips supplémentaires (tous les types d’enregistrements vidéo et audio) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
@@ -175,18 +174,18 @@ Pour commencer un nouvel enregistrement, cliquez sur l’icône d’enregistreme
 
 ## Publication d’un enregistrement vidéo, d’un enregistrement audio et d’une copie d’écran {#publishing}
 
-Une fois toutes les modifications effectuées, cliquez sur **[!UICONTROL Partager]** > saisissez ou recherchez un **compétence ou forum** qui se rapporte le mieux à la publication > **Post**.
+Une fois toutes les modifications et les modifications effectuées, cliquez sur **[!UICONTROL Partager]** > saisissez ou recherchez une **compétence ou un forum** qui se rapporte le mieux à la publication > **Publication**.
 
 <!--![](assets/share-after-editing-07.png)-->
 *Publication sur le web*
 
 ## Navigation dans la galerie de bureau Learning Manager {#browsingcaptivateprimedesktopgallery}
 
-Tous les enregistrements et les copies d’écran sont sauvegardés dans l’application de bureau Adobe Learning Manager. Pour parcourir ces fichiers, cliquez sur **[!UICONTROL Galerie]** dans le panneau de navigation de gauche de la page d’accueil.
+Tous les enregistrements et les copies d’écran sont sauvegardés dans l’application de bureau Adobe Learning Manager. Pour parcourir ces fichiers, cliquez sur **[!UICONTROL Galerie]** dans le panneau de navigation de gauche de la page d&#39;accueil.
 
 >[!NOTE]
 >
->La galerie peut également être lancée à partir de l’Apprentissage par les réseaux sociaux en cliquant sur **Galerie Learning Manager** lors de la création d’une publication.
+>La galerie peut également être lancée à partir de l&#39;Apprentissage par les réseaux sociaux en cliquant sur l&#39;icône **Galerie Learning Manager** lors de la création d&#39;une publication.
 
 Dans la fenêtre de la galerie, saisissez le nom du fichier que vous recherchez dans le champ de recherche.
 
@@ -209,4 +208,4 @@ Désactivez les notifications, application de lancement automatique, application
 Les utilisateurs peuvent également modifier l’emplacement de la galerie en cliquant sur le lien hypertexte **Modifier**.
 
 ![](assets/app-settings.png)
-*Adobe des paramètres de l’application Learning Manager*
+*Paramètres de l’application Adobe Learning Manager*

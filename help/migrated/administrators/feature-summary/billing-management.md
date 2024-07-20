@@ -33,7 +33,7 @@ Vous pouvez acheter un abonnement pour un maximum de 3 500 élèves par comman
 
    *Lancer la facturation Adobe Learning Manager*
 
-1. Sur la **[!UICONTROL Informations de facturation]** ajouter le nombre d&#39;utilisateurs dans la page **[!UICONTROL Ajouter des utilisateurs]** champ. Lorsque vous utilisez une carte de crédit pour des abonnements prépayés, vous pouvez voir le nombre d’utilisateurs que vous pouvez ajouter pour l’abonnement Le nombre d’utilisateurs que vous pouvez ajouter ne doit pas dépasser le nombre mentionné dans la section Restant.1.
+1. Sur la page **[!UICONTROL Informations de facturation]**, ajoutez le nombre d&#39;utilisateurs dans le champ **[!UICONTROL Ajouter des utilisateurs]**. Lorsque vous utilisez une carte de crédit pour des abonnements prépayés, vous pouvez voir le nombre d’utilisateurs que vous pouvez ajouter pour l’abonnement Le nombre d’utilisateurs que vous pouvez ajouter ne doit pas dépasser le nombre mentionné dans la section Restant.1.
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
@@ -53,7 +53,7 @@ Vous pouvez acheter un abonnement pour un maximum de 3 500 élèves par comman
 
    Cliquez sur **[!UICONTROL Continuer]**.
 
-   *Consulter l’estimation*
+   *Vérifier l&#39;estimation*
 
 1. Sur la page Détails de paiement, le prix estimé de votre commande s’affiche. La devise s’affiche en fonction de la langue actuelle.
 
@@ -68,11 +68,11 @@ Vous pouvez acheter un abonnement pour un maximum de 3 500 élèves par comman
    *Sélectionner le pays de facturation*
 
 1. Saisissez vos coordonnées, sélectionnez le type de carte de crédit et saisissez les détails de votre carte de crédit. Après avoir entré les détails requis, cliquez sur **[!UICONTROL Terminer la commande]**.
-1. Après avoir passé commande, pour voir les packs récemment commandés, cliquez sur le bouton **[!UICONTROL Historique des commandes]** onglet de la **[!UICONTROL Facturation]** page.
+1. Après avoir passé commande, pour voir les packs récemment commandés, cliquez sur l&#39;onglet **[!UICONTROL Historique des commandes]** sur la page **[!UICONTROL Facturation]**.
 
    ![](assets/order-history.png)
 
-   *Affichage de l’historique des commandes*
+   *Afficher l&#39;historique des commandes*
 
 ## Vérifier l’état de la commande {#checkorderstatus}
 
@@ -80,7 +80,7 @@ Toutes les commandes peuvent avoir l’un des quatre états suivants :
 
 **Actif :** une commande est active et les utilisateurs sont enregistrés correctement.
 
-**Suspendu :** Un ordre passe à l’état suspendu dans les scénarios suivants :
+**Suspendu :** une commande passe à l&#39;état suspendu dans les scénarios suivants :
 
 * Retard dans la réception du paiement par carte de crédit
 * Expiration de la carte de crédit.
@@ -94,7 +94,7 @@ Toutes les commandes peuvent avoir l’un des quatre états suivants :
 
    ![](assets/update-subsciptiondetailsclickedit.png)
 
-   *Mettre à jour les détails de l’abonnement*
+   *Mettre à jour les détails de l&#39;abonnement*
 
 1. Dans la page Détails de l’abonnement, cliquez sur **[!UICONTROL Modifier l’abonnement]**.
 1. Sélectionnez l’élément que vous voulez modifier :
@@ -107,7 +107,7 @@ Toutes les commandes peuvent avoir l’un des quatre états suivants :
 Pour annuler une commande :
 
 1. Dans le volet gauche de la page Administrateur, cliquez sur Facturation.
-1. Dans la page Facturation, dans le coin supérieur droit, choisissez **[!UICONTROL Actions]** > **[!UICONTROL Désactiver le compte]**.
+1. Dans la page Facturation, dans le coin supérieur droit, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Désactiver le compte]**.
 1. Une fois que l’administrateur a désactivé le compte, toutes les commandes existantes dans le compte sont annulées à partir du cycle de facturation suivant.
 
 Lorsqu’un compte est désactivé par le client, il entre dans un état d’essai pendant les 30 jours suivants. Le titulaire du compte reçoit trois courriers électroniques de rappel pour réactiver le compte. Si le propriétaire ne réactive pas le compte, aucun des utilisateurs ne peut accéder à Learning Manager à part lui.
@@ -125,9 +125,9 @@ Vous pouvez sélectionner le traitement par bon de commande comme moyen de paiem
 
 Après l’activation d’un compte, celui-ci peut se trouver dans l’un des états suivants :
 
-* **Évaluation** - Vous pouvez créer un compte Learning Manager Adobe et l’utiliser sans frais pendant une période de 30 jours. Le nombre d’élèves enregistrés n’est pas limité pendant la période d’essai.
-* **Actif** - Dans cet état, le compte a des abonnements d’élève actifs avec un paiement mensuel récurrent conformément à la commande d’abonnement.
-* **Inactif** - Un compte passe à l’état inactif dans les scénarios suivants :
+* **Version d’évaluation** : vous pouvez créer un compte Adobe Learning Manager et l’utiliser sans aucun paiement pendant une période de 30 jours. Le nombre d’élèves enregistrés n’est pas limité pendant la période d’essai.
+* **Actif** : dans cet état, le compte comporte des abonnements d&#39;élève actifs avec un paiement mensuel récurrent conformément à la commande d&#39;abonnement.
+* **Inactif** : un compte passe à l’état inactif dans les scénarios suivants :
 
    * Après la période d’essai s’il n’y a aucune commande d’abonnement active dans le compte.
    * L’administrateur désactive le compte, ce qui entraîne l’annulation de toutes les commandes existantes dans un compte à partir du prochain cycle de facturation de l’abonnement.
@@ -139,7 +139,7 @@ votre carte de crédit si elle a expiré. Dans un état inactif, seul un adminis
 
 Compte Learning Manager. Aucun autre utilisateur ne peut accéder au compte.
 
-* **Activation requise** - Votre compte passe dans cet état lorsque l’administrateur de Learning Manager choisit de désactiver le compte. Toutes les commandes de ce compte sont annulées. L’encaissement de ces commandes n’est pas effectué à partir du prochain cycle de facturation. L’état du compte ne change pas jusqu’au jour du dernier cycle de facturation. Dans ce cas, tous les utilisateurs peuvent continuer à utiliser l’application sans incidence jusqu’à la date de fin du dernier paiement récurrent.
+* **Activation requise** : votre compte passe dans cet état lorsque l’administrateur de Learning Manager choisit de désactiver le compte. Toutes les commandes de ce compte sont annulées. L’encaissement de ces commandes n’est pas effectué à partir du prochain cycle de facturation. L’état du compte ne change pas jusqu’au jour du dernier cycle de facturation. Dans ce cas, tous les utilisateurs peuvent continuer à utiliser l’application sans incidence jusqu’à la date de fin du dernier paiement récurrent.
 
 ## Annuler un abonnement {#Cancelasubscription-1}
 
@@ -186,9 +186,9 @@ Tout utilisateur qui effectue les actions suivantes ou atteint ses objectifs sui
 
 1. Sur la page qui s’affiche, vous pouvez voir ce qui suit :
 
-   * **Utilisation globale :** Vous pouvez vérifier le nombre total d’utilisateurs actifs, le nombre d’utilisateurs qui consomment Learning Manager dans le mois et le nombre d’utilisateurs qui ne se sont pas encore inscrits à un cours.
+   * **Utilisation globale :** vous pouvez vérifier le nombre total d’utilisateurs actifs, le nombre d’utilisateurs qui consomment Learning Manager au cours d’un mois et le nombre d’utilisateurs qui ne se sont pas encore inscrits à un cours.
 
-   * **Utilisation mensuelle :** Vous pouvez consulter un tableau des utilisateurs actifs uniques par mois.
+   * **Utilisation mensuelle :** vous pouvez voir un tableau des utilisateurs actifs uniques par mois.
 
 ## Télécharger le rapport d’utilisation {#downloadusagereport}
 
@@ -198,7 +198,7 @@ Dans la boîte de dialogue **Générer une demande de rapport**, saisissez les m
 
 ![](assets/generate-report-request.png)
 
-*Télécharger le rapport d’utilisation active*
+*Télécharger le rapport d&#39;utilisation active*
 
 Si vous fermez la fenêtre du navigateur, le téléchargement démarrera la prochaine fois que vous vous connecterez à Learning Manager.
 
@@ -219,25 +219,25 @@ Pour supprimer un abonnement actif, contactez l’équipe d’assistance Learnin
 
 +++Comment modifier une carte de crédit pour les abonnements ?
 
-Dans le panneau **[!UICONTROL Historique des commandes]** onglet, pour un compte actif, cliquez sur **[!UICONTROL Modifier]**. Puis, dans la page Détails de l’abonnement, cliquez sur **[!UICONTROL Modifier l’abonnement]**. Entrez les nouvelles informations de votre carte bancaire, puis cliquez sur **[!UICONTROL Mettre à jour le mode de paiement]**.
+Dans l&#39;onglet **[!UICONTROL Historique des commandes]**, pour un compte actif, cliquez sur **[!UICONTROL Modifier]**. Puis, dans la page Détails de l’abonnement, cliquez sur **[!UICONTROL Modifier l’abonnement]**. Entrez les nouvelles informations de votre carte bancaire, puis cliquez sur **[!UICONTROL Mettre à jour le mode de paiement]**.
 
 ![](assets/credit-card-details.png)
 
-*Afficher les détails de la carte bancaire*
+*Afficher les détails de la carte de crédit*
 +++
 
 +++Comment mettre à jour les informations de facturation dans Learning Manager ?
 
 Pour mettre à jour les informations de facturation, procédez comme suit :
 
-1. Se connecter en tant que **Administrateur** et cliquez sur **[!UICONTROL Facturation]**.
+1. Connectez-vous en tant qu&#39;**administrateur** et cliquez sur **[!UICONTROL Facturation]**.
 1. Dans la liste des commandes, cliquez sur **[!UICONTROL Modifier]**.
 1. Dans la page Détails de l’abonnement, cliquez sur **[!UICONTROL Modifier l’abonnement]**.
 
 Sélectionnez l’élément que vous voulez modifier :
 
-1. **[!UICONTROL Mode de paiement]:** Utilisez cette option pour mettre à jour les détails de paiement, tels que les données de carte bancaire.
-1. **[!UICONTROL Adresse]:** Utilisez cette option pour mettre à jour les détails de l’adresse.
+1. **[!UICONTROL Mode de paiement]:** utilisez cette option pour mettre à jour les détails de paiement, tels que les données de carte de crédit.
+1. **[!UICONTROL Adresse]:** Utilisez cette option pour mettre à jour les détails de l&#39;adresse.
 +++
 
 +++ Puis-je annuler partiellement un abonnement ?
@@ -249,6 +249,6 @@ Non, vous ne pouvez pas annuler un abonnement partiellement. Si vous devez rédu
 
 Contactez [FastSpring](https://fastspring.com/) pour obtenir une facture pour vos paiements, en utilisant l’une des méthodes suivantes :
 
-* Créer une demande de service avec FastSpring à l’aide du lien `https://questionacharge.com`.
-* Envoyer un e-mail à FastSpring le `orders@fastspring.com` demande de facture.
+* Créez une demande de service avec FastSpring en utilisant le lien `https://questionacharge.com`.
+* Envoyez un e-mail à FastSpring le `orders@fastspring.com` pour lui demander la facture.
 +++

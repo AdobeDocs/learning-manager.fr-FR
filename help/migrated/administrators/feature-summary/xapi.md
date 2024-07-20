@@ -19,7 +19,7 @@ ht-degree: 48%
 
 L’API Expérience (xAPI) est une spécification de logiciel d’apprentissage en ligne qui permet aux contenus d’apprentissage et aux systèmes d’apprentissage de communiquer de sorte à enregistrer et suivre tous les types d’expériences d’apprentissage. Les expériences d’apprentissage sont enregistrées dans une boutique d’enregistrements d’apprentissage (Learning Record Store, LRS). Les LRS peuvent exister dans les systèmes de gestion d’apprentissage (LMS) traditionnels ou seuls.
 
-Pour plus d’informations sur xAPI, voir [Spécifications xAPIc](https://github.com/adlnet/xAPI-Spec).
+Pour plus d&#39;informations sur xAPI, voir [Spécifications xAPIc](https://github.com/adlnet/xAPI-Spec).
 
 ## Comment Learning Manager prend-il en charge xAPI ? {#howdoeslearningmanagersupportxapi}
 
@@ -56,7 +56,7 @@ De plus en plus, il est nécessaire de capturer les expériences d’apprentissa
 
 Cliquez sur le lien ci-dessous pour afficher le document xAPI swagger :
 
-[Document xAPI Swagger](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
+[Document Swagger xAPI](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 En tant qu’auteur, vous pouvez maintenant choisir le module xAPI tout en créant des cours pour surveiller l’expérience utilisateur en dehors de Learning Manager. Par exemple, vous pouvez utiliser cette fonctionnalité pour évaluer les activités des utilisateurs sur une plate-forme tierce utilisée pour l’utilisation des cours.
 
-1. Lors de la création d’un **[!UICONTROL Module d’activité]**, dans la **[!UICONTROL Type]**option, utilisez le menu contextuel pour sélectionner  **[!UICONTROL Module xAPI.]**
+1. Lors de la création d&#39;un **[!UICONTROL module d&#39;activité]**, dans l&#39;option **[!UICONTROL Type]**, utilisez le menu contextuel pour sélectionner le **[!UICONTROL module basé sur xAPI.]**
 
    ![](assets/xapimodulecreation.png)
 
-   *Sélectionnez l’option Module xAPI*
+   *Sélectionnez l&#39;option Module basé sur xAPI*
 
 1. Vous êtes invité à fournir un IRI. Si elle n’est pas fournie, Learning Manager en génère une automatiquement.
 
@@ -97,7 +97,7 @@ En tant qu’auteur, vous pouvez maintenant choisir le module xAPI tout en créa
 
 **Remarques :**
 
-* Learning Manager ne prend actuellement en charge que mbox en tant qu’identifiant. Les autres identificateurs, notamment mboz_sha1, openid , account, ne sont pas pris en charge.
+* Learning Manager prend actuellement en charge uniquement   mbox en tant qu’identifiant. Les autres identificateurs, notamment mboz_sha1, openid , account, ne sont pas pris en charge.
 
 * Les paramètres stateId et profileId sont des UUID lorsqu’ils sont utilisés avec Learning Manager.
 * La demande du PUT ne remplace pas le document pour les xAPI agents/profil, activité/profil et activité/état
@@ -114,11 +114,11 @@ Le rapport téléchargé récupère toutes les informations publiées par l’é
 
 Les mêmes rapports peuvent être générés/planifiés à l’aide des connecteurs FTP et Box pour toute intégration tierce. Procédez comme suit :
 
-Se connecter en tant que **Administrateur de l’intégration > Ouvrir le connecteur FTP/Box > Sélectionner le rapport d’activité xAPI** dans le panneau de gauche. Choisissez de planifier/générer un rapport.
+Connectez-vous en tant qu&#39;**Administrateur de l&#39;intégration > Ouvrir le connecteur FTP/Box > Sélectionner le rapport d&#39;activité xAPI** dans le panneau de gauche. Choisissez de planifier/générer un rapport.
 
 ![](assets/xapischedule.png)
 
-*Planification ou génération d’un rapport*
+*Planifier ou générer un rapport*
 
 * Lorsque seul le score brut est envoyé dans l’instruction xAPI sans score maximal, le score du quiz n’est pas affiché en LT.
 

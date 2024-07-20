@@ -3,14 +3,13 @@ description: Procédure à suivre lorsque vous ne parvenez pas à vous connecter
 jcr-language: en_us
 title: Impossible de se connecter à Learning Manager
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 72%
 
 ---
-
-
 
 # Impossible de se connecter à Learning Manager
 
@@ -48,7 +47,7 @@ Si vous ne parvenez toujours pas à vous connecter, contactez l’administrateur
 
 Si vous faites partie du compte et que vous ne parvenez toujours pas à vous connecter, l’administrateur doit vérifier si votre Adobe ID est le même que celui avec lequel vous tentez de vous connecter.
 
-Parfois, l’Adobe ID est différent de l’ID Adobe Learning Manager sur le compte.
+Parfois, l’Adobe ID est différent de l’ID Adobe Learning Manager du compte.
 
 ## Étape suivante
 

@@ -29,17 +29,17 @@ Dans cette formation, vous apprendrez à personnaliser des modèles d’e-mail i
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Configurer des modèles de courrier électronique {#configureemailtemplates}
 
 En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modifier ces modèles de courrier électronique.
 
-1. Pour accéder aux modèles, cliquez sur **[!UICONTROL Modèles de courrier électronique]** dans le volet de gauche. Sur cette page, vous pouvez voir trois catégories différentes de modèles, **[!UICONTROL Généralités]**, **[!UICONTROL Activité d’apprentissage]**, et **[!UICONTROL Rappels et mises à jour]**. Il y a un quatrième onglet, **[!UICONTROL Paramètres]**, où vous pouvez configurer les modèles.
+1. Pour accéder aux modèles, cliquez sur **[!UICONTROL Modèles de courrier électronique]** dans le volet de gauche. Sur cette page, vous pouvez voir trois catégories différentes de modèles : **[!UICONTROL Général]**, **[!UICONTROL Activité d’apprentissage]** et **[!UICONTROL Rappels et mises à jour]**. Il existe un quatrième onglet, **[!UICONTROL Paramètres]**, dans lequel vous pouvez configurer les modèles.
 
    ![](assets/categories-of-emailtemplates.png)
 
-   *Sélectionnez l’onglet Général.*
+   *Sélectionnez l&#39;onglet Général*
 
 1. Pour afficher la liste des modèles de courrier électronique, cliquez sur un onglet.
 
@@ -53,7 +53,7 @@ En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modi
 
    ![](assets/preview-of-an-emailtemplate.png)
 
-   *Afficher le modèle d’un e-mail*
+   *Afficher le modèle d&#39;un e-mail*
 
 1. Pour modifier le contenu de ce modèle de courrier électronique, cliquez dans le corps du courrier électronique. Vous pouvez maintenant apporter des modifications au modèle. Vous pouvez modifier le texte et vous pouvez également utiliser l’une de ces variables dans votre courrier électronique. Les modifications apportées au corps du courrier électronique ne peuvent être appliquées qu’à ce modèle. Toutefois, si vous modifiez la signature de ce courrier électronique, celle-ci peut être appliquée globalement à tous les modèles.
 
@@ -61,7 +61,7 @@ En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modi
 
    ![](assets/modify-the-emailtemplate.png)
 
-   *Modifier le modèle d’e-mail*
+   *Modifier le modèle de courrier électronique*
 
    Vous pouvez réinitialiser le contenu par défaut du corps du message en cliquant sur le lien **[!UICONTROL Rétablir l’original]** situé au-dessus du modèle.
 
@@ -70,17 +70,17 @@ En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modi
 ## Personnaliser les paramètres d’un modèle de courrier électronique {#customizesettingsofanemailtemplate}
 
 1. Pour ouvrir la page des paramètres, cliquez sur **[!UICONTROL Paramètres]**. Vous pouvez à présent personnaliser vos modèles de courriers électroniques.
-1. Pour personnaliser le nom et l’ID de messagerie à partir desquels les élèves reçoivent des courriers électroniques, modifiez le **[!UICONTROL Nom et adresse de l’expéditeur].**
+1. Pour personnaliser le nom et l&#39;ID de messagerie à partir desquels les élèves reçoivent des courriers électroniques, modifiez le **[!UICONTROL Nom et l&#39;adresse de l&#39;expéditeur].**
 
-   Contact [***Support Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
+   Contactez l&#39;[***assistance technique de l&#39;Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
 
-1. Personnalisez votre bannière d’e-mail à partir du panneau **[!UICONTROL Bannière d’e-mail]** option. Modifier la couleur de la bannière en sélectionnant **[!UICONTROL Arrière-plan de la bannière]**.
+1. Personnalisez votre bannière de courrier électronique à partir de l&#39;option **[!UICONTROL Bannière de courrier électronique]**. Modifiez la couleur de la bannière en sélectionnant **[!UICONTROL Arrière-plan de la bannière]**.
 
-   Vous pouvez utiliser une image personnalisée comme bannière en sélectionnant l’option **[!UICONTROL Image personnalisée]** option. Cliquez sur **[!UICONTROL Enregistrer]** après avoir apporté les modifications.
+   Vous pouvez utiliser une image personnalisée comme bannière en sélectionnant l&#39;option **[!UICONTROL Image personnalisée]**. Cliquez sur **[!UICONTROL Enregistrer]** après avoir apporté les modifications.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
-   *Personnalisation de l’image d’une bannière*
+   *Personnalisation de l&#39;image d&#39;une bannière*
 
    La taille d’image personnalisée doit être de 1 240 x 200 px et prend en charge les formats .jpg, .jpeg et .png.
 
@@ -88,35 +88,35 @@ En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modi
 
    ![](assets/customize-email-signature.png)
 
-   *Personnalisation de votre signature électronique*
+   *Personnaliser votre signature électronique*
 
-1. Modifiez l’URL de votre compte en cliquant sur Modifier dans l’option. **[!UICONTROL URL du compte]**.
+1. Modifiez l&#39;URL de votre compte en cliquant sur Modifier sur l&#39;option **[!UICONTROL URL du compte]**.
 
    Le lien de l’URL de compte s’affiche dans tous les courriers électroniques, juste avant la signature. Saisissez l’URL de votre choix et cliquez sur **[!UICONTROL Enregistrer]**. Notez que cette URL est visible uniquement aux utilisateurs internes.
 
    ![](assets/customize-accounturl.png)
 
-   *Personnalisation de l’URL du compte*
+   *Personnaliser l&#39;URL du compte*
 
-1. Configurez si les responsables doivent également recevoir des e-mails envoyés à leurs subordonnés directs à l&#39;aide de la case à cocher sous **[!UICONTROL E-mail du responsable facultatif]** option.
+1. Indiquez si les responsables doivent également recevoir des e-mails envoyés à leurs subordonnés directs à l&#39;aide de la case à cocher sous l&#39;option **[!UICONTROL E-mail facultatif du responsable]**.
 
 ## Définir la fréquence des e-mails de résumé {#setfrequencyofdigestemails}
 
-Sur la **[!UICONTROL Modèles de courrier électronique]** > **[!UICONTROL Paramètres]** , l’administrateur peut modifier la fréquence des e-mails de résumé à envoyer aux élèves.
+Sur la page **[!UICONTROL Modèles d&#39;e-mail]** > **[!UICONTROL Paramètres]**, l&#39;administrateur peut modifier la fréquence des e-mails de résumé à envoyer aux élèves.
 
 Dans la section **[!UICONTROL Paramètres des e-mails de résumé]**, cliquez sur **[!UICONTROL Modifier]**.
 
-Dans la liste déroulante, choisissez soit **[!UICONTROL Toutes les deux semaines]** ou **[!UICONTROL Mensuel]**.
+Dans la liste déroulante, choisissez **[!UICONTROL Bihebdomadaire]** ou **[!UICONTROL Mensuel]**.
 
-* **[!UICONTROL Toutes les deux semaines]:** Si vous définissez la fréquence sur **[!UICONTROL Toutes les deux semaines]**, les élèves reçoivent l’e-mail toutes les deux semaines.
+* **[!UICONTROL Toutes les deux semaines]:** Si vous définissez la fréquence sur **[!UICONTROL Toutes les deux semaines]**, les élèves reçoivent l&#39;e-mail toutes les deux semaines.
 
-* **[!UICONTROL Mensuel]:** Si vous définissez la fréquence sur **[!UICONTROL Mensuel]**, les élèves reçoivent l’e-mail une fois par mois.
+* **[!UICONTROL Mensuel] :** Si vous définissez la fréquence sur **[!UICONTROL Mensuel]**, les élèves reçoivent l’e-mail une fois par mois.
 
 ![](assets/digest-email-settings.png)
 
 *Définir la fréquence des e-mails de résumé*
 
-Lorsque vous activez cette option, la fréquence est définie sur **[!UICONTROL Toutes les deux semaines]** pour les comptes actifs existants/nouveaux par défaut.
+Lorsque vous activez cette option, la fréquence est définie sur **[!UICONTROL Bihebdomadaire]** pour les comptes actifs existants/nouveaux par défaut.
 
 ### Liste NPD des élèves
 
@@ -134,33 +134,33 @@ Les exemples suivants montrent l&#39;e-mail reçu par un élève.
 
 ![](assets/email-2.png)
 
-*Adresse e-mail de l’activité de formation*
+*E-mail de l’activité de formation*
 
 ### Formations recommandées
 
 ![](assets/email3.png)
 
-*Adresse e-mail de la formation recommandée*
+*Adresse électronique de la formation recommandée*
 
 ### Tableau des scores
 
 ![](assets/email4.png)
 
-*Adresse e-mail du tableau des scores*
+*Adresse électronique du tableau des scores*
 
 ### Dernières publications
 
 ![](assets/email5.png)
 
-*E-mail des dernières publications*
+*Adresse électronique des derniers posts*
 
 ### Télécharger le rapport d’accès aux e-mails
 
-Vous pouvez télécharger le rapport d’accès aux e-mails en cliquant sur le bouton **[!UICONTROL Télécharger]** bouton. Ce rapport indique le nombre d’utilisateurs qui ont reçu l’e-mail et le nombre d’utilisateurs qui ont ouvert et cliqué sur les liens.
+Vous pouvez télécharger le rapport d&#39;accès aux e-mails en cliquant sur le bouton **[!UICONTROL Télécharger]**. Ce rapport indique le nombre d’utilisateurs qui ont reçu l’e-mail et le nombre d’utilisateurs qui ont ouvert et cliqué sur les liens.
 
 ## Personnaliser le domaine de l’adresse électronique {#customizeemaildomain}
 
-Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez le [***Prise en charge de Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel id de messagerie.
+Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez l’[***assistance Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel ID de messagerie.
 
 Votre demande sera traitée et un courrier électronique contenant un lien de confirmation vous sera envoyé à la nouvelle adresse électronique que vous indiquez. Cliquez sur le lien de vérification qui figure dans le courrier électronique pour confirmer et terminer le processus de vérification.
 
@@ -168,7 +168,7 @@ Votre demande sera traitée et un courrier électronique contenant un lien de co
 
 En tant qu’administrateur, vous pouvez sélectionner les utilisateurs qui peuvent recevoir les courriers électroniques de Learning Manager et ceux qui ne doivent pas les recevoir.
 
-Pour ce faire, utilisez la commande **[!UICONTROL Ne pas déranger]** sous l&#39;option **[!UICONTROL Paramètres]** onglet. Pour ajouter des utilisateurs à cette liste, saisissez leur nom, leur identifiant de messagerie ou leur ID utilisateur unique.
+Pour ce faire, utilisez l&#39;option **[!UICONTROL Ne pas déranger]** sous l&#39;onglet **[!UICONTROL Paramètres]**. Pour ajouter des utilisateurs à cette liste, saisissez leur nom, leur identifiant de messagerie ou leur ID utilisateur unique.
 
 Recherchez un utilisateur à ajouter à la liste.
 
@@ -176,13 +176,13 @@ Recherchez un utilisateur à ajouter à la liste.
 
 ## Courriers électroniques bloqués {#blockedemails}
 
-À partir de **E-mails bloqués** liste déroulante pour chaque utilisateur afin de sélectionner les types d’e-mails à bloquer pour eux.
+Dans la liste déroulante **E-mails bloqués**, pour chaque utilisateur, sélectionnez les types d&#39;e-mail à bloquer.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
 Les options suivantes sont disponibles :
 
-* **E-mail direct à l’élève :** Cette option restreint ou autorise les e-mails envoyés à l’élève.
+* **E-mail direct à l&#39;élève :** cette option restreint ou autorise les e-mails envoyés à l&#39;élève.
 * **Courriers électroniques d’escalade envoyés au responsable de l’élève :** cette option limite ou autorise l’envoi des courriers électroniques au responsable de l’élève.
 * **À propos des collaborateurs directs :** cette option limite ou autorise l’envoi des courriers électroniques d’escalade entrants aux utilisateurs concernant leurs collaborateurs directs.
 * **À propos des collaborateurs de deuxième niveau :** cette option limite ou autorise l’envoi des courriers électroniques d’escalade entrants aux utilisateurs concernant leurs collaborateurs de deuxième niveau.
@@ -206,11 +206,11 @@ Les principales améliorations apportées à la personnalisation des modèles de
 
 ### Personnalisation de la salutation des courriers électroniques au niveau du compte
 
-Sélectionner **[!UICONTROL Modèles de courrier électronique]** > **[!UICONTROL Paramètres]**. Sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Salutation des courriers électroniques]**.
+Sélectionnez **[!UICONTROL Modèles de courrier électronique]** > **[!UICONTROL Paramètres]**. Sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Salutation des courriers électroniques]**.
 
-![personnaliser l’adresse e-mail](assets/email-salutation.png)
+![personnaliser l&#39;adresse e-mail](assets/email-salutation.png)
 
-*Personnalisation des salutations par e-mail*
+*Personnaliser les salutations par e-mail*
 
 Vous pouvez également personnaliser les éléments suivants :
 
@@ -225,7 +225,7 @@ Dans cette formation, vous apprendrez à configurer les paramètres par défaut 
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Invitations en ligne {#inlineinvitations}
 
@@ -265,6 +265,6 @@ Pour désactiver un modèle de courrier électronique, sélectionnez le modèle 
 
 +++Comment modifier le nom et l’adresse de l’expéditeur dans le modèle ?
 
-Pour modifier le nom et l’adresse électronique de l’expéditeur, contactez [Prise en charge d’Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Pour modifier le nom et l&#39;adresse e-mail de l&#39;expéditeur, contactez l&#39;[assistance Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

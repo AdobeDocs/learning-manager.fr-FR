@@ -3,14 +3,13 @@ description: Configuration de notifications d’utilisateur pour les responsable
 jcr-language: en_us
 title: Notifications aux utilisateurs
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 80%
 
 ---
-
-
 
 # Notifications aux utilisateurs
 
@@ -30,7 +29,7 @@ Instantané d’un exemple de notifications du responsable :
 
 Cette fenêtre contextuelle affiche l’essentiel de toutes les notifications ainsi que l’heure d’occurrence, avec une barre de défilement. Pour afficher des informations supplémentaires sur toutes les notifications, cliquez sur Afficher toutes les notifications au bas de la fenêtre contextuelle. La page des notifications s’affiche.
 
-Un responsable peut voir les tâches en attente et toutes les notifications dans un formulaire à onglets sur la page de notifications. Les notifications de tâches en attente sont classées en approbations, nominations, et ainsi de suite. Pour afficher toutes les notifications, cliquez sur **[!UICONTROL Toutes les notifications]** onglet. Dans l’onglet Toutes les notifications, les notifications sont triées en fonction de la date et de l’heure sous forme de liste.
+Un responsable peut voir les tâches en attente et toutes les notifications dans un formulaire à onglets sur la page de notifications. Les notifications de tâches en attente sont classées en approbations, nominations, et ainsi de suite. Pour afficher toutes les notifications, cliquez sur l&#39;onglet **[!UICONTROL Toutes les notifications]**. Dans l’onglet Toutes les notifications, les notifications sont triées en fonction de la date et de l’heure sous forme de liste.
 
 ![](assets/manager-notifications-page.png)
 

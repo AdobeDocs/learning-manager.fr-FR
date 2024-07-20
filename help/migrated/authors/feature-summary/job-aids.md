@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Assistances à la tâche
 
-**Assistances à la tâche** est un référentiel de contenu de formation accessible aux élèves sans aucun critère d’inscription ou d’achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l&#39;aide afin d&#39;effectuer toute activité ou tâche au sein d&#39;une organisation.
+Les **assistances à la tâche** sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l&#39;aide afin d&#39;effectuer toute activité ou tâche au sein d&#39;une organisation.
 
 Les assistances à la tâche peuvent être utilisées indépendamment ou avec le suivi des cours dans Learning Manager.
 
@@ -21,7 +21,7 @@ Les auteurs peuvent créer des assistances à la tâche pour les élèves. Utili
 ## Créer une assistance à la tâche {#createjobaid}
 
 1. Dans la connexion Auteur, sélectionnez **[!UICONTROL Assistances à la tâche]** dans le volet de gauche.
-1. Sélectionner **[!UICONTROL Créer]** dans le coin supérieur droit de la page qui s’affiche.
+1. Sélectionnez **[!UICONTROL Créer]** dans le coin supérieur droit de la page qui s&#39;affiche.
 1. Saisissez le nom, la description et les balises. Sélectionnez les compétences et les niveaux associés. Définissez le contenu sur Privé si vous ne souhaitez pas que d’autres auteurs accèdent à l’assistance à la tâche pour l’affecter à leurs cours respectifs.
 
    Seules les compétences existantes peuvent être utilisées pour les assistances à la tâche. Les compétences ne sont pas obligatoires.
@@ -37,14 +37,14 @@ Les auteurs peuvent créer des assistances à la tâche pour les élèves. Utili
 
 ## Ajouter une assistance à la tâche dans différentes langues {#addcontentfordifferentlanguages}
 
-1. Pour ajouter l’assistance à la tâche dans différentes langues, sélectionnez l’option **Ajouter une nouvelle langue** et sélectionnez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
+1. Pour ajouter l&#39;assistance à la tâche dans différentes langues, sélectionnez l&#39;onglet **Ajouter une nouvelle langue** et choisissez les langues requises. Grâce à cette approche, vous pouvez ajouter une prise en charge multilingue pour votre contenu.
 
    ![](assets/add-new-languagetab.png)
 
-   *Ajout d’une nouvelle langue pour un contenu*
+   *Ajouter une nouvelle langue pour un contenu*
 
 1. Répétez le processus de téléchargement de l’assistance à la tâche pour les nouvelles langues.
-1. Si vous souhaitez supprimer une langue, sélectionnez l’option **[!UICONTROL Ajouter une nouvelle langue]** et effacez votre sélection.
+1. Si vous souhaitez supprimer une langue, sélectionnez l&#39;onglet **[!UICONTROL Ajouter une nouvelle langue]** et effacez votre sélection.
 
    Après avoir apporté les modifications, sélectionnez Enregistrer.
 
@@ -73,7 +73,7 @@ Vous pouvez retirer l’assistance à la tâche publiée en cliquant sur l’ic�
 
 *Modifier, retirer ou prévisualiser une assistance à la tâche publiée*
 
-Affichez les assistances à la tâche retirées en cliquant sur l’onglet Retiré. Vous pouvez republier les tâches supprimées en cliquant sur l’icône des paramètres et en choisissant Publier.
+Affichez les assistances à la tâche retirées en cliquant sur l’onglet Retiré. Vous pouvez republier les tâches supprimées en cliquant sur l’icône des paramètres et en choisissant Publish.
 
 ## Prise en charge des packages HTML dans les assistances à la tâche
 
@@ -83,7 +83,7 @@ Lors de la création d’une assistance à la tâche, un auteur peut charger un 
 
 ![](assets/html-job-aid.png)
 
-*Prise en charge des packs de HTML*
+*Prise en charge des packs HTML*
 
 Un package HTML doit comporter les éléments suivants :
 

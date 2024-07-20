@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # Intégration de Learning Manager à Slack
 
-Nous avons **supprimé** **Slack** comme connecteur dans Learning Manager. Vous n’aurez plus accès au connecteur de Slack.
+Nous avons **supprimé** **Slack** en tant que connecteur dans Learning Manager. Vous n’aurez plus accès au connecteur de Slack.
 
 En tant qu’utilisateur Slack, vous pouvez installer l’application Adobe Learning Manager depuis le répertoire d’applications Slack dans vos équipes Slack et explorer le contenu Learning Manager directement dans Slack. Vous pouvez interagir avec Primebot pour rechercher de nouveaux cours, afficher des recommandations et être informé des échéances à venir dans Learning Manager. Vous pouvez également vous inscrire et accéder directement à votre apprentissage dans Slack.
 
@@ -32,11 +32,11 @@ En tant qu’administrateur d’intégration, pour approuver l’autorisation d�
 
    ![](assets/featuredapps.jpg)
 
-1. Cliquez sur la vignette **[!UICONTROL Slack]**, la page d’intégration Slack s’ouvre. Cliquez sur **[!UICONTROL Approuver]** dans le coin supérieur droit pour approuver l’application.
+1. Cliquez sur la vignette **[!UICONTROL Slack]**, la page d’intégration Slack s’ouvre. Cliquez sur **[!UICONTROL Approuver]** en haut à droite pour approuver l&#39;application.
 
    ![](assets/approval.png)
 
-1. Revenir à la page **[!UICONTROL Applications]** page. Une fois approuvé, le Slack doit apparaître dans le **[!UICONTROL Applications externes]** onglet.
+1. Revenez à la page **[!UICONTROL Applications]**. Une fois approuvé, Slack devrait apparaître dans l&#39;onglet **[!UICONTROL Applications externes]**.
 1. Les élèves peuvent désormais se connecter à leur compte Prime via Slack.
 
 ## Fonctionnalités de Primebot {#primebotfunctionalities}
@@ -45,7 +45,7 @@ Vous pouvez maintenant commencer à interagir avec le Primebot. Les fonctionnali
 
 1 - Commande
 
-&#42;/prime&#42; peut être utilisé pour des requêtes ponctuelles et pointues concernant votre compte Learning Manager Adobe.
+&#42;/prime&#42; peut être utilisé pour des requêtes ponctuelles et précises concernant votre compte Adobe Learning Manager.
 
 Les sous-commandes disponibles sont :
 
@@ -63,7 +63,7 @@ Les sous-commandes disponibles sont :
 
 /prime catalogs : affichage des catalogues
 
-/prime invite - [Administrateur uniquement] inviter les utilisateurs du Slack de l’équipe à tester primebot
+/prime invite : [l’administrateur uniquement] invite les utilisateurs du Slack de l’équipe actuelle à tester primebot
 
 /prime profile : affichage de profils
 
@@ -73,12 +73,12 @@ Les sous-commandes disponibles sont :
 
 2 - Recommander
 
-Vous pouvez essayer une expression comme `show my recommendations` pour obtenir une liste personnalisée des cours, certifications et programmes d’apprentissage recommandés à partir de votre compte Learning Manager Adobe.
+Vous pouvez essayer une phrase telle que `show my recommendations` pour obtenir une liste personnalisée de cours, de certifications et de programmes d’apprentissage recommandés à partir de votre compte Adobe Learning Manager.
 
 3 - Rechercher
 
-Vous pouvez essayer des expressions comme `search for machine learning` ou `search for artificial intelligence`. Vous pouvez spécifier le type d’objet d’apprentissage à l’aide d’expressions comme `search for machine learning certifications`, `search for artificial intelligence courses` ou `search for adobe photoshop job aids`. Vous pouvez également effectuer une recherche dans un catalogue en utilisant des expressions telles que `search for machine learning in Lynda catalog`.
+Vous pouvez essayer des expressions telles que `search for machine learning` ou `search for artificial intelligence`. Vous pouvez spécifier le type d’objet d’apprentissage à l’aide d’expressions telles que `search for machine learning certifications`, `search for artificial intelligence courses` ou `search for adobe photoshop job aids`. Vous pouvez également effectuer une recherche dans un catalogue en utilisant des expressions telles que `search for machine learning in Lynda catalog`.
 
 4 - Délais
 
-Utiliser une expression comme `show my deadlines` pour obtenir une liste des échéances en retard et à venir à partir de votre compte Adobe Learning Manager. Vous pouvez filtrer les échéances passées ou à venir avec des expressions telles que `show my overdue deadlines` ou `show my upcoming deadlines`.
+Utilisez une expression comme `show my deadlines` pour obtenir une liste des échéances en retard et à venir à partir de votre compte Adobe Learning Manager. Vous pouvez filtrer les échéances passées ou à venir avec des expressions telles que `show my overdue deadlines` ou `show my upcoming deadlines`.

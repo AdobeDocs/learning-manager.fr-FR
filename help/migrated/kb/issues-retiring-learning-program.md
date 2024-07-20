@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Problèmes liés au retrait d’un programme d’apprentissage
 description: Problèmes liés au retrait d’un programme d’apprentissage dans Adobe Learning Manager
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 55%
 
 ---
-
-
 
 # Problèmes liés au retrait d’un programme d’apprentissage
 
@@ -30,15 +29,15 @@ Pour vérifier le cours contenant une instance qui a été retirée, procédez c
 
 1. Connectez-vous en tant qu’administrateur et lancez le programme d’apprentissage correspondant.
 
-1. Cliquez sur **[!UICONTROL Instances]** > **Ccours**. La page répertorie tous les cours qui font partie de ce programme d’apprentissage. Vous pourrez voir le cours qui contient une instance retirée.
+1. Cliquez sur **[!UICONTROL Instances]** > **CCours**. La page répertorie tous les cours qui font partie de ce programme d’apprentissage. Vous pourrez voir le cours qui contient une instance retirée.
 
    ![](assets/retired-instance.png)
 
    *Afficher la liste de tous les cours*
 
-1. Une fois que vous avez déterminé l’instance de cours qui a été retirée, cliquez sur **[!UICONTROL Cours]** > **[!UICONTROL Ouvrir le cours]**.
+1. Une fois que vous avez déterminé quelle instance de cours a été retirée, cliquez sur **[!UICONTROL Cours]** > **[!UICONTROL Ouvrir le cours]**.
 
-1. Cliquez sur **[!UICONTROL Instances]**. Sur l&#39;instance retirée, cliquez sur **[!UICONTROL Modifier]** puis modifiez la date d&#39;achèvement en choisissant une date ultérieure à laquelle vous souhaitez que l&#39;instance soit retirée.
+1. Cliquez sur **[!UICONTROL Instances]**. Sur l&#39;instance retirée, cliquez sur **[!UICONTROL Modifier]**, puis modifiez la date d&#39;achèvement en choisissant une date ultérieure à laquelle vous souhaitez retirer l&#39;instance.
 
    ![](assets/completion-date.png)
 

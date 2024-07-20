@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Étiquettes de catalogue
 description: Les étiquettes de catalogue vous permettent de baliser des objets d’apprentissage avec des champs spécifiques et d’appliquer une ou plusieurs valeurs. Si cette option est activée, les administrateurs et les auteurs peuvent définir des étiquettes de catalogue et des valeurs et les associer à des objets d’apprentissage.
 contentowner: dvenkate
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: 966d163d-7878-44f4-afdc-38eb95996229
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 85%
 
 ---
-
-
 
 # Étiquettes de catalogue
 
@@ -20,14 +19,14 @@ Utilisez cette fonctionnalité pour classer facilement les données. Par exemple
 
 Pour activer les étiquettes de catalogue, procédez comme suit :
 
-* En tant qu’administrateur, ouvrez **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]** > **[!UICONTROL Afficher le libellé du catalogue]**.
+* En tant qu&#39;administrateur, ouvrez **[!UICONTROL Paramètres]** > **[!UICONTROL Général]** > **[!UICONTROL Afficher l&#39;étiquette du catalogue]**.
 * Cochez la case pour activer l’étiquette.
 
 ## Ajout d’étiquettes de catalogue {#addcataloglabels}
 
 Pour ajouter des étiquettes de catalogue, procédez comme suit :
 
-1. Ouvrir  **[!UICONTROL Paramètres]** > **[!UICONTROL Étiquettes de catalogue]** sous la rubrique **[!UICONTROL Avancé]** option. La page [!UICONTROL Étiquettes de catalogue] s’ouvre.
+1. Ouvrez **[!UICONTROL Paramètres]** > **[!UICONTROL Étiquettes de catalogue]** sous l&#39;option **[!UICONTROL Avancé]**. La page [!UICONTROL Étiquettes de catalogue] s’ouvre.
 
    ![](assets/catalog-labels-page.png)
 
@@ -50,6 +49,6 @@ Une fois que vous avez créé des étiquettes de catalogue, vous pouvez les appl
 1. Ouvrez les étiquettes de catalogue depuis le volet de gauche.
 1. Cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit. La page affiche la liste des étiquettes de catalogue disponibles.
 1. Pour ajouter une étiquette au catalogue, cliquez sur **[!UICONTROL Ajouter au catalogue]**.
-1. Pour supprimer les libellés existants ajoutés à un catalogue, cliquez sur **[!UICONTROL Supprimer]**.
+1. Pour supprimer les étiquettes existantes ajoutées à un catalogue, cliquez sur **[!UICONTROL Supprimer]**.
 
 Lorsque le champ personnalisé est ajouté au catalogue, il s’applique à tous les objets d’apprentissage faisant partie du catalogue.

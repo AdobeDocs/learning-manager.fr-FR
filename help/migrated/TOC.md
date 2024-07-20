@@ -84,7 +84,7 @@ ht-degree: 88%
    * [Expérience hors connexion pour les élèves](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programmes d’apprentissage](administrators/feature-summary/learning-programs.md)
    * [Terminologie du produit](administrators/feature-summary/product-terminology.md)
-* Administrateur de l’intégration {#integration}
+* Administrateur d&#39;intégration {#integration}
    * [Manuel de migration](integration-admin/feature-summary/migration-manual.md)
    * [Connecteurs Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API non connectées](integration-admin/feature-summary/non-logged-in-apis.md)

@@ -3,14 +3,13 @@ description: Lisez cet article pour savoir comment gérer les participants et en
 jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 91%
 
 ---
-
-
 
 # Gestion des élèves pour votre session
 
@@ -20,7 +19,7 @@ Lisez cet article pour savoir comment gérer les participants et envoyer des cou
 
 En tant qu’instructeur, vous pouvez voir les sessions ou modules avec des révisions en cours.
 
-Sur la page Sessions/Modules, une colonne s’affiche **Révisions en attente** qui affiche le nombre de révisions en attente pour la session/l&#39;activité correspondante.
+Sur la page Sessions/Modules, vous pouvez voir une colonne **Révisions en attente** qui indique le nombre de révisions en attente pour la session/l&#39;activité correspondante.
 
 ## Gérer la liste d’attente pour votre session {#managewaitlistforyoursession}
 
@@ -38,10 +37,10 @@ Lorsque les élèves s’inscrivent à votre module, vous pouvez voir l’état 
 
    Les élèves que vous avez confirmés sont ajoutés à la liste des élèves confirmés.
 
-Les instructeurs peuvent désinscrire les élèves des sessions. Ces derniers sont alors désinscrits des apprentissages correspondants. Sélectionnez l’onglet **[!UICONTROL Liste d’attente]**. Cochez la case des élèves à désinscrire. Pour vous désinscrire, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Désinscription des élèves]**.
+Les instructeurs peuvent désinscrire les élèves des sessions. Ces derniers sont alors désinscrits des apprentissages correspondants. Sélectionnez l’onglet **[!UICONTROL Liste d’attente]**. Cochez la case des élèves à désinscrire. Pour vous désinscrire, sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Désinscrire des élèves]**.
 
 ![](assets/unenroll-learners.png)
-*Désinscription des élèves*
+*Désinscrire les élèves*
 
 ## Noter l’assiduité pour votre session {#markattendanceforyoursession}
 
@@ -57,7 +56,7 @@ Vous pouvez voir le nombre d’élèves confirmés qui assistent à la session, 
    Un élève ne peut pas terminer un module tant que son assiduité n’est pas marquée comme A participé.
 
    ![](assets/markattendance.png)
-   *Marquer l’assiduité des élèves*
+   *Marquer l’élève comme participant*
 
 ## Envoyer des courriers électroniques à des élèves {#sendemailstolearners}
 
@@ -77,7 +76,7 @@ Une fois que la liste des participants est confirmée pour votre session, vous p
 Notez le code QR dans le coin supérieur droit de ce fichier PDF. Cette fonctionnalité permet à chaque élève de numériser le code à l’aide de l’application mobile Learning Management pour qu’il indique sa participation.
 
 ![](assets/exportpdf.png)
-*Scannez le code QR pour marquer l’assiduité*
+*Scannez le code QR pour marquer l&#39;assiduité*
 
 ## Approuver ou refuser des envois {#approveorrejectsubmissions}
 
@@ -99,7 +98,7 @@ Si les élèves ont téléchargé des documents tels que des devoirs, des rappor
 1. Dans la vignette Sélectionner un rappel, cliquez sur Programmer un rappel.
 
    ![](assets/setreminder.png)
-   *Configuration des rappels pour votre session*
+   *Configurer des rappels pour votre session*
 
 1. Procédez comme suit :
 

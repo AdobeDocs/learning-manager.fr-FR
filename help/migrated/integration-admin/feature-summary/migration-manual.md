@@ -33,7 +33,7 @@ Les conditions préalables à la migration, les étapes clés impliquées dans l
 L’équipe de Learning Manager attend des administrateurs d’intégration de votre entreprise qu’ils effectuent les tâches suivantes avant l’exécution du processus de migration :
 
 * L’administrateur d’intégration extrait les données et le contenu du LMS en place et transforme les données aux formats de fichiers, tel que défini par Learning Manager.
-* Learning Manager ne prend pas en charge l’importation des utilisateurs dans le cadre du processus de migration et attend de l’entreprise qu’elle s’en charge à l’aide de connecteurs. Adobe Systems s’attend à ce que ces derniers soient configurés avant l’exécution du processus de migration. Reportez-vous à [Aide des connecteurs Learning Manager](connectors.md) pour plus d’informations.
+* Learning Manager ne prend pas en charge l’importation des utilisateurs dans le cadre du processus de migration et attend de l’entreprise qu’elle s’en charge à l’aide de connecteurs. Adobe Systems s’attend à ce que ces derniers soient configurés avant l’exécution du processus de migration. Reportez-vous à l&#39;[Aide des connecteurs Learning Manager](connectors.md) pour plus d&#39;informations.
 
 L’équipe Learning Manager recommande aux administrateurs de tester le processus de migration avec un compte d’évaluation avant de migrer les données et le contenu dans l’environnement de production Learning Manager.
 
@@ -385,7 +385,7 @@ Vous trouverez ci-dessous les spécifications CSV standard que vous pouvez utili
  </tbody>
 </table>
 
-Learning Manager prend en charge les valeurs de date et d’heure aux formats UTF 8 et 32 bits uniquement. Vous risquez d’obtenir des erreurs lors de la migration si vous mentionnez une date dans les fichiers CSV dont la date est hors limites comme 2038-07-17T08:53:21.000Z ou 1980-04-17T08:13:25,322Z.
+Learning Manager prend en charge les valeurs de date et d’heure aux formats UTF 8 et 32 bits uniquement. Vous risquez d’obtenir des erreurs lors de la migration si vous mentionnez la date dans des fichiers CSV avec une date hors limites comme 2038-07-17T08:53:21.000Z ou 1980-04-17T08:13:25.322Z.
 
 * [sample-csvs.zip](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
@@ -437,17 +437,17 @@ Vous recevrez un courrier électronique depuis Box contenant un lien vers le dos
 
 **Chargement des données (fichiers .csv) vers des dossiers FTP ou Box**
 
-La création d’un compte FTP ou Box est une condition préalable à la création d’un projet de migration. À ce stade, vous pouvez donc créer un projet de migration et un sprint dans l’application Learning Manager.  Reportez-vous à **Procédure de migration des données et du contenu** dans cette page pour créer un projet de migration.
+La création d’un compte FTP ou Box est une condition préalable à la création d’un projet de migration. À ce stade, vous pouvez donc créer un projet de migration et un sprint dans l’application Learning Manager.  Reportez-vous à la section **Procédure de migration des données et du contenu** sur cette page pour créer un projet de migration.
 
 Dans le compte FTP ou Box, cliquez sur le nom de dossier de votre projet puis sur le nom du sprint. À l’intérieur du dossier du sprint, vous pouvez télécharger les fichiers de données CSV que vous avez l’intention de migrer. Pour ce faire, cliquez sur le bouton Charger les fichiers en haut du serveur FTP ou Box, puis déposez les fichiers .csv. Un exemple d’instantané après le chargement sur FTP est présenté ci-dessous pour référence.
 
 <!--![](assets/exavault-upload.png)-->
 
-Vous pouvez revenir au projet de migration Learning Manager, puis cliquer sur **[!UICONTROL Actualiser]** et afficher tous les types de données .csv répertoriés dans votre sprint de migration.
+Vous pouvez revenir au projet de migration Learning Manager, cliquer sur **[!UICONTROL Actualiser]** et afficher tous les types de données .csv répertoriés dans votre sprint de migration.
 
 **Charger le contenu de formation vers les dossiers de contenu**
 
-Chargez le contenu de formation de votre LMS existant vers votre compte Box. Si vous avez déjà créé le projet de migration et le sprint, il se peut que le compte Box ait rempli leur champ de nom. Vous pouvez charger le contenu dans le même chemin d’accès. Reportez-vous à **Procédure de migration des données et du contenu** dans cette page pour créer un projet de migration.
+Chargez le contenu de formation de votre LMS existant vers votre compte Box. Si vous avez déjà créé le projet de migration et le sprint, il se peut que le compte Box ait rempli leur champ de nom. Vous pouvez charger le contenu dans le même chemin d’accès. Reportez-vous à la section **Procédure de migration des données et du contenu** sur cette page pour créer un projet de migration.
 
 Vous pouvez glisser et déposer des fichiers de contenu ou cliquez sur **[!UICONTROL Charger]** puis sélectionnez les fichiers depuis votre bureau. Si la taille de fichier du contenu est considérable, il est possible que le chargement des fichiers prenne un certain temps. Selon la taille du fichier, le temps nécessaire au téléchargement des fichiers vers votre compte Box varie.
 
@@ -469,7 +469,7 @@ Une fois que vous êtes connecté aux serveurs FTP et Box et que vous avez charg
 
 La procédure de migration des données et du contenu de votre LMS d’entreprise vers Learning Manager est expliquée comme suit :
 
-Consultez les conditions préalables à la migration avant de débuter celle-ci. Reportez-vous à [Spécifications et exemples de fichiers CSV](migration-manual.md#main-pars_header_140933605) dans cette page et préparez les fichiers CSV pour la migration des données et du contenu.
+Consultez les conditions préalables à la migration avant de débuter celle-ci. Reportez-vous à la section [Spécifications CSV et exemples de fichiers CSV](migration-manual.md#main-pars_header_140933605) de cette page et préparez les fichiers CSV pour la migration des données et du contenu.
 
 1. Connectez-vous à l’application Learning Manager en tant qu’administrateur d’intégration et cliquez sur **[!UICONTROL Migration]** dans le volet de gauche.
 
@@ -491,16 +491,16 @@ Consultez les conditions préalables à la migration avant de débuter celle-ci.
    ![](assets/users-modified-sprint.png)
    *Migration de sprint*
 
-   Cochez la case avec le titre **Des utilisateurs ont été ajoutés ou modifiés depuis la dernière exécution**, pour synchroniser la liste d’utilisateurs avec l’application Learning Manager. Si vous effectuez une migration du contenu et des données dans l’application Learning Manager, cette étape n’est pas obligatoire. Toutefois, si un laps de temps s’est écoulé entre votre dernière migration de sprint et la plus récente, il est recommandé de synchroniser la liste des utilisateurs. Cette étape permet à la base de données Learning Manager d’être synchronisée avec les utilisateurs de votre LMS.
+   Cochez la case intitulée **Des utilisateurs ont été ajoutés ou modifiés depuis la dernière exécution**, pour synchroniser la liste d&#39;utilisateurs avec l&#39;application Learning Manager. Si vous effectuez une migration du contenu et des données dans l’application Learning Manager, cette étape n’est pas obligatoire. Toutefois, si un laps de temps s’est écoulé entre votre dernière migration de sprint et la plus récente, il est recommandé de synchroniser la liste des utilisateurs. Cette étape permet à la base de données Learning Manager d’être synchronisée avec les utilisateurs de votre LMS.
 
    Cette étape de synchronisation est conseillée si les fichiers enrollment.csv et user_course_grade.csv sont migrés. Cette étape permet à la base de données de Learning Manager d’être synchronisée avec votre base de données de migration et garantit que tous les utilisateurs dont les dossiers doivent être migrés dans le sprint figurent dans la base de données de migration.
 
-1. Vous pouvez lancer la migration de sprint avec les données et le contenu chargés. Cliquez sur **[!UICONTROL Actualiser]** avant de lancer l’exécution du sprint pour synchroniser le FTP et les dossiers de contenu avec l’application Learning Manager.
+1. Vous pouvez lancer la migration de sprint avec les données et le contenu chargés. Cliquez sur le lien **[!UICONTROL Actualiser]** avant de lancer l&#39;exécution du sprint pour synchroniser le FTP et les dossiers de contenu avec l&#39;application Learning Manager.
 
    ![](assets/sprint1-filesupload.png)
    *Démarrer la migration du sprint*
 
-   Cliquez sur **[!UICONTROL Début]** dans le coin supérieur droit de la page. Vous pouvez cliquer **[!UICONTROL Arrêter]** à tout moment au cours du processus de migration de sprint, pour interrompre la migration de sprint.
+   Cliquez sur **[!UICONTROL Démarrer]** dans le coin supérieur droit de la page. Vous pouvez cliquer sur **[!UICONTROL Arrêter]** à tout moment au cours du processus de migration de sprint pour arrêter la migration de sprint.
 
    L’état de la migration est affiché sur chacun des éléments de données et de contenu du sprint. Vérifiez le nombre d’éléments ayant réussi et échoué dans le cadre de l’exécution du sprint de migration.
 
@@ -516,7 +516,7 @@ Consultez les conditions préalables à la migration avant de débuter celle-ci.
    ![](assets/sprint-list.png)
    *Afficher la liste des sprints*
 
-1. Après avoir téléchargé les CSV mis à jour les plus récents, vous pouvez cliquer sur Réexécuter dans le coin supérieur droit de la page. La réexécution traite à nouveau tous les éléments de données, en ignorant ceux pour lesquels il n’y a pas de modification. Une fois que vous êtes satisfait de la migration des éléments de données d’un sprint, vous pouvez marquer la migration comme terminée en cliquant sur le bouton situé en haut de la page. Vous pouvez initier un nouveau sprint avec plus d’éléments de données ultérieurement. Une fois qu’un sprint est marqué comme terminé, vous ne pouvez pas le réexécuter. De manière similaire, vous pouvez avoir autant de sprints que vous le souhaitez dans un projet de migration. Une fois que vous êtes satisfait du statut de migration de tous les Sprints, vous pouvez marquer le projet de migration comme terminé en cliquant sur **Marquer le projet comme terminé** sur la page Liste de sprint.
+1. Après avoir téléchargé les CSV mis à jour les plus récents, vous pouvez cliquer sur Réexécuter dans le coin supérieur droit de la page. La réexécution traite à nouveau tous les éléments de données, en ignorant ceux pour lesquels il n’y a pas de modification. Une fois que vous êtes satisfait de la migration des éléments de données d’un sprint, vous pouvez marquer la migration comme terminée en cliquant sur le bouton situé en haut de la page. Vous pouvez initier un nouveau sprint avec plus d’éléments de données ultérieurement. Une fois qu’un sprint est marqué comme terminé, vous ne pouvez pas le réexécuter. De manière similaire, vous pouvez avoir autant de sprints que vous le souhaitez dans un projet de migration. Une fois que vous êtes satisfait du statut de migration de tous les Sprints, vous pouvez marquer le projet de migration comme terminé en cliquant sur le lien **Marquer le projet comme terminé** sur la page Liste des sprints.
 
    Avant de marquer le projet de migration comme terminé, vous devez vous assurer que tous ses sprints du projet sont terminés. Une fois que vous avez marqué le projet de migration comme terminé, vous ne pouvez ni revenir pour créer de sprints dans ce projet ni y apporter de modifications. Vous devez créer un autre projet de migration et y ajouter des sprints.
 
@@ -563,7 +563,7 @@ Learning Manager prend en charge l’UUID pour fournir aux entreprises de la fl
 
 **Scénario d’utilisation d’un UUID au sein d’une entreprise**
 
-Imaginez un scénario dans lequel un employé A rejoint une société nommée Learning Manager, en tant que sous-traitant. Pendant la période du contrat, la société Learning Manager ne peut pas fournir l’ID de messagerie de la société comme ```A@example.com```, au lieu de cela, l’entreprise peut uniquement prendre en compte le compte e-mail personnel de l’employé, par exemple : ```A@gmail.com```. Après avoir terminé 6 mois de période contractuelle, si le même employé A rejoint Learning Manager en tant qu’employé à temps plein, Learning Manager peut vouloir modifier son ID de messagerie en ID de messagerie de l’entreprise : ```A@example.com```.
+Imaginez un scénario dans lequel un employé A rejoint une société nommée Learning Manager, en tant que sous-traitant. Pendant la période du contrat, l’entreprise Learning Manager ne peut pas fournir l’ID de messagerie de l’entreprise comme ```A@example.com```, mais peut uniquement prendre en compte le compte de messagerie personnel de l’employé, par exemple, ```A@gmail.com```. Après avoir terminé 6 mois de période contractuelle, si le même employé A rejoint Learning Manager en tant qu’employé à temps plein, Learning Manager peut vouloir modifier son ID de messagerie en ID de messagerie de son entreprise : ```A@example.com```.
 
 Avoir un accès UUID au compte utilisateur sera bénéfique pour la société Learning Manager dans le scénario mentionné ci-dessus. L’entreprise Learning Manager peut facilement remplacer l’ID de messagerie personnel de l’employé A par un ID de messagerie officiel. Les dossiers de l’employé pertinents pour ce compte ne sont pas affectés par cette modification.
 

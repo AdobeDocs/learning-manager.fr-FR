@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Impossible d’attribuer un badge
 description: Lorsqu’un élève a terminé un cours, un programme d’apprentissage ou une certification, aucun badge ne lui est décerné.
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 74%
 
 ---
-
-
 
 # Impossible d’attribuer un badge
 
@@ -44,11 +43,11 @@ Si un élève rencontre le problème, procédez comme suit :
 
    ![](assets/view-a-badge.png)
 
-1. Supprimez le badge de l’objet d’apprentissage, puis cliquez sur **[!UICONTROL Enregistrer]**.
+1. Supprimez le badge de l&#39;objet d&#39;apprentissage et cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/remove-a-badge.png)
 
-1. Réattribuez le badge à l’objet d’apprentissage et cliquez sur **[!UICONTROL Enregistrer]**.
+1. Réattribuez le badge à l&#39;objet d&#39;apprentissage et cliquez sur **[!UICONTROL Enregistrer]**.
 
    Cette étape attribue le badge à tous les élèves inscrits à l’objet d’apprentissage.
 

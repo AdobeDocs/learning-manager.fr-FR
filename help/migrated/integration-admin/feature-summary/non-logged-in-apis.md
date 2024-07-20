@@ -1,5 +1,5 @@
 ---
-description: Découvrez les API non connectées pour développer l’interface sans interface.
+description: Découvrez les API non connectées pour développer l’interface sans en-tête.
 jcr-language: en_us
 title: API non connectées
 source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 # API non connectées
 
-Pour en savoir plus sur les API Adobe Learning Manager, qui fournissent des données pour l’expérience sans affichage ou non connectée, consultez cet article.
-API Search publique
+Pour en savoir plus sur les API Adobe Learning Manager, qui fournissent des données pour l’expérience sans tête ou hors connexion, consultez cet article.
+API de recherche publique
 
-## API Search publique
+## API de recherche publique
 
-### Filtrer les données à l’aide de Public ES
+### Filtrage des données à l’aide de Public ES
 
-L’API Public Search vous permet d’obtenir les données de filtre qui peuvent être utilisées avec l’API de recherche de base pour filtrer les cours. Cette API fournit tous les filtres pouvant être utilisés dans l’API de recherche.
+L&#39;API de recherche publique vous permet d&#39;obtenir les données de filtre qui peuvent être utilisées avec l&#39;API de recherche de base pour filtrer les cours. Cette API fournit tous les filtres pouvant être utilisés dans l’API de recherche.
 
-**Exemple de curl**
+**Exemple de boucle**
 
-Utilisez la méthode GET pour effectuer la requête suivante. Remplacez &lt;Base_URL> par votre URL de base dans la commande curl ci-dessous. &lt;/Base_URL> Vous trouverez le &lt;Base_URL> sur la page du connecteur d’accès aux données de formation.&lt;/Base_URL>
+Utilisez la méthode de GET pour effectuer la requête suivante. Remplacez &lt;Base_URL> par votre URL de base dans la commande de boucle ci-dessous. Vous trouverez l’&lt;Base_URL> sur la page du connecteur d’accès aux données de formation.
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -93,28 +93,28 @@ curl --location '<Base_URL>/filterableData'
 
 | Options | Description |
 | --- | --- |
-| `loSkillLevels` | Le niveau de compétence requis pour s’inscrire au cours. |
-| `catalogNames` | Liste des noms de catalogues disponibles. |
+| `loSkillLevels` | Niveau de maîtrise requis pour s&#39;inscrire au cours. |
+| `catalogNames` | Liste des noms de catalogue disponibles. |
 | `loType` | Types d’objets d’apprentissage disponibles. |
-| `availability` | La disponibilité des places et la disponibilité de la liste d’attente. |
-| `loSkillNames` | Noms des compétences ajoutées aux objets d’apprentissage. |
+| `availability` | Disponibilité des places et des listes d’attente. |
+| `loSkillNames` | Noms de compétences ajoutés aux objets d’apprentissage. |
 | `tags` | Balises associées aux objets d’apprentissage. |
 | `authors` | Nom de l’auteur des objets d’apprentissage |
 | `duration` | Durée des objets d’apprentissage. |
-| `dateCreated` | Date à laquelle l’objet d’apprentissage a été créé. |
-| `sessionEndTime` | Heure à laquelle la session s’est terminée. |
-| `averageRating` | Le nombre moyen d’étoiles des objets d’apprentissage. |
-| `sessionStartTime` | Heure à laquelle la session a commencé. |
+| `dateCreated` | Date de création de l’objet d’apprentissage. |
+| `sessionEndTime` | Heure de fin de la session. |
+| `averageRating` | Nombre moyen d’étoiles des objets d’apprentissage. |
+| `sessionStartTime` | Heure de début de la session. |
 | `publishDate` | Date de publication de l’objet d’apprentissage. |
-| `ratingsCount` | Nombre de notes pour l’objet d’apprentissage. |
+| `ratingsCount` | Nombre d&#39;évaluations pour l&#39;objet d&#39;apprentissage. |
 
-### Search API
+### API de recherche
 
-L’API Search publique vous permet d’obtenir des données de recherche de base à l’aide des données fournies.
+L’API de recherche publique vous permet d’obtenir des données de recherche de base à l’aide des données fournies.
 
-**Exemple de Curl**
+**Exemple de boucle**
 
-Utilisez la méthode POST pour effectuer la requête suivante. Remplacez &lt;Base_URL> par votre URL de base dans la commande curl ci-dessous. &lt;/Base_URL> Vous trouverez le &lt;Base_URL> sur la page du connecteur d’accès aux données de formation.&lt;/Base_URL>
+Utilisez la méthode du POST pour effectuer la requête ci-dessous. Remplacez &lt;Base_URL> par votre URL de base dans la commande de boucle ci-dessous. Vous trouverez l’&lt;Base_URL> sur la page du connecteur d’accès aux données de formation.
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -166,7 +166,7 @@ curl --location '<Base_URL>/search?size=1000' \
 }'
 ```
 
-**Exemple de réponse de l’appel API**
+**Exemple de réponse de l&#39;appel API**
 
 ```
 {
@@ -262,7 +262,7 @@ curl --location '<Base_URL>/search?size=1000' \
 }
 ```
 
-**Options de tri sur l’API Search**
+**Options de tri sur l&#39;API de recherche**
 
 Vous pouvez sélectionner les options de tri suivantes à appliquer aux résultats.
 
@@ -270,25 +270,25 @@ Vous pouvez sélectionner les options de tri suivantes à appliquer aux résulta
 | --- | --- |
 | `duration` | Durée de l’objet d’apprentissage. |
 | `publishDate` | Date de publication de l’objet d’apprentissage. |
-| `dateCreated` | Date à laquelle l’objet d’apprentissage a été créé. |
+| `dateCreated` | Date de création de l’objet d’apprentissage. |
 | `name_en` | Nom de l’objet d’apprentissage. |
-| `averageRating` | Note moyenne par étoiles fournie par les apprenants. |
-| `ratingsCount` | Nombre de notes pour l’objet d’apprentissage. |
+| `averageRating` | Évaluation moyenne par étoiles fournie par les élèves. |
+| `ratingsCount` | Nombre d&#39;évaluations pour l&#39;objet d&#39;apprentissage. |
 | `relevance(default)` | Les données pertinentes sont basées sur les mots-clés de recherche. |
 
-### Obtention de données d’objet d’apprentissage à l’aide de l’API de recherche publique
+### Obtention des données des objets d’apprentissage à l’aide de l’API de recherche publique
 
-L’API Public ES Learning Object vous permet d’obtenir la liste des types et des ID d’objets d’apprentissage disponibles sur l’interface sans affichage.
+L’API d’objet d’apprentissage ES public vous permet d’obtenir la liste des types et des ID des objets d’apprentissage disponibles sur l’interface sans en-tête.
 
-**Exemple de curl**
+**Exemple de boucle**
 
-Utilisez la méthode GET pour effectuer la requête suivante. Remplacez &lt;Base_URL> par votre URL de base dans la commande curl ci-dessous. &lt;/Base_URL> Vous trouverez le &lt;Base_URL> sur la page du connecteur d’accès aux données de formation.&lt;/Base_URL>
+Utilisez la méthode de GET pour effectuer la requête suivante. Remplacez &lt;Base_URL> par votre URL de base dans la commande de boucle ci-dessous. Vous trouverez l’&lt;Base_URL> sur la page du connecteur d’accès aux données de formation.
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
 ```
 
-**Exemple de réponse pour l’appel d’API**
+**Exemple de réponse pour l&#39;appel API**
 
 ```
 {
@@ -300,19 +300,19 @@ curl --location '<Base_URL>/learningObjectIds'
 }
 ```
 
-## API de résumé du cours
+## API de résumé de cours
 
-L’API de résumé de cours vous permet de récupérer des informations détaillées sur un cours spécifique.
+L&#39;API de résumé de cours vous permet de récupérer des informations détaillées sur un cours spécifique.
 
-**Exemple de curl**
+**Exemple de boucle**
 
-Utilisez la méthode GET pour effectuer la requête suivante. Remplacez &lt;Base_URL> par votre URL de base dans la commande curl ci-dessous. &lt;/Base_URL> Vous trouverez le &lt;Base_URL> sur la page du connecteur d’accès aux données de formation. &lt;/Base_URL> Remplacez cet &lt;Course_ID> espace par l’ID de cours spécifique.&lt;/Course_ID>
+Utilisez la méthode de GET pour effectuer la requête suivante. Remplacez &lt;Base_URL> par votre URL de base dans la commande de boucle ci-dessous. Vous trouverez l’&lt;Base_URL> sur la page du connecteur d’accès aux données de formation. Remplacez &lt;Course_ID> par l’ID de cours spécifique.
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 ```
 
-**Exemple de réponse de l’appel API**
+**Exemple de réponse de l&#39;appel API**
 
 ```
 {
@@ -337,19 +337,19 @@ curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 >
 >Si un cours comporte plusieurs instances, vous obtiendrez des détails pour toutes les instances.
 
-## API JSON CDN pour les détails du cours
+## API CDN JSON pour les détails du cours
 
-L’API CDN JSON vous permet de récupérer les informations complètes sur un cours spécifique.
+L&#39;API CDN JSON vous permet de récupérer les informations complètes sur un cours spécifique.
 
-**Exemple de curl pour le cours**
+**Exemple de boucle pour le cours**
 
-Utilisez la méthode GET pour effectuer la requête suivante. Remplacez &lt;CDN_path> par votre URL de base dans la commande curl ci-dessous. &lt;/CDN_path> Vous trouverez le &lt;CDN_path> sur la page du connecteur d’accès aux données de formation. &lt;/CDN_path> Remplacez cet &lt;Course_ID> espace par l’ID de cours spécifique.&lt;/Course_ID>
+Utilisez la méthode de GET pour effectuer la requête suivante. Remplacez &lt;chemin_CDN> par votre URL de base dans la commande de boucle ci-dessous. Vous trouverez le &lt;chemin_CDN> sur la page du connecteur d’accès aux données de formation. Remplacez &lt;Course_ID> par l’ID de cours spécifique.
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
 ```
 
-**Exemple de curl pour le cursus de formation et la certification**
+**Exemple de boucle pour le parcours d’apprentissage et la certification**
 
 ```
 curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
@@ -359,7 +359,7 @@ curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
 curl --location '<CDN_path_URL>/ certification /<Certification_ID>.json'
 ```
 
-**Exemple de réponse de l’appel API**
+**Exemple de réponse de l&#39;appel API**
 
 ```
 {

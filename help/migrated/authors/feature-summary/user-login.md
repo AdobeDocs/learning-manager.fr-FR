@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Connexion utilisateur
 description: Lorsque vous utilisez Adobe Learning Manager pour la première fois, vous devez créer votre compte.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: f8f0ac74-606e-40ac-81c7-1c3d2fa9a0bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 42%
 
 ---
-
-
 
 # Connexion utilisateur
 
@@ -28,7 +27,7 @@ Lorsque vous utilisez Adobe Learning Manager pour la première fois, vous deve
 
 1. Saisissez Adobe ID, le mot de passe et cliquez sur **[!UICONTROL Se connecter]**.
 
-   Si vous avez oublié le mot de passe, cliquez sur **[!UICONTROL Mot de passe oublié ?]** et indiquez l’adresse e-mail que vous avez utilisée pour créer Adobe ID.
+   Si vous avez oublié le mot de passe, cliquez sur **[!UICONTROL Mot de passe oublié ?Lien]** et indiquez l’adresse e-mail utilisée pour créer Adobe ID.
 
 1. Vous pouvez également utiliser Enterprise ID en cliquant sur **[!UICONTROL Se connecter avec un lien de Enterprise ID]**.
 

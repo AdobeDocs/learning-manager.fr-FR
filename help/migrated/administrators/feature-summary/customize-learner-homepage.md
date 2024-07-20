@@ -27,17 +27,17 @@ Dans cette formation, vous découvrirez comment personnaliser la page d’accuei
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Configuration de la page d’accueil des élèves {#configurethelearnerhomepage}
 
-Sur la **Branding** > **Page d’accueil de l’élève** , un administrateur peut personnaliser l&#39;expérience de la page d&#39;accueil d&#39;un élève, de sorte que lorsque l&#39;élève se connecte à l&#39;application de l&#39;élève, il voit un aspect complètement remanié.
+Sur la page **Identité visuelle** > **Page d&#39;accueil de l&#39;élève**, un administrateur peut personnaliser l&#39;expérience de la page d&#39;accueil d&#39;un élève, de sorte que lorsque l&#39;élève se connecte dans l&#39;application de l&#39;élève, il voit un aspect complètement remanié.
 
-Les administrateurs peuvent définir l’interface utilisateur (apparence) à partir de l’application d’administration (**Branding** > **Page d’accueil de l’élève** tab).
+Les administrateurs peuvent définir l&#39;interface utilisateur (apparence et convivialité) à partir de l&#39;application d&#39;administration (onglet **Identité visuelle** > **Page d&#39;accueil de l&#39;élève**).
 
 Les administrateurs peuvent passer en mode Widget d’interface utilisateur immersive, personnaliser les widgets/fonctions en conséquence, puis activer l’interface utilisateur immersive.
 
-Le **Page d’accueil de l’élève** screen contient les sections suivantes :
+L&#39;écran **Page d&#39;accueil des élèves** contient les sections suivantes :
 
 ## Option de mise en page immersive {#immersivelayoutoption}
 
@@ -47,15 +47,15 @@ Dans les versions précédentes, les options de la page d’accueil des élèves
 
 Voici les options que vous pouvez définir :
 
-**Expérience de la page d’accueil :** Activer soit **Classique** ou **Immersif**. Si vous choisissez Immersive, les options suivantes s’affichent :
+**Expérience de la page d&#39;accueil :** activez **Classique** ou **Immersif**. Si vous choisissez Immersive, les options suivantes s’affichent :
 
-* **Type de formation :** Choisissez l’une des options suivantes : **Industrie** ou **Aligné personnalisé**. Les formations personnalisées sont créées sur place. Les formations axées sur le secteur d’activité comprennent du contenu standard provenant de fournisseurs tiers.
+* **Type de formation :** Choisissez **Secteur** ou **Aligné sur la base du profil personnalisé**. Les formations personnalisées sont créées sur place. Les formations axées sur le secteur d’activité comprennent du contenu standard provenant de fournisseurs tiers.
 
 ![](assets/select-homepage-experience.png)
 
-*Définissez l’expérience de la page d’accueil en sélectionnant Secteur ou Aligné personnalisé*
+*Définissez l’expérience de la page d’accueil en sélectionnant Industrie ou Aligné personnalisé*
 
-L’option **Permettre à l’élève d’explorer les domaines d’intérêt** est disponible pour les expériences Classique et Immersive.
+L&#39;option **Permettre à l&#39;élève d&#39;explorer les centres d&#39;intérêt** est disponible pour les expériences classiques et immersives.
 
 <table>
  <tbody>
@@ -78,13 +78,13 @@ S’il y a moins de 1 000 élèves, l’ensemble du compte est considéré comm
 
 >[!NOTE]
 >
->Case à cocher **Exploration des compétences** a été déplacé dans Paramètres > Général.
+>La case à cocher **Explorer les compétences** a été déplacée vers Paramètres > Général.
 
 Cette option est activée et grisée si vous choisissez l’expérience immersive. Cette case à cocher n’est activée que pour l’expérience classique.
 
 ![](assets/option-immersive.png)
 
-*Paramètres de la page d’accueil de l’élève*
+*Paramètres de la page d’accueil des élèves*
 
 La mise en page immersive est définie par défaut pour tous les nouveaux comptes. La mise en page est contrôlée par des widgets qu’un administrateur peut activer ou désactiver. En fonction du positionnement des widgets, cela se reflète sur la page d’accueil de l’élève.
 
@@ -92,11 +92,11 @@ Voici les widgets que vous pouvez activer/désactiver.
 
 Vous pouvez ainsi prévisualiser l’interface utilisateur des élèves avant qu’elle ne soit en ligne.
 
-Pour les comptes existants, l’option **Immersif** sera **DÉSACTIVÉ**. Il est activé pour les nouveaux comptes avec Social et Ludification activés.
+Pour les comptes existants, l&#39;option **Immersive** sera **OFF**. Il est activé pour les nouveaux comptes avec Social et Ludification activés.
 
 ![](assets/immersive-layout-widgets.png)
 
-*Aperçu de l’interface utilisateur de l’élève*
+*Aperçu de l&#39;interface utilisateur de l&#39;élève*
 
 <table>
  <tbody>
@@ -114,7 +114,7 @@ Pour les comptes existants, l’option **Immersif** sera **DÉSACTIVÉ**. Il est
     <p>C’est une bannière de bienvenue pour les élèves. La bannière peut être une image ou une vidéo. Vous pouvez cibler l’en-tête sur des groupes d’utilisateurs spécifiques et un élève peut afficher l’en-tête dès qu’il accède à la page d’accueil. Un groupe d’utilisateurs peut voir plusieurs heros images ou vidéos en fonction de la formule cible définie par l’administrateur. </p>
     <p>Voici comment un administrateur charge une bannière :</p>
     <ol>
-     <li>Dans le panneau de gauche, cliquez sur <b>Annonce</b>.<br></li>
+     <li>Dans le panneau de gauche, cliquez sur <b>Annonces</b>.<br></li>
      <li>Cliquez sur <b>Ajouter</b> dans le coin supérieur droit de la page.</li>
      <li>Dans la liste déroulante <b>Type</b>, sélectionnez <b>Comme en-tête</b>.</li>
      <li>Écrivez un message qui apparaîtra dans l’en-tête.</li>
@@ -160,7 +160,7 @@ Pour les comptes existants, l’option **Immersif** sera **DÉSACTIVÉ**. Il est
     <p>Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Chaque groupe d’utilisateurs peut cibler une ou plusieurs formations et le plan cible serait basé sur un calendrier. <br></p>
     <ul>
      <li>
-      <p>Tout d’abord, l’administrateur <a href="announcements.md#recommendation">crée une annonce</a> de type <b>Comme recommandation</b> puis sélectionne la formation requise et utilise des groupes. Un élève appartenant à un groupe d’utilisateurs pourra voir la formation recommandée.</p></li>
+      <p>Tout d'abord, l'administrateur <a href="announcements.md#recommendation">crée une annonce</a> de type <b>Comme recommandation</b>, puis sélectionne la formation requise et utilise des groupes. Un élève appartenant à un groupe d’utilisateurs pourra voir la formation recommandée.</p></li>
      <li>
       <p>Deuxièmement, l’administrateur peut également décider si les recommandations sont activées immédiatement ou à une date spécifiée.</p></li>
     </ul></td>
@@ -203,7 +203,7 @@ Lorsque l’élève se connecte à l’application de l’élève via un navigat
  </tbody>
 </table>
 
-*Affichage de la mise en page immersive pour différentes sections sur la page d’accueil*
+*Afficher la mise en page immersive pour différentes sections sur la page d&#39;accueil*
 
 ## Option de mise en page classique {#classiclayoutoption}
 
@@ -215,9 +215,9 @@ La mise en page de l’interface utilisateur qui a toujours existé jusqu’à p
 
 ## Configuration des paramètres de recommandation {#configurerecommendationsettings}
 
-Activé **Branding** > **Généralités**, vous pouvez configurer les portées des recommandations pour les élèves internes et externes et permettre aux élèves de choisir des compétences sur la page d’accueil de l’élève.
+Sur **Identité visuelle** > **Général**, vous pouvez configurer la portée des recommandations pour les élèves internes et externes et permettre aux élèves de choisir des compétences sur la page d&#39;accueil de l&#39;élève.
 
-Sur la **Généralités** , vous disposez des options suivantes :
+Sur la page **Général**, vous disposez des options suivantes :
 
 <table>
  <tbody>
@@ -273,13 +273,13 @@ Sur la **Généralités** , vous disposez des options suivantes :
    <td>
     <p>Permettre à l’élève de découvrir les centres d’intérêt</p></td>
    <td>
-    <p>Applicable uniquement à l’expérience Classique. Choisir <b>Oui </b>ou <b>Non</b>.<br></p></td>
+    <p>Applicable uniquement à l’expérience Classique. Choisissez <b>Oui </b> ou <b>Non</b>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Demandez aux utilisateurs de sélectionner des domaines (compétences) <br></p></td>
    <td>
-    <p>Applicable uniquement à l’expérience Immersive. Choisir <b>Oui</b> ou <b>Non</b>. <br></p></td>
+    <p>Applicable uniquement à l’expérience Immersive. Choisissez <b>Oui</b> ou <b>Non</b>. <br></p></td>
   </tr>
  </tbody>
 </table>

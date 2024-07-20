@@ -27,7 +27,7 @@ Dans cette formation, vous apprendrez à créer un parcours d’apprentissage, �
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Avantages d’un parcours d’apprentissage
 
@@ -43,21 +43,21 @@ Les parcours d&#39;apprentissage rendent la prestation d&#39;un programme de for
 
 Dans Learning Manager, dans l’application d’administration, cliquez sur **[!UICONTROL Parcours d’apprentissage]** dans le panneau de gauche.
 
-Dans le panneau **[!UICONTROL Parcours d’apprentissage]** page, cliquez sur **[!UICONTROL Ajouter]**. Saisissez les détails.
+Dans la page **[!UICONTROL Parcours d’apprentissage]**, cliquez sur **[!UICONTROL Ajouter]**. Saisissez les détails.
 
 ![](assets/add-learning-path.png)
 
 *Ajouter un nouveau parcours d’apprentissage*
 
-Dans le panneau **Type d’inscription** option, sélectionner **Auto-inscription** ou **Inscription administrateur**.
+Dans l&#39;option **Type d&#39;inscription**, sélectionnez **Auto-inscription** ou **Inscription administrateur**.
 
 >[!NOTE]
 >
->Si vous sélectionnez **Inscription administrateur** , les élèves ne verront que des cours nommés par le responsable ou approuvés par le responsable. Les élèves ne pourront pas voir le parcours d’apprentissage dans la section des recommandations.
+>Si vous sélectionnez l&#39;option **Inscription administrateur**, les élèves ne verront que des cours nommés ou approuvés par le responsable. Les élèves ne pourront pas voir le parcours d’apprentissage dans la section des recommandations.
 
 Après avoir créé le parcours d’apprentissage, sélectionnez le nouveau parcours d’apprentissage et ajoutez les cours dans le parcours.
 
-Vous pouvez ajouter des compétences et attribuer un badge au parcours d’apprentissage. Pour ajouter une compétence, sélectionnez la ou les compétences requises dans la liste **[!UICONTROL Choisir une compétence]** liste déroulante. Sélectionnez également le niveau de la compétence ou des compétences.
+Vous pouvez ajouter des compétences et attribuer un badge au parcours d’apprentissage. Pour ajouter une compétence, sélectionnez la ou les compétences requises dans la liste déroulante **[!UICONTROL Choisir une compétence]**. Sélectionnez également le niveau de la compétence ou des compétences.
 
 ![](assets/add-skills.png)
 
@@ -65,7 +65,7 @@ Vous pouvez ajouter des compétences et attribuer un badge au parcours d’appre
 
 Attribuez un badge au parcours d’apprentissage. Sélectionnez un badge dans la liste des badges disponibles.
 
-Sélectionnez le niveau de produits, de rôles et de rôles dans la liste **[!UICONTROL Recommander pour]** pour suggérer ce parcours d’apprentissage aux utilisateurs qui ont exprimé leur intérêt pour ces produits et rôles.
+Sélectionnez le niveau de produits, de rôles et de rôles dans la section **[!UICONTROL Recommander pour]** pour suggérer ce parcours d’apprentissage aux utilisateurs qui ont exprimé leur intérêt pour ces produits et rôles.
 
 ![](assets/recommend-for.png)
 
@@ -89,27 +89,27 @@ Après avoir sélectionné les cours ou le parcours d’apprentissage, cliquez s
 
 Dans le parcours d’apprentissage, vous pouvez effectuer les opérations suivantes :
 
-**Créer et configurer une section :** Une section est créée pour regrouper plusieurs cours de formation qui complètent un domaine ou un composant important de la formation. Chaque section peut avoir un titre. Chaque section peut également être marquée Obligatoire avec des exigences d’achèvement spécifiques.
+**Créer et configurer une section :** une section est créée pour regrouper plusieurs cours de formation qui complètent un domaine ou un composant important de la formation. Chaque section peut avoir un titre. Chaque section peut également être marquée Obligatoire avec des exigences d’achèvement spécifiques.
 
-**Rendre les cours obligatoires dans chaque section :** Activez ou désactivez la case à cocher Obligatoire si vous souhaitez ou ne souhaitez pas rendre les formations obligatoires dans le parcours d’apprentissage. Si vous activez la case à cocher, vous pouvez rendre toutes les formations obligatoires ou certaines formations obligatoires.
+**Rendre les cours obligatoires dans chaque section :** Activez ou désactivez la case à cocher Obligatoire si vous souhaitez/ne souhaitez pas rendre les formations obligatoires dans le parcours d’apprentissage. Si vous activez la case à cocher, vous pouvez rendre toutes les formations obligatoires ou certaines formations obligatoires.
 
 ![](assets/choose-mandatory.png)
 
 *Rendre les cours obligatoires dans chaque section*
 
-**Réorganisez l’ordre :** Vous pouvez déplacer les cours vers le haut ou vers le bas et modifier leur ordre.
+**Réorganiser l&#39;ordre :** vous pouvez déplacer les cours vers le haut ou vers le bas et modifier leur ordre.
 
 ![](assets/rearrange.png)
 
-*Réorganisation de l’ordre de la formation*
+*Réorganiser l’ordre de la formation*
 
-**Supprimer un cours :** Sur la carte du cours, cliquez sur la croix (X), puis supprimez le cours du parcours d’apprentissage.
+**Supprimer un cours :** sur la carte du cours, cliquez sur la croix (X), puis supprimez le cours du parcours d’apprentissage.
 
 ![](assets/remove-course.png)
 
 *Supprimer un cours du parcours d’apprentissage*
 
-Après avoir apporté les modifications, pour publier le parcours d’apprentissage, cliquez sur Publier.
+Après avoir apporté les modifications, pour publier le parcours d’apprentissage, cliquez sur Publish.
 
 ## Parcours d’apprentissage imbriqué
 
@@ -127,15 +127,15 @@ Dans la section Paramètres, vous pouvez ajouter les conditions préalables et l
 
 ![](assets/learing-path-settings.png)
 
-*Modification des paramètres d’un parcours d’apprentissage*
+*Modifier les paramètres d’un parcours d’apprentissage*
 
 ## Instances
 
 Les instances du parcours d’apprentissage affichent une mosaïque supplémentaire, **[!UICONTROL Parcours d’apprentissage]**. La mosaïque affiche le numéro. des programmes d’apprentissage ajoutés à un parcours d’apprentissage.
 
-Dans le panneau **Cours** , vous pouvez voir les instances de cours qui sont visibles par les élèves inscrits à cette instance.
+Dans la mosaïque **Cours**, vous pouvez voir les instances de cours qui sont visibles par les élèves inscrits à cette instance.
 
-Le **[!UICONTROL Permettre aux élèves de choisir des instances (parcours d’apprentissage flexible)]** Cette case à cocher ne s’applique qu’aux cours. Tous les parcours d’apprentissage enfants auront une option pour mapper une instance de programme d’apprentissage avec le parcours d’apprentissage. Par défaut, le mappage est défini sur Instance par défaut.
+La case à cocher **[!UICONTROL Autoriser les élèves à choisir des instances (parcours d’apprentissage flexible)]** ne s’applique qu’aux cours. Tous les parcours d’apprentissage enfants auront une option pour mapper une instance de programme d’apprentissage avec le parcours d’apprentissage. Par défaut, le mappage est défini sur Instance par défaut.
 
 ![](assets/default-instance.png)
 
@@ -145,11 +145,11 @@ Le **[!UICONTROL Permettre aux élèves de choisir des instances (parcours d’a
 
 Trois options s&#39;offrent à vous :
 
-1. **[!UICONTROL Tous les niveaux de compétence, cours et parcours d’apprentissage (sélectionnés par défaut)]:** L’élève reçoit des notifications pour tout cours incomplet, quel que soit le niveau dans un parcours d’apprentissage.
+1. **[!UICONTROL Tous les niveaux de compétence, cours et parcours d’apprentissage (sélectionnés par défaut)] :** l’élève reçoit des notifications pour tout cours incomplet, quel que soit le niveau dans un parcours d’apprentissage.
 1. **[!UICONTROL Parcours d’apprentissage racine]:** L’élève reçoit des notifications pour tout cours incomplet appartenant à un parcours d’apprentissage parent.
-1. **[!UICONTROL Parcours d’apprentissage + enfants du premier niveau de compétence uniquement]:** L’élève reçoit des notifications concernant tout cours incomplet qui est le premier enfant d’un parcours d’apprentissage parent.
+1. **[!UICONTROL Enfants du parcours d’apprentissage + premier niveau de compétence uniquement] :** l’élève reçoit des notifications concernant tout cours incomplet qui est le premier enfant d’un parcours d’apprentissage parent.
 
-Les rappels de notification sont déclenchés en fonction de l’option. Par défaut, l’option **[!UICONTROL Tous les niveaux, cours et parcours d’apprentissage]** est activé pour une instance.
+Les rappels de notification sont déclenchés en fonction de l’option. Par défaut, l&#39;option **[!UICONTROL Tous les niveaux, cours et parcours d&#39;apprentissage]** est activée pour une instance.
 
 ## Abonnements
 
@@ -163,7 +163,7 @@ Procédez comme suit :
 
 ![](assets/subscriptions.png)
 
-*Abonnement à un parcours d’apprentissage individuel*
+*S’abonner à un parcours d’apprentissage individuel*
 
 ## Note importante
 
@@ -173,7 +173,7 @@ Les parcours d’apprentissage vous offrent une gamme de fonctionnalités. Certa
 
 Les élèves peuvent continuer à utiliser les programmes d’apprentissage (désormais appelés « parcours d’apprentissage ») et les auteurs/administrateurs peuvent continuer à les créer. Pour tirer parti des fonctionnalités étendues du parcours d’apprentissage mentionné ci-dessus, l’administrateur doit activer le paramètre comme indiqué ci-dessous. Une fois cette option activée, toutes les nouvelles fonctionnalités étendues du parcours d’apprentissage seront disponibles.
 
-Le **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]** La page propose une nouvelle option pour activer les parcours d’apprentissage. Si cette option est activée, vous pouvez ajouter des cours et des programmes d’apprentissage dans un parcours d’apprentissage Vous ne pouvez pas modifier cette option une fois qu’elle est activée.
+La page **[!UICONTROL Paramètres]** > **[!UICONTROL Général]** propose une nouvelle option pour activer les parcours d’apprentissage. Si cette option est activée, vous pouvez ajouter des cours et des programmes d’apprentissage dans un parcours d’apprentissage Vous ne pouvez pas modifier cette option une fois qu’elle est activée.
 
 <!-- ## Other Learning Path-related details 
 

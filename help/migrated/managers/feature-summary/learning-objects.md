@@ -29,7 +29,7 @@ En tant que responsable, vous pouvez afficher une liste de tous les cours dispon
 
 >[!NOTE]
 >
->La liste de tous les cours retirés peut être visualisée en cliquant sur le bouton **Retraité** onglet.
+>La liste de tous les cours retirés peut être consultée en cliquant sur l&#39;onglet **Retiré**.
 
 ## Affichage des scores du quiz {#viewquizscores}
 
@@ -49,11 +49,11 @@ En tant que responsable, vous pouvez gérer la liste des élèves pour les membr
 
 ![](assets/courses-learners.png)
 
-*Sélectionner une action d’élève*
+*Sélectionner une action d&#39;élève*
 
 >[!NOTE]
 >
->**Exporter les approbations en attente** peut être effectué à partir de l’application de l’élève.
+>L&#39;option **Exporter les approbations en attente** peut être exécutée à partir de l&#39;application de l&#39;élève.
 
 Vous pouvez réaliser les actions suivantes depuis la page Élèves :
 
@@ -66,7 +66,7 @@ Vous pouvez également exporter la liste des élèves dans une feuille Excel. Po
 
 >[!NOTE]
 >
->S&#39;il existe plusieurs instances d&#39;un cours, la liste des élèves dans Excel est fournie dans chaque onglet séparément. La liste des élèves est constituée du nom des stagiaires, de leur statut et des critères de sélection. Le statut des élèves peut être **Non démarré** ou **En cours** ou **Terminé**.
+>S&#39;il existe plusieurs instances d&#39;un cours, la liste des élèves dans Excel est fournie dans chaque onglet séparément. La liste des élèves est constituée du nom des stagiaires, de leur statut et des critères de sélection. Le statut des élèves peut être **Pas commencé**, **En cours** ou **Terminé**.
 
 ## Affichage des retours d’informations L1 et L3 {#viewl1andl3feedback}
 
@@ -78,7 +78,7 @@ Vous pouvez afficher le retour d’informations L1 fourni par les élèves au su
 
 ## Aperçu des cours {#previewcourses}
 
-Le responsable peut prévisualiser les cours en cliquant sur **Aperçu en tant qu’élève** lors de l&#39;affichage des modules de cours.
+Le responsable peut prévisualiser les cours en cliquant sur l&#39;option **Aperçu en tant qu&#39;élève** lors de l&#39;affichage des modules de cours.
 
 1. Cliquez sur **[!UICONTROL Cours]** dans le volet de gauche après vous être connecté.
 1. Cliquez sur n’importe quelle vignette de cours dans la liste des cours de la page.
@@ -96,7 +96,7 @@ La valeur de l’évaluation de l’efficacité du cours est obtenue à partir d
 
 ![](assets/course-effectiveness.png)
 
-*Afficher l&#39;efficacité du cours pour recueillir des commentaires*
+*Afficher l&#39;efficacité du cours pour obtenir des commentaires*
 
 Dans cet exemple, 1 sur 1 utilisateur a reçu les trois retours d’information, par conséquent le score est 100/100. Ce tableau vous permet de comprendre que si l’un des trois retours d’informations (L1, L2 et L3) n’est pas fourni pour un cours, il y a un impact négatif sur l’efficacité globale. Cliquez sur la flèche vers le bas dans l’angle inférieur droit de la fenêtre contextuelle pour voir comment les calculs d’efficacité de cours sont générés.
 
@@ -113,7 +113,7 @@ Adobe Learning Manager vous permet de trouver rapidement les cours/parcours d’
 1. À l’aide du champ Rechercher. Cliquez sur l’icône Rechercher affichée dans l’angle supérieur droit. Un champ de recherche s’affiche. Saisissez le nom du cours ou tout mot-clé associé à vos cours pour localiser vos cours/parcours d’apprentissage. Vous pouvez également effectuer une recherche à l’aide de balises prédéfinies telles que Captivate, C, Java et HTML. Les balises sont indexées dans le champ de recherche, ce qui signifie que les balises sont affichées dans le champ de recherche lors de la saisie. La recherche peut également être exécutée à l’aide de l’ID unique.
 1. En filtrant la liste des cours/parcours d’apprentissage/certifications à l’aide des filtres. Vous pouvez filtrer les cours par état (Tous, Publié et Retiré).
 
-Vous pouvez effectuer une recherche en fonction des compétences en sélectionnant **Compétences** et les choisir. En tant que responsable, vous pouvez trier les cours de quatre manières, afin de mieux localiser le cours requis. Cliquez sur Trier par et choisissez l’ordre croissant alphabétique, l’ordre décroissant alphabétique, la date de mise à jour du cours, la date de création du cours ou l’efficacité des cours :
+Vous pouvez effectuer une recherche en fonction des compétences en sélectionnant **Compétences** et en les choisissant. En tant que responsable, vous pouvez trier les cours de quatre manières, afin de mieux localiser le cours requis. Cliquez sur Trier par et choisissez l’ordre croissant alphabétique, l’ordre décroissant alphabétique, la date de mise à jour du cours, la date de création du cours ou l’efficacité des cours :
 
 * Nom (a-z)
 * Nom (z-a)
@@ -192,7 +192,7 @@ Un responsable peut marquer une certification comme terminée. Pour plus d’inf
 
 ## Notifications du responsable pour l’approbation des cours de l’élève {#manager-notifications-course-approval}
 
-Lorsque vous tentez d’accepter ou de rejeter l’inscription d’un élève, un responsable peut désormais afficher les détails de la session (**Vidéoconférence** ou **Salle de classe**) dans la fenêtre contextuelle.
+Lorsque vous tentez d&#39;accepter ou de rejeter l&#39;inscription d&#39;un élève, un responsable peut désormais afficher les détails de la session (**vidéoconférence** ou **salle de classe**) dans la fenêtre contextuelle.
 
 ![](assets/approve-a-learner.png)
 
@@ -231,7 +231,7 @@ Si l’élève envoie le fichier, le responsable peut afficher le fichier à par
 
 ![](assets/optional-submission.png)
 
-*Accepter ou rejeter en fonction de l’envoi du fichier*
+*Accepter ou rejeter en fonction de l&#39;envoi du fichier*
 
 Lorsque les cours sont définis comme obligatoires :
 

@@ -23,7 +23,7 @@ Dans cette formation, vous apprendrez à créer et à gérer des catalogues.
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 
 ## Création d’un catalogue {#createacatalog}
@@ -53,7 +53,7 @@ Pour créer un catalogue, procédez comme suit :
 
    ![](assets/add-course-to-catalog.png)
 
-   *Création d’un catalogue*
+   *Créer un catalogue*
 
    Vous pouvez ajouter plusieurs cours au catalogue.
 1. Vous pouvez filtrer les cours par compétences, rôles et langue. Le cours sélectionné sera recommandé aux élèves intéressés par ces compétences et ces rôles.
@@ -72,7 +72,7 @@ Pour créer un catalogue, procédez comme suit :
 1. Enregistrez les modifications. Revenez à la liste des catalogues et cliquez sur le nouveau catalogue.
 1. Sur la page du nouveau catalogue, cliquez sur **[!UICONTROL Contenu]** dans le volet de gauche.
 
-   Le programme d’apprentissage que vous avez ajouté apparaît dans le panneau **[!UICONTROL Programmes d’apprentissage]** onglet.
+   Le programme d&#39;apprentissage que vous avez ajouté apparaît dans l&#39;onglet **[!UICONTROL Programmes d&#39;apprentissage]**.
 
 ## Ajout d’une certification au catalogue {#cert}
 
@@ -80,7 +80,7 @@ Pour créer un catalogue, procédez comme suit :
 1. Enregistrez les modifications. Revenez à la liste des catalogues et cliquez sur le nouveau catalogue.
 1. Sur la page du nouveau catalogue, cliquez sur **[!UICONTROL Contenu]** dans le volet de gauche.
 
-   La certification que vous avez ajoutée apparaît dans le panneau **[!UICONTROL Certifications]** onglet.
+   La certification que vous avez ajoutée apparaît dans l&#39;onglet **[!UICONTROL Certifications]**.
 
 ## Ajout d’une assistance à la tâche au catalogue {#job}
 
@@ -88,7 +88,7 @@ Pour créer un catalogue, procédez comme suit :
 1. Enregistrez les modifications. Revenez à la liste des catalogues et cliquez sur le nouveau catalogue.
 1. Sur la page du nouveau catalogue, cliquez sur **[!UICONTROL Contenu]** dans le volet de gauche.
 
-   L’assistance à la tâche que vous avez ajoutée apparaît dans le panneau **[!UICONTROL Assistances à la tâche]** onglet.
+   L&#39;assistance à la tâche que vous avez ajoutée apparaît dans l&#39;onglet **[!UICONTROL Assistances à la tâche]**.
 
 Le contenu s’affiche dans chacun de ces onglets s’il est déjà disponible dans le compte. Dans le cas contraire, vous devez créer d’abord le contenu. Par exemple, si vous n’avez pas déjà ajouté de cours ou de programmes d’apprentissage dans l’application Learning Manager, vous devez les créer en premier.
 
@@ -96,7 +96,7 @@ Le contenu s’affiche dans chacun de ces onglets s’il est déjà disponible d
 
 Un administrateur peut générer un lien profond pour un catalogue qui permet aux élèves d&#39;accéder à la page de catalogue spécifique.
 
-Sur la **[!UICONTROL Catalogues]** , placez le pointeur de la souris sur le catalogue pour lequel vous avez activé le lien profond, puis cliquez sur l’icône en surbrillance.
+Sur la page **[!UICONTROL Catalogues]**, placez le curseur sur le catalogue pour lequel vous avez activé le lien profond et cliquez sur l&#39;icône en surbrillance.
 
 ![](assets/catalog-deep-link.png)
 
@@ -116,13 +116,13 @@ Pour activer le catalogue,
 
 Pour désactiver un catalogue, désactivez l’option près du catalogue.
 
-Vous pouvez également cocher la case à côté du catalogue, cliquer sur Actions dans le coin supérieur droit, puis cliquer sur **[!UICONTROL Désactiver]**.
+Vous pouvez également cocher la case à côté du catalogue, cliquer sur Actions dans le coin supérieur droit, puis sur **[!UICONTROL Désactiver]**.
 
-Vous pouvez également désactiver plusieurs catalogues dans la liste. Sélectionnez les catalogues, puis, dans le menu Action, choisissez l’option **[!UICONTROL Désactiver]**.
+Vous pouvez également désactiver plusieurs catalogues dans la liste. Sélectionnez les catalogues et, dans le menu Action, choisissez l&#39;option **[!UICONTROL Désactiver]**.
 
 ## Suppression du catalogue {#deletethecatalog}
 
-Pour supprimer un catalogue, sélectionnez un catalogue dans la liste. Cliquez sur le bouton Supprimer à côté du catalogue ou cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Supprimer]**.
+Pour supprimer un catalogue, sélectionnez un catalogue dans la liste. Cliquez sur le bouton Supprimer près du catalogue ou cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Supprimer]**.
 
 Vous pouvez également supprimer plusieurs catalogues.
 
@@ -138,7 +138,7 @@ Cette formation vous apprendra à partager des catalogues avec des groupes d’u
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Partage du catalogue en interne {#int}
 
@@ -162,9 +162,9 @@ Dans la page Catalogues, cliquez sur le catalogue que vous souhaitez partager. D
 
 ![](assets/shared-catalog-external.png)
 
-*Partage d’un catalogue en externe*
+*Partage d&#39;un catalogue en externe*
 
-Entrez le sous-domaine associé à votre compte Learning Manager. Cliquez sur **[!UICONTROL Comment obtenir le sous-domaine ?]** pour en savoir plus sur l’utilisation des sous-domaines. Vous pouvez également cliquer sur **[!UICONTROL Branding]** dans le volet gauche de la page d’accueil de l’administrateur pour afficher le sous-domaine associé au compte de votre organisation.
+Entrez le sous-domaine associé à votre compte Learning Manager. Cliquez sur **[!UICONTROL Comment obtenir le sous-domaine ?]** pour en savoir plus sur l&#39;utilisation des sous-domaines. Vous pouvez également cliquer sur **[!UICONTROL Identité visuelle]** dans le volet gauche de la page d&#39;accueil de l&#39;administrateur pour afficher le sous-domaine associé au compte de votre organisation.
 
 **Limite d’inscriptions** 
 
@@ -172,9 +172,9 @@ Vous pouvez définir la limite pour le nombre d’inscriptions par cours sur le 
 
 **Expiration** 
 
-Vous pouvez définir la validité du catalogue partagé en définissant une date d’expiration dans **[!UICONTROL Expiration]** champ. Après la date d’expiration du catalogue partagé, les inscriptions pour les cours ne sont plus autorisées. Les élèves existants peuvent toujours avoir accès au contenu. Les éléments de formation sont révoqués mais les badges et compétences sont actifs. À ce stade, le récepteur du catalogue partagé ne peut pas retirer les objets d&#39;apprentissage retirés.
+Vous pouvez définir la validité du catalogue partagé en définissant une date d&#39;expiration dans le champ **[!UICONTROL Expiration]**. Après la date d’expiration du catalogue partagé, les inscriptions pour les cours ne sont plus autorisées. Les élèves existants peuvent toujours avoir accès au contenu. Les éléments de formation sont révoqués mais les badges et compétences sont actifs. À ce stade, le récepteur du catalogue partagé ne peut pas retirer les objets d&#39;apprentissage retirés.
 
-Cliquez sur **[!UICONTROL Enregistrer]** après avoir ajouté toutes les informations requises. Cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit de la page, puis cliquez sur **[!UICONTROL Partager]** pour partager le catalogue avec des comptes externes.
+Cliquez sur **[!UICONTROL Enregistrer]** après avoir ajouté toutes les informations requises. Cliquez sur le menu déroulant **[!UICONTROL Actions]** dans le coin supérieur droit de la page et cliquez sur **[!UICONTROL Partager]** pour partager le catalogue avec des comptes externes.
 
 Seuls les catalogues détenus par le détenteur du compte partagé peuvent être partagés avec des comptes externes. Vous ne pouvez pas partager les catalogues qui sont déjà partagés avec vous par d’autres comptes.
 
@@ -186,13 +186,13 @@ Les éléments de formation avec un état ouvert/actif pour l’enregistrement s
 
 **Catalogues de partage** 
 
-L’annulation du partage d’un catalogue consiste à désactiver un compte externe dans l’application. Pour annuler le partage d’un catalogue, cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit de la page et cliquez sur **[!UICONTROL Annuler le partage]**. Vous pouvez partager un catalogue à tout moment. Si le partage d’un catalogue est annulé, tous les éléments d’apprentissage de ce catalogue partagé passent à l’état révoqué. Les catalogues désactivés apparaissent comme retirés dans l&#39;application du destinataire.
+L’annulation du partage d’un catalogue consiste à désactiver un compte externe dans l’application. Pour annuler le partage d&#39;un catalogue, cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit de la page, puis sur **[!UICONTROL Annuler le partage]**. Vous pouvez partager un catalogue à tout moment. Si le partage d’un catalogue est annulé, tous les éléments d’apprentissage de ce catalogue partagé passent à l’état révoqué. Les catalogues désactivés apparaissent comme retirés dans l&#39;application du destinataire.
 
 Vous pouvez supprimer un compte externe d’une liste partagée uniquement avant que le destinataire n’accepte la requête.
 
 **Suppression de catalogues** 
 
-Pour supprimer un catalogue partagé, cliquez sur **[!UICONTROL Actions]** liste déroulante et cliquez sur **[!UICONTROL Supprimer]**.
+Pour supprimer un catalogue partagé, cliquez sur la liste déroulante **[!UICONTROL Actions]** et cliquez sur **[!UICONTROL Supprimer]**.
 
 * Vous ne pouvez pas partager un catalogue par défaut avec des comptes externes.
 * Vous ne pouvez pas supprimer un catalogue qui a été partagé en externe par vous-même.
@@ -330,7 +330,7 @@ Une fois que vous avez créé des étiquettes de catalogue, vous pouvez les appl
 1. Ouvrez les étiquettes de catalogue depuis le volet de gauche.
 1. Cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit. La page affiche la liste des étiquettes de catalogue disponibles.
 1. Pour ajouter une étiquette au catalogue, cliquez sur **[!UICONTROL Ajouter au catalogue]**.
-1. Pour supprimer les libellés existants ajoutés à un catalogue, cliquez sur **[!UICONTROL Supprimer]**.
+1. Pour supprimer les étiquettes existantes ajoutées à un catalogue, cliquez sur **[!UICONTROL Supprimer]**.
 
 +++
 

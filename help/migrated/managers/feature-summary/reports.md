@@ -3,14 +3,13 @@ description: Création et gestion de rapports pour les responsables.
 jcr-language: en_us
 title: Rapports
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1840'
 ht-degree: 63%
 
 ---
-
-
 
 # Rapports
 
@@ -22,7 +21,7 @@ Adobe Learning Manager vous permet de créer différents rapports pour suivre,
 
 Le processus de génération des rapports est le même pour Administrateur et pour Responsable. Les responsables peuvent afficher les rapports correspondant à leurs subordonnés tandis que les administrateurs peuvent afficher tous les rapports à l’échelle de l’entreprise.
 
-Les rapports sont regroupés dans un tableau de bord. Un rapport se trouve toujours dans un tableau de bord. A **Tableau de bord par défaut** existe par défaut dans la page rapports. Tout rapport supplémentaire de votre part entre dans ce tableau de bord par défaut. Pour ajouter des rapports à des tableaux de bord individuels, utilisez la flèche déroulante et choisissez Ajouter un rapport. Pour plus d’informations sur la création des tableaux de bord, consultez la section Tableaux de bord sur cette page.
+Les rapports sont regroupés dans un tableau de bord. Un rapport se trouve toujours dans un tableau de bord. Un **tableau de bord par défaut** existe par défaut dans la page des rapports. Tout rapport supplémentaire de votre part entre dans ce tableau de bord par défaut. Pour ajouter des rapports à des tableaux de bord individuels, utilisez la flèche déroulante et choisissez Ajouter un rapport. Pour plus d’informations sur la création des tableaux de bord, consultez la section Tableaux de bord sur cette page.
 
 ## Tableaux de bord du responsable {#manager-dashboards}
 
@@ -34,7 +33,7 @@ Le responsable peut ensuite filtrer le rapport en fonction de plages comme, trim
 
 ![](assets/manager-learningsummary.png)
 
-*Afficher le résumé de l’apprentissage*
+*Afficher le résumé d&#39;apprentissage*
 
 ![](assets/manager-dashboard.jpg)
 
@@ -64,7 +63,7 @@ En fonction des données historiques, vous pouvez voir une représentation graph
 
 ![](assets/historical-data.png)
 
-*Afficher la projection de l’achèvement des compétences*
+*Afficher la projection de l&#39;achèvement des compétences*
 
 ## Création de rapports {#creatingreports}
 
@@ -94,15 +93,15 @@ Nom du rapport Tapez un titre pour votre rapport.
 
 **Axe Y principal** Choisissez le premier/le critère principal de votre rapport dans les options déroulantes. Pour certains des critères sélectionnés, vous avez la possibilité de choisir un ou plusieurs états dans la liste déroulante États adjacente. Par exemple, pour un critère principal de statistiques d&#39;inscription à un cours, les états peuvent être terminé, Incomplet, Inscrit, etc. Les données de plage principale sont représentées sous forme de graphiques à barres dans le rapport.
 
-**Axe Y secondaire** Choisissez les critères/la plage de l’axe Y secondaire pour votre rapport dans les options déroulantes. Par exemple, dans l&#39;option d&#39;inscription au programme d&#39;apprentissage, choisissez un ou plusieurs états dans la liste déroulante États adjacente. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
+**Axe Y secondaire** Choisissez les critères/la plage de l&#39;axe Y secondaire pour votre rapport dans les options déroulantes. Par exemple, dans l&#39;option d&#39;inscription au programme d&#39;apprentissage, choisissez un ou plusieurs états dans la liste déroulante États adjacente. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
 
-**Axe X** Choisissez les critères d’axe x appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
+**Axe des x** Choisissez les critères d&#39;axe des x appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
 
-**Date** Choisissez l’option appropriée dans la liste déroulante. Options : dernier mois, dernier trimestre, dernière année, QTD (90 derniers jours), YTD (365 derniers jours) et la plage de dates. Si vous sélectionnez la plage de dates, indiquez les dates Du et Au comme suit :
+**Date** Choisissez l&#39;option appropriée dans la liste déroulante. Options : dernier mois, dernier trimestre, dernière année, QTD (90 derniers jours), YTD (365 derniers jours) et la plage de dates. Si vous sélectionnez la plage de dates, indiquez les dates Du et Au comme suit :
 
-**De** Choisissez la date à partir de laquelle vous souhaitez afficher le rapport.
+**De** Choisissez la date de début à partir de laquelle vous souhaitez afficher le rapport.
 
-**Pour** Choisissez la date de fin de votre rapport.
+**À** Choisissez la date de fin de votre rapport.
 
 ## Filtres {#filters}
 
@@ -114,7 +113,7 @@ Les filtres s&#39;affichent dans la boîte de dialogue Ajouter un rapport en bas
 
 **Groupe d&#39;utilisateurs** Choisissez le groupe d&#39;utilisateurs à partir duquel vous souhaitez filtrer les rapports. Learning Manager récupère les groupes d’utilisateurs définis pour votre compte depuis la fonction Utilisateurs.
 
-**Cours** Vous pouvez filtrer votre rapport en fonction de n’importe quel cours en les sélectionnant dans la liste déroulante.
+**Cours** Vous pouvez filtrer votre rapport en fonction de n&#39;importe quel cours en le sélectionnant dans la liste déroulante.
 
 ![](assets/sample-report-admin.png)
 
@@ -132,11 +131,11 @@ Suivez la manière dont les groupes d’utilisateurs, tels que des services, des
 
 ### Groupes d’utilisateurs {#usergroups}
 
-Pour générer des rapports en fonction des groupes d’utilisateurs, choisissez **Groupe d’utilisateurs** dans l’axe X dans la liste des options déroulantes, comme illustré dans la capture d’écran ci-dessous.
+Pour générer des rapports en fonction des groupes d&#39;utilisateurs, choisissez **Groupe d&#39;utilisateurs** sur l&#39;axe X dans la liste des options déroulantes comme indiqué dans la capture d&#39;écran ci-dessous.
 
 ![](assets/x-axis-reporting.png)
 
-*Générer des rapports de groupe d’utilisateurs*
+*Générer des rapports de groupe d&#39;utilisateurs*
 
 Un autre menu déroulant **Sélectionner** s&#39;affiche en regard de l&#39;axe x avec une liste de groupes d&#39;utilisateurs disponibles pour votre compte. Dans cette liste déroulante, vous pouvez sélectionner un ou plusieurs groupes d’utilisateurs.
 
@@ -148,7 +147,7 @@ Ce rapport de groupe d’utilisateurs vous permet de comparer la performance d�
 
 Vous pouvez également créer des groupes d&#39;utilisateurs personnalisés à l&#39;aide de la fonction Ajouter des utilisateurs/un groupe d’utilisateurs dans Learning Manager. Après avoir créé des groupes d&#39;utilisateurs, vous pouvez générer des rapports pour ces groupes d&#39;utilisateurs personnalisés avec l&#39;aide d&#39;une liste d&#39;attributs, tels que l&#39;emplacement, la succursale, et ainsi de suite.
 
-Dans l’axe des X, choisissez l’option Attribut utilisateur et sélectionnez l’attribut depuis **sélectionner** liste déroulante en regard de celui-ci. Pour créer un rapport de groupe d’utilisateurs personnalisé basé sur ces attributs, vous devez également choisir le groupe d’utilisateurs approprié dans le filtre.
+Sur l&#39;axe des X, choisissez l&#39;option d&#39;attribut utilisateur et sélectionnez l&#39;attribut dans la liste déroulante **sélectionner** qui se trouve à côté. Pour créer un rapport de groupe d’utilisateurs personnalisé basé sur ces attributs, vous devez également choisir le groupe d’utilisateurs approprié dans le filtre.
 
 Les responsables peuvent créer des rapports de groupe d&#39;utilisateurs uniquement pour les membres de leur propre équipe comme stagiaires.
 
@@ -199,7 +198,7 @@ Les rapports partagés sont un ensemble de rapports qui ont été partagés ave 
 
 Vous pouvez souscrire à vos rapports favoris en fournissant votre adresse électronique ici. Vos rapports abonnés vous sont envoyés par courrier électronique.
 
-Cliquez sur le bouton **Modifier** dans le coin droit du nom de votre rapport à partir de la liste des rapports pour modifier votre abonnement à tout moment.
+Cliquez sur l&#39;icône **Modifier** dans le coin droit du nom de votre rapport dans la liste des rapports pour modifier votre abonnement à tout moment.
 
 ## Affichage des rapports {#viewingreports}
 
@@ -218,7 +217,7 @@ Si vous supervisez plusieurs responsables, vous pouvez afficher rapidement les r
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 
-**Modifier** Lors de la modification des données, pour revenir aux valeurs initiales, cliquez sur Réinitialiser. Cliquez sur Enregistrer après avoir modifié les valeurs.
+**Modifier** lors de la modification des données, pour revenir aux valeurs initiales, cliquez sur Réinitialiser. Cliquez sur Enregistrer après avoir modifié les valeurs.
 
 **Déplacer vers le tableau de bord** Vous pouvez déplacer le rapport actuel vers un autre tableau de bord, qui est choisi dans la liste des tableaux de bord.
 
@@ -226,7 +225,7 @@ Si vous supervisez plusieurs responsables, vous pouvez afficher rapidement les r
 
 **Supprimer** Cliquez sur Supprimer pour supprimer le rapport. Un message d’avertissement/de confirmation s’affiche avant de pouvoir supprimer le rapport.
 
-**Redimensionner** Vous pouvez redimensionner vos rapports en taille 1×1 (moyenne) et 2×2 (grande).
+**Redimensionner** Vous pouvez redimensionner vos rapports en tailles 1×1 (moyenne) et 2×2 (grande).
 
 ## Abonnements par e-mail {#emailsubscriptions}
 

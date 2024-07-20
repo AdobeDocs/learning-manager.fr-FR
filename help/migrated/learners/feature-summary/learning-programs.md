@@ -3,14 +3,13 @@ description: Découvrez comment afficher et suivre des programmes d’apprentiss
 jcr-language: en_us
 title: Programmes d’apprentissage
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 84%
 
 ---
-
-
 
 # Programmes d’apprentissage
 
@@ -36,7 +35,7 @@ L’auteur et l’administrateur peuvent créer des programmes d&#39;apprentissa
 
 Vous pouvez afficher une liste de tous les programmes d’apprentissage disponibles en tant qu’élève. Le widget Objet d’apprentissage affiche tous les programmes d’apprentissage auxquels un élève est inscrit, ou qui lui sont attribués. Dans le volet de gauche, cliquez sur Catalogue et filtrez les programmes d’apprentissage pour afficher tous les programmes d’apprentissage disponibles.
 
-Sur la **Mon apprentissage** vous pouvez filtrer la formation à laquelle vous êtes inscrit(e), en fonction de **durée** de la formation et **format** de la formation.
+Sur la page **Mon apprentissage**, vous pouvez filtrer la formation à laquelle vous êtes inscrit(e), en fonction de la **durée** de la formation et du **format** de la formation.
 
 Vous pouvez voir le pourcentage d’efficacité de chaque cours sur la page Catalogue. Il peut y avoir plusieurs instances/sessions de cours/programme d’apprentissage. Cliquez sur le cours ou le programme d’apprentissage pour en afficher les détails. Vous pouvez également voir l’échéance pour chaque instance du cours/programme d’apprentissage.
 

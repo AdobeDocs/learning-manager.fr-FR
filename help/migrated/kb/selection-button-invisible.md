@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Les boutons de sélection n’apparaissent pas dans Learning Manager
 description: En raison de boutons radio manquants, un administrateur ne peut pas attribuer ou supprimer des rôles, envoyer un e-mail de bienvenue ou supprimer un utilisateur.
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: d2c86f9f-3e79-4f1f-992e-f92873940061
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 55%
 
 ---
-
-
 
 # Les boutons de sélection n’apparaissent pas dans Learning Manager
 
@@ -35,7 +34,7 @@ Le problème se produit en raison de thèmes incorrects dans le compte.
 Rechargez les thèmes et corrigez l’apparence des boutons radio. Procédez comme suit :
 
 1. En tant qu’administrateur, cliquez sur **[!UICONTROL Identité visuelle]**.
-1. Dans le panneau **Thèmes** section, cliquez sur **[!UICONTROL Modifier].**
+1. Dans la section **Thèmes**, cliquez sur **[!UICONTROL Modifier].**
 1. Sélectionnez un thème et enregistrez les modifications.
 
    ![](assets/set-themes.png)

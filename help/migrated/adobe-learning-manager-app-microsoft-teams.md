@@ -33,25 +33,25 @@ L’administrateur MS Teams doit, dans son centre d’administration, épingler
 
 Procédez comme suit :
 
-1. Dans l’application Integration Administrator, sélectionnez **[!UICONTROL Applications]** > **[!UICONTROL Applications fournies]**, puis sélectionnez **[!UICONTROL Application ALM Teams]**.
+1. Dans l’application Administrateur d’intégration, sélectionnez **[!UICONTROL Applications]** > **[!UICONTROL Applications en vedette]**, puis **[!UICONTROL Application ALM Teams]**.
 
    ![](assets/featuredapps.jpg)
    *Sélectionner l’application ALM Teams*
 
-1. Dans le coin supérieur droit de l’écran, sélectionnez **[!UICONTROL Approuver]**.
+1. Dans le coin supérieur droit de l&#39;écran, sélectionnez **[!UICONTROL Approuver]**.
 
    ![](assets/integration_admin_approval_form.jpg)
    *Sélectionnez Approuver sur la page des paramètres de l’application*
 
-1. Sélectionner **[!UICONTROL OK]** dans la boîte de dialogue qui s’affiche.
+1. Sélectionnez **[!UICONTROL OK]** dans la boîte de dialogue qui s&#39;affiche.
 
    ![](assets/integration_admin_approved_dialog_box.jpg)
-   *Sélectionner OK après approbation*
+   *Sélectionnez OK après l&#39;approbation*
 
 1. Une fois l’approbation obtenue, vous pourrez voir « Application ALM Teams » dans la section Applications externes.
 
    ![](assets/integration_admin_external_apps.jpg)
-   *L’application ALM Teams apparaît sur la page Applications*
+   L’application *ALM Teams apparaît sur la page Applications*
 
 Les utilisateurs peuvent désormais accéder à l’application ALM sur MS Teams.
 
@@ -68,7 +68,7 @@ Procédez comme suit :
 
    `https://login.microsoftonline.com/<tenantIdTobeReplaced>/oauth2/authorize?client_id=8d349d9f-bf59-4ece-8022-a41e87d81903&response_type=code&redirect_uri=https://learningmanager.adobe.com`
 
-1. Dans le lien ci-dessus, remplacez `<tenantIdTobeReplaced>` avec l’ID de client disponible dans la page Présentation ci-dessous. Entrez la nouvelle URL.
+1. Dans le lien ci-dessus, remplacez `<tenantIdTobeReplaced>` par l&#39;ID de client disponible dans la page Présentation ci-dessous. Entrez la nouvelle URL.
 
 1. Ajoutez l’application Adobe Learning Manager à vos applications Azure.
 
@@ -78,27 +78,27 @@ Procédez comme suit :
 1. Sélectionnez l’onglet Applications d’entreprise, puis Toutes les applications. ALMTeamsApp s’affiche dans cette liste.
 
    ![](assets/microsoft_azure_enterprise_applications.jpg)
-   *Afficher l’application ALM*
+   *Afficher l&#39;application ALM*
 
 1. Cliquez sur l’application et accédez à l’onglet Autorisations.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp.jpg)
-   *Affichage de l’onglet Autorisations*
+   *Afficher l&#39;onglet Autorisations*
 
-1. Dans l’onglet Autorisations, sélectionnez **[!UICONTROL Octroyer le consentement de l’administrateur pour MSFT]**&#39; pour accorder des autorisations à l’application ALM abonnement Équipe.
+1. Dans l’onglet Autorisations, sélectionnez « **[!UICONTROL Accorder le consentement de l’administrateur pour MSFT]** » pour accorder les autorisations de l’application ALM abonnement Équipe.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permissions.jpg)
    *Sélectionner les autorisations*
 
-1. Sélectionner **[!UICONTROL Accepter]**.
+1. Sélectionnez **[!UICONTROL Accepter]**.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request.jpg)
-   *Sélectionnez Accepter*
+   *Sélectionner Accepter*
 
 1. Une fois accordées, ces autorisations permettront à l’application ALM d’autoriser les connexions silencieuses et d’envoyer des notifications aux élèves dans l’application MS Teams.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
-   *L’accès est accordé*
+   *L&#39;accès est accordé*
 
 ## L’administrateur MS Teams crée une stratégie pour les équipes Teams
 
@@ -107,9 +107,9 @@ Procédez comme suit :
 1. En tant qu’administrateur MS Teams, dans le Centre d’administration, créez une politique pour ajouter l’application Équipes à l’application Équipes de vos élèves.
 
    ![](assets/microsoft_teams_admin_center.png)
-   *Création d’une stratégie*
+   *Créer une stratégie*
 
-1. Accédez à la section Configuration de stratégies. Créer une stratégie globale et sélectionner **[!UICONTROL Ajout d’applications]** dans la sous-section Applications épinglées.
+1. Accédez à la section Configuration de stratégies. Créez une stratégie globale et sélectionnez **[!UICONTROL Ajouter des applications]** dans la sous-section Applications épinglées.
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *Ajouter la stratégie*
@@ -117,8 +117,8 @@ Procédez comme suit :
 1. Dans la boîte de dialogue qui s’affiche, recherchez **[!UICONTROL Adobe Learning Manager]** et ajoutez l’application. Cela ajoute Adobe Learning Manager dans la section Applications installées.
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
-   *Installation de l’application*
+   *Installer l&#39;application*
 
 1. Enregistrez cette stratégie. Cela rend l’application disponible pour tous les membres de l’organisation.
 
-Les administrateurs peuvent également créer une stratégie personnalisée au lieu d’une stratégie globale. Ajoutez Adobe Learning Manager à cette stratégie personnalisée, puis appliquez la stratégie personnalisée uniquement à l’ensemble d’utilisateurs qui doivent accéder à Adobe Learning Manager.
+Les administrateurs peuvent également créer une stratégie personnalisée au lieu d’une stratégie globale. Ajoutez Adobe Learning Manager à cette stratégie personnalisée, puis appliquez la stratégie personnalisée uniquement à l’ensemble d’utilisateurs devant accéder à Adobe Learning Manager.

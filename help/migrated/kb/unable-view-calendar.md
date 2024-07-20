@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Impossible d’afficher le calendrier
 description: Lorsqu’un administrateur tente de modifier la date d’expiration d’un profil d’inscription externe et clique sur le calendrier pour modifier la date d’expiration, le calendrier ne s’affiche pas.
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 88%
 
 ---
-
-
 
 # Impossible d’afficher le calendrier
 
@@ -41,12 +40,12 @@ Le problème se produit pour les raisons suivantes :
 
 ### Paramètres d’affichage
 
-1. Cliquez sur **[!UICONTROL Début]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Système]**.
+1. Cliquez sur **[!UICONTROL Démarrer]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Système]**.
 1. Cliquez sur **[!UICONTROL Afficher]**.
 1. Dans la section **[!UICONTROL Échelle et mise en page]**, utilisez la liste déroulante. Définissez les paramètres sur 100 %.
 
    ![](assets/scale-layout.png)
 
-   *Modification des paramètres d’affichage*
+   *Modifier les paramètres d&#39;affichage*
 
 1. Redémarrez l’ordinateur.

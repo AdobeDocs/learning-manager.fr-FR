@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Gestion de l’assiduité et de la liste d’attente
-description: Les administrateurs peuvent gérer la présence et la liste d’attente des cours pour les élèves Adobe Learning Manager.
+description: Les administrateurs peuvent gérer l’assiduité et la liste d’attente des cours pour les élèves Adobe Learning Manager.
 contentowner: manochan
-source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
+exl-id: 71172940-34c5-432d-9bb0-eac8d44efe59
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 79%
 
 ---
-
-
 
 # Gestion de l’assiduité et de la liste d’attente
 

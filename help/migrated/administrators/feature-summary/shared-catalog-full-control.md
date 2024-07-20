@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Activer le contrôle complet du catalogue partagé
-description: Activer le contrôle total du catalogue partagé dans Adobe Learning Manager
+description: Activation du contrôle total du catalogue partagé dans Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
 
 ---
-
-
 
 # Activer le contrôle complet du catalogue partagé
 
@@ -100,7 +99,7 @@ Cette action inverse l’action et restaure l’objet d’apprentissage dans la 
 
 ![](assets/re-add-button.png)
 
-*Ajouter à nouveau un objet d’apprentissage*
+*Ajouter à nouveau un objet d&#39;apprentissage*
 
 Après avoir cliqué sur le bouton Ajouter à nouveau, un message de confirmation s’affiche pour indiquer que l’objet d’apprentissage a bien été ajouté au catalogue.
 

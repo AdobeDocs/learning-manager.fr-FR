@@ -32,17 +32,17 @@ Après avoir activé et configuré les recommandations, vous transférez les don
 
 ## Algorithme de classement des cours
 
-Le noyau du moteur de recommandations est piloté par la nouvelle version de Learning Manager **Algorithme de classement des cours**. L’algorithme utilise **50 millions de points de données** et les **données d’apprentissage agrégées de cinq années pour des millions d’utilisateurs** afin de classer les cours en fonction de la **probabilité d’inscription**. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
+Le noyau du moteur de recommandations est piloté par le nouvel **algorithme de classement des cours** de Learning Manager. L’algorithme utilise **50 millions de points de données** et les **données d’apprentissage agrégées de cinq années pour des millions d’utilisateurs** afin de classer les cours en fonction de la **probabilité d’inscription**. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 
 ## Termes clés
 
-Le nouveau moteur de recommandation basé sur l’IA de Learning Manager fournit aux responsables de l’apprentissage un **basé sur les paramètres** système de recommandation pour créer une expérience personnalisée pour les élèves.
+Le nouveau moteur de recommandation basé sur l&#39;IA de Learning Manager fournit aux responsables de l&#39;apprentissage un système de recommandation **basé sur les paramètres** configurable pour créer une expérience personnalisée pour les élèves.
 
 Les paramètres sont : **Produits/sujets, Rôles et Niveaux**. En outre, vous pouvez renommer ces paramètres selon vos besoins. Ainsi, les « produits » peuvent devenir des « sujets » ou les « rôles » peuvent devenir des « régions ».
 
 ## Configuration du système de recommandations
 
-Le nouveau moteur de recommandations d’Adobe Learning Manager simplifie le workflow d’administration impliqué dans la configuration de recommandations personnalisées, car les données sur les produits et les rôles associés à un client/partenaire sont généralement disponibles pour les administrateurs (par exemple, à partir des enregistrements d’achat).
+Le nouveau moteur de recommandations de Adobe Learning Manager simplifie le workflow d’administration impliqué dans la configuration des recommandations personnalisées, car les données sur les produits et les rôles associés à un client/partenaire sont généralement disponibles pour les administrateurs (par exemple, à partir des enregistrements d’achat).
 
 Trois workflows principaux sont impliqués dans la configuration du nouveau moteur de recommandation :
 

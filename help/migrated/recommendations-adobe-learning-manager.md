@@ -1,14 +1,13 @@
 ---
 title: Recommandations dans Adobe Learning Manager
 description: Le cœur du moteur de recommandations est basé sur le nouvel algorithme de classement des cours de Learning Manager. L'algorithme utilise 50 millions de points de données et cinq années de données d'apprentissage agrégées sur des millions d'utilisateurs pour classer les cours en fonction de leur probabilité d'inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 60%
 
 ---
-
-
 
 # Recommandations dans Adobe Learning Manager
 
@@ -22,24 +21,24 @@ Pour commencer à utiliser cette fonctionnalité, vous devez l’activer dans l�
 
 1. Transférez le cours et les données utilisateur (facultatif).
 1. Publiez les modifications.
-1. Après avoir activé et configuré les recommandations, téléchargez les données dans Adobe Learning Manager pour que les recommandations commencent à fonctionner. Ces données sont les suivantes :
+1. Après avoir activé et configuré les recommandations, téléchargez les données dans Adobe Learning Manager pour que les recommandations puissent commencer à fonctionner. Ces données sont les suivantes :
 
    * Données du cours
    * Données utilisateur (facultatif)
 
 ## Algorithme de classement des cours
 
-Le noyau du moteur de recommandations est piloté par la nouvelle version de Learning Manager **[!UICONTROL Algorithme de classement des cours]**. L&#39;algorithme utilise 50 millions de points de données et cinq années de données d&#39;apprentissage agrégées sur des millions d&#39;utilisateurs pour classer les cours en fonction de leur probabilité d&#39;inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
+Le noyau du moteur de recommandations est piloté par le nouvel **[!UICONTROL algorithme de classement des cours]** de Learning Manager. L&#39;algorithme utilise 50 millions de points de données et cinq années de données d&#39;apprentissage agrégées sur des millions d&#39;utilisateurs pour classer les cours en fonction de leur probabilité d&#39;inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 
 ## Termes clés
 
 Le nouveau moteur de recommandation basé sur l’IA de Learning Manager fournit aux responsables de l’apprentissage un système de recommandation basé sur des paramètres configurable pour créer une expérience personnalisée pour les élèves.
 
-Les paramètres sont : **Produits/rubriques**, **Rôles**, et **Niveaux**. En outre, vous pouvez renommer ces paramètres selon vos besoins. Ainsi, les « produits » peuvent devenir des « sujets » ou les « rôles » peuvent devenir des « régions ».
+Les paramètres sont : **Produits/rubriques**, **Rôles** et **Niveaux**. En outre, vous pouvez renommer ces paramètres selon vos besoins. Ainsi, les « produits » peuvent devenir des « sujets » ou les « rôles » peuvent devenir des « régions ».
 
 ## Configuration du système de recommandations
 
-Le nouveau moteur de recommandations d’Adobe Learning Manager simplifie le workflow d’administration impliqué dans la configuration de recommandations personnalisées, car les données sur les produits et les rôles associés à un client/partenaire sont généralement disponibles pour les administrateurs (par exemple, à partir des enregistrements d’achat).
+Le nouveau moteur de recommandations de Adobe Learning Manager simplifie le workflow d’administration impliqué dans la configuration des recommandations personnalisées, car les données sur les produits et les rôles associés à un client/partenaire sont généralement disponibles pour les administrateurs (par exemple, à partir des enregistrements d’achat).
 
 Trois workflows principaux sont impliqués dans la configuration du nouveau moteur de recommandation :
 
@@ -51,26 +50,26 @@ Les administrateurs configurent les valeurs des paramètres Produits, Rôles et 
 
 Les administrateurs bénéficient d’un workflow guidé dans Learning Manager pour configurer de manière optimale le moteur de recommandations et le personnaliser en fonction du cas d’utilisation du compte. En outre, les administrateurs peuvent également configurer des recommandations PRL en chargeant une seule fois un fichier CSV.
 
-1. Sélectionner **[!UICONTROL Recommendations]** dans l’application d’administration.
+1. Sélectionnez **[!UICONTROL Recommendations]** dans l&#39;application d&#39;administration.
 
-   ![Sélection de Recommendations dans l’application d’administration](assets/image831538.png)
+   ![Sélectionnez Recommendations dans l&#39;application d&#39;administration](assets/image831538.png)
 
-   *Sélectionnez l’option Recommendations*
+   *Sélectionnez l&#39;option Recommendations*
 
 1. Cliquez sur **[!UICONTROL Mettre à niveau]**.
 
    ![Mise à niveau vers le nouveau système](assets/image784236.png)
 
-   *Sélectionnez l’option Mettre à niveau.*
+   *Sélectionnez l&#39;option de mise à niveau*
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour passer au nouveau système de recommandations.
 
    ![Passer au nouveau système](assets/image521152.png)
-   *Cliquez sur le bouton Continuer.*
+   *Sélectionnez le bouton Continuer*
 
 1. Créez les paramètres de recommandations pour les produits et les rôles.
 
-   ![Création des paramètres](assets/image43406.png)
+   ![Créer les paramètres](assets/image43406.png)
    *Créer des paramètres pour la recommandation*
 
 1. Cliquez sur **[!UICONTROL Ajouter d’autres valeurs]**.
@@ -84,7 +83,7 @@ Les administrateurs bénéficient d’un workflow guidé dans Learning Manager p
 1. Ajoutez les rôles. Saisissez le nom des rôles et appuyez sur Entrée.
 
    ![ajouter des rôles](assets/image156786.png)
-   *Ajout des rôles*
+   *Ajouter les rôles*
 
 1. Cliquez sur **[!UICONTROL Continuer]**.
 
@@ -97,7 +96,7 @@ Les administrateurs bénéficient d’un workflow guidé dans Learning Manager p
 
 Les données d’intérêt de l’utilisateur, le produit, les rôles et les niveaux doivent être chargés pour que les recommandations fonctionnent correctement.
 
-**Options de téléchargement des données**
+**Options de téléchargement de données**
 
 La fonction de recommandations est configurable. Ainsi, au lieu de produits/rôles/niveaux, vous pouvez utiliser les rubriques/rôles/niveaux ou choisir l’une de ces options : produit/rubriques uniquement, rôles uniquement, produit/rubriques et rôles uniquement, rôles-niveaux uniquement ou produits-niveaux uniquement.
 
@@ -151,8 +150,8 @@ Remplissez ces fichiers CSV et contactez votre équipe de réussite client pour 
 
 Une fois les deux fichiers CSV chargés, cliquez sur Accéder en direct. Le nouveau système de recommandations sera ainsi visible pour les élèves.
 
-![passer en direct](assets/computerdescription-automatically.png)
-*Application des recommandations en direct*
+![mise en ligne](assets/computerdescription-automatically.png)
+*Mettez les recommandations en ligne*
 
 Le système de recommandation est désormais disponible pour vos élèves.
 
@@ -178,7 +177,7 @@ Le système de recommandation est désormais disponible pour vos élèves.
 
 Sur la page des paramètres d’un cours, la recommandation pour les produits et les rôles est répertoriée. Ce cours sera recommandé aux élèves s’ils ont exprimé leur intérêt pour ces produits et ces rôles.
 
-![définition de l’image](assets/course-settings-image.png)
+![définition de l&#39;image](assets/course-settings-image.png)
 *Page des paramètres du cours*
 
 ## Vue Élève
@@ -199,11 +198,11 @@ Les élèves peuvent voir les éléments suivants :
 Lorsque l’élève sélectionne Recommandations dans le panneau de gauche, une fenêtre contextuelle s’affiche permettant de configurer les recommandations.
 
 ![recommandations de configuration](assets/image575540.png)
-*L’élève configure la recommandation*
+*L&#39;élève configure la recommandation*
 
 En cliquant sur Configurer les recommandations, l’élève accède à la fenêtre contextuelle de sélection de produits.
 
-![fenêtre contextuelle sélection de produit](assets/product-selection-popup.png)
+![fenêtre contextuelle de sélection de produit](assets/product-selection-popup.png)
 *Sélectionner des produits*
 
 Dans la fenêtre contextuelle suivante, l’élève peut sélectionner le rôle.
@@ -232,8 +231,8 @@ Un élève peut voir les bandes suivantes sur l’application :
 
 ### Cartes sur mon support d’apprentissage
 
-![cartes de bande d’apprentissage](assets/image770606.png)
-*Cartes sur bande d’apprentissage*
+![cartes de bandes d’apprentissage](assets/image770606.png)
+*Cartes sur bande d&#39;apprentissage*
 
 Chaque carte indique une note, une image, un titre, une compétence, une date de publication, un auteur, une durée, une barre de progression et un bouton Continuer ou Explorer.
 
@@ -255,4 +254,4 @@ Chaque carte indique une note, une image, un titre, une compétence, une date de
 
 La carte ne comporte pas de barre de progression une fois que l’élève a commencé le cours.
 
-Au menu, deux options : **[!UICONTROL Enregistrer]** et **[!UICONTROL Ne pas recommander]**. Si l’élève clique sur **[!UICONTROL Enregistrer]**, le cours est enregistré dans la bande « Enregistré par moi ». Si l’élève clique sur **[!UICONTROL Ne pas recommander]**, la formation recommandée est supprimée de la liste.
+Dans le menu, il y a deux options : **[!UICONTROL Enregistrer]** et **[!UICONTROL Ne pas recommander]**. Si l&#39;élève clique sur **[!UICONTROL Enregistrer]**, le cours est enregistré dans la barre « Enregistré par moi ». Si l&#39;élève clique sur **[!UICONTROL Ne pas recommander]**, la formation recommandée est supprimée de la liste.

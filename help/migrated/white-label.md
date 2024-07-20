@@ -67,7 +67,7 @@ Les éléments suivants peuvent être personnalisés :
 
    <td>
 
-    <p>Ajoutez plusieurs comptes (sous-domaines) si vous le souhaitez. Ajoutez les sous-domaines en les séparant par des virgules, sans espaces. Par exemple, acc01,acc02,acc03, etc.<br> <b>Remarque :</b> Vous devez ajouter l’ID de compte lors de la spécification des sous-domaines.</br> </p>
+    <p>Ajoutez plusieurs comptes (sous-domaines) si vous le souhaitez. Ajoutez les sous-domaines en les séparant par des virgules, sans espaces. Par exemple, acc01,acc02,acc03, etc.<br> <b>Remarque :</b> vous devez ajouter l'ID de compte lors de la spécification des sous-domaines.</br> </p>
 
    </td>
 
@@ -287,11 +287,11 @@ Android et iOS utilisent Firebase Cloud Messaging (FCM) comme service d’envoi 
 
 Procédez comme suit :
 
-1. Générez ou téléchargez le fichier **Certificat de notification Push** et une clé privée (.p12). Pour plus d’informations, voir la section [Document de développeur Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Générez ou téléchargez le **certificat de notification Push** et la clé privée (.p12). Pour plus d&#39;informations, consultez le [document du développeur Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
-1. Installez le fichier p12 après son téléchargement. Utiliser le mot de passe pour installer dans votre **Accès au trousseau**.
+1. Installez le fichier p12 après son téléchargement. Utilisez le mot de passe pour installer dans votre **accès au trousseau**.
 
-1. Accéder à **Mes certificats** et exportez le certificat. Veillez à sélectionner le type mime .cer.
+1. Accédez à **Mes certificats** et exportez le certificat. Veillez à sélectionner le type mime .cer.
 
 1. Une fois le fichier p12 et le fichier cer disponibles, exécutez les commandes suivantes :
 
@@ -313,19 +313,19 @@ Créez un projet dans Firebase et partagez le fichier services.json avec l’éq
 
 Pour télécharger le fichier services.json, procédez comme suit :
 
-1. Connectez-vous à la **Firebase** console.
-1. Accéder à **Paramètres du projet** et sélectionnez **Cloud Messaging**.
-1. Rechercher **API de messagerie Firebase Cloud** et sélectionnez **Gérer les comptes de service**.
-1. Dans le panneau **Comptes de service** , sélectionnez la page **Comptes de service** dans le panneau de gauche.
-1. Recherchez l’entrée de projet, puis sélectionnez **Gérer les détails** sous actions.
+1. Connectez-vous à la console **Firebase**.
+1. Accédez aux **paramètres du projet** et sélectionnez **Cloud Messaging**.
+1. Recherchez **l&#39;API Firebase Cloud Messaging** et sélectionnez **Gérer les comptes de service**.
+1. Dans la page **Comptes de service**, sélectionnez **Comptes de service** dans le panneau de gauche.
+1. Recherchez l&#39;entrée de votre projet et sélectionnez **Gérer les détails** sous Actions.
 
    >[!NOTE]
    >
    >   Le format d’entrée du projet sera &lt;-accountname->@appspot.gserviceaccount.com.
 
-1. Accéder à la section **Touches** et sélectionnez **Ajouter une clé**.
-1. S’il n’y a pas de clé, sélectionnez **Créer une clé** et sélectionnez **JSON** comme type de clé. Cette opération génère et télécharge le fichier JSON.
-1. S’il existe déjà une clé, sélectionnez **Télécharger la clé existante**, collez la clé, puis téléchargez-la. Cette opération génère et télécharge le fichier JSON.
+1. Accédez à l&#39;onglet **Touches** et sélectionnez **Ajouter une touche**.
+1. S&#39;il n&#39;y a pas de clé, sélectionnez **Créer une clé** et sélectionnez **JSON** comme type de clé. Cette opération génère et télécharge le fichier JSON.
+1. S&#39;il existe déjà une clé, sélectionnez **Télécharger la clé existante**, collez la clé, puis chargez-la. Cette opération génère et télécharge le fichier JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Contactez l’équipe CSM et partagez le fichier JSON pour ajouter l’entrée a
 
 Réutilisez le même projet que celui que vous avez créé dans les étapes ci-dessus pour les notifications push.
 
-[Ajouter le projet](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) dans Firebase et récupérer ***google-services.json*** fichier.
+[Ajouter le projet](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) dans Firebase et récupérer le fichier ***google-services.json***.
 
 ### iOS
 
-[Ajouter le projet](https://firebase.google.com/docs/ios/setup) pour Firebase et récupérer le fichier ***GoogleService-Info.plist*** fichier.
+[Ajouter le projet](https://firebase.google.com/docs/ios/setup) à Firebase et récupérer le fichier ***GoogleService-Info.plist***.
 
 >[!IMPORTANT]
 >
@@ -379,7 +379,7 @@ Après avoir généré les fichiers binaires, insérez-les dans Play Store ou Ap
 
 ## Comment appliquer les modifications
 
-Envoie les ressources et les fichiers requis à l’équipe CSM. L’équipe CSM remplit ensuite le [formulaire](https://forms.office.com/r/bJRRaRBvSh) avec les modifications requises et joint les ressources requises. L&#39;équipe examinera ensuite les modifications et en informera les équipes d&#39;ingénieurs. L’équipe d’ingénieurs génère ensuite une build et la partage avec l’équipe CSM.
+Envoie les ressources et les fichiers requis à l’équipe CSM. L&#39;équipe CSM remplit ensuite le [formulaire](https://forms.office.com/r/bJRRaRBvSh) avec les modifications requises et joint les ressources requises. L&#39;équipe examinera ensuite les modifications et en informera les équipes d&#39;ingénieurs. L’équipe d’ingénieurs génère ensuite une build et la partage avec l’équipe CSM.
 
 L’équipe CSM partage la version avec le client.
 

@@ -46,8 +46,8 @@ Pour éviter toute erreur liée à des liens rompus, qui peut apparaître en rai
 
    * Nous vous recommandons de modifier un modèle de courrier électronique depuis l’interface Learning Manager.
    * Copiez-collez le modèle modifié dans un fichier Bloc-notes/Word pour stocker une copie des modifications apportées.
-   * Évitez de remplacer du texte dynamique dans le modèle, surligné en bleu. Par exemple, « **OrganizationName** », « **Élève** », « **cliquez ici** », « **CertificateName** », etc.
+   * Évitez de remplacer du texte dynamique dans le modèle, surligné en bleu. Par exemple, « **OrganizationName** », « **Learner** », « **cliquez ici** », « **CertificateName** », etc.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour confirmer les modifications appliquées au modèle.
 1. Déclenchez le courrier électronique pour vérifier si les liens fonctionnent comme prévu.
-1. Rétablissez les paramètres d’origine en cliquant sur l’option **Rétablir l’original** pour le modèle modifié.
+1. Rétablissez les paramètres d&#39;origine en cliquant sur l&#39;option **Rétablir l&#39;original** pour le modèle modifié.

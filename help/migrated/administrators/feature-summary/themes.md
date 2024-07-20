@@ -3,14 +3,13 @@ description: Thèmes de couleur et image de marque dans Learning Manager
 jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 45%
 
 ---
-
-
 
 # Thèmes de couleur
 
@@ -24,17 +23,17 @@ Dans cette formation, vous découvrirez comment personnaliser l’apparence de l
 
 [![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
 
-Si vous ne parvenez pas à lancer la formation, écrivez à <almacademy@adobe.com>.
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Identité visuelle {#branding}
 
-Cliquez sur **[!UICONTROL Branding]** dans le volet de gauche, pour mettre à jour le nom de votre organisation, modifiez le sous-domaine, les styles et les thèmes du journal. Cliquez sur **[!UICONTROL Modifier]** adjacentes à chacune de ces rubriques pour modifier le contenu.
+Cliquez sur **[!UICONTROL Identité visuelle]** dans le volet de gauche pour mettre à jour le nom de votre organisation, modifier le sous-domaine, les styles de journaux et les thèmes. Cliquez sur **[!UICONTROL Modifier]** en regard de chaque rubrique pour modifier le contenu.
 
 ## Style de logo {#logostyling}
 
-Cliquez sur **[!UICONTROL Modifier]** pour définir l’apparence de votre logo et le nom de votre société dans l’application Learning Manager.
+Cliquez sur **[!UICONTROL Modifier]** pour définir l&#39;apparence de votre logo et du nom de votre société dans l&#39;application Learning Manager.
 
-Cliquez sur **[!UICONTROL Télécharger le nouveau logo]**, puis sélectionnez le logo à transférer depuis votre ordinateur. Vous pouvez prévisualiser l&#39;aspect du logo et le nom de votre organisation ci-dessous. Choisissez le style d’en-tête de votre choix et cliquez sur **[!UICONTROL Enregistrer]**.
+Cliquez sur **[!UICONTROL Télécharger le nouveau logo]**, puis sélectionnez le logo à transférer depuis votre ordinateur. Vous pouvez prévisualiser l&#39;aspect du logo et le nom de votre organisation ci-dessous. Choisissez le style d&#39;en-tête de votre choix et cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Thèmes {#themes}
 
@@ -42,11 +41,11 @@ Un ensemble de cinq images représentatives vous donne un aperçu de vos modific
 
 **Sélectionnez un thème** 
 
-Cliquez sur le bouton **[!UICONTROL Afficher les conseils]** sous cette section pour afficher les conseils sur l’image, comme indiqué ci-dessous.
+Cliquez sur **[!UICONTROL Afficher les conseils]** sous cette section pour afficher les conseils sur l&#39;image comme indiqué ci-dessous.
 
 ![](assets/themes-preview-images.png)
 
-*Affichage des conseils sur un thème*
+*Afficher des conseils sur un thème*
 
 L’application Learning Manager propose cinq options de thème de couleur à ses utilisateurs :
 
@@ -64,15 +63,15 @@ L’application Learning Manager propose cinq options de thème de couleur à se
 
 ![](assets/prime-customize-theme.png)
 
-*Personnalisation des couleurs d’un thème*
+*Personnalisation des couleurs d&#39;un thème*
 
 Vous pouvez personnaliser la couleur de la barre supérieure, la couleur d&#39;accentuation (par exemple, la couleur des icônes dans le volet de gauche), la couleur primaire, et la luminosité de la barre latérale des thèmes, à l&#39;exception du thème Prime par défaut.
 
-Dans le panneau **[!UICONTROL Couleur primaire]** , vous pouvez choisir la couleur utilisée pour l’interface utilisateur immersive.
+Dans le sélecteur de **[!UICONTROL couleur primaire]**, vous pouvez choisir la couleur utilisée pour l&#39;interface utilisateur immersive.
 
 Pour personnaliser, sélectionnez le type de thème dans le volet de gauche et cliquez sur les carrés en regard des couleurs de la marque et des couleurs d&#39;icônes de la barre latérale. Cliquez sur le curseur à côté de la luminosité de la barre latérale, faites glisser l&#39;outil vers l&#39;avant ou vers l&#39;arrière pour régler la luminosité. Regardez l&#39;aperçu dans les images ci-dessus à mesure que vous modifiez ces options.
 
-Cliquez sur **[!UICONTROL Réinitialiser le thème]** pour restaurer les paramètres d’origine du thème. Cliquez sur **[!UICONTROL Enregistrer]** après avoir effectué les modifications.
+Cliquez sur **[!UICONTROL Réinitialiser le thème]** pour restaurer les paramètres d&#39;origine du thème. Cliquez sur **[!UICONTROL Enregistrer]** après avoir effectué les modifications.
 
 **Aperçu en direct** 
 
@@ -90,8 +89,8 @@ Lorsque vous prévisualisez les modifications en direct, la fenêtre d&#39;aper�
 
 Voici comment mettre en œuvre plusieurs stratégies de marque :
 
-1. Dans l’application d’administration, sélectionnez **Branding** dans le volet de gauche.
-1. Sélectionner **Modifier** dans la section Identité visuelle multiple.
+1. Dans l&#39;application Administration, sélectionnez **Identité visuelle** dans le volet de gauche.
+1. Sélectionnez **Modifier** dans la section Identité visuelle multiple.
 1. Sélectionnez le bouton bascule et activez-le.
 
 ### Utilisateurs internes
@@ -123,7 +122,7 @@ Voici comment mettre en œuvre plusieurs stratégies de marque :
 
 Adobe Learning Manager vous permet de personnaliser votre compte afin d’améliorer l’expérience client.
 
-La liste ci-dessous répertorie les composants personnalisables. Pour personnaliser le compte, contactez Learning Manager  [assistance](mailto:captivateprimesupport@adobe.com).
+La liste ci-dessous répertorie les composants personnalisables. Pour personnaliser le compte, contactez l&#39;[assistance](mailto:captivateprimesupport@adobe.com) Learning Manager.
 
 <table>
  <tbody>
@@ -153,7 +152,7 @@ La liste ci-dessous répertorie les composants personnalisables. Pour personnali
     <ul>
      <li>L’image personnalisée appliquée s’affiche lorsque l’utilisateur passe le curseur de la souris sur la page Web de Learning Manager.<br></li>
      <li>Taille recommandée : 16 x 16 ou 24 x 24 px</li>
-     <li>Format d’image recommandé - PNG, JPG</li>
+     <li>Format d’image recommandé : PNG, JPG</li>
     </ul></td>
   </tr>
   <tr>
@@ -189,9 +188,9 @@ La liste ci-dessous répertorie les composants personnalisables. Pour personnali
 
 ## Configuration des paramètres de recommandation {#configurerecommendationsettings}
 
-Activé **Branding** > **Généralités**, vous pouvez configurer les portées des recommandations pour les élèves internes et externes et permettre aux élèves de choisir des compétences sur la page d’accueil de l’élève.
+Sur **Identité visuelle** > **Général**, vous pouvez configurer la portée des recommandations pour les élèves internes et externes et permettre aux élèves de choisir des compétences sur la page d&#39;accueil de l&#39;élève.
 
-Sur la **Généralités** , vous disposez des options suivantes :
+Sur la page **Général**, vous disposez des options suivantes :
 
 <table>
  <tbody>
@@ -217,13 +216,13 @@ Sur la **Généralités** , vous disposez des options suivantes :
    <td>
     <p>Permettre à l’élève de découvrir les centres d’intérêt</p></td>
    <td>
-    <p>Applicable uniquement à l’expérience Classique. Choisir <strong>Oui </strong>ou <strong>Non</strong>.<br></p></td>
+    <p>Applicable uniquement à l’expérience Classique. Choisissez <strong>Oui </strong> ou <strong>Non</strong>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Demandez aux utilisateurs de sélectionner des domaines (compétences) <br></p></td>
    <td>
-    <p>Applicable uniquement à l’expérience Immersive. Choisir <strong>Oui</strong> ou <strong>Non</strong>. </p></td>
+    <p>Applicable uniquement à l’expérience Immersive. Choisissez <strong>Oui</strong> ou <strong>Non</strong>. </p></td>
   </tr>
  </tbody>
 </table>

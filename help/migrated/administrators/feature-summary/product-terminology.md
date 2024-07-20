@@ -26,13 +26,13 @@ Adobe Learning Manager utilise un ensemble de terminologies standard dans l’in
 
 Pour modifier les terminologies, procédez comme suit :
 
-1. En tant qu’administrateur, sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Généralités]**.
-1. Dans le panneau **[!UICONTROL Terminologie du produit]**, sélectionnez **[!UICONTROL Modifier]**.
+1. En tant qu&#39;administrateur, sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Général]**.
+1. Dans la **[!UICONTROL Terminologie du produit]**, sélectionnez **[!UICONTROL Modifier]**.
 
    ![](assets/product-terminology-settings.png)
    _Terminologie du produit_
 
-1. Sélectionner **[!UICONTROL Télécharger ici]** et téléchargez le modèle des terminologies.
+1. Sélectionnez **[!UICONTROL Télécharger ici]** et téléchargez le modèle des terminologies.
 
    ![](assets/download-here-pt.png)
    _Télécharger le modèle_
@@ -42,16 +42,16 @@ Pour modifier les terminologies, procédez comme suit :
 1. Après avoir téléchargé le fichier CSV, modifiez les terminologies concernées dans la deuxième colonne. Par exemple, vous pouvez changer « module » en « formation » ou « tableau de bord » en « classement ».
 
    ![](assets/csv-product-terminology.png)
-   _Modification du fichier csv_
+   _Modifier le fichier csv_
 
 1. Enregistrez les modifications.
 
 ## Importer le CSV mis à jour
 
-1. Dans le panneau **[!UICONTROL Terminologie du produit]** , sélectionnez le lien pour charger le fichier CSV.
+1. Dans la section **[!UICONTROL Terminologie du produit]**, sélectionnez le lien pour charger le fichier CSV.
 
    ![](assets/update-the-csv.png)
-   _Chargement du fichier CSV_
+   _Charger le fichier csv_
 
 1. Importez le CSV mis à jour.
 1. Sélectionnez **[!UICONTROL Enregistrer]**.
@@ -66,7 +66,7 @@ Sélectionnez **[!UICONTROL Réinitialiser la terminologie du produit]**.
 
 ![](assets/reset-the-terminology.png)
 
-_Réinitialisation de la terminologie du produit_
+_Réinitialiser la terminologie du produit_
 
 Lorsque vous cliquez sur le lien, un message contextuel de confirmation s’affiche.
 

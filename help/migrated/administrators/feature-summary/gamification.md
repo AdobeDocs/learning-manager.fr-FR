@@ -36,7 +36,7 @@ Pour accéder aux paramètres, procédez comme suit :
 
 Les administrateurs peuvent configurer les points de ludification pour les participants en suivant les étapes ci-dessous :
 
-1. Cliquez sur **[!UICONTROL Ludification]** après vous être connecté en tant qu’administrateur.\
+1. Cliquez sur **[!UICONTROL Ludification]** après vous être connecté en tant qu&#39;administrateur.\
    Une page s’affiche avec une liste des niveaux de bronze, d’argent, d’or et de platine et les points requis pour atteindre chaque niveau. La liste des tâches et les points correspondants sont affichés.
 1. Cliquez sur l’icône Modifier située en regard de chaque tâche pour configurer les points.
 1. Modifiez la fréquence d’occurrence pour des tâches telles que l’exécution d’un nombre spécifique de cours par mois ou trimestre ou année.
@@ -44,7 +44,7 @@ Les administrateurs peuvent configurer les points de ludification pour les parti
 
 ![](assets/set-up-points.png)
 
-*Définition de points*
+*Configurer les points*
 
 ## Tâches {#tasks}
 
@@ -130,11 +130,12 @@ Les scénarios possibles pour les super perfectionnistes dans les niveaux d’un
 >
 >La période ne s’applique pas à cette tâche. Si les participants atteignent un niveau supérieur, puis atteignent un niveau inférieur d&#39;une compétence, ils obtiennent des points seulement pour le plus haut niveau.
 
-**Pour référence**
+**Pour Référence**
 
 Cette tâche s’applique aux élèves qui font référence à leur cours terminé dans les N jours suivant l’achèvement.
 
-Scénario possible : lorsqu’un élève fait référence au cours terminé dans les 30 jours suivant la fin, il reçoit 50 points.
+Scénario possible :
+Lorsqu’un élève fait référence au cours terminé dans les 30 jours suivant la fin, il reçoit 50 points.
 
 **Points d’accomplissement précoce**
 
@@ -182,7 +183,7 @@ Scénarios possibles :
 
 ## Actions de l’administrateur {#administratoractions}
 
-L’administrateur peut créer une liste d’utilisateurs confidentiels, réinitialiser les points de ludification et activer/désactiver la fonctionnalité de ludification des élèves. Sélectionnez l’option **[!UICONTROL Paramètres]** sur la page de ludification pour afficher les actions comme indiqué dans l’instantané ci-dessous.
+L’administrateur peut créer une liste d’utilisateurs confidentiels, réinitialiser les points de ludification et activer/désactiver la fonctionnalité de ludification des élèves. Sélectionnez **[!UICONTROL Paramètres]** sur la page de ludification pour afficher les actions comme indiqué dans l&#39;instantané ci-dessous.
 
 ![](assets/gamification-actions.png)
 
@@ -235,14 +236,14 @@ Vous pouvez désactiver la ludification pour les utilisateurs internes et extern
 
 Les administrateurs peuvent définir l’étendue de la ludification en modifiant les paramètres de l’étendue. Vous pouvez activer de manière sélective la ludification parmi des utilisateurs, des groupes ou des emplacements de profil similaires.
 
-1. Dans Connexion administrateur, cliquez sur **[!UICONTROL Ludification]** dans le volet de gauche.
-1. Ouvrir **[!UICONTROL Ludification]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres d’étendue]**. Le [!UICONTROL Paramètres de l&#39;étendue de ludification] s’affiche.
+1. Dans la connexion Administrateur, cliquez sur **[!UICONTROL Ludification]** dans le volet de gauche.
+1. Ouvrez **[!UICONTROL Gamifications]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres d&#39;étendue]**. La boîte de dialogue [!UICONTROL Paramètres de l&#39;étendue de ludification] s&#39;affiche.
 
    ![](assets/scope-settings.png)
 
-   *Afficher la boîte de dialogue Paramètres de l’étendue de ludification*
+   *Afficher la boîte de dialogue Paramètres de l&#39;étendue de ludification*
 
-1. Cliquez sur l’option **[!UICONTROL Activer les paramètres d&#39;étendue]**.
+1. Cliquez sur l&#39;option **[!UICONTROL Activer les paramètres d&#39;étendue]**.
 
 1. Sélectionnez la caractéristique utilisateur dans la liste déroulante.
 
