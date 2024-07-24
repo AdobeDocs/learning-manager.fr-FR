@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0faea8c9282e501e6dbabbf3b59343d8ebbf174d
+source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Les éléments suivants peuvent être personnalisés :
 
    <td>
 
-    <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png. Les dimensions de l’icône de l’application sont de 512 × 512 pixels.<div><b>Remarque :</b> Veuillez noter qu'Apple n'autorise pas le canal Alpha dans les icônes d'application. Assurez-vous donc de supprimer le canal Alpha de la ressource avant de la soumettre.</div></p>
+    <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png. Les dimensions de l’icône de l’application sont de 512 × 512 pixels.<div>Veuillez noter qu’Apple n’autorise pas le canal Alpha dans les icônes d’application. Assurez-vous donc de supprimer le canal Alpha de la ressource avant de la soumettre.</div></p>
 
    </td>
 
