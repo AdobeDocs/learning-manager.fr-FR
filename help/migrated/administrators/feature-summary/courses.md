@@ -1,17 +1,17 @@
 ---
 description: Ce document fournit une aide destinée au rôle d’administrateur pour créer des modules de cours, des instances et des cours.
 jcr-language: en_us
-title: Créer des instances de cours et des parcours d’apprentissage
+title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
 source-wordcount: '4866'
 ht-degree: 61%
 
 ---
 
-# Créer des instances de cours et des parcours d’apprentissage
+# Création d’instances de cours et de parcours d’apprentissage
 
 Ce document fournit une aide destinée au rôle d’administrateur pour créer des modules de cours, des instances et des cours.
 
