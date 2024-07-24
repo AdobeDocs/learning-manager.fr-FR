@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4866'
 ht-degree: 61%
@@ -81,7 +81,7 @@ Pour créer une instance,
 
 Pour retirer une instance, procédez comme suit :
 
-1. Dans l’instance, cliquez sur le menu déroulant et choisissez l’option **[!UICONTROL Retirer l’instance]**.
+1. Dans l&#39;instance, sélectionnez le menu déroulant et choisissez l&#39;option **[!UICONTROL Retirer l&#39;instance]**.
 
    ![](assets/retire-an-instance.png)
 
