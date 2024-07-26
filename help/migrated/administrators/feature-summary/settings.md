@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3595'
-ht-degree: 67%
+source-wordcount: '3651'
+ht-degree: 66%
 
 ---
 
@@ -406,6 +406,10 @@ Activation ou désactivation des paramètres suivants :
     <p>Dans toutes les autres applications (administrateur, auteur, manager, administrateur personnalisé, auteur personnalisé), les modifications des paramètres (évaluation par étoiles/efficacité du cours/désactivation de l’affichage de l’évaluation) n’auront aucun effet. </p>
     <p>Pour les nouveaux comptes, la section <b>Afficher les évaluations</b> aura l'option <b>Évaluation par étoiles</b> activée par défaut.</p>
     <p>Pour les comptes existants, si l'option <b>Efficacité du cours</b> était activée pour le compte précédemment, la section <b>Afficher les évaluations</b> sera activée avec l'option Efficacité du cours sélectionnée. Si l'option <b>Efficacité du cours</b>s est désactivée, la section <b>Afficher les évaluations</b> sera également désactivée. Lorsque la section <b>Afficher les évaluations</b> est activée, l'option <b>Évaluation par étoiles</b> est activée par défaut.</p></td>
+  </tr>
+  <tr>
+   <td height="19">Suppression</td>
+   <td>Sélectionnez l’une des options de retrait suivantes :<li>Une fois retirés, les élèves inscrits pourront afficher et effectuer des actions, mais les élèves non encore inscrits perdront l’accès.</li><li>Une fois retirés, les élèves inscrits et non encore inscrits perdront l’accès.</li><div><b>Remarque :</b> vous pouvez retirer des cours, des parcours d'apprentissage ou des certifications de leurs pages de présentation.</div> </td>
   </tr>
  </tbody>
 </table>

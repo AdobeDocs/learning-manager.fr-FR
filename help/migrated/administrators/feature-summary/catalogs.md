@@ -4,10 +4,10 @@ title: Catalogues
 description: 'Les catalogues sont un ensemble de formations : cours, programmes d’apprentissage et certifications. Les catalogues vous permettent d’offrir aux élèves un accès à un ensemble personnalisé d’objets d’apprentissage. Vous pouvez associer les objets d’apprentissage à un catalogue pendant la création d’un nouveau catalogue.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 75%
+source-wordcount: '2498'
+ht-degree: 73%
 
 ---
 
@@ -57,6 +57,11 @@ Pour créer un catalogue, procédez comme suit :
 
    Vous pouvez ajouter plusieurs cours au catalogue.
 1. Vous pouvez filtrer les cours par compétences, rôles et langue. Le cours sélectionné sera recommandé aux élèves intéressés par ces compétences et ces rôles.
+
+   * **[!UICONTROL Compétences]** : les filtres de compétences permettent aux utilisateurs de trouver des cours axés sur des compétences particulières.
+   * **[!UICONTROL Rôles]** : les filtres de rôle aident les utilisateurs à accéder à des cours adaptés aux responsabilités et aux exigences des différents rôles.
+   * **[!UICONTROL Langue]** : les filtres de langue aident les utilisateurs à sélectionner les cours disponibles dans leur langue préférée ou requise
+
 1. Enregistrez les modifications. Revenez à la liste des catalogues et cliquez sur le nouveau catalogue.
 1. Sur la page du nouveau catalogue, cliquez sur **[!UICONTROL Contenu]** dans le volet de gauche.
 

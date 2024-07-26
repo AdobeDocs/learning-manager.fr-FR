@@ -4,10 +4,10 @@ title: Questions fréquemment posées par les élèves
 description: Forum aux questions pour les élèves de Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 56%
+source-wordcount: '2374'
+ht-degree: 55%
 
 ---
 
@@ -351,6 +351,18 @@ Oui, vous pouvez exporter des notes au format PDF en suivant les étapes ci-dess
 1. Cliquez sur l’onglet Notes.
 1. Pour envoyer les notes à votre adresse électronique enregistrée, cliquez sur l’option Notes par e-mail.
 1. Pour télécharger les notes au format PDF, cliquez sur Télécharger les notes.
+
++++
+
++++Où puis-je télécharger la version de bureau de l’application ?
+
+Suivez les étapes ci-dessous pour télécharger la version pour ordinateur :
+
+1. Connectez-vous en tant qu’élève.
+2. Cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]**.
+3. Cliquez sur **[!UICONTROL Nouvelle publication]** et cliquez sur l&#39;une des icônes comme indiqué ci-dessous dans la capture d&#39;écran.
+
+Le téléchargement de l’application démarre.
 
 +++
 

@@ -1,17 +1,17 @@
 ---
 description: Lisez cet article pour découvrir comment afficher et suivre des cours dans Learning Manager. Participez à des discussions et envoyez vos commentaires.
 jcr-language: en_us
-title: Cours
+title: Mon apprentissage
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2759'
 ht-degree: 64%
 
 ---
 
-# Cours
+# Mes apprentissages
 
 Lisez cet article pour découvrir comment afficher et suivre des cours dans Learning Manager. Participez à des discussions et envoyez vos commentaires.
 
@@ -25,7 +25,7 @@ Adobe Learning Manager permet aux élèves d&#39;accéder aux cours, aux progr
 >
 >Les élèves peuvent également installer l’application Learning Manager iPad sur l’Apple Store et l’application Learning Manager Android sur Google Play, et accéder aux cours sur les appareils mobiles. Toutes les fonctionnalités du rôle d&#39;élève sont également disponibles sur les applications. Les élèves peuvent également suivre les cours hors ligne et profiter d&#39;un accès fluide après s&#39;être reconnectés. Reportez-vous à la fonctionnalité [Utilisateurs de tablettes iPad et Android](ipad-android-tablet-users.md) pour plus d&#39;informations.
 
-## Affichage des cours {#viewingcourses}
+## Affichage des objets d’apprentissage {#viewingcourses}
 
 Vous pouvez afficher une liste de tous les cours disponibles en tant qu&#39;élève. Cliquez sur Mon apprentissage dans la page d’accueil ou dans le volet de gauche pour afficher tous les cours auxquels vous êtes inscrit.
 

@@ -4,10 +4,10 @@ title: Forum aux questions pour les administrateurs
 description: Forum aux questions pour les administrateurs Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Contactez l’équipe d’assistance Learning Manager.
 Vous pouvez obtenir l’ID de compte à partir du navigateur dans lequel Learning Manager est ouvert.
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++Puis-je obtenir un rapport, ou un rapport que quelqu’un peut obtenir pour moi, qui me montrera une liste de tous les cours dans le système de gestion de l’apprentissage ?
+
+Oui, vous pouvez extraire un **[!UICONTROL rapport de formation]** qui contient tous les cours, le programme d&#39;apprentissage et la certification dans le LMS. Pour télécharger le rapport, procédez comme suit :
+
+1. Connectez-vous en tant qu’administrateur.
+2. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapport de formations]**.
+3. Sélectionnez **[!UICONTROL Toutes les formations]** dans le menu déroulant.
+4. Cliquez sur **[!UICONTROL Télécharger]**.
+
++++
+
++++Où puis-je télécharger la version de bureau de l’application ?
+
+Suivez les étapes ci-dessous pour télécharger la version pour ordinateur :
+
+1. Connectez-vous en tant qu’administrateur.
+2. Cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]** > **[!UICONTROL Paramètres]**.
+3. Sous **[!UICONTROL Configuration du téléchargement]**, cliquez sur l&#39;hyperlien en fonction de votre système d&#39;exploitation.
 
 +++

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Ludification
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
@@ -26,6 +26,8 @@ Les élèves peuvent également voir leur niveau d’achèvement en fonction du 
 ## Tableau des scores {#leaderboard}
 
 Le Tableau des scores est une fonctionnalité de la ludification qui joue le rôle de tableau indicateur pour afficher le classement des meilleurs scores. Les participants peuvent voir leurs points de ludification dans le Tableau des scores.
+
+![](assets/leaderboard.png)
 
 Dans la page d&#39;accueil de l&#39;élève, cliquez sur **[!UICONTROL Ludification]** dans le volet de gauche. Cliquez sur le lien Tableau des scores pour afficher le tableau des scores. Cette fonction permet aux élèves de comprendre comment ils se classent par rapport à un membre particulier de l’équipe. Elle affiche également leur position de classement par rapport aux autres membres de l’équipe.
 

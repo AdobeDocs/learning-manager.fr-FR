@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Forum aux questions pour les instructeurs
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Oui, un auteur peut affecter plusieurs instructeurs à un même module. Dans ce 
 +++ Un instructeur peut-il modifier une session ?
 
 Un instructeur peut uniquement afficher ou modifier les informations sur les sessions auxquelles il a été affecté. Il ne peut pas modifier la session ou la liste des participants d’autres sessions.
+
++++
+
++++Comment attribuer le rôle d’instructeur aux utilisateurs externes ?
+
+* Par défaut, dans la section **[!UICONTROL Attribuer]** pour **[!UICONTROL Utilisateur externe]**, elle affiche uniquement **[!UICONTROL Créer un responsable]** ou **[!UICONTROL Créer un auteur]**.
+* Si vous souhaitez attribuer le rôle d&#39;**instructeur** à un utilisateur du LMS, vous pouvez l&#39;ajouter en tant qu&#39;**instructeur** dans n&#39;importe quel module de **[!UICONTROL salle de classe]** ou de **[!UICONTROL salle de classe virtuelle]**. Le rôle d&#39;**instructeur** sera automatiquement attribué à l&#39;utilisateur du LMS.
 
 +++

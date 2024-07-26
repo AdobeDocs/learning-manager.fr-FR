@@ -2,10 +2,10 @@
 title: Recommandations dans Adobe Learning Manager
 description: Le cœur du moteur de recommandations est basé sur le nouvel algorithme de classement des cours de Learning Manager. L'algorithme utilise 50 millions de points de données et cinq années de données d'apprentissage agrégées sur des millions d'utilisateurs pour classer les cours en fonction de leur probabilité d'inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,8 @@ Les administrateurs bénéficient d’un workflow guidé dans Learning Manager p
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour passer au nouveau système de recommandations.
 
-   ![Passer au nouveau système](assets/image521152.png)
-   *Sélectionnez le bouton Continuer*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Créez les paramètres de recommandations pour les produits et les rôles.
 
@@ -168,7 +168,7 @@ Le système de recommandation est désormais disponible pour vos élèves.
 
 ## Suppression d’un paramètre
 
-1. Dans la liste des paramètres, sélectionnez l’icône représentant trois points puis **[!UICONTROL Supprimer le paramètre]**.
+Les administrateurs peuvent supprimer un paramètre en cliquant sur l&#39;icône représentant trois points et en sélectionnant **[!UICONTROL Supprimer le paramètre]**. Les administrateurs peuvent supprimer un paramètre s’il n’est pas lié à des objets d’apprentissage. S’il est lié, ils peuvent uniquement masquer le paramètre. Cependant, ils ne peuvent pas masquer les deux derniers paramètres car au moins deux paramètres sont nécessaires pour que les recommandations fonctionnent.
 
 ![supprimer le paramètre](assets/delete-parameter.png)
 *Supprimer le paramètre*
