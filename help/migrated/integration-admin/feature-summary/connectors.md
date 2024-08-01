@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -762,14 +762,14 @@ Le connecteur Harvard ManageMentor est utilisé par les clients professionnels d
 
    Pour que la synchronisation soit effectuée correctement, assurez-vous qu’au moins un des fichiers suivants est présent dans le dossier FTP Harvard ManageMentor :
 
-   hmm12_metadata.xlsx : ce fichier contient les métadonnées de cours pour le connecteur Harvard ManageMentor. Assurez-vous que vous respectez la convention de dénomination lorsque vous chargez le fichier.
+   hmm12_metadata.csv : Ce fichier fournit les métadonnées du cours pour le connecteur Harvard ManageMentor. Assurez-vous que vous respectez la convention de dénomination lorsque vous chargez le fichier.
 
-   client_hmm12_20150125.xlsx : il s’agit du flux utilisateur du connecteur Harvard ManageMentor. La convention de dénomination de fichier qui suit est **client_hmm12_aaaaMMjj.xlsx.**
+   client_hmm12_20150125.csv : il s’agit du flux utilisateur pour le connecteur Harvard ManageMentor. La convention de dénomination de fichier qui suit est **client_hmm12_yyyyMMdd.csv.**
 
    Voir les exemples suivants de fichiers de flux utilisateur et de flux de cours :
 
-   * [Fichier de métadonnées de cours pour le connecteur Harvard ManageMentor](assets/hmm12-metadata.xlsx)
-   * [Flux utilisateur du connecteur Harvard ManageMentor](assets/client-hmm12-20170304.xlsx)
+   * [Fichier de métadonnées de cours pour le connecteur Harvard ManageMentor](assets/hmm12-metadata.csv)
+   * [Flux utilisateur du connecteur Harvard ManageMentor](assets/client-hmm12-20170304.csv)
 
 ## Connecteur Workday {#workdayconnector}
 

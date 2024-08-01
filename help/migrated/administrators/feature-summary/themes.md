@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 45%
 
 ---
@@ -106,6 +106,11 @@ Voici comment mettre en œuvre plusieurs stratégies de marque :
 >[!NOTE]
 >
 >Les utilisateurs internes peuvent avoir des champs actifs comme les utilisateurs externes (par exemple, l’administrateur doit ajouter le multi-branding pour les utilisateurs internes et les utilisateurs externes séparément en sélectionnant les valeurs de champ actif séparément).
+
+>[!INFO]
+>
+>Consultez ce [blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) pour plus d&#39;informations.
+
 
 #### Points importants
 

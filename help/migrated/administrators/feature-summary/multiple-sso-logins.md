@@ -3,7 +3,7 @@ description: Adobe Learning Manager prend en charge plusieurs méthodes de conne
 title: Plusieurs connexions SSO
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
@@ -54,7 +54,7 @@ Procédez comme suit :
 
 1. Importez le fichier CSV contenant les champs actifs et leurs valeurs.
 1. Cliquez sur Paramètres > Méthodes de connexion.
-1. Cochez la case Activer l’authentification unique (SSO) multiple pour la connexion.
+1. Cochez la case **[!UICONTROL Activer l’authentification unique (SSO) multiple]** pour la connexion.
 1. Mappez les configurations SSO aux valeurs du champ actif.
 1. Enregistrez les modifications. Importez à nouveau le fichier CSV.
 
@@ -63,7 +63,7 @@ Procédez comme suit :
 Procédez comme suit :
 
 1. Cliquez sur Paramètres > Méthodes de connexion.
-1. Cochez la case Activer l’authentification unique (SSO) multiple pour la connexion.
+1. Cochez la case **[!UICONTROL Activer l’authentification unique (SSO) multiple]** pour la connexion.
 1. Sélectionnez un champ actif pour une authentification unique.
 1. Liez les configurations SSO aux valeurs du champ.
 1. Enregistrez les modifications. Ajoutez un utilisateur unique et attribuez une valeur au champ actif.
@@ -73,7 +73,7 @@ Procédez comme suit :
 Procédez comme suit :
 
 1. Cliquez sur Paramètres > Méthodes de connexion.
-1. Cochez la case Activer l’authentification unique (SSO) multiple pour la connexion.
+1. Cochez la case **[!UICONTROL Activer l’authentification unique (SSO) multiple]** pour la connexion.
 1. Liez les configurations SSO aux valeurs du champ.
 1. Enregistrez les modifications. Ajoutez un utilisateur unique et attribuez une valeur au champ actif.
 1. Ajoutez un profil d’auto-inscription.
@@ -87,7 +87,7 @@ Procédez comme suit :
 
 1. Créez un profil externe.
 1. Cliquez sur Paramètres > Méthodes de connexion.
-1. Cochez la case Activer l’authentification unique (SSO) multiple pour la connexion.
+1. Cochez la case **[!UICONTROL Activer l’authentification unique (SSO) multiple]** pour la connexion.
 1. Liez la configuration SSO au profil externe créé.
 1. Enregistrez les paramètres.
 
