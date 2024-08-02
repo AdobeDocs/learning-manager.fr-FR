@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ Pour créer et partager un tableau de bord de conformité, procédez comme suit 
 
 1. Accédez à **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]**.
 1. Dans la section **[!UICONTROL Tableau de bord de conformité]**, sélectionnez **[!UICONTROL Partagé avec les responsables]**.
-1. Sélectionnez **[!UICONTROL Partager le tableau de bord]** et sélectionnez les étiquettes créées dans le menu déroulant **[!UICONTROL Conformité personnalisée]**.
+1. Sélectionnez **[!UICONTROL Partager le tableau de bord]** et sélectionnez les étiquettes créées dans le menu déroulant **[!UICONTROL Sélectionner une étiquette de conformité]**.
 
 
    ![](assets/compliance-type.png)

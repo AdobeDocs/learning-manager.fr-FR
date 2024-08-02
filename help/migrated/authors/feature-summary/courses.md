@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
-ht-degree: 72%
+source-wordcount: '7145'
+ht-degree: 71%
 
 ---
 
@@ -120,6 +120,10 @@ Pour ajouter les étiquettes de conformité aux cours, procédez comme suit :
    >[!IMPORTANT]
    >
    >Assurez-vous de définir une échéance pour le cours lorsque vous ajoutez la conformité personnalisée.
+
+   >[!NOTE]
+   >
+   >Un maximum de 50 cours, parcours d’apprentissage ou certifications peut avoir la même valeur pour un libellé de type de conformité personnalisé.
 
 1. Enregistrez et publiez le cours/parcours d’apprentissage/certification.
 Désormais, le cours/parcours d’apprentissage/la certification est considéré comme un type de conformité. Les administrateurs peuvent ajouter ce cours au tableau de bord de conformité et le partager avec les responsables pour suivre la progression
