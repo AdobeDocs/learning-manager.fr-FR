@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -441,7 +441,7 @@ Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV
    >
    >Le champ du gestionnaire doit être mappé à un champ d’adresse électronique. Le mappage de toutes les colonnes est obligatoire pour que le connecteur puisse être utilisé.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** après avoir terminé le mappage.
+1. Sélectionnez **[!UICONTROL Enregistrer]** après avoir terminé le mappage.
 
    Le connecteur est maintenant prêt à l’emploi. Le compte que vous venez de configurer s’affiche en tant que source de données dans l’application d’administrateur pour que l’administrateur programme l’importation ou pour une synchronisation à la demande.
 
@@ -2073,32 +2073,7 @@ Le processus automatisé de synchronisation de l’achèvement des travaux des u
 
 Pour plus d&#39;informations, voir [**Installer le connecteur de Microsofts Teams dans Adobe Learning Manager**](install-microsoft-teams-connector.md).
 
-## Expérience hors connexion
-
-L’expérience hors connexion vous permet de créer une expérience en temps réel pour les utilisateurs non connectés. Par exemple, une expérience hors connexion sert de page de destination pour les campagnes marketing visant à encourager les inscriptions.
-
-L&#39;expérience hors connexion dans Adobe Learning Manager peut être configurée à l&#39;aide du connecteur **[!UICONTROL Training Data Access]**. Le connecteur fournit les offres suivantes :
-
-* Offre standard
-* Offre Premium
-
-**Offre standard**
-
-L’offre standard consiste à créer la version native de Adobe Learning Manager. Les utilisateurs peuvent créer une expérience sans tête de démonstration uniquement et non connectée. L’expérience de démonstration sans en-tête est non évolutive et ne doit pas être utilisée dans un environnement de production.
-
-**Offre Premium**
-
-L&#39;offre Premium aide les utilisateurs à créer une interface sans en-tête configurée par le connecteur **[!UICONTROL Training Data Access]**. Cela permet aux utilisateurs d’obtenir des données en temps réel sur le cours et les détails du parcours d’apprentissage tels que le nom, la description, l’auteur, les compétences, la durée, etc. Pour les scénarios d’apprentissage fusionnés, vous bénéficiez également de limites de places en temps réel, de places occupées, de limites de listes d’attente et de nombres de listes d’attente. Les clients peuvent utiliser ces API pour créer des fonctionnalités de recherche et de filtrage et un résumé complet du cours pour les élèves non connectés.
-
-Les clients peuvent acheter une formule Premium pour créer cette expérience hors connexion hautement évolutive.
-
->[!NOTE]
->
->Veuillez contacter l’équipe de support ou le CSM pour acheter la formule Premium.
-
-Une fois qu’un utilisateur a acheté une formule, l’équipe CSM active la formule Premium pour lui. À l&#39;aide du connecteur Training Data Access, les utilisateurs peuvent configurer une expérience hors connexion avec les fonctionnalités mentionnées précédemment.
-
-### Connecteur d&#39;accès aux données de formation
+## Connecteur d&#39;accès aux données de formation {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ Une fois qu’un utilisateur a acheté une formule, l’équipe CSM active la fo
 
 Le connecteur **[!UICONTROL Training Data Access]** vous permet de créer une expérience sans en-tête. Il peut s’agir d’une expérience autonome ou d’une interface utilisateur personnalisée basée sur AEM Sites. Il permet de récupérer et d’afficher les informations de formation pour les élèves et permet la recherche et le filtrage. Une fois le connecteur de données activé, un ensemble d’API publiques sera disponible pour créer l’interface, où les informations sur le cours/parcours d’apprentissage seront affichées aux élèves.
 
-#### Configuration du connecteur
+### Configuration du connecteur
 
 Utilisez le connecteur **[!UICONTROL Training Data Access]** pour intégrer votre compte Adobe Learning Manager aux systèmes de stockage et de recherche de données. Cela permet à votre interface AEM Sites d’obtenir des données de formation, d’afficher des pages Web et d’offrir de meilleures options de recherche aux élèves.
 
@@ -2164,6 +2139,31 @@ Pour plus d&#39;informations, consultez ce [**document**](../../adobe-learning-m
 Le site web publié affiche une liste de tous les cours, certificats et parcours d’apprentissage migrés qui sont récupérés à partir du service de recherche pour les élèves non connectés.
 
 Lorsqu’un élève clique sur Cours, Certificat ou Parcours d’apprentissage, la page Présentation s’ouvre. Sur la page, lorsque l’élève s’inscrit, il doit d’abord se connecter, puis suivre le cours.
+
+### Expérience hors connexion
+
+L’expérience hors connexion vous permet de créer une expérience en temps réel pour les utilisateurs non connectés. Par exemple, une expérience hors connexion sert de page de destination pour les campagnes marketing visant à encourager les inscriptions.
+
+L&#39;expérience hors connexion dans Adobe Learning Manager peut être configurée à l&#39;aide du connecteur **[!UICONTROL Training Data Access]**. Le connecteur fournit les offres suivantes :
+
+* Offre standard
+* Offre Premium
+
+**Offre standard**
+
+L’offre standard consiste à créer la version native de Adobe Learning Manager. Les utilisateurs peuvent créer une expérience sans tête de démonstration uniquement et non connectée. L’expérience de démonstration sans en-tête est non évolutive et ne doit pas être utilisée dans un environnement de production.
+
+**Offre Premium**
+
+L&#39;offre Premium aide les utilisateurs à créer une interface sans en-tête configurée par le connecteur **[!UICONTROL Training Data Access]**. Cela permet aux utilisateurs d’obtenir des données en temps réel sur le cours et les détails du parcours d’apprentissage tels que le nom, la description, l’auteur, les compétences, la durée, etc. Pour les scénarios d’apprentissage fusionnés, vous bénéficiez également de limites de places en temps réel, de places occupées, de limites de listes d’attente et de nombres de listes d’attente. Les clients peuvent utiliser ces API pour créer des fonctionnalités de recherche et de filtrage et un résumé complet du cours pour les élèves non connectés.
+
+Les clients peuvent acheter une formule Premium pour créer cette expérience hors connexion hautement évolutive.
+
+>[!NOTE]
+>
+>Veuillez contacter l’équipe de support ou le CSM pour acheter la formule Premium.
+
+Une fois qu’un utilisateur a acheté une formule, l’équipe CSM active la formule Premium pour lui. À l&#39;aide du connecteur Training Data Access, les utilisateurs peuvent configurer une expérience hors connexion avec les fonctionnalités mentionnées précédemment.
 
 ## Connecteur Adobe Commerce
 
