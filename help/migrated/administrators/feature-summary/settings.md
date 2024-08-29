@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 66%
+source-wordcount: '3669'
+ht-degree: 65%
 
 ---
 
@@ -165,7 +165,7 @@ Activation ou désactivation des paramètres suivants :
   </tr>
   <tr>
    <td>Afficher les étiquettes de catalogue</td>
-   <td>Si cette option est activée, les administrateurs et les auteurs peuvent définir des étiquettes de catalogue et des valeurs et les associer à des objets d’apprentissage.</td>
+   <td>Si cette option est activée, les administrateurs et les auteurs peuvent définir des étiquettes et des valeurs de catalogue et les lier à des objets d’apprentissage. La sélection de cette option permet également aux auteurs d’ajouter des cours, des parcours d’apprentissage, des certifications ou des assistances à la tâche aux catalogues.</td>
   </tr>
   <tr>
    <td>Les élèves peuvent consulter leurs scores</td>

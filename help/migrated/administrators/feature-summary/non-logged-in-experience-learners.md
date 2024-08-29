@@ -2,10 +2,10 @@
 title: Expérience hors connexion pour les élèves
 description: Le portail natif de Adobe Learning Manager prend en charge un accès non consigné au site de formation. Lorsque ce mode est activé, les élèves peuvent découvrir et accéder au site de formation et consulter divers cours et contenus disponibles. L’expérience hors connexion permet aux élèves de parcourir les cours sans être connectés à un portail.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 41%
+source-wordcount: '601'
+ht-degree: 40%
 
 ---
 
@@ -88,3 +88,4 @@ Toutes les formations exportées seront présentes.
 * Vue de l&#39;application de l&#39;élève affichée dans le catalogue.
 * Pages de présentation de la formation : cliquez sur la carte pour rediriger vers Inscription, après quoi un utilisateur est redirigé vers la page de présentation de la formation/page d’instance.
 * Tous les catalogues activés seront présents. Tout élève n’ayant pas accès à un catalogue ne peut pas le voir ni y suivre la formation après s’être connecté.
+* Pour l’option native, les modifications apportées à un cours ou à un parcours d’apprentissage seront reflétées après 24 heures, et non en temps réel.

@@ -1,13 +1,13 @@
 ---
 description: Lisez cet article pour découvrir comment afficher et suivre des cours dans Learning Manager. Participez à des discussions et envoyez vos commentaires.
 jcr-language: en_us
-title: Mon apprentissage
+title: Mes apprentissages
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
