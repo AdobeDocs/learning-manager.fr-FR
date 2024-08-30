@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Mes apprentissages
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Vous pouvez afficher tous les modules dans une fenêtre de navigateur.
 **Fermer le cours** Cliquez sur l’icône de fermeture (x) dans le coin supérieur droit du lecteur pour quitter le cours.
 
 *Après avoir quitté le cours, vous pouvez revenir au cours en cliquant sur le bouton Revisiter sur la page de description du cours.*
+
+## Instances d’inscription multiples
+
+Si un cours comporte plusieurs instances, les élèves auront la possibilité de choisir une instance spécifique et de s&#39;y inscrire. Ils peuvent également basculer entre les instances si nécessaire.
 
 ## Évaluation par étoiles
 
