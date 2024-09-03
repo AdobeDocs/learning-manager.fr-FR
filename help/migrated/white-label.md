@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,52 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >Vous aurez besoin des outils de construction du kit de développement logiciel Android pour créer les fichiers binaires signés.
+
+Le Play Store nécessite des binaires Android au format aab pour la publication. Par conséquent, nous fournirons le fichier .aab non signé.
+
+Voici une version révisée :
+
+>[!NOTE]
+>
+>Lors de la création d’un fichier KeyStore, vous devez générer un mot de passe KeyStore, un alias de clé de signature et un mot de passe d’alias de clé de signature.
+
+Procédez comme suit pour signer le fichier .aab :
+
+Exécutez la commande suivante :
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>**[!UICONTROL jarsigner]** est inclus dans Java. Assurez-vous d’utiliser Java 21.
+
+À l’invite, entrez les mots de passe suivants :
+
+* Mot de passe KeyStore
+* mot de passe pour l’alias de clé de signature
+
+Vous pouvez utiliser l’application fournie. Cependant, si vous devez générer une apk à partir d’un fichier aab, veuillez suivre ces étapes :
+
+>[!NOTE]
+>
+>Vous devrez installer **[!UICONTROL bundletool]** pour générer des API.
+
+
+Exécutez la commande suivante pour créer le fichier apk :
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+Pour décompresser le fichier, exécutez la commande suivante :
+
+```
+unzip my_app.apks -d output_dir
+```
+
+Vous obtiendrez le fichier apk à partir du dossier **[!UICONTROL output_dir]**.
 
 **Prochaine étape**
 

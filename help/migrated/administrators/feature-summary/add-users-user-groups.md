@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
-ht-degree: 62%
+source-wordcount: '4061'
+ht-degree: 61%
 
 ---
 
@@ -235,7 +235,7 @@ Il y a quelques différences entre les inscriptions internes et externes.
    <td>
     <p>La ludification est disponible.</p></td>
    <td>
-    <p>La ludification n’est pas disponible.</p></td>
+    <p>La ludification est disponible. L’administrateur doit activer la ludification pour les élèves externes dans les paramètres de ludification.</p></td>
   </tr>
   <tr>
    <td>
