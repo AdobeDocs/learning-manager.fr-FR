@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Réutilisez le même projet que celui que vous avez créé dans les étapes ci-d
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+Le dossier racine contient le fichier **Runner.xcarchive.zip**. Exécutez les commandes ci-dessous pour générer le binaire signé :
+
+1. Exécutez la commande suivante pour décompresser l&#39;archive :
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. Accédez au répertoire de l’application :
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. Copiez le fichier d’approvisionnement mobile :
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. Revenez au répertoire racine (où se trouve Runner.xcarchive.zip) :
+
+   ```
+   cd <root>
+   ```
+
+5. Exportez l’archive à l’aide de xcodebuild :
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. Recherchez le fichier .ipa dans le dossier ipa_path.
+7. Chargez le fichier .ipa sur le site web Diawi.
+8. Une fois le téléchargement terminé, sélectionnez le bouton **[!UICONTROL Envoyer]**.
+9. Une fois l’opération terminée, vous recevrez un code QR et un lien.
+10. Ouvrez le code QR ou le lien directement dans Safari.
+
+Si le périphérique est inclus dans le profil d’approvisionnement, l’installation doit se poursuivre sur le périphérique.
 
 >[!NOTE]
 >
 >Vous aurez besoin de XCode 15.2 ou version ultérieure pour créer les fichiers binaires signés.
 
 
-## Android
+### Android
+
+**Pour le fichier apk**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**Pour le fichier aab**
 
 >[!NOTE]
 >
