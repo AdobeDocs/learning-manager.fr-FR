@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-Le dossier racine contient le fichier **Runner.xcarchive.zip**. Exécutez les commandes ci-dessous pour générer le binaire signé :
+Le dossier `<root>` contient le fichier **Runner.xcarchive.zip**. Exécutez les commandes ci-dessous pour générer le binaire signé :
 
 1. Exécutez la commande suivante pour décompresser l&#39;archive :
 
@@ -378,7 +378,7 @@ Le dossier racine contient le fichier **Runner.xcarchive.zip**. Exécutez les co
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Revenez au répertoire racine (où se trouve Runner.xcarchive.zip) :
+4. Revenez au dossier `<root>` (où se trouve Runner.xcarchive.zip) :
 
    ```
    cd <root>
