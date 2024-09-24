@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Création et modification de compétences et niveaux
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 79%
@@ -68,7 +68,7 @@ Pour ajouter une compétence, suivez les étapes ci-dessous :
 
    ![](assets/list-of-skills.png)
 
-   *Afficher la liste des compétences oif*
+   *Afficher la liste des compétences*
 
 ## Attribution de la compétence aux élèves {#assigntheskilltolearners}
 

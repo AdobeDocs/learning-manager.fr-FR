@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ Le dossier `<root>` contient le fichier **Runner.xcarchive.zip**. Exécutez les 
    ```
 
 6. Recherchez le fichier .ipa dans le dossier ipa_path.
-7. Chargez le fichier .ipa sur le site web Diawi.
+7. Chargez le fichier .ipa sur le site Web `Diawi`.
 8. Une fois le téléchargement terminé, sélectionnez le bouton **[!UICONTROL Envoyer]**.
 9. Une fois l’opération terminée, vous recevrez un code QR et un lien.
 10. Ouvrez le code QR ou le lien directement dans Safari.
