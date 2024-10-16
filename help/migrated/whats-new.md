@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2325'
 ht-degree: 3%
 
 ---
@@ -231,6 +231,12 @@ Les API qui prennent en charge le tri par date et par -date affichent les résul
 ### Modification des limites de décalage
 
 Pour améliorer les performances du système et gérer plus efficacement l’utilisation des ressources, Adobe a déprécié les valeurs de décalage élevées dans le point de terminaison GET /users pour les portées ADMIN et LEARNER. Nous vous recommandons d’utiliser l’API Jobs pour récupérer les enregistrements avec une valeur de décalage.
+
+### Modifications du régime et de la limitation de rafale
+
+Dans cette version, des limites de RPM (demandes par minute) et de rafale ont été ajoutées pour toutes les API. Vous pouvez vérifier le RPM maximal pour chaque API sur la page Swagger.
+
+RPM correspond au nombre de demandes que vous pouvez envoyer au serveur API en une minute. La limite de rafale permet un nombre plus élevé de requêtes pendant une courte durée, dépassant la limite de cadence habituelle.
 
 ### API obsolètes
 
