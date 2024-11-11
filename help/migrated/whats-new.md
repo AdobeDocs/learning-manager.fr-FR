@@ -2,9 +2,9 @@
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ Les administrateurs peuvent trouver ces modifications de rapport dans la section
 
 Le rapport **[!UICONTROL Relevés de notes d&#39;apprentissage]** contiendra deux nouvelles colonnes :
 
-* ID de module
-* ID d’instance de cours
+* **[!UICONTROL ID de module]** : affiche l&#39;identifiant unique de chaque module. Cette nouvelle colonne a été ajoutée après la colonne **[!UICONTROL Module]** existante.
+* **[!UICONTROL ID d&#39;instance de cours]** : affiche l&#39;identifiant unique de chaque instance de cours. Cette nouvelle colonne a été ajoutée après la colonne **[!UICONTROL Instance]** existante.
+* **[!UICONTROL Commentaire d&#39;achèvement]** : cette colonne capture les commentaires saisis par l&#39;administrateur lors du marquage de l&#39;achèvement de l&#39;utilisateur. Cette nouvelle colonne a été ajoutée à la fin du rapport.
+
 
 ### Rapport récapitulatif de la session
 
 Le rapport **[!UICONTROL Résumé de la session]** contiendra trois nouvelles colonnes :
 
-* ID de module
-* ID de session
-* ID d’instance de cours
-* Nombre d’achèvements
+* La colonne **[!UICONTROL ID de module]** a été ajoutée avant la colonne **[!UICONTROL Nom de la session]**.
+* La colonne **[!UICONTROL ID de session]** a été ajoutée avant la colonne **[!UICONTROL Nom de session]**.
+* La colonne **[!UICONTROL ID d&#39;instance de cours]** a été ajoutée après la colonne **[!UICONTROL Nom de l&#39;instance]**.
+* **[!UICONTROL Nombre d&#39;achèvements]** a été ajouté après la colonne **[!UICONTROL Nombre d&#39;inscriptions]**.
 
 ## Bogues corrigés dans cette mise à jour
 
