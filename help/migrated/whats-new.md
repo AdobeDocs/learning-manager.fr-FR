@@ -2,9 +2,9 @@
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3034'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ Reportez-vous à cet article [Rôles personnalisés](/help/migrated/administrato
 
 ## Commentaires d’achèvement
 
-Les administrateurs peuvent désormais ajouter des commentaires lorsqu’ils marquent les élèves comme ayant terminé leurs cours, parcours d’apprentissage ou certifications. Les administrateurs peuvent ajouter des commentaires pour un ou plusieurs élèves en même temps, et les commentaires apparaîtront dans le rapport [Relevés de notes des élèves](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
+Les administrateurs peuvent désormais ajouter des commentaires lorsqu’ils marquent les élèves comme ayant terminé leurs cours, parcours d’apprentissage ou certifications. Les administrateurs peuvent ajouter des commentaires pour un ou plusieurs élèves en même temps, et les commentaires apparaissent dans le rapport [Relevés de notes de l&#39;élève](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 Consultez cet article [Commentaires d&#39;achèvement](/help/migrated/administrators/feature-summary/courses.md#completion-comments) pour plus d&#39;informations.
 
