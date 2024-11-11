@@ -2,7 +2,7 @@
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '3034'
 ht-degree: 2%
@@ -223,7 +223,7 @@ Voici les conditions applicables aux nouvelles colonnes :
 3. `quizData` :
 
    * Le type de données doit être une chaîne et les valeurs prises en charge sont `QUIZ_ATTEMPTED`, `QUIZ_PASSED` et `QUIZPASSED_OR_LIMITREACHED`.
-   * Lorsque `completionCriteria` est défini sur `QUIZ`, entrez la valeur de quiz appropriée dans cette colonne ou laissez-la vide.
+   * Lorsque `completionCriteria` est défini sur `QUIZ`, entrez la valeur de quiz appropriée dans la colonne `quizData`.
 
 Reportez-vous au fichier [module_version csv spec](assets/4-module_version.xlsx) pour plus d&#39;informations.
 
@@ -239,7 +239,7 @@ Voici les conditions pour la colonne `completionCriteria` :
 * Si vous définissez `completionCriteria` sur `SELECTEDMODULES`, vous devez marquer les modules obligatoires dans le fichier [course_module.csv](assets/course_module.csv).
 * Dans la colonne `optionalCriteria`, saisissez `TRUE` ou `FALSE`. Si vous définissez la valeur sur `TRUE`, le module deviendra obligatoire.
 
-Reportez-vous au fichier [course csv spec](assets/3-course.xlsx) pour plus d&#39;informations.
+Reportez-vous aux fichiers [spéc csv de cours](assets/3-course.xlsx) et [spéc csv de module de cours](assets/6-course_module.xlsx) pour plus d&#39;informations.
 
 ## Modifications de l’API
 
