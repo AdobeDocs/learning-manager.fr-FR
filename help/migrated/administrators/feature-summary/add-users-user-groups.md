@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 61%
+source-wordcount: '4150'
+ht-degree: 60%
 
 ---
 
@@ -195,8 +195,6 @@ Types de champs actifs :
 ## Créer un lien d’auto-inscription {#createaselfregistrationlink}
 
 Vous pouvez également permettre aux employés de votre organisation de s’inscrire en tant qu’élèves au compte Adobe Learning Manager, sans nécessiter votre aide en tant qu’administrateur. L’administrateur peut créer un lien d’auto-inscription et le partager avec les employés, qui peuvent ensuite s’inscrire à Learning Manager à l’aide de leurs identifiants d’Adobe.
-
-
 
 Dans le coin supérieur droit de la page, cliquez sur **[!UICONTROL Ajouter]** et sélectionnez **[!UICONTROL Auto-inscription]**.
 
@@ -575,6 +573,27 @@ Tous les états incluent les champs actifs à plusieurs valeurs et leurs valeurs
 L’administrateur peut ajouter des champs actifs générés automatiquement et configurer des rapports d’activité et de formation des utilisateurs.
 
 Le rapport Relevé de notes de l’élève contient tous les champs actifs et les valeurs séparées par des virgules. L’administrateur peut ensuite filtrer les données en conséquence.
+
+## Rapport de groupe d’utilisateurs
+
+Le nouveau rapport de groupe d’utilisateurs de Adobe Learning Manager permet de gérer les groupes d’utilisateurs en offrant une visibilité sur les groupes non gérés lorsque les administrateurs sont partis. Les administrateurs peuvent accéder aux rapports dans la section **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupe d’utilisateurs]**. Il fournit des informations détaillées sur chaque groupe, notamment :
+
+* Type de groupe d’utilisateurs
+* Nom du groupe
+* Description
+* Créé par (nom)
+* Créé par (adresse e-mail)
+* Créé le (fuseau horaire UTC)
+* Nombre d&#39;utilisateurs
+
+Pour télécharger le rapport, procédez comme suit :
+
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Sélectionnez **[!UICONTROL Utilisateurs]** > **[!UICONTROL Groupe d’utilisateurs]**.
+3. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Télécharger le rapport de groupe d&#39;utilisateurs]**.
+
+![](assets/download-user-group-report.png)
+_Télécharger le rapport du groupe d&#39;utilisateurs_
 
 ## Forum aux questions {#faq}
 

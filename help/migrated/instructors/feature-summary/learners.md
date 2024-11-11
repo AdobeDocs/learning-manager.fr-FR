@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ Les instructeurs peuvent désinscrire les élèves des sessions. Ces derniers so
 
 ![](assets/unenroll-learners.png)
 *Désinscrire les élèves*
+
+### Rapport de liste d’attente
+
+Le nouveau **[!UICONTROL rapport sur la liste d&#39;attente]** de Adobe Learning Manager permet aux instructeurs de télécharger la liste d&#39;élèves sur liste d&#39;attente pour toutes les instances d&#39;un cours. Les instructeurs peuvent accéder à ce rapport à partir de la section **[!UICONTROL Liste d&#39;attente]** sur la page **[!UICONTROL Présentation de la session]**.
+
+En suivant les colonnes disponibles dans le rapport Liste d’attente :
+
+* Nom du cours
+* Nom d’instance
+* ID d’instance
+* État d’instance
+* Nom d’utilisateur
+* Courrier électronique
+* ID utilisateur unique
+* Date d’inscription (fuseau horaire UTC)
+* Statut
+* Nombre de listes d’attente
+* Limite de liste d’attente
+* Limite de postes
+
+Pour télécharger le rapport à partir de la section Instructeur :
+
+1. Connectez-vous en tant que **[!UICONTROL instructeur]**.
+2. Sélectionnez une session dans la page d’accueil.
+3. Sélectionnez l&#39;option **[!UICONTROL Liste d&#39;attente]** dans la page **[!UICONTROL Présentation de la session]**.
+4. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Exporter le rapport]** pour télécharger le rapport **[!UICONTROL Liste d&#39;attente]**.
 
 ## Noter l’assiduité pour votre session {#markattendanceforyoursession}
 

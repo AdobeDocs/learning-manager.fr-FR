@@ -4,10 +4,10 @@ title: Catalogues
 description: 'Les catalogues sont un ensemble de formations : cours, programmes d’apprentissage et certifications. Les catalogues vous permettent d’offrir aux élèves un accès à un ensemble personnalisé d’objets d’apprentissage. Vous pouvez associer les objets d’apprentissage à un catalogue pendant la création d’un nouveau catalogue.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 73%
+source-wordcount: '2552'
+ht-degree: 72%
 
 ---
 
@@ -96,6 +96,10 @@ Pour créer un catalogue, procédez comme suit :
    L&#39;assistance à la tâche que vous avez ajoutée apparaît dans l&#39;onglet **[!UICONTROL Assistances à la tâche]**.
 
 Le contenu s’affiche dans chacun de ces onglets s’il est déjà disponible dans le compte. Dans le cas contraire, vous devez créer d’abord le contenu. Par exemple, si vous n’avez pas déjà ajouté de cours ou de programmes d’apprentissage dans l’application Learning Manager, vous devez les créer en premier.
+
+## Suppression en bloc de cours, parcours d’apprentissage ou assistances à la tâche
+
+Les administrateurs ou les administrateurs personnalisés peuvent supprimer des cours, des parcours d’apprentissage ou des assistances à la tâche en bloc. Accédez à **[!UICONTROL Catalogues]** et sélectionnez un catalogue. Sur la page **[!UICONTROL Contenu]**, sélectionnez **[!UICONTROL Modifier le contenu]**. Sélectionnez ensuite l&#39;option **[!UICONTROL Supprimer]** en regard des cours, des parcours d&#39;apprentissage ou des assistances à la tâche, puis sélectionnez **[!UICONTROL Enregistrer]**.
 
 ## Lien profond vers le catalogue pour les élèves {#deep-link}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26251'
+source-wordcount: '26237'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## Nouveautés de cette version
 
-Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new.md).
+Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new-july-2024.md).
 +++
 
 +++Mise à jour 96 : version de mars 2024 de Adobe Learning Manager
@@ -47,7 +47,7 @@ Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/
 
 ## Nouveautés de cette version
 
-Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023).
+Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new-november-2023.md).
 +++
 
 +++Mise à jour 94
@@ -395,8 +395,6 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 * Améliorations apportées à la page Présentation de la formation
 * Personnalisation du lecteur
 * Emprunt d’identité de l’élève et du responsable
-
-Pour plus d’informations, voir [Nouveautés dans la version de novembre 2022 d’Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
 
 **Remarque :** avec la version de novembre 2022 de Adobe Learning Manager, Zoom abandonnera l&#39;authentification [JWT d&#39;ici juin 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). En conséquence, le connecteur Zoom avec JWT continuera de fonctionner jusqu’à la date mentionnée. Toutefois, nous recommandons aux utilisateurs de créer une application OAuth de serveur à serveur pour remplacer la fonctionnalité dans leur compte. Par défaut, l’authentification OAuth Zoom est appliquée aux nouvelles connexions.
 
@@ -3037,7 +3035,7 @@ Dans la connexion Administrateur, la pagination ne fonctionnait pas sur la page 
 
 **Création de compétences**
 
-Dans la connexion Élèves, l&#39;info-bulle du nom de compétence dans **Mappage de compétences **était** **n&#39;affichait pas le nom **** complet. Ce problème a été résolu.
+Dans la connexion Élèves, l&#39;info-bulle du nom de compétence dans **Mappage de compétences **0}n&#39;affichait pas le ****nom complet.**** Ce problème a été résolu.
 
 **Ajout de partenaires externes**
 

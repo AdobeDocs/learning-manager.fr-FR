@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Annonces
 description: Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur diffuse pour un ensemble défini d’utilisateurs.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 69%
+source-wordcount: '1061'
+ht-degree: 57%
 
 ---
 
@@ -59,26 +59,32 @@ Si la pièce jointe d’éléments multimédia est de grande taille, le chargeme
 
 Lorsque vous sélectionnez cette option, tout fichier multimédia que vous sélectionnez s&#39;affiche comme en-tête sur la page d’accueil de l’élève. L&#39;en-tête sert d&#39;appel à l’action pour les élèves auxquels il est destiné.
 
-![](assets/masthead-announcement.png)
+Les administrateurs peuvent ajouter un texte optionnel pour tous les en-têtes afin d’améliorer l’accessibilité pour les élèves. Cela permet aux élèves ayant des besoins spéciaux d’utiliser des lecteurs d’écran pour lire le texte optionnel et comprendre l’image. Vous pouvez sélectionner plusieurs langues et fournir un texte de remplacement pour chaque langue. Veillez à ajouter le texte optionnel dans les langues respectives.
 
-*Personnaliser l&#39;en-tête*
+Pour ajouter l’en-tête, procédez comme suit :
 
-1. Recherchez et choisissez une image qui représentera l&#39;en-tête. La taille recommandée est 1 280 x 360 px.
-1. Choisissez la langue à laquelle vous souhaitez ajouter un en-tête. Pour chaque langue, vous devez choisir un en-tête.
-1. Dans le champ **[!UICONTROL Bouton d&#39;action]**, ajoutez une URL afin de rediriger les élèves vers celle-ci lorsqu&#39;ils cliquent sur le bouton dans l&#39;en-tête. Il s’agit d’un champ facultatif.
-1. Sélectionnez les groupes d’utilisateurs cibles ou les objets d’apprentissage cibles. Vous ne pouvez sélectionner qu’un seul de ces deux groupes pour une annonce.
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Sélectionnez **[!UICONTROL Annonces]** > **[!UICONTROL Ajouter]**.
+3. Sélectionnez **[!UICONTROL En tant qu&#39;en-tête]** dans le menu déroulant Type.
 
-   Commencez à saisir le nom de groupe d’utilisateurs dans la zone de texte, puis effectuez la sélection dans la liste déroulante. De même, sélectionnez la formation en saisissant le nom de l’objet dans la zone de texte.
+   ![](assets/announcement.png)
+   _Créer une annonce_
 
-1. Dans la section **[!UICONTROL Paramètres avancés]**, vous disposez des options suivantes :
+4. Sélectionnez la langue et chargez l’image.
 
-   * Cliquez sur **[!UICONTROL Immédiatement]** si vous souhaitez que l&#39;annonce soit publiée immédiatement.
-   * Cliquez sur **[!UICONTROL Jamais]** si vous ne souhaitez pas que votre annonce expire.
+   >[!NOTE]
+   >
+   >Vous pouvez sélectionner plusieurs langues et fournir un texte de remplacement pour chaque langue. Veillez à ajouter le texte optionnel dans les langues respectives.
+
+5. Saisissez le texte approprié dans le champ **[!UICONTROL Texte alternatif]**.
+6. Dans le champ **[!UICONTROL Bouton d&#39;action]**, ajoutez une URL pour rediriger les élèves lorsqu&#39;ils cliquent sur le bouton de l&#39;en-tête.
+7. Sélectionnez les groupes d’utilisateurs cibles ou les objets d’apprentissage cibles. Vous ne pouvez sélectionner qu’un seul de ces deux groupes pour une annonce.
+8. Dans la section **[!UICONTROL Paramètres avancés]**, vous disposez des options suivantes :
+
+   * Sélectionnez **[!UICONTROL Immédiatement]** si vous souhaitez que l&#39;annonce soit publiée immédiatement.
+   * Sélectionnez **[!UICONTROL Jamais]** si vous ne souhaitez pas que votre annonce expire.
    * Sélectionnez les dates de **[!UICONTROL début]** et de **[!UICONTROL fin]** pour l&#39;annonce.
-
-   ![](assets/advanced-settings.png)
-
-   *Définir l&#39;heure d&#39;affichage de l&#39;en-tête*
+9. Sélectionnez Enregistrer et publiez l’annonce.
 
 **Existe-t-il une limite au nombre d&#39;annonces En-tête en direct ?**
 

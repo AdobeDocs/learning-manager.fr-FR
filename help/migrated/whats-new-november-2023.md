@@ -2,9 +2,9 @@
 title: Nouveautés de cette version
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2023 de Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2370'
 ht-degree: 70%
 
 ---
@@ -112,7 +112,7 @@ Dans Adobe Learning Manager, seuls les relevés de notes d’apprentissage et de
    <td>
     <p style="text-align: left;"><b>Disponible</b></p></td>
    <td>
-    <p style="text-align: left;"><b>Portée</b></p></td>
+    <p style="text-align: left;"><b>Champ d’application</b></p></td>
         </tr>
     <tr>
    <td>
@@ -177,7 +177,7 @@ Les administrateurs personnalisés peuvent accéder aux rapports suivants selon 
    <td>
     <p style="text-align: left;"><b>Disponible</b></p></td>
    <td>
-    <p style="text-align: left;"><b>Portée</b></p></td>
+    <p style="text-align: left;"><b>Champ d’application</b></p></td>
         </tr>
     <tr>
    <td>
@@ -323,4 +323,3 @@ Pour plus d&#39;informations sur les versions actuelles et précédentes de l&#3
 
 * [Version de juillet 2023](whats-new-2023-july.md)
 * [Version d’avril 2023](whats-new-2023-april.md)
-* [Version de novembre 2022](whats-new-2022-november.md)

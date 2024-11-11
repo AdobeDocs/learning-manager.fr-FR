@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 53%
 
 ---
 
@@ -289,63 +289,107 @@ Pour créer et partager un tableau de bord de conformité, procédez comme suit 
 >
 >Le partage du nouveau tableau de bord remplacera le tableau de bord existant dans l’application du responsable sélectionné. Les responsables pourront afficher le tableau de bord nouvellement partagé par les administrateurs.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Partage du tableau de bord de conformité avec les administrateurs et les administrateurs personnalisés
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Les administrateurs peuvent partager le tableau de bord avec d’autres administrateurs et administrateurs personnalisés, ce qui leur donne un accès instantané à tous les tableaux de bord de conformité.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Procédez comme suit pour partager le tableau de bord avec les administrateurs et les administrateurs personnalisés :
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]**.
+3. Sélectionnez **[!UICONTROL Vue Administrateur]** dans la section **[!UICONTROL Tableau de bord de conformité]**.
+4. Sélectionnez le bouton **[!UICONTROL Partager le tableau de bord]**.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _Partager le tableau de bord - Administrateur_
 
-You can also see the compliance status for each internal team.
+5. Sélectionnez les étiquettes de conformité dans le menu déroulant **[!UICONTROL Sélectionner la conformité personnalisée]**. Cette option sélectionne tous les cours ayant les étiquettes de conformité sélectionnées.
+6. Sélectionnez les cours, parcours d’apprentissage ou certifications supplémentaires que vous souhaitez partager avec les administrateurs.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _Partager le tableau de bord de conformité_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. Sélectionnez les utilisateurs ou les groupes d&#39;utilisateurs que vous souhaitez partager le tableau de bord et sélectionnez **[!UICONTROL Partager]**.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### Afficher le tableau de bord de conformité - Administrateurs personnalisés et autres administrateurs
 
-### Share training with managers
+Tous les administrateurs personnalisés et les autres administrateurs du groupe d’utilisateurs sélectionné peuvent voir le tableau de bord de conformité sur leur application.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Procédez comme suit pour afficher le tableau de bord de conformité :
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
+2. Sélectionnez **[!UICONTROL Votre vue]** dans la section **[!UICONTROL Tableau de bord de conformité]**.
+3. Sélectionnez l&#39;option **[!UICONTROL Accéder au tableau de bord de conformité]** pour afficher le nouveau tableau de bord de conformité partagé par l&#39;administrateur.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _Afficher le tableau de bord de conformité - Administrateur personnalisé_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### Partager avec les responsables de boutique
 
-### Share training
+Les administrateurs peuvent partager le tableau de bord de conformité avec les responsables de boutique, ce qui leur permet de surveiller la progression de la conformité de leurs élèves.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+Procédez comme suit pour partager le tableau de bord avec les responsables de magasins :
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
+3. Sélectionnez **[!UICONTROL Vue du responsable]** dans la section **[!UICONTROL Tableau de bord de conformité]**.
+4. Sélectionnez le bouton **[!UICONTROL Partager le tableau de bord]**.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _Partager le tableau de bord de conformité avec les responsables_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. Sélectionnez les étiquettes de conformité dans le menu déroulant **[!UICONTROL Sélectionner la conformité personnalisée]**.
+Cette option sélectionne tous les cours ayant les étiquettes de conformité sélectionnées.
+6. Sélectionnez les cours, parcours d’apprentissage ou certifications supplémentaires que vous souhaitez partager avec les administrateurs.
+7. Sélectionnez les utilisateurs ou les groupes d&#39;utilisateurs que vous souhaitez partager le tableau de bord et sélectionnez **[!UICONTROL Partager]**.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### Afficher le tableau de bord de conformité - Responsable
 
-1. Click **[!UICONTROL Share]**.
+Reportez-vous à cet article [Afficher le tableau de bord de conformité](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) pour plus d&#39;informations.
 
-The training is now shared with the specified manager.
+#### Modifier le tableau de bord
 
-### View training
+Procédez comme suit pour modifier le tableau de bord de conformité :
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
+3. Sélectionnez **[!UICONTROL Vue Administrateur]** ou **[!UICONTROL Vue Responsable]** dans la section **[!UICONTROL Tableau de bord de conformité]**. Vous pouvez voir les tableaux de bord de conformité dans cette section.
+4. Sélectionnez **[!UICONTROL Modifier]** dans le tableau de bord de conformité que vous souhaitez modifier.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _Modifier le tableau de bord de conformité_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. Modifiez les détails requis et sélectionnez **[!UICONTROL Partager]**.
+6. Le tableau de bord de conformité sera partagé avec les responsables sélectionnés.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### Retirer le tableau de bord - Administrateur
+
+Procédez comme suit pour retirer le tableau de bord de conformité :
+
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
+3. Sélectionnez **[!UICONTROL Vue Administrateur]** ou **[!UICONTROL Vue Responsable]** dans la section **[!UICONTROL Tableau de bord de conformité]**. Vous pouvez voir les tableaux de bord de conformité dans cette section.
+4. Sélectionnez **[!UICONTROL Retirer]** sur le tableau de bord de conformité que vous souhaitez supprimer et sélectionnez **[!UICONTROL Continuer]**.
+5. Cette action supprimera le tableau de bord de conformité partagé de l’application du responsable.
+
+   ![](assets/manager-edit.png)
+   _Retirer le tableau de bord de conformité_
+
+#### Définir le widget de conformité par défaut pour les élèves
+
+Suivez ces étapes pour définir le widget de conformité par défaut pour les élèves :
+
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
+3. Sélectionnez **[!UICONTROL Vue Élève]** dans la section **[!UICONTROL Tableau de bord de conformité]**.
+4. Sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Vue Élève]**.
+
+   ![](assets/learner-widget.png)
+   _Définir le widget de conformité par défaut pour les élèves_
+5. Sélectionnez les étiquettes de conformité dans la liste déroulante **[!UICONTROL Conformité personnalisée]**. Cette option sélectionne tous les cours ayant les étiquettes de conformité sélectionnées.
+6. Sélectionnez **[!UICONTROL Continuer]** pour définir le widget de conformité par défaut.
+
+Les élèves peuvent voir les cours ou parcours d’apprentissage sélectionnés sur le widget Conformité sur leur page d’accueil. Reportez-vous au [widget Tableau de bord de conformité](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) pour plus d&#39;informations.
 
 ## Rapports personnalisés
 
@@ -846,6 +890,34 @@ Le rapport contient les éléments suivants :
 * Rappel des éléments d’apprentissage
 * Scope-Catalog
 * Scope-Usergroup
+
+### Piste d’audit pour les rôles personnalisés
+
+Les administrateurs peuvent télécharger le rapport d’audit des rôles personnalisés pour suivre toutes les modifications apportées aux rôles personnalisés, y compris la création, la modification et la suppression des rôles personnalisés et leur accès aux fonctionnalités associées.
+
+Pour télécharger le rapport, procédez comme suit :
+
+1. Connectez-vous en tant qu’administrateur.
+2. Sélectionnez Rapports > Rapports personnalisés.
+3. Sélectionnez Piste d’audit du rôle personnalisé et choisissez la période
+4. Sélectionnez Générer pour télécharger le rapport.
+
+Le rapport Piste d’audit du rôle personnalisé contient les champs suivants :
+
+* ID du rôle
+* Nom du rôle
+* Type d’activité
+* Type de modification
+* Description
+* Type d’objet référencé
+* ID d’objet référencé
+* Nom d’objet référencé
+* Courrier électronique d’objet référencé
+* Modifié par le nom de l’utilisateur
+* Modifié par l’UUID utilisateur
+* Modifié par le courrier électronique de l’utilisateur
+* Date de modification (fuseau horaire UTC)
+* Source
 
 ## Inscription aux courriers électroniques {#emailsubscriptions}
 

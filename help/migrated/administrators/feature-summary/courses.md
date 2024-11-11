@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4866'
-ht-degree: 61%
+source-wordcount: '5111'
+ht-degree: 58%
 
 ---
 
@@ -235,6 +235,35 @@ Si un élève qui se trouvait auparavant dans l’état d’approbation en atten
 ## Liste d’attente
 
 La section Liste d&#39;attente permet aux élèves d&#39;être sur liste d&#39;attente pour des cours en classe lorsque les places sont limitées, en fonction de leur ordre d&#39;inscription. Les administrateurs peuvent gérer cela en sélectionnant les élèves inscrits sur liste d&#39;attente et en allouant des places au-delà de la limite initiale. Une fois une place allouée par l’administrateur, l’élève est immédiatement inscrit au cours.
+
+### Rapport de liste d’attente
+
+Adobe Learning Manager permet aux administrateurs de télécharger la liste d’élèves inscrits sur liste d’attente pour toutes les instances d’un cours. Les administrateurs peuvent accéder à ce rapport à partir de la section Liste d&#39;attente sur la page **[!UICONTROL Présentation du cours]**.
+
+En suivant les colonnes disponibles dans le rapport Liste d’attente :
+
+* Nom du cours
+* Nom d’instance
+* ID d’instance
+* État d’instance
+* Nom d’utilisateur
+* Courrier électronique
+* ID utilisateur unique
+* Date d’inscription (fuseau horaire UTC)
+* Statut
+* Nombre de listes d’attente
+* Limite de liste d’attente
+* Limite de postes
+
+Pour télécharger le rapport à partir de la section Administrateur :
+
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez à la section **[!UICONTROL Cours]** et sélectionnez le cours requis.
+3. Sélectionnez l&#39;option **[!UICONTROL Liste d&#39;attente]** dans la page **[!UICONTROL Présentation du cours]**.
+4. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Exporter le rapport]** pour télécharger le rapport **[!UICONTROL Liste d&#39;attente]**.
+
+   ![](assets/export-report-waitlist.png)
+   _Exporter le rapport_
 
 ## Exporter le rapport d’assiduité des élèves {#attendance}
 
@@ -498,6 +527,31 @@ Pour envoyer des notifications par e-mail, un administrateur doit choisir explic
 ![](assets/escalation-notification.png)
 
 *Définir le niveau d&#39;escalade*
+
+## Commentaires d’achèvement
+
+Les administrateurs peuvent laisser des commentaires lorsqu’ils marquent un élève comme terminé pour les cours, les parcours d’apprentissage ou les certifications. Ces commentaires facilitent les opérations de conformité et d’audit. Les administrateurs peuvent facilement ajouter des commentaires pour un ou plusieurs élèves à la fois.
+
+### Ajouter des commentaires d’achèvement
+
+Procédez comme suit pour ajouter des commentaires d’achèvement :
+
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez à la page **[!UICONTROL Cours]** et sélectionnez un cours.
+3. Sélectionnez **[!UICONTROL Élèves]** sur la page du cours.
+4. Sélectionnez un ou plusieurs élèves.
+5. Sélectionnez **[!UICONTROL Actions]**, puis sélectionnez**[!UICONTROL  Marquer comme terminé]**.
+6. Saisissez votre commentaire d’achèvement dans la boîte de dialogue.
+
+   ![](assets/comments.png)
+   _Commentaire d&#39;achèvement_
+
+Ce processus est identique pour les parcours d’apprentissage et les certifications. Pour les parcours d’apprentissage, vous pouvez filtrer pour sélectionner tous les cours ou uniquement des cours individuels à marquer comme terminés.
+
+![](assets/learning-path.png)
+_Sélectionner plusieurs cours à terminer_
+
+Les commentaires seront visibles dans le rapport [Relevés de notes des élèves](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts).
 
 ## Aperçu des cours {#previewcourses}
 
