@@ -2,9 +2,10 @@
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2024 de Adobe Learning Manager
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
-source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
+exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
+source-git-commit: dcfcb8d9c161eda83db966b93fad45f1430c47af
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3134'
 ht-degree: 2%
 
 ---
@@ -22,7 +23,7 @@ Découvrez les nouvelles fonctionnalités et les améliorations de la version de
 * **Rôles personnalisés** : contrôle amélioré des rôles et autorisations des utilisateurs.
 * **Commentaires d’achèvement** : ajoutez des commentaires lorsque vous marquez les élèves comme terminés.
 * **Rapport de groupe d&#39;utilisateurs** : gérez les groupes d&#39;utilisateurs avec des rapports détaillés.
-* **Rapport sur la liste d&#39;attente** : téléchargez la liste des élèves sur liste d&#39;attente pour les instances de cours.
+* **Rapport de liste d&#39;attente** : téléchargez la liste des élèves en liste d&#39;attente pour les instances de cours.
 * **Améliorations de l’accessibilité** : prise en charge du texte optionnel sur les en-têtes et les logos d’entreprise.
 * **Prise en charge de l&#39;hindi** : prise en charge linguistique de l&#39;interface pour l&#39;hindi.
 * **Vérification des blasphèmes** : bloquez les publications sociales contenant des mots interdits.
