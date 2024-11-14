@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ En suivant les colonnes disponibles dans le rapport Liste d’attente :
 * Limite de liste d’attente
 * Limite de postes
 
-Reportez-vous à ces articles [Rapport de liste d&#39;attente](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) et [Rapport de liste d&#39;attente](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) pour télécharger le rapport à partir de la section Administrateur et instructeur.
+Reportez-vous à ces articles [Rapport de liste d&#39;attente (administrateur)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) et [Rapport de liste d&#39;attente (instructeurs)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) pour télécharger le rapport à partir de la section Administrateur et instructeur.
 
 ## Accessibilité dans la page d’accueil de l’élève
 
@@ -149,6 +149,10 @@ Reportez-vous à cet article [Annonce](/help/migrated/administrators/feature-sum
 ## Prise en charge de l’hindi
 
 Adobe Learning Manager introduit désormais l&#39;hindi comme l&#39;un des langages d&#39;interface de la plateforme et prend en charge la croissance de la plateforme en Inde. La prise en charge des langues hindi natives garantit que toutes les fonctionnalités, tous les rapports et l’expérience globale de l’utilisateur sont entièrement accessibles aux utilisateurs.
+
+>[!NOTE]
+>
+>Les certificats de badge générés par le système au format PDF ne prennent pas en charge l’hindi.
 
 Pour modifier la langue de l’interface, procédez comme suit :
 
