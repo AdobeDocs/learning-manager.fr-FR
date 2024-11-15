@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Recherche optimisée par l’IA dans Adobe Learning Manager
 description: En savoir plus sur la recherche optimisée par l’IA dans Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ La fonctionnalité de recherche est importante pour plusieurs raisons :
 * **Accessibilité** : des fonctionnalités de recherche efficaces rendent les informations plus accessibles, garantissant ainsi que les utilisateurs peuvent interagir avec le contenu correspondant à leurs besoins.
 * **Personnalisation** : les systèmes de recherche avancée peuvent adapter les résultats en fonction des préférences de l’utilisateur, ce qui améliore la pertinence des informations présentées.
 
-Évolution des comportements de recherche sur le Web
+## Évolution des comportements de recherche sur le Web
+
 Lorsque les gens font des recherches en ligne, leur façon de faire change, et les moteurs de recherche s&#39;adaptent pour suivre le rythme. Voici quelques-unes des principales façons dont les gens recherchent de l&#39;information de nos jours :
 
 * **Piloté par l’intention** : au lieu de taper des mots-clés exacts, les utilisateurs expriment désormais leurs besoins avec des expressions comme Je le souhaite ou comme Je le dois. Les moteurs de recherche modernes comprennent le but derrière ces phrases et donnent des résultats plus pertinents.
