@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Guide d’utilisation des webhooks
 description: En savoir plus sur l’utilisation des webhooks, les bonnes pratiques et les limitations
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3310'
 ht-degree: 1%
 
 ---
@@ -250,12 +251,6 @@ Le processus de nouvelle tentative démarre avec un intervalle initial de 5 seco
 ### Duplication d’événements
 
 Si un abonné met plus de 5 secondes à répondre après le traitement d&#39;un événement, le système peut essayer de traiter à nouveau le même événement. Il est recommandé d’utiliser des ID d’événement pour suivre les événements déjà traités. En outre, si le webhook se bloque après l’envoi de l’événement mais avant l’enregistrement de son traitement, le même groupe d’événements peut être retenté. Il est recommandé d’utiliser des ID de lot ou des ID d’événement individuels pour reconnaître et ignorer les doublons.
-
-### Événements hors service
-
-ALM tente de conserver les événements dans l&#39;ordre correct, mais il arrive que des événements ne soient pas distribués dans l&#39;ordre, en particulier entre des événements en temps réel et non en temps réel.
-
-Si un administrateur inscrit plusieurs élèves à la fois à un cours, les événements d&#39;inscription sont marqués comme non en temps réel. Toutefois, si un élève termine le cours rapidement, cet événement d&#39;achèvement est marqué comme étant en temps réel et peut être diffusé avant les événements d&#39;inscription.
 
 ### Recommandation pour la tolérance aux pannes
 
