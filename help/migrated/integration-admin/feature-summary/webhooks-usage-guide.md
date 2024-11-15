@@ -4,9 +4,9 @@ title: Guide d’utilisation des webhooks
 description: En savoir plus sur l’utilisation des webhooks, les bonnes pratiques et les limitations
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3369'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ Pour éviter ces erreurs, les abonnés doivent surveiller activement les événe
 * Les modifications de session seront capturées dans le cadre de l’événement de mise à jour de l’instance. Cela s’applique uniquement aux cours. Il n’y aura pas de propagation ascendante à partir des entités de niveau inférieur pour les instances de parcours d’apprentissage ou de certification.
 * Si un parcours d’apprentissage contient un cours et qu’un élève termine le cours via le parcours d’apprentissage, deux événements **LearnerProgress** sont générés : un pour le cours et un pour le parcours d’apprentissage.
 * Certains workflows calculent les attributs des objets d’apprentissage, tels que la durée et le type de livraison, de manière asynchrone. Par conséquent, les événements pour ces objets d’apprentissage seront générés une fois le traitement de la tâche cron terminé.
+* Si un cours est inscrit par le biais d’un programme d’apprentissage ou d’une certification parent, les événements d’inscription, de désinscription et d’achèvement se déclencheront uniquement pour le programme d’apprentissage ou la certification parent. Ces événements ne se déclenchent pas pour le cours enfant, car l’inscription s’est produite indirectement.
+* Les webhooks ne sont pris en charge que pour les comptes avec le statut **[!UICONTROL ACTIF]**. Ils ne sont pas disponibles pour les comptes **[!UICONTROL VERSION D&#39;ESSAI]** ou **[!UICONTROL INACTIFS]**.
 
 ## Exemples de charges pour les événements
 

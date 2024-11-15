@@ -3,7 +3,7 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
 workflow-type: tm+mt
 source-wordcount: '3149'
 ht-degree: 2%
@@ -53,9 +53,9 @@ Adobe Learning Manager prend désormais en charge LTI pour améliorer l’intero
 
 LTI (Learning Tools Interoperability) est une norme qui permet aux outils et fournisseurs de contenu tiers de se connecter à un système de gestion de l’apprentissage (LMS). Les utilisateurs peuvent accéder au contenu d’apprentissage externe de fournisseurs de contenu externes directement dans leur LMS sans se connecter ou accéder à un autre LMS.
 
-LTI en tant que fournisseur d’outils : LTI en tant que fournisseur d’outils permet aux systèmes externes de s’intégrer à un LMS. Adobe Learning Manager agit comme un fournisseur d’outils LTI, permettant aux autres plateformes LMS d’accéder aux cours, aux certificats ou aux parcours d’apprentissage à partir de Adobe Learning Manager directement dans leur LMS.
+**LTI en tant que fournisseur d’outils** : LTI en tant que fournisseur d’outils permet aux systèmes externes de s’intégrer à un LMS. Adobe Learning Manager agit comme un fournisseur d’outils LTI, permettant aux autres plateformes LMS d’accéder aux cours, aux certificats ou aux parcours d’apprentissage à partir de Adobe Learning Manager directement dans leur LMS.
 
-LTI en tant que consommateur d’outils : LTI en tant que consommateur d’outils permet au LMS d’intégrer des outils externes via l’interopérabilité des outils d’apprentissage (LTI). Dans ce scénario, le LMS est un consommateur de services fournis par des outils externes. Adobe Learning Manager agit en tant que consommateur d’outils LTI, ce qui lui permet d’intégrer des outils d’apprentissage tiers. Cela permet aux élèves Adobe Learning Manager d’utiliser les cours, les certificats ou les parcours d’apprentissage des outils tiers dans Adobe Learning Manager.
+**LTI en tant que consommateur d’outils** : LTI en tant que consommateur d’outils permet au LMS d’intégrer des outils externes via l’interopérabilité des outils d’apprentissage (LTI). Dans ce scénario, le LMS est un consommateur de services fournis par des outils externes. Adobe Learning Manager agit en tant que consommateur d’outils LTI, ce qui lui permet d’intégrer des outils d’apprentissage tiers. Cela permet aux élèves Adobe Learning Manager d’utiliser les cours, les certificats ou les parcours d’apprentissage des outils tiers dans Adobe Learning Manager.
 
 Reportez-vous à cet article [Interopérabilité des outils d’apprentissage](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) pour plus d’informations.
 
