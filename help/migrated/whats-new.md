@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Découvrez les nouvelles fonctionnalités et les améliorations de la version de
 ## Recherche optimisée par l’IA dans Adobe Learning Manager
 
 Adobe Learning Manager remodèle la façon dont les élèves recherchent des cours ou des formations. Il introduit une fonctionnalité de recherche basée sur l’IA qui combine la recherche lexicale et sémantique. La recherche est désormais plus intelligente, car elle recherche des termes spécifiques et comprend le contexte et l&#39;intention qui les sous-tendent. La recherche avancée comprend la signification de votre requête et fournit des résultats pertinents. Il identifie l&#39;objectif principal de la recherche pour vous donner l&#39;ensemble de résultats le plus complet.
+
+>[!NOTE]
+>
+>La recherche optimisée par l’IA est uniquement disponible pour les élèves.
 
 Reportez-vous à cet article [Recherche avancée](/help/migrated/learners/feature-summary/advanced-search.md) pour plus d&#39;informations.
 

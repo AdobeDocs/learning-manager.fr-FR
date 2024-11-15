@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Recherche optimisée par l’IA dans Adobe Learning Manager
 description: En savoir plus sur la recherche optimisée par l’IA dans Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 La fonctionnalité de recherche d’ALM améliore l’expérience utilisateur en lui permettant de trouver efficacement du contenu pertinent et de l’aider à utiliser le bon contenu.
 
 Adobe Learning Manager introduit une fonctionnalité de recherche basée sur l’IA qui associe la recherche lexicale et sémantique. La recherche est plus intelligente, car elle recherche des termes spécifiques et comprend le contexte et l’intention qui les sous-tendent. La recherche avancée basée sur l&#39;IA comprend la signification de votre requête et fournit des résultats pertinents.
+
+>[!NOTE]
+>
+>La recherche optimisée par l’IA est uniquement disponible pour les élèves.
 
 ## Pourquoi la recherche est-elle importante ?
 
