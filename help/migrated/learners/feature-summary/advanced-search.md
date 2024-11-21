@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Recherche optimisée par l’IA dans Adobe Learning Manager
 description: En savoir plus sur la recherche optimisée par l’IA dans Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Dans l&#39;ensemble, la recherche basée sur l&#39;IA d&#39;ALM est conçue pour
 >
 >1. Les clients qui utilisent une implémentation sans en-tête doivent suivre la documentation de l’API pour activer la recherche avancée
 >2. La recherche avancée n’est actuellement pas disponible pour l’application Salesforce.
+>3. Les données client, y compris le contenu et les transcriptions, ne sont partagées avec aucun service externe pour la recherche basée sur l’IA. Tout le contenu reste stocké de manière sécurisée dans le système de stockage existant.
