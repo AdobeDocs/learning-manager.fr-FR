@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3173'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,10 @@ Découvrez les nouvelles fonctionnalités et les améliorations de la version de
 * **Optimisation des modèles d’e-mail** : modèles d’e-mail combinés et optimisés pour les affectations d’instructeurs et les annulations de sessions.
 * **Critères d’achèvement MS Teams** : définissez le temps de présence minimum pour les sessions VILT.
 * **Nouveaux workflows de migration** : les modifications apportées à la migration incluent les critères d’achèvement des cours et des modules, ainsi que la migration des modules dans des dossiers.
+
+>[!NOTE]
+>
+>Consultez ce [webinaire](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) pour en savoir plus sur les nouvelles fonctionnalités de cette version.
 
 ## Recherche optimisée par l’IA dans Adobe Learning Manager
 

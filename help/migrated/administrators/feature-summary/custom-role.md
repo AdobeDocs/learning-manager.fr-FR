@@ -4,10 +4,10 @@ title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 57%
+source-wordcount: '2662'
+ht-degree: 54%
 
 ---
 
@@ -16,6 +16,37 @@ ht-degree: 57%
 Cette fonctionnalité vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d&#39;attribuer des responsabilités en dehors du rôle existant de la personne.
 
 Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de création limitées à un catalogue particulier. Vous pouvez également créer un rôle dédié à la gestion des rapports. Ces rôles peuvent ensuite être affectés à des personnes qui sont censées assumer ces responsabilités spécifiques.
+
+Les administrateurs peuvent créer des rôles d’administrateur et d’auteur personnalisés avec des autorisations personnalisées pour chaque rôle. Vous trouverez ci-dessous un aperçu des autorisations associées à chaque rôle :
+
+**Autorisations Personnalisées Du Rôle D&#39;Auteur**
+
+Les auteurs personnalisés peuvent effectuer les tâches suivantes :
+
+* Accédez à la bibliothèque de contenu pour ajouter, modifier ou supprimer du contenu de base.
+* Créer, modifier et supprimer :
+   * Cours
+   * Assistances à la tâche
+   * Certifications
+   * Parcours d’apprentissage
+   * Plans d’apprentissage
+
+Les administrateurs et les auteurs, y compris les administrateurs et les auteurs personnalisés, pourront partager des objets d’apprentissage avec des catalogues partagés en externe. Les administrateurs et les auteurs doivent pouvoir rechercher des catalogues partagés en externe lors de la création d’objets d’apprentissage.
+
+**Autorisations de rôle d&#39;administrateur personnalisé**
+
+Le rôle d’administrateur personnalisé reproduit un ensemble de responsabilités d’administrateur, y compris l’accès aux privilèges au niveau du compte. Les administrateurs personnalisés se voient accorder des autorisations pour gérer les fonctionnalités clés liées aux activités d’apprentissage, telles que :
+
+* Plans d’apprentissage
+* Catalogues
+* Rapports
+* Balises
+
+En outre, les administrateurs personnalisés peuvent :
+
+* Gérez les cours et les assistances à la tâche, y compris l’inscription et la suppression d’utilisateurs.
+* Créer, modifier et supprimer des certifications, des parcours d’apprentissage et des plans d’apprentissage.
+* Accédez aux fonctionnalités de création de rapports et d’inscription pour tous les objets d’apprentissage.
 
 Les administrateurs peuvent désormais afficher les autorisations créées par CSV dans Adobe Learning Manager. L’option Filtrer par filtre filtre les rôles personnalisés par administrateur créés et ceux importés via un fichier CSV. Après avoir sélectionné un rôle personnalisé, vous pouvez voir ses autorisations.
 
@@ -32,7 +63,9 @@ _Filtrer les rôles personnalisés_
    *Créer un rôle personnalisé*
 
 3. Saisissez le nom dans le champ **[!UICONTROL Nom du rôle]**.
-4. **[!UICONTROL Privilèges de compte]** : ces privilèges donnent aux propriétaires des rôles l&#39;accès à des aspects spécifiques de la configuration du système et qui agissent sur l&#39;ensemble du compte. Choisissez les autorisations d’accès. L’utilisateur a un contrôle total sur les autorisations attribuées. Les administrateurs peuvent accorder des autorisations détaillées pour la section Utilisateur, qui comporte des utilisateurs internes/externes, des groupes d’utilisateurs et des utilisateurs avancés.
+4. **[!UICONTROL Privilèges de compte]** : ces privilèges donnent aux propriétaires des rôles l&#39;accès à des aspects spécifiques de la configuration du système et qui agissent sur l&#39;ensemble du compte. Choisissez les autorisations d’accès. L’utilisateur obtient le contrôle total sur les autorisations affectées.
+
+   Les administrateurs peuvent accorder des autorisations détaillées pour la section Utilisateur, qui comporte des utilisateurs internes/externes, des groupes d’utilisateurs et des utilisateurs avancés.
 
    >[!NOTE]
    >
@@ -43,7 +76,9 @@ _Filtrer les rôles personnalisés_
 
    *Définir la portée*
 
-5. **Droits de fonctionnalités - fonctionnalités de base** : utilisés pour accorder l’accès à des fonctionnalités spécifiques pour la gestion des activités d’apprentissage. Cette option permet d’accorder des autorisations pour les fonctionnalités suivantes. Les administrateurs peuvent fournir des autorisations détaillées telles que des autorisations en lecture seule, de création, de modification et de suppression pour les catalogues.
+5. **Droits de fonctionnalités - fonctionnalités de base** : utilisés pour accorder l’accès à des fonctionnalités spécifiques pour la gestion des activités d’apprentissage. Les autorisations sur les fonctionnalités suivantes peuvent être accordées à l’aide de cette option.
+
+   Les administrateurs peuvent fournir des autorisations détaillées telles que des autorisations en lecture seule, de création, de modification et de suppression pour les catalogues.
 
    * Catalogues
    * Rapports
