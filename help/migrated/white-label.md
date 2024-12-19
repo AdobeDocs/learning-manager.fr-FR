@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ Le dossier `<root>` contient le fichier **Runner.xcarchive.zip**. Exécutez les 
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Revenez au dossier `<root>` (où se trouve Runner.xcarchive.zip) :
+4. Exécutez la commande suivante pour mettre à jour vos informations de signature dans la bibliothèque d’infrastructure :
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Revenez au dossier `<root>` (où se trouve Runner.xcarchive.zip) :
 
    ```
    cd <root>
    ```
 
-5. Exportez l’archive à l’aide de xcodebuild :
+6. Exportez l’archive à l’aide de xcodebuild :
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. Recherchez le fichier .ipa dans le dossier ipa_path.
-7. Chargez le fichier .ipa sur le site Web `Diawi`.
-8. Une fois le téléchargement terminé, sélectionnez le bouton **[!UICONTROL Envoyer]**.
-9. Une fois l’opération terminée, vous recevrez un code QR et un lien.
-10. Ouvrez le code QR ou le lien directement dans Safari.
+7. Recherchez le fichier .ipa dans le dossier ipa_path.
+8. Chargez le fichier .ipa sur le site Web `Diawi`.
+9. Une fois le téléchargement terminé, sélectionnez le bouton **[!UICONTROL Envoyer]**.
+10. Une fois l’opération terminée, vous recevrez un code QR et un lien.
+11. Ouvrez le code QR ou le lien directement dans Safari.
 
 Si le périphérique est inclus dans le profil d’approvisionnement, l’installation doit se poursuivre sur le périphérique.
 
@@ -408,8 +414,12 @@ Si le périphérique est inclus dans le profil d’approvisionnement, l’instal
 **Pour le fichier apk**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>Le chemin d&#39;accès à l&#39;outil `apksigner` ressemble généralement à ceci : ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **Pour le fichier aab**
 
@@ -464,6 +474,36 @@ Vous obtiendrez le fichier apk à partir du dossier **[!UICONTROL output_dir]**.
 **Prochaine étape**
 
 Après avoir généré les fichiers binaires, insérez-les dans Play Store ou App Store.
+
+### Transfert des applications vers la boutique pour révision
+
+Après avoir reçu les binaires finaux, vous pouvez les charger sur les boutiques d’applications respectives (iOS ou Android) pour révision. Procédez comme suit pour charger les fichiers binaires dans les boutiques d’applications.
+
+**iOS**
+
+1. Connectez-vous à l’application Transporter avec vos identifiants App Store.
+2. Sélectionnez le bouton **+** en haut à gauche et chargez le certificat de production (fichier .ipa).
+3. Si le fichier .ipa est correct, vous serez invité à télécharger l’application vers App Store.
+4. Une fois l’application distribuée, connectez-vous au portail App Store. Dans quelques heures, le binaire apparaîtra dans la section TestFlight. Vous pouvez l’activer pour le test d’intégrité final dans TestFlight avant la révision de l’application et utiliser cet IPA comme binaire lors de la soumission de l’application pour une nouvelle version.
+
+**Android**
+
+1. Ouvrez la console Google Play Store.
+2. Accédez au **[!UICONTROL Tableau de bord]** > **[!UICONTROL Afficher les versions de l&#39;application]** > **[!UICONTROL Tableau de bord des versions]**, puis sélectionnez **[!UICONTROL Créer une nouvelle version]**.
+3. Chargez le fichier .aab généré en tant qu’offre groupée d’applications et saisissez les détails de la version, tels que le numéro de version et les nouvelles informations.
+4. Enregistrez vos modifications et soumettez l’application pour révision.
+5. Assurez-vous de définir la distribution de l’application sur 100 % (Google la définit sur 20 % par défaut).
+
+#### Liens utiles pour la publication d’applications
+
+**Android**
+
+[Créez et configurez votre application](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[Préparez votre application pour la révision](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[Envoyer pour révision](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## Comment appliquer les modifications
 
