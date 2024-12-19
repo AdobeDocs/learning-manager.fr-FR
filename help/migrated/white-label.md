@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
+source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1899'
 ht-degree: 0%
 
 ---
@@ -413,8 +413,17 @@ Si le périphérique est inclus dans le profil d’approvisionnement, l’instal
 
 **Pour le fichier apk**
 
+>[!IMPORTANT]
+>
+>Avant d&#39;exécuter la commande `apksigner`, exécutez les commandes suivantes pour exporter votre mot de passe Key Store et votre mot de passe Key Alias en tant que variables d&#39;environnement :
+>
+>```
+>export KS_PASS=your_keystore_password
+>export KEY_PASS=your_key_password
+>```
+
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile. --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
 
 >[!NOTE]
