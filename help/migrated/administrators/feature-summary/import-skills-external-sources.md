@@ -4,9 +4,9 @@ title: Importation de compétences à partir de sources externes
 description: Importez des compétences à partir de fournisseurs de contenu, tels que LinkedIn et Go1, à l’aide des connecteurs respectifs.  Les compétences importées seront ajoutées aux compétences définies par l’administrateur dans Learning Manager et seront disponibles pour les auteurs pendant le processus de création du cours.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ En tant qu’administrateur, vous ne pouvez importer des compétences qu’à pa
 
 ### Niveau de compétence par défaut
 
-Le niveau de compétence par défaut est un et le crédit est de 10 après la migration des compétences. Un administrateur ultérieur peut modifier le crédit.
+Le niveau de compétence par défaut est un et le crédit est de 10 après la migration des compétences.
 
 Vous ne pouvez pas modifier le nom de la compétence, la description et ajouter des niveaux aux compétences externes. Vous pouvez toutefois ajouter un domaine, des badges et modifier des crédits.
 
