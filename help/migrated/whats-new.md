@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
 workflow-type: tm+mt
-source-wordcount: '3184'
+source-wordcount: '3255'
 ht-degree: 2%
 
 ---
@@ -188,6 +188,26 @@ Les instructeurs qui sont supprimés d’une session ne recevront désormais qu�
 Actuellement, les élèves sont marqués comme participants même s&#39;ils rejoignent une session de formation virtuelle avec instructeur (VILT) pendant quelques secondes seulement. Avec cette version, nous avons introduit des critères d’achèvement pour les modules Teams afin d’assurer une présence plus précise. Les auteurs peuvent désormais définir le temps minimum que les élèves doivent passer dans une session VILT pour que leur présence soit comptabilisée.
 
 Il s’agit d’une fonctionnalité d’arrière-plan désactivée par défaut. Contactez votre CSM pour l’activer.
+
+## Mise à jour des nouvelles adresses IP pour la remise des e-mails
+
+Pour améliorer la fiabilité de la diffusion des e-mails, nous ajoutons de nouvelles adresses IP à notre pool existant. Pour garantir une communication par e-mail ininterrompue, mettez à jour les paramètres de messagerie de votre organisation selon vos besoins.
+
+Nous utilisons actuellement les adresses IP suivantes pour la remise des e-mails :
+
+* 149.72.162.66
+* 167.89.5.155
+
+Les adresses IP suivantes seront ajoutées à notre pool de diffusion d’e-mails :
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>Si nécessaire, nous vous suggérons de collaborer avec votre équipe informatique pour ajouter les nouvelles adresses IP à la liste autorisée.
 
 ## Modifications apportées à la migration
 
