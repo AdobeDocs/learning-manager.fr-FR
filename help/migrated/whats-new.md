@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
+source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3260'
 ht-degree: 2%
 
 ---
@@ -207,7 +207,7 @@ Les adresses IP suivantes seront ajoutées à notre pool de diffusion d’e-mail
 
 >[!NOTE]
 >
->Si nécessaire, nous vous suggérons de collaborer avec votre équipe informatique pour ajouter les nouvelles adresses IP à la liste autorisée.
+>Si nécessaire, nous vous suggérons de collaborer avec votre équipe informatique pour ajouter les adresses IP à la liste des URL autorisées.
 
 ## Modifications apportées à la migration
 
