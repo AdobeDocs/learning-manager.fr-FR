@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Recherche optimisée par l’IA dans Adobe Learning Manager
 description: En savoir plus sur la recherche optimisée par l’IA dans Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _Recherche sémantique_
 
 ### Recherche dans le contenu
 
-La fonctionnalité de recherche de Adobe Learning Manager a été améliorée pour rechercher du contenu réel. Il transcrit automatiquement les vidéos, les fichiers audio et les PDF, en incorporant ces transcriptions dans les résultats de recherche. En outre, il utilise des enregistrements de réunion Adobe Connect pour fournir des résultats plus complets et pertinents. Cette amélioration garantit que les cours contenant du contenu riche comme des vidéos et des notes de réunion sont inclus, améliorant considérablement la précision et l’efficacité de la recherche.
+La fonctionnalité de recherche de Adobe Learning Manager a été améliorée pour rechercher du contenu réel. Il transcrit automatiquement les vidéos, fichiers audio, PDF, docs, ppt et xls, en incorporant ces transcriptions dans les résultats de recherche. En outre, il utilise des enregistrements de réunion Adobe Connect pour fournir des résultats plus complets et pertinents. Cette amélioration garantit que les cours contenant du contenu riche comme des vidéos et des notes de réunion sont inclus, améliorant considérablement la précision et l’efficacité de la recherche. La correspondance dans le contenu permet d’améliorer le classement des résultats de recherche en donnant un coup de pouce aux résultats trouvés grâce à la correspondance d’expression traditionnelle et à la correspondance sémantique.
 
 >[!NOTE]
 >
