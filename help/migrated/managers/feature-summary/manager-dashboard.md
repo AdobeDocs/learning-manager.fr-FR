@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Tableau de bord des responsables
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 49%
+source-wordcount: '1486'
+ht-degree: 47%
 
 ---
 
@@ -84,6 +84,10 @@ Pour générer un rapport Excel, sélectionnez **[!UICONTROL Actions] > [!UICONT
 ## État de conformité {#compliancestatus}
 
 Dans le tableau de bord de conformité, les responsables peuvent afficher le statut de conformité global de l’équipe pour les apprentissages configurés dans des catégories spécifiques (par exemple, ventes, marketing et juridique). Les administrateurs peuvent créer un tableau de bord avec des cours de conformité, des parcours d’apprentissage ou des certifications et les partager avec les responsables. Les responsables peuvent afficher le tableau de bord partagé par l’administrateur dans leurs instances.
+
+L’utilisateur A est le responsable de l’utilisateur B, l’utilisateur C, l’utilisateur D et l’utilisateur E. L’utilisateur B et l’utilisateur C sont les responsables de leurs équipes respectives.
+
+L’utilisateur A peut afficher les rapports de ses subordonnés directs (utilisateur B, utilisateur C, utilisateur D et utilisateur E) et des équipes gérées par les utilisateurs B et C.
 
 ### Afficher le tableau de bord
 

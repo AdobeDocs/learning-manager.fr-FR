@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Badges
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
@@ -70,7 +70,7 @@ Dans l’application de l’élève, sur la page Badges, il existe une option ap
 
 ## Mise à jour du badge
 
-Un élève peut mettre à jour son badge vers le badge le plus récent en le sélectionnant et en cliquant sur **Mettre à jour **dans la section supérieure droite de la page. La mise à jour d’un badge se produit en cas de modification de l’image ou du badge de l’objet d’apprentissage par un administrateur/auteur.
+Un élève peut mettre à jour son badge vers le badge le plus récent en le sélectionnant et en cliquant sur **Mettre à jour** dans la section supérieure droite de la page. La mise à jour d’un badge se produit en cas de modification de l’image ou du badge de l’objet d’apprentissage par un administrateur/auteur.
 
 Ce processus de mise à jour de la page est appelé recréation manuelle. Dans ce cas, le badge est rechargé dans Badgr backpack après la création, même si l’image/le nom de badge est identique. Après la mise à jour du badge, l’élève reçoit une notification indiquant que la mise à jour est terminée.
 
