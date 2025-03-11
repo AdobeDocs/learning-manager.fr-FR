@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Tableau de bord des responsables
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 47%
+source-wordcount: '1499'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,8 @@ Les gestionnaires jouent un rôle important dans les initiatives d&#39;apprentis
 *Rapport de tableau de bord pour un responsable*
 
 Pour afficher les informations d’un graphique, cliquez dessus ou sur le lien hypertexte **[!UICONTROL Détails]**.
+
+Les responsables peuvent également afficher le tableau de bord de l’équipe de leur responsable de niveau suivant. Par exemple, l’utilisateur A est le responsable de l’utilisateur B, l’utilisateur C, l’utilisateur D et l’utilisateur E. L’utilisateur B et l’utilisateur C sont les responsables de leurs équipes respectives. L’utilisateur A peut afficher les rapports de ses subordonnés directs (utilisateur B, utilisateur C, utilisateur D et utilisateur E) et des équipes gérées par les utilisateurs B et C.
 
 ## Résumé de l’apprentissage {#learningsummary}
 
@@ -84,10 +86,6 @@ Pour générer un rapport Excel, sélectionnez **[!UICONTROL Actions] > [!UICONT
 ## État de conformité {#compliancestatus}
 
 Dans le tableau de bord de conformité, les responsables peuvent afficher le statut de conformité global de l’équipe pour les apprentissages configurés dans des catégories spécifiques (par exemple, ventes, marketing et juridique). Les administrateurs peuvent créer un tableau de bord avec des cours de conformité, des parcours d’apprentissage ou des certifications et les partager avec les responsables. Les responsables peuvent afficher le tableau de bord partagé par l’administrateur dans leurs instances.
-
-L’utilisateur A est le responsable de l’utilisateur B, l’utilisateur C, l’utilisateur D et l’utilisateur E. L’utilisateur B et l’utilisateur C sont les responsables de leurs équipes respectives.
-
-L’utilisateur A peut afficher les rapports de ses subordonnés directs (utilisateur B, utilisateur C, utilisateur D et utilisateur E) et des équipes gérées par les utilisateurs B et C.
 
 ### Afficher le tableau de bord
 
