@@ -3,10 +3,10 @@ title: Nouveautés de cette version (avril 2023)
 description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -216,13 +216,20 @@ Si l’option Changement d’instance est activée, les élèves peuvent bascule
 
 Lorsque l’élève sélectionne **Afficher toutes les instances**, l’élève peut voir toutes les instances du cours.
 
-![afficher toutes les instances](assets/view-all-instances-new.png)
+![Texte optionnel](assets/view-all-instance.png)
 
-Un administrateur peut changer les instances pour les élèves.
+_Afficher toutes les pages d&#39;instance à partir de la console de l&#39;élève_
 
-![changer d&#39;instance](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_Changer d&#39;instance à partir de la page de l&#39;élève_
+
+Un administrateur peut changer d’instance pour les élèves. Sélectionnez un cours dans le portail Admin Console, accédez à la section **[!UICONTROL Élèves]**, choisissez un utilisateur, puis cliquez sur le bouton **[!UICONTROL Action]**. Ensuite, sélectionnez **[!UICONTROL Changer d&#39;instance]** et choisissez l&#39;instance souhaitée.
+
+![Texte optionnel](assets/switch-instance-admin.png)
+_Changer d&#39;instance à partir d&#39;Admin Console_
 
 ![sélectionner des instances de commutateur](assets/switch-instances-select.png)
+_Invite de changement d&#39;instance_
 
 Vous ne pouvez pas changer d’instance tant qu’une instance du cours n’est pas terminée à partir de l’application Élève ou Administrateur.
 

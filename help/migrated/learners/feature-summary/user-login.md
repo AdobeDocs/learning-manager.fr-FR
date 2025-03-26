@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Se connecter
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 58%
 
 Connectez-vous à Learning Manager en tant qu’élève.
 
-Lorsque vous utilisez Adobe Learning Manager pour la première fois, vous devez créer votre compte, en suivant les étapes ci-dessous :
+Lorsque vous utilisez Adobe Learning Manager pour la première fois, les élèves doivent créer un compte. Vous pouvez le faire de deux manières :
+
+* Auto-inscription : utilisez l’URL fournie dans l’e-mail de bienvenue pour créer votre compte.
+* Compte créé par l’administrateur : un administrateur peut créer un compte en votre nom.
+
+## Création d’un compte à l’aide de l’URL du courrier électronique de bienvenue
+
+Suivez ces étapes pour créer votre compte à l’aide de l’URL indiquée dans l’e-mail de bienvenue :
 
 1. Lancez Adobe Learning Manager à l’aide du lien sécurisé que vous avez reçu par courrier électronique de bienvenue envoyé par l’administrateur.
 

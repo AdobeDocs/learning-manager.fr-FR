@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Mes apprentissages
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '3080'
 ht-degree: 63%
 
 ---
@@ -99,6 +99,37 @@ Vous pouvez enregistrer votre intérêt pour tous les cours en salle de classe q
 >[!NOTE]
 >
 >Les élèves doivent voir un message de conflit s&#39;ils s&#39;inscrivent à deux sessions différentes en même temps ou à des heures qui se chevauchent.
+
+## Changer d’instances
+
+Un élève inscrit à une instance particulière d’un cours peut afficher une liste de toutes les instances disponibles du cours et passer à une autre instance qui lui convient mieux. Le changement peut s’expliquer par le fait que l’élève n’a pas assisté à l’instance précédente, par le fait que le minutage de la session pour la nouvelle instance est plus approprié, ou pour une autre raison.
+
+Toute progression effectuée par l’élève dans le cadre du cours, les scores du quiz de l’élève, etc., sont reportés sur la nouvelle instance. Cette fonctionnalité est principalement destinée aux cours en salle de classe et mixtes, mais nous prendrons en charge tous les types de cours, y compris les cours en auto-apprentissage.
+
+L’option Afficher toutes les instances s’affiche indépendamment des paramètres de changement d’instance. Les élèves voient désormais une option leur permettant d’afficher toutes les instances s’il existe plusieurs instances d’un cours.
+
+Si l’option Changement d’instance est activée, les élèves peuvent basculer vers différentes instances jusqu’à ce qu’ils terminent le cours. Si l’option est désactivée, les élèves peuvent afficher les instances, mais ne peuvent pas s’inscrire au cours.
+
+Lorsque l’élève sélectionne **Afficher toutes les instances**, l’élève peut voir toutes les instances du cours.
+
+![Texte optionnel](assets/view-all-instance.png)
+
+_Afficher toutes les pages d&#39;instance à partir de la console de l&#39;élève_
+
+![](assets/switch-instance-learner.png)
+_Changer d&#39;instance à partir de la page de l&#39;élève_
+
+Un administrateur peut changer d’instance pour les élèves. Sélectionnez un cours dans le portail Admin Console, accédez à la section **[!UICONTROL Élèves]**, choisissez un utilisateur, puis cliquez sur le bouton **[!UICONTROL Action]**. Ensuite, sélectionnez **[!UICONTROL Changer d&#39;instance]** et choisissez l&#39;instance souhaitée.
+
+![Texte optionnel](assets/switch-instance-admin.png)
+_Changer d&#39;instance à partir d&#39;Admin Console_
+
+![sélectionner des instances de commutateur](assets/switch-instances-select.png)
+_Invite de changement d&#39;instance_
+
+Vous ne pouvez pas changer d’instance tant qu’une instance du cours n’est pas terminée à partir de l’application Élève ou Administrateur.
+
+Lors de la création d’un cours, les auteurs peuvent basculer entre l’activation ou la désactivation du « changement d’instance ». Le changement d&#39;instance est disponible uniquement pour les cours gratuits.
 
 ## Flux de travail en tant qu’élève
 

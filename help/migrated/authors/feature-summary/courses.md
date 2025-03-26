@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7145'
+source-wordcount: '7163'
 ht-degree: 71%
 
 ---
@@ -699,7 +699,7 @@ La fenêtre d’informations sur le cours s’affiche. Le cours est en mode lect
 
 ## Retirer un cours {#retireacourse}
 
-Si vous retirez un cours, vous ne pouvez pas inscrire de nouveaux élèves au cours. Les élèves déjà inscrits peuvent suivre le cours.
+Le retrait d&#39;un cours le masquera aux élèves, même s&#39;ils sont inscrits ou l&#39;ont déjà terminé. Si vous retirez un cours, vous ne pouvez pas inscrire de nouveaux élèves au cours. Les élèves déjà inscrits peuvent suivre le cours.
 
 Pour retirer un cours, sur la carte de cours, passez le curseur sur les options, puis cliquez sur Retirer le cours.
 

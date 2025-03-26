@@ -4,10 +4,10 @@ title: Intégration d’Okta Active Directory à Adobe Learning Manager
 description: Intégration d’Okta Active Directory à Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 57%
+source-wordcount: '561'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,12 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 
 ## Création d’une application dans OKTA
 
-1. Connectez-vous en tant qu’administrateur sur Okta AD.
+1. Se connecter à Okta AD.
+
+   >[!NOTE]
+   >
+   >Vous n’avez pas besoin d’un accès administrateur ALM pour créer une application et configurer un FI.
+
 1. Cliquez sur **[!UICONTROL Applications]**. La boutique d’applications s’ouvre alors dans Okta.
 
    ![](assets/cp-application-store.png)

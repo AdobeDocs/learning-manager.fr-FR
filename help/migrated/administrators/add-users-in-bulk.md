@@ -4,10 +4,10 @@ title: Ajouter des utilisateurs par groupe
 description: Découvrez comment ajouter plusieurs utilisateurs à la fois.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 25%
+source-wordcount: '341'
+ht-degree: 23%
 
 ---
 
@@ -38,6 +38,10 @@ Vous pouvez ajouter plusieurs utilisateurs à la fois en procédant comme suit :
 Il n’est pas obligatoire d’ajouter le profil de l’utilisateur et l’ID de messagerie du responsable dans le fichier CSV. Le nom d’utilisateur et l’ID de messagerie de l’utilisateur sont les seuls champs obligatoires.
 
 Dans ce cas, par défaut, l’administrateur de votre société est traité comme le responsable des utilisateurs. Par défaut, employee est considéré comme le profil de l&#39;utilisateur.
+
+>[!NOTE]
+>
+>Pour ajouter de nouveaux utilisateurs, créez un fichier CSV avec leurs détails et chargez-le. La mise à jour et le rechargement d’un fichier CSV existant ne sont pas pris en charge.
 
 **Exemple CSV** 
 

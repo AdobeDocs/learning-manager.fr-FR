@@ -3,10 +3,10 @@ description: Adobe Learning Manager prend en charge plusieurs méthodes de conne
 title: Plusieurs connexions SSO
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ Vous pouvez ajouter jusque’à 20 configurations SSO (authentification unique)
 
 Pour activer plusieurs connexions SSO, sélectionnez **Paramètres** > **Méthodes de connexion**.
 
-Sur la page de configuration, cochez la case « Activer l’authentification unique (SSO) multiple » pour les utilisateurs internes ou externes.
+Sur la page de configuration, cochez la case « **[!UICONTROL Activer l&#39;authentification unique (SSO) multiple]** » pour les utilisateurs internes ou externes.
 
 Lorsque l’authentification unique multiple est activée, la méthode de connexion sélectionnée pour « Méthode de connexion par défaut » devient le type de connexion par défaut pour les groupes/profils d’utilisateurs qui ne sont liés à aucune configuration d’authentification unique. La connexion par défaut peut être Adobe ID, SSO ou ALM ID (utilisateurs externes).
+
+>[!NOTE]
+>
+>Les administrateurs et les administrateurs personnalisés disposant des autorisations nécessaires peuvent effectuer ces étapes.
 
 Pour configurer une authentification unique, procédez comme suit :
 
 1. Cliquez sur Configurer l’authentification unique (SSO).
-1. Cliquez sur Ajouter une nouvelle configuration SSO.
+1. Cliquez sur Ajouter une nouvelle configuration SSO.\
+   ![](assets/sso.png)
 1. Dans la boîte de dialogue Configuration SSO, ajoutez les éléments suivants :
 
    * Entrez le nom de la connexion SSO.

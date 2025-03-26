@@ -4,10 +4,10 @@ title: Parcours d’apprentissage
 description: Création de plans d’apprentissage pour les administrateurs de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ Dans le parcours d’apprentissage, vous pouvez effectuer les opérations suivan
 
 Après avoir apporté les modifications, pour publier le parcours d’apprentissage, cliquez sur Publish.
 
-## Parcours d’apprentissage imbriqué
+## Parcours d’apprentissage imbriqué ou amélioré
 
-Vous pouvez inclure un parcours d’apprentissage dans un parcours d’apprentissage, mais vous pouvez imbriquer au moins un parcours d’apprentissage à l’intérieur.
-
-Insérez le parcours d’apprentissage comme si vous insériez un cours.
+Un parcours d’apprentissage imbriqué ou amélioré est un parcours d’apprentissage qui contient plusieurs parcours d’apprentissage. Pour insérer un parcours d’apprentissage, suivez la même procédure que pour ajouter un cours dans un parcours d’apprentissage.
 
 ![](assets/nested-learning-path.png)
 
-*Ajouter un parcours d’apprentissage dans un parcours d’apprentissage*
+*Parcours d’apprentissage imbriqué ou amélioré*
 
 ## Paramètres du parcours d’apprentissage
 

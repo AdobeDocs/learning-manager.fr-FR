@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 60%
+source-wordcount: '4231'
+ht-degree: 59%
 
 ---
 
@@ -79,7 +79,7 @@ Pour ajouter des utilisateurs,
 
 ## Ajouter des utilisateurs par groupe {#addusersinbulk}
 
-### Gérer les utilisateurs
+### Gérer les utilisateurs et les utilisatrices
 
 Dans cette formation, vous apprendrez à attribuer et à supprimer des rôles, à envoyer un e-mail de bienvenue, et à supprimer et purger des utilisateurs.
 
@@ -359,7 +359,17 @@ En plus des groupes générés automatiquement, vous pouvez créer des groupes p
 
 Ce groupe personnalisé est maintenant créé et ajouté au profil. Les groupes d’utilisateurs que vous créez sont de nature dynamique. Si de nouveaux utilisateurs avec des attributs similaires sont ajoutés, ils sont automatiquement ajoutés au groupe d’utilisateurs.
 
-## Exclusion de groupes d’utilisateurs
+Pour afficher la liste des groupes auxquels un utilisateur appartient, accédez à **[!UICONTROL Utilisateur]** > **[!UICONTROL Groupes d&#39;utilisateurs]**, recherchez le nom de l&#39;utilisateur et sélectionnez-le. Cette opération affiche tous les groupes dont l’utilisateur fait partie.
+
+![](assets/list-of-group.png)
+
+### Téléchargement de la liste des utilisateurs d’un groupe d’utilisateurs
+
+Pour télécharger la liste des utilisateurs d&#39;un groupe d&#39;utilisateurs spécifique, accédez à **[!UICONTROL Utilisateur]** > **[!UICONTROL Groupes d&#39;utilisateurs]**, sélectionnez l&#39;icône **[!UICONTROL Télécharger]** en regard du groupe. Un fichier CSV contenant la liste des utilisateurs de ce groupe est alors généré.
+
+![](assets/download-list-of-user.png)
+
+## Exclusion de groupes d&#39;utilisateurs
 
 Vous souhaiterez parfois exclure un petit groupe d’utilisateurs d’un grand groupe d’utilisateurs. Cette opération est nécessaire pour inscrire cet ensemble spécifique d’utilisateurs à des formations via des plans d’apprentissage ou pour configurer la visibilité correcte des catalogues. Dans cette version de Learning Manager, vous pouvez exclure des élèves ou des groupes d’utilisateurs lorsque vous créez un groupe d’utilisateurs personnalisé. La section Exclure des élèves de la boîte de dialogue Ajouter un groupe d’utilisateurs vous permet de le faire.
 

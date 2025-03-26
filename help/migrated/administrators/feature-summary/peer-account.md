@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Comptes de pairs
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ Learning Manager vous permet de partager les places achetées grâce à la fonc
    ![](assets/addpeer.png)
 
    *Ajouter un sous-domaine*
+
+>[!NOTE]
+>
+>Pour trouver le sous-domaine d’un autre compte, vérifiez l’URL du compte. Le sous-domaine apparaît avant le domaine principal et permet d’identifier le compte spécifique.
+>
+>Par exemple :
+>
+>Dans l&#39;URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname), le sous-domaine est **accountname**.
+>
+>Dans l&#39;URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com), le sous-domaine est également **accountname**.
+>
+>Le sous-domaine est unique à chaque compte et est utilisé pour accéder à l’instance Learning Manager correspondante.
 
 1. Saisissez l’ID de messagerie de l’administrateur, qui acceptera ou rejettera ensuite la demande de compte de pairs.
 1. Indiquez le nombre de places que vous souhaitez partager avec votre pair. Lorsque vous partagez des places avec le compte de pairs, le compte de pairs passe à l’état Actif avec les places reçues ou avec les places achetées par les pairs.
