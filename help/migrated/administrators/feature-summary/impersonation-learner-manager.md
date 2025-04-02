@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Emprunt d’identité de l’élève et du responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
+source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 70%
+source-wordcount: '534'
+ht-degree: 64%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 70%
 
 Dans les grandes organisations, le personnel du service clientèle a besoin d’une fonctionnalité d’emprunt d’identité pour déboguer les problèmes rencontrés par les élèves.
 
-Grâce à cette possibilité d’emprunter l’identité d’autres utilisateurs, les administrateurs et les administrateurs personnalisés peuvent identifier et effectuer toutes les activités effectuées par les élèves et les responsables de leur organisation.
+Grâce à cette possibilité d’emprunter l’identité d’autres utilisateurs, les administrateurs peuvent identifier et effectuer toutes les activités effectuées par les élèves et les responsables de leur organisation.
+
+>[!NOTE]
+>
+>Les administrateurs personnalisés ne peuvent pas emprunter l’identité des utilisateurs ; seuls les administrateurs peuvent le faire.
 
 ## Fonctionnement du logiciel
 
-Les administrateurs (et/ou les administrateurs personnalisés) peuvent rechercher un utilisateur (interne ou externe), puis emprunter l’identité d’un utilisateur. L’administrateur est ensuite redirigé vers la page de l’utilisateur (application de gestionnaire, le cas échéant, ou autre application d’élève), puis il déconnecte l’administrateur de sa session. L’administrateur est ensuite redirigé vers la page Compléter votre profil, au cas où l’identité de l’utilisateur a été empruntée par l’administrateur.
-
-Si un administrateur personnalisé est autorisé à accéder à la page d’un utilisateur, il peut rechercher les utilisateurs dont il souhaite emprunter l’identité.
+Les administrateurs peuvent rechercher un utilisateur (interne ou externe), puis emprunter son identité. L’administrateur est ensuite redirigé vers la page de l’utilisateur (application de gestionnaire, le cas échéant, ou autre application d’élève), puis il déconnecte l’administrateur de sa session. L’administrateur est ensuite redirigé vers la page Compléter votre profil, au cas où l’identité de l’utilisateur a été empruntée par l’administrateur.
 
 Voici ce que vous devez garder à l’esprit lorsque vous empruntez l’identité d’un utilisateur :
 
