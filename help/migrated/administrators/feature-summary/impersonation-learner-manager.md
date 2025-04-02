@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Emprunt d’identité de l’élève et du responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ Pour emprunter l’identité d’un utilisateur, suivez les étapes ci-dessous 
 
 **Une session empruntée dure 60 minutes.**
 
-Lors du passage à un rôle d’élève ou de responsable, un message s’affiche indiquant que l’administrateur/l’administrateur personnalisé est en mode d’emprunt d’identité de l’utilisateur.
+Lors du passage à un rôle d’élève ou de responsable, un message s’affiche indiquant que l’administrateur est en mode d’emprunt d’identité de l’utilisateur.
 
 ## Rapport sur les connexions et accès
 
