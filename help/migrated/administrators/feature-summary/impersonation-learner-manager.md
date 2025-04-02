@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Emprunt d’identité de l’élève et du responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 59%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -30,8 +30,7 @@ Voici ce que vous devez garder à l’esprit lorsque vous empruntez l’identit�
 * Tous les administrateurs voient cette fonctionnalité par défaut.
 * Seuls les utilisateurs actifs du compte peuvent se voir emprunter leur identité.
 * Un administrateur ne peut pas emprunter sa propre identité.
-* Un administrateur personnalisé qui a accès à la page Utilisateurs peut emprunter l’identité des utilisateurs.
-* Un administrateur/administrateur personnalisé ne peut emprunter une identité que pendant 60 minutes.
+* Un administrateur ne peut emprunter l’identité que pendant 60 minutes.
 * Un administrateur personnalisé disposant d’un accès en lecture seule ne peut pas emprunter l’identité des utilisateurs.
 
 ## Emprunter l’identité d’un utilisateur
