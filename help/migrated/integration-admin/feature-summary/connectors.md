@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15848'
+source-wordcount: '15865'
 ht-degree: 59%
 
 ---
@@ -1084,6 +1084,10 @@ Adobe Learning Manager nécessite les étendues ci-dessous. Celles-ci doivent ê
 * Afficher les données du rapport `/report:read:admin`
 * Afficher toutes les informations utilisateur `/user:read:admin`
 * Afficher les informations des utilisateurs et gérer les utilisateurs `/user:write:admin`
+* Ajouter un membre inscrit à la réunion `/meeting:write:registrant:admin`
+* Répertorier tous les inscrits à la réunion `/meeting:read:list_registrants:admin`
+* Afficher et gérer les réunions utilisateur du sous-compte `/meeting:write:meeting:master`
+* Afficher les données du rapport `/report:read:list_meeting_participants:admin`
 
 ## Connecteur Box {#box_connector}
 

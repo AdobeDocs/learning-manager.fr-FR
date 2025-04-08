@@ -4,9 +4,9 @@ title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2685'
 ht-degree: 54%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 54%
 Cette fonctionnalité vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d&#39;attribuer des responsabilités en dehors du rôle existant de la personne.
 
 Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de création limitées à un catalogue particulier. Vous pouvez également créer un rôle dédié à la gestion des rapports. Ces rôles peuvent ensuite être affectés à des personnes qui sont censées assumer ces responsabilités spécifiques.
+
+>[!NOTE]
+>
+>L’ajout d’un nouveau rôle personnalisé n’affectera pas les groupes d’utilisateurs personnalisés existants ni les groupes basés sur des rôles tels que Tous les administrateurs, Tous les auteurs, etc.
 
 Les administrateurs peuvent créer des rôles d’administrateur et d’auteur personnalisés avec des autorisations personnalisées pour chaque rôle. Vous trouverez ci-dessous un aperçu des autorisations associées à chaque rôle :
 

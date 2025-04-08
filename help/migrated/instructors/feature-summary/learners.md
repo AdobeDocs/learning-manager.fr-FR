@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Pour envoyer des courriers électroniques aux élèves, effectuez l’une des op
 
 * Pour envoyer des courriers électroniques à certains participants, sélectionnez-les et cliquez sur Actions > Envoyer un courrier électronique à la sélection.
 * Pour envoyer des courriers électroniques à tous les participants afin de leur transmettre des documents de cours ou des devoirs, cliquez sur Actions > Envoyer un courrier électronique à tous.
+
+## Capturer les réponses à l’invitation
+
+Vous pouvez afficher les réponses aux invitations dans la section Élèves. Accédez à n’importe quelle session, sélectionnez **[!UICONTROL Élèves]**, puis sélectionnez la réponse à l’invitation dans le menu déroulant.
+
+![](assets/invitation-status.png)
 
 ## Exporter la liste des élèves {#exportinglearnerslist}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 59%
+source-wordcount: '4290'
+ht-degree: 58%
 
 ---
 
@@ -172,6 +172,8 @@ Dans la liste des utilisateurs, sélectionnez-en un, puis cliquez dessus. Dans l
 
 ## Champs actifs
 
+Les champs actifs dans Adobe Learning Manager sont des champs de métadonnées personnalisables utilisés pour stocker et gérer des informations spécifiques à l’utilisateur. Ces champs permettent de définir les attributs ou caractéristiques clés associés à chaque utilisateur du système.
+
 ### Gestion des attributs utilisateur
 
 >[!INFO]
@@ -329,6 +331,10 @@ Choisissez un utilisateur, puis, dans le coin supérieur droit, cliquez sur **[!
 ## Supprimer un rôle {#Removearole-1}
 
 Choisissez un utilisateur, puis, dans le coin supérieur droit, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Supprimer le rôle]** > **Supprimer`<role>`**. Le rôle sélectionné est supprimé de la liste des rôles qui ont été attribués à l’utilisateur.
+
+>[!NOTE]
+>
+>L’attribution d’un nouveau rôle n’affectera pas les groupes d’utilisateurs personnalisés. Toutefois, cela aura un impact sur les groupes d’utilisateurs générés automatiquement tels que Tous les administrateurs, Tous les auteurs et les groupes basés sur des rôles similaires.
 
 ## Créer des groupes d’utilisateurs {#createusergroups}
 

@@ -4,10 +4,10 @@ title: Gestion de l’assiduité et de la liste d’attente
 description: Les administrateurs peuvent gérer l’assiduité et les listes d’attente des cours pour les élèves.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 76%
+source-wordcount: '325'
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,10 @@ Les élèves sont mis en liste d’attente pour un cours en salle de classe lors
 
 1. Cliquez sur **[!UICONTROL Liste d&#39;attente]** dans le volet gauche de la page de détails du cours. La liste des élèves en liste d’attente apparaît sur la page.
 1. Sélectionnez les élèves et cliquez sur **[!UICONTROL Attribuer des places]** pour les inscrire directement aux cours dépassant la limite de places.
+
+>[!NOTE]
+>
+>Les élèves inscrits ne peuvent pas être déplacés vers la liste d&#39;attente et leurs places ne peuvent pas être réattribuées à d&#39;autres élèves.
 
 ## Gestion de l’assiduité {#attendancemanagement}
 
