@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Modèles de courriers électroniques
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 58%
@@ -25,7 +25,7 @@ Les administrateurs peuvent également choisir de ne pas envoyer de notification
 
 Dans cette formation, vous apprendrez à personnaliser des modèles d’e-mail individuels et à personnaliser les paramètres au niveau du cours et du compte pour les modèles d’e-mail.
 
-[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -223,7 +223,7 @@ Les modèles prennent également en charge des fonctions de modification avancé
 
 Dans cette formation, vous apprendrez à configurer les paramètres par défaut des instances, à ajouter une nouvelle instance, à retirer et rouvrir une instance, et à configurer des modèles de courrier électronique pour une instance.
 
-[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 

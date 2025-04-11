@@ -4,7 +4,7 @@ title: Catalogues
 description: 'Les catalogues sont un ensemble de formations : cours, programmes d’apprentissage et certifications. Les catalogues vous permettent d’offrir aux élèves un accès à un ensemble personnalisé d’objets d’apprentissage. Vous pouvez associer les objets d’apprentissage à un catalogue pendant la création d’un nouveau catalogue.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 72%
@@ -21,7 +21,7 @@ En tant qu’administrateur, vous pouvez créer des catalogues personnalisés, q
 
 Dans cette formation, vous apprendrez à créer et à gérer des catalogues.
 
-[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
@@ -145,7 +145,7 @@ Les objets d’apprentissage pris en charge dans les catalogues que vous pouvez 
 
 Cette formation vous apprendra à partager des catalogues avec des groupes d’utilisateurs internes et des comptes Adobe Learning Manager externes.
 
-[![bouton](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
