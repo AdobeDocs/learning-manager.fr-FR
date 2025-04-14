@@ -2,10 +2,10 @@
 title: Inscription multiple dans Adobe Learning Manager
 description: En tant qu’administrateur du compte, l’une de vos principales tâches consiste à créer différentes instances de sessions VILT dans différents fuseaux horaires, voire des sessions destinées à des groupes d’utilisateurs spécifiques.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 68%
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -16,6 +16,14 @@ Dans Adobe Learning Manager, chaque cours peut présenter différentes instances
 Avant la version de juillet 2023, lorsqu’un administrateur inscrivait un élève, celui-ci pouvait s’inscrire à une seule instance. Si un élève souhaitait suivre un cours dans différentes instances, l’administrateur créait de nombreux cours (un par instance).
 
 La fonctionnalité d’inscription multiple d’Adobe Learning Manager permet à un administrateur d’éviter ce type de scénarios.
+
+## Gestion des instances
+
+>[!INFO]
+>
+>Dans cette formation, vous apprendrez à modifier les détails et les propriétés de l&#39;instance.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Qu’est-ce que l’inscription multiple ?
 

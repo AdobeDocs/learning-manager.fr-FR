@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '5111'
+source-wordcount: '5153'
 ht-degree: 58%
 
 ---
@@ -23,12 +23,11 @@ Les auteurs créent des cours. Les élèves peuvent ensuite prendre des cours et
 
 ## Création de l’instance d’un cours {#createinstanceofacourse}
 
-### Gestion des instances
+### Configuration d’instances
 
->[!INFO]
->
->Dans cette formation, vous apprendrez à modifier les détails et les propriétés de l&#39;instance.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+Dans cette formation, vous apprendrez à configurer les paramètres par défaut des instances, à ajouter une nouvelle instance, à retirer et rouvrir une instance, et à configurer des modèles de courrier électronique pour une instance.
 
+[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
@@ -77,6 +76,14 @@ Pour créer une instance,
 >
 >L’administrateur annule les sessions en accédant à Instances > Sessions et en sélectionnant Annuler la session.
 
+### Gestion des instances
+
+>[!INFO]
+>
+>Dans cette formation, vous apprendrez à modifier les détails et les propriétés de l&#39;instance.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
+
 ### Retrait d’une instance {#retireaninstance}
 
 Pour retirer une instance, procédez comme suit :
@@ -119,7 +126,7 @@ Pour envoyer aux élèves inscrits des e-mails au niveau de l’instance :
 
 1. Sur la page **[!UICONTROL Instances]**, sélectionnez les options sur n&#39;importe quelle instance, puis cliquez sur **[!UICONTROL Envoyer un e-mail aux élèves inscrits]**.
 
-![E-mails au niveau de l’instance](assets/adhoc-email.png)
+![e-mails au niveau de l’instance](assets/adhoc-email.png)
 
 *Envoyer un e-mail aux élèves inscrits à l&#39;instance*
 
@@ -211,7 +218,7 @@ Le fichier Excel contient des feuilles de calcul pour chaque instance. Une feuil
 
 Vous pouvez réaliser les actions suivantes depuis la page Élèves :
 
-* Sélectionnez l’élève que vous souhaitez supprimer, puis cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Supprimer**].
+* Sélectionnez l&#39;élève que vous souhaitez supprimer, puis cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Supprimer**].
 * Sélectionnez l&#39;élève dont vous souhaitez marquer l&#39;assiduité, puis cliquez sur [!UICONTROL **Actions**] > [!UICONTROL **Marquer comme terminé**].
 
 Pour permettre aux élèves de réinitialiser un module et de le réutiliser, cliquez sur [!UICONTROL **Réinitialiser**]. Dans la boîte de dialogue contextuelle, cliquez sur Oui pour confirmer la réinitialisation. Les modules terminés ne peuvent pas être réinitialisés. Seuls les modules auxquels les élèves ont échoué ou qui sont incomplets peuvent être réinitialisés.
@@ -260,7 +267,7 @@ Pour télécharger le rapport à partir de la section Administrateur :
 1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
 2. Accédez à la section **[!UICONTROL Cours]** et sélectionnez le cours requis.
 3. Sélectionnez l&#39;option **[!UICONTROL Liste d&#39;attente]** dans la page **[!UICONTROL Présentation du cours]**.
-4. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Exporter le rapport]** pour télécharger le rapport sur la liste ]**d’attente**[!UICONTROL .
+4. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Exporter le rapport]** pour télécharger le rapport **[!UICONTROL Liste d&#39;attente]**.
 
    ![](assets/export-report-waitlist.png)
    _Exporter le rapport_
@@ -275,7 +282,7 @@ Dans le coin supérieur droit de la page, cliquez sur la liste déroulante **[!U
 
 ![](assets/export-list-of-learners.png)
 
-*Exporter la liste des élèves au format PDF*
+*Exporter la liste des élèves en tant que PDF*
 
 Sur le PDF, vous pouvez afficher le même groupe d’élèves qu’un instructeur.
 
@@ -305,7 +312,7 @@ Vous pouvez maintenant créer les questions, qui deviennent obligatoires.
 
 *Créer les questions*
 
-Si, pour une raison quelconque, les deux questions obligatoires n’ont pas de texte, les questions n’apparaîtront pas dans le formulaire de commentaires.
+Si les deux questions obligatoires, pour une raison quelconque, n’ont pas de texte, les questions n’apparaîtront pas dans le formulaire de retour d’informations.
 
 >[!NOTE]
 >
@@ -353,9 +360,9 @@ Cela est désormais corrigé, car l’administrateur est désormais en mesure d�
 
 ### Activer le retour d’informations L1 au niveau du compte {#l1-feedback-account-level}
 
-*Activer le retour d’information L1 au niveau du compte*
+*Activer le retour d&#39;informations L1 au niveau du compte*
 
-Un administrateur pourra activer les commentaires L1 pour les cours nouvellement créés et le programme d’apprentissage en activant ce paramètre au niveau du compte. Toutefois, l’activation de ce paramètre n’a pas d’impact sur les cours et les programmes d’apprentissage existants
+Un administrateur pourra activer le retour d’informations L1 pour les cours et le programme d’apprentissage nouvellement créés en activant ce paramètre au niveau du compte. Toutefois, l’activation de ce paramètre n’a aucune incidence sur les cours et programmes d’apprentissage existants
 
 Si cette option est activée, le retour d’informations sera activé par défaut pour toutes les nouvelles formations et toutes les nouvelles instances. Si un auteur/administrateur consulte l’instance, celle-ci est rétablie à ses valeurs par défaut et se désactive manuellement, puis elle est activée.
 
@@ -395,13 +402,13 @@ Un exemple de sortie du questionnaire L1 est fourni ci-dessous pour référence.
 
 ![](assets/l1-output.png)
 
-*Un exemple de questions de retour d’information sur le cours*
+*Exemple de questions de retour d&#39;informations sur le cours*
 
-Une fois que vous avez activé le retour d’information L3, vous pouvez afficher les options comme indiqué dans l’instantané ci-dessous :
+Une fois que vous avez activé le retour d&#39;informations L3, vous pouvez afficher les options comme indiqué dans l&#39;instantané ci-dessous :
 
 ![](assets/l3-feedback-desc-questions.png)
 
-*Activer le retour d’information L3*
+*Activer le retour d&#39;informations L3*
 
 Question 2 est la question descriptive pour le retour d’informations L3. Vous pouvez la rendre obligatoire en cliquant sur l’option correspondante sous la question.
 
@@ -464,12 +471,12 @@ Dans la liste des cours, ouvrez un cours contenant une liste de contrôle. Le vo
 
 ![](assets/export-checklist.png)
 
-*Exporter les données de la liste de contrôle*
+*Exporter les données de liste de contrôle*
 
 Cliquez sur l’option puis, sur la page du cours, effectuez les opérations suivantes :
 
 1. Sélectionnez l’instance et le module.
-1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Exporter, puis sur Exporter]** le rapport de la liste de contrôle de l’élève.
+1. Cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Exporter]**, puis exportez le rapport de liste de contrôle de l&#39;élève.
 
 Sur la page **[!UICONTROL Liste de contrôle]**, un instructeur peut exporter le rapport de liste de contrôle à partir de la liste déroulante **[!UICONTROL Actions]**.
 
@@ -492,11 +499,11 @@ Lorsque vous téléchargez un rapport après avoir sélectionné un filtre d&#39
 
 ## Affichage des cours {#viewingcourses}
 
-En tant qu’administrateur, vous pouvez afficher la liste de tous les cours disponibles.   Cliquez sur **[!UICONTROL Cours]** dans le volet gauche pour afficher la liste des cours avec les options de recherche et de filtre. Vous pouvez également afficher le pourcentage d’efficacité de cours pour chaque cours sur les vignettes de cours.
+En tant qu’administrateur, vous pouvez afficher une liste de tous les cours disponibles.   Cliquez sur **[!UICONTROL Cours]** dans le volet de gauche pour afficher la liste des cours avec les options de recherche et de filtre. Vous pouvez également afficher le pourcentage d’efficacité de cours pour chaque cours sur les vignettes de cours.
 
 >[!NOTE]
 >
->Vous pouvez mettre un cours hors service après qu’il a été consommé par les élèves ou lorsque vous souhaitez suspendre un cours particulier après l’avoir publié. Vous pouvez retirer un cours uniquement s’il est publié. La liste de tous les cours retirés peut être consultée en cliquant sur l’onglet **[!UICONTROL Retiré]** .
+>Vous pouvez retirer un cours après que le cours a été suivi par les élèves ou lorsque vous souhaitez retarder un cours particulier après l’avoir publié. Vous pouvez retirer un cours uniquement s’il est publié. La liste de tous les cours retirés peut être consultée en cliquant sur l&#39;onglet **[!UICONTROL Retiré]**.
 
 ## Affichage des scores du quiz {#viewquizscores}
 
@@ -546,7 +553,7 @@ Procédez comme suit pour ajouter des commentaires d’achèvement :
    ![](assets/comments.png)
    _Commentaire d&#39;achèvement_
 
-Ce processus est le même pour les parcours d’apprentissage et les certifications. Pour les parcours d’apprentissage, vous pouvez filtrer pour sélectionner tous les cours ou uniquement des cours individuels à marquer comme terminés.
+Ce processus est identique pour les parcours d’apprentissage et les certifications. Pour les parcours d’apprentissage, vous pouvez filtrer pour sélectionner tous les cours ou uniquement des cours individuels à marquer comme terminés.
 
 ![](assets/learning-path.png)
 _Sélectionner plusieurs cours à terminer_
@@ -555,9 +562,9 @@ Les commentaires seront visibles dans le rapport [Relevés de notes des élèves
 
 ## Aperçu des cours {#previewcourses}
 
-L’administrateur peut prévisualiser les cours en cliquant sur l’option **[!UICONTROL Aperçu en tant qu’élève]** lors de l’affichage des modules de cours.
+L&#39;administrateur peut prévisualiser les cours en cliquant sur l&#39;option **[!UICONTROL Aperçu en tant qu&#39;élève]** lors de l&#39;affichage des modules de cours.
 
-1. Cliquez sur **[!UICONTROL Cours]** dans le volet gauche après vous être connecté en tant qu’administrateur.
+1. Cliquez sur **[!UICONTROL Cours]** dans le volet de gauche après vous être connecté en tant qu&#39;administrateur.
 1. Cliquez sur n’importe quelle vignette de cours dans la liste des cours de la page.
 1. Cliquez sur Aperçu en tant qu’élève dans le volet de gauche et cliquez sur le nom du module dans la page pour prévisualiser le module de cours dans le lecteur.
 
@@ -590,7 +597,7 @@ Adobe Learning Manager facilite la recherche rapide des cours de votre choix. 
 1. À l’aide du champ Rechercher. Cliquez sur l’icône Rechercher affichée dans l’angle supérieur droit. Un champ de recherche s’affiche. Saisissez le nom du cours ou tout mot-clé associé à vos cours pour localiser vos cours/programmes d&#39;apprentissage. Vous pouvez également effectuer une recherche à l’aide de balises prédéfinies telles que Captivate, C, Java et HTML. Les balises sont indexées à l’intérieur du champ de recherche, ce qui signifie que les balises s’affichent dans le champ de recherche lors de la saisie.
 1. En filtrant la liste de cours/programmes d’apprentissage à l’aide de filtres. Vous pouvez filtrer les cours par état (Tous, Publié, Version préliminaire et Retiré). En mode Administrateur, le filtre Version préliminaire n’apparaît pas.
 
-Vous pouvez rechercher par compétences en cliquant sur Compétences et en les sélectionnant. En tant qu’administrateur, vous pouvez trier les cours de quatre manières, afin de mieux localiser le cours dont vous avez besoin. Cliquez sur Trier par et choisissez l’ordre alphabétique croissant, l’ordre alphabétique décroissant, la date de mise à jour du cours ou l’efficacité des cours.
+Vous pouvez rechercher par compétences en cliquant sur Compétences et en les sélectionnant. En tant qu’administrateur, vous pouvez trier les cours de quatre manières, afin de mieux localiser le cours requis. Cliquez sur Trier par et choisissez l’ordre croissant alphabétique, l’ordre décroissant alphabétique, la date de mise à jour du cours ou l’efficacité des cours.
 
 <!--![](assets/admin-sortby.png)-->
 
@@ -668,7 +675,7 @@ Recherchez les utilisateurs inscrits dans la section Élève de l’objet d’ap
 
 ![](assets/typeahead.gif)
 
-*Procédure pas à pas de recherche d’utilisateurs inscrits*
+*Procédure pas à pas pour rechercher des utilisateurs inscrits*
 
 Ce type de recherche est aussi parfois appelé recherche automatique, recherche incrémentielle, recherche à la carte, recherche en ligne ou recherche instantanée.
 

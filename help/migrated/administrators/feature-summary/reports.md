@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 53%
@@ -39,11 +39,11 @@ Adobe Learning Manager prend en charge les quatre principaux types de rapports
 
 Consultez un résumé de toutes les activités utilisateur sur la plate-forme au fil du temps. Configurez les groupes d’utilisateurs et appliquez des filtres.
 
-Le tableau de bord d’activité des utilisateurs affiche l’activité des utilisateurs dans le compte. Les trois rapports répertoriés sont les suivants :
+Le tableau de bord d’activité des utilisateurs affiche l’activité des utilisateurs dans le compte. Les trois rapports énumérés sont les suivants :
 
-* **Utilisateurs enregistrés :** Ce rapport fournit des informations sur le nombre d’utilisateurs enregistrés dans votre compte d’une semaine à l’autre. Pour les comptes disposant d’une licence Unités mensuelles actives, le rapport affiche les unités MAU à la place.
+* **Utilisateurs enregistrés :** ce rapport fournit des informations sur le nombre d&#39;utilisateurs enregistrés dans votre compte chaque semaine. Pour les comptes disposant d’une licence Unités mensuelles actives, le rapport affiche les unités MAU à la place.
 
-* **Rapport sur les visites des utilisateurs :** Ce rapport fournit des informations sur le nombre d’utilisateurs qui accèdent à la plateforme au quotidien. Un rapport mensuel est également disponible.
+* **Rapport de visites d&#39;utilisateurs :** ce rapport fournit des informations sur le nombre d&#39;utilisateurs accédant à la plateforme au jour le jour. Un rapport mensuel est également disponible.
 
 * **Rapport sur le temps d&#39;apprentissage passé :** ce rapport fournit des informations sur le temps d&#39;apprentissage passé dans la plateforme au jour le jour. Un rapport mensuel est également disponible.
 
@@ -207,7 +207,7 @@ Consultez un rapport récapitulatif de toutes les activités d’apprentissage d
 
 S&#39;il y a des gestionnaires internes de niveau racine, ils seront affichés l&#39;un après l&#39;autre.
 
-Tous les profils externes seront répertoriés après les profils internes (utilisateurs internes de niveau racine).
+Tous les profils externes sont répertoriés après les profils internes (utilisateurs racine internes).
 
 Si un profil externe a un responsable, la hiérarchie du responsable s&#39;affiche dans la liste déroulante **[!UICONTROL Afficher les données pour]**. L’utilisateur sera répertorié dans la hiérarchie du responsable dans toutes les pages de détails (Résumé de l’apprentissage, Conformité et État des compétences)
 
@@ -268,15 +268,15 @@ Pour créer une étiquette de conformité personnalisée, procédez comme suit :
 
 >[!NOTE]
 >
->L’auteur doit ajouter ces étiquettes de conformité lors de la création/modification des cours dans son application. Voir [Ajouter des étiquettes de conformité à un cours/parcours d’apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+>L’auteur doit ajouter ces étiquettes de conformité lors de la création/modification des cours dans son application. Voir [Ajouter des étiquettes de conformité à un cours/parcours d&#39;apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
 
-##### Créer et partager un tableau de bord de conformité
+##### Création et partage d’un tableau de bord de conformité
 
 Pour créer et partager un tableau de bord de conformité, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Rapports]** > **[!UICONTROL Résumé]** de l’apprentissage.
-1. Dans la **[!UICONTROL section Tableau de bord]** de conformité, sélectionnez **[!UICONTROL Partagé avec les responsables]**.
-1. Sélectionnez **[!UICONTROL Partager le tableau de bord]** et sélectionnez les étiquettes créées dans le menu déroulant Sélectionner l’étiquette **** de conformité.
+1. Accédez à **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]**.
+1. Dans la section **[!UICONTROL Tableau de bord de conformité]**, sélectionnez **[!UICONTROL Partagé avec les responsables]**.
+1. Sélectionnez **[!UICONTROL Partager le tableau de bord]** et sélectionnez les étiquettes créées dans le menu déroulant **[!UICONTROL Sélectionner une étiquette de conformité]**.
 
 
    ![](assets/compliance-type.png)
@@ -287,18 +287,18 @@ Pour créer et partager un tableau de bord de conformité, procédez comme suit 
 
 >[!NOTE]
 >
->Le partage du nouveau tableau de bord remplacera le tableau de bord existant dans l’application du responsable sélectionné. Les gestionnaires pourront afficher le tableau de bord nouvellement partagé par les administrateurs.
+>Le partage du nouveau tableau de bord remplacera le tableau de bord existant dans l’application du responsable sélectionné. Les responsables pourront afficher le tableau de bord nouvellement partagé par les administrateurs.
 
-#### Partager le tableau de bord de conformité avec les administrateurs et les administrateurs personnalisés
+#### Partage du tableau de bord de conformité avec les administrateurs et les administrateurs personnalisés
 
-Les administrateurs peuvent partager le tableau de bord avec d’autres administrateurs et des administrateurs personnalisés, ce qui leur donne un accès instantané à tous les tableaux de bord de conformité.
+Les administrateurs peuvent partager le tableau de bord avec d’autres administrateurs et administrateurs personnalisés, ce qui leur donne un accès instantané à tous les tableaux de bord de conformité.
 
-Suivez ces étapes pour partager le tableau de bord avec les administrateurs et les administrateurs personnalisés :
+Procédez comme suit pour partager le tableau de bord avec les administrateurs et les administrateurs personnalisés :
 
-1. Connectez-vous en tant qu’administrateur ****.
-2. Accédez aux **[!UICONTROL rapports]** > **[!UICONTROL au résumé]** de l’apprentissage.
-3. Sélectionnez **[!UICONTROL Vue]** d’administration dans la section Tableau de bord ]**de**[!UICONTROL  conformité.
-4. Sélectionnez le bouton Partager le **[!UICONTROL tableau de bord]** .
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]**.
+3. Sélectionnez **[!UICONTROL Vue Administrateur]** dans la section **[!UICONTROL Tableau de bord de conformité]**.
+4. Sélectionnez le bouton **[!UICONTROL Partager le tableau de bord]**.
 
    ![](assets/share-dashboard.png)
    _Partager le tableau de bord - Administrateur_
@@ -362,14 +362,14 @@ Procédez comme suit pour modifier le tableau de bord de conformité :
 5. Modifiez les détails requis et sélectionnez **[!UICONTROL Partager]**.
 6. Le tableau de bord de conformité sera partagé avec les responsables sélectionnés.
 
-#### Retirer le tableau de bord - Admin
+#### Retirer le tableau de bord - Administrateur
 
 Procédez comme suit pour retirer le tableau de bord de conformité :
 
 1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
 2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
 3. Sélectionnez **[!UICONTROL Vue Administrateur]** ou **[!UICONTROL Vue Responsable]** dans la section **[!UICONTROL Tableau de bord de conformité]**. Vous pouvez voir les tableaux de bord de conformité dans cette section.
-4. Sélectionnez **[!UICONTROL Retirer]** dans le tableau de bord de conformité que vous souhaitez supprimer, puis sélectionnez **[!UICONTROL Continuer]**.
+4. Sélectionnez **[!UICONTROL Retirer]** sur le tableau de bord de conformité que vous souhaitez supprimer et sélectionnez **[!UICONTROL Continuer]**.
 5. Cette action supprimera le tableau de bord de conformité partagé de l’application du responsable.
 
    ![](assets/manager-edit.png)
@@ -377,11 +377,11 @@ Procédez comme suit pour retirer le tableau de bord de conformité :
 
 #### Définir le widget de conformité par défaut pour les élèves
 
-Procédez comme suit pour définir le widget de conformité par défaut pour les élèves :
+Suivez ces étapes pour définir le widget de conformité par défaut pour les élèves :
 
-1. Connectez-vous en tant qu’administrateur ****.
-2. Accédez au **[!UICONTROL tableau de bord Rapports]** > **[!UICONTROL Résumé]** de l’apprentissage > **[!UICONTROL Conformité]**.
-3. Sélectionnez **[!UICONTROL Vue]** de l’élève dans la **[!UICONTROL section Tableau de bord]** de conformité.
+1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur]**.
+2. Accédez aux **[!UICONTROL Rapports]** > **[!UICONTROL Résumé de l’apprentissage]** > **[!UICONTROL Tableau de bord de conformité]**.
+3. Sélectionnez **[!UICONTROL Vue Élève]** dans la section **[!UICONTROL Tableau de bord de conformité]**.
 4. Sélectionnez **[!UICONTROL Modifier]** dans la section **[!UICONTROL Vue Élève]**.
 
    ![](assets/learner-widget.png)
@@ -389,11 +389,11 @@ Procédez comme suit pour définir le widget de conformité par défaut pour les
 5. Sélectionnez les étiquettes de conformité dans la liste déroulante **[!UICONTROL Conformité personnalisée]**. Cette option sélectionne tous les cours ayant les étiquettes de conformité sélectionnées.
 6. Sélectionnez **[!UICONTROL Continuer]** pour définir le widget de conformité par défaut.
 
-Les élèves peuvent voir les cours ou les parcours d’apprentissage sélectionnés sur le widget de conformité de leur page d’accueil. Pour plus d’informations, reportez-vous au [widget](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) du tableau de bord de conformité.
+Les élèves peuvent voir les cours ou parcours d’apprentissage sélectionnés sur le widget Conformité sur leur page d’accueil. Reportez-vous au [widget Tableau de bord de conformité](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) pour plus d&#39;informations.
 
 ## Rapports personnalisés
 
-Les administrateurs peuvent générer des rapports spécifiques à l’aide du modèle personnalisé disponible dans la section Rapports ****.
+Les administrateurs peuvent générer des rapports spécifiques à l&#39;aide du modèle personnalisé disponible dans la section **[!UICONTROL Rapports]**.
 
 ### Rapports échantillon {#samplereports}
 
@@ -443,6 +443,15 @@ En tant qu’administrateur, vous pouvez télécharger des rapports pour les cou
    >
    >Un rapport de scores de questionnaires contiendra les détails des scores pour chaque tentative si l’option de multiples tentatives est configurée pour le module.
 
+### Générer des rapports de cours
+
+>[!INFO]
+>
+>Dans cette formation, vous apprendrez à exporter des rapports de cours et à configurer des abonnements par e-mail pour ces rapports.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
+
 ### Relevés de notes des élèves {#LearnerTranscripts-1}
 
 Adobe Learning Manager permet aux administrateurs d’une organisation de générer des récapitulatifs liés aux stagiaires. Le rapport Relevé de notes de l’élève comprend les éléments suivants :
@@ -453,7 +462,7 @@ Adobe Learning Manager permet aux administrateurs d’une organisation de gén
 
 Les relevés de notes des élèves dans les rapports Excel affichent les colonnes Crédits requis et Crédits gagnés sous forme de nombres décimaux.
 
-Pour plus d’informations sur la génération de rapports sur les relevés de notes de l’élève et plus d’informations, consultez [Relevés de notes](learner-transcripts.md) de l’élève.
+Pour plus d&#39;informations sur la génération de rapports de relevé de notes de l&#39;élève et plus d&#39;informations, voir [Relevés de notes de l&#39;élève](learner-transcripts.md).
 
 ### Rapports des annonces {#announcementsreports}
 
@@ -467,11 +476,11 @@ En tant qu’administrateur, vous pouvez générer un rapport de toutes les anno
 
 Pour télécharger un rapport, suivez l’une de ces étapes :
 
-1. Ouvrez **[!UICONTROL des rapports]** > **[!UICONTROL des rapports]** personnalisés > **[!UICONTROL des rapports]** Excel > **[!UICONTROL des rapports]** d’annonces. La boîte de dialogue **[!UICONTROL Génération d’une demande de rapport]** s’ouvre. Cliquez sur OK.
-1. [!UICONTROL **Annonces**] > [!UICONTROL **actions**] > rapport **]d’exportation[!UICONTROL **.
+1. Ouvrez **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapport d&#39;annonces]**. La boîte de dialogue **[!UICONTROL Génération d’une demande de rapport]** s’ouvre. Cliquez sur OK.
+1. [!UICONTROL **Annonces**] > [!UICONTROL **Actions**] > [!UICONTROL **Rapport D&#39;Exportation**].
 
    ![](assets/announcements.png)
-   *Rapport sur les annonces*
+   *Rapport d&#39;annonces*
 
 1. Vous pouvez extraire un rapport pour une annonce spécifique en cliquant sur **[!UICONTROL Exporter le rapport]** sous l&#39;icône des paramètres.
 
@@ -497,7 +506,7 @@ Le rapport extrait comprend les informations suivantes :
 Pour télécharger un rapport, effectuez l’une des opérations suivantes :
 
 * Ouvrez **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapports d&#39;assistance à la tâche]**. La boîte de dialogue **[!UICONTROL Génération d’une demande de rapport]** s’affiche. Cliquez sur **[!UICONTROL OK]**.
-* Ouvrez **[!UICONTROL l’Aide-travail]** > **[!UICONTROL Actions]** > **[!UICONTROL exporter le rapport]**.
+* Ouvrez **[!UICONTROL Assistance à la tâche]** > **[!UICONTROL Actions]** > **[!UICONTROL Rapport d&#39;exportation]**.
 
 ![](assets/job-aids.png)
 *Rapport d&#39;assistances à la tâche*
@@ -553,7 +562,7 @@ Le rapport téléchargé se compose des champs suivants :
 * Type
 * État
 * Date d’inscription (fuseau horaire UTC)
-* Date d’achèvement (fuseau horaire UTC)
+* Date de fin (fuseau horaire UTC)
 * Date de téléchargement (fuseau horaire UTC)
 * Nom de l’élève
 * Courrier électronique
@@ -573,7 +582,7 @@ Le rapport téléchargé se compose des champs suivants :
 
 ### Rapports de piste d’audit de contenu {#contentaudittrailreports}
 
-Utilisez le générateur de **[!UICONTROL rapports Piste]** d’audit de contenu pour générer un rapport de toutes les modifications apportées à un cours au cours de sa vie dans le système. Le rapport généré récupère les informations suivantes.
+Utilisez le générateur de rapports de la **[!UICONTROL Piste d&#39;audit de contenu]** pour générer un rapport de toutes les modifications apportées à un cours au cours de sa vie dans le système. Le rapport généré récupère les informations suivantes.
 
 * ID d’objet
 * Nom d’objet
@@ -592,19 +601,19 @@ Dans la colonne **Type de modification**, vous obtiendrez les détails suivants 
 | --- | --- |
 | Créer | Cours créé |
 | Ajout de certification | Certification ajoutée au catalogue |
-| Certification Supprimer | Certification retirée du catalogue |
+| Suppression de la certification | Certification supprimée du catalogue |
 | Ajout de contenu | Contenu ajouté au module |
 | Ajout de cours | Cours ajouté au parcours d’apprentissage |
 | Suppression de cours | Cours supprimé du parcours d’apprentissage |
 | Ajouter une étiquette personnalisée | Libellé personnalisé ajouté au catalogue |
-| Supprimer l’étiquette personnalisée | Étiquette personnalisée supprimée du catalogue |
+| Supprimer l’étiquette personnalisée | Libellé personnalisé supprimé du catalogue |
 | Supprimer | Catalogue supprimé |
 | Ajout d’assistance à la tâche | Assistance à la tâche ajoutée au catalogue |
-| Aide à la tâche Supprimer | Assistance à la tâche supprimée du catalogue |
+| Suppression de l’assistance à la tâche | Assistance à la tâche supprimée du catalogue |
 | Ajout d’un parcours d’apprentissage | Parcours d’apprentissage ajouté au catalogue |
 | Suppression du parcours d’apprentissage | Parcours d’apprentissage supprimé du catalogue |
-| Contenu du module Ajouter | Module ajouté au cours(section Contenu) |
-| Contenu du module Supprimer | Module supprimé du cours(section Contenu) |
+| Ajout de contenu de module | Module ajouté au cours (section Contenu) |
+| Suppression de contenu de module | Module supprimé du cours (section Contenu) |
 | Publié | Cours ou parcours d’apprentissage publié et ajouté au catalogue par défaut |
 | Republié | Cours republié |
 | Ajout de ressources | Ressource ajoutée au cours |
@@ -636,11 +645,11 @@ Le journal d’audit des utilisateurs capture le cycle de vie des utilisateurs, 
 
 Vous pouvez utiliser les fonctions Ajouter, Activer, Désactiver, Suspendre ou Reprendre pour les profils externes, et les fonctions Ajouter, Supprimer, Suspendre ou Reprendre pour le processus d’auto-inscription. Les téléchargements de fichier CSV sont également consignés.
 
-1. Sélectionnez  **[!UICONTROL Rapport > rapport Excel > Parcours]** utilisateur. La boîte de dialogue Piste d’audit de l’utilisateur s’affiche.
+1. Sélectionnez **[!UICONTROL Rapport > Rapport Excel > Piste utilisateur]**. La boîte de dialogue Piste d’audit de l’utilisateur s’affiche.
 1. La boîte de dialogue Piste d’audit d’utilisateur s’affiche. Choisissez la plage de dates dans le menu contextuel. Vous pouvez choisir de générer le rapport pour la semaine passée ou le mois passé. Vous pouvez également sélectionner une date personnalisée.
 
    ![](assets/user-audit-trail.png)
-   *Piste d’audit de l’utilisateur*
+   *Piste d&#39;audit de l&#39;utilisateur*
 
 1. Cliquez sur **[!UICONTROL Générer]** pour générer le rapport.
 
@@ -673,7 +682,7 @@ Ce rapport fournit les données de toutes les instructions xAPI enregistrées et
 
 Pour télécharger ce rapport, procédez comme suit :
 
-1. Sélectionnez  **[!UICONTROL Rapport > rapport Excel > Rapport]** d’activité xAPI. La boîte de dialogue Rapport d’activité xAPI s’affiche.
+1. Sélectionnez **[!UICONTROL Rapport > Rapport Excel > Rapport d&#39;activité xAPI]**. La boîte de dialogue Rapport d’activité xAPI s’affiche.
 1. Choisissez la plage de dates dans le menu contextuel. Vous pouvez choisir de générer le rapport pour la semaine passée ou le mois passé. Vous pouvez également sélectionner une date personnalisée.
 1. Sélectionnez les élèves et l’activité dans le menu déroulant.
 1. Sélectionnez **[!UICONTROL Générer]** pour générer le rapport.
@@ -721,15 +730,15 @@ Le rapport est téléchargé au format CSV. Le fichier contient les colonnes sui
 * E-mail/UUID,
 * Statut
 * Action
-* Aiguillage
+* Points,
 * Points d’équilibre
 * Règle/Tâche
 * Sous-tâche Règle/Tâche,
 * Détails de la règle/tâche
-* Type
-* Nom
-* Nom de l’instanceDate d’atteinte (fuseau horaire UTC)
-* Heure de début de la règle/de la tâche
+* Type,
+* Nom,
+* Nom de l’instance Date d’obtention (fuseau horaire UTC)
+* Heure de début de la règle/tâche
 * Heure de fin de la règle/tâche
 
 ### Rapport d’inscription et de désinscription {#enrollmentandunenrollmentreport}
@@ -795,9 +804,9 @@ Le rapport contiendra les champs suivants :
 
 Le rapport récapitulatif de la session contient toutes les sessions prévues pour un élève à une date spécifiée.
 
-Cela permet à l’administrateur d’exporter tous les détails des sessions virtuelles et de classe correspondant à la plage de dates donnée. L’administrateur peut également exporter le rapport de session en ce qui concerne des formations ou des instructeurs spécifiques.
+Cela permet à l’administrateur d’exporter tous les détails des sessions Virtuelle et Salle de classe incluses dans la période donnée. L’administrateur peut également exporter le rapport de session en ce qui concerne des formations ou des instructeurs spécifiques.
 
-Cela aidera également l’administrateur à comprendre les sessions prévues sur une base mensuelle et à identifier l’horaire des instructeurs et les sessions déjà données.
+Cela aidera également l&#39;administrateur à comprendre les sessions planifiées sur une base mensuelle et à identifier le calendrier des instructeurs et les sessions déjà dispensées.
 
 En tant qu&#39;administrateur, cliquez sur **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapport récapitulatif de la session]**.
 
@@ -832,7 +841,7 @@ Le fichier CSV téléchargé contient les champs suivants :
 
 Ce rapport capture le temps (en minutes) passé chaque jour par un instructeur pour enseigner les sessions qui lui sont assignées. Le rapport peut être téléchargé pendant une période de trois mois à compter de la date de début sélectionnée.
 
-Pour télécharger le rapport, cliquez sur Rapports > **[!UICONTROL Rapports]** personnalisés > **[!UICONTROL Rapport d’utilisation de l’instructeur]**]**.**[!UICONTROL 
+Pour télécharger le rapport, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapport d&#39;utilisation de l&#39;instructeur]**.
 
 Sélectionnez un ou plusieurs instructeurs et la plage de dates.
 
@@ -899,10 +908,10 @@ Pour télécharger le rapport, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur.
 2. Sélectionnez Rapports > Rapports personnalisés.
-3. Sélectionnez Piste d’audit de rôle personnalisé et choisissez la plage de dates
+3. Sélectionnez Piste d’audit du rôle personnalisé et choisissez la période
 4. Sélectionnez Générer pour télécharger le rapport.
 
-Le rapport Piste d’audit des rôles personnalisés contient les champs suivants :
+Le rapport Piste d’audit du rôle personnalisé contient les champs suivants :
 
 * ID du rôle
 * Nom du rôle
@@ -949,17 +958,17 @@ Les rapports d&#39;accès aux cours fournissent des informations sur la révisio
 Pour télécharger ce rapport, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports historiques]**.
-1. Sélectionnez **[!UICONTROL Rapport d&#39;accès au cours]**. La boîte de dialogue Génération d’une demande de rapport s’ouvre.
+1. Sélectionnez **[!UICONTROL Rapport d&#39;accès au cours]**. La boîte de dialogue Génération de la demande de rapport s’ouvre.
 1. Sélectionnez l’année et le trimestre dans le menu déroulant.
 1. Sélectionnez **[!UICONTROL Générer]**.
 
-### Rapports de connexion/accès
+### Rapports de connexion/d’accès
 
-Les rapports de connexion/accès fournissent des informations sur les connexions et l’accès des utilisateurs. Vous pouvez générer un rapport contenant des données de trois mois à la fois.
+Les rapports de connexion/accès fournissent des informations sur les connexions et les accès des utilisateurs. Vous pouvez générer un rapport contenant des données sur trois mois à la fois.
 
 Pour télécharger ce rapport, procédez comme suit :
 
-1. Accédez à **[!UICONTROL Rapports]** > **[!UICONTROL Rapports]** personnalisés > **[!UICONTROL Rapports]** historiques.
+1. Accédez à **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports historiques]**.
 1. Sélectionnez **[!UICONTROL Rapport de connexion/accès]**. La boîte de dialogue Génération de la demande de rapport s’ouvre.
 1. Sélectionnez l’année et le trimestre dans le menu déroulant.
 1. Sélectionnez **[!UICONTROL Générer]**.
@@ -1054,16 +1063,16 @@ La feuille exportée de rapports de tableau de bord fournit des informations dé
    Élargissez cette section et choisissez les filtres requis.
 
    ![](assets/choose-filters.png)
-   *Choisissez des filtres*
+   *Choisir des filtres*
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour terminer la création d’un rapport.
+1. Cliquez sur **[!UICONTROL Enregistrer]** pour terminer la création d&#39;un rapport.
 
    ![](assets/sample-report.png)
    *Exemple de rapport*
 
 ## Modification d’un rapport {#editareport}
 
-Dans le rapport, cliquez sur la flèche déroulante et sélectionnez l’option **[!UICONTROL Modifier le rapport]**.
+Dans le rapport, cliquez sur la flèche déroulante, puis sélectionnez l&#39;option **[!UICONTROL Modifier le rapport]**.
 
 ![](assets/edit-a-report-1.png)
 *Modifier un rapport*
@@ -1081,7 +1090,7 @@ Choisissez le tableau de bord vers lequel vous souhaitez déplacer le rapport et
 
 ## Création d’une copie d’un rapport {#createacopyofareport}
 
-Pour créer une copie du rapport, sélectionnez l’option **[!UICONTROL Créer une copie]**.
+Pour créer une copie du rapport, sélectionnez l&#39;option **[!UICONTROL Créer une copie]**.
 
 ![](assets/copy-a-report.png)
 *Créer une copie d&#39;un rapport*
@@ -1148,7 +1157,7 @@ Ce rapport de groupe d’utilisateurs vous permet de comparer la performance d�
 
 Vous pouvez également créer des groupes d&#39;utilisateurs personnalisés à l&#39;aide de la fonction Ajouter des utilisateurs/un groupe d’utilisateurs dans Learning Manager. Après avoir créé des groupes d’utilisateurs, vous pouvez générer des rapports pour ces groupes d’utilisateurs personnalisés à l’aide d’une liste d’attributs, tels que l’emplacement ou la succursale.
 
-Dans l’axe x, choisissez l’option d’attribut utilisateur et sélectionnez l’attribut dans la **liste déroulante de sélection** en regard de celle-ci. Pour créer un rapport de groupe d’utilisateurs personnalisé basé sur ces attributs, vous devez également choisir le groupe d’utilisateurs approprié dans le filtre.
+Sur l&#39;axe des x, choisissez l&#39;option d&#39;attribut utilisateur et sélectionnez l&#39;attribut dans la liste déroulante **sélectionner** en regard de celui-ci. Pour créer un rapport de groupe d’utilisateurs personnalisé basé sur ces attributs, vous devez également choisir le groupe d’utilisateurs approprié dans le filtre.
 
 ## Affichage des rapports {#viewingreports}
 
@@ -1174,15 +1183,6 @@ Si vous supervisez plusieurs responsables, vous pouvez afficher rapidement les r
 >Les valeurs de responsable que vous utilisez pour afficher le rapport sont temporaires. Cette vue de rapport n’est pas téléchargée lorsque vous sélectionnez l’option de téléchargement. Il ne s’agit que d’une vue temporaire.
 
 ## Affichage des rapports sur les cours {#viewcoursereports}
-
-### Générer des rapports de cours
-
->[!INFO]
->
->Dans cette formation, vous apprendrez à exporter des rapports de cours et à configurer des abonnements par e-mail pour ces rapports.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
-
-
-Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Vous pouvez afficher les rapports spécifiques de chaque cours en procédant comme suit :
 

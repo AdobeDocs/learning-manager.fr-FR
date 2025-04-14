@@ -4,10 +4,10 @@ title: Forum aux questions pour les administrateurs
 description: Forum aux questions pour les administrateurs Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '2612'
-ht-degree: 50%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -23,29 +23,23 @@ ht-degree: 50%
  </tbody>
 </table>
 
-+++Annonce d’un nouvel Experience League
-
-Nous sommes ravis d’annoncer que dans le cadre de notre parcours pour être mieux connecté à la famille de solutions Adobe, Adobe Learning Manager ajoutera un canal supplémentaire au processus de réception des demandes de support. À compter du 12 mai 2025, vous pourrez désormais créer des dossiers directement à partir de Adobe Experience League. Experience League héberge actuellement la documentation d’auto-assistance, les guides de l’utilisateur et les bonnes pratiques de Adobe Learning Manager. Il deviendra votre ressource principale pour tous les besoins de support, du libre-service à la communication pilotée par l’agent. Nous vous remercions de votre compréhension et de votre soutien alors que nous effectuons cette importante transition.
-
-+++
-
 +++ Puis-je ajouter des utilisateurs en bloc ? Comment ?
 
-Oui, vous pouvez ajouter plusieurs utilisateurs simultanément à l’aide de la fonction de téléchargement CSV. Click  [here](/help/migrated/administrators/add-users-in-bulk.md) for more information.
+Oui, vous pouvez ajouter plusieurs utilisateurs simultanément à l’aide de la fonction de téléchargement CSV. Cliquez [ici](/help/migrated/administrators/add-users-in-bulk.md) pour plus d&#39;informations.
 
 +++
 
-+++I mis-typed email-id while creating log in for my learners, how do I correct it?
++++J’ai mal saisi l’ID de messagerie lors de la création de la connexion de mes élèves, comment puis-je le corriger ?
 
 Pour corriger les identifiants de connexion utilisateur, vous devez importer un fichier CSV dans Learning Manager. Un exemple de fichier CSV est joint au bas de cette page pour référence. Étant donné que l’adresse est considérée comme un identifiant unique pour une personne, elle ne peut plus être modifiée. Procédez comme suit :
 
-1. Add the same user with correct e-mail id in CSV and ensure he remains as Manager of other users by adding his e-mail id to &quot;Email of the Employee&#39;s Manager&quot; column in the sample CSV.
+1. Ajoutez le même utilisateur avec l’ID d’e-mail correct dans le fichier CSV et assurez-vous qu’il reste en tant que responsable des autres utilisateurs en ajoutant son ID d’e-mail à la colonne « Adresse électronique du responsable de l’employé » dans l’exemple de fichier CSV.
 1. Ajoutez d’autres utilisateurs dans votre compte au fichier CSV, y compris vous-même.
 1. Importez ce fichier sur l’application Administrateur Learning Manager -> Utilisateurs -> Ajouter -> Importer un fichier CSV
 1. Lorsque vous y êtes invité dans la boîte de dialogue, mappez tous les champs avec les colonnes correspondantes au format CSV.
 1. Cliquez sur Enregistrer.
 
-Users should get added on Learners page.
+Les utilisateurs doivent être ajoutés sur la page Élèves.
 
 [Exemple de fichier CSV.csv de Learning Manager](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
@@ -143,10 +137,10 @@ Suivez les étapes ci-dessous pour inscrire des élèves à des cours :
 
 Affectez des élèves à des compétences en suivant les étapes ci-dessous :
 
-1. Click **[!UICONTROL Skills]** at the left pane after you log in as Administrator.
-1. Select one or multiple skills by clicking check boxes against each competency and click **[!UICONTROL Actions]** drop down at the upper-right corner of the page.
+1. Cliquez sur **[!UICONTROL Compétences]** dans le volet de gauche après vous être connecté en tant qu&#39;administrateur.
+1. Sélectionnez une ou plusieurs compétences en cochant les cases en regard de chaque compétence et cliquez sur le menu déroulant **[!UICONTROL Actions]** dans le coin supérieur droit de la page.
 1. Cliquez sur Affecter à des utilisateurs.
-1. Start typing the name of the user, choose from the drop-down list and click **[!UICONTROL Save]**.
+1. Commencez à saisir le nom de l&#39;utilisateur, faites votre choix dans la liste déroulante et cliquez sur **[!UICONTROL Enregistrer]**.
 
    >[!NOTE]
    >
@@ -258,12 +252,12 @@ Vous pouvez passer votre connexion de compte à d’autres rôles tels qu’Él�
 
 +++
 
-+++How do I include notifications for the users?
++++Comment inclure des notifications pour les utilisateurs ?
 
 Les responsables, les auteurs et les élèves peuvent voir les notifications en fonction des activités de cours. L’administrateur peut activer ou désactiver les notifications pour tous les utilisateurs en suivant les étapes ci-dessous :
 
-1. Click Email Templates at the left pane and choose General, User Enrollments, Completions and Feedback tabs.
-1. From the events listed below, click the No/Yes toggle buttons adjacent to **each **event and choose Yes to enable notification. Cliquez sur Non pour désactiver l’envoi de notifications pour un événement particulier.
+1. Cliquez sur Modèles de courrier électronique dans le volet de gauche et sélectionnez Général, Inscriptions des utilisateurs, Terminaisons et Commentaires.
+1. Parmi les événements répertoriés ci-dessous, cliquez sur les boutons bascule Non/Oui en regard de **chaque **événement et choisissez Oui pour activer la notification. Cliquez sur Non pour désactiver l’envoi de notifications pour un événement particulier.
 
 +++
 
@@ -273,7 +267,7 @@ Adobe Learning Manager vous donne la possibilité d’inscrire des membres de 
 
 1. Cliquez sur **[!UICONTROL Utilisateurs]** dans le volet de gauche.
 1. Cliquez sur **[!UICONTROL Externe]** dans le volet de gauche.
-1. Click **[!UICONTROL Add]** at the upper-right corner of the page.
+1. Cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit de la page.
 
    La boîte de dialogue Ajouter un utilisateur s’affiche.
 
@@ -289,7 +283,7 @@ L’administrateur peut copier l’URL d’enregistrement et l’envoyer au grou
 Créez un questionnaire de retour d’informations qui peut être utilisé par les élèves une fois les cours terminés. Trois exemples de questions sont disponibles par défaut. Suivez les étapes ci-dessous pour créer le questionnaire.
 
 1. Cliquez sur Retour d’informations dans le volet de gauche. Une fenêtre de questionnaire de retour d’informations s’affiche.
-1. Click **[!UICONTROL Edit]** to add/modify the questionnaire.
+1. Cliquez sur **[!UICONTROL Modifier]** pour ajouter/modifier le questionnaire.
 
 Vous pouvez ajouter un jeu de questions et choisir de ne pas les afficher si vous n’en avez pas besoin. Cliquez sur la case à cocher pour activer/désactiver une question particulière.
 
@@ -374,11 +368,11 @@ Vous pouvez obtenir l’ID de compte à partir du navigateur dans lequel Learnin
 
 +++
 
-+++Is there a report I can pull, or one that someone can pull for me, that will show me a list of all of the courses in the LMS?
++++Puis-je obtenir un rapport, ou un rapport que quelqu’un peut obtenir pour moi, qui me montrera une liste de tous les cours dans le système de gestion de l’apprentissage ?
 
-Yes, you can pull a **[!UICONTROL Training Report]** which contains all the Courses, Learning Program, Certification in the LMS. To download the report please follow the below steps:
+Oui, vous pouvez extraire un **[!UICONTROL rapport de formation]** qui contient tous les cours, le programme d&#39;apprentissage et la certification dans le LMS. Pour télécharger le rapport, procédez comme suit :
 
-1. Login as an Administrator.
+1. Connectez-vous en tant qu’administrateur.
 2. Cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]** > **[!UICONTROL Rapports Excel]** > **[!UICONTROL Rapport de formations]**.
 3. Sélectionnez **[!UICONTROL Toutes les formations]** dans le menu déroulant.
 4. Cliquez sur **[!UICONTROL Télécharger]**.
