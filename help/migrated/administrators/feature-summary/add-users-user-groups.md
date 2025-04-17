@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4305'
 ht-degree: 58%
 
 ---
@@ -110,7 +110,11 @@ Généralement, la plupart des organisations utilisent un système de gestion de
 >
 >Pour plus d’informations, consultez la FAQ, [Ajouter des utilisateurs par groupe](../add-users-in-bulk.md).
 
-Après avoir sélectionné les utilisateurs, vous pouvez effectuer les opérations suivantes :
+>[!INFO]
+>
+>Dans cette formation, vous apprendrez à ajouter des utilisateurs en bloc via un fichier CSV.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Enregistrer un utilisateur {#registerauser}
 
