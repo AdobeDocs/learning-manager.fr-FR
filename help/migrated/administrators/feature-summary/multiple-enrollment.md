@@ -2,7 +2,7 @@
 title: Inscription multiple dans Adobe Learning Manager
 description: En tant qu’administrateur du compte, l’une de vos principales tâches consiste à créer différentes instances de sessions VILT dans différents fuseaux horaires, voire des sessions destinées à des groupes d’utilisateurs spécifiques.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 65%

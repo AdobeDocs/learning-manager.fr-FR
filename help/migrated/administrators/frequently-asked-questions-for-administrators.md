@@ -4,7 +4,7 @@ title: Forum aux questions pour les administrateurs
 description: Forum aux questions pour les administrateurs Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '2515'
 ht-degree: 52%

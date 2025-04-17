@@ -2,10 +2,10 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 83%
    * [Dépréciations et modifications d’API dans Adobe Learning Manager](api-deprecations-list.md)
    * [Anticrènelage dans Adobe Learning Manager](white-label.md)
    * [Documentation sur les API d’interaction avec le lecteur intégré](/help/migrated/embedded-player-interaction.md)
-* Commencer {#get-started}
+* Prise en main {#get-started}
    * [Prise en main en tant qu’administrateur](administrators/feature-summary/getting-started-admin.md)
    * [Prise en main en tant qu’auteur](authors/feature-summary/getting-started-author.md)
    * [Prise en main en tant qu’élève](learners/feature-summary/getting-started-learner.md)
    * [Prise en main pour les responsables](managers/feature-summary/getting-started-manager.md)
    * [Prise en main de Learning Manager en tant qu’instructeur](instructors/feature-summary/getting-started.md)
-* Administrateur {#admin}
+* L’administrateur  {#admin}
    * [Connexion utilisateur](administrators/feature-summary/user-login.md)
    * [Ajouter des utilisateurs et créer des groupes d’utilisateurs](administrators/feature-summary/add-users-user-groups.md)
    * [Ajouter des emplacements de salle de classe](administrators/feature-summary/classroom.md)
@@ -87,7 +87,7 @@ ht-degree: 83%
    * [Expérience hors connexion pour les élèves](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Programmes d’apprentissage](administrators/feature-summary/learning-programs.md)
    * [Terminologie du produit](administrators/feature-summary/product-terminology.md)
-* Administrateur d&#39;intégration {#integration}
+* Administrateur d’intégration {#integration}
    * [Manuel de migration](integration-admin/feature-summary/migration-manual.md)
    * [Connecteurs Learning Manager](integration-admin/feature-summary/connectors.md)
    * [API non connectées](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -116,10 +116,10 @@ ht-degree: 83%
    * [Comment choisir les modules de cours ?](authors/how-to-choose-modules.md)
    * [Aperçu en tant qu’élève](authors/feature-summary/fluidic-player.md)
    * [Paramètres](authors/feature-summary/settings.md)
-* Instructeur {#instructor}
+* L’instructeur {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
    * [Gestion des élèves pour votre session](instructors/feature-summary/learners.md)
-* Élève {#learner}
+* Un élève {#learner}
    * [Se connecter](learners/feature-summary/user-login.md)
    * [Paramètres de profils](learners/feature-summary/settings.md)
    * [Catalogues](learners/feature-summary/catalogs.md)
@@ -153,7 +153,7 @@ ht-degree: 83%
    * [Relevés de notes des élèves](managers/feature-summary/learner-transcripts.md)
    * [Paramètres](managers/feature-summary/settings.md)
    * [Utilisateurs de tablettes Android et iPad](managers/feature-summary/ipad-android-tablet-users.md)
-* Foire aux questions {#faq}
+* Forum aux questions {#faq}
    * [Questions fréquentes des administrateurs](administrators/frequently-asked-questions-for-administrators.md)
    * [Questions fréquemment posées pour les auteurs](authors/frequently-asked-questions-for-authors.md)
    * [Forum aux questions pour les instructeurs](instructors/frequently-asked-questions-for-instructors.md)
