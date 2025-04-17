@@ -4,7 +4,7 @@ title: Ajouter des utilisateurs par groupe
 description: Découvrez comment ajouter plusieurs utilisateurs à la fois.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -13,9 +13,9 @@ ht-degree: 23%
 
 # Ajouter des utilisateurs par groupe
 
-Dans cette formation, vous apprendrez à ajouter des utilisateurs en bloc via un fichier CSV.
-
-[![bouton](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>Dans cette formation, vous apprendrez à ajouter des utilisateurs en bloc via un fichier CSV.<br><br>[![bouton](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
@@ -56,7 +56,7 @@ Avant d’inclure l’ID de messagerie du responsable pour tout employé, assure
 
 *Modèle CSV à télécharger*
 
-En outre, les administrateurs d’une organisation peuvent s’ajouter en tant qu’employés et mentionner l’ID de messagerie de leur responsable en tant que racine.
+En outre, les administrateurs d&#39;une organisation peuvent s&#39;ajouter **eux-mêmes** en tant qu&#39;employés et mentionner l&#39;ID de messagerie de leur responsable en tant que racine.
 
 **Exemple CSV** 
 
