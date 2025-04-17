@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Ajouter des utilisateurs et créer des groupes d’utilisateurs
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81b3b2ef5f430968b107d3e9d67fea672c6dea98
+source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 58%
@@ -15,22 +15,7 @@ ht-degree: 58%
 
 Découvrez comment ajouter des utilisateurs ou des groupes d&#39;utilisateurs dans l&#39;application Learning Manager.
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## Gestion des groupes d’utilisateurs
-
->[!INFO]
->
->Dans cette formation, vous apprendrez à créer un groupe d’utilisateurs par noms, ID de messagerie et combinaison de plusieurs groupes d’utilisateurs générés automatiquement.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Vue d’ensemble {#overview}
 
@@ -78,14 +63,6 @@ Pour ajouter des utilisateurs,
 1. Pour ajouter le nouvel utilisateur dans Learning Manager, cliquez sur **[!UICONTROL Ajouter]**. Après l’ajout de l’utilisateur, celui-ci reçoit un e-mail de vérification. L’élève active ensuite le compte et commence à utiliser Learning Manager. Ce workflow est utile si vous devez ajouter un nombre limité d’élèves à votre compte Learning Manager. Mais si vous prévoyez d’inscrire tous les employés d’une grande organisation, vous pouvez les ajouter en une seule fois. Pour plus d’informations, voir la section suivante.
 
 ## Ajouter des utilisateurs par groupe {#addusersinbulk}
-
-### Gérer les utilisateurs et les utilisatrices
-
-Dans cette formation, vous apprendrez à attribuer et à supprimer des rôles, à envoyer un e-mail de bienvenue, et à supprimer et purger des utilisateurs.
-
-[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Généralement, la plupart des organisations utilisent un système de gestion des RH (HRMS), qui tient à jour tous les dossiers des employés, comme la désignation, le lieu, la date d’entrée en fonction ou la hiérarchie des employés. Vous pouvez exporter ces données au format CSV. Pour importer un CSV, suivez les étapes ci-dessous :
 
@@ -140,6 +117,14 @@ Après avoir sélectionné les utilisateurs, vous pouvez effectuer les opératio
 Une fois l’utilisateur sélectionné, cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit et cliquez sur **[!UICONTROL Enregistrer]**.
 
 Les utilisateurs sélectionnés reçoivent un email de bienvenue. Si les élèves ont un ID Adobe existant, ils peuvent cliquer sur ce lien. S’ils n’ont pas d’Adobe ID existant, ils peuvent cliquer sur le lien Bienvenue pour créer un Adobe ID et le lier à leur compte Learning Manager.
+
+### Gérer les utilisateurs et les utilisatrices
+
+Dans cette formation, vous apprendrez à attribuer et à supprimer des rôles, à envoyer un e-mail de bienvenue, et à supprimer et purger des utilisateurs.
+
+[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Attribuer un rôle {#assignarole}
 
@@ -344,6 +329,14 @@ Pour accéder aux groupes d’utilisateurs, dans le volet de navigation de gauch
 
 ![](assets/user-groups.png)
 *Créer des groupes d&#39;utilisateurs*
+
+### Gestion des groupes d’utilisateurs
+
+>[!INFO]
+>
+>Dans cette formation, vous apprendrez à créer un groupe d’utilisateurs par noms, ID de messagerie et combinaison de plusieurs groupes d’utilisateurs générés automatiquement.<br><br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Il existe deux types de groupes dans Adobe Learning Manager : Personnalisé et Généré automatiquement. Lorsque vous ajoutez des élèves à votre compte, certains groupes sont automatiquement créés en fonction de leurs propriétés communes.
 
