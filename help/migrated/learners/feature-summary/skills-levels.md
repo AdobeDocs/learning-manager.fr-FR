@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Compétences et niveaux
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
@@ -38,6 +38,10 @@ Sur cette page, vous pouvez cliquer sur chacune de vos compétences pour affiche
 *Afficher chaque compétence*
 
 Seuls les administrateurs peuvent créer et assigner des compétences aux élèves. Les compétences assignées automatiquement correspondent aux programmes d’apprentissage/cours auxquels les élèves sont inscrits.
+
+>[!NOTE]
+>
+>Les élèves peuvent afficher leurs compétences de niveau homologue uniquement dans une application Élève classique.
 
 ## Achever une compétence {#achieveskill}
 

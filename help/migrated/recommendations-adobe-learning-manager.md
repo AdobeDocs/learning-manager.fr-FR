@@ -2,16 +2,16 @@
 title: Recommandations dans Adobe Learning Manager
 description: Le cœur du moteur de recommandations est basé sur le nouvel algorithme de classement des cours de Learning Manager. L'algorithme utilise 50 millions de points de données et cinq années de données d'apprentissage agrégées sur des millions d'utilisateurs pour classer les cours en fonction de leur probabilité d'inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 58%
+source-wordcount: '1483'
+ht-degree: 57%
 
 ---
 
 # Recommandations dans Adobe Learning Manager
 
-Adobe Learning Manager a introduit un nouveau système revisité de recommandations de cours. Cette fonctionnalité de recommandations utilise des algorithmes d’IA et les intérêts des utilisateurs tels que les produits, les rôles et les niveaux pour fournir des recommandations de contenu personnalisées.
+Adobe Learning Manager a introduit un nouveau système revisité de recommandations de cours. Cette fonctionnalité de recommandations utilise des algorithmes d’IA et les intérêts des utilisateurs tels que les produits, les rôles et les niveaux pour fournir des recommandations de contenu personnalisées. Les administrateurs peuvent configurer leur compte en fonction des produits, des rôles et des niveaux.
 
 Le nouveau système de recommandations vous permet de créer des paramètres personnalisés que les élèves peuvent sélectionner pour recevoir des recommandations personnalisées. Ces recommandations s’affichent en tant que cours, parcours d’apprentissage et certifications dans le flux de la page d’accueil des élèves.
 
@@ -114,14 +114,14 @@ Dans le cadre de l’exercice de préparation des données, nous fournissons deu
 
 **RecUser.csv**
 
-* ID utilisateur
+* Identifiant utilisateur
 * Produits
 * Rôles
 * Niveaux (débutant, intermédiaire ou avancé)
 
 Voici un exemple d’enregistrements du fichier CSV :
 
-| ID utilisateur | Produits | Rôles | Niveaux  |
+| Identifiant utilisateur | Produits | Rôles | Niveaux  |
 |--- |--- |--- |--- |
 | 123 | Science des données | Analyste | Analyste : Intermédiaire |
 | 456 | Ingénieur en aérospatiale | Technicien | Technicien : Avancé |
@@ -141,8 +141,8 @@ Voici un exemple d’enregistrements du fichier CSV :
 
 | ID de formation | Type de formation | Nom de la formation | Produits | Rôles | Niveaux  | Balises | Compétences |
 |---|---|---|---|---|---|---|---|
-| 111 | COURS | Python 101 | Science des données | Analyste | Analyste : Intermédiaire | data | Généralités |
-| 222 | COURS | Julia 101 | Science des données | Analyste | Analyste : avancé | data | Généralités |
+| 111 | COURS | Python 101 | Science des données | Analyste | Analyste : Intermédiaire | data | Général |
+| 222 | COURS | Julia 101 | Science des données | Analyste | Analyste : avancé | data | Général |
 
 Remplissez ces fichiers CSV et contactez votre équipe de réussite client pour télécharger les formats et charger ces fichiers CSV.
 

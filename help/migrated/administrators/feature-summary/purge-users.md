@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Purger les utilisateurs
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ Pour purger les utilisateurs, procédez comme suit :
    *Message de confirmation après la purge d&#39;un utilisateur*
 
 1. Une fois que vous confirmez et cliquez sur Purger, la demande de purge est acceptée. Vous recevez une notification une fois l’action terminée. Un ID de demande de purge est également fourni. Vous pouvez fournir cet ID au CSM pour effectuer le suivi de la demande.
+
+>[!NOTE]
+>
+>Une fois l’utilisateur supprimé ajouté à nouveau au système, les rôles précédents (par exemple, Administrateur, Responsable, Auteur, Instructeur, etc.) ne sont pas conservés. Ils sont ajoutés avec le rôle d’élève.
 
 ## Purge en bloc d’utilisateurs
 
