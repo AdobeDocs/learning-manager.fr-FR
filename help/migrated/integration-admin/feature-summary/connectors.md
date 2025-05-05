@@ -1144,7 +1144,7 @@ L’option d’importation d’utilisateur interne vous permet de planifier la g
 
 +++
 
-Attributs +++Map
++++Attributs Map
 
 Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV placés dans le dossier Box aux attributs correspondants de Learning Manager. Cette étape est obligatoire.
 
@@ -1159,7 +1159,7 @@ Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV
 
 +++
 
-Rapport d’activité +++xAPI
++++Rapport d’activité xAPI
 
 L’option de rapport d’activité xAPI vous permet de planifier l’importation d’instructions xAPI provenant de services tiers. Les fichiers sont enregistrés en tant que fichiers .CSV, puis convertis en instructions xAPI lors de l’importation dans Learning Manager.
 

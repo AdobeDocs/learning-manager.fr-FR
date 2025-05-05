@@ -257,7 +257,7 @@ Vous pouvez passer votre connexion de compte à d’autres rôles tels qu’Él�
 Les responsables, les auteurs et les élèves peuvent voir les notifications en fonction des activités de cours. L’administrateur peut activer ou désactiver les notifications pour tous les utilisateurs en suivant les étapes ci-dessous :
 
 1. Cliquez sur Modèles de courrier électronique dans le volet de gauche et sélectionnez Général, Inscriptions des utilisateurs, Terminaisons et Commentaires.
-1. Parmi les événements répertoriés ci-dessous, cliquez sur les boutons bascule Non/Oui en regard de **chaque **événement et choisissez Oui pour activer la notification. Cliquez sur Non pour désactiver l’envoi de notifications pour un événement particulier.
+1. Parmi les événements répertoriés ci-dessous, cliquez sur les boutons bascule Non/Oui en regard de **chaque &#x200B;** événement et choisissez Oui pour activer la notification. Cliquez sur Non pour désactiver l’envoi de notifications pour un événement particulier.
 
 +++
 

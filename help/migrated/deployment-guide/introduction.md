@@ -100,7 +100,7 @@ Vous pouvez choisir l’une des gammes de couleurs pour vous aligner avec l’id
    ![](assets/setting-the-themesforyoursite-step6.png)
 
 1. Les options sélectionnées sont appliquées temporairement à votre site. Si vous souhaitez enregistrer le thème et les paramètres de couleur sélectionnés, cliquez sur **[!UICONTROL Appliquer]**.
-1. Après avoir sélectionné et appliqué un thème, cliquez sur ****[!UICONTROL Enregistrer]**** pour sauvegarder votre choix.
+1. Après avoir sélectionné et appliqué un thème, cliquez sur **&#x200B;**&#x200B;[!UICONTROL Enregistrer]&#x200B;**&#x200B;** pour sauvegarder votre choix.
 
 ## Configurer des modèles de courrier électronique {#configureemailtemplates}
 
@@ -112,9 +112,9 @@ En tant qu’administrateur, votre prochaine étape consistera à configurer des
 
 Vous pouvez activer et configurer n’importe laquelle de ces notifications par e-mail à partir du tableau de bord Administrateur. Pour savoir comment définir des modèles de courrier électronique, procédez comme suit :
 
-1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL ** Modèles de courrier électronique **.]**
-1. Cliquez sur l&#39;un des onglets suivants :**[!UICONTROL ** Général **/** Activité d&#39;apprentissage **/** Rappels et mises à jour **.]** Par exemple, supposons que vous cliquiez sur **[!UICONTROL ** Activité d’apprentissage **.]**
-1. Cliquez sur le bouton bascule pour l’activité pour laquelle vous souhaitez déclencher un courrier électronique. Dans cet exemple, supposons que vous cliquiez sur **[!UICONTROL ** Programme d’apprentissage - Inscrit par l’administrateur/le responsable **.]**
+1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL **&#x200B; Modèles de courrier électronique &#x200B;**.]**
+1. Cliquez sur l&#39;un des onglets suivants :**[!UICONTROL ** Général **/** Activité d&#39;apprentissage **/** Rappels et mises à jour **.]** Par exemple, supposons que vous cliquiez sur **[!UICONTROL **&#x200B; Activité d’apprentissage &#x200B;**.]**
+1. Cliquez sur le bouton bascule pour l’activité pour laquelle vous souhaitez déclencher un courrier électronique. Dans cet exemple, supposons que vous cliquiez sur **[!UICONTROL **&#x200B; Programme d’apprentissage - Inscrit par l’administrateur/le responsable &#x200B;**.]**
 
    ![](assets/configure-email-templates-step3.png)
 
@@ -135,7 +135,7 @@ Vous pouvez activer et configurer n’importe laquelle de ces notifications par 
 
    Le lien de l’URL de compte s’affiche dans tous les courriers électroniques, juste avant la signature. Saisissez vos URL préférées et cliquez sur **[!UICONTROL Enregistrer]**. Cette URL est uniquement visible par les utilisateurs internes.
 
-   Pour la bannière de l’e-mail, vous pouvez modifier la couleur de la bannière en sélectionnant **[!UICONTROL ** Arrière-plan de la bannière **.]** Vous pouvez également utiliser une image personnalisée comme bannière en sélectionnant l&#39;option **[!UICONTROL Image personnalisée]**. Cliquez sur **[!UICONTROL Enregistrer]** après avoir apporté les modifications.
+   Pour la bannière de l’e-mail, vous pouvez modifier la couleur de la bannière en sélectionnant **[!UICONTROL **&#x200B; Arrière-plan de la bannière &#x200B;**.] **&#x200B; Vous pouvez également utiliser une image personnalisée comme bannière en sélectionnant l&#39;option &#x200B;** [!UICONTROL Image personnalisée]&#x200B;**. Cliquez sur &#x200B;** [!UICONTROL Enregistrer]** après avoir apporté les modifications.
 
    ***Remarque : la taille d’image personnalisée de la bannière d’e-mail doit être de 1 240 x 200 px. Les images supérieures à la taille recommandée sont recadrées.***
 
@@ -156,13 +156,13 @@ Cette option est également disponible pour les auteurs, lorsqu’ils configuren
 Pour configurer des modèles de courrier électronique pour un objet d’apprentissage :
 
 1. Cliquez sur le cours, le programme d’apprentissage ou la certification pour lesquels vous souhaitez configurer le modèle de courrier électronique.
-1. Dans le volet de gauche, cliquez sur **[!UICONTROL ** Modèles de courrier électronique **.]** Le système affiche une boîte de dialogue contextuelle ****[!UICONTROL Aperçu du modèle]****.
-1. Modifiez l&#39;objet ou le corps du modèle de courrier électronique, puis cliquez sur **[!UICONTROL **Enregistrer**]**pour appliquer les modifications.
-1. Pour annuler les modifications, cliquez sur **[!UICONTROL ** Revenir à l&#39;original **.]**
+1. Dans le volet de gauche, cliquez sur **[!UICONTROL **&#x200B; Modèles de courrier électronique &#x200B;**.] **&#x200B; Le système affiche une boîte de dialogue contextuelle &#x200B;**&#x200B;**[!UICONTROL Aperçu du modèle]**&#x200B;**.
+1. Modifiez l&#39;objet ou le corps du modèle de courrier électronique, puis cliquez sur **[!UICONTROL **Enregistrer**]**&#x200B;pour appliquer les modifications.
+1. Pour annuler les modifications, cliquez sur **[!UICONTROL **&#x200B; Revenir à l&#39;original &#x200B;**.]**
 
 ### Empêcher les utilisateurs de recevoir des courriers électroniques {#restrictusersfromreceivingemails}
 
-En tant qu’administrateur, vous pouvez déterminer quels utilisateurs doivent recevoir ou non les e-mails de Learning Manager. Pour ce faire, utilisez l&#39;option ****[!UICONTROL Utilisateur restreint]**** sous l&#39;onglet **Paramètres **[!UICONTROL **]**. Des utilisateurs peuvent être ajoutés à cette liste à l’aide de leur nom, leur identifiant de messagerie ou leur identifiant utilisateur unique. Les utilisateurs répertoriés sous cette option n’auront accès à aucune communication électronique issue de Learning Manager.
+En tant qu’administrateur, vous pouvez déterminer quels utilisateurs doivent recevoir ou non les e-mails de Learning Manager. Pour ce faire, utilisez l&#39;option **&#x200B;**[!UICONTROL Utilisateur restreint]**&#x200B;** sous l&#39;onglet **Paramètres **[!UICONTROL **]**. Des utilisateurs peuvent être ajoutés à cette liste à l’aide de leur nom, leur identifiant de messagerie ou leur identifiant utilisateur unique. Les utilisateurs répertoriés sous cette option n’auront accès à aucune communication électronique issue de Learning Manager.
 
 ## Configurer vos paramètres de compte {#configureyouraccountsettings}
 
@@ -170,8 +170,8 @@ Learning Manager permet de configurer certains paramètres de compte, tels que l
 
 ### Configuration des paramètres de base {#configurebasicsettings}
 
-1. Dans la page d’accueil de Learning Manager, cliquez sur ****[!UICONTROL Paramètres]****. Par défaut, le système affiche la page Informations de base, avec les champs de langue et d’emplacement par défaut.
-1. Cliquez sur ****[!UICONTROL Modifier]**** dans le coin supérieur droit de la page pour modifier les informations de base.
+1. Dans la page d’accueil de Learning Manager, cliquez sur **&#x200B;**&#x200B;[!UICONTROL Paramètres]&#x200B;**&#x200B;**. Par défaut, le système affiche la page Informations de base, avec les champs de langue et d’emplacement par défaut.
+1. Cliquez sur **&#x200B;**&#x200B;[!UICONTROL Modifier]&#x200B;**&#x200B;** dans le coin supérieur droit de la page pour modifier les informations de base.
 1. Configurez les options suivantes :
 
    * **Pays** : Sélectionnez le pays dans ce champ déroulant.
@@ -201,7 +201,7 @@ En tant qu’administrateur, vous pouvez configurer les paramètres de retours d
 
    ![](assets/configure-feedbacksettings-step3.png)
 
-1. Pour configurer les autres questions de votre questionnaire de retour, cliquez sur les questions dans les ****[!UICONTROL Cours en auto-apprentissage]**** ou ****[!UICONTROL Cours en classe]****. Lorsque vous cliquez sur une question, le système vous permet de modifier les questions par défaut.
+1. Pour configurer les autres questions de votre questionnaire de retour, cliquez sur les questions dans les **&#x200B;**&#x200B;[!UICONTROL Cours en auto-apprentissage]&#x200B;**&#x200B;** ou **&#x200B;**&#x200B;[!UICONTROL Cours en classe]&#x200B;**&#x200B;**. Lorsque vous cliquez sur une question, le système vous permet de modifier les questions par défaut.
 
 
 
@@ -215,22 +215,22 @@ En tant qu’administrateur, vous pouvez configurer les paramètres de retours d
 1. Configurez les paramètres de rappel en complétant les options suivantes :
 
    * **Quand envoyer** : Indiquez si vous souhaitez envoyer la demande de retour d’informations à la fin du cours ou après la fin du cours.
-   * **Jours après la fin** : Précisez le nombre de jours après lesquels vous souhaitez envoyer la demande de retour. Ce champ est visible uniquement si ****[!UICONTROL Après la fin du cours]**** est sélectionné.
+   * **Jours après la fin** : Précisez le nombre de jours après lesquels vous souhaitez envoyer la demande de retour. Ce champ est visible uniquement si **&#x200B;**&#x200B;[!UICONTROL Après la fin du cours]&#x200B;**&#x200B;** est sélectionné.
 
    * **Période de récurrence** : Indiquez si vous souhaitez envoyer un rappel de retour d’informations tous les jours, toutes les semaines ou tous les mois. Vous pouvez également spécifier le nombre de semaines pendant lesquelles vous souhaitez envoyer le rappel.
 
 1. Cliquez sur la coche pour enregistrer les paramètres de rappel.
-1. Après avoir finalisé tous les paramètres de retour d&#39;informations, cliquez sur **[!UICONTROL **Enregistrer**]**dans le coin supérieur droit de la page.
+1. Après avoir finalisé tous les paramètres de retour d&#39;informations, cliquez sur **[!UICONTROL **Enregistrer**]**&#x200B;dans le coin supérieur droit de la page.
 
 ## Configurer les retours L3 : {#configurel3feedback}
 
-Les retours L3 contiennent les questions qui sont envoyées au responsable d’un élève une fois qu’il a terminé un cours. Le retour d’informations L3 permet à un administrateur de suivre les modifications du comportement ou des compétences d’un élève au fil du temps. Pour configurer ces retours, sur la page Retours d’informations, cliquez sur l’onglet ****[!UICONTROL Retour L3]****. Vous voyez une question par défaut. Le responsable doit répondre à cette question à l’aide d’une échelle de notation à cinq points.
+Les retours L3 contiennent les questions qui sont envoyées au responsable d’un élève une fois qu’il a terminé un cours. Le retour d’informations L3 permet à un administrateur de suivre les modifications du comportement ou des compétences d’un élève au fil du temps. Pour configurer ces retours, sur la page Retours d’informations, cliquez sur l’onglet **&#x200B;**&#x200B;[!UICONTROL Retour L3]&#x200B;**&#x200B;**. Vous voyez une question par défaut. Le responsable doit répondre à cette question à l’aide d’une échelle de notation à cinq points.
 
 ![](assets/configure-l3-feedback.png)
 
 Tout comme les retours L1, vous pouvez configurer les rappels pour les retours L3. Vous pouvez soit modifier le rappel existant, soit ajouter un nouveau rappel de retour d’informations.
 
-Une fois que vous avez terminé la question de retour et les paramètres de rappel, cliquez sur ****[!UICONTROL Enregistrer]**** pour appliquer vos paramètres.
+Une fois que vous avez terminé la question de retour et les paramètres de rappel, cliquez sur **&#x200B;**&#x200B;[!UICONTROL Enregistrer]&#x200B;**&#x200B;** pour appliquer vos paramètres.
 
 ## Configuration des retours d’informations au niveau d’une instance {#configurefeedbackataninstancelevel}
 
@@ -251,15 +251,15 @@ Pour configurer les paramètres de retour d’informations au niveau d’une ins
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Pour configurer le retour d&#39;informations L3 sur le changement de comportement au niveau d&#39;une instance, ****[!UICONTROL Activez]**** le retour d&#39;informations L3. L’application affiche une question prédéfinie et obligatoire et une question vide dans laquelle vous pouvez saisir une question de votre choix.
+1. Pour configurer le retour d&#39;informations L3 sur le changement de comportement au niveau d&#39;une instance, **&#x200B;**&#x200B;[!UICONTROL Activez]&#x200B;**&#x200B;** le retour d&#39;informations L3. L’application affiche une question prédéfinie et obligatoire et une question vide dans laquelle vous pouvez saisir une question de votre choix.
 1. Pour la question prédéfinie sur l’amélioration de l’élève après avoir suivi le cours, la réponse est au format Échelle de Likert. C&#39;est-à-dire que les responsables doivent choisir une option sur une échelle allant de Plutôt d’accord à Plutôt pas d’accord.
 1. Précisez la deuxième question pour le responsable. Les responsables peuvent fournir une réponse descriptive à cette question.
-1. Cochez la case ****[!UICONTROL Rendre obligatoire]**** si vous souhaitez rendre la deuxième question obligatoire.
+1. Cochez la case **&#x200B;**&#x200B;[!UICONTROL Rendre obligatoire]&#x200B;**&#x200B;** si vous souhaitez rendre la deuxième question obligatoire.
 
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
 1. Vous pouvez éventuellement configurer les paramètres de rappel au niveau de l’instance. Si vous ne configurez pas les paramètres de rappel ici, les paramètres de rappel globaux sont automatiquement attribués.
-1. Après avoir terminé les questions de retour d&#39;informations et les paramètres de rappel, cliquez sur **[!UICONTROL **Enregistrer**]**pour appliquer vos paramètres.
+1. Après avoir terminé les questions de retour d&#39;informations et les paramètres de rappel, cliquez sur **[!UICONTROL **Enregistrer**]**&#x200B;pour appliquer vos paramètres.
 
    ***Remarque : les paramètres de retour d&#39;informations ne s&#39;appliquent pas aux certifications.***
 
@@ -267,8 +267,8 @@ Pour configurer les paramètres de retour d’informations au niveau d’une ins
 
 Les paramètres généraux dans Learning Manager permettent aux administrateurs de configurer des paramètres génériques qui affectent d’autres fonctionnalités de l’application. Par exemple, vous pouvez utiliser des paramètres généraux pour spécifier si l’efficacité du cours peut être rendue visible aux élèves. Pour configurer les paramètres généraux :
 
-1. Dans la page d’accueil de Learning Manager, cliquez sur ****[!UICONTROL Paramètres]****.
-1. Dans le volet de gauche, cliquez sur ****[!UICONTROL Général]****.
+1. Dans la page d’accueil de Learning Manager, cliquez sur **&#x200B;**&#x200B;[!UICONTROL Paramètres]&#x200B;**&#x200B;**.
+1. Dans le volet de gauche, cliquez sur **&#x200B;**&#x200B;[!UICONTROL Général]&#x200B;**&#x200B;**.
 1. Dans la page Paramètres généraux, vous pouvez configurer les options suivantes :
 
    Pour toutes ces options, la fonction affectée par chaque option est variable. Si nécessaire, nous pouvons fournir des liens croisés vers chaque fonctionnalité détaillée.
@@ -291,9 +291,9 @@ Les paramètres généraux dans Learning Manager permettent aux administrateurs 
 Le tableau de bord des élèves de Learning Manager permet aux élèves d’afficher les cours obligatoires et recommandés, outre leurs réussites, compétences et annonces. Les administrateurs peuvent décider de l’affichage de ce tableau de bord des élèves en configurant les paramètres du tableau de bord des élèves. Ces paramètres permettent aux administrateurs de définir les widgets sur la page des élèves Ces paramètres spécifient également comment et où les widgets sont placés sur le tableau de bord des élèves. En tant qu’administrateur, vous pouvez prévisualiser la mise en page du tableau de bord des élèves avant d’appliquer les paramètres.
 
 1. Dans la page d’accueil de Learning Manager, cliquez sur **[!UICONTROL Paramètres]**.
-1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL ** Tableau de bord des élèves **.]**
+1. Dans le volet de navigation de gauche, cliquez sur **[!UICONTROL **&#x200B; Tableau de bord des élèves &#x200B;**.]**
 1. Sélectionnez les widgets que vous souhaitez activer. Si vous désélectionnez un widget, celui-ci est immédiatement supprimé de l’aperçu. Les élèves ne peuvent pas voir ce widget dans leur tableau de bord.
-1. Cliquez sur ****[!UICONTROL Enregistrer]**** pour appliquer les paramètres.
+1. Cliquez sur **&#x200B;**&#x200B;[!UICONTROL Enregistrer]&#x200B;**&#x200B;** pour appliquer les paramètres.
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 

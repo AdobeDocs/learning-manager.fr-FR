@@ -40,7 +40,7 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 1. Vous ne pouvez modifier qu’une seule balise à la fois. Pour modifier une balise, procédez comme suit :
 
-   * Sélectionnez la balise à modifier > ouvrez le menu déroulant **[!UICONTROL Actions]**cliquez sur **[!UICONTROL Modifier]**.
+   * Sélectionnez la balise à modifier > ouvrez le menu déroulant **[!UICONTROL Actions]**&#x200B;cliquez sur **[!UICONTROL Modifier]**.
 
    La boîte de dialogue **[!UICONTROL Modifier une balise]** s’affiche. Saisissez le nom de la nouvelle balise et cliquez sur **[!UICONTROL Enregistrer]**.
 

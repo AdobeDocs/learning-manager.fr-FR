@@ -26,26 +26,26 @@ Lisez ce qui suit pour découvrir comment ajouter des utilisateurs internes et e
 
 En tant qu’administrateur, vous pouvez ajouter des utilisateurs externes tels que des employés d’organisations partenaires à votre compte Learning Manager. Pour ajouter des utilisateurs externes :
 
-1. Dans la page de connexion **[!UICONTROL **Administrateur**]**, cliquez sur **[!UICONTROL **Utilisateurs**]**dans le volet de navigation de gauche.
-1. Dans la page **[!UICONTROL **Utilisateurs**]**, cliquez sur **[!UICONTROL **Externe**]**dans le volet de navigation de gauche. Le système affiche la page Utilisateurs externes avec une liste d’utilisateurs externes (le cas échéant).
-1. Cliquez sur **[!UICONTROL **Ajouter**]**dans le coin supérieur droit de la page.
+1. Dans la page de connexion **[!UICONTROL **Administrateur**]**, cliquez sur **[!UICONTROL **Utilisateurs**]**&#x200B;dans le volet de navigation de gauche.
+1. Dans la page **[!UICONTROL **Utilisateurs**]**, cliquez sur **[!UICONTROL **Externe**]**&#x200B;dans le volet de navigation de gauche. Le système affiche la page Utilisateurs externes avec une liste d’utilisateurs externes (le cas échéant).
+1. Cliquez sur **[!UICONTROL **Ajouter**]**&#x200B;dans le coin supérieur droit de la page.
 
    ![](assets/set-up-external-users-step3.png)
 
 1. Dans la boîte de dialogue contextuelle **[!UICONTROL **Ajouter un utilisateur**]**, les champs suivants sont obligatoires :
 
-   * **[!UICONTROL **Nom du profil**:]**Spécifiez le nom du profil externe que vous créez.
-   * **[!UICONTROL ** Adresse e-mail du responsable **:]** Indiquez l&#39;adresse e-mail du responsable pour l&#39;utilisateur externe.
-   * **[!UICONTROL ** Places allouées **:]** Spécifiez le nombre d&#39;élèves pouvant s&#39;inscrire au cours.
-   * **[!UICONTROL ** Expiration **:]** Spécifiez la date d&#39;expiration après laquelle un utilisateur externe ne peut plus s&#39;inscrire au cours ni le suivre.
+   * **[!UICONTROL **Nom du profil**:]**&#x200B;Spécifiez le nom du profil externe que vous créez.
+   * **[!UICONTROL **&#x200B; Adresse e-mail du responsable &#x200B;**:]** Indiquez l&#39;adresse e-mail du responsable pour l&#39;utilisateur externe.
+   * **[!UICONTROL **&#x200B; Places allouées &#x200B;**:]** Spécifiez le nombre d&#39;élèves pouvant s&#39;inscrire au cours.
+   * **[!UICONTROL **&#x200B; Expiration &#x200B;**:]** Spécifiez la date d&#39;expiration après laquelle un utilisateur externe ne peut plus s&#39;inscrire au cours ni le suivre.
 
-1. Cliquez sur **[!UICONTROL ** Paramètres avancés **.]**
+1. Cliquez sur **[!UICONTROL **&#x200B; Paramètres avancés &#x200B;**.]**
 1. Vous pouvez également définir les options suivantes lorsque vous créez un profil externe :
 
-   * **[!UICONTROL ** Ajouter une image **:]** Glissez-déposez l&#39;image souhaitée. Cette image s’affiche sur la page Élève pour les utilisateurs.
-   * **[!UICONTROL ** Exigence de connexion **:]** Spécifiez le nombre de jours pendant lesquels l&#39;utilisateur doit se connecter. Si l’utilisateur externe dépasse cette période de connexion, l’élève ne peut pas accéder à l’objet d’apprentissage ni suivre le cours.
-   * **[!UICONTROL ** Domaines autorisés **:]** Spécifiez les domaines séparés par une virgule. Seuls les utilisateurs avec des domaines spécifiques peuvent s’inscrire au compte.
-   * **[!UICONTROL ** Vérification de l’adresse électronique requise **:]** Activez cette case à cocher si vous souhaitez qu’un courrier électronique de vérification soit envoyé aux utilisateurs
+   * **[!UICONTROL **&#x200B; Ajouter une image &#x200B;**:]** Glissez-déposez l&#39;image souhaitée. Cette image s’affiche sur la page Élève pour les utilisateurs.
+   * **[!UICONTROL **&#x200B; Exigence de connexion &#x200B;**:]** Spécifiez le nombre de jours pendant lesquels l&#39;utilisateur doit se connecter. Si l’utilisateur externe dépasse cette période de connexion, l’élève ne peut pas accéder à l’objet d’apprentissage ni suivre le cours.
+   * **[!UICONTROL **&#x200B; Domaines autorisés &#x200B;**:]** Spécifiez les domaines séparés par une virgule. Seuls les utilisateurs avec des domaines spécifiques peuvent s’inscrire au compte.
+   * **[!UICONTROL **&#x200B; Vérification de l’adresse électronique requise &#x200B;**:]** Activez cette case à cocher si vous souhaitez qu’un courrier électronique de vérification soit envoyé aux utilisateurs
 
 
 
@@ -57,8 +57,8 @@ En tant qu’administrateur, vous pouvez ajouter des utilisateurs externes tels 
 
    Une boîte de dialogue contextuelle indiquant l’URL s’affiche. Vous pouvez copier cette URL et l’envoyer aux utilisateurs externes. Un e-mail contenant cette URL est envoyé à l’utilisateur par défaut.
 
-1. Lorsque vous ajoutez des profils externes, ils s&#39;affichent dans la **[!UICONTROL ** page Utilisateurs externes **(** Administrateur **>** Utilisateurs **>** Externes **).]** La limite de places, la date d&#39;expiration et les exigences de connexion sont également affichées pour ces utilisateurs.
-1. Pour modifier les paramètres d’un utilisateur externe à tout moment, cliquez sur le nom d’utilisateur. La boîte de dialogue **[!UICONTROL Modifier l’inscription externe]** s’affiche. Modifiez les paramètres, puis cliquez sur **[!UICONTROL ** Enregistrer **.]**
+1. Lorsque vous ajoutez des profils externes, ils s&#39;affichent dans la **[!UICONTROL **&#x200B; page Utilisateurs externes &#x200B;**(**&#x200B; Administrateur &#x200B;**>**&#x200B; Utilisateurs &#x200B;**>**&#x200B; Externes &#x200B;**).]** La limite de places, la date d&#39;expiration et les exigences de connexion sont également affichées pour ces utilisateurs.
+1. Pour modifier les paramètres d’un utilisateur externe à tout moment, cliquez sur le nom d’utilisateur. La boîte de dialogue **[!UICONTROL Modifier l’inscription externe]** s’affiche. Modifiez les paramètres, puis cliquez sur **[!UICONTROL **&#x200B; Enregistrer &#x200B;**.]**
 1. Vous pouvez également renvoyer l’e-mail de bienvenue ou copier l’URL à tout moment en cliquant sur les icônes e-mail/copier l’URL à côté du profil externe.
 
    ![](assets/set-up-external-users-step10.png)
@@ -67,11 +67,11 @@ En tant qu’administrateur, vous pouvez ajouter des utilisateurs externes tels 
 
 Après avoir ajouté un groupe d’utilisateurs externes à Learning Manager, vous pouvez également suspendre le processus d’inscription des utilisateurs externes. Lorsque vous mettez en pause, le processus d&#39;enregistrement des utilisateurs externes est bloqué. Toutefois, ce processus fonctionne uniquement lorsque les utilisateurs ne se sont pas encore enregistrés en acceptant l&#39;invitation.
 
-Pour suspendre les groupes d&#39;utilisateurs externes, cliquez sur **[!UICONTROL **Actions**]**dans le coin supérieur droit de la page et choisissez **[!UICONTROL Pause]**.
+Pour suspendre les groupes d&#39;utilisateurs externes, cliquez sur **[!UICONTROL **Actions**]&#x200B;**dans le coin supérieur droit de la page et choisissez &#x200B;** [!UICONTROL Pause]**.
 
 ## Reprise d’un profil utilisateur externe {#resumeexternaluserprofile}
 
-A tout moment, vous pouvez toujours révoquer le blocage (pause) en sélectionnant une option reprendre. Cliquez sur **[!UICONTROL **Actions**]**dans le coin supérieur droit de la page et choisissez **[!UICONTROL Reprendre]**.
+A tout moment, vous pouvez toujours révoquer le blocage (pause) en sélectionnant une option reprendre. Cliquez sur **[!UICONTROL **Actions**]&#x200B;**dans le coin supérieur droit de la page et choisissez &#x200B;** [!UICONTROL Reprendre]**.
 
 **[!UICONTROL États d&#39;utilisateur externe]** 
 
@@ -95,13 +95,13 @@ En tant qu’administrateur, vous pouvez configurer des utilisateurs pour votre 
 
 Cette méthode permet d’ajouter des utilisateurs internes si le nombre d’utilisateurs est important. Lorsque vous utilisez un fichier CSV pour ajouter des utilisateurs pour la première fois, vous devez mapper le contenu des données CSV aux libellés de l’application. Lorsque vous ajoutez de nouveaux utilisateurs ou mettez à jour les données utilisateur ultérieurement, le même mappage est conservé. Pour ajouter des utilisateurs internes en bloc :
 
-1. Sur la page **[!UICONTROL Accueil de l&#39;administrateur]**, cliquez sur **[!UICONTROL **Utilisateurs**]**dans le volet de navigation de gauche.
-1. Cliquez sur **[!UICONTROL ** Ajouter **>** Charger un fichier CSV **.]**
-1. Dans la boîte de dialogue contextuelle, cliquez sur **[!UICONTROL ** Importer **.]**
+1. Sur la page **[!UICONTROL Accueil de l&#39;administrateur]**, cliquez sur **[!UICONTROL **Utilisateurs**]**&#x200B;dans le volet de navigation de gauche.
+1. Cliquez sur **[!UICONTROL **&#x200B; Ajouter &#x200B;**>**&#x200B; Charger un fichier CSV &#x200B;**.]**
+1. Dans la boîte de dialogue contextuelle, cliquez sur **[!UICONTROL **&#x200B; Importer &#x200B;**.]**
 1. Accédez à l’emplacement où vous avez enregistré votre fichier CSV. Cliquez sur **[!UICONTROL Ouvrir]**.
 1. Importez le fichier CSV et mappez son contenu avec les libellés de l’application. Cette étape s’applique uniquement lorsque vous chargez le fichier CSV pour la première fois.
-1. Cliquez sur **[!UICONTROL **Enregistrer**]**pour enregistrer le mappage.
-1. Cliquez sur **[!UICONTROL **Ajouter**]**pour télécharger le fichier CSV déjà mappé aux données de l&#39;application.
+1. Cliquez sur **[!UICONTROL **Enregistrer**]**&#x200B;pour enregistrer le mappage.
+1. Cliquez sur **[!UICONTROL **Ajouter**]**&#x200B;pour télécharger le fichier CSV déjà mappé aux données de l&#39;application.
 
 ### Considérations à prendre en compte lors de la création du fichier CSV pour le chargement : {#considerationswhencreatingthecsvfileforupload}
 
@@ -130,7 +130,7 @@ Automatisation de l’importation en bloc d’utilisateurs.
 Outre l’ajout d’utilisateurs internes en bloc, vous pouvez ajouter des utilisateurs par auto-inscription. L’auto-inscription permet aux employés de s’inscrire eux-mêmes en tant qu’élèves à votre compte Learning Manager. Lorsque vous créez un profil d’auto-inscription, une URL unique est créée. Partagez cette URL avec l’employé pour lui permettre de s’inscrire à Learning Manager.
 
 1. Sur la page **[!UICONTROL d’accueil de l’administrateur]**, cliquez sur **[!UICONTROL Utilisateurs]** dans le volet de navigation de gauche.
-1. Cliquez Sur **[!UICONTROL ** Ajouter **>** Auto-Inscription **.]**
+1. Cliquez Sur **[!UICONTROL **&#x200B; Ajouter &#x200B;**>**&#x200B; Auto-Inscription &#x200B;**.]**
 
    ![](assets/adding-users-throughself-registration-step2.png)
 
@@ -152,7 +152,7 @@ Outre l’ajout d’utilisateurs internes en bloc, vous pouvez ajouter des utili
 L’ajout d’utilisateurs uniques est la troisième méthode permettant d’ajouter des utilisateurs internes à votre compte. Cette procédure est idéale si vous souhaitez ajouter quelques utilisateurs. Pour ajouter un utilisateur unique :
 
 1. Sur la page **[!UICONTROL d’accueil de l’administrateur]**, cliquez sur **[!UICONTROL Utilisateurs]** dans le volet de navigation de gauche.
-1. Cliquez sur **[!UICONTROL ** Ajouter **>** Utilisateur unique **.]**
+1. Cliquez sur **[!UICONTROL **&#x200B; Ajouter &#x200B;**>**&#x200B; Utilisateur unique &#x200B;**.]**
 
 
 
@@ -164,9 +164,9 @@ L’ajout d’utilisateurs uniques est la troisième méthode permettant d’ajo
 
    * **[!UICONTROL Profil]** **[!UICONTROL :]** Indiquez la désignation ou la fonction de l&#39;employé.
 
-   * **[!UICONTROL ** Nom du responsable **:]** Indiquez le nom du responsable. Le responsable doit déjà être ajouté dans la base de données spécifiée ici.
-   * **[!UICONTROL ** DOJ **:]** Indiquez la date de l&#39;intégration de l&#39;employé.
-   * **[!UICONTROL **Emplacement**:]**Indiquez l&#39;emplacement de l&#39;employé. Par exemple, si votre organisation compte plusieurs sites géographiques, spécifiez le site de l’employé.
+   * **[!UICONTROL **&#x200B; Nom du responsable &#x200B;**:]** Indiquez le nom du responsable. Le responsable doit déjà être ajouté dans la base de données spécifiée ici.
+   * **[!UICONTROL **&#x200B; DOJ &#x200B;**:]** Indiquez la date de l&#39;intégration de l&#39;employé.
+   * **[!UICONTROL **Emplacement**:]**&#x200B;Indiquez l&#39;emplacement de l&#39;employé. Par exemple, si votre organisation compte plusieurs sites géographiques, spécifiez le site de l’employé.
 
 
 
@@ -192,14 +192,14 @@ Vous pouvez également créer des groupes personnalisés avec une liste sélecti
 ## Création de groupes d’utilisateurs personnalisés {#createcustomusergroups}
 
 1. Dans la page d’accueil de l’administrateur Learning Manager, cliquez sur **[!UICONTROL Utilisateurs]**.
-1. Dans la page Groupes d&#39;utilisateurs personnalisés, cliquez sur **[!UICONTROL **Ajouter**]**dans le coin supérieur droit de la page.
+1. Dans la page Groupes d&#39;utilisateurs personnalisés, cliquez sur **[!UICONTROL **Ajouter**]**&#x200B;dans le coin supérieur droit de la page.
 
    Le système affiche la boîte de dialogue **[!UICONTROL Ajouter un groupe d’utilisateurs]**.
 
    ![](assets/creating-custom-usergroups.png)
 
 1. Indiquez le nom et la description de votre groupe d’utilisateurs. Le groupe Dev-Users inclut par exemple les utilisateurs de l’équipe de développement du produit.
-1. Ajoutez des utilisateurs au groupe d&#39;utilisateurs personnalisé en saisissant le nom d&#39;utilisateur ou le profil de l&#39;utilisateur dans le champ **[!UICONTROL ** Ajouter des utilisateurs **.]**
-1. Pour ajouter d&#39;autres utilisateurs au groupe personnalisé, cliquez sur **[!UICONTROL ** Ajouter plus d&#39;utilisateurs **.]**
-1. Après avoir ajouté tous les utilisateurs, cliquez sur **[!UICONTROL Enregistrer]**pour enregistrer le groupe d&#39;utilisateurs personnalisé.
+1. Ajoutez des utilisateurs au groupe d&#39;utilisateurs personnalisé en saisissant le nom d&#39;utilisateur ou le profil de l&#39;utilisateur dans le champ **[!UICONTROL **&#x200B; Ajouter des utilisateurs &#x200B;**.]**
+1. Pour ajouter d&#39;autres utilisateurs au groupe personnalisé, cliquez sur **[!UICONTROL **&#x200B; Ajouter plus d&#39;utilisateurs &#x200B;**.]**
+1. Après avoir ajouté tous les utilisateurs, cliquez sur **[!UICONTROL Enregistrer]**&#x200B;pour enregistrer le groupe d&#39;utilisateurs personnalisé.
 

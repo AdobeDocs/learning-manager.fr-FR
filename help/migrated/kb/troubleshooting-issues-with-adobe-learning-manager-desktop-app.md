@@ -105,15 +105,15 @@ Ce document contient des conseils de résolution de problèmes de base pour cert
 1. Pour ouvrir la boîte de dialogue **Aller au dossier**, appuyez sur les touches **Cmd + Maj + G**.
 1. Saisissez « **/var/folders** » (sans guillemets) et appuyez sur Entrée.
 1. Recherchez « **elthor** » dans la barre de recherche et ouvrez le dossier.
-1. Triez les dossiers par ** Date de modification **et ouvrez le dossier le plus récent. Ce dossier contient les derniers journaux d’application.
+1. Triez les dossiers par **&#x200B; Date de modification &#x200B;** et ouvrez le dossier le plus récent. Ce dossier contient les derniers journaux d’application.
 
 ## Comment activer la journalisation avancée ? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Pour ouvrir la boîte de dialogue Exécuter, appuyez sur **la touche Windows + R**.****
-1. Type « **%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0** » (sans guillemets) et appuyez sur Entrée.****
-1. Effectuez une sauvegarde du fichier **preferences.json**, puis ouvrez-le dans un éditeur de texte.****
+1. Pour ouvrir la boîte de dialogue Exécuter, appuyez sur **la touche Windows + R**.**&#x200B;**
+1. Type « **%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0** » (sans guillemets) et appuyez sur Entrée.**&#x200B;**
+1. Effectuez une sauvegarde du fichier **preferences.json**, puis ouvrez-le dans un éditeur de texte.**&#x200B;**
 1. Recherchez la clé **debugMode** et remplacez la propriété value de cette clé par « **true** » (sans guillemets).
 
 ### Mac OS X version  {#MacOSX-2}

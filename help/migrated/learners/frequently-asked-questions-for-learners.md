@@ -160,7 +160,7 @@ Pour plus d&#39;informations, consultez la fonctionnalité [badges](feature-summ
 
 +++ Qu’est-ce qu’un programme d’apprentissage ?
 
-Les programmes d’apprentissage sont des ensembles de cours uniquement destinés à réaliser les objectifs spécifiques des élèves. Seuls les administrateurs peuvent créer des programmes d’apprentissage pour les élèves. Lorsqu&#39;un administrateur affecte une instance de programme d&#39;apprentissage aux élèves, il voit cette **instance de programme **dans l&#39;onglet Programmes. Les élèves peuvent également consulter et s’inscrire eux-mêmes à tout type de programmes d’apprentissage.
+Les programmes d’apprentissage sont des ensembles de cours uniquement destinés à réaliser les objectifs spécifiques des élèves. Seuls les administrateurs peuvent créer des programmes d’apprentissage pour les élèves. Lorsqu&#39;un administrateur affecte une instance de programme d&#39;apprentissage aux élèves, il voit cette **instance de programme &#x200B;** dans l&#39;onglet Programmes. Les élèves peuvent également consulter et s’inscrire eux-mêmes à tout type de programmes d’apprentissage.
 
 Pour commencer à suivre le programme d’apprentissage, cliquez sur le programme qui vous est assigné. Vous pouvez afficher les informations détaillées de ce programme particulier.
 

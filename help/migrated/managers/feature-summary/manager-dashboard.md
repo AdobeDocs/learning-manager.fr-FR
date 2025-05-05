@@ -232,7 +232,7 @@ Pour prévoir le % d’achèvement de l’équipe par rapport à une compétence
 
    *Sélectionnez le lien hypertexte Configurer*
 
-1. Dans la boîte de dialogue de configuration, pour la compétence que vous souhaitez configurer, entrez une valeur de pourcentage dans le champ **Accomplissement cible %** et la date à laquelle vous souhaitez atteindre l&#39;achèvement cible % dans le champ **Date cible**.****
+1. Dans la boîte de dialogue de configuration, pour la compétence que vous souhaitez configurer, entrez une valeur de pourcentage dans le champ **Accomplissement cible %** et la date à laquelle vous souhaitez atteindre l&#39;achèvement cible % dans le champ **Date cible**.**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

@@ -76,7 +76,7 @@ Ce problème se produit si un utilisateur est déjà présent dans le système a
 Dans ce scénario, cette erreur s’explique par deux raisons :
 
 1. L’utilisateur que vous essayez d’ajouter est le gestionnaire d’un profil externe. Pour résoudre ce problème, ouvrez le profil externe dont fait partie l&#39;utilisateur, sélectionnez l&#39;utilisateur, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Attribuer un rôle]** > **[!UICONTROL Responsable]**, puis modifiez le Responsable du profil.
-1. L’utilisateur que vous essayez d’ajouter a été purgé. Dans ce scénario, vous ne pourrez pas ajouter l’utilisateur avec la même adresse e-mail tant que le processus de purge n’est pas terminé. Pour résoudre ce problème** a**joutez une adresse e-mail secondaire à l’utilisateur pour lui donner accès à la plateforme. Une fois le processus de purge terminé, modifiez l’utilisateur et remplacez l’adresse e-mail par l’adresse correcte.
+1. L’utilisateur que vous essayez d’ajouter a été purgé. Dans ce scénario, vous ne pourrez pas ajouter l’utilisateur avec la même adresse e-mail tant que le processus de purge n’est pas terminé. Pour résoudre ce problème **&#x200B; a**&#x200B;joutez une adresse e-mail secondaire à l’utilisateur pour lui donner accès à la plateforme. Une fois le processus de purge terminé, modifiez l’utilisateur et remplacez l’adresse e-mail par l’adresse correcte.
 
 ### Scénario 2
 

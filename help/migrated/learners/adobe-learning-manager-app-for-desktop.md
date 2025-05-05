@@ -197,7 +197,7 @@ Pour modifier ou supprimer un fichier de la galerie, cliquez sur les trois point
 
 Les notifications dans Learning Manager apparaissent dans la fenêtre de notification, que l’élève soit connecté ou non à l’application Web Learning Manager. Les notifications incluent les publications ou les forums que les utilisateurs ont créés, suivent ou auxquels ils ont participé. En cliquant sur la notification, l’utilisateur sera redirigé vers le site Web de l&#39;Apprentissage par les réseaux sociaux Learning Manager.
 
-Pour désactiver les notifications, cliquez sur **[!UICONTROL Menu Profil*]* > **[!UICONTROL Paramètres] > **[!UICONTROL Notifications silencieuses]**.
+Pour désactiver les notifications, cliquez sur **[!UICONTROL Menu Profil*]* > &#x200B;** [!UICONTROL Paramètres] > **[!UICONTROL Notifications silencieuses]**.
 
 ## Paramètres dans l’application de bureau Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 

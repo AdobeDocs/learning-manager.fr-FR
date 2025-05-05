@@ -301,7 +301,7 @@ Le connecteur getAbstract peut être utilisé par les clients professionnels de 
 
    Pour garantir le fonctionnement de tout type de synchronisation, vous devez vous assurer que le flux utilisateur est présent dans le dossier FTP getAbstract pour les dates spécifiées dans la synchronisation.
 
-   Consultez la feuille Excel suivante. Il s’agit d’un exemple de fichier de flux utilisateur getAbstract. Le nom du fichier doit suivre le format ** report_export_yyyy_MM_dd_HHmmss.xlsx** ou **report_export_yyyy_MM_dd.xlsx**.
+   Consultez la feuille Excel suivante. Il s’agit d’un exemple de fichier de flux utilisateur getAbstract. Le nom du fichier doit suivre le format **&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** ou **report_export_yyyy_MM_dd.xlsx**.
    [Exemple de feuille Excel de flux utilisateur getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Connecteur Harvard ManageMentor {#hmmconnector}
@@ -635,7 +635,7 @@ L’option d’importation d’utilisateur interne vous permet de planifier la g
 
 +++
 
-Attributs +++Map
++++Attributs Map
 
 Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV qui seront placés dans le dossier Box aux attributs correspondants de Learning Manager. Cette étape est obligatoire.
 
