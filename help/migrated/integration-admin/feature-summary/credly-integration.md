@@ -45,11 +45,11 @@ Le fichier badge.csv de Adobe Learning Manager vous permet de migrer des badges 
 * externalBadgeId
 * externalBadgeProvider
 
-L’ID de badge externe fait référence à l’ID de modèle de badge dans la plateforme Credly, et le fournisseur de badge externe est Credly. Ajoutez ces valeurs dans badge.csv et suivez les étapes mentionnées dans le [manuel de migration](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) pour migrer le fichier csv.
+L’ID de badge externe fait référence à l’ID de modèle de badge dans la plateforme Credly, et le fournisseur de badge externe est Credly. Ajoutez ces valeurs dans badge.csv et suivez les étapes mentionnées dans le [manuel de migration](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/migration-manual#migrationprocedure) pour migrer le fichier csv.
 
 ## Créer une compétence - Administrateur
 
-Une fois le badge importé dans Adobe Learning Manager, l’administrateur peut le créer en tant que compétence. Pour savoir comment créer une compétence, voir [Créer et modifier des compétences](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
+Une fois le badge importé dans Adobe Learning Manager, l’administrateur peut le créer en tant que compétence. Pour savoir comment créer une compétence, voir [Créer et modifier des compétences](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/skills-levels).
 
 ### Attribuer la compétence/le badge à l’objet d’apprentissage - Auteur
 

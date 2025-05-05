@@ -15,13 +15,13 @@ Ce projet respecte le [Code de conduite d’Adobe Open Source](code-of-conduct.m
 
 ## À propos de vos contributions au contenu Adobe
 
-Voir la section [Guide du contributeur Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Voir la section [Guide du contributeur Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
 La façon dont vous contribuez dépend de qui vous êtes et du type de changements que vous souhaitez apporter :
 
 ### Modifications mineures
 
-Si vous contribuez à des mises à jour mineures par bonté d&#39;âme, visitez l&#39;article et cliquez sur le lien **Modifier** dans l’article qui accède à la source GitHub pour l’article. Ensuite, utilisez simplement l’interface utilisateur GitHub pour effectuer vos mises à jour. Voir les [Guide du contributeur Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) pour plus d’informations.
+Si vous contribuez à des mises à jour mineures par bonté d&#39;âme, visitez l&#39;article et cliquez sur le lien **Modifier** dans l’article qui accède à la source GitHub pour l’article. Ensuite, utilisez simplement l’interface utilisateur GitHub pour effectuer vos mises à jour. Voir les [Guide du contributeur Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr) pour plus d’informations.
 
 Les corrections ou clarifications mineures que vous soumettez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
@@ -43,7 +43,7 @@ Si vous êtes rédacteur technique, gestionnaire de programme ou développeur au
 
 Les contributeurs de la communauté peuvent utiliser l’interface utilisateur GitHub pour effectuer des modifications de base ou créer un référentiel pour apporter des contributions majeures.
 
-Voir la section [Guide du contributeur Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) pour plus de détails.
+Voir la section [Guide du contributeur Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr) pour plus de détails.
 
 ## Comment utiliser markdown pour formater votre rubrique
 
