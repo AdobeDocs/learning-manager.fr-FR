@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Comment soumettre un ticket de support sur Experience League
 description: Découvrez comment soumettre une demande d’assistance sur Experience League
-source-git-commit: 8a7273fae5cccc8d8ff16de2956e2dbcc0045ea7
+exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
+source-git-commit: b69859161476a5ba56baa5b4447aec759c1a7736
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Le processus de soumission des tickets de support Adobe Learning Manager est désormais directement intégré à la plateforme de support Experience League. Il s’agit d’un portail en libre-service qui a été récemment repensé pour offrir plus de personnalisation et de facilité d’utilisation aux clients autorisés. Consultez ce guide ci-dessous pour en savoir plus sur l’accès au portail de support Experience League et l’enregistrement d’un ticket.
 
-Veuillez noter que l’envoi d’un ticket d’assistance est uniquement disponible pour les contacts d’assistance autorisés. Pour toute question concernant l’assistance, veuillez envoyer vos tickets d’assistance à Adobe Learning Manager jusqu’au 11 mai 2025. Après cette date, vous pouvez envoyer vos tickets d’assistance via le portail d’assistance aux Experience League, comme décrit ci-dessous.
+Veuillez noter que l’envoi d’un ticket d’assistance est uniquement disponible pour les contacts d’assistance autorisés. Pour toute question concernant l’assistance, veuillez envoyer vos tickets d’assistance à Adobe Learning Manager par e-mail jusqu’au 11 mai 2025. Après cette date, vous pouvez envoyer vos tickets d’assistance via le portail d’assistance Experience League, comme décrit ci-dessous, en plus du canal e-mail.
 
 1. Pour accéder au portail d&#39;assistance, rendez-vous sur le site Web **[!UICONTROL Experience League]** et sélectionnez l&#39;onglet **[!UICONTROL Assistance]** situé en haut de la page. Vous pouvez également accéder au [lien direct](https://experienceleague.adobe.com/home#support).
 
@@ -57,3 +58,4 @@ Pour que notre équipe de direction du support réponde à vos escalades de la m
 
 Si vous avez d&#39;autres questions sur l&#39;utilisation du portail **[!UICONTROL Assistance aux Experience League]**, veuillez nous le faire savoir dans la section des commentaires ci-dessous ou contactez directement notre équipe d&#39;assistance à l&#39;adresse électronique suivante : [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
 
+Pour ajouter un contact autorisé qui peut ouvrir des tickets d&#39;assistance via un Experience League (EXL), consultez la page [http://licensing.adobe.com](http://licensing.adobe.com).
