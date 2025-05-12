@@ -2,7 +2,7 @@
 description: Découvrez les nouvelles fonctionnalités et améliorations de la version de mai 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Consultez cet [article](/help/migrated/administrators/feature-summary/content-ma
 ## Rapport d’accès à la connexion via FTP, FTP personnalisé et Box {#log-in-access-report}
 
 Les rapports d’accès de connexion sont désormais disponibles pour les connecteurs Box, FTP et FTP personnalisé, en plus des API de tâche existantes. Ce rapport fournit des informations détaillées sur les activités de connexion utilisateur, notamment le statut d&#39;exécution, les paramètres de compression et les options de planification. Le rapport peut être généré à la demande ou de manière planifiée, et les données sont stockées dans le connecteur spécifié pour un accès et une analyse faciles. Cette amélioration améliore la capacité à surveiller et à auditer les activités de connexion des utilisateurs, assurant ainsi un meilleur suivi de la sécurité et de la conformité.
+
 Le rapport est désormais disponible dans les champs FTP, FTP et Box personnalisés, ainsi que les rapports existants, tels que la progression de l’élève et l’achèvement du cours. Cette intégration permet aux administrateurs d’accéder à tous les rapports nécessaires à partir d’une source unique, ce qui facilite la gestion et l’analyse des données.
 
 Le rapport facilite l’automatisation en permettant l’exportation des données de connexion et d’accès vers le FTP, où elles peuvent être jointes à d’autres rapports pour créer des tableaux de bord complets. Cette fonctionnalité est particulièrement utile pour les organisations qui s’appuient sur des processus automatisés pour l’analyse des données et la création de rapports.
@@ -108,7 +109,7 @@ Reportez-vous à cet [article](/help/migrated/administrators/feature-summary/pur
 
 Adobe Learning Manager prend désormais également en charge la sélection de salles de séminaire dans Adobe Connect lors de la configuration d’une session VC dans Connect. Auparavant, l’administrateur pouvait uniquement sélectionner le type de salle de réunion. Cette amélioration permet aux administrateurs disposant d’une licence de séminaire valide de planifier et de gérer des événements uniques ou de grande envergure (jusqu’à 1 500 participants) dans Adobe Learning Manager.
 
-Consultez cet [article](https://helpx.adobe.com/fr/adobe-connect/using/creating-seminars.html) pour en savoir plus sur la salle de séminaire.
+Consultez cet [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) pour en savoir plus sur la salle de séminaire.
 
 ### Prise en charge de l’accès à l’analyse des sessions
 
