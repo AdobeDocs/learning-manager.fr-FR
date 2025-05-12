@@ -613,7 +613,7 @@ Procédez comme suit pour ajouter des commentaires d’achèvement :
 2. Accédez à la page **[!UICONTROL Cours]** et sélectionnez un cours.
 3. Sélectionnez **[!UICONTROL Élèves]** sur la page du cours.
 4. Sélectionnez un ou plusieurs élèves.
-5. Sélectionnez **[!UICONTROL Actions]**, puis sélectionnez**[!UICONTROL  Marquer comme terminé]**.
+5. Sélectionnez **[!UICONTROL Actions]**, puis sélectionnez&#x200B;**[!UICONTROL &#x200B; Marquer comme terminé]**.
 6. Saisissez votre commentaire d’achèvement dans la boîte de dialogue.
 
    ![](assets/comments.png)

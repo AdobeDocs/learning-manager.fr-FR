@@ -36,7 +36,7 @@ Un administrateur peut activer et créer les tableaux de bord en leur donnant un
 L’administrateur doit activer le tableau de bord de réussite de groupe pour le compte. Pour activer le tableau de bord de réussite de groupe, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur.
-2. Sélectionnez **[!UICONTROL Paramètres]**puis **[!UICONTROL Rapports]**.
+2. Sélectionnez **[!UICONTROL Paramètres]**&#x200B;puis **[!UICONTROL Rapports]**.
 3. Sélectionnez le bouton bascule **[!UICONTROL Visibilité du tableau de bord]**.
 4. Tapez le nom du tableau de bord (par exemple, **[!UICONTROL Tableau de bord du gestionnaire de magasins]**).
    ![](assets/enable-gsd.png)
