@@ -70,7 +70,7 @@ Cliquez sur le cours de classe virtuelle, cliquez sur Présence dans le volet ga
 
 Adobe Learning Manager prend en charge la sélection de salles de séminaire dans Adobe Connect lors de la configuration d’une session de classe virtuelle dans Connect. Auparavant, l’administrateur pouvait uniquement sélectionner le type de salle de réunion. Cette fonctionnalité permet aux administrateurs disposant d’une licence de séminaire valide de planifier et de gérer des événements uniques ou à grande échelle (jusqu’à 1 500 participants) dans ALM.
 
-Reportez-vous à cet [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) pour plus d&#39;informations sur la salle de séminaire.
+Reportez-vous à cet [article](https://helpx.adobe.com/fr/adobe-connect/using/creating-seminars.html) pour plus d&#39;informations sur la salle de séminaire.
 
 ### Prise en charge de l’accès à l’analyse des sessions
 
