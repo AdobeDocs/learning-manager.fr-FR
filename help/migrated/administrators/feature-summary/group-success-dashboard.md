@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Tableau de bord de réussite du groupe
 description: En savoir plus sur le tableau de bord de réussite de groupe dans Adobe Learning Manager
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Un administrateur peut activer et créer les tableaux de bord en leur donnant un
 L’administrateur doit activer le tableau de bord de réussite de groupe pour le compte. Pour activer le tableau de bord de réussite de groupe, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur.
-2. Sélectionnez **[!UICONTROL Paramètres]**&#x200B;puis **[!UICONTROL Rapports]**.
+2. Sélectionnez **[!UICONTROL Paramètres]**puis **[!UICONTROL Rapports]**.
 3. Sélectionnez le bouton bascule **[!UICONTROL Visibilité du tableau de bord]**.
 4. Tapez le nom du tableau de bord (par exemple, **[!UICONTROL Tableau de bord du gestionnaire de magasins]**).
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ Lorsque vous sélectionnez plusieurs groupes d’utilisateurs, Adobe Learning Ma
 
 * **Groupes d&#39;utilisateurs avec le même champ Actif** : si les groupes d&#39;utilisateurs utilisent le même champ (par exemple, Emplacement), le système inclut tous les élèves des deux groupes. Il combine les valeurs. Par exemple : **Location = Bangalore** et **Location = Chennai**. Il comprend des élèves des deux emplacements.
 * **Groupes d&#39;utilisateurs avec différents champs actifs** : si les groupes d&#39;utilisateurs utilisent différents champs (par exemple, Emplacement et Rôle), le système inclut uniquement les élèves qui remplissent toutes les conditions. Par exemple : **Location = Bangalore ou Chennai** et **Role = Manager**. Il ne comprend que les élèves qui ont le rôle de responsable et qui sont situés à Bangalore ou à Chennai.
+
+**Résumé :**
 
 * Même champ actif : les élèves sont combinés (logique OR)
 * Différents champs actifs : les élèves doivent correspondre à tous les critères (logique ET)
