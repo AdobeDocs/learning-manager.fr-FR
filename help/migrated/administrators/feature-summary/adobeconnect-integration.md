@@ -4,10 +4,10 @@ title: Intégration d'Adobe Connect
 description: Les auteurs peuvent créer des cours d'une classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l'administrateur de votre entreprise.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 70%
+source-wordcount: '595'
+ht-degree: 49%
 
 ---
 
@@ -65,3 +65,29 @@ Vous devez acheter Adobe Connect séparément d’Adobe Learning Manager.
 Si l’hôte du cours de classe virtuelle n’assiste pas à la session, la participation n’est pas enregistrée automatiquement pour les élèves qui ont participé à la session. Dans de tels scénarios, l’administrateur peut enregistrer manuellement la présence.
 
 Cliquez sur le cours de classe virtuelle, cliquez sur Présence dans le volet gauche de la page suivante et enregistrez la présence.
+
+## Prise en charge des séminaires Adobe Connect destinés à un large public
+
+Adobe Learning Manager prend en charge la sélection de salles de séminaire dans Adobe Connect lors de la configuration d’une session de classe virtuelle dans Connect. Auparavant, l’administrateur pouvait uniquement sélectionner le type de salle de réunion. Cette fonctionnalité permet aux administrateurs disposant d’une licence de séminaire valide de planifier et de gérer des événements uniques ou à grande échelle (jusqu’à 1 500 participants) dans ALM.
+
+Reportez-vous à cet [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) pour plus d&#39;informations sur la salle de séminaire.
+
+### Prise en charge de l’accès à l’analyse des sessions
+
+Les instructeurs peuvent accéder à Session Analytics pour leurs sessions Adobe Connect terminées via un nouveau lien fourni dans leur tableau de bord de session.
+
+![](assets/adobe-connect-session-url.png)
+_Sélectionner l&#39;URL de la session_
+
+Ce lien ouvre le tableau de bord d’analyse de session dans Connect, qui fournit des informations détaillées sur l’engagement de la session.
+Cette fonction est disponible uniquement pour les sessions exécutées via Adobe Connect. Les analyses de session incluent :
+
+* **[!UICONTROL Engagement]** : présentation des performances globales de la session en direct
+* **[!UICONTROL Interactions]** : répartition détaillée de l’activité des participants dans les différents modules
+* **[!UICONTROL Activité des participants]** : résumé de l’engagement des participants
+* **[!UICONTROL Télécharger les rapports]** : option permettant de télécharger des rapports pour les données d’engagement spécifiques au conteneur
+
+![](assets/session-dashboard.png)
+_Tableau de bord de session_
+
+Reportez-vous à cet [article](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) pour plus d&#39;informations sur l&#39;analyse de session.

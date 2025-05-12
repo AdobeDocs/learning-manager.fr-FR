@@ -3,13 +3,13 @@ description: Découvrez comment configurer la langue de l’interface avec SAML
 jcr-language: en_us
 title: Configuration de la langue de l’interface via SAML
 contentowner: chandrum
-source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
-
 
 # Configuration de la langue de l’interface via SAML
 
@@ -96,4 +96,18 @@ Si un utilisateur est supprimé de manière logicielle d’ALM, les paramètres 
 
 Les administrateurs peuvent vérifier les rapports Activité des utilisateurs, Résumé de l’apprentissage et Tableau de bord de conformité pour obtenir des détails spécifiques à la langue.
 
+## Mise à jour des préférences de langue de l’utilisateur lors de la connexion via SAML
 
+Adobe Learning Manager est une plate-forme multilingue qui prend en charge les préférences linguistiques des élèves de plusieurs manières, par le biais de l’interface, du contenu et des modules de cours, tous disponibles dans plusieurs langues.
+
+Grâce à cette amélioration, Adobe Learning Manager améliore le provisionnement des utilisateurs Just-In-Time pour les utilisateurs de la plate-forme native. Lorsque de nouveaux utilisateurs créent des comptes et se connectent pour la première fois, leurs préférences linguistiques sont capturées avec précision et appliquées automatiquement.
+
+### Principaux avantages
+
+* Met automatiquement à jour les préférences linguistiques des utilisateurs lors de la connexion.
+* Offre une expérience personnalisée en affichant l’interface et le contenu dans la langue préférée de l’utilisateur.
+* S’intègre parfaitement au processus d’authentification SAML.
+
+Lorsque les utilisateurs se connectent via SAML, leur préférence de langue (langue de l’interface et du contenu) est vérifiée et mise à jour en fonction des informations fournies pendant le processus de connexion.
+
+La fonctionnalité s’intègre au processus de connexion SAML pour capturer et mettre à jour la préférence de langue de l’utilisateur en toute transparence.

@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '3572'
-ht-degree: 49%
+source-wordcount: '4319'
+ht-degree: 39%
 
 ---
 
@@ -190,19 +190,19 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
 
 1. Pour ajouter du contenu, sélectionnez **[!UICONTROL Ajouter un fichier de contenu]**, puis chargez votre fichier de ressources. Lorsque vous ajoutez du contenu dans diverses langues, vous ne pouvez pas combiner le contenu statique et le contenu interactif dans un même groupe. L’ensemble de votre contenu dans toutes les langues doit être soit statique, soit interactif.
 
-* [Types de fichiers pris en charge](content-library.md#supported)
+* [Types de fichier pris en charge](content-library.md#supported)
 
   Le contenu interactif peut être une option SCORM, AICC ou un projet publié Captivate. Ce fichier doit être un fichier zip.
 
   Vous pouvez également ajouter du contenu HTML généré à partir de Captivate, Presenter ou Presenter Video Express.
 
-1. Learning Manager prend en charge les légendes du contenu vidéo chargé dans Learning Manager. Désormais, les auteurs peuvent charger le fichier contenant les légendes, ainsi que le fichier vidéo.
+1. Adobe Learning Manager prend en charge les légendes pour le contenu vidéo chargé dans Adobe Learning Manager. Désormais, les auteurs peuvent charger le fichier contenant les légendes, ainsi que le fichier vidéo.
 
    Les élèves peuvent ensuite afficher les légendes pendant la lecture du module vidéo.
 
    Le format pris en charge est [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   La prise en charge des légendes est disponible pour le contenu vidéo chargé dans la bibliothèque de contenu dans Learning Manager.
+   La prise en charge des légendes est disponible pour le contenu vidéo chargé dans la bibliothèque de contenu de Adobe Learning Manager.
 
    En tant qu’auteur, lorsque vous chargez un contenu vidéo ou audio, vous pouvez également charger le fichier VTT qui contient les sous-titres.
 
@@ -222,7 +222,7 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
    >
    >   Un fichier VTT prend en charge une langue. Pour prendre en charge plusieurs langues, chargez plusieurs fichiers vidéo pour chaque langue de contenu, puis chargez son fichier VTT respectif pour chaque fichier vidéo.
 
-   En tant qu’auteur, chaque fois que vous modifiez le contenu, la vidéo ou l’audio, Learning Manager vous invite à créer un fichier vtt.
+   En tant qu’auteur, chaque fois que vous modifiez le contenu, la vidéo ou l’audio, Adobe Learning Manager vous invite à créer un fichier vtt.
 
    Après avoir ajouté ce contenu à un cours et lorsque vous affichez un aperçu du cours en tant qu’élève, vous pouvez voir les légendes sur la vidéo.
 
@@ -236,7 +236,7 @@ La prise en charge de WebVTT n’est pas disponible pour :
    1. Annonces vidéo.
    1. Vidéo lue dans le contenu de formation en ligne. Cela dépend du contenu.
    1. Vidéo téléchargée dans l&#39;apprentissage par les réseaux sociaux.
-   1. Vidéo créée dans l’application de bureau Learning Manager.
+   1. Vidéo créée dans l’application de bureau Adobe Learning Manager.
    1. Contenu vidéo créé à l’aide du processus de migration.
    1. Lecture vidéo dans l’application mobile en mode hors ligne.
 
@@ -422,9 +422,9 @@ Le contenu peut être dissocié d&#39;un dossier spécifié **UNIQUEMENT** s&#39
 
 Après avoir ajouté du contenu, vous pouvez modifier les critères d’achèvement du contenu.
 
-Dans Learning Manager, les badges et les compétences sont attribués en fonction de la réussite et de l’achèvement. Si l’élève a terminé un cours mais qu’il ne l’a pas réussi, il ne reçoit pas le badge et la compétence correspondant à l’Objet d’apprentissage.
+Dans Adobe Learning Manager, les badges et les compétences sont attribués en fonction du succès et de l’achèvement. Si l’élève a terminé un cours mais qu’il ne l’a pas réussi, il ne reçoit pas le badge et la compétence correspondant à l’Objet d’apprentissage.
 
-Par exemple, si vous avez utilisé Adobe Captivate pour créer votre cours et définir les paramètres d’apprentissage dans la boîte de dialogue Préférences, les mêmes paramètres sont migrés vers Learning Manager dans les options Critères de réussite.
+Par exemple, si vous avez utilisé Adobe Captivate pour créer votre cours et définir les paramètres d’apprentissage dans la boîte de dialogue Préférences, les mêmes paramètres sont migrés vers Adobe Learning Manager dans les options Critères d’achèvement.
 
 Dans la section Critères d’achèvement, vous pouvez définir les options mentionnées ci-dessous :
 
@@ -469,6 +469,110 @@ Organisez le contenu selon qu’il est utilisé ou non dans un cours. Dans la li
 
 *Trier le contenu par utilisation*
 
+## Ajouter un ID de contenu unique et une date d’expiration
+
+### Qu’est-ce qu’un ID de contenu unique ?
+
+L’ID unique de contenu est un code unique donné à chaque élément de contenu dans Adobe Learning Manager. Il aide les administrateurs et les auteurs à trouver et à gérer facilement le contenu, en particulier lors de la mise à jour ou du déplacement entre les systèmes. Cet ID unique de contenu est également utile pour intégrer du contenu à d’autres outils tels que les RH ou les systèmes de conformité. Le même ID unique de contenu est utilisé dans toutes les versions linguistiques, afin que tout reste cohérent pour les élèves.
+
+* Les ID de contenu unique doivent être uniques dans tout le contenu.
+* L’ID de contenu unique ne peut pas inclure d’espaces ni de caractères spéciaux.
+* Si un ID unique de contenu dupliqué est saisi, une erreur s’affiche lors de la création.
+
+### Qu’est-ce que la date d’expiration ?
+
+La Date d’expiration marque le contenu qui peut être obsolète ou qui n’est plus nécessaire. Même après la date d’expiration, le contenu reste disponible, mais il rappelle aux auteurs et aux administrateurs de le vérifier et de le mettre à jour si nécessaire. En fonction des paramètres, le contenu expiré peut être supprimé des nouvelles inscriptions ou archivé. Comme l’ID unique de contenu, la Date d’expiration fonctionne de la même manière pour toutes les versions linguistiques, ce qui permet au contenu d’être propre et à jour pour tout le monde.
+
+* Le contenu reste disponible même après l’expiration.
+* Un avertissement s’affiche si une date passée est sélectionnée.
+* Le champ Expiration accepte toute date comprise entre 1990 et 2037.
+
+Cela aide les organisations à conserver la pertinence du contenu sans supprimer accidentellement les éléments publiés.
+
+L’ID unique du contenu et la date d’expiration s’appliquent à toutes les versions linguistiques d’un groupe de contenus, ce qui garantit une expérience cohérente pour tous les utilisateurs, quelle que soit la langue. Les auteurs peuvent utiliser l’ID unique de contenu pour rechercher et trouver rapidement du contenu spécifique, ce qui facilite la gestion et la mise à jour des supports de formation.
+
+Le **[!UICONTROL rapport de formation]** inclut désormais deux nouvelles colonnes : **[!UICONTROL Date d&#39;expiration du contenu (fuseau horaire UTC)]** et **[!UICONTROL ID de contenu unique]**, pour suivre l&#39;ID de contenu unique et la date d&#39;expiration. Ces champs peuvent être ajoutés via l’interface utilisateur ou la migration, et l’administrateur peut les suivre de manière centralisée via des rapports de formation.
+
+### Ajouter un ID de contenu unique et une date d’expiration
+
+Les auteurs peuvent ajouter un ID de contenu unique et définir une date d’expiration lors de la création de contenu.
+
+Pour ajouter un ID de contenu unique et une date d’expiration :
+
+1. Connectez-vous en tant qu’auteur.
+2. Sélectionnez **[!UICONTROL Créer du contenu]** ou sélectionnez **[!UICONTROL Bibliothèque de contenu]** dans le panneau de gauche.
+
+   ![](assets/create-content.png)
+   _Sélectionnez Créer du contenu dans la page d&#39;accueil_
+
+3. Sélectionnez **[!UICONTROL Ajouter]**, puis **[!UICONTROL Contenu]** dans la page d&#39;accueil de l&#39;auteur.
+
+   ![](assets/add-content.PNG)
+   _Sélectionnez Ajouter du contenu dans la bibliothèque de contenu_
+
+4. Saisissez le **[!UICONTROL nom]** et la **[!UICONTROL description]**
+
+5. Sélectionnez le contenu dans l&#39;option **[!UICONTROL Ajouter un fichier de contenu]**
+6. Sélectionnez l&#39;option **[!UICONTROL Ajouter au dossier]** pour ajouter le contenu au dossier.
+
+   ![](assets/add-a-new-content.png)
+   _Ajouter du nouveau contenu_
+
+7. Saisissez l&#39;ID du contenu chargé dans le champ **[!UICONTROL ID de contenu unique]**. L’ID doit être unique et respecter les directives de dénomination correctes. L’ID ne doit pas contenir de caractères ou d’espaces non ASCII. Si vous saisissez un ID en double, un message d’erreur s’affiche.
+
+   ![](assets/content-unique-id.png)
+   _Champ permettant de saisir un ID de contenu alphanumérique unique_
+
+8. Sélectionnez la date d’expiration du contenu. Cette date n’affecte pas la disponibilité du contenu ni l’accès des élèves. Vous pouvez choisir n’importe quelle date entre 1990 et 2037. Si une date passée est sélectionnée, un avertissement s’affiche, mais le contenu peut toujours être publié.
+9. Sélectionnez **[!UICONTROL Enregistrer]**.
+Le contenu chargé apparaît désormais dans la **[!UICONTROL bibliothèque de contenu]**.
+
+### Définir l’ID unique du contenu et la date d’expiration pour les langues
+
+L’ID unique du contenu et la date d’expiration sont définis au niveau du groupe de contenus, ce qui signifie qu’ils sont définis une fois et s’appliquent automatiquement à toutes les versions linguistiques du contenu.
+
+1. Sélectionnez le contenu dans la **[!UICONTROL Bibliothèque de contenu]**.
+2. Sélectionnez **[!UICONTROL Modifier]**.
+3. Sélectionnez **[!UICONTROL Ajouter une nouvelle langue]**.
+4. Sélectionnez une langue dans la liste.
+5. Sélectionnez **[!UICONTROL Enregistrer]**.
+L’ID unique du contenu et la Date d’expiration s’affichent désormais sur la version spécifique à la langue du contenu, comme l’allemand dans cet exemple.
+
+### Recherche à l’aide de l’ID de contenu unique
+
+Vous pouvez utiliser l’ID unique de contenu pour rechercher du contenu dans toutes les versions linguistiques, ce qui facilite la recherche et la gestion d’éléments spécifiques. En outre, l’ID unique du contenu et la date d’expiration sont inclus dans les rapports de formation pour un suivi et des rapports cohérents.
+
+1. Lancez la **[!UICONTROL bibliothèque de contenu]**.
+2. Saisissez l&#39;**[!UICONTROL ID de contenu unique]** dans la barre de recherche.
+
+   ![](assets/search-unique-id.png)
+   _Recherche de contenu à l&#39;aide de l&#39;ID de contenu unique_
+3. Sélectionnez le contenu à afficher ou à modifier.
+
+### Prise en charge de la migration du contenu
+
+Lors de la migration de contenu, vous pouvez inclure **expiryDate** et **uniqueContentId** dans le fichier module_version.csv. Cela garantit la continuité des métadonnées lors du déplacement de contenu entre les systèmes.
+
+### Modifications des rapports
+
+Deux nouvelles colonnes, ID unique du contenu et Date d’expiration du contenu, sont désormais disponibles dans le rapport de formation. Ces champs aident les administrateurs à surveiller plus efficacement les dates d’expiration du contenu.
+
+## Retirer du contenu {#retirecontent}
+
+Une fois que vous publiez un contenu, vous ne pouvez pas le supprimer. Vous devez d’abord retirer le contenu. Lorsque vous marquez un contenu comme Retiré, le contenu n’est plus visible pour les élèves. Le contenu est également déplacé vers la section **[!UICONTROL Retiré]**.
+
+Pour retirer du contenu, procédez comme suit :
+
+* Dans la **[!UICONTROL Bibliothèque de contenu]**, sélectionnez le contenu que vous souhaitez retirer.
+* Sélectionnez **[!UICONTROL Action]**, puis **[!UICONTROL Retirer]**.
+
+Tout contenu utilisé dans des objets d’apprentissage n’est pas affecté. Les élèves peuvent continuer d’accéder au contenu.
+
+>[!NOTE]
+>
+>Vous pouvez également ajouter du contenu à partir de la section **[!UICONTROL Retiré]**, accéder à la **[!UICONTROL Bibliothèque de contenu]**, puis sélectionner **[!UICONTROL Retiré]**. Sélectionnez **[!UICONTROL Ajouter du contenu]**. Pour plus de détails, voir [Ajouter du contenu statique](content-library.md#addstaticcontent).
+
+
 ## Rechercher des contenus {#searchforcontent}
 
 Dans la bibliothèque de contenus, vous pouvez rechercher un contenu en sélectionnant soit le nom du contenu, soit les balises associées au contenu.
@@ -476,22 +580,6 @@ Dans la bibliothèque de contenus, vous pouvez rechercher un contenu en sélecti
 Dans la barre de recherche, saisissez le nom d’un cours ou d’une balise, et vous pouvez voir les recommandations.
 
 <!--![](assets/search-bar.png)-->
-
-## Retirer du contenu {#retirecontent}
-
-Une fois que vous publiez un contenu, vous ne pouvez pas le supprimer. Vous devez d’abord retirer le contenu. Lorsque vous marquez un contenu comme Retiré, le contenu n’est plus visible pour les élèves. Le contenu passe également à la section Retiré. Vous pouvez également déplacer le contenu dans l’état publié ultérieurement.
-
-Pour retirer du contenu, procédez comme suit :
-
-* Dans Bibliothèque de contenus, sélectionnez le contenu que vous souhaitez retirer.
-* Sélectionnez Action > Retirer.
-
-Tout contenu utilisé dans des objets d’apprentissage n’est pas affecté. Les élèves peuvent continuer d’accéder au contenu.
-
->[!NOTE]
->
->Vous pouvez également ajouter du contenu à partir de la section **[!UICONTROL Retiré]**, accéder à **[!UICONTROL Bibliothèque de contenu]** > **[!UICONTROL Retiré]** et sélectionner **[!UICONTROL Ajouter du contenu]**. Pour plus de détails, voir [Ajouter du contenu statique](content-library.md#addstaticcontent).
-
 
 ## Republier le contenu retiré {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ Sachez que les cours existants qui utilisent le contenu, qui sont supprimés de 
 
 +++ Comment télécharger un contenu SCORM dans Adobe Learning Manager ?
 
-Créez un cours d’e-learning compatible SCORM dans n’importe quel outil, tel qu’Adobe Captivate, et publiez le contenu sous forme de fichier zip. Ensuite, dans Learning Manager, téléchargez le fichier zip dans le catalogue et définissez les critères d’achèvement et de réussite.
+Créez un cours d’e-learning compatible SCORM dans n’importe quel outil, tel qu’Adobe Captivate, et publiez le contenu sous forme de fichier zip. Ensuite, dans Adobe Learning Manager, téléchargez le fichier zip dans le catalogue et définissez les critères d’achèvement et de réussite.
 +++
 
-+++Comment puis-je télécharger une nouvelle version du même contenu sur Learning Manager ?
++++Comment puis-je télécharger une nouvelle version du même contenu sur Adobe Learning Manager ?
 
-Dans Learning Manager, la bibliothèque de contenu conserve également les versions de vos contenus téléchargés. Si vous modifiez le contenu d’une présentation PowerPoint, par exemple, et que vous la téléchargez à nouveau dans la bibliothèque, le numéro de version est incrémenté d’une unité. Cela vous aide à suivre l’évolution de votre contenu. Une nouvelle version du contenu peut être appliquée à tous les objets d’apprentissage simultanément ou vous pouvez appliquer des mises à jour individuelles pour chaque cours.
+Dans Adobe Learning Manager, la bibliothèque de contenu conserve également les versions de vos contenus téléchargés. Si vous modifiez le contenu d’une présentation PowerPoint, par exemple, et que vous la téléchargez à nouveau dans la bibliothèque, le numéro de version est incrémenté d’une unité. Cela vous aide à suivre l’évolution de votre contenu. Une nouvelle version du contenu peut être appliquée à tous les objets d’apprentissage simultanément ou vous pouvez appliquer des mises à jour individuelles pour chaque cours.
 +++
 
 +++Comment modifier les détails d’un cours dans une autre langue ?

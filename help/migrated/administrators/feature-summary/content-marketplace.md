@@ -4,104 +4,192 @@ title: Marché de contenus
 description: Learning Manager propose désormais un Marché de contenus qui vous permet d’explorer et d’acheter des formations. Explorez plus de 70 000 cours couvrant un large éventail de sujets, disponibles dans plusieurs formats. Faites votre choix parmi des listes de lecture sélectionnées qui correspondent à une grande variété de rôles et répondent à vos besoins en matière d’apprentissage et d’acquisition de compétences.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
 # Marché de contenus
 
-Learning Manager propose désormais un Marché de contenus qui vous permet d’explorer et d’acheter des formations. Explorez plus de 70 000 cours couvrant un large éventail de sujets, disponibles dans plusieurs formats. Faites votre choix parmi des listes de lecture sélectionnées qui correspondent à une grande variété de rôles et répondent à vos besoins en matière d’apprentissage et d’acquisition de compétences.
+Les administrateurs d’apprentissage rencontrent souvent des difficultés pour rechercher et télécharger du contenu de qualité. Le Marché de contenus de Adobe Learning Manager simplifie ce processus en permettant l’attribution de licences pour des cours premium proposés par des fournisseurs de confiance, ce qui accélère et rend plus évolutive la prestation de l’apprentissage. À l’aide du Marché de contenus, les administrateurs peuvent parcourir, prévisualiser et acheter la licence de cours tiers proposés par des fournisseurs.
 
-Dans l&#39;application Administrateur, une nouvelle option **[!UICONTROL Marché de contenus]** est disponible dans le panneau de gauche.
+Le Marché de contenus propose les formules suivantes pour l’acquisition de contenu :
 
-Les utilisateurs peuvent effectuer des achats dans des listes de lecture sélectionnées couvrant différents sujets ou acheter l’intégralité du catalogue.
+* **[!UICONTROL Premium Essentials]**
+* **[!UICONTROL Premium Essentials Plus]**
 
-Sur la page, vous pouvez voir deux vignettes : Formation en entreprise et Formation Creative Cloud. La première vignette ouvre le marché, à l’aide duquel vous pouvez acquérir des cours pour vos élèves. La deuxième vignette ouvre le catalogue des contenus.
+| **[!UICONTROL Premium Essentials]** | **[!UICONTROL Premium Essentials Plus]** |
+|---|---|
+| Accès à plus de 90 000 cours | Accès à plus de 100 000 cours |
+| Contenu provenant de plus de 250 fournisseurs | Comprend tout le contenu Premium Essentials |
+| Contenu exclusif de fournisseurs approuvés tels que :<li>EasyLlama</li><li>Skillshub</li><li>Thomson Reuters</li><li>Emtrain</li><li>Harvard ManageMentor</li> | Cours exclusifs des meilleurs fournisseurs tels que : <li>Blinkist</li><li>Pluralsight</li>Skillsoft</li><li>Traliant</li><li>Coursera</li> |
 
-La page Formation en entreprise de l’application Administrateur vous permet d’inviter des utilisateurs et de télécharger le rapport des intérêts, mais aussi d’acheter l’intégralité du catalogue ou une liste de lecture sélectionnée.
+<!--**[!UICONTROL Premium Essentials]**:
+A cost-effective solution designed to enhance employee engagement. 
 
-**Inviter des utilisateurs**
+* Access to over 90,000 courses
+* Content from more than 250 providers
+* Focus on compliance and skill improvement
+* Exclusive content from trusted providers such as:
+   * EasyLlama
+   * Skillshub
+   * Thomson Reuters
+   * Emtrain
+   * Harvard ManageMentor
 
-Invitez les utilisateurs à explorer le Marché de contenus et à exprimer leur intérêt. En tant qu’administrateur, vous pouvez inviter tous les élèves du compte ou inviter des élèves sélectionnés. Pour accorder l’accès aux élèves, vous devez les inviter.
+**[!UICONTROL Premium Essentials Plus]**:
 
-Un élève peut également être supprimé de l’option Marché de contenus. Pour révoquer l&#39;accès, cliquez sur le lien **[!UICONTROL Révoquer l&#39;accès]**.  Les utilisateurs ne pourront plus voir la page Marché de contenus dans l’application de l’élève.
+* Access to more than 100,000 courses
+* Includes all Premium Essentials content
+* Exclusive courses from top providers like:
+   * Blinkist
+   * Pluralsight
+   * Skillsoft
+   * Traliant
+   * Coursera
 
-Cette option est sélectionnée par défaut pour tous les nouveaux comptes. Pour les comptes existants, l’administrateur doit inviter les utilisateurs à explorer le marché.
+Select the plan that best meets your organization's learning goals and budget.-->
 
-## Achat
+## Acquisition de contenu auprès de fournisseurs
 
-Vous bénéficiez d’un accès illimité à l’ensemble de la bibliothèque de cours. Cliquez sur le bouton **[!UICONTROL Achat]** pour télécharger un formulaire de demande d&#39;achat.
+Pour parcourir et acquérir du contenu provenant de fournisseurs de contenu, procédez comme suit :
+
+1. Sélectionnez **[!UICONTROL Marché de contenus]** dans la page d&#39;accueil de l&#39;administrateur. La page **[!UICONTROL Marché de contenus]** s&#39;affiche.
+
+   ![](assets/purchase-plans.png)
+   _Consultez les formules d’achat sur la page Marché de contenus_
+
+2. Les administrateurs peuvent prévisualiser et explorer le Hub de contenu pour les formules **[!UICONTROL Premium Essentials]** et **[!UICONTROL Premium Essentials Plus]**.
+
+Les fournisseurs de contenu gèrent la suppression du contenu obsolète, en veillant à ce qu’aucun matériel d’apprentissage ne soit mis hors service sans avis préalable.
+
+<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+
+In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
+
+Users can purchase from curated playlists covering various topics or purchase the entire catalog. 
+
+On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
+
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+
+## Demander un devis
+
+Les administrateurs peuvent sélectionner une formule, telle que Premium Essentials ou Premium Essentials Plus, spécifier le nombre de places requises et générer un formulaire de demande de devis téléchargeable. Une fois rempli, le formulaire est envoyé à l’équipe commerciale de Adobe Learning Manager pour traitement. Le processus d&#39;appel d&#39;offres permet également à l&#39;Adobe de fournir des prix personnalisés en fonction des besoins de l&#39;organisation.
+
+Pour télécharger l&#39;appel d&#39;offres, procédez comme suit :
+
+1. Sélectionnez le **[!UICONTROL Marché de contenus]** dans la page d&#39;accueil de l&#39;administrateur.
+
+2. Sélectionnez le type de licence et saisissez le nombre de licences pour générer le devis dans la section **[!UICONTROL Demander un devis]**.
+
+3. Sélectionnez **[!UICONTROL Télécharger l&#39;appel d&#39;offres]** pour télécharger le devis.
+
+![](assets/purchase-plans-go1.png)
+_Télécharger l&#39;appel d&#39;offres après avoir sélectionné une formule_
+
+Envoyez le devis à [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) pour activer votre licence. Vous pouvez également contacter votre chargé de réussite client Adobe pour lancer le processus d’achat.
+
+## Inviter des élèves dans le Hub de contenu
+
+Invitez les élèves à explorer le contenu et à exprimer leur intérêt dans le Marché de contenus. En tant qu’administrateur, vous pouvez inviter tous les élèves du compte ou inviter des élèves sélectionnés. Les élèves doivent être invités avant de pouvoir explorer le contenu. Consultez [l&#39;article](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) pour plus d&#39;informations sur le Hub de contenu.
+
+Pour inviter les élèves :
+
+1. Sélectionnez le **[!UICONTROL Marché de contenus]** dans la page d&#39;accueil de l&#39;administrateur.
+2. Sélectionnez **[!UICONTROL Inviter des élèves]** et sélectionnez les élèves requis.
+3. Sélectionnez **[!UICONTROL Inviter des élèves]**.
+
+Les administrateurs peuvent également révoquer l&#39;accès au **[!UICONTROL Content Hub]** en sélectionnant le lien **[!UICONTROL Supprimer l&#39;accès de tous les utilisateurs]**. Une fois l’accès révoqué, les élèves ne verront plus la page Hub de contenu dans leur application d’élève.
+
+![](assets/invite-users.png)
+_Inviter les utilisateurs à accéder au Hub de contenu_
+
+Par défaut, cette option est activée pour tous les nouveaux comptes. Pour les comptes existants, les administrateurs doivent inviter manuellement les élèves à accéder au Marché de contenus.
+
+<!--## Purchase
+
+You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
 ![](assets/purchase-request.png)
 
-*Entrez le nombre de places à acheter*
+*Enter the number of seats to purchase*
 
-Spécifiez le nombre de places pour lesquelles vous souhaitez acheter les cours. Téléchargez le formulaire de demande d’achat, puis envoyez-le à l’équipe commerciale de Learning Manager.
+Specify the number of seats for which you want to purchase the courses for. Download the purchase request form and then send the form to the sales team of Learning Manager.
 
-L’équipe validera ensuite les informations, puis générera une clé qui vous sera fournie. Il s’agit de la clé d’activation à l’aide de laquelle vous accorderez l’accès à vos utilisateurs à l’offre de contenu.
+The team will then validate the information and then generate a key, which will be provided to you. This is the activation key using which you'll grant access to your users to the content offering.
 
-Une fois la clé générée par l’équipe CSAM, l’administrateur peut utiliser la clé pour importer les cours et migrer les cours vers le catalogue existant ou le nouveau catalogue.
+After the key is generated by the CSAM team, the Administrator can use the key to import the courses, and migrate the courses into the existing catalog or the new catalog.
 
-Lors de la migration des cours, l’état **[!UICONTROL Importation de cours]** s’affiche. Une fois la migration terminée, l’administrateur reçoit une notification indiquant que la migration est terminée et réussie.
+During migration of courses, the status displays as **[!UICONTROL Importing Courses]**. Once the migration completes, the Administrator gets a notification that migration is complete and successful.
 
-La section **[!UICONTROL Licences]** affiche ensuite toutes les licences acquises pour le compte.
+The **[!UICONTROL Licenses]** section then displays all the licenses that are acquired for the account.
 
-L’administrateur peut voir les liens des catalogues achetés dans la page Présentation du catalogue.
+The Administrator can see the links of the purchased catalogs in the Catalog Overview page.
 
-Une fois les cours ajoutés au catalogue, l’administrateur peut alors accorder l’accès aux formations à divers utilisateurs ou groupes d’utilisateurs.
+Once the courses are added to the catalog, the Administrator can then grant access to the trainings to various user or user groups.
 
 ![](assets/licenses.png)
 
-*Accorder l’accès à la formation aux utilisateurs et aux groupes d’utilisateurs*
+*Grant access to training to users and user groups*-->
 
-## Rapport des intérêts
+<!--## Express interest report
 
-Lorsqu’un élève clique sur Exprimer l’intérêt pour le catalogue dans l’application Élève, l’intérêt est enregistré dans un rapport des intérêts. L’administrateur peut télécharger le rapport. Le rapport (csv) contient les champs suivants :
+When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
-* Nom du catalogue
-* Nombre d’utilisateurs exprimant leur intérêt
-* Adresse e-mail de l’utilisateur exprimant son intérêt
+* Name of the catalog
+* Number of users expressing interest
+* Email of the user expressing interest-->
+
+## Hub de contenu
+
+Le Hub de contenu permet aux administrateurs de présélectionner les listes de lecture requises dans l’application de l’élève. La page Hub de contenu est toujours visible par les administrateurs dans leur rôle d’élève, car elle leur permet de présélectionner facilement des listes de lecture. Pour vous aider à présélectionner la liste de lecture appropriée, les administrateurs peuvent rendre cette page accessible aux experts en la matière dans leur compte.
+
+Adobe Learning Manager se synchronise régulièrement avec le Hub de contenu, ce qui garantit que les nouveaux ajouts et mises à jour sont automatiquement répercutés sur la plateforme.
+
+Tout le contenu est mappé vers les langues prises en charge, ce qui permet aux administrateurs de filtrer et de gérer le contenu plus efficacement en fonction des préférences de langue.
 
 ## Modèles de courriers électroniques
 
-Pour prendre en charge ce flux de travail, vous pouvez choisir entre trois modèles de courriers électroniques :
+Adobe Learning Manager propose des modèles de courrier électronique préconfigurés qui informent les administrateurs et les élèves des achats de contenu, des mises à jour système et des activités d’apprentissage.
 
-1. **[!UICONTROL Activation du contenu réussie]:** Cet e-mail est envoyé lorsque l&#39;achat d&#39;un contenu portant un nom de clé a réussi. Toute la formation achetée est alors disponible.
-1. **[!UICONTROL Échec du chargement utilisateur automatisé]:** Cet e-mail est envoyé lorsque la mise à jour automatique du fichier CSV dans le compte échoue pour une raison quelconque.
-1. **[!UICONTROL Inviter les utilisateurs à explorer le contenu]:** Il s&#39;agit d&#39;un e-mail d&#39;invitation envoyé aux élèves lorsque l&#39;administrateur a acheté des cours. L’administrateur peut consulter le rapport des intérêts pour comprendre les exigences générales et prendre la décision d’achat.
+Vous pouvez utiliser trois modèles de courrier électronique :
 
-1. Les cours achetés ne peuvent pas être ajoutés aux certificats récurrents.
-1. Les cours achetés ne peuvent pas être partagés avec des comptes d’homologues.
-1. Les cours achetés peuvent être consommés par tous les utilisateurs qui y ont accès. Configurez la visibilité du catalogue pour restreindre la visibilité des cours achetés à certains utilisateurs.
-1. Les cours achetés ne peuvent pas être consommés une fois que la clé d’activation a expiré. Veuillez acheter/activer une autre clé pour permettre la consommation.
+1. **[!UICONTROL Activation du contenu réussie] :** envoyé aux administrateurs après l’achat réussi de contenu tiers. Cette notification confirme que l’activation est terminée et que le contenu acheté est maintenant disponible dans le système pour l’affectation des élèves.
+2. **[!UICONTROL Échec du chargement automatisé des utilisateurs]:** déclenché lorsqu’une importation automatisée des utilisateurs via CSV échoue. Cette alerte aide les administrateurs à identifier rapidement les problèmes dans les mises à jour utilisateur planifiées, afin que des actions correctives puissent être entreprises.
+3. **[!UICONTROL Inviter les utilisateurs à explorer le contenu]:** e-mail d&#39;invitation envoyé aux élèves une fois que l&#39;administrateur a acheté du contenu sur le marché. Après cela, les utilisateurs peuvent commencer leur parcours d’apprentissage immédiatement.
 
-## Hub de contenu dans le Marché de contenus
+<!--Purchased courses cannot be added in recurring certificates.
+Purchased courses cannot be shared to peer accounts.
+Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
 
-Le Hub de contenu permet aux administrateurs et aux experts en la matière (SME) de présélectionner les listes de lecture requises dans l’application de l’élève. Une fois la sélection effectuée, les administrateurs peuvent télécharger le formulaire de demande d’achat et le partager avec l’agent commercial Adobe.
+<!--## Content Hub in Content Marketplace
 
-Un administrateur peut inviter les experts en la matière à sélectionner la liste de lecture qui les intéresse.
+Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
+
+An Admin can invite SMEs to shortlist the playlist which they are interested in. 
 
 ![](assets/content-hub.png)
 
-*Lancer le hub de contenu à partir du marketplace*
+*Launch Content Hub from the marketplace*
 
-Le Hub de contenu est disponible dans le rôle Élève pour tous les administrateurs. Les administrateurs autorisent les experts en la matière à présélectionner la liste de lecture qu’ils souhaitent acheter.
+Content Hub is available in Learner role for all Administrators. Administrators allow SMEs to shortlist the playlist which they are interested in purchasing.
 
-La page Hub de contenu est toujours visible par les administrateurs dans leur rôle d’élève, car cela leur permet de présélectionner facilement des listes de lecture. Pour vous aider à présélectionner la liste de lecture appropriée, les administrateurs peuvent rendre cette page accessible aux experts en la matière dans leur compte. Il vous suffit de consulter la page Formation en entreprise côté administrateur et de prendre les mesures nécessaires pour fournir l’accès.
+The Content Hub page is visible to Administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, Admins can make this page accessible to limited Subject matter experts in their account. Just visit the Enterprise Training page on Admin side and take steps to provide access.  
 
 ![](assets/content-hub-resources.png)
 
-*Afficher les ressources dans le Hub de contenu*
+*View resources in the Content hub*
 
-Learning Manager permet également aux administrateurs de télécharger une liste de lecture présélectionnée et de la partager avec l’équipe des ventes d’Adobe. Avant de télécharger la présélection, rendez-vous sur le Hub de contenu et sélectionnez une liste de lecture en ajoutant une liste de lecture à votre bibliothèque.
+Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
-Ensuite, en tant qu&#39;administrateur, cliquez sur **[!UICONTROL Marché de contenus]** > **[!UICONTROL Formation en entreprise]** > **[!UICONTROL Section Achat]** > **[!UICONTROL Listes de lecture sélectionnées]**. Cliquez sur le bouton **[!UICONTROL Acheter]** pour télécharger le formulaire de demande d’achat qui contient les détails de votre liste de lecture présélectionnée.
+Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Purchase section]** > **[!UICONTROL Curated Playlists]**. Click the **[!UICONTROL Purchase]** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
 
-*Télécharger le formulaire de demande d&#39;achat*
+*Download the Purchase Request form*
 
-Les cours et la liste de lecture que vous voyez dans le Hub de contenu sont les mêmes que ceux que vous voyez dans le Marché de contenus. Le Hub de contenu permet simplement aux administrateurs et aux experts en la matière avec accès limité de présélectionner facilement une liste de lecture en vue de l’acheter.
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->

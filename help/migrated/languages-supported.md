@@ -2,10 +2,11 @@
 jcr-language: en_us
 title: Langues prises en charge dans Adobe Learning Manager
 description: Exploration des langues d’interface et de contenu prises en charge dans Adobe Learning Manager (ALM)
-source-git-commit: d82d408cbe33ecfb099aa0c7677b0960f80991ef
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 50%
+source-wordcount: '261'
+ht-degree: 49%
 
 ---
 
@@ -81,4 +82,10 @@ Adobe Learning Manager prend en charge les langues d’interface et de contenu s
 | Bulgare | - | bg |
 | Néerlandais (Belgique) | - | nl-be |
 | Portugais (Portugal) | - | pt-PT |
+| Chinois (traditionnel, Hong Kong) | - | zh-HK |
+| Norvégien bokmål | - | nb-NO |
+| Tamoul | - | TAG-IN |
+| Télougou | - | te-IN |
+| Kannara | - | in-IN |
+| Malayalam | - | ml-IN |
 

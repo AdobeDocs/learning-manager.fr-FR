@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '5153'
-ht-degree: 58%
+source-wordcount: '5674'
+ht-degree: 52%
 
 ---
 
@@ -239,13 +239,79 @@ Le rapport contient les données des utilisateurs actifs, supprimés et suspendu
 
 Si un élève qui se trouvait auparavant dans l’état d’approbation en attente se désinscrit, son enregistrement ne sera pas présent dans le rapport. En outre, si un stagiaire qui se trouvait auparavant dans l’état d’approbation en attente est inscrit au cours par inscription d’administrateur/de gestionnaire/d’administrateur personnalisé, son enregistrement est présent dans le rapport.
 
+## Gérer l’inscription, la présence et l’achèvement des élèves en bloc {#bulk-enrollment}
+
+À l&#39;aide de la fonction d&#39;inscription en masse de Adobe Learning Manager, les administrateurs peuvent inscrire efficacement de grands groupes d&#39;élèves à des cours, des certifications ou des programmes d&#39;apprentissage en chargeant un fichier CSV. Ce processus permet de gagner du temps, assure la cohérence et prend en charge l’évolutivité organisationnelle. En outre, les administrateurs et les instructeurs peuvent mettre à jour les informations sur les élèves, la présence et les achèvements en bloc via des chargements CSV, ce qui réduit le travail manuel et garantit l’exactitude des données.
+
+Vous pouvez utiliser le même format de fichier CSV pour l’inscription, l’assiduité et l’achèvement. Saisissez simplement les ID de messagerie des élèves dans la colonne « E-mail » et enregistrez le fichier avec un nom basé sur l’action, par exemple bulk_enrollment.csv, bulk_assiduité.csv ou bulk_completion.csv. Seul le format CSV est pris en charge. Le format UTF-8 n’est pas pris en charge. Téléchargez l&#39;exemple de fichier csv [ici](assets/Sample-Bulk-Action-CSV.csv).
+
+### Inscription d’élèves par lot à l’aide d’un fichier .csv
+
+Au lieu d&#39;ajouter des élèves un par un, les administrateurs peuvent inscrire jusqu&#39;à 100 000 utilisateurs simultanément en chargeant un fichier CSV. Le fichier doit inclure une colonne intitulée **userEmail** avec les adresses e-mail des élèves à inscrire.
+
+Pour inscrire des élèves par lot à l’aide d’un fichier CSV :
+
+1. Connectez-vous en tant qu’administrateur.
+2. Sélectionnez un cours dans la section **[!UICONTROL Cours]**.
+3. Sélectionnez **[!UICONTROL Élèves]** dans la page **[!UICONTROL Présentation du cours]**.
+4. Sélectionnez **[!UICONTROL S&#39;inscrire]**, puis **[!UICONTROL Charger un fichier CSV]**.\
+   ![](assets/upload-a-csv-learners.png)
+   _Inscription d&#39;un élève à l&#39;aide du chargement CSV_
+5. Chargez un fichier CSV et sélectionnez **[!UICONTROL Continuer]**.
+
+Le fichier CSV comprend une colonne intitulée « Adresse e-mail de l’utilisateur ». Saisissez les adresses e-mail de vos utilisateurs dans cette colonne.
+
+### Marquer la fin du cours en bloc
+
+Les administrateurs peuvent rapidement marquer les cours terminés pour de nombreux élèves à la fois en téléchargeant un fichier CSV avec leurs adresses électroniques. Cela permet de gagner du temps par rapport à la mise à jour individuelle de chaque élève. La colonne userEmail du fichier CSV indique les élèves à mettre à jour. Vous pouvez marquer jusqu’à 10 000 élèves comme terminés en un seul téléchargement.
+
+Pour marquer l’achèvement en bloc :
+
+1. Sélectionnez un cours dans la section **[!UICONTROL Cours]**.
+2. Sélectionnez **[!UICONTROL Élèves]** dans la page **[!UICONTROL Présentation du cours]**.
+3. Sélectionnez **[!UICONTROL Actions]**, puis **[!UICONTROL Marquer comme terminé]**.
+4. Sélectionnez **[!UICONTROL En bloc]**.
+5. Chargez un fichier CSV avec une colonne userEmail répertoriant les élèves qui ont terminé le cours.
+
+   ![](assets/bulk-completion.png)
+   _Marquage de l&#39;achèvement en bloc à l&#39;aide du fichier CSV_
+
+### Marquer l&#39;assiduité en bloc
+
+Les administrateurs peuvent marquer l&#39;assiduité de plusieurs élèves à la fois à l&#39;aide d&#39;une fonction d&#39;assiduité en bloc. Au lieu de mettre à jour la présence de chaque élève individuellement, les administrateurs peuvent charger un fichier CSV contenant les adresses électroniques des élèves. La colonne userEmail du fichier CSV identifie l’assiduité des élèves à enregistrer. Ce processus peut gérer jusqu&#39;à 10 000 élèves en un seul téléchargement, ce qui rend le marquage de présence plus rapide et plus efficace.
+
+Pour marquer l&#39;assiduité en bloc :
+
+1. Sélectionnez un cours dans la section **[!UICONTROL Cours]**.
+2. Sélectionnez **[!UICONTROL Présence et notation]** dans la page **[!UICONTROL Présentation du cours]**.
+3. Sélectionnez **[!UICONTROL Actions]**, puis **[!UICONTROL Marquer comme terminé en bloc]**.
+4. Chargez un fichier CSV qui inclut une colonne userEmail avec les adresses e-mail des élèves dont vous souhaitez mettre à jour la présence.
+
+   ![](assets/mark-bulk-attendance.png)
+   _Marquage de l&#39;assiduité en bloc à l&#39;aide du fichier CSV_
+
+>[!NOTE]
+>
+>Vous pouvez marquer l’assiduité pour 10 000 utilisateurs maximum par lot à l’aide du format CSV.
+
+### Erreurs de chargement CSV courantes
+
+* L’adresse e-mail de l’élève dans le fichier CSV n’existe pas dans l’annuaire des utilisateurs Adobe Learning Manager.
+* Le format du fichier est incorrect.
+* Le fichier contient des colonnes supplémentaires ou des données non valides.
+
+![](assets/error-bulk.png)
+_Notification d&#39;erreur_
+
+Vous pouvez télécharger et afficher le fichier CSV répertoriant les erreurs avec des utilisateurs en échec au niveau de la ligne pour une identification facile.
+
 ## Liste d’attente
 
 La section Liste d&#39;attente permet aux élèves d&#39;être sur liste d&#39;attente pour des cours en classe lorsque les places sont limitées, en fonction de leur ordre d&#39;inscription. Les administrateurs peuvent gérer cela en sélectionnant les élèves inscrits sur liste d&#39;attente et en allouant des places au-delà de la limite initiale. Une fois une place allouée par l’administrateur, l’élève est immédiatement inscrit au cours.
 
 ### Rapport de liste d’attente
 
-Adobe Learning Manager permet aux administrateurs de télécharger la liste d’élèves inscrits sur liste d’attente pour toutes les instances d’un cours. Les administrateurs peuvent accéder à ce rapport à partir de la section Liste d&#39;attente sur la page **[!UICONTROL Présentation du cours]**.
+Adobe Learning Manager permet aux administrateurs de télécharger la liste d’élèves inscrits sur liste d’attente pour toutes les instances d’un cours. Les administrateurs peuvent accéder à ce rapport à partir de la section Liste d&#39;attente de la page **[!UICONTROL Présentation du cours]**.
 
 En suivant les colonnes disponibles dans le rapport Liste d’attente :
 
@@ -352,7 +418,7 @@ Dans cette version de Learning Manager, l&#39;administrateur peut envoyer un re
 
 Les rapports de quiz permettent d&#39;évaluer la performance d&#39;un apprenant après l&#39;achèvement d&#39;un programme ou d&#39;un cours d&#39;apprentissage.
 
-Learning Manager facilite actuellement l’apprentissage dans 13 langues d’interface et 32 langues de contenu. Bien que cette option soit conviviale pour les apprenants et soit pratique pour prendre en charge nos apprenants globaux, il est difficile pour les administrateurs d’extraire les rapports tentés dans différentes langues.
+Learning Manager facilite actuellement l’apprentissage dans 13 langues d’interface et 32 langues de contenu. Bien que cette option soit conviviale pour les élèves et qu&#39;elle soit pratique pour prendre en charge nos élèves globaux, il est difficile pour les administrateurs de récupérer les rapports tentés dans diverses langues.
 
 Un rapport de quiz contiendra des données dans différentes langues si le cours est proposé en plusieurs langues. Jusqu’à présent, les réponses étaient affichées l’une après l’autre dans les rapports générés par l’administrateur, quelle que soit la langue dans laquelle le quiz était tenté. **Par exemple**, si un utilisateur a répondu à un quiz en néerlandais, l&#39;administrateur ne pourra afficher que les rapports de quiz tentés par des utilisateurs en néerlandais à la fois. L’administrateur qui a sélectionné l’anglais comme langue d’interface n’a pas pu afficher les rapports pour tous les utilisateurs à la fois, indépendamment des paramètres régionaux tentés dans.
 
@@ -547,7 +613,7 @@ Procédez comme suit pour ajouter des commentaires d’achèvement :
 2. Accédez à la page **[!UICONTROL Cours]** et sélectionnez un cours.
 3. Sélectionnez **[!UICONTROL Élèves]** sur la page du cours.
 4. Sélectionnez un ou plusieurs élèves.
-5. Sélectionnez **[!UICONTROL Actions]**, puis sélectionnez&#x200B;**[!UICONTROL &#x200B; Marquer comme terminé]**.
+5. Sélectionnez **[!UICONTROL Actions]**, puis sélectionnez**[!UICONTROL  Marquer comme terminé]**.
 6. Saisissez votre commentaire d’achèvement dans la boîte de dialogue.
 
    ![](assets/comments.png)
