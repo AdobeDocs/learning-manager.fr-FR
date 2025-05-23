@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
-source-wordcount: '26470'
-ht-degree: 72%
+source-wordcount: '26471'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Mise à jour 100 : version de novembre 2024 de Adobe Learning Manager
+
+**Date de publication** : 10 mai 2025
+
+## Nouveautés de cette version
+
+Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new.md).
++++
 
 +++Mise à jour 99 : version de février 2025 de Adobe Learning Manager
 
@@ -49,7 +58,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/catalogs.
 
 ## Nouveautés de cette version
 
-Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new.md).
+Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new-nov-24.md).
 +++
 
 +++Mise à jour 97 : version de juillet 2024 de Adobe Learning Manager
@@ -1055,7 +1064,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 * Le téléchargement des ressources d&#39;un cours ne fonctionnait pas s&#39;il était dupliqué à partir d&#39;un autre cours et que l&#39;élève n&#39;avait pas accès au cours original utilisé pour créer un double.
 * Les images de bannière ne sont pas supprimées lorsque l’auteur les supprime d’un cours à l’état de brouillon. Ce problème a été résolu.
 
-**AEM &#x200B;**
+**AEM **
 
 * Après l&#39;insertion du composant Learning Manager dans AEM, le chargement de la page prenait beaucoup de temps, empêchant ainsi l&#39;accès aux autres composants. Ce problème a été résolu.
 
@@ -1138,7 +1147,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 >[!NOTE]
 >
->Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.**&#x200B;**
+>Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.****
 
 +++
 
@@ -1489,7 +1498,7 @@ Dans cette mise à jour, un élève peut charger des actifs comme justificatif d
 
 Un élève peut ouvrir un certificat externe et charger des actifs, tels que des fichiers PDF, texte ou image.
 
-Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problèmes résolus dans cette version {#issuesfixedinthisrelease}
 
@@ -1591,11 +1600,6 @@ Actuellement, seuls les administrateurs peuvent ajouter des utilisateurs à une 
 * Courriers électroniques d&#39;escalade à des responsables d&#39;élèves
 * À propos des rapports directs
 * À propos des rapports de collaborateurs de deuxième niveau
-
-Pour en savoir plus sur les API de Learning Manager, consultez les informations suivantes :
-
-* [***Référence API***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***Guide du développeur d’API***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### Problèmes résolus dans cette version {#Issuesfixedinthisrelease-1}
 
@@ -1872,7 +1876,7 @@ Date de publication : 20 juin 2019
 
 **Auto-curation du contenu**
 
-L&#39;apprentissage par les réseaux sociaux permet au contenu publié par les élèves d&#39;être conservé de deux manières, à savoir : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d&#39;informations, voir *[**&#x200B; Curation à assistance automatique &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L&#39;apprentissage par les réseaux sociaux permet au contenu publié par les élèves d&#39;être conservé de deux manières, à savoir : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d&#39;informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappage de compétences avec les domaines de compétence**
 
@@ -1952,9 +1956,9 @@ Date de publication : 26 avril 2019
 
 * **Scannez le code QR pour vous inscrire :** les fonctionnalités du code QR sont améliorées. En plus de prendre en charge le marquage des présences à l&#39;aide du code QR, il prend désormais en charge l&#39;inscription à un cours et l&#39;achèvement d&#39;un cours à l&#39;aide du code QR.
 
-  Pour vous inscrire à un cours et le terminer, vous pouvez lire un code QR fourni par votre administrateur. Pour plus d&#39;informations sur la numérisation des codes QR dans la version web de Learning Manager, voir [***Numériser le code QR***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+Pour vous inscrire à un cours et le terminer, vous pouvez lire un code QR fourni par votre administrateur. Pour plus d&#39;informations sur la numérisation des codes QR dans la version web de Learning Manager, voir [***Numériser le code QR***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Tentatives multiples à un cours :** l&#39;application Learning Manager permet à l&#39;élève d&#39;utiliser des cours avec plusieurs tentatives activées. Pour plus d&#39;informations sur la configuration des tentatives multiples, voir [***Tentatives multiples***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Tentatives multiples à un cours :** l&#39;application Learning Manager permet à l&#39;élève d&#39;utiliser des cours avec plusieurs tentatives activées. Pour plus d&#39;informations sur la configuration des tentatives multiples, voir [***Tentatives multiples***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -2456,7 +2460,7 @@ Lorsque le cours possédait plusieurs versions de modules, des rapports de relev
 
 #### Calque d&#39;API {#apilayer}
 
-Une erreur se produisait lors de la récupération d&#39;informations sur la version du module à l&#39;aide de l&#39;API AP/courses/{coursesid}. Ce problème a été résolu.
+Vous rencontrez une erreur chaque fois que vous tentez de récupérer les informations de version du module à l&#39;aide de l&#39;API AP/courses/{coursesid}. Ce problème a été résolu.
 
 +++
 
@@ -2496,7 +2500,7 @@ Date de publication : 6 décembre 2016.
 
 ### Amélioration {#enhancement}
 
-Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison [PATCH/users/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/# !/user/patch_users_id) pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l&#x200B;**&#x200B;**&#x200B;aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
+Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/# !/user/patch_users_id) pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l****aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
 
 * Nom
 * Courrier électronique
@@ -2728,8 +2732,8 @@ Dans cette mise à jour, nous avons ajouté les API suivantes pour répondre à 
 1. DELETE Users
 1. GET userGroups
 1. GET userGroups /{id}
-1. DELETE userGroups /{id}/Users
-1. POST userGroups /{id}/Users
+1. UserGroups /{id}/Users du DELETE
+1. UserGroups /{id}/Users du POST
 1. GET /users/userId/userGroups
 
 Nous avons également amélioré le modèle utilisateur existant avec les ajouts suivants :
@@ -3006,7 +3010,7 @@ L’exportation des données d’inscription échouait si l’un des élèves in
 
 **Modèles de courrier électronique**
 
-* Le mot **partenaires,** utilisé pour représenter des groupes externes **&#x200B;**&#x200B;est **&#x200B;**&#x200B;supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
+* Le mot **partenaires,** utilisé pour représenter des groupes externes **** est **** supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
   **Remarque :** ce modèle mis à jour n&#39;apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Revenir à l&#39;original** dans la boîte de dialogue **Aperçu du modèle**.
 
 * L&#39;URL n&#39;est pas cliquable dans le courrier électronique reçu par les administrateurs chaque fois que les modèles de courrier électronique **Profil créé(auto-inscription)** et **Profil créé(externe/partenaires)** sont modifiés. Ce problème a été résolu.
@@ -3064,7 +3068,7 @@ Dans la connexion Administrateur, la pagination ne fonctionnait pas sur la page 
 
 **Création de compétences**
 
-Dans la connexion Élèves, l&#39;info-bulle du nom de compétence dans **Mappage de compétences &#x200B;** 0&rbrace;n&#39;affichait pas le **&#x200B;**&#x200B;nom complet.**&#x200B;** Ce problème a été résolu.
+Dans la connexion Élèves, l&#39;info-bulle du nom de compétence dans la **carte de compétences** n&#39;affichait pas le nom complet. Ce problème a été résolu.
 
 **Ajout de partenaires externes**
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 52%
@@ -613,7 +613,7 @@ Procédez comme suit pour ajouter des commentaires d’achèvement :
 2. Accédez à la page **[!UICONTROL Cours]** et sélectionnez un cours.
 3. Sélectionnez **[!UICONTROL Élèves]** sur la page du cours.
 4. Sélectionnez un ou plusieurs élèves.
-5. Sélectionnez **[!UICONTROL Actions]**, puis sélectionnez&#x200B;**[!UICONTROL &#x200B; Marquer comme terminé]**.
+5. Sélectionnez **[!UICONTROL Actions]**, puis **[!UICONTROL Marquer comme terminé]**.
 6. Saisissez votre commentaire d’achèvement dans la boîte de dialogue.
 
    ![](assets/comments.png)
