@@ -2,10 +2,10 @@
 title: Inscription multiple dans Adobe Learning Manager
 description: En tant qu’administrateur du compte, l’une de vos principales tâches consiste à créer différentes instances de sessions VILT dans différents fuseaux horaires, voire des sessions destinées à des groupes d’utilisateurs spécifiques.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ Il est possible d’effectuer le suivi de la progression de chaque instance et d
 * L’inscription multiple s’applique uniquement si un cours dispose de plusieurs instances.
 * Lorsque l’option d’inscription multiple est activée et que les utilisateurs sont inscrits à plusieurs instances, de nouvelles lignes sont créées pour chaque cours dans le rapport Relevé de notes de l’élève (une ligne par instance et par élève)
 * Si l’automatisation de la génération de rapports est configurée, qui prévoit une seule ligne par cours, vous devez ajuster l’automatisation de la génération de rapports de manière appropriée avant d’activer la fonctionnalité d’inscription multiple.
+* Les API d’administration ne prennent pas en charge les scénarios d’inscription multiple. Veuillez contacter votre CSM si vous avez des exigences.
 
 ## Procédure pour activer l’inscription multiple
 
