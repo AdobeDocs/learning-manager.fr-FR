@@ -2,10 +2,10 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
+source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 82%
+source-wordcount: '676'
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,10 @@ ht-degree: 82%
 * L’administrateur {#admin}
    * [Admin AI Assistant (Beta) dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Connexion utilisateur](administrators/feature-summary/user-login.md)
-   * [Ajouter des utilisateurs et créer des groupes d’utilisateurs](administrators/feature-summary/add-users-user-groups.md)
+   * Gestion des utilisateurs {#user-management}
+      * [Ajout d’utilisateurs dans Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
+      * [Groupe d’utilisateurs dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
+      * [Champs actifs](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Ajouter des emplacements de salle de classe](administrators/feature-summary/classroom.md)
    * [Création d’instances de cours et de parcours d’apprentissage](administrators/feature-summary/courses.md)
    * [Marché de contenus](administrators/feature-summary/content-marketplace.md)
