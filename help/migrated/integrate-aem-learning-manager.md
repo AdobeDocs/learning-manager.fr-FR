@@ -4,9 +4,9 @@ title: Intégration de Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -31,7 +31,7 @@ Installez le package de contenu Learning Manager à l’aide du Gestionnaire de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#how-to-work-with-packages).
+>Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. En tant qu’auteur AEM, ouvrez le Gestionnaire de packages AEM.
 1. Cliquez sur le bouton **[!UICONTROL Charger le package]**.
@@ -125,13 +125,15 @@ Skyline est la version cloud d’AEM. Vous devez d’abord installer Skyline à 
 
 Les étapes de configuration de Skyline sont mentionnées dans le [référentiel GitHub](https://github.com/adobe/captivate-prime-aem-components).
 
-## Widget Catalogue
+## Widget Mon apprentissage
 
-Le widget Catalogue affiche la formation d’un catalogue spécifique ou d’un ensemble de catalogues pour un utilisateur. Dans la section Propriétés des propriétés de la page, sélectionnez Catalogue dans les options répertoriées.
+Le widget **[!UICONTROL Mon apprentissage]** vous permet d&#39;afficher la formation à partir d&#39;un catalogue spécifique ou d&#39;un ensemble de catalogues pour un utilisateur.
+
+Dans la section **[!UICONTROL Propriétés]** des propriétés de la page, sélectionnez **[!UICONTROL Catalogue]** dans les options répertoriées.
 
 <!--![](assets/catalog-widget.png)-->
 
-Le widget Catalogue contient les options suivantes :
+Les options du catalogue contiennent les options suivantes :
 
 * **[!UICONTROL ID de catalogue]:** ID de catalogue séparés par des virgules pour lesquels la formation doit être affichée.
 * **[!UICONTROL Trier]:** ordre de tri pour la formation. Les options sont : nom, date, dateCreated, dateEnrolled, etc.
