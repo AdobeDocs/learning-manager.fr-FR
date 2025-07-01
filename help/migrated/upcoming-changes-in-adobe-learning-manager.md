@@ -1,13 +1,13 @@
 ---
 title: Changements à venir dans Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes qui seront bientôt disponibles sur Adobe Learning Manager. Tenez-vous informé des changements afin de pouvoir planifier et tirer le meilleur parti des dernières améliorations.
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
-
 
 # Changements à venir dans Adobe Learning Manager
 
@@ -15,7 +15,7 @@ Nous sommes ravis de vous faire part de plusieurs mises à jour importantes à v
 
 Ces changements sont conçus pour réduire l’effort manuel, prendre en charge l’automatisation et améliorer la gouvernance des opérations de formation.
 
-## Capturer les terminaisons marquées par un instructeur dans le relevé de notes de l’élève (M44)
+## Capture des terminaisons marquées par l’instructeur dans le relevé de notes de l’élève
 
 ### Audience
 
@@ -45,7 +45,7 @@ Les états de présence tels que « Terminé avec succès/échec » apparaîtron
 * Si vous utilisez des noms de colonnes, aucune modification n’est requise.
 * Les finitions modernisées (importations manuelles) ne sont pas incluses.
 
-## Liens de téléchargement dans le rapport Assistances à la tâche (M44)
+## Liens de téléchargement dans le rapport Assistances à la tâche
 
 ### Audience
 
@@ -69,7 +69,7 @@ Les utilisateurs disposant d’un accès (administrateur/auteurs et rôles perso
 * Si le script est basé sur la position des colonnes, mettez à jour les scripts en conséquence.
 * Aucune action n’est nécessaire si vous utilisez des noms de colonnes.
 
-## Colonnes ID utilisateur interne et E-mail du responsable ajoutées au rapport utilisateur (M44)
+## Colonnes ID utilisateur interne et E-mail du responsable ajoutées au rapport d’utilisateur
 
 ### Audience
 
@@ -88,7 +88,7 @@ Le rapport Utilisateur inclut l’ID utilisateur interne d’un utilisateur et l
 * Si vous utilisez ce rapport dans des flux automatisés, cette colonne nouvellement ajoutée doit être prise en charge dans l&#39;automatisation.
 * Aucune modification n’est nécessaire si les workflows ne sont pas affectés.
 
-## Autorisations d’annonce étendues pour les administrateurs personnalisés (M44)
+## Autorisations d’annonce étendues pour les administrateurs personnalisés
 
 ### Audience
 
