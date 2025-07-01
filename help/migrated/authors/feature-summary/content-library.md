@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4319'
-ht-degree: 39%
+source-wordcount: '4546'
+ht-degree: 37%
 
 ---
 
@@ -595,6 +595,36 @@ Le contenu apparaît maintenant dans la liste Publié.
 ## Mise à jour du contenu
 
 Les auteurs peuvent mettre à jour le contenu du cours publié. Cela aidera les élèves à obtenir la dernière version du contenu. Consultez ce [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) pour plus d&#39;informations.
+
+### Contrôle de version du contenu pour les élèves qui ont terminé un cours
+
+Adobe Learning Manager offre des options de contrôle de version plus claires aux auteurs lors de la mise à jour du contenu. Les auteurs verront désormais trois options bien définies lors d’une mise à jour de la version du contenu :
+
+| État de l’élève | Mettre à jour maintenant | Mettre à jour éventuellement | Mise à jour non commencée |
+|---|---|---|---|
+| Non inscrit | V2 | V2 | V2 |
+| Pas encore commencé | V2 | V2 | V2 |
+| En cours | V2 * | V1 → V2 * | V1 |
+| Terminé | V2 * | V2 * | V1 (conservé) |
+
+(*) Indique que le module sera réinitialisé lors de la mise à jour de la version.
+
+Dans **[!UICONTROL Mise à jour non commencée]**, l&#39;élève terminé continuera à voir la version de contenu existante (V1), ce qui résout le problème des écrans blancs inattendus.
+
+* **[!UICONTROL Mettre à jour maintenant]** : appliquer la mise à jour du contenu pour tous les élèves (les élèves non commencés, en cours et terminés passeraient à la nouvelle version du contenu maintenant)
+* **[!UICONTROL Mise à jour à terme]** : appliquer la mise à jour du contenu pour tous les élèves à terme (Les élèves non commencés, terminés passeraient à la nouvelle version du contenu maintenant ; les élèves en cours passeraient à la nouvelle version une fois l&#39;opération terminée)
+* **[!UICONTROL Mise à jour non commencée]** : appliquer la mise à jour du contenu uniquement aux élèves non commencés (les élèves en cours et terminés resteraient sur la version de contenu existante)
+
+#### Modifications de l&#39;interface utilisateur
+
+| Ancien libellé | Nouvelle option |
+|---|---|
+| Appliquer la mise à jour du contenu à tous les élèves | Mettre à jour tous les élèves maintenant : appliquer la mise à jour du contenu pour tous les élèves |
+| Appliquer la mise à jour aux élèves qui n’ont pas encore commencé | Mettre à jour uniquement les élèves non démarrés : appliquer la mise à jour du contenu uniquement aux élèves non démarrés |
+| Les élèves en cours reçoivent une mise à jour une fois l’opération terminée | Mettre à jour tous les élèves ultérieurement : appliquer la mise à jour du contenu pour tous les élèves ultérieurement |
+
+![](assets/version-control-options.png)
+
 
 ## Supprimer le contenu {#deletecontent}
 
