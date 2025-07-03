@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
 workflow-type: tm+mt
-source-wordcount: '4546'
-ht-degree: 37%
+source-wordcount: '4620'
+ht-degree: 36%
 
 ---
 
@@ -594,11 +594,23 @@ Le contenu apparaît maintenant dans la liste Publié.
 
 ## Mise à jour du contenu
 
-Les auteurs peuvent mettre à jour le contenu du cours publié. Cela aidera les élèves à obtenir la dernière version du contenu. Consultez ce [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) pour plus d&#39;informations.
+Les auteurs peuvent mettre à jour le contenu du cours publié.
+Pour mettre à jour le contenu :
+
+1. Connectez-vous en tant qu’auteur.
+2. Sélectionnez **[!UICONTROL Bibliothèque de contenu]**.
+3. Recherchez le contenu et sélectionnez **[!UICONTROL Modifier]**.
+4. Supprimez le contenu plus ancien, chargez un nouveau fichier et publiez.
+
+Cela aidera les élèves à obtenir la dernière version du contenu.
+
+Consultez ce [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) pour plus d&#39;informations.
 
 ### Contrôle de version du contenu pour les élèves qui ont terminé un cours
 
-Adobe Learning Manager offre des options de contrôle de version plus claires aux auteurs lors de la mise à jour du contenu. Les auteurs verront désormais trois options bien définies lors d’une mise à jour de la version du contenu :
+Adobe Learning Manager offre désormais aux auteurs des options plus claires pour gérer les mises à jour de contenu. Les auteurs peuvent mettre à jour le contenu déjà disponible dans un cours. Lorsqu’une nouvelle version est ajoutée, le numéro de version apparaît en regard du contenu.
+
+Lorsqu&#39;un administrateur consulte un cours dont le contenu est mis à jour, un bouton Mettre à jour apparaît en regard de la nouvelle version. Les administrateurs verront également des options de mise à jour claires pour choisir comment la nouvelle version du contenu est appliquée aux élèves.
 
 | État de l’élève | Mettre à jour maintenant | Mettre à jour éventuellement | Mise à jour non commencée |
 |---|---|---|---|
@@ -607,23 +619,20 @@ Adobe Learning Manager offre des options de contrôle de version plus claires au
 | En cours | V2 * | V1 → V2 * | V1 |
 | Terminé | V2 * | V2 * | V1 (conservé) |
 
-(*) Indique que le module sera réinitialisé lors de la mise à jour de la version.
+(*) Indique que le module sera réinitialisé lorsque la version sera mise à jour.
 
-Dans **[!UICONTROL Mise à jour non commencée]**, l&#39;élève terminé continuera à voir la version de contenu existante (V1), ce qui résout le problème des écrans blancs inattendus.
+Avec Mise à jour non commencée, les élèves qui ont déjà terminé le cours continuent de voir la version de contenu d’origine (V1). Cela évite les problèmes de lecture inattendus et garantit une expérience cohérente pour les élèves qui consultent les cours terminés.
 
-* **[!UICONTROL Mettre à jour maintenant]** : appliquer la mise à jour du contenu pour tous les élèves (les élèves non commencés, en cours et terminés passeraient à la nouvelle version du contenu maintenant)
-* **[!UICONTROL Mise à jour à terme]** : appliquer la mise à jour du contenu pour tous les élèves à terme (Les élèves non commencés, terminés passeraient à la nouvelle version du contenu maintenant ; les élèves en cours passeraient à la nouvelle version une fois l&#39;opération terminée)
-* **[!UICONTROL Mise à jour non commencée]** : appliquer la mise à jour du contenu uniquement aux élèves non commencés (les élèves en cours et terminés resteraient sur la version de contenu existante)
+### Options de mise à jour du contenu
 
-#### Modifications de l&#39;interface utilisateur
+Lorsqu&#39;un administrateur clique sur **[!UICONTROL Mettre à jour]**, il peut choisir parmi les options suivantes :
 
-| Ancien libellé | Nouvelle option |
-|---|---|
-| Appliquer la mise à jour du contenu à tous les élèves | Mettre à jour tous les élèves maintenant : appliquer la mise à jour du contenu pour tous les élèves |
-| Appliquer la mise à jour aux élèves qui n’ont pas encore commencé | Mettre à jour uniquement les élèves non démarrés : appliquer la mise à jour du contenu uniquement aux élèves non démarrés |
-| Les élèves en cours reçoivent une mise à jour une fois l’opération terminée | Mettre à jour tous les élèves ultérieurement : appliquer la mise à jour du contenu pour tous les élèves ultérieurement |
+* **[!UICONTROL Mettre à jour tous les élèves maintenant]** : appliquez immédiatement la mise à jour du contenu pour tous les élèves. Les élèves n&#39;ont pas commencé, sont en cours et terminés passent immédiatement à la nouvelle version.
+* **[!UICONTROL Mettre à jour tous les élèves par la suite]** : appliquez la mise à jour à tous les élèves par phases. Les élèves non commencés et terminés reçoivent la nouvelle version maintenant. Les élèves en cours reçoivent la mise à jour une fois qu’ils ont terminé la version actuelle.
+* **[!UICONTROL La mise à jour n&#39;a pas encore commencé pour les élèves]** : appliquez la mise à jour uniquement aux élèves qui n&#39;ont pas encore commencé le cours. Les élèves en cours et terminés restent sur la version d&#39;origine.
 
 ![](assets/version-control-options.png)
+_Options de mise à jour du contenu disponibles dans les paramètres de mise à jour_
 
 
 ## Supprimer le contenu {#deletecontent}
