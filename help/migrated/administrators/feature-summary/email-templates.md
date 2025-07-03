@@ -74,7 +74,7 @@ En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modi
 1. Pour ouvrir la page des paramètres, cliquez sur **[!UICONTROL Paramètres]**. Vous pouvez à présent personnaliser vos modèles de courriers électroniques.
 1. Pour personnaliser le nom et l&#39;ID de messagerie à partir desquels les élèves reçoivent des courriers électroniques, modifiez le **[!UICONTROL Nom et l&#39;adresse de l&#39;expéditeur].**
 
-   Contactez l&#39;[***assistance technique de l&#39;Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
+   Contactez l&#39;[***assistance technique de l&#39;Adobe***](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
 
 1. Personnalisez votre bannière de courrier électronique à partir de l&#39;option **[!UICONTROL Bannière de courrier électronique]**. Modifiez la couleur de la bannière en sélectionnant **[!UICONTROL Arrière-plan de la bannière]**.
 
@@ -163,7 +163,7 @@ Vous pouvez télécharger le rapport d&#39;accès aux e-mails en cliquant sur le
 
 ## Personnaliser le domaine de l’adresse électronique {#customizeemaildomain}
 
-Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez l’[***assistance Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel ID de messagerie.
+Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez l’[***assistance Learning Manager***](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel ID de messagerie.
 
 Votre demande sera traitée et un courrier électronique contenant un lien de confirmation vous sera envoyé à la nouvelle adresse électronique que vous indiquez. Cliquez sur le lien de vérification qui figure dans le courrier électronique pour confirmer et terminer le processus de vérification.
 
@@ -260,6 +260,6 @@ Pour désactiver un modèle de courrier électronique, sélectionnez le modèle 
 
 +++Comment modifier le nom et l’adresse de l’expéditeur dans le modèle ?
 
-Pour modifier le nom et l&#39;adresse e-mail de l&#39;expéditeur, contactez l&#39;[assistance Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Pour modifier le nom et l&#39;adresse e-mail de l&#39;expéditeur, contactez l&#39;[assistance Adobe Learning Manager](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager).
 
 +++
