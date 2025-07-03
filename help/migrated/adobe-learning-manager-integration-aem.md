@@ -4,10 +4,10 @@ title: Package de site de référence Adobe Learning Manager (site de référe
 description: Adobe Learning Manager (ALM) s’intègre aux sites Adobe Experience Manager (AEM). Cela vous permet de créer votre propre site web et des interfaces mobiles réactives pour Adobe Learning Manager avec un minimum d’effort de codage. Grâce à cette intégration, vous pouvez créer des expériences d'apprentissage personnalisées pour vos utilisateurs.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 67%
+source-wordcount: '2207'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,13 @@ Ce package inclut des modèles de page Web AEM Sites et des composants de site 
 
 Après avoir installé le package du site de référence ALM, vous pouvez commencer à créer un site Web pour Adobe Learning Manager que vous pouvez héberger sur votre instance AEM Sites. Vos utilisateurs peuvent ensuite faire glisser et déposer les composants sur le site Web.
 
-Installation du package de site de référence ALM
+>[!IMPORTANT]
+>
+>Les packs Adobe Learning Manager (ALM) pour AEM Sites fournissent un bloc de code de démarrage rapide pour la mise en œuvre. Ce pack est conçu pour les déploiements sans interface utilisateur. Une fois que vous avez utilisé la base de code fournie, il vous incombe de la maintenir et de la développer, comme c’est le cas avec les applications sans tête basées sur Adobe Learning Manager. L’API sous-jacente continuera d’être prise en charge par Adobe Learning Manager.
 
-## Prérequis
+## Installation du package de site de référence ALM
+
+### Prérequis
 
 * Licences pour AEM Sites et Adobe Commerce.
 * AEM on-premise 6.5 ou Adobe Experience Manager - Cloud Service

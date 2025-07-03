@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Ajout d’utilisateurs dans Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Ajout d’utilisateurs dans Adobe Learning Manager
 
-Dans Adobe Learning Manager, les utilisateurs sont des personnes qui utilisent la plateforme à des fins d’apprentissage ou de formation. Il existe deux types d’utilisateurs : les utilisateurs internes et les utilisateurs externes.
+Dans Adobe Learning Manager, les utilisateurs sont des élèves qui utilisent la plateforme à des fins d’apprentissage ou de formation. Il existe deux types d’utilisateurs : les utilisateurs internes et les utilisateurs externes.
 
 Les utilisateurs internes sont des employés ou des membres de l’équipe de votre organisation.
 
-Les utilisateurs externes sont des personnes extérieures à votre entreprise, telles que des clients, des partenaires, des fournisseurs ou des clients, qui peuvent accéder à votre contenu d’apprentissage.
+Les utilisateurs externes sont des élèves externes à votre entreprise, tels que des clients, des partenaires, des fournisseurs ou des clients, qui peuvent accéder à votre contenu d’apprentissage.
 
 Adobe Learning Manager (ALM) permet aux administrateurs d’intégrer et de gérer les utilisateurs internes et externes à l’aide de diverses méthodes, notamment la saisie manuelle, le chargement de fichiers CSV, l’auto-inscription et les intégrations système.
 
@@ -248,7 +248,7 @@ Il existe quelques différences entre les enregistrements internes et externes :
 | Utilisateurs internes | Utilisateurs externes |
 |---|---|
 | Connexion possible à l’aide des identifiants Adobe ID ou SSO. | Connexion possible avec n’importe quel ID de messagerie. |
-| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/gamification). |
+| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Suspendre le profil d&#39;inscription externe
 
