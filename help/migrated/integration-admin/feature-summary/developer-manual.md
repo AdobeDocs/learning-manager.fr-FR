@@ -4,9 +4,9 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
+source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
 workflow-type: tm+mt
-source-wordcount: '4420'
+source-wordcount: '4504'
 ht-degree: 6%
 
 ---
@@ -454,7 +454,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2&rbrace;]**
+**décalage de page[2}]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 
@@ -1315,9 +1315,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### Générer les relevés de notes des élèves
 
-**Codes d&#39;erreur**
+### Codes d’erreur
+
+Lorsque vous travaillez avec des API Adobe Learning Manager (ALM), les développeurs peuvent rencontrer différents codes d’erreur HTTP lors des demandes. Ces erreurs fournissent des commentaires importants sur ce qui s’est mal passé et comment le corriger. La compréhension de ces codes aide les développeurs à résoudre rapidement les problèmes, à améliorer la fiabilité des API et à garantir des intégrations plus fluides. Le tableau suivant fournit un guide des codes d’erreur HTTP courants renvoyés par les API ALM, ainsi que des explications et des scénarios types dans lesquels ils se produisent. Cette section est essentielle pour toute personne créant, testant ou déboguant des applications qui se connectent à ALM.
 
 | état HTTP | Signification | Dépannage |
 |---|---|---|
