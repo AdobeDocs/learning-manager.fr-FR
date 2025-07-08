@@ -4,10 +4,10 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
+source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
 workflow-type: tm+mt
-source-wordcount: '4504'
-ht-degree: 6%
+source-wordcount: '4521'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Les développeurs peuvent utiliser les API Learning Manager pour améliorer ou i
 
 ## Authentification à l’aide d’OAuth 2.0
 
-Pour accéder aux API Adobe Learning Manager en toute sécurité, vous devez vous authentifier à l’aide du mécanisme OAuth 2.0 d’ALM. Ce processus comprend l’enregistrement de votre application, la génération d’un code d’autorisation, son échange contre un jeton d’actualisation, et enfin l’utilisation du jeton d’actualisation pour obtenir un jeton d’accès.
+Pour accéder aux API Adobe Learning Manager en toute sécurité, vous devez vous authentifier à l’aide du mécanisme OAuth 2.0 de Adobe Learning Manager. Ce processus comprend l’enregistrement de votre application, la génération d’un code d’autorisation, son échange contre un jeton d’actualisation, et enfin l’utilisation du jeton d’actualisation pour obtenir un jeton d’accès.
 
 ### Enregistrement d’une application
 
@@ -50,7 +50,7 @@ Intégrez Adobe Learning Manager à des applications externes pour une plus gran
 
    * **[!UICONTROL Nom de l&#39;application]** : saisissez le nom de votre application (50 caractères maximum).
    * **[!UICONTROL URL]** : URL officielle de votre entreprise ou application. Utilisé pour l’identification et la référence.
-   * **[!UICONTROL Rediriger les domaines]** : spécifiez les domaines (par exemple, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) vers lesquels ALM peut rediriger après autorisation.  Vous pouvez mentionner plusieurs URL, mais elles doivent être valides.
+   * **[!UICONTROL Rediriger les domaines]** : spécifiez les domaines (par exemple, [http://learningmanager.adobe.com](http://learningmanager.adobe.com)) vers lesquels Adobe Learning Manager peut rediriger après autorisation.  Vous pouvez spécifier plusieurs URL valides.
    * **[!UICONTROL Description]** : brève description de l&#39;action de l&#39;application.
    * **[!UICONTROL Domaines]** : sélectionnez l’une des six options disponibles pour définir la portée de votre application. En fonction de votre choix mentionné ici, les points de terminaison de l’API Learning Manager sont accessibles pour votre application. Par exemple, si vous avez choisi Accès en lecture au rôle d’élève, tous les points de terminaison de l’API de l’élève Learning Manager sont accessibles en lecture seule à votre application.
 
@@ -68,7 +68,7 @@ Intégrez Adobe Learning Manager à des applications externes pour une plus gran
 4. Sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer l&#39;application.
 
    * Une fois l’application enregistrée, elle est disponible dans la liste des applications créées dans le compte. Sélectionnez l’application et vous verrez les éléments suivants en plus des champs saisis précédemment :
-   * ID de l’application : il s’agit de l’ID client. Cet ID indique à ALM l&#39;application qui demande l&#39;accès. Il est inclus dans les demandes d’API pour identifier l’application.
+   * ID de l’application : il s’agit de l’ID client. Cet ID indique à Adobe Learning Manager l’application qui demande l’accès. Il est inclus dans les demandes d’API pour identifier l’application.
    * Secret d’application : permet d’authentifier votre application et de vérifier son identité lors des étapes d’exchange du jeton (par exemple, lors de la demande d’un jeton d’actualisation ou d’un jeton d’accès).
 
    ![](assets/application-id-and-secret.png)
@@ -134,7 +134,7 @@ Un jeton d’accès est valide pendant sept jours. Après sept jours, vous devez
 
 ### Obtenir des jetons d’accès pour le test et le développement
 
-Lorsque vous travaillez avec des API Adobe Learning Manager (ALM), les développeurs ont besoin d’un jeton d’accès OAuth 2.0 valide pour authentifier les demandes d’API. La génération de ce jeton via le flux OAuth standard peut être complexe et prendre du temps, en particulier pour des tests, un apprentissage ou un développement rapides. Adobe Learning Manager fournit un outil de génération de jeton pour simplifier ce processus.
+Lorsque vous travaillez avec des API Adobe Learning Manager, les développeurs ont besoin d’un jeton d’accès OAuth 2.0 valide pour authentifier les demandes d’API. La génération de ce jeton via le flux OAuth standard peut être complexe et prendre du temps, en particulier pour des tests, un apprentissage ou un développement rapides. Adobe Learning Manager fournit un outil de génération de jeton pour simplifier ce processus.
 
 Cet outil est idéal pendant :
 
@@ -144,7 +144,7 @@ Cet outil est idéal pendant :
 
 * Résolution des problèmes d’intégration d’API
 
-Ces jetons sont destinés uniquement à votre usage personnel pendant les phases de développement et de débogage. Gardez à l’esprit que les jetons de test accordent l’accès à vos données ALM, il est donc essentiel de les gérer en toute sécurité. Ne partagez jamais vos jetons de test avec d’autres personnes, ne les utilisez jamais dans des applications de production et ne les incluez jamais dans des référentiels de code publics. Traitez-les comme des mots de passe pour assurer la sécurité de votre compte et de vos données.
+Ces jetons sont destinés uniquement à votre usage personnel pendant les phases de développement et de débogage. Gardez à l’esprit que les jetons de test accordent l’accès à vos données Adobe Learning Manager, il est donc essentiel de les gérer en toute sécurité. Ne partagez jamais vos jetons de test avec d’autres personnes, ne les utilisez jamais dans des applications de production et ne les incluez jamais dans des référentiels de code publics. Traitez-les comme des mots de passe pour assurer la sécurité de votre compte et de vos données.
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
 2. Sélectionnez **[!UICONTROL Ressources pour le développeur]**, puis **[!UICONTROL Sélectionner des jetons d’accès pour le test et le développement]**.
@@ -167,7 +167,7 @@ Ces jetons sont destinés uniquement à votre usage personnel pendant les phases
 
    ![](assets/type-access-token.png)
 
-Lors de la sélection de **[!UICONTROL Envoyer]**, le jeton d’accès est vérifié et la réponse suivante apparaît :
+Après avoir sélectionné **[!UICONTROL Envoyer]**, le jeton d’accès est vérifié et vous recevrez l’objet JSON suivant :
 
 ```
 { 
@@ -263,7 +263,7 @@ Voici une brève explication de chacun d’eux :
 
 ### inclure
 
-Les API ALM peuvent être utilisées pour récupérer des informations utiles lors de la création d’une application personnalisée ou d’un LMS sans interface utilisateur. Les points de terminaison API peuvent en outre être inclus avec des paramètres « include » supplémentaires pour récupérer les informations supplémentaires qui sont en relation avec les données reçues par défaut. Ces relations sont des relations de modèle de données. Par exemple, lors d’un appel pour obtenir des détails d’utilisateur, vous recevrez les informations utilisateur et la relation de l’ID de responsable et de l’ID de compte ALM. Avec le paramètre include, vous pouvez extraire des détails supplémentaires ainsi que les détails de l&#39;utilisateur, tels que les détails de son responsable et les détails du compte ALM de manière détaillée.
+Les API Adobe Learning Manager peuvent être utilisées pour récupérer des informations utiles lors de la création d’une application personnalisée ou d’un LMS sans interface utilisateur. Les points de terminaison API peuvent en outre être inclus avec des paramètres « include » supplémentaires pour récupérer les informations supplémentaires qui sont en relation avec les données reçues par défaut. Ces relations sont des relations de modèle de données. Par exemple, lors d’un appel pour obtenir des détails d’utilisateur, vous recevrez les informations utilisateur et la relation de l’ID de responsable et de l’ID de compte Adobe Learning Manager. Avec le paramètre include, vous pouvez extraire des détails supplémentaires ainsi que les détails de l’utilisateur, tels que les détails de son responsable et les détails du compte Adobe Learning Manager de manière détaillée.
 En bref, le paramètre **include** est utilisé dans les appels API pour récupérer les ressources associées (liées) avec la ressource principale dans une seule réponse. Cette fonctionnalité est utile lorsque vous souhaitez accéder à des données imbriquées ou dépendantes, telles que les modules d’un cours ou les compétences mappées à un élève, sans passer d’appels API distincts.
 
 Principaux avantages :
@@ -434,9 +434,9 @@ La pagination d’API est une technique utilisée dans les API pour décomposer 
 
 La pagination réduit la charge du client et du serveur, limite la taille des réponses pour éviter les goulots d’étranglement sur le serveur ou permet d’afficher les données dans des tableaux ou des listes page par page.
 
-**Fonctionnement de la pagination dans les API ALM**
+**Fonctionnement de la pagination dans les API Adobe Learning Manager**
 
-Les API ALM prennent en charge la pagination via des paramètres tels que :
+Les API Adobe Learning Manager prennent en charge la pagination via des paramètres tels que :
 
 * page[limit] : nombre d&#39;enregistrements par page.
 * page[offset] : nombre d&#39;enregistrements à ignorer.
@@ -454,7 +454,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2&rbrace;]**
+**décalage de page[2}]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 
@@ -525,7 +525,7 @@ Les API Adobe Learning Manager permettent aux développeurs d’accéder aux obj
 | badge | Un badge est un gage de réussite que les élèves obtiennent lorsqu&#39;ils atteignent des étapes spécifiques au cours. |
 | catalog | Le catalogue est une collection d’objets d’apprentissage. |
 | l&#39;interface | L’utilisateur est le modèle principal de Learning Manager. Les utilisateurs sont généralement les apprenants internes ou externes d’une organisation qui utilisent des objets d’apprentissage. Cependant, ils peuvent jouer d’autres rôles tels que celui de l’auteur et du responsable outre le rôle de l’élève. L’ID de l’utilisateur, le type, le courrier électronique sont quelques-uns des attributs en ligne. |
-| resource | Cet élément est utilisé pour modéliser chaque ressource de contenu qu’un module cherche à encapsuler. Toutes les ressources encapsulées dans un objet « loResource » sont équivalentes en termes d’objectif d’apprentissage, mais elles diffèrent les unes des autres en termes de type de livraison ou de paramètres régionaux de contenu. |
+| resource | Cela représente chaque ressource de contenu dans un module. Toutes les ressources encapsulées dans un objet « loResource » sont équivalentes en termes d’objectif d’apprentissage, mais elles diffèrent les unes des autres en termes de type de livraison ou de paramètres régionaux de contenu. |
 | userNotification | Ce modèle contient des informations de notification relatives à un élève. |
 | userSkill | UserSkill indique la proportion d’un niveau de compétence unique atteinte par un seul utilisateur. |
 | userBadge | UserBadge met en relation un badge avec un utilisateur. Il contient des détails tels que le moment où il a été atteint, assertionUrl et ainsi de suite. |
@@ -660,7 +660,7 @@ Il existe trois attributs obligatoires :
 * name : Le nom de l&#39;utilisateur.
 * userType : actuellement, seuls les utilisateurs internes peuvent être ajoutés en utilisant ce point de terminaison. Le userType doit être « INTERNAL ».
 
-La réponse suivante s’affiche :
+Vous recevrez l’objet JSON suivant :
 
 ```
 {
@@ -1257,7 +1257,7 @@ Vous obtiendrez des informations sur la progression du module dans la réponse.
 
 Lors de la mise en œuvre d’un LMS sans en-tête avec Adobe Learning Manager comme serveur principal, les organisations peuvent demander au personnel d’assistance d’emprunter l’identité des élèves pour le dépannage ou l’assistance. La méthode d’emprunt d’identité basée sur l’API garantit un accès sécurisé tout en conservant la confidentialité des informations d’identification des élèves et prend en charge des transitions transparentes dans les états de session.
 
-Adobe Learning Manager (ALM) facilite l’emprunt d’identité des élèves dans les environnements LMS sans en-tête via une API dédiée. Cette fonctionnalité permet au personnel d’assistance de confirmer temporairement l’identité d’un élève, ce qui lui permet de diagnostiquer des problèmes, de tester des fonctionnalités ou de fournir une assistance pratique en simulant l’expérience de l’élève. L’emprunt d’identité est activé à l’aide d’un jeton d’accès administrateur mis en cache, qui est utilisé pour générer par programme un jeton d’accès d’élève. Ce processus permet au système de fonctionner comme s’il était connecté en tant qu’élève.
+Adobe Learning Manager facilite l’emprunt d’identité des élèves dans les environnements LMS sans en-tête via une API dédiée. Cette fonctionnalité permet au personnel d’assistance de confirmer temporairement l’identité d’un élève, ce qui lui permet de diagnostiquer des problèmes, de tester des fonctionnalités ou de fournir une assistance pratique en simulant l’expérience de l’élève. L’emprunt d’identité est activé à l’aide d’un jeton d’accès administrateur mis en cache, qui est utilisé pour générer par programme un jeton d’accès d’élève. Ce processus permet au système de fonctionner comme s’il était connecté en tant qu’élève.
 
 >[!IMPORTANT]
 >
@@ -1318,7 +1318,7 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 
 ### Codes d’erreur
 
-Lorsque vous travaillez avec des API Adobe Learning Manager (ALM), les développeurs peuvent rencontrer différents codes d’erreur HTTP lors des demandes. Ces erreurs fournissent des commentaires importants sur ce qui s’est mal passé et comment le corriger. La compréhension de ces codes aide les développeurs à résoudre rapidement les problèmes, à améliorer la fiabilité des API et à garantir des intégrations plus fluides. Le tableau suivant fournit un guide des codes d’erreur HTTP courants renvoyés par les API ALM, ainsi que des explications et des scénarios types dans lesquels ils se produisent. Cette section est essentielle pour toute personne créant, testant ou déboguant des applications qui se connectent à ALM.
+Lorsque vous travaillez avec des API Adobe Learning Manager (Adobe Learning Manager), les développeurs peuvent rencontrer différents codes d’erreur HTTP lors des demandes. Ces erreurs fournissent des commentaires importants sur ce qui s’est mal passé et comment le corriger. La compréhension de ces codes aide les développeurs à résoudre rapidement les problèmes, à améliorer la fiabilité des API et à garantir des intégrations plus fluides. Le tableau suivant fournit un guide des codes d’erreur HTTP courants renvoyés par les API Adobe Learning Manager, ainsi que des explications et des scénarios types dans lesquels ils se produisent. Cette section est essentielle pour toute personne créant, testant ou déboguant des applications qui se connectent à Adobe Learning Manager.
 
 | état HTTP | Signification | Dépannage |
 |---|---|---|
