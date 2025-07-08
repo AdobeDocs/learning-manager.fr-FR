@@ -4,9 +4,9 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4420'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Ce manuel traite des points suivants :
 
 ## Scénarios d’utilisation de l’API
 
-Les développeurs peuvent utiliser les API Learning Manager pour améliorer ou intégrer Learning Manager à d’autres applications d’entreprise. Vous pouvez créer des applications web, de bureau ou mobiles à l’aide de n’importe quelle technologie. Les développeurs peuvent accéder aux données d’application dans Learning Manager, mais le déploiement est externe et entièrement contrôlé par vous. Les applications sont généralement développées par les organisations de clients pour leurs propres comptes, tandis que les partenaires d’Adobe peuvent créer des applications générales pour une utilisation plus large.
+Les développeurs peuvent utiliser les API Learning Manager pour améliorer ou intégrer Learning Manager à d’autres applications d’entreprise. Vous pouvez créer des applications web, de bureau ou mobiles à l’aide de n’importe quelle technologie. Les développeurs peuvent accéder aux données de Learning Manager, mais vous pouvez contrôler où et comment l’application est utilisée.
 
 ## Authentification à l’aide d’OAuth 2.0
 
@@ -79,7 +79,7 @@ Intégrez Adobe Learning Manager à des applications externes pour une plus gran
 
 Après avoir obtenu l’ID client et la clé secrète client, utilisez-les pour demander un jeton d’accès, qui est utilisé pour authentifier les appels API.
 
-Pour commencer le flux de code d’autorisation, dirigez vos utilisateurs vers l’URL suivante dans un navigateur :
+Pour commencer le flux de code d’autorisation, ajoutez l’URL suivante dans un navigateur :
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ Un jeton d’accès est valide pendant sept jours. Après sept jours, vous devez
 
 ### Obtenir des jetons d’accès pour le test et le développement
 
-Utilisez l’outil de génération de jeton Adobe Learning Manager (ALM) pour créer rapidement des jetons d’accès à des fins de test et de développement. Ces jetons sont destinés uniquement à votre usage personnel pendant les phases de développement et de débogage. Gardez à l’esprit que les jetons de test accordent l’accès à vos données ALM, il est donc essentiel de les gérer en toute sécurité. Ne partagez jamais vos jetons de test avec d’autres personnes, ne les utilisez jamais dans des applications de production et ne les incluez jamais dans des référentiels de code publics. Traitez-les comme des mots de passe pour assurer la sécurité de votre compte et de vos données.
+Lorsque vous travaillez avec des API Adobe Learning Manager (ALM), les développeurs ont besoin d’un jeton d’accès OAuth 2.0 valide pour authentifier les demandes d’API. La génération de ce jeton via le flux OAuth standard peut être complexe et prendre du temps, en particulier pour des tests, un apprentissage ou un développement rapides. Adobe Learning Manager fournit un outil de génération de jeton pour simplifier ce processus.
+
+Cet outil est idéal pendant :
+
+* Versions de validation de principe
+
+* Développement à un stade précoce
+
+* Résolution des problèmes d’intégration d’API
+
+Ces jetons sont destinés uniquement à votre usage personnel pendant les phases de développement et de débogage. Gardez à l’esprit que les jetons de test accordent l’accès à vos données ALM, il est donc essentiel de les gérer en toute sécurité. Ne partagez jamais vos jetons de test avec d’autres personnes, ne les utilisez jamais dans des applications de production et ne les incluez jamais dans des référentiels de code publics. Traitez-les comme des mots de passe pour assurer la sécurité de votre compte et de vos données.
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
 2. Sélectionnez **[!UICONTROL Ressources pour le développeur]**, puis **[!UICONTROL Sélectionner des jetons d’accès pour le test et le développement]**.
@@ -444,7 +454,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2&rbrace;]**
+**décalage de page[2}]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 
