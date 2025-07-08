@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Ajout d’utilisateurs dans Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 60c171374e4a6b15d92907ae441fc63ba6ee4743
+source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -239,7 +239,7 @@ Il existe quelques différences entre les enregistrements internes et externes :
 | Utilisateurs internes | Utilisateurs externes |
 |---|---|
 | Connexion possible à l’aide des identifiants Adobe ID ou SSO. | Connexion possible avec n’importe quel ID de messagerie. |
-| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/gamification). |
+| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Suspendre le profil d&#39;inscription externe
 
@@ -341,4 +341,5 @@ Pour supprimer des rôles d’utilisateurs :
    _Option permettant de supprimer les rôles attribués d&#39;un utilisateur dans le menu Actions_
 
 4. Sélectionnez **Oui** dans la boîte de dialogue de confirmation.
+
 
