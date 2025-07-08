@@ -4,9 +4,9 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4375'
+source-wordcount: '4396'
 ht-degree: 6%
 
 ---
@@ -22,8 +22,8 @@ Ce manuel traite des points suivants :
 
 * Authentification OAuth2.0
 * Modèles d’objet API
-* Indique comment utiliser les paramètres include, fields et autres
-* Fournit des points de terminaison pour les cas d’utilisation réels
+* Inclure, champs et autres paramètres
+* Cas d’utilisation réels
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Pour accéder aux API Adobe Learning Manager en toute sécurité, vous devez vou
 
 ### Enregistrement d’une application
 
-Intégrez Adobe Learning Manager à des applications externes pour une plus grande polyvalence. Les étapes impliquent l’accès à l’interface Integration Administrator, l’enregistrement de l’application et l’obtention de l’ID client et du secret. Générer des jetons d’authentification (OAuth, Actualiser et Jetons d’accès) à partir d’ALM, en mettant l’accent sur l’utilisation du framework OAuth 2.0 pour l’authentification et l’autorisation. Le jeton d’accès a une validité de sept jours.
+Intégrez Adobe Learning Manager à des applications externes pour une plus grande polyvalence. Les étapes impliquent l’accès à l’interface Integration Administrator, l’enregistrement de l’application et l’obtention de l’ID client et du secret. Générez des jetons d’authentification OAuth 2.0, y compris des jetons d’autorisation, d’actualisation et d’accès, à partir de Adobe Learning Manager. Utilisez le flux OAuth 2.0 pour authentifier et autoriser votre application en toute sécurité. Le jeton d’accès a une validité de sept jours.
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
 2. Sélectionnez **[!UICONTROL Applications]** dans le volet de gauche.
@@ -174,7 +174,7 @@ Comme précédemment, le jeton d’accès pour les tests expire dans sept jours.
 
 ### Utiliser un outil API pour tester les points de terminaison
 
-Bien que vous puissiez utiliser n’importe quel outil de test d’API tiers, nous utiliserons Postman pour tester les points de terminaison. Les exemples de ce document utilisent Postman pour les tests de point de terminaison.
+Bien que vous puissiez utiliser n’importe quel outil de test d’API tiers, nous utiliserons Postman pour tester les points de terminaison. Les exemples de ce document utilisent Postman pour tester les points de terminaison.
 
 1. Ouvrez Postman et créez une nouvelle demande.
 2. Sélectionnez l’onglet Autorisation.
@@ -264,7 +264,7 @@ Principaux avantages :
 
 **Utilisation du paramètre include**
 
-Ajoutez le paramètre include à votre URL d’API et spécifiez les entités associées à inclure.
+Ajoutez le paramètre include à votre URL API et spécifiez les entités associées à inclure.
 
 **Chemins d’inclusion courants**
 
@@ -283,7 +283,7 @@ Ajoutez le paramètre include à votre URL d’API et spécifiez les entités as
 
 **Exemple 1**
 
-Récupérer les détails d’un utilisateur à l’aide du paramètre userID dans le point de terminaison
+Récupérez les détails d’un utilisateur à l’aide du paramètre userID dans le point de terminaison.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -444,7 +444,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2&rbrace;]**
+**décalage de page[2}]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 
@@ -521,7 +521,7 @@ Les API Adobe Learning Manager permettent aux développeurs d’accéder aux obj
 | userBadge | UserBadge met en relation un badge avec un utilisateur. Il contient des détails tels que le moment où il a été atteint, assertionUrl et ainsi de suite. |
 | skill | Le modèle de compétences se compose de niveaux et de crédits. Les compétences peuvent être acquises par les élèves après la fin du cours concerné. |
 | skillLevel | Un niveau de compétence comprend un ou plusieurs cours à suivre pour acquérir un niveau ainsi que les crédits associés. |
-| learningObject | Un objet d’apprentissage est une abstraction pour différents types d’objets auxquels les utilisateurs peuvent s’inscrire et desquels ils peuvent apprendre. Actuellement, Learning Manager propose les quatre types d’objets d’apprentissage : cours, certification, programme d’apprentissage et assistance à la tâche. |
+| learningObject | Un objet d’apprentissage est une abstraction pour différents types d’objets auxquels les utilisateurs peuvent s’inscrire et auprès desquels ils peuvent apprendre. Actuellement, Learning Manager propose les quatre types d’objets d’apprentissage : cours, certification, programme d’apprentissage et assistance à la tâche. |
 | learningObjectInstance | Instance spécifique d’un objet d’apprentissage. |
 | learningObjectResource | Cela équivaut au concept de module. Un cours est composé d’un ou plusieurs modules. Dans Learning Manager, un module peut être fourni de diverses manières équivalentes. Par conséquent, loResource encapsule essentiellement toutes ces ressources équivalentes. |
 | loResourceGrade | Cet objet encapsule le résultat de l’utilisateur qui consomme une ressource spécifique dans le contexte d’un objet d’apprentissage auquel il est inscrit. Il contient des informations telles que la durée passée par l’utilisateur dans la ressource, le pourcentage de progression effectué par l’utilisateur, le statut Réussite/Échec et le score obtenu par l’utilisateur dans tout quiz associé. |
@@ -841,8 +841,11 @@ Cela signifie que l’utilisateur externe a été ajouté à Adobe Learning Mana
 
 ### Extraire le rapport d’utilisateur avec l’ID utilisateur et les détails du responsable
 
-Un rapport utilisateur peut être téléchargé directement à partir de l&#39;interface utilisateur (**[!UICONTROL Administrateur]** > **[!UICONTROL Utilisateurs]** > **[!UICONTROL Interne]**). Cependant, le rapport ne renvoie pas l’ID utilisateur et les détails du responsable associé.
-À l’aide de l’API Jobs d’un administrateur, vous pouvez récupérer les détails.
+Un rapport utilisateur peut être téléchargé directement à partir de l&#39;interface utilisateur de l&#39;administrateur (**[!UICONTROL Administrateur]** > **[!UICONTROL Utilisateurs]** > **[!UICONTROL Interne]**). Cependant, le rapport ne renvoie pas l’ID utilisateur et les détails du responsable associé.
+
+Utilisez l’API Jobs pour télécharger le rapport. L’API Jobs permet de générer des rapports, des opérations en bloc (inscriptions ou affectations de badge), des terminaisons de certification ou la génération de badges.
+
+Voici comment télécharger le rapport :
 
 1. Ajoutez la payload suivante à l’API Jobs.
 
