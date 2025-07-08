@@ -2,13 +2,13 @@
 description: Découvrez comment créer et gérer des groupes d’utilisateurs dans Adobe Learning Manager. Découvrez comment le regroupement d’utilisateurs vous aide à attribuer des cours, à suivre la progression et à automatiser efficacement les workflows d’apprentissage.
 jcr-language: en_us
 title: Gestion des groupes d’utilisateurs dans Adobe Learning Manager | Organiser et affecter des élèves
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
-
 
 # Groupes d’utilisateurs dans Adobe Learning Manager
 
@@ -153,7 +153,7 @@ Pour supprimer un groupe d’utilisateurs :
    ![](assets/delete-a-group.png)
    _Option Supprimer dans le menu Actions pour supprimer un groupe d&#39;utilisateurs_
 
-4. Confirmez la suppression lorsque vous y êtes invité. Le groupe d’utilisateurs sera supprimé de Adobe Learning Manager.
+4. Confirmez la suppression lorsque vous y êtes invité. Le groupe d’utilisateurs sera supprimé.
 
 ## Télécharger le rapport de groupe d’utilisateurs
 

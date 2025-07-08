@@ -4,7 +4,7 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4375'
 ht-degree: 6%
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **Autres filtres inclus**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>Programmes d’apprentissage</b></p></td>
@@ -406,6 +406,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>auteurs</br><br>instances.loResources.resources</br><br>additionalLOs.instances.loResources.resources</br><br>additionalResources</br><br>instances.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instances.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
   </td>
   </tr>
+  </table>
 
 #### champs
 
@@ -443,7 +444,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2&rbrace;]**
+**décalage de page[2}]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 

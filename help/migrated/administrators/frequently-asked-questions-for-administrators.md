@@ -4,9 +4,9 @@ title: Forum aux questions pour les administrateurs
 description: Forum aux questions pour les administrateurs Adobe Learning Manager
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 52%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++ Puis-je ajouter des utilisateurs en bloc ? Comment ?
 
-Oui, vous pouvez ajouter plusieurs utilisateurs simultanément à l’aide de la fonction de téléchargement CSV. Cliquez [ici](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) pour plus d&#39;informations.
+Oui, vous pouvez ajouter plusieurs utilisateurs simultanément à l’aide de la fonction de téléchargement CSV. Reportez-vous à cet [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) pour plus d&#39;informations.
 
 +++
 
@@ -257,7 +257,7 @@ Vous pouvez passer votre connexion de compte à d’autres rôles tels qu’Él�
 Les responsables, les auteurs et les élèves peuvent voir les notifications en fonction des activités de cours. L’administrateur peut activer ou désactiver les notifications pour tous les utilisateurs en suivant les étapes ci-dessous :
 
 1. Cliquez sur Modèles de courrier électronique dans le volet de gauche et sélectionnez Général, Inscriptions des utilisateurs, Terminaisons et Commentaires.
-1. Parmi les événements répertoriés ci-dessous, cliquez sur les boutons bascule Non/Oui en regard de **chaque &#x200B;** événement et choisissez Oui pour activer la notification. Cliquez sur Non pour désactiver l’envoi de notifications pour un événement particulier.
+1. Parmi les événements répertoriés ci-dessous, cliquez sur les boutons bascule Non/Oui en regard de chaque événement et choisissez Oui pour activer la notification. Cliquez sur Non pour désactiver l’envoi de notifications pour un événement particulier.
 
 +++
 

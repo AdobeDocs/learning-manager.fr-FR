@@ -2,13 +2,13 @@
 description: Découvrez comment utiliser les champs actifs dans Adobe Learning Manager pour capturer, organiser et gérer des informations utilisateur personnalisées. Améliorez la création de rapports, le filtrage et la segmentation des utilisateurs grâce à des configurations de champs flexibles.
 jcr-language: en_us
 title: Configuration des champs actifs dans Adobe Learning Manager
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
-
 
 # Champs actifs
 
@@ -122,6 +122,4 @@ Dans certains cas, les administrateurs préfèrent que les élèves remplissent 
 
 Si un fichier CSV ne comprend pas tous les champs actifs, l’administrateur doit saisir manuellement les valeurs manquantes après l’importation.
 
-Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/connectors) pour plus d&#39;informations sur les connecteurs.
-
-
+Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Consultez cet [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) pour plus d&#39;informations sur les connecteurs.
