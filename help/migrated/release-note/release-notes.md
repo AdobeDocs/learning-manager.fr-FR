@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 6e26d7c8757eeebe9c34d60aa4cfeafbffb84da9
 workflow-type: tm+mt
-source-wordcount: '27129'
-ht-degree: 70%
+source-wordcount: '27298'
+ht-degree: 69%
 
 ---
 
@@ -101,6 +101,22 @@ Lorsqu&#39;un administrateur clique sur **[!UICONTROL Mettre à jour]**, il peut
 _Content update options_-->
 
 Reportez-vous à cet [article](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course) pour plus d&#39;informations sur la bibliothèque de contenu.
+
+## Améliorations dans le lecteur Fluidic
+
+Cette version apporte un lecteur Fluidic actualisé à Adobe Learning Manager avec un aspect moderne et une expérience d’apprentissage plus intuitive. Le lecteur mis à jour comprend une interface plus propre, des commandes de navigation améliorées et une conception cohérente sur les ordinateurs de bureau et les appareils mobiles. Les élèves peuvent facilement accéder au contenu et interagir avec celui-ci dans n’importe quel mode d’écran, y compris les vues Portrait, Paysage, Plein écran ou Standard.
+
+* **Habillage du lecteur Fluidic actualisé** : un look modernisé avec des éléments d’interface utilisateur mis à jour.
+* **Commandes de navigation améliorées** : navigation plus fluide et plus intuitive pour une meilleure expérience d&#39;apprentissage.
+* **Conception optimisée** : l’apparence et la convivialité améliorées sur les ordinateurs de bureau et les appareils mobiles prennent en charge les modes Portrait, Paysage, Plein écran et Écran standard.
+
+Tous les élèves qui accèdent au contenu via Adobe Learning Manager, qu’ils utilisent l’expérience native ou sans en-tête, verront automatiquement ces nouvelles améliorations de l’interface utilisateur et de la navigation. Les élèves peuvent remarquer un léger changement dans leur façon d&#39;interagir avec le lecteur en raison de la mise en page et des commandes mises à jour.
+
+>[!NOTE]
+>
+>Cette amélioration est disponible uniquement pour le contenu statique.
+
+Reportez-vous à cet [article](/help/migrated/learners/feature-summary/fluidic-player.md) pour plus d&#39;informations sur le lecteur Fluidic.
 
 ## Bogue corrigé dans cette version
 
@@ -1149,7 +1165,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 * Le téléchargement des ressources d&#39;un cours ne fonctionnait pas s&#39;il était dupliqué à partir d&#39;un autre cours et que l&#39;élève n&#39;avait pas accès au cours original utilisé pour créer un double.
 * Les images de bannière ne sont pas supprimées lorsque l’auteur les supprime d’un cours à l’état de brouillon. Ce problème a été résolu.
 
-**AEM &#x200B;**
+**AEM **
 
 * Après l&#39;insertion du composant Learning Manager dans AEM, le chargement de la page prenait beaucoup de temps, empêchant ainsi l&#39;accès aux autres composants. Ce problème a été résolu.
 
@@ -1232,7 +1248,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 >[!NOTE]
 >
->Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.**&#x200B;**
+>Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.****
 
 +++
 
@@ -1583,7 +1599,7 @@ Dans cette mise à jour, un élève peut charger des actifs comme justificatif d
 
 Un élève peut ouvrir un certificat externe et charger des actifs, tels que des fichiers PDF, texte ou image.
 
-Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problèmes résolus dans cette version {#issuesfixedinthisrelease}
 
@@ -1961,7 +1977,7 @@ Date de publication : 20 juin 2019
 
 **Auto-curation du contenu**
 
-L&#39;apprentissage par les réseaux sociaux permet au contenu publié par les élèves d&#39;être conservé de deux manières, à savoir : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d&#39;informations, voir *[**&#x200B; Curation à assistance automatique &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L&#39;apprentissage par les réseaux sociaux permet au contenu publié par les élèves d&#39;être conservé de deux manières, à savoir : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d&#39;informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappage de compétences avec les domaines de compétence**
 
@@ -2585,7 +2601,7 @@ Date de publication : 6 décembre 2016.
 
 ### Amélioration {#enhancement}
 
-Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/# !/user/patch_users_id) pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l&#x200B;**&#x200B;**&#x200B;aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
+Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/# !/user/patch_users_id) pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l****aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
 
 * Nom
 * Courrier électronique
@@ -3095,7 +3111,7 @@ L’exportation des données d’inscription échouait si l’un des élèves in
 
 **Modèles de courrier électronique**
 
-* Le mot **partenaires,** utilisé pour représenter des groupes externes **&#x200B;**&#x200B;est **&#x200B;**&#x200B;supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
+* Le mot **partenaires,** utilisé pour représenter des groupes externes **** est **** supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
   **Remarque :** ce modèle mis à jour n&#39;apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Revenir à l&#39;original** dans la boîte de dialogue **Aperçu du modèle**.
 
 * L&#39;URL n&#39;est pas cliquable dans le courrier électronique reçu par les administrateurs chaque fois que les modèles de courrier électronique **Profil créé(auto-inscription)** et **Profil créé(externe/partenaires)** sont modifiés. Ce problème a été résolu.
