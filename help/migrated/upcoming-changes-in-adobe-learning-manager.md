@@ -2,9 +2,9 @@
 title: Changements à venir dans Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes qui seront bientôt disponibles sur Adobe Learning Manager. Tenez-vous informé des changements afin de pouvoir planifier et tirer le meilleur parti des dernières améliorations.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
+source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '667'
 ht-degree: 2%
 
 ---
@@ -109,3 +109,5 @@ Les administrateurs personnalisés peuvent créer des annonces uniquement pour l
 
 * Le format du rapport restera inchangé. Si des administrateurs personnalisés le téléchargent à partir de l’interface utilisateur, le contenu du rapport est soumis à leur portée.
 * Aucune modification n’est nécessaire si ce rapport n’est utilisé dans aucun workflow automatisé ou en aval.
+
+Consultez l&#39;article [Notes de mise à jour](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) pour obtenir une liste cumulée des nouvelles fonctionnalités et des modifications apportées à Adobe Learning Manager.
