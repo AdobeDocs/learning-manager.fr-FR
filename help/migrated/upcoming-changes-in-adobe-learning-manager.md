@@ -110,4 +110,4 @@ Les administrateurs personnalisés peuvent créer des annonces uniquement pour l
 * Le format du rapport restera inchangé. Si des administrateurs personnalisés le téléchargent à partir de l’interface utilisateur, le contenu du rapport est soumis à leur portée.
 * Aucune modification n’est nécessaire si ce rapport n’est utilisé dans aucun workflow automatisé ou en aval.
 
-Consultez l&#39;article [Notes de mise à jour](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) pour obtenir une liste cumulée des nouvelles fonctionnalités et des modifications apportées à Adobe Learning Manager.
+Consultez l&#39;article [Notes de mise à jour](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/release-notes) pour obtenir une liste cumulée des nouvelles fonctionnalités et des modifications apportées à Adobe Learning Manager.

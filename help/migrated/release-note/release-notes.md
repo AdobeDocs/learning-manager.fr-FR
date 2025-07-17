@@ -122,7 +122,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/fluidic-p
 
 * Correction d’un problème en raison duquel les élèves qui avaient terminé un cours voyaient un écran blanc lors de la consultation de celui-ci après la mise à jour du module de contenu vers une nouvelle version.
 
-En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
