@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Configuration d’un compte d’évaluation, Sandbox ou de test dans Adobe Learning Manager
 description: Découvrez comment créer un compte d’évaluation ou sandbox gratuit de 30 jours dans Adobe Learning Manager. Suivez des étapes simples pour configurer votre environnement de test et commencer rapidement.
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
+source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # Création d’un compte d’évaluation dans Adobe Learning Manager
 
@@ -40,3 +40,4 @@ Pour créer un compte d’évaluation :
 7. Après la configuration, recherchez votre ID de compte dans l’URL de votre URL Adobe Learning Manager.
 
    ![](assets/account-id-trial.png)
+
