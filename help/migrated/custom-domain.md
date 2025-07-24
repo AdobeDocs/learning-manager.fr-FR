@@ -4,10 +4,10 @@ title: Prise en charge du domaine personnalisé
 description: Les domaines personnalisés ne sont pas pris en charge dans une instance Azure de Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 67%
+source-wordcount: '459'
+ht-degree: 65%
 
 ---
 
@@ -32,6 +32,7 @@ La fonctionnalité de domaine personnalisé est disponible moyennant des frais s
 
 * Pour le rôle d’élève, le domaine commencera par `https://cdn.<customer_custom_domain>/`. Par exemple, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Pour tous les autres rôles, le domaine commencera par `https://<customer_custom_domain>/`. Par exemple, `https://elearningstage1.cpdomaintest.in/`
+* L&#39;URL de connexion réelle sera `https://<customer_custom_domain>/acapindex` ou `https://<customer_custom_domain>/login`. Remplacez `<customer_custom_domain>` par le domaine réel de votre organisation.
 
 `<customer_custom_domain>` est la partie personnalisable.
 

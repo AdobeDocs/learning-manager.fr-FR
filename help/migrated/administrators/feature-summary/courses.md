@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5673'
 ht-degree: 52%
 
 ---
@@ -243,7 +243,7 @@ Si un élève qui se trouvait auparavant dans l’état d’approbation en atten
 
 À l&#39;aide de la fonction d&#39;inscription en masse de Adobe Learning Manager, les administrateurs peuvent inscrire efficacement de grands groupes d&#39;élèves à des cours, des certifications ou des programmes d&#39;apprentissage en chargeant un fichier CSV. Ce processus permet de gagner du temps, assure la cohérence et prend en charge l’évolutivité organisationnelle. En outre, les administrateurs et les instructeurs peuvent mettre à jour les informations sur les élèves, la présence et les achèvements en bloc via des chargements CSV, ce qui réduit le travail manuel et garantit l’exactitude des données.
 
-Vous pouvez utiliser le même format de fichier CSV pour l’inscription, l’assiduité et l’achèvement. Saisissez simplement les ID de messagerie des élèves dans la colonne « E-mail » et enregistrez le fichier avec un nom basé sur l’action, par exemple bulk_enrollment.csv, bulk_assiduité.csv ou bulk_completion.csv. Seul le format CSV est pris en charge. Le format UTF-8 n’est pas pris en charge. Téléchargez l&#39;exemple de fichier csv [ici](assets/Sample-Bulk-Action-CSV.csv).
+Vous pouvez utiliser le même format de fichier CSV pour l’inscription, l’assiduité et l’achèvement. Saisissez simplement les ID de messagerie des élèves dans la colonne « E-mail » et enregistrez le fichier avec un nom basé sur l’action, par exemple bulk_enrollment.csv, bulk_assiduité.csv ou bulk_completion.csv. Seul le format CSV est pris en charge. Le format UTF-8 n’est pas pris en charge. Téléchargez l&#39;[exemple de fichier csv](assets/Sample-Bulk-Action-CSV.csv).
 
 ### Inscription d’élèves par lot à l’aide d’un fichier .csv
 
