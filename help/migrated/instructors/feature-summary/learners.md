@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ Vous pouvez voir le nombre d’élèves confirmés qui assistent à la session, 
 
    ![](assets/markattendance.png)
    *Marquer l’élève comme participant*
+
+## Marquer le succès pour les élèves
+
+Les instructeurs peuvent marquer le statut de réussite de chaque élève comme Réussite ou Échec directement à partir de la page Élèves. Cette fonctionnalité permet aux instructeurs d’enregistrer avec précision les résultats des sessions de salle de classe ou de classe virtuelle en fonction des performances de l’élève.
+
+Pour marquer le succès pour les élèves :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’instructeur.
+2. Sélectionnez **[!UICONTROL Sessions à venir]** dans le volet de navigation de gauche.
+3. Sélectionnez **[!UICONTROL Élèves]**.
+4. Sélectionnez les élèves, puis **[!UICONTROL Actions]**.
+5. Sélectionnez l’une des options suivantes pour indiquer la réussite des élèves sélectionnés :
+
+   * **[!UICONTROL Marquer comme Terminé et Réussite]** : les élèves marqués comme Réussis ont terminé le module.
+   * **[!UICONTROL Marquer comme terminé et échec]** : les élèves marqués comme ayant échoué ont terminé le module mais n&#39;ont pas réussi.
+
+   ![Le menu déroulant Actions mettant en évidence les options « Marquer comme Terminé avec succès » et « Marquer comme Terminé avec échec » permet aux instructeurs de définir l’état de réussite de chaque élève](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _Page Élèves affichant le menu Actions avec les options Marquer comme Terminé et Réussite et Marquer comme Terminé et Échec mises en évidence pour enregistrer les résultats de l&#39;élève_
+
+6. Sélectionnez **[!UICONTROL Oui]** dans l&#39;invite de confirmation.
 
 ## Envoyer des courriers électroniques à des élèves {#sendemailstolearners}
 

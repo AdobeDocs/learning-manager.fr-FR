@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -600,6 +600,26 @@ Sur cette page, saisissez les informations suivantes :
 
 1. Pour republier le cours avec les mises à jour, cliquez sur **[!UICONTROL Republier]**.
 
+### Autoriser les instructeurs à indiquer le succès
+
+Adobe Learning Manager permet aux instructeurs de marquer l’état de réussite des élèves dans une salle de classe ou un module de classe virtuelle. Les auteurs peuvent autoriser les instructeurs à marquer le statut de réussite des élèves lors de la création de modules de salle de classe ou de salle de classe virtuelle. Les instructeurs peuvent marquer la réussite en marquant un élève comme Réussi ou Échec, ce qui garantit que la progression est mise à jour en conséquence.
+
+Pour permettre aux instructeurs de marquer la réussite de l’élève :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’auteur.
+2. Sélectionnez **[!UICONTROL Créer des cours]** sur la page d&#39;accueil.
+3. Sélectionnez **[!UICONTROL Ajouter]**.
+4. Saisissez les détails nécessaires et sélectionnez **[!UICONTROL Ajouter des modules]**.
+5. Sélectionnez **[!UICONTROL Module Salle de classe virtuelle]** ou **[!UICONTROL Module Salle de classe]**.
+6. Saisissez les détails nécessaires et sélectionnez les dates.
+7. Sélectionnez l&#39;option **[!UICONTROL Autoriser l&#39;instructeur à marquer le succès]**.
+
+   ![Autoriser l’instructeur à indiquer le succès ? la case est cochée, permettant aux auteurs d&#39;autoriser les instructeurs à enregistrer l&#39;état de réussite de l&#39;élève pour un module](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _Écran Détails de la session avec l’option Autoriser l’instructeur à marquer le succès mise en évidence pour les modules de salle de classe ou de classe virtuelle_
+
+8. Sélectionnez **[!UICONTROL Terminé]**.
+
+
 ## Liste de contrôle d’observation
 
 Un module Liste de contrôle peut désormais être examiné par les responsables en plus des instructeurs. Les responsables de personnes, ainsi que les responsables non hiérarchiques tels que les responsables de magasins ou les responsables de sites, peuvent consulter et compléter la liste de contrôle.
@@ -805,7 +825,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 
@@ -850,7 +870,7 @@ Lorsque les cours sont définis comme obligatoires :
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-+++Comment supprimer « rechercher la nomination du responsable » pour un cours ?
++++Comment supprimer l’option « rechercher la nomination du responsable » pour un cours ?
 
 Procédez comme suit :
 
@@ -863,7 +883,7 @@ Procédez comme suit :
 
 +++
 
-+++Comment combiner des cours ?
++++Comment combiner plusieurs cours ?
 
 Vous pouvez combiner plusieurs cours au moyen d’un programme d’apprentissage.
 
@@ -882,7 +902,7 @@ Vous pouvez uniquement ajouter dans un programme d’apprentissage des cours aut
 
 +++
 
-+++Comment s’assurer que tous les élèves ne peuvent pas voir tous les cours ?
++++Comment s’assurer que tous les élèves ne peuvent pas afficher tous les cours ?
 
 Vous pouvez utiliser des catalogues à cet effet. Un catalogue par défaut contient tous les cours ajoutés à Learning Manager par défaut.
 
@@ -903,13 +923,13 @@ Vous devez désactiver le catalogue par défaut et créer des catalogues personn
 
 +++
 
-+++Comment se réinscrire à un cours terminé ?
++++Comment se réinscrire à un cours terminé ?
 
 L’achèvement d’un cours ne peut pas être annulé. Un élève **ne peut pas être réinscrit** à un cours terminé.
 
 +++
 
-+++Comment les élèves peuvent-ils afficher le cours même après l’avoir terminé ?
++++Comment les élèves peuvent-ils afficher un cours même après l’avoir terminé ?
 
 Un élève peut afficher un cours après l’avoir terminé en cliquant sur le bouton Revoir dans le cours.
 
@@ -921,15 +941,15 @@ Procédez comme suit :
 
 +++
 
-+++Comment ajouter un fichier de ressources dans le cours ?
++++Comment ajouter un fichier de ressources dans le cours ?
 
-Lors de la création d’un cours, vous pouvez ajouter des fichiers vidéo, audio, PDF ou texte pertinents au cours afin que l’élève puisse accéder à d’autres ressources de formation.
+Lors de la création d’un cours, vous pouvez ajouter des fichiers vidéo, audio, PDF ou texte pertinents au cours afin que l’élève puisse accéder à d&#39;autres ressources de formation.
 
 ![](assets/add-resources.png)
 
 +++
 
-+++Comment définir plusieurs tentatives sur le module ?
++++Comment définir plusieurs tentatives sur le module ?
 
 **Prérequis :** l&#39;administrateur doit activer l&#39;option **Tentatives multiples** dans **Paramètres > Général** dans l&#39;application d&#39;administration.
 
@@ -939,7 +959,7 @@ Pour plus d’informations, reportez-vous à la [section sur les tentatives mult
 
 +++
 
-+++Pouvez-vous télécharger le contenu qui a été chargé sur Adobe Learning Manager pour le modifier ?
++++Est-il possible de télécharger le contenu qui a été chargé sur Adobe Learning Manager pour le modifier ?
 
 Non, le contenu chargé sur Learning Manager est un fichier zip publié et n’est pas le fichier source. Par conséquent, même si le contenu est téléchargé, il ne peut pas être modifié dans un outil de création. Un fichier source est nécessaire pour modifier le contenu.
 
