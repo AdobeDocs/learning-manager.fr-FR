@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
 source-wordcount: '7433'
 ht-degree: 70%
@@ -507,12 +507,6 @@ Les auteurs peuvent ajouter des liens de HTML dans le module d’activité et d�
 
 1. Sélectionnez **[!UICONTROL Ajouter]** et publiez le cours.
 
-## Liste de contrôle {#create-checklist}
-
-L’évaluation est un aspect important de tout système de gestion de l’apprentissage. Les évaluations en ligne sont l&#39;un des principaux moyens d&#39;évaluer la compréhension d&#39;un élève sur un sujet. Mais souvent, il est nécessaire d&#39;évaluer la compréhension d&#39;une personne pendant qu&#39;elle est au travail en l&#39;observant effectuer les tâches nécessaires.
-
-Prenons l’exemple des employés d’un magasin ou d’un entrepôt qui font l’objet d’une évaluation pour les tâches qu’ils sont censés effectuer jour après jour. Il peut s’agir des étapes effectuées pour réparer une machine à café ou pour emballer un matériau. Les instructeurs peuvent évaluer les employés pour de telles tâches à partir d&#39;une liste de contrôle et les définir comme une réussite ou un échec dans l&#39;activité d&#39;évaluation.
-
 ### Remplacement des modules dans les cours publiés
 
 Adobe Learning Manager fournit aux auteurs des outils pour créer, modifier et gérer des cours composés de plusieurs modules de contenu. Lorsque le contenu du cours doit être mis à jour ou amélioré, les auteurs peuvent remplacer les modules existants sans perturber la progression de l’élève.
@@ -530,6 +524,12 @@ Pour remplacer les modules :
 8. Sélectionnez **[!UICONTROL Republier]**.
 
 Les élèves conserveront leur progression dans d&#39;autres modules, mais devront terminer le nouveau module pour terminer le cours.
+
+## Liste de contrôle {#create-checklist}
+
+L’évaluation est un aspect important de tout système de gestion de l’apprentissage. Les évaluations en ligne sont l&#39;un des principaux moyens d&#39;évaluer la compréhension d&#39;un élève sur un sujet. Mais souvent, il est nécessaire d&#39;évaluer la compréhension d&#39;une personne pendant qu&#39;elle est au travail en l&#39;observant effectuer les tâches nécessaires.
+
+Prenons l’exemple des employés d’un magasin ou d’un entrepôt qui font l’objet d’une évaluation pour les tâches qu’ils sont censés effectuer jour après jour. Il peut s’agir des étapes effectuées pour réparer une machine à café ou pour emballer un matériau. Les instructeurs peuvent évaluer les employés pour de telles tâches à partir d&#39;une liste de contrôle et les définir comme une réussite ou un échec dans l&#39;activité d&#39;évaluation.
 
 ### Créer une liste de contrôle {#createachecklist}
 
@@ -843,7 +843,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

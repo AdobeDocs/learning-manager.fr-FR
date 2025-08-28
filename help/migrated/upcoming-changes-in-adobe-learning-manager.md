@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’octobre de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’octobre 2025 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7012876539448af3433273f369011e3e0bd07407
+source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
 workflow-type: tm+mt
-source-wordcount: '8104'
+source-wordcount: '8390'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,50 @@ d. **[!UICONTROL Comme e-mail]**
 8. Sélectionnez **[!UICONTROL Enregistrer]**.
 
 Seuls les élèves relevant de la portée de l’administrateur personnalisé pourront afficher l’annonce. Consultez cet [article](/help/migrated/administrators/feature-summary/announcements.md) pour apprendre à créer plusieurs types d&#39;annonces.
+
+### Réinitialiser l’étendue par les administrateurs personnalisés
+
+Les administrateurs personnalisés peuvent réinitialiser la portée de leurs annonces publiées si un administrateur a modifié la portée de celles-ci. Une fois la portée réinitialisée, la portée mise à jour sera appliquée à l’annonce et seuls les élèves de la nouvelle portée pourront voir l’annonce.
+
+Pour réinitialiser l’étendue :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur personnalisé.
+2. Sélectionnez **[!UICONTROL Annonce]** dans le volet de navigation de gauche.
+3. Sélectionnez l&#39;onglet **[!UICONTROL Publié]**.
+4. Sélectionnez une annonce, puis cliquez sur l’icône des paramètres.
+5. Sélectionnez **[!UICONTROL Modifier]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Écran d’annonce affichant les annonces publiées avec les options Modifier, Publier et autres_
+
+6. Sélectionnez **Réinitialiser**.
+
+   ![](assets/reset-the-scope.png)
+   _Annonce affichant une notification de modification de la portée, avec une option permettant aux administrateurs personnalisés de réinitialiser et de mettre à jour la sélection de la portée pour refléter les nouvelles autorisations d&#39;accès_
+
+La portée sera mise à jour et seuls les utilisateurs de la portée mise à jour pourront afficher l&#39;annonce.
+
+### Modifier l’annonce via l’interface utilisateur de l’administrateur
+
+Les administrateurs peuvent afficher les annonces créées par les administrateurs personnalisés via leur interface. Ils peuvent modifier ces annonces uniquement en modifiant ou en supprimant la portée affectée. Si aucune modification de la portée n’est apportée, les administrateurs ne peuvent pas apporter d’autres modifications à l’annonce.
+
+Pour modifier l&#39;annonce via l&#39;interface utilisateur de l&#39;administrateur :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Sélectionnez **[!UICONTROL Annonce]** dans le volet de navigation de gauche.
+3. Sélectionnez l&#39;onglet **[!UICONTROL Publié]**.
+4. Sélectionnez une annonce, puis cliquez sur l’icône des paramètres.
+5. Sélectionnez **[!UICONTROL Modifier]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Écran d’annonce affichant les annonces publiées avec les options Modifier, Publier et autres_
+
+6. Sélectionnez **[!UICONTROL Supprimer]**.
+
+   ![](assets/remove-the-scope.png)
+   _Écran d&#39;annonce indiquant que la portée doit être supprimée pour permettre aux administrateurs de modifier les annonces créées pour les groupes d&#39;utilisateurs dont la portée est limitée_
+
+L’administrateur peut modifier l’annonce après avoir supprimé l’étendue.
 
 ## Balisage des utilisateurs dans les forums de réseaux sociaux
 
@@ -834,15 +878,13 @@ L’API crée ou met à jour l’état de l’objet d’apprentissage pour les p
 
 **Présentation**
 
-L’intégration Go1 a été améliorée pour prendre en charge la gestion des listes de lecture, la création de parcours d’apprentissage et les workflows de certification récurrents, tout en passant à un modèle de contenu de prévisualisation et d’achat.
+L’intégration Go1 est améliorée pour permettre la curation directe des cours Go1 pour la création de programmes d’apprentissage (LP) dans Adobe Learning Manager. Cette mise à jour prend en charge l’inclusion de cours Go1 dans les certifications récurrentes et introduit une nouvelle version de l’expérience du hub de contenu Go1, permettant une curation plus efficace des cours.
 
 **Nouveautés**
 
 * Créez et gérez des listes de lecture directement dans Go1 à l’aide de l’assistance par chat IA ou de la sélection manuelle.
-* Convertissez facilement des listes de lecture Go1 en parcours d’apprentissage Adobe Learning Manager.
 * Incluez les cours Go1 dans les cycles de certification récurrents avec réinitialisation automatique de la progression.
 * Interface de découverte de contenu mise à niveau pour améliorer la navigation et la curation du contenu.
-* Transition du contenu gratuit au modèle de coût transparent.
 
 **Principaux avantages**
 
@@ -863,29 +905,32 @@ L’intégration Go1 a été améliorée pour prendre en charge la gestion des l
 * Programmes de formation axés sur la conformité nécessitant des mises à jour régulières du contenu et des cycles de livraison.
 * Les équipes d&#39;apprentissage cherchent à réduire les frais généraux de curation du contenu grâce à l&#39;assistance par IA.
 
-### Création d’une liste de lecture Go1
+### Ajouter une liste de lecture Go1 à un parcours d’apprentissage
 
-Les administrateurs peuvent créer des listes de lecture avec des cours Go1 adaptés à différents groupes d&#39;élèves en fonction de l&#39;emplacement, du rôle, du produit et d&#39;autres critères. Les listes de lecture peuvent être créées manuellement ou générées à l’aide de l’IA.
+Les administrateurs peuvent créer un parcours d’apprentissage qui comprend une liste de lecture Go1, afin que les élèves puissent accéder aux cours tiers sélectionnés dans le cadre de leur formation.
 
-Pour créer une liste de lecture :
+Pour créer un parcours d’apprentissage :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
-2. Sélectionnez **[!UICONTROL Marché de contenus]** dans le navigateur de gauche.
+2. Sélectionnez **[!UICONTROL Parcours d’apprentissage]** dans le navigateur de gauche.
+3. Sélectionnez **[!UICONTROL Ajouter]**.
 
-   ![](assets/select-content-marketplace.png)
-   _Explorez et ajoutez les meilleurs cours Go1 à vos listes de lecture en sélectionnant Marché de contenus dans Adobe Learning Manager_
+   ![](assets/select-add-to-lp.png)
+   _Sélectionnez Ajouter dans la section Parcours d’apprentissage pour créer et organiser de nouveaux programmes de formation structurés pour vos élèves_
 
-3. Sélectionnez **[!UICONTROL Hub de contenu]**, puis **[!UICONTROL Bibliothèque]**.
-4. Sélectionnez **[!UICONTROL Créer une liste de lecture]** et choisissez l’une des options suivantes :
+4. Saisissez les détails requis et sélectionnez **[!UICONTROL Enregistrer]**. Pour plus d&#39;informations, consultez cet [article](/help/migrated/administrators/feature-summary/learning-paths.md).
+5. Sélectionnez **[!UICONTROL Ajouter des cours Go1]**.
+
+   ![Texte optionnel](assets/select-go1-courses.png)
+   _Ajoutez des cours Go1 à votre liste de lecture de développement des compétences des ingénieurs des ventes pour élargir les options d’apprentissage avec du contenu tiers organisé_
+
+6. Dans la **[!UICONTROL bibliothèque]**, recherchez et sélectionnez **[!UICONTROL Créer une liste de lecture]**, puis choisissez l’une des options suivantes :
 a. **[!UICONTROL avec l&#39;IA]** : créez une liste de lecture à l&#39;aide de l&#39;IA.
 b. **[!UICONTROL par moi-même]** : créez une liste de lecture en y ajoutant manuellement des cours.
 
-   ![](assets/select-create-playlist.png)
-   _Créez une liste de lecture dans Adobe Learning Manager en sélectionnant Créer une liste de lecture pour organiser et proposer des cours ciblés à vos élèves_
-
 **Créer une liste de lecture avec l&#39;IA**
 
-Les administrateurs peuvent saisir la description de la liste de lecture dans l’invite AI. L’IA organisera les cours associés et créera une liste de lecture en fonction des exigences.
+Les administrateurs peuvent saisir la description de la liste de lecture dans l’invite AI. L’IA organisera les cours associés et créera une liste de lecture en fonction des exigences. L’IA génère des listes de lecture en interprétant l’objectif d’apprentissage ou l’invite fournie par l’utilisateur. Lors de la création d’une liste de lecture, les administrateurs peuvent choisir de conserver le contenu « avec l’IA », ce qui permet au système d’utiliser des modèles linguistiques volumineux pour comprendre les objectifs d’apprentissage et les préférences de contenu spécifiés, tels que la durée et le type. L’IA recherche ensuite dans la bibliothèque de contenu les objets d’apprentissage pertinents qui correspondent à ces critères.
 
 Pour créer une liste de lecture avec l’IA :
 
@@ -900,17 +945,25 @@ Pour créer une liste de lecture avec l’IA :
    ![](assets/type-a-prompt.png)
    _Saisissez votre objectif d’apprentissage pour créer une liste de lecture personnalisée, afin que Adobe Learning Manager puisse recommander des cours ciblés adaptés aux besoins de vos élèves_
 
-4. Choisissez les compétences dans la liste, puis sélectionnez la durée du cours et saisissez du texte pour votre liste de lecture.
-5. Sélectionnez **[!UICONTROL Générer la liste de lecture]**.
+4. Sélectionnez les compétences dans la liste.
 
-   ![](assets/select-generate-playlist.png)
-   _Personnalisez votre liste de lecture dans Adobe Learning Manager en sélectionnant les compétences pertinentes et la durée du cours_
+   ![](assets/select-skills.png)
+   _Choisissez les compétences dans la liste pour organiser les cours pour l’ingénieur des ventes_
+5. Sélectionnez la durée du cours et saisissez le texte pour votre liste de lecture.
+6. Sélectionnez **[!UICONTROL Générer la liste de lecture]**. La liste de lecture est créée avec 10 cours et les administrateurs peuvent l’utiliser pour créer un parcours d’apprentissage.
 
+   ![](assets/created-playlist.png)
+   _Vérifiez votre liste de lecture pour l’amélioration des compétences des ingénieurs des ventes dans Adobe Learning Manager_
+7. Sélectionnez **[!UICONTROL Ajouter à la bibliothèque]**.
+8. Sélectionnez **Oui** dans l&#39;invite de confirmation.
+9. Sélectionnez la liste de lecture dans l&#39;invite **[!UICONTROL Sélectionner la liste de lecture à importer]**.
 
-La liste de lecture est créée avec 10 cours et les administrateurs peuvent l’utiliser pour créer un parcours d’apprentissage.
+   ![](assets/add-playlist-to-lp.png)
+   _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
 
-![](assets/created-playlist.png)
-_Vérifiez votre liste de lecture pour l’amélioration des compétences des ingénieurs des ventes dans Adobe Learning Manager_
+10. Sélectionnez **[!UICONTROL Ajouter des listes de lecture au parcours d’apprentissage]**, puis **[!UICONTROL Publish]**.
+
+Les cours de la liste de lecture seront ajoutés au parcours d’apprentissage. Les administrateurs peuvent ensuite inscrire des élèves, qui peuvent immédiatement commencer à suivre les cours.
 
 **Créer une liste de lecture manuellement**
 
@@ -937,43 +990,6 @@ Pour créer une liste de lecture manuellement :
 5. Recherchez et sélectionnez les cours requis.
 
 La liste de lecture a été créée avec des cours associés et les administrateurs peuvent l’utiliser pour créer un parcours d’apprentissage.
-
-### Ajouter une liste de lecture Go1 à un parcours d’apprentissage
-
-Les administrateurs peuvent créer un parcours d’apprentissage qui comprend une liste de lecture Go1, afin que les élèves puissent accéder aux cours tiers sélectionnés dans le cadre de leur formation.
-
-Pour créer un parcours d’apprentissage :
-
-1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
-2. Sélectionnez **[!UICONTROL Parcours d’apprentissage]** dans le navigateur de gauche.
-3. Sélectionnez **[!UICONTROL Ajouter]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Sélectionnez Ajouter dans la section Parcours d’apprentissage pour créer et organiser de nouveaux programmes de formation structurés pour vos élèves_
-
-4. Saisissez les détails requis et sélectionnez **[!UICONTROL Enregistrer]**. Pour plus d&#39;informations, consultez cet [article](/help/migrated/administrators/feature-summary/learning-paths.md).
-5. Sélectionnez **[!UICONTROL Ajouter des cours Go1]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Ajoutez des cours Go1 à votre liste de lecture de développement des compétences des ingénieurs des ventes pour élargir les options d’apprentissage avec du contenu tiers organisé_
-
-6. Dans la **[!UICONTROL bibliothèque]**, recherchez et sélectionnez la liste de lecture sur l&#39;écran Sélectionner des cours **[!UICONTROL Go1]**.
-
-   >[!NOTE]
-   >
-   >Assurez-vous de définir le filtre Créé par moi pour trouver facilement votre liste de lecture.
-
-   ![](assets/select-save-to-add-playlist.png)
-   _Sélectionnez une liste de lecture Ingénieur des ventes dans la bibliothèque de cours Go1 de Adobe Learning Manager_
-
-7. Sélectionnez **[!UICONTROL Ajouter à la bibliothèque]**, puis **[!UICONTROL Enregistrer]**.
-
-   ![](assets/add-playlist-to-lp.png)
-   _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
-
-8. Sélectionnez **[!UICONTROL Ajouter]**, puis **[!UICONTROL Publish]**.
-
-Les cours de la liste de lecture seront ajoutés au parcours d’apprentissage. Les administrateurs peuvent ensuite inscrire des élèves, qui peuvent immédiatement commencer à suivre les cours.
 
 ## Enregistrer la progression de l’état du lecteur pour les langues
 
@@ -1044,6 +1060,18 @@ Auparavant, les fichiers role.csv et user_role.csv ne pouvaient être chargés q
 
 * Les entreprises internationales gèrent des équipes régionales en chargeant plusieurs fichiers utilisateur incrémentiels pour chaque région (UE, Amérique, Asie), ce qui permet aux administrateurs de mettre à jour les utilisateurs et d’attribuer de nouveaux rôles à chaque région dans un seul workflow.
 * Les grandes entreprises automatisent l’intégration et les autorisations en ingérant régulièrement des mises à jour utilisateur incrémentielles à partir des systèmes de RH. Cela permet des mises à jour transparentes des profils utilisateur et des attributions de rôle granulaires sans intervention manuelle.
+
+### Nouvelles colonnes ajoutées aux fichiers CSV
+
+Trois nouvelles colonnes ont été introduites pour améliorer les données capturées dans les exportations/importations CSV utilisateur, rôle et rôle utilisateur :
+
+* **État d&#39;inscription de l&#39;utilisateur (user.csv)** : indique l&#39;état d&#39;inscription actuel de l&#39;utilisateur.
+* **État du rôle (role.csv)** : indique l&#39;état actuel des rôles au sein du système.
+* **État du rôle utilisateur (user_role.csv)** : indique l&#39;état de l&#39;association utilisateur-rôle.
+
+Téléchargez les [exemples de fichiers CSV](assets/sample-csv-Incremnetal.zip) ici.
+
+
 
 ## Réinitialisation des recommandations dans l’application Salesforce
 
@@ -1704,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
