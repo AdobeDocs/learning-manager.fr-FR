@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 45%
+source-wordcount: '1217'
+ht-degree: 44%
 
 ---
 
@@ -174,7 +174,7 @@ La liste ci-dessous répertorie les composants personnalisables. Pour personnali
    <td>
     <p>Polices</p></td>
    <td>
-    <p>Pour appliquer les polices, un CDN est requis. En outre, vous devez partager la famille de polices à appliquer.</p>
+    <p>Les administrateurs peuvent contacter l’équipe d’assistance Adobe Learning Manager à l’adresse <a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a> pour modifier les polices. Pour appliquer les polices, un CDN est requis. En outre, vous devez partager la famille de polices à appliquer.</p>
     <p><b>Remarque :</b> la famille de polices doit être prise en charge sur tous les navigateurs.</p></td>
   </tr>
   <tr>

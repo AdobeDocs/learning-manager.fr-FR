@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Lecteur Fluidic
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 51%
+source-wordcount: '572'
+ht-degree: 48%
 
 ---
 
@@ -60,6 +60,8 @@ Le lecteur Fluidic est une plate-forme destinée aux élèves qui leur permet d�
 
 Après avoir quitté le cours, vous pouvez revenir au cours en cliquant sur le bouton **Revisiter** / **Continuer** sur la page de description du cours.
 
+**Lecture automatique** : le lecteur Fluidic de Adobe Learning Manager n&#39;a pas d&#39;option intégrée pour arrêter la lecture automatique des vidéos. La lecture automatique d’une vidéo dépend des paramètres de votre navigateur, et non du lecteur lui-même.
+
 Le lecteur Fluidic peut également être intégré dans un site Web ou une application externe à l’aide de l’API Learning Manager.
 
 Le lecteur Fluidic mobile a les fonctions suivantes :
@@ -67,3 +69,4 @@ Le lecteur Fluidic mobile a les fonctions suivantes :
 * Toucher ou appuyer sur l&#39;écran ne doit pas mettre le lecteur en pause. Au lieu de cela, il devrait afficher la barre de navigation du lecteur.
 * Si la barre de navigation n’interagit pas avec, elle disparaît au bout de 3 secondes.
 * La barre de navigation reste active jusqu’à ce que les éléments du menu de navigation (table des matières, notes, paramètres) soient fermés.
+

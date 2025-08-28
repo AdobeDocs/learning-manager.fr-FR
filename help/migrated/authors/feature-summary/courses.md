@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '7321'
-ht-degree: 71%
+source-wordcount: '7433'
+ht-degree: 70%
 
 ---
 
@@ -513,6 +513,24 @@ L’évaluation est un aspect important de tout système de gestion de l’appre
 
 Prenons l’exemple des employés d’un magasin ou d’un entrepôt qui font l’objet d’une évaluation pour les tâches qu’ils sont censés effectuer jour après jour. Il peut s’agir des étapes effectuées pour réparer une machine à café ou pour emballer un matériau. Les instructeurs peuvent évaluer les employés pour de telles tâches à partir d&#39;une liste de contrôle et les définir comme une réussite ou un échec dans l&#39;activité d&#39;évaluation.
 
+### Remplacement des modules dans les cours publiés
+
+Adobe Learning Manager fournit aux auteurs des outils pour créer, modifier et gérer des cours composés de plusieurs modules de contenu. Lorsque le contenu du cours doit être mis à jour ou amélioré, les auteurs peuvent remplacer les modules existants sans perturber la progression de l’élève.
+
+Pour remplacer les modules :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’auteur.
+2. Sélectionnez **[!UICONTROL Cours]** dans le volet de navigation de gauche.
+3. Sélectionnez un cours, puis sélectionnez **[!UICONTROL Modifier]**.
+4. Sélectionnez le module à modifier.
+5. Modifiez le titre et la description.
+6. Sélectionnez le module avec l&#39;option **Contenu**.
+   ![](assets/replace-the-module.png)
+7. Sélectionnez **[!UICONTROL Terminé]**.
+8. Sélectionnez **[!UICONTROL Republier]**.
+
+Les élèves conserveront leur progression dans d&#39;autres modules, mais devront terminer le nouveau module pour terminer le cours.
+
 ### Créer une liste de contrôle {#createachecklist}
 
 Seul un auteur peut créer une liste de contrôle. Une liste de contrôle est un type de module Activité. Lors de la configuration d&#39;un module d&#39;activité, vous, en tant qu&#39;auteur, pouvez sélectionner une activité en tant que **liste de contrôle**, comme indiqué ci-dessous :
@@ -825,7 +843,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 
