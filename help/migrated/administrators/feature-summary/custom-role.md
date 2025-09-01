@@ -4,7 +4,7 @@ title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 32%
@@ -300,7 +300,7 @@ Pour attribuer plusieurs rôles personnalisés à un utilisateur, procédez comm
 
 1. Connectez-vous en tant qu’administrateur et sélectionnez **[!UICONTROL Utilisateurs]**.
 2. Sélectionnez **[!UICONTROL Rôles personnalisés]** dans le panneau de gauche.
-3. Créez un nouveau rôle personnalisé et ajoutez des privilèges de compte, des catalogues, des objets d’apprentissage ou des portées. Consultez les étapes mentionnées [ici](#create-a-custom-role).
+3. Créez un nouveau rôle personnalisé et ajoutez des privilèges de compte, des catalogues, des objets d’apprentissage ou des portées. Consultez les [étapes mentionnées ici](#create-a-custom-role).
 4. Ajoutez des utilisateurs au rôle personnalisé.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Le chargement d’un fichier CSV dans Adobe Learning Manager permet l’affectat
 
 Vous pouvez désormais attribuer plusieurs rôles à un utilisateur via l’importation CSV en chargeant deux fichiers dans Box :
 
-* role.csv
-* user_role.csv.
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 Le fichier user_role.csv comprend les champs Rôle personnalisé et ID utilisateur.
 
