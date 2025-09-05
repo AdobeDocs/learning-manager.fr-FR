@@ -3,9 +3,9 @@ description: Découvrez comment utiliser les champs actifs dans Adobe Learning M
 jcr-language: en_us
 title: Configuration des champs actifs dans Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Pour configurer les paramètres des champs actifs :
 
 3. Sélectionnez **Enregistrer** pour appliquer vos modifications.
 
+>[!NOTE]
+>
+>L’attribution d’un nouveau rôle n’affectera pas les groupes d’utilisateurs personnalisés. Toutefois, cela aura un impact sur les groupes d’utilisateurs générés automatiquement tels que Tous les administrateurs, Tous les auteurs et les groupes basés sur des rôles similaires.
+
 ## Champs actifs à plusieurs valeurs
 
 Les champs actifs à plusieurs valeurs vous permettent d’affecter plusieurs valeurs à un seul attribut utilisateur, tel que les lieux, les titres de poste ou les équipes de projet. Cela permet de capturer des informations utilisateur plus détaillées et plus flexibles.
@@ -118,8 +122,10 @@ _Case à cocher pour activer la restriction de valeur pendant le chargement CSV_
 
 ## Gestion des champs actifs manquants dans l’importation CSV de l’utilisateur
 
-Dans certains cas, les administrateurs préfèrent que les élèves remplissent manuellement certains champs actifs lorsqu’ils se connectent à Adobe Learning Manager. Cette option est prise en charge pour les utilisateurs importés via un fichier CSV. Reportez-vous à cet [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md) pour savoir comment ajouter des utilisateurs en bloc.
+Dans certains cas, les administrateurs préfèrent que les élèves remplissent manuellement certains champs actifs lorsqu’ils se connectent à Adobe Learning Manager. Cette option est prise en charge pour les utilisateurs importés via un fichier CSV. Reportez-vous à cet [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md) pour savoir comment ajouter des utilisateurs en bloc. Les utilisateurs sont automatiquement ajoutés aux champs actifs ou aux groupes basés sur des rôles en fonction des valeurs des champs FTP Box. Ils ne peuvent pas être ajoutés aux groupes personnalisés.
 
 Si un fichier CSV ne comprend pas tous les champs actifs, l’administrateur doit saisir manuellement les valeurs manquantes après l’importation.
 
-Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/connectors) pour plus d&#39;informations sur les connecteurs.
+Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Consultez cet [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) pour plus d&#39;informations sur les connecteurs.
+
+

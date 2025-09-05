@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Plans d'apprentissage
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1629'
 ht-degree: 62%
 
 ---
@@ -34,7 +34,8 @@ Pour créer un plan d’apprentissage, vous devez vous connecter en tant qu’ad
 
    ![](assets/add-learning-plandialog.png)
 
-1. Dans la liste déroulante **[!UICONTROL Moment d’intervention]**, sélectionnez l’événement requis. Les options déterminent quand un élève suit le cours. Après avoir sélectionné le type d’événement, sélectionnez la formation, les cours, le programme d’apprentissage ou la certification appropriés.
+1. Dans la liste déroulante **[!UICONTROL Moment d’intervention]**, sélectionnez l’événement requis. Les administrateurs peuvent ajouter un événement à la fois.
+Les options déterminent quand un élève suit le cours. Après avoir sélectionné le type d’événement, sélectionnez la formation, les cours, le programme d’apprentissage ou la certification appropriés.
 
 >[!NOTE]
 >

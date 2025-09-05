@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '7433'
-ht-degree: 70%
+source-wordcount: '7540'
+ht-degree: 69%
 
 ---
 
@@ -737,7 +737,19 @@ La fenêtre d’informations sur le cours s’affiche. Le cours est en mode lect
 
 ## Retirer un cours {#retireacourse}
 
+Les administrateurs peuvent activer l’option Retirer pour le compte Adobe Learning Manager. Cette fonctionnalité permet aux administrateurs de retirer un cours, ce qui le rend indisponible pour les nouvelles inscriptions tout en permettant aux élèves actuellement inscrits de conserver l&#39;accès.
+
 Le retrait d&#39;un cours le masquera aux élèves, même s&#39;ils sont inscrits ou l&#39;ont déjà terminé. Si vous retirez un cours, vous ne pouvez pas inscrire de nouveaux élèves au cours. Les élèves déjà inscrits peuvent suivre le cours.
+
+Pour activer l’option Retirer pour le compte Adobe Learning Manager :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Sélectionnez **[!UICONTROL Paramètres]**, puis **[!UICONTROL Général]**.
+3. Sélectionnez l’une des options de retrait suivantes :
+   * Une fois retirés, les élèves inscrits pourront afficher et effectuer des actions, mais les élèves non encore inscrits perdront l’accès.
+   * Une fois retirés, les élèves inscrits et non encore inscrits perdront l’accès.
+
+Les administrateurs peuvent retirer un cours de la page **[!UICONTROL Cours]**.
 
 Pour retirer un cours, sur la carte de cours, passez le curseur sur les options, puis cliquez sur Retirer le cours.
 
@@ -843,7 +855,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

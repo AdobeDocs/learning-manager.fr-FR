@@ -4,9 +4,9 @@ title: Conformité de Learning Manager au RGPD
 description: Conformité de Adobe Learning Manager au RGPD
 contentowner: dvenkate
 exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '678'
 ht-degree: 39%
 
 ---
@@ -17,19 +17,23 @@ ht-degree: 39%
 >
 >Le contenu de ce document ne constitue pas un avis juridique et ne vise pas à remplacer un avis juridique. Consultez le service juridique de votre entreprise pour obtenir des conseils concernant le RGPD.
 
-+++ Qu’est-ce que le RGPD ?
+Adobe Learning Manager s’engage à respecter le RGPD, en veillant à ce que les données utilisateur soient gérées de manière sécurisée et transparente. Il fournit des fonctionnalités essentielles du RGPD, telles que la possibilité de purger les utilisateurs (supprimer définitivement toutes les données personnelles) et permet aux administrateurs de générer des relevés de notes des élèves pour partager des informations avec les utilisateurs sur demande.
+
+Toutes les données utilisateur sont protégées par un chiffrement puissant lors du transfert et du stockage, à l’aide de normes telles que SHA-256. Pour certaines intégrations, les élèves doivent s’authentifier, en s’assurant que leur consentement est obtenu avant de partager des données. Ces contrôles de confidentialité et de sécurité aident les organisations utilisant Adobe Learning Manager à rester conformes au RGPD et à protéger les informations des élèves.
+
++++Qu’est-ce que le RGPD ?
 
 Le RGPD est un nouveau règlement de l’Union européenne qui entre en vigueur le 25 mai 2018. Il offre un contrôle strict de la confidentialité des données et permet aux utilisateurs finaux de prendre en charge leurs propres données personnelles.
 
 +++
 
-+++En quoi et pourquoi s’applique-t-il à vous en tant que client Adobe Learning Manager ?
++++Dans quelle mesure êtes-vous concerné en tant que client Adobe Learning Manager ?
 
 Bien que le RGPD soit un règlement de l’UE, il s’applique aux entités commerciales du monde entier, qui collectent des informations personnelles pour tout utilisateur susceptible d’être résident de l’UE.  En tant que client Learning Manager, déterminez si le RGPD s’applique à votre organisation.
 
 +++
 
-+++Quel rôle joue Adobe dans ce domaine en tant que fournisseur de Learning Manager ?
++++Quel rôle joue Adobe dans ce domaine, en tant que fournisseur de Learning Manager ?
 
 Conformément au RGPD, si votre entreprise fournit un produit ou un service à des résidents de l&#39;UE et détermine comment et pourquoi collecter, suivre et surveiller leurs données, vous êtes considéré comme un [responsable du traitement des données](https://gdpr-info.eu/art-24-gdpr/). En tant que client Adobe Learning Manager, si vous effectuez l’une de ces activités, vous êtes considéré comme un responsable du traitement des données.
 
@@ -37,7 +41,7 @@ Les entreprises qui traitent des données pour le compte de contrôleurs sont co
 
 +++
 
-+++Comment Learning Manager vous permet-il de vous conformer au RGPD ?
++++Comment Learning Manager vous permet-il de vous conformer au RGPD ?
 
 Learning Manager a intégré les outils et processus suivants qui vous aideront à vous conformer au RGPD. Pour prendre en charge tous les processus qui vont au-delà du produit pour être entièrement conforme à la réglementation, vous devrez peut-être encore effectuer une évaluation avec votre équipe de conformité.
 

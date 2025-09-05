@@ -4,9 +4,9 @@ title: Parcours d’apprentissage
 description: Création de plans d’apprentissage pour les administrateurs de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1442'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ Les instances du parcours d’apprentissage affichent une mosaïque supplémenta
 
 Dans la mosaïque **Cours**, vous pouvez voir les instances de cours qui sont visibles par les élèves inscrits à cette instance.
 
-La case à cocher **[!UICONTROL Autoriser les élèves à choisir des instances (parcours d’apprentissage flexible)]** ne s’applique qu’aux cours. Tous les parcours d’apprentissage enfants auront une option pour mapper une instance de programme d’apprentissage avec le parcours d’apprentissage. Par défaut, le mappage est défini sur Instance par défaut.
+La case à cocher **[!UICONTROL Autoriser les élèves à choisir des instances (parcours d’apprentissage flexible)]** ne s’applique qu’aux cours. Cette option permet aux élèves de changer d’instance dans le parcours d’apprentissage. Tous les parcours d’apprentissage enfants auront une option pour mapper une instance de programme d’apprentissage avec le parcours d’apprentissage. Par défaut, le mappage est défini sur Instance par défaut.
 
 ![](assets/default-instance.png)
 

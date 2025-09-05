@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Tableau de bord de réussite du groupe
 description: En savoir plus sur le tableau de bord de réussite de groupe dans Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ Un administrateur peut activer et créer les tableaux de bord en leur donnant un
 L’administrateur doit activer le tableau de bord de réussite de groupe pour le compte. Pour activer le tableau de bord de réussite de groupe, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur.
-2. Sélectionnez **[!UICONTROL Paramètres]**&#x200B;puis **[!UICONTROL Rapports]**.
+2. Sélectionnez **[!UICONTROL Paramètres]**puis **[!UICONTROL Rapports]**.
 3. Sélectionnez le bouton bascule **[!UICONTROL Visibilité du tableau de bord]**.
 4. Tapez le nom du tableau de bord (par exemple, **[!UICONTROL Tableau de bord du gestionnaire de magasins]**).
    ![](assets/enable-gsd.png)
    _Champs pour la sélection du nom du tableau de bord, du groupe d’utilisateurs et du parcours d’apprentissage_
 5. Sélectionnez **[!UICONTROL Visibilité de la vue d&#39;ensemble]** pour activer la section Vue d&#39;ensemble dans le tableau de bord. Cette section vous permet d’afficher la progression de jusqu’à 50 élèves.
+
+   >[!NOTE]
+   >
+   >Si l&#39;équipe compte plus de 50 élèves ou plus de 50 objets d&#39;apprentissage, accédez à l&#39;onglet **[!UICONTROL Relevé de notes de l&#39;élève]** au lieu de l&#39;onglet **[!UICONTROL Présentation]**.
+
 6. Pour la section **[!UICONTROL Relevé de notes de l&#39;élève]**, sélectionnez les colonnes requises que vous souhaitez afficher.
+
 
    * Gestion
    * Parcours et cours
