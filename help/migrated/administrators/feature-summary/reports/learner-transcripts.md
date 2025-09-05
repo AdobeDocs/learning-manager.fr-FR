@@ -60,7 +60,7 @@ Les relevés de notes des élèves dans Adobe Learning Manager permettent de sui
 3. Sélectionnez **[!UICONTROL Rapports personnalisés]** dans Rapports, puis **[!UICONTROL Rapports Excel]**.
 4. Sélectionnez **[!UICONTROL Relevés de notes des élèves]**.
 
-   ![]()
+   ![] ()
 
 5. Sélectionnez **[!UICONTROL Générer]**.
 6. Sélectionnez la période pour laquelle vous avez besoin que le relevé de notes soit généré. Par défaut, la date **[!UICONTROL De]** est la date d’inscription de l’élève, et la date **[!UICONTROL À]** est toujours la date actuelle. Vous pouvez modifier la date de départ uniquement à partir du moment où vous avez besoin des données.
@@ -74,12 +74,12 @@ b. Sélectionnez des catalogues spécifiques dans la liste déroulante **[!UICON
        * En Cours
        * Non Démarré
        * Désinscrit
-   8. Options avancées : sélectionnez **[!UICONTROL Options avancées]** pour télécharger les transcriptions afin d’inclure les éléments suivants :
+   &#x200B;8. Options avancées : sélectionnez **[!UICONTROL Options avancées]** pour télécharger les transcriptions afin d’inclure les éléments suivants :
 
    a. Téléchargez des relevés de notes pour les élèves qui ont été supprimés d&#39;un compte en cochant la case **[!UICONTROL Inclure les élèves supprimés]**.
 b. Téléchargez les informations de niveau de module dans le relevé de notes de l&#39;élève en cochant la case **[!UICONTROL Activer les informations de niveau de module]**. Dans ce cas, les noms des modules et le temps passé sur chaque module sont récupérés dans le cadre du relevé de notes si cette option est activée.
 c. Téléchargez les données de compétences et les fiches récapitulatives en cochant la case **[!UICONTROL Inclure les données de compétences et les fiches récapitulatives]**. Voir la section Rapports Excel pour plus d&#39;informations.
-9. Vous pouvez également sélectionner les valeurs de colonne à remplir dans votre rapport. Cela offre la possibilité de télécharger des rapports avec des valeurs de colonne spécifiques selon les besoins. Sélectionnez les colonnes dans le menu déroulant.
+&#x200B;9. Vous pouvez également sélectionner les valeurs de colonne à remplir dans votre rapport. Cela offre la possibilité de télécharger des rapports avec des valeurs de colonne spécifiques selon les besoins. Sélectionnez les colonnes dans le menu déroulant.
 
    
 
