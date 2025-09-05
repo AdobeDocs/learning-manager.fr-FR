@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Comptes de pairs
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -53,6 +53,18 @@ Learning Manager vous permet de partager les places achetées grâce à la fonc
 1. Cliquez sur Ajouter pour ajouter le compte de pairs.
 
    Si un administrateur partage des places avec un pair, ce dernier ne peut pas les partager avec quiconque. Toutefois, le pair peut acheter des places séparément et les partager.
+
+## Afficher les places partagées par des comptes de pairs
+
+Les administrateurs peuvent afficher le nombre de places partagées par les comptes de pairs sur l’interface d’administration.
+
+Pour afficher les places partagées par un compte de pairs :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Sélectionnez **[!UICONTROL Utilisateurs]**, puis **[!UICONTROL Interne]**.
+
+![](assets/peer-account-seats.png)
+_Section Utilisateurs affichant le nombre de places partagées par le compte de pairs_
 
 ## Afficher les rapports associés aux comptes de pairs {#viewreportsassociatedwithpeeraccounts}
 

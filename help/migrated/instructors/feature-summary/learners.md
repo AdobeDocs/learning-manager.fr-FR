@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Pour envoyer des courriers électroniques aux élèves, effectuez l’une des op
 
 ## Capturer les réponses à l’invitation
 
-Vous pouvez afficher les réponses aux invitations dans la section Élèves. Accédez à n’importe quelle session, sélectionnez **[!UICONTROL Élèves]**, puis sélectionnez la réponse à l’invitation dans le menu déroulant.
+Les instructeurs peuvent capturer les réponses aux invitations des élèves uniquement lorsque l&#39;option **[!UICONTROL Inviter à répondre]** est activée par l&#39;administrateur ACAP. Pour activer cette fonctionnalité, les administrateurs doivent contacter l&#39;équipe d&#39;assistance à l&#39;adresse [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com).
+
+Une fois cela fait, vous pouvez afficher les réponses aux invitations dans la section **[!UICONTROL Élèves]**. Accédez à n’importe quelle session, sélectionnez **[!UICONTROL Élèves]**, puis sélectionnez la réponse à l’invitation dans le menu déroulant.
 
 ![](assets/invitation-status.png)
 
