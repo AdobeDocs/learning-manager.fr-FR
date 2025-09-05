@@ -144,9 +144,9 @@ Les colonnes suivantes capturent l&#39;activité, la progression ou les tentativ
 | Highest_Quiz_score_max | Scores de quiz maximum possibles pour le module. Il peut être vide si l’élève n’a pas tenté le quiz ou si le contenu ne comporte aucun quiz. |
 | Tentatives effectuées | Nombre total de tentatives effectuées par l’élève jusqu’à présent pour ce module. |
 | Nombre maximal de tentatives autorisées | Nombre maximal de tentatives autorisées pour que l’élève utilise le module. |
-| Commentaires d’envoi | Commentaires du responsable d’un élève une fois qu’il a terminé un objet d’apprentissage.<br>Les données des commentaires d&#39;envoi fournies par l&#39;instructeur sont incluses dans le module d&#39;envoi de fichiers . Voir <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager pour plus d&#39;informations.</a></br> |
+| Commentaires d’envoi | Commentaires du responsable d’un élève une fois qu’il a terminé un objet d’apprentissage.<br>Les données des commentaires d&#39;envoi fournies par l&#39;instructeur sont incluses dans le module d&#39;envoi de fichiers . Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager pour plus d&#39;informations.</a></br> |
 | Source d’achèvement | <b>Remarque :</b> pour les workflows d&#39;assiduité du connecteur VC, lorsqu&#39;un élève est marqué comme étant assidu automatiquement, la source affiche « SELF, (learner_email) ». |
-| Commentaire d’achèvement | Commentaires effectués par l’administrateur lorsqu’il marque un élève comme terminé après qu’il a terminé un cours, une certification ou un parcours d’apprentissage. L’administrateur peut ajouter les commentaires d’achèvement pour un ou plusieurs élèves. Voir <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses#completion-comments">Commentaires d&#39;achèvement</a> pour plus d&#39;informations. |
+| Commentaire d’achèvement | Commentaires effectués par l’administrateur lorsqu’il marque un élève comme terminé après qu’il a terminé un cours, une certification ou un parcours d’apprentissage. L’administrateur peut ajouter les commentaires d’achèvement pour un ou plusieurs élèves. Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/courses#completion-comments">Commentaires d&#39;achèvement</a> pour plus d&#39;informations. |
 
 **Informations relatives aux objets d’apprentissage**
 
@@ -278,7 +278,7 @@ Suivez les élèves qui ont des échéances à venir pour des cours clés, des p
 
 | Colonne | Description |
 |---|---|
-| Après | Représente le nombre d’élèves qui ont acquis une compétence avant une période définie (en jours), au-delà de laquelle la compétence est considérée comme obsolète ou nécessitant une actualisation. Utile pour identifier les élèves dont les compétences sont proches ou expirées.<br>Voir <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">Niveaux de compétence</a> pour plus d&#39;informations. |
+| Après | Représente le nombre d’élèves qui ont acquis une compétence avant une période définie (en jours), au-delà de laquelle la compétence est considérée comme obsolète ou nécessitant une actualisation. Utile pour identifier les élèves dont les compétences sont proches ou expirées.<br>Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/skills-levels">Niveaux de compétence</a> pour plus d&#39;informations. |
 | Nom | Nom complet de l’élève auquel la compétence est affectée. |
 | Nom du responsable | Nom du responsable de la génération de rapports de l’élève. |
 | Libellés de ligne | Nom de compétence spécifique attribué aux élèves figurant sur cette ligne. Utilisé comme en-tête de regroupement pour résumer les données de compétence des élèves dans chaque catégorie de compétence. |
