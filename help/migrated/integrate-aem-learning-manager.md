@@ -4,10 +4,10 @@ title: Intégration de Adobe Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: d487d87015e51f1b54ee3a2ed0a97398cfc09686
+source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 57%
+source-wordcount: '3117'
+ht-degree: 55%
 
 ---
 
@@ -52,7 +52,7 @@ Installez le package de contenu Learning Manager à l’aide du Gestionnaire de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#how-to-work-with-packages).
+>Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. En tant qu’auteur AEM, ouvrez le Gestionnaire de packages AEM.
 1. Cliquez sur le bouton **[!UICONTROL Charger le package]**.
@@ -397,6 +397,22 @@ Dans la section **[!UICONTROL Paramètres généraux]**, vous pouvez choisir les
  } 
 }
 ```
+
+### Configuration des widgets Mes cours enregistrés sur les sites AEM
+
+Le widget Mes cours enregistrés permet aux élèves d’afficher leurs cours enregistrés ou marqués d’un signet directement sur leurs pages d’apprentissage, ce qui facilite l’accès aux cours qu’ils souhaitent consulter ou terminer ultérieurement.
+
+Pour configurer le widget Mes cours enregistrés sur les sites AEM :
+
+1. Lancez les sites AEM.
+2. Ouvrez la page en mode **[!UICONTROL Modifier]**.
+3. Accédez à l&#39;**[!UICONTROL Explorateur de composants]** et ajoutez **[!UICONTROL widget Mon apprentissage]** à la page.
+4. Sélectionnez le composant, puis sélectionnez **[!UICONTROL Configurer]**.
+5. Sélectionnez **[!UICONTROL Mes cours enregistrés]** dans le menu déroulant des **[!UICONTROL Propriétés]**.
+6. Sélectionnez **[!UICONTROL Terminé]**, puis actualisez la page en mode **[!UICONTROL Aperçu]** ou **[!UICONTROL Publish]**.
+
+Le widget affichera les cours enregistrés pour les élèves.
+
 
 ### Ignorer l’inscription LO de niveau supérieur
 
