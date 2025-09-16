@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 44%
+source-wordcount: '1295'
+ht-degree: 43%
 
 ---
 
@@ -86,6 +86,8 @@ Sélectionnez le thème de votre choix dans la liste déroulante, réglez les pa
 Lorsque vous prévisualisez les modifications en direct, la fenêtre d&#39;aperçu en direct du thème s&#39;affiche toujours dans la partie inférieure de l&#39;écran. Vous pouvez réduire la fenêtre.
 
 ## Identité visuelle multiple {#multiple-branding}
+
+Les administrateurs peuvent appliquer plusieurs styles de branding au sein de l’organisation. Le branding peut être personnalisé en fonction des champs actifs, ce qui permet à différents groupes d’utilisateurs de faire l’expérience d’un branding adapté à leur profil ou à leur rôle.
 
 Voici comment mettre en œuvre plusieurs stratégies de marque :
 

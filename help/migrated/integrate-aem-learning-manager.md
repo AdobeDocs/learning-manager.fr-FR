@@ -4,10 +4,10 @@ title: Intégration de Adobe Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '3116'
-ht-degree: 55%
+source-wordcount: '3138'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,7 @@ Après avoir installé le package du site de référence ALM, vous pouvez comme
 
 Après avoir sécurisé votre environnement AEM Sites, vous devez installer le package du site de référence ALM. Ce package comprend des pages Web et des composants de site Web AEM qui aident à construire la plateforme d&#39;apprentissage.
 
-Le package du site de référence est hébergé sur le [**référentiel GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+Le package du site de référence est hébergé sur le [**référentiel GitHub**](https://github.com/adobe/adobe-learning-manager-reference-site/releases).
 
 Pour plus d’informations, consultez la section LISEZ-MOI.
 
@@ -52,7 +52,7 @@ Installez le package de contenu Learning Manager à l’aide du Gestionnaire de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#how-to-work-with-packages).
+>Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. En tant qu’auteur AEM, ouvrez le Gestionnaire de packages AEM.
 1. Cliquez sur le bouton **[!UICONTROL Charger le package]**.
@@ -413,6 +413,7 @@ Pour configurer le widget Mes cours enregistrés sur les sites AEM :
 
 Le widget affichera les cours enregistrés pour les élèves.
 
+Lorsque vous appliquez un autre filtre dans le catalogue, seuls les résultats correspondant à ce filtre s’affichent. Les éléments marqués d&#39;un signet ne sont pas inclus automatiquement.
 
 ### Ignorer l’inscription LO de niveau supérieur
 
