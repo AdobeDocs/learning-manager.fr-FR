@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’octobre de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’octobre 2025 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
 workflow-type: tm+mt
-source-wordcount: '8390'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
@@ -74,12 +74,6 @@ Le rapport d’utilisateur inclut désormais des champs supplémentaires pour am
 * Prend en charge les workflows de gestion des utilisateurs en aval grâce aux fonctionnalités d’intégration.
 * Amélioration de la cartographie organisationnelle et de la compréhension des relations hiérarchiques.
 * Maintient les limites organisationnelles et empêche les communications croisées accidentelles.
-
-**Remarques importantes**
-
-* Si la portée d&#39;un administrateur personnalisé change, les annonces affectées affichent une icône d&#39;avertissement et nécessitent des réinitialisations de portée individuelles.
-* Chaque annonce doit être mise à jour individuellement lorsque des modifications de portée se produisent.
-* Le rapport Annonce de notification affiche uniquement les élèves compris dans la portée affectée par l’administrateur personnalisé.
 
 ### Rapport utilisateur avec la nouvelle colonne
 
@@ -1732,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
