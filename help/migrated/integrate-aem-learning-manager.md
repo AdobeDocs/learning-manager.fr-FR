@@ -4,9 +4,9 @@ title: Intégration de Adobe Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '3138'
+source-wordcount: '3163'
 ht-degree: 54%
 
 ---
@@ -52,7 +52,7 @@ Installez le package de contenu Learning Manager à l’aide du Gestionnaire de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#how-to-work-with-packages).
+>Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. En tant qu’auteur AEM, ouvrez le Gestionnaire de packages AEM.
 1. Cliquez sur le bouton **[!UICONTROL Charger le package]**.
@@ -411,7 +411,7 @@ Pour configurer le widget Mes cours enregistrés sur les sites AEM :
 5. Sélectionnez **[!UICONTROL Mes cours enregistrés]** dans le menu déroulant des **[!UICONTROL Propriétés]**.
 6. Sélectionnez **[!UICONTROL Terminé]**, puis actualisez la page en mode **[!UICONTROL Aperçu]** ou **[!UICONTROL Publish]**.
 
-Le widget affichera les cours enregistrés pour les élèves.
+Les élèves peuvent afficher leurs cours enregistrés dans la bande **[!UICONTROL Enregistré par moi]** sur la page d&#39;accueil de l&#39;élève. La sélection de la bande **[!UICONTROL Enregistré par moi]** conduit les élèves à la page du catalogue et affiche le nombre exact de cours marqués d&#39;un signet.
 
 Lorsque vous appliquez un autre filtre dans le catalogue, seuls les résultats correspondant à ce filtre s’affichent. Les éléments marqués d&#39;un signet ne sont pas inclus automatiquement.
 
