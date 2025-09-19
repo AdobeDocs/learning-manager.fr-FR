@@ -4,10 +4,10 @@ title: Intégration de Adobe Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 54%
+source-wordcount: '3274'
+ht-degree: 52%
 
 ---
 
@@ -52,7 +52,7 @@ Installez le package de contenu Learning Manager à l’aide du Gestionnaire de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#how-to-work-with-packages).
+>Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. En tant qu’auteur AEM, ouvrez le Gestionnaire de packages AEM.
 1. Cliquez sur le bouton **[!UICONTROL Charger le package]**.
@@ -360,7 +360,20 @@ Dans la section **[!UICONTROL Propriétés]** des propriétés de la page, séle
 Les options du catalogue contiennent les options suivantes :
 
 * **[!UICONTROL ID de catalogue]:** ID de catalogue séparés par des virgules pour lesquels la formation doit être affichée.
-* **[!UICONTROL Trier]:** ordre de tri pour la formation. Les options sont : nom, date, dateCreated, dateEnrolled, etc.
+* **[!UICONTROL Trier]:** ordre de tri pour la formation. Les options de tri suivantes sont disponibles :
+   * name : trie les objets d&#39;apprentissage par ordre alphabétique de A à Z.
+   * -name : Trie les objets d&#39;apprentissage par ordre alphabétique de Z à A.
+   * date : trie par date par ordre croissant.
+   * -date : trie par date dans l’ordre décroissant (au plus tard en premier).
+   * dateCreated : trie par date de création de l&#39;objet d&#39;apprentissage (le plus ancien en premier).
+   * -dateCreated : Trie par date de création (la plus récente en premier).
+   * dateEnrolled : trie les données par date d’inscription de l’élève (au plus tôt).
+   * -dateEnrolled : trie par date d’inscription (la plus récente en premier).
+   * Évaluation : Trie les données par évaluation de l’élève (de la plus basse à la plus élevée).
+   * -rating : Trie par notes (du plus haut au plus bas).
+   * dueDate : Trie les données par date d&#39;échéance du cours (première échéance).
+   * efficacité : trie par scores d&#39;efficacité en fonction des commentaires des élèves.
+   * progression : trie par progression de l’élève (de la plus faible à la plus élevée).
 * **[!UICONTROL État de l’élève]:** renvoie toutes les formations qui utilisent les éléments suivants en tant que filtres : inscrit, démarré, terminé et non inscrit. Les résultats de la recherche ne s&#39;affichent pas si l&#39;option de tri est dateEnrolled, dueDate ou dateEnrolled.
 * **[!UICONTROL Nom de la compétence]:** Compétence utilisée pour filtrer la formation exacte.
 * **[!UICONTROL Nom de la balise]:** La balise utilisée pour filtrer les résultats exacts.
