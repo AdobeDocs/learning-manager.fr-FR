@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’octobre de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’octobre 2025 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
 workflow-type: tm+mt
-source-wordcount: '8361'
+source-wordcount: '8349'
 ht-degree: 0%
 
 ---
@@ -1260,8 +1260,6 @@ Pour créer une page dans Adobe Learning Manager :
 
 La page a été créée et enregistrée en tant que brouillon dans la section Pages personnalisées. Les administrateurs peuvent modifier et concevoir les pages ébauchées à l’aide des widgets.
 
-Suivez les mêmes étapes pour créer des pages pour d’autres produits comme Illustrator.
-
 #### Page de conception dans Experience Builder
 
 Adobe Learning Manager permet aux administrateurs de concevoir des pages adaptées à leurs besoins à l’aide de widgets personnalisables.
@@ -1728,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
