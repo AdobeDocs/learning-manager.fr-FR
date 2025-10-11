@@ -71,12 +71,12 @@ b. Sélectionnez des catalogues spécifiques dans la liste déroulante **[!UICON
        * En Cours
        * Non Démarré
        * Désinscrit
-   8. Options avancées : sélectionnez **[!UICONTROL Options avancées]** pour télécharger les transcriptions afin d’inclure les éléments suivants :
+   &#x200B;8. Options avancées : sélectionnez **[!UICONTROL Options avancées]** pour télécharger les transcriptions afin d’inclure les éléments suivants :
 
    a. Téléchargez des relevés de notes pour les élèves qui ont été supprimés d&#39;un compte en cochant la case **[!UICONTROL Inclure les élèves supprimés]**.
 b. Téléchargez les informations de niveau de module dans le relevé de notes de l&#39;élève en cochant la case **[!UICONTROL Activer les informations de niveau de module]**. Dans ce cas, les noms des modules et le temps passé sur chaque module sont récupérés dans le cadre du relevé de notes si cette option est activée.
 c. Téléchargez les données de compétences et les fiches récapitulatives en cochant la case **[!UICONTROL Inclure les données de compétences et les fiches récapitulatives]**. Voir la section Rapports Excel pour plus d&#39;informations.
-9. Vous pouvez également sélectionner les valeurs de colonne à remplir dans votre rapport. Cela offre la possibilité de télécharger des rapports avec des valeurs de colonne spécifiques selon les besoins. Sélectionnez les colonnes dans le menu déroulant.
+&#x200B;9. Vous pouvez également sélectionner les valeurs de colonne à remplir dans votre rapport. Cela offre la possibilité de télécharger des rapports avec des valeurs de colonne spécifiques selon les besoins. Sélectionnez les colonnes dans le menu déroulant.
 Les transcriptions sont générées et téléchargées sur votre ordinateur sous forme de fichiers .zip lorsque les données de compétences ne sont pas incluses. Si la case à cocher Données de compétences est activée, les transcriptions sont générées et téléchargées en tant que . fichiers xlsx.
 
 ### Générer le relevé de notes de l’élève à l’aide du copier-coller

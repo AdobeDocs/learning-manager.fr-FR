@@ -340,7 +340,7 @@ Les administrateurs peuvent modifier les détails des utilisateurs, supprimer de
 
 >[!INFO]
 >
->Regardez cette formation ALM Academy pour apprendre à attribuer et à supprimer des rôles, à envoyer un e-mail de bienvenue, ainsi qu’à supprimer et purger des utilisateurs.<br>[ ![bouton]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+>Regardez cette formation ALM Academy pour apprendre à attribuer et à supprimer des rôles, à envoyer un e-mail de bienvenue, ainsi qu’à supprimer et purger des utilisateurs.<br>[&#x200B; ![bouton]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
 
 ### Modifier un utilisateur
 

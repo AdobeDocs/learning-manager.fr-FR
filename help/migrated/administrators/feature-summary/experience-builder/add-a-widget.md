@@ -85,8 +85,8 @@ Pour configurer le widget Catégories :
 9. Saisissez un **[!UICONTROL titre de widget]** et une **[!UICONTROL description de widget]**.
 10. Recherchez et choisissez un catalogue dans la **[!UICONTROL source des catégories]**.
 
-   ![](assets/configure-calendar-widget.png)
-   _Configurez les options du widget Catégories pour définir le titre et la description du widget, puis sélectionnez la source de la catégorie_
+    ![](assets/configure-calendar-widget.png)
+    _Configurez les options du widget Catégories pour définir le titre et la description du widget, puis sélectionnez la source de la catégorie_
 
 11. Sélectionnez **[!UICONTROL Ajouter un widget]**.
 
@@ -153,7 +153,7 @@ Pour configurer le widget Cours et parcours :
 
 ![](assets/configure-course-paths.png)
 _Widget Cours et parcours où les administrateurs définissent le titre et la description du widget, et sélectionnent les cours ou parcours d’apprentissage à afficher sous forme de cartes interactives_
-11. Sélectionnez **[!UICONTROL Ajouter un widget]**.
+&#x200B;11. Sélectionnez **[!UICONTROL Ajouter un widget]**.
 
 Le widget Cours et parcours sera ajouté à la page. Les administrateurs peuvent ajouter d’autres widgets et publier la page.
 
@@ -182,14 +182,14 @@ Pour configurer le widget Zone de contenu :
 9. Saisissez le texte dans le **[!UICONTROL libellé du bouton d&#39;action]** et fournissez un lien.
 10. Sélectionnez l’une des options de remplissage d’arrière-plan :
 
-   * **[!UICONTROL Couleur]** : sélectionnez la couleur dans le sélecteur de couleurs ou saisissez le code couleur dans le champ de texte.
-   * **[!UICONTROL Image]** : parcourez et chargez une photo.
+    * **[!UICONTROL Couleur]** : sélectionnez la couleur dans le sélecteur de couleurs ou saisissez le code couleur dans le champ de texte.
+    * **[!UICONTROL Image]** : parcourez et chargez une photo.
 
 11. Ajustez la hauteur de la zone à l&#39;aide de l&#39;option **[!UICONTROL Hauteur de la zone de contenu]**.
 12. Sélectionnez les options de mise en forme du texte.
 
-   ![](assets/configure-content-box.png)
-   _Écran de personnalisation du widget Zone de contenu, où les administrateurs peuvent saisir un titre, une description, un libellé de bouton d&#39;action et un lien_
+    ![](assets/configure-content-box.png)
+    _Écran de personnalisation du widget Zone de contenu, où les administrateurs peuvent saisir un titre, une description, un libellé de bouton d&#39;action et un lien_
 
 13. Sélectionnez **[!UICONTROL Ajouter des widgets]**.
 
