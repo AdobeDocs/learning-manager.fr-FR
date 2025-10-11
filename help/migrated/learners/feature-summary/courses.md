@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Mes apprentissages
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3080'
-ht-degree: 63%
+source-wordcount: '3307'
+ht-degree: 59%
 
 ---
 
@@ -291,6 +291,19 @@ Pour modifier l&#39;instance de cours, procédez comme suit :
 
    L&#39;instance nouvellement sélectionnée est inscrite. Si un élève est inscrit à une instance de cours qui fait partie d’un autre objet d’apprentissage et s’il met à jour l’instance de cours qui fait partie du programme d’apprentissage flexible, il sera automatiquement désinscrit des autres objets d’apprentissage après un avertissement.
 
+## Gestion de la progression basée sur la langue
+
+La progression de l’élève peut être suivie séparément pour chaque locale, afin de s’assurer que le basculement entre les langues dans le lecteur n’affecte pas la progression précédemment réalisée. La progression de chaque module est maintenue indépendamment aux niveaux de l’utilisateur et du module, ce qui empêche la progression d’être écrasée lorsque les élèves explorent le contenu dans différentes langues.
+
+Par exemple, si un élève atteint 75 % de progression en anglais, puis passe à l’espagnol, le retour à l’anglais reprend à partir de 75 % au lieu de 0 %. Chaque paramètre régional stocke son propre état de progression, ce qui permet aux élèves de parcourir et de terminer le contenu en toute transparence dans plusieurs langues sans perdre leur progression individuelle.
+
+Les types de contenu suivants ne sont pas pris en charge pour la progression des élèves basée sur la langue :
+
+* Le contenu vidéo et audio n’est pas pris en charge.
+* Le contenu tiers, notamment Go1, LinkedIn Learning, getAbstract et Harvard ManageMentor, n’est pas pris en charge.
+* La progression n’est pas suivie ou enregistrée pour le contenu qui n’envoie pas de données au magasin des enregistrements d’apprentissage (LRS).
+* Les utilisateurs de l’application mobile ne peuvent pas suivre la progression de cette fonctionnalité en mode hors ligne.
+
 ## Terminer un cours {#completingacourse}
 
 En tant qu&#39;élève, vous pouvez effectuer le nombre requis de modules d&#39;un cours pour terminer le cours. Les critères d&#39;achèvement du cours dépendent du nombre de modules définis comme obligatoires par l&#39;auteur. Lorsque vous vous inscrivez à un cours lié à un minimum de critères d&#39;achèvement, vous pouvez afficher les critères d&#39;achèvement dans le volet de droite de la page Cours.
@@ -319,6 +332,19 @@ L&#39;onglet Discussion n&#39;est pas activé pour les utilisateurs externes.
 
 ![](assets/learning-program200s.jpg)
 *Onglet Discussion*
+
+## Enregistrer l’intérêt pour les cours
+
+Les élèves peuvent enregistrer leur intérêt pour les cours qui n’ont pas d’instance active.
+
+Pour enregistrer des intérêts :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’élève.
+2. Accédez au **[!UICONTROL Catalogue]** et sélectionnez le cours qui n&#39;a pas d&#39;instance active.
+3. Sélectionnez **[!UICONTROL Enregistrer votre intérêt]** sur la page de présentation du cours.
+
+   ![](assets/register-interest.png)
+   _Section Présentation du cours sur l’interface utilisateur des élèves, en mettant en évidence l’option Enregistrer l’intérêt_
 
 ## Cycle de vie du cours {#courselifecycle}
 

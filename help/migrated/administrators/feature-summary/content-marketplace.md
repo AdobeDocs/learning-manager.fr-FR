@@ -4,10 +4,10 @@ title: Marché de contenus
 description: Learning Manager propose désormais un Marché de contenus qui vous permet d’explorer et d’acheter des formations. Explorez plus de 70 000 cours couvrant un large éventail de sujets, disponibles dans plusieurs formats. Faites votre choix parmi des listes de lecture sélectionnées qui correspondent à une grande variété de rôles et répondent à vos besoins en matière d’apprentissage et d’acquisition de compétences.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Hub de contenu
 
-Le Hub de contenu permet aux administrateurs de présélectionner les listes de lecture requises dans l’application de l’élève. La page Hub de contenu est toujours visible par les administrateurs dans leur rôle d’élève, car elle leur permet de présélectionner facilement des listes de lecture. Pour vous aider à présélectionner la liste de lecture appropriée, les administrateurs peuvent rendre cette page accessible aux experts en la matière dans leur compte.
+Les administrateurs peuvent accéder à la plateforme Go1 directement dans Adobe Learning Manager. Accédez au **[!UICONTROL Marché de contenus]**, puis sélectionnez **[!UICONTROL Hub de contenu]**.
 
-Adobe Learning Manager se synchronise régulièrement avec le Hub de contenu, ce qui garantit que les nouveaux ajouts et mises à jour sont automatiquement répercutés sur la plateforme.
-
-Tout le contenu est mappé vers les langues prises en charge, ce qui permet aux administrateurs de filtrer et de gérer le contenu plus efficacement en fonction des préférences de langue.
+Le Hub de contenu reproduit la plateforme Go1, permettant aux administrateurs de parcourir les cours, de créer plusieurs listes de lecture et d’explorer le contenu, offrant ainsi une expérience Go1 transparente dans Adobe Learning Manager.
 
 ## Modèles de courriers électroniques
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15862'
+source-wordcount: '15810'
 ht-degree: 59%
 
 ---
@@ -145,9 +145,9 @@ Voici comment vous allez créer les objets :
 
 1. Téléchargez et installez les packages pour créer les objets personnalisés.
 
-   * [Package 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [Package 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [Package 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [Package 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [Package 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [Package 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. Renommez les noms des objets personnalisés dans Salesforce.
 1. Sélectionnez les événements et cliquez sur **[!UICONTROL Enregistrer]**.
@@ -183,7 +183,7 @@ Learning Manager propose un package d’application Salesforce. Une fois le pack
 1. Sur la page de l’application Salesforce, notez l’ID d’application (également appelé ID client) et le secret client mentionné dans la description.
 1. Cliquez sur **[!UICONTROL Approuver]** et votre application doit être approuvée.
 1. Cliquez sur **[!UICONTROL Ressources pour les développeurs]** > **[!UICONTROL Jetons d&#39;accès pour le test et le développement]**.
-1. Dans la section Obtenir le code OAuth, l’ID client et la portée doivent être définis sur - admin:read, admin:write. Cliquez sur **[!UICONTROL Envoyer]**.
+1. Dans la section Obtenir le code OAuth, l&#39;ID client et la portée doivent être définis sur - admin:read,admin:write. Cliquez sur **[!UICONTROL Envoyer]**.
 1. Dans la section Obtenir le jeton d’actualisation, entrez l’ID client et le secret client. Cliquez sur **[!UICONTROL Envoyer]** et notez le jeton d’actualisation.
 
 ### Création d’un compte dans l’application Salesforce {#create-account-in-salesforce-app}
@@ -447,7 +447,7 @@ Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV
 
 +++
 
-+++Utilisation du connecteur FTP Learning Manager
++++Utilisation du connecteur FTP Learning Manager
 
 1. Les fichiers CSV de systèmes externes doivent être placés à l’emplacement suivant :
 
@@ -469,13 +469,13 @@ Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV
 
 +++
 
-+++Importer xAPI
++++Importer un fichier xAPI
 
 Les options d’importation xAPI vous permettent de planifier l’importation d’instructions xAPI provenant de services tiers dans Learning Manager à la demande.
 
 +++
 
-+++Configurations requises pour importer xAPI
++++Configuration requise pour importer un fichier xAPI
 
 1. Dans la page de configuration, sélectionnez une configuration existante disponible dans la liste de configuration pour importer des instructions xAPI à partir du fichier CSV. Cliquez sur le lien Modifier ou **Ajouter une nouvelle configuration** pour accéder à la page Configurer les sources d&#39;importation.
 
@@ -881,8 +881,8 @@ Workday comporte quatre niveaux hiérarchiques, tandis que Learning Manager en 
 wd:User_ID
 wd:Worker_ID
 manager
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Nom_Formaté
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Nom_Formaté
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name
@@ -933,7 +933,7 @@ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organ
 wd:Qualification_Data.wd:Education.0.wd:School_Name
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
-wd:Management_Chain_Data.wd:Worker_Superonto_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
+wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
 Adresse e-mail du travail principal
 wd:Organization_Type_Reference_Cost_Center_ID
 wd:Organization_Type_Reference_Cost_Center_Name
@@ -952,7 +952,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 Vous pouvez exporter toutes les compétences terminées par un utilisateur de Learning Manager vers Workday. Seules toutes les compétences actives sont exportées et Learning Manager n’exporte pas les compétences retirées. Vous pouvez également connecter plusieurs Learning Manager\
 vers le même connecteur Workday. Si les noms de compétence sont identiques dans deux comptes Learning Manager, ils sont mappés à la même compétence dans Workday. Avant de mettre à jour les compétences dans Workday, si deux comptes Learning Manager utilisent le même compte Workday, il est recommandé de mettre à jour les noms de compétences dans tous les comptes Learning Manager.
 
-+++Compétences de l’utilisateur - Configuration
++++Compétences d’utilisateur - Configuration
 
 Cette option vous permet de planifier l’extraction du rapport. Assurez-vous que la case Activer l’exportation des compétences d’utilisateur à l’aide de cette connexion est sélectionnée. Cochez la case Activer le calendrier et précisez la date et l’heure de début. Vous pouvez également spécifier l’intervalle auquel vous souhaitez que le rapport soit généré et envoyé. Sélectionnez la case Activer la planification et indiquez la date de début, la durée et la répétition après le numéro « n » de jours. Une fois terminé, cliquez sur Enregistrer.
 
@@ -961,7 +961,7 @@ Cette option vous permet de planifier l’extraction du rapport. Assurez-vous qu
 
 +++
 
-+++Compétences des utilisateurs - À la demande
++++Compétences d’utilisateur - À la demande
 
 Vous pouvez spécifier la date de début et exporter le rapport à l’aide de l’option. Le rapport est extrait à partir de la date saisie jusqu’à la date du jour. Saisissez la date à partir de laquelle vous souhaitez commencer à générer le rapport et cliquez sur Exécuter.
 
@@ -970,7 +970,7 @@ Vous pouvez spécifier la date de début et exporter le rapport à l’aide de l
 
 +++
 
-+++Compétences de l’utilisateur - Statut d’exécution
++++Compétences d’utilisateur - État d’exécution
 
 Ici, vous pouvez consulter le résumé de toutes les tâches et accéder à leur rapport d’état. Vous pouvez télécharger des rapports d’erreurs en cliquant sur le lien de rapport d’erreurs.
 
@@ -1144,7 +1144,7 @@ L’option d’importation d’utilisateur interne vous permet de planifier la g
 
 +++
 
-+++Attributs Map
++++Attributs de mappage
 
 Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV placés dans le dossier Box aux attributs correspondants de Learning Manager. Cette étape est obligatoire.
 
@@ -1165,7 +1165,7 @@ L’option de rapport d’activité xAPI vous permet de planifier l’importatio
 
 +++
 
-+++Configurations requises pour importer xAPI
++++Configuration requise pour importer un fichier xAPI
 
 1. Dans la page de configuration, sélectionnez une configuration existante disponible dans la liste de configuration pour importer des instructions xAPI à partir du fichier CSV. Cliquez sur le lien Modifier ou A **Ajouter une nouvelle configuration** pour accéder à la page Importer des instructions xAPI - Configuration - Fichier source.
 
@@ -2235,7 +2235,7 @@ Une fois qu’un auteur a défini les prix de divers cours, cursus ou certificat
 
 >[!NOTE]
 >
->Dans la version de mars 2024 de Adobe Learning Manager, nous avons introduit la prise en charge d&#39;[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=fr).
+>Dans la version de mars 2024 de Adobe Learning Manager, nous avons introduit la prise en charge d&#39;[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Cliquez sur **[!UICONTROL Exporter les métadonnées de formation]** > **[!UICONTROL À la demande]**.
@@ -2342,17 +2342,17 @@ Pour AEM, il n&#39;y a pas d&#39;option Acheter maintenant, seulement un bouton 
 
 #### Forum aux questions {#faqs}
 
-+++Quels cours ne peuvent pas être achetés ?
++++Quels cours ne peuvent pas être achetés ?
 
 Les cours tels que les certifications récurrentes, les formations du marché de contenus, la formation acquise, la formation à partir de connecteurs, les assistances à la tâche et les cours approuvés/nommés par le responsable ne peuvent pas être achetés par un élève.
 +++
 
-+++Y a-t-il des modifications dans le relevé de notes de l’élève et le rapport de formation ?
++++Y a-t-il des modifications dans le relevé de notes et le rapport de formation des élèves ?
 
 Ces états affichent le prix et la date d’achat de toutes les formations achetées dans le compte.
 +++
 
-+++ Un élève peut-il s’inscrire à une formation gratuite ?
++++Un élève peut-il s’inscrire à une formation gratuite ?
 
 Oui, un élève peut s’inscrire à une formation gratuite. La formation gratuite affiche le bouton Aperçu et inscription sur la page Présentation de la formation.
 +++

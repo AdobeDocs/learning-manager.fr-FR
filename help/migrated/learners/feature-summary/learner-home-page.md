@@ -4,10 +4,10 @@ title: Page d’accueil de l’élève
 description: Une fois que l’administrateur a activé la mise en page immersive, l’élève, après s’être connecté à l’application, est accueilli par une interface utilisateur complètement remaniée.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
@@ -143,7 +143,11 @@ Le widget Calendrier offre les fonctionnalités suivantes. Vous pouvez afficher 
 * Formation par mois. Faites défiler vers la gauche ou la droite.
 * Prochaine formation en salle de classe ou en classe virtuelle à laquelle vous pourrez vous inscrire.
 * Prochaine formation en salle de classe ou en classe virtuelle à laquelle vous vous êtes inscrit(e).
+* Vos sessions de classe ou de classe virtuelle terminées
 * Formation en salle de classe ou en classe virtuelle approuvée par le responsable.
+
+Vous pouvez appliquer le filtre **[!UICONTROL Afficher les sessions inscrites uniquement]** pour afficher uniquement les sessions inscrites sur votre calendrier.
+
 
 ## Réseaux sociaux {#socialfeed}
 

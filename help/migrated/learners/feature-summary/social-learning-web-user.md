@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Apprentissage par les réseaux sociaux dans Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3038'
-ht-degree: 78%
+source-wordcount: '3443'
+ht-degree: 68%
 
 ---
 
@@ -229,6 +229,64 @@ Lorsque vous affichez les publications dans un format de tableau, vous pouvez en
 
 * Si vous choisissez **Publications**, les tableaux seront triés en fonction du nombre de publications créées dans le tableau.
 * Si vous choisissez **Contributeurs**, les tableaux seront triés en fonction du nombre d&#39;utilisateurs qui ont commenté ou répondu dans les fils de conversation.
+
+## Balisage des utilisateurs dans les forums de réseaux sociaux
+
+Les élèves ayant accès au forum pour les réseaux sociaux peuvent baliser d&#39;autres utilisateurs dans les publications et les commentaires d&#39;apprentissage par les réseaux sociaux à l&#39;aide du format @username. Le balisage fonctionne via l’application ou les API. Seuls les utilisateurs ayant accès au forum peuvent être balisés, ce qui permet de garder les interactions pertinentes et privées.
+
+* Les utilisateurs balisés reçoivent des notifications dans l’application et par e-mail
+* Les notifications incluent des liens directs vers le contenu
+* Les utilisateurs en dehors du forum ne peuvent pas être balisés
+* Les utilisateurs supprimés apparaissent comme « Anonymes »
+
+>[!NOTE]
+>
+>Les élèves ne peuvent pas baliser les groupes d&#39;utilisateurs ou utiliser des mentions @all pour empêcher le spam.
+
+### Balisage des utilisateurs dans les publications sur les forums de réseaux sociaux
+
+Vous pouvez baliser des membres de forum spécifiques dans les publications ou les commentaires à l’aide de @username. Le balisage est limité aux membres ayant accès à ce forum.
+Pour baliser des utilisateurs dans un forum sur les réseaux sociaux :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’élève.
+2. Sélectionnez **[!UICONTROL Apprentissage par les réseaux sociaux]** dans le navigateur de gauche.
+
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _Activez l’apprentissage collaboratif en sélectionnant Apprentissage par les réseaux sociaux pour accéder aux forums de discussion, partager des informations et baliser les utilisateurs pour une interaction interactive_
+
+3. Sélectionnez **[!UICONTROL Nouvelle publication]**.
+
+   ![](assets/select-new-post.png)
+   _Démarrer une nouvelle discussion en sélectionnant Nouvelle publication dans Apprentissage par les réseaux sociaux pour partager des connaissances avec les utilisateurs balisés_
+
+4. Avant de baliser les utilisateurs, sélectionnez le forum dans l&#39;option **[!UICONTROL Publier dans un forum de discussion]**.
+
+   ![](assets/select-boards-in-social-board.png)
+   _Sélectionnez un forum de discussion pour publier et baliser les utilisateurs, ce qui permet des conversations collaboratives ciblées dans l&#39;apprentissage par les réseaux sociaux_
+
+5. Saisissez les détails de votre publication, puis attribuez une balise à un utilisateur en saisissant le symbole @ suivi de son nom (par exemple, @andrew). Lorsque vous tapez @ suivi des trois premières lettres du nom de l’utilisateur, une liste des utilisateurs correspondants s’affiche.
+
+   ![](assets/type-a-user-tag.png)
+   _Marquez les utilisateurs dans votre message de discussion en saisissant @ suivi du nom d’utilisateur pour permettre une collaboration ciblée au sein des forums d’apprentissage par les réseaux sociaux_
+
+6. Sélectionnez l’utilisateur souhaité dans la liste.
+7. Sélectionnez **[!UICONTROL Publier]**.
+
+Les utilisateurs balisés reçoivent des notifications dans l’application et par e-mail avec un lien direct vers la publication. Cela rend les discussions plus ciblées et plus collaboratives.
+
+### Balisage des utilisateurs en fonction de la portée du forum
+
+Le balisage limité à la portée vous permet de baliser uniquement les élèves qui ont l’autorisation d’accéder à un forum spécifique. Cela préserve la confidentialité en empêchant le balisage des utilisateurs en dehors de la portée.
+
+Si vous essayez de baliser les élèves qui ne sont pas concernés par le forum, aucune suggestion ne s&#39;affiche et vous ne pourrez pas les baliser.
+
+### Balisage des utilisateurs supprimés
+
+Si un utilisateur qui a été supprimé est balisé dans une publication d’apprentissage par les réseaux sociaux, son nom s’affiche comme « Anonyme » dans la publication. Le commentaire et la balise restent visibles pour le contexte, mais les liens de profil ou les détails ne sont pas affichés.
+
+![](assets/deleted-users-tagged.png)
+_Publication d’apprentissage par les réseaux sociaux montrant comment un utilisateur supprimé apparaît comme anonyme lorsqu’il est balisé_
+
 
 ### Filtre Compétence {#skillfilter}
 

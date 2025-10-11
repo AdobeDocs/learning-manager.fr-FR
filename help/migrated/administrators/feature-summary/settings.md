@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 65%
+source-wordcount: '3697'
+ht-degree: 64%
 
 ---
 
@@ -19,9 +19,9 @@ Vous pouvez modifier les paramètres du profil de l’administrateur et mettre �
 
 ![](assets/settings-admin.png)
 
-## Configuration d’Adobe Learning Manager
+## Configuration de Adobe Learning Manager
 
-Cette formation permet d’acquérir les bases des paramètres au niveau du compte.
+Cette formation aborde les bases des paramètres au niveau du compte.
 
 [![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
@@ -83,7 +83,7 @@ Dans le volet de gauche, cliquez sur Tableau de bord de l’élève. Cette page 
 
 **Adobe Connect** 
 
-Cliquez sur **[!UICONTROL Adobe Connect]** dans le volet de gauche pour configurer le compte Adobe Connect afin d&#39;héberger les sessions de classe virtuelle. Pour plus d’informations, reportez-vous à l’aide sur les fonctionnalités d’Adobe  [Connect](adobeconnect-integration.md) .
+Cliquez sur **[!UICONTROL Adobe Connect]** dans le volet de gauche pour configurer le compte Adobe Connect afin d&#39;héberger les sessions de classe virtuelle. Pour plus d&#39;informations, consultez l&#39;aide sur les fonctionnalités d&#39;[Adobe Connect](adobeconnect-integration.md).
 
 ## Paramètres généraux {#general}
 
@@ -337,13 +337,13 @@ Activation ou désactivation des paramètres suivants :
    <td height="19">Un élève ne peut pas voir le paramètre utilisateur pour l’abonnement aux e-mails de résumé.</td>
   </tr>
   <tr>
-   <td height="19"> Si la fonctionnalité est activée, alors :</td>
+   <td height="19"> Si la fonctionnalité est activée :</td>
   </tr>
   <tr>
    <td height="19">L’administrateur peut activer et modifier l’option E-mail de résumé.</td>
   </tr>
   <tr>
-   <td height="20">À partir des paramètres du profil de l’application learber, un élève (qui ne figure pas dans la liste NPD) peut choisir de s’abonner ou de se désabonner du courriel de synthèse.</td>
+   <td height="20">Dans les paramètres de profil de l’application de l’élève, un élève (qui ne figure pas dans la liste NPD) peut choisir de s’abonner/de se désabonner de l’e-mail de résumé.</td>
   </tr>
   <tr>
    <td height="20">Activer les icônes des cartes de formation</td>
@@ -357,10 +357,10 @@ Activation ou désactivation des paramètres suivants :
    <td height="19">Pour personnaliser les liens du pied de page, suivez les étapes suivantes :</td>
   </tr>
   <tr>
-   <td height="19">1. Cliquez sur Ajouter plus, entrez le nom et l’URL ou l’identifiant de messagerie dans les champs spécifiés. Ajoutez le préfixe http:// ou https:// à l’URL.</td>
+   <td height="19">1. Cliquez sur Ajouter plus, saisissez le nom et l’URL ou l’ID de messagerie dans les champs spécifiés. Ajoutez le préfixe http:// ou https:// à l’URL.</td>
   </tr>
   <tr>
-   <td height="19">2. Pour répercuter la modification sur tous les paramètres régionaux, cliquez sur Répliquer. Cela permet de s’assurer que toutes les langues obtiennent le nom et l’URL.</td>
+   <td height="19">2. Pour appliquer la modification en cascade à toutes les langues, cliquez sur Répliquer. Cela permet de s’assurer que toutes les langues obtiennent le nom et l’URL.</td>
   </tr>
   <tr>
    <td height="19">3. Pour enregistrer les modifications, cliquez sur Enregistrer. Un message s’affiche pour confirmer la modification. Cliquez sur OK pour que le pied de page soit rempli avec les nouveaux liens ajoutés.</td>
@@ -385,10 +385,10 @@ Activation ou désactivation des paramètres suivants :
    <td height="19">Préférence de fuseau horaire au niveau du compte</td>
   </tr>
   <tr>
-   <td height="19">Le relevé de notes de l’élève téléchargé à l’aide de l’API Jobs télécharge également les données dans le fuseau horaire sélectionné.</td>
+   <td height="19">Le relevé de notes de l’élève téléchargé à l’aide de l’API des tâches télécharge également les données dans le fuseau horaire sélectionné.</td>
   </tr>
   <tr>
-   <td height="20">Remarque : Par défaut, aucun changement n’est prévu dans le relevé de notes de l’élève immédiatement après la publication. Les administrateurs peuvent configurer ce paramètre dans l’application d’administration &gt; Paramètres &gt; Général &gt; Fuseau horaire du rapport.</td>
+   <td height="20">Remarque : aucune modification n’est attendue dans le relevé de notes de l’élève par défaut immédiatement après la publication. Les administrateurs peuvent configurer ce paramètre dans l’application d’administration &gt; Paramètres &gt; Général &gt; Fuseau horaire du rapport.</td>
   </tr>
   <tr>
    <td height="19">Intégration de Badgr</td>
@@ -411,6 +411,10 @@ Activation ou désactivation des paramètres suivants :
    <td height="19">Suppression</td>
    <td>Sélectionnez l’une des options de retrait suivantes :<li>Une fois retirés, les élèves inscrits pourront afficher et effectuer des actions, mais les élèves non encore inscrits perdront l’accès.</li><li>Une fois retirés, les élèves inscrits et non encore inscrits perdront l’accès.</li><div><b>Remarque :</b> vous pouvez retirer des cours, des parcours d'apprentissage ou des certifications de leurs pages de présentation.</div> </td>
   </tr>
+  <tr>
+   <td height="19">Afficher tous les cours inscrits dans les résultats de recherche</td>
+   <td>Si cette option est activée, l’élève peut voir le cours dans les résultats de recherche même s’il fait partie de son parcours d’apprentissage ou de sa certification inscrits.</td>
+  </tr>
  </tbody>
 </table>
 
@@ -420,7 +424,7 @@ Activation ou désactivation des paramètres suivants :
    <td>
     <p>Parcours d’apprentissage</p></td>
    <td>
-    <p>Si l’option <b>Activer les fonctionnalités étendues du parcours d’apprentissage</b> est activée, les administrateurs peuvent inclure des parcours d’apprentissage dans les parcours d’apprentissage et les combiner avec les cours. L’option est irréversible.<br></p></td>
+    <p>Si l’option <b>Activer les fonctionnalités étendues du parcours d’apprentissage</b> est sélectionnée, les administrateurs pourront inclure des parcours d’apprentissage dans les parcours d’apprentissage et combiner ces parcours d’apprentissage avec les cours. L’option est irréversible.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -477,9 +481,9 @@ Activité
 
 ## Paramètres du profil {#profilesettings}
 
-1. Cliquez sur la flèche déroulante dans le coin supérieur droit, à côté de votre photo/compte, puis choisissez **[!UICONTROL Paramètres du]** profil.
-1. Dans la boîte de dialogue contextuelle, vous pouvez ajouter/modifier une photo en passant la souris et en cliquant sur **[!UICONTROL Modifier]** dans la zone de la photo de profil.
-1. Ajouter/modifier **[!UICONTROL À propos]** du contenu en cliquant sur **[!UICONTROL Modifier]** à côté de celui-ci.
+1. Cliquez sur la flèche déroulante dans le coin supérieur droit, à côté de votre photo/compte, puis choisissez **[!UICONTROL Paramètres de profil]**.
+1. Dans la boîte de dialogue contextuelle, vous pouvez ajouter/modifier une photo en passant le curseur de la souris et en cliquant sur **[!UICONTROL Modifier]** dans la zone de la photo de profil.
+1. Ajoutez/modifiez du contenu **[!UICONTROL À propos]** en cliquant sur **[!UICONTROL Modifier]** à côté.
 1. Cliquez sur **[!UICONTROL Enregistrer].**
 
 ## Dossier de contenu {#content-folder}
@@ -488,7 +492,7 @@ Learning Manager prend en charge les dossiers de contenu privés. Un administrat
 
 Les dossiers de contenu peuvent être configurés par les administrateurs. Une fois configurés, les dossiers de contenu deviennent visibles pour les auteurs, qui peuvent alors placer le contenu dans un ou plusieurs dossiers.
 
-Pour ajouter un dossier de contenu, dans l’application Administrateur, cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier]** de contenu.
+Pour ajouter un dossier de contenu, dans l&#39;application Administrateur, cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier de contenu]**.
 
 ![](assets/manage-content-folders.png)
 
@@ -571,22 +575,22 @@ Vous pouvez également ajouter le lieu à l’aide d’un fichier CSV. Le fichie
 
 Sélectionnez **Modifier** pour modifier les éléments suivants :
 
-* **Autoriser les auteurs à créer des lieux** : Une fois activé, tous les lieux créés par les auteurs seront répertoriés sous l’onglet « Tous les lieux ». Les apprenants verront également ces emplacements sous les filtres Catalogue et Calendrier.
+* **Autoriser les auteurs à créer des emplacements** : une fois activé, tous les emplacements créés par les auteurs seront répertoriés sous l&#39;onglet « Tous les emplacements ». Les élèves verront également ces emplacements sous les filtres Catalogue et Calendrier.
 * **Autoriser les auteurs à modifier et à supprimer des emplacements** :
-Une fois activé, les auteurs pourront modifier et supprimer tous les emplacements de Classroom. Les modifications apportées par les auteurs seront répercutées sur l’ensemble de la plateforme, y compris les rapports.
+Une fois cette option activée, les auteurs pourront modifier et supprimer tous les emplacements de salle de classe. Les modifications apportées par les auteurs seront répercutées sur l’ensemble de la plateforme, y compris dans les rapports.
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
 +++Comment créer différents dossiers pour la bibliothèque de contenu ?
 
-Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier de contenu]**. Pour ajouter un dossier, cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit et, dans la boîte de dialogue, entrez le nom et la description du dossier.
+Cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Dossier de contenu]**. Pour ajouter un dossier, cliquez sur **[!UICONTROL Ajouter]** dans le coin supérieur droit, puis entrez le nom et la description du dossier dans la boîte de dialogue.
 
 Les dossiers de contenu peuvent être configurés par les administrateurs. Une fois configurés, les dossiers de contenu deviennent visibles pour les auteurs, qui peuvent alors placer le contenu dans un ou plusieurs dossiers.
 
 Pour plus d’informations, consultez la section [Dossier de contenu](settings.md#content-folder).
 +++
 
-+++Comment ajouter un exercice financier pour le compte ?
++++Comment ajouter un exercice pour le compte ?
 
 Dans **[!UICONTROL Paramètres]** > **[!UICONTROL Informations de base]**, cliquez sur **[!UICONTROL Modifier]**. Dans la liste déroulante **[!UICONTROL L&#39;exercice commence à partir de]**, sélectionnez le mois.
 +++

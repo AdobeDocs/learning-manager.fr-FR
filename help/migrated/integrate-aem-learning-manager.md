@@ -4,9 +4,9 @@ title: Intégration de Adobe Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3273'
 ht-degree: 52%
 
 ---
@@ -52,7 +52,7 @@ Installez le package de contenu Learning Manager à l’aide du Gestionnaire de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#how-to-work-with-packages).
+>Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. En tant qu’auteur AEM, ouvrez le Gestionnaire de packages AEM.
 1. Cliquez sur le bouton **[!UICONTROL Charger le package]**.
@@ -411,7 +411,7 @@ Dans la section **[!UICONTROL Paramètres généraux]**, vous pouvez choisir les
 }
 ```
 
-### Configuration des widgets Mes cours enregistrés sur les sites AEM
+### Configuration des widgets de cours enregistrés dans les sites AEM
 
 Le widget Mes cours enregistrés permet aux élèves d’afficher leurs cours enregistrés ou marqués d’un signet directement sur leurs pages d’apprentissage, ce qui facilite l’accès aux cours qu’ils souhaitent consulter ou terminer ultérieurement.
 

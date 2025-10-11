@@ -4,10 +4,10 @@ title: Application Learning Manager pour Salesforce
 description: Salesforce&amp ; trade ; est la solution CRM la plus populaire parmi les équipes commerciales et marketing. Grâce à l’application Adobe Learning Manager dans Salesforce, les élèves peuvent accéder à leur contenu d’apprentissage directement depuis leur interface Salesforce. Les élèves peuvent accéder au contenu d’apprentissage qui leur a été affecté (cours, programmes d’apprentissage, assistances à la tâche, etc.) depuis Salesforce. Les utilisateurs peuvent également recevoir des notifications sur leurs inscriptions et des annonces de la part de l’administrateur.
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 75%
+source-wordcount: '500'
+ht-degree: 62%
 
 ---
 
@@ -48,3 +48,14 @@ Un instantané représentatif de la vue d’élève de l’application Adobe Le
 Vous pouvez cliquer sur le lien de déconnexion en bas de la page des élèves, comme indiqué dans l’instantané ci-dessus, pour vous **déconnecter** de l’application Adobe Learning Manager. Une fois déconnecté, vous êtes redirigé vers la page d’accueil de l’application Adobe Learning Manager.
 
 Vous pouvez vous connecter ou vous déconnecter de l’application autant de fois que vous le souhaitez.
+
+## Réinitialisation des recommandations dans l’application Salesforce
+
+Les élèves peuvent réinitialiser leurs rôles et préférences d’apprentissage sans avoir à quitter Salesforce ou à se connecter à l’application Adobe Learning Manager native. L’application Adobe Learning Manager Salesforce inclut désormais un bouton **[!UICONTROL Réinitialiser les centres d’intérêt]**.
+
+Pour réinitialiser les intérêts et les recommandations à partir de l’application Salesforce :
+
+1. Connectez-vous à l’application Adobe Learning Manager pour Salesforce en tant qu’élève.
+2. Sélectionnez l&#39;option **[!UICONTROL Réinitialiser les centres d&#39;intérêt]** en bas.
+
+La recommandation ou l’intérêt de l’élève sera réinitialisé à partir de l’application Adobe Learning Manager Salesforce.

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 52%
+source-wordcount: '5803'
+ht-degree: 51%
 
 ---
 
@@ -693,7 +693,7 @@ L’administrateur inscrit certains élèves à des cours obligatoires en raison
 
 ## Utilisateurs
 
-+++Inclure les élèves
++++Inclure des élèves
 
 Sélectionnez les groupes d’utilisateurs et les élèves individuels (à l’aide de l’identifiant ou du nom de messagerie) que vous souhaitez inclure. Ajoutez tous les groupes d’utilisateurs dans une intersection sous le même ensemble. Pour ajouter un autre groupe d&#39;utilisateurs dans l&#39;union, utilisez un nouveau jeu d&#39;inclusion.
 
@@ -707,7 +707,7 @@ Sélectionnez les groupes d’utilisateurs et les élèves individuels (à l’a
 
 ## Identifiant de messagerie utilisateur
 
-+++ID d’e-mail
++++Identifiant de messagerie
 
 Copiez et collez les identifiants de messagerie des élèves à inscrire, séparés par un point virgule, une virgule ou un espacement de ligne. Utilisez l’option **[!UICONTROL Valider les ID de messagerie]** pour valider les entrées. Toutes les entrées non valides apparaîtraient marquées en rouge. Supprimez ou corrigez ces entrées et cliquez sur **[!UICONTROL Continuer]**.
 
@@ -789,6 +789,35 @@ Les élèves peuvent simplement utiliser l’application pour appareil Adobe Le
    ![](assets/qr-code-download-01.png)
 
    *Partager le code QR avec les élèves*
+
+## Télécharger le rapport de l’élève intéressé
+
+Consultez la page [Enregistrer l’intérêt pour les cours](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) pour savoir comment les élèves peuvent enregistrer leur intérêt.
+
+Les administrateurs peuvent afficher les centres d’intérêt des élèves et télécharger le rapport sur l’élève intéressé à partir de la page de présentation du cours.
+
+Pour télécharger le rapport sur l’élève intéressé :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Accédez à **[!UICONTROL Cours]** et sélectionnez le cours.
+3. Sélectionnez **[!UICONTROL Élèves intéressés]**.
+
+   ![](assets/select-interested-learner.png)
+   _La page de présentation du cours de l&#39;interface administrateur affiche la section Élève intéressé pour afficher et télécharger le rapport_
+4. Sélectionnez Actions, puis Exporter le rapport.
+Le rapport contenant la liste des élèves intéressés sera téléchargé. Le rapport comprend les colonnes suivantes :
+
+   * ID du cours
+   * Nom de l’élève
+   * Courrier électronique
+   * Type
+   * État
+   * Date et heure d’enregistrement (UTC)
+   * Statut actif
+
+>[!NOTE]
+>
+>Le rapport inclut l’UUID de l’élève s’il est activé pour le compte.
 
 ## Cycle de vie du cours {#courselifecycle}
 

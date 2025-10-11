@@ -4,10 +4,10 @@ title: Gérer des rôles personnalisés via les fichiers CSV
 description: L’administrateur de l’intégration peut ajouter un certain nombre de rôles personnalisés à son compte en masse via un fichier CSV et les attribuer à différents utilisateurs. Cette approche automatise le processus de création des rôles personnalisés.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 72%
 
 ---
 
@@ -178,7 +178,7 @@ Dans la section Paramètres de synchronisation, activez l’option **[!UICONTROL
 
 *Sélectionnez l’option Activer la synchronisation automatique*
 
-Lorsque vous sélectionnez cette option, vous pouvez programmer l’heure de synchronisation à l’heure exacte indiquée dans le champ Heure de synchronisation. Si vous indiquez 00:00 comme heure de synchronisation, les rôles personnalisés sont chaque jour mis à jour à l’heure exacte spécifiée.
+Lorsque vous sélectionnez cette option, vous pouvez programmer l’heure de synchronisation à l’heure exacte indiquée dans le champ Heure de synchronisation. Si vous spécifiez l&#39;heure de synchronisation sur 12:00 AM, les rôles personnalisés sont mis à jour tous les jours exactement à l&#39;heure spécifiée.
 
 Si vous souhaitez synchroniser les données à la demande, cliquez sur **[!UICONTROL Synchroniser maintenant]**.
 
@@ -189,3 +189,34 @@ Dans tous les cas, le nom d’un rôle doit être unique. Par conséquent, un r�
 Sur des lignes similaires, à partir de l’interface utilisateur de l’administrateur, un utilisateur ne peut pas se voir attribuer un rôle configurable créé via un fichier CSV car ces rôles ne seront pas disponibles.
 
 Toutefois, le fichier CSV de l’attribution aux utilisateurs peut être utilisé pour affecter les rôles créés par l’interface utilisateur.
+
+## Prise en charge incrémentielle et multi-incrémentielle des rôles personnalisés
+
+Les administrateurs peuvent affecter des rôles personnalisés plus efficacement aux utilisateurs incrémentiels. Ils peuvent télécharger des données d’utilisateur, de rôle et de rôle d’utilisateur sans avoir à télécharger à nouveau l’ensemble des données à chaque fois.
+
+Pour chaque fichier d’importation utilisateur chargé, créez des dossiers distincts dans FTP en utilisant la structure suivante :
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**Détails du fichier**
+
+* Fichier d’importation utilisateur : user1.csv
+* Fichier de rôle : user1_role.csv
+* Fichier de mappage user-role : user1_user_role.csv
+
+Téléchargez les [exemples de fichiers CSV](/help/migrated/assets/sample-csv-Incremnetal.zip) ici.
+
+Chaque fichier d’importation utilisateur est directement lié à ses fichiers de mappage de rôle et de rôle utilisateur correspondants, ce qui garantit un traitement incrémentiel approprié.

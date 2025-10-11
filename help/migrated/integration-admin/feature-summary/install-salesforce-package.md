@@ -4,9 +4,9 @@ title: Installation du package Salesforce
 description: Learning Manager propose un package d’application Salesforce. Une fois le package installé et configuré dans SFDC, les vendeurs peuvent effectuer leurs activités de formation sur le portail SFDC. Cette application permet aux utilisateurs de SFDC d’explorer les nouvelles formations, de consulter les recommandations et de les utiliser directement dans le portail SFDC. Les utilisateurs reçoivent également les annonces envoyées par les administrateurs sous la forme d’en-têtes directement dans l’application dans le portail SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1053'
 ht-degree: 47%
 
 ---
@@ -25,7 +25,7 @@ Learning Manager propose un package d’application Salesforce. Une fois le pack
 1. Sur la page de l’application Salesforce, notez l’ID d’application (également appelé ID client) et le secret client mentionné dans la description.
 1. Cliquez sur **[!UICONTROL Approuver]** et votre application doit être approuvée.
 1. Cliquez sur **[!UICONTROL Ressources pour les développeurs]** > **[!UICONTROL Jetons d&#39;accès pour le test et le développement]**.
-1. Dans la section Obtenir le code OAuth, l’ID client et la portée doivent être définis sur - admin:read, admin:write. Cliquez sur **[!UICONTROL Envoyer]**.
+1. Dans la section Obtenir le code OAuth, l&#39;ID client et la portée doivent être définis sur - admin:read,admin:write. Cliquez sur **[!UICONTROL Envoyer]**.
 1. Dans la section Obtenir le jeton d’actualisation, entrez l’ID client et le secret client. Cliquez sur **[!UICONTROL Envoyer]** et notez le jeton d’actualisation.
 
 ### Création d’un compte dans l’application Salesforce
@@ -47,7 +47,7 @@ Si vous souhaitez installer le package, vous devez d’abord supprimer le pack e
 >
 >L’application Adobe Learning Manager est uniquement prise en charge dans la vue Salesforce Lightning.
 
-1. Lancez l’[URL du package Learning Manager (correctif M42 2)](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG).
+1. Lancez l&#39;[URL du package Learning Manager](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
 1. Dans la page **Connexion**, cliquez sur **[!UICONTROL Utiliser un domaine personnalisé]**.
 1. Entrez l&#39;URL du package et cliquez sur **[!UICONTROL Continuer]**. L’option Installer pour les administrateurs uniquement doit être sélectionnée sur la page d’installation. Ne modifiez pas cette option.
 1. Cliquez sur **[!UICONTROL Installer]**. Une fois le package installé, cliquez sur **[!UICONTROL Terminé]**. Vous êtes guidé vers la page Packages installés où vous pouvez voir le package Adobe Learning Manager installé.

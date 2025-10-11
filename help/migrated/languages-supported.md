@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Langues prises en charge dans Adobe Learning Manager
 description: Exploration des langues d’interface et de contenu prises en charge dans Adobe Learning Manager (ALM)
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 49%
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Learning Manager prend en charge les langues d’interface et de contenu s
 
 | Langue de l’interface | Rôle | Code de paramètres régionaux |
 |---|---|---|
-| qu’en | <li>Administrateur</li><li>Auteur</li><li>Gestion</li><li>Responsable</li> | fr-fr |
+| qu’en | <li>Administrateur</li><li>Auteur</li><li>Gestion</li><li>Responsable</li> | fr-FR |
 | Français | <li>Administrateur</li><li>Auteur</li><li>Gestion</li><li>Responsable</li> | fr-FR |
 | Allemand | <li>Administrateur</li><li>Auteur</li><li>Gestion</li><li>Responsable</li> | de-DE |
 | Chinois | <li>Gestion</li><li>Responsable</li> | zh-CN |
@@ -49,38 +49,38 @@ Adobe Learning Manager prend en charge les langues d’interface et de contenu s
 | Italien | - | it-IT |
 | Japonais | - | ja-JP |
 | Portugais (Brésil) | - | pt-BR |
-| Danois (Danois) | - | da |
-| Hindi | - | bonjour |
-| Hongrois (Magyar) | - | hu |
+| Danois (Danois) | - | da-DK |
+| Hindi | - | hi-IN |
+| Hongrois (Magyar) | - | hu-HU |
 | Néerlandais (Pays-Bas) | - | nl-NL |
 | Polonais | - | pl-PL |
-| Finnois (Suomi) | - | fi |
-| Thaï | - | th |
+| Finnois (Suomi) | - | fi-FI |
+| Thaï | - | th-TH |
 | Turc | - | tr-TR |
 | Coréen | - | ko-KR |
-| Chinois traditionnel | - | zh-CHT |
-| Norvégien (Norsk) | - | nb-NO |
+| Chinois traditionnel | - | zh-TW |
+| Norvégien (Norsk) | - | non-NON |
 | Suédois | - | sv-SE |
-| Roumain | - | ro |
-| Arabe | Oui | ar |
+| Roumain | - | ro-RO |
+| Arabe | Oui | ar-SA |
 | Russe | - | ru-RU |
-| Amharique | - | am |
-| Tchèque | - | cs |
-| Anglais (Royaume-Uni) | - | en-gb |
-| Vietnamien | Oui | vi |
-| Grec | - | el |
+| Amharique | - | am-ET |
+| Tchèque | - | cs-CZ |
+| Anglais (Royaume-Uni) | - | en-GB |
+| Vietnamien | Oui | vi-VN |
+| Grec | - | el-GR |
 | Français (Canada) | - | fr-ca |
-| Anglais (Australie) | - | en-au |
+| Anglais (Australie) | - | en-AU |
 | Indonésien | - | id-ID |
-| Espagnol (Amérique latine) | - | es |
-| Serbe | - | sr-sp |
-| Slovène | - | sl |
-| Slovaque | - | sk |
-| Croate | - | h |
-| Ukrainien | - | royaume-uni |
-| Hébreu | Oui | il |
-| Bulgare | - | bg |
-| Néerlandais (Belgique) | - | nl-be |
+| Espagnol (Amérique latine) | - | es-XL |
+| Serbe | - | sr-SP |
+| Slovène | - | sl-SL |
+| Slovaque | - | sk-SK |
+| Croate | - | hr-HR |
+| Ukrainien | - | uk-UA |
+| Hébreu | Oui | he-IL |
+| Bulgare | - | bg-BG |
+| Néerlandais (Belgique) | - | nl-BE |
 | Portugais (Portugal) | - | pt-PT |
 | Chinois (traditionnel, Hong Kong) | - | zh-HK |
 | Norvégien bokmål | - | nb-NO |

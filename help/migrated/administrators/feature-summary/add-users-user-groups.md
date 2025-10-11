@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Ajout d’utilisateurs dans Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -172,6 +172,37 @@ Pour enregistrer les utilisateurs :
 
 Un e-mail de vérification est envoyé à l’utilisateur. L’utilisateur doit sélectionner le lien dans l’e-mail pour activer son compte et commencer à utiliser Adobe Learning Manager.
 
+### Télécharger le rapport d’utilisateur
+
+Les administrateurs peuvent exporter et télécharger les données utilisateur sous la forme d’un rapport complet. En exportant ces données, les administrateurs peuvent suivre l&#39;activité des élèves, surveiller le cycle de vie du compte, identifier les utilisateurs inactifs et conserver des enregistrements précis à des fins de conformité, d&#39;audit et de création de rapports.
+
+Pour télécharger le rapport d’utilisateur :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Sélectionnez **Utilisateurs**, puis choisissez **Interne**.
+3. Sélectionnez **Exporter les données utilisateur**. Vous serez averti lorsque le rapport sera prêt.
+
+   ![](assets/select-export-user-data.png)
+   _Les sections Utilisateur interne affichent l’option permettant d’exporter et de télécharger le rapport d’utilisateur._
+4. Sélectionnez la notification et téléchargez le rapport d’utilisateur.
+
+Le rapport contient les informations suivantes :
+
+* Nom
+* Courrier électronique
+* Statut
+* Date d’ajout (fuseau horaire UTC)
+* Date de suppression (fuseau horaire UTC)
+* Date de la dernière connexion (fuseau horaire UTC)
+* ID Adobe
+* userState
+* profile
+* Langue de l’interface
+* Langue de contenu
+* Fuseau horaire
+* ID utilisateur interne
+* Adresse électronique du responsable
+
 ## Utilisateurs externes
 
 Adobe Learning Manager vous permet d’ajouter des utilisateurs en dehors de votre entreprise, tels que des clients, des partenaires, des fournisseurs ou des clients, pour accéder au contenu de formation. Une fois qu’ils ont été ajoutés, vous pouvez les regrouper, attribuer des cours et suivre leur progression d’apprentissage.
@@ -239,7 +270,7 @@ Il existe quelques différences entre les enregistrements internes et externes :
 | Utilisateurs internes | Utilisateurs externes |
 |---|---|
 | Connexion possible à l’aide des identifiants Adobe ID ou SSO. | Connexion possible avec n’importe quel ID de messagerie. |
-| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/gamification). |
+| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
 
 ### Suspendre le profil d&#39;inscription externe
 
@@ -266,6 +297,32 @@ Pour reprendre un utilisateur externe :
 
 ![](assets/resume-an-external-user.png)
 _Option permettant de reprendre un profil d&#39;inscription externe suspendu précédemment_
+
+### Modification du profil externe
+
+Les administrateurs peuvent réaffecter les élèves d&#39;un profil externe à un autre profil.
+
+Pour modifier le profil externe :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Sélectionnez **[!UICONTROL Utilisateurs]**, puis **[!UICONTROL Externe]**.
+3. Sélectionnez **[!UICONTROL Places utilisées]** dans la liste des profils externes.
+
+   ![](assets/select-learners-external-profile.png)
+   _Section de profil externe affichant le nombre de sièges utilisés_
+
+4. Sélectionnez l’élève, puis **[!UICONTROL Actions]**.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _Page de profil externe mettant en évidence l&#39;option Modifier le profil pour déplacer les élèves vers un autre profil_
+
+5. Sélectionnez **[!UICONTROL Modifier le profil]**.
+6. Recherchez et sélectionnez le profil externe correspondant.
+
+   ![](assets/search-and-select-profile.png)
+   _L&#39;invite Modifier le profil affiche les options de recherche dans le profil externe_
+
+L’élève sélectionné passera au profil externe sélectionné.
 
 ### Surveillance de l’utilisation des sièges externes
 

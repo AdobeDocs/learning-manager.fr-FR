@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '27312'
-ht-degree: 69%
+source-wordcount: '27340'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 69%
   </tr>
  </tbody>
 </table>-->
+
++++Mise à jour 102 : version d’octobre 2025 de Adobe Learning Manager
+
+**Date de publication** : 12 octobre 2025
+
+## Nouveautés de cette version
+
+Consultez les [Nouveautés de la version d&#39;octobre 2025 de Adobe Learning Manager](/help/migrated/whats-new.md) pour plus d&#39;informations.
++++
 
 +++Mise à jour 101 : version de juillet 2025 de Adobe Learning Manager
 
@@ -93,7 +102,7 @@ Lorsqu&#39;un administrateur clique sur **[!UICONTROL Mettre à jour]**, il peut
 
 | Ancien libellé | Nouvelle option |
 |---|---|
-| Appliquer la mise à jour du contenu à tous les élèves | Mettre à jour tous les élèves maintenant : appliquer la mise à jour du contenu pour tous les élèves |
+| Appliquer la mise à jour du contenu à tous les élèves | Mettre à jour le contenu de tous les élèves maintenant:Apply pour tous les élèves |
 | Appliquer la mise à jour aux élèves qui n’ont pas encore commencé | Mettre à jour uniquement les élèves non démarrés : appliquer la mise à jour du contenu uniquement aux élèves non démarrés |
 | Les élèves en cours reçoivent une mise à jour une fois l’opération terminée | Mettre à jour tous les élèves ultérieurement : appliquer la mise à jour du contenu pour tous les élèves ultérieurement |
 
@@ -122,7 +131,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/fluidic-p
 
 * Correction d’un problème en raison duquel les élèves qui avaient terminé un cours voyaient un écran blanc lors de la consultation de celui-ci après la mise à jour du module de contenu vers une nouvelle version.
 
-En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -132,10 +141,10 @@ En outre, pour plus de détails sur les modifications à venir de Adobe Learning
 
 ## Nouveautés de cette version
 
-Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new.md).
+Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new-may-2025.md).
 +++
 
-+++Mise à jour 99 : version de février 2025 de Adobe Learning Manager
++++Mise à jour 99 : Version de février 2025 de Adobe Learning Manager
 
 ## Configuration de la langue de l’interface via SAML
 
@@ -155,7 +164,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/catalogs.
 
 +++
 
-+++Mise à jour 98 : version de novembre 2024 de Adobe Learning Manager
++++Mise à jour 98 : Version de novembre 2024 de Adobe Learning Manager
 
 **Date de publication** : 16 novembre 2024
 
@@ -164,7 +173,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/catalogs.
 Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new-nov-24.md).
 +++
 
-+++Mise à jour 97 : version de juillet 2024 de Adobe Learning Manager
++++Mise à jour 97 : Version de juillet 2024 de Adobe Learning Manager
 
 **Date de publication :** 13 juillet 2024
 
@@ -182,7 +191,7 @@ Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/
 Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new-march-2024.md).
 +++
 
-+++Mise à jour 95 : version de novembre 2023 de Adobe Learning Manager
++++Mise à jour 95 : Version de novembre 2023 de Adobe Learning Manager
 
 **Date de publication :** 18 novembre 2023
 
@@ -191,7 +200,7 @@ Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/
 Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/help/migrated/whats-new-november-2023.md).
 +++
 
-+++Mise à jour 94
++++Mise à jour 94
 
 **Date de publication : jeudi 23 août 2023**
 
@@ -201,7 +210,7 @@ Pour plus d’informations, consultez [Nouveautés d’Adobe Learning Manager](/
 * Modifier la qualité et la vitesse d’une vidéo sur les réseaux sociaux.
 +++
 
-+++Mise à jour 93 : version de juillet 2023 de Adobe Learning Manager
++++Mise à jour 93 : Version de juillet 2023 de Adobe Learning Manager
 
 **Date de publication :** 10 juillet 2023
 
@@ -222,7 +231,7 @@ Cette version d’Adobe Learning Manager inclut un nouveau connecteur, qui uti
 Pour plus d&#39;informations, voir [Nouveautés de la version de juillet 2023 de Adobe Learning Manager](/help/migrated/whats-new-2023-july.md).
 +++
 
-+++Mise à jour : 92
++++Mise à jour : 92
 
 **Date de publication : 23 juin 2023**
 
@@ -240,7 +249,7 @@ Pour plus d&#39;informations, voir [Nouveautés de la version de juillet 2023 de
 * Ajout d’un menu pour sélectionner la résolution d’écran lors de la lecture d’une vidéo.
 +++
 
-+++Mise à jour 91
++++Mise à jour 91
 
 **Date de publication : vendredi 1 juin 2023**
 
@@ -262,7 +271,7 @@ Pour plus d&#39;informations, voir [Nouveautés de la version de juillet 2023 de
 * Une fois qu’un cours est marqué comme terminé pour les élèves d’une ou de plusieurs instances, tous les élèves du cours sont marqués avec l’état « Terminé », et pas seulement les élèves de l’instance ou des instances actuelles.
 +++
 
-+++Mise à jour 90
++++Mise à jour 90
 
 **Date de publication :** 4 avril 2023
 
@@ -380,7 +389,7 @@ Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Acti
 * Vous ne pourrez pas vous connecter à LinkedIn Learning.
 +++
 
-+++Mise à jour 88
++++Mise à jour 88
 
 **Date de publication :** 7 mars 2023
 
@@ -390,7 +399,7 @@ Lorsqu&#39;une inscription en bloc d&#39;élèves est effectuée, aucun fichier 
 Nous avons optimisé le traitement des plans d’apprentissage pour les comptes volumineux. Cela permet d’éviter tout problème ou retard de recherche.
 +++
 
-+++Mise à jour 87
++++Mise à jour 87
 
 **Date de publication :** 1er mars 2023
 
@@ -400,7 +409,7 @@ Nous avons optimisé le traitement des plans d’apprentissage pour les comptes 
 * Changez GetNotificationData de GET en POST. L&#39;implémentation d&#39;origine a produit l&#39;erreur **IllegalArgumentException : l&#39;en-tête de demande est trop volumineux**, ce qui a entraîné l&#39;échec des notifications.
 +++
 
-+++Mise à jour : 86
++++Mise à jour : 86
 
 **Date de publication :** 17 février 2023
 
@@ -409,7 +418,7 @@ Nous avons optimisé le traitement des plans d’apprentissage pour les comptes 
 Dans l’application de l’élève, la recherche des utilisateurs et des groupes d’utilisateurs échoue en raison de problèmes liés aux paramètres régionaux.
 +++
 
-+++Mise à jour 85
++++Mise à jour 85
 
 **Date de publication :** mardi 13 février 2023
 
@@ -423,7 +432,7 @@ Pour certaines langues, la recherche renvoie des résultats incorrects.
 Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes du même paramètre régional.
 +++
 
-+++Mise à jour 84
++++Mise à jour 84
 
 **Date de publication :** vendredi 2 février 2023
 
@@ -466,7 +475,7 @@ Vous pouvez désormais ajouter un prérequis dans quelques modèles de courrier 
 * Pour certaines langues, dans un modèle d’e-mail, une partie du contenu du corps de l’e-mail est manquante et la traduction linguistique du modèle n’est pas cohérente.
 +++
 
-+++Mise à jour 83
++++Mise à jour 83
 
 **Date de publication :** 18 janvier 2023
 
@@ -502,7 +511,7 @@ Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learnin
 * Les modèles qui contiennent plusieurs modèles utilisateur sont remplacés par leur objet avec certaines valeurs.
 +++
 
-+++Mise à jour 82
++++Mise à jour 82
 
 **Date de publication :** 15 décembre 2022
 
@@ -562,7 +571,7 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 * Dans certains cas, le graphique de score du quiz ne s’affiche pas comme prévu. Lorsque vous redimensionnez le graphique, un espace vide apparaît au début. En outre, toutes les questions n’apparaissent pas et des données incorrectes s’affichent par intermittence.
 +++
 
-+++Mise à jour 80
++++Mise à jour 80
 
 **Date de publication :** 20 septembre 2022
 
@@ -575,7 +584,7 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 * Les performances de l’application ont été améliorées.
 +++
 
-+++Mise à jour 79
++++Mise à jour 79
 
 **Date de publication : vendredi 18 août 2022**
 
@@ -592,7 +601,7 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 * Un message d’erreur s’affiche lors de la tentative d’intégration d’un compte Adobe Connect déjà intégré à un autre compte Learning Manager.
 +++
 
-+++Mise à jour 78
++++Mise à jour 78
 
 **Date de publication : 4 août 2022**
 
@@ -605,7 +614,7 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 * URL de sous-domaine incorrecte sur la page de l’identité visuelle.
 +++
 
-+++Mise à jour 77
++++Mise à jour 77
 
 **Date de publication :** 24 mai 2022
 
@@ -633,7 +642,7 @@ Toutes les URL existantes continueront de fonctionner.
 Pour terminer cette action, contactez le service informatique de votre organisation. Pour plus d&#39;informations, contactez-nous à l&#39;adresse `learningmanagersupport@adobe.com`.
 +++
 
-+++Mise à jour 76
++++Mise à jour 76
 
 **Date de publication :** jeudi 20 avril 2022
 
@@ -645,7 +654,7 @@ Pour terminer cette action, contactez le service informatique de votre organisat
 * Une date de fin incorrecte s’affichait dans le PDF d’un badge.
 +++
 
-+++Mise à jour 75
++++Mise à jour 75
 
 **Date de publication :** mercredi 29 mars 2022
 
@@ -653,7 +662,7 @@ Pour terminer cette action, contactez le service informatique de votre organisat
 * Dans les versions précédentes de Learning Manager, il était nécessaire pour configurer un connecteur Zoom de commencer par configurer FTP Exavault afin de copier le fichier csv. Dans cette version, le connecteur FTP n’est plus utilisé pour le fichier csv. Par conséquent, il n’est pas nécessaire de configurer d’abord le FTP.
 +++
 
-+++Mise à jour 74 : instance AWS India de Learning Manager
++++Mise à jour 74 : Instance Learning Manager AWS Inde
 
 **Date de publication :** mercredi 15 février 2022
 
@@ -686,14 +695,14 @@ Il n’y a pas de différence. L’instance de Mumbai est identique aux instance
 Oui. La nouvelle instance est conforme au framework CCF (Common Control Framework).
 +++
 
-+++Mise à jour 73
++++Mise à jour 73
 
 Date de publication : 05 février 2022
 
 * La prise en charge des modèles d’e-mail est désormais disponible pour les langues de contenu, notamment le hongrois et le finnois.
 +++
 
-+++Mise à jour 72 - Version de janvier 2022 de Learning Manager
++++Mise à jour 72 - Version de janvier 2022 de Learning Manager
 
 Date de publication : 30 janvier 2017
 
@@ -795,7 +804,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * Dans le navigateur Safari Mobile, les élèves ne pourront pas charger plus de 200 Mo de fichier dans l’apprentissage par les réseaux sociaux. Ceci est une limitation du navigateur.
 +++
 
-+++Mise à jour 71
++++Mise à jour 71
 
 Date de publication : 17 novembre 2021
 
@@ -820,7 +829,7 @@ Pour plus d&#39;informations, voir [**Partager la formation avec les responsable
 * Lorsqu’un administrateur crée une instance et ajoute une nouvelle session, un instructeur ne reçoit pas l’e-mail d’invitation à la session. Ce problème se produit dans les cours Zoom VC.
 +++
 
-+++Mise à jour 70
++++Mise à jour 70
 
 Date de publication : 28 octobre 2021
 
@@ -831,7 +840,7 @@ Date de publication : 28 octobre 2021
 * Dans certains cas, l’API d’objets d’apprentissage a renvoyé une erreur de métadonnées.
 +++
 
-+++Mise à jour 69 - Version d’octobre 2021 de Learning Manager
++++Mise à jour 69 - Version d’octobre 2021 de Learning Manager
 
 **Date de publication :** 09 octobre 2021
 
@@ -879,7 +888,7 @@ Pour plus d&#39;informations, voir [***Nouveautés de la version d&#39;octobre 
 * Les PDF de badge générés pour les élèves rencontraient des problèmes de formatage lorsqu’ils étaient générés dans des langues autres que l’anglais. Ces problèmes sont maintenant résolus.
 +++
 
-+++Mise à jour 68
++++Mise à jour 68
 
 Date de publication : 28 septembre 2021
 
@@ -911,7 +920,7 @@ Date de publication : 28 septembre 2021
 * Les élèves ne reçoivent pas d’e-mails contenant les détails d’une session.
 +++
 
-+++Mise à jour 67 - Mises à jour d’Azure
++++Mise à jour 67 - Mises à jour d’Azure
 
 Cette mise à jour introduit une nouvelle instance d’Azure.
 
@@ -925,7 +934,7 @@ Cette mise à jour introduit une nouvelle instance d’Azure.
 
 +++
 
-+++Mise à jour 66 - Version d’août 2021 de Learning Manager
++++Mise à jour 66 - Version d’août 2021 de Learning Manager
 
 La version **d&#39;août 2021** **de Adobe Learning Manager** se concentre sur l&#39;amélioration de l&#39;expérience des élèves, des rapports et des workflows administratifs. Voici quelques-uns des points forts :
 
@@ -982,7 +991,7 @@ Pour plus d’informations, voir [***Nouveautés et modifications de la version 
 * Sur la page du catalogue, les cours ne sont pas triés comme prévu.
 +++
 
-+++Mise à jour 65
++++Mise à jour 65
 
 Date de publication : juillet 2021
 
@@ -994,7 +1003,7 @@ Date de publication : juillet 2021
 * Problèmes liés à la suppression de données GDPR pour un utilisateur.
 +++
 
-+++Mise à jour 64
++++Mise à jour 64
 
 Date de publication : juillet 2021
 
@@ -1004,7 +1013,7 @@ Date de publication : juillet 2021
 * Lorsqu&#39;un certificat personnalisé en tant que badge est généré, le format de la date n&#39;est pas pris en charge en allemand.
 +++
 
-+++Mise à jour 63
++++Mise à jour 63
 
 Date de publication : juin 2021
 
@@ -1017,7 +1026,7 @@ Date de publication : juin 2021
 * La recherche d&#39;un objet d&#39;apprentissage avec plusieurs compétences produit des résultats inattendus.
 +++
 
-+++Mise à jour 62
++++Mise à jour 62
 
 Date de publication : juin 2021
 
@@ -1031,7 +1040,7 @@ Date de publication : juin 2021
 * L&#39;API d&#39;envoi de fichiers ne fonctionne pas comme prévu dans le cluster EU.
 +++
 
-+++Mise à jour 61
++++Mise à jour 61
 
 Date de publication : mai 2021
 
@@ -1044,7 +1053,7 @@ Date de publication : mai 2021
 * Les modules audio ne sont pas chargés comme prévu.
 +++
 
-+++Mise à jour 60
++++Mise à jour 60
 
 Date de publication : avril 2021
 
@@ -1135,7 +1144,7 @@ Cette mise à jour permet aux élèves de télécharger leurs badges au format P
 <!--## Previous update releases {#previousupdatereleases}-->
 +++
 
-+++Mise à jour 60 - Version de février 2021 de Learning Manager
++++Mise à jour 60 - Version de février 2021 de Learning Manager
 
 Date de publication : 20 février 2021
 
@@ -1167,7 +1176,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 * Le téléchargement des ressources d&#39;un cours ne fonctionnait pas s&#39;il était dupliqué à partir d&#39;un autre cours et que l&#39;élève n&#39;avait pas accès au cours original utilisé pour créer un double.
 * Les images de bannière ne sont pas supprimées lorsque l’auteur les supprime d’un cours à l’état de brouillon. Ce problème a été résolu.
 
-**AEM &#x200B;**
+**AEM **
 
 * Après l&#39;insertion du composant Learning Manager dans AEM, le chargement de la page prenait beaucoup de temps, empêchant ainsi l&#39;accès aux autres composants. Ce problème a été résolu.
 
@@ -1250,11 +1259,11 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 >[!NOTE]
 >
->Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.**&#x200B;**
+>Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.****
 
 +++
 
-+++Mise à jour 59
++++Mise à jour 59
 
 ## Mise à jour 59
 
@@ -1273,7 +1282,7 @@ Pour plus d&#39;informations, consultez [***Connecteur d&#39;événement BlueJea
 
 +++
 
-+++Mise à jour 58 - Version de décembre 2020 de Learning Manager
++++Mise à jour 58 - Version de décembre 2020 de Learning Manager
 
 ## Mise à jour 58 - Version de décembre 2020 de Learning Manager
 
@@ -1325,7 +1334,7 @@ Après avoir suivi un cours ou une certification, vous ne voyez pas immédiateme
 
 +++
 
-+++Mise à jour 57
++++Mise à jour 57
 
 ## Mise à jour 57
 
@@ -1353,7 +1362,7 @@ Date de publication : 23 septembre 2020
 
 +++
 
-+++Mise à jour 56 - Application mobile
++++Mise à jour 56 - Application mobile
 
 Date de publication : 25 août 2020
 
@@ -1389,7 +1398,7 @@ Les élèves peuvent cependant basculer entre les modes Liste et Carte.
 
 +++
 
-+++Mise à jour 55 - Version d’août 2020 de Learning Manager
++++Mise à jour 55 - Version d’août 2020 de Learning Manager
 
 Date de publication : 23 août 2020
 
@@ -1521,7 +1530,7 @@ Pour plus d&#39;informations, voir [***Nouveautés de la version d&#39;août 202
 
 +++
 
-+++Mise à jour 54 - Application mobile
++++Mise à jour 54 - Application mobile
 
 ## Mise à jour 54 - Application mobile
 
@@ -1552,7 +1561,7 @@ Si vous ne souhaitez pas lire l&#39;annonce à ce moment-là, vous pouvez toujou
 
 +++
 
-+++Mise à jour 53 - Version d’avril 2020 de Learning Manager
++++Mise à jour 53 - Version d’avril 2020 de Learning Manager
 
 Date de publication : 04 avril 2020
 
@@ -1570,7 +1579,7 @@ Pour plus d&#39;informations, voir [***Nouveautés de la version d&#39;avril 20
 
 +++
 
-+++Mise à jour 52 - Application mobile
++++Mise à jour 52 - Application mobile
 
 ## Mise à jour 52 - Application mobile
 
@@ -1601,7 +1610,7 @@ Dans cette mise à jour, un élève peut charger des actifs comme justificatif d
 
 Un élève peut ouvrir un certificat externe et charger des actifs, tels que des fichiers PDF, texte ou image.
 
-Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problèmes résolus dans cette version {#issuesfixedinthisrelease}
 
@@ -1612,7 +1621,7 @@ Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat ext
 
 +++
 
-+++Mise à jour 51
++++Mise à jour 51
 
 Dans cette mise à jour, vous pouvez également modifier l&#39;image de bannière pour un objet d&#39;apprentissage.
 
@@ -1720,7 +1729,7 @@ Actuellement, seuls les administrateurs peuvent ajouter des utilisateurs à une 
 
 +++
 
-+++Mise à jour 50
++++Mise à jour 50
 
 ## Mise à jour 50
 
@@ -1855,7 +1864,7 @@ Dans cette mise à jour, un **message d&#39;avertissement indiquant que les donn
 
 +++
 
-+++Mise à jour 49
++++Mise à jour 49
 
 ## Mise à jour 49
 
@@ -1912,7 +1921,7 @@ Dans les colonnes de temps des relevés de notes des élèves, les minutes sont 
 
 +++
 
-+++Mise à jour 48
++++Mise à jour 48
 
 ## Mise à jour 48
 
@@ -1928,7 +1937,7 @@ Date de publication : 2 août 2019
 
 +++
 
-+++Mise à jour 47 - Application mobile
++++Mise à jour 47 - Application mobile
 
 ## Mise à jour 47 - Application mobile
 
@@ -1969,7 +1978,7 @@ L&#39;application mobile Learning Manager est désormais prise en charge sur le
 
 +++
 
-+++Mise à jour 46
++++Mise à jour 46
 
 ### Nouvelles fonctionnalités et fonctionnalités améliorées {#Newandenhancedfeatures-7}
 
@@ -1979,7 +1988,7 @@ Date de publication : 20 juin 2019
 
 **Auto-curation du contenu**
 
-L&#39;apprentissage par les réseaux sociaux permet au contenu publié par les élèves d&#39;être conservé de deux manières, à savoir : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d&#39;informations, voir *[**&#x200B; Curation à assistance automatique &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L&#39;apprentissage par les réseaux sociaux permet au contenu publié par les élèves d&#39;être conservé de deux manières, à savoir : **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. En fonction du score de confiance, le contenu est publié en direct ou envoyé pour une curation manuelle. Pour plus d&#39;informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappage de compétences avec les domaines de compétence**
 
@@ -2013,7 +2022,7 @@ Spécifications CSV mises à jour que vous pouvez utiliser pour mapper vos donn�
 
 +++
 
-+++Mise à jour 45
++++Mise à jour 45
 
 Date de publication : 30 mai 2019
 
@@ -2049,7 +2058,7 @@ Date de publication : 30 mai 2019
 
 +++
 
-+++Mise à jour 44 - Application mobile
++++Mise à jour 44 - Application mobile
 
 Date de publication : 26 avril 2019
 
@@ -2065,7 +2074,7 @@ Pour vous inscrire à un cours et le terminer, vous pouvez lire un code QR fourn
 
 +++
 
-+++Mise à jour 43
++++Mise à jour 43
 
 ## Mise à jour 43
 
@@ -2090,7 +2099,7 @@ Date de publication : 28 janvier 2019
 
 +++
 
-+++Mise à jour 42
++++Mise à jour 42
 
 Mise à jour 42
 
@@ -2101,7 +2110,7 @@ Date de publication : 11 janvier 2019.
 
 +++
 
-+++Mise à jour 41
++++Mise à jour 41
 
 Mise à jour 41Date de publication : 1er décembre 2018.
 
@@ -2120,7 +2129,7 @@ Mise à jour 41Date de publication : 1er décembre 2018.
 
 +++
 
-+++Mise à jour 40
++++Mise à jour 40
 
 Mise à jour 40
 
@@ -2136,7 +2145,7 @@ Amélioration des performances
 
 +++
 
-+++Mise à jour 39
++++Mise à jour 39
 
 Date de publication : 19 mai 2018.
 
@@ -2150,7 +2159,7 @@ Date de publication : 19 mai 2018.
 
 +++
 
-+++Mise à jour 38
++++Mise à jour 38
 
 * Les élèves à l&#39;état En attente ou En attente d&#39;acceptation étaient marqués comme terminés. Ce problème a été résolu.
 * Lorsqu&#39;un instructeur recherche et sélectionne tous les élèves, le nombre d&#39;élèves sélectionnés et le nombre affiché sont différents. Ce problème a été résolu.
@@ -2171,7 +2180,7 @@ Date de publication : 19 mai 2018.
 
 +++
 
-+++Mise à jour 37
++++Mise à jour 37
 
 Date de publication : 25 mars 2018
 
@@ -2187,7 +2196,7 @@ Pour lire toutes les nouveautés de cette version, consultez [Nouveautés de Ado
 
 +++
 
-+++Mise à jour 36
++++Mise à jour 36
 
 Date de publication : 22 janvier 2018.
 
@@ -2209,7 +2218,7 @@ Date de publication : 22 janvier 2018.
 
 +++
 
-+++Mise à jour 35
++++Mise à jour 35
 
 Date de publication : 7 janvier 2018.
 
@@ -2219,11 +2228,11 @@ Cette version de Learning Manager vous apporte des optimisations de performance
 
 * Découvrez la recherche élastique lors de la recherche de cours et d&#39;utilisateurs dans toutes les applications. Cela inclut les recherches sur les cours, les utilisateurs et les groupes d&#39;utilisateurs.
 * Prenez en charge l&#39;utilisation du connecteur Box afin d&#39;intégrer Learning Manager à des systèmes externes pour automatiser la synchronisation des données. Pour plus d&#39;informations, voir [Connecteur Box](../integration-admin/feature-summary/connectors.md#main-pars_header_302653946).
-* Spécifications CSV mises à jour que vous pouvez utiliser pour mapper vos données de migration LMS existantes. Utilisez les dernières spécifications csv téléchargeables et les fichiers zip d’exemple csv pour comprendre le format prescrit des données à saisir. Pour plus d&#39;informations, voir [Manuel de migration](../integration-admin/feature-summary/migration-manual.md).
+* Spécifications CSV mises à jour que vous pouvez utiliser pour mapper vos données de migration LMS existantes. Utilisez les dernières spécifications csv téléchargeables et les fichiers zip d’exemple csv pour comprendre le format prescrit des données à saisir. Pour plus d’informations, voir [Manuel de migration](../integration-admin/feature-summary/migration-manual.md).
 
 +++
 
-+++Mise à jour 34
++++Mise à jour 34
 
 ### Problèmes résolus {#IssuesFixed-1}
 
@@ -2237,7 +2246,7 @@ Cette version de Learning Manager vous apporte des optimisations de performance
 
 +++
 
-+++Mise à jour 33
++++Mise à jour 33
 
 Date de publication : 5 octobre 2017.
 
@@ -2257,7 +2266,7 @@ Date de publication : 5 octobre 2017.
 
 +++
 
-+++Mise à jour 32
++++Mise à jour 32
 
 Date de publication : 17 août 2017
 
@@ -2337,7 +2346,7 @@ Les données de durée d’apprentissage n’étaient pas affichées dans les ra
 
 +++
 
-+++Mise à jour 31
++++Mise à jour 31
 
 Date de publication : 16 juillet 2017
 
@@ -2375,7 +2384,7 @@ Un utilisateur dont la préférence en matière de langue du contenu était déf
 
 +++
 
-+++Mise à jour 30
++++Mise à jour 30
 
 Date de publication : 30 juin 2017
 
@@ -2409,7 +2418,7 @@ Dans certains cas, les élèves ne pouvaient pas s’abonner à une nouvelle com
 
 +++
 
-+++Mise à jour 29
++++Mise à jour 29
 
 Date de publication : 9 avril 2017
 
@@ -2535,7 +2544,7 @@ Vous pouvez désormais configurer une seule URL Adobe Connect avec plusieurs com
 
 +++
 
-+++Mise à jour 28
++++Mise à jour 28
 
 Date de publication : 30 janvier 2017
 
@@ -2567,7 +2576,7 @@ Vous rencontrez une erreur chaque fois que vous tentez de récupérer les inform
 
 +++
 
-+++Mise à jour 27
++++Mise à jour 27
 
 Date de publication : 23 décembre 2016.
 
@@ -2593,17 +2602,17 @@ Le lecteur Fluidic permet désormais de modifier la vitesse de lecture. Vous pou
 
 En tant qu&#39;élève, vous pouvez également avancer ou reculer de 10 secondes à l&#39;aide des nouvelles icônes de chaque côté du bouton de lecture dans le lecteur Fluidic. Pour plus d&#39;informations sur ces améliorations, voir [Lecteur Fluidic](../learners/feature-summary/fluidic-player.md).
 
-Les améliorations apportées au lecteur Fluidic s&#39;appliquent à la vidéo uniquement.
+Les améliorations apportées au lecteur Fluidic s’appliquent à la vidéo uniquement.
 
 +++
 
-+++Mise à jour 26
++++Mise à jour 26
 
 Date de publication : 6 décembre 2016.
 
 ### Amélioration {#enhancement}
 
-Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/# !/user/patch_users_id) pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l&#x200B;**&#x200B;**&#x200B;aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
+Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/# !/user/patch_users_id) pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l****aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
 
 * Nom
 * Courrier électronique
@@ -2619,7 +2628,7 @@ Lorsque vous suiviez un cours développé en Captivate à l&#39;aide de la varia
 
 +++
 
-+++Mise à jour 25
++++Mise à jour 25
 
 Date de publication : 17 novembre 2016.
 
@@ -2666,7 +2675,7 @@ Pour plus d&#39;informations sur cette fonctionnalité, consultez [Aide des cata
 
 +++
 
-+++Mise à jour 24
++++Mise à jour 24
 
 Date de publication : 12 octobre 2016.
 
@@ -2731,7 +2740,7 @@ Date de publication : 12 octobre 2016.
 
 +++
 
-+++Mise à jour 23
++++Mise à jour 23
 
 Date de publication : 19 septembre 2016.
 
@@ -2748,7 +2757,7 @@ Date de publication : 19 septembre 2016.
 
 +++
 
-+++Mise à jour 22
++++Mise à jour 22
 
 Date de publication : 13 septembre 2016.
 
@@ -2761,7 +2770,7 @@ Dans cette mise à jour, nous avons corrigé certains problèmes principaux rela
 
 +++
 
-+++Mise à jour 21
++++Mise à jour 21
 
 Date de publication : 1er septembre 2016.
 
@@ -2821,7 +2830,7 @@ Dans les paramètres du compte, lorsqu’un administrateur se servait d’un sou
 
 +++
 
-+++Mise à jour 20
++++Mise à jour 20
 
 Date de publication : 22 août 2016.
 
@@ -2869,7 +2878,7 @@ Le champ de recherche ne prenait pas en charge les caractères spéciaux comme e
 
 +++
 
-+++Mise à jour 19
++++Mise à jour 19
 
 Date de publication : 11 août 2016.
 
@@ -2948,7 +2957,7 @@ Parfois, même si l’option Afficher les données pour les valeurs actuelles é
 
 +++
 
-+++Mise à jour 18
++++Mise à jour 18
 
 Date de publication : 31 juillet 2016.
 
@@ -2997,7 +3006,7 @@ Vous pouvez désormais modifier l’en-tête des modèles de courriers électron
 
 +++
 
-+++Mise à jour 17
++++Mise à jour 17
 
 Date de publication : 15 juin 2016.
 
@@ -3013,7 +3022,7 @@ Dans certains cas, le nombre d’utilisateur ne s’affichait pas dans la page d
 
 +++
 
-+++Mise à jour 16
++++Mise à jour 16
 
 Date de publication : 10 juin 2016.
 
@@ -3023,7 +3032,7 @@ Certains clients rencontraient des problèmes lors de l&#39;utilisation de la fo
 
 +++
 
-+++Mise à jour 15
++++Mise à jour 15
 
 Date de publication : 25 mai 2016
 
@@ -3066,7 +3075,7 @@ L’échéance ne s’affiche pas pour les instances du programme d’apprentiss
 
 +++
 
-+++Mise à jour 14
++++Mise à jour 14
 
 Date de publication : 4 mai 2016
 
@@ -3093,7 +3102,7 @@ Lorsqu’un grand nombre d’élèves étaient inscrits à des objets d’appren
 
 +++
 
-+++Mise à jour 13
++++Mise à jour 13
 
 Date de publication : 20 avril 2016
 
@@ -3113,14 +3122,14 @@ L’exportation des données d’inscription échouait si l’un des élèves in
 
 **Modèles de courrier électronique**
 
-* Le mot **partenaires,** utilisé pour représenter des groupes externes **&#x200B;**&#x200B;est **&#x200B;**&#x200B;supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
+* Le mot **partenaires,** utilisé pour représenter des groupes externes **** est **** supprimé du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
   **Remarque :** ce modèle mis à jour n&#39;apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Revenir à l&#39;original** dans la boîte de dialogue **Aperçu du modèle**.
 
 * L&#39;URL n&#39;est pas cliquable dans le courrier électronique reçu par les administrateurs chaque fois que les modèles de courrier électronique **Profil créé(auto-inscription)** et **Profil créé(externe/partenaires)** sont modifiés. Ce problème a été résolu.
 
 +++
 
-+++Mise à jour 12
++++Mise à jour 12
 
 Date de publication : 7 avril 2016
 
@@ -3192,7 +3201,7 @@ Si un texte de question contient plus de 255 caractères et est activé pour le 
 
 +++
 
-+++Mise à jour 11
++++Mise à jour 11
 
 Date de publication : 15 mars 2016
 
@@ -3231,7 +3240,7 @@ Dans le navigateur Internet Explorer 11, le nom et l’icône des assistances �
 
 +++
 
-+++Mise à jour 10
++++Mise à jour 10
 
 Date de publication : 28 février 2016.
 
@@ -3349,7 +3358,7 @@ Les fautes de frappe dans les modèles de courrier électronique ont été corri
 
 +++
 
-+++Mise à jour 9
++++Mise à jour 9
 
 Date de publication : 9 février 2016.
 
@@ -3359,7 +3368,7 @@ Lorsque les utilisateurs cliquent sur **[!UICONTROL Se déconnecter]** dans Lear
 
 +++
 
-+++Mise à jour 8
++++Mise à jour 8
 
 Date de publication : 20 janvier 2016.
 
@@ -3397,7 +3406,7 @@ Date de publication : 20 janvier 2016.
 
 +++
 
-+++Mise à jour 7
++++Mise à jour 7
 
 Date de publication : 13 janvier 2016.
 
@@ -3414,7 +3423,7 @@ Date de publication : 13 janvier 2016.
 
 +++
 
-+++Mise à jour 6
++++Mise à jour 6
 
 Date de publication : 22 décembre 2015
 
@@ -3444,7 +3453,7 @@ Date de publication : 22 décembre 2015
 
 +++
 
-+++Mise à jour 5
++++Mise à jour 5
 
 Date de publication : 11 décembre 2015
 
@@ -3460,7 +3469,7 @@ Date de publication : 11 décembre 2015
 
 +++
 
-+++Mise à jour 4
++++Mise à jour 4
 
 Date de publication : 9 décembre 2015
 
@@ -3505,7 +3514,7 @@ Date de publication : 9 décembre 2015
 
 +++
 
-+++Mise à jour 3
++++Mise à jour 3
 
 Date de publication : 26 octobre 2015.
 
@@ -3537,7 +3546,7 @@ Date de publication : 26 octobre 2015.
 
 +++
 
-+++Mise à jour 2
++++Mise à jour 2
 
 Date de publication : 28 septembre 2015
 
