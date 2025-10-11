@@ -270,7 +270,7 @@ Il existe quelques différences entre les enregistrements internes et externes :
 | Utilisateurs internes | Utilisateurs externes |
 |---|---|
 | Connexion possible à l’aide des identifiants Adobe ID ou SSO. | Connexion possible avec n’importe quel ID de messagerie. |
-| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification). |
+| La ludification est disponible. | La ludification est disponible. L&#39;administrateur doit activer la ludification pour les élèves externes dans les [paramètres de ludification](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/gamification). |
 
 ### Suspendre le profil d&#39;inscription externe
 
