@@ -2,7 +2,7 @@
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version d’octobre 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Nouveautés de la version d’octobre 2025 de Adobe Learning Manager
-source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
+source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -830,3 +830,5 @@ Consultez les [notes de mise à jour](/help/migrated/release-note/release-notes.
 
 * [Version de mai 2025 de Adobe Learning Manager](/help/migrated/whats-new-may-2025.md)
 * [Version de novembre 2025 de Adobe Learning Manager](/help/migrated/whats-new-nov-24.md)
+
+
