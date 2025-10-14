@@ -16,7 +16,7 @@ Lisez ce qui suit pour connaître la dernière offre de Adobe Learning Manager (
 
 ## Prenez part à la conversation {#jointheconversation}
 
-Visitez la [communauté des utilisateurs Adobe Learning Manager](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) pour vous inspirer et obtenir des réponses aux principales questions.
+Visitez la [communauté des utilisateurs Adobe Learning Manager](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) pour vous inspirer et obtenir des réponses aux principales questions.
 
 ## Rubriques fréquemment consultées {#populartopics}
 

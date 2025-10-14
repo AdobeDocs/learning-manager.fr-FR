@@ -27,7 +27,7 @@ Si vous êtes déjà connecté à l’application Learning Manager sous un autr
 
 Les instructeurs de modules ou de sessions peuvent gérer la date, l’heure et le lieu de la session. Ils peuvent également gérer le nombre de places disponibles pour les modules ainsi que la limite de la liste d’attente. Ils peuvent effacer la liste d’attente et confirmer la liste des participants à la session. Les instructeurs peuvent également approuver les envois des élèves et définir des rappels pour les cours qui hébergent les sessions d’instructeur.
 
-Après la session, les instructeurs peuvent également noter l’assiduité à celle-ci et approuver les devoirs et autres fichiers de ressources associés à la session. Pour obtenir des informations détaillées sur les aptitudes de l’instructeur, voir[ Résumé de la fonction](feature-summary/modules.md).
+Après la session, les instructeurs peuvent également noter l’assiduité à celle-ci et approuver les devoirs et autres fichiers de ressources associés à la session. Pour obtenir des informations détaillées sur les aptitudes de l’instructeur, voir[&#x200B; Résumé de la fonction](feature-summary/modules.md).
 
 +++
 

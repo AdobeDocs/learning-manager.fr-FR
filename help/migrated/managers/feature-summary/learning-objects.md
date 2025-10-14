@@ -14,7 +14,7 @@ ht-degree: 60%
 
 Ce document comprend des informations sur les objets d’apprentissage pour les responsables.
 
-Un responsable peut inscrire les élèves qui lui sont subordonnés à des cours, des parcours d’apprentissage et des certifications. Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[ Inscription des élèves.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
+Un responsable peut inscrire les élèves qui lui sont subordonnés à des cours, des parcours d’apprentissage et des certifications. Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[&#x200B; Inscription des élèves.](../../administrators/feature-summary/courses.md#main-pars_header_1058138132)
 
 ## Cours {#courses}
 

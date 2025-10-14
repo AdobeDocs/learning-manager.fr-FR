@@ -31,7 +31,7 @@ Le cache du navigateur et les cookies peuvent vous empêcher d’accéder à la 
 
 Les liens ci-dessous mènent à des guides spécifiques au navigateur pour nettoyer le cache :
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=fr)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=fr)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ Les liens ci-dessous mènent à des guides spécifiques au navigateur pour netto
 
 ## Utilisation du mode Incognito
 
-Utilisez le mode de navigation privée dans votre navigateur, puis connectez-vous à Adobe Learning Manager. Voir les [instructions](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=fr&amp;oco=0).
+Utilisez le mode de navigation privée dans votre navigateur, puis connectez-vous à Adobe Learning Manager. Voir les [instructions](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=fr&oco=0).
 
 ## Contacter l’administrateur
 

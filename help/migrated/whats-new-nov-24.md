@@ -33,7 +33,7 @@ Découvrez les nouvelles fonctionnalités et les améliorations de la version de
 
 >[!NOTE]
 >
->Consultez ce [webinaire](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) pour en savoir plus sur les nouvelles fonctionnalités de cette version.
+>Consultez ce [webinaire](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course) pour en savoir plus sur les nouvelles fonctionnalités de cette version.
 
 ## Recherche optimisée par l’IA dans Adobe Learning Manager
 

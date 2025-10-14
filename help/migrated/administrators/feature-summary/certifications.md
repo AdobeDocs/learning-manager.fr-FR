@@ -134,7 +134,7 @@ Un administrateur peut ajouter des cours de type salle de classe et salle de cla
 
 ## Inscrire ou désinscrire des élèves à la certification {#enrollorunenrolllearnerstothecertification}
 
-Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[ Inscription des élèves](courses.md#main-pars_header_1058138132).
+Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[&#x200B; Inscription des élèves](courses.md#main-pars_header_1058138132).
 
 ## Désinscription des stagiaires {#unenrollmentforlearners}
 

@@ -52,7 +52,7 @@ Découvrez le processus d’intégration de Learning Manager à Salesforce.
 
 ### Prérequis {#prerequisites}
 
-Assurez-vous de disposer de l’URL de votre organisation Salesforce. Par exemple, si le nom de votre organisation est **myorg**, l’URL Salesforce peut être [ https://myorg.salesforce.com.](https://myorg.salesforce.com/) Il s’agit de la seule opération requise pour connecter le compte Salesforce à Learning Manager.
+Assurez-vous de disposer de l’URL de votre organisation Salesforce. Par exemple, si le nom de votre organisation est **myorg**, l’URL Salesforce peut être [&#x200B; https://myorg.salesforce.com.](https://myorg.salesforce.com/) Il s’agit de la seule opération requise pour connecter le compte Salesforce à Learning Manager.
 
 Veillez également à disposer des informations d’identification appropriées pour vous connecter au compte.
 
