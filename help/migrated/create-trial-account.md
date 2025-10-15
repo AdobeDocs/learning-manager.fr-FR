@@ -16,7 +16,7 @@ Vous pouvez facilement configurer un compte d’essai gratuit de 30 jours dans A
 
 Pour créer un compte d’évaluation :
 
-1. Accédez à [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html).
+1. Accédez à [Adobe Learning Manager](https://business.adobe.com/fr/products/learning-manager/adobe-learning-manager.html).
 2. Sélectionnez **[!UICONTROL Essai gratuit de 30 jours]**.
 
    ![](assets/free-trial.png)
