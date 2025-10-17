@@ -2,9 +2,9 @@
 description: En savoir plus sur Experience Builder, un outil sans code/à code faible dans Adobe Learning Manager qui permet aux administrateurs de concevoir et de publier des pages de marque conviviales sans expertise technique.
 jcr-language: en_us
 title: Experience Builder dans Adobe Learning Manager
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,26 @@ Experience Builder peut être utilisé pour divers scénarios d’apprentissage 
 * **Portails de formation basés sur les rôles** : les organisations ayant des besoins de formation ministériels spécifiques, telles qu’une société financière avec des équipes ventes et réussite client distinctes, peuvent créer des pages d’apprentissage dédiées pour chaque groupe afin de s’assurer que le contenu est hautement pertinent.
 * **Pages d’apprentissage spécifiques à un événement** : vous pouvez créer des pages temporaires et spécialisées pour des événements d’entreprise tels qu’un sommet technologique ou le coup d’envoi des ventes. Ces pages peuvent contenir des informations sur la session, des listes d’intervenants et un widget Calendrier d’événements. Elles ne peuvent être destinées qu’à l’équipe concernée pendant une durée spécifique avant de revenir à l’expérience de portail standard.
 * **Académies client** : Experience Builder permet aux agences de créer des académies orientées client qui reflètent l’identité de leur marque, réalisant ainsi une expérience personnalisée sans le temps et les coûts associés à une version sans en-tête.
+
+## Workflows de portail orientés vers l’externe authentifiés
+
+Les académies destinées aux clients créées avec Experience Builder sont entièrement gérées dans Adobe Learning Manager. Ces portails utilisent l’authentification, les autorisations et le framework de sécurité intégrés de Adobe Learning Manager.
+
+Chaque élève externe doit se connecter à Adobe Learning Manager et être membre d’au moins un groupe d’utilisateurs. Actuellement, Experience Builder ne prend pas en charge les portails non authentifiés ou publics. Toutes les expériences personnalisées nécessitent que les élèves se connectent à Adobe Learning Manager.
+
+Les administrateurs peuvent utiliser l’option **[!UICONTROL Menu]** d’Experience Builder pour affecter des pages personnalisées en tant que pages de destination pour des groupes d’utilisateurs spécifiques. Lorsque les élèves de ce groupe se connectent, Adobe Learning Manager les dirige automatiquement vers la page de destination qui leur est affectée, créant ainsi une expérience personnalisée et de marque pour ce public, telle que la formation des clients, l’activation des partenaires ou l’intégration.
+
+### Exigences et limitations
+
+* Authentification requise : le contenu personnalisé, les pages personnalisées et les menus sont disponibles uniquement pour les utilisateurs authentifiés dans Adobe Learning Manager.
+* Affectation de groupes d’utilisateurs : les élèves doivent être ajoutés aux groupes d’utilisateurs appropriés pour accéder aux pages de destination et aux menus qui leur sont attribués.
+* Pages de destination basées sur le groupe : le paramètre de page de destination s’applique à tous les membres d’un groupe d’utilisateurs, garantissant ainsi des expériences cohérentes pour des audiences similaires.
+* Portée de la personnalisation : Experience Builder prend en charge une personnalisation étendue de l’interface utilisateur et de la mise en page à l’aide de widgets, de HTMLS et d’iFrames. Cependant, les intégrations avancées telles que le commerce électronique, l’authentification unique fédérée ou les connexions de données externes peuvent nécessiter une mise en œuvre hybride ou sans interface utilisateur.
+
+### Workflow de configuration de portail externe
+
+* Définir des groupes d&#39;utilisateurs : créez ou identifiez dans ALM des groupes qui représentent vos audiences externes (par exemple, des clients, des partenaires ou des distributeurs). Affichez [Groupes d&#39;utilisateurs dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md) pour plus d&#39;informations sur les groupes d&#39;utilisateurs.
+* Affecter des élèves à des groupes : ajoutez chaque élève externe au groupe d’utilisateurs approprié afin qu’il soit dirigé vers l’expérience de portail appropriée après la connexion.
+* Concevoir des pages du portail : utilisez Experience Builder pour créer des pages de marque avec des widgets Adobe Learning Manager, HTML et des composants iFrame. Consultez [Créer une page personnalisée dans Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md) pour plus d’informations.
+* Configurer les menus et les pages de destination : dans le créateur de menu, attribuez à chaque groupe d’utilisateurs un menu unique et désignez sa page de portail personnalisée comme page de destination. Voir [Créer un menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md) pour plus d&#39;informations.
+* Test et Publish : vérifiez la navigation, la visibilité du contenu et l’acheminement des pages pour chaque groupe d’utilisateurs avant de publier le portail.

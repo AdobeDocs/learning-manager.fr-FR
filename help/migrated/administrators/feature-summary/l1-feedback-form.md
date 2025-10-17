@@ -2,7 +2,7 @@
 description: En savoir plus sur la création de formulaires de retour d’informations L1 pour les élèves
 jcr-language: en_us
 title: Formulaire de retour d'informations L1
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Créez des traductions pour les questions du formulaire de retour d’informatio
 
 ## Définition d’un formulaire de commentaires par défaut
 
-Les administrateurs peuvent définir des formulaires de retour d’informations par défaut pour les cours en auto-apprentissage, en salle de classe, en salle de classe virtuelle et mixtes. Une fois configuré, ce formulaire par défaut sera automatiquement présenté aux élèves à la fin de n’importe quel cours. Ce formulaire par défaut est appliqué à tous les cours, sauf si l’administrateur choisit d’affecter un formulaire de retour d’informations différent à des cours spécifiques.
+Les administrateurs peuvent définir des formulaires de retour d’informations par défaut pour les cours en auto-apprentissage, en salle de classe, en salle de classe virtuelle et mixtes. Une fois qu&#39;un formulaire par défaut est défini, il est automatiquement appliqué à tous les cours nouvellement créés. Les élèves verront ce formulaire après avoir terminé un cours. Les administrateurs peuvent choisir d’attribuer un formulaire de retour d’informations différent pour des cours spécifiques, si nécessaire.
 
 ![](assets/set-as-default.png)
 _L&#39;écran Formulaires de commentaires affiche l&#39;option permettant de définir le formulaire de commentaires par défaut_
