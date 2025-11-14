@@ -139,8 +139,8 @@ Les administrateurs peuvent saisir la description de la liste de lecture dans l�
 12. Sélectionnez **Oui** dans l&#39;invite de confirmation.
 13. Sélectionnez la liste de lecture dans l&#39;invite **[!UICONTROL Sélectionner la liste de lecture à importer]**.
 
-   ![](assets/add-playlist-to-lp.png)
-   _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
+    ![](assets/add-playlist-to-lp.png)
+    _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
 
 14. Sélectionnez **[!UICONTROL Ajouter des listes de lecture au parcours d’apprentissage]**, puis **[!UICONTROL Publish]**.
 
