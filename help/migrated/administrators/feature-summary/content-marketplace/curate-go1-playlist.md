@@ -2,9 +2,9 @@
 description: Découvrez comment créer et ajouter une liste de lecture Go1 à un parcours d’apprentissage dans Adobe Learning Manager. Ce guide présente des instructions détaillées et les bonnes pratiques pour l’intégration de la liste de lecture.
 jcr-language: en_us
 title: Curation de la liste de lecture Go1 au parcours d’apprentissage Adobe Learning Manager
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,8 @@ Les administrateurs peuvent saisir la description de la liste de lecture dans l�
 12. Sélectionnez **Oui** dans l&#39;invite de confirmation.
 13. Sélectionnez la liste de lecture dans l&#39;invite **[!UICONTROL Sélectionner la liste de lecture à importer]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
 
 14. Sélectionnez **[!UICONTROL Ajouter des listes de lecture au parcours d’apprentissage]**, puis **[!UICONTROL Publish]**.
 
@@ -216,6 +216,10 @@ Pour supprimer la liste de lecture :
    Écran de gestion de la _liste de lecture, en surbrillance Supprimer la liste de lecture_
 
 La liste de lecture sélectionnée sera supprimée de la bibliothèque Go1.
+
+### Partager la liste de lecture
+
+L’option Partager la liste de lecture n’est pas prise en charge dans l’intégration Go1 à Adobe Learning Manager. Cette option sera supprimée de l’interface utilisateur dans la prochaine version.
 
 ## Limite de cours dépassée
 
