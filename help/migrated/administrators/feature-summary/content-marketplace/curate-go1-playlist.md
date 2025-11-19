@@ -2,7 +2,7 @@
 description: Découvrez comment créer et ajouter une liste de lecture Go1 à un parcours d’apprentissage dans Adobe Learning Manager. Ce guide présente des instructions détaillées et les bonnes pratiques pour l’intégration de la liste de lecture.
 jcr-language: en_us
 title: Curation de la liste de lecture Go1 au parcours d’apprentissage Adobe Learning Manager
-source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
+source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Adobe Learning Manager offre une assistance optimisée par l’IA pour faciliter
 
 Pour créer une liste de lecture avec l’IA :
 
-1. Sélectionnez l&#39;option **[!UICONTROL Conversation avec l&#39;IA]** dans le Hub de contenu Go1.
+1. Sélectionnez l&#39;option **[!UICONTROL Conversation avec l&#39;IA]** sur le **Go1 Content Hub**.
 
    ![](assets/select-chat-with-ai.png)
    _Écran du Hub de contenu affichant l’option Discuter avec l’IA, où les administrateurs peuvent interagir avec l’Assistant IA pour poser des questions_
@@ -139,8 +139,8 @@ Les administrateurs peuvent saisir la description de la liste de lecture dans l�
 12. Sélectionnez **Oui** dans l&#39;invite de confirmation.
 13. Sélectionnez la liste de lecture dans l&#39;invite **[!UICONTROL Sélectionner la liste de lecture à importer]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Sélectionnez et importez la liste de lecture d’amélioration des compétences des ingénieurs des ventes à partir de la bibliothèque Go1 dans Adobe Learning Manager_
 
 14. Sélectionnez **[!UICONTROL Ajouter des listes de lecture au parcours d’apprentissage]**, puis **[!UICONTROL Publish]**.
 
