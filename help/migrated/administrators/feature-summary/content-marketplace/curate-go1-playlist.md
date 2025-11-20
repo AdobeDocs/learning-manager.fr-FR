@@ -2,7 +2,7 @@
 description: Découvrez comment créer et ajouter une liste de lecture Go1 à un parcours d’apprentissage dans Adobe Learning Manager. Ce guide présente des instructions détaillées et les bonnes pratiques pour l’intégration de la liste de lecture.
 jcr-language: en_us
 title: Curation de la liste de lecture Go1 au parcours d’apprentissage Adobe Learning Manager
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Ajoutez des cours Go1 directement aux parcours d’apprentissage et aux certific
 
 Pour créer un parcours d’apprentissage avec des cours Go1 :
 
-1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+1. Connectez-vous à **Adobe Learning Manager** en tant qu&#39;administrateur.
 2. Sélectionnez **[!UICONTROL Parcours d’apprentissage]** dans le navigateur de gauche.
 3. Sélectionnez **[!UICONTROL Ajouter]**.
 
