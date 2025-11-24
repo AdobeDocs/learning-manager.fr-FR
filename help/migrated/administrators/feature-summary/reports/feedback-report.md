@@ -2,9 +2,9 @@
 description: Découvrez comment accéder au rapport de commentaires, le télécharger et l’interpréter dans Adobe Learning Manager. Comprendre les colonnes du rapport, les types de questions, les réponses du responsable et de l'élève, et comment les commentaires prennent en charge l'évaluation de la formation et l'amélioration continue.
 jcr-language: en_us
 title: Rapport de commentaires dans Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '856'
 ht-degree: 8%
 
 ---
@@ -102,4 +102,6 @@ Les colonnes suivantes apparaissent dans le rapport au niveau de l’objet d’a
 | Version du retour d’informations | Numéro de version du formulaire de retour d’informations |
 | Langue de l’élève | Langue sélectionnée par l’élève |
 
-
+>[!NOTE]
+>
+>Le rapport de niveau Objet d’apprentissage inclut également les questions ajoutées au formulaire de retour d’informations. Chaque question s’affiche sous la forme d’un en-tête de colonne et les réponses de l’élève à ces questions sont affichées dans les lignes correspondantes ci-dessous.
