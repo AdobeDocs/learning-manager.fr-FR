@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7809'
-ht-degree: 52%
+source-wordcount: '7576'
+ht-degree: 54%
 
 ---
 
@@ -450,15 +450,9 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ### Relevés de notes des élèves {#LearnerTranscripts-1}
 
-Adobe Learning Manager permet aux administrateurs d’une organisation de générer des récapitulatifs liés aux stagiaires. Le rapport Relevé de notes de l’élève comprend les éléments suivants :
+Adobe Learning Manager permet aux administrateurs d&#39;une organisation de générer des relevés liés aux élèves.
 
-1. Relevé de notes de l’élève : tableau de bord Activité d’apprentissage
-1. Compétence : Tableau de bord des compétences
-1. Tableau de bord Conformité
-
-Les relevés de notes des élèves dans les rapports Excel affichent les colonnes Crédits requis et Crédits gagnés sous forme de nombres décimaux.
-
-Pour plus d&#39;informations sur la génération de rapports de relevé de notes de l&#39;élève et plus d&#39;informations, voir [Relevés de notes de l&#39;élève](learner-transcripts.md).
+Voir [Relevé de notes de l&#39;élève](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) pour plus d&#39;informations.
 
 ### Rapports des annonces {#announcementsreports}
 
@@ -750,22 +744,7 @@ Pour télécharger un rapport, procédez comme suit : Ouvrez le **[!UICONTROL co
 
 En tant qu’administrateur, vous pouvez désormais récupérer le retour d’informations de l’élève (L1) et le retour d’informations du responsable (L3) pour des formations sélectionnées sur une période donnée.
 
-Vous pouvez exporter les données à partir de l’interface utilisateur ou via le connecteur PowerBI pour une analyse plus approfondie.
-
-Les rapports de retour d&#39;informations L1 et L3 offrent la possibilité de télécharger un rapport de retour d&#39;informations consolidé pour les réponses L1 et L3 des formations sélectionnées sur une période de **un an** ou pour jusqu&#39;à 10 formations sélectionnées pour n&#39;importe quelle période.
-
-Connectez-vous en tant qu&#39;administrateur, cliquez sur **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]**, puis dans la liste des rapports, cliquez sur **[!UICONTROL Rapport de commentaires]**.
-
-![](assets/download-feedbackreport.png)
-*Télécharger le rapport de commentaires*
-
-En cliquant sur Télécharger après avoir sélectionné les filtres, vous recevrez une notification pour télécharger le rapport au format CSV.
-
-Le rapport téléchargé contiendra des détails tels que le nom et le type de la formation, le nom de l’instance, le nom et l’adresse e-mail de l’élève, le type de retour d’informations : L1 ou L3, les dates du retour d’informations envoyé pour les nouvelles données.
-
-Pour les données existantes avant cette mise en œuvre de la fonctionnalité, la date d’achèvement de l’objet d’apprentissage sera affichée, la date d’achèvement de l’objet d’apprentissage, la question de retour d’informations L1 Texte réel individualisé et le texte de la salle de classe dans différentes colonnes, les réponses respectives du retour d’informations L1, le nom et l’adresse e-mail du responsable, la valeur du retour d’informations L3 et la date de soumission, les champs actifs.
-
-Vous pouvez également exporter les données de l’interface utilisateur ou vers Power BI, qui prend en charge toutes les formations pour n’importe quelle période afin d’effectuer une analyse plus approfondie
+Voir [Rapport de commentaires](/help/migrated/administrators/feature-summary/reports/feedback-report.md) pour plus d&#39;informations.
 
 ### Rapport des formations {#training-report}
 
@@ -1035,7 +1014,7 @@ La feuille exportée de rapports de tableau de bord fournit des informations dé
    *Axes pour les rapports*
 
 1. Choisissez la plage/les critères secondaires de **[!UICONTROL l’axe Y]** pour votre rapport parmi les options de la liste déroulante. Par exemple, pour une option d’inscription de programme d’apprentissage, choisissez un ou plusieurs états dans la liste déroulante États. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
-1. Choisissez les critères d’axe X&#x200B;**&#x200B;** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
+1. Choisissez les critères d’axe X**** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
 1. Dans la section Intervalle de temps, choisissez l’option appropriée dans la liste déroulante. Les options disponibles sont :
 
    * 30 derniers jours

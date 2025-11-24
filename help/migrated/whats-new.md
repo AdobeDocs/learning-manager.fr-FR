@@ -2,7 +2,7 @@
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version d’octobre 2025 de Adobe Learning Manager
 jcr-language: en_us
 title: Nouveautés de la version d’octobre 2025 de Adobe Learning Manager
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -731,7 +731,7 @@ Ces modifications garantissent que les terminaisons marquées après la date de 
 ![Les rapports de relevé de notes de l’élève affichent des dates marquées comme terminées (surlignées en jaune) pour le suivi de l’achèvement du cours dans l’apprentissage par l’Adobe](/help/migrated/assets/mark-completion-column.png)
 _Le rapport Relevé de notes de l’élève affiche une nouvelle colonne en jaune mettant en évidence les dates d’achèvement individuelles pour chaque utilisateur_
 
-Consultez [Relevé de notes de l’élève](/help/migrated/administrators/feature-summary/learner-transcripts.md) pour plus d’informations sur le rapport Relevé de notes de l’élève.
+Afficher le [relevé de notes de l’élève](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) pour plus d’informations sur le rapport Relevé de notes de l’élève.
 
 ### Rapport utilisateur amélioré avec champs de données étendus
 
@@ -774,7 +774,7 @@ Les organisations peuvent désormais inclure des utilisateurs suspendus (ceux do
 >
 >Cet indicateur est désactivé par défaut pour les comptes existants et doit être explicitement demandé pour les nouveaux comptes.
 
-Consultez l&#39;article [Relevé de notes de l&#39;élève](/help/migrated/administrators/feature-summary/learner-transcripts.md) pour plus d&#39;informations.
+Consultez l&#39;article [Relevé de notes de l&#39;élève](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) pour plus d&#39;informations.
 
 ### Rapport Assistances à la tâche avec liens d’accès direct
 

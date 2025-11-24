@@ -4,7 +4,7 @@ title: Interpréter le fichier CSV du relevé de notes de l'élève
 description: Interpréter le fichier CSV du relevé de notes de l'élève
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ Ces informations peuvent être utiles à tout développeur qui envisage d’int�
 
 ## Obtenir le relevé de notes de l&#39;élève à partir de l&#39;interface utilisateur {#fetchlearnertranscriptfromtheuserinterface}
 
-Un élève peut télécharger son relevé de notes depuis les paramètres du profil. Pour plus d&#39;informations, voir *** [Télécharger le relevé de notes de l&#39;élève](../../administrators/feature-summary/learner-transcripts.md)***.
+Un élève peut télécharger son relevé de notes depuis les paramètres du profil. Pour plus d&#39;informations, voir ***[Télécharger le relevé de notes de l&#39;élève](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***.
 
-Les administrateurs peuvent générer des relevés de notes des élèves pour l&#39;ensemble de l&#39;organisation, un ensemble spécifique d&#39;utilisateurs ou un ensemble spécifique d&#39;objets d&#39;apprentissage, ou un ensemble spécifique d&#39;utilisateurs et d&#39;objets d&#39;apprentissage. Ils peuvent également obtenir tous les dossiers d&#39;apprentissage pour une période donnée et indiquer si des informations sur le niveau du module sont requises (par défaut, les informations sur le niveau du module sont omises). Pour plus de détails, voir [***Télécharger les relevés de notes des élèves***](../../administrators/feature-summary/learner-transcripts.md).
+Les administrateurs peuvent générer des relevés de notes des élèves pour l&#39;ensemble de l&#39;organisation, un ensemble spécifique d&#39;utilisateurs ou un ensemble spécifique d&#39;objets d&#39;apprentissage, ou un ensemble spécifique d&#39;utilisateurs et d&#39;objets d&#39;apprentissage. Ils peuvent également obtenir tous les dossiers d&#39;apprentissage pour une période donnée et indiquer si des informations sur le niveau du module sont requises (par défaut, les informations sur le niveau du module sont omises). Pour plus de détails, voir [***Télécharger les relevés de notes des élèves***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 

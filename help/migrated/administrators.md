@@ -4,7 +4,7 @@ title: Administrateurs
 description: Lisez ce document pour découvrir les fonctionnalités de Learning Manager et les questions fréquentes associées au rôle d’administrateur.
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [Thèmes de couleur et identité visuelle](administrators/feature-summary/themes.md)
 * [Intégration d&#39;Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
-* [Relevés de notes de l&#39;élève](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Relevés de notes de l&#39;élève](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [Ludification](administrators/feature-summary/gamification.md)
 * [Ajouter des utilisateurs/groupes d’utilisateurs](administrators/feature-summary/add-users-user-groups.md)
 * [Badges](administrators/feature-summary/badges.md)

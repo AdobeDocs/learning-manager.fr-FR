@@ -2,7 +2,7 @@
 title: Nouveautés de la version d’octobre de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’octobre 2025 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
+source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
 workflow-type: tm+mt
 source-wordcount: '8348'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Ces modifications garantissent que les terminaisons marquées après la date de 
 
 ### Relevé de notes de l’élève avec la nouvelle colonne
 
-Consultez cet [article](/help/migrated/administrators/feature-summary/learner-transcripts.md) pour savoir comment télécharger le relevé de notes de l’élève.
+Consultez cet [article](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) pour plus d&#39;informations sur le rapport Relevé de notes de l&#39;élève.
 
 Le rapport Relevé de notes de l’élève téléchargé contient la nouvelle colonne : Marquer la date de fin (fuseau horaire UTC).
 
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
