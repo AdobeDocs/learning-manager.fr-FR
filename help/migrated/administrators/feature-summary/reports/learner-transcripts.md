@@ -2,9 +2,9 @@
 description: Les relevés de notes des élèves dans Adobe Learning Manager (ALM) permettent aux administrateurs de surveiller la progression des élèves dans les cours, modules, parcours d’apprentissage et certifications. Il prend en charge les évaluations de performance, la surveillance de la conformité, les audits et les rapports externes. Le rapport offre un résumé complet de l’engagement et des performances d’un élève.
 jcr-language: en_us
 title: Relevés de notes des élèves dans Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
 workflow-type: tm+mt
-source-wordcount: '4823'
+source-wordcount: '4818'
 ht-degree: 7%
 
 ---
@@ -63,21 +63,23 @@ Les relevés de notes des élèves dans Adobe Learning Manager permettent de sui
 5. Sélectionnez **[!UICONTROL Générer]**.
 6. Sélectionnez la période pour laquelle vous avez besoin que le relevé de notes soit généré. Vous pouvez modifier les dates de début et de fin à l&#39;aide de l&#39;option **[!UICONTROL Choisir des dates]** dans le menu déroulant Plage de dates.
 7. Sélectionnez les options suivantes :
-a. Sélectionnez les noms des élèves dans la section **[!UICONTROL Sélectionner des élèves]**. Vous pouvez sélectionner des utilisateurs ou des groupes d’utilisateurs, ou vous pouvez copier et coller les adresses e-mail des élèves pour lesquels vous souhaitez générer des relevés de notes. Voir la section [Générer le relevé de notes de l&#39;élève](#generate-learner-transcript-using-copy-paste) à l&#39;aide du copier-coller pour plus d&#39;informations. Si aucune sélection n’est effectuée, toutes les valeurs sont définies par défaut.
-b. Sélectionnez des catalogues spécifiques dans la liste déroulante **[!UICONTROL Sélectionner des catalogues]**. Le relevé de notes n’est téléchargé que pour les catalogues spécifiés. Si aucune sélection n’est effectuée, toutes les valeurs sont définies par défaut.
-c. Sélectionnez **[!UICONTROL État d&#39;inscription]**. Cette liste déroulante contient les options suivantes :
+   1. Sélectionnez les noms des élèves dans la section **[!UICONTROL Sélectionner des élèves]**. Vous pouvez sélectionner des utilisateurs ou des groupes d’utilisateurs, ou vous pouvez copier et coller les adresses e-mail des élèves pour lesquels vous souhaitez générer des relevés de notes. Voir la section [Générer le relevé de notes de l&#39;élève](#generate-learner-transcript-using-copy-paste) à l&#39;aide du copier-coller pour plus d&#39;informations. Si aucune sélection n’est effectuée, toutes les valeurs sont définies par défaut.
+   1. Sélectionnez des catalogues spécifiques dans la liste déroulante **[!UICONTROL Sélectionner des catalogues]**. Le relevé de notes n’est téléchargé que pour les catalogues spécifiés. Si aucune sélection n’est effectuée, toutes les valeurs sont définies par défaut.
+   1. Sélectionnez **[!UICONTROL État d&#39;inscription]**. Cette liste déroulante contient les options suivantes :
 
-       * Sélectionner Tout
-       * Terminé
-       * En Cours
-       * Non Démarré
-       * Désinscrit
-   &#x200B;8. Options avancées : sélectionnez **[!UICONTROL Options avancées]** pour télécharger les transcriptions afin d’inclure les éléments suivants :
+      * Tout sélectionner
+      * Terminé
+      * En cours
+      * Non démarré
+      * Non inscrit
 
-   a. Téléchargez des relevés de notes pour les élèves qui ont été supprimés d&#39;un compte en cochant la case **[!UICONTROL Inclure les élèves supprimés]**.
-b. Téléchargez les informations de niveau de module dans le relevé de notes de l&#39;élève en cochant la case **[!UICONTROL Activer les informations de niveau de module]**. Dans ce cas, les noms des modules et le temps passé sur chaque module sont récupérés dans le cadre du relevé de notes si cette option est activée.
-c. Téléchargez les données de compétences et les fiches récapitulatives en cochant la case **[!UICONTROL Inclure les données de compétences et les fiches récapitulatives]**. Voir la section Rapports Excel pour plus d&#39;informations.
-&#x200B;9. Vous pouvez également sélectionner les colonnes à remplir dans votre rapport. Cela offre la possibilité de télécharger des rapports avec des valeurs de colonne spécifiques selon les besoins. Sélectionnez les colonnes dans le menu déroulant.
+8. Options avancées : sélectionnez **[!UICONTROL Options avancées]** pour télécharger les transcriptions afin d’inclure les éléments suivants :
+
+   1. Téléchargez les relevés de notes des élèves qui ont été supprimés d&#39;un compte en cochant la case **[!UICONTROL Inclure les élèves supprimés]**.
+   1. Téléchargez les informations de niveau de module dans le relevé de notes de l&#39;élève en cochant la case **[!UICONTROL Activer les informations de niveau de module]**. Dans ce cas, les noms des modules et le temps passé sur chaque module sont récupérés dans le cadre du relevé de notes si cette option est activée.
+   1. Téléchargez les données de compétences et les fiches récapitulatives en cochant la case **[!UICONTROL Inclure les données de compétences et les fiches récapitulatives]**. Voir la section Rapports Excel pour plus d&#39;informations.
+
+9. Vous pouvez également sélectionner les colonnes à remplir dans votre rapport. Cela offre la possibilité de télécharger des rapports avec des valeurs de colonne spécifiques selon les besoins. Sélectionnez les colonnes dans le menu déroulant.
 Les transcriptions sont générées et téléchargées sur votre ordinateur sous forme de fichiers .zip lorsque les données de compétences ne sont pas incluses. Si la case à cocher Données de compétences est activée, les transcriptions sont générées et téléchargées en tant que . fichiers xlsx.
 
 ### Générer le relevé de notes de l’élève à l’aide du copier-coller
@@ -137,7 +139,7 @@ Les colonnes suivantes capturent l&#39;activité, la progression ou les tentativ
 | Highest_Quiz_score_max | Scores de quiz maximum possibles pour le module. Il peut être vide si l’élève n’a pas tenté le quiz ou si le contenu ne comporte aucun quiz. Score maximal possible associé à la tentative de score de quiz le plus élevé effectuée par un élève sur plusieurs tentatives. Il ne s’agit pas du score le plus élevé obtenu par l’élève. Au lieu de cela, il capture le score maximal qui était possible dans la tentative où l’élève a obtenu le meilleur score. |
 | Tentatives effectuées | Nombre total de tentatives effectuées par l’élève jusqu’à présent pour ce module. |
 | Nombre maximal de tentatives autorisées | Nombre maximal de tentatives autorisées pour que l’élève utilise le module. |
-| Commentaires d’envoi | Commentaires du responsable d’un élève une fois qu’il a terminé un objet d’apprentissage.<br>Les données des commentaires d&#39;envoi fournies par l&#39;instructeur sont incluses dans le module d&#39;envoi de fichiers . Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager pour plus d&#39;informations.</a></br> |
+| Commentaires d’envoi | Commentaires du responsable d’un élève une fois qu’il a terminé un objet d’apprentissage.<br>Les données des commentaires d&#39;envoi fournies par l&#39;instructeur sont incluses dans le module d&#39;envoi de fichiers . Voir <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager pour plus d&#39;informations.</a></br> |
 | Source d’achèvement | Fait référence à l’origine ou à la méthode par laquelle l’accomplissement d’un cours, d’un parcours d’apprentissage ou d’une certification par un élève est enregistré. Cela aide les administrateurs à comprendre comment l’achèvement a été atteint ou comment ils se sont connectés au système. La colonne indique si l’achèvement a été déclaré par l’utilisateur ou facilité par un rôle ou une configuration spécifique. Remarque : pour les workflows d’assiduité du connecteur VC, lorsqu’un élève est marqué comme étant automatiquement assidu, la source affiche « SELF, &lt;learner_email> ». |
 | Commentaire d’achèvement | Commentaires effectués par l’administrateur lorsqu’il marque un élève comme terminé après qu’il a terminé un cours, une certification ou un parcours d’apprentissage. L’administrateur peut ajouter les commentaires d’achèvement pour un ou plusieurs élèves. |
 
@@ -262,7 +264,7 @@ Suivez les élèves qui ont des échéances à venir pour des cours clés, des p
 
 | Colonne | Description |
 |---|---|
-| Après | Représente le nombre d’élèves qui ont acquis une compétence avant une période définie (en jours), au-delà de laquelle la compétence est considérée comme obsolète ou nécessitant une actualisation. Utile pour identifier les élèves dont les compétences sont proches ou expirées.<br>Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/skills-levels"> niveaux de compétence</a> pour plus d&#39;informations. |
+| Après | Représente le nombre d’élèves qui ont acquis une compétence avant une période définie (en jours), au-delà de laquelle la compétence est considérée comme obsolète ou nécessitant une actualisation. Utile pour identifier les élèves dont les compétences sont proches ou expirées.<br>Voir <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> niveaux de compétence</a> pour plus d&#39;informations. |
 | Nom | Nom complet de l’élève auquel la compétence est affectée. |
 | Nom du responsable | Nom du responsable de la génération de rapports de l’élève. |
 | Libellés de ligne | Nom de compétence spécifique attribué aux élèves figurant sur cette ligne. Utilisé comme en-tête de regroupement pour résumer les données de compétence des élèves dans chaque catégorie de compétence. |
