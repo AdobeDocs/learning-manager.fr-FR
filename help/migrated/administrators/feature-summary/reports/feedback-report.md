@@ -2,7 +2,7 @@
 description: Découvrez comment accéder au rapport de commentaires, le télécharger et l’interpréter dans Adobe Learning Manager. Comprendre les colonnes du rapport, les types de questions, les réponses du responsable et de l'élève, et comment les commentaires prennent en charge l'évaluation de la formation et l'amélioration continue.
 jcr-language: en_us
 title: Rapport de commentaires dans Adobe Learning Manager
-source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
+source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 8%
@@ -69,6 +69,10 @@ Voici les colonnes par défaut du rapport au niveau du compte :
 | Date de fin | Date à laquelle l’élève a terminé la formation |
 | Date du retour d’informations | Date à laquelle l’élève a envoyé le retour d’informations |
 | Langue d&#39;origine du retour d&#39;informations L1 | Langue dans laquelle l’élève a initialement soumis le retour d’informations L1 |
+| Question 1 sur l&#39;échelle de Likert L3 | Mesure les performances de l’élève après la formation à l’aide d’une échelle de notation |
+| Réponse de l’échelle de Likert L3 1 | Réponse du responsable à cette question à échelle de Likert |
+| Question de texte libre L3 1 | Question en texte libre ajoutée au formulaire de retour d’informations L3 pour les responsables ; peut être configurée comme facultative ou obligatoire |
+| Réponse de texte libre L3 1 | La réponse du responsable à cette question de texte libre |
 
 Les colonnes suivantes apparaissent dans le rapport au niveau du compte en fonction des quatre types de questions ajoutées au formulaire de retour d’informations :
 
@@ -83,10 +87,7 @@ Les colonnes suivantes apparaissent dans le rapport au niveau du compte en fonct
 | Réponse de Likert 1 | Réponse à la question 1 de Likert |
 | Question textuelle 1 | Première question ouverte/de texte du formulaire |
 | Réponse textuelle 1 | Réponse de l’élève à la question textuelle 1 |
-| Question 1 sur l&#39;échelle de Likert L3 | Mesure les performances de l’élève après la formation à l’aide d’une échelle de notation |
-| Réponse de l’échelle de Likert L3 1 | Réponse du responsable à cette question à échelle de Likert |
-| Question de texte libre L3 1 | Question en texte libre ajoutée au formulaire de retour d’informations L3 pour les responsables ; peut être configurée comme facultative ou obligatoire |
-| Réponse de texte libre L3 1 | La réponse du responsable à cette question de texte libre |
+
 
 >[!NOTE]
 >
