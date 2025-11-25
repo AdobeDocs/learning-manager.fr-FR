@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Création d’instances de cours et de parcours d’apprentissage
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ Sur le PDF, vous pouvez afficher le même groupe d’élèves qu’un instructeu
 Lorsque vous téléchargez le PDF, vous pouvez voir le fuseau horaire (UTC) utilisé lors de la création du cours.
 
 ## Ajout d’un retour d’informations L1 et L3 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>Si cette option de retour d&#39;informations n&#39;est pas visible dans votre compte, votre compte a déjà été mis à niveau vers le nouveau formulaire de retour d&#39;informations L1. Afficher le [formulaire de retour d&#39;informations L1](/help/migrated/administrators/feature-summary/l1-feedback-form.md) pour plus d&#39;informations.
+
 
 Vous pouvez ajouter des options de retour d’informations L1 et L3 lorsque vous créez des cours :
 
