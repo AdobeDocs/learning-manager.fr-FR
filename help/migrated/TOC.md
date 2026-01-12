@@ -2,9 +2,9 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
+source-git-commit: dd62feee5ad32588fd815c8b86f01935720860ce
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '774'
 ht-degree: 70%
 
 ---
@@ -198,7 +198,7 @@ ht-degree: 70%
    * [La fenêtre contextuelle automatique de retour d’informations L1 ne s’affiche pas](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [Impossible d’afficher certains cours dans le catalogue lors de la création d’une certification](kb/unable-to-view-certain-courses.md)
    * [Impossible d’afficher certains cours dans le catalogue lors de la création d’un Programme d’apprentissage](kb/unable-view-course-catalog.md)
-   * [Résolution des problèmes d’intégration de Salesforce (SFDC) avec Adobe Learning Manager] (kb/troubleshoot-sfdc-integration-issues.md)
+   * [Résolution des problèmes d’intégration de Salesforce (SFDC) avec Adobe Learning Manager](kb/troubleshoot-sfdc-integration-issues.md)
    * [Problèmes liés au retrait d’un programme d’apprentissage](kb/issues-retiring-learning-program.md)
    * [Impossible d’attribuer un badge](kb/badge-not-assigned.md)
    * [La session expire dans Learning Manager](kb/login-issue.md)
