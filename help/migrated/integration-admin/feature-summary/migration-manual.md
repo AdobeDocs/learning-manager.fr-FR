@@ -3,9 +3,9 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4483'
 ht-degree: 59%
 
 ---
@@ -27,6 +27,10 @@ Dès aujourd’hui, vous pouvez contacter l’équipe d’assistance Adobe afin 
 ## Processus de migration {#apidescription}
 
 Les conditions préalables à la migration, les étapes clés impliquées dans le processus de migration, les sprints de migration, les spécifications, les étapes de migration des données et du contenu sont expliquées dans cette section comme suit :
+
+### Avis de migration important
+
+Sachez que les délais de migration dépendent fortement de la qualité et de la taille de vos données. Si vous avez besoin d’une migration lors de l’intégration, planifiez cette activité à l’avance et travaillez en étroite collaboration avec l’équipe d’intégration de Adobe Learning Manager pour éviter les retards.
 
 ### Conditions préalables {#prerequisites}
 
