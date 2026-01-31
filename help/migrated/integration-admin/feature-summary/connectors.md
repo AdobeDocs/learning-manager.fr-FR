@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
+source-git-commit: 795f465a0a2a96a8f1b5bc8b120736c25b412303
 workflow-type: tm+mt
 source-wordcount: '15789'
 ht-degree: 59%
@@ -2145,7 +2145,7 @@ Lorsqu’un élève clique sur Cours, Certificat ou Parcours d’apprentissage, 
 
 ### Expérience hors connexion {#non-logged-in-experience}
 
-L’expérience hors connexion vous permet de créer une expérience en temps réel pour les utilisateurs non connectés. Par exemple, une expérience hors connexion sert de page de destination pour les campagnes marketing visant à encourager les inscriptions.
+L’expérience hors connexion vous permet de créer des expériences d’apprentissage pour les utilisateurs non connectés. Par exemple, une expérience hors connexion sert de page de destination pour les campagnes marketing visant à encourager les inscriptions.
 
 L&#39;expérience hors connexion dans Adobe Learning Manager peut être configurée à l&#39;aide du connecteur **[!UICONTROL Training Data Access]**. Le connecteur fournit les offres suivantes :
 
@@ -2235,7 +2235,7 @@ Une fois qu’un auteur a défini les prix de divers cours, cursus ou certificat
 
 >[!NOTE]
 >
->Dans la version de mars 2024 de Adobe Learning Manager, nous avons introduit la prise en charge d&#39;[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=fr).
+>Dans la version de mars 2024 de Adobe Learning Manager, nous avons introduit la prise en charge d&#39;[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Cliquez sur **[!UICONTROL Exporter les métadonnées de formation]** > **[!UICONTROL À la demande]**.
