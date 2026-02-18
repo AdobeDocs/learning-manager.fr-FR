@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 48a20033896a9d9f370c2e53bce353a886b05e35
+source-git-commit: 847c42493043f3f6a1f1c18868d08ddca7f9b113
 workflow-type: tm+mt
-source-wordcount: '7400'
+source-wordcount: '7425'
 ht-degree: 1%
 
 ---
@@ -433,7 +433,7 @@ Avec les assistances à la tâche multilingues :
 
 * Les équipes marketing et d’activation peuvent gérer une assistance à la tâche par sujet dans toutes les langues.
 
-## Restreindre le démarrage des modules
+## Définir une restriction sur l&#39;heure de début du module
 
 ### Présentation
 
@@ -680,6 +680,11 @@ Cela permet de s’assurer que les commentaires sont non seulement stockés, mai
 
 ### Présentation
 
+>[!IMPORTANT]
+>
+>Notez que la fonctionnalité ne sera disponible qu’après son activation dans le compte. Contactez le support ALM ou le gestionnaire de succès client.
+
+
 Actuellement, ALM prend en charge plusieurs tentatives au niveau du système de gestion de l’apprentissage via la fonctionnalité de tentatives de quiz multiples (MQA) :
 
 * Les auteurs peuvent configurer les tentatives au niveau du cours (appliqué à tous les modules du cours qui répondent au quiz) ou au niveau du module (par module de quiz).
@@ -880,7 +885,7 @@ Cette amélioration améliore l’expérience de lecture du contenu Adobe Captiv
 
    * Les PDF sont générés comme prévu.
 
-## Modifications apportées aux relevés de notes des élèves
+## Amélioration du calcul du temps d’apprentissage passé dans les relevés de notes des élèves
 
 ### Présentation
 
@@ -2700,4 +2705,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
