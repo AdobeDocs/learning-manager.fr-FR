@@ -2,10 +2,10 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: dd62feee5ad32588fd815c8b86f01935720860ce
+source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 70%
+source-wordcount: '777'
+ht-degree: 71%
 
 ---
 
@@ -50,19 +50,19 @@ ht-degree: 70%
    * [Ajouter des emplacements de salle de classe](administrators/feature-summary/classroom.md)
    * [Création d’instances de cours et de parcours d’apprentissage](administrators/feature-summary/courses.md)
    * Experience Builder dans Adobe Learning Manager {#experience-builder}
-      * [Vue d’ensemble](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Présentation](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Composants de base d’Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
       * Pages dans Experience Builder {#pages-in-experience-builder}
-         * [Vue d’ensemble](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Présentation](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
          * [Créer une page personnalisée dans Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
       * Widgets dans Experience Builder {#widgets-in-experience-builder}
-         * [Vue d’ensemble](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Présentation](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
          * [Ajout et configuration de widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
       * Menu dans Experience Builder {#menu-in-experience-builder}
-         * [Vue d’ensemble](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Présentation](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
          * [Création d’un menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
       * Personnalisation dans Experience Builder {#customization-in-experience-builder}
-         * [Vue d’ensemble](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Présentation](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Personnaliser Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Directives et limitations d’Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
    * Marché de contenus {#content-marketplace}
@@ -163,6 +163,7 @@ ht-degree: 70%
    * [Notifications aux utilisateurs](learners/feature-summary/user-notifications.md)
    * [Annonces](learners/feature-summary/announcements.md)
    * [Gestion de l’assiduité et de la liste d’attente](learners/feature-summary/waitlist-attendance-management.md)
+   * [Assistant d’IA de l’élève](learners/feature-summary/ai-buddy.md)
    * [Recherche optimisée par l’IA dans Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Application Learning Manager pour Salesforce](learners/feature-summary/sfdc-app.md)
    * [Intégration d’Adobe Connect](learners/feature-summary/adobeconnect-integration.md)
