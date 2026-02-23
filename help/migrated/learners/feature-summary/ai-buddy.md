@@ -2,17 +2,22 @@
 description: Learner AI Assistant (Beta) est un compagnon de conversation alimenté par GenAI dans Adobe Learning Manager qui aide les élèves à obtenir des réponses rapides et précises à partir du contenu d'apprentissage qui leur est attribué. À l’aide de requêtes en langage naturel, les élèves peuvent récupérer instantanément des réponses ciblées avec des citations claires, ce qui facilite la recherche des bonnes informations, la vérification des sources et l’apprentissage efficace sans devoir rechercher dans des cours entiers.
 jcr-language: en_us
 title: Assistant IA dédiée aux élèves (Beta) dans Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
+source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
 
-
 # Introduction
 
 L’assistant AI (Beta) pour les élèves les aide à trouver rapidement des réponses à partir du contenu d’apprentissage attribué sans parcourir l’intégralité des cours. Vous pouvez poser des questions dans un langage simple et recevoir des réponses précises et ciblées avec des liens sources vers le contenu du cours concerné.
+
+>[!IMPORTANT]
+>
+>Learner AI Assistant est actuellement en version Beta et sera disponible dans le cadre d&#39;un déploiement progressif. L’accès peut varier selon l’utilisateur.
+
 
 ## Qu’est-ce que l’assistant IA ?
 
@@ -173,15 +178,13 @@ L’assistant Learner AI répond aux questions en utilisant uniquement le conten
 
 * L&#39;assistant utilise le contenu des catalogues internes que votre administrateur active pour l&#39;assistant d&#39;IA dédiée aux élèves.
 
-* Si vous n&#39;avez pas accès à un cours, une assistance à la tâche ou un objet d&#39;apprentissage, l&#39;assistant ne l&#39;utilise pas pour générer des réponses.
-
 * L&#39;assistant respecte votre rôle, l&#39;appartenance au groupe et les autorisations du catalogue lors de la récupération des informations.
 
 ### Quel contenu l’assistant AI n’utilise pas ?
 
 L’assistant IA dédiée aux élèves limite les réponses à la portée d’apprentissage qui vous est attribuée.
 
-* Il n’utilise pas le contenu des catalogues Partagé, Acquis, Externe ou d’autres catalogues non internes.
+* Il n’utilise pas le contenu des catalogues par défaut, partagé, acquis, externe ou d’autres catalogues non internes.
 
 * Il ne récupère pas les informations des bibliothèques de contenu tierces telles que LinkedIn Learning ou Go1.
 
