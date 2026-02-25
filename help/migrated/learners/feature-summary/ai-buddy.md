@@ -3,25 +3,25 @@ description: Learner AI Assistant (Beta) est un compagnon de conversation alimen
 jcr-language: en_us
 title: Assistant IA dédiée aux élèves (Beta) dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
+source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
 
-# Introduction
+# Assistant Élève
 
-L’assistant AI (Beta) pour les élèves les aide à trouver rapidement des réponses à partir du contenu d’apprentissage attribué sans parcourir l’intégralité des cours. Vous pouvez poser des questions dans un langage simple et recevoir des réponses précises et ciblées avec des liens sources vers le contenu du cours concerné.
+L’assistant Learner AI (Beta) pour les élèves les aide à trouver rapidement des réponses à partir du contenu d’apprentissage attribué sans parcourir l’intégralité des cours. Vous pouvez poser des questions dans un langage simple et recevoir des réponses précises et ciblées avec des liens sources vers le contenu du cours concerné.
 
 >[!IMPORTANT]
 >
 >Learner AI Assistant est actuellement en version Beta et sera disponible dans le cadre d&#39;un déploiement progressif. L’accès peut varier selon l’utilisateur.
 
 
-## Qu’est-ce que l’assistant IA ?
+## Qu’est-ce que l’assistant d’IA dédiée aux élèves ?
 
-AI Assistant est un compagnon de chat optimisé par GenAI dans Adobe Learning Manager qui fournit des réponses rapides et précises aux questions des élèves à l’aide du contenu d’apprentissage de confiance qui leur est disponible dans Adobe Learning Manager. Il comprend également des citations, de sorte que les élèves connaissent toujours la source de l’information.
+Learner AI Assistant est un compagnon de chat alimenté par GenAI dans Adobe Learning Manager qui fournit des réponses rapides et précises aux questions des élèves à l&#39;aide du contenu d&#39;apprentissage de confiance qui leur est disponible dans Adobe Learning Manager. Il comprend également des citations, de sorte que les élèves connaissent toujours la source de l’information.
 
 ## Pourquoi l’utiliser ?
 
