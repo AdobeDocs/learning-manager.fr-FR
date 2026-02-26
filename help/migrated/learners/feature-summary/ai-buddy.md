@@ -1,11 +1,11 @@
 ---
 description: L’assistant AI (Beta) pour les élèves est un compagnon de conversation alimenté par GenAI dans Adobe Learning Manager qui aide les élèves à obtenir des réponses rapides et précises à partir du contenu d’apprentissage qui leur est attribué. À l’aide de requêtes en langage naturel, les élèves peuvent récupérer instantanément des réponses ciblées avec des citations claires, ce qui facilite la recherche des bonnes informations, la vérification des sources et l’apprentissage efficace sans devoir rechercher dans des cours entiers.
 jcr-language: en_us
-title: Assistant IA (Beta) pour les élèves dans Adobe Learning Manager
+title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 64765bdd9f364267f7c7f5d23a03cc576b875be3
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2008'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,10 @@ L’assistant AI est un compagnon de chat optimisé par GenAI dans Adobe Learnin
    * Nettoyer l’ardoise lors de la nouvelle connexion ou de l’actualisation de la page
    * Ton de l&#39;enseignant ou du tuteur : amical, clair et pédagogique
 4. Commandes administrateur
-   * Activer ou désactiver la fonctionnalité au niveau du compte
-   * Contrôle de l’accès par groupes d’utilisateurs
+   * Activation ou désactivation de la fonctionnalité au niveau du compte
+   * Contrôler l’accès par groupes d’utilisateurs
    * Sélectionner les catalogues inclus pour les réponses de l’IA
-   * Condition d’acceptation des conditions d’utilisation requise pour respecter les directives Adobe AI
+   * Exigences d’acceptation des Conditions d’utilisation pour suivre les directives d’Adobe AI
 
 ## Quels types de contenu l’assistant AI prend-il en charge ?
 
@@ -139,13 +139,13 @@ Chaque réponse de l&#39;assistant AI comprend des citations qui renvoient direc
 
 L’assistant AI inclut des invites intégrées pour aider les élèves à se familiariser rapidement avec les questions et les scénarios courants. Ces invites indiquent aux élèves comment interagir avec l&#39;assistant et leur montrent les types de questions qu&#39;ils peuvent poser.
 
-![Invites intégrées fournies par l’assistant d’élève](assets/built-in-prompt-new.png)
+![Invites intégrées fournies par l’Assistant Élève](assets/built-in-prompt-new.png)
 
-Les invites intégrées sont personnalisables par compte. Les entreprises peuvent les adapter en fonction de leurs objectifs d’apprentissage, de leurs rôles d’élève, de leur terminologie ou de cas d’utilisation spécifiques. Les administrateurs peuvent collaborer avec leur responsable du succès client (CSM) pour configurer ou mettre à jour les invites intégrées.
+Les invites intégrées sont personnalisables par compte. Les organisations peuvent les adapter en fonction de leurs objectifs d’apprentissage, des rôles des élèves, de la terminologie ou de cas d’utilisation spécifiques. Les administrateurs peuvent collaborer avec leur gestionnaire de succès client (CSM) pour configurer ou mettre à jour les invites intégrées.
 
-La personnalisation des invites est gérée au niveau du compte et n&#39;est pas configurable directement dans l&#39;interface utilisateur de Adobe Learning Manager dans la version actuelle.
+La personnalisation des invites est gérée au niveau du compte et n’est pas configurable directement dans l’interface utilisateur de Adobe Learning Manager dans la version actuelle.
 
-## Configuration de l’administrateur - Activer l’assistant d’IA pour les élèves
+## Configuration administrateur - Activer l’assistant IA pour les élèves
 
 ![Assistant Élève compatible IA](assets/learner-ai-assistant-new.png)
 
@@ -166,13 +166,13 @@ Pour activer l’assistant d’IA dédiée aux élèves :
    ![La console Administrateur affiche l&#39;option Assistant IA de l&#39;élève dans le volet de gauche](assets/learner-assistant-ai-beta.png)
 
 4. Sélectionnez le bouton à bascule pour activer l&#39;**assistant Learner AI (Beta)**.
-   ![La console Administrateurs affiche le bouton (bascule) activé pour l’assistant IA dédiée aux élèves](assets/learner-assistant-toggle.png)
+   ![La console Administrateurs affiche le bouton à bascule activé pour l&#39;Assistant Élève IA](assets/learner-assistant-toggle.png)
 
-5. Sélectionnez un ou plusieurs groupes d’utilisateurs dans l’option **Groupes d’utilisateurs éligibles**.
+5. Sélectionnez un ou plusieurs groupes d&#39;utilisateurs dans l&#39;option **Groupes d&#39;utilisateurs éligibles**.
 
-6. Sélectionnez **Enregistrer** pour appliquer les paramètres du groupe d’utilisateurs.
+6. Sélectionnez **Enregistrer** pour appliquer les paramètres du groupe d&#39;utilisateurs.
 
-7. Sélectionnez un ou plusieurs catalogues à partir de l’option **Catalogues éligibles**.
+7. Sélectionnez un ou plusieurs catalogues dans l&#39;option **Catalogues éligibles**.
 
 8. Sélectionnez **Enregistrer** pour appliquer les paramètres du catalogue.
 
@@ -236,7 +236,7 @@ Vos commentaires sur les réponses générées par l’assistant Learner AI (Bet
 
 ## Démarrer une nouvelle conversation dans AI Assistant
 
-Le démarrage d&#39;une nouvelle conversation permet à l&#39;utilisateur de commencer une nouvelle conversation, en effaçant le contexte antérieur afin que l&#39;assistant puisse se concentrer sur la nouvelle rubrique sans référencer les interactions précédentes. Cela est important lorsque vous changez de sujet ou que vous recherchez des réponses sans rapport avec des questions précédentes.
+Le démarrage d&#39;une nouvelle conversation permet à l&#39;utilisateur de commencer une nouvelle conversation, en effaçant le contexte antérieur afin que l&#39;assistant puisse se concentrer sur la nouvelle rubrique sans référencer les interactions précédentes. Ceci est important lorsque vous changez de sujet ou recherchez des réponses sans rapport avec des questions précédentes.
 
 Effacez la conversation en cours et démarrez une nouvelle conversation à tout moment.
 
@@ -251,7 +251,7 @@ L’assistant AI fournit aux élèves des réponses contextuelles rapides, prend
 
 >[!NOTE]
 >
->Après la configuration d’un nouveau catalogue, comptez 4 à 5 heures pour que le contenu soit indexé et disponible pour les réponses de l’assistant d’IA.
+>Après avoir configuré un nouveau catalogue, attendez 4 à 5 heures pour que le contenu soit indexé et disponible pour les réponses de l&#39;Assistant IA.
 
 ### Scénario 1 : pas d’accès au contenu
 
@@ -277,8 +277,8 @@ Problème : l’élève a accès à l’assistant Élève, mais reçoit des rép
 **Causes possibles**
 
 * Question trop vaste ou ambiguë
-* Le contenu pertinent contient de mauvaises métadonnées (descriptions, balises).
-* La structure du contenu rend difficile l’extraction d’informations
+* Le contenu pertinent a des métadonnées médiocres (descriptions, balises)
+* La structure du contenu rend difficile l’extraction des informations
 
 **Solution**
 
