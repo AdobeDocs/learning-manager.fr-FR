@@ -2,10 +2,10 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
+source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
 workflow-type: tm+mt
-source-wordcount: '7458'
-ht-degree: 1%
+source-wordcount: '8124'
+ht-degree: 0%
 
 ---
 
@@ -839,7 +839,7 @@ Cette amélioration améliore l’expérience de lecture du contenu Adobe Captiv
 
 * Pour les diapositives non vidéo :
 
-   * Affichez les commandes de navigation de diapositive (diapositive suivante/précédente, etc.) au lieu d’une barre de temps non fonctionnelle.
+   * Afficher les commandes de navigation des diapositives (diapositive suivante/précédente, etc.) au lieu d&#39;une barre de temps non fonctionnelle.
 
       * Cela permet d’éviter d’afficher des commandes non pertinentes ou inopérantes sur certains types de diapositives.
 
@@ -936,7 +936,7 @@ Le temps d’inactivité est soustrait, ce qui garantit que seul le temps d’en
 | **Captivate** | Durée basée sur les diapositives | Impossible de détecter l&#39;inactivité |
 | **xAPI** | Onglet actif | Onglet inactif |
 | **HTML** | Temps d’ouverture du lecteur avec l’onglet actif | Onglet inactif |
-| **Producteur/Consommateur LTI** | Si le contenu LTI est lu dans le lecteur d&#39;ALM (c&#39;est-à-dire, qu&#39;ALM consomme du contenu LTI hébergé sur un autre LMS agissant en tant que producteur), alors cette logique de temps passé s&#39;applique.<br><br>Cependant, si le contenu est lu en dehors du LMS (c’est-à-dire, s’il est hébergé dans ALM, ALM est le producteur, mais la lecture se produit dans un lecteur externe), cette partie de la logique de calcul du temps ne s’applique pas.  <br>**Remarque** : le consommateur LTI n&#39;est pas pris en charge dans Adobe Learning Manager. | Onglet inactif |
+| **Producteur/Consommateur LTI** | Si le contenu LTI est lu dans le lecteur d&#39;ALM (c&#39;est-à-dire, qu&#39;ALM consomme du contenu LTI hébergé sur un autre LMS agissant en tant que producteur), alors cette logique de temps passé s&#39;applique.<br><br>Cependant, si le contenu est lu en dehors du LMS (c&#39;est-à-dire, que le contenu est hébergé dans ALM, alors ALM est le producteur, mais la lecture se produit dans un lecteur externe), cette partie de la logique de calcul du temps ne s&#39;applique pas.  <br>**Remarque** : le consommateur LTI n&#39;est pas pris en charge dans Adobe Learning Manager. | Onglet inactif |
 
 **Remarque** :
 
@@ -969,7 +969,7 @@ Le temps d’inactivité est soustrait, ce qui garantit que seul le temps d’en
 * **Nouvelles sessions :** utilisez le calcul du temps actif **nouveau**.
 * **Périodes mixtes :** pour les audits ou les rapports longitudinaux, segmentez par **avant/après le lancement** afin d&#39;éviter les erreurs d&#39;interprétation.
 
-### Limites connues
+### Limitations connues
 
 * **Le contenu interactif** (SCORM/Captivate) continue de dépendre du minutage fourni par le contenu ; la détection d&#39;inactivité dans le contenu n&#39;est pas disponible.
 * **Le contenu basé sur Iframe** (HTML/xAPI) limite la détection des interactions précises ; la mise au point sur l’onglet est utilisée à la place.
@@ -1012,9 +1012,66 @@ Ceci est attendu lorsque le temps d&#39;inactivité avait précédemment gonflé
 
 Aucune ; la modification est automatique.
 
+## Mise à jour des rapports de relevé de notes pour les administrateurs
 
+Nous mettons à jour les rapports du relevé de notes pour les administrateurs afin de mieux prendre en charge les évaluations basées sur des listes de contrôle et les commentaires des réviseurs.
 
+## Qu’est-ce qui change ?
 
+### &#x200B;1. Renommer la colonne dans le relevé de notes de l’administrateur
+
+La colonne existante **Envoyer un commentaire** dans l&#39;apprentissage de l&#39;administrateur
+La transcription sera :
+
+1. **Renommé en :** `Reviewer's remarks`
+
+### Données affichées dans cette colonne :
+
+* **Pour les modules d&#39;envoi :**
+La colonne continuera d’afficher le commentaire de soumission (aucun changement de comportement).
+
+* **Pour les modules de liste de contrôle :**
+La colonne affiche maintenant le commentaire de l&#39;évaluation (les remarques de l&#39;examinateur de la liste de contrôle).
+
+Cette modification s’applique à toutes les sources Admin LT :
+
+* LT téléchargé depuis l’interface utilisateur d’administration
+* LT obtenu via l’API de tâche
+* LT généré via des connecteurs
+
+Après cette modification, la même colonne contiendra : - les commentaires de soumission pour les modules de soumission
+
+* Commentaires d’évaluation pour les modules de liste de contrôle
+
+Sous le nouveau nom d&#39;en-tête **Remarques du réviseur**.
+
+### &#x200B;2. Nouvelle colonne dans les exportations de relevés de notes d’apprentissage basés sur des connecteurs
+
+Pour les relevés de notes d’apprentissage exportés par le connecteur :
+
+* Une nouvelle colonne nommée **Remarques du réviseur** sera ajoutée à la fin du rapport.
+* Cette colonne contiendra les commentaires du réviseur, conformément au comportement décrit ci-dessus :
+   * Commentaires de soumission pour les modules de soumission
+   * Commentaires d’évaluation pour les modules de liste de contrôle
+
+## Impact sur les intégrations et automatisations existantes
+
+Si vous utilisez des rapports de relevé de notes dans des intégrations personnalisées, des automatisations ou des outils de rapport externes, passez en revue les scénarios suivants :
+
+| Scénario | Impact | Action requise |
+|----------|--------|----------------|
+| Vous identifiez les champs dans Admin LT par nom de colonne (par exemple, « Commentaire de soumission ») | L’en-tête de colonne se transforme en remarques du réviseur. | Oui. Mettez à jour toutes les mises en correspondance ou logiques qui font référence au commentaire de soumission pour utiliser les remarques du réviseur. |
+| Vous identifiez les champs dans Admin LT par position de colonne uniquement (basée sur l’index) | La position de cette colonne reste la même dans Admin LT. | Habituellement, aucune action. Si votre logique ne dépend pas du texte de l’en-tête, aucune modification n’est nécessaire pour Admin LT, modifiez simplement le nom de la colonne si la colonne actuellement « Commentaires de soumission » est utilisée. |
+| Vous utilisez un LT exporté par connecteur et comptez sur un nombre de colonnes fixe ou une position de dernière colonne spécifique | Une nouvelle colonne est ajoutée à la fin du rapport. | Oui. Ajustez la logique d&#39;analyse ou de validation pour tenir compte d&#39;une colonne supplémentaire à la fin du fichier. |
+| Vous utilisez le LT exporté par connecteur et le mappage par nom de colonne | Une nouvelle colonne intitulée Remarques de l&#39;examinateur deviendra disponible. | Facultatif. Aucune modification n’est requise, sauf si vous souhaitez utiliser les nouvelles données de commentaires du réviseur/de la liste de contrôle. |
+
+**Que faire**
+
+* Examinez les scripts, les tâches ETL, les tableaux de bord ou les intégrations qui utilisent les rapports de relevé de notes d’apprentissage de l’administrateur.
+* Si vous faites référence à l&#39;ancien nom de colonne _Soumettre un commentaire_, mettez à jour votre configuration ou votre code pour utiliser le nouveau nom de colonne Remarques du réviseur.
+* Si vous utilisez des exportations LT basées sur des connecteurs et que vous supposez un nombre fixe de colonnes ou une dernière colonne fixe, mettez à jour votre logique pour gérer une colonne supplémentaire à la fin de l’exportation.
+
+Si votre implémentation actuelle repose uniquement sur les positions de colonnes dans Admin LT et n’est pas validée ou ne dépend pas du texte de l’en-tête de colonne, aucune modification n’est requise pour Admin LT lui-même. Seules les exportations de connecteurs nécessitent une attention particulière lorsque vous dépendez d’une disposition fixe.
 
 
 
@@ -2710,4 +2767,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
