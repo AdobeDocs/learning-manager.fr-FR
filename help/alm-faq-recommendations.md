@@ -94,7 +94,7 @@ Adobe Learning Manager prend en charge l’exportation des données de configura
 
 * L’API des tâches ALM prend en charge la génération à la demande de rapports utilisateur (y compris les attributions de rôles) au format CSV. Ils peuvent être programmés et utilisés par des outils de conformité externe ou SIEM.
 
-Voir [Adobe Learning Manager- Manuel du développeur d&#39;applications](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) pour plus d&#39;informations.
+Voir [Adobe Learning Manager- Manuel du développeur d&#39;applications](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual) pour plus d&#39;informations.
 
 ## Adobe Learning Manager fournit-il une API qui permet d’afficher et d’ajuster par programmation les paramètres relatifs à la sécurité ?
 
