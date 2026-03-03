@@ -51,7 +51,7 @@ L’administrateur contrôle la méthode d’authentification utilisée pour tou
 >
 >Si la méthode de connexion est définie sur Adobe ID pour les utilisateurs internes, l’organisation ne peut plus appliquer l’authentification à plusieurs facteurs, contrôler la complexité des mots de passe ou révoquer immédiatement l’accès lorsqu’un utilisateur quitte l’application. Cela augmente considérablement le risque d’accès non autorisé.
 
-Voir [Rôles personnalisés](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) pour plus d&#39;informations.
+Voir [Rôles personnalisés](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/custom-role) pour plus d&#39;informations.
 
 ### Authentification multifacteur (MFA)
 
@@ -168,7 +168,7 @@ Les paramètres administratifs de Adobe Learning Manager sont configurables par 
 
 Des informations supplémentaires sur les pratiques de sécurité de Adobe Learning Manager sont disponibles dans :
 
-**Référence :** [Présentation de la sécurité Adobe Learning Manager (mot de PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+**Référence :** [Présentation de la sécurité Adobe Learning Manager (mot de PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=fr)
 
 ## Maintenance des documents
 
