@@ -2,7 +2,7 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1cbdd4ca217ecc760e942e99303ca7841a20c5b6
+source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
 workflow-type: tm+mt
 source-wordcount: '20211'
 ht-degree: 0%
@@ -114,47 +114,47 @@ Pour les élèves utilisant principalement un téléphone ou une tablette :
 
 * Cela est important pour l’éducation des clients, les travailleurs à la demande ou les élèves de première ligne qui peuvent accéder au contenu lors de courtes sessions sur des appareils mobiles.
 
-## Connecteur Zoom : créez plusieurs sessions Zoom simultanées.
+## Connecteur Zoom : permet de créer plusieurs sessions Zoom simultanées.
 
 ### Présentation
 
-La mise à niveau du connecteur Zoom améliore la façon dont Adobe Learning Manager gère la formation virtuelle dirigée par un instructeur (VILT). Auparavant, les utilisateurs ne pouvaient créer qu’une seule session Zoom à la fois. Avec la nouvelle mise à jour, les administrateurs et les auteurs peuvent planifier plusieurs sessions Zoom en même temps à l’aide de l’intégration standard.
+La mise à niveau du connecteur Zoom améliore la manière dont Adobe Learning Manager gère la formation virtuelle dirigée par un instructeur (VILT). Auparavant, les utilisateurs ne pouvaient créer qu’une seule session Zoom à la fois. Avec la nouvelle mise à jour, les administrateurs et les auteurs peuvent planifier plusieurs sessions Zoom en même temps à l’aide de l’intégration standard.
 
 ### Nouveautés
 
 #### Prise en charge de plusieurs sessions Zoom simultanées via le connecteur
 
-* Le connecteur Zoom permet désormais de créer plusieurs sessions VILT à la même date/heure à partir d’ALM.
+* Le connecteur Zoom permet désormais de créer plusieurs sessions VILT à la même date/heure à partir d’AEM.
 
-* La logique de planification n’applique plus une contrainte « réunion Zoom à la fois » au niveau du compte/connecteur.
+* La logique de planification n’applique plus une contrainte « Une réunion Zoom à la fois » au niveau du compte ou du connecteur.
 
-* Les administrateurs et les auteurs peuvent configurer des sessions VILT qui se chevauchent (par exemple, des salles de classe régionales, des pistes parallèles ou des sessions répétées pour différents groupes de partenaires) sans solutions de contournement.
+* Les administrateurs et les auteurs peuvent configurer des sessions VILT qui se chevauchent (par exemple, des salles de classe régionales, des pistes parallèles ou des sessions répétées pour différents groupes de partenaires) sans solution.
 
-#### Les réunions sont créées à l’aide de l’identité Zoom de l’instructeur (pas du super administrateur Zoom).
+#### Les réunions sont créées à l’aide de l’identité Zoom de l’instructeur ou de l’instructrice (et non du super administrateur Zoom)
 
 Pour prendre en charge les réunions simultanées en toute sécurité, le connecteur a été mis à jour afin que :
 
-* Les réunions Zoom sont désormais créées à l’aide de l’adresse e-mail de l’instructeur, au lieu de l’adresse e-mail du super administrateur Zoom.
+* Les réunions Zoom sont désormais créées à l’aide de l’adresse e-mail de l’instructeur ou instructrice, au lieu de l’adresse e-mail du super administrateur Zoom.
 
-* Le compte Zoom de chaque instructeur peut organiser ses propres réunions en parallèle avec d’autres instructeurs, sous réserve des limites de la formule Zoom existante.
+* Le compte Zoom de chaque instructeur peut organiser ses propres réunions en parallèle avec d’autres instructeurs, sous réserve des limites du plan Zoom existant.
 
 **Remarque** :
 
 * Un seul instructeur par réunion est toujours pris en charge.
 
-* Si l’adresse e-mail d’un instructeur est mise à jour ultérieurement dans Adobe Learning Manager, les réunions existantes restent associées à l’adresse e-mail d’origine utilisée lors de la création.
+* Si l’e-mail d’un instructeur est mis à jour ultérieurement dans Adobe Learning Manager, les réunions existantes restent associées à l’e-mail d’origine utilisé lors de la création.
 
-#### Fini le collage manuel d’URL Zoom pour les sessions simultanées
+#### Plus besoin de coller manuellement des URL de zoom pour les sessions simultanées
 
-Auparavant, lorsqu’une deuxième ou troisième session Zoom devait s’exécuter en même temps :
+Auparavant, lorsqu’une deuxième ou une troisième session Zoom devait s’exécuter en même temps :
 
-* Les auteurs devaient créer manuellement des réunions Zoom en dehors d&#39;ALM, puis coller l&#39;URL de jointure Zoom dans la configuration de l&#39;instance de cours.
+* Les auteurs devaient créer manuellement des réunions avec zoom en dehors d’ALM, puis coller l’URL de jointure avec zoom dans la configuration de l’instance de cours.
 
-* Cette opération était source d’erreurs et ne bénéficiait pas des fonctionnalités du connecteur telles que le suivi de l’assiduité.
+* Cette opération était sujette aux erreurs et ne bénéficiait pas des fonctionnalités du connecteur telles que le suivi de présence.
 
 Avec le connecteur mis à jour :
 
-* Toutes les sessions peuvent être créées directement à partir de l’interface utilisateur ALM à l’aide du connecteur Zoom, même si elles se chevauchent dans le temps.
+* Toutes les sessions peuvent être créées directement à partir de l’interface utilisateur d’AEM à l’aide du connecteur de zoom, même si elles se chevauchent dans le temps.
 
 * Le cycle de vie de la session (création/annulation) continue d’être géré de manière centralisée via l’intégration.
 
@@ -360,9 +360,9 @@ Leurs portails personnalisés et leurs outils internes peuvent désormais lire l
 
 Pour la formation des clients et des partenaires, les pages marketing et les portails mettent souvent l’accent sur la formation la plus récente.
 
-La présence de dates d’expiration dans l’API LO permet aux créateurs d’expérience :
+Disposer de dates d’expiration dans l’API LO permet aux créateurs d’expérience de :
 
-* Masquez ou atténuez l’accent mis sur le contenu qui est proche de la retraite.
+* Masquez ou mettez moins l’accent sur le contenu qui est proche de la retraite.
 
 * Créez des campagnes « Dernière chance de terminer ».
 
@@ -370,7 +370,7 @@ La présence de dates d’expiration dans l’API LO permet aux créateurs d’e
 
 ### Présentation
 
-L’amélioration étend le modèle de localisation de Adobe Learning Manager aux assistances à la tâche, ce qui permet aux auteurs de joindre différents fichiers de contenu par langue à une seule assistance à la tâche. Au lieu de créer des assistances à la tâche distinctes pour chaque langue, les auteurs peuvent désormais gérer toutes les versions localisées comme une seule assistance à la tâche logique.
+Cette amélioration étend le modèle de localisation de Adobe Learning Manager aux assistances à la tâche, ce qui permet aux auteurs de joindre différents fichiers de contenu par langue à une seule assistance à la tâche. Au lieu de créer des assistances à la tâche distinctes pour chaque langue, les auteurs peuvent désormais gérer toutes les versions localisées comme une seule assistance à la tâche logique.
 
 ### Nouveautés
 
@@ -378,35 +378,35 @@ L’amélioration étend le modèle de localisation de Adobe Learning Manager au
 
 Les auteurs peuvent joindre différents fichiers par langue prise en charge à une seule assistance à la tâche, comme des cours et d’autres objets d’apprentissage.
 
-L’expérience de création/modification d’assistance à la tâche prend désormais en charge :
+L’expérience de création/modification d’assistances à la tâche prend désormais en charge :
 
-* Sélection d’une langue.
+* Sélectionner une langue.
 
-* Téléchargement du fichier spécifique à la langue dans la même entité d&#39;assistance à la tâche.
+* Chargement du fichier spécifique à la langue dans la même entité d’assistance à la tâche.
 
 #### Gestion cohérente des langues dans l’interface utilisateur du lecteur et de l’élève
 
-Le lecteur Fluidic a été mis à jour de sorte que lorsqu’un élève ouvre une assistance à la tâche, la variante de contenu correspondant à sa langue s’affiche (le cas échéant).
+Fluidic Player a été mis à jour de sorte que lorsqu’un élève ouvre une assistance à la tâche, la variante de contenu correspondant à la langue de l’élève s’affiche (le cas échéant).
 
-Les administrateurs et les auteurs peuvent afficher les assistances à la tâche sous la forme d’objets uniques avec des variantes de langue, plutôt que sous la forme d’éléments distincts par langue.
+Les administrateurs et les auteurs peuvent afficher les assistances à la tâche sous la forme d’objets uniques avec des variantes de langue, plutôt que d’éléments distincts par langue.
 
 ### Principaux avantages
 
-#### Assistance à la tâche unique pour toutes les langues
+#### Outil de travail unique pour toutes les langues
 
 Les auteurs peuvent éviter de créer des assistances à la tâche distinctes par langue.
 
-Toutes les variantes linguistiques d’une même assistance à la tâche (par exemple, une procédure, une procédure standard, un PDF de liste de contrôle ou un guide de référence) peuvent être gérées en un seul endroit.
+Toutes les variantes linguistiques d’une même assistance à la tâche (par exemple, une procédure, une procédure standard, une liste de contrôle PDF ou un guide de référence) peuvent être gérées en un seul endroit.
 
 #### Meilleure expérience pour les élèves du monde entier
 
-Les élèves voient automatiquement l’assistance à la tâche dans leur langue préférée, ce qui signifie qu’il y a :
+Les élèves voient automatiquement l’outil de travail dans leur langue préférée, ce qui signifie qu’il existe :
 
 * Moins de confusion sur la version à ouvrir.
 
-* Moins de risques d’accès aux copies hors paramètres régionaux ou obsolètes.
+* Réduction du risque d’accès aux copies hors paramètres régionaux ou obsolètes.
 
-Ceci est particulièrement utile dans les organisations multilingues où le même processus ou la même documentation produit doit être disponible dans plusieurs langues.
+Cela s’avère particulièrement utile dans les organisations multilingues où le même processus ou la même documentation de produit doit être disponible dans plusieurs langues.
 
 ### Cas d’utilisation
 
@@ -657,56 +657,56 @@ S’ils réévaluent un élève, ils peuvent mettre à jour ou modifier les comm
 
 * Le rapport Liste de contrôle gagne une nouvelle colonne pour les remarques des réviseurs, capturant le commentaire fourni pendant l&#39;évaluation.
 
-* Les élèves reçoivent des notifications (sur la plateforme et par e-mail) chaque fois qu’une évaluation de liste de contrôle se produit. Ces notifications sont les suivantes :
+* Les élèves reçoivent des notifications (sur la plateforme et par e-mail) chaque fois qu’une évaluation de liste de contrôle se produit. Ces notifications comprennent :
 
    * Le commentaire et
 
-   * Le nom du réviseur ou de la réviseuse, s’il ou elle a été configuré(e) pour être visible.
+   * Le nom du réviseur, s’il a été configuré pour être visible.
 
-Cela permet de s’assurer que les commentaires sont non seulement stockés, mais également affichés activement pour les élèves.
+Cela permet de s’assurer que les commentaires sont non seulement stockés, mais également activement transmis aux élèves.
 
 ### Principaux avantages
 
-* **Retour d’informations plus riche, similaire à celui d’un coach** : les scores numériques sont complétés par des remarques contextuelles, ce qui fait des listes de contrôle un outil plus efficace pour le coaching, et pas seulement pour la conformité.
+* **Retour d&#39;informations plus riche et similaire à celui d&#39;un coach** : les scores numériques sont complétés par des remarques contextuelles, ce qui fait des listes de contrôle un outil plus efficace pour le coaching, pas seulement pour la conformité.
 
-* **Traçabilité et vérifiabilité** : les organisations obtiennent un enregistrement persistant de qui a évalué qui, quand et ce qu’elles ont dit, ce qui est important dans les environnements réglementés et les rôles à enjeux élevés.
+* **Traçabilité et auditabilité** : les organisations obtiennent un enregistrement permanent des personnes qui ont évalué qui, quand et ce qu&#39;elles ont dit, ce qui est important dans les environnements réglementés et les rôles à enjeux élevés.
 
-* **Meilleur engagement des élèves** : les élèves reçoivent des conseils clairs liés à des évaluations spécifiques, ce qui améliore leur compréhension des attentes et des étapes suivantes.
+* **Meilleur engagement des élèves** : les élèves reçoivent des conseils clairs liés à des évaluations spécifiques, ce qui améliore leur compréhension des attentes et des étapes ultérieures.
 
 ### Cas d’utilisation
 
-* Les organisations ayant des environnements réglementés peuvent utiliser les commentaires pour documenter le jugement clinique ou le retour d&#39;informations sur les procédures pour le personnel qui est observé sur le terrain.
+* Les organisations dont les environnements sont réglementés peuvent utiliser les commentaires pour documenter le jugement clinique ou la rétroaction procédurale du personnel qui est observé sur le terrain.
 
-* Les organismes d&#39;aviation et d&#39;assistance en escale peuvent joindre des notes détaillées sur le rendement opérationnel, les pratiques de sécurité et le comportement des clients, transformant une liste de contrôle en un outil de compte rendu structuré.
+* Les organismes d&#39;aviation et d&#39;assistance en escale peuvent joindre des notes détaillées sur le rendement opérationnel, les pratiques de sécurité et le comportement vis-à-vis des clients, transformant ainsi une liste de contrôle en un outil de compte rendu structuré.
 
-* Dans le mentorat et l’évaluation des experts, les instructeurs peuvent recueillir des observations nuancées qui ne cadreraient pas dans un score seul, par exemple, « gérer correctement l’escalade, mais doit améliorer la gestion du temps » ou « excellent flux de dépannage ; avoir raté une étape de documentation ».
+* Dans le mentorat et l&#39;évaluation des experts, les instructeurs peuvent saisir des observations nuancées qui ne cadreraient pas avec un score seul, par exemple, « ont bien géré l&#39;escalade, mais doivent améliorer la gestion du temps » ou « un excellent flux de dépannage ; ont manqué une étape de documentation ».
 
-## Rapports sur les tentatives multiples et les quiz au niveau du contenu
+## Tentatives multiples au niveau du contenu et rapports de quiz
 
 ### Présentation
 
 >[!IMPORTANT]
 >
->Notez que la fonctionnalité ne sera disponible qu’après son activation dans le compte . Contactez l’assistance ALM.
+>Notez que la fonctionnalité ne sera disponible qu’après son activation dans le compte. Contactez le support ALM.
 
 
-Actuellement, ALM prend en charge plusieurs tentatives au niveau LMS via la fonctionnalité de tentative de quiz multiple (MQA) :
+Actuellement, ALM prend en charge plusieurs tentatives au niveau du système de gestion de l’apprentissage via la fonctionnalité de tentatives de quiz multiples (MQA) :
 
 * Les auteurs peuvent configurer les tentatives au niveau du cours (appliqué à tous les modules du cours qui répondent au quiz) ou au niveau du module (par module de quiz).
 
-* Les tentatives peuvent être :
+* Les tentatives peuvent être les suivantes :
 
    * Un nombre spécifique (par exemple, 3 tentatives), ou
 
-   * Tentatives illimitées, contrôlées au niveau LMS.
+   * Tentatives infinies, contrôlées au niveau du LMS.
 
-* Lorsqu’un élève consulte un module via le lecteur Fluidic, puis ferme le lecteur ou termine le module, cette session est traitée comme une seule tentative LMS.
+* Lorsqu’un élève utilise un module via le lecteur Fluidic, puis ferme le lecteur ou termine le module, cette session est traitée comme une tentative LMS unique.
 
-* Chaque tentative LMS est capturée dans le rapport de quiz L2 sous la forme d’une nouvelle ligne.
+* Chaque tentative de LMS est capturée dans le rapport de quiz L2 sous la forme d’une nouvelle ligne.
 
-Cependant, si le fichier de contenu lui-même (par exemple, un quiz SCORM articulé) implémente sa propre logique de tentatives multiples, le rapport de quiz L2 d’ALM ne distingue pas ou ne suit pas correctement ces tentatives internes.
+Cependant, si le fichier de contenu lui-même (par exemple, un quiz Articulate SCORM) implémente sa propre logique de tentatives multiples, le rapport de quiz L2 d&#39;ALM ne distingue pas ou ne suit pas correctement ces tentatives internes.
 
-Cette amélioration introduit le suivi des tentatives multiples au niveau du contenu pour les quiz, ce qui permet à Adobe Learning Manager de capturer précisément chaque tentative dans le contenu lui-même dans le rapport de quiz L2. Il est conçu pour les situations où l’outil de création de contenu (tel qu’Articulate SCORM) gère indépendamment les tentatives de quiz. Grâce à cette fonctionnalité, les tentatives sont correctement reflétées dans les rapports ALM sans dépendre des paramètres de Tentative de quiz multiple (MQA) au niveau LMS.
+Cette amélioration introduit le suivi des tentatives multiples au niveau du contenu pour les quiz, permettant à Adobe Learning Manager de capturer avec précision chaque tentative dans le contenu lui-même dans le rapport de quiz L2. Il est conçu pour les situations où l&#39;outil de création de contenu (tel qu&#39;Articulate SCORM) gère indépendamment les tentatives de quiz. Grâce à cette fonctionnalité, les tentatives sont correctement reflétées dans les rapports ALM sans dépendre des paramètres de Tentative de quiz multiple (MQA) au niveau du LMS.
 
 ### Nouveautés
 
@@ -2458,3 +2458,4 @@ Le système fait la distinction entre l&#39;achèvement réel et l&#39;achèveme
 * Si la relation entre la source et la cible est supprimée ou modifiée, ALM peut supprimer ou ajuster les autres finalisations sans toucher aux finalisations authentiques, à condition que les finalisations rétroactives soient activées pour le compte.
 
 Les autres achèvements sont conçus pour ne pas interférer avec l’activité réelle de l’élève sur la formation cible. Elles agissent comme une superposition qui peut être révisée si les relations changent.
+
