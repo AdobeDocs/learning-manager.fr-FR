@@ -1,11 +1,11 @@
 ---
-description: L’assistant AI (Beta) pour les élèves est un compagnon de conversation alimenté par GenAI dans Adobe Learning Manager qui aide les élèves à obtenir des réponses rapides et précises à partir du contenu d’apprentissage qui leur est attribué. À l’aide de requêtes en langage naturel, les élèves peuvent récupérer instantanément des réponses ciblées avec des citations claires, ce qui facilite la recherche des bonnes informations, la vérification des sources et l’apprentissage efficace sans devoir rechercher dans des cours entiers.
+description: Obtenez des réponses rapides et précises de votre contenu d’apprentissage avec l’assistant AI de Adobe Learning Manager.
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
+source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -195,10 +195,10 @@ Pour lancer l’assistant AI :
 >
 >Lorsque vous lancez l’assistant AI pour la première fois, vous devez donner votre consentement avant de l’utiliser. La boîte de dialogue de consentement s’affiche uniquement lors de ce lancement initial. Pour tous les lancements suivants, vous serez directement redirigé vers l’assistant AI pour saisir vos invites.
 
-4.Saisissez votre invite dans le champ de texte.
+&#x200B;4. Saisissez l’invite dans le champ de texte.
 <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
 
-5.Appuyez sur **Entrée** pour recevoir une réponse. Examinez votre réponse, vos sources et vos recommandations.
+&#x200B;5. Appuyez sur **Entrée** pour recevoir une réponse. Passez en revue votre réponse, vos sources et vos recommandations.
 
 Vous pouvez :
 
@@ -207,34 +207,34 @@ Vous pouvez :
 
 ![Afficher les sources dans la réponse](assets/show-sources-latest.png)
 
-L’assistant d’IA inclut des citations avec chaque réponse pour indiquer d’où viennent les informations. Chaque citation renvoie directement au cours, au module ou à l’objet d’apprentissage d’origine utilisé pour générer la réponse.
+L&#39;assistant AI inclut des citations avec chaque réponse pour indiquer d&#39;où proviennent les informations. Chaque citation renvoie directement au cours, module ou objet d&#39;apprentissage d&#39;origine utilisé pour générer la réponse.
 
-Vous pouvez sélectionner n’importe quelle citation pour ouvrir la page du cours dans Adobe Learning Manager et consulter l’intégralité du contenu dans son contexte. Les citations vous aident à vérifier les informations, à explorer des détails supplémentaires et à continuer à apprendre de la source faisant autorité.
+Vous pouvez sélectionner n&#39;importe quelle citation pour ouvrir la page du cours dans Adobe Learning Manager et examiner le contenu complet en contexte. Les citations vous aident à vérifier les informations, à explorer des détails supplémentaires et à continuer à apprendre de la source qui fait autorité.
 
-## Accéder à l’assistant d’IA via la recherche
+## Accès à l’assistant AI via la recherche
 
-Vous pouvez également lancer l’assistant d’IA directement depuis la barre de recherche. Saisissez votre question dans le champ de recherche, puis sélectionnez **Demander l’assistant IA** dans les options qui s’affichent.
+Vous pouvez également lancer l’assistant AI directement à partir de la barre de recherche. Saisissez votre question dans le champ de recherche, puis sélectionnez **Poser une question à l&#39;Assistant IA** dans les options qui s&#39;affichent.
 
-![Accédez à l’assistant d’élève à partir de la barre de recherche](assets/learner-assistant-search-new.png)
+![Accéder à l’assistant d’élève à partir de la barre de recherche](assets/learner-assistant-search-new.png)
 
-## Fournir des commentaires sur les réponses de l’assistant d’IA
+## Envoyer des commentaires sur les réponses de l’assistant IA
 
-Vos commentaires sur les réponses générées par l’assistant d’IA (Beta) contribuent à améliorer sa précision, sa pertinence et ses performances globales.
+Vos commentaires sur les réponses générées par l’Assistant IA (Beta) contribuent à améliorer sa précision, sa pertinence et ses performances globales.
 
 ### Aimer ou ne pas aimer une réponse
 
-- Sélectionnez **Pouces vers le haut**, choisissez ce que vous avez trouvé utile dans la réponse, ajoutez éventuellement des commentaires, puis sélectionnez **Envoyer**.
-- Sélectionnez **Pouces baissées**, indiquez la raison pour laquelle la réponse n’a pas été utile, ajoutez des commentaires, puis sélectionnez **Envoyer**.
+- Sélectionnez **Pouce vers le haut**, choisissez ce que vous avez trouvé utile dans la réponse, ajoutez éventuellement des commentaires, puis sélectionnez **Envoyer**.
+- Sélectionnez **Pouce vers le bas**, choisissez la raison pour laquelle la réponse n&#39;a pas été utile, ajoutez des commentaires, puis sélectionnez **Envoyer**.
 
 ## Démarrer une nouvelle conversation
 
-Démarrer une nouvelle conversation permet de commencer une nouvelle conversation, en effaçant le contexte précédent afin que l&#39;assistant puisse se concentrer sur le nouveau sujet sans référencer les interactions précédentes.
+Démarrer une nouvelle conversation vous permet de commencer une nouvelle conversation, en effaçant le contexte précédent afin que l&#39;assistant puisse se concentrer sur la nouvelle rubrique sans référencer les interactions précédentes.
 
-Pour effacer la conversation en cours et recommencer à zéro, sélectionnez **Nouvelle conversation** dans l’écran de l’assistant AI, puis sélectionnez **Oui**.
+Pour effacer la conversation actuelle et repartir à zéro, sélectionnez **Nouvelle conversation** dans l&#39;écran de l&#39;Assistant IA, puis **Oui**.
 
-![Démarrer une nouvelle conversation dans l’assistant d’élève](assets/start-new-chat.png)
+![Démarrer une nouvelle conversation dans l&#39;Assistant Élève](assets/start-new-chat.png)
 
-L’assistant d’IA fournit aux élèves des réponses contextuelles rapides, prend en charge plusieurs types de contenu et propose des citations en ligne pour plus de transparence. Les administrateurs peuvent contrôler l’accès et s’assurer que l’assistant IA est adapté aux besoins de l’entreprise et améliore l’expérience d’apprentissage.
+L’assistant AI fournit aux élèves des réponses contextuelles rapides, prend en charge plusieurs types de contenu et propose des citations en ligne pour plus de transparence. Les administrateurs peuvent contrôler l’accès, en veillant à ce que l’assistant IA soit adapté aux besoins organisationnels et améliore l’expérience d’apprentissage.
 
 
 ## Résolution des problèmes de l’assistant AI
