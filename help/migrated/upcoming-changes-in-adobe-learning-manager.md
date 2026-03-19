@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
+source-git-commit: f8481ce3794b5be72753f85349b28e520774c495
 workflow-type: tm+mt
-source-wordcount: '20211'
+source-wordcount: '20175'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Dans les scénarios réglementés ou à forte conformité :
 
 * Les auteurs désactivent souvent la table des matières pour éviter de l’ignorer.
 
-Ici, en affichant **Module suivant :{ModuleName}** :
+Ici, affichage du **Module suivant :{ModuleName}** :
 
 * Confirme aux élèves qu’ils suivent la bonne séquence.
 
@@ -114,47 +114,47 @@ Pour les élèves utilisant principalement un téléphone ou une tablette :
 
 * Cela est important pour l’éducation des clients, les travailleurs à la demande ou les élèves de première ligne qui peuvent accéder au contenu lors de courtes sessions sur des appareils mobiles.
 
-## Connecteur Zoom : permet de créer plusieurs sessions Zoom simultanées.
+## Connecteur Zoom : créez plusieurs sessions Zoom simultanées.
 
 ### Présentation
 
-La mise à niveau du connecteur Zoom améliore la manière dont Adobe Learning Manager gère la formation virtuelle dirigée par un instructeur (VILT). Auparavant, les utilisateurs ne pouvaient créer qu’une seule session Zoom à la fois. Avec la nouvelle mise à jour, les administrateurs et les auteurs peuvent planifier plusieurs sessions Zoom en même temps à l’aide de l’intégration standard.
+La mise à niveau du connecteur Zoom améliore la façon dont Adobe Learning Manager gère la formation virtuelle dirigée par un instructeur (VILT). Auparavant, les utilisateurs ne pouvaient créer qu’une seule session Zoom à la fois. Avec la nouvelle mise à jour, les administrateurs et les auteurs peuvent planifier plusieurs sessions Zoom en même temps à l’aide de l’intégration standard.
 
 ### Nouveautés
 
 #### Prise en charge de plusieurs sessions Zoom simultanées via le connecteur
 
-* Le connecteur Zoom permet désormais de créer plusieurs sessions VILT à la même date/heure à partir d’AEM.
+* Le connecteur Zoom permet désormais de créer plusieurs sessions VILT à la même date/heure à partir d’ALM.
 
-* La logique de planification n’applique plus une contrainte « Une réunion Zoom à la fois » au niveau du compte ou du connecteur.
+* La logique de planification n’applique plus une contrainte « réunion Zoom à la fois » au niveau du compte/connecteur.
 
-* Les administrateurs et les auteurs peuvent configurer des sessions VILT qui se chevauchent (par exemple, des salles de classe régionales, des pistes parallèles ou des sessions répétées pour différents groupes de partenaires) sans solution.
+* Les administrateurs et les auteurs peuvent configurer des sessions VILT qui se chevauchent (par exemple, des salles de classe régionales, des pistes parallèles ou des sessions répétées pour différents groupes de partenaires) sans solutions de contournement.
 
-#### Les réunions sont créées à l’aide de l’identité Zoom de l’instructeur ou de l’instructrice (et non du super administrateur Zoom)
+#### Les réunions sont créées à l’aide de l’identité Zoom de l’instructeur (pas du super administrateur Zoom).
 
 Pour prendre en charge les réunions simultanées en toute sécurité, le connecteur a été mis à jour afin que :
 
-* Les réunions Zoom sont désormais créées à l’aide de l’adresse e-mail de l’instructeur ou instructrice, au lieu de l’adresse e-mail du super administrateur Zoom.
+* Les réunions Zoom sont désormais créées à l’aide de l’adresse e-mail de l’instructeur, au lieu de l’adresse e-mail du super administrateur Zoom.
 
-* Le compte Zoom de chaque instructeur peut organiser ses propres réunions en parallèle avec d’autres instructeurs, sous réserve des limites du plan Zoom existant.
+* Le compte Zoom de chaque instructeur peut organiser ses propres réunions en parallèle avec d’autres instructeurs, sous réserve des limites de la formule Zoom existante.
 
 **Remarque** :
 
 * Un seul instructeur par réunion est toujours pris en charge.
 
-* Si l’e-mail d’un instructeur est mis à jour ultérieurement dans Adobe Learning Manager, les réunions existantes restent associées à l’e-mail d’origine utilisé lors de la création.
+* Si l’adresse e-mail d’un instructeur est mise à jour ultérieurement dans Adobe Learning Manager, les réunions existantes restent associées à l’adresse e-mail d’origine utilisée lors de la création.
 
-#### Plus besoin de coller manuellement des URL de zoom pour les sessions simultanées
+#### Fini le collage manuel d’URL Zoom pour les sessions simultanées
 
-Auparavant, lorsqu’une deuxième ou une troisième session Zoom devait s’exécuter en même temps :
+Auparavant, lorsqu’une deuxième ou troisième session Zoom devait s’exécuter en même temps :
 
-* Les auteurs devaient créer manuellement des réunions avec zoom en dehors d’ALM, puis coller l’URL de jointure avec zoom dans la configuration de l’instance de cours.
+* Les auteurs devaient créer manuellement des réunions Zoom en dehors d&#39;ALM, puis coller l&#39;URL de jointure Zoom dans la configuration de l&#39;instance de cours.
 
-* Cette opération était sujette aux erreurs et ne bénéficiait pas des fonctionnalités du connecteur telles que le suivi de présence.
+* Cette opération était source d’erreurs et ne bénéficiait pas des fonctionnalités du connecteur telles que le suivi de l’assiduité.
 
 Avec le connecteur mis à jour :
 
-* Toutes les sessions peuvent être créées directement à partir de l’interface utilisateur d’AEM à l’aide du connecteur de zoom, même si elles se chevauchent dans le temps.
+* Toutes les sessions peuvent être créées directement à partir de l’interface utilisateur ALM à l’aide du connecteur Zoom, même si elles se chevauchent dans le temps.
 
 * Le cycle de vie de la session (création/annulation) continue d’être géré de manière centralisée via l’intégration.
 
@@ -360,9 +360,9 @@ Leurs portails personnalisés et leurs outils internes peuvent désormais lire l
 
 Pour la formation des clients et des partenaires, les pages marketing et les portails mettent souvent l’accent sur la formation la plus récente.
 
-Disposer de dates d’expiration dans l’API LO permet aux créateurs d’expérience de :
+La présence de dates d’expiration dans l’API LO permet aux créateurs d’expérience :
 
-* Masquez ou mettez moins l’accent sur le contenu qui est proche de la retraite.
+* Masquez ou atténuez l’accent mis sur le contenu qui est proche de la retraite.
 
 * Créez des campagnes « Dernière chance de terminer ».
 
@@ -370,7 +370,7 @@ Disposer de dates d’expiration dans l’API LO permet aux créateurs d’expé
 
 ### Présentation
 
-Cette amélioration étend le modèle de localisation de Adobe Learning Manager aux assistances à la tâche, ce qui permet aux auteurs de joindre différents fichiers de contenu par langue à une seule assistance à la tâche. Au lieu de créer des assistances à la tâche distinctes pour chaque langue, les auteurs peuvent désormais gérer toutes les versions localisées comme une seule assistance à la tâche logique.
+L’amélioration étend le modèle de localisation de Adobe Learning Manager aux assistances à la tâche, ce qui permet aux auteurs de joindre différents fichiers de contenu par langue à une seule assistance à la tâche. Au lieu de créer des assistances à la tâche distinctes pour chaque langue, les auteurs peuvent désormais gérer toutes les versions localisées comme une seule assistance à la tâche logique.
 
 ### Nouveautés
 
@@ -378,35 +378,35 @@ Cette amélioration étend le modèle de localisation de Adobe Learning Manager 
 
 Les auteurs peuvent joindre différents fichiers par langue prise en charge à une seule assistance à la tâche, comme des cours et d’autres objets d’apprentissage.
 
-L’expérience de création/modification d’assistances à la tâche prend désormais en charge :
+L’expérience de création/modification d’assistance à la tâche prend désormais en charge :
 
-* Sélectionner une langue.
+* Sélection d’une langue.
 
-* Chargement du fichier spécifique à la langue dans la même entité d’assistance à la tâche.
+* Téléchargement du fichier spécifique à la langue dans la même entité d&#39;assistance à la tâche.
 
 #### Gestion cohérente des langues dans l’interface utilisateur du lecteur et de l’élève
 
-Fluidic Player a été mis à jour de sorte que lorsqu’un élève ouvre une assistance à la tâche, la variante de contenu correspondant à la langue de l’élève s’affiche (le cas échéant).
+Le lecteur Fluidic a été mis à jour de sorte que lorsqu’un élève ouvre une assistance à la tâche, la variante de contenu correspondant à sa langue s’affiche (le cas échéant).
 
-Les administrateurs et les auteurs peuvent afficher les assistances à la tâche sous la forme d’objets uniques avec des variantes de langue, plutôt que d’éléments distincts par langue.
+Les administrateurs et les auteurs peuvent afficher les assistances à la tâche sous la forme d’objets uniques avec des variantes de langue, plutôt que sous la forme d’éléments distincts par langue.
 
 ### Principaux avantages
 
-#### Outil de travail unique pour toutes les langues
+#### Assistance à la tâche unique pour toutes les langues
 
 Les auteurs peuvent éviter de créer des assistances à la tâche distinctes par langue.
 
-Toutes les variantes linguistiques d’une même assistance à la tâche (par exemple, une procédure, une procédure standard, une liste de contrôle PDF ou un guide de référence) peuvent être gérées en un seul endroit.
+Toutes les variantes linguistiques d’une même assistance à la tâche (par exemple, une procédure, une procédure standard, un PDF de liste de contrôle ou un guide de référence) peuvent être gérées en un seul endroit.
 
 #### Meilleure expérience pour les élèves du monde entier
 
-Les élèves voient automatiquement l’outil de travail dans leur langue préférée, ce qui signifie qu’il existe :
+Les élèves voient automatiquement l’assistance à la tâche dans leur langue préférée, ce qui signifie qu’il y a :
 
 * Moins de confusion sur la version à ouvrir.
 
-* Réduction du risque d’accès aux copies hors paramètres régionaux ou obsolètes.
+* Moins de risques d’accès aux copies hors paramètres régionaux ou obsolètes.
 
-Cela s’avère particulièrement utile dans les organisations multilingues où le même processus ou la même documentation de produit doit être disponible dans plusieurs langues.
+Ceci est particulièrement utile dans les organisations multilingues où le même processus ou la même documentation produit doit être disponible dans plusieurs langues.
 
 ### Cas d’utilisation
 
@@ -1730,6 +1730,7 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 
 ### Fonctionnalités clés
 
+* **Génération VTT automatique :** chargez un fichier vidéo ou audio et générez automatiquement des légendes VTT dans la langue d&#39;origine.
 * **Traduction multilingue :** traduisez les sous-titres dans l’une des 39 langues non anglophones prises en charge.
 * **Révision et modification dans l’application :** révisez, modifiez et téléchargez les fichiers VTT avant de les publier.
 * **Notifications :** recevez des notifications dans l&#39;application lorsque la génération et la traduction VTT sont terminées.
@@ -1737,9 +1738,9 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 
 ### Chargement de contenu et génération de VTT
 
-1. Accédez à la bibliothèque de contenu et sélectionnez **Ajouter > Contenu**.
+1. Accédez à la bibliothèque de contenu et sélectionnez **Ajouter du contenu**.
 2. Chargez votre fichier MP3 ou MP4.
-3. Dans la boîte de dialogue de téléchargement, sélectionnez l&#39;option **Générer des traductions**.
+3. Dans la boîte de dialogue de téléchargement, sélectionnez l&#39;option **Générer la traduction**.
 4. Sélectionnez la langue du contenu d’origine (la langue par défaut est celle du fichier).
 5. Sélectionnez d’autres langues cibles pour la traduction (jusqu’à 39 prises en charge).
 6. Sélectionnez **Enregistrer**. Le système commence à générer et à traduire des fichiers VTT.
@@ -1954,10 +1955,7 @@ Cette fonctionnalité permet aux réviseurs d’ajouter des commentaires pendant
 
 ## Améliorations de la recherche avancée
 
-Les résultats de la recherche avancée sont désormais plus précis et plus pertinents. Les correspondances de mots-clés exactes sont mieux classées à la fois dans la recherche de contenu et les métadonnées, ce qui permet aux élèves de trouver plus facilement ce qu&#39;ils recherchent précisément.
-
-Les élèves peuvent désormais également voir les objets d’apprentissage inscrits dans les résultats de recherche, même s’ils ne font pas partie d’un catalogue accessible, ce qui garantit qu’aucun contenu pertinent n’est manqué. En outre, le classement des assistances à la tâche a été amélioré à la fois pour la recherche avancée et la recherche dans le contenu, afin de faire apparaître plus rapidement les ressources les plus pertinentes.
-
+Cette version inclut une amélioration de la recherche dans le contenu en affichant les cours dont le contenu correspond à une requête de rang supérieur. En outre, les assistances à la tâche sont désormais incluses dans le classement de recherche avancée.
 
 ## Équivalents et substituts
 
@@ -2458,4 +2456,3 @@ Le système fait la distinction entre l&#39;achèvement réel et l&#39;achèveme
 * Si la relation entre la source et la cible est supprimée ou modifiée, ALM peut supprimer ou ajuster les autres finalisations sans toucher aux finalisations authentiques, à condition que les finalisations rétroactives soient activées pour le compte.
 
 Les autres achèvements sont conçus pour ne pas interférer avec l’activité réelle de l’élève sur la formation cible. Elles agissent comme une superposition qui peut être révisée si les relations changent.
-
