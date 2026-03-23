@@ -2,10 +2,10 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: f8481ce3794b5be72753f85349b28e520774c495
+source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
 workflow-type: tm+mt
 source-wordcount: '20175'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
