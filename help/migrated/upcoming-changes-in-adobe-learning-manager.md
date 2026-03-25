@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
+source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
 workflow-type: tm+mt
-source-wordcount: '20175'
+source-wordcount: '20997'
 ht-degree: 3%
 
 ---
@@ -2456,3 +2456,91 @@ Le système fait la distinction entre l&#39;achèvement réel et l&#39;achèveme
 * Si la relation entre la source et la cible est supprimée ou modifiée, ALM peut supprimer ou ajuster les autres finalisations sans toucher aux finalisations authentiques, à condition que les finalisations rétroactives soient activées pour le compte.
 
 Les autres achèvements sont conçus pour ne pas interférer avec l’activité réelle de l’élève sur la formation cible. Elles agissent comme une superposition qui peut être révisée si les relations changent.
+
+## Modifications apportées au rapport Relevés de notes de l’apprentissage dans cette version
+
+### Colonne Méthode d’achèvement
+
+La colonne Méthode d’achèvement indique comment chaque enregistrement du relevé de notes de l’élève de l’administrateur a été terminé.
+
+Valeurs :
+
+* Direct (pour les fins de production directes)
+* Variante (pour les réalisations obtenues via d&#39;autres relations)
+* Remplacement révoqué (lorsque toutes les autres déclarations de production sont révoquées en raison d&#39;une inachèvement rétroactive et de la suppression de la relation)
+
+>[!NOTE]
+>
+>Cette colonne n’est pas visible dans le LT de l’élève ; elle est uniquement disponible dans le LT de l’administrateur à des fins de reporting et de suivi.
+
+#### Impact
+
+Active des pistes d’audit claires, le suivi de la conformité et la transparence pour les administrateurs concernant la façon dont un cours a été terminé.
+
+### Autre suivi de l’achèvement dans les relevés de notes des élèves
+
+Les autres achèvements permettent aux élèves de recevoir un crédit d’achèvement pour un cours ou un parcours d’apprentissage cible lorsqu’ils ont terminé un cours ou un parcours source équivalent, en fonction des relations établies.
+
+Dans le relevé de notes de l’élève, les autres achèvements ont un impact sur trois colonnes existantes : statut, date d’achèvement et source d’achèvement :
+
+* **État** : l’état peut être Terminé même si l’élève n’a pas directement terminé le cours/parcours cible, en raison d’une autre achèvement. Les autres statuts (Non démarré, En cours, Non inscrit) ne sont pas affectés par les variantes. Seule la fonctionnalité Terminé est affectée par les alternatives.
+* **Date d’achèvement** : la date d’achèvement d’une variante d’achèvement est héritée du cours/chemin source qui a déclenché la variante d’achèvement. Si l’élève termine directement la cible ultérieurement, la date est mise à jour pour refléter l’achèvement direct.
+* **Source de l&#39;achèvement** : cette colonne capture les ID de formation du ou des cours ou parcours source qui ont fourni l&#39;autre achèvement. Si plusieurs sources sont actives, tous les ID pertinents sont répertoriés ; si les sources sont révoquées (avec l’option d’inachèvement rétroactif activée), seules les sources actives sont conservées. La colonne Source d’achèvement répertorie tous les ID de formation source actifs (séparés par des virgules). S’il existe plusieurs sources, la date d’achèvement la plus ancienne est utilisée.
+
+#### Impact
+
+Les autres achèvements réduisent le rapprochement manuel, automatisent le suivi de la progression dans les parcours d’apprentissage et les certifications, et prennent en charge les exigences de conformité.
+
+>[!NOTE]
+>
+>Les relevés de notes des élèves n’affichent pas la colonne Méthode d’achèvement ; elle est uniquement disponible dans le LT administrateur.
+
+### Logique de la date d&#39;achèvement pour les suppléants
+
+La colonne Date d’achèvement du relevé de notes de l’élève est un champ existant utilisé pour enregistrer le moment où un élève termine un cours ou un parcours d’apprentissage, que ce soit par des moyens directs ou alternatifs. Pour les autres achèvements, la date d&#39;achèvement est héritée du cours ou du chemin source qui a déclenché l&#39;autre achèvement. Cela signifie que la date reflète la date à laquelle l’élève a terminé la source, et non la cible.
+
+Si un élève termine ultérieurement le cours ou le parcours cible directement, la date d’achèvement est mise à jour à la date d’achèvement direct, en remplacement de la date d’achèvement secondaire précédente.
+
+Aucune nouvelle colonne n&#39;est ajoutée pour les autres dates de fin. La colonne Date de fin existante est utilisée pour les fins de production directes et alternatives. Dans les cas où plusieurs origines peuvent fournir une autre date d&#39;achèvement pour une cible, la date d&#39;achèvement alternative la plus ancienne parmi les origines est utilisée. Si une origine est révoquée (avec l&#39;option d&#39;inachèvement rétroactif activée), la date d&#39;achèvement est mise à jour vers l&#39;origine active la plus récente suivante ou est effacée s&#39;il ne reste aucune origine active.
+
+#### Impact
+
+La logique de la date d&#39;achèvement garantit un suivi historique précis et la cohérence des rapports, en particulier lorsque les autres déclarations de production sont révoquées ou mises à jour.
+
+### Autres déclarations de production révoquées
+
+Les autres achèvements révoqués se produisent lorsqu’un autre achèvement d’un élève pour un cours ou un parcours d’apprentissage cible est supprimé en raison de la révocation de toutes les relations sources, à condition que l’inachèvement rétroactif soit activé dans le compte.
+
+#### Conditions de déclenchement
+
+* L&#39;inachèvement rétroactif doit être activé pour le compte. Sinon, la suppression des relations source ne révoque pas les autres achèvements.
+* La révocation ne se produit que lorsque toutes les relations source actives d’une cible sont supprimées. S&#39;il reste au moins une source, l&#39;autre achèvement persiste et la colonne source d&#39;achèvement est mise à jour pour refléter uniquement les autres origines actives.
+
+#### Impact
+
+* Statut : si toutes les autres finalisations sont révoquées et qu&#39;il n&#39;y a pas d&#39;achèvement direct, le statut est mis à jour (par exemple, de Terminé à Non commencé ou En cours selon le cas).
+* Date d’achèvement : la date d’achèvement est effacée s’il ne reste aucune source active et que l’élève n’a pas directement terminé la cible.
+* Source d&#39;achèvement : La colonne Source d&#39;achèvement est mise à jour pour supprimer la ou les sources révoquées ; si toutes sont révoquées, elle est effacée.
+
+Si l’élève a une fin directe, la révocation des remplacements n’affecte pas le statut terminé ou la date d’achèvement.
+
+**Remarque** :
+
+1. Si plusieurs origines ont fourni une autre fin de production et que seules certaines sont révoquées, le LT reflète les origines actives restantes et leur date d&#39;achèvement la plus ancienne.
+2. Si toutes les sources sont révoquées et qu’il n’y a pas d’achèvement direct, l’élève perd l’état d’achèvement pour la cible.
+
+### Rapport amélioré pour les remarques des réviseurs de listes de contrôle
+
+Les commentaires des réviseurs des modules de liste de contrôle sont désormais inclus dans le rapport LT sous une colonne renommée Remarques du réviseur.
+
+#### Impact
+
+Les élèves et les administrateurs peuvent afficher des commentaires consolidés, améliorant la transparence et prenant en charge l’évaluation des performances.
+
+### Amélioration du calcul du temps d’apprentissage
+
+Le rapport LT utilise désormais une logique raffinée pour distinguer le temps actif et le temps inactif consacrés aux modules d’apprentissage, en fonction de l’activité de l’utilisateur et du focus de l’onglet.
+
+#### Impact
+
+Fournit une mesure plus précise des engagements d’apprentissage, prenant en charge la conformité et les analyses.
