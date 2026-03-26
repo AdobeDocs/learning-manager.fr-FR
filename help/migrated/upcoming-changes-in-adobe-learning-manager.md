@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
+source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
 workflow-type: tm+mt
-source-wordcount: '20997'
+source-wordcount: '20223'
 ht-degree: 3%
 
 ---
@@ -366,78 +366,6 @@ La présence de dates d’expiration dans l’API LO permet aux créateurs d’e
 
 * Créez des campagnes « Dernière chance de terminer ».
 
-## Prise en charge multilingue des assistances à la tâche
-
-### Présentation
-
-L’amélioration étend le modèle de localisation de Adobe Learning Manager aux assistances à la tâche, ce qui permet aux auteurs de joindre différents fichiers de contenu par langue à une seule assistance à la tâche. Au lieu de créer des assistances à la tâche distinctes pour chaque langue, les auteurs peuvent désormais gérer toutes les versions localisées comme une seule assistance à la tâche logique.
-
-### Nouveautés
-
-#### Chargement de contenu spécifique à la langue pour les assistances à la tâche
-
-Les auteurs peuvent joindre différents fichiers par langue prise en charge à une seule assistance à la tâche, comme des cours et d’autres objets d’apprentissage.
-
-L’expérience de création/modification d’assistance à la tâche prend désormais en charge :
-
-* Sélection d’une langue.
-
-* Téléchargement du fichier spécifique à la langue dans la même entité d&#39;assistance à la tâche.
-
-#### Gestion cohérente des langues dans l’interface utilisateur du lecteur et de l’élève
-
-Le lecteur Fluidic a été mis à jour de sorte que lorsqu’un élève ouvre une assistance à la tâche, la variante de contenu correspondant à sa langue s’affiche (le cas échéant).
-
-Les administrateurs et les auteurs peuvent afficher les assistances à la tâche sous la forme d’objets uniques avec des variantes de langue, plutôt que sous la forme d’éléments distincts par langue.
-
-### Principaux avantages
-
-#### Assistance à la tâche unique pour toutes les langues
-
-Les auteurs peuvent éviter de créer des assistances à la tâche distinctes par langue.
-
-Toutes les variantes linguistiques d’une même assistance à la tâche (par exemple, une procédure, une procédure standard, un PDF de liste de contrôle ou un guide de référence) peuvent être gérées en un seul endroit.
-
-#### Meilleure expérience pour les élèves du monde entier
-
-Les élèves voient automatiquement l’assistance à la tâche dans leur langue préférée, ce qui signifie qu’il y a :
-
-* Moins de confusion sur la version à ouvrir.
-
-* Moins de risques d’accès aux copies hors paramètres régionaux ou obsolètes.
-
-Ceci est particulièrement utile dans les organisations multilingues où le même processus ou la même documentation produit doit être disponible dans plusieurs langues.
-
-### Cas d’utilisation
-
-#### Déploiement global du contenu de référence
-
-Une entreprise doit fournir des assistances à la tâche dans plusieurs langues aux élèves du monde entier, telles que :
-
-* Feuilles de référence des produits.
-
-* Traiter les listes de contrôle.
-
-* Prise en charge des playbooks
-
-Au lieu de créer des assistances à la tâche distinctes comme « Product Quick Start - EN », « Product Quick Start - DE », « Product Quick Start - JP », etc., ils peuvent créer une assistance à la tâche, joindre des fichiers localisés pour chaque langue et laisser ALM fournir la version correcte à chaque élève en fonction des paramètres linguistiques.
-
-#### Documentation destinée aux clients ou aux partenaires sur plusieurs marchés
-
-Pour les académies clients et partenaires, les assistances à la tâche peuvent inclure :
-
-* Fiche technique du produit
-
-* Guides d’intégration
-
-* Workflows de support
-
-Avec les assistances à la tâche multilingues :
-
-* Chaque partenaire voit la version localisée sans être obligé de choisir entre des entrées spécifiques à la langue.
-
-* Les équipes marketing et d’activation peuvent gérer une assistance à la tâche par sujet dans toutes les langues.
-
 ## Définir une restriction sur l&#39;heure de début du module
 
 ### Présentation
@@ -560,60 +488,6 @@ Cela permet d’analyser les performances globales et les performances spécifiq
 * **Observations de sécurité et de conformité** : dans le secteur de la santé, de la fabrication ou de l&#39;assistance sur site, les étapes de sécurité critiques peuvent obtenir des scores maximaux plus élevés, ce qui garantit que le fait de ne pas effectuer une action critique de sécurité a un impact plus important sur le score total que le fait de ne pas effectuer une étape procédurale mineure.
 
 * **Coaching et étalonnage** : avec des scores max. et réalisés par question dans le rapport, les responsables peuvent voir exactement où les élèves sous-performent et calibrer les instructeurs sur la façon d&#39;obtenir des scores cohérents.
-
-## Prise en charge multilingue des questions de liste de contrôle
-
-### Présentation
-
-L&#39;amélioration introduit la prise en charge multilingue des questions de liste de contrôle, permettant aux réviseurs d&#39;évaluer et de noter les listes de contrôle dans leur langue préférée. Cette fonctionnalité est particulièrement utile dans les régions multilingues et les déploiements mondiaux, car elle permet aux auteurs de créer des questions de liste de contrôle localisées pour chaque langue de contenu prise en charge tout en conservant un module de liste de contrôle unique et un processus d’évaluation cohérent.
-
-Dans Adobe Learning Manager aujourd’hui :
-
-* Tous les modules destinés aux élèves (SCORM, PDF, HTML, etc.) peuvent être fournis dans plusieurs langues de contenu, ce qui permet aux élèves de choisir la langue de leur choix.
-
-* Dans un module de liste de contrôle, les réviseurs (instructeurs/responsables) évaluent les élèves en fonction des questions définies dans cette liste de contrôle.
-
-### Nouveautés
-
-**Création**
-
-* Les auteurs peuvent désormais ajouter des questions de liste de contrôle dans toutes les langues sélectionnées au niveau du cours.
-
-* Pour chaque liste de contrôle :
-
-   * L’auteur doit fournir un texte de question équivalent dans chaque langue de contenu dans laquelle le cours existe.
-
-   * Il incombe aux auteurs de veiller à ce que la signification de chaque question soit cohérente dans toutes les langues.
-
-**Expérience de révision**
-
-* Les réviseurs verront les questions de liste de contrôle et l’interface utilisateur d’évaluation dans la langue de contenu sélectionnée.
-
-* Lorsqu’une question est évaluée dans une langue :
-
-   * L&#39;évaluation (score, Oui/Non, statut) est logiquement la même dans toutes les langues. Il s’agit d’une seule liste de contrôle avec plusieurs vues linguistiques, et non de listes de contrôle distinctes par langue.
-
-**Rapports**
-
-Le rapport Liste de contrôle affiche le texte de la question dans la langue du contenu de l’utilisateur :
-
-* Un administrateur ou un réviseur exécutant le rapport dans chaque langue voit les noms de questions localisés pour cette langue.
-
-* Les réponses sous-jacentes et les scores restent les mêmes ; seuls les libellés de question sont traduits.
-
-### Principaux avantages
-
-* **Meilleure expérience du réviseur** : les réviseurs peuvent travailler entièrement dans leur propre langue, en lisant les questions et en enregistrant les évaluations sans barrières linguistiques.
-
-* **Alignement de la réglementation et des politiques** : dans les régions où les exigences en matière d’égalité linguistique sont respectées (par exemple, le néerlandais/français en Belgique), les listes de contrôle peuvent désormais répondre aux mêmes normes que les autres supports d’apprentissage, ce qui réduit le risque de non-conformité.
-
-* **Logique d&#39;évaluation cohérente** : bien que le texte soit localisé, l&#39;évaluation et la notation sont partagées dans toutes les langues, ce qui garantit que les résultats sont comparables et gérés de manière centralisée.
-
-### Cas d’utilisation
-
-* Les franchises multinationales qui fonctionnent dans plusieurs langues peuvent déployer un seul cours et une seule liste de contrôle tout en offrant des expériences d’examinateurs localisées dans chaque territoire.
-
-* Toute entreprise internationale disposant d’instructeurs locaux (par exemple, EMEA, LATAM, APAC) peut demander aux réviseurs de travailler dans leur langue locale tout en partageant la même conception de liste de contrôle globale et la même génération de rapports.
 
 ## Liste de contrôle avec possibilité de commentaire pour le réviseur
 
