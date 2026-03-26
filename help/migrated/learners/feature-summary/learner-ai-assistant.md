@@ -3,9 +3,9 @@ description: Obtenez des réponses rapides et précises de votre contenu d’app
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
+source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ L’assistant AI est un compagnon de chat alimenté par l’IA générative dans
 
 - **Contrôles administrateur**
    - Activer ou désactiver la fonctionnalité au niveau du compte
-   - Contrôler l’accès par groupes d’utilisateurs
    - Sélectionner les catalogues inclus pour les réponses de l’IA
    - Exigences d’acceptation des Conditions d’utilisation conformément aux directives d’Adobe AI
 
@@ -148,32 +147,30 @@ Les organisations peuvent personnaliser les invites intégrées pour qu’elles 
 
 ![Assistant Élève compatible IA](assets/learner-ai-assistant-new.png)
 
-Les administrateurs sélectionnent les groupes d&#39;utilisateurs et les catalogues **internes** qui peuvent accéder à la fonctionnalité de l&#39;Assistant IA. Assurez-vous que les catalogues que vous attribuez incluent uniquement le contenu d&#39;apprentissage approprié pour les réponses et les citations de l&#39;IA, et que ces catalogues sont **internes** (et non **partagés**, **acquis** ou **externes**).
+Les administrateurs sélectionnent les catalogues **internes** qui peuvent accéder à la fonctionnalité de l&#39;Assistant IA. Assurez-vous que les catalogues que vous attribuez incluent uniquement le contenu d&#39;apprentissage approprié pour les réponses et les citations de l&#39;IA, et que ces catalogues sont **internes** (et non **partagés**, **acquis** ou **externes**).
 
-Avant de configurer l’assistant AI, vérifiez que vous disposez d’informations d’identification d’administrateur et que vous avez identifié les groupes d’utilisateurs et les catalogues auxquels ils doivent avoir accès.
+Avant de configurer l’assistant AI, vérifiez que vous disposez d’informations d’identification d’administrateur et que les catalogues identifiés doivent avoir accès.
 
 ### Configuration de l’accès à l’assistant AI
 
 Pour activer l’assistant d’IA dédiée aux élèves :
 
-1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+&#x200B;1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
 
-2. Sélectionnez **Paramètres** dans la page d&#39;accueil.
-   ![Console Administrateur avec l&#39;option Paramètres dans le volet de gauche](assets/settings-menu.png)
+&#x200B;2. Sélectionnez **Paramètres** dans la page d&#39;accueil.
+![Console d&#39;administration avec l&#39;option Paramètres dans le volet de gauche](assets/settings-menu.png)
 
-3. Sélectionnez **Learner AI Assistant (Beta)** dans le menu **Paramètres**.
-   ![La console Administrateur affiche l&#39;option Assistant IA de l&#39;élève dans le volet de gauche](assets/learner-assistant-ai-beta.png)
+&#x200B;3. Sélectionnez **Learner AI Assistant (Beta)** dans le menu **Paramètres**.
+![La console Administrateur affiche l&#39;option Assistant IA de l&#39;élève dans le volet de gauche](assets/learner-assistant-ai-beta.png)
 
-4. Sélectionnez le bouton à bascule pour activer l&#39;**assistant Learner AI (Beta)**.
-   ![La console Administrateurs affiche le bouton à bascule activé pour l&#39;Assistant Élève IA](assets/learner-assistant-toggle.png)
+&#x200B;4. Sélectionnez le bouton à bascule pour activer l&#39;**assistant Learner AI (Beta)**.
+<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+<!--5. Select one or more user groups from the **Eligible user groups** option.-->
+<!--5. Select **Save** to apply the user group settings.-->
 
-5. Sélectionnez un ou plusieurs groupes d&#39;utilisateurs dans l&#39;option **Groupes d&#39;utilisateurs éligibles**.
+&#x200B;5. Sélectionnez un ou plusieurs catalogues dans l&#39;option **Catalogues éligibles**.
 
-6. Sélectionnez **Enregistrer** pour appliquer les paramètres du groupe d&#39;utilisateurs.
-
-7. Sélectionnez un ou plusieurs catalogues dans l&#39;option **Catalogues éligibles**.
-
-8. Sélectionnez **Enregistrer** pour appliquer les paramètres du catalogue.
+&#x200B;6. Sélectionnez **Enregistrer** pour appliquer les paramètres du catalogue.
 
 >[!IMPORTANT]
 >
