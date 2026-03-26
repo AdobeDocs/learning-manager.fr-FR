@@ -2,7 +2,7 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 68%
@@ -36,8 +36,7 @@ ht-degree: 68%
    * [Langues prises en charge dans Adobe Learning Manager](/help/migrated/languages-supported.md)
    * [Dépréciations et modifications d’API dans Adobe Learning Manager](api-deprecations-list.md)
    * [Recommandations dans Adobe Learning Manager](recommendations-adobe-learning-manager.md)
-   * [Anticrènelage dans Adobe Learning Manager](white-label.md)
-   * [Documentation sur les API d’interaction avec le lecteur intégré](/help/migrated/embedded-player-interaction.md)
+   * [Whitelabelling dans Adobe Learning Manager](white-label.md)
 * Prise en main {#get-started}
    * [Prise en main en tant qu’administrateur](administrators/feature-summary/getting-started-admin.md)
    * [Prise en main en tant qu’auteur](authors/feature-summary/getting-started-author.md)
@@ -135,6 +134,7 @@ ht-degree: 68%
    * [Application Learning Manager pour Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Paramètres](integration-admin/feature-summary/settings.md)
    * [Gérer des rôles personnalisés via les fichiers CSV](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [Documentation sur les API d’interaction avec le lecteur intégré](/help/migrated/embedded-player-interaction.md)
 * Auteurs {#authors}
    * [Connexion utilisateur](authors/feature-summary/user-login.md)
    * [Bibliothèque de contenu](authors/feature-summary/content-library.md)
