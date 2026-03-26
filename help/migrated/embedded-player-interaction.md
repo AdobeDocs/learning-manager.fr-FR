@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Documentation sur les API d’interaction avec le lecteur intégré
-description: Découvrez les différentes API permettant d’écouter des événements et de déclencher des actions dans le lecteur intégré
+description: Découvrez les différentes API permettant d’écouter des événements et de déclencher des actions dans le lecteur intégré de Adobe Learning Manager
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 3d183dc40e4d1962d25160b74d8cf6cfa26e3171
+source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 69%
+source-wordcount: '849'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,7 @@ Pour charger la bibliothèque, procédez comme suit :
 >
 >Si vous n&#39;utilisez pas prod US, définissez les paramètres cpPlayerLib.env et cpPlayerLib.sourceOrigin en fonction de votre env.
 
-Les valeurs par défaut sont :
+Voici les valeurs par défaut :
 
 * window.cpPlayerLib.env = [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player);
 * window.cpPlayerLib.sourceOrigin = &quot;[https://cpcontents.adobe.com](https://cpcontents.adobe.com/)&quot;;
@@ -282,7 +282,7 @@ La bibliothèque cpPlayerLib comporte les fonctions suivantes :
 </tr>
 <tr>
 <td>Exemple de code</td>
-<td>playerObj.changeLanguage("es")</td>
+<td>playerObj.changeLanguage(« es »)</td>
 </tr>
 </tbody>
 </table>
