@@ -19,7 +19,7 @@ Lisez cet article pour découvrir comment intégrer le lecteur Fluidic dans une 
 
 En tant qu’entreprise, vous pouvez désormais proposer une expérience personnalisée à vos élèves même en dehors de Learning Manager. À l’aide de l’API publique, vous pouvez récupérer toutes les informations liées aux objets d’apprentissage, aux inscriptions des élèves et à la progression de l’apprentissage et les afficher sur votre site Web. Vous pouvez même intégrer le lecteur Fluidic de Learning Manager à votre site Web afin que l’élève puisse utiliser le contenu directement sur votre site Web. Le lecteur Fluidic vous permet de lire n’importe quel contenu pris en charge par Learning Manager. Il possède les mêmes fonctionnalités qu’il soit intégré à votre site Web ou utilisé dans Learning Manager.
 
-**Lire n’importe quel contenu de formation en ligne[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Lire n’importe quel contenu de formation en ligne[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Le lecteur Fluidic lit pratiquement n’importe quel type de contenu d’apprentissage en ligne d’une manière également cohérente et intuitive sans nécessiter de plug-ins ou de téléchargements. L’élève peut lancer le contenu, dont la lecture commence quel que soit le type de fichier de contenu.
 
@@ -78,8 +78,8 @@ client_id= <application_id>
 Ici, **[!UICONTROL client id]** est l&#39;identifiant de l&#39;application obtenu à l&#39;étape 1.
 **[!UICONTROL redirect_url]** est l&#39;url_redirect définie à l&#39;étape 1.
 **[!UICONTROL state]** est une donnée fictive basée sur laquelle nous devons filtrer l&#39;URL de redirection pour obtenir le code OAuth. Scope est le rôle d’élève défini à l’étape 1.
-**[!UICONTROL response_typ]**e est toujours « CODE ».\
-**[!UICONTROL compte]**est un champ facultatif\
+**[!UICONTROL response_typ]**&#x200B;e est toujours « CODE ».\
+**[!UICONTROL compte]**&#x200B;est un champ facultatif\
 **[!UICONTROL e-mail]** est un champ facultatif\
 &#42; Si l&#39;ID de compte et l&#39;adresse électronique sont fournis, l&#39;URL ci-dessus permettra à l&#39;utilisateur de se connecter au même compte. Cet exemple de point de terminaison est décrit dans le fichier « index.html » dans l’exemple d’application.
 
