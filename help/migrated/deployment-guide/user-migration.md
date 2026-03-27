@@ -1,12 +1,13 @@
 ---
+description: Définir et configurer un système d’identité par rapport auquel vos utilisateurs finaux seront authentifiés.
 jcr-language: en_us
 title: Guide de déploiement de Learning Manager - Section 2
 contentowner: sanm
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
 workflow-type: tm+mt
-source-wordcount: '2232'
-ht-degree: 59%
+source-wordcount: '2257'
+ht-degree: 63%
 
 ---
 
@@ -22,30 +23,30 @@ La configuration technique de votre compte Learning Manager est principalement r
 
 En tant qu’administrateur système sur l’Admin Console, l’une de vos premières tâches consiste à définir et à configurer un système d’identité à partir duquel vos utilisateurs finaux seront authentifiés. À mesure que votre organisation achète des licences pour Learning Manager, vous devrez les provisionner pour vos utilisateurs finaux. Pour ce faire, vous devrez trouver un moyen d’authentifier ces utilisateurs. Effectuez la procédure suivante pour configurer l’authentification unique pour vos utilisateurs.
 
-1. Dans la page d’accueil de Learning Manager, cliquez sur **[!UICONTROL **&#x200B; Paramètres &#x200B;**>**&#x200B; Méthodes de connexion &#x200B;**.]**
+1. Dans la page d’accueil de Learning Manager, cliquez sur **[!UICONTROL ** Paramètres **>** Méthodes de connexion **.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. Selon votre type d&#39;utilisateur, sélectionnez **[!UICONTROL **&#x200B; Utilisateurs internes &#x200B;** ou **&#x200B; Utilisateurs externes &#x200B;**.]**
+1. Selon votre type d&#39;utilisateur, sélectionnez **[!UICONTROL ** Utilisateurs internes **ou** Utilisateurs externes **.]**
 
 
 
-1. Dans le champ déroulant **[!UICONTROL **Connexion**]**, sélectionnez **[!UICONTROL **&#x200B; Authentification unique &#x200B;**.]**
+1. Dans le champ déroulant **[!UICONTROL ** Connexion **]**, sélectionnez **[!UICONTROL **Authentification unique**.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. Pour configurer les paramètres d&#39;authentification unique, cliquez sur **[!UICONTROL **&#x200B; Modifier &#x200B;**.]**
+1. Pour configurer les paramètres d&#39;authentification unique, cliquez sur **[!UICONTROL ** Modifier **.]**
 
    ![](assets/configure-sso-step4.png)
 
-1. Dans le champ **&#x200B;**&#x200B;[!UICONTROL URL d&#39;authentification initiée par le fournisseur d&#39;identités]&#x200B;**&#x200B;**, entrez l&#39;URL d&#39;authentification donnée par votre fournisseur de services.
+1. Dans le champ ****[!UICONTROL URL d&#39;authentification initiée par le fournisseur d&#39;identités]****, entrez l&#39;URL d&#39;authentification donnée par votre fournisseur de services.
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. Cliquez sur **[!UICONTROL **Charger &#x200B;**]&#x200B;**en regard du champ**&#x200B;[!UICONTROL &#x200B; **Fichier XML de métadonnées IDP &#x200B;**]&#x200B;**&#x200B;**&#x200B;**et chargez votre fichier XML.
-1. Cliquez sur **[!UICONTROL **&#x200B; Enregistrer &#x200B;**.]**
+1. Cliquez sur **[!UICONTROL ** Charger **]** en regard du champ **[!UICONTROL **Fichier XML de métadonnées IDP **]******et chargez votre fichier XML.
+1. Cliquez sur **[!UICONTROL ** Enregistrer **.]**
 1. L’authentification SSO est correctement configurée pour votre compte. Vous devriez être en mesure de vous connecter à votre compte Learning Manager à l’aide de l’authentification unique.
 
    ***L’authentification unique que vous configurez dans Learning Manager doit prendre en charge SAML 2.0.***
@@ -79,7 +80,7 @@ Avant de commencer le processus de migration, vous devez effectuer les prérequi
 
 
 
-***Il est recommandé aux administrateurs d’essayer le processus de migration dans un compte d’évaluation avant de migrer les données et le contenu dans l’environnement de production Learning Manager. &#x200B;***
+***Il est recommandé aux administrateurs d’essayer le processus de migration dans un compte d’évaluation avant de migrer les données et le contenu dans l’environnement de production Learning Manager. ***
 
 ### Évaluation et exportation des données {#evaluatingandexportingdata}
 
@@ -118,10 +119,10 @@ Assurez-vous que chaque fichier .csv contient les données de chaque champ au fo
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>N°</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>Non.</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Nom de la feuille Excel</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Description du contenu</strong></p></th> 
-   <th width="31%" valign="top"><p><strong>Notes</strong></p></th> 
+   <th width="31%" valign="top"><p><strong>Annotations</strong></p></th> 
   </tr> 
   <tr> 
    <td><p>1</p></td> 
@@ -272,7 +273,7 @@ Avant de planifier et de commencer la migration réelle de tout le contenu, vous
 
 ### Configuration d’un compte FTP {#setupanftpaccount}
 
-Dans la page d&#39;accueil de l&#39;administrateur d&#39;intégration, cliquez sur **[!UICONTROL **&#x200B; Demander un dossier FTP CSV &#x200B;**.]** Dans la boîte de dialogue contextuelle qui s’affiche, entrez votre ID de messagerie. Accédez à l’assistant en ligne pour créer le compte FTP Exavault. Dès que vous avez créé votre compte, vous pouvez afficher vos dossiers de projet de migration et de sprint sur le FTP Exavault.
+Dans la page d&#39;accueil de l&#39;administrateur d&#39;intégration, cliquez sur **[!UICONTROL ** Demander un dossier FTP CSV **.]** Dans la boîte de dialogue contextuelle qui s’affiche, entrez votre ID de messagerie. Accédez à l’assistant en ligne pour créer le compte FTP Exavault. Dès que vous avez créé votre compte, vous pouvez afficher les dossiers de votre projet de migration et des sprints associés sur le FTP ExaVault.
 
 Consultez un exemple d’instantané des fichiers de projet et du dossier d’ExaVault, comme illustré ici :
 
@@ -290,9 +291,9 @@ Dans la section Configuration, cliquez sur Demander un dossier Box.
 
 ![](assets/set-up-a-box-account.png)
 
-Dans le champ **&#x200B;**&#x200B;[!UICONTROL Entrer l’adresse électronique]&#x200B;**&#x200B;**, entrez l’ID de messagerie dans lequel vous souhaitez recevoir les instructions de connexion pour vous connecter à Box.
+Dans le champ ****[!UICONTROL Entrer l’adresse électronique]****, entrez l’ID de messagerie dans lequel vous souhaitez recevoir les instructions de connexion pour vous connecter à Box.
 
-Cliquez sur **[!UICONTROL **&#x200B; Se connecter &#x200B;**.]**
+Cliquez sur **[!UICONTROL ** Se connecter **.]**
 
 Vous recevrez un courrier électronique depuis Box contenant un lien vers le dossier partagé. Si vous n’avez pas de compte Box, cliquez sur S’inscrire et créez un compte. Les instructions de connexion sont ensuite envoyées à l’ID de messagerie de l’administrateur d’intégration.
 
@@ -300,7 +301,7 @@ Après avoir enregistré la connexion, la page de migration affiche le message s
 
 ## Migration du contenu vers Learning Manager {#migratingthecontenttocaptivateprime}
 
-Avant de commencer la migration, il est important de noter les points suivants :
+Avant de débuter la migration, il est important de noter les points suivants :
 
 * Un compte ne peut contenir qu’un seul projet de migration actif à un moment donné. Un compte ne peut contenir qu’un seul sprint actif dans un projet à un moment donné.
 * Vous ne pouvez pas annuler une exécution faisant déjà partie du processus de Vous pouvez néanmoins utiliser l’option Supprimer existante dans chaque fonctionnalité de Learning Manager pour annuler la migration des données et du contenu.
@@ -313,11 +314,11 @@ Dans la page d’accueil de l’administrateur d’intégration, cliquez sur **[
 
 Dans la page d’accueil de la migration, le système affiche les projets de migration déjà créés dans votre entreprise.
 
-Cliquez sur **[!UICONTROL **Nouveau**]**&#x200B;dans le coin supérieur droit de la page, pour créer un projet de migration.
+Cliquez sur **[!UICONTROL **Nouveau**]**dans le coin supérieur droit de la page, pour créer un projet de migration.
 
-***Si vous n’avez pas encore créé de dossier FTP, vous serez invité à créer un compte Exavault pour le dossier FTP. Cette étape est obligatoire avant de commencer à créer un projet de migration. &#x200B;***
+***Si vous n’avez pas encore créé de dossier FTP, vous serez invité à créer un compte Exavault pour le dossier FTP. Il s’agit d’une étape obligatoire avant de commencer à créer le projet de migration. ***
 
-Dans la page **&#x200B;**&#x200B;[!UICONTROL Créer un projet de migration]&#x200B;**&#x200B;**, indiquez le nom de votre projet.
+Dans la page ****[!UICONTROL Créer un projet de migration]****, indiquez le nom de votre projet.
 
 ![](assets/migrating-the-content-1.png)
 
@@ -325,23 +326,23 @@ Spécifiez une balise pour votre projet, le catalogue de cours et fournissez une
 
 Cliquez sur **[!UICONTROL Créer.]**
 
-Dans la page Configuration du sprint, créez un sprint pour votre projet de migration. Un sprint, dans le processus de migration de Learning Manager, définit un ensemble d’éléments de migration que vous avez choisi de migrer à partir du LMS existant.
+Dans la page Configuration du sprint, créez un sprint pour votre projet de migration. Dans le processus de migration de Learning Manager, un sprint correspond à un ensemble d’éléments de migration que vous souhaitez migrer depuis le LMS existant.
 
 ![](assets/migrating-the-content-2.png)
 
 Spécifiez un nom pour le sprint et fournissez une description pour le sprint.
 
-Cochez la case **&#x200B;**&#x200B;[!UICONTROL Des utilisateurs ont été ajoutés ou modifiés depuis la dernière exécution]&#x200B;**&#x200B;** pour synchroniser la liste d&#39;utilisateurs avec l&#39;application Learning Manager. Si vous migrez du contenu et des données dans l’application Learning Manager, cette étape n’est pas obligatoire. Toutefois, si un laps de temps s’est écoulé entre votre dernière migration de sprint et la plus récente, il est recommandé de synchroniser la liste des utilisateurs. Cette étape permet à la base de données Learning Manager d’être synchronisée avec les utilisateurs de votre LMS.
+Cochez la case ****[!UICONTROL Des utilisateurs ont été ajoutés ou modifiés depuis la dernière exécution]**** pour synchroniser la liste d&#39;utilisateurs avec l&#39;application Learning Manager. Si vous migrez du contenu et des données dans l’application Learning Manager, cette étape n’est pas obligatoire. Toutefois, si un laps de temps s’est écoulé entre votre dernière migration de sprint et la plus récente, il est recommandé de synchroniser la liste des utilisateurs. Cette étape permet à la base de données de Learning Manager d’être synchronisée avec les utilisateurs de votre LMS.
 
 ***L’étape de synchronisation est recommandée lors de la migration des fichiers enrollment.csv et user_course_grade.csv. Cette étape permet à la base de données Learning Manager d&#39;être synchronisée avec votre base de données de migration et garantit que tous les utilisateurs dont les enregistrements doivent être migrés dans le sprint sont disponibles dans la base de données de migration.***
 
-Cliquez sur **[!UICONTROL **&#x200B; Suivant &#x200B;**.]**
+Cliquez sur **[!UICONTROL ** Suivant **.]**
 
-Cliquez sur **[!UICONTROL **Démarrer**]&#x200B;**pour lancer la migration Sprint avec vos données et votre contenu chargés. Cliquez sur &#x200B;**&#x200B;**[!UICONTROL Actualiser]**&#x200B;** avant de lancer l’exécution du sprint pour synchroniser le FTP et les dossiers de contenu avec Learning Manager.
+Cliquez sur **[!UICONTROL **Démarrer**]**pour lancer la migration Sprint avec vos données et votre contenu chargés. Cliquez sur ****[!UICONTROL Actualiser]**** avant de lancer l’exécution du sprint pour synchroniser le FTP et les dossiers de contenu avec Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-Vous pouvez cliquer sur **&#x200B;**&#x200B;[!UICONTROL Arrêter]&#x200B;**&#x200B;**&#x200B;à tout moment au cours du processus de migration de sprint pour abandonner la migration de sprint.
+Vous pouvez cliquer sur ****[!UICONTROL Arrêter]****à tout moment au cours du processus de migration de sprint pour abandonner la migration de sprint.
 
 Le système affiche l’état de la migration par rapport à chacun des éléments de données sprint et de leur contenu. Vérifiez le nombre d’éléments ayant réussi et échoué dans le cadre de l’exécution du sprint de migration.
 
@@ -351,13 +352,13 @@ Un exemple de capture d’écran de la boîte de dialogue de progression est fou
 
 ![](assets/migrating-the-content-4.png)
 
-Pour afficher la liste de tous les sprints d&#39;un projet de migration, cliquez sur **[!UICONTROL **Sprint**]**&#x200B;dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
+Pour afficher la liste de tous les sprints d&#39;un projet de migration, cliquez sur **[!UICONTROL **Sprint**]**dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
 
 ![](assets/migrating-the-content-5.png)
 
-Pour afficher la liste de tous les sprints d&#39;un projet de migration, cliquez sur **[!UICONTROL **Sprint**]**&#x200B;dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
+Pour afficher la liste de tous les sprints d&#39;un projet de migration, cliquez sur **[!UICONTROL **Sprint**]**dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
 
-Pour afficher la liste de tous les sprints d&#39;un projet de migration, cliquez sur **[!UICONTROL **Sprint**]**&#x200B;dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
+Pour afficher la liste de tous les sprints d&#39;un projet de migration, cliquez sur **[!UICONTROL **Sprint**]**dans le volet de navigation de gauche. Vous pouvez afficher la liste de tous les sprints, le nombre d’exécutions pour chaque sprint, la date de début, la durée et l’état d’achèvement, comme le montre la capture d’écran ci-dessous.
 
 ***Avant de marquer le projet de migration comme terminé, assurez-vous que tous les sprints du projet sont terminés. Une fois que vous avez marqué le projet de migration comme terminé, vous ne pouvez pas revenir en arrière et créer des sprints dans ce projet. Vous ne pouvez pas apporter de modifications à ce projet. Vous pouvez uniquement créer un autre projet de migration et y ajouter des sprints.***
 
