@@ -2,9 +2,9 @@
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 description: Découvrez les nouvelles fonctionnalités, améliorations et mises à jour importantes de la version d’avril 2026 de Adobe Learning Manager.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
+source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
 workflow-type: tm+mt
-source-wordcount: '20223'
+source-wordcount: '20354'
 ht-degree: 3%
 
 ---
@@ -1430,7 +1430,7 @@ En d’autres termes, les recommandations connectées les aident à décider de 
 
 Sur l&#39;**interface utilisateur**, les assistances à la tâche participent à des expériences non connectées, principalement via les widgets qui peuvent afficher des objets d&#39;apprentissage :
 
-1. **Widget Cours et parcours**
+1. Widget **Cours et parcours**
 Ce widget peut afficher plusieurs types d’objet d’apprentissage, y compris des assistances à la tâche. Dans les pages non connectées, vous pouvez le configurer pour :
    1. Inclure ou exclure explicitement les assistances à la tâche.
    2. Filtrez les assistances à la tâche par catalogue, produit, rôle, étiquettes, balises et autres métadonnées.
@@ -1442,14 +1442,14 @@ Par exemple, sur une page de destination publique, vous pouvez configurer une ba
 Les surfaces **catalogue** et **recherche** non connectées utilisent l&#39;index de recherche publique (alimenté par le connecteur Training Data Access). Cet index prend désormais correctement en charge les assistances à la tâche.
    1. Les résultats de recherche hors connexion peuvent inclure des assistances à la tâche.
    2. Filtres de catalogue non connectés (par type, produit, balises, etc.) peut inclure des assistances à la tâche tant que la configuration de votre compte et les widgets sont configurés pour les afficher.
-2. **Pages de présentation LO**
+2. Pages de présentation **LO**
 Lorsqu&#39;un visiteur clique sur une assistance à la tâche à partir d&#39;un widget ou du catalogue, il accède à une **page de présentation LO** pour cette assistance à la tâche en mode non connecté. De là, ils peuvent lire sa description et ses métadonnées. Le téléchargement ou la consommation réels nécessitent généralement toujours une connexion, mais la présence et la découvrabilité de l&#39;assistance à la tâche elle-même sont gérées par l&#39;expérience hors connexion.
 
 ### Affichage des assistances à la tâche via des API non connectées
 
 Du côté **API**, les assistances à la tâche sont prises en charge par :
 
-1. **Connecteur Training Data Access et recherche publique**
+1. Connecteur d&#39;accès aux données de formation **et recherche publique**
 TDA exporte les métadonnées des assistances à la tâche ainsi que d’autres types d’objet d’apprentissage vers l’index de recherche public qui sert aux requêtes de recherche et de catalogue non connectées. C’est ce sur quoi reposent Experience Builder et les frontends sans tête.
 2. La liste **Objets d’apprentissage avec effectiveModifiedDate**
 Dans cette version, le point de terminaison de liste LO a été corrigé afin que les assistances à la tâche fonctionnent correctement avec le filtre effectiveModifiedDate. Vous pouvez désormais appeler :
@@ -2405,11 +2405,27 @@ Si l’élève a une fin directe, la révocation des remplacements n’affecte p
 
 ### Rapport amélioré pour les remarques des réviseurs de listes de contrôle
 
-Les commentaires des réviseurs des modules de liste de contrôle sont désormais inclus dans le rapport LT sous une colonne renommée Remarques du réviseur.
+Les commentaires des réviseurs des modules de liste de contrôle sont désormais inclus dans les relevés de notes des élèves (LT) sous une colonne renommée : **Remarques du réviseur** (auparavant Commentaire d&#39;envoi).
 
 #### Impact
 
-Les élèves et les administrateurs peuvent afficher des commentaires consolidés, améliorant la transparence et prenant en charge l’évaluation des performances.
+Les élèves et les administrateurs peuvent afficher les commentaires des réviseurs consolidés et clairement étiquetés dans les exportations LT (IU, API de tâche et connecteurs), ce qui améliore la transparence, l’auditabilité et prend en charge une évaluation et un coaching des performances plus précis.
+
+#### Quels sont les changements apportés
+
+**Colonnes renommées**
+
+| Zone | Ancien nom de colonne | Nom de la nouvelle colonne | Annotations |
+| --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
+| Relevés de notes des élèves (administrateur) | Commentaire de soumission | Remarques de l’évaluateur | S’applique à toutes les sources LT d’administration : interface utilisateur, API de tâche, connecteurs, le cas échéant. |
+
+Cette modification s’applique uniformément à toutes les sources LT d’administration (exportations d’interface utilisateur, rapports d’API de tâche et exportations basées sur un connecteur, le cas échéant). LT exporté par connecteur affichera les remarques du réviseur dans une colonne dédiée à la fin (pour les connecteurs qui n’exposaient pas précédemment le commentaire de soumission), ce qui garantit que les intégrations en aval peuvent distinguer le retour du réviseur des autres commentaires.
+
+>[!NOTE]
+>
+>Pour les relevés de notes des élèves, la colonne précédemment intitulée « Commentaire de soumission » est désormais renommée « Remarques du réviseur » et remplie avec le commentaire du réviseur de la liste de contrôle lorsqu’elle est activée.
+
+
 
 ### Amélioration du calcul du temps d’apprentissage
 
