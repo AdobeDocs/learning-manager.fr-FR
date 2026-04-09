@@ -1,11 +1,11 @@
 ---
 title: Transition depuis Adobe FTP Manager
-description: Adobe Learning Manager prend en charge un nouveau connecteur utilisant le protocole SFTP de la famille de transfert AWS. Vous pouvez remplacer n’importe quel client FTP open source par Adobe FTP Manager.
+description: Adobe Learning Manager prend en charge un nouveau connecteur utilisant le protocole SFTP d’AWS Transfer Family. Vous pouvez remplacer n’importe quel client FTP open source par Adobe FTP Manager.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 67%
+source-wordcount: '1053'
+ht-degree: 69%
 
 ---
 
@@ -48,12 +48,12 @@ Vous avez créé une connexion FTP.
 
 Si vous disposez déjà d&#39;une clé SSH, collez la clé publique dans le champ **[!UICONTROL Clé publique FTP]**, puis cliquez sur Se connecter.
 
-![Clés SSH](assets/ssh-keys.png)
+![Touches SSH](assets/ssh-keys.png)
 *Coller les touches*
 
 ### Création d’une authentification de base par mot de passe
 
-Il s’agit du mécanisme d’authentification de base. Sélectionnez la première option, **[!UICONTROL Créer une authentification de base à l&#39;aide d&#39;un mot de passe]**. Saisissez le mot de passe, puis cliquez sur **[!UICONTROL Se connecter]**.
+Il s’agit du mécanisme d’authentification de base. Sélectionnez la première option, **[!UICONTROL Créer une authentification de base à l&#39;aide d&#39;un mot de passe]**. Saisissez le mot de passe, puis cliquez sur **[!UICONTROL Connexion]**.
 
 La connexion s’établit.
 
@@ -83,7 +83,7 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
 
 1. Connectez-vous au nouveau connecteur FTP ALM. Cliquez sur Se connecter.
 
-   ![connecter l&#39;image](assets/connect-client.png)
+   ![connecter l’image](assets/connect-client.png)
    *Se connecter au nouveau connecteur FTP ALM*
 
 1. Pour vous connecter via une authentification de base par mot de passe, entrez le nom de domaine et le nom d’utilisateur FTP, puis définissez un mot de passe selon les critères de validation du mot de passe. Cliquez sur Se connecter. La nouvelle connexion FTP sera créée et sera accessible via le client SFTP de votre choix.
@@ -110,7 +110,7 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
 
 1. Cliquez sur Se connecter.
 
-   ![informations d&#39;identification](assets/connector-credentials.png)
+   ![informations d’identification](assets/connector-credentials.png)
    *Saisir les informations d&#39;identification*
 
    >[!NOTE]

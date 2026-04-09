@@ -2,17 +2,17 @@
 description: Les relevés de notes des élèves dans Adobe Learning Manager (ALM) permettent aux administrateurs de surveiller la progression des élèves dans les cours, modules, parcours d’apprentissage et certifications. Il prend en charge les évaluations de performance, la surveillance de la conformité, les audits et les rapports externes. Le rapport offre un résumé complet de l’engagement et des performances d’un élève.
 jcr-language: en_us
 title: Relevés de notes des élèves dans Adobe Learning Manager
-source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4883'
 ht-degree: 7%
 
 ---
 
-
 # Relevés de notes des élèves dans Adobe Learning Manager
 
-## Vue d’ensemble
+## Présentation
 
 Le relevé de notes de l’élève dans Adobe Learning Manager (ALM) permet aux administrateurs de suivre la progression de l’élève à un niveau précis dans les cours, modules, parcours d’apprentissage et certifications. Les données du relevé de notes facilitent les examens des performances, le suivi de la conformité, les audits et les besoins en matière de rapports externes.
 
@@ -139,7 +139,7 @@ Les colonnes suivantes capturent l&#39;activité, la progression ou les tentativ
 | Highest_Quiz_score_max | Scores de quiz maximum possibles pour le module. Il peut être vide si l’élève n’a pas tenté le quiz ou si le contenu ne comporte aucun quiz. Score maximal possible associé à la tentative de score de quiz le plus élevé effectuée par un élève sur plusieurs tentatives. Il ne s’agit pas du score le plus élevé obtenu par l’élève. Au lieu de cela, il capture le score maximal qui était possible dans la tentative où l’élève a obtenu le meilleur score. |
 | Tentatives effectuées | Nombre total de tentatives effectuées par l’élève jusqu’à présent pour ce module. |
 | Nombre maximal de tentatives autorisées | Nombre maximal de tentatives autorisées pour que l’élève utilise le module. |
-| Commentaires d’envoi | Commentaires du responsable d’un élève une fois qu’il a terminé un objet d’apprentissage.<br>Les données des commentaires d&#39;envoi fournies par l&#39;instructeur sont incluses dans le module d&#39;envoi de fichiers . Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager pour plus d&#39;informations.</a></br> |
+| Commentaires d’envoi | Commentaires du responsable d’un élève après avoir terminé un objet d’apprentissage.<br>Les données des commentaires d’envoi fournies par l’instructeur sont incluses dans le module d’envoi du fichier. Voir <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager pour plus d&#39;informations.</a></br> |
 | Source d’achèvement | Fait référence à l’origine ou à la méthode par laquelle l’accomplissement d’un cours, d’un parcours d’apprentissage ou d’une certification par un élève est enregistré. Cela aide les administrateurs à comprendre comment l’achèvement a été atteint ou comment ils se sont connectés au système. La colonne indique si l’achèvement a été déclaré par l’utilisateur ou facilité par un rôle ou une configuration spécifique. Remarque : pour les workflows d’assiduité du connecteur VC, lorsqu’un élève est marqué comme étant automatiquement assidu, la source affiche « SELF, &lt;learner_email> ». |
 | Commentaire d’achèvement | Commentaires effectués par l’administrateur lorsqu’il marque un élève comme terminé après qu’il a terminé un cours, une certification ou un parcours d’apprentissage. L’administrateur peut ajouter les commentaires d’achèvement pour un ou plusieurs élèves. |
 
@@ -151,8 +151,8 @@ Il s’agit des cours, modules, parcours d’apprentissage, certifications, etc.
 |---|---|
 | Nom du plan d&#39;apprentissage | Titre du plan d’apprentissage. |
 | Programme d&#39;apprentissage/certification/cours | Titre de l’objet d’apprentissage. |
-| Type | Type d’objet d’apprentissage auquel l’utilisateur était inscrit. Par exemple,<ul><li>Parcours d’apprentissage</li><li>Certification</li><li>Cours</li></ul> |
-| Chemin incorporé | Un parcours intégré est un type de parcours d’apprentissage qui est inclus dans le cadre d’un autre cours ou d’un parcours d’apprentissage. Le champ indique qu’un élève termine ce parcours d’apprentissage dans le cadre d’un autre parcours d’apprentissage plutôt que comme une affectation autonome. |
+| Type | Type d’objet d’apprentissage auquel l’utilisateur était inscrit. Par exemple :<ul><li>Parcours d’apprentissage</li><li>Certification</li><li>Cours</li></ul> |
+| Parcours intégré | Un parcours intégré est un type de parcours d’apprentissage qui est inclus dans le cadre d’un autre cours ou d’un parcours d’apprentissage. Le champ indique qu’un élève termine ce parcours d’apprentissage dans le cadre d’un autre parcours d’apprentissage plutôt que comme une affectation autonome. |
 | Cours | Nom du cours auquel l’utilisateur est inscrit. Lorsqu’elle est vide, la ligne représente une certification ou un parcours d’apprentissage. <br><b>Remarque :</b> bien que les parcours d’apprentissage soient composés de cours individuels ou de parcours d’apprentissage imbriqués, chaque composant conserve son propre enregistrement indépendant. Cela garantit que les données de progression, d&#39;achèvement et de rapport sont suivies séparément pour les éléments parent et enfant.</br> |
 | ID unique d’objet d’apprentissage | Il s’agit d’un identifiant facultatif attribué par l’administrateur pour un objet d’apprentissage (cours, certification ou parcours d’apprentissage) dans Adobe Learning Manager. Il est principalement utilisé par les organisations qui conservent leurs propres ID système externes pour le contenu d’apprentissage et souhaitent mapper ces ID aux objets d’apprentissage ALM à des fins d’intégration ou de création de rapports. L’ID unique d’objet d’apprentissage n’est présent que si le compte a activé cette fonctionnalité et que l’auteur a attribué un ID lors de la création de l’objet d’apprentissage. Remarque : l’ID de formation est toujours présent et identifie de manière unique chaque objet d’apprentissage dans ALM. L’ID unique d’objet d’apprentissage est destiné au mappage intersystème et n’est pas requis pour les opérations ALM standard. |
 | Instance | Le nom de l’instance de l’utilisateur de l’objet d’apprentissage est inscrit à. |
@@ -182,7 +182,7 @@ Il s’agit des cours, modules, parcours d’apprentissage, certifications, etc.
 | Champs | Description |
 |---|---|
 | ID de formation | Identificateur unique généré par le système et affecté à chaque objet d’apprentissage (cours, certification ou parcours d’apprentissage). L’ID de formation reste le même pour tous les élèves et toutes les inscriptions à cet objet d’apprentissage. Il est utilisé pour identifier le contenu lui-même, pas les inscriptions individuelles des élèves. |
-| Durée de la formation ou du module (min) | Cette colonne affiche la durée attendue (en minutes) d&#39;un cours, d&#39;un module ou d&#39;une activité de formation telle que définie lors de la création du cours. Ce n’est pas le temps réel passé par un élève, mais la durée configurée/affectée qui représente la durée prévue de la formation.  Cette colonne affiche la durée totale (en minutes) de l’élément d’apprentissage attribué, qui peut être un parcours d’apprentissage ou un cours individuel. <br><b>Durée du parcours d’apprentissage :</b> si l’élément de formation est un parcours d’apprentissage, sa durée est calculée comme la somme des durées de tous les cours à l’intérieur du parcours d’apprentissage.</br><br>Exemple : si le cours 1 = 50 minutes et le cours 2 = 60 minutes, la durée du parcours d’apprentissage = 110 minutes.</br><br><b>Durée du cours individuel :</b>Si l’élément de formation est un cours individuel (ne faisant pas partie d’un parcours d’apprentissage), la durée reflète le temps nécessaire pour ce cours uniquement.</br> |
+| Durée de la formation ou du module (min) | Cette colonne affiche la durée attendue (en minutes) d&#39;un cours, d&#39;un module ou d&#39;une activité de formation telle que définie lors de la création du cours. Ce n’est pas le temps réel passé par un élève, mais la durée configurée/affectée qui représente la durée prévue de la formation.  Cette colonne affiche la durée totale (en minutes) de l’élément d’apprentissage attribué, qui peut être un parcours d’apprentissage ou un cours individuel. <br><b>Durée du parcours d’apprentissage :</b> si l’élément de formation est un parcours d’apprentissage, sa durée est calculée comme la somme des durées de tous les cours dans le parcours d’apprentissage.</br><br>Exemple : si le cours 1 = 50 minutes et le cours 2 = 60 minutes, alors la durée du parcours d’apprentissage = 110 minutes.</br><br><b>Durée du cours individuel :</b>Si l’élément de formation est un cours individuel (ne faisant pas partie d’un parcours d’apprentissage), la durée reflète le temps nécessaire pour ce cours uniquement.</br> |
 | Embedded_Course_ID | La colonne est remplie lorsque la ligne représente un parcours d’apprentissage ou une certification proprement dite. Elle affiche les ID des cours individuels intégrés dans le parcours d’apprentissage ou la certification. Il n&#39;est pas renseigné lorsque la ligne elle-même est un cours uniquement, car il n&#39;y a pas d&#39;éléments incorporés. |
 | ID du parcours intégré | La colonne identifie l’ID unique des parcours d’apprentissage intégrés. Cela permet de suivre les cours dans les Parcours d’apprentissage et fournit une visibilité sur la structure hiérarchique des Parcours d’apprentissage. |
 | Date de désinscription (fuseau horaire UTC) | Date de désinscription par l’élève au type d’objet d’apprentissage. |
@@ -264,7 +264,7 @@ Suivez les élèves qui ont des échéances à venir pour des cours clés, des p
 
 | Colonne | Description |
 |---|---|
-| Après | Représente le nombre d’élèves qui ont acquis une compétence avant une période définie (en jours), au-delà de laquelle la compétence est considérée comme obsolète ou nécessitant une actualisation. Utile pour identifier les élèves dont les compétences sont proches ou expirées.<br>Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/skills-levels"> niveaux de compétence</a> pour plus d&#39;informations. |
+| Après | Représente le nombre d’élèves qui ont acquis une compétence avant une période définie (en jours), au-delà de laquelle la compétence est considérée comme obsolète ou nécessitant une actualisation. Utile pour identifier les élèves dont les compétences sont proches ou expirées.<br>Voir <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> niveaux de compétence</a> pour plus d&#39;informations. |
 | Nom | Nom complet de l’élève auquel la compétence est affectée. |
 | Nom du responsable | Nom du responsable de la génération de rapports de l’élève. |
 | Libellés de ligne | Nom de compétence spécifique attribué aux élèves figurant sur cette ligne. Utilisé comme en-tête de regroupement pour résumer les données de compétence des élèves dans chaque catégorie de compétence. |
@@ -332,9 +332,3 @@ Ainsi, les administrateurs personnalisés dont la portée est limitée visualise
 Le rapport Relevé de notes de l&#39;élève est accessible via l&#39;interface utilisateur de l&#39;administrateur, [FTP, Box, l&#39;API de tâche ou Power BI](/help/migrated/integration-admin/feature-summary/connectors.md). Il n’est pas inclus dans les rapports unifiés de Salesforce, Power BI et Marketo Engage.
 
 Les rapports unifiés téléchargés depuis Salesforce, Marketo Engage et Power BI contiennent moins de colonnes que les relevés de notes des élèves.
-
-
-
-
-
-

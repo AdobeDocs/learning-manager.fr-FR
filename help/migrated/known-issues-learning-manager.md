@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Problèmes connus dans Learning Manager
+description: Vous trouverez ci-dessous une compilation des problèmes connus pour chaque mise à jour de Learning Manager. La liste est cumulative et contient les problèmes connus des mises à jour précédentes.
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 60%
+source-wordcount: '253'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +20,7 @@ Vous trouverez ci-dessous une compilation des problèmes connus pour chaque mise
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Mise à jour </b></p></td> 
+   <td><p><b>Mettre à jour</b></p></td> 
    <td><p><b>Problèmes connus</b></p></td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ Vous trouverez ci-dessous une compilation des problèmes connus pour chaque mise
   </tr> 
   <tr> 
    <td><p>39</p></td> 
-   <td><p>Le lien hypertexte vers le nombre de cours et de certifications dans le modèle de balises inclut les cours fantômes et les certifications récurrentes. Lorsque vous cliquez sur le lien hypertexte, ces cours et certifications peuvent ne pas figurer sur la liste, ce qui entraîne un décalage dans les numéros.</p></td> 
+   <td><p>Le lien hypertexte vers le numéro de cours et de certifications à l’intérieur du modèle de balises comprend les cours fantômes et les certifications récurrentes. Lorsque vous cliquez sur le lien hypertexte, ces cours et certifications peuvent ne pas figurer sur la liste, ce qui entraîne un décalage dans les numéros.</p></td> 
   </tr> 
   <tr> 
    <td><p>37</p></td> 
