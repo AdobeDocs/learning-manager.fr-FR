@@ -4,10 +4,10 @@ title: Prise en main en tant qu’élève
 description: Utilisez la page de prise en main pour parcourir les principaux parcours d’apprentissage de Adobe Learning Manager.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
-source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 77%
+source-wordcount: '675'
+ht-degree: 87%
 
 ---
 
@@ -43,19 +43,19 @@ Si vous accédez à Learning Manager depuis un iPad ou une tablette Android, co
 
 La chronologie de l’apprentissage indique le planning de l’élève avec les cours qu’il doit suivre. Dans cette section, vous pouvez voir les alertes pour tous vos cours, certifications et programmes d’apprentissage dans l’ordre croissant des échéances. Les échéances pour chacune de vos activités d&#39;apprentissage sont affichées dans le volet de gauche.
 
-Cliquez sur chaque élément de formation dans le volet de gauche pour afficher les informations correspondantes sous forme de carte du cours sur le volet de droite. Vous pouvez cliquer sur la vignette cours/programme d’apprentissage/certification pour afficher les informations complètes de chaque objet d’apprentissage.
+Cliquez sur chaque élément de formation dans le volet de gauche pour afficher les informations correspondantes sous forme de carte du cours sur le volet de droite. Vous pouvez cliquer sur la vignette de cours/programme d’apprentissage/certification pour afficher l’ensemble des informations sur chaque objet de formation.
 
 Placez le pointeur de la souris sur la zone de la chronologie pour afficher la barre de défilement sur le côté droit. Utilisez la barre de défilement pour vous déplacer vers le haut ou vers le bas et afficher plus d’alertes.
 
 ## Utilisateurs de l’application pour iPad et Android {#ipadandandroidappusers}
 
-Dans l’application Learning Manager sur tablette iPad ou Android, une fois que vous vous êtes connecté en tant qu’élève, les informations de l’onglet Accueil s’affichent comme suit :
+Dans l’application sur iPad ou tablette Android de Learning Manager, une fois connecté en tant qu’élève, vous pouvez afficher les informations dans l’onglet Accueil comme suit :
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
 *Onglet Accueil de l&#39;application*
 
-Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
+Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur la flèche déroulante **Menu**, puis choisissez l’option appropriée.
 
 ![](assets/menu-ipad.png)
 
@@ -65,7 +65,7 @@ Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez 
 
 Vous pouvez accéder à l’application Learning Manager hors ligne sur les tablettes Android et iPad. Téléchargez et prenez les cours en mode hors ligne, et synchronisez ensuite le contenu avec l’application en ligne quand vous connectez au réseau.
 
-1. Appuyez sur la liste déroulante Menu en haut de l’écran, puis sur l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
+1. Appuyez sur la flèche déroulante Menu en haut de l’écran, puis sélectionnez l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
 1. Appuyez sur l’icône de téléchargement au bas de chaque vignette d’objet de formation pour télécharger le contenu d’apprentissage.
 
 ![](assets/download-ipad.png)
@@ -74,7 +74,8 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
 
 1. Lorsque vous êtes en ligne, une invite s’affiche dans une barre en haut de l’application pour vérifier si vous souhaitez synchroniser votre contenu en ligne. Appuyez sur la barre de couleur rouge si votre réponse est oui. Une barre de couleur verte indique que votre contenu est en cours de synchronisation avec l’application en ligne.
 
-<!--### Track device storage
+<!--
+### Track device storage
 
 You can monitor your device storage periodically.
 
@@ -86,4 +87,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/device-storage-detailed-e1439211162955.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

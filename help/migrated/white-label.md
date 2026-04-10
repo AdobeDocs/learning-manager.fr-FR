@@ -4,9 +4,9 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Pour déployer et gérer votre propre application avec étiquette blanche, proc�
    * Signature des binaires d’application fournis par l’équipe ALM.
    * Chargement et gestion du processus de publication. Le processus de publication nécessite une communication entre votre gestionnaire d’applications et les équipes de l’app/play store pour que votre application soit conforme à toutes les directives de publication. À partir d’ALM, vous recevrez un binaire d’application entièrement conforme.
 
-## Vue d’ensemble
+## Présentation
 
 L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 
@@ -383,11 +383,13 @@ Réutilisez le même projet que celui que vous avez créé dans les étapes ci-d
 
 ### iOS
 
-<!--```
+<!--
+```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```-->
+```
+-->
 
 Le dossier `<root>` contient le fichier **Runner.xcarchive.zip**. Exécutez les commandes ci-dessous pour générer le binaire signé :
 

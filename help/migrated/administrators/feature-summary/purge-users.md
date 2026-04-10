@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Purger les utilisateurs
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 52%
+source-wordcount: '1143'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 En savoir plus sur la fonction qui permet de purger les données utilisateur dans Learning Manager.
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 Utilisez la fonction Purger l’utilisateur pour supprimer les informations personnelles identifiables et les dossiers d’apprentissage de l’utilisateur sur Learning Manager. Notez que Supprimer et Purger l’utilisateur sont deux fonctions différentes. Alors qu’un utilisateur supprimé peut être récupéré, ce n’est pas le cas de toutes les données d’utilisateur et de tous les dossiers d’apprentissage associés à un utilisateur purgé.
 
@@ -27,13 +27,15 @@ Une action Purger l’utilisateur peut avoir les conséquences suivantes :
 * Purger un utilisateur dans Learning Manager ne supprime pas l’utilisateur dans d’autres applications externes (systèmes tiers ou autres applications que vous avez écrites). Contactez les propriétaires des applications externes pour obtenir la suppression des utilisateurs dans ces applications.
 * Si un utilisateur purgé est référencé dans les paramètres de configuration d’un connecteur, ce dernier est désactivé. L&#39;administrateur doit reconfigurer le connecteur pour reprendre.
 
-<!---### Manage users
+<!--
+### Manage users
 
 In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-If you're unable to launch the training, write to <almacademy@adobe.com>.-->
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+-->
 
 ## Comment purger les utilisateurs
 
@@ -47,7 +49,7 @@ Pour purger les utilisateurs, procédez comme suit :
 
    *Sélectionner un utilisateur à purger*
 
-1. Ouvrez le menu déroulant **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Purger l&#39;utilisateur]**.
+1. Ouvrez le menu déroulant **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Purger l’utilisateur]**.
 
    ![](assets/purge-2.png)
 
@@ -63,7 +65,7 @@ Pour purger les utilisateurs, procédez comme suit :
 
 >[!NOTE]
 >
->Une fois l’utilisateur supprimé ajouté à nouveau au système, les rôles précédents (par exemple, Administrateur, Responsable, Auteur, Instructeur, etc.) ne sont pas conservés. Ils sont ajoutés avec le rôle d’élève.
+>Une fois l’utilisateur supprimé ajouté à nouveau au système, les rôles précédents (par exemple, administrateur, responsable, auteur, instructeur, etc.) ne seront pas conservées.Ils seront ajoutés avec le rôle d’élève.
 
 ## Purge en bloc d’utilisateurs
 
@@ -145,7 +147,7 @@ Vous pouvez trier les utilisateurs filtrés par **[!UICONTROL ID d’utilisateur
    <td>Oui</td>
   </tr>
   <tr>
-   <td><strong>Purger à l’aide de l’interface utilisateur de Learning Manager - Particulier</strong></td>
+   <td><strong>Purger à l’aide de l’interface utilisateur de Learning Manager : Particulier</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -169,7 +171,7 @@ Vous pouvez trier les utilisateurs filtrés par **[!UICONTROL ID d’utilisateur
    <td>Oui</td>
   </tr>
   <tr>
-   <td><strong>Purger d’autres utilisateurs - Entreprise (personnes qui ne sont pas des utilisateurs internes ou externes de Learning Manager)</strong></td>
+   <td><strong>Purger d’autres utilisateurs : Entreprise (personnes qui ne sont pas des utilisateurs Learning Manager internes ni externes)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -240,12 +242,12 @@ Vous pouvez trier les utilisateurs filtrés par **[!UICONTROL ID d’utilisateur
 Une demande de purge d’utilisateurs prend un maximum de 30 jours.
 +++
 
-+++Pouvez-vous effectuer une purge en bloc dans Adobe Learning Manager ?
++++Est-il possible d’effectuer une purge en bloc dans Adobe Learning Manager ?
 
 Oui, vous pouvez effectuer une purge en bloc. Cependant, vous pouvez effectuer une purge en bloc de 50 utilisateurs uniquement.
 +++
 
-+++ Puis-je restaurer un utilisateur purgé ?
++++Puis-je restaurer un utilisateur purgé ?
 
 Non. Une fois vidées, toutes les données utilisateur sont définitivement supprimées et ne peuvent pas être récupérées.
 

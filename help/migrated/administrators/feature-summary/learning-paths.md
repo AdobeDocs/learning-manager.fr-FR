@@ -4,10 +4,10 @@ title: Parcours d’apprentissage
 description: Création de plans d’apprentissage pour les administrateurs de Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 32%
+source-wordcount: '1461'
+ht-degree: 61%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 32%
 
 ## Qu’est-ce qu&#39;un parcours d’apprentissage ?
 
-Souvent, les administrateurs souhaitent élaborer un programme détaillé qui offre une connaissance approfondie d’un sujet particulier ou d’un domaine d’expertise. Il peut également s&#39;agir d&#39;une série de cours de formation que les employés ou les clients sont censés suivre. Il faut pour cela regrouper un ensemble de cours et de programmes afin de créer un package de formations complet.
+Souvent, les administrateurs souhaitent élaborer un programme détaillé qui offre une connaissance approfondie d’un sujet particulier ou d’un domaine d’expertise. Il peut également s&#39;agir d&#39;une série de cours de formation que les employés ou les clients doivent suivre. Il faut pour cela regrouper un ensemble de cours et de programmes afin de créer un package de formations complet.
 
-C’est là que le parcours d’apprentissage entre en jeu. Un parcours d’apprentissage est un parcours qu’un élève doit parcourir pour maîtriser un sujet au fil du temps. Les élèves contrôlent leur expérience de formation et peuvent acquérir et conserver leurs connaissances d&#39;une manière individualisée et plus efficace.
+C&#39;est là qu’intervient le parcours d&#39;apprentissage. Un parcours d’apprentissage est un parcours que l’élève doit parcourir pour maîtriser un sujet au fil du temps. Les élèves contrôlent leur expérience de formation et peuvent acquérir et conserver leurs connaissances d&#39;une manière individualisée et plus efficace.
 
-Par exemple, lors de l’intégration d’un nouvel employé, une entreprise offre une formation sur les politiques et les procédures, la culture, l’histoire, etc. Un parcours d’apprentissage définit les cours en fonction des besoins des employés, de sorte qu’ils puissent s’inscrire aux cours en fonction du parcours d’apprentissage qui leur est défini. vous choisissez, et vous pouvez inscrire des utilisateurs à ce parcours afin qu’ils puissent progresser d’un cours à l’autre.
+Par exemple, lors de l’intégration d’un nouvel employé, une entreprise offre une formation sur les politiques et les procédures, la culture, l’histoire, etc. Un parcours d’apprentissage définit les cours en fonction des besoins des employés, de sorte qu’ils puissent s’inscrire aux cours en fonction du parcours d’apprentissage qui leur est défini. Vous choisissez, et vous pouvez inscrire des utilisateurs à ce parcours pour qu’ils puissent progresser d’un cours à l’autre.
 
 ## Créer et configurer des parcours d’apprentissage
 
@@ -33,17 +33,17 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Les parcours d&#39;apprentissage rendent la prestation d&#39;un programme de formation pratique et facile. Voici quelques-uns des principaux avantages d’un parcours d’apprentissage :
 
-1. Attribuez directement un niveau de compétence à un parcours d’apprentissage. Pas besoin de faire correspondre les crédits de compétence. Une fois que l’élève a terminé un parcours d’apprentissage, il atteint le niveau de compétence mentionné.
-1. Possibilité d’incorporer un parcours d’apprentissage existant dans un nouveau parcours d’apprentissage. La fonctionnalité d’incorporation n’est disponible que pour 1 niveau d’incorporation. Ainsi, un parcours d’apprentissage contenant déjà un parcours intégré ne peut pas être intégré dans un nouveau parcours.
+1. Attribuez directement un niveau de compétence à un parcours d’apprentissage. Pas besoin de faire correspondre les crédits de compétences. Une fois que l’élève a terminé un parcours d’apprentissage, il atteint le niveau de compétence mentionné.
+1. Possibilité d’incorporer un parcours d’apprentissage existant dans un nouveau parcours d’apprentissage. La capacité d’incorporation n’est disponible que pour un niveau d’incorporation. Ainsi, un parcours d’apprentissage contenant déjà un parcours incorporé ne peut pas être incorporé dans un nouveau parcours.
 1. Possibilité d’ajouter des conditions préalables, des aides à l’emploi et des ressources à un niveau du parcours d’apprentissage.
 1. Possibilité de créer des sections. Chaque section peut avoir un titre.
 1. Possibilité de rendre les sections obligatoires et de définir des critères de fin de configuration.
 
-## Ajouter un parcours d’apprentissage dans Learning Manager
+## Ajouter un parcours d’apprentissage dans Learning Manager
 
 Dans Learning Manager, dans l’application d’administration, cliquez sur **[!UICONTROL Parcours d’apprentissage]** dans le panneau de gauche.
 
-Dans la page **[!UICONTROL Parcours d’apprentissage]**, cliquez sur **[!UICONTROL Ajouter]**. Saisissez les détails.
+Dans la page du **[!UICONTROL parcours d’apprentissage]**, cliquez sur **[!UICONTROL Ajouter]**. Saisissez les détails.
 
 ![](assets/add-learning-path.png)
 
@@ -57,7 +57,7 @@ Dans l&#39;option **Type d&#39;inscription**, sélectionnez **Auto-inscription**
 
 Après avoir créé le parcours d’apprentissage, sélectionnez le nouveau parcours d’apprentissage et ajoutez les cours dans le parcours.
 
-Vous pouvez ajouter des compétences et attribuer un badge au parcours d’apprentissage. Pour ajouter une compétence, sélectionnez la ou les compétences requises dans la liste déroulante **[!UICONTROL Choisir une compétence]**. Sélectionnez également le niveau de la compétence ou des compétences.
+Vous pouvez ajouter des compétences et attribuer un badge au parcours d’apprentissage. Pour ajouter une compétence, sélectionnez les compétences requises dans la liste déroulante **[!UICONTROL Choisir une compétence]**. Sélectionnez également le niveau de la compétence ou des compétences.
 
 ![](assets/add-skills.png)
 
@@ -71,7 +71,7 @@ Sélectionnez le niveau de produits, de rôles et de rôles dans la section **[!
 
 *Recommandation*
 
-Choisissez le type de séquençage pour les sections et la formation, Ordonné ou Non ordonné, en fonction de vos préférences.
+Sélectionnez le type de séquençage pour les sections et la formation (Ordonné ou Non ordonné) en fonction de vos préférences.
 
 Si vous sélectionnez Ordonné, les cours s’affichent dans la séquence dans laquelle vous les avez créés. Si vous sélectionnez Non ordonné, les cours ne sont pas séquencés. Les élèves peuvent effectuer les cours dans n’importe quel ordre.
 
@@ -89,21 +89,21 @@ Après avoir sélectionné les cours ou le parcours d’apprentissage, cliquez s
 
 Dans le parcours d’apprentissage, vous pouvez effectuer les opérations suivantes :
 
-**Créer et configurer une section :** une section est créée pour regrouper plusieurs cours de formation qui complètent un domaine ou un composant important de la formation. Chaque section peut avoir un titre. Chaque section peut également être marquée Obligatoire avec des exigences d’achèvement spécifiques.
+**Créer et configurer une section :** Une section est créée pour regrouper plusieurs cours de formation qui complètent un domaine ou un composant important de la formation. Chaque section peut avoir un titre. Chaque section peut également être marquée Obligatoire avec des exigences spécifiques d&#39;achèvement.
 
-**Rendre les cours obligatoires dans chaque section :** Activez ou désactivez la case à cocher Obligatoire si vous souhaitez/ne souhaitez pas rendre les formations obligatoires dans le parcours d’apprentissage. Si vous activez la case à cocher, vous pouvez rendre toutes les formations obligatoires ou certaines formations obligatoires.
+**Rendre les cours obligatoires dans chaque section :** Activez ou désactivez la case à cocher Obligatoire si vous souhaitez ou ne souhaitez pas rendre les formations obligatoires dans le parcours d’apprentissage. Si vous activez la case à cocher, vous pouvez rendre toutes les formations obligatoires ou certaines formations obligatoires.
 
 ![](assets/choose-mandatory.png)
 
 *Rendre les cours obligatoires dans chaque section*
 
-**Réorganiser l&#39;ordre :** vous pouvez déplacer les cours vers le haut ou vers le bas et modifier leur ordre.
+**Réorganiser l’ordre :** Vous pouvez déplacer les cours vers le haut ou vers le bas et modifier leur ordre.
 
 ![](assets/rearrange.png)
 
 *Réorganiser l’ordre de la formation*
 
-**Supprimer un cours :** sur la carte du cours, cliquez sur la croix (X), puis supprimez le cours du parcours d’apprentissage.
+**Supprimer un cours :** Sur la carte du cours, cliquez sur la croix (X), puis supprimez le cours du parcours d’apprentissage.
 
 ![](assets/remove-course.png)
 
@@ -133,7 +133,7 @@ Les instances du parcours d’apprentissage affichent une mosaïque supplémenta
 
 Dans la mosaïque **Cours**, vous pouvez voir les instances de cours qui sont visibles par les élèves inscrits à cette instance.
 
-La case à cocher **[!UICONTROL Autoriser les élèves à choisir des instances (parcours d’apprentissage flexible)]** ne s’applique qu’aux cours. Cette option permet aux élèves de changer d’instance dans le parcours d’apprentissage. Tous les parcours d’apprentissage enfants auront une option pour mapper une instance de programme d’apprentissage avec le parcours d’apprentissage. Par défaut, le mappage est défini sur Instance par défaut.
+La case à cocher **[!UICONTROL Permettre aux élèves de choisir des instances (parcours d’apprentissage flexible)]** ne s’applique qu’aux cours. Cette option permet aux élèves de changer d’instance dans le parcours d’apprentissage. Tous les parcours d’apprentissage enfants disposent d’une option permettant de mapper une instance de programme d’apprentissage avec le parcours d’apprentissage. Par défaut, le mappage est défini sur Instance par défaut.
 
 ![](assets/default-instance.png)
 
@@ -171,13 +171,14 @@ Procédez comme suit :
 
 Veuillez noter que la fonctionnalité existante des programmes d’apprentissage sera renommée « Parcours d’apprentissage » immédiatement après la publication. Si vous souhaitez continuer à l’appeler Programmes d’apprentissage, nous vous recommandons d’utiliser la fonction « Terminologies » pour appliquer la terminologie requise. Ainsi, vous pouvez utiliser le mot Programme d’apprentissage.
 
-Les parcours d’apprentissage vous offrent une gamme de fonctionnalités. Certains d&#39;entre eux sont disponibles immédiatement après la publication. Les administrateurs/auteurs peuvent commencer à les utiliser. Des fonctionnalités étendues telles que « Sections », « Ajout d’un parcours d’apprentissage dans un autre parcours », etc. sont désactivées et peuvent être activées en cochant la case mentionnée ci-dessous.
+Les parcours d’apprentissage vous offrent une gamme de fonctionnalités. Certains d&#39;entre eux sont disponibles immédiatement après la publication. Les administrateurs/auteurs peuvent commencer à les utiliser. Les fonctionnalités étendues telles que « Sections », « Ajout d’un parcours d’apprentissage dans un autre parcours », etc. sont désactivées et peuvent être activées en cochant la case mentionnée ci-dessous.
 
-Les élèves peuvent continuer à utiliser les programmes d’apprentissage (désormais appelés « parcours d’apprentissage ») et les auteurs/administrateurs peuvent continuer à les créer. Pour tirer parti des fonctionnalités étendues du parcours d’apprentissage mentionné ci-dessus, l’administrateur doit activer le paramètre comme indiqué ci-dessous. Une fois cette option activée, toutes les nouvelles fonctionnalités étendues du parcours d’apprentissage seront disponibles.
+Les élèves peuvent continuer à utiliser les programmes d’apprentissage (maintenant appelés « parcours d’apprentissage ») et les auteurs/administrateurs peuvent continuer à les créer. Pour tirer parti des fonctionnalités étendues du parcours d’apprentissage mentionné ci-dessus, l’administrateur doit activer le paramètre comme mentionné ci-dessous. Une fois cette option activée, toutes les nouvelles fonctionnalités étendues du parcours de formation deviennent disponibles.
 
 La page **[!UICONTROL Paramètres]** > **[!UICONTROL Général]** propose une nouvelle option pour activer les parcours d’apprentissage. Si cette option est activée, vous pouvez ajouter des cours et des programmes d’apprentissage dans un parcours d’apprentissage Vous ne pouvez pas modifier cette option une fois qu’elle est activée.
 
-<!-- ## Other Learning Path-related details 
+<!--
+ ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -249,4 +250,5 @@ La page **[!UICONTROL Paramètres]** > **[!UICONTROL Général]** propose une no
 
 **Reporting**
 
-* Same changes as that of Reporting stated above. -->
+* Same changes as that of Reporting stated above. 
+-->

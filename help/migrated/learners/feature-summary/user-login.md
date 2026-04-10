@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Se connecter
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 24%
+source-wordcount: '226'
+ht-degree: 30%
 
 ---
 
@@ -40,6 +40,7 @@ Suivez ces étapes pour créer votre compte à l’aide de l’URL indiquée dan
 
    <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
+   
    -->
 
 1. Saisissez vos informations dans les champs Actifs pour compléter votre profil.
@@ -47,7 +48,7 @@ Suivez ces étapes pour créer votre compte à l’aide de l’URL indiquée dan
    ![](assets/complete-the-profile.png)
    _Saisissez vos informations dans les champs actifs pour terminer la configuration du profil_
 
-1. Vous pouvez également utiliser le Enterprise ID en cliquant sur Se connecter avec un lien de Enterprise ID.
+1. Vous pouvez également utiliser l’ID Entreprise en cliquant sur le lien Se connecter avec un ID Entreprise.
 
 >[!NOTE]
 >

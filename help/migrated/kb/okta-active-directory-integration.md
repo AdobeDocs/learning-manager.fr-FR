@@ -4,16 +4,16 @@ title: Intégration d’Okta Active Directory à Adobe Learning Manager
 description: Intégration d’Okta Active Directory à Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 55%
+source-wordcount: '587'
+ht-degree: 60%
 
 ---
 
 # Intégration d’Okta Active Directory à Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
-Dans ce document, vous apprendrez à intégrer Adobe Learning Manager à Okta Active Directory (AD). Lorsque vous intégrez Adobe Learning Manager à Okta AD, vous pouvez :
+Dans ce document, vous découvrirez comment intégrer Adobe Learning Manager à Okta Active Directory (AD). Lorsque vous intégrez Adobe Learning Manager à Okta AD, vous pouvez :
 
 * Vérifier et contrôler l’accès de l’utilisateur Learning Manager dans Okta AD.
 * Permettre aux utilisateurs d’être automatiquement connectés à Adobe Learning Manager avec leurs comptes Okta AD.
@@ -97,7 +97,7 @@ Adobe Learning Manager prend en charge l’authentification unique initiée par 
 
 ## Extraction du fichier d’URL et de métadonnées initié par l’IDP
 
-Pour afficher l’URL et le fichier de métadonnées initiés par l’IdP/SP, effectuez les étapes ci-dessous :
+Pour afficher l’URL et le fichier de métadonnées initiés par l’IdP/SP, procédez comme suit :
 
 1. Ouvrez l’application que vous avez créée.
 1. Sous l&#39;onglet **Authentification unique**, cliquez sur **[!UICONTROL Afficher les instructions]**.
@@ -136,4 +136,5 @@ Pour configurer l’authentification unique Adobe Learning Manager, effectuez le
 article not in TOC
 
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+
 -->

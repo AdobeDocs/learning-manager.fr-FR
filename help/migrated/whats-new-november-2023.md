@@ -2,10 +2,10 @@
 title: Nouveautés de cette version
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2023 de Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 70%
+source-wordcount: '2375'
+ht-degree: 73%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Réorganisation de l’interface utilisateur
 
-L’interface utilisateur de Adobe Learning Manager a fait l’objet de quelques mises à jour pour offrir une expérience plus propre et plus moderne. Les pages d’accueil des rôles d’administrateur et d’auteur ont été réorganisées et les thèmes de l’interface utilisateur ont été mis à jour pour tous les rôles. Cependant, aucune modification n’a été apportée à l’emplacement des menus, boutons ou liens. Vous pourrez les retrouver exactement à l’endroit où ils se trouvaient auparavant.
+L’interface utilisateur de Adobe Learning Manager a fait l’objet de quelques mises à jour pour offrir une expérience plus propre et plus moderne. Les pages d’accueil des rôles d’administrateur et d’auteur ont été réorganisées et les thèmes de l’interface utilisateur ont été mis à jour pour tous les rôles. Cependant, l’emplacement des menus, des boutons ou des liens n’a pas été modifié. Vous les trouverez exactement à l’emplacement habituel.
 
 Les mises à jour des thèmes s’appliquent automatiquement aux comptes utilisant le thème par défaut. Les mises à jour des thèmes de l’interface utilisateur n’affectent pas les comptes ayant apporté des modifications afin d’utiliser un thème personnalisé. Ces comptes doivent redéfinir le thème par défaut pour obtenir le thème mis à jour.
 
@@ -68,7 +68,7 @@ Dans cette version, nous avons ajouté une liste déroulante dans la boîte de d
 
 Dans les versions antérieures de Adobe Learning Manager, le rapport Annonce de notification ne comportait aucun filtre. Adobe Learning Manager téléchargeait l’ensemble des notifications du compte.
 
-Dans cette version, nous avons ajouté un filtre de date, à l’aide duquel vous pouvez télécharger les notifications au cours d’une période spécifiée.  Cependant, vous ne pouvez télécharger que le rapport des six derniers mois.
+Dans cette version, nous avons ajouté un filtre de date, à l’aide duquel vous pouvez télécharger les notifications au cours d’une période spécifiée.  Cependant, vous pouvez télécharger le rapport uniquement pour les six derniers mois.
 
 ### Modifications apportées aux données de suivi de cours dans le rapport d’inscription
 
@@ -112,7 +112,7 @@ Dans Adobe Learning Manager, seuls les relevés de notes d’apprentissage et de
    <td>
     <p style="text-align: left;"><b>Disponible</b></p></td>
    <td>
-    <p style="text-align: left;"><b>Champ d’application</b></p></td>
+    <p style="text-align: left;"><b>Portée</b></p></td>
         </tr>
     <tr>
    <td>
@@ -149,7 +149,7 @@ Dans la page Rôles personnalisés, nous avons ajouté les options en lecture se
 
 Si vous sélectionnez l’option Lecture seule, les administrateurs personnalisés peuvent afficher tous les utilisateurs, mais ils ne peuvent pas modifier les données utilisateur, ni créer de portail d’auto-inscription pour les utilisateurs.
 
-**Plans d’apprentissage** :
+**Plans d’apprentissage** :
 
 Si vous sélectionnez Lecture seule, les administrateurs personnalisés ne peuvent pas ajouter ni modifier de plan d’apprentissage. Ils peuvent télécharger un rapport de plan d’apprentissage et consulter les détails. Toutefois, ils ne peuvent pas modifier les détails du cours.
 
@@ -161,7 +161,7 @@ Si vous sélectionnez Lecture seule, les administrateurs personnalisés ne peuve
 
 Si vous sélectionnez l’option Lecture seule, les administrateurs personnalisés peuvent afficher les modèles de courrier électronique. Ils ne peuvent pas activer ni désactiver les paramètres des modèles de courrier électronique. Toutefois, ils peuvent télécharger des rapports d’accès aux e-mails.
 
-### Relevés de notes de l&#39;élève
+### Relevés de notes des élèves
 
 Si l’autorisation Utilisateur ou Tous les groupes d’utilisateurs est sélectionnée et que l’administrateur personnalisé tente de télécharger les relevés de notes des élèves, l’option Inclure les élèves supprimés renvoie tous les élèves supprimés dans le rapport.
 
@@ -177,7 +177,7 @@ Les administrateurs personnalisés peuvent accéder aux rapports suivants selon 
    <td>
     <p style="text-align: left;"><b>Disponible</b></p></td>
    <td>
-    <p style="text-align: left;"><b>Champ d’application</b></p></td>
+    <p style="text-align: left;"><b>Portée</b></p></td>
         </tr>
     <tr>
    <td>
@@ -206,11 +206,13 @@ Les administrateurs personnalisés peuvent accéder aux rapports suivants selon 
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
+<!--
+| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+|Login Access | Yes | Full User |
+-->
 
 ## Intégration de Connect améliorée
 
@@ -288,7 +290,7 @@ Adobe Learning Manager supprimera BlueJeans en février 2024. Tous les nouveaux
 
 ## Notes de mise à jour
 
-Pour plus d&#39;informations sur les versions actuelles et précédentes de l&#39;application web et de l&#39;application pour appareil Learning Manager, consultez les [Notes de mise à jour](release-note/release-notes.md).
+Pour plus d’informations sur les versions actuelles et précédentes de l’application web et de l’application de l’appareil Learning Manager, consultez les [Notes de mise à jour](release-note/release-notes.md).
 
 ## Bogues corrigés dans cette version
 

@@ -2,10 +2,10 @@
 title: Recommandations dans Adobe Learning Manager
 description: Le cœur du moteur de recommandations est basé sur le nouvel algorithme de classement des cours de Learning Manager. L'algorithme utilise 50 millions de points de données et cinq années de données d'apprentissage agrégées sur des millions d'utilisateurs pour classer les cours en fonction de leur probabilité d'inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 57%
+source-wordcount: '1490'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,10 @@ Les administrateurs bénéficient d’un workflow guidé dans Learning Manager p
 
 1. Cliquez sur **[!UICONTROL Continuer]** pour passer au nouveau système de recommandations.
 
-   <!--![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*-->
+   <!--
+   ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
+   -->
 
 1. Créez les paramètres de recommandations pour les produits et les rôles.
 
@@ -110,39 +112,39 @@ L’administrateur doit transférer les données utilisateur dans un format pré
 
 Pour transférer les données afin que les recommandations fonctionnent, renseignez les champs Produits, Rôles et Niveaux dans les fichiers CSV User et RecommandationLO.
 
-Dans le cadre de l’exercice de préparation des données, nous fournissons deux modèles CSV :
+Dans le cadre de l’exercice de préparation des données, nous fournissons deux modèles CSV :
 
 **RecUser.csv**
 
-* Identifiant utilisateur
+* ID utilisateur
 * Produits
 * Rôles
 * Niveaux (débutant, intermédiaire ou avancé)
 
 Voici un exemple d’enregistrements du fichier CSV :
 
-| Identifiant utilisateur | Produits | Rôles | Niveaux  |
+| ID utilisateur | Produits | Rôles | Niveaux |
 |--- |--- |--- |--- |
 | 123 | Science des données | Analyste | Analyste : Intermédiaire |
 | 456 | Ingénieur en aérospatiale | Technicien | Technicien : Avancé |
 
 **RecLO.csv**
 
-* Cours/parcours d’apprentissage
+* Formations
 * Type de formation
 * Nom de la formation
 * Produits
 * Rôles
-* Niveaux 
+* Niveaux
 * Balises
 * Compétences
 
 Voici un exemple d’enregistrements du fichier CSV :
 
-| ID de formation | Type de formation | Nom de la formation | Produits | Rôles | Niveaux  | Balises | Compétences |
+| ID de formation | Type de formation | Nom de la formation | Produits | Rôles | Niveaux | Balises | Compétences |
 |---|---|---|---|---|---|---|---|
-| 111 | COURS | Python 101 | Science des données | Analyste | Analyste : Intermédiaire | data | Général |
-| 222 | COURS | Julia 101 | Science des données | Analyste | Analyste : avancé | data | Général |
+| 111 | COURS | Python 101 | Science des données | Analyste | Analyste : Intermédiaire | data | Généralités |
+| 222 | COURS | Julia 101 | Science des données | Analyste | Analyste : avancé | data | Généralités |
 
 Remplissez ces fichiers CSV et contactez votre équipe de réussite client pour télécharger les formats et charger ces fichiers CSV.
 
@@ -150,7 +152,7 @@ Remplissez ces fichiers CSV et contactez votre équipe de réussite client pour 
 
 Une fois les deux fichiers CSV chargés, cliquez sur Accéder en direct. Le nouveau système de recommandations sera ainsi visible pour les élèves.
 
-![mise en ligne](assets/computerdescription-automatically.png)
+![passer en direct](assets/computerdescription-automatically.png)
 *Mettez les recommandations en ligne*
 
 Le système de recommandation est désormais disponible pour vos élèves.
@@ -198,11 +200,11 @@ Les élèves peuvent voir les éléments suivants :
 Lorsque l’élève sélectionne Recommandations dans le panneau de gauche, une fenêtre contextuelle s’affiche permettant de configurer les recommandations.
 
 ![recommandations de configuration](assets/image575540.png)
-*L&#39;élève configure la recommandation*
+*L’élève configure la recommandation*
 
 En cliquant sur Configurer les recommandations, l’élève accède à la fenêtre contextuelle de sélection de produits.
 
-![fenêtre contextuelle de sélection de produit](assets/product-selection-popup.png)
+Fenêtre contextuelle de sélection de produits ![](assets/product-selection-popup.png)
 *Sélectionner des produits*
 
 Dans la fenêtre contextuelle suivante, l’élève peut sélectionner le rôle.
@@ -224,15 +226,15 @@ Un élève peut voir les bandes suivantes sur l’application :
 * Bande Enregistré par moi
 * Bande Très pertinent
 * Bande de produit - 1
-* Bande de produit - 2
+* Product strip - 2
 * Bande Découverte
 * Bande Recommandé par l’administrateur
 * Bande Rechercher par catalogue
 
 ### Cartes sur mon support d’apprentissage
 
-![cartes de bandes d’apprentissage](assets/image770606.png)
-*Cartes sur bande d&#39;apprentissage*
+![cartes d’apprentissage](assets/image770606.png)
+*Cartes sur bande d’apprentissage*
 
 Chaque carte indique une note, une image, un titre, une compétence, une date de publication, un auteur, une durée, une barre de progression et un bouton Continuer ou Explorer.
 

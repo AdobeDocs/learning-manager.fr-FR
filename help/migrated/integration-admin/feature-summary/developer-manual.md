@@ -4,17 +4,17 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
+source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 5%
+source-wordcount: '4583'
+ht-degree: 6%
 
 ---
 
 
 # Manuel du développeur Adobe Learning Manager
 
-## Vue d’ensemble
+## Présentation
 
 Adobe Learning Manager fournit des API RESTful qui permettent aux développeurs d’intégrer et de personnaliser efficacement des applications ou des workflows. Le manuel du développeur fournit des conseils sur l’utilisation de ces API, couvrant des sujets tels que l’authentification, les modèles de données et l’intégration avec d’autres applications. En outre, ce guide [documentation de référence API](https://learningmanager.adobe.com/docs/primeapi/v2/) aide les développeurs à créer des applications externes ou des workflows principaux qui interagissent avec diverses fonctionnalités de Adobe Learning Manager, notamment la création de cours, le suivi de la progression des élèves, le mappage des compétences, la certification, la ludification et les transcriptions.
 
@@ -61,7 +61,7 @@ Intégrez Adobe Learning Manager à des applications externes pour une plus gran
    * **[!UICONTROL Pour ce compte uniquement ?]**
 
       * **[!UICONTROL Oui]** : si vous choisissez Oui, l&#39;application n&#39;est pas visible pour les autres administrateurs de compte.
-      * **[!UICONTROL Non]** : si vous choisissez Non, les autres administrateurs de compte peuvent également accéder à cette application, mais ils doivent utiliser l’id de l’application pour y accéder. L’ID d’application est généré et affiché en mode de modification d’application Learning Manager.
+      * **[!UICONTROL Non]** : si vous choisissez Non, les autres administrateurs de compte peuvent également accéder à cette application, mais ils doivent utiliser l’id de l’application pour y accéder. L’identifiant de l’application est généré et affiché dans le mode Édition de l’application Learning Manager.
 
      ![Texte optionnel](assets/register-an-app.png)
 
@@ -410,7 +410,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
     <p style="text-align: left;"><b>Cours</b></p></td>
   </tr>
   <tr>
-  <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
+  <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.additionalResources</br><br>subLOs.enrollment</br><br>subLOs.subenrollmentprerequisites.los.enrollment LOs.enrollment.loInstance.loResources.resources</br><br>subLOs.additionalLOs.instances.loResources.resources</br>
   </td>
   <td>
   <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>auteurs</br><br>instances.loResources.resources</br><br>additionalLOs.instances.loResources.resources</br><br>additionalResources</br><br>instances.badge</br><br>skills.skillLevel.badge</br><br>skills.skillLevel.skill</br><br>instances.loResources.resources.room</br><br>prerequisiteLOs.enrollment</br><br>enrollment.loResourceGrades</br>
@@ -454,7 +454,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2&rbrace;]**
+**décalage de page[2}]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 
@@ -527,7 +527,7 @@ Les API Adobe Learning Manager permettent aux développeurs d’accéder aux obj
 | l&#39;interface | L’utilisateur est le modèle principal de Learning Manager. Les utilisateurs sont généralement les élèves internes ou externes d’une organisation qui utilisent les objets d’apprentissage. Cependant, ils peuvent jouer d’autres rôles tels que celui de l’auteur et du responsable outre le rôle de l’élève. L’ID de l’utilisateur, le type, le courrier électronique sont quelques-uns des attributs en ligne. |
 | resource | Cela représente chaque ressource de contenu dans un module. Toutes les ressources encapsulées dans un objet « loResource » sont équivalentes en termes d’objectif d’apprentissage, mais elles diffèrent les unes des autres en termes de type de livraison ou de paramètres régionaux de contenu. |
 | userNotification | Ce modèle contient des informations de notification relatives à un élève. |
-| userSkill | UserSkill indique la proportion d’un niveau de compétence unique atteinte par un seul utilisateur. |
+| userSkill | UserSkill indique le niveau de compétence atteint par un utilisateur. |
 | userBadge | UserBadge met en relation un badge avec un utilisateur. Il contient des détails tels que le moment où il a été atteint, assertionUrl et ainsi de suite. |
 | skill | Le modèle de compétences se compose de niveaux et de crédits. Les compétences peuvent être acquises par les élèves après la fin du cours concerné. |
 | skillLevel | Un niveau de compétence comprend un ou plusieurs cours à suivre pour acquérir un niveau ainsi que les crédits associés. |
@@ -536,7 +536,7 @@ Les API Adobe Learning Manager permettent aux développeurs d’accéder aux obj
 | learningObjectResource | Cela équivaut au concept de module. Un cours est composé d’un ou plusieurs modules. Dans Learning Manager, un module peut être fourni de diverses manières équivalentes. Par conséquent, loResource encapsule essentiellement toutes ces ressources équivalentes. |
 | loResourceGrade | Cet objet encapsule le résultat de l’utilisateur qui consomme une ressource spécifique dans le contexte d’un objet d’apprentissage auquel il est inscrit. Il contient des informations telles que la durée passée par l’utilisateur dans la ressource, le pourcentage de progression effectué par l’utilisateur, le statut Réussite/Échec et le score obtenu par l’utilisateur dans tout quiz associé. |
 | calendar | Un objet Calendrier est une liste de cours en salle de classe ou en salle de classe virtuelle à venir auxquels l’utilisateur peut s’inscrire. |
-| l1FeedbackInfo | Le retour d’informations L1 encapsule les réponses fournies par un élève aux questions de retour d’informations associées à des objets d’apprentissage. En général, ces informations sont collectées une fois que l’utilisateur a terminé un objet d’apprentissage s’il est configuré pour collecter ces commentaires des élèves. |
+| l1FeedbackInfo | Le retour d’informations L1 encapsule les réponses fournies par un élève aux questions de retour d’informations associées à des objets d’apprentissage. En règle générale, il est collecté après que l’utilisateur a terminé un objet d’apprentissage, s’il a été configuré pour collecter ces informations auprès des élèves. |
 | enrollment | Cette abstraction encapsule les détails relatifs à la transaction représentant l’affectation d’un utilisateur spécifique à une instance d’objet d’apprentissage spécifique. |
 
 
@@ -991,7 +991,7 @@ internalUserID, userEmail, customerDefinedUniqueUserId, name, managerEmail, user
 
 Le point de terminaison POST /users vous aide à créer un utilisateur à l’aide du mode sans tête. Créez des utilisateurs avec des informations détaillées, comme le processus d’inscription dans l’interface utilisateur native d’Adobe Learning Manager.
 
-Par exemple,
+Par exemple :
 
 ```
 POST https://learningmanager.adobe.com/primeapi/v2/users
@@ -1324,7 +1324,7 @@ Lorsque vous travaillez avec des API Adobe Learning Manager (Adobe Learning Mana
 |---|---|---|
 | 400 | Requête incorrecte | Recherchez les paramètres manquants ou incorrects dans la demande. Vérifiez les champs obligatoires et le formatage correct. Par exemple, la syntaxe du filtre, des champs ou des paramètres include n’est pas valide. |
 | 401 | Jeton non autorisé non valide ou manquant | Vérifiez que votre jeton d’accès est correct et inclus dans l’en-tête d’autorisation. Vérifiez que le jeton est actif. Utilisez également l’ID client et le secret client corrects lors de la demande du jeton. |
-| 403 | Interdit. Pas d’accès | Vous n&#39;êtes pas autorisé à accéder à la ressource. Vérifiez que votre jeton possède les portées correctes (admin:read, learner:write, etc.). |
+| 403 | Interdit. Pas d’accès | Vous n&#39;êtes pas autorisé à accéder à la ressource. Vérifiez que votre jeton possède les portées correctes (administrateur:read, élève:write, etc.). |
 | 404 | Ressource introuvable | L’ID du point de terminaison ou de la ressource est incorrect ou inexistant. Vérifiez que la ressource figure dans la liste des paramètres. |
 | 406 | Non acceptable - En-tête d’acceptation incorrect | Ajoutez cet en-tête à votre demande : Acceptez : application/vnd.api+json <br>Les API Adobe Learning Manager exigent strictement ce type de contenu.</br> |
 | 500 | Erreur de serveur interne | Il s’agit d’un problème côté serveur. Réessayez ultérieurement ou signalez le problème aux équipes d’assistance Adobe Learning Manager s’il persiste. |
@@ -1332,7 +1332,8 @@ Lorsque vous travaillez avec des API Adobe Learning Manager (Adobe Learning Mana
 
 
 
-<!--# Application developer manual
+<!--
+# Application developer manual
 
 >[!NOTE]
 >

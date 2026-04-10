@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '4620'
-ht-degree: 36%
+source-wordcount: '4664'
+ht-degree: 44%
 
 ---
 
@@ -190,7 +190,7 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
 
 1. Pour ajouter du contenu, sélectionnez **[!UICONTROL Ajouter un fichier de contenu]**, puis chargez votre fichier de ressources. Lorsque vous ajoutez du contenu dans diverses langues, vous ne pouvez pas combiner le contenu statique et le contenu interactif dans un même groupe. L’ensemble de votre contenu dans toutes les langues doit être soit statique, soit interactif.
 
-* [Types de fichier pris en charge](content-library.md#supported)
+* [Types de fichiers pris en charge](content-library.md#supported)
 
   Le contenu interactif peut être une option SCORM, AICC ou un projet publié Captivate. Ce fichier doit être un fichier zip.
 
@@ -206,7 +206,7 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
 
    En tant qu’auteur, lorsque vous chargez un contenu vidéo ou audio, vous pouvez également charger le fichier VTT qui contient les sous-titres.
 
-   Les sous-titres apparaissent ensuite dans le lecteur Fluidic. Les sous-titres sont également conformes aux [normes WCAG2.0](https://www.w3.org/TR/WCAG20/).
+   Les sous-titres apparaissent alors dans le lecteur Fluidic. Les sous-titres sont également conformes aux [normes WCAG2.0](https://www.w3.org/TR/WCAG20/).
 
    Lorsque vous ajoutez un contenu vidéo à la bibliothèque, vous pouvez également ajouter le fichier VTT, qui **doit** être un fichier valide.
 
@@ -224,7 +224,7 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
 
    En tant qu’auteur, chaque fois que vous modifiez le contenu, la vidéo ou l’audio, Adobe Learning Manager vous invite à créer un fichier vtt.
 
-   Après avoir ajouté ce contenu à un cours et lorsque vous affichez un aperçu du cours en tant qu’élève, vous pouvez voir les légendes sur la vidéo.
+   Une fois que vous avez ajouté ce contenu à un cours et que vous avez prévisualisé le cours en tant qu’élève, vous pouvez voir les légendes sur la vidéo.
 
    Sur le lecteur, activez ou désactivez le bouton CC sur le lecteur Fluidic pour afficher ou masquer les légendes.
 
@@ -245,7 +245,7 @@ La prise en charge de WebVTT n’est pas disponible pour :
 
 ### Prise en charge du catalogue partagé
 
-Si un compte vendeur partage un catalogue contenant les cours et que ces derniers contiennent les modules, audio ou vidéo avec sous-titres, les cours doivent se comporter de la même manière dans le compte acheteur.
+Si un compte Vendeur partage un catalogue contenant les cours et que ceux-ci contiennent les modules, l&#39;audio ou la vidéo avec les sous-titres, ces cours doivent se comporter de la même manière dans le compte Acheteur.
 
 La propagation du module doit fonctionner correctement du compte Vendeur au compte Acheteur. Cela peut inclure - modifier/supprimer/ajouter le fichier vtt dans le module.
 
@@ -300,9 +300,9 @@ Une fois qu’un administrateur a créé les dossiers de contenu, vous pouvez, e
 
 **Exemple d’utilisation**
 
-Par exemple, les agences veulent garder le contrôle total du contenu et une personne qui surveille le contenu doit avoir accès à tout le contenu. En même temps, les créateurs de contenu dans les agences doivent avoir accès à leur propre contenu uniquement, et dans certains cas, à celui de quelqu&#39;un d&#39;autre.
+Par exemple, les agences veulent conserver le contrôle total du contenu et une personne qui surveille ce contenu doit y avoir accès total. En même temps, les créateurs de contenu dans les agences doivent avoir accès à leur propre contenu uniquement, et dans certains cas, à celui de quelqu&#39;un d&#39;autre.
 
-La bibliothèque de contenu avec du contenu existant (c.-à-d. du contenu chargé avant de configurer les dossiers de contenu) est définie comme **dossier public**. Ce dossier ne peut pas être retiré ou supprimé. Le contenu qui fait partie du dossier Public est accessible à tous les types d’auteurs. Une fois les dossiers de contenu configurés, les auteurs standard et les auteurs personnalisés doivent sélectionner le dossier où le contenu doit être placé, lors du chargement du nouveau contenu.
+La bibliothèque de contenu avec du contenu existant (c’est-à-dire du contenu chargé avant la configuration des dossiers de contenu) est définie comme **Dossier public**. Ce dossier ne peut pas être retiré ou supprimé. Le contenu qui fait partie du dossier Public est accessible à tous les types d’auteurs. Une fois les dossiers de contenu configurés, les auteurs standard et les auteurs personnalisés doivent sélectionner le dossier dans lequel le contenu doit être placé, tout en chargeant le nouveau contenu.
 
 >[!NOTE]
 >
@@ -314,9 +314,9 @@ Lorsque vous ajoutez un contenu, vous pouvez choisir le dossier dans lequel le c
 
 *Ajouter du contenu au dossier*
 
-Si vous choisissez **Public**, le contenu sera visible par tous les auteurs. Par défaut, tout le contenu existant dans le compte qui ne fait partie d’aucun dossier se trouve dans le dossier public.
+Si vous choisissez **Public**, le contenu sera visible par tous les auteurs. Par défaut, tout contenu existant dans le compte et qui ne fait partie d’aucun dossier apparaît dans le dossier public.
 
-Notez que les dossiers de contenu sont simplement des compartiments virtuels permettant de lier le contenu. Si un contenu est placé dans deux dossiers, cela signifie que le fichier de contenu est toujours un seul fichier, mais lié à plusieurs dossiers. Ainsi, si le contenu est mis à jour par le custom-author-1 ayant accès au dossier-personnalisé-1, le même contenu mis à jour sera également reflété dans le dossier-personnalisé-2 accessible par le custom-author-2.
+Notez que les dossiers de contenu sont simplement des compartiments virtuels permettant de lier le contenu. Si un contenu est placé dans deux dossiers, cela signifie que le fichier de contenu représente toujours un seul fichier mais qu&#39;il est lié à plusieurs dossiers. Ainsi, si le contenu est mis à jour par le fichier custom-author-1 ayant accès à custom-folder-1, le même contenu mis à jour apparaîtra également dans custom-folder-2 accessible par custom-author-2.
 
 Dans la bibliothèque de contenu, deux options permettent de gérer les dossiers de contenu :
 
@@ -340,7 +340,7 @@ Cette option est disponible **uniquement** lorsqu&#39;un administrateur crée un
 
 ## Déplacer le contenu vers le dossier {#movecontenttofolder}
 
-Pour déplacer le contenu d’un dossier public vers un dossier privé,
+Pour déplacer un contenu de dossier public vers un dossier privé,
 
 1. Sélectionnez le dossier **Public** dans la liste déroulante **Tous les dossiers**.
 
@@ -358,7 +358,7 @@ Pour déplacer le contenu d’un dossier public vers un dossier privé,
 
 ## Copier le contenu vers le dossier {#copycontenttofolder}
 
-Si vous copiez un dossier, cela signifie que vous ajouteriez une balise au dossier. L’opération de copie ne crée pas de copies du contenu, mais ajoute uniquement une association avec les dossiers spécifiés.
+Si vous copiez un dossier, cela signifie que vous ajouteriez une balise au dossier. L’opération de copie ne crée aucune copie de contenu, mais ajoute uniquement une association avec des dossiers spécifiés.
 
 ![](assets/copy-content-to-folder.png)
 
@@ -366,9 +366,9 @@ Si vous copiez un dossier, cela signifie que vous ajouteriez une balise au dossi
 
 ## Annuler le lien d&#39;un dossier {#unlinkfolder}
 
-Dissocier signifie supprimer le contenu du dossier sélectionné.
+La suppression du lien entraîne la suppression du contenu du dossier sélectionné.
 
-Le contenu peut être dissocié d&#39;un dossier spécifié **UNIQUEMENT** s&#39;il est également associé à d&#39;autres dossiers. Si le contenu dissocié n’est associé qu’à un seul dossier, il est conseillé d’utiliser l’opération MOVE à la place.
+Le contenu peut être dissocié d&#39;un dossier spécifié **UNIQUEMENT** s&#39;il est également associé à d&#39;autres dossiers. Si un contenu non lié est associé à un seul dossier, il est conseillé d’utiliser l’opération MOVE (déplacer) à la place.
 
 >[!NOTE]
 >
@@ -415,7 +415,7 @@ Le contenu peut être dissocié d&#39;un dossier spécifié **UNIQUEMENT** s&#39
      <li>Basé sur le pourcentage minimal requis</li>
      <li>Quiz réussi ou options tentées</li>
     </ul>
-    <p><b>REMARQUE :</b> seul le contenu HTML du Captivate, de Presenter Video Express ou de Presenter peut être modifié.</p></td>
+    <p><b>REMARQUE :</b> seul le contenu HTML de Captivate, Presenter Video Express ou Presenter peut être modifié.</p></td>
   </tr>
  </tbody>
 </table>
@@ -653,11 +653,11 @@ Créez un cours d’e-learning compatible SCORM dans n’importe quel outil, tel
 
 +++Comment puis-je télécharger une nouvelle version du même contenu sur Adobe Learning Manager ?
 
-Dans Adobe Learning Manager, la bibliothèque de contenu conserve également les versions de vos contenus téléchargés. Si vous modifiez le contenu d’une présentation PowerPoint, par exemple, et que vous la téléchargez à nouveau dans la bibliothèque, le numéro de version est incrémenté d’une unité. Cela vous aide à suivre l’évolution de votre contenu. Une nouvelle version du contenu peut être appliquée à tous les objets d’apprentissage simultanément ou vous pouvez appliquer des mises à jour individuelles pour chaque cours.
+Dans Adobe Learning Manager, la bibliothèque de contenu conserve également les versions de vos contenus téléchargés. Si vous apportez des modifications au contenu, par exemple une présentation PowerPoint, et que vous téléchargez à nouveau la présentation dans la bibliothèque, le numéro de version est incrémenté d’une unité. Cela vous aide à suivre l’évolution de votre contenu. Une nouvelle version du contenu peut être appliquée à tous les objets d’apprentissage simultanément ou vous pouvez appliquer des mises à jour individuelles pour chaque cours.
 +++
 
 +++Comment modifier les détails d’un cours dans une autre langue ?
 Après avoir ajouté une langue/des langues, comme décrit dans une section précédente, cliquez sur chaque onglet de langue, puis ajoutez/modifiez les informations sur le cours.
 
-&lt; !—![](assets/edit-course-language.png)—>
+<!--![](assets/edit-course-language.png)-->
 +++

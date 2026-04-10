@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Tableau de bord des responsables
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ La vue Équipe affiche les équipes, leurs membres et leurs inscriptions respect
 
 *La vue Équipe affiche les équipes, leurs membres et leurs inscriptions respectives*
 
-En cliquant sur les noms des équipes, par exemple Équipe de Venkatesh, vous pouvez afficher les membres de l’équipe de Venkatesh ainsi que le nombre total d’inscriptions, de progressions et d’achèvements pour un objet d’apprentissage.
+En cliquant sur les noms des équipes, par exemple, Équipe de Venkatesh, vous pouvez afficher les membres de l’équipe de Venkatesh avec le nombre total d’inscriptions, de progressions et de complétions pour un objet d’apprentissage.
 
 ![](assets/ls-click-team-names.png)
 
@@ -139,7 +139,8 @@ Cela vous permet de suivre la progression globale de l’apprentissage de votre 
 ![](assets/download-report.png)
 _Télécharger les rapports_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,7 +198,8 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## Compétences d’équipe {#teamskills}
 
@@ -213,7 +215,7 @@ Cette prévision est basée sur des calculs système qui donnent une idée de l�
 
 Pour afficher l’état des compétences d’une équipe, procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Compétences d&#39;équipe]** dans le volet de gauche sous la section Mon affichage d&#39;équipe.
+1. Cliquez sur **[!UICONTROL Compétences d’équipe]** dans le volet de gauche sous la section Vue de mon équipe.
 1. Pour afficher les compétences, cliquez sur le filtre de compétences et sélectionnez-en une dans la liste déroulante.
 1. Pour sélectionner un niveau (niveau 1, niveau 2 ou niveau 3), cliquez sur le menu déroulant du niveau.
 1. En fonction de la compétence et du niveau sélectionnés, un graphique avec le statut de compétence est affiché. En plaçant le curseur sur le graphique, les pourcentages du statut de compétence suivants s’affichent : **En cours** et **Obtenues**.
@@ -232,13 +234,13 @@ Pour prévoir le % d’achèvement de l’équipe par rapport à une compétence
 
    *Sélectionnez le lien hypertexte Configurer*
 
-1. Dans la boîte de dialogue de configuration, pour la compétence que vous souhaitez configurer, entrez une valeur de pourcentage dans le champ **Accomplissement cible %** et la date à laquelle vous souhaitez atteindre l&#39;achèvement cible % dans le champ **Date cible**.**&#x200B;**
+1. Dans la boîte de dialogue de configuration, pour la compétence que vous souhaitez configurer, entrez une valeur de pourcentage dans le champ **Accomplissement cible %** et la date à laquelle vous souhaitez atteindre l&#39;achèvement cible % dans le champ **Date cible**.****
 
    ![](assets/configure-tracker.png)
 
    *Entrez le pourcentage d&#39;achèvement cible*
 
-1. Pour afficher les résultats de vos prévisions, cliquez sur le bouton **Estimation**. La sortie ressemble à la capture d’écran ci-dessous.
+1. Pour afficher les résultats de vos prévisions, cliquez sur le bouton **Estimation**. Les résultats s’affichent comme dans la copie d’écran ci-dessous.
 
    ![](assets/skill-tracker-output.png)
 

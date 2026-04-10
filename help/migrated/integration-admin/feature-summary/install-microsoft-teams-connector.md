@@ -4,20 +4,20 @@ jcr-language: en_us
 title: Installer le connecteur Microsoft Teams dans Adobe Learning Manager
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 6192559436074c3270644850b202589961e7b81b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 17%
+source-wordcount: '1212'
+ht-degree: 52%
 
 ---
 
 # Installer le connecteur Microsoft Teams dans Adobe Learning Manager
 
-## Vue d’ensemble
+## Présentation
 
 Microsofts Teams ® est une plateforme de collaboration basée sur le chat permanent qui prend en charge le partage de documents, les réunions en ligne et d’autres fonctionnalités pour la communication en entreprise.
 
-Adobe Learning Manager utilise un connecteur de salle de classe virtuelle qui peut être utilisé pour intégrer les réunions de Microsofts Teams à Learning Manager.
+Adobe Learning Manager utilise un connecteur de salle de classe virtuelle qui peut être utilisé pour intégrer les réunions Microsoft Teams avec Learning Manager.
 
 Le connecteur Microsoft Teams connecte les systèmes Learning Manager et Microsoft Teams pour permettre la synchronisation automatique de la réunion virtuelle. La liste suivante décrit les fonctionnalités du connecteur Microsoft Teams :
 
@@ -27,15 +27,15 @@ Ce connecteur vous aide à intégrer votre compte Adobe Learning Manager avec
 
 **Autoriser les Microsofts Teams à authentifier les élèves lorsqu&#39;elles entrent dans une salle de classe virtuelle**
 
-Ce connecteur permet de configurer l’organisateur de réunion Microsofts Teams à partir de Learning Manager lors de la création d’une réunion. L’organisateur de la réunion peut gérer l’entrée pour restreindre ou autoriser l’entrée à une réunion, ainsi que contrôler d’autres options de réunion fournies par Microsoft Teams.
+Ce connecteur aide à configurer l’organisateur de réunion Microsoft Teams à partir de Learning Manager, tout en créant une réunion. L’organisateur de la réunion peut gérer l’entrée pour restreindre ou autoriser l’entrée à une réunion, ainsi que contrôler d’autres options de réunion fournies par Microsoft Teams.
 
 **Utiliser la synchronisation automatisée de l’achèvement des travaux des utilisateurs**
 
-Le processus automatisé de synchronisation de l’achèvement des travaux des utilisateurs permet à un administrateur Learning Manager de récupérer automatiquement les enregistrements d’achèvement et l’URL d’enregistrement pour la réunion de Microsofts Teams.
+Le processus automatisé de synchronisation de l’achèvement des travaux des utilisateurs permet à un administrateur Learning Manager de récupérer automatiquement les enregistrements d’achèvement et l’URL d’enregistrement pour la réunion de Microsoft Teams.
 
 ## Rôles dans Microsoft Teams
 
-Si vous organisez une réunion avec plusieurs participants, vous pouvez attribuer des rôles à chaque participant afin qu’il sache ce qu’il peut faire lors de la réunion.
+Si vous organisez une réunion avec plusieurs participants, vous pouvez attribuer des rôles à chaque participant afin qu’il puisse savoir ce qu’il doit faire lors de la réunion.
 
 Deux rôles sont proposés : **présentateur** et **participant**.
 
@@ -49,7 +49,7 @@ Pour plus d&#39;informations, voir [Rôles lors d&#39;une réunion Teams - Micro
 
 ## Créer un compte développeur E5 Microsoft &lt;Developer/Optional>
 
-Vous pouvez accéder au connecteur de Microsofts Teams si vous disposez d&#39;Office 365 E3 ou d&#39;Office 365 E5. L’option recommandée est Office 365 E5.
+Vous pouvez accéder au connecteur Microsoft Teams si vous avez Office 365 E3 ou Office 365 E5. L’option recommandée est Office 365 E5.
 
 * Consultez la page des [formules Microsoft](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Sur la page Web, vous pouvez acheter un compte E3 ou E5 ou cliquer sur Essayer gratuitement.
 * Fournissez les informations nécessaires et créez un compte.
@@ -61,10 +61,10 @@ Vous pouvez accéder au connecteur de Microsofts Teams si vous disposez d&#39;Of
 ## Création d’une application pour le connecteur de Microsofts Teams
 
 1. Rendez-vous sur le [portail Microsoft Azure®](https://portal.azure.com/).
-1. Connectez-vous avec le compte Microsoft E5 que vous avez créé dans la section précédente.
-1. Recherchez **Azure Active Directory**.
-1. Cliquez sur **[!UICONTROL Enregistrements d&#39;applications]**.
-1. Cliquez sur **[!UICONTROL Nouvel enregistrement]**, saisissez les informations suivantes, puis enregistrez l&#39;application :
+1. Connectez-vous avec le compte Microsoft E5 créé à la section précédente.
+1. Rechercher **Azure Active Directory**.
+1. Cliquez sur **[!UICONTROL Enregistrements d’applications]**.
+1. Cliquez sur **[!UICONTROL Nouvel enregistrement]**, saisissez les informations suivantes, puis enregistrez l’application :
 
    1. **Nom** : tout nom de votre choix.
    1. **Types de comptes pris en charge** : comptes dans n’importe quel répertoire organisationnel (tout multiclient Azure Active Directory).
@@ -75,22 +75,22 @@ Vous pouvez accéder au connecteur de Microsofts Teams si vous disposez d&#39;Of
    1. **ID (client) de l&#39;application**
    1. **ID (client) de répertoire**
 
-1. Recherchez les informations d&#39;identification du client et cliquez sur **[!UICONTROL Ajouter un certificat ou un secret]**.
-1. Cliquez sur **[!UICONTROL Nouveau secret du client]** et ajoutez les détails suivants :
+1. Recherchez les informations d’identification du client et cliquez sur **[!UICONTROL Ajouter un certificat ou un secret]**.
+1. Cliquez sur **[!UICONTROL Nouveau secret du client]** et ajoutez les informations suivantes :
 
    1. **Description** : saisissez un nom.
    1. **Expire** - Définissez n&#39;importe quelle valeur (la valeur recommandée est 24 mois. Assurez-vous que les informations d’identification du nouveau client soient bien générées après expiration des précédentes).
 
-Notez le secret du client, qui sera utilisé ultérieurement lors de l’intégration.
+Notez bien le secret du client, qui sera utilisé par la suite lors de l’intégration.
 
-## Obtenir l&#39;autorisation d&#39;accès pour le connecteur de Microsofts Teams
+## Obtenir une autorisation d’accès pour le connecteur Microsoft Teams
 
 1. Accédez au [portail Microsoft Azure](https://portal.azure.com/).
-1. Connectez-vous avec le Microsoft E5 que vous avez créé précédemment.
-1. Recherchez **Azure Active Directory**.
-1. Cliquez sur **[!UICONTROL Enregistrements d&#39;applications]**.
+1. Connectez-vous avec le compte Microsoft E5 créé précédemment.
+1. Rechercher **Azure Active Directory**.
+1. Cliquez sur **[!UICONTROL Enregistrements d’applications]**.
 1. Cliquez sur l’application que vous avez créée à la section précédente.
-1. Cliquez sur **[!UICONTROL Autorisations API]**.
+1. Cliquez sur **[!UICONTROL Autorisations d’API]**.
 1. Cliquez sur **[!UICONTROL Ajouter une autorisation]**.
 1. Sélectionnez **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Autorisations de l&#39;application]** et ajoutez les autorisations suivantes :
 
@@ -102,9 +102,9 @@ Notez le secret du client, qui sera utilisé ultérieurement lors de l’intégr
    1. User.Read.All
    1. OnlineMeetingRecording.Read.All
 
-1. Cliquez sur **[!UICONTROL Accorder l&#39;accès administrateur pour l&#39;Adobe]**.
+1. Cliquez sur **[!UICONTROL Accorder l’accès administrateur pour Adobe]**.
 1. Cliquez sur **[!UICONTROL Rôles d&#39;application]** > **[!UICONTROL Créer un rôle d&#39;application]**.
-1. Saisissez les valeurs suivantes :
+1. Entrez les valeurs suivantes :
 
    1. **Nom d&#39;affichage** : nom de l&#39;API/autorisation (par exemple, Calendars.ReadWrite).
 
@@ -116,9 +116,9 @@ Notez le secret du client, qui sera utilisé ultérieurement lors de l’intégr
 
    1. **Voulez-vous activer ce rôle d&#39;application ?** - Cochez cette case.
 
-1. Répétez les étapes précédentes pour les neuf API/autorisations ajoutées.
+1. Répétez les étapes précédentes pour les neuf API/Autorisations ayant été ajoutées.
 
-## Configuration de la stratégie d’accès à l’aide de scripts PowerShell
+## Configurer la stratégie d’accès à l’aide de scripts PowerShell
 
 Pour configurer la stratégie d&#39;accès de l&#39;application pour le connecteur de Microsofts Teams en exécutant des scripts PowerShell, suivez la procédure décrite dans ce [document](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
@@ -126,7 +126,7 @@ Cela permet au connecteur d’accéder aux réunions en ligne de Microsoft Teams
 
 >[!NOTE]
 >
->Dans le document ci-dessus, exécutez également l’étape facultative 5 pour vous assurer que tout utilisateur actif peut se voir accorder le rôle d’organisateur dans l’application Learning Manager Author. Si cette étape n’est pas exécutée, les utilisateurs ne disposeront pas des autorisations d’accès requises pour être organisateurs et la création de la réunion échouera (les API Microsoft considèrent l’organisateur comme le créateur d’une réunion Teams).
+>Dans le document ci-dessus, exécutez également l’étape facultative 5 pour vous assurer que tout utilisateur actif peut se voir accorder le rôle d’organisateur dans l’application Learning Manager Author. Si cette étape n’est pas effectuée, les utilisateurs ne disposeront pas des autorisations d’accès nécessaires pour être organisateurs et la création de la réunion échouera (les API Microsoft considèrent l’organisateur comme le créateur d’une réunion Teams).
 
 ## Configuration du connecteur de Microsofts Teams dans Learning Manager
 
@@ -154,7 +154,8 @@ Cela permet au connecteur d’accéder aux réunions en ligne de Microsoft Teams
 1. Cliquez sur **[!UICONTROL Gérer les licences de produit]**.
 1. Activer la licence pour Office 365 E5 sans conférence audio.
 
-<!--## Record a session
+<!--
+## Record a session
 
 The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
@@ -164,30 +165,31 @@ In the document,
 
 For learners, the recording URL is displayed on the VC course overview page.
 
-After 30 minutes of completing a course, the attendance for the learner gets marked. -->
+After 30 minutes of completing a course, the attendance for the learner gets marked. 
+-->
 
 ## Forum aux questions
 
-+++Qui est un organisateur et un présentateur ?
++++Qui est un Organisateur et un Présentateur ?
 
 Consultez la [documentation](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) de Microsoft pour connaître les différents rôles et capacités pris en charge par les Microsofts Teams.
 
 +++
 
-+++Un organisateur doit-il être un utilisateur inscrit à Learning Manager et aux Microsofts Teams ?
++++Est-ce qu’un présentateur doit être un utilisateur inscrit à Learning Manager et Microsoft Teams ? 
 
 Oui, le présentateur doit faire partie à la fois de Learning Manager et de Microsoft Teams. En outre, l’organisateur doit faire partie du même locataire Microsoft, qui est configuré dans l’application d’administration de l’intégration.
 
 +++
 
-+++Un présentateur doit-il être un utilisateur inscrit à Learning Manager et aux Microsofts Teams ?
++++Est-ce qu’un présentateur doit être un utilisateur inscrit à Learning Manager et Microsoft Teams ? 
 
-Oui, le présentateur doit faire partie à la fois de Learning Manager et des Microsofts Teams. Le présentateur doit avoir un ID Azure Active Directory (peut faire partie du même client que l’organisateur ou de tout autre client). En outre, même les utilisateurs anonymes (utilisateurs qui se connectent uniquement avec le nom d’utilisateur et qui ne font pas partie d’Active Directory) peuvent également être désignés comme présentateurs par l’organisateur/les présentateurs existants pendant la réunion.
+Oui, l’organisateur doit faire partie à la fois de Learning Manager et de Microsoft Teams. Le présentateur doit avoir un ID Azure Active Directory (peut faire partie du même locataire que l’organisateur ou d’un autre locataire). En outre, même les utilisateurs anonymes (utilisateurs qui se connectent uniquement avec le nom d’utilisateur et qui ne font pas partie d’Active Directory) peuvent également être désignés comme présentateurs par l’organisateur/les présentateurs existants pendant la réunion.
 
 +++
 
-+++Microsofts Teams a des réunions, des webinaires et des événements en direct. Lequel est pris en charge par le connecteur Teams ?
++++Microsoft Teams propose des réunions, des webinaires et des événements en direct. Lequel est pris en charge par le connecteur Teams ? 
 
-Actuellement, le connecteur Teams prend uniquement en charge les réunions dans les Microsofts Teams. Pour plus d&#39;informations, consultez ce [document](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
+Pour le moment, le connecteur Teams prend uniquement en charge les réunions dans Microsoft Teams. Pour plus d&#39;informations, consultez ce [document](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 
 +++

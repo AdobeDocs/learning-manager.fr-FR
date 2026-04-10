@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Ludification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 56%
+source-wordcount: '1655'
+ht-degree: 69%
 
 ---
 
@@ -15,15 +15,17 @@ ht-degree: 56%
 
 La ludification est l’utilisation de l’esprit et de la mécanique du jeu dans des contextes non ludiques pour inciter des utilisateurs à gagner des points tout en apprenant.
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 Le Adobe Learning Manager comprend une fonctionnalité appelée Ludification, conçue pour impliquer les élèves et promouvoir l’apprentissage grâce à des éléments de jeu interactifs. Il encourage les comportements d’apprentissage souhaités par le biais de récompenses et permet aux élèves de gagner des points et de se mesurer à leurs pairs. Cette fonctionnalité améliore l’engagement et la motivation des utilisateurs au sein de la plateforme d’apprentissage.
 
 Par défaut, quelques points et données de ludification d’exemple sont disponibles pour les utilisateurs afin de comprendre la finalité. Vous pouvez modifier les points en conséquence.
 
-<!--A sample illustration is provided below that shows all the tasks and points.
+<!--
+A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)-->
+![](assets/gamification-feb12-e1439214291423.png)
+-->
 
 ## Paramètres de ludification {#gamificationsettings}
 
@@ -48,11 +50,11 @@ Les administrateurs peuvent configurer les points de ludification pour les parti
 
 ## Tâches {#tasks}
 
-Il existe cinq tâches de ludification des élèves pour lesquelles l’administrateur peut définir des points. Une représentation de l’ensemble des tâches et des points des élèves est donnée ci-dessous :
+Il existe cinq tâches de ludification des élèves pour lesquelles l’administrateur peut définir les points. Une représentation de l’ensemble des tâches et des points des élèves est donnée ci-dessous :
 
 >[!NOTE]
 >
->Les points de ludification des élèves dans une tâche particulière ne sont pas cumulables. Toutefois, les points sont ajoutés au compte des élèves de manière cumulative si les élèves obtiennent ces points pour différentes tâches.
+>Les points de ludification des élèves dans une tâche particulière ne sont pas cumulables. En revanche, les points sont ajoutés au compte de l’élève de façon cumulative si ces points sont acquis dans différentes tâches.
 
 Lors de l’affectation des cours en points, l’administrateur doit s’assurer que les élèves acquièrent les points progressivement.
 
@@ -75,12 +77,12 @@ Dans une tâche, les points ne sont pas octroyés aux participants de façon cum
 
 **Pour les autonomes (a)**
 
-Cette tâche s’applique lorsque les élèves s’inscrivent pour le nombre prescrit de cours et terminent dans un délai d’un mois/trimestre/an. Dans ce cas, l’administrateur peut activer cette tâche pour allouer des points et les encourager.
+Cette tâche s’applique lorsque les élèves s’inscrivent pour un nombre requis de cours et les terminent en un mois, un trimestre ou une année. Dans ce cas, l’administrateur peut activer cette tâche avec une allocation de points pour les encourager.
 
 Scénarios possibles :
 
 1. Lorsque les élèves s’inscrivent à un cours en un mois/trimestre/année, ils obtiennent 50 points.
-1. Lorsque les élèves s&#39;inscrivent à deux cours au cours d&#39;un mois/trimestre/an, ils obtiennent 150 points.
+1. Lorsque les élèves s’inscrivent à deux cours en un mois/trimestre/année, ils obtiennent 150 points.
 
 >[!NOTE]
 >
@@ -93,7 +95,7 @@ Cette tâche s’applique lorsque des élèves s’inscrivent et suivent un plus
 Scénarios possibles de l’inscription d’élèves à des cours s’ajoutant à leurs cours affectés :
 
 1. Lorsque les élèves s’inscrivent à un cours en un mois/trimestre/année, ils obtiennent 20 points.
-1. Lorsque les élèves s&#39;inscrivent à deux cours au cours d&#39;un mois/trimestre/an, ils obtiennent 100 points.
+1. Lorsque les élèves s’inscrivent à deux cours en un mois/trimestre/année, ils obtiennent 100 points.
 1. Lorsque les élèves s’inscrivent à trois cours en un mois/trimestre/année, ils obtiennent 300 points.
 1. Lorsque les élèves s’inscrivent à quatre cours en un mois/trimestre/année, ils obtiennent 500 points.
 
@@ -107,10 +109,10 @@ Cette tâche s’applique lorsque les élèves terminent un nombre spécifique d
 
 Scénarios possibles de perfectionnement des compétences :
 
-1. Lorsque l’élève atteint une compétence, il obtient 100 points.
-1. Lorsqu’un élève atteint deux compétences, il obtient 300 points.
-1. Lorsqu’un élève atteint trois compétences, il obtient 600 points.
-1. Lorsqu’un élève atteint quatre compétences, il obtient 900 points.
+1. Lorsqu’un élève acquiert une compétence, il obtient 100 points.
+1. Lorsqu’un élève acquiert deux compétences, il obtient 300 points.
+1. Lorsqu’un élève acquiert trois compétences, il obtient 600 points.
+1. Lorsqu’un élève acquiert quatre compétences, il obtient 900 points.
 
 >[!NOTE]
 >
@@ -122,9 +124,9 @@ Cette tâche s’applique chaque fois que les élèves atteignent chacun des niv
 
 Les scénarios possibles pour les super perfectionnistes dans les niveaux d’une compétence spécifique :
 
-1. Lorsque les élèves atteignent un niveau, ils obtiennent 100 points.
-1. Lorsque les élèves atteignent deux niveaux, ils obtiennent 200 points.
-1. Lorsque les élèves atteignent trois niveaux, ils obtiennent 500 points.
+1. Lorsque les participants atteignent un niveau, ils obtiennent 100 points.
+1. Lorsque les participants atteignent deux niveaux, ils obtiennent 200 points.
+1. Lorsque les participants atteignent trois niveaux, ils obtiennent 500 points.
 
 >[!NOTE]
 >
@@ -171,7 +173,7 @@ Scénarios possibles :
 1. Lorsque les élèves participent à des activités d’apprentissage pendant deux jours chaque semaine, ils obtiennent 40 points.
 1. Lorsque les élèves participent à des activités d’apprentissage pendant une journée chaque semaine, ils obtiennent 80 points.
 
-**Commentaire** 
+**Commentaire**
 
 Cela s’applique aux élèves qui fournissent des commentaires sur les cours.
 
@@ -214,7 +216,7 @@ Des paramètres de confidentialité peuvent être appliqués pour les utilisateu
 
 Vous pouvez réinitialiser les points de ludification obtenus par un participant et aussi réinitialiser les paramètres de configuration. Si vous choisissez de réinitialiser les scores des utilisateurs, tous les points obtenus par les utilisateurs sont effacés et remis à zéro. Si vous choisissez de réinitialiser les scores des utilisateurs et les paramètres de configuration, tous les points par défaut attribués aux niveaux et aux tâches sont remis à zéro.
 
-Réinitialiser les paramètres de ludification peut être appliqué pour les utilisateurs internes et externes.
+Des paramètres de réinitialisation de la ludification peuvent être appliqués pour les utilisateurs internes et externes.
 
 Pour réinitialiser le score de l’élève et la configuration, cliquez sur Réinitialiser la ludification, puis choisissez une option, selon vos besoins. Vous pouvez choisir entre Réinitialiser les scores de l’élève uniquement et Réinitialiser les scores d’élèves et les paramètres de configuration. Une fois l’option sélectionnée, cliquez sur OK.
 
@@ -234,7 +236,7 @@ Vous pouvez désactiver la ludification pour les utilisateurs internes et extern
 
 ## Ludification de niveau de groupe {#grouplevelgamification}
 
-Les administrateurs peuvent définir l’étendue de la ludification en modifiant les paramètres de l’étendue. Vous pouvez activer de manière sélective la ludification parmi des utilisateurs, des groupes ou des emplacements de profil similaires.
+Les administrateurs peuvent définir l’étendue de la ludification en modifiant les paramètres de l’étendue. Vous pouvez activer la ludification de manière sélective parmi des utilisateurs de profils semblables, des groupes ou un emplacement.
 
 1. Dans la connexion Administrateur, cliquez sur **[!UICONTROL Ludification]** dans le volet de gauche.
 1. Ouvrez **[!UICONTROL Gamifications]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Paramètres d&#39;étendue]**. La boîte de dialogue [!UICONTROL Paramètres de l&#39;étendue de ludification] s&#39;affiche.
@@ -245,7 +247,7 @@ Les administrateurs peuvent définir l’étendue de la ludification en modifian
 
 1. Cliquez sur l&#39;option **[!UICONTROL Activer les paramètres d&#39;étendue]**.
 
-1. Sélectionnez la caractéristique utilisateur dans la liste déroulante.
+1. Choisissez la caractéristique d&#39;utilisateur à partir de la liste déroulante.
 
    <!--![](assets/user-charecteristic.png)-->
 

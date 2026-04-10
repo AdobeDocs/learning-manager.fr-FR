@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Application des élèves pour les appareils mobiles et les tablettes
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 65%
+source-wordcount: '2714'
+ht-degree: 77%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 65%
 
 Lisez cet article pour savoir comment télécharger l’application Élève Learning Manager sur les smartphones et les tablettes. Découvrez comment suivre les cours à l’aide d’un appareil mobile ou d’une tablette.
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 L’application Learning Manager pour les élèves est disponible pour les utilisateurs de téléphone Android et d’iPhone. Accédez à Google Play Store (système d’exploitation Android) ou iTunes (Mac OS), puis téléchargez l’application Learning Manager.
 
-Après avoir téléchargé et installé cette application, connectez-vous à l’aide de vos informations d’identification d’élève. Lorsque vous ouvrez l’application mobile Learning Manager, l’écran suivant s’affiche par défaut.
+Après avoir téléchargé et installé cette application, connectez-vous à l’aide de vos informations d’identification d’élève. Lorsque vous ouvrez l’application mobile Learning Manager, l’écran suivant s’affiche par défaut.
 
 ![](assets/1.png)
 
@@ -27,7 +27,7 @@ Après avoir téléchargé et installé cette application, connectez-vous à l�
 
 ## Page d’accueil {#homepage}
 
-Pour tous les comptes pour lesquels l’option Mise en page immersive est activée, une toute nouvelle page d’accueil prend en charge la configuration de mise en page immersive. La page d’accueil est organisée sous la forme d’une liste de cartes pour les éléments suivants :
+Pour tous les comptes pour lesquels l’option de mise en page immersive est activée, une toute nouvelle page d’accueil prend en charge la configuration de mise en page immersive. La page d’accueil est organisée sous la forme d’une liste de cartes pour les éléments suivants :
 
 | ![](assets/image002.png) | ![](assets/image005.png) |
 |---|---|
@@ -46,15 +46,16 @@ Learning Manager invite l’élève à fournir un retour d’informations sur s
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
+
 -->
 
-Pour les utilisateurs existants, la fenêtre contextuelle de commentaires doit s’afficher une fois qu’ils ferment le lecteur pour la première fois après la mise à jour de l’application vers la dernière version.
+Pour les utilisateurs existants, la fenêtre contextuelle de commentaires devrait s’afficher une fois qu’ils ont fermé le lecteur pour la première fois après la mise à jour de l’application vers la dernière version.
 
 Notez que la collecte des commentaires est anonyme et n&#39;apparaît que pour les utilisateurs qui ont activé l&#39;option **Partager les données d&#39;utilisation** via une configuration dans les paramètres de l&#39;application.
 
 ## Télécharger le badge {#downloadbadge}
 
-Les élèves peuvent télécharger leurs badges au format PDF et Image. Dans la section Profil utilisateur, faites défiler vers le bas, puis cliquez sur un lien pour télécharger un badge. Le badge téléchargé est enregistré dans le dossier par défaut de l’appareil. L’application vous permet d’ouvrir le dossier ou le fichier immédiatement après la fin du téléchargement.
+Les élèves peuvent télécharger leurs badges au format PDF et Image. Dans la section Profil d’utilisateur, faites défiler la liste vers le bas, puis cliquez sur un lien pour télécharger un badge. Le badge téléchargé est enregistré dans le dossier de l’appareil par défaut. L’application vous permet d’ouvrir le dossier ou le fichier immédiatement après la fin du téléchargement.
 
 | ![](assets/image016.png) |
 |---|
@@ -88,6 +89,7 @@ La prise en charge de l’interface utilisateur Web réactive mobile est uniquem
   </tr>
  </tbody>
 </table>
+
 -->
 
 ## Invite de téléchargement dans ALM Web
@@ -121,9 +123,9 @@ Certaines fonctionnalités ne sont pas prises en charge par l’application mobi
 
 | **Zone** | **Non pris en charge** |
 |---|---|
-| Forum | Création de forums, Modification de forums, Copier l’URL , Supprimer , Signaler, Trier , Filtrer |
-| Publier | Type de sondage Après la création, Modifier, Pièce jointe multiple à la publication, Copier l’URL, Épingler au début |
-| Commentaire/Réponse | Modifier, Marquer comme bonne réponse, Chargement d’une image/vidéo/audio dans un commentaire ou une réponse |
+| Tableau | Création de tableaux, Modification de tableaux, Copier l’URL, Supprimer, Rapport, Trier, Filtrer |
+| Publier | Type de sondage Après la création, Modifier, Pièces jointes multiples de la publication, Copier l’URL, Épingler au début |
+| Commentaire/réponse | Modifier, Marquer comme bonne réponse, Téléchargement d’image/vidéo/audio dans un commentaire ou une réponse |
 | Média | Capture audio ; téléchargement de fichiers audio uniquement |
 | Autres | Notifications, Vue de la publication, Tableau des scores sociaux, Personnes que je suis, Profil utilisateur |
 
@@ -163,7 +165,7 @@ Appuyez sur un cours pour afficher ses détails et votre date d’achèvement (l
 
 **Affichage des catalogues**
 
-Appuyez sur l’icône en regard de l’icône de livre au bas de l’écran. Vous pouvez immédiatement consulter le catalogue et tous les objets d’apprentissage associés. Vous pouvez choisir de les afficher sous forme de grille ou en mode d’affichage détaillé. Sélectionnez des recommandations pour afficher les recommandations de cours en fonction de votre historique d’apprentissage.
+Appuyez sur l’icône en regard de l’icône de livre au bas de l’écran. Vous pouvez immédiatement consulter le catalogue et tous les objets d’apprentissage associés. Vous pouvez choisir de les afficher sous forme de grille ou en mode d’affichage détaillé. Sélectionnez les recommandations pour voir les recommandations de cours en fonction de votre historique d’apprentissage.
 
 ![](assets/4.png)
 
@@ -181,11 +183,11 @@ Dans le coin supérieur droit du téléphone, vous pouvez voir une icône de rec
 
 **Gestion du profil, des paramètres et des notifications**
 
-Appuyez sur le menu ![](assets/hamburger.jpg) dans l’angle supérieur gauche de l’écran pour afficher votre profil, les notifications ainsi que les paramètres du compte.
+Appuyez sur ![](assets/hamburger.jpg) le menu dans le coin supérieur droit de l’écran pour afficher votre profil, les notifications et les paramètres du compte.
 
 Ce menu vous permet également de numériser le code QR pour enregistrer l’assiduité au cours.
 
-Il vous suffit d&#39;appuyer sur l&#39;option **Numériser le code QR** et de numériser le code.
+Il vous suffit d’appuyer sur l’option **Lire le code QR** et de numériser le code.
 
 **Utilisation hors ligne des cours**
 
@@ -195,7 +197,7 @@ Lorsque vous utilisez des cours téléchargés alors que vous êtes en ligne, Le
 
 Vous pouvez numériser un code QR et vous inscrire à un cours. Une fois que l’administrateur de l’apprentissage a généré un code QR, vous pouvez le numériser depuis l’application et vous inscrire à un cours.
 
-1. Pour numériser le code QR, appuyez sur ![](assets/hamburger.jpg) dans le coin supérieur gauche de l&#39;écran.
+1. Pour numériser le code QR, appuyez sur![](assets/hamburger.jpg) du côté supérieur gauche de l’écran.
 1. Appuyez sur **Lire le code QR**.
 
 La fonction de numérisation du code QR permet à un élève d’effectuer l’une des actions mentionnées ci-dessous en fonction du code QR généré par l’administrateur de l’apprentissage :
@@ -363,7 +365,7 @@ Naviguez jusqu’au forum requis et publiez votre commentaire.
 
 <!--![](assets/cp-prime-share.png)-->
 
-Partagez des photos, des documents ou des fichiers audio ou vidéo sur n’importe quel forum afin que les autres membres du forum puissent voir votre publication et commencer une interaction. Pour partager n’importe quel média,
+Partagez des photos, des documents ou des fichiers audio ou vidéo sur n&#39;importe quel forum afin que les autres membres du forum puissent voir votre publication et commencer une interaction. Pour partager n’importe quel média,
 
 1. Ouvrez le média que vous souhaitez partager.
 1. Appuyez sur le bouton Partager et choisissez Learning Manager.
@@ -379,7 +381,7 @@ Procédez comme suit :
 1. Connectez-vous à l’application pour appareil à l’aide de vos informations d’identification d’élève.
 1. Recherchez le certificat créé par l’auteur.
 1. Dans la liste des certificats externes, sélectionnez le certificat requis et inscrivez-vous à ce dernier.
-1. Appuyez sur **Preuve d&#39;accomplissement** et chargez un fichier, par exemple, un pdf ou une image.
+1. Appuyez sur **Justificatif d’accomplissement** et chargez un fichier, par exemple un fichier PDF ou une image.
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
    |---|---|
@@ -412,15 +414,15 @@ Si le responsable refuse l’envoi, le statut passe à **Rejeté**, affiché en 
 Après le rejet, vous êtes autorisé à charger un fichier comme justificatif d’accomplissement.
 
 * Vous ne pouvez envoyer un fichier que lorsque l&#39;état est **Envoi en attente et rejeté**.
-* Vous ne pouvez pas envoyer de fichier lorsque l&#39;état est **En attente d&#39;approbation et Approuvé**.
+* Vous ne pouvez pas envoyer de fichier lorsque le statut s’affiche comme **Approbation en attente et Approuvé**.
 
 ## Suivre des cours à partir de LinkedIn Learning {#linkedin}
 
-Learning Manager prend déjà en charge les cours LinkedIn Learning dans le cadre de la plate-forme d&#39;apprentissage. Les élèves peuvent désormais suivre ces cours LinkedIn Learning dans l&#39;application mobile Learning Manager. Dans l&#39;application de l&#39;appareil, recherchez un cours, puis lancez-le.
+Learning Manager prend déjà en charge les cours LinkedIn Learning dans le cadre de la plate-forme d&#39;apprentissage. Les élèves peuvent désormais suivre ces cours LinkedIn Learning dans l&#39;application mobile Learning Manager. Dans l’application de l’appareil, recherchez un cours, puis lancez-le.
 
 Si l’application LinkedIn est déjà installée, le cours s’ouvre dans l’application, sinon il s’ouvre dans le navigateur par défaut, où vous devez vous connecter à l’aide de vos identifiants LinkedIn.
 
-Si vous suivez le cours via l’application LinkedIn, votre progression ne sera pas suivie dans Learning Manager. Par conséquent, il est recommandé de lancer le cours dans le navigateur au lieu de l’application LinkedIn Learning.
+Si vous suivez le cours via l’application LinkedIn, votre progression ne sera pas suivie. Par conséquent, il est recommandé de lancer le cours dans le navigateur au lieu de l’application LinkedIn Learning.
 
 >[!NOTE]
 >
@@ -441,7 +443,7 @@ En tant qu’élève, vous pouvez envoyer des fichiers comme preuve de l’achè
 
 Un auteur ne peut créer que des modules de classe et d’activité qu’un élève peut utiliser dans l’application mobile.
 
-Une fois que l&#39;élève a commencé un cours, il peut voir l&#39;état **Envoi de fichier** comme en attente, ainsi que le lien pour télécharger le fichier, à l&#39;écran, comme indiqué dans la capture d&#39;écran ci-dessous.
+Une fois que l’élève a commencé un cours, il peut voir le statut **Envoi de fichier** comme étant en attente ainsi que le lien pour télécharger le fichier, sur l’écran, comme indiqué sur la capture d’écran ci-dessous.
 
 ![](assets/pending-approval.png)
 
@@ -494,13 +496,13 @@ Chargez un fichier et cliquez sur le bouton **Envoyer**.
 
 ## Approbation ou refus de l’envoi {#approvalorrejectionofsubmission}
 
-Une fois le fichier chargé, l&#39;état passe à **Approbation en attente.**. L&#39;instructeur consulte ensuite la liste des [envois en attente](/help/migrated/instructors/feature-summary/learners.md) et approuve ou rejette l&#39;envoi via l&#39;application web de l&#39;instructeur.
+Une fois le fichier chargé, l&#39;état passe à **Approbation en attente**. L&#39;instructeur consulte ensuite la liste des [envois en attente](/help/migrated/instructors/feature-summary/learners.md) et approuve ou rejette l&#39;envoi via l&#39;application web de l&#39;instructeur.
 
 Lorsque le formateur approuve l’envoi, le statut de l’application mobile de l’élève s’affiche comme **Approuvé**.
 
 <!--![](assets/approved.jpg)-->
 
-Lorsque l&#39;instructeur rejette l&#39;envoi, l&#39;état de l&#39;application mobile de l&#39;élève passe à **Rejeté**.
+Lorsque le formateur rejette l’envoi, le statut de l’application mobile de l’élève s’affiche comme **Rejeté**.
 
 <!--![](assets/rejected.jpg)-->
 
@@ -512,7 +514,7 @@ Dans l&#39;application Learning Manager sur tablette iPad ou Android, une fois c
 
 <!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
-Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
+Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur la flèche déroulante **Menu**, puis choisissez l’option appropriée.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -534,13 +536,14 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
    * Une barre rouge indique que le réseau n&#39;est pas disponible pour le périphérique.
    * Une barre verte indique que le réseau est à nouveau en ligne.
 
-L&#39;utilisateur peut revenir au mode en ligne en cliquant sur le bouton **Afficher le contenu en ligne** sur la barre verte. Le contenu du périphérique est synchronisé lorsque l’utilisateur passe en mode en ligne.
+L&#39;utilisateur peut revenir au mode en ligne en cliquant sur le bouton **Afficher le contenu en ligne** sur la barre verte. Le contenu de l’appareil est synchronisé lorsque l’utilisateur passe en mode en ligne.
 
 ## Prise en charge du panier multi-éléments sur l’immersif mobile
 
 Les élèves peuvent désormais ajouter plusieurs cours, parcours d’apprentissage ou certifications au panier et les acheter ensemble. Afficher le [panier multi-articles dans ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -552,4 +555,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.
+-->

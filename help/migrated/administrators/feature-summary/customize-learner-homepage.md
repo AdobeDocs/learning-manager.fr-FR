@@ -4,16 +4,16 @@ title: Personnalisation de la page d’accueil des élèves
 description: Un administrateur peut personnaliser la page d’accueil de l’élève et la rendre plus moderne, plus axée sur le contenu et plus personnalisée pour l’élève.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 46%
+source-wordcount: '1159'
+ht-degree: 63%
 
 ---
 
 # Personnalisation de la page d’accueil des élèves
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 Un administrateur peut personnaliser la page d’accueil de l’élève et la rendre plus moderne, plus axée sur le contenu et plus personnalisée pour l’élève.
 
@@ -37,7 +37,7 @@ Les administrateurs peuvent définir l&#39;interface utilisateur (apparence et c
 
 Les administrateurs peuvent passer en mode Widget d’interface utilisateur immersive, personnaliser les widgets/fonctions en conséquence, puis activer l’interface utilisateur immersive.
 
-L&#39;écran **Page d&#39;accueil des élèves** contient les sections suivantes :
+L’écran **Page d’accueil de l’élève** contient les sections suivantes :
 
 ## Option de mise en page immersive {#immersivelayoutoption}
 
@@ -80,13 +80,13 @@ S’il y a moins de 1 000 élèves, l’ensemble du compte est considéré comm
 >
 >La case à cocher **Explorer les compétences** a été déplacée vers Paramètres > Général.
 
-Cette option est activée et grisée si vous choisissez l’expérience immersive. Cette case à cocher n’est activée que pour l’expérience classique.
+Elle est activée et grisée si l’expérience immersive est sélectionnée. Cette case à cocher n’est activée que pour l’expérience classique.
 
 ![](assets/option-immersive.png)
 
 *Paramètres de la page d’accueil des élèves*
 
-La mise en page immersive est définie par défaut pour tous les nouveaux comptes. La mise en page est contrôlée par des widgets qu’un administrateur peut activer ou désactiver. En fonction du positionnement des widgets, cela se reflète sur la page d’accueil de l’élève.
+La mise en page immersive est la valeur par défaut pour tous les nouveaux comptes. La mise en page est contrôlée par des widgets qu’un administrateur peut activer ou désactiver. En fonction de la position des widgets, la même mise en page est reproduite sur la page d’accueil de l’élève.
 
 Voici les widgets que vous pouvez activer/désactiver.
 
@@ -111,7 +111,7 @@ Pour les comptes existants, l&#39;option **Immersive** sera **OFF**. Il est acti
     <p>En-tête</p></td>
    <td>
     <p><b>Qu’est-ce qu’une en-tête et comment puis-je personnaliser l’en-tête des élèves ? </b><br></p>
-    <p>C’est une bannière de bienvenue pour les élèves. La bannière peut être une image ou une vidéo. Vous pouvez cibler l’en-tête sur des groupes d’utilisateurs spécifiques et un élève peut afficher l’en-tête dès qu’il accède à la page d’accueil. Un groupe d’utilisateurs peut voir plusieurs heros images ou vidéos en fonction de la formule cible définie par l’administrateur. </p>
+    <p>C’est une bannière de bienvenue pour les élèves. La bannière peut être une image ou une vidéo. Vous pouvez cibler des groupes d’utilisateurs spécifiques à l’aide de l’en-tête. Un élève voit l’en-tête dès qu’il atterrit sur la page d’accueil. Un groupe d’utilisateurs peut voir plusieurs images ou vidéos en vedette en fonction du plan cible défini par l’administrateur. </p>
     <p>Voici comment un administrateur charge une bannière :</p>
     <ol>
      <li>Dans le panneau de gauche, cliquez sur <b>Annonces</b>.<br></li>
@@ -127,7 +127,7 @@ Pour les comptes existants, l&#39;option **Immersive** sera **OFF**. Il est acti
    <td>
     <p>Mon apprentissage</p></td>
    <td>
-    <p>Affiche les objets d’apprentissage récemment visités par l’élève. </p></td>
+    <p>Affiche les objets d’apprentissage, récemment consultés par l’élève. </p></td>
   </tr>
   <tr>
    <td>
@@ -151,7 +151,7 @@ Pour les comptes existants, l&#39;option **Immersive** sera **OFF**. Il est acti
    <td>
     <p>Apprentissage par les réseaux sociaux</p></td>
    <td>
-    <p>Répertorie les activités et les publications des utilisateurs qui se trouvent dans la même portée d'utilisateur que l'élève. </p></td>
+    <p>Répertorie les activités et les publications des utilisateurs qui se trouvent dans la même étendue utilisateur que l’élève. </p></td>
   </tr>
   <tr>
    <td>
@@ -160,29 +160,33 @@ Pour les comptes existants, l&#39;option **Immersive** sera **OFF**. Il est acti
     <p>Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Chaque groupe d’utilisateurs peut cibler une ou plusieurs formations et le plan cible serait basé sur un calendrier. <br></p>
     <ul>
      <li>
-      <p>Tout d'abord, l'administrateur <a href="announcements.md#recommendation">crée une annonce</a> de type <b>Comme recommandation</b>, puis sélectionne la formation requise et utilise des groupes. Un élève appartenant à un groupe d’utilisateurs pourra voir la formation recommandée.</p></li>
+      <p>Tout d'abord, l'administrateur <a href="announcements.md#recommendation">crée une annonce</a> de type <b>Comme recommandation</b>, puis sélectionne la formation requise et utilise des groupes. Un stagiaire appartenant à un groupe d’utilisateurs pourra consulter la formation recommandée.</p></li>
      <li>
       <p>Deuxièmement, l’administrateur peut également décider si les recommandations sont activées immédiatement ou à une date spécifiée.</p></li>
     </ul></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
   <tr>
    <td>
     <p>Parcourir par catalogue<br></p></td>
    <td>
     <p>Affiche les catalogues sous forme de mosaïques sur la page d’accueil. </p></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
  </tbody>
 </table>
 
@@ -273,11 +277,11 @@ Sur la page **Général**, vous disposez des options suivantes :
    <td>
     <p>Permettre à l’élève de découvrir les centres d’intérêt</p></td>
    <td>
-    <p>Applicable uniquement à l’expérience Classique. Choisissez <b>Oui </b> ou <b>Non</b>.<br></p></td>
+    <p>Applicable uniquement à l’expérience Classique. Choisissez <b>Oui </b>ou <b>Non</b>.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Demandez aux utilisateurs de sélectionner des domaines (compétences) <br></p></td>
+    <p>Inviter les utilisateurs à sélectionner des zones d’intérêt (compétences) <br></p></td>
    <td>
     <p>Applicable uniquement à l’expérience Immersive. Choisissez <b>Oui</b> ou <b>Non</b>. <br></p></td>
   </tr>
