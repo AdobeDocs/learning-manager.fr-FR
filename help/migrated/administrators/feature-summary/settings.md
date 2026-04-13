@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Paramètres
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
+source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 64%
+source-wordcount: '3974'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 Découvrez les paramètres de compte Learning Manager que vous pouvez configurer en tant qu’administrateur.
 
-Vous pouvez modifier les paramètres du profil de l’administrateur et mettre à jour les paramètres du compte. Affichez vos informations de profil, ajoutez/modifiez la photo de profil et modifiez le contenu de **[!UICONTROL À propos de moi]**. Mettez à jour les informations de votre entreprise, installez les méthodes de connexion pour les utilisateurs, et configurez l’intégration de Connect à l’aide des paramètres du compte.
+Vous pouvez modifier les paramètres du profil de l’administrateur et mettre à jour les paramètres du compte. Affichez vos informations de profil, ajoutez ou changez la photo du profil, et modifiez le contenu de **[!UICONTROL À propos de moi]**. Mettez à jour les informations de votre entreprise, installez les méthodes de connexion pour les utilisateurs, et configurez l’intégration de Connect à l’aide des paramètres du compte.
 
 ![](assets/settings-admin.png)
 
@@ -38,9 +38,9 @@ Cliquez sur **[!UICONTROL Modifier]** sur la page et modifiez le pays, le fuseau
 
 **Configuration des données de contact de l’administrateur**
 
-Si vous souhaitez ajouter ou modifier les adresses électroniques des administrateurs de support pour votre entreprise, vous pouvez les configurer en cliquant sur **[!UICONTROL Général]** dans le volet de gauche. Cliquez sur **[!UICONTROL Modifier]** en regard de **[!UICONTROL ID de messagerie de support]** et ajoutez les ID de messagerie. Un e-mail est envoyé à ces administrateurs lorsque l&#39;élève clique sur **[!UICONTROL Contacter l&#39;administrateur]** en bas de page.
+Si vous souhaitez ajouter ou modifier les adresses électroniques des administrateurs de support pour votre entreprise, vous pouvez les configurer en cliquant sur **[!UICONTROL Général]** dans le volet de gauche. Cliquez sur **[!UICONTROL Modifier]** en regard de l’option **[!UICONTROL ID de messagerie d’assistance]** et ajoutez les adresses électroniques. Un courrier électronique est envoyé à ces administrateurs lorsque l’élève clique sur **[!UICONTROL Contacter l’administrateur]** au bas de la page.
 
-Ajoutez d’autres ID de messagerie avec un point-virgule comme séparateur.
+Ajoutez les adresses électroniques supplémentaires avec un point-virgule comme séparateur.
 
 **Méthodes de connexion** : les administrateurs peuvent choisir le mode d’accès au compte pour vos utilisateurs internes ou externes.
 
@@ -55,7 +55,7 @@ Si vous choisissez l’ID Learning Manager, les utilisateurs externes peuvent se
 
 Vous pouvez accéder à l’application Learning Manager en utilisant un ID Adobe ou l’authentification unique. L’authentification unique est un mécanisme permettant à un utilisateur de s’authentifier une fois et d’accéder à plusieurs applications de nombreuses fois. Cette configuration n’est pas obligatoire pour l’entreprise. Si votre entreprise possède un fournisseur d’authentification unique basée sur SAML 2.0, vous pouvez l’utiliser pour configurer l’application Learning Manager. La configuration doit être effectuée au niveau de l’entreprise et de l’application Learning Manager. Si vous choisissez d’utiliser l’authentification unique, contactez l’assistance d’Adobe pour obtenir les instructions de configuration
 
-**Commentaire** 
+**Commentaire**
 
 Cliquez sur **[!UICONTROL Commentaire]** dans le panneau de gauche pour installer le questionnaire pour obtenir des commentaires des stagiaires après l&#39;exécution d&#39;un cours. Reportez-vous au [contenu d&#39;aide sur les fonctionnalités des cours](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) concernant la création de commentaires L1 et L3.
 
@@ -73,7 +73,7 @@ Si vous activez la case à cocher « Tentatives multiples », les auteurs peuven
 
 Cliquez sur **[!UICONTROL Général]** dans le volet de gauche, puis cochez la case Modération de cours pour activer la fonctionnalité correspondante. Pour en savoir plus sur cette fonction, voir [Modération de cours](courses.md#main-pars_header_1879001177).
 
-**Tableau de bord des discussions**
+**Forum de discussion**
 
 Si vous avez coché la case Forum de discussion, les élèves et les formateurs peuvent publier des commentaires sur les cours à l’aide de l’onglet Discussion de la page Cours dans l’application Élèves. Cependant, si les paramètres de niveau de cours indiquent que cette fonctionnalité n’est pas sélectionnée, ces paramètres sont prioritaires par rapport aux paramètres de l’administrateur.
 
@@ -81,7 +81,7 @@ Si vous avez coché la case Forum de discussion, les élèves et les formateurs 
 
 Dans le volet de gauche, cliquez sur Tableau de bord de l’élève. Cette page vous permet de sélectionner les widgets à afficher sur la page Élèves. Sélectionnez les widgets que vous souhaitez activer sur la page Élèves. Les éléments non sélectionnés ne s’afficheront pas sur la page Élèves.
 
-**Adobe Connect** 
+**Adobe Connect**
 
 Cliquez sur **[!UICONTROL Adobe Connect]** dans le volet de gauche pour configurer le compte Adobe Connect afin d&#39;héberger les sessions de classe virtuelle. Pour plus d&#39;informations, consultez l&#39;aide sur les fonctionnalités d&#39;[Adobe Connect](adobeconnect-integration.md).
 
@@ -101,7 +101,7 @@ Activation ou désactivation des paramètres suivants :
   </tr>
   <tr>
    <td>Afficher l’efficacité du cours</td>
-   <td>Si cette option est activée, les élèves peuvent voir l’efficacité actuelle du cours sur la vignette du cours. Cette fonctionnalité est uniquement disponible pour les cours. L’évaluation par étoiles n’est pas prise en charge pour les programmes d’apprentissage ou les certificats. Elle est disponible pour les cours et les programmes d’apprentissage, mais pas pour les certifications.</td>
+   <td>Si l’option est activée, les élèves pourront visualiser l’efficacité actuelle du cours dans la vignette correspondante. Cette fonctionnalité est uniquement disponible pour les cours. L’évaluation par étoiles n’est pas prise en charge pour les programmes d’apprentissage ou les certificats. Elle est disponible pour les cours et les programmes d’apprentissage, mais pas pour les certifications.</td>
   </tr>
   <tr>
    <td>Modération de cours</td>
@@ -121,8 +121,13 @@ Activation ou désactivation des paramètres suivants :
   </tr>
   <tr>
    <td>Visibilité des balises/compétences</td>
-   <td>Affichage de toutes les compétences et balises pour les élèves. Vous pouvez soit afficher toutes les compétences et balises, soit afficher les compétences et les balises qui sont attribuées, ou celles faisant partie des catalogues visibles par l’élève.</td>
-  </tr>
+   <td>Affichage de toutes les compétences et balises pour les élèves. Vous pouvez soit afficher toutes les compétences et balises, soit afficher les compétences et les balises qui sont attribuées, ou celles faisant partie des catalogues visibles par l’élève.
+   <p><b>Important - Assistant Élève et visibilité du catalogue</b></p>
+   <p>Si votre compte utilise l'Assistant Élève, n'oubliez pas que les catalogues sélectionnés comme sources de contenu pour l'Assistant ne sont pas définis en fonction de la visibilité des catalogues par élève. L’assistant peut utiliser le contenu des catalogues configurés même lorsque certaines formations ne sont pas visibles par un élève donné dans la vue Catalogue.</p>
+   <p>L'Adobe recommande de sélectionner uniquement les catalogues qui contiennent du contenu que vous pouvez exposer (sous forme résumée ou expliquée) à tous les élèves qui peuvent accéder à l'assistant Élève. </p>
+   </td>
+
+</tr>
   <tr>
    <td>ID d’objet d’apprentissage uniques</td>
    <td>Si cette option est activée, un administrateur ou un auteur peut ajouter un ID unique pour chaque objet d’apprentissage.</td>
@@ -164,8 +169,13 @@ Activation ou désactivation des paramètres suivants :
    <td>Si cette option est activée, les utilisateurs internes sont automatiquement supprimés s’ils n’accèdent pas au système pendant un nombre de jours spécifié. Cette fonctionnalité s’applique aux utilisateurs qui n’ont que le rôle <b>Élève</b>. Pour rétablir l’accès, les utilisateurs doivent contacter l’administrateur.<br></td>
   </tr>
   <tr>
+   <td height="20">Supprimer automatiquement les utilisateurs purgés</td>
+   <td>Si cette option est activée, les utilisateurs internes sont automatiquement supprimés s’ils n’accèdent pas au système pendant un nombre de jours spécifié. Cette fonctionnalité s’applique aux utilisateurs qui n’ont que le rôle Élève. Pour rétablir l’accès, les utilisateurs doivent contacter l’administrateur. Après avoir activé l'option, vous pouvez spécifier le délai en années après lequel les utilisateurs purgés seront définitivement supprimés d'ALM.</td>
+  </tr>
+  <tr>
+  <tr>
    <td>Afficher les étiquettes de catalogue</td>
-   <td>Si cette option est activée, les administrateurs et les auteurs peuvent définir des étiquettes et des valeurs de catalogue et les lier à des objets d’apprentissage. La sélection de cette option permet également aux auteurs d’ajouter des cours, des parcours d’apprentissage, des certifications ou des assistances à la tâche aux catalogues.</td>
+   <td>Si cette option est activée, les administrateurs et les auteurs peuvent définir des étiquettes de catalogue et des valeurs et les associer à des objets d’apprentissage. La sélection de cette option permet également aux auteurs d’ajouter des cours, des parcours d’apprentissage, des certifications ou des assistances à la tâche aux catalogues.</td>
   </tr>
   <tr>
    <td>Les élèves peuvent consulter leurs scores</td>
@@ -184,7 +194,7 @@ Activation ou désactivation des paramètres suivants :
      <li>L’option <b>E-mail de résumé</b> sera désactivée.</li>
      <li>Un élève ne peut pas voir le paramètre utilisateur pour l’abonnement aux e-mails de résumé.</li>
     </ul>
-    <p> Si la fonctionnalité est activée :</p>
+    <p> Si la fonctionnalité est activée :</p>
     <ul>
      <li>L’administrateur peut activer et modifier l’option E-mail de résumé.</li>
      <li>Dans les <b>paramètres du profil</b> de l’application de l'élève, l'élève (qui ne figure pas dans la liste NPD) peut choisir de s’abonner ou de se désabonner de l’e-mail de résumé.</li>
@@ -206,20 +216,20 @@ Activation ou désactivation des paramètres suivants :
     </ol>
     <p>De plus, vous pouvez :</p>
     <ul>
-     <li>Cliquez sur l'icône <b>Réinitialiser</b> pour réinitialiser les valeurs par défaut dans les champs <b>Aide</b> et <b>Contacter l'administrateur</b>.</li>
+     <li>Cliquer sur l’icône <b>Réinitialiser</b> pour réinitialiser les valeurs par défaut dans les champs <b>Aide</b> et <b>Contacter l’administrateur</b>.</li>
      <li>Personnaliser le lien sur le pied de page pour toutes les langues. Cliquez sur la liste déroulante <b>Langue</b>, sélectionnez la langue et ajoutez le <b>Nom</b> et l’<b>URL</b> dans les champs spécifiés. Après avoir sauvegardé les modifications, les liens mis à jour s’affichent dans le pied de page.<br></li>
     </ul></td>
   </tr>
   <tr>
    <td>Fuseau horaire du rapport<br></td>
    <td>
-    <p>Définissez une préférence au niveau du compte pour exporter le relevé de notes dans les fuseaux horaires suivants :</p>
+    <p>Définissez une préférence au niveau du compte pour exporter le relevé de notes dans les fuseaux horaires suivants :</p>
     <ul>
      <li>UTC (comportement par défaut)</li>
      <li>Préférence de fuseau horaire au niveau du compte</li>
     </ul>
     <p>Le relevé de notes de l’élève téléchargé à l’aide de l’API des tâches télécharge également les données dans le fuseau horaire sélectionné.</p>
-    <p><b>Remarque :</b>Aucune modification n'est attendue dans le relevé de notes de l'élève par défaut immédiatement après la publication. Les administrateurs peuvent configurer ce paramètre dans l’application d’administration &gt; Paramètres &gt; Général &gt; Fuseau horaire du rapport.</p></td>
+    <p><b>Remarque : </b>aucune modification n’est attendue dans le relevé de notes de l’élève par défaut immédiatement après la publication. Les administrateurs peuvent configurer ce paramètre dans l’application d’administration &gt; Paramètres &gt; Général &gt; Fuseau horaire du rapport.</p></td>
   </tr>
  </tbody>
 </table>
@@ -291,8 +301,13 @@ Activation ou désactivation des paramètres suivants :
   </tr>
   <tr>
    <td height="20">Afficher la liste des catalogues</td>
-   <td>Si cette option est activée, les élèves peuvent afficher la liste de tous les catalogues disponibles. Les élèves peuvent ainsi affiner la recherche et l’affichage de leurs objets d’apprentissage.</td>
-  </tr>
+   <td>Si cette option est activée, les élèves peuvent afficher la liste de tous les catalogues disponibles. Les élèves peuvent ainsi affiner la recherche et l’affichage de leurs objets d’apprentissage.
+   <p><b>Important - Assistant Élève et visibilité du catalogue</b></p>
+   <p>Si votre compte utilise l'Assistant Élève, n'oubliez pas que les catalogues sélectionnés comme sources de contenu pour l'Assistant ne sont pas définis en fonction de la visibilité des catalogues par élève. L’assistant peut utiliser le contenu des catalogues configurés même lorsque certaines formations ne sont pas visibles par un élève donné dans la vue Catalogue.</p>
+   <p>L'Adobe recommande de sélectionner uniquement les catalogues qui contiennent du contenu que vous pouvez exposer (sous forme résumée ou expliquée) à tous les élèves qui peuvent accéder à l'assistant Élève. </p>
+   </td>
+
+</tr>
   <tr>
    <td height="20">Terminologie du produit</td>
    <td>Learning Manager comporte une terminologie standard, utilisée dans l’ensemble du produit. Modifiez la terminologie en fonction des besoins de votre organisation.</td>
@@ -305,11 +320,6 @@ Activation ou désactivation des paramètres suivants :
    <td height="20">Enregistrement automatique des utilisateurs</td>
    <td>Si cette option est activée, les utilisateurs nouvellement importés sont automatiquement enregistrés. Par défaut, les utilisateurs doivent être enregistrés avant de pouvoir utiliser Learning Manager.</td>
   </tr>
-  <tr>
-   <td height="20">Supprimer automatiquement les utilisateurs internes</td>
-   <td>Si cette option est activée, les utilisateurs internes sont automatiquement supprimés s’ils n’accèdent pas au système pendant un nombre de jours spécifié. Cette fonctionnalité s’applique aux utilisateurs qui n’ont que le rôle Élève. Pour rétablir l’accès, les utilisateurs doivent contacter l’administrateur.</td>
-  </tr>
-  <tr>
    <td height="20">Afficher les étiquettes de catalogue</td>
    <td>Si cette option est activée, les administrateurs et les auteurs peuvent définir des étiquettes de catalogue et des valeurs et les associer à des objets d’apprentissage.</td>
   </tr>
@@ -322,10 +332,10 @@ Activation ou désactivation des paramètres suivants :
    <td>Un administrateur peut activer ou désactiver l’envoi d’un e-mail aux élèves. L’administrateur pourra également contrôler la fréquence des e-mails envoyés.</td>
   </tr>
   <tr>
-   <td height="19">Pour les comptes actifs, les e-mails de résumé sont désactivés par défaut, que l’administrateur peut activer manuellement.</td>
+   <td height="19">Pour les comptes actifs, les e-mails de résumé sont désactivés par défaut, et l’administrateur peut les activer manuellement.</td>
   </tr>
   <tr>
-   <td height="19">Pour les comptes d’évaluation, l’option pour les e-mails de résumé reste désactivée et l’administrateur ne peut pas activer l’option.</td>
+   <td height="19">Pour les comptes d’essai, les e-mails de résumé restent désactivés, et l’administrateur ne peut pas activer cette option.</td>
   </tr>
   <tr>
    <td height="19">Si la fonctionnalité est désactivée :</td>
@@ -337,13 +347,13 @@ Activation ou désactivation des paramètres suivants :
    <td height="19">Un élève ne peut pas voir le paramètre utilisateur pour l’abonnement aux e-mails de résumé.</td>
   </tr>
   <tr>
-   <td height="19"> Si la fonctionnalité est activée :</td>
+   <td height="19"> Si la fonctionnalité est activée :</td>
   </tr>
   <tr>
    <td height="19">L’administrateur peut activer et modifier l’option E-mail de résumé.</td>
   </tr>
   <tr>
-   <td height="20">Dans les paramètres de profil de l’application de l’élève, un élève (qui ne figure pas dans la liste NPD) peut choisir de s’abonner/de se désabonner de l’e-mail de résumé.</td>
+   <td height="20">Dans les paramètres du profil de l’application de l’élève, l’élève (qui ne figure pas dans la liste NPD) peut choisir de s’abonner ou de se désabonner de l’e-mail de résumé.</td>
   </tr>
   <tr>
    <td height="20">Activer les icônes des cartes de formation</td>
@@ -369,14 +379,14 @@ Activation ou désactivation des paramètres suivants :
    <td height="19">De plus, vous pouvez :</td>
   </tr>
   <tr>
-   <td height="19">Cliquez sur l’icône Réinitialiser pour réinitialiser les valeurs par défaut dans les champs Aide et Contacter l’administrateur.</td>
+   <td height="19">Cliquer sur l’icône Réinitialiser pour réinitialiser les valeurs par défaut dans les champs Aide et Contacter l’administrateur.</td>
   </tr>
   <tr>
-   <td height="20">Personnaliser le lien sur le pied de page pour toutes les langues. Cliquez sur la liste déroulante Langue, sélectionnez la langue, puis ajoutez le Nom et l’URL dans les champs spécifiés. Après avoir sauvegardé les modifications, les liens mis à jour s’affichent dans le pied de page.</td>
+   <td height="20">Personnaliser le lien sur le pied de page pour toutes les langues. Cliquez sur la liste déroulante Langue, sélectionnez la langue et ajoutez le Nom et l’URL dans les champs spécifiés. Après avoir sauvegardé les modifications, les liens mis à jour s’affichent dans le pied de page.</td>
   </tr>
   <tr>
    <td rowspan="5" height="96">Fuseau horaire du rapport</td>
-   <td> Définissez une préférence au niveau du compte pour exporter le relevé de notes dans les fuseaux horaires suivants :</td>
+   <td> Définissez une préférence au niveau du compte pour exporter le relevé de notes dans les fuseaux horaires suivants :</td>
   </tr>
   <tr>
    <td height="19">UTC (comportement par défaut)</td>
@@ -402,10 +412,10 @@ Activation ou désactivation des paramètres suivants :
      <li>Si l’option <b>Efficacité du cours</b> est activée, les élèves ne pourront voir que la valeur de l’efficacité du cours.</li>
      <li>Si l’option <b>Évaluation par étoiles</b> est activée, les élèves ne pourront afficher que la note moyenne et le nombre d’élèves ayant évalué le cours.<br></li>
     </ul>
-    <p>Cette fonctionnalité est uniquement disponible pour les cours. L’évaluation par étoiles n’est pas prise en charge pour les programmes d’apprentissage ou les certificats.<br><br><b>Remarque :</b>Cette modification affecte uniquement l’application de l’élève. </p>
+    <p>Cette fonctionnalité est uniquement disponible pour les cours. L'évaluation par étoiles n'est pas prise en charge pour les programmes d'apprentissage ou les certificats.<br><br><b>Remarque :</b>Cette modification affecte uniquement l'application de l'élève. </p>
     <p>Dans toutes les autres applications (administrateur, auteur, manager, administrateur personnalisé, auteur personnalisé), les modifications des paramètres (évaluation par étoiles/efficacité du cours/désactivation de l’affichage de l’évaluation) n’auront aucun effet. </p>
-    <p>Pour les nouveaux comptes, la section <b>Afficher les évaluations</b> aura l'option <b>Évaluation par étoiles</b> activée par défaut.</p>
-    <p>Pour les comptes existants, si l'option <b>Efficacité du cours</b> était activée pour le compte précédemment, la section <b>Afficher les évaluations</b> sera activée avec l'option Efficacité du cours sélectionnée. Si l'option <b>Efficacité du cours</b>s est désactivée, la section <b>Afficher les évaluations</b> sera également désactivée. Lorsque la section <b>Afficher les évaluations</b> est activée, l'option <b>Évaluation par étoiles</b> est activée par défaut.</p></td>
+    <p>Pour les nouveaux comptes, la section <b>Afficher les évaluations</b> aura l’option <b>Évaluation par étoiles</b> activée par défaut.</p>
+    <p>Pour les comptes existants, si l’option <b>Efficacité du cours</b> était activée pour le compte précédemment, la section <b>Afficher les évaluations</b> sera activée avec l’option Efficacité du cours sélectionnée. Si l’option <b>Efficacité du cours</b> est désactivée, la section <b>Afficher les évaluations</b> sera également désactivée. Lorsque la section <b>Afficher les évaluations</b> est activée, l’option <b>Évaluation par étoiles</b> est activée par défaut.</p></td>
   </tr>
   <tr>
    <td height="19">Suppression</td>
@@ -439,6 +449,15 @@ Activation ou désactivation des paramètres suivants :
     <td>
       <p>Si cette option est activée, vous pouvez choisir une source externe pour importer les compétences. Les compétences des ressources d’apprentissage existantes seront importées dans le référentiel de compétences une seule fois lors de l’exécution initiale. Pour toutes les importations ultérieures de ressources d’apprentissage, les compétences seront importées dans le référentiel de compétences uniquement pour les éléments nouvellement importés.
       Une fois l’option activée, l’action est irréversible. Vous ne pouvez pas désactiver ou passer à une autre source ultérieurement.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Autres cours/parcours</p>
+    </td>
+    <td>
+      <p>Lorsque les élèves terminent un cours/parcours, un autre ensemble spécifié de cours/parcours peut être marqué comme terminé via un autre. Les élèves ne seront pas automatiquement inscrits à des cours/parcours marqués comme terminés via une alternative et recevront uniquement des crédits, des badges et des points pour le cours/parcours qu’ils ont réellement terminé. Les options disponibles sont : Fin de production rétroactive activée et Fin de production rétroactive activée.
       </p>
     </td>
   </tr>
@@ -481,14 +500,14 @@ Activité
 
 ## Paramètres du profil {#profilesettings}
 
-1. Cliquez sur la flèche déroulante dans le coin supérieur droit, à côté de votre photo/compte, puis choisissez **[!UICONTROL Paramètres de profil]**.
-1. Dans la boîte de dialogue contextuelle, vous pouvez ajouter/modifier une photo en passant le curseur de la souris et en cliquant sur **[!UICONTROL Modifier]** dans la zone de la photo de profil.
-1. Ajoutez/modifiez du contenu **[!UICONTROL À propos]** en cliquant sur **[!UICONTROL Modifier]** à côté.
+1. Cliquez sur la flèche déroulante dans l’angle supérieur droit, en regard de votre photo/compte, et choisissez **[!UICONTROL Paramètres de profil]**.
+1. Depuis la boîte de dialogue contextuelle, vous pouvez ajouter ou changer une photo en y plaçant le pointeur de la souris et en cliquant sur **[!UICONTROL Modifier]** dans la zone de photo du profil.
+1. Ajouter/modifier le contenu **[!UICONTROL A propos de]** en cliquant sur **[!UICONTROL Modifier]** à côté de son nom.
 1. Cliquez sur **[!UICONTROL Enregistrer].**
 
 ## Dossier de contenu {#content-folder}
 
-Learning Manager prend en charge les dossiers de contenu privés. Un administrateur peut configurer des dossiers de contenu privés et fournir son accès à des auteurs personnalisés spécifiques à l’aide de rôles personnalisés. Notez que les auteurs standard (également appelés auteurs complets) conservent l’accès à tout le contenu du compte. Par conséquent, les auteurs complets ont accès à tous les dossiers et à tout le contenu.
+Learning Manager prend en charge les dossiers de contenu privés. Un administrateur peut configurer des dossiers de contenu privés et autoriser son accès à des auteurs personnalisés spécifiques à l’aide de rôles personnalisés. Notez que les auteurs standard (également appelés auteurs complets) conservent l’accès à tout le contenu du compte. Par conséquent, les auteurs complets ont accès à tous les dossiers et à tout le contenu.
 
 Les dossiers de contenu peuvent être configurés par les administrateurs. Une fois configurés, les dossiers de contenu deviennent visibles pour les auteurs, qui peuvent alors placer le contenu dans un ou plusieurs dossiers.
 
@@ -531,11 +550,11 @@ Pour ajouter un dossier, cliquez sur **[!UICONTROL Ajouter]** dans le coin supé
 
 **Supprimer un dossier**
 
-Vous pouvez également supprimer un dossier. Sélectionnez le dossier à supprimer, cliquez sur le menu Actions, puis cliquez sur **[!UICONTROL Supprimer le dossier]**.
+Vous pouvez également supprimer un dossier. Sélectionnez le dossier à supprimer, cliquez sur le menu Actions, puis sur **[!UICONTROL Supprimer le dossier]**.
 
 >[!NOTE]
 >
->Les dossiers peuvent être supprimés lorsque tout le contenu associé est également associé à d’autres dossiers. Si du contenu est lié uniquement au dossier en cours de suppression, déplacez d’abord le contenu vers un autre dossier, puis supprimez le dossier.
+>Les dossiers peuvent être supprimés lorsque tout le contenu associé est également associé à d’autres dossiers. Si du contenu est lié au seul dossier en cours de suppression, commencez par déplacer le contenu vers un autre dossier, puis supprimez le dossier.
 
 ## Emplacements de classe
 
@@ -590,7 +609,7 @@ Les dossiers de contenu peuvent être configurés par les administrateurs. Une f
 Pour plus d’informations, consultez la section [Dossier de contenu](settings.md#content-folder).
 +++
 
-+++Comment ajouter un exercice pour le compte ?
++++Comment ajouter une année fiscale pour le compte ?
 
-Dans **[!UICONTROL Paramètres]** > **[!UICONTROL Informations de base]**, cliquez sur **[!UICONTROL Modifier]**. Dans la liste déroulante **[!UICONTROL L&#39;exercice commence à partir de]**, sélectionnez le mois.
+Dans **[!UICONTROL Paramètres]** > **[!UICONTROL Informations de base]**, cliquez sur **[!UICONTROL Modifier]**. Dans la liste déroulante **[!UICONTROL L’année fiscale commence à partir de]**, sélectionnez le mois.
 +++

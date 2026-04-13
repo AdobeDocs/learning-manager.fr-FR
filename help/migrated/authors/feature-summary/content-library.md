@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4664'
-ht-degree: 44%
+source-wordcount: '5368'
+ht-degree: 38%
 
 ---
 
@@ -43,9 +43,21 @@ Le tableau ci-dessous affiche les types de fichiers interactifs et statiques que
      <li>SCORM 1.2</li>
      <li>SCORM 2004</li>
      <li>AICC</li>
-     <li>TinCan</li>
+     <li>la version xAPI</li>
     </ul>
-    <p></p></td>
+    <p><b>Important : évaluations basées sur Élève Assistant et SCORM</b></p>
+    <p>Si l’Assistant Élève est activé dans votre compte et que vous chargez des packages SCORM/xAPI dans des catalogues configurés comme sources de contenu de l’Assistant Élève, tenez compte des points suivants :</p>
+    <ul>
+      <li>Les élèves peuvent utiliser l'assistant Élève pour poser des questions sur le contenu de ces packages.</li>
+      <li>L'assistant peut générer des explications ou des résumés qui révèlent efficacement les réponses aux questions du quiz intégrées dans le cours SCORM (par exemple, en reformulant le retour d'informations ou en expliquant l'option « correcte »).</li>
+   </ul>
+   <p>Pour les évaluations à enjeux élevés ou surveillées (comme les examens de conformité ou de certification), l’Adobe recommande :</p>
+   <ul>
+      <li>Conserver le contenu SCORM lourd en évaluation dans les catalogues qui ne sont pas configurés comme sources de l’assistant de l’élève, ou</li>
+      <li>Concevoir les évaluations de sorte que la simple reformulation du matériel pédagogique n’expose pas de manière banale les bonnes réponses.</li>
+   </ul>
+   <p>Ce comportement est attendu : Adobe Learning Manager n’empêche pas l’Assistant Élève d’expliquer le contenu qui se trouve dans les catalogues que vous sélectionnez explicitement comme sources d’IA.</p>
+    </td>
    <td>
     <p>zip</p></td>
   </tr>
@@ -250,6 +262,77 @@ Si un compte Vendeur partage un catalogue contenant les cours et que ceux-ci con
 La propagation du module doit fonctionner correctement du compte Vendeur au compte Acheteur. Cela peut inclure - modifier/supprimer/ajouter le fichier vtt dans le module.
 
 Une fois que vous avez téléchargé le contenu, une notification s’affiche lorsque vous cliquez sur l’icône en forme de cloche dans le coin supérieur droit de la page. Chaque fois que vous modifiez un contenu et que vous le téléchargez à nouveau, vous recevez une notification. Si vous effectuez les modifications, vous êtes le seul à recevoir la notification. Les autres auteurs ne la recevront pas.
+
+### Prise en charge VTT multilingue
+
+La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Learning Manager permet aux auteurs de fournir des sous-titres et des légendes pour le contenu vidéo et audio dans plusieurs langues. Cette fonctionnalité rationalise la localisation, rend la formation accessible à un public international et garantit la conformité aux normes d’accessibilité. Les auteurs peuvent générer, traduire, réviser et modifier automatiquement les fichiers VTT directement sur la plateforme.
+
+#### Cas d’utilisation
+
+* Formation globale : proposez du contenu vidéo avec sous-titres dans plusieurs langues pour atteindre des élèves internationaux.
+* Conformité à l’accessibilité : proposez des sous-titres aux utilisateurs malentendants dans leur langue préférée.
+* Localisation plus rapide : réduisez les efforts manuels et accélérez le déploiement du contenu en générant et en traduisant automatiquement les fichiers VTT.
+* Expérience cohérente : assurez-vous que tous les élèves reçoivent les mêmes informations, quelle que soit la langue.
+
+#### Fonctionnalités clés
+
+* Génération VTT automatique : chargez un fichier vidéo ou audio et générez automatiquement des légendes VTT dans la langue d’origine.
+* Traduction multilingue : traduisez les sous-titres dans l’une des 39 langues non anglophones prises en charge.
+* Révision et modification dans l’application : révisez, modifiez et téléchargez les fichiers VTT avant de les publier.
+* Notifications : recevez des notifications dans l’application lorsque la génération et la traduction VTT sont terminées.
+* Publication fluide : légendes finalisées Publish auxquelles les élèves peuvent accéder dans la langue de leur choix.
+
+#### Chargement de contenu et génération de VTT
+
+1. Accédez à la bibliothèque de contenu et sélectionnez [!UICONTROL Ajouter du contenu].
+2. Chargez votre fichier MP3 ou MP4.
+3. Dans la boîte de dialogue de téléchargement, sélectionnez l&#39;option **Générer la traduction**.
+4. Sélectionnez la langue du contenu d’origine (la langue par défaut est celle du fichier).
+5. Sélectionnez d’autres langues cibles pour la traduction (jusqu’à 39 prises en charge).
+6. Sélectionnez [!UICONTROL Enregistrer]. Le système commence à générer et à traduire des fichiers VTT.
+
+#### Suivi de la progression
+
+1. Après l’enregistrement, la nouvelle entrée de contenu apparaît dans la bibliothèque de contenu.
+2. Un indicateur de progression affiche l’état de la génération et de la traduction VTT.
+3. Vous recevez une notification dans l’application une fois le processus terminé.
+
+#### Révision et modification de fichiers VTT
+
+1. Dans la bibliothèque de contenu, ouvrez le contenu en mode **Modifier**.
+2. Pour chaque langue, sélectionnez le lien Révision en regard du fichier VTT.
+3. Une fenêtre contextuelle affiche les légendes pour cette langue.
+4. Modifiez les sous-titres directement dans la fenêtre contextuelle ou téléchargez le fichier VTT pour le modifier hors ligne.
+5. Après avoir apporté des modifications, téléchargez ou collez de nouveau les légendes révisées dans la fenêtre contextuelle.
+6. Enregistrez vos modifications.
+
+#### Sous-titres Publish
+
+1. Une fois satisfait de toutes les légendes de langue, publiez le contenu.
+2. Les élèves voient les options de sous-titre dans toutes les langues publiées lorsqu’ils visionnent la vidéo.
+
+#### Informations supplémentaires
+
+* Langues prises en charge : les 39 langues autres que l’anglais sont prises en charge par Adobe Learning Manager.
+* Notifications : les auteurs sont avertis lorsque la génération et la traduction VTT sont terminées.
+* Flexibilité de modification : les sous-titres peuvent être modifiés dans l’application ou hors ligne et rechargés.
+* Évolutivité : conçu pour les besoins de localisation et d’accessibilité à l’échelle de l’entreprise.
+* Pas besoin de téléchargement VTT manuel : le système peut générer des fichiers VTT à partir de zéro à l&#39;aide de la vidéo/audio téléchargée.
+
+#### Bonnes pratiques
+
+* Vérifiez toujours l’exactitude des sous-titres générés automatiquement avant de publier.
+* Fournir des traductions pour tous les principaux groupes d&#39;élèves afin de maximiser l&#39;accessibilité.
+* Utilisez le système de notification pour rester informé du statut du traitement.
+* Mettez régulièrement à jour les sous-titres si le contenu vidéo change.
+
+#### Dépannage
+
+* Si la génération VTT échoue, assurez-vous que votre fichier est dans un format pris en charge (MP3/MP4).
+* Pour les langues manquantes, vérifiez qu’elles sont prises en charge et sélectionnées pendant le téléchargement.
+* Si les sous-titres ne sont pas synchronisés, utilisez l’éditeur intégré à l’application pour ajuster la durée.
+* La prise en charge de la VTT multilingue vous permet de proposer efficacement des expériences d’apprentissage vidéo accessibles et localisées. En utilisant la génération automatique, la traduction et l’édition intégrée à l’application, vous pouvez vous assurer que votre contenu atteint et prend en charge tous les élèves, quelle que soit la langue.
+
 
 ## Création d’un quiz {#createaquiz}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Comptes de pairs
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 52%
+source-wordcount: '905'
+ht-degree: 51%
 
 ---
 
@@ -36,7 +36,7 @@ Learning Manager vous permet de partager les places achetées grâce à la fonc
 >
 >Pour trouver le sous-domaine d’un autre compte, vérifiez l’URL du compte. Le sous-domaine apparaît avant le domaine principal et permet d’identifier le compte spécifique.
 >
->Par exemple :
+>Par exemple :
 >
 >Dans l&#39;URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname), le sous-domaine est **accountname**.
 >
@@ -70,7 +70,7 @@ _Section Utilisateurs affichant le nombre de places partagées par le compte de 
 
 Après avoir créé un compte de pair, vous pouvez également préparer les rapports pour les comptes de pairs. En tant qu’administrateur, vous pouvez voir les rapports du compte de pairs si vous êtes à l’origine de la requête du compte de pairs.
 
-Si l&#39;homologue souhaite également afficher les rapports de l&#39;administrateur, il doit envoyer une demande de compte d&#39;homologue distincte à l&#39;administrateur.
+Si un pair souhaite également afficher les rapports d’administrateur, le pair doit envoyer une requête de compte de pairs séparée à l’administrateur.
 
 Pour savoir comment générer et afficher des catalogues partagés pour le compte de pairs, voir [Affichage des rapports de pair](reports.md#main-pars_header_894271250).
 
@@ -89,10 +89,10 @@ Si vous ne souhaitez plus partager des places ou des achats avec un compte, vous
 
 ## Rapport d&#39;utilisateur pour comptes de pairs {#download-peer-account}
 
-L’administrateur peut afficher le rapport d’utilisateur du compte de pairs. L’administrateur du compte parent peut demander l’accès au rapport. Une fois que l’administrateur du compte de pairs accepte cette demande, l’administrateur parent pourra afficher le nombre d’utilisateurs enregistrés dans le compte de pairs et télécharger le rapport d’utilisateur pour le compte de pairs.
+L’administrateur peut afficher le rapport d’utilisateur du compte de pairs. L’administrateur du compte parent peut demander l’accès au rapport. Et une fois que l’administrateur du compte de pairs accepte la demande, l’administrateur parent pourra afficher le nombre d’utilisateurs enregistrés dans ce compte de pairs et télécharger le rapport d’utilisateur correspondant.
 
 1. Dans la page Comptes d’homologues, cliquez sur **[!UICONTROL Ajouter]**.
-1. Activez l&#39;option **[!UICONTROL Demander l&#39;autorisation de télécharger des rapports d&#39;utilisateur pour l&#39;ensemble du compte]**.
+1. Activez l’option **[!UICONTROL Demander l’autorisation de télécharger des rapports d’utilisateur pour l’intégralité du compte]**.
 
 ![](assets/image034.png)
 
@@ -100,9 +100,41 @@ L’administrateur peut afficher le rapport d’utilisateur du compte de pairs. 
 
 Pour télécharger les rapports des comptes de pairs, cliquez sur **[!UICONTROL Télécharger]**.
 
+## Affichage du nom de l’auteur pour les cours partagés (y compris les cours acquis précédemment)
+
+Adobe Learning Manager affiche le **nom de l&#39;auteur d&#39;origine** pour les cours partagés ou acquis via des comptes de pairs.
+
+Auparavant, les cours acquis à partir de comptes de pairs étaient souvent affichés avec le nom d&#39;auteur **Auteur externe**. Cette fonctionnalité a été améliorée pour améliorer l’attribution et la clarté du contenu.
+
+### Fonctionnement
+
+* Lorsqu&#39;un cours est partagé à partir d&#39;un compte de pairs, Learning Manager résout désormais et affiche le **nom réel de l&#39;auteur** à partir du compte source.
+* Ce comportement s’applique aux éléments suivants :
+   * Cours nouvellement partagés
+   * Cours acquis avant l&#39;introduction de cette amélioration
+
+### Comportement rétroactif
+
+Cette amélioration est appliquée **rétroactivement**.\
+Les cours qui étaient déjà acquis à partir de comptes de pairs avant cette modification affichent automatiquement le nom d&#39;auteur correct.
+
+Aucune action n’est requise de la part des administrateurs ou des auteurs :
+
+* Vous n’avez pas besoin de partager à nouveau le cours
+* Vous n’avez pas besoin de republier ou de modifier le cours
+* Les inscriptions existantes et la progression restent inchangées
+
+### Ce qui ne change pas
+
+* La propriété et les autorisations du cours restent les mêmes
+* Seul le **nom d&#39;auteur affiché** est mis à jour
+* Les rapports, les inscriptions et la structure des cours ne sont pas affectés
+
+Cela garantit une attribution cohérente et précise de l’auteur sur tout le contenu partagé, y compris l’historique des cours acquis via des comptes de pairs.
+
 ## Forum aux questions {#frequentlyaskedquestions}
 
-+++Comment partager des places d’un compte à un autre ?
++++Comment partager des places d’un compte à un autre ?
 
 Lors de l’ajout d’un compte de pairs, spécifiez le nombre de places que vous pouvez partager avec un autre compte de pairs.
 

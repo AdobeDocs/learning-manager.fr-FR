@@ -4,7 +4,7 @@ title: Installation du package Salesforce
 description: Learning Manager propose un package d’application Salesforce. Une fois le package installé et configuré dans SFDC, les vendeurs peuvent effectuer leurs activités de formation sur le portail SFDC. Cette application permet aux utilisateurs de SFDC d’explorer les nouvelles formations, de consulter les recommandations et de les utiliser directement dans le portail SFDC. Les utilisateurs reçoivent également les annonces envoyées par les administrateurs sous forme d’en-têtes directement dans l’application via le portail SFDC.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: d998e8f55c64a47de3d6171c0e2a82070021c98f
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 64%
@@ -20,17 +20,17 @@ Learning Manager propose un package d’application Salesforce. Une fois le pack
 ### Configuration dans l’application Learning Manager
 
 1. Connectez-vous à votre compte d’administrateur Learning Manager en tant qu’administrateur d’intégration.
-1. Cliquez sur **[!UICONTROL Applications]** > **[!UICONTROL Applications proposées]**.
+1. Cliquez sur **[!UICONTROL Applications]** > **[!UICONTROL Applications phares]**.
 1. Cliquez sur **[!UICONTROL Salesforce]**.
 1. Sur la page de l’application Salesforce, notez l’ID d’application (également appelé ID client) et le secret client mentionné dans la description.
-1. Cliquez sur **[!UICONTROL Approuver]** et votre application doit être approuvée avec succès.
-1. Cliquez sur **[!UICONTROL Ressources pour les développeurs]** > **[!UICONTROL Jetons d’accès pour les tests et le développement]**.
-1. Dans la section Obtenir le code OAuth , l’ID client et la portée doivent être définis sur - admin:read,admin:write. Cliquez sur **[!UICONTROL Envoyer]**.
+1. Cliquez sur **[!UICONTROL Approuver]** et votre application doit être approuvée.
+1. Cliquez sur **[!UICONTROL Ressources pour les développeurs]** > **[!UICONTROL Jetons d&#39;accès pour le test et le développement]**.
+1. Dans la section Obtenir le code OAuth, l&#39;ID client et la portée doivent être définis sur - admin:read,admin:write. Cliquez sur **[!UICONTROL Envoyer]**.
 1. Dans la section Obtenir le jeton d’actualisation, entrez l’ID client et le secret client. Cliquez sur **[!UICONTROL Envoyer]** et notez le jeton d’actualisation.
 
 ### Création d’un compte dans l’application Salesforce
 
-1. Créez un compte sur la page d’inscription Salesforce. Vous devez créer un compte Salesforce dans l’édition pour le développeur ou l’entreprise.  [URL d’inscription pour le développeur](https://developer.salesforce.com/signup). Assurez-vous de devoir utiliser l’ID d’e-mail pour vous inscrire au Salesforce que vous avez utilisé pour Learning Manager.
+1. Créez un compte sur la page d’inscription Salesforce. Vous devez créer un compte Salesforce dans l’édition pour le développeur ou l’entreprise.  [URL d’inscription pour le développeur](https://developer.salesforce.com/signup). Pour vous inscrire à Salesforce, veillez à utiliser l’ID de messagerie que vous avez utilisé pour Learning Manager.
 1. Validez votre compte via l’e-mail de vérification.
 1. Créez un mot de passe et connectez-vous à Salesforce.
 1. Notez l’URL Salesforce après la connexion (par exemple, site.lightning.force.com).
@@ -41,14 +41,14 @@ Si vous souhaitez installer le package, vous devez d’abord supprimer le pack e
 
 ![](assets/uninstall-package.png)
 
-*Installation du package Learning Manager*
+*Installer le package Learning Manager*
 
 >[!NOTE]
 >
->L’application Adobe Learning Manager n’est prise en charge que dans la vue Salesforce Lightning.
+>L’application Adobe Learning Manager est uniquement prise en charge dans la vue Salesforce Lightning.
 
-1. Lancez l’URL du package [Learning Manager](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS).
-1. Sur la page **Connexion**, cliquez sur **[!UICONTROL Utiliser un domaine personnalisé]**.
+1. Lancez l&#39;[URL du package Learning Manager](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
+1. Dans la page **Connexion**, cliquez sur **[!UICONTROL Utiliser un domaine personnalisé]**.
 1. Entrez l’URL du package et cliquez sur **[!UICONTROL Continuer]**. L’option Installer pour les administrateurs uniquement doit être sélectionnée sur la page d’installation. Ne modifiez pas cette option.
 1. Cliquez sur **[!UICONTROL Installer]**. Une fois le package installé, cliquez sur **[!UICONTROL Terminé]**. Vous êtes guidé vers la page Packages installés où vous pouvez voir le package Adobe Learning Manager installé.
 
@@ -57,10 +57,10 @@ Si vous souhaitez installer le package, vous devez d’abord supprimer le pack e
 1. Cliquez sur **[!UICONTROL Nouveau]** et ajoutez les détails suivants :
 
    * **Config :** entrez le nom de votre choix.
-   * **ClientID** : saisissez la valeur que vous avez obtenue à partir de la première section.
-   * **ClientSecret :** saisissez la valeur que vous avez obtenue à partir de la première section.
-   * **RefreshToken :** saisissez la valeur que vous avez obtenue à partir de la première section.
-   * **LearningManagerBaseURL :** URL du site sur lequel Learning Manager est hébergé.
+   * **ClientID** : entrez la valeur que vous avez obtenue dans la première section.
+   * **ClientSecret:** Entrez la valeur que vous avez obtenue à partir de la première section.
+   * **RefreshToken:** Entrez la valeur que vous avez obtenue à partir de la première section.
+   * **LearningManagerBaseURL :** URL du site où Learning Manager est hébergé.
    * **Désactiver la redirection :** désactivez la redirection vers la page d’accueil de l’élève dans Learning Manager.
 
 >[!NOTE]
@@ -70,7 +70,7 @@ Si vous souhaitez installer le package, vous devez d’abord supprimer le pack e
 ### Ajout des paramètres du site distant
 
 1. Dans le coin supérieur droit de la page, cliquez sur **[!UICONTROL Configuration]**.
-1. Dans **Recherche rapide**, recherchez les paramètres du site distant.
+1. Dans **Recherche rapide**, recherchez Paramètres du site distant.
 1. Cliquez sur **[!UICONTROL Nouveau site distant]**.
 1. Saisissez les détails :
 
@@ -79,13 +79,13 @@ Si vous souhaitez installer le package, vous devez d’abord supprimer le pack e
 
 1. Lancez Learning Manager.
 
-### Ajout du domaine Adobe aux URL de confiance Salesforce
+### Ajouter le domaine d’Adobe aux URL approuvées Salesforce
 
-Pour ajouter le domaine Adobe à des URL de confiance, procédez comme suit :
+Pour ajouter le domaine d’Adobe aux URL approuvées, procédez comme suit :
 
 1. Dans la console Salesforce, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Recherche rapide]**.
-1. Recherchez **[!UICONTROL URL de confiance]** et sélectionnez **[!UICONTROL Nouvelle URL de confiance]**.
-1. Saisissez un nom dans le champ **[!UICONTROL Nom de l’API]**.
+1. Recherchez **[!UICONTROL URL approuvées]** et sélectionnez **[!UICONTROL Nouvelle URL approuvée]**.
+1. Saisissez un nom dans le champ **[!UICONTROL Nom de l&#39;API]**.
 1. Saisissez `*.adobe.com` dans le champ URL.
 1. Cochez toutes les cases des **directives CSP** et enregistrez les modifications.
 1. Modifier le jeton d’actualisation de l’application Salesforce et l’enregistrer.

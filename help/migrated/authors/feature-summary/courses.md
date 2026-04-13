@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '7631'
-ht-degree: 75%
+source-wordcount: '8840'
+ht-degree: 64%
 
 ---
 
@@ -531,7 +531,9 @@ L’évaluation est un aspect important de tout système de gestion de l’appre
 
 Prenons l’exemple des employés d’un magasin ou d’un entrepôt qui font l’objet d’une évaluation pour les tâches qu’ils sont censés effectuer jour après jour. Il peut s’agir des étapes effectuées pour réparer une machine à café ou pour emballer un matériau. Les instructeurs peuvent évaluer les employés pour de telles tâches à partir d&#39;une liste de contrôle et les définir comme une réussite ou un échec dans l&#39;activité d&#39;évaluation.
 
-### Créer une liste de contrôle {#createachecklist}
+Vous pouvez créer une liste de contrôle dans plusieurs langues.
+
+### Création d’une liste de contrôle dans plusieurs langues {#createachecklist}
 
 Seul un auteur peut créer une liste de contrôle. Une liste de contrôle est un type de module Activité. Lors de la configuration d’un module Activité, vous, en tant qu’auteur, pouvez sélectionner une activité en tant que **Liste de contrôle**, comme indiqué ci-dessous :
 
@@ -539,9 +541,26 @@ Seul un auteur peut créer une liste de contrôle. Une liste de contrôle est un
 
 *Créer une liste de contrôle*
 
-Une fois l&#39;option **Liste de contrôle** choisie, quelques options supplémentaires apparaissent.
+1. Une fois l&#39;option **Liste de contrôle** choisie, quelques options supplémentaires apparaissent.
 
-**Type de liste de contrôle :** choisissez une option, **Oui/Non** ou **1-5**. Si vous choisissez Oui/Non, la liste de contrôle contient des questions auxquelles vous ne pouvez répondre que par Oui ou Non. Si vous choisissez 1-5, vous pouvez voir une liste de contrôle Likert, dans laquelle vous pouvez évaluer une question sur une échelle de cinq points.
+2. **Type de liste de contrôle :** choisissez une option, **Oui/Non** ou **1-5**. Si vous choisissez Oui/Non, la liste de contrôle contient des questions auxquelles vous ne pouvez répondre que par Oui ou Non. Si vous choisissez 1-5, vous pouvez voir une liste de contrôle Likert, dans laquelle vous pouvez évaluer une question sur une échelle de cinq points.
+
+3. Sélectionnez **Configurer**. La fenêtre Liste de contrôle s’affiche.
+4. Saisissez autant de questions que vous le souhaitez. Vous pouvez également saisir les mêmes questions dans les langues supplémentaires.
+
+   ![](assets/multi-lang-support-for-checklists2.png)
+   *D&#39;autres langues sont disponibles*
+
+   ![](assets/multi-lang-support-for-checklists3.png)
+   *Par exemple, les questions sont également saisies en français*
+
+   >[!NOTE]
+   >
+   >ALM ne traduit pas automatiquement les questions dans ces langues supplémentaires. Vous devez traduire les questions dans les langues respectives.
+
+5. Sélectionnez **Enregistrer**. Les questions sont enregistrées dans toutes les langues.
+6. Sélectionnez toutes les autres options pertinentes et sélectionnez **Ajouter**. La liste de contrôle est créée dans toutes les langues dans lesquelles le cours est disponible.
+
 
 **Critères de réussite :**
 
@@ -573,6 +592,8 @@ Ajoutez maintenant les questions de la liste de contrôle. Cliquez sur **[!UICON
 *Ajout de questions de liste de contrôle*
 
 Pour ajouter d’autres questions, cliquez sur **[!UICONTROL Ajouter plus]**.
+
+
 
 Enregistrez les modifications, ajoutez le module, puis publiez le cours.
 
@@ -617,6 +638,218 @@ Sur cette page, saisissez les informations suivantes :
    *Attribuer un rôle d&#39;instructeur à un utilisateur*
 
 1. Pour republier le cours avec les mises à jour, cliquez sur **[!UICONTROL Republier]**.
+
+### Liste de contrôle avec commentaires
+
+
+Les commentaires de liste de contrôle permettent aux auteurs d&#39;activer le **retour contextuel** lors des évaluations basées sur la liste de contrôle.\
+Lorsque cette option est activée, les réviseurs (instructeurs ou responsables) peuvent ajouter des remarques pour expliquer les résultats de l’évaluation au-delà des scores ou du statut Réussite/Échec.
+
+Cette fonctionnalité transforme les listes de contrôle d&#39;un outil purement évaluatif en un **mécanisme d&#39;apprentissage guidé par les commentaires**, améliorant la compréhension, la transparence et les actions de suivi de l&#39;élève.
+
+Ainsi, les auteurs peuvent :
+
+* Activer les commentaires des réviseurs sur les listes de contrôle
+* Contrôler si les commentaires sont visibles par les élèves
+* Contrôler si le nom du réviseur est affiché pour les élèves
+* S’assurer que les commentaires des réviseurs sont capturés dans les relevés de notes et les rapports des élèves
+
+#### Cas d’utilisation
+
+#### Évaluations des performances
+
+Fournir des commentaires clairs sur les points forts, les lacunes et les domaines d’amélioration observés lors d’évaluations en situation réelle ou basées sur les rôles.
+
+#### Formation dispensée par un instructeur et VILT
+
+Autoriser les instructeurs à expliquer pourquoi un élève a réussi ou échoué une évaluation basée sur une liste de contrôle.
+
+#### Scénarios de conformité et d’audit
+
+Tenir à jour un journal contrôlable expliquant les décisions d’évaluation de la liste de contrôle.
+
+#### Environnements de réviseurs multiples
+
+Aidez les élèves à identifier qui les a évalués et effectuez un suivi pour obtenir des éclaircissements.
+
+#### Activer les commentaires de liste de contrôle
+
+1. Ouvrez un cours existant ou créez-en un.
+2. Ajoutez un module de liste de contrôle ou ouvrez un module existant pour le modifier.
+3. Dans le panneau de configuration de la liste de contrôle :
+   1. Sélectionnez **Remarques du réviseur**. Lors de la révision de la liste de contrôle, les réviseurs peuvent ajouter leurs remarques ou commentaires. Ce paramètre ne peut pas être modifié une fois qu’il est publié.
+   2. (Facultatif) Sélectionnez **Afficher le nom du réviseur pour l&#39;élève**. Cela permet aux élèves d’afficher le nom du réviseur qui a révisé le module de liste de contrôle.
+4. Enregistrez la configuration de la liste de contrôle.
+5. Publish du cours pour rendre la liste de contrôle disponible pour les évaluations.
+
+La liste de contrôle prend désormais en charge les commentaires des réviseurs pendant l’évaluation des élèves.
+
+#### Que se passe-t-il pendant l’évaluation ?
+
+Bien que les auteurs n’effectuent pas d’évaluations, il est utile de comprendre comment la configuration est utilisée :
+
+* Les réviseurs voient un champ **remarques** lors de l&#39;évaluation des élèves
+* Les réviseurs peuvent ajouter des commentaires contextuels lors de l’envoi
+* Si cette option est activée :
+   * Les élèves voient les commentaires des réviseurs
+   * Les élèves voient le nom du réviseur
+
+#### Expérience de l’élève (lorsque cette option est activée)
+
+* Lorsque les élèves ouvrent une liste de contrôle terminée :
+* Ils voient le résultat de la liste de contrôle (réussite/échec ou score)
+* Ils voient les commentaires des réviseurs (si cette option est activée)
+* Ils voient le nom du réviseur (s’il est activé)
+
+Cela aide les apprenants à comprendre clairement les résultats de l&#39;évaluation et les étapes suivantes.
+
+#### Notes clés à l’attention des auteurs
+
+* Les commentaires de liste de contrôle sont **facultatifs** et doivent être explicitement activés
+* La visibilité des commentaires et l&#39;identité des réviseurs sont **entièrement contrôlées par l&#39;auteur**
+* Fonctionne avec :
+   * Un ou plusieurs réviseurs
+   * Listes de contrôle basées sur le score, Oui/Non et mises à l’échelle
+* Aucun impact sur les listes de contrôle existantes, sauf mise à jour par l’auteur
+
+### Création d’une liste de contrôle multilingue
+
+La prise en charge multilingue des listes de contrôle permet aux auteurs de créer **un module de liste de contrôle unique avec des questions disponibles dans plusieurs langues**.\
+Lorsque cette option est activée, les réviseurs voient automatiquement les questions de la liste de contrôle dans la **langue de contenu sélectionnée**, ce qui garantit des évaluations cohérentes et localisées dans les équipes mondiales.
+
+Cela élimine la nécessité de créer et de gérer des **listes de contrôle distinctes par langue**, ce qui réduit les doublons et simplifie la maintenance des cours.
+
+Grâce à la prise en charge des listes de contrôle multilingues, les auteurs peuvent :
+
+* Ajout de questions de liste de contrôle dans plusieurs langues au sein d’une même liste de contrôle
+* Maintien de la parité linguistique entre les questions de la liste de contrôle
+* Assurez-vous que les réviseurs voient les questions de la liste de contrôle automatiquement localisées dans leur langue de contenu
+* Télécharger des rapports de liste de contrôle dans la langue sélectionnée
+
+#### Cas d’utilisation
+
+#### Évaluations mondiales des effectifs
+
+Permettre aux responsables et aux instructeurs de toutes les régions d’évaluer les élèves à l’aide de questions de liste de contrôle localisées.
+
+#### Évaluations standardisées dans toutes les Régions
+
+Maintenir une structure d’évaluation unique tout en prenant en charge plusieurs langues pour différentes zones géographiques.
+
+#### Conformité et formation opérationnelle
+
+Veiller à ce que les évaluateurs comprennent clairement les critères de la liste de contrôle dans leur langue maternelle, réduisant ainsi les erreurs d&#39;interprétation.
+
+#### Réduction de la duplication du contenu
+
+Évitez de créer et de gérer plusieurs modules de liste de contrôle pour différentes langues.
+
+#### Comment créer une liste de contrôle multilingue
+
+1. Ouvrez un cours existant ou créez-en un.
+2. Ajouter un module de liste de contrôle.
+3. Dans les paramètres du cours, ajoutez les **langues de contenu** requises (par exemple, l&#39;anglais, le français, l&#39;allemand).
+4. Enregistrez la configuration du cours.
+
+#### Configuration des questions de liste de contrôle dans plusieurs langues
+
+1. Ouvrez la configuration du module de liste de contrôle.
+2. Accédez à la section **Configurer les questions**.
+3. Utilisez les **onglets de langue** pour basculer entre les langues disponibles.
+4. Pour chaque langue :
+   * Ajouter la version traduite de chaque question de la liste de contrôle
+   * Conserver une signification et une intention d’évaluation équivalentes dans toutes les langues
+5. Définissez des critères de liste de contrôle (Oui/Non, basés sur une échelle ou basés sur un score) selon vos besoins.
+
+Chaque version linguistique représente la même liste de contrôle, et non un module distinct.
+
+Enregistrez la configuration de liste de contrôle et publiez le cours. La liste de contrôle est désormais disponible dans toutes les langues configurées.
+
+#### Expérience du réviseur
+
+* Les réviseurs voient les questions de la liste de contrôle dans **la langue de contenu sélectionnée**
+* Aucun changement manuel de langue n’est requis pendant l’évaluation
+* Si un réviseur modifie la langue de son contenu, les questions de la liste de contrôle s’adaptent automatiquement
+
+### Attribution de poids aux questions de la liste de contrôle
+
+La pondération des questions de liste de contrôle permet aux auteurs de créer des **listes de contrôle basées sur des scores** où les questions de liste de contrôle individuelles peuvent porter **différents scores maximum**.
+
+Au lieu de traiter tous les éléments de la liste de contrôle de manière égale, les auteurs peuvent définir des questions pondérées et définir un **score total minimum** requis pour qu&#39;un élève réussisse.
+
+Cette fonctionnalité permet des évaluations plus précises et plus flexibles, en particulier pour les **formations basées sur les performances, axées sur les évaluations et axées sur la conformité**.
+
+Avec la pondération des questions de liste de contrôle, les auteurs peuvent :
+
+* Créer un type de liste de contrôle basé sur le **score**
+* Attribuer différents **scores maximum** à des questions de liste de contrôle individuelles
+* Définissez un **score total minimum** requis pour réussir la liste de contrôle
+* Utiliser une échelle de notation étendue (plage configurable jusqu’à 10)
+* Afficher le score atteint par rapport au score maximal dans les rapports
+
+#### Cas d’utilisation
+
+#### Évaluations dirigées par un instructeur
+
+Évaluer les élèves en utilisant des critères de notation détaillés plutôt que de simples résultats Oui/Non.
+
+#### MON et formation opérationnelle
+
+Attribuez une pondération plus élevée aux étapes critiques et une pondération plus faible aux tâches mineures.
+
+#### Conformité et état de préparation à la certification
+
+Assurez-vous que les élèves atteignent un seuil de compétence minimum défini avant de réussir.
+
+#### Analyse comparative des compétences et des performances
+
+Soutenir les évaluations structurées où l’achèvement partiel contribue encore à la notation globale.
+
+#### Comment créer une liste de contrôle pondérée
+
+1. Ouvrez un cours existant ou créez-en un.
+2. Ajoutez un module de liste de contrôle ou ouvrez un module existant pour le modifier.
+3. Dans le panneau de configuration de la liste de contrôle, choisissez le type de liste de contrôle **Score personnalisé**.
+4. Cela active l&#39;évaluation par question et le calcul du score total.
+5. Ajoutez des questions de liste de contrôle selon vos besoins.
+6. Pour chaque question :
+   * Définissez le **score maximum** (par exemple, 5, 10, 20)
+7. S’assurer que les scores des questions reflètent leur importance relative.
+
+Différentes questions peuvent avoir des scores maximaux différents dans la même liste de contrôle.
+
+#### Définition des critères de réussite
+
+1. Spécifiez le **score total minimum** requis pour réussir la liste de contrôle. Le système calcule automatiquement le score total possible en fonction de la pondération des questions.
+2. Enregistrez la configuration de liste de contrôle et publiez le cours.
+
+La liste de contrôle est désormais activée avec une notation pondérée pour les évaluations des instructeurs.
+
+#### Expérience du réviseur
+
+* Les réviseurs voient chaque question de liste de contrôle avec son **score maximum**
+* Les réviseurs attribuent des notes par question pendant l&#39;évaluation
+* Le système calcule :
+   * Score total atteint
+   * Statut Réussite ou Échec basé sur des critères définis
+
+#### Expérience de l’élève
+
+* Les élèves voient l’état d’achèvement de la liste de contrôle (réussite/échec)
+* Si cette option est activée, les élèves peuvent également voir :
+   * Commentaires du réviseur
+   * Nom du réviseur
+* La logique de notation est appliquée de manière cohérente à toutes les évaluations
+
+#### Notes pour les auteurs
+
+* Les listes de contrôle pondérées conviennent mieux aux **évaluations formelles**
+* Les scores des questions doivent être soigneusement calibrés pour éviter des résultats faussés
+* Fonctionne avec :
+   * Un ou plusieurs réviseurs
+   * Commentaires du réviseur (si cette option est activée)
+* Les listes de contrôle existantes ne sont pas affectées, sauf mise à jour explicite
+
 
 ### Autoriser les instructeurs à indiquer le succès
 
@@ -857,7 +1090,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

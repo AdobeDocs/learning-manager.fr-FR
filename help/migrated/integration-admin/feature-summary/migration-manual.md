@@ -3,10 +3,10 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4636'
-ht-degree: 70%
+source-wordcount: '5322'
+ht-degree: 61%
 
 ---
 
@@ -479,6 +479,127 @@ Une fois que vous êtes connecté aux serveurs FTP et Box et que vous avez charg
 
 *Emplacements CSV dans le compte Box*
 
+## Migration des variantes et équivalents
+
+### Présentation
+
+Cette rubrique décrit le modèle de données CSV et le comportement de migration pour introduire l’équivalence d’objet d’apprentissage (LO) dans le système.
+
+### Fichiers CSV existants (contexte)
+
+Ces fichiers CSV existent déjà dans la plateforme et fournissent l’objet d’apprentissage principal, le module et le contexte d’achèvement (liste non exhaustive) :
+
+* user_course_grade.csv
+* moduleversion
+* module.csv
+* course.csv
+* course_module.csv
+
+Ces fichiers continuent d&#39;être utilisés tels quels et ne sont pas modifiés par la nouvelle fonction d&#39;équivalence, mais ils forment les données sous-jacentes sur lesquelles l&#39;équivalence fonctionnera.
+
+### Nouveaux fichiers CSV pour les alternatives
+
+Deux nouveaux fichiers CSV sont introduits pour prendre en charge les relations d’objet d’apprentissage de remplacement et les finalisations utilisateur associées.
+
+#### &#x200B;1. équivalence_relations.csv
+
+Définit les mappages d’équivalence entre les objets d’apprentissage source et cible, qui peuvent être des cours ou des parcours d’apprentissage.
+
+**Schéma :**
+
+* sourceId
+* sourceloType (cours/programme d&#39;apprentissage)
+* targetId
+* targetLotype (cours/programme d’apprentissage)
+* dateCreated
+* relationshipStatus (ACTIF/DELETE)
+* dateModified
+
+**Objectif :**
+
+* Représente une relation d’équivalence entre deux objets d’apprentissage.
+* relationshipStatus contrôle si la relation est actuellement active ou supprimée.
+* dateCreated et dateModified prennent en charge l&#39;audit.
+
+#### équivalence_user_completion.csv
+
+Capture les informations d’achèvement au niveau de l’utilisateur pour les objets d’apprentissage équivalents, alignées sur les relations définies dans équivalence_relationship.csv.
+
+**Schéma :**
+
+* userId
+* sourceId
+* sourceloType (cours/programme d&#39;apprentissage)
+* targetId
+* targetLotype (cours/programme d’apprentissage)
+* dateCompleted
+
+**Objectif :**
+
+* Enregistre explicitement quelles **finalisations d&#39;objet d&#39;apprentissage cible** doivent être déduites pour un utilisateur en fonction de la relation d&#39;équivalence et de la finalisation d&#39;objet d&#39;apprentissage source existante.
+* Sert de **source autorisée** pour les finalisations d&#39;utilisateurs liées aux données d&#39;équivalents migrés.
+
+### Règles de migration et sémantique comportementale
+
+#### &#x200B;1. Aucune prise en charge de la mise à niveau pour les nouveaux fichiers CSV équivalents
+
+* Toutes les données relatives à l’équivalence doivent être introduites via la migration.
+* Le système ne prend pas en charge les scénarios dans lesquels :
+   * Les données objet d’apprentissage (cours/programmes d’apprentissage) ont été créées via l’interface utilisateur.
+   * Les relations d’équivalence sont importées ultérieurement uniquement via CSV.
+
+Cela signifie :
+
+* Le modèle pris en charge est le suivant : les définitions d’objet d’apprentissage et leurs relations d’équivalence sont gérées dans le cadre d’un flux de migration cohérent.
+* Les flux hybrides où les objets d’apprentissage créés par l’interface utilisateur sont modifiés avec une équivalence uniquement CSV ne sont pas pris en charge.
+
+#### &#x200B;2. Aucune fin/infin rétroactive des relations migrées
+
+Lorsqu’une relation d’équivalence est introduite via la migration (c’est-à-dire via équivalence_relations.csv) :
+
+* Le système n&#39;effectuera pas de calculs rétroactifs d&#39;achèvement ou d&#39;inachèvement basés uniquement sur cette relation.
+* En revanche, toutes les données d’achèvement utilisateur requises doivent être explicitement fournies via équivalence_user_completion.csv.
+
+**Implication :**
+
+* équivalence_user_completion.csv est la source de vérité unique pour toutes les terminaisons qui doivent être reconnues au moment de la migration en raison de l’équivalence.
+* La plate-forme ne tentera pas de déduire ou de remplacer ces achèvements par la progression du cours existant.
+
+#### &#x200B;3. Comportement des nouvelles finalisations après la migration
+
+Si :
+
+* Une relation d’équivalence a été créée via la migration, et
+* Un élève termine ultérieurement l’objet d’apprentissage source (après la migration),
+
+puis :
+
+* Le système déclenchera des compléments alternatifs pour l’objet d’apprentissage cible, c’est-à-dire que l’équivalence se comporte normalement à l’avenir pour les compléments source nouveaux.
+
+**Distinction clé :**
+
+* **Au moment de la migration :** les finalisations doivent venir via équivalence_user_completion.csv.
+* **Après la migration :** la logique d&#39;exécution native gère les autres achèvements lorsqu&#39;un objet d&#39;apprentissage source est nouvellement terminé.
+
+#### &#x200B;4. Impact sur les objets d’apprentissage d’ordre supérieur
+
+Les autres achèvements entrant via CSV (c’est-à-dire via équivalence_user_completion.csv) déclencheront le recalcul des objets d’apprentissage d’ordre supérieur.
+
+Les objets d’apprentissage d’ordre supérieur peuvent inclure :
+
+* Parcours d’apprentissage
+
+**Implication technique :**
+
+* L’ingestion du fichier équivalence_user_completion.csv n’est pas une opération « silencieuse » : elle lance la même logique de recalcul/cumul que celle qui serait déclenchée par des exécutions normales.
+* Les systèmes intégrant ou planifiant cette migration doivent prévoir la charge et le calendrier des recalculs.
+
+## Webhooks pour les alternatives
+
+Lorsqu’un élève termine un cours par le biais d’une autre inscription ou d’une relation, Adobe Learning Manager génère un événement webhook dédié qui est distinct du webhook d’achèvement de cours standard, ce qui permet aux intégrations d’appliquer une logique de traitement différente pour les autres achèvements. Les événements de webhook sont également générés pour l’achèvement rétroactif et l’inachèvement rétroactif, couvrant les modifications historiques de l’état du cours, y compris celles entraînées par les mises à jour des relations, de sorte que les systèmes externes restent synchronisés avec l’état d’achèvement actuel de l’élève.
+
+Pour plus d’informations sur les webhooks des alternatives, consultez [Webhooks des alternatives](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-alternates)
+
 ## Procédure de migration des données et du contenu {#dataandcontentmigrationprocedure}
 
 La procédure à effectuer pour migrer les données et le contenu de votre LMS vers Learning Manager est la suivante :
@@ -789,3 +910,9 @@ Pour plus d’informations à ce sujet, consultez le contenu suivant de l’aide
 
 * [FAQ sur le chargement des fichiers CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Fonctionnalité d’aide pour l’ajout d’utilisateurs](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
+
+## Modifications de l’API
+
+La version d’avril 2026 de Adobe Learning Manager propose des améliorations ciblées à l’API publique dans les domaines des alternatives et des équivalents, de l’accès au contenu avec fenêtre temporelle, des tentatives de quiz axées sur le contenu, des expériences d’élève non connecté et de la gestion des assistances à la tâche. Ces mises à jour sont conçues pour rester largement rétrocompatibles, tout en permettant des modèles d’intégration plus précis et plus extensibles.
+
+Pour les modifications d&#39;API, affichez [Modifications d&#39;API](/help/migrated/api-changes-alm.md).

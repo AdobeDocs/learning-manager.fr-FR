@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 69%
+source-wordcount: '1898'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ Lisez cet article pour savoir comment gérer les participants et envoyer des cou
 
 En tant qu’instructeur, vous pouvez voir les sessions ou modules avec des révisions en cours.
 
-Sur la page Sessions/Modules, vous pouvez voir une colonne **Révisions en attente** qui indique le nombre de révisions en attente pour la session/l&#39;activité correspondante.
+La page Sessions/Modules affiche une colonne **Révisions en attente** qui indique le nombre de révisions en attente pour la session/l&#39;activité correspondante.
 
 ## Gérer la liste d’attente pour votre session {#managewaitlistforyoursession}
 
@@ -49,7 +49,7 @@ Le nouveau **[!UICONTROL rapport sur la liste d&#39;attente]** de Adobe Learning
 En suivant les colonnes disponibles dans le rapport Liste d’attente :
 
 * Nom du cours
-* Nom d’instance
+* Nom de l’instance
 * ID d’instance
 * État d’instance
 * Nom d’utilisateur
@@ -83,6 +83,99 @@ Vous pouvez voir le nombre d’élèves confirmés qui assistent à la session, 
 
    ![](assets/markattendance.png)
    *Marquer l’élève comme participant*
+
+### Télécharger les codes QR pour l&#39;inscription et la présence des élèves
+
+Les instructeurs peuvent télécharger des codes QR pour les sessions qui leur sont attribuées pour permettre aux élèves de s&#39;inscrire à une instance de cours et de marquer l&#39;assiduité ou l&#39;achèvement en scannant le code QR.
+
+Cela permet aux instructeurs de gérer la participation à la session de manière indépendante, sans avoir besoin de l’aide de l’administrateur.
+
+Les étapes suivantes conviennent pour les deux :
+
+* Sessions de classe physique
+* Sessions de classe en ligne
+
+Pour une session de classe physique, en tant qu’instructeur, vous devez générer le code QR approprié et le coller dans la salle de classe (ou le faire circuler) où les élèves assistent à la session afin qu’ils puissent numériser le code QR et marquer leur inscription ou leur présence ou les deux selon le code QR.
+
+Pour une session de classe en ligne, en tant qu&#39;instructeur, vous pouvez envoyer le code QR généré par courrier, par un système de messagerie ou par tout autre moyen afin que les élèves puissent numériser le code QR et marquer leur inscription ou leur présence ou les deux selon le code QR.
+
+
+#### Télécharger les codes QR d’une session
+
+1. Connectez-vous à Adobe Learning Manager avec le rôle **Instructeur**.
+2. Accédez au tableau de bord **Instructeur**.
+3. Ouvrez l&#39;**instance de cours** concernée.
+4. Sélectionnez l&#39;onglet **Sessions**.
+5. Choisissez une session qui vous est attribuée.
+6. Sélectionnez **Code QR de session**.
+   ![](assets/instructor-QR-code.png)
+
+Vous pouvez télécharger les codes QR suivants :
+
+* **Code QR d&#39;inscription** : permet aux élèves de s&#39;inscrire à l&#39;instance de cours
+* **Code QR de présence** : marque la présence pour la session
+* **Code QR d&#39;inscription + de présence** : inscrit des élèves et marque la présence dans une seule numérisation
+
+Le code QR est téléchargé en tant que PDF et peut être partagé numériquement ou affiché pendant la session.
+
+#### Que se passe-t-il lorsque les élèves scannent le code QR ?
+
+* Les élèves scannent le code QR à l&#39;aide d&#39;un appareil mobile.
+* Adobe Learning Manager valide l’élève et la session.
+* En fonction du type de code QR :
+   * Les élèves sont inscrits à l’instance de cours, ou
+   * La présence et l&#39;achèvement sont enregistrés pour la session
+
+Toutes les mises à jour sont automatiquement répercutées dans les dossiers, les relevés de notes et les rapports des élèves.
+
+#### Annotations
+
+* Les codes QR sont disponibles uniquement pour les instructeurs affectés à la session.
+* Les règles d’inscription, de présence et d’achèvement configurées pour le cours et la session continuent de s’appliquer.
+* Les workflows existants de progression des élèves et de génération de rapports restent inchangés.
+
+#### Cas d’utilisation
+
+* Les organisations qui exécutent de gros volumes de sessions sur site (par exemple, une formation produit pour les professionnels) peuvent permettre aux instructeurs d’imprimer des codes QR spécifiques à la session qui s’inscrivent et marquent la présence à l’aide d’une seule numérisation.
+
+* Dans les formations sur la vente au détail, la fabrication et les soins de santé, où les élèves rejoignent souvent les sessions directement à partir de l&#39;étage ou sans pré-inscription, un code QR « Inscription + Présence » peut être placé à la porte. Cela permet aux élèves d&#39;accéder en libre-service à leur inscription et à leur assiduité via leurs téléphones.
+
+* Les événements de formation pour les partenaires ou les clients permettent au formateur sur site de s&#39;adapter facilement aux changements de salle, aux sessions supplémentaires ou aux participants supplémentaires sans avoir à consulter l&#39;administrateur pour de nouveaux codes QR.
+
+### Invitations au calendrier
+
+* Lorsqu’un élève ou un instructeur est inscrit à une session de classe ou de classe virtuelle, Learning Manager envoie une invitation de calendrier (fichier ICS).
+* L’invitation au calendrier comprend :
+   * Date et heure de la session
+   * Détails de la session
+   * **Lien de participation directe à la session** dans la description du calendrier
+
+Les participants peuvent ouvrir l’événement de calendrier et participer à la session directement à partir de leur calendrier.
+
+#### Rejoindre une session à partir de Gmail
+
+1. Ouvrez le **Calendrier Google**.
+2. Sélectionnez l’événement de session.
+3. Dans les détails de l&#39;événement, cliquez sur le lien **participation à la session**.
+4. La session s’ouvre directement dans Adobe Learning Manager ou dans l’outil de classe virtuelle configuré.
+
+Vous n’avez pas besoin d’ouvrir l’e-mail d’origine pour accéder au lien de la session.
+
+#### Participation à une session à partir d’autres clients de calendrier
+
+Le lien de session est inclus dans le corps de l’événement de calendrier et est accessible à partir de :
+
+* Microsoft Outlook
+* Calendrier Apple
+* Autres applications de calendrier prenant en charge les fichiers ICS
+
+#### Annotations
+
+* Les invitations au calendrier sont générées automatiquement par Learning Manager.
+* Les informations de fuseau horaire dans l’invitation du calendrier s’ajustent en fonction du fuseau horaire sélectionné de l’élève.
+* Cette amélioration s’applique aux invitations de calendrier nouvellement générées.
+* Aucune configuration supplémentaire n’est requise par les administrateurs ou les instructeurs.
+
 
 ## Marquer le succès pour les élèves
 
