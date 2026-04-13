@@ -75,7 +75,7 @@ Les sources de données vous permettent, ou permettent aux administrateurs d’i
 
 * **Connecteurs FTP** : les sources de données FTP permettent aux organisations de charger des fichiers de données utilisateur directement dans Adobe Learning Manager via des protocoles de transfert de fichiers sécurisés. Ces connexions sont particulièrement utiles pour les importations par lots d&#39;informations utilisateur, les inscriptions de cours et d&#39;autres opérations de données en bloc.
 * **Intégrations tierces** : Adobe Learning Manager prend en charge l’intégration avec divers systèmes d’entreprise via des connecteurs préconfigurés. Ces intégrations peuvent inclure des systèmes de gestion des RH, des plateformes de gestion de la relation client et d&#39;autres systèmes de gestion de l&#39;apprentissage.
-*** l’intégration de Salesforce ** : le connecteur Salesforce permet la synchronisation directe des données utilisateur, des informations sur les cours et des enregistrements d’apprentissage entre Salesforce et Adobe Learning Manager.
+*** l’intégration de Salesforce &#x200B;** : le connecteur Salesforce permet la synchronisation directe des données utilisateur, des informations sur les cours et des enregistrements d’apprentissage entre Salesforce et Adobe Learning Manager.
 
 Voir [Connecteurs dans Adobe Learning Manager](/help/migrated/integration-admin/feature-summary/connectors.md) pour plus d&#39;informations.
 
