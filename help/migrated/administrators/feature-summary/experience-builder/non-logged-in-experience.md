@@ -3,15 +3,17 @@ description: Explique comment Experience Builder peut publier des pages d’appr
 jcr-language: en_us
 title: Configuration et gestion des pages non connectées dans Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: ef6f7a9acd27b7fb4c08fe9a8b366d628d199050
+source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
 workflow-type: tm+mt
-source-wordcount: '6051'
+source-wordcount: '6058'
 ht-degree: 1%
 
 ---
 
 
-# Introduction
+# Expérience hors connexion dans Experience Builder
+
+## Introduction
 
 L’expérience hors connexion dans Experience Builder permet aux organisations d’afficher leur contenu d’apprentissage et leurs pages de portail à tous les visiteurs, y compris ceux qui ne sont pas connectés. Cette fonctionnalité est conçue pour attirer, informer et impliquer les élèves potentiels en offrant un aperçu fluide et de marque de vos offres de formation avant qu’ils ne soient tenus de se connecter ou de s’inscrire.
 
@@ -29,7 +31,7 @@ L’image de marque et la localisation sont entièrement prises en charge, ce qu
 
 L’expérience hors connexion dans Experience Builder permet aux organisations de présenter publiquement leur contenu d’apprentissage et leurs pages de portail à quiconque, sans exiger que les utilisateurs se connectent. Cela permet d’attirer, d’informer et d’impliquer les élèves potentiels en fournissant un aperçu des formations et des ressources disponibles avant que l’inscription ou l’authentification ne soient nécessaires.
 
-## Cas d’utilisation réels sur une expérience non connectée
+## Cas d’utilisation réels de l’expérience hors connexion
 
 - **Marketing et sensibilisation** : les organisations peuvent promouvoir leurs programmes de formation auprès de publics externes, tels que les clients potentiels, les partenaires ou les candidats à un emploi, en rendant les catalogues de cours et les détails du programme accessibles au public.
 - **Exploration avant inscription** : les élèves peuvent parcourir les cours disponibles, afficher des aperçus et explorer les catégories avant de décider de s&#39;inscrire ou de se connecter, ce qui les aide à prendre des décisions éclairées en matière d&#39;inscription.

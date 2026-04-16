@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Comment soumettre un ticket de support sur Experience League
 description: Découvrez comment soumettre une demande d’assistance sur Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
+source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Le processus de soumission des tickets de support Adobe Learning Manager est dé
 
 Veuillez noter que l’envoi d’un ticket d’assistance est uniquement disponible pour les contacts d’assistance autorisés. Pour toute question concernant l’assistance, veuillez envoyer vos tickets d’assistance à Adobe Learning Manager par e-mail jusqu’au 11 mai 2025. Après cette date, vous pouvez envoyer vos tickets d’assistance via le portail d’assistance Experience League, comme décrit ci-dessous, en plus du canal e-mail.
 
-1. Pour accéder au portail d&#39;assistance, rendez-vous sur le site Web **[!UICONTROL Experience League]** et sélectionnez l&#39;onglet **[!UICONTROL Assistance]** situé en haut de la page. Vous pouvez également accéder au [lien direct](https://experienceleague.adobe.com/home?lang=fr#support).
+1. Pour accéder au portail d&#39;assistance, rendez-vous sur le site Web **[!UICONTROL Experience League]** et sélectionnez l&#39;onglet **[!UICONTROL Assistance]** situé en haut de la page. Vous pouvez également accéder au [lien direct](https://experienceleague.adobe.com/home#support).
 
    ![](assets/support.png)
    _Page d’accueil du support_
@@ -31,7 +31,7 @@ Veuillez noter que l’envoi d’un ticket d’assistance est uniquement disponi
    Vers la fin du formulaire, veuillez remplir les champs suivants pour nous fournir des informations plus spécifiques qui nous aideront à résoudre les problèmes :
 
    * Raison du problème (sélectionnez la liste déroulante appropriée pour un type de problème)
-   * Identifiant de compte
+   * ID de compte
    * Rôle (administrateur, auteur, élève, administrateur d’intégration, etc.)
    * Priorité de cas (faible, moyenne, élevée, critique)
    * Impact pour l’entreprise
@@ -43,7 +43,7 @@ Veuillez noter que l’envoi d’un ticket d’assistance est uniquement disponi
    ![](assets/ticket-form.png)
    _Formulaire de ticket_
 
-4. Une fois que vous avez cliqué sur **[!UICONTROL Soumettre le dossier]**, vous êtes redirigé vers la page **[!UICONTROL Mes dossiers]**, où vous pouvez afficher tous les dossiers que votre organisation a soumis. Vous pouvez également accéder à cette page en cliquant sur le bouton **[!UICONTROL Mes dossiers]** dans le menu de la barre latérale. Sur cette page, vous pourrez afficher tous vos dossiers de support ouverts et fermés. Les options disponibles en haut de la page permettent de filtrer les dossiers par statut (public ou privé) ou par solution Experience Cloud. Vous pouvez également utiliser la barre de recherche pour rechercher tous les mots-clés relatifs à vos problèmes de support.
+4. Une fois que vous avez cliqué sur **[!UICONTROL Soumettre le dossier]**, vous êtes redirigé vers la page **[!UICONTROL Mes dossiers]**, où vous pouvez afficher tous les dossiers que votre organisation a soumis. Vous pouvez également accéder à cette page en cliquant sur le bouton **[!UICONTROL Mes dossiers]** dans le menu de la barre latérale. Sur cette page, vous pourrez afficher tous vos dossiers de support ouverts et fermés. Les options disponibles en haut de la page vous permettent de filtrer les dossiers par statut (ouvert ou fermé) ou par solution Adobe CX Enterprise. Vous pouvez également utiliser la barre de recherche pour rechercher tous les mots-clés relatifs à vos problèmes de support.
 
    ![](assets/open-cases.png)
    _Dossiers ouverts_
