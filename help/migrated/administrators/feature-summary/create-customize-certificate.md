@@ -3,9 +3,9 @@ title: Création et personnalisation d’un certificat
 description: Les certificats personnalisés dans Adobe Learning Manager (ALM) permettent aux administrateurs et aux auteurs de concevoir, gérer et émettre des certificats personnalisés pour les élèves.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 54755d739e7f7396f7a9adc28b413cf69af189cc
+source-git-commit: 0d4e8f06c3a9a3dcd6461036ec7fbfa4a54c0b58
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2845'
 ht-degree: 0%
 
 ---
@@ -240,6 +240,30 @@ Cela s’applique aux secteurs de la santé, de la finance, des administrations 
 - Les administrateurs peuvent passer progressivement à des modèles basés sur des concepteurs, en commençant par les programmes hautement prioritaires.
 - Si la migration ne peut pas préserver un mappage (par exemple, les badges sont désactivés à mi-chemin), le système revient au modèle global par défaut afin que les élèves ne soient pas bloqués.
 
+## Exceptions à connaître lors de l’utilisation de certificats personnalisés
+
+L’expérience de création de certificats personnalisés introduite dans M45 étend la façon dont les certificats sont créés et gérés. Les exceptions suivantes s’appliquent lors de l’utilisation de certificats créés avant cette version :
+
+### Les certificats existants sont conservés mais ne peuvent pas être modifiés
+
+Les certificats créés avant M45 et déjà associés à des objets d’apprentissage sont migrés automatiquement. Ces certificats continuent d’être émis pour les objets d’apprentissage existants. Après la migration, ils sont disponibles en mode lecture seule. Vous ne pouvez pas modifier leur disposition ou leur contenu.
+
+Pour mettre à jour les conceptions de certificat, créez un nouveau modèle de certificat à l’aide de l’éditeur de certificat personnalisé.
+
+### Les nouveaux objets d’apprentissage utilisent les certificats nouvellement créés
+
+Les objets d’apprentissage créés après la version d’avril 2026 doivent utiliser des certificats créés via le nouvel éditeur. Les certificats migrés ne peuvent pas être sélectionnés lors de la configuration de nouveaux objets d&#39;apprentissage.
+
+Les administrateurs peuvent créer de nouveaux certificats et les définir comme valeurs par défaut pour rationaliser la réutilisation.
+
+### Les certificats et les badges doivent être activés pendant la création
+
+Les auteurs doivent explicitement activer les certificats ou les badges pour chaque objet d’apprentissage. Cela garantit que les certificats sont émis uniquement pour les objets d&#39;apprentissage auxquels ils sont destinés.
+
+### La création de certificat nécessite une configuration unique
+
+Les organisations qui s&#39;appuient sur des certificats pour plusieurs objets d&#39;apprentissage doivent prévoir du temps pour recréer les modèles couramment utilisés. L’éditeur glisser-déposer est conçu pour rendre ce processus rapide et cohérent.
+
 ## Création d’un certificat personnalisé
 
 1. Connectez-vous à Adobe Learning Manager en tant qu&#39;**administrateur**.
@@ -261,8 +285,8 @@ Cela s’applique aux secteurs de la santé, de la finance, des administrations 
 8. Dans le menu déroulant, sélectionnez une langue par défaut.
 9. Sélectionnez **Créer**. Si vous avez choisi le modèle vide, une zone de travail vide apparaît sous le nom de votre certificat.
 10. Ajoutez des éléments : **Texte**, **Image**, **Valeur dynamique** et **Arrière-plan du certificat**.
-    ![Créer un certificat personnalisé](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Ajouter des éléments au certificat*
+   ![Créer un certificat personnalisé](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Ajouter des éléments au certificat*
 
 11. Pour le **texte**, ajoutez du contenu sous **Texte préformaté** ou **Modèles de texte**, ou ajoutez du texte personnalisé. Le texte apparaît sur la zone de travail. Lorsque du texte est sélectionné, les options de mise en forme apparaissent au-dessus de la zone de travail. Pour supprimer le contenu indésirable, sélectionnez l&#39;icône **Supprimer** dans le coin supérieur droit de la zone de travail.
 12. Pour ajouter des images, sélectionnez **Image** en regard de **Ajouter des éléments**. Chargez des images depuis votre ordinateur ou sélectionnez des images dans les listes de catégories.
@@ -270,12 +294,12 @@ Cela s’applique aux secteurs de la santé, de la finance, des administrations 
 14. Sélectionnez **Arrière-plan du certificat** pour appliquer des couleurs ou des images. Pour créer des images avec Adobe Firefly, sélectionnez **Générer l&#39;image**.
 15. Dans le champ d&#39;invite, décrivez ce que vous souhaitez (jusqu&#39;à 100 caractères) et sélectionnez **Générer**. Quatre options d’image s’affichent en fonction de votre invite.
 16. Sélectionnez l’image souhaitée. Il est appliqué en tant qu’arrière-plan du certificat.
-    ![Créer un certificat personnalisé](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Ajouter une image au certificat*
+   ![Créer un certificat personnalisé](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Ajouter une image au certificat*
 
 17. Sélectionnez **Aperçu** pour vérifier le certificat avant de publier. Cela vous aide à comprendre à quoi ressemble le certificat.
-    ![Créer un certificat personnalisé](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Aperçu du certificat*
+   ![Créer un certificat personnalisé](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Aperçu du certificat*
 
 18. Dans l’aperçu, vous pouvez enregistrer sur Google Drive, télécharger, imprimer ou utiliser d’autres options telles que les propriétés d’annotation ou de document.
 19. Sélectionnez **Enregistrer comme brouillon** pour continuer plus tard ou sélectionnez **Publish** pour publier le certificat. Après la publication, les élèves peuvent télécharger le certificat lorsqu’ils atteignent le jalon configuré.
