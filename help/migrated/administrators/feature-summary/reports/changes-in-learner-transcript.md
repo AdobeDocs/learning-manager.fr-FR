@@ -3,9 +3,9 @@ description: En savoir plus sur les relevés de notes des élèves
 jcr-language: en_us
 title: Modifications apportées aux relevés de notes des élèves
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
+source-git-commit: 1f0d3af950429042b21606648b53b7a7dfaaa851
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ Si l’élève a une fin directe, la révocation d’autres sources n’affecte 
 
 ## Rapport amélioré pour les remarques des réviseurs de listes de contrôle
 
+Les commentaires des réviseurs des modules de liste de contrôle sont désormais inclus dans le rapport Relevé de notes de l&#39;élève sous une colonne renommée appelée **Remarques du réviseur**.
+
+| Zone | Ancien nom de colonne | Nom de la nouvelle colonne | Annotations |
+|------|-----------------|-----------------|-------|
+| Relevés de notes des élèves (administrateur) | Commentaire de soumission | Remarques de l’évaluateur | S’applique à toutes les sources LT d’administration : interface utilisateur, API de tâche, connecteurs. |
+
 Cette modification s’applique uniformément à toutes les sources LT d’administration (exportations d’interface utilisateur, rapports d’API de tâche et connecteurs, le cas échéant). LT exporté par connecteur affichera les remarques du réviseur dans une colonne dédiée à la fin (pour les connecteurs qui n’exposaient pas précédemment le commentaire de soumission), ce qui garantit que les intégrations en aval peuvent distinguer le retour du réviseur des autres commentaires.
+
+**Impact :** permet aux élèves et aux administrateurs d&#39;afficher un retour d&#39;informations consolidé, améliorant la transparence et prenant en charge l&#39;évaluation des performances.
 
 >[!NOTE]
 >
