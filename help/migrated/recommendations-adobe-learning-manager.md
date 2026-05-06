@@ -2,10 +2,10 @@
 title: Recommandations dans Adobe Learning Manager
 description: Le cœur du moteur de recommandations est basé sur le nouvel algorithme de classement des cours de Learning Manager. L'algorithme utilise 50 millions de points de données et cinq années de données d'apprentissage agrégées sur des millions d'utilisateurs pour classer les cours en fonction de leur probabilité d'inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 57%
+source-wordcount: '1514'
+ht-degree: 56%
 
 ---
 
@@ -22,15 +22,6 @@ Pour commencer à utiliser cette fonctionnalité, vous devez l’activer dans l�
 >[!NOTE]
 >
 >Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
-
-## Activation et configuration des recommandations
-
-1. Transférez le cours et les données utilisateur (facultatif).
-1. Publiez les modifications.
-1. Après avoir activé et configuré les recommandations, téléchargez les données dans Adobe Learning Manager pour que les recommandations puissent commencer à fonctionner. Ces données sont les suivantes :
-
-   * Données du cours
-   * Données utilisateur (facultatif)
 
 ## Algorithme de classement des cours
 
@@ -158,8 +149,13 @@ Remplissez ces fichiers CSV et contactez votre équipe de réussite client pour 
 
 Une fois les deux fichiers CSV chargés, cliquez sur Accéder en direct. Le nouveau système de recommandations sera ainsi visible pour les élèves.
 
+Une fois que la Recommandation PRL est activée, elle ne peut plus revenir à son état précédent. Lors de l’activation, Adobe Learning Manager affiche une invite de confirmation vous informant que la modification est permanente. Tant que la recommandation n’a pas été mise en ligne, vous pouvez annuler ou modifier vos modifications.
+
 ![passer en direct](assets/computerdescription-automatically.png)
 *Mettez les recommandations en ligne*
+
+![passer en direct](assets/recommendations-irreversible.png)
+*Avertissement de recommandation*
 
 Le système de recommandation est désormais disponible pour vos élèves.
 
