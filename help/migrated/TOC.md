@@ -2,10 +2,10 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: b4371272c60fb43a21d2ceeaf75065156e786615
+source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 62%
+source-wordcount: '906'
+ht-degree: 61%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 62%
       * [Cycle de vie du compte d’administration Adobe Learning Manager](/help/migrated/alm-administrative-lifecycle.md)
       * [guide d’administration de Adobe Learning Manager secure](/help/migrated/alm-secure-administration-guide.md)
       * [Paramètres de sécurité administrative et gestion de la configuration de Adobe Learning Manager](/help/migrated/alm-security-settings-config-management.md)
+      * [Disponibilité des fonctionnalités dans les environnements autorisés par FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
    * [Accessibilité dans Learning Manager](accessibility-learning-manager.md)
    * [Prise en charge du domaine personnalisé](custom-domain.md)
    * [Transition depuis Adobe FTP Manager](transition-from-ftp-manager.md)

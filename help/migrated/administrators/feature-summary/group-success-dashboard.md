@@ -3,18 +3,22 @@ jcr-language: en_us
 title: Tableau de bord de réussite du groupe
 description: En savoir plus sur le tableau de bord de réussite de groupe dans Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
 # Tableau de bord de réussite du groupe
 
-## Présentation du tableau de bord de réussite du groupe
+## Introduction
 
 Le tableau de bord de réussite de groupe (GSD) de Adobe Learning Manager permet aux administrateurs et aux responsables de surveiller la progression des élèves en temps quasi réel (60 minutes de retard entre l’inscription, la progression ou l’achèvement et la réflexion sur le tableau de bord) dans tous les services ou groupes d’utilisateurs. Il prend en charge le suivi proactif de l’achèvement des cours, de l’inscription et des actions en attente, ce qui facilite la gestion de l’apprentissage pour les équipes. Consultez cet [article](/help/migrated/administrators/feature-summary/add-users-user-groups.md) pour en savoir plus sur les groupes d&#39;utilisateurs.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 ## Principaux cas d’utilisation
 

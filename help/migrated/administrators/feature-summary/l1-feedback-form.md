@@ -2,13 +2,13 @@
 description: En savoir plus sur la création de formulaires de retour d’informations L1 pour les élèves
 jcr-language: en_us
 title: Formulaire de retour d'informations L1
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
-
 
 # Formulaire de retour d&#39;informations L1
 
@@ -29,6 +29,10 @@ La fonctionnalité offre une plus grande flexibilité en permettant aux administ
 * Attribuez des formulaires personnalisés selon vos besoins
 
 Le **[!UICONTROL rapport de retour d&#39;informations L1]** et le **[!UICONTROL rapport de retour d&#39;informations]** (rapport personnalisé) incluent désormais deux nouvelles colonnes : Nom du formulaire de retour d&#39;informations et Version du retour d&#39;informations. Ces colonnes fournissent des détails sur les formulaires de retour d’informations utilisés.
+
+>[!NOTE]
+>
+>Cette fonctionnalité **Rapport de retour d&#39;informations L1** n&#39;est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 ## Créer un formulaire de retour d&#39;informations L1
 
@@ -62,7 +66,7 @@ Pour créer un formulaire de retour d&#39;informations L1 :
      ![](assets/free-text.png)
      _Ajouter une question en texte libre au formulaire de retour d&#39;informations_
 
-   b. **[!UICONTROL Échelle numérique/NPS]** : les élèves peuvent évaluer leur satisfaction vis-à-vis du cours ou leur probabilité de recommander le cours à l&#39;aide d&#39;une échelle numérique (généralement de 1 à 10).
+   b. **[!UICONTROL Échelle numérique/NPS]** : les élèves peuvent évaluer leur satisfaction par rapport au cours ou leur probabilité de recommander le cours à l&#39;aide d&#39;une échelle numérique (généralement de 1 à 10).
 
    * Saisissez votre question dans le champ de texte **[!UICONTROL Question]**.
    * Sélectionnez la plage d’évaluation (1 à 10).
@@ -166,6 +170,3 @@ Suivez les mêmes étapes pour modifier les formulaires de retour d’informatio
 >[!NOTE]
 >
 >Si vous ne modifiez pas le formulaire, le cours utilise le formulaire de retour d&#39;informations par défaut.
-
-
-

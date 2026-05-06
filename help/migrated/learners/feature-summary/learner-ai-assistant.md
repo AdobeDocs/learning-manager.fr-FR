@@ -3,20 +3,26 @@ description: Obtenez des réponses rapides et précises de votre contenu d’app
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
 
 # Assistant d’IA pour les élèves
 
+## Introduction
+
 L’assistant AI (Beta) pour les élèves les aide à trouver rapidement des réponses à partir du contenu d’apprentissage attribué sans parcourir l’intégralité des cours. Vous pouvez poser des questions dans un langage simple et recevoir des réponses précises et ciblées avec des liens sources vers le contenu du cours concerné.
 
 >[!IMPORTANT]
 >
 >L’assistant AI pour les élèves est actuellement disponible en tant que fonctionnalité Beta. Les capacités, les scénarios pris en charge et les limitations peuvent changer au fur et à mesure de l’évolution de la fonctionnalité.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 
 ## Qu’est-ce que l’assistant IA pour les élèves ?
@@ -158,7 +164,7 @@ Pour activer l’assistant d’IA dédiée aux élèves :
 &#x200B;1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
 
 &#x200B;2. Sélectionnez **Paramètres** dans la page d&#39;accueil.
-![Console d&#39;administration avec l&#39;option Paramètres dans le volet de gauche](assets/settings-menu.png)
+![Console Administrateur avec l&#39;option Paramètres dans le volet de gauche](assets/settings-menu.png)
 
 &#x200B;3. Sélectionnez **Learner AI Assistant (Beta)** dans le menu **Paramètres**.
 ![La console Administrateur affiche l&#39;option Assistant IA de l&#39;élève dans le volet de gauche](assets/learner-assistant-ai-beta.png)

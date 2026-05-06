@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
 workflow-type: tm+mt
-source-wordcount: '29372'
-ht-degree: 76%
+source-wordcount: '29433'
+ht-degree: 75%
 
 ---
 
@@ -24,6 +24,18 @@ ht-degree: 76%
  </tbody>
 </table>
 -->
+
++++Mise à jour 106 : version d’avril 2026 de Adobe Learning Manager
+
+Date de publication : 30 avril 2026
+
+## Correction d’un bug
+
+**Écrasement VTT bloqué par la limite de caractères :** correction d’un problème en raison duquel le client ne pouvait pas écraser le fichier VTT généré automatiquement par ALM en raison de la limite de caractères en mode révision/modification. La limite de caractères a été portée à un million en mode de montage VTT.
+
+
++++
+
 
 +++Mise à jour 105 : version d’avril 2026 de Adobe Learning Manager
 
