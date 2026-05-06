@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '7660'
+source-wordcount: '7677'
 ht-degree: 63%
 
 ---
@@ -707,6 +707,10 @@ Les administrateurs peuvent télécharger une transcription de ludification au f
 ### Rapport de piste d’audit de ludification {#gamification-audit-trail}
 
 Ce rapport contient l’historique et les raisons des points de ludification des élèves obtenus pour chaque règle.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 ### Télécharger le rapport
 

@@ -4,20 +4,26 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '15959'
+source-wordcount: '15927'
 ht-degree: 72%
 
 ---
 
 # Connecteurs Learning Manager
 
+## Introduction
+
 Les entreprises disposent d’autres applications et systèmes devant être intégrés à Learning Manager. Les connecteurs sont des utilitaires qui facilitent l’exécution d’intégrations basées sur des données, telles que l’importation de données dans Learning Manager à partir de systèmes externes.  Ils permettent également l’exportation de données vers des systèmes externes à partir de Learning Manager.
 
 Learning Manager fournit des connecteurs Salesforce et FTP. À l’aide du connecteur Salesforce, les administrateurs d’intégration d’une entreprise peuvent intégrer leurs applications Salesforce à Learning Manager. En tant qu’intégrateur, vous pouvez également utiliser le connecteur FTP pour importer automatiquement un groupe d’utilisateurs dans l’application de votre entreprise.
 
 Learning Manager fournit également les connecteurs Lynda, getAbstract et Harvard Management System. Ces connecteurs permettent aux élèves d’accéder aux cours de Lynda.com, getAbstract et Harvard ManageMentor et de les suivre.
+
+>[!NOTE]
+>
+>Cette fonctionnalité est partiellement disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 Lisez ce qui suit pour savoir comment configurer et utiliser chacun de ces connecteurs dans Learning Manager.
 
@@ -668,11 +674,11 @@ Le connecteur getAbstract est utilisé par les clients professionnels de getAbst
 
 1. Si vous configurez le connecteur getAbstract pour la première fois, cliquez sur Connexion.
 
-   <!--
-Configurez le compte FTP Exavault avant de configurer ce connecteur.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Assurez-vous que vous partagez ces informations d’identification FTP avec votre fournisseur de contenu pour accéder aux flux.
--->
+   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. Saisissez un nom pour votre connexion dans le champ Nom de la connexion.
 
@@ -732,11 +738,11 @@ Le connecteur Harvard ManageMentor est utilisé par les clients professionnels d
 
 1. Si vous configurez le connecteur Harvard ManageMentor pour la première fois, cliquez sur Connexion.
 
-   <!--
-Configurez le compte FTP Exavault avant de configurer ce connecteur.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Assurez-vous que vous partagez ces informations d’identification FTP avec votre fournisseur de contenu pour accéder aux flux.
--->
+Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. Saisissez un nom pour votre connexion dans le champ Nom de la connexion. Cliquez sur Connexion pour enregistrer cette connexion.
 1. Si vous avez déjà établi une connexion, sur la page d’accueil, cliquez sur Harvard ManageMentor > Gérer les connexions. Cliquez sur la connexion à modifier pour modifier votre configuration existante.
@@ -1006,7 +1012,7 @@ L’importation des utilisateurs permet à l’administrateur de Learning Manage
 
 L’administrateur de Learning Manager peut appliquer un filtrage sur les utilisateurs avant de les importer. Par exemple, l’administrateur de Learning Manager peut choisir d’importer tous les utilisateurs sous un ou plusieurs responsables spécifiques dans la hiérarchie.
 
-Pour configurer   miniOrange   , contactez l’équipe CSM Learning Manager.
+Pour configurer le connecteur miniOrange, contactez l’équipe CSM de Learning Manager.
 
 ### Configurer le connecteur miniOrange {#configure-mini-orange-connector}
 
@@ -1028,7 +1034,7 @@ Pour configurer   miniOrange   , contactez l’équipe CSM Learning Manager.
 
    *Importer des utilisateurs internes*
 
-1. Dans la page de mappage, à gauche   sur le côté, vous pouvez voir les colonnes de Learning Manager et à droite   côté, vous pouvez voir les colonnes miniOrange. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
+1. Dans la page de mappage, sur le côté gauche, vous pouvez voir les colonnes de Learning Manager et sur le côté droit, vous pouvez voir les colonnes miniOrange. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
 
    ![](assets/map-attributes.png)
 
@@ -1165,7 +1171,7 @@ L’option d’importation d’utilisateur interne vous permet de planifier la g
 
 Une fois la connexion établie, vous pouvez associer les colonnes des fichiers CSV placés dans le dossier Box aux attributs correspondants de Learning Manager. Cette étape est obligatoire.
 
-1. Dans la page Attributs de mappage, à gauche   sur le côté, vous pouvez voir les colonnes attendues de Learning Manager et à droite   Vous pouvez voir les noms des colonnes CSV. À droite, vous pouvez initialement voir une zone de sélection vide. Importez n’importe quel modèle CSV en cliquant sur Sélectionner un fichier.
+1. Sur la gauche de la page Attributs de mappage, vous pouvez voir les colonnes attendues de Learning Manager et sur la droite, les noms des colonnes du fichier CSV. À droite, vous pouvez initialement voir une zone de sélection vide. Importez n’importe quel modèle CSV en cliquant sur Sélectionner un fichier.
 1. Les étapes ci-dessus permettent de compléter la liste déroulante de sélection de droite avec tous les noms de colonnes du fichier CSV. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
 
    *Le champ Responsable doit être mappé à un champ d&#39;adresse e-mail. Le mappage de toutes les colonnes est obligatoire pour que le connecteur puisse être utilisé.*
@@ -1832,7 +1838,7 @@ Pour configurer le connecteur ADFS , contactez l’équipe CSM Learning Manager.
 
    *Importer l’utilisateur dans Learning Manager*
 
-1. Dans la page de mappage, à gauche   sur le côté, vous pouvez voir les colonnes de Learning Manager et à droite   Les colonnes ADFS s’affichent sur le côté. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
+1. Dans la page de mappage, sur le côté gauche, vous pouvez voir les colonnes de Learning Manager et sur le côté droit, vous pouvez voir les colonnes ADFS. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
 
    ![](assets/adfs4.jpg)
 
@@ -2258,7 +2264,7 @@ Une fois qu’un auteur a défini les prix de divers cours, cursus ou certificat
 
 >[!NOTE]
 >
->Dans la version de mars 2024 de Adobe Learning Manager, nous avons introduit la prise en charge d&#39;[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=fr).
+>Dans la version de mars 2024 de Adobe Learning Manager, nous avons introduit la prise en charge d&#39;[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Cliquez sur **[!UICONTROL Exporter les métadonnées de formation]** > **[!UICONTROL À la demande]**.

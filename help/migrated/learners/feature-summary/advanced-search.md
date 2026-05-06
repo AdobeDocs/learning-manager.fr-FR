@@ -3,18 +3,24 @@ jcr-language: en_us
 title: Recherche optimisée par l’IA dans Adobe Learning Manager
 description: En savoir plus sur la recherche optimisée par l’IA dans Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # Recherche avancée d’IA dans Adobe Learning Manager
 
+## Introduction
+
 La fonctionnalité de recherche de Adobe Learning Manager améliore l’expérience utilisateur en permettant à l’utilisateur de rechercher efficacement du contenu pertinent et de l’aider à utiliser le bon contenu.
 
 Adobe Learning Manager introduit une fonctionnalité de recherche basée sur l’IA qui associe la recherche lexicale et sémantique. Cette fonctionnalité améliorée permet aux élèves de trouver efficacement du contenu pertinent. La recherche avancée basée sur l&#39;IA comprend la signification de votre requête et fournit des résultats pertinents.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 ## Principaux avantages
 

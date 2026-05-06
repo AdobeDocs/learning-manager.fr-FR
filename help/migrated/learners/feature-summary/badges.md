@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Badges
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 51%
+source-wordcount: '825'
+ht-degree: 84%
 
 ---
 
@@ -17,25 +17,25 @@ Découvrez comment afficher et télécharger des badges à l’aide de l’appli
 
 ## Badges {#Badges-1}
 
-Les badges sont une mesure de l’accomplissement que vos collaborateurs peuvent obtenir à l’issue d’un cours. Adobe Learning Manager introduit l’un des plus récents concepts d’apprentissage en ligne appelé Badges. Les professionnels à travers le monde utilisent ces badges en tant que représentation de l’acquisition d’une compétence particulière ou de l’achèvement d’un apprentissage.
+Les badges sont une mesure de l’accomplissement que vos collaborateurs peuvent obtenir à l’achèvement d’un cours. Adobe Learning Manager introduit l’un des plus récents concepts d’apprentissage en ligne appelé Badges. Les professionnels à travers le monde utilisent ces badges en tant que représentation de l’acquisition d’une compétence particulière ou de l’achèvement d’un apprentissage.
 
 Les badges encouragent les stagiaires à mieux se définir et présenter leur ensemble granulaire de compétences, en plus de leur apporter une crédibilité et une bonne visibilité.
 
 ## Affichage et téléchargement des badges {#viewinganddownloadingbadges}
 
-En tant qu’élève, vous pouvez afficher les badges à partir du widget Mes réussites, sur la page d’accueil des élèves. Une liste de badges s’affiche en haut de la page en regard de votre profil. Vous ne pouvez afficher que sept badges à la fois sur la page d’accueil. Cependant, vous pouvez afficher la liste complète des badges dans la boîte de dialogue, lorsque vous cliquez sur un badge.
+En tant qu’élève, vous pouvez afficher les badges à partir du widget Mes réussites, sur la page d’accueil des élèves. Une liste de badges s’affiche en haut de la page en regard de votre profil. Simultanément, vous pouvez afficher seulement jusqu’à sept Badges sur la page d’accueil. Cependant, vous pouvez afficher la liste complète des badges dans la boîte de dialogue, quand vous cliquez sur n’importe quel badge.
 
 Les badges récemment obtenus sont affichés à l’extrême gauche de la liste, suivis des badges qu’il reste à obtenir. Vous pouvez remarquer une opacité de 40 % des badges restants par rapport aux badges obtenus, afin d’en faciliter l’identification.
 
-Cliquez sur n’importe quel badge pour obtenir la liste de tous les badges que vous avez acquis. Vous pouvez également afficher tous les badges disponibles en phase avec les cours respectifs. Dans Badges à réaliser, cliquez sur le nom du cours pour afficher le cours aligné sur le badge. Un exemple est illustré ci-dessous pour référence.
+Cliquez sur n’importe quel badge pour obtenir la liste de tous les badges que vous avez acquis. Vous pouvez également afficher tous les badges disponibles en phase avec les cours respectifs. Dans les badges encore-à-réaliser, cliquez sur le nom du cours pour afficher le cours qui est aligné sur le badge. Un exemple est illustré ci-dessous pour référence.
 
-Cliquez sur le lien **[!UICONTROL Télécharger tous les badges]** pour télécharger tous les badges acquis au format zip. Vous pouvez également télécharger un badge individuel en cliquant sur l&#39;icône de cube en regard de chaque nom badge.
+Cliquez sur le lien **[!UICONTROL Télécharger tous les badges]** pour télécharger votre ensemble de badges acquis dans un format compressé. Vous pouvez également télécharger un badge individuel en cliquant sur l&#39;icône de cube en regard de chaque nom badge.
 
-**Télécharger le badge au format PDF** 
+**Télécharger le badge au format PDF**
 
 Vous pouvez également télécharger un ensemble de badges ou un badge individuel au format PDF.
 
-* Cliquez sur **[!UICONTROL Télécharger tous les enregistrements de badge]** pour télécharger les badges que vous avez acquis en tant que PDF.
+* Cliquez sur **[!UICONTROL Télécharger tous les enregistrements de badge]** pour télécharger les badges acquis par vous en fichier PDF.
 * Pour télécharger de badges individuels, sélectionnez le badge et cliquez sur l&#39;icône pdf en regard du noms de badge.
 
 ![](assets/badges.png)
@@ -54,17 +54,21 @@ Learning Manager prend en charge le concept Badges ouverts pour ses élèves. V
 
 Les élèves peuvent intégrer leur compte de plateforme d’apprentissage à leur compte Badgr. Cela permet aux élèves de partager des badges sur des sites sociaux via leur compte Badgr. Badgr propose également des badges authentifiables basés sur la norme backpack, ce qui signifie que les badges sont vérifiés.
 
-Les badges ouverts sont des badges qui comportent des métadonnées intégrées à l’image du badge. Ces métadonnées fournissent des informations sur l’émetteur, le destinataire, la tâche accomplie, la validité du badge, etc. Le sac à dos des badges sera accessible directement à partir de Learning Manager afin de fournir un emplacement central pour stocker tous les badges et les partager. Les élèves peuvent se connecter à leur compte Badgr et établir l’intégration. À partir de ce moment-là, les badges obtenus dans Learning Manager sont automatiquement chargés sur le compte Badgr.
+>[!NOTE]
+>
+>Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
-Une fois que l&#39;administrateur a activé l&#39;option **Intégration Badgr**, un élève peut l&#39;intégrer à Badgr et configurer son badge. Pour l’intégrer, l’élève doit se connecter au compte Badgr à partir de Learning Manager.
+Les badges ouverts sont des badges qui comportent des métadonnées intégrées à l’image du badge. Ces métadonnées fournissent des informations sur l’émetteur, le destinataire, la tâche accomplie, la validité du badge, etc. Le sac à dos des badges sera accessible directement à partir de Learning Manager afin de fournir un emplacement central pour stocker tous les badges et les partager. Les élèves peuvent se connecter à leur compte Badgr et établir l’intégration. Dès lors, les badges obtenus dans Learning Manager sont automatiquement chargés sur le compte Badgr.
+
+Une fois que l’administrateur a activé l’option **Intégration Badgr**, un élève peut l’intégrer à Badgr et configurer son badge. Pour l’intégrer, l’élève doit se connecter au compte Badgr à partir de Learning Manager.
 
 >[!NOTE]
 >
->Learning Manager n’offre pas de compte Badgr dans le cadre de cette intégration. L’élève doit créer son propre compte et l’intégrer à Learning Manager.
+>Learning Manager n’offre pas de compte Badgr dans le cadre de cette intégration. L’élève doit créer son propre compte et l’intégrer à Learning Manager.
 
-Un élève doit avoir un compte Badgr créé avant d’établir une connexion à partir de Learning Manager.
+Un élève doit disposer d’un compte Badgr créé avant d’établir une connexion à partir de Learning Manager.
 
-Dans l’application de l’élève, sur la page Badges, il existe une option appelée Configurer Badgr. Si l’utilisateur clique sur cette option, une boîte de dialogue s’ouvre, dans laquelle l’état de la connexion doit indiquer Connecté/Non connecté.
+Dans l’application Élève, la page Badges affiche une option appelée Configurer Badgr. Si l’utilisateur sélectionne cette l’option, une boîte de dialogue s’ouvre, dans laquelle l’état de la connexion doit afficher l’état Connecté/Non connecté.
 
 ![](assets/badges.png)
 
@@ -80,4 +84,4 @@ Ce processus de mise à jour de la page est appelé recréation manuelle. Dans c
 
 **1. Comment télécharger un badge en tant qu’élève ?**
 
-Sur la page Badges, vous pouvez télécharger un Badge sous forme d’image ou au format PDF. Choisissez une compétence ou un cours, puis cliquez sur **PDF** ou sur **Badge**.
+Sur la page des badges, vous pouvez télécharger un badge sous forme d’image ou au format PDF. Choisissez une compétence ou un cours, puis cliquez sur **PDF** ou sur **Badge**.

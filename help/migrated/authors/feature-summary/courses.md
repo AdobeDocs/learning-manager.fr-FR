@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
 workflow-type: tm+mt
-source-wordcount: '8840'
+source-wordcount: '8841'
 ht-degree: 64%
 
 ---
@@ -80,9 +80,9 @@ Pour créer un cours, suivez les étapes ci-dessous :
    Vous pouvez activer l’option pour les types de cours suivants :
 
    * Auto-apprentissage
+   * Salle de classe virtuelle
    * Salle de classe
    * Activité
-   * Fusionné
 
    Remarque : lors de la duplication d&#39;un cours, si vous aviez activé l&#39;option Configuration de l&#39;instance dans le cours source, l&#39;option reste désactivée dans le cours de destination.
 
@@ -1090,7 +1090,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

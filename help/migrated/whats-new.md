@@ -3,16 +3,24 @@ description: Découvrez les nouvelles fonctionnalités et améliorations, y comp
 jcr-language: en_us
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: '1802'
 ht-degree: 0%
 
 ---
 
 # Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 
-**Pour les élèves :** le lecteur Fluidic affiche désormais le nom du module suivant et un bouton de sortie clair. La langue du lecteur peut être définie via LTI pour une expérience cohérente entre les plateformes. Le nom du paramètre personnalisé est « locale » et il accepte le code de locale. Par exemple, locale=fr-FR. Le contenu Captivate comprend une table des matières unifiée, des repères d’achèvement au niveau des diapositives et des exportations de notes fiables. La prise en charge multilingue est disponible pour les assistances à la tâche, les questions de liste de contrôle et les pistes de texte vidéo. L’assistant AI aide les élèves à obtenir des réponses dans l’expérience d’apprentissage.
+**Pour les élèves :** le lecteur Fluidic affiche désormais le nom du module suivant et un bouton de sortie clair.
+
+La langue du lecteur peut être définie via LTI pour une expérience cohérente entre les plateformes. Le nom du paramètre personnalisé est « locale » et il accepte le code de locale. Par exemple, locale=fr-FR. Le contenu Captivate comprend une table des matières unifiée, des repères d’achèvement au niveau des diapositives et des exportations de notes fiables.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
+
+La prise en charge multilingue est disponible pour les assistances à la tâche, les questions de liste de contrôle et les pistes de texte vidéo. L’assistant AI aide les élèves à obtenir des réponses dans l’expérience d’apprentissage.
 
 **Pour les administrateurs et les auteurs :** le connecteur Zoom prend en charge plusieurs sessions VILT simultanées. Les cours partagés dans des comptes de pairs affichent le véritable auteur au lieu du terme « Auteur externe ». Les administrateurs peuvent restreindre le moment où les modules peuvent être démarrés. Les dates d’expiration des objets d’apprentissage sont affichées dans les API des élèves. Les modules de liste de contrôle prennent en charge la notation pondérée, le texte de question multilingue et les commentaires de réviseur facultatifs. Les certificats personnalisés offrent un éditeur glisser-déposer avec des champs dynamiques et des arrière-plans générés par l’IA. Le créateur d’expériences hors connexion vous permet de créer des pages d’apprentissage publiques sans nécessiter de connexion.
 
@@ -97,6 +105,10 @@ Voir [Expérience hors connexion dans Experience Builder](/help/migrated/adminis
 Les résultats de la recherche avancée sont désormais plus précis et plus pertinents. Les correspondances de mots-clés exactes sont mieux classées à la fois dans la recherche de contenu et les métadonnées, ce qui permet aux élèves de trouver plus facilement ce qu&#39;ils recherchent précisément.
 
 Les élèves peuvent désormais également voir les objets d’apprentissage inscrits dans les résultats de recherche, même s’ils ne font pas partie d’un catalogue accessible, ce qui garantit qu’aucun contenu pertinent n’est manqué. En outre, le classement des assistances à la tâche a été amélioré à la fois pour la recherche avancée et la recherche dans le contenu, afin de faire apparaître plus rapidement les ressources les plus pertinentes.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 ## Assistances à la tâche multilingues
 
