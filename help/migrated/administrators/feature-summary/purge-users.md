@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Purger les utilisateurs
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1441'
 ht-degree: 45%
 
 ---
@@ -239,7 +239,7 @@ Vous pouvez trier les utilisateurs filtrés par **[!UICONTROL ID d’utilisateur
 
 La purge automatique des utilisateurs supprimés est une fonctionnalité qui purge les données pour les utilisateurs qui ont déjà été supprimés dans ALM. La purge se produit après une période de rétention configurable, en se concentrant sur les opérations en bloc afin que les comptes clients volumineux puissent être gérés efficacement sans nuire aux performances.
 
-Le flux de suppression en bloc peut traiter jusqu’à 10 000 utilisateurs par lot. La fonctionnalité est positionnée comme un service d’arrière-plan axé sur la fiabilité pour la suppression de grands volumes.
+La fonctionnalité est positionnée comme un service d’arrière-plan axé sur la fiabilité pour la suppression de grands volumes.
 
 En tant qu’administrateur, vous pouvez spécifier la durée pendant laquelle les utilisateurs purgés peuvent être supprimés. Afficher les [paramètres d&#39;administration](/help/migrated/administrators/feature-summary/settings.md) pour plus d&#39;informations.
 
@@ -247,7 +247,7 @@ En tant qu’administrateur, vous pouvez spécifier la durée pendant laquelle l
 
 * Fournir une purge automatique configurable pour les utilisateurs supprimés au niveau du compte
 * S’assurer que les utilisateurs sont purgés dans les 24 heures suivant leur satisfaction aux critères de purge
-* Prise en charge de la suppression en bloc de 10 000 utilisateurs maximum par jour** sans dégradation des performances du système
+* Prise en charge de la suppression en bloc de 5 000 utilisateurs maximum par jour
 * Maintenir la réactivité globale du système et l&#39;intégrité de la base de données pendant l&#39;exécution de ces opérations
 * Gestion automatisée de la rétention des données pour respecter les obligations du RGPD
 
@@ -264,7 +264,7 @@ En tant qu’administrateur, vous pouvez spécifier la durée pendant laquelle l
    *Option de purge automatique*
    >[!NOTE]
    >
-   >Si l&#39;option **Purger automatiquement les utilisateurs supprimés** n&#39;est pas activée, la section affiche un message indiquant **Non configuré** au bas de la section de l&#39;option.
+   >Si l&#39;option **Purger automatiquement les utilisateurs supprimés** n&#39;est pas activée, la section affiche un message indiquant **Non configuré** en bas de la section de l&#39;option.
 4. Sélectionnez **Modifier**.
 5. Cochez la case **Activer**.
 6. Entrez la durée au bout de laquelle la purge doit prendre effet.
