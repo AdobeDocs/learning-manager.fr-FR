@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Connecteurs Learning Manager
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
+source-git-commit: 061433edb12bf10287e56899e01dcc462c9ba5f0
 workflow-type: tm+mt
-source-wordcount: '15926'
+source-wordcount: '15903'
 ht-degree: 72%
 
 ---
@@ -1068,29 +1068,29 @@ Suivez les étapes ci-dessous pour configurer et utiliser le connecteur.
 1. Dans la page d’accueil de Learning Manager , passez le curseur de la souris sur la vignette Zoom. Un menu s’affiche. Cliquez sur l&#39;option **[!UICONTROL Se connecter]** dans le menu.
 
    <!--
-![](assets/connectors.png)
+   ![](assets/connectors.png)
 
-*Vignette de connecteur de zoom*
--->
+   *Zoom connector tile* 
+   -->
 
 1. La page du connecteur Zoom s’ouvre. Saisissez les détails de votre compte dans les champs respectifs pour intégrer et synchroniser le flux utilisateur. Vous pouvez obtenir ces détails auprès de l’administrateur de votre compte de connecteur.
 
    <!--
-![](assets/bluejeans-connecotrpage.png)
-*Se connecter à BlueJeans/Zoom*
--->
+   ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
->[!NOTE]
->
->En tant qu’élève, lors de l’activation du connecteur, utilisez le même ID de messagerie que celui utilisé pour votre compte Learning Manager afin de permettre aux flux utilisateurs d’être redirigés vers Learning Manager.
+   >[!NOTE]
+   >
+   >En tant qu’élève, lors de l’activation du connecteur, utilisez le même ID de messagerie que celui utilisé pour votre compte Learning Manager afin de permettre aux flux utilisateurs d’être redirigés vers Learning Manager.
 
 1. Une fois la connexion établie, en tant qu’auteur, créez un cours de classe virtuelle avec Zoom comme système de conférence.
 
    <!--
-![](assets/vc.jpg)
-
-*Créer un cours VC*
--->
+   ![](assets/vc.jpg)
+   
+   *Create a VC course* 
+   -->
 
 1. Les administrateurs, les responsables et les élèves peuvent inscrire des élèves au cours créé. Lors de l’inscription, l’élève reçoit un courrier électronique. L’élève peut se connecter à son compte Learning Manager pour voir les détails du programme et suivre le cours.
 1. Une fois le cours terminé, le rapport d’achèvement est envoyé à Learning Manager. L’administrateur peut consulter le rapport d’achèvement afin de vérifier l’assiduité et le score des élèves.
@@ -1340,11 +1340,11 @@ Le connecteur LinkedIn Learning est utilisé par les clients professionnels de 
 1. Si vous configurez le connecteur LinkedIn Learning pour la première fois, cliquez sur [!UICONTROL Se connecter].
 
    <!--
-Configurez le compte FTP Exavault avant de configurer ce connecteur.
+   Configure the Exavault FTP account before you configure this connector.
 
-![](assets/configure.jpg)
-*Configuration de la connexion*
--->
+   ![](assets/configure.jpg)
+   *Configure connection*
+   -->
 
 1. À partir de la page de connexion, indiquez un nom pour votre connecteur. Saisissez l’Appkey et la clé secrète de votre connexion.
 
