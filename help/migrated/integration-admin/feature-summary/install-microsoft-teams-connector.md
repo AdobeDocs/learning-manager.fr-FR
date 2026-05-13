@@ -1,19 +1,19 @@
 ---
 description: Installer le connecteur Microsoft Teams dans Adobe Learning Manager
 jcr-language: en_us
-title: Installer le connecteur Microsoft Teams dans Adobe Learning Manager
+title: Connecteur Microsoft Teams
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 52%
+source-wordcount: '1206'
+ht-degree: 51%
 
 ---
 
-# Installer le connecteur Microsoft Teams dans Adobe Learning Manager
+# Connecteur Microsofts Teams dans Adobe Learning Manager
 
-## Présentation
+## Introduction
 
 Microsofts Teams ® est une plateforme de collaboration basée sur le chat permanent qui prend en charge le partage de documents, les réunions en ligne et d’autres fonctionnalités pour la communication en entreprise.
 

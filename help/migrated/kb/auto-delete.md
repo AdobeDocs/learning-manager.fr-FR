@@ -4,10 +4,10 @@ title: L’utilisateur est automatiquement supprimé dans Learning Manager
 description: Un utilisateur est supprimé de Learning Manager, mais l’administrateur n’a jamais effectué une telle action.
 contentowner: nluke
 exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: dafb4c35d868e44c022a0d96919792b5a41f62b0
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 61%
+source-wordcount: '235'
+ht-degree: 69%
 
 ---
 
@@ -41,7 +41,7 @@ Dans Adobe Learning Manager, une option permet de supprimer un utilisateur s’i
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour conserver les paramètres définis.
 
-### Pour les élèves externes :
+### Pour les élèves externes :
 
 1. Connectez-vous en tant qu’**administrateur**.
 1. Sous **Gérer**, cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Externe]**.
@@ -55,5 +55,5 @@ Dans Adobe Learning Manager, une option permet de supprimer un utilisateur s’i
 
    *Sélectionnez l&#39;option Paramètres avancés*
 
-1. Dans le champ **Exigence de connexion**, entrez le nombre de jours pendant lesquels supprimer automatiquement un élève s&#39;il n&#39;a pas accédé au système.
+1. Dans le champ **Exigence de connexion**, entrez le nombre de jours après lequel supprimer automatiquement un élève s’il n’a pas accédé au système.
 1. Cliquez sur **[!UICONTROL Enregistrer]** pour conserver les paramètres définis.
