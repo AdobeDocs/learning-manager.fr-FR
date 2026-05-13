@@ -2,9 +2,9 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
+source-git-commit: 50ffbc77676e456eda1eca331be9f20575a5595c
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '944'
 ht-degree: 62%
 
 ---
@@ -132,8 +132,7 @@ ht-degree: 62%
 * Administrateur d’intégration {#integration}
    * [Manuel du développeur d’applications](integration-admin/feature-summary/developer-manual.md)
    * [Manuel de migration](integration-admin/feature-summary/migration-manual.md)
-   * Connecteurs Learning Manager {#connectors}
-      * [Présentation des connecteurs](integration-admin/feature-summary/connectors.md)
+   * [Connecteurs Learning Manager]{#connectors}
       * [Connecteur ADFS](integration-admin/feature-summary/adfs-connector.md)
       * [Connecteur Adobe Commerce](integration-admin/feature-summary/adobe-commerce-connector.md)
       * [Connecteur Adobe Connect](integration-admin/feature-summary/adobe-connect-connector.md)
