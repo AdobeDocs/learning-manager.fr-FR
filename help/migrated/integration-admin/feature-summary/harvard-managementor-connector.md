@@ -144,5 +144,5 @@ Assurez-vous que les fichiers suivants sont présents dans le dossier Harvard Ma
 
 **Fichiers d’exemple**
 
-- [Fichier de métadonnées de cours pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
-- [Fichier de flux utilisateur pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)
+- [Fichier de métadonnées de cours pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=fr)
+- [Fichier de flux utilisateur pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=fr)

@@ -83,7 +83,7 @@ Pour afficher des données de formation sur un site Web sans en-tête ou basé s
 2. Utilisez l&#39;**URL de base**, l&#39;**URL CDN**, l&#39;**ID client**, le **secret client** et le **jeton d&#39;actualisation administrateur** pour créer une configuration dans AEM.
 3. Créez le site à l’aide de composants AEM.
 4. Publish du site pour les élèves.
-5. Pour plus d&#39;informations sur la configuration, consultez [cet article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) et [cet article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
+5. Pour plus d&#39;informations sur la configuration, consultez [cet article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) et [cet article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
 
 ### Expérience des élèves
 

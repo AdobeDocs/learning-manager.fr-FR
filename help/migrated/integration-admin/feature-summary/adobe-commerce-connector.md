@@ -27,8 +27,8 @@ Lorsque le connecteur est activé, Learning Manager envoie des données de forma
 
 Avant de configurer le connecteur Adobe Commerce, vérifiez les points suivants :
 
-- Activez [RabbitMQ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview) ou tout autre agent de messagerie.
-- Activez les tâches [CRON](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview#cron_consumers_runner).
+- Activez [RabbitMQ](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/start/overview) ou tout autre agent de messagerie.
+- Activez les tâches [CRON](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/start/overview#cron_consumers_runner).
 
 Pour les activer, modifiez les fichiers suivants :
 
@@ -42,8 +42,8 @@ Autres exigences de configuration :
 - Activez toutes les **API asynchrones**. Les jeux de données de formation volumineux sont exportés de manière asynchrone. Lorsque Learning Manager appelle les API Adobe Commerce, les demandes sont placées en file d’attente et traitées par un client qui crée des produits du côté commercial. Le traitement asynchrone doit être activé, car il n’est pas disponible par défaut dans Adobe Commerce.
 - Ajoutez un **lien de retour** à Learning Manager sur la page de réussite du paiement dans Adobe Commerce.
    - Utilisez cette [URL de retour](https://learningmanager.adobe.com/app/learner#/postPayment) :
-- Remplacez **indexation** de **À l&#39;enregistrement** par **Planifiée**. Voir la [Base de connaissances](https://experienceleague.adobe.com/en/support?support-tab=home#home) pour plus d&#39;informations.
-- Appliquez les **correctifs** requis. Voir [Documentation sur l&#39;application des correctifs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview) pour obtenir des instructions.
+- Remplacez **indexation** de **À l&#39;enregistrement** par **Planifiée**. Voir la [Base de connaissances](https://experienceleague.adobe.com/fr/support?support-tab=home#home) pour plus d&#39;informations.
+- Appliquez les **correctifs** requis. Voir [Documentation sur l&#39;application des correctifs](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/start/overview) pour obtenir des instructions.
 - Configurez **Fastly** pour Adobe Commerce sur l’infrastructure cloud (préparation et production). Voir [Configurer Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) pour plus d&#39;informations.
 
 ## Configuration du connecteur

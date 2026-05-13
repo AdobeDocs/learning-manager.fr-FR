@@ -75,7 +75,7 @@ Pour mapper les attributs :
 3. Dans la page **Attributs de mappage** :
    - Le côté gauche affiche les champs requis dans Adobe Learning Manager.
    - Le côté droit affiche les noms des colonnes CSV. Initialement, ce côté contient des listes déroulantes vides.
-   - Sélectionnez **Choisir CSV** pour charger un exemple de fichier CSV. Cette opération renseigne la liste déroulante de droite avec les noms de colonne de votre fichier CSV. Reportez-vous à [cet article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv) pour obtenir des exemples de fichiers CSV.
+   - Sélectionnez **Choisir CSV** pour charger un exemple de fichier CSV. Cette opération renseigne la liste déroulante de droite avec les noms de colonne de votre fichier CSV. Reportez-vous à [cet article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/migration-manual#csv) pour obtenir des exemples de fichiers CSV.
    - Mappez chaque champ Adobe Learning Manager à la colonne CSV correspondante.
 
    ![](assets/box-connector2.png)
