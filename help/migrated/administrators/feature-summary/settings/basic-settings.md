@@ -338,7 +338,7 @@ Fonctionnement :
 >* Adobe Learning Manager ne fournit pas de compte Badgr dans le cadre de l’intégration. Les élèves doivent créer leur propre compte Badgr.
 >* Les élèves peuvent configurer leur compte Badgr directement à partir de la page Badges de l’application de l’élève.
 
-Pour plus d&#39;informations, voir Prise en charge des badges Badgr](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).[
+Pour plus d&#39;informations, voir Prise en charge des badges Badgr[&#128279;](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).
 
 ### Afficher les évaluations
 
