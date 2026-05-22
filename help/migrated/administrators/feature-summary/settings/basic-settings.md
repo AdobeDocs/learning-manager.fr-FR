@@ -2,13 +2,13 @@
 description: En savoir plus sur la façon dont les paramètres de base vous aident à adapter Adobe Learning Manager à la structure de votre organisation et à l’expérience des élèves
 jcr-language: en_us
 title: Paramètres de base
-source-git-commit: c5fa60b3c08d4ec007d632febb353e3c8da234ba
+exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '4494'
 ht-degree: 5%
 
 ---
-
 
 # Paramètres de base dans Adobe Learning Manager
 
@@ -338,7 +338,7 @@ Fonctionnement :
 >* Adobe Learning Manager ne fournit pas de compte Badgr dans le cadre de l’intégration. Les élèves doivent créer leur propre compte Badgr.
 >* Les élèves peuvent configurer leur compte Badgr directement à partir de la page Badges de l’application de l’élève.
 
-Pour plus d&#39;informations, voir Prise en charge des badges Badgr[&#128279;](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).
+Pour plus d&#39;informations, voir Prise en charge des badges Badgr](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).[
 
 ### Afficher les évaluations
 
@@ -459,11 +459,3 @@ Les compétences des fournisseurs de contenu externes sont ajoutées au référe
 2. Sélectionnez un fournisseur de contenu dans la liste déroulante **[!UICONTROL Sélectionner la source des compétences]**.
 3. Sélectionnez **[!UICONTROL Enregistrer]**.
 Notez qu’une fois l’option activée, l’action est irréversible. Vous ne pouvez pas désactiver ou passer à une autre source ultérieurement.
-
-
-
-
-
-
-
-
