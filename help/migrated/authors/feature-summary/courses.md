@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '9424'
 ht-degree: 61%
@@ -137,7 +137,7 @@ Désormais, le cours/parcours d’apprentissage/la certification est considéré
 >
 >Les auteurs peuvent également ajouter les étiquettes de conformité à un cours/parcours d’apprentissage/certification existant en les modifiant.
 
-## Création d’une instance
+## Création d’une instance {#createaninstance}
 
 Pour créer une instance, procédez comme suit :
 
@@ -149,6 +149,7 @@ Pour créer une instance, procédez comme suit :
 
    * Dans le champ **[!UICONTROL Nom de l&#39;instance]**, saisissez le nom de l&#39;instance que vous souhaitez associer au cours. Assurez-vous d&#39;utiliser un nom unique pour l&#39;instance.
    * **Date de début :** Il s&#39;agit de la date de début du cours. Deux courriers électroniques de rappel peuvent être envoyés à l’élève à deux dates différentes sélectionnées avant cette date de début. La date de début doit être antérieure à la date d&#39;achèvement. Une fois que vous avez sélectionné la date de début, cette date sera mise en surbrillance bleue dans le calendrier dans la section **Alertes de notification** de l&#39;instance.
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * Spécifiez l&#39;échéance d&#39;achèvement de l&#39;instance. Les élèves doivent avoir achevé le cours au plus tard à cette date.
    * Sélectionnez **[!UICONTROL Afficher plus d&#39;options]** pour afficher d&#39;autres options d&#39;échéance.
@@ -157,18 +158,16 @@ Pour créer une instance, procédez comme suit :
    * **[!UICONTROL Fuseau horaire]:** recherchez, puis sélectionnez le **[!UICONTROL fuseau horaire]** dans la liste déroulante.
 
 6. Sélectionnez **Enregistrer**.
-   ![](assets/start-date-instance.png)
 
 ### Définir des rappels par e-mail avant la date de début
 
 Vous ne pouvez définir des rappels par e-mail qu’après avoir enregistré l’ensemble des informations de l’instance. Une fois que vous avez sélectionné **Enregistrer**, l&#39;instance se réduit et passe en mode de modification.
 
 1. Cochez la case **Alertes de notification**.
-2. Sur le calendrier, sélectionnez une date antérieure à la date de début du cours pour le premier rappel.
+2. Dans le calendrier, sélectionnez une date antérieure à la date de début de l&#39;instance pour le premier rappel.
 3. Sélectionnez **Ajouter un rappel** sur la droite.
-4. **Modèle de courrier électronique :** sélectionnez un modèle dans la liste déroulante **liste déroulante
-5. **Récurrence :** sélectionnez un type de périodicité dans la liste déroulante.
-Sélectionnez la coche bleue à droite pour enregistrer la date de rappel. N’oubliez pas que chaque date de rappel doit être enregistrée séparément.
+4. **Modèle de courrier électronique :** sélectionnez un modèle dans la liste déroulante
+5. **Récurrence :** sélectionnez un type de périodicité dans la liste déroulante. Sélectionnez la coche bleue à droite pour enregistrer la date de rappel. N’oubliez pas que chaque date de rappel doit être enregistrée séparément.
    ![](assets/start-date-reminder1.png)
 6. Sélectionnez une autre date qui est également antérieure à la date de début du cours pour le deuxième rappel, répétez le processus et sélectionnez la coche bleue à droite pour enregistrer également cette date de rappel.
    ![](assets/start-date-reminder2.png)
@@ -1153,7 +1152,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

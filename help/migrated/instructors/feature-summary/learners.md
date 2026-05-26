@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -142,7 +142,7 @@ Toutes les mises à jour sont automatiquement répercutées dans les dossiers, l
 
 * Les événements de formation pour les partenaires ou les clients permettent au formateur sur site de s&#39;adapter facilement aux changements de salle, aux sessions supplémentaires ou aux participants supplémentaires sans avoir à consulter l&#39;administrateur pour de nouveaux codes QR.
 
-### Invitations au calendrier
+### Invitations au calendrier {#calendarinvites}
 
 * Lorsqu’un élève ou un instructeur est inscrit à une session de classe ou de classe virtuelle, Learning Manager envoie une invitation de calendrier (fichier ICS).
 * L’invitation au calendrier comprend :
