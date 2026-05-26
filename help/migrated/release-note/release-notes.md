@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '29433'
+source-wordcount: '29658'
 ht-degree: 75%
 
 ---
@@ -25,7 +25,48 @@ ht-degree: 75%
 </table>
 -->
 
-+++Mise à jour 106 : version d’avril 2026 de Adobe Learning Manager
++++Mise à jour 107 : version de mai 2026 du correctif de Adobe Learning Manager
+
+Date de publication : 26 mai 2026
+
+## Améliorations (e-mail d’invitation d’instance et de session)
+
+**Date de début pour une instance :** En tant qu&#39;administrateur ou auteur, vous pouvez désormais inclure une date de début pour une instance lorsque vous créez ou modifiez une instance.
+
+**Envoyer des rappels par e-mail avant la date de début :** cela est lié au champ **Date de début** nouvellement introduit dans une instance. En tant qu’administrateur ou auteur, vous pouvez désormais définir deux rappels par e-mail à différents moments avant la date de début d’une instance avec différents types de périodicité.
+
+Pour plus d&#39;informations, voir [Création d&#39;une instance](/help/migrated/administrators/feature-summary/courses.md#createinstanceofacourse) pour l&#39;administrateur et [Création d&#39;une instance](/help/migrated/authors/feature-summary/courses.md#createaninstance) pour l&#39;auteur.
+
+**E-mail d&#39;invitation à une session :** lorsqu&#39;un utilisateur est ajouté en tant qu&#39;instructeur pour un type de session CR/VCR, l&#39;instructeur reçoit un e-mail de notification automatique. L&#39;aspect de ce courrier a été amélioré esthétiquement. Pour plus d&#39;informations, voir [Invitations au calendrier](/help/migrated/instructors/feature-summary/learners.md#calendarinvites)
+
+## Modifications de l’API
+
+### Démarrer la disponibilité dans l’API getLO
+
+**Amélioration de l’API GET /learningObjects**
+
+L’API GET /learningObjects inclut désormais un nouvel attribut startDate dans la ressource learningObjectInstance lorsque la relation d’instances est incluse.
+
+**Point de terminaison**
+
+GET /learningObjects/{id}?include=instances
+
+**Modifier**
+
+Un nouveau champ, startDate, a été ajouté sous :
+included[].attributes.startDate
+
+**Description**
+
+startDate représente la date et l&#39;heure de début planifiées d&#39;une instance d&#39;objet d&#39;apprentissage.
+
+Pour plus d&#39;informations, [voir Modifications d&#39;API dans la version de mai](/help/migrated/api-changes-alm-may.md).
+
+
++++
+
+
++++Mise à jour 106 : version de correctif de Adobe Learning Manager d’avril 2026
 
 Date de publication : 30 avril 2026
 
