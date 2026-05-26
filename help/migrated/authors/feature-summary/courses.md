@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '8841'
-ht-degree: 64%
+source-wordcount: '9424'
+ht-degree: 61%
 
 ---
 
@@ -49,15 +49,16 @@ Pour créer un cours, suivez les étapes ci-dessous :
 
 ## Création d’un cours - Processus avancé {#createacourseadvancedworkflow}
 
-1. Connectez-vous à Adobe Learning Manager en tant qu’auteur, car seuls les auteurs ont le droit de créer des cours. Cliquez sur **[!UICONTROL Créer des cours]** sur la page Prise en main.
-1. Sur la page **Présentation du cours**, saisissez le nom du cours. Saisissez maintenant une brève description de ce cours, qui est affichée sur la carte de cours. Cette description ne doit pas dépasser 140 caractères. Saisissez ensuite la présentation détaillée du cours, qui s’affiche sur la page Détails du cours. La description ne doit pas dépasser 1 500 caractères.
-1. Pour rendre votre cours disponible dans d’autres langues, cliquez sur Ajouter une nouvelle langue dans le coin supérieur gauche de la page. Sélectionnez la ou les langues dans lesquelles vous souhaitez rendre votre cours disponible. Cliquez sur **[!UICONTROL Enregistrer]**. Pour plus d’informations, voir [Ajouter du contenu pour différentes langues](/help/migrated/authors/feature-summary/content-library.md).
-1. **Modification des paramètres d’un cours**
+1. Connectez-vous à Adobe Learning Manager en tant qu’auteur, car seuls les auteurs ont le droit de créer des cours. Maintenant, sur la page d&#39;accueil, sélectionnez **[!UICONTROL Créer des cours]**. La page Catalogue de cours s&#39;ouvre et une liste de cours s&#39;affiche.
+2. Sélectionnez **Ajouter** en haut à droite. Une page s’ouvre pour créer un nouveau cours.
+3. Saisissez un nom pour le cours et une brève description. Cette description est affichée sur la carte du cours. Cette description ne doit pas dépasser 140 caractères. Saisissez ensuite la présentation détaillée du cours, qui s’affiche sur la page Détails du cours. La description ne doit pas dépasser 1 500 caractères.
+4. Pour rendre votre cours disponible dans d’autres langues, cliquez sur Ajouter une nouvelle langue dans le coin supérieur gauche de la page. Sélectionnez la ou les langues dans lesquelles vous souhaitez rendre votre cours disponible. Cliquez sur **[!UICONTROL Enregistrer]**. Pour plus d’informations, voir [Ajouter du contenu pour différentes langues](/help/migrated/authors/feature-summary/content-library.md).
+5. **Modification des paramètres d’un cours**
 
-   1. Sur la page Paramètres du cours, sélectionnez une compétence pour le cours. Dans la liste déroulante Compétence, sélectionnez la compétence requise. Puis, dans la liste déroulante Niveau, sélectionnez le niveau requis.
-   1. Sélectionnez les compétences du cours, le niveau et définissez les crédits pour la compétence. Ajoutez d’autres compétences, si nécessaire.
-   1. Ajoutez les étiquettes de conformité personnalisées au cours, si nécessaire. Voir [Ajouter des étiquettes de conformité au cours/parcours d&#39;apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   1. Dans la liste déroulante **Type d’inscription**, sélectionnez le type d’inscription.
+   a. Sur la page Paramètres du cours, sélectionnez une compétence pour le cours. Dans la liste déroulante Compétence, sélectionnez la compétence requise. Puis, dans la liste déroulante Niveau, sélectionnez le niveau requis.
+b. Sélectionnez les compétences du cours, le niveau et définissez les crédits pour la compétence. Ajoutez d’autres compétences, si nécessaire.
+c. Ajoutez les étiquettes de conformité personnalisées au cours, si nécessaire. Voir [Ajouter des étiquettes de conformité au cours/parcours d&#39;apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+d. Dans la liste déroulante **Type d’inscription**, sélectionnez le type d’inscription.
 
    Les différents types d’inscriptions sont les suivants :
 
@@ -65,13 +66,15 @@ Pour créer un cours, suivez les étapes ci-dessous :
    * **Approuvé par le responsable :** les responsables approuvent l’inscription à ces cours. Les élèves peuvent s&#39;inscrire à ces cours, mais ils ne sont pas directement inscrits à ces types de cours sans l&#39;approbation du responsable. Une demande de notification est envoyée aux responsables lorsque des élèves s’inscrivent à ces types de cours. Suite à l’approbation du directeur, ces cours sont indiqués dans la liste des cours auxquels l’élève est inscrit.
    * **Auto-inscrit :** les élèves peuvent directement s’inscrire eux-mêmes à ces types de cours.
 
-1. Choisissez si vous souhaitez définir un prix pour votre cours ou le rendre gratuit. Si vous souhaitez que le cours soit payé, choisissez l’option **[!UICONTROL Payé]** et spécifiez un prix. Le prix apparaît ensuite sur la carte du cours et sur la page de présentation du cours pour un élève.
+6. Choisissez si vous souhaitez définir un prix pour votre cours ou le rendre gratuit. Si vous souhaitez que le cours soit payé, choisissez l’option **[!UICONTROL Payé]** et spécifiez un prix. Le prix apparaît ensuite sur la carte du cours et sur la page de présentation du cours pour un élève.
 
-   REMARQUE : cette option est uniquement activée lorsque le connecteur Adobe Commerce est configuré.
+   >[!NOTE]
+   >
+   >Cette option est uniquement activée lorsque le connecteur Adobe Commerce est configuré.
 
-1. Si vous voulez donner aux élèves la possibilité de se désinscrire de votre cours, activez la case à cocher **Les élèves peuvent se désinscrire**.
+7. Si vous voulez donner aux élèves la possibilité de se désinscrire de votre cours, activez la case à cocher **Les élèves peuvent se désinscrire**.
 
-1. **Configuration des instances**
+8. **Configuration des instances**
 
    Si vous activez cette option, les élèves qui se trouvent dans l’état En cours peuvent consulter d’autres instances et s’y inscrire. Les élèves peuvent alors conserver la progression de l’instance précédente.
 
@@ -84,7 +87,9 @@ Pour créer un cours, suivez les étapes ci-dessous :
    * Salle de classe
    * Activité
 
-   Remarque : lors de la duplication d&#39;un cours, si vous aviez activé l&#39;option Configuration de l&#39;instance dans le cours source, l&#39;option reste désactivée dans le cours de destination.
+   >[!NOTE]
+   >
+   >En cas de duplication d’un cours, si l’option Configuration des instances est activée dans le cours source, elle reste désactivée dans le cours de destination.
 
    **Le changement d&#39;instance n&#39;est pas pris en charge pour** :
 
@@ -93,18 +98,18 @@ Pour créer un cours, suivez les étapes ci-dessous :
 
    La configuration Changement d’instance ne sera pas propagée aux comptes de pairs si elle est partagée via le catalogue. L’option reste désactivée dans le cours de destination.
 
-1. **Inscriptions multiples**
+9. **Inscriptions multiples**
 
    Vous pouvez ainsi inscrire des élèves dans plusieurs instances de cours à une ou plusieurs périodes différentes.
 
    Activez le bouton à bascule **Inscription multiple** pour basculer entre les différentes inscriptions au cours d&#39;un élève. Si vous avez activé le changement d’instance, vous ne pouvez pas utiliser l’inscription multiple.
 
-1. Sélectionnez les cours prérequis qui doivent être terminés avant de suivre votre cours. Cliquez sur le champ Cours et faites votre choix dans la liste de cours.
-1. Activez la case à cocher **Activer** **les prérequis** si vous voulez que les cours prérequis soient obligatoires.
-1. Ajoutez des mots-clés comme balises liées à votre cours. Ces balises aident les élèves à localiser votre cours facilement pendant la recherche. Toutes ces balises sont automatiquement ajoutées en fonction des modules que nous avons ajoutés. Si vous souhaitez ajouter d’autres balises à ce cours, vous pouvez les saisir.
-1. Ajoutez des mots-clés comme balises liées à votre cours. Ces balises aident les élèves à localiser votre cours facilement pendant la recherche. Toutes ces balises sont automatiquement ajoutées en fonction des modules que nous avons ajoutés. Si vous souhaitez ajouter d’autres balises à ce cours, vous pouvez les saisir.
-1. Dans le champ Retrait automatique, sélectionnez une date de retrait du cours. L’administrateur doit d’abord activer l’option de Suppression automatique.
-1. Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications. Pour publier le cours, cliquez sur **[!UICONTROL Publier]**.
+10. Sélectionnez les cours prérequis qui doivent être terminés avant de suivre votre cours. Cliquez sur le champ Cours et faites votre choix dans la liste de cours.
+11. Activez la case à cocher **Activer** **les prérequis** si vous voulez que les cours prérequis soient obligatoires.
+12. Ajoutez des mots-clés comme balises liées à votre cours. Ces balises aident les élèves à localiser votre cours facilement pendant la recherche. Toutes ces balises sont automatiquement ajoutées en fonction des modules que nous avons ajoutés. Si vous souhaitez ajouter d’autres balises à ce cours, vous pouvez les saisir.
+13. Ajoutez des mots-clés comme balises liées à votre cours. Ces balises aident les élèves à localiser votre cours facilement pendant la recherche. Toutes ces balises sont automatiquement ajoutées en fonction des modules que nous avons ajoutés. Si vous souhaitez ajouter d’autres balises à ce cours, vous pouvez les saisir.
+14. Dans le champ Retrait automatique, sélectionnez une date de retrait du cours. L’administrateur doit d’abord activer l’option de Suppression automatique.
+15. Pour enregistrer les modifications, sélectionnez **[!UICONTROL Enregistrer]**. Pour publier le cours, cliquez sur **[!UICONTROL Publier]**.
 
 ### Ajouter des étiquettes de conformité au cours/parcours d’apprentissage/certification {#add-custom-compliance-label}
 
@@ -131,6 +136,64 @@ Désormais, le cours/parcours d’apprentissage/la certification est considéré
 >[!NOTE]
 >
 >Les auteurs peuvent également ajouter les étiquettes de conformité à un cours/parcours d’apprentissage/certification existant en les modifiant.
+
+## Création d’une instance
+
+Pour créer une instance, procédez comme suit :
+
+1. Connectez-vous en tant qu&#39;**auteur**.
+2. Accédez au cours pour lequel vous souhaitez créer une instance et ouvrez le cours.
+3. Sélectionnez **Instances** dans le panneau de navigation de gauche. La page **Instances** s&#39;ouvre. Chaque cours a une instance par défaut. Vous pouvez modifier l&#39;instance par défaut ou ajouter des instances. Vous ne pouvez pas supprimer cette instance du cours.
+4. Pour créer une instance, cliquez sur **[!UICONTROL Ajouter une nouvelle instance]** dans le coin supérieur droit de la fenêtre d&#39;informations sur le cours. Une nouvelle instance du cours est affichée.
+5. Saisissez les propriétés de l&#39;instance :
+
+   * Dans le champ **[!UICONTROL Nom de l&#39;instance]**, saisissez le nom de l&#39;instance que vous souhaitez associer au cours. Assurez-vous d&#39;utiliser un nom unique pour l&#39;instance.
+   * **Date de début :** Il s&#39;agit de la date de début du cours. Deux courriers électroniques de rappel peuvent être envoyés à l’élève à deux dates différentes sélectionnées avant cette date de début. La date de début doit être antérieure à la date d&#39;achèvement. Une fois que vous avez sélectionné la date de début, cette date sera mise en surbrillance bleue dans le calendrier dans la section **Alertes de notification** de l&#39;instance.
+     ![](assets/start-date-highlighted-instance.png)
+   * Spécifiez l&#39;échéance d&#39;achèvement de l&#39;instance. Les élèves doivent avoir achevé le cours au plus tard à cette date.
+   * Sélectionnez **[!UICONTROL Afficher plus d&#39;options]** pour afficher d&#39;autres options d&#39;échéance.
+   * **[!UICONTROL Échéance d&#39;inscription]:** Il s&#39;agit de la date à laquelle un élève doit s&#39;inscrire à un objet d&#39;apprentissage en cas d&#39;auto-inscription.
+   * **[!UICONTROL Échéance de désinscription]:** Vous pouvez choisir de restreindre la désinscription par l&#39;élève lui-même en fixant une échéance de désinscription.
+   * **[!UICONTROL Fuseau horaire]:** recherchez, puis sélectionnez le **[!UICONTROL fuseau horaire]** dans la liste déroulante.
+
+6. Sélectionnez **Enregistrer**.
+   ![](assets/start-date-instance.png)
+
+### Définir des rappels par e-mail avant la date de début
+
+Vous ne pouvez définir des rappels par e-mail qu’après avoir enregistré l’ensemble des informations de l’instance. Une fois que vous avez sélectionné **Enregistrer**, l&#39;instance se réduit et passe en mode de modification.
+
+1. Cochez la case **Alertes de notification**.
+2. Sur le calendrier, sélectionnez une date antérieure à la date de début du cours pour le premier rappel.
+3. Sélectionnez **Ajouter un rappel** sur la droite.
+4. **Modèle de courrier électronique :** sélectionnez un modèle dans la liste déroulante **liste déroulante
+5. **Récurrence :** sélectionnez un type de périodicité dans la liste déroulante.
+Sélectionnez la coche bleue à droite pour enregistrer la date de rappel. N’oubliez pas que chaque date de rappel doit être enregistrée séparément.
+   ![](assets/start-date-reminder1.png)
+6. Sélectionnez une autre date qui est également antérieure à la date de début du cours pour le deuxième rappel, répétez le processus et sélectionnez la coche bleue à droite pour enregistrer également cette date de rappel.
+   ![](assets/start-date-reminder2.png)
+
+## Affichage des propriétés de l’instance {#viewpropertiesoftheinstance}
+
+1. **Modules :** nombre de modules créés par l&#39;auteur du cours.
+2. **Sessions :** nombre de modules de salle de classe virtuelle et de salle de classe dans le cours
+3. **Réalisations :** les réalisations des élèves
+4. **Alertes de notification :** option permettant d&#39;envoyer deux e-mails de rappel avant la date de début du cours
+
+### Actions {#actions}
+
+* **Enregistrer dans les paramètres du cours :** enregistre les paramètres de cette instance dans le cours à partir duquel vous avez créé l&#39;instance.
+* **Appliquer les paramètres par défaut :** applique les paramètres par défaut trouvés dans la page **Configurer** > **Valeurs par défaut de l&#39;instance**.
+* **Retirer l&#39;instance :** a retiré une instance. L&#39;instance ne sera plus disponible.
+* **Supprimer l&#39;instance :** supprime l&#39;instance particulière.
+
+
+>[!NOTE]
+>
+>Vous ne pouvez pas supprimer l&#39;instance par défaut ou une copie de l&#39;instance par défaut. Dans ce cas, l’option Supprimer l’instance n’apparaîtra pas dans la liste déroulante Action.
+
+* **Avertir les élèves sur liste d&#39;attente :** informe les élèves sur liste d&#39;attente qu&#39;il existe une autre instance où ils peuvent s&#39;inscrire
+* **Élèves inscrits par courrier électronique :** envoie des courriers électroniques aux élèves concernant des annonces importantes
 
 ## Points de ludification
 
@@ -1090,7 +1153,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

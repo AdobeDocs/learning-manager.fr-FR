@@ -2,10 +2,10 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: a6d8564888f232bc642cfcac7b17db52be1ef024
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 62%
+source-wordcount: '953'
+ht-degree: 61%
 
 ---
 
@@ -232,6 +232,7 @@ ht-degree: 62%
    * [Création d’un compte d’évaluation dans Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Modifications apportées à l’API {#api-changes}
    * [Modifications apportées aux API dans la version d’avril](/help/migrated/api-changes-alm.md)
+   * [Modifications apportées aux API dans la version de mai du correctif](/help/migrated/api-changes-alm-may.md)
 * Base de connaissances {#knowledge-base}
    * [Impossible de se connecter à Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Le Résumé de l’apprentissage n’affiche pas les données actuelles](kb/learning-summary-not-display-data.md)
