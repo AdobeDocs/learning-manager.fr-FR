@@ -454,7 +454,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2}]**
+**décalage de page[2&rbrace;]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 
