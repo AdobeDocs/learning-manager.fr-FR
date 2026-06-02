@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
 workflow-type: tm+mt
-source-wordcount: '29658'
+source-wordcount: '29617'
 ht-degree: 75%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 75%
 
 Date de publication : 26 mai 2026
 
-## Améliorations (e-mail d’invitation d’instance et de session)
+## Améliorations de cette version
 
-**Date de début pour une instance :** En tant qu&#39;administrateur ou auteur, vous pouvez désormais inclure une date de début pour une instance lorsque vous créez ou modifiez une instance.
+**Date de début pour une instance :** En tant qu&#39;administrateur ou auteur, vous pouvez désormais inclure une date de début pour une instance lorsque vous créez ou modifiez une instance. La date de début ne peut être affichée dans l’interface de l’élève que via l’API.
 
 **Envoyer des rappels par e-mail avant la date de début :** cela est lié au champ **Date de début** nouvellement introduit dans une instance. En tant qu’administrateur ou auteur, vous pouvez désormais définir deux rappels par e-mail à différents moments avant la date de début d’une instance avec différents types de périodicité.
 
@@ -589,8 +589,8 @@ La nouvelle application Adobe Learning Manager sur Microsofts Teams est conçue 
 **Problèmes connus dans cette mise à jour**
 
 * Le bouton Partager du catalogue des élèves ne fonctionne pas comme prévu dans le navigateur Safari, l’application Mobile et iPad MS Teams.
-* Les notifications ne s’affichent pas dans l’onglet Activité lorsque l’application est supprimée sur d’autres ordinateurs.
-Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur un iPhone 14.
+* Les notifications ne s’affichent pas dans l’onglet Activité une fois que l’application est supprimée sur d’autres ordinateurs.
+Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur iPhone 14.
 * Dans l’application MS Teams, les notifications Learning Manager (terminé, inscrit, échéance et retard) n’affichent ni l’état ni le nom du cours dans l’onglet Activité.
 * Une fenêtre contextuelle avec du contenu XML s’affiche lorsque l’administrateur d’intégration n’approuve pas l’application MS Teams.
 * Parfois, la langue de l’interface utilisateur dans l’application Adobe Learning Manager sur MS Teams ne change pas comme prévu lors du changement de la langue.
@@ -616,7 +616,7 @@ Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Acti
 ### Amélioration Des Performances Dans Cette Version
 
 Lorsqu&#39;une inscription en bloc d&#39;élèves est effectuée, aucun fichier journal n&#39;est généré pour chaque élève.
-Nous avons optimisé le traitement des plans d’apprentissage pour les comptes volumineux. Cela permet d’éviter tout problème ou retard de recherche.
+Nous avons optimisé le traitement des plans d’apprentissage pour les grands comptes. Cela permet d’éviter tout problème ou retard de recherche.
 +++
 
 +++Mise à jour 87
@@ -648,8 +648,8 @@ Ajout de la prise en charge du code de langue à quatre lettres lors du filtrage
 
 ### Bogues Corrigés Dans Cette Mise À Jour
 
-Pour certaines langues, les résultats de recherche sont incorrects.
-Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes du même paramètre régional.
+Pour certaines langues, la recherche renvoie des résultats incorrects.
+Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes des mêmes paramètres régionaux.
 +++
 
 +++Mise à jour 84
