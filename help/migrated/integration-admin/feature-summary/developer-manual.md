@@ -4,10 +4,10 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '4583'
-ht-degree: 6%
+source-wordcount: '4415'
+ht-degree: 7%
 
 ---
 
@@ -95,7 +95,7 @@ Un code de paramètre est ajouté avec l’URI de redirection.
 
 Après avoir obtenu le code, utilisez n’importe quel outil API et ajoutez la demande de POST suivante :
 
-```https://learningmanager.adobe.com/oauth/token ```
+`https://learningmanager.adobe.com/oauth/token`
 
 **Corps de la demande (x-www-form-urlencoded)** :
 
@@ -454,7 +454,7 @@ Pour renvoyer uniquement cinq enregistrements d’utilisateur dans un seul appel
 GET https://learningmanager.adobe.com/primeapi/v2/users?page[limit]=5
 ```
 
-**décalage de page[2&rbrace;]**
+**décalage de page[2}]**
 
 Utilisez cet appel API pour renvoyer trois enregistrements d’utilisateur, ignorer les cinq premiers et commencer à partir du sixième.
 

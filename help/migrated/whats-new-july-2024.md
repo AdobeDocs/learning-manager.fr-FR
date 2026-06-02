@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2336'
 ht-degree: 2%
 
 ---
@@ -123,7 +123,7 @@ Les élèves recevront des notifications push chaque fois qu&#39;ils manqueront 
 
 L’API de recherche inclut les modifications suivantes :
 
-Les élèves peuvent rechercher des balises dans les filtres de catalogue à l&#39;aide de l&#39;API ```GET /search```. Les élèves peuvent rechercher les balises en sélectionnant ```tag``` comme valeur pour le paramètre ```filter.loTypes```.
+Les élèves peuvent rechercher des balises dans les filtres de catalogue à l&#39;aide de l&#39;API `GET /search`. Les élèves peuvent rechercher les balises en sélectionnant `tag` comme valeur pour le paramètre `filter.loTypes`.
 
 **Exemple de boucle**
 
@@ -131,13 +131,13 @@ Les élèves peuvent rechercher des balises dans les filtres de catalogue à l&#
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-Les nouveaux filtres, siège disponible, liste d&#39;attente disponible et filtre de plage horaire ont été ajoutés aux API suivantes : ```GET /search``` et `GET /learningObjects`.
+Les nouveaux filtres, siège disponible, liste d&#39;attente disponible et filtre de plage horaire ont été ajoutés aux API suivantes : `GET /search` et `GET /learningObjects`.
 
-Les nouveaux filtres `filter.session.includeEnrollmentDeadline` ont été ajoutés à l&#39;API suivante ```GET /search```.
+Les nouveaux filtres `filter.session.includeEnrollmentDeadline` ont été ajoutés à l&#39;API suivante `GET /search`.
 
 ### API de compte
 
-Les nouvelles colonnes `custom_injections`, `showComplianceLabel` et `complianceLabelDefaultID` ont été ajoutées dans l&#39;API ```GET /account``` pour obtenir les données de compte du point de terminaison de l&#39;utilisateur.
+Les nouvelles colonnes `custom_injections`, `showComplianceLabel` et `complianceLabelDefaultID` ont été ajoutées dans l&#39;API `GET /account` pour obtenir les données de compte du point de terminaison de l&#39;utilisateur.
 
 ### API de l’objet d’apprentissage
 

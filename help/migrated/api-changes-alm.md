@@ -2,13 +2,13 @@
 description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version d’avril
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
 source-wordcount: '4093'
 ht-degree: 0%
 
 ---
-
 
 # Modifications apportées aux API dans la version d’avril 2026
 
@@ -288,7 +288,7 @@ Cette structure permet aux clients :
 
 ### Rétrocompatibilité : 
 
-```/resources/{resourceId}```
+`/resources/{resourceId}`
 
 Le point de terminaison de ressource hérité reste disponible :
 
@@ -314,7 +314,7 @@ Les intégrations qui stockent ou référencent actuellement les anciens ID de r
    - Utilisez resource.attributes.locale pour sélectionner l’URL correcte (emplacement / downloadUrl) pour les paramètres régionaux de l’élève.
    - Mettez en œuvre un comportement de secours (par exemple, revenir à en-US) si les paramètres régionaux exacts d’un élève ne sont pas disponibles.
 - _API et stockage_
-   - Pour les nouvelles intégrations, stockez les _ID de ressource au nouveau format_ (```jobAid:<jobAidId>_<version>_<localeCode>```) pour permettre une récupération non ambiguë spécifique aux paramètres régionaux.
+   - Pour les nouvelles intégrations, stockez les _ID de ressource au nouveau format_ (`jobAid:<jobAidId>_<version>_<localeCode>`) pour permettre une récupération non ambiguë spécifique aux paramètres régionaux.
    - Les ID hérités peuvent toujours être utilisés avec /resources/{resourceId}, mais ils ne feront pas la distinction entre les paramètres régionaux.
 
 ## Contraintes de créneau horaire pour le démarrage de modules
@@ -323,13 +323,13 @@ Certaines expériences d’apprentissage ne doivent être disponibles que dans u
 
 Les métadonnées de créneau horaire sont disponibles via le point d’entrée :
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 Au niveau de la ressource de l&#39;objet d&#39;apprentissage, un objet timeSlot peut désormais être présent dans les attributs, avec les valeurs startTime et endTime en UTC. Cette option spécifie la fenêtre pendant laquelle la ressource peut être démarrée.
 
 Avant de lancer un module, les intégrations peuvent appeler un nouveau point de terminaison de validation :
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 Ce point de terminaison, destiné aux scénarios lus par l&#39;élève, renvoie si l&#39;élève est actuellement autorisé à démarrer la ressource, en tenant compte du créneau horaire configuré, du type de livraison et d&#39;autres règles d&#39;arrière-plan.
 
@@ -341,7 +341,7 @@ Certains packages de contenu mettent en œuvre leur propre suivi des tentatives 
 
 Via :
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 Les ressources d’objet d’apprentissage peuvent désormais exposer un attribut booléen hasContentDrivenAttemptTracking. Lorsque c’est le cas, le quiz ou module gère les tentatives en interne (par exemple, via la logique SCORM ou xAPI) et les compteurs de tentatives standard de la plateforme peuvent ne pas refléter entièrement l’expérience de l’élève.
 
@@ -353,11 +353,11 @@ Cette version introduit un __changement de comportement__ important dans le form
 
 Auparavant, les ID de ressource d&#39;assistance à la tâche utilisaient un format tel que :
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 Dans la version d’avril 2026, ce format est remplacé par un format simplifié et plus explicite :
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 Par exemple :
 
@@ -365,9 +365,9 @@ jobAid:131032_2_fr_FR
 
 Les composants sont les suivants :
 
-- ```<jobAidId>``` : ID d&#39;assistance à la tâche numérique (par exemple, 131032),
-- ```<version>``` : numéro de version de l&#39;assistance à la tâche (par exemple, 2),
-- ```<localeCode>``` : code de paramètres régionaux (par exemple, en_US, fr_FR, es_ES).
+- `<jobAidId>` : ID d&#39;assistance à la tâche numérique (par exemple, 131032),
+- `<version>` : numéro de version de l&#39;assistance à la tâche (par exemple, 2),
+- `<localeCode>` : code de paramètres régionaux (par exemple, en_US, fr_FR, es_ES).
 
 Toute intégration qui indexe des ressources ou est conservée dans les ID de ressources d&#39;assistance à la tâche doit mettre à jour sa logique d&#39;analyse et de stockage pour reconnaître le nouveau format. Étant donné que les identificateurs eux-mêmes changent, il est fortement recommandé de reconstruire tous les index locaux clés par des ID de ressource d’assistance à la tâche après la mise à niveau vers la version d’avril 2026.
 
@@ -458,7 +458,7 @@ Vous devez traiter la colonne d’ordre héritée comme supprimée ou ignorée :
 - La mise en correspondance essentielle requise demeure la suivante :
    - ID du programme d’apprentissage ↔ ID du cours (et toute autre colonne encore documentée telle que id, learningProgramId, courseId et dates).
 
-Reportez-vous toujours aux [_spécifications CSV_](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/migration-manual) les plus récentes de votre compte Learning Manager (via csv_specifications.zip) pour confirmer l’ensemble d’en-têtes et les exigences actuelles.
+Reportez-vous toujours aux [_spécifications CSV_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) les plus récentes de votre compte Learning Manager (via csv_specifications.zip) pour confirmer l’ensemble d’en-têtes et les exigences actuelles.
 
 ## timeZoneCode sur les instances de cours
 
@@ -657,7 +657,7 @@ _Comment puis-je réinitialiser par programme l’achèvement d’un élève pou
 
 Utiliser le nouveau point de terminaison :
 
-```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+`POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion`
 Cela réinitialise l&#39;achèvement pour l&#39;instance ciblée lorsque les autorisations et l&#39;état l&#39;autorisent.
 
 _Comment savoir si un élève a terminé quelque chose via un objet d’apprentissage alternatif ou équivalent ?_
@@ -668,7 +668,7 @@ _Comment puis-je trouver toutes les alternatives qui peuvent satisfaire un objet
 
 Utilisez le point d’entrée suivant :
 
-```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+`GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}`
 
 et utilisez le tableau de données (pour les variantes) et meta.count (pour le nombre total de variantes).
 
@@ -676,10 +676,10 @@ _Comment savoir si un élève est autorisé à démarrer un module pour le momen
 
 Tout d&#39;abord, récupérez l&#39;intervalle de temps de la ressource à partir de :
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 puis utilisez :
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 _Que signifie hasContentDrivenAttemptTracking sur une ressource ?_
 
@@ -689,7 +689,7 @@ _Comment obtenir des menus adaptés aux utilisateurs non connectés (expérience
 
 Utilisation :
 
-```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+`GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true`
 
 Cela renvoie des structures de menu et de page filtrées pour les utilisateurs anonymes, adaptées à Experience Builder ou à d’autres sites sans en-tête.
 
@@ -701,10 +701,10 @@ _Qu&#39;est-ce qui a changé dans le format d&#39;ID de ressource d&#39;assistan
 
 Le format d’ID a changé pour des valeurs telles que :
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 à :
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 par exemple jobAid:131032_2_fr_FR. Tout système qui stocke ou analyse les ID de ressource d’assistance à la tâche doit être mis à jour. Vous devez prévoir de reconstruire les index locaux clés par ces ID après la mise à niveau vers la version d’avril 2026.

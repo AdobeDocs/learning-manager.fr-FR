@@ -3,9 +3,9 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '5322'
+source-wordcount: '5320'
 ht-degree: 61%
 
 ---
@@ -133,7 +133,7 @@ Vous trouverez ci-dessous les spécifications CSV standard que vous pouvez utili
    <th>
     <p><b>Description du contenu</b></p></th>
    <th>
-    <p>Annotations</p></th>
+    <p>Notes</p></th>
   </tr>
   <tr>
    <td>
@@ -862,7 +862,7 @@ Vous trouverez ci-dessous les spécifications CSV standard que vous pouvez utili
 
 3-learning_program_enrollment.xlsx : contient les descriptions de métadonnées nécessaires pour le fichier retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx : contient les descriptions de métadonnées nécessaires pour le fichier retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx-contient des descriptions des métadonnées requises pour le fichier retrofit_user_course_grades.csv.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -889,7 +889,7 @@ Learning Manager prend en charge l’UUID pour fournir aux entreprises de la fl
 
 **Scénario d’utilisation d’un UUID au sein d’une entreprise**
 
-Imaginez un scénario dans lequel un employé A rejoint une société nommée Learning Manager, en tant que sous-traitant. Pendant la période du contrat, l’entreprise Learning Manager ne peut pas fournir l’ID de messagerie de l’entreprise comme ```A@example.com```, mais peut uniquement prendre en compte le compte de messagerie personnel de l’employé, par exemple, ```A@gmail.com```. Après avoir terminé 6 mois de période contractuelle, si le même employé A rejoint Learning Manager en tant qu’employé à temps plein, Learning Manager peut vouloir modifier son ID de messagerie en ID de messagerie de son entreprise : ```A@example.com```.
+Imaginez un scénario dans lequel un employé A rejoint une société nommée Learning Manager, en tant que sous-traitant. Pendant la période du contrat, l’entreprise Learning Manager ne peut pas fournir l’ID de messagerie de l’entreprise comme `A@example.com`, mais peut uniquement prendre en compte le compte de messagerie personnel de l’employé, par exemple, `A@gmail.com`. Après avoir terminé 6 mois de période contractuelle, si le même employé A rejoint Learning Manager en tant qu’employé à temps plein, Learning Manager peut vouloir modifier son ID de messagerie en ID de messagerie de son entreprise : `A@example.com`.
 
 Dans le scénario mentionné ci-dessus, l’accès par UUID à un compte utilisateur est très utile à l’entreprise Learning Manager. La société Learning Manager peut remplacer facilement l’ID de messagerie personnel de l’employé A par un ID de messagerie officiel. Les dossiers de l’employé pertinents pour ce compte ne sont pas affectés par cette modification.
 
