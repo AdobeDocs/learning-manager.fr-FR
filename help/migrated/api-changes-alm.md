@@ -458,7 +458,7 @@ Vous devez traiter la colonne d’ordre héritée comme supprimée ou ignorée :
 - La mise en correspondance essentielle requise demeure la suivante :
    - ID du programme d’apprentissage ↔ ID du cours (et toute autre colonne encore documentée telle que id, learningProgramId, courseId et dates).
 
-Reportez-vous toujours aux [_spécifications CSV_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) les plus récentes de votre compte Learning Manager (via csv_specifications.zip) pour confirmer l’ensemble d’en-têtes et les exigences actuelles.
+Reportez-vous toujours aux [_spécifications CSV_](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/migration-manual) les plus récentes de votre compte Learning Manager (via csv_specifications.zip) pour confirmer l’ensemble d’en-têtes et les exigences actuelles.
 
 ## timeZoneCode sur les instances de cours
 
