@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Modèles de courriers électroniques
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
+source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 58%
+source-wordcount: '1753'
+ht-degree: 60%
 
 ---
 
@@ -35,18 +35,28 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modifier ces modèles de courrier électronique.
 
-1. Pour accéder aux modèles, cliquez sur **[!UICONTROL Modèles de courrier électronique]** dans le volet de gauche. Sur cette page, vous pouvez voir trois catégories différentes de modèles : **[!UICONTROL Général]**, **[!UICONTROL Activité d’apprentissage]** et **[!UICONTROL Rappels et mises à jour]**. Il existe un quatrième onglet, **[!UICONTROL Paramètres]**, dans lequel vous pouvez configurer les modèles.
+Les modèles d’e-mail mentionnés ci-dessous font partie de ce groupe de modèles.
+
+**Actualisation de la progression :** ce modèle informe un élève que l’état d’achèvement et la progression sur un parcours d’apprentissage ont été automatiquement recalculés en raison d’une modification de son profil actif ou de la configuration de son parcours d’apprentissage. Cela invite l’élève à examiner toutes les nouvelles exigences en attente et à prendre des mesures pour terminer le parcours d’apprentissage.
+
+**Les cours/parcours ont été marqués comme terminés par un autre chemin :** ce modèle avertit un élève lorsqu’il termine un cours par un autre chemin. Cela signifie qu’ils ont directement suivi une formation source qu’un administrateur a configurée comme alternative à ces cibles.
+
+**Les cours/parcours ont été marqués comme incomplets :** ce modèle informe un élève qu’un cours ou un parcours d’apprentissage qui devait être suivi par une autre personne a été marqué comme incomplet. Cela se produit lorsqu’un administrateur supprime ou modifie une autre relation et que l’incomplétude rétroactive est activée au niveau du compte.
+
+**Liste de contrôle réussie/Échec de la liste de contrôle :** L&#39;objectif de ces modèles est d&#39;informer les élèves qu&#39;ils ont été évalués par les réviseurs. L’élève reçoit cet e-mail pour chaque évaluation, afin qu’il puisse accéder à la plateforme et vérifier s’il doit effectuer une action.
+
+1. Pour accéder aux modèles, cliquez sur **[!UICONTROL Modèles de courriers électroniques]** dans le volet de gauche. Sur cette page, vous trouverez trois différentes catégories de modèles : **[!UICONTROL Général]**, **[!UICONTROL Activité d’apprentissage]** et **[!UICONTROL Rappels et mises à jour]**. Il existe un quatrième onglet, **[!UICONTROL Paramètres]**, dans lequel vous pouvez configurer les modèles.
 
    ![](assets/categories-of-emailtemplates.png)
 
    *Sélectionnez l&#39;onglet Général*
 
-2. Pour activer ou désactiver en bloc les modèles d&#39;e-mail pour un rôle particulier, sélectionnez les points de suspension (...) dans l&#39;en-tête de colonne et activez tous les rôles applicables dans **[!UICONTROL Destinataires de l&#39;e-mail]**.
+2. Pour activer ou désactiver en bloc les modèles de courrier électronique pour un rôle particulier, sélectionnez les points de suspension (...) dans l&#39;en-tête de colonne et activez tous les rôles applicables dans **[!UICONTROL Destinataires de l&#39;e-mail]**.
 
    ![](assets/email-template-role.png)
    _Envoyer tous les modèles de courrier électronique au niveau du rôle_
 
-3. Pour activer ou désactiver un modèle de courrier électronique spécifique pour un rôle, sélectionnez les points de suspension (...) de ce modèle, puis sélectionnez ou désélectionnez un rôle.
+3. Pour activer ou désactiver un modèle de courrier électronique spécifique pour un rôle, sélectionnez les points de suspension (...) pour ce modèle, et sélectionnez ou désélectionnez un rôle.
 
    ![](assets/email-template-role-1.png)
    _Envoyer un modèle d&#39;e-mail au niveau du rôle_
@@ -74,11 +84,11 @@ En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modi
 1. Pour ouvrir la page des paramètres, cliquez sur **[!UICONTROL Paramètres]**. Vous pouvez à présent personnaliser vos modèles de courriers électroniques.
 1. Pour personnaliser le nom et l&#39;ID de messagerie à partir desquels les élèves reçoivent des courriers électroniques, modifiez le **[!UICONTROL Nom et l&#39;adresse de l&#39;expéditeur].**
 
-   Contactez l&#39;[***assistance technique de l&#39;Adobe***](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
+   Contactez l&#39;[***assistance technique de l&#39;Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
 
-1. Personnalisez votre bannière de courrier électronique à partir de l&#39;option **[!UICONTROL Bannière de courrier électronique]**. Modifiez la couleur de la bannière en sélectionnant **[!UICONTROL Arrière-plan de la bannière]**.
+1. Personnalisez votre bannière de courrier électronique à l’aide de l’option **[!UICONTROL Bannière de courrier électronique]**. Modifier la couleur de la bannière en sélectionnant **[!UICONTROL Arrière-plan de la bannière]**.
 
-   Vous pouvez utiliser une image personnalisée comme bannière en sélectionnant l&#39;option **[!UICONTROL Image personnalisée]**. Cliquez sur **[!UICONTROL Enregistrer]** après avoir apporté les modifications.
+   Vous pouvez utiliser une image personnalisée comme bannière en sélectionnant l’option **[!UICONTROL Image personnalisée]**. Cliquez sur **[!UICONTROL Enregistrer]** après avoir apporté les modifications.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
@@ -163,7 +173,7 @@ Vous pouvez télécharger le rapport d&#39;accès aux e-mails en cliquant sur le
 
 ## Personnaliser le domaine de l’adresse électronique {#customizeemaildomain}
 
-Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez l’[***assistance Learning Manager***](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel ID de messagerie.
+Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez l’[***assistance Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel ID de messagerie.
 
 Votre demande sera traitée et un courrier électronique contenant un lien de confirmation vous sera envoyé à la nouvelle adresse électronique que vous indiquez. Cliquez sur le lien de vérification qui figure dans le courrier électronique pour confirmer et terminer le processus de vérification.
 
@@ -171,7 +181,7 @@ Votre demande sera traitée et un courrier électronique contenant un lien de co
 
 En tant qu’administrateur, vous pouvez sélectionner les utilisateurs qui peuvent recevoir les courriers électroniques de Learning Manager et ceux qui ne doivent pas les recevoir.
 
-Pour ce faire, utilisez l&#39;option **[!UICONTROL Ne pas déranger]** sous l&#39;onglet **[!UICONTROL Paramètres]**. Pour ajouter des utilisateurs à cette liste, saisissez leur nom, leur identifiant de messagerie ou leur ID utilisateur unique.
+Pour ce faire, sélectionnez l’option **[!UICONTROL Ne pas déranger]** située sous l’onglet **[!UICONTROL Paramètres]**. Pour ajouter des utilisateurs à cette liste, saisissez leur nom, leur identifiant de messagerie ou leur ID utilisateur unique.
 
 Recherchez un utilisateur à ajouter à la liste.
 
@@ -179,7 +189,7 @@ Recherchez un utilisateur à ajouter à la liste.
 
 ## Courriers électroniques bloqués {#blockedemails}
 
-Dans la liste déroulante **E-mails bloqués**, pour chaque utilisateur, sélectionnez les types d&#39;e-mail à bloquer.
+Dans la liste déroulante **Courriers électroniques bloqués**, sélectionnez les types de courriers électroniques à bloquer pour chaque utilisateur.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
@@ -199,7 +209,7 @@ Vous pouvez ajouter des utilisateurs à la liste NPD à l’aide de fichiers CS
 * Bloquer les escalades directes entrantes
 * Bloquer les escalades d’omission entrantes
 
-Saisissez true dans le champ de valeur pour empêcher les utilisateurs de recevoir des e-mails pour cette option sélectionnée. Si la valeur saisie est Faux, les utilisateurs bloqués seront débloqués. Aucune modification ne sera apportée aux sélections précédentes si la colonne est laissée vide.
+Saisissez Vrai dans le champ Valeur pour éviter que les utilisateurs ne reçoivent de courriers électroniques pour l’option sélectionnée. Si la valeur saisie est Faux, les utilisateurs bloqués seront débloqués. Aucune modification ne sera apportée aux sélections précédentes si la colonne est laissée vide.
 
 ## Flexibilité dans la personnalisation des modèles
 
@@ -218,7 +228,7 @@ Sélectionnez **[!UICONTROL Modèles de courrier électronique]** > **[!UICONTRO
 Vous pouvez également personnaliser les éléments suivants :
 
 * Bannière et signature de courrier électronique au niveau du cours et de l’instance.
-* Modifiez le pied de page de l’e-mail. La zone de pied de page contient des variables prédéfinies pour l’URL du compte, la signature et tout texte libre ajouté par l’utilisateur.
+* Modifiez le pied de page du courrier électronique. La zone de pied de page contient des variables prédéfinies pour l’URL du compte, la signature et tout texte libre ajouté par l’utilisateur.
 
 Les modèles prennent également en charge des fonctions de modification avancées, telles que la conservation de la mise en forme lorsque le contenu est copié et collé depuis et vers Microsoft Word.
 
@@ -230,13 +240,13 @@ Les utilisateurs de Learning Manager recevront désormais des invitations par e-
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-+++Comment désactiver l’aide dans les modèles de courrier électronique ?
++++Comment désactiver l’aide dans les modèles de courrier électronique ?
 
 À l’heure actuelle, il n’est pas possible de désactiver l’**aide** dans les modèles de courrier électronique de Learning Manager.
 
 +++
 
-+++Comment modifier les modèles de courrier électronique ?
++++Comment modifier les modèles d’email ?
 
 1. Connectez-vous à votre compte Learning Manager en tant qu’administrateur.
 1. Dans le volet de gauche, cliquez sur **[!UICONTROL Modèles de courrier électronique]** et sélectionnez le modèle de courrier électronique que vous souhaitez modifier.
@@ -246,20 +256,20 @@ Les utilisateurs de Learning Manager recevront désormais des invitations par e-
 
 +++
 
-+++Comment créer vos propres modèles de courrier électronique ?
++++Comment créer vos propres modèles de courrier électronique ?
 
 À l’heure actuelle, il n’est pas possible de créer des modèles de courrier électronique personnalisés. Cependant, vous pouvez modifier les modèles existants.
 
 +++
 
-+++Comment désactiver les modèles de courrier électronique ?
++++Comment désactiver les modèles de courrier électronique ?
 
 Pour désactiver un modèle de courrier électronique, sélectionnez le modèle à désactiver, puis cliquez sur le bouton bascule circulaire Oui/Non.
 
 +++
 
-+++Comment modifier le nom et l’adresse de l’expéditeur dans le modèle ?
++++Comment modifier le nom et l’adresse de l’expéditeur dans le modèle ?
 
-Pour modifier le nom et l&#39;adresse e-mail de l&#39;expéditeur, contactez l&#39;[assistance Adobe Learning Manager](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager).
+Pour modifier le nom et l’adresse électronique de l’expéditeur, contactez l’[assistance d’Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
