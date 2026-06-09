@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Modèles de courriers électroniques
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 En tant qu’administrateur, vous pouvez facilement activer, désactiver ou modifier ces modèles de courrier électronique.
 
-Les modèles d’e-mail mentionnés ci-dessous font partie de ce groupe de modèles.
+Les modèles d’e-mail mentionnés ci-dessous font partie de ce groupe de modèles :
 
 **Actualisation de la progression :** ce modèle informe un élève que l’état d’achèvement et la progression sur un parcours d’apprentissage ont été automatiquement recalculés en raison d’une modification de son profil actif ou de la configuration de son parcours d’apprentissage. Cela invite l’élève à examiner toutes les nouvelles exigences en attente et à prendre des mesures pour terminer le parcours d’apprentissage.
 
@@ -84,7 +84,7 @@ Les modèles d’e-mail mentionnés ci-dessous font partie de ce groupe de modè
 1. Pour ouvrir la page des paramètres, cliquez sur **[!UICONTROL Paramètres]**. Vous pouvez à présent personnaliser vos modèles de courriers électroniques.
 1. Pour personnaliser le nom et l&#39;ID de messagerie à partir desquels les élèves reçoivent des courriers électroniques, modifiez le **[!UICONTROL Nom et l&#39;adresse de l&#39;expéditeur].**
 
-   Contactez l&#39;[***assistance technique de l&#39;Adobe***](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
+   Contactez l&#39;[***assistance technique de l&#39;Adobe***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) pour configurer ou modifier ces détails.
 
 1. Personnalisez votre bannière de courrier électronique à l’aide de l’option **[!UICONTROL Bannière de courrier électronique]**. Modifier la couleur de la bannière en sélectionnant **[!UICONTROL Arrière-plan de la bannière]**.
 
@@ -173,7 +173,7 @@ Vous pouvez télécharger le rapport d&#39;accès aux e-mails en cliquant sur le
 
 ## Personnaliser le domaine de l’adresse électronique {#customizeemaildomain}
 
-Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez l’[***assistance Learning Manager***](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel ID de messagerie.
+Pour personnaliser le domaine et l’ID de messagerie à partir desquels vos élèves reçoivent des notifications, contactez l’[***assistance Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) et fournissez les détails du domaine que vous souhaitez ajouter, ainsi que votre nouvel ID de messagerie.
 
 Votre demande sera traitée et un courrier électronique contenant un lien de confirmation vous sera envoyé à la nouvelle adresse électronique que vous indiquez. Cliquez sur le lien de vérification qui figure dans le courrier électronique pour confirmer et terminer le processus de vérification.
 
@@ -270,6 +270,6 @@ Pour désactiver un modèle de courrier électronique, sélectionnez le modèle 
 
 +++Comment modifier le nom et l’adresse de l’expéditeur dans le modèle ?
 
-Pour modifier le nom et l’adresse électronique de l’expéditeur, contactez l’[assistance d’Adobe Learning Manager](https://helpx.adobe.com/fr/contact/enterprise-support.other.html#learning-manager).
+Pour modifier le nom et l’adresse électronique de l’expéditeur, contactez l’[assistance d’Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
