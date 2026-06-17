@@ -27,7 +27,7 @@ Ce rapport aide les responsables de la formation et les administrateurs L&amp;D 
 8. Choisissez **Inscription - Date d&#39;inscription** et définissez la granularité sur **Mois**. Sélectionnez **Groupe d&#39;utilisateurs de champs actifs - Nom du groupe d&#39;utilisateurs**. Les deux s&#39;affichent sous forme de balises : **Inscription - Date d&#39;inscription (mois)** et **Groupe d&#39;utilisateurs du champ actif - Nom du groupe d&#39;utilisateurs**.
 9. Sur la ligne **Inscription - Temps passé**, sélectionnez **Agréger par** et choisissez **Somme**.
 10. Dans la ligne **Objet d’apprentissage - Nombre d’utilisateurs inscrits**, sélectionnez **Agréger par** et choisissez **Nombre**.
-   ![](assets/image038.jpg)
+    ![](assets/image038.jpg)
 11. Sélectionnez **Ajouter un filtre**. Choisissez **Inscription - Date d&#39;inscription**, puis sélectionnez une plage relative telle que **3 derniers mois**, ou entrez une plage de dates spécifique.
 12. Sélectionnez **+ Ajouter le tri**. Trier par **Inscription - Date d&#39;inscription** croissante, puis ajouter un tri secondaire sur **Temps total passé** décroissant.
 13. Sélectionnez **Enregistrer le rapport** et sélectionnez **Actions** > **Télécharger** pour télécharger le rapport.

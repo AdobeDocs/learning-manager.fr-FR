@@ -58,7 +58,7 @@ Ce rapport affiche les totaux d&#39;achèvement mensuels par catalogue sur une p
 9. Ajoutez un filtre : **La date d&#39;achèvement** tombe dans l&#39;année dernière.
    ![](assets/image044.png)
 10. Trier par **Date de fin** croissante.
-   ![](assets/image_045.png)
+    ![](assets/image_045.png)
 11. Sélectionnez **Enregistrer le rapport** et sélectionnez **Actions** > **Télécharger** pour télécharger le rapport.
 
 ## Bonnes pratiques

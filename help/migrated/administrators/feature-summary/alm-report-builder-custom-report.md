@@ -32,7 +32,7 @@ b. Nom de l’utilisateur\du responsable
 c. Objet d’apprentissage\Nom de l’objet d’apprentissage
 d. État de conformité de l’utilisateur\% d’achèvement
 e. État de conformité de l’utilisateur\Conformité %
-!   [](assets/image012.png)
+!   [&#128279;](assets/image012.png)
 7. Réorganisez les colonnes en les faisant glisser dans la zone de travail.
 8. Pour renommer une colonne, entrez un nom dans le champ d&#39;alias de la colonne. L’alias apparaît comme l’en-tête de colonne dans le fichier téléchargé.
 9. Sélectionnez **Enregistrer le rapport**.

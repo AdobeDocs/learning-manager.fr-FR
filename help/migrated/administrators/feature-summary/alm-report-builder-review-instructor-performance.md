@@ -28,9 +28,9 @@ Ce rapport aide les responsables de la formation à identifier les instructeurs 
 9. Pour afficher également le nombre total d&#39;inscriptions, ajoutez **État** une seconde fois. Appliquer **Nombre si** à **Pas commencé**. Tapez l&#39;alias _Total des inscriptions_.
    ![](assets/image035.png)
 10. Filtrez **Noms des instructeurs** pour qu&#39;ils ne soient pas vides.
-   ![](assets/image036.jpg)
+    ![](assets/image036.jpg)
 11. Triez par **Total des achèvements** en descendant pour faire apparaître en premier les instructeurs les plus performants.
-   ![](assets/image037.png)
+    ![](assets/image037.png)
 12. Sélectionnez Enregistrer le rapport et sélectionnez **Actions** > **Télécharger** pour télécharger le rapport.
 
 Le rapport téléchargé résume l&#39;efficacité des instructeurs en comparant le nombre total de sessions de formation, les achèvements de l&#39;élève et les inscriptions non commencées pour chaque instructeur, ce qui permet d&#39;évaluer l&#39;engagement, les performances à l&#39;achèvement et les besoins potentiels de suivi de formation.
