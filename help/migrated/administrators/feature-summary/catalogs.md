@@ -4,10 +4,10 @@ title: Catalogues
 description: 'Les catalogues sont un ensemble de formations : cours, programmes d’apprentissage et certifications. Les catalogues vous permettent d’offrir aux élèves un accès à un ensemble personnalisé d’objets d’apprentissage. Vous pouvez associer les objets d’apprentissage à un catalogue pendant la création d’un nouveau catalogue.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 72%
+source-wordcount: '2593'
+ht-degree: 79%
 
 ---
 
@@ -30,7 +30,7 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Pour créer un catalogue, procédez comme suit :
 
-1. En tant qu’administrateur, dans le volet de gauche, cliquez sur Catalogues. Cette page contient un catalogue par défaut, qui est automatiquement créé lorsque vous créez un compte Learning Manager. Par défaut, tous les objets d’apprentissage de ce catalogue sont partagés avec tous les élèves.
+1. En tant qu’administrateur, cliquez sur Catalogues dans le volet de gauche. Cette page comprend un catalogue par défaut qui est créé automatiquement lorsque vous créez un compte Learning Manager. Par défaut, tous les objets d’apprentissage de ce catalogue sont partagés avec tous les élèves.
 1. Pour créer un catalogue, cliquez sur **[!UICONTROL Créer]** dans le coin supérieur droit de la page. Vous pouvez également cliquer sur **[!UICONTROL Créer un catalogue]** sous la liste de catalogues.
 1. Sur la page **[!UICONTROL Créer un catalogue]**, saisissez le nom et la description du catalogue que vous souhaitez créer.
 
@@ -77,7 +77,7 @@ Pour créer un catalogue, procédez comme suit :
 1. Enregistrez les modifications. Revenez à la liste des catalogues et cliquez sur le nouveau catalogue.
 1. Sur la page du nouveau catalogue, cliquez sur **[!UICONTROL Contenu]** dans le volet de gauche.
 
-   Le programme d&#39;apprentissage que vous avez ajouté apparaît dans l&#39;onglet **[!UICONTROL Programmes d&#39;apprentissage]**.
+   Le programme d’apprentissage que vous avez ajouté apparaît dans l’onglet **[!UICONTROL Programmes d’apprentissage]**.
 
 ## Ajout d’une certification au catalogue {#cert}
 
@@ -125,9 +125,9 @@ Pour activer le catalogue,
 
 Pour désactiver un catalogue, désactivez l’option près du catalogue.
 
-Vous pouvez également cocher la case à côté du catalogue, cliquer sur Actions dans le coin supérieur droit, puis sur **[!UICONTROL Désactiver]**.
+Vous pouvez également cocher la case en regard du catalogue et cliquer sur Actions dans le coin supérieur droit, puis cliquer sur **[!UICONTROL Désactiver]**.
 
-Vous pouvez également désactiver plusieurs catalogues dans la liste. Sélectionnez les catalogues et, dans le menu Action, choisissez l&#39;option **[!UICONTROL Désactiver]**.
+Vous pouvez également désactiver plusieurs catalogues dans la liste. Sélectionnez les catalogues et dans le menu Action, choisissez l’option **[!UICONTROL Désactiver]**.
 
 ## Suppression du catalogue {#deletethecatalog}
 
@@ -173,17 +173,17 @@ Dans la page Catalogues, cliquez sur le catalogue que vous souhaitez partager. D
 
 *Partage d&#39;un catalogue en externe*
 
-Entrez le sous-domaine associé à votre compte Learning Manager. Cliquez sur **[!UICONTROL Comment obtenir le sous-domaine ?]** pour en savoir plus sur l&#39;utilisation des sous-domaines. Vous pouvez également cliquer sur **[!UICONTROL Identité visuelle]** dans le volet gauche de la page d&#39;accueil de l&#39;administrateur pour afficher le sous-domaine associé au compte de votre organisation.
+Entrez le sous-domaine associé à votre compte Learning Manager. Cliquez sur **[!UICONTROL Comment obtenir le sous-domaine ?]** pour en savoir plus sur l’utilisation des sous-domaines. Vous pouvez également cliquer sur **[!UICONTROL Identité visuelle]** dans le volet de gauche de la page d’accueil d’administration pour afficher le sous-domaine associé à votre compte d’entreprise.
 
-**Limite d’inscriptions** 
+**Limite d’inscriptions**
 
 Vous pouvez définir la limite pour le nombre d’inscriptions par cours sur le catalogue partagé en y ajoutant ce nombre dans le champ **Inscriptions autorisées**. Le destinataire du catalogue partagé ne peut pas utiliser les cours incluant une limite d’inscription dans les programmes d’apprentissage.
 
-**Expiration** 
+**Expiration**
 
-Vous pouvez définir la validité du catalogue partagé en définissant une date d&#39;expiration dans le champ **[!UICONTROL Expiration]**. Après la date d’expiration du catalogue partagé, les inscriptions pour les cours ne sont plus autorisées. Les élèves existants peuvent toujours avoir accès au contenu. Les éléments de formation sont révoqués mais les badges et compétences sont actifs. À ce stade, le récepteur du catalogue partagé ne peut pas retirer les objets d&#39;apprentissage retirés.
+Vous pouvez définir la validité du catalogue partagé en définissant une date d&#39;expiration dans le champ **[!UICONTROL Expiration]**. Après la date d’expiration du catalogue partagé, les inscriptions pour les cours ne sont plus autorisées. Les élèves existants peuvent toujours avoir accès au contenu. Les éléments de formation sont révoqués mais les badges et compétences sont actifs. À ce stade, le destinataire du catalogue partagé ne peut annuler la révocation des éléments d’apprentissage.
 
-Cliquez sur **[!UICONTROL Enregistrer]** après avoir ajouté toutes les informations requises. Cliquez sur le menu déroulant **[!UICONTROL Actions]** dans le coin supérieur droit de la page et cliquez sur **[!UICONTROL Partager]** pour partager le catalogue avec des comptes externes.
+Cliquez sur **[!UICONTROL Enregistrer]** après avoir ajouté toutes les informations requises. Cliquez sur la liste déroulante **[!UICONTROL Actions]** dans l’angle supérieur droit de la page et cliquez sur **[!UICONTROL Partager]** pour partager le catalogue avec des comptes externes.
 
 Seuls les catalogues détenus par le détenteur du compte partagé peuvent être partagés avec des comptes externes. Vous ne pouvez pas partager les catalogues qui sont déjà partagés avec vous par d’autres comptes.
 
@@ -193,15 +193,15 @@ Le catalogue partagé s’affiche dans le compte du destinataire. Les éléments
 
 Les éléments de formation avec un état ouvert/actif pour l’enregistrement sont uniquement ajoutés aux catalogues partagés.
 
-**Catalogues de partage** 
+**Catalogues de partage**
 
-L’annulation du partage d’un catalogue consiste à désactiver un compte externe dans l’application. Pour annuler le partage d&#39;un catalogue, cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit de la page, puis sur **[!UICONTROL Annuler le partage]**. Vous pouvez partager un catalogue à tout moment. Si le partage d’un catalogue est annulé, tous les éléments d’apprentissage de ce catalogue partagé passent à l’état révoqué. Les catalogues désactivés apparaissent comme retirés dans l&#39;application du destinataire.
+L’annulation du partage d’un catalogue consiste à désactiver un compte externe dans l’application. Pour annuler le partage d&#39;un catalogue, cliquez sur **[!UICONTROL Actions]** dans le coin supérieur droit de la page, puis sur **[!UICONTROL Annuler le partage]**. Vous pouvez partager un catalogue à tout moment. Si le partage d’un catalogue est annulé, tous les éléments d’apprentissage de ce catalogue partagé passent à l’état révoqué. Les catalogues désactivés apparaissent comme révoqués dans l’application du destinataire.
 
 Vous pouvez supprimer un compte externe d’une liste partagée uniquement avant que le destinataire n’accepte la requête.
 
-**Suppression de catalogues** 
+**Suppression de catalogues**
 
-Pour supprimer un catalogue partagé, cliquez sur la liste déroulante **[!UICONTROL Actions]** et cliquez sur **[!UICONTROL Supprimer]**.
+Pour supprimer un catalogue partagé, cliquez sur le menu déroulant **[!UICONTROL Actions]**, puis cliquez sur **[!UICONTROL Supprimer]**.
 
 * Vous ne pouvez pas partager un catalogue par défaut avec des comptes externes.
 * Vous ne pouvez pas supprimer un catalogue qui a été partagé en externe par vous-même.
@@ -266,8 +266,8 @@ Toutes les modifications effectuées pour les objets d’apprentissage au niveau
 
 ## Fonctionnalité catalogue partagé dans l’application de destinataire {#sharedcatalogfeaturesinreceiverapplication}
 
-* Les éléments de formation du catalogue partagé s’affichent dans l’application Auteur et Administrateur, mais les modules ne sont pas répertoriés. Ils sont masqués.
-* Les éléments de formation partagés peuvent être utilisés pour tous les flux dans le compte du destinataire. Par exemple, le fait d’ajouter un cours partagé aux programmes d’apprentissage, certifications, catalogues ; toutefois, ces programmes d’apprentissage, certifications et catalogues ne peuvent pas être partagés à nouveau (comme ils/elles disposent déjà d’un élément de formation partagé depuis un autre compte).
+* Les objets d’apprentissage du catalogue partagé apparaissent dans les applications d’auteur et d’administration. Cependant, les modules ne sont pas répertoriés, car ils sont masqués.
+* Les objets d’apprentissage partagés peuvent être utilisés pour tous les workflows du compte du destinataire. Par exemple, ajouter un cours partagé à des objets d’apprentissage tels que des certifications (permanentes et récurrentes), des parcours d’apprentissage et des catalogues ; toutefois, ces objets d’apprentissage ne peuvent pas être partagés à nouveau (car ils ont déjà un objet d’apprentissage partagé à partir d’un autre compte).
 * Tous les aides en ligne, qui sont associées au programme d’apprentissage/cours/certification mais ne font pas partie du catalogue sont copiés dans le compte du destinataire.
 * Les destinataires du catalogue partagé ne peuvent pas ajouter des éléments de formation dans le catalogue partagé.
 * Le destinataire du catalogue partagé ne peut pas modifier les modules des éléments de formation partagés.
@@ -287,7 +287,7 @@ Les administrateurs des différents comptes d’une entreprise peuvent partager 
 
 Après avoir partagé des catalogues, si l’administrateur d’un compte apporte des modifications aux objets d’apprentissage, celles-ci seront propagées à tous les objets d’apprentissage acquis par le destinataire des catalogues partagés.
 
-Les objets d’apprentissage pris en charge dans le cadre de cette fonction de propagation sont les suivants :
+Les objets d’apprentissage qui sont pris en charge dans le cadre de cette fonctionnalité de propagation sont les suivants :
 
 * Compétences
 * Cours
@@ -300,13 +300,13 @@ Si les destinataires des catalogues partagés modifient des champs quelconques d
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-+++Comment ajouter des cours, des programmes d’apprentissage et des certifications à un catalogue ?
++++Comment ajouter des cours, des programmes d’apprentissage et des certifications à un catalogue ?
 
 Pour ajouter des cours, des certifications et des programmes d’apprentissage à un catalogue, consultez les [étapes](catalogs.md#q1) à suivre pour les ajouter à un catalogue.
 
 +++
 
-+++Comment partager un catalogue en interne et en externe ?
++++Comment partager un catalogue avec des utilisateurs externes et internes ?
 
 Pour partager le catalogue avec des utilisateurs internes ou externes, consultez les sections ci-dessous :
 
@@ -315,7 +315,7 @@ Pour partager le catalogue avec des utilisateurs internes ou externes, consultez
 
 +++
 
-+++Comment permettre aux élèves de voir tous les catalogues dont ils font partie ?
++++Comment permettre aux élèves de voir tous les catalogues dont ils font partie ?
 
 Les catalogues peuvent être partagés avec les élèves de votre entreprise à l’aide des groupes d’utilisateurs. Pour permettre à l’élève ou aux élèves de consulter les catalogues dont ils font partie, suivez les étapes ci-dessous :
 
@@ -328,7 +328,7 @@ Lorsqu’un élève se connecte à Learning Manager, les catalogues qui ont ét
 
 +++
 
-+++Comment créer et utiliser des étiquettes de catalogue ?
++++Comment créer et utiliser les étiquettes de catalogue ?
 
 Les étiquettes de catalogue vous permettent d’associer des objets d’apprentissage à des informations pertinentes sur la valeur du champ. Les étiquettes de catalogue et les valeurs ne sont visibles que par les administrateurs et les auteurs. Pour plus d’informations, voir [***Étiquettes de catalogue***](/help/migrated/administrators/feature-summary/catalog-labels.md).
 
@@ -337,13 +337,13 @@ Une fois que vous avez créé des étiquettes de catalogue, vous pouvez les appl
 1. Ouvrez Catalogues dans le volet de gauche.
 1. Sélectionnez le catalogue et appliquez-le à l’étiquette.
 1. Ouvrez les étiquettes de catalogue depuis le volet de gauche.
-1. Cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit. La page affiche la liste des étiquettes de catalogue disponibles.
+1. Cliquez sur **[!UICONTROL Modifier]** dans l’angle supérieur droit. La page affiche la liste des étiquettes de catalogue disponibles.
 1. Pour ajouter une étiquette au catalogue, cliquez sur **[!UICONTROL Ajouter au catalogue]**.
 1. Pour supprimer les étiquettes existantes ajoutées à un catalogue, cliquez sur **[!UICONTROL Supprimer]**.
 
 +++
 
-+++Comment donner accès à certains catalogues à des utilisateurs externes nouvellement créés ?
++++Comment donner accès à certains catalogues à des utilisateurs externes nouvellement créés ?
 
 1. En tant qu’administrateur, sélectionnez le catalogue auquel vous souhaitez donner accès à un profil utilisateur externe.
 1. Partager en interne > Ajouter > Sélectionner le profil d’utilisateur externe correspondant
@@ -351,7 +351,7 @@ Une fois que vous avez créé des étiquettes de catalogue, vous pouvez les appl
 
 +++
 
-+++Comment limiter l’affichage aux catalogues spécifiques ?
++++Comment limiter l’affichage à des catalogues spécifiques pour les utilisateurs ? 
 
 Désactivez le catalogue par défaut et activez uniquement le catalogue qui a été créé et auquel les utilisateurs externes ont accès.
 
