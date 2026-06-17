@@ -2,12 +2,12 @@
 description: Notes de mise à jour de Adobe Learning Manager
 jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
-contentowner: jayakarr
+contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
+source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
 workflow-type: tm+mt
-source-wordcount: '29617'
-ht-degree: 75%
+source-wordcount: '30634'
+ht-degree: 72%
 
 ---
 
@@ -19,13 +19,88 @@ ht-degree: 75%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/fr/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
 
-+++Mise à jour 107 : version de mai 2026 du correctif de Adobe Learning Manager
++++Mise à jour 108 : version de juin 2026 de Adobe Learning Manager
+
+Date de publication : 17 juin 2026
+
+## Nouveautés de cette version
+
+Le Report Builder **Report Builder :** dans Adobe Learning Manager est un outil de création de rapports en libre-service qui permet aux administrateurs de créer et de télécharger des rapports personnalisés en sélectionnant uniquement les colonnes requises, en appliquant des filtres flexibles et en accédant à des données cohérentes, le tout à partir d&#39;une interface unique. Il élimine le besoin de s’appuyer sur des rapports fixes et préconfigurés et sur le post-traitement manuel dans les outils externes en permettant aux utilisateurs de configurer, d’enregistrer et de réutiliser facilement les rapports. En s’attaquant aux limitations telles que les structures de colonnes rigides, les options de filtrage restreintes et les sources de données incohérentes, Report Builder rationalise les workflows de création de rapports, garantit des informations précises et fait gagner du temps, tout en complétant les rapports standard existants pour les cas d’utilisation prédéfinis. Pour plus d&#39;informations, voir [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+
+**Inscription en un clic :** l&#39;inscription en un clic permet aux élèves d&#39;ouvrir un lien profond vers un module partagé par les administrateurs et de commencer à accéder au contenu instantanément, sans avoir à s&#39;inscrire au préalable, puis à lancer le cours séparément. Cela simplifie l’accès, fait gagner du temps et améliore l’expérience d’apprentissage globale. Pour plus d&#39;informations, voir [Inscription en un clic](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
+
+**Disponibilité des cours acquis dans les certifications récurrentes :** Auparavant, les cours acquis ne pouvaient être ajoutés qu&#39;aux certifications permanentes. Les certifications récurrentes n’affichaient pas les cours acquis dans le panneau de sélection des cours, ce qui empêchait les comptes de destinataire d’utiliser le contenu partagé pour les programmes nécessitant un renouvellement périodique. Les cours acquis sont désormais disponibles dans les certifications permanentes et récurrentes. Pour plus d&#39;informations, voir [Fonctionnalités de catalogue partagé dans l&#39;application réceptrice](/help/migrated/administrators/feature-summary/catalogs.md#sharedcatalogfeaturesinreceiverapplication).
+
+**Migration de la session VILT vers Adobe Learning Manager :** Adobe Learning Manager prend désormais en charge la migration et la mise à jour en bloc des données de session de formation virtuelle dirigée par un instructeur (VILT) via des fichiers CSV. Utilisez ce workflow pour configurer les dates de début des instances, associer les instances de parcours d’apprentissage à des instances de cours et configurer des sessions de classe virtuelle pour Microsofts Teams, Adobe Connect et Zoom. Pour plus d&#39;informations, voir [Manuel de migration](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofviltsessiontoalm)
+
+## Améliorations de cette version
+
+**Inversion de l&#39;ordre d&#39;échelle de Likert :** Dans Adobe Learning Manager, l&#39;échelle de Likert est utilisée pour évaluer l&#39;expérience de l&#39;élève avec les objets d&#39;apprentissage. L’échelle de Likert du formulaire de retour d’informations sur l’expérience de l’élève a été inversée pour correspondre à l’ordre standard de gauche à droite. Auparavant, l’échelle de Likert s’ordonnait de droite à gauche, contrairement à l’ordre standard de gauche à droite. Le score commence maintenant par Fortement en désaccord à gauche et se termine par Fortement en accord à droite.
+
+**Courriers électroniques ad hoc aux élèves envoyés par les instructeurs :** Auparavant, l’option Envoyer un courrier électronique à tous permettait uniquement aux instructeurs de copier les adresses électroniques des destinataires. Cela permet désormais aux instructeurs d’envoyer des courriers électroniques ad hoc directement aux élèves en utilisant la même option. L’option Copier les adresses e-mail ne peut être utilisée que pour copier les adresses e-mail des destinataires.
+
+### Étapes
+
+1. Connectez-vous en tant qu’instructeur.
+2. Accédez à Sessions précédentes dans le panneau de navigation de gauche. Une liste des sessions précédentes s’affiche sur la page.
+3. Sélectionnez un nom de session dans la liste des sessions précédentes.
+4. Accédez à Élèves dans le panneau de navigation de gauche.
+   ![](assets/instructor-send-email1.png)
+5. Sélectionnez un élève dans la liste des élèves.
+6. Dans le coin supérieur droit, la liste déroulante **Actions** s&#39;ouvre pour afficher d&#39;autres options (y compris celles qui sont grisées). L&#39;option **Envoyer un e-mail à tous** est l&#39;une des options disponibles.
+   ![](assets/instructor-send-email2.png)
+
+**Purge automatique des utilisateurs supprimés :** la purge automatique des utilisateurs supprimés a été définie sur un an comme période minimale requise pour la suppression. Cette disposition a été améliorée pour permettre à un certain nombre de personnes d&#39;être présentes en « jours » également. Les administrateurs peuvent désormais demander cette modification en contactant leur gestionnaire de réussite client et la faire modifier en arrière-plan.
+
+## Corrections de bugs
+
+**Création**
+
+1. Les paramètres régionaux avec de faibles scores de qualité de traduction ne sont plus affichés dans le modèle de génération de sous-titres lors de la génération automatique de fichiers de sous-titres VTT. Cela empêche les élèves de recevoir des traductions de mauvaise qualité, telles que des rendus inexacts des caractères chinois.
+
+2. Le modèle d’e-mail de bienvenue (interne) dispose désormais de configurations indépendantes pour les méthodes de connexion Adobe ID et SSO. Auparavant, les deux méthodes de connexion partageaient un seul canal de modèle, ce qui entraînait la réactivation du modèle lorsque l’authentification unique était configurée après la désactivation du modèle, ce qui entraînait l’envoi d’e-mails de bienvenue involontaires aux élèves.
+
+**Certification**
+
+Les certifications récurrentes s&#39;approvisionnent désormais en cours à partir de la version la plus récente (parent) de la certification plutôt qu&#39;à partir de la version d&#39;origine (racine). Cela garantit que le contenu de cours mis à jour est correctement inclus dans chaque cycle de certification.
+
+**Bibliothèque de contenu et rôles personnalisés**
+
+1. Les auteurs personnalisés avec un accès limité aux dossiers de contenu sélectionnés peuvent désormais prévisualiser les modules de cours AICC et Tincan en utilisant l&#39;option Aperçu en tant qu&#39;élève sans recevoir d&#39;erreur « Contenu non disponible ».
+
+2. Les auteurs personnalisés ayant accès aux dossiers de contenu et aux catalogues sélectionnés peuvent désormais ouvrir les ressources de cours dans la vue Aperçu en tant qu’élève sans rencontrer d’erreur d’accès 403.
+
+**Données et rapports**
+
+La synchronisation des données d&#39;inscription a été stabilisée en résolvant une défaillance du connecteur de base de données et des charges d&#39;enregistrement surdimensionnées dans le pipeline de données. Les enregistrements d’inscription sont désormais diffusés de manière fiable vers les systèmes de rapports en aval.
+
+**Publication et API**
+
+Les API **Search** et **Categories** publiques renvoient désormais des ID de catalogue au format numérique correct. Auparavant, les ID de catalogue étaient renvoyés dans le format de chaîne incorrect « catalog123 » au lieu de l’ID numérique attendu.
+
+**Interface utilisateur et administration**
+
+1. La page Instance de cours pour les cours nommés par le responsable n’affiche plus de mise en page rompue pour les utilisateurs Administrateur et Administrateur personnalisé. Une régression CSS qui entraînait un débordement des éléments sans enchaînement a été corrigée.
+
+2. Les utilisateurs externes qui cliquent sur les liens d’invitation à une session VILT à partir de leur adresse e-mail sont désormais correctement redirigés vers leur méthode de connexion configurée (par exemple, Adobe ID) au lieu d’être redirigés de manière incorrecte vers la page de connexion SSO interne.
+
+**Assistant IA**
+
+L’assistant AI fournit désormais une réponse correcte lorsqu’il est demandé si un parcours d’apprentissage peut être ajouté à une certification. L&#39;assistant a précédemment renvoyé une réponse affirmative inexacte. Il indique désormais correctement que seuls des cours peuvent être ajoutés aux certifications dans Adobe Learning Manager.
+
+## Problème connu
+
+**Temps passé dans le relevé de notes de l&#39;élève pour la présence en classe basée sur QR :** le temps passé affiché sous la forme 0 minute pour les élèves qui ont marqué leur présence via le code QR est confirmé comme travaillant comme prévu. La durée de la session enregistrée dans le relevé de notes de l’élève est dérivée des données xAPI émises à l’heure d’achèvement. Dans les cas où les données de planification de session ne sont pas encore validées dans la base de données au moment du traitement de l&#39;achèvement, une durée de zéro est enregistrée. Aucun correctif n’a été appliqué pour cette version.
+
++++
+
++++Mise à jour 107 : version de mai 2026 de Adobe Learning Manager
 
 Date de publication : 26 mai 2026
 
@@ -66,7 +141,7 @@ Pour plus d&#39;informations, [voir Modifications d&#39;API dans la version de m
 +++
 
 
-+++Mise à jour 106 : version de correctif de Adobe Learning Manager d’avril 2026
++++Mise à jour 106 : version d’avril 2026 de Adobe Learning Manager
 
 Date de publication : 30 avril 2026
 
@@ -351,7 +426,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/fluidic-p
 
 * Correction d’un problème en raison duquel les élèves qui avaient terminé un cours voyaient un écran blanc lors de la consultation de celui-ci après la mise à jour du module de contenu vers une nouvelle version.
 
-En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1397,7 +1472,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 * Le téléchargement des ressources d&#39;un cours ne fonctionnait pas s&#39;il était dupliqué à partir d&#39;un autre cours et que l&#39;élève n&#39;avait pas accès au cours original utilisé pour créer un double.
 * Les images de bannière ne sont pas supprimées lorsque l&#39;auteur les supprime d&#39;un cours à l&#39;état de brouillon. Ce problème a été résolu.
 
-**AEM &#x200B;**
+**AEM **
 
 * Après l&#39;insertion du composant Learning Manager dans AEM, le chargement de la page prenait beaucoup de temps, empêchant ainsi l&#39;accès aux autres composants. Ce problème a été résolu.
 
@@ -1480,7 +1555,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 >[!NOTE]
 >
->Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.**&#x200B;**
+>Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.****
 
 +++
 
@@ -1831,7 +1906,7 @@ Dans cette mise à jour, un élève peut charger des actifs comme justificatif d
 
 Un élève peut ouvrir un certificat externe et charger des actifs, tels que des fichiers PDF, texte ou image.
 
-Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problèmes résolus dans cette version {#issuesfixedinthisrelease}
 
@@ -2209,7 +2284,7 @@ Date de publication : 20 juin 2019
 
 **Auto-curation du contenu**
 
-L’apprentissage par les réseaux sociaux permet au contenu publié par les élèves d’être conservé de deux manières, à savoir **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. Sur la base du score de confiance, le contenu est publié en direct ou envoyé pour curation manuelle. Pour plus d&#39;informations, voir *[**&#x200B; Curation à assistance automatique &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’apprentissage par les réseaux sociaux permet au contenu publié par les élèves d’être conservé de deux manières, à savoir **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. Sur la base du score de confiance, le contenu est publié en direct ou envoyé pour curation manuelle. Pour plus d&#39;informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappage de compétences avec les domaines de compétence**
 
@@ -2835,7 +2910,7 @@ Date de publication : 6 décembre 2016.
 
 ### Amélioration {#enhancement}
 
-Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l&#x200B;**&#x200B;**&#x200B;aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
+Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l****aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
 
 * Nom
 * Courrier électronique
@@ -3345,7 +3420,7 @@ L&#39;exportation des données d&#39;inscription échouait si l&#39;un des élè
 
 **Modèles de courrier électronique**
 
-* Le mot **partenaires**, utilisé pour représenter les groupes externes,**&#x200B;** est **&#x200B;**&#x200B;retiré du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
+* Le mot **partenaires**, utilisé pour représenter les groupes externes,**** est **** retiré du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
   **Remarque :** ce modèle mis à jour n&#39;apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Revenir à l&#39;original** dans la boîte de dialogue **Aperçu du modèle**.
 
 * Il est impossible de cliquer sur l&#39;URL dans le courrier électronique reçu par des administrateurs si les modèles de courriers électroniques **Profil créé (auto-enregistrement)** et **Profil créé (externe/partenaires)** ont été modifiés. Ce problème a été résolu.
