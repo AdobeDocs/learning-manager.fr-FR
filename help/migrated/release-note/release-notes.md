@@ -2,12 +2,12 @@
 description: Notes de mise à jour de Adobe Learning Manager
 jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
-contentowner: jayakarr
+contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '29617'
-ht-degree: 75%
+source-wordcount: '30524'
+ht-degree: 73%
 
 ---
 
@@ -25,7 +25,80 @@ ht-degree: 75%
 </table>
 -->
 
-+++Mise à jour 107 : version de mai 2026 du correctif de Adobe Learning Manager
++++Mise à jour 108 : version de juin 2026 de Adobe Learning Manager
+
+Date de publication : 17 juin 2026
+
+## Nouveautés de cette version
+
+**Inscription en un clic :** l&#39;inscription en un clic permet aux élèves d&#39;ouvrir un lien profond vers un module partagé par les administrateurs et de commencer à accéder au contenu instantanément, sans avoir à s&#39;inscrire au préalable, puis à lancer le cours séparément. Cela simplifie l’accès, fait gagner du temps et améliore l’expérience d’apprentissage globale. Pour plus d&#39;informations, voir [Inscription en un clic](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
+
+**Disponibilité des cours acquis dans les certifications récurrentes :** Auparavant, les cours acquis ne pouvaient être ajoutés qu&#39;aux certifications permanentes. Les certifications récurrentes n’affichaient pas les cours acquis dans le panneau de sélection des cours, ce qui empêchait les comptes de destinataire d’utiliser le contenu partagé pour les programmes nécessitant un renouvellement périodique. Les cours acquis sont désormais disponibles dans les certifications permanentes et récurrentes. Pour plus d&#39;informations, voir [Fonctionnalités de catalogue partagé dans l&#39;application réceptrice](/help/migrated/administrators/feature-summary/catalogs.md#sharedcatalogfeaturesinreceiverapplication).
+
+**Migration de la session VILT vers Adobe Learning Manager :** Adobe Learning Manager prend désormais en charge la migration et la mise à jour en bloc des données de session de formation virtuelle dirigée par un instructeur (VILT) via des fichiers CSV. Utilisez ce workflow pour configurer les dates de début des instances, associer les instances de parcours d’apprentissage à des instances de cours et configurer des sessions de classe virtuelle pour Microsofts Teams, Adobe Connect et Zoom. Pour plus d&#39;informations, voir [Manuel de migration](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofviltsessiontoalm)
+
+## Améliorations de cette version
+
+**Inversion de l&#39;ordre d&#39;échelle de Likert :** Dans Adobe Learning Manager, l&#39;échelle de Likert est utilisée pour évaluer l&#39;expérience de l&#39;élève avec les objets d&#39;apprentissage. L’échelle de Likert du formulaire de retour d’informations sur l’expérience de l’élève a été inversée pour correspondre à l’ordre standard de gauche à droite. Auparavant, l’échelle de Likert s’ordonnait de droite à gauche, contrairement à l’ordre standard de gauche à droite. Le score commence maintenant par Fortement en désaccord à gauche et se termine par Fortement en accord à droite.
+
+**Courriers électroniques ad hoc aux élèves envoyés par les instructeurs :** Auparavant, l’option Envoyer un courrier électronique à tous permettait uniquement aux instructeurs de copier les adresses électroniques des destinataires. Cela permet désormais aux instructeurs d’envoyer des courriers électroniques ad hoc directement aux élèves en utilisant la même option. L’option Copier les adresses e-mail ne peut être utilisée que pour copier les adresses e-mail des destinataires.
+
+### Étapes
+
+1. Connectez-vous en tant qu’instructeur.
+2. Accédez à Sessions précédentes dans le panneau de navigation de gauche. Une liste des sessions précédentes s’affiche sur la page.
+3. Sélectionnez un nom de session dans la liste des sessions précédentes.
+4. Accédez à Élèves dans le panneau de navigation de gauche.
+   ![](assets/instructor-send-email1.png)
+5. Sélectionnez un élève dans la liste des élèves.
+6. Dans le coin supérieur droit, la liste déroulante **Actions** s&#39;ouvre pour afficher d&#39;autres options (y compris celles qui sont grisées). L&#39;option **Envoyer un e-mail à tous** est l&#39;une des options disponibles.
+   ![](assets/instructor-send-email2.png)
+
+**Purge automatique des utilisateurs supprimés :** la purge automatique des utilisateurs supprimés a été définie sur un an comme période minimale requise pour la suppression. Cette disposition a été améliorée pour permettre à un certain nombre de personnes d&#39;être présentes en « jours » également. Les administrateurs peuvent désormais demander cette modification en contactant leur gestionnaire de réussite client et la faire modifier en arrière-plan.
+
+## Corrections de bugs
+
+**Création**
+
+1. Les paramètres régionaux avec de faibles scores de qualité de traduction ne sont plus affichés dans le modèle de génération de sous-titres lors de la génération automatique de fichiers de sous-titres VTT. Cela empêche les élèves de recevoir des traductions de mauvaise qualité, telles que des rendus inexacts des caractères chinois.
+
+2. Le modèle d’e-mail de bienvenue (interne) dispose désormais de configurations indépendantes pour les méthodes de connexion Adobe ID et SSO. Auparavant, les deux méthodes de connexion partageaient un seul canal de modèle, ce qui entraînait la réactivation du modèle lorsque l’authentification unique était configurée après la désactivation du modèle, ce qui entraînait l’envoi d’e-mails de bienvenue involontaires aux élèves.
+
+**Certification**
+
+Les certifications récurrentes s&#39;approvisionnent désormais en cours à partir de la version la plus récente (parent) de la certification plutôt qu&#39;à partir de la version d&#39;origine (racine). Cela garantit que le contenu de cours mis à jour est correctement inclus dans chaque cycle de certification.
+
+**Bibliothèque de contenu et rôles personnalisés**
+
+1. Les auteurs personnalisés avec un accès limité aux dossiers de contenu sélectionnés peuvent désormais prévisualiser les modules de cours AICC et Tincan en utilisant l&#39;option Aperçu en tant qu&#39;élève sans recevoir d&#39;erreur « Contenu non disponible ».
+
+2. Les auteurs personnalisés ayant accès aux dossiers de contenu et aux catalogues sélectionnés peuvent désormais ouvrir les ressources de cours dans la vue Aperçu en tant qu’élève sans rencontrer d’erreur d’accès 403.
+
+**Données et rapports**
+
+La synchronisation des données d&#39;inscription a été stabilisée en résolvant une défaillance du connecteur de base de données et des charges d&#39;enregistrement surdimensionnées dans le pipeline de données. Les enregistrements d’inscription sont désormais diffusés de manière fiable vers les systèmes de rapports en aval.
+
+**Publication et API**
+
+Les API **Search** et **Categories** publiques renvoient désormais des ID de catalogue au format numérique correct. Auparavant, les ID de catalogue étaient renvoyés dans le format de chaîne incorrect « catalog123 » au lieu de l’ID numérique attendu.
+
+**Interface utilisateur et administration**
+
+1. La page Instance de cours pour les cours nommés par le responsable n’affiche plus de mise en page rompue pour les utilisateurs Administrateur et Administrateur personnalisé. Une régression CSS qui entraînait un débordement des éléments sans enchaînement a été corrigée.
+
+2. Les utilisateurs externes qui cliquent sur les liens d’invitation à une session VILT à partir de leur adresse e-mail sont désormais correctement redirigés vers leur méthode de connexion configurée (par exemple, Adobe ID) au lieu d’être redirigés de manière incorrecte vers la page de connexion SSO interne.
+
+**Assistant IA**
+
+L’assistant AI fournit désormais une réponse correcte lorsqu’il est demandé si un parcours d’apprentissage peut être ajouté à une certification. L&#39;assistant a précédemment renvoyé une réponse affirmative inexacte. Il indique désormais correctement que seuls des cours peuvent être ajoutés aux certifications dans Adobe Learning Manager.
+
+## Problème connu
+
+**Temps passé dans le relevé de notes de l&#39;élève pour la présence en classe basée sur QR :** le temps passé affiché sous la forme 0 minute pour les élèves qui ont marqué leur présence via le code QR est confirmé comme travaillant comme prévu. La durée de la session enregistrée dans le relevé de notes de l’élève est dérivée des données xAPI émises à l’heure d’achèvement. Dans les cas où les données de planification de session ne sont pas encore validées dans la base de données au moment du traitement de l&#39;achèvement, une durée de zéro est enregistrée. Aucun correctif n’a été appliqué pour cette version.
+
++++
+
++++Mise à jour 107 : version de mai 2026 de Adobe Learning Manager
 
 Date de publication : 26 mai 2026
 
@@ -66,7 +139,7 @@ Pour plus d&#39;informations, [voir Modifications d&#39;API dans la version de m
 +++
 
 
-+++Mise à jour 106 : version de correctif de Adobe Learning Manager d’avril 2026
++++Mise à jour 106 : version d’avril 2026 de Adobe Learning Manager
 
 Date de publication : 30 avril 2026
 
