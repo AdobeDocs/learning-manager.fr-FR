@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
 source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3443'
-ht-degree: 68%
+source-wordcount: '3455'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,11 @@ L’apprentissage par les réseaux sociaux est une plateforme dans Learning Man
 
 Suivre une formation ne garantit pas que les utilisateurs retiennent tout ce qu’ils auront appris. D’autre part, l’apprentissage par les réseaux sociaux permet aux utilisateurs d’utiliser l’expertise autour d’eux pour obtenir exactement les informations dont ils ont besoin. À leur tour, les utilisateurs peuvent rapidement appliquer ces informations pour mener à bien une tâche et atteindre un objectif.
 
-De même, la fonctionnalité Apprentissage par les réseaux sociaux de Learning Manager permet aux utilisateurs d’interagir les uns avec les autres en partageant et en apprenant du contenu.
+De même, la fonctionnalité d’apprentissage par les réseaux sociaux de Learning Manager permet aux utilisateurs de pouvoir interagir les uns avec les autres en partageant et en tirant des enseignements du contenu.
 
-Sur cette plate-forme, les différents types de contenu pouvant être partagés sont les suivants : vidéo, audio, capture d’écran, texte, question et sondage. Les utilisateurs peuvent également partager leurs apprentissages en ligne avec leurs homologues à l&#39;aide du signet **Partager sur les réseaux sociaux**. Pour plus d&#39;informations, voir [Partager sur l&#39;apprentissage par les réseaux sociaux](share-to-social.md).
+Sur cette plate-forme, les différents types de contenu pouvant être partagés sont les suivants : vidéo, audio, capture d’écran, texte, question et sondage. Les utilisateurs peuvent également partager leurs apprentissages en ligne avec leurs pairs en utilisant le **signet Partager vers les réseaux sociaux**. Pour plus d&#39;informations, voir [Partager sur l&#39;apprentissage par les réseaux sociaux](share-to-social.md).
 
-Le contenu peut également être publié dans un forum à l&#39;aide de l&#39;**application de bureau Adobe Learning Manager**. Pour plus d&#39;informations, voir [Application Adobe Learning Manager pour ordinateur](../adobe-learning-manager-app-for-desktop.md).
+Le contenu peut également être posté dans un forum à l’aide de **l’application de bureau Adobe Learning Manager**. Pour plus d&#39;informations, voir [Application Adobe Learning Manager pour ordinateur](../adobe-learning-manager-app-for-desktop.md).
 
 La fonctionnalité est visible par un élève uniquement si l’administrateur autorise l’apprentissage par les réseaux sociaux.
 
@@ -137,11 +137,11 @@ Le contenu est créé sous forme de publication dans un forum. Pour créer une p
 
 1. Sélectionnez l’un des types de contenu suivants à publier : texte, question, vidéo, audio, sondage et copie d’écran. Le contenu existant peut être téléchargé sur le système des utilisateurs ou sur la galerie de l’application de bureau Adobe Learning Manager.
 
-   Utilisez l’application de bureau Adobe Learning Manager pour enregistrer une vidéo ou un écran, un audio, et faites une copie d’écran. Pour plus d&#39;informations, voir [Application de bureau Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
+   Utilisez l’application de bureau Adobe Learning Manager pour enregistrer une vidéo ou un écran, un audio, et faites une copie d’écran. Pour plus d’informations, voir [l’application de bureau Adobe Learning Manager](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Recherchez un forum ou une compétence en rapport avec la publication. Si le forum n&#39;existe pas, cliquez sur **[!UICONTROL Créer un forum]**.
+1. Recherchez un forum ou une compétence en rapport avec la publication. Si le forum n’existe pas, cliquez sur **[!UICONTROL Créer un nouveau forum]**.
 
    ![](assets/create-a-new-board-04.png)
 
@@ -153,7 +153,7 @@ Le contenu est créé sous forme de publication dans un forum. Pour créer une p
 
    * **Public** : la participation et la visibilité des publications sont disponibles pour tous les utilisateurs.
    * **Privé** : la publication est uniquement visible par le créateur du forum, les modérateurs et les utilisateurs ajoutés au forum.
-   * **Restreint** : seuls le propriétaire du forum, l’administrateur et les modérateurs du forum peuvent créer une publication. Les autres utilisateurs peuvent participer en commentant/répondant, en votant pour/contre, etc.
+   * **Restreint** : seuls le propriétaire du forum, l’administrateur et les modérateurs du forum peuvent créer une publication. Les autres utilisateurs peuvent participer en commentant/répondant, en donnant un vote positif/négatif, etc.
 
    <!--![](assets/new-board-05.png)-->
 
@@ -161,7 +161,7 @@ Le contenu est créé sous forme de publication dans un forum. Pour créer une p
    >
    >Dans l&#39;application Social Learner, seul un **administrateur** peut créer un forum privé avec des groupes d&#39;utilisateurs (internes/externes).
    >
-   >Tout autre utilisateur à l’exception de l’administrateur, de l’auteur, de l’apprenant, du responsable, de l’instructeur, etc. **impossible** de créer des forums privés avec des groupes d&#39;utilisateurs. Ils ne peuvent pas voir la section des **groupes d&#39;utilisateurs** lors de la création d&#39;un forum privé.
+   >Tout autre utilisateur, à l’exception de l’administrateur, de l’auteur, de l’élève, du responsable, de l’instructeur, etc. **ne peut pas** créer de forums privés avec des groupes d’utilisateurs. Ils ne peuvent pas voir la section des **groupes d’utilisateurs** lors de la création d’un forum privé.
 
    Administrateur uniquement - Lorsque vous sélectionnez l’option **Privé**, deux options s’affichent : **Utilisateurs** et **Groupes d’utilisateurs**. Sélectionnez l’option **Groupes d’utilisateurs**, puis ajoutez les groupes d’utilisateurs avec lesquels vous souhaitez partager le forum privé.
 
@@ -245,8 +245,7 @@ Les élèves ayant accès au forum pour les réseaux sociaux peuvent baliser d&#
 
 ### Balisage des utilisateurs dans les publications sur les forums de réseaux sociaux
 
-Vous pouvez baliser des membres de forum spécifiques dans les publications ou les commentaires à l’aide de @username. Le balisage est limité aux membres ayant accès à ce forum.
-Pour baliser des utilisateurs dans un forum sur les réseaux sociaux :
+Vous pouvez baliser des membres de forum spécifiques dans les publications ou les commentaires à l’aide de @username. Le balisage est limité aux membres ayant accès à ce forum.Pour baliser des utilisateurs dans un forum sur les réseaux sociaux :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’élève.
 2. Sélectionnez **[!UICONTROL Apprentissage par les réseaux sociaux]** dans le navigateur de gauche.
@@ -324,7 +323,7 @@ Vous pouvez télécharger le contenu à partir des sections Publications, Commen
 
 Les deux types d’utilisateurs (internes ou externes) doivent pouvoir télécharger le contenu.
 
-Le bouton Télécharger est également visible dans les résultats de recherche pour les publications, les commentaires ou les réponses.
+Le bouton Télécharger est également visible dans les résultats des recherches de publications, commentaires ou réponses.
 
 Vous ne pouvez pas encore télécharger une publication dans l’application de l&#39;appareil. Cette fonctionnalité sera bientôt disponible.
 
@@ -443,7 +442,7 @@ Une story sur réseaux sociaux permet aux utilisateurs d’ajouter ou de créer 
 
 Pour ajouter une publication à une story, suivez les étapes ci-dessous :
 
-1. Cliquez sur l&#39;icône de menu réduite dans le coin supérieur droit d&#39;une publication et cliquez sur **[!UICONTROL Ajouter à mon story]**.
+1. Cliquez sur l’icône du menu réduit située dans le coin supérieur droit d’une publication et cliquez sur **[!UICONTROL Ajouter à ma story]**.
 
    ![](assets/add-to-my-story-05.png)
 
@@ -560,7 +559,7 @@ Dans Mes forums et Tous les forums, les utilisateurs peuvent trier les forums pa
 
 *Trier les tableaux par pertinence et par date*
 
-Lors de la création d&#39;une publication, s&#39;il n&#39;y a pas de forums pertinents pour la publication, cliquez sur [Créer un forum](social-learning-web-user.md#Creatingcontentasapost).  Pour afficher, modifier, supprimer, signaler, copier l’URL et ajouter un forum à votre liste de forums préférés, procédez comme suit :
+Lors de la création d’une publication, si aucun forum pertinent n’existe, cliquez sur [Créer un nouveau forum](social-learning-web-user.md#Creatingcontentasapost).  Pour afficher, modifier, supprimer, signaler, copier l’URL et ajouter un forum à votre liste de favoris, suivez les étapes ci-dessous :
 
 1. Cliquez sur le nom du forum ou cliquez sur **[!UICONTROL Accéder au forum]**.
 1. Sur la page des forums, cliquez sur l’icône du menu réduit et sélectionnez une option dans la liste déroulante.
