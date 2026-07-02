@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3307'
-ht-degree: 59%
+source-wordcount: '3331'
+ht-degree: 74%
 
 ---
 
@@ -17,17 +17,17 @@ Lisez cet article pour découvrir comment afficher et suivre des cours dans Lear
 
 Les auteurs créent des cours. Les élèves peuvent prendre des cours et les administrateurs peuvent suivre les performances des élèves selon le nombre de cours suivis.
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
-Adobe Learning Manager permet aux élèves d&#39;accéder aux cours, aux programmes d&#39;apprentissage et aux certifications. Les élèves peuvent parcourir tous les cours disponibles à l&#39;aide du catalogue ou s&#39;inscrire aux cours de leur choix. Les élèves peuvent afficher tous les cours auxquels ils sont inscrits et qui leur sont attribués dans l’onglet Apprentissage.
+Adobe Learning Manager permet aux élèves d&#39;accéder aux cours, aux programmes d&#39;apprentissage et aux certifications. Les élèves peuvent parcourir tous les cours disponibles à l’aide du catalogue ou s’inscrire aux cours de leur choix. Les élèves peuvent afficher tous les cours auxquels ils sont inscrits et qui leur sont attribués dans l’onglet Apprentissage.
 
 >[!NOTE]
 >
->Les élèves peuvent également installer l’application Learning Manager iPad sur l’Apple Store et l’application Learning Manager Android sur Google Play, et accéder aux cours sur les appareils mobiles. Toutes les fonctionnalités du rôle d&#39;élève sont également disponibles sur les applications. Les élèves peuvent également suivre les cours hors ligne et profiter d&#39;un accès fluide après s&#39;être reconnectés. Reportez-vous à la fonctionnalité [Utilisateurs de tablettes iPad et Android](ipad-android-tablet-users.md) pour plus d&#39;informations.
+>Les élèves peuvent également installer l’application Learning Manager iPad sur l’Apple Store et l’application Learning Manager Android sur Google Play, et accéder aux cours sur les appareils mobiles. Toutes les fonctionnalités du rôle d&#39;élève sont également disponibles sur les applications. Les élèves peuvent également suivre les cours hors ligne et profiter d’un accès fluide après s’être reconnectés. Reportez-vous à la fonctionnalité [Utilisateurs de tablettes iPad et Android](ipad-android-tablet-users.md) pour plus d&#39;informations.
 
 ## Affichage des objets d’apprentissage {#viewingcourses}
 
-Vous pouvez afficher une liste de tous les cours disponibles en tant qu&#39;élève. Cliquez sur Mon apprentissage dans la page d’accueil ou dans le volet de gauche pour afficher tous les cours auxquels vous êtes inscrit.
+Vous pouvez afficher une liste de tous les cours disponibles en tant qu&#39;élève. Cliquez sur Mon apprentissage sur la page d&#39;accueil ou dans le panneau de gauche pour afficher tous les cours auxquels vous êtes inscrit.
 
 ![](assets/view-courses.png)
 *Afficher les cours attribués*
@@ -43,7 +43,7 @@ Un cours peut avoir plusieurs instances. Cliquez sur le nom du cours pour affich
 
 ## Efficacité des cours {#courseeffectiveness}
 
-Le score d&#39;efficacité du cours aide l&#39;élève à apprendre avec un maximum d&#39;efficacité en matière de besoins d&#39;apprentissage. L’efficacité du cours est évaluée pour comprendre l’utilité d’un cours pour l’élève. Elle est calculée en fonction du retour d&#39;informations reçu par le nombre d&#39;utilisateurs pour un cours particulier. Si le pourcentage d&#39;élèves donnant un retour d&#39;informations est important, l&#39;évaluation de l&#39;efficacité du cours est élevée.
+Le score d&#39;efficacité du cours aide l&#39;élève à apprendre avec un maximum d&#39;efficacité en matière de besoins d&#39;apprentissage. L&#39;efficacité du cours est évaluée pour comprendre l&#39;utilité d&#39;un cours pour l&#39;élève. Elle est calculée en fonction du retour d’informations reçu par le nombre d’utilisateurs pour un cours particulier. Si le pourcentage d’élèves donnant un retour d’informations est important, l’évaluation de l’efficacité du cours est élevée.
 
 Il s’agit d’une combinaison des résultats des retours d’informations de l’élève sur le contenu du cours, des résultats du quiz de cours pour un élève et du retour d’informations du responsable évaluant un élève en fonction des apprentissages du cours.
 
@@ -67,10 +67,10 @@ Cliquez sur la flèche vers le bas dans l’angle inférieur droit de la fenêtr
 
 Adobe Learning Manager facilite la recherche rapide des cours de votre choix. Vous pouvez rechercher vos cours à l’aide des méthodes suivantes :
 
-1. Cliquez sur l&#39;icône Rechercher affichée dans l&#39;angle supérieur droit. Un champ de recherche s’affiche. Saisissez le nom du cours/programme d&#39;apprentissage ou tous les mots-clés associés à vos cours. Vous pouvez rechercher des cours par métadonnées, notes, compétences, badges ou balises. Les balises sont indexées à l&#39;intérieur du champ de recherche, ce qui signifie que les balises s&#39;affichent dans le champ de recherche lors de la saisie.
+1. Cliquez sur l&#39;icône Rechercher affichée dans l&#39;angle supérieur droit. Un champ de recherche s&#39;affiche. Saisissez le nom du cours/programme d&#39;apprentissage ou tous les mots-clés associés à vos cours. Vous pouvez rechercher des cours en fonction de métadonnées, remarques, compétences, badges ou balises. Les balises sont indexées à l&#39;intérieur du champ de recherche, ce qui signifie que les balises s&#39;affichent dans le champ de recherche lors de la saisie.
 1. L&#39;élève peut affiner les résultats de la recherche dans la page du catalogue en utilisant le type, les compétences, les balises et le statut.
 
-Vous pouvez trier les cours par pertinence, nom ou date de publication en cliquant sur Trier par et en choisissant dans le menu déroulant.
+Vous pouvez trier les cours par pertinence, nom ou date de publication en cliquant sur Trier par et en effectuant une sélection dans le menu déroulant.
 
 Sur la page des résultats de recherche, vous pouvez filtrer les cours en fonction de leur **durée** et de leur **format**. Cela vous donne plus de flexibilité pour rechercher les cours adaptés à votre niveau.
 
@@ -79,18 +79,18 @@ Sur la page des résultats de recherche, vous pouvez filtrer les cours en foncti
 Les élèves peuvent être inscrits aux cours à l&#39;aide des trois moyens suivants :
 
 1. L&#39;administrateur/le responsable inscrit certains élèves à des cours obligatoires en fonction des besoins de l&#39;entreprise.
-1. Le responsable désigne certains cours aux membres de son équipe. Vous recevez une notification avec la possibilité d&#39;accepter ou de refuser le cours/programme d&#39;apprentissage. Lorsque les élèves acceptent une nomination, ils sont inscrits au cours/programme d&#39;apprentissage.
-1. Les élèves peuvent directement s&#39;inscrire à un cours/programme d&#39;apprentissage :
+1. Le responsable désigne certains cours aux membres de son équipe. Vous recevez une notification avec la possibilité d&#39;accepter ou de refuser le cours/programme d&#39;apprentissage. Lorsque les élèves acceptent une nomination, ils sont inscrits au cours/programme d’apprentissage.
+1. Les élèves peuvent directement s’inscrire à un cours/programme d’apprentissage :
 
-   1. Si le cours/programme d&#39;apprentissage est de type auto-inscription, alors l&#39;élève est inscrit immédiatement.
-   1. Si le cours/programme d&#39;apprentissage est de type approuvé par le responsable, l&#39;élève passe à l&#39;état **approbation en attente**. Après l’approbation du responsable, l’élève est inscrit au cours.
+   1. Si le cours/programme d’apprentissage est de type auto-inscription, alors l’élève est inscrit immédiatement.
+   1. Si le cours/programme d&#39;apprentissage est de type approuvé par le responsable, alors l&#39;état de l&#39;élève passe à **Approbation en attente**. Après l’approbation du responsable, l’élève est inscrit au cours.
    1. Si des élèves s&#39;inscrivent à un cours possédant une liste d&#39;attente (en cas de cours en salle de classe), ils doivent attendre qu&#39;une place se libère ou qu&#39;un administrateur les approuve pour le cours.
 
 Les élèves peuvent s&#39;inscrire à de nombreux cours en fonction de leur choix. L&#39;onglet Cours affiche tous les cours auxquels vous êtes inscrit et qui vous sont assignés.
 
-Cependant, vous avez la possibilité de parcourir tous les cours répertoriés dans le catalogue en plaçant le curseur de la souris dessus et en cliquant sur Explorer. La page Inscription s’affiche. Cliquez sur Inscrire dans le coin supérieur droit de la page pour ajouter le cours à la liste Cours.
+Toutefois, vous pouvez parcourir tous les cours répertoriés dans Catalogue en y plaçant le curseur de la souris et en cliquant sur Explorer. La page Inscrire apparaît. Cliquez sur Inscrire dans le coin supérieur droit de la page pour ajouter le cours à la liste Cours.
 
-Il peut y avoir plusieurs instances/sessions de cours/programme d&#39;apprentissage. Dans Catalogue, cliquez sur le nom de la vignette du cours/programme d&#39;apprentissage pour afficher les détails. Vous pouvez voir l’instance d’inscription au cours/programme d’apprentissage en fonction de la date d’échéance de chaque instance du cours/programme d’apprentissage.
+Il peut y avoir plusieurs instances/sessions de cours/programme d&#39;apprentissage. Dans Catalogue, cliquez sur le nom de la vignette du cours/programme d’apprentissage pour afficher les détails. Vous pouvez voir l’instance d’inscription au cours/programme d’apprentissage en fonction de la date d’échéance de chaque instance du cours/programme d’apprentissage.
 
 **Enregistrer l’intérêt pour les cours**
 
@@ -124,10 +124,10 @@ Un administrateur peut changer d’instance pour les élèves. Sélectionnez un 
 ![Texte optionnel](assets/switch-instance-admin.png)
 _Changer d&#39;instance à partir d&#39;Admin Console_
 
-![sélectionner des instances de commutateur](assets/switch-instances-select.png)
+![sélection d&#39;instances de commutateur](assets/switch-instances-select.png)
 _Invite de changement d&#39;instance_
 
-Vous ne pouvez pas changer d’instance tant qu’une instance du cours n’est pas terminée à partir de l’application Élève ou Administrateur.
+Vous ne pouvez pas changer d’instance tant qu’aucune instance du cours n’est pas terminée à partir de l’application Élève ou Administrateur.
 
 Lors de la création d’un cours, les auteurs peuvent basculer entre l’activation ou la désactivation du « changement d’instance ». Le changement d&#39;instance est disponible uniquement pour les cours gratuits.
 
@@ -135,11 +135,11 @@ Lors de la création d’un cours, les auteurs peuvent basculer entre l’activa
 
 En tant qu’élève, vous serez autorisé à évaluer un cours seulement après l’inscription. Vous pouvez voir l&#39;évaluation moyenne par étoiles de n&#39;importe quel cours sur la page **Accueil**, la page **Mon apprentissage** et le **Catalogue**.
 
-1. Connectez-vous en tant que **élève**. Cette opération charge la **page d&#39;accueil**.
+1. Connectez-vous en tant qu’**élève**. Cette action charge la **page d’accueil**.
 
 1. Recherchez un cours en saisissant son nom dans la barre de recherche. Vous pouvez également faire votre choix dans la liste de cours affichée en cliquant sur **Mon apprentissage** ou sur **Catalogue** dans le volet de gauche.
 
-1. Après avoir sélectionné un cours, cliquez sur **[!UICONTROL S&#39;inscrire]**.
+1. Après avoir sélectionné un cours, cliquez sur **[!UICONTROL S’inscrire]**.
 
    ![](assets/cp-sr-enroll.png)
    *S&#39;inscrire à un cours*
@@ -158,7 +158,7 @@ En tant qu’élève, vous serez autorisé à évaluer un cours seulement après
 
    Si vous souhaitez renvoyer le retour d’informations, vous pouvez le faire en cliquant sur le message. Une fois l’évaluation envoyée, le message s’affiche pendant trois secondes, puis l’évaluation apparaît. Si vous souhaitez modifier l’évaluation, vous pouvez sélectionner une autre évaluation puis l’envoyer.
 
-Les cours peuvent être triés selon les évaluations fournies. Vous pouvez trier les cours à l&#39;aide de la liste déroulante Trier par dans le coin supérieur droit, disponible dans le **catalogue**.
+Les cours peuvent être triés selon les évaluations fournies. Vous pouvez trier les cours à l’aide de la liste déroulante Trier par, affichée dans le coin supérieur droit du **Catalogue**.
 
 ## Suivre un cours {#consumingnbspacourse}
 
@@ -172,7 +172,7 @@ Vous pouvez afficher tous les modules dans une fenêtre de navigateur.
 
 **Table des matières** : lors du suivi d&#39;un cours, le lecteur affiche une table des matières pour ce cours particulier dans le volet gauche de la fenêtre. Vous pouvez cliquer sur chaque rubrique, puis y accéder directement.
 
-**Signets** : si l&#39;un des modules du cours possède une table des matières de module, les rubriques de la table des matières de module peuvent être marquées d&#39;un signet pour référence ultérieure. Une fois marquée d&#39;un signet, une icône de ruban apparaît en regard de l&#39;entrée de la table des matières. Les signets peuvent être supprimés en cliquant de nouveau sur le ruban.
+**Signets** : si l&#39;un des modules du cours possède une table des matières de module, les rubriques de la table des matières de module peuvent être marquées d&#39;un signet pour référence ultérieure. Une fois marquée d’un signet, une icône de ruban apparaît en regard de l’entrée de la table des matières. Les signets peuvent être supprimés en cliquant de nouveau sur le ruban.
 
 **Notes** : il est possible d&#39;enregistrer des notes pendant que vous suivez le cours. Vous pouvez enregistrer et télécharger les annotations au format PDF ou les envoyer par courrier électronique aux utilisateurs enregistrés. Lorsque vous cliquez sur Enregistrer, une option vous permet de sélectionner l&#39;emplacement d&#39;enregistrement des notes au format PDF.
 
@@ -180,16 +180,16 @@ Vous pouvez afficher tous les modules dans une fenêtre de navigateur.
 
 *Prendre des notes de cours*
 
-**Sous-titres** : pour les cours développés par Adobe Captivate, si l’option Sous-titres est activée pendant le développement du cours, l’élève peut afficher les sous-titres. Cliquez sur ST au bas du lecteur. L&#39;option de sous-titrage est disponible uniquement pour le contenu HTML de Captivate 8.0.2. Pour tous les autres types de modules, l&#39;option CC ne s&#39;affiche pas dans la barre de lecture.
+**Sous-titres** : pour les cours développés par Adobe Captivate, si l’option Sous-titres est activée pendant le développement du cours, l’élève peut afficher les sous-titres. Cliquez sur ST au bas du lecteur. L’option de sous-titrage est disponible uniquement pour le contenu HTML de Captivate 8.0.2. Pour tous les autres types de modules, l&#39;option CC ne s&#39;affiche pas dans la barre de lecture.
 
 **Revisiter le cours** : vous pouvez revoir un cours en deux modes dans deux scénarios possibles :
 
 * En cliquant sur Revoir le cours lorsque le cours est terminé.
 * En cliquant sur Continuer lorsque le cours est n’est pas terminé.
 
-**Plein écran** Cliquez sur l&#39;icône Plein écran dans le coin inférieur droit du lecteur pour afficher le cours dans la fenêtre en plein écran.
+**Plein écran** Cliquez sur l’icône Plein écran dans l’angle inférieur droit du lecteur pour afficher le cours dans la fenêtre en plein écran.
 
-**Boutons de navigation** Vous pouvez cliquer sur les flèches haut/bas pour vous déplacer entre les diapositives dans le contenu pdf, docx et pptx. Les flèches des diapositives peuvent être utilisées pour passer à la rubrique suivante pour tous les types de contenu.
+**Boutons de navigation** Vous pouvez cliquer sur les flèches haut/bas pour vous déplacer à travers les diapositives du contenu au format pdf, docx et pptx. Les flèches des diapositive peuvent être utilisées pour passer à la rubrique suivante pour tous les types de contenu.
 
 **Fermer le cours** Cliquez sur l’icône de fermeture (x) dans le coin supérieur droit du lecteur pour quitter le cours.
 
@@ -201,12 +201,12 @@ Si un cours comporte plusieurs instances, les élèves auront la possibilité de
 
 ## Évaluation par étoiles
 
-Ce n’est qu’après s’être inscrit à un cours qu’un élève peut fournir une évaluation par étoiles pour le cours. Dans la page Présentation du cours, l’élève peut évaluer le cours en attribuant des étoiles (1-note la plus basse, 5-note la plus élevée).
+Ce n’est qu’après s’être inscrit à un cours qu’un élève peut fournir une évaluation par étoiles pour ce cours. Dans la page de présentation du cours, l’élève peut évaluer le cours en attribuant des étoiles (1-note la plus basse, 5-note la plus élevée).
 
 ![](assets/star-rating.png)
 *Attribuer une évaluation par étoiles comme commentaire*
 
-Un élève pourra sélectionner une étoile particulière (sur 5) et soumettre l’évaluation. L’élève peut également modifier la sélection en cliquant sur une autre étoile. Une fois l’envoi effectué, un message « Merci pour votre retour d’informations ! » s’affiche.
+Un élève pourra sélectionner une étoile particulière (sur 5) et soumettre l’évaluation. L’élève peut également modifier sa sélection en cliquant sur une autre étoile. Après l’envoi, le message « Merci pour votre retour d’informations ! » s’affiche.
 
 Si l’élève souhaite renvoyer le retour d’informations, il peut le faire en cliquant sur le message. Le bouton **Envoyer** est réactivé. Un élève peut attribuer plusieurs étoiles après s’être inscrit à un cours. L’évaluation la plus récente sera toujours prise en compte.
 
@@ -219,7 +219,7 @@ Pour tous les comptes existants, cette fonctionnalité est désactivée. Les adm
 
 ## Marché de contenus
 
-L’option Marché de contenus est disponible dans le volet gauche de l’application de l’élève. Lorsque vous cliquez sur l’option, vous pouvez voir tous les cours/le catalogue entier et les listes de lecture sélectionnées.
+L’option Marché de contenus est disponible dans le volet gauche de l’application de l’élève. Lorsque vous cliquez sur cette option, vous pouvez voir tous les cours, le catalogue complet et des listes de lecture sélectionnées.
 
 Dans la page ci-dessous, vous pouvez voir les cours disponibles dans votre catalogue. Chaque cours affiche sa durée et le sujet principal auquel il appartient. Vous pouvez choisir le sujet dans le filtre situé à gauche de la page.
 
@@ -256,7 +256,7 @@ Vous pouvez explorer et prévisualiser le cours et vérifier s’il répond à v
 
 ## Hub de contenu
 
-Le Hub de contenu permet aux administrateurs et aux experts en la matière (SME) de présélectionner les listes de lecture requises dans l’application de l’élève. Une fois la sélection effectuée, les administrateurs peuvent télécharger le formulaire de demande d’achat et le partager avec l’agent commercial Adobe.
+Le Hub de contenu permet aux administrateurs et aux experts en la matière (SME) de présélectionner les listes de lecture requises dans l’application Learner. Une fois la liste sélectionnée, les administrateurs peuvent télécharger le formulaire de demande d’achat et le partager avec l’agent commercial Adobe.
 
 Un administrateur peut inviter les experts en la matière à sélectionner la liste de lecture qui les intéresse.
 
@@ -277,7 +277,7 @@ Pour modifier l&#39;instance de cours, procédez comme suit :
    ![](assets/learning-program200s.jpg)
    *Sélectionner un programme d&#39;apprentissage*
 
-1. Utilisez les boutons radio pour choisir si vous souhaitez afficher tous les cours ou les cours avec des instances non sélectionnées. Notez que si l&#39;élève a terminé l&#39;instance, il ne peut pas passer à une autre instance.
+1. Utilisez les boutons radio pour afficher tous les cours ou uniquement ceux avec des instances non sélectionnées. Remarque : si l&#39;élève a terminé l&#39;instance, il ne peut pas passer à une autre instance.
 
    ![](assets/radio-buttons.jpg)
    *Afficher tous les cours ou cours avec des instances non sélectionnées*
@@ -289,7 +289,7 @@ Pour modifier l&#39;instance de cours, procédez comme suit :
 
 1. Pour appliquer l&#39;instance sélectionnée, cliquez sur **[!UICONTROL Mettre à jour l&#39;inscription]**. L&#39;option de mise à jour de l&#39;inscription se trouve en haut à droite de la page.
 
-   L&#39;instance nouvellement sélectionnée est inscrite. Si un élève est inscrit à une instance de cours qui fait partie d’un autre objet d’apprentissage et s’il met à jour l’instance de cours qui fait partie du programme d’apprentissage flexible, il sera automatiquement désinscrit des autres objets d’apprentissage après un avertissement.
+   L&#39;instance nouvellement sélectionnée est inscrite. Si un élève est inscrit à une instance de cours appartenant à un autre objet d&#39;apprentissage et s&#39;il met à jour l&#39;instance de cours appartenant au programme d&#39;apprentissage flexible, il sera automatiquement désinscrit des autres objets d&#39;apprentissage après l&#39;affichage d&#39;un message d&#39;avertissement.
 
 ## Gestion de la progression basée sur la langue
 
@@ -350,7 +350,7 @@ Pour enregistrer des intérêts :
 
 Un cycle de vie habituel de cours se présente comme suit :
 
-**Version préliminaire** : lorsqu&#39;un auteur termine la création d&#39;un cours et l&#39;enregistre. À ce stade, le cours n’est pas encore disponible pour les élèves.
+**Version préliminaire** : lorsqu&#39;un auteur termine la création d&#39;un cours et l&#39;enregistre. À ce stade, le cours n&#39;est pas encore disponible pour les élèves.
 
 **Publié** : lorsqu&#39;un auteur termine la publication d&#39;un cours. À ce stade, le cours est disponible pour que les élèves s’y inscrivent.
 

@@ -5,8 +5,8 @@ description: Découvrez comment intégrer Adobe Learning Manager à Adobe Experi
 contentowner: saghosh
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 44%
+source-wordcount: '1058'
+ht-degree: 74%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # Intégration de Learning Manager à AEM
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 
@@ -78,7 +78,7 @@ Pour la configuration du widget, l’auteur AEM n’a besoin que du jeton d’ac
 
 Vous pouvez également définir plusieurs configurations de compte dans plusieurs pages.
 
-1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuration du widget Captivate Learning Manager]**.
+1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configuration du widget Captivate Learning Manager]**.
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Entrez ici le jeton d’actualisation. Configurez les autres paramètres.
 1. Le nom d’hôte doit être remplacé par « learningmanagereu » pour les régions de l’UE.
@@ -118,7 +118,7 @@ S’il n’existe aucune recommandation, le widget est vide.
 
 ## Prise en charge de Skyline
 
-Skyline est la version cloud d’AEM. Vous devez d’abord installer Skyline à partir du gestionnaire de modules. Pour utiliser le composant Skyline dans AEM, un utilisateur doit être présent dans le compte Learning Manager. En d’autres termes, l’adresse électronique de l’utilisateur doit exister dans le compte.
+Skyline est la version cloud d’AEM. Vous devez d’abord installer Skyline à partir du gestionnaire de package. Pour utiliser le composant Skyline dans AEM, un utilisateur doit être présent dans le compte Learning Manager. En d’autres termes, l’adresse électronique de l’utilisateur doit exister dans le compte.
 
 ## Déployer Skyline
 
@@ -126,27 +126,27 @@ Les étapes de configuration de Skyline sont mentionnées dans le [référentiel
 
 ## Widget Catalogue
 
-Le widget Catalogue affiche la formation d’un catalogue spécifique ou d’un ensemble de catalogues pour un utilisateur. Dans la section Propriétés des propriétés de la page, sélectionnez Catalogue dans les options répertoriées.
+Le widget Catalogue affiche pour un utilisateur la formation à partir d’un catalogue spécifique ou d’un ensemble de catalogues. Dans la section Propriétés des propriétés de la page, sélectionnez Catalogue dans les options répertoriées.
 
 ![](assets/catalog-widget.png)
 
 Le widget Catalogue contient les options suivantes :
 
 * **[!UICONTROL ID de catalogue]:** ID de catalogue séparés par des virgules pour lesquels la formation doit être affichée.
-* **[!UICONTROL Trier]:** ordre de tri pour la formation. Les options sont : nom, date, dateCreated, dateEnrolled, etc.
-* **[!UICONTROL État de l’élève]:** renvoie toutes les formations qui utilisent les éléments suivants en tant que filtres : inscrit, démarré, terminé et non inscrit. Les résultats de la recherche ne s&#39;affichent pas si l&#39;option de tri est dateEnrolled, dueDate ou dateEnrolled.
+* **[!UICONTROL Trier]:** ordre de tri pour la formation. Les options sont : nom, date, dateCreated (date de création), dateEnrolled (date d’inscription), etc.
+* **[!UICONTROL État de l’élève]:** renvoie toutes les formations qui utilisent les éléments suivants en tant que filtres : inscrit, démarré, terminé et non inscrit. Les résultats de la recherche ne s’affichent pas si l’option de tri est dateEnrolled (date d’inscription), dueDate (date d’échéance) ou dateEnrolled.
 * **[!UICONTROL Nom de la compétence]:** Compétence utilisée pour filtrer la formation exacte.
 * **[!UICONTROL Nom de la balise]:** La balise utilisée pour filtrer les résultats exacts.
 
 Voici quelques composants supplémentaires que vous pouvez personnaliser :
 
-**[!UICONTROL Types d&#39;objets d&#39;apprentissage]:** Filtrer selon le type de l&#39;objet d&#39;apprentissage. Les types pris en charge sont : cours, certification, assistance à la tâche et programme d’apprentissage.
+**[!UICONTROL Types d&#39;objets d&#39;apprentissage]:** Filtrer selon le type de l&#39;objet d&#39;apprentissage. Les types pris en charge sont : course (cours), certification, jobAid (assistance à la tâche) et learningProgram (programme d’apprentissage).
 
-Dans AEM, le titre d’une carte dans une bande est initialement vide. Dans Propriétés, saisissez le nom du titre dans widgets.html.
+Dans AEM, le titre d’une carte dans une pellicule est initialement vide. Dans les propriétés, saisissez le nom du titre dans widgets.html.
 
 **Personnalisation**
 
-Vous pouvez personnaliser l’aspect de la mise en page à l’aide du fichier widgets.html. Vous pouvez modifier l’apparence des cartes qui apparaissent et personnaliser le thème.
+Vous pouvez personnaliser l’apparence de la disposition avec widgets.html. Vous pouvez changer l’apparence des cartes qui s’affichent et personnaliser le thème.
 
 Dans la section **[!UICONTROL Paramètres généraux]**, vous pouvez choisir les couleurs primaire et secondaire pour les cartes et spécifier les propriétés pour personnaliser le thème.
 
@@ -173,7 +173,7 @@ Dans la section **[!UICONTROL Paramètres généraux]**, vous pouvez choisir les
 
 ### Ignorer l’inscription LO de niveau supérieur
 
-Si la case à cocher **[!UICONTROL Ignorer l’inscription LO de niveau supérieur]** est activée et qu’un utilisateur est inscrit directement dans un programme d’apprentissage ou une certification, les cours de cette certification ou de ce programme d’apprentissage s’affichent pour l’utilisateur dans les widgets.
+Si la case **[!UICONTROL Ignorer l’inscription LO de niveau supérieur]** est cochée et qu’un utilisateur est inscrit directement dans un programme d’apprentissage ou une certification, les cours connexes ne s’afficheront pas pour l’utilisateur dans les widgets.
 
 Si la case à cocher est désactivée, les cours présents dans le programme d’apprentissage ou la certification où l’utilisateur n’est pas inscrit directement ne s’affichent pas.
 
