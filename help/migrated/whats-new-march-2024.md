@@ -6,7 +6,7 @@ contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '3960'
 ht-degree: 1%
 
 ---
@@ -266,9 +266,7 @@ Lorsque vous recherchez un utilisateur, les options **Télécharger l&#39;élèv
 
 * Les colonnes Balise(s) et Compétence(s) dans le rapport de formations sont remplacées par Balise et Compétences.
 * Ajout du rapport [Piste d&#39;audit de ludification](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Si un compte contient plus de 280000 élèves affectés à une compétence, le rapport d’élève est téléchargé au format csv compressé.
-Si le compte comporte moins de 250000 élèves, le même rapport est téléchargé au format CSV.
-Sur la page Administrateur, sélectionnez **Administrateur** > **Compétences** > **Compétence** > **Élèves**. Le rapport est téléchargé au format CSV.
+* Si un compte contient plus de 280000 élèves affectés à une compétence, le rapport d’élève est téléchargé au format csv compressé.Si le compte comporte moins de 250000 élèves, le même rapport est téléchargé au format CSV.Sur la page Administrateur, sélectionnez **Administrateur** > **Compétences** > **Compétence** > **Élèves**. Le rapport est téléchargé au format CSV.
 * Le [rapport Résumé de la session](administrators/feature-summary/reports.md#session-summary-report) comporte deux nouvelles colonnes : Informations d&#39;emplacement et Région d&#39;emplacement.
 
 ## Modifications apportées à la création de salles de classe
@@ -283,8 +281,7 @@ En tant qu’administrateur, vous pouvez appliquer des restrictions à un auteur
 
 ## Modifications apportées au parcours d’apprentissage flexible
 
-Tous les comptes (anciens et nouveaux) de commenceront à inclure Échéance d’inscription, Échéance de désinscription et Limite de places dans l’application de l’élève pour un parcours d’apprentissage flexible.
-Les élèves pourront désormais s’inscrire au parcours d’apprentissage flexible sans sélectionner d’instance du cours.
+Tous les comptes (anciens et nouveaux) de commenceront à inclure Échéance d’inscription, Échéance de désinscription et Limite de places dans l’application de l’élève pour un parcours d’apprentissage flexible.Les élèves pourront désormais s’inscrire au parcours d’apprentissage flexible sans sélectionner d’instance du cours.
 
 ## Nouveau déclencheur pour les plans d’apprentissage
 
@@ -372,8 +369,7 @@ Dans cette version de l’application mobile, les élèves peuvent planifier et 
 * Me le rappeler dans 3 jours
 * Me le rappeler dans une semaine
 
-Sur Android : cliquez sur la notification push pour accéder à la page **Présentation du cours**.
-Sur iOS : cliquez sur la notification push pour accéder à la page d’accueil de l’application. Il s’agit d’une limitation connue dans iOS.
+Sur Android : cliquez sur la notification push pour accéder à la page **Présentation du cours**.Sur iOS : cliquez sur la notification push pour accéder à la page d’accueil de l’application. Il s’agit d’une limitation connue dans iOS.
 
 ### Modifications de la liste de contrôle dans l’application de l’élève sur Salesforce
 
