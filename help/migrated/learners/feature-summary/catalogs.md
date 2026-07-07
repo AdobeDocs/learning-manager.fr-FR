@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
 source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 6%
+source-wordcount: '461'
+ht-degree: 26%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 6%
 
 Découvrez comment utiliser les catalogues dans Learning Manager afin d’afficher les objets d’apprentissage éligibles
 
-Le **catalogue** comprend tous les cours, programmes d&#39;apprentissage, certifications et assistances à la tâche disponibles pour un rôle d&#39;élève dans le compte de l&#39;entreprise.
+Le **catalogue** se compose de tous les cours, programmes d’apprentissage, certifications et assistances à la tâche disponibles pour un rôle d’élève dans le compte de l’entreprise.
 
-Les élèves peuvent afficher tous les objets d&#39;apprentissage attribués et éligibles (programmes d&#39;apprentissage, cours et certifications) dans le **Catalogue par défaut**. Ces objets d’apprentissage sont uniques à chaque élève en fonction de son rôle, de sa désignation, de son groupe d’utilisateurs, de son profil, etc.
+Les élèves peuvent visionner tous les objets d’apprentissage éligibles qui leur sont attribués (programmes d’apprentissage, cours et certifications) dans le **catalogue par défaut**. Ces objets d’apprentissage sont spécifiques à chaque utilisateur en fonction de son rôle, sa désignation, son groupe d’utilisateurs, son profil, et ainsi de suite.
 
 Vous pouvez trier les objets d’apprentissage en fonction de différentes catégories, telles que les produits, les rôles professionnels, les types, le temps nécessaire, les compétences et les mots-clés. Vous pouvez également filtrer à l’aide des options du volet de gauche : par objet d’apprentissage, par compétence et par état d’achèvement.
 
-Utilisez la barre de recherche en haut de la page pour saisir les noms de vos objets d’apprentissage familiers. Les élèves peuvent passer de la grille à la vue liste en sélectionnant cette icône ![](assets/icon-list.png).
+Utilisez la barre de recherche située en haut de la page pour saisir les noms de vos objets d’apprentissage familiers. Les élèves peuvent passer de la grille à la vue liste en sélectionnant cette icône ![](assets/icon-list.png).
 
 ![](assets/catalogs.png)
 *Afficher les catalogues*

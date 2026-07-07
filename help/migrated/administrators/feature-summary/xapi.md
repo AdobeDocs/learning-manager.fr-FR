@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
-title: xAPI dans Learning Manager
+title: xAPI dans le gestionnaire de formation
 description: L’API Expérience (xAPI) est une spécification de logiciel d’apprentissage en ligne qui permet aux contenus d’apprentissage et aux systèmes d’apprentissage de communiquer de sorte à enregistrer et suivre tous les types d’expériences d’apprentissage. Les expériences d’apprentissage sont enregistrées dans une boutique d’enregistrements d’apprentissage (Learning Record Store, LRS). Les LRS peuvent exister dans les systèmes de gestion d’apprentissage (LMS) traditionnels ou seuls.
 contentowner: dvenkate
 preview: true
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 48%
+source-wordcount: '817'
+ht-degree: 68%
 
 ---
 
@@ -23,11 +23,11 @@ Pour plus d&#39;informations sur xAPI, voir [Spécifications xAPIc](https://gith
 
 ## Comment Learning Manager prend-il en charge xAPI ? {#howdoeslearningmanagersupportxapi}
 
-Learning Manager dispose d’une boutique d’enregistrements d’apprentissage intégrée. Ce LRS a la pleine capacité d’accepter des instructions xAPI à partir de contenu hébergé dans Learning Manager. Il accepte même les instructions xAPI générées par des tiers. Ces instructions xAPI sont stockées dans Learning Manager et peuvent ensuite être exportées en dehors de Learning Manager pour être visualisées dans tout système d’entrepôt de données tiers.
+Learning Manager dispose d’une boutique d’enregistrements d’apprentissage intégrée. Ce LRS a la pleine capacité d’accepter des instructions xAPI à partir de contenu hébergé dans Learning Manager. Il accepte même les instructions xAPI générées par des tiers. Ces instructions xAPI sont stockées dans Learning Manager et peuvent ensuite être exportées en dehors de Learning Manager pour être visualisées dans tout système d’entreposage de données tiers.
 
 ## Quand utilisez-vous xAPI ? {#whendoyouusexapi}
 
-De plus en plus, il est nécessaire de capturer les expériences d’apprentissage de l’utilisateur final qui s’étendent sur plusieurs systèmes.  Il est également nécessaire de suivre l’engagement exact de l’élève par rapport au contenu de la formation. Cela va au-delà des étapes Démarrer, En cours et Terminé (qui sont les seuls attributs capturés par SCORM).
+De plus en plus, il est nécessaire de capturer les expériences d’apprentissage de l’utilisateur final sur plusieurs systèmes.  Il est également nécessaire de suivre l’engagement exact de l’élève avec le contenu de la formation. Cela va au-delà des étapes Démarrer, En cours et Terminé (qui sont les seuls attributs capturés par SCORM).
 
 ## Utilisation de xAPI dans Learning Manager {#usingxapiinprime}
 
@@ -45,7 +45,7 @@ De plus en plus, il est nécessaire de capturer les expériences d’apprentissa
 
    *Enregistrer une nouvelle application*
 
-1. Définissez l’étendue de l’application.
+1. Définissez la portée de l’application.
 
    * Si l’option **[!UICONTROL Accès en lecture et en écriture au rôle d’administrateur xAPI]** est activée, l’administrateur peut publier et obtenir des instructions et des documents xAPI.
    * Si l’option **[!UICONTROL Accès en lecture et en écriture au rôle d’élève xAPI]** est activée, l’administrateur peut publier et obtenir des instructions et des documents xAPI.
@@ -56,7 +56,7 @@ De plus en plus, il est nécessaire de capturer les expériences d’apprentissa
 
 Cliquez sur le lien ci-dessous pour afficher le document xAPI swagger :
 
-[Document Swagger xAPI](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
+[Document xAPI Swagger](https://learningmanagereu.adobe.com/docs/primeapi/xapi/)
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Cliquez sur le lien ci-dessous pour afficher le document xAPI swagger :
 
 ## Authentification API {#apiauthentication}
 
-Learning Manager xAPI utilise l’infrastructure OAuth 2.0 pour authentifier et autoriser vos applications clientes. Une fois l’application enregistrée, vous pouvez obtenir les paramètres clientId et clientSecret. L’option Obtenir l’URL est utilisée dans le navigateur, car elle authentifie les utilisateurs de Learning Manager à l’aide de leurs comptes préconfigurés tels que SSO et Adobe ID.
+Les xAPI Learning Manager utilisent l’infrastructure OAuth 2.0 pour authentifier et autoriser vos applications client. Une fois votre application enregistrée, vous pouvez obtenir le clientId et le clientSecret. L’option Obtenir l’URL est utilisée dans le navigateur, car elle authentifie les utilisateurs de Learning Manager à l’aide de leurs comptes préconfigurés tels que SSO et Adobe ID.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
@@ -97,9 +97,9 @@ En tant qu’auteur, vous pouvez maintenant choisir le module xAPI tout en créa
 
 **Remarques :**
 
-* Learning Manager prend actuellement en charge uniquement   mbox en tant qu’identifiant. Les autres identificateurs, notamment mboz_sha1, openid , account, ne sont pas pris en charge.
+* Learning Manager ne prend actuellement en charge que mbox en tant qu’identifiant. Les autres identificateurs, notamment mboz_sha1, openid , account, ne sont pas pris en charge.
 
-* Les paramètres stateId et profileId sont des UUID lorsqu’ils sont utilisés avec Learning Manager.
+* stateId et profileId sont des UUID lorsqu’ils sont utilisés avec Learning Manager.
 * La demande du PUT ne remplace pas le document pour les xAPI agents/profil, activité/profil et activité/état
 * Le groupe non identifié n’est pas pris en charge dans Actor.
 * Le paramètre « related_activities » n&#39;est pas pris en charge dans l&#39;instruction GET.
@@ -110,7 +110,7 @@ En tant qu’auteur, vous pouvez maintenant choisir le module xAPI tout en créa
 
 Les rapports xAPI peuvent être générés sous forme de rapports Excel. En tant qu’administrateur, ouvrez **[!UICONTROL Rapports > Rapports Excel > Rapport d’activité xAPI]**.
 
-Le rapport téléchargé récupère toutes les informations publiées par l’élève et l’administrateur pour n’importe quelle instruction.
+Le rapport téléchargé récupère toutes les informations publiées par l’élève et l’administrateur pour toute instruction.
 
 Les mêmes rapports peuvent être générés/planifiés à l’aide des connecteurs FTP et Box pour toute intégration tierce. Procédez comme suit :
 

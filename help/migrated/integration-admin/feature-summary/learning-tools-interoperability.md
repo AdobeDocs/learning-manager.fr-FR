@@ -5,7 +5,7 @@ description: En savoir plus sur l’intégration LTI ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
 source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1993'
 ht-degree: 1%
 
 ---
@@ -120,8 +120,7 @@ Procédez comme suit pour exporter le cours à partir de Adobe Learning Manager 
 
 ## Adobe Learning Manager en tant que consommateur LTI - Workflow d’administration
 
-En tant que consommateur LTI, Adobe Learning Manager vous permet d’utiliser l’activité, les outils, le contenu et les widgets de fournisseurs LTI externes.
-Pour ajouter Adobe Learning Manager en tant que consommateur LTI, vous avez besoin des informations d’identification suivantes du fournisseur LTI externe :
+En tant que consommateur LTI, Adobe Learning Manager vous permet d’utiliser l’activité, les outils, le contenu et les widgets de fournisseurs LTI externes.Pour ajouter Adobe Learning Manager en tant que consommateur LTI, vous avez besoin des informations d’identification suivantes du fournisseur LTI externe :
 
 * URL d’ouverture de session
 * URL du lien cible
@@ -165,8 +164,7 @@ Les fournisseurs LTI vous fournissent un lien de lancement ou un fichier IMSCC p
 4. Tapez **[!UICONTROL Launch Link]** et **[!UICONTROL Custom Parameters]** à partir du fournisseur LTI.
 5. Sélectionnez votre [!UICONTROL fournisseur LTI] dans le menu déroulant **[!UICONTROL Fournisseur d&#39;outils]**.
 6. Recherchez et sélectionnez **[!UICONTROL Public]** dans l&#39;option **[!UICONTROL Ajouter au dossier]**. Cela rend les cours disponibles pour tous les auteurs.
-7. Sélectionnez **[!UICONTROL Enregistrer]**.
-Une fois le contenu créé, vous pouvez ajouter ce contenu lors de la création du cours.
+7. Sélectionnez **[!UICONTROL Enregistrer]**.Une fois le contenu créé, vous pouvez ajouter ce contenu lors de la création du cours.
 
 ### Créer un cours avec du contenu LTI - Flux de production de l&#39;auteur
 

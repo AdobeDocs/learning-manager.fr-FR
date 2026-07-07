@@ -5,7 +5,7 @@ title: Résumé des nouvelles fonctionnalités
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
 source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2544'
 ht-degree: 0%
 
 ---
@@ -90,8 +90,7 @@ Adobe Learning Manager est une plate-forme multilingue où les préférences lin
 
 Pour les utilisateurs de la plateforme native de Adobe Learning Manager, cette amélioration répond au besoin de provisionnement des utilisateurs juste-à-temps. Lorsque les utilisateurs créent des comptes et se connectent pour la première fois, cette fonctionnalité garantit que leurs préférences linguistiques sont capturées et appliquées avec précision.
 
-Cette fonctionnalité garantit que les préférences linguistiques des utilisateurs sont mises à jour automatiquement lorsqu’ils se connectent via SAML. Cela permet de fournir une expérience personnalisée en affichant l’interface dans la langue préférée de l’utilisateur.
-Lorsque les utilisateurs se connectent via SAML, leur préférence de langue (langue de l’interface et du contenu) est vérifiée et mise à jour en fonction des informations fournies pendant le processus de connexion.
+Cette fonctionnalité garantit que les préférences linguistiques des utilisateurs sont mises à jour automatiquement lorsqu’ils se connectent via SAML. Cela permet de fournir une expérience personnalisée en affichant l’interface dans la langue préférée de l’utilisateur.Lorsque les utilisateurs se connectent via SAML, leur préférence de langue (langue de l’interface et du contenu) est vérifiée et mise à jour en fonction des informations fournies pendant le processus de connexion.
 
 La fonctionnalité s’intègre au processus de connexion SAML pour capturer et mettre à jour la préférence de langue de l’utilisateur en toute transparence.
 
@@ -127,11 +126,9 @@ Consultez cet [article](https://helpx.adobe.com/in/adobe-connect/using/session-d
 
 ### Critères de réussite pour le contenu utilisant la migration
 
-Le processus de migration dans Adobe Learning Manager pour l’importation de modules prend désormais en charge la possibilité d’ajouter des paramètres pour définir des critères de réussite.
-Cela est désormais pris en charge par l’ajout de trois nouvelles colonnes facultatives dans le fichier module_version.csv. Trois nouvelles colonnes facultatives sont : `successCriteria`, `successQuizData` et `successViewPercent`.
+Le processus de migration dans Adobe Learning Manager pour l’importation de modules prend désormais en charge la possibilité d’ajouter des paramètres pour définir des critères de réussite.Cela est désormais pris en charge par l’ajout de trois nouvelles colonnes facultatives dans le fichier module_version.csv. Trois nouvelles colonnes facultatives sont : `successCriteria`, `successQuizData` et `successViewPercent`.
 
-Ces champs acceptent uniquement des valeurs spécifiques et le connecteur ne peut pas traiter le fichier si des valeurs non valides sont saisies.
-Un module de quiz peut utiliser trois types de critères de réussite. Soit il peut marquer la réussite si l’élève lance le contenu, en fonction d’une valeur de pourcentage notée (définie par `successViewPercent` : ci-dessous), soit il peut être basé sur le résultat du module de quiz (défini par `successQuizData` : ci-dessous). Cette valeur doit être remplie conformément aux instructions ci-dessous. Le paramètre successCriteria est utilisé pour déterminer cela.
+Ces champs acceptent uniquement des valeurs spécifiques et le connecteur ne peut pas traiter le fichier si des valeurs non valides sont saisies.Un module de quiz peut utiliser trois types de critères de réussite. Soit il peut marquer la réussite si l’élève lance le contenu, en fonction d’une valeur de pourcentage notée (définie par `successViewPercent` : ci-dessous), soit il peut être basé sur le résultat du module de quiz (défini par `successQuizData` : ci-dessous). Cette valeur doit être remplie conformément aux instructions ci-dessous. Le paramètre successCriteria est utilisé pour déterminer cela.
 
 `successCriteria` : accepte `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` ou `VIEWPERCENT_OR_QUIZ`.
 
@@ -161,8 +158,7 @@ Consultez cet [article](/help/migrated/integration-admin/feature-summary/migrati
 
 ## Améliorations apportées aux webhooks
 
-Les webhooks prennent désormais en charge les événements pour les cours dans les parcours d’apprentissage (LP) et les certifications lorsque l’inscription, la désinscription ou l’achèvement se produisent.
-Cela inclut les événements de support pour chaque cours dans le programme d’apprentissage ou la certification, en plus de l’événement d’apprentissage parent.
+Les webhooks prennent désormais en charge les événements pour les cours dans les parcours d’apprentissage (LP) et les certifications lorsque l’inscription, la désinscription ou l’achèvement se produisent.Cela inclut les événements de support pour chaque cours dans le programme d’apprentissage ou la certification, en plus de l’événement d’apprentissage parent.
 
 Consultez cet [article](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) pour plus d’informations sur les webhooks.
 

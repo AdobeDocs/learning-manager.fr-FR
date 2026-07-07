@@ -5,7 +5,7 @@ title: Résumé des nouvelles fonctionnalités, novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Le nouveau **[!UICONTROL rapport de liste d&#39;attente]** de Adobe Learning Man
 En suivant les colonnes disponibles dans le rapport Liste d’attente :
 
 * Nom du cours
-* Nom d’instance
+* Nom de l’instance
 * ID d’instance
 * État d’instance
 * Nom d’utilisateur
@@ -151,8 +151,7 @@ Reportez-vous à ces articles [Rapport de liste d&#39;attente (administrateur)](
 
 ## Accessibilité dans la page d’accueil de l’élève
 
-Adobe Learning Manager prend désormais en charge le texte optionnel pour tous les en-têtes afin d’améliorer l’accessibilité pour les élèves. Cela permet aux élèves ayant des besoins spéciaux d’utiliser des lecteurs d’écran pour lire le texte optionnel et comprendre l’image. Vous pouvez sélectionner plusieurs langues et fournir un texte de remplacement pour chaque langue. Veillez à ajouter le texte optionnel dans les langues respectives. Assurez-vous que le logo de la société dans votre compte inclut également un texte de remplacement avec le nom de la société.
-Reportez-vous à cet article [Annonce](/help/migrated/administrators/feature-summary/announcements.md#masthead) pour plus d&#39;informations.
+Adobe Learning Manager prend désormais en charge le texte optionnel pour tous les en-têtes afin d’améliorer l’accessibilité pour les élèves. Cela permet aux élèves ayant des besoins spéciaux d’utiliser des lecteurs d’écran pour lire le texte optionnel et comprendre l’image. Vous pouvez sélectionner plusieurs langues et fournir un texte de remplacement pour chaque langue. Veillez à ajouter le texte optionnel dans les langues respectives. Assurez-vous que le logo de la société dans votre compte inclut également un texte de remplacement avec le nom de la société.Reportez-vous à cet article [Annonce](/help/migrated/administrators/feature-summary/announcements.md#masthead) pour plus d&#39;informations.
 
 ## Prise en charge de l’hindi
 
@@ -236,7 +235,7 @@ Les administrateurs peuvent spécifier les critères d’achèvement des modules
 
 Voici les conditions applicables aux nouvelles colonnes :
 
-1. `completionCriteria` :
+1. `completionCriteria`:
 
    * Le type de données doit être une chaîne de valeurs et les valeurs prises en charge sont :
       * `LAUNCH_CONTENT`
@@ -248,12 +247,12 @@ Voici les conditions applicables aux nouvelles colonnes :
    * Les valeurs prises en charge pour le contenu interactif sont `LAUNCH_CONTENT`, `VIEW_PERCENT` et `QUIZ`.
    * Les valeurs prises en charge pour le contenu HTML5 sont `LAUNCH_CONTENT` et `MARK_COMPLETE`.
 
-2. `viewPercent` :
+2. `viewPercent`:
 
    * Le type de données de cette colonne doit être un entier et la valeur doit être comprise entre 0 et 100.
    * Lorsque completionCriteria est défini sur `VIEW_PERCENT`, entrez le pourcentage d&#39;affichage requis dans cette colonne ou laissez-le vide.
 
-3. `quizData` :
+3. `quizData`:
 
    * Le type de données doit être une chaîne et les valeurs prises en charge sont `QUIZ_ATTEMPTED`, `QUIZ_PASSED` et `QUIZPASSED_OR_LIMITREACHED`.
    * Lorsque `completionCriteria` est défini sur `QUIZ`, entrez la valeur de quiz appropriée dans la colonne `quizData`.
@@ -528,7 +527,7 @@ Les administrateurs peuvent trouver ces modifications de rapport dans la section
 Le rapport **[!UICONTROL Relevés de notes d&#39;apprentissage]** contiendra deux nouvelles colonnes :
 
 * **[!UICONTROL ID de module]** : affiche l&#39;identifiant unique de chaque module. Cette nouvelle colonne a été ajoutée après la colonne **[!UICONTROL Module]** existante.
-* **[!UICONTROL ID d&#39;instance de cours]** : affiche l&#39;identifiant unique de chaque instance de cours. Cette nouvelle colonne a été ajoutée après la colonne **[!UICONTROL Instance]** existante.
+* **[!UICONTROL ID d&#39;instance de cours]** : affiche l&#39;identifiant unique de chaque instance de cours.Cette nouvelle colonne a été ajoutée après la colonne **[!UICONTROL Instance]** existante.
 * **[!UICONTROL Commentaire d&#39;achèvement]** : cette colonne capture les commentaires saisis par l&#39;administrateur lors du marquage de l&#39;achèvement de l&#39;utilisateur. Cette nouvelle colonne a été ajoutée à la fin du rapport.
 
 
