@@ -108,7 +108,7 @@ Reportez-vous à cet [article](/help/migrated/administrators/feature-summary/pur
 
 Adobe Learning Manager prend désormais également en charge la sélection de salles de séminaire dans Adobe Connect lors de la configuration d’une session VC dans Connect. Auparavant, l’administrateur pouvait uniquement sélectionner le type de salle de réunion. Cette amélioration permet aux administrateurs disposant d’une licence de séminaire valide de planifier et de gérer des événements uniques ou de grande envergure (jusqu’à 1 500 participants) dans Adobe Learning Manager.
 
-Consultez cet [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) pour en savoir plus sur la salle de séminaire.
+Consultez cet [article](https://helpx.adobe.com/fr/adobe-connect/using/creating-seminars.html) pour en savoir plus sur la salle de séminaire.
 
 ### Prise en charge de l’accès à l’analyse des sessions
 
