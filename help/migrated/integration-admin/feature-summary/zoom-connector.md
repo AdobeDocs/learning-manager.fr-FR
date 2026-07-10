@@ -3,9 +3,9 @@ description: Découvrez comment intégrer le connecteur Zoom à Adobe Learning M
 jcr-language: en_us
 title: Connecteur Zoom
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: 481eed24a5ac72329228c8d27b625d443bd637ce
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -70,14 +70,16 @@ Pour utiliser le connecteur Zoom avec Adobe Learning Manager, vous devez créer 
 
 Lors de la création de l’application dans Zoom, assurez-vous que les portées suivantes sont sélectionnées :
 
-| Description de l&#39;étendue | Portée du zoom |
+```
+| Scope Description | Zoom Scope |
 |---|---|
-| Afficher toutes les réunions d’utilisateurs | administrateur:read:de réunion |
-| Afficher et gérer toutes les réunions d’utilisateurs | administrateur:write:de réunion |
-| Afficher les données du rapport | report:read:admin |
-| Afficher toutes les informations utilisateur | utilisateur:read:administrateur |
-| Gérer les utilisateurs et les utilisatrices | utilisateur:write:administrateur |
-| Ajout d’un participant à une réunion | participant à la réunion:write:inscription : administrateur |
-| Répertorier tous les participants à la réunion | meeting:read:list_registrants:admin |
-| Gestion des réunions de sous-comptes | meeting:write:meeting:master |
-| Afficher le rapport sur les participants à la réunion | report:read:list_meeting_participants:admin |
+| View all user meetings | meeting:read:admin |
+| View and manage all user meetings | meeting:write:admin |
+| View report data | report:read:admin |
+| View all user information | user:read:admin |
+| Manage users | user:write:admin |
+| Add a meeting registrant | meeting:write:registrant:admin |
+| List all meeting registrants | meeting:read:list_registrants:admin |
+| Manage sub-account meetings | meeting:write:meeting:master |
+| View meeting participants report | report:read:list_meeting_participants:admin |
+```
