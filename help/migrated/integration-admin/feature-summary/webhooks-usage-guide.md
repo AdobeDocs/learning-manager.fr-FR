@@ -6,7 +6,7 @@ contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
 source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3421'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Les événements suivants sont pris en charge pour les objets d’apprentissage 
 
 Chaque fois qu&#39;un objet d&#39;apprentissage est créé à partir de l&#39;interface utilisateur, il démarre en mode **Brouillon**. Cela signifie que l’objet d’apprentissage n’est pas encore publié et n’est pas disponible pour les élèves. L&#39;événement **LEARNING_OBJECT_DRAFT** est déclenché tant que l&#39;objet d&#39;apprentissage reste un brouillon. Toute mise à jour successive du brouillon déclenchera également cet événement.
 
-#### Mise à jour 
+#### Mise à jour
 
 Une fois l&#39;objet d&#39;apprentissage publié, son état passe de **Brouillon** à **Publié**. Pendant cette transition, le webhook génère l&#39;événement **LEARNING_OBJECT_MODIFICATION**, car l&#39;objet d&#39;apprentissage est en cours de modification de **Version préliminaire** à **Publié**. Toutes les modifications et mises à jour ultérieures de l’objet d’apprentissage déclenchent également un événement **LEARNING_OBJECT_MODIFICATION**.
 
@@ -45,7 +45,7 @@ En plus des événements en temps réel, les événements d&#39;objet d&#39;appr
 
 Les événements suivants sont pris en charge pour les instances d’objets d’apprentissage.
 
-#### Mise à jour 
+#### Mise à jour
 
 Une fois qu&#39;une instance est créée, l&#39;événement **LEARNING_OBJECT_INSTANCE_MODIFICATION** est généré. Les instances d&#39;objets d&#39;apprentissage dans Adobe Learning Manager n&#39;ont pas l&#39;état **Version préliminaire**. Par conséquent, Adobe Learning Manager ne prend pas en charge un événement **LEARNING_OBJECT_INSTANCE_DRAFT**. Cet événement est généré chaque fois qu&#39;une instance est créée, modifiée ou retirée.
 
@@ -192,8 +192,7 @@ La question est la suivante : comment les clients peuvent-ils créer une base de
 
 ### Création d&#39;une base de données à partir d&#39;événements d&#39;objets d&#39;apprentissage
 
-Les événements d&#39;objet d&#39;apprentissage affichent `loId` et `loType` pour identifier une entité. Toutefois, ces attributs ne suffisent pas à créer une base de données d’objets d’apprentissage externes. Les clients auront besoin de champs supplémentaires pour décrire davantage l’objet d’apprentissage.
-Il existe deux approches pour récupérer les données supplémentaires :
+Les événements d&#39;objet d&#39;apprentissage affichent `loId` et `loType` pour identifier une entité. Toutefois, ces attributs ne suffisent pas à créer une base de données d’objets d’apprentissage externes. Les clients auront besoin de champs supplémentaires pour décrire davantage l’objet d’apprentissage.Il existe deux approches pour récupérer les données supplémentaires :
 
 #### Générer un rapport de données de formation pour récupérer toutes les données
 
@@ -239,8 +238,7 @@ Le délai d’expiration de la connexion ALM est configuré sur 10 secondes et c
 
 ### Conservation des données
 
-Les événements sont conservés pendant 7 jours. Si elles ne sont pas traitées dans ce délai, elles sont définitivement perdues. Si la récupération a lieu le dernier jour et qu’un délai supplémentaire est nécessaire, le système ne prolonge pas la période de rétention.
-Si des événements sont produits plus rapidement qu’ils ne sont consommés, certains événements peuvent être perdus. Bien que cela soit rare, les abonnés doivent surveiller pour éviter que cela ne devienne un problème à long terme.
+Les événements sont conservés pendant 7 jours. Si elles ne sont pas traitées dans ce délai, elles sont définitivement perdues. Si la récupération a lieu le dernier jour et qu’un délai supplémentaire est nécessaire, le système ne prolonge pas la période de rétention.Si des événements sont produits plus rapidement qu’ils ne sont consommés, certains événements peuvent être perdus. Bien que cela soit rare, les abonnés doivent surveiller pour éviter que cela ne devienne un problème à long terme.
 
 ### Webhooks désactivés
 
