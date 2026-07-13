@@ -5,7 +5,7 @@ title: Gestion des groupes d’utilisateurs dans Adobe Learning Manager | Organi
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
 source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -192,7 +192,7 @@ Vous pouvez ajouter un ou plusieurs groupes d’utilisateurs générés automati
 
 Si vous sélectionnez plusieurs groupes d&#39;utilisateurs dans le même jeu d&#39;inclusion, les utilisateurs doivent remplir toutes les conditions pour être inclus.
 
-Par exemple,
+Par exemple :
 
 * Groupe de l’équipe commerciale : 120 utilisateurs
 * Location (Bangalore) groupe : 80 utilisateurs
@@ -205,7 +205,7 @@ _Exemple d&#39;affichage de plusieurs groupes combinés à l&#39;aide de la logi
 
 ### Utilisation de la logique OR dans les groupes d’utilisateurs
 
-Si vous ajoutez des groupes d’utilisateurs dans des jeux d’inclusion distincts, les utilisateurs répondant à toutes les conditions sont inclus. Par exemple :
+Si vous ajoutez des groupes d’utilisateurs dans des jeux d’inclusion distincts, les utilisateurs répondant à toutes les conditions sont inclus. Par exemple :
 
 * Groupe de l’équipe commerciale : 120 utilisateurs
 * Location (Bangalore) groupe : 80 utilisateurs
