@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 90%
+source-wordcount: '588'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ Learning Manager prend en charge quatre types de modules de cours. Si vous ête
        <td><img src="assets/classroom-module.png">
         <p><a href="how-to-choose-modules.md#main-pars_text_1432182659">À quel moment choisir les modules de salle de classe ?</a></p></td>
        <td><img src="assets/self-placed-module.png">
-        <p><a href="how-to-choose-modules.md#main-pars_text_735062721">À quel moment choisir les modules d’auto-apprentissage ? </a></p></td>
+        <p><a href="how-to-choose-modules.md#main-pars_text_735062721">À quel moment choisir les modules individualisés ? </a></p></td>
       </tr>
      </tbody>
     </table></td>
@@ -55,7 +55,7 @@ Learning Manager prend en charge quatre types de modules de cours. Si vous ête
     <p><strong>Avantages</strong></p>
     <ul>
      <li>Le principal avantage de ce type de formation est l’interaction sociale des élèves. </li>
-     <li>Vous pouvez choisir des modules de classe pour les cours qui nécessitent beaucoup de collaboration en personne et l’engagement de l’élève. </li>
+     <li>Vous pouvez choisir des modules de salle de classe pour les cours qui exigent beaucoup de collaboration et d’engagement en face à face de la part des élèves. </li>
      <li>De plus, si le sujet de cours est complexe, nouveau ou s’il est exigeant en termes de planification et de compréhension des concepts de la part des élèves, alors un module de salle de classe est idéal.</li>
     </ul></td>
   </tr>
@@ -74,7 +74,7 @@ Learning Manager prend en charge quatre types de modules de cours. Si vous ête
     <p><strong>Avantages</strong></p>
     <ul>
      <li>Vous pouvez sélectionner ce type de module pour les élèves qui peuvent gérer leur propre chronologie d’apprentissage. </li>
-     <li>Lorsque vous souhaitez atteindre plus d’élèves en moins de temps, et </li>
+     <li>Lorsque vous souhaitez toucher davantage d’élèves en moins de temps, et </li>
      <li>Lorsque vous souhaitez contrôler les coûts associés.</li>
     </ul></td>
   </tr>
