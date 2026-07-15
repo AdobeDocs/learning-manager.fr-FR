@@ -2,13 +2,13 @@
 title: Création d’une page dans Experience Builder
 description: 'Découvrez comment créer de nouvelles pages dans Experience Builder dans Adobe Learning Manager. Ce guide traite des points suivants : sélection des modèles, dénomination des pages, définition des propriétés des pages et publication des pages personnalisées.'
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
 
 ---
-
 
 # Créer une page personnalisée dans Experience Builder
 

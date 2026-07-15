@@ -1,17 +1,17 @@
 ---
 jcr-language: en_us
-title: Intégration d'Adobe Connect
+title: Intégration d’Adobe Connect
 description: Les auteurs peuvent créer des cours d'une classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l'administrateur de votre entreprise.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
 source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 49%
+source-wordcount: '618'
+ht-degree: 57%
 
 ---
 
-# Intégration d&#39;Adobe Connect
+# Intégration d’Adobe Connect
 
 Les administrateurs d’une organisation peuvent configurer les paramètres du compte Learning Manager pour activer l’intégration d’Adobe Connect.
 
@@ -40,7 +40,7 @@ Les administrateurs d’une organisation peuvent configurer les paramètres du c
 
 1. Cliquez sur **[!UICONTROL Intégrer].**
 
-   Après l’authentification de l’ID de messagerie, Learning Manager affiche le message comme Connect a été intégré avec succès. Vous pouvez commencer à visualiser automatiquement vos cours de classe virtuelle à l’aide d’Adobe Connect.
+   Après l’authentification de l’ID de messagerie, Learning Manager affiche un message indiquant que Connect a été intégré avec succès. Vous pouvez commencer à visualiser automatiquement vos cours de classe virtuelle à l’aide d’Adobe Connect.
 
    L’administrateur de compte Adobe Connect doit accepter les termes et conditions d’utilisation d’Adobe Connect. Si cela n’est pas accepté, votre authentification de connexion peut échouer. Après avoir créé le compte Adobe Connect, connectez-vous au compte une fois. Lors de la première connexion, une page affichant les termes et conditions s’affiche.
 
@@ -50,7 +50,7 @@ Les administrateurs d’une organisation peuvent configurer les paramètres du c
 
 Si l’auteur d’un cours de classe virtuelle n’a pas fourni les informations de session, l’administrateur peut inclure les détails de la session.
 
-Dans Connexion administrateur, cliquez sur le nom du cours de classe virtuelle (VC). Cliquez sur **[!UICONTROL Instances]** dans le volet de gauche et cliquez sur **[!UICONTROL Détails de la session]**.  Cliquez sur l’icône Modifier dans le coin droit de la page Détails de la session pour ajouter les informations de session.
+Dans Connexion administrateur, cliquez sur le nom du cours de classe virtuelle (VC). Cliquez sur **[!UICONTROL Instances]** dans le volet de gauche et cliquez sur **[!UICONTROL Détails de la session]**.  Cliquez sur l’icône Modifier située dans le coin droit de la page Détails de la session pour ajouter des informations de session.
 
 ![](assets/session-creation-admin.png)
 
@@ -62,15 +62,15 @@ Vous devez acheter Adobe Connect séparément d’Adobe Learning Manager.
 
 ## Participation des élèves {#learnersattendance}
 
-Si l’hôte du cours de classe virtuelle n’assiste pas à la session, la participation n’est pas enregistrée automatiquement pour les élèves qui ont participé à la session. Dans de tels scénarios, l’administrateur peut enregistrer manuellement la présence.
+Si l’hôte du cours de classe virtuelle n’assiste pas à la session, la participation n’est pas enregistrée automatiquement pour les élèves qui ont participé à la session. Dans de tels scénarios, l’administrateur peut enregistrer la participation manuellement.
 
-Cliquez sur le cours de classe virtuelle, cliquez sur Présence dans le volet gauche de la page suivante et enregistrez la présence.
+Cliquez sur le cours de classe virtuelle, puis sur Participation dans le volet de gauche de la page suivante et enregistrez la participation.
 
 ## Prise en charge des séminaires Adobe Connect destinés à un large public
 
 Adobe Learning Manager prend en charge la sélection de salles de séminaire dans Adobe Connect lors de la configuration d’une session de classe virtuelle dans Connect. Auparavant, l’administrateur pouvait uniquement sélectionner le type de salle de réunion. Cette fonctionnalité permet aux administrateurs disposant d’une licence de séminaire valide de planifier et de gérer des événements uniques ou à grande échelle (jusqu’à 1 500 participants) dans ALM.
 
-Reportez-vous à cet [article](https://helpx.adobe.com/fr/adobe-connect/using/creating-seminars.html) pour plus d&#39;informations sur la salle de séminaire.
+Reportez-vous à cet [article](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) pour plus d&#39;informations sur la salle de séminaire.
 
 ### Prise en charge de l’accès à l’analyse des sessions
 

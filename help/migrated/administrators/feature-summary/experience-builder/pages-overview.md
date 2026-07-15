@@ -2,15 +2,15 @@
 description: Découvrez comment les pages dans Experience Builder vous permettent de créer des espaces personnalisables pour organiser et présenter le contenu de formation, les ressources et les éléments interactifs.
 jcr-language: en_us
 title: Pages dans Experience Builder
-source-git-commit: 4e210c2a6eb3356fbf342ac113712cb1b0f8f1c9
+exl-id: 234f9f2d-dbac-4dba-8080-8d0028bcb39a
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
-
-# Vue d’ensemble
+# Présentation
 
 Une page dans Experience Builder est un espace personnalisable qui sert de base à l’organisation et à la présentation du contenu d’apprentissage, des ressources et des éléments interactifs dans votre portail d’apprentissage. Il agit comme un canevas numérique où les administrateurs peuvent organiser divers widgets, tels que des listes de cours, des calendriers d&#39;événements, l&#39;état de conformité, des bannières et des flux sociaux.
 Ajoutez une marque à chaque page avec des couleurs, des logos et des thèmes d’entreprise, et adaptez-la à des groupes d’utilisateurs ou des publics spécifiques, tels que les nouvelles recrues, les nouveaux responsables ou les partenaires externes. Les pages passent d’un cycle de vie de brouillon à publié (ou archivées) et peuvent être rendues visibles via des menus de navigation ou accessibles via des liens directs. Dans leur ensemble, les pages d’Experience Builder permettent aux entreprises de concevoir des expériences d’apprentissage dynamiques, attrayantes et spécifiques aux rôles qui favorisent un engagement significatif et un accès fluide aux ressources nécessaires.

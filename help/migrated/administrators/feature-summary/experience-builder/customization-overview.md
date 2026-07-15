@@ -2,15 +2,15 @@
 title: Personnalisation dans Experience Builder
 jcr-language: en_us
 description: Découvrez comment Experience Builder dans Adobe Learning Manager permet une personnalisation approfondie des expériences des élèves. Configurez les pieds de page, appliquez des styles CSS et JavaScript globaux, ajustez les vignettes de cours et personnalisez les widgets pour créer des portails d’apprentissage dynamiques de marque tout en réduisant les coûts de mise en œuvre.
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: d1eb3ef5-bcee-4aa9-bd27-f0545077d6ab
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
-
-# Vue d’ensemble
+# Présentation
 
 Experience Builder permet aux administrateurs de créer des expériences d’apprentissage personnalisées au sein de la plateforme, en comblant le fossé entre les interfaces natives prêtes à l’emploi et les solutions sans tête. Il permet de concevoir des pages personnalisées à l’aide de divers widgets, de configurations de menu flexibles et d’un branding avancé via CSS et JavaScript. Cette approche réduit les délais de commercialisation et les coûts de mise en œuvre par rapport aux versions sans en-tête, tout en offrant une personnalisation approfondie pour l’image de marque et la mise en page.
 
@@ -71,5 +71,3 @@ Configurez les menus pour qu’ils apparaissent à différents emplacements (rai
 Intégration d’outils externes
 * **Intégrer des applications externes** : le widget iFrame vous permet d’intégrer des applications ou des pages web externes directement dans une page personnalisée, créant ainsi une expérience plus fluide pour l’élève.
 * **Créer des composants dynamiques avec des API** : le widget de HTML vous permet d&#39;ajouter du code JavaScript pour permettre aux utilisateurs d&#39;interagir avec, par exemple, les API des élèves. Grâce à cette approche, vous pouvez créer une expérience dans l’environnement Learning Manager natif sans avoir à créer une nouvelle application.
-
-
