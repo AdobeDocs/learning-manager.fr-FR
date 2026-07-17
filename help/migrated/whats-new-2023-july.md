@@ -5,8 +5,8 @@ hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
 source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 67%
+source-wordcount: '2091'
+ht-degree: 74%
 
 ---
 
@@ -32,7 +32,7 @@ Les élèves ne peuvent pas s’inscrire à plusieurs instances à partir d’un
 >
 >L’activation de l’inscription multiple entraîne l’ajout de plusieurs lignes au rapport de relevé de notes de l’élève pour chaque cours (une ligne par instance).
 >
->Si la configuration de Reporting Automation ne prévoit qu&#39;une seule ligne par cours, vous devez effectuer les ajustements nécessaires avant d&#39;activer la fonction d&#39;inscription multiple.
+>Si vous avez configuré l’automatisation de la génération de rapports qui prévoit une seule ligne par cours, vous devez apporter les ajustements nécessaires à l’automatisation de la génération de rapports avant d’activer la fonction d’inscription multiple.
 
 ### Format des badges dans une instance à inscription multiple
 
@@ -56,7 +56,7 @@ argument_object=
 
 Cette version d’Adobe Learning Manager inclut un nouveau connecteur, qui utilise le protocole SFTP de la famille AWS Transfer.
 
-Cette modification remplacera également le connecteur Exavault, qui ne sera plus disponible pour les nouveaux utilisateurs. Vous pouvez utiliser n’importe quel client FTP open source pour remplacer ExaVault. Pour plus d&#39;informations, voir [Transition à partir du gestionnaire FTP Adobe](transition-from-ftp-manager.md).
+Cette modification remplacera également le connecteur Exavault, qui ne sera plus disponible pour les nouveaux utilisateurs. Vous pouvez utiliser n’importe quel client FTP open source pour remplacer ExaVault. Pour plus d’informations, consultez [Transition depuis Adobe FTP Manager](transition-from-ftp-manager.md).
 
 ## Rappels dans Outlook pour la salle de classe et les sessions virtuelles
 
@@ -209,7 +209,7 @@ Renvoie la liste des rôles recommandés.
 
 **POST /search/query**
 
-La recherche inclut également les produits et les paramètres de rôle dans la requête. Il n’y a aucune modification dans la requête et le corps. Nous ajouterons de nouvelles options de tri
+La recherche inclut également les produits et les paramètres de rôle dans la requête. Il n’y a aucune modification dans la requête et le corps. Nous allons ajouter de nouvelles options de tri
 
 **Demande**
 
@@ -527,9 +527,9 @@ Exemple de requête
 
 ### Mise en œuvre des modifications de l’API de recherche (paramètres régionaux anglais)
 
-La racine est le processus de réduction d&#39;un mot à sa forme racine. Cela garantit que les variantes d’un mot sont mises en correspondance lors d’une recherche. Par exemple, marcher et marcher peut être lié au même mot racine : marcher. Une fois la chaîne terminée, une occurrence de l’un des mots correspondrait à l’autre dans une recherche.
+La racinisation est le processus de réduction d’un mot à sa forme racine. Cela garantit que les variantes d’un mot sont mises en correspondance lors d’une recherche. Par exemple, marchant et marché peuvent être liés au même mot racine : marcher. Une fois la chaîne terminée, une occurrence de l’un des mots correspondrait à l’autre dans une recherche.
 
-Dans cette version, nous avons ajouté un enchaînement pour les langues anglaises, qui comprend les variantes suivantes : en_US, en_AU, en_GB.
+Dans cette version, nous avons ajouté la racinisation pour les paramètres régionaux anglais, qui inclut les variantes suivantes : en_US, en_AU, en_GB.
 
 L’attribut racinisé indique si la racinisation est requise dans les résultats de recherche. Par défaut, cette propriété est définie sur False.
 
@@ -556,7 +556,7 @@ Permet à l’élève de fournir un retour d’informations à chaque niveau d�
 
 Dans cette version, vous devez envoyer explicitement des sections, prequisiteConstraints, prerequisiteLOs, subLOs, additionalResources, additionalLOs, instances, catalogLabels à learningObject.
 
-Par exemple,
+Par exemple :
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 
@@ -573,7 +573,7 @@ Pour prendre en charge les badges d&#39;instance inscrits plusieurs fois, nous r
 
 ## Notes de mise à jour
 
-Pour plus d&#39;informations sur les versions actuelles et précédentes de l&#39;application web et de l&#39;application pour appareil Learning Manager, consultez les [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
+Pour plus d’informations sur les versions actuelles et précédentes de l’application web et de l’application de l’appareil Learning Manager, consultez les [Notes de mise à jour](/help/migrated/release-note/release-notes.md).
 
 ## Problèmes connus ou limitations de cette version
 
@@ -586,12 +586,12 @@ Les éléments suivants ne sont pas pris en charge lors de l’affichage hors co
 * Cours, plans d’apprentissage ou certifications flexibles.
 * Cours, plans d’apprentissage ou certifications améliorés.
 * Cours, plans d’apprentissage ou certifications avec fonction de quiz multiple activée.
-* Harvard Manage Mentor, Content Marketplace, GetAbstract ou LinkedIn Courses, Learning Plans ou Certifications.
+* Cours, plans d’apprentissage ou certifications Harvard Manage Mentor, Marché de contenus, GetAbstract ou LinkedIn.
 * Plans d’apprentissage et certificats avec les conditions préalables activées.
 * Cours, plans d’apprentissage ou certifications ayant été retirés.
 * Cours, plans d’apprentissage ou certifications dont l’échéance a expiré.
 * Certificats externes.
-* Cours, plans d’apprentissage ou certifications compatibles avec le commerce électronique.
+* Cours, plans d’apprentissage ou certifications compatibles avec le eCommerce.
 
 Les parcours d’apprentissage, cours ou certifications suivants rencontrent quelques problèmes de synchronisation hors ligne :
 
@@ -606,10 +606,10 @@ Le nouveau système de recommandations ne prend pas en charge les éléments sui
 * Adobe Experience Manager, Teams, SFDC et Non connecté.
 * L’application mobile ne prend pas en charge la modification des produits et des rôles sur la page de recommandation.
 * Le mappage n’est pas possible lors de la migration.
-* Balisage automatique de LinkedIn, du marché de contenus et d’autres cours, plans d’apprentissage ou certifications externes.
+* Balisage automatique des cours, plans d’apprentissage ou certifications externes LinkedIn, Marché de contenus et autres.
 * Retour à l’environnement basé sur les compétences ou classique après la mise en ligne.
 * Menu de recherche pour les produits et les rôles dans l’application des élèves.
-* Mappage en bloc des cours, des plans d’apprentissage ou des certifications, et des utilisateurs dans l’application d’administration.
+* Mappage en bloc des cours, des plans d’apprentissage, des certifications et des utilisateurs dans l’application de l’administrateur.
 
 ## Configuration requise
 

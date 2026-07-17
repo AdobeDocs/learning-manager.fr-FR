@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
+source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
 workflow-type: tm+mt
-source-wordcount: '30524'
-ht-degree: 73%
+source-wordcount: '30900'
+ht-degree: 72%
 
 ---
 
@@ -24,6 +24,22 @@ ht-degree: 73%
  </tbody>
 </table>
 -->
+
++++Mise à jour 109 : version de juillet 2026 de Adobe Learning Manager
+
+Date de publication : 16 juillet 2026
+
+## Corrections de bugs
+
+**Modèles de courrier électronique :** des courriers électroniques de rappel pour les sessions à venir ont été envoyés sans informations de date et d&#39;heure de session pour les élèves inscrits aux instances de cours. Ce problème a été résolu pour remplir correctement les détails de planification de session dans le modèle de courrier électronique. Les élèves reçoivent désormais des e-mails de rappel de session à venir qui incluent la date et l’heure de la session concernée, fournissant des informations complètes sur la planification.
+
+**Connecteurs :** les auteurs ont rencontré par intermittence des erreurs HTTP 400 lors de la duplication ou de la modification de cours en salle de classe/salle de classe virtuelle basés sur un connecteur. Une fois déclenché, le problème persistait et bloquait les actions suivantes de création ou de modification de cours jusqu’à ce que la session soit actualisée. Ce problème a été résolu pour garantir la fiabilité de la duplication et de la modification des cours basés sur un connecteur. Les auteurs peuvent désormais dupliquer, créer et modifier des cours en salle de classe/salle de classe virtuelle sans rencontrer d’erreurs récurrentes de 400.
+
+**Codage des requêtes d&#39;API CMS :** un workflow de plateforme automatisée générait des requêtes de téléchargement répétées vers l&#39;API HTTP CMS avec des URL mal codées, ce qui entraînait des erreurs HTTP 500 intermittentes et, parfois, des milliers de requêtes non valides par seconde. La logique de codage de l’URL a été corrigée pour s’assurer que les chemins d’accès aux ressources contenant des caractères spéciaux, tels que des espaces, sont codés correctement avant l’envoi des demandes. Les demandes de téléchargement vers NetStorage s’exécutent désormais correctement, ce qui élimine les erreurs d’API récurrentes et les pics de demandes.
+
+**Résilience du flux de traduction :** les demandes de traduction de l&#39;anglais vers le norvégien Bokmal ont échoué, car la paire de langues n&#39;est pas prise en charge par le service de traduction sous-jacent, ce qui a entraîné l&#39;interruption de l&#39;intégralité du flux de traduction. La logique de gestion de la traduction a été améliorée pour gérer gracieusement les paires de langues non prises en charge et isoler les échecs de traduction individuels. Les demandes de traduction pour les langues non prises en charge sont désormais ignorées et signalées de manière appropriée, tandis que les traductions pour toutes les langues cibles prises en charge restantes continuent à être traitées avec succès.
+
++++
 
 +++Mise à jour 108 : version de juin 2026 de Adobe Learning Manager
 
@@ -662,8 +678,8 @@ La nouvelle application Adobe Learning Manager sur Microsofts Teams est conçue 
 **Problèmes connus dans cette mise à jour**
 
 * Le bouton Partager du catalogue des élèves ne fonctionne pas comme prévu dans le navigateur Safari, l’application Mobile et iPad MS Teams.
-* Les notifications ne s’affichent pas dans l’onglet Activité une fois que l’application est supprimée sur d’autres ordinateurs.
-Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur iPhone 14.
+* Les notifications ne s’affichent pas dans l’onglet Activité lorsque l’application est supprimée sur d’autres ordinateurs.
+Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur un iPhone 14.
 * Dans l’application MS Teams, les notifications Learning Manager (terminé, inscrit, échéance et retard) n’affichent ni l’état ni le nom du cours dans l’onglet Activité.
 * Une fenêtre contextuelle avec du contenu XML s’affiche lorsque l’administrateur d’intégration n’approuve pas l’application MS Teams.
 * Parfois, la langue de l’interface utilisateur dans l’application Adobe Learning Manager sur MS Teams ne change pas comme prévu lors du changement de la langue.
@@ -689,7 +705,7 @@ Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Acti
 ### Amélioration Des Performances Dans Cette Version
 
 Lorsqu&#39;une inscription en bloc d&#39;élèves est effectuée, aucun fichier journal n&#39;est généré pour chaque élève.
-Nous avons optimisé le traitement des plans d’apprentissage pour les grands comptes. Cela permet d’éviter tout problème ou retard de recherche.
+Nous avons optimisé le traitement des plans d’apprentissage pour les comptes volumineux. Cela permet d’éviter tout problème ou retard de recherche.
 +++
 
 +++Mise à jour 87
@@ -721,8 +737,8 @@ Ajout de la prise en charge du code de langue à quatre lettres lors du filtrage
 
 ### Bogues Corrigés Dans Cette Mise À Jour
 
-Pour certaines langues, la recherche renvoie des résultats incorrects.
-Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes des mêmes paramètres régionaux.
+Pour certaines langues, les résultats de recherche sont incorrects.
+Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes du même paramètre régional.
 +++
 
 +++Mise à jour 84

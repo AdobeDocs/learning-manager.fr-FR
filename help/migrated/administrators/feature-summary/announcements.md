@@ -5,8 +5,8 @@ description: Une annonce est un message multimédia (texte, image ou vidéo) qu�
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
 source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 57%
+source-wordcount: '1072'
+ht-degree: 67%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 
 Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur diffuse pour un ensemble défini d’utilisateurs.
 
-L&#39;administrateur peut diffuser des annonces aux élèves les informant de l&#39;occurrence d&#39;un événement ou d&#39;une activité. L’annonce peut être une combinaison de texte, d’images ou de vidéos. Vous pouvez lier des objets d’apprentissage, comme des cours, des programmes d’apprentissage et des certifications, à une annonce.
+L’administrateur peut diffuser les annonces pour les élèves les informant de l’occurrence d’un événement ou d’une activité. L’annonce peut être une combinaison de texte, d’images ou de vidéos. Vous pouvez lier des objets d’apprentissage, comme des cours, des programmes d’apprentissage et des certifications, à une annonce.
 
 Il existe quatre types d&#39;annonces :
 
@@ -25,7 +25,7 @@ Il existe quatre types d&#39;annonces :
 
 ## Notification {#notification}
 
-1. En tant qu&#39;utilisateur administrateur, cliquez sur Annonces dans le volet de gauche.
+1. En tant qu’utilisateur Administrateur, cliquez sur Annonces dans le volet de gauche.
 1. Cliquez sur Ajouter dans l’angle supérieur droit de la page.
 1. Dans la liste déroulante Type, sélectionnez l’option **Comme notification**.
 
@@ -53,7 +53,7 @@ Il existe quatre types d&#39;annonces :
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Dans l’onglet Brouillons, cliquez sur l’icône des paramètres en regard d’une annonce, puis cliquez sur Envoyer.
 
-Si la pièce jointe d’éléments multimédia est de grande taille, le chargement peut prendre du temps. Une fois que vous avez cliqué sur Enregistrer, une fenêtre contextuelle s’affiche avec un message pendant le traitement de votre téléchargement. Vous recevrez une notification après le chargement de la pièce jointe.
+Si la pièce jointe d’éléments multimédia est de grande taille, le chargement peut prendre du temps. Après avoir cliqué sur Enregistrer, une fenêtre contextuelle s’affiche avec un message vous indiquant que votre chargement est en cours de traitement. Vous recevrez une notification après le chargement de la pièce jointe.
 
 ## En-tête {#masthead}
 
@@ -121,13 +121,13 @@ Lorsque vous cliquez sur **[!UICONTROL Enregistrer]**, vous pouvez soit publier 
 
 ## Liste Brouillon, Planifié et Envoyé {#draftscheduledandsentlist}
 
-Dans la connexion Administrateur, vous pouvez afficher toutes les annonces dans trois onglets tels que Brouillons, Planifié et Envoyé.
+Dans Connexion administrateur, vous pouvez afficher toutes les annonces dans trois onglets : Brouillons, Planifié et Envoyé.
 
 <!--![](assets/three-tabs-announcement1.png)-->
 
 ### Brouillon {#draft}
 
-Dans l&#39;onglet Brouillons, vous pouvez afficher toutes les annonces créées par un administrateur mais pas encore diffusées ou pas encore programmées pour la diffusion.
+Dans l’onglet Brouillon, vous pouvez afficher toutes les annonces créées par un administrateur mais pas encore diffusées ni planifiées pour la diffusion.
 
 Par défaut, toutes les annonces sont définies pour une diffusion immédiate. Si vous sélectionnez l’option Paramètres > Envoyer pour une annonce non planifiée, celle-ci est alors diffusée immédiatement. Pour planifier une diffusion d’annonce, vous devez sélectionner les dates de début et de fin dans les paramètres avancés.
 
@@ -135,7 +135,7 @@ Par défaut, toutes les annonces sont définies pour une diffusion immédiate. S
 
 Dans l’onglet Planifié, vous pouvez afficher toutes les annonces planifiées pour la diffusion à une date ultérieure.
 
-### Envoyés {#sent}
+### Envoyé {#sent}
 
 Dans l’onglet Envoyé, vous pouvez afficher toutes les annonces déjà diffusées.
 
