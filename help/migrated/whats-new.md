@@ -95,11 +95,11 @@ Live Hub est une expérience de formation virtuelle basée sur l&#39;IA au sein 
 
 Points saillants :
 
-- Améliorez l’apprentissage en direct grâce à une expérience Adobe Learning Manager native qui améliore la qualité pédagogique et les résultats des élèves.
-- Donnez à vos instructeurs un coanimateur optimisé par l’IA qui stimule l’engagement grâce à des sondages intelligents, une assistance pour les questions et réponses et des informations sur les salles de réunion.
-- Aidez vos élèves à tirer le meilleur parti de chaque session avec des résumés et des enregistrements de session générés par l’IA consultables par sujet.
-- Mesurez ce qui compte grâce à des analyses d’engagement qui vont au-delà de l’assiduité pour révéler une véritable participation à l’apprentissage.
-- Aidez vos auteurs à utiliser le Finder d’instructeurs basé sur l’IA pour trouver le bon instructeur en fonction des compétences, de la disponibilité, des heures préférées, du fuseau horaire et de l’utilisation actuelle.
+&#x200B;- Améliorez l’apprentissage en direct grâce à une expérience Adobe Learning Manager native qui améliore la qualité pédagogique et les résultats des élèves.
+&#x200B;- Donnez à vos instructeurs un coanimateur optimisé par l’IA qui stimule l’engagement grâce à des sondages intelligents, une assistance pour les questions et réponses et des informations sur les salles de réunion.
+&#x200B;- Aidez vos élèves à tirer le meilleur parti de chaque session avec des résumés et des enregistrements de session générés par l’IA consultables par sujet.
+&#x200B;- Mesurez ce qui compte grâce à des analyses d’engagement qui vont au-delà de l’assiduité pour révéler une véritable participation à l’apprentissage.
+&#x200B;- Aidez vos auteurs à utiliser le Finder d’instructeurs basé sur l’IA pour trouver le bon instructeur en fonction des compétences, de la disponibilité, des heures préférées, du fuseau horaire et de l’utilisation actuelle.
 
 ## Créateur de modèles d’e-mail basé sur des composants
 

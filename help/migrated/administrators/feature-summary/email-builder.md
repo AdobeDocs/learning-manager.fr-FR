@@ -355,10 +355,10 @@ Saisissez le nom de la variable directement entre doubles accolades : {\{variabl
 | Durée de l’échéance du cours | {\{deadlineDuration}\} |
 | Durée d’expiration du cours | {\{expiryDuration}\} |
 | Date d’expiration du cours | \{\{expiryDate\}\} |
-| Nom de la session | \{sessionName\}\} |
+| Nom de la session | \{sessionName\}\&rbrace; |
 | Date de début de la session | \{\{sessionDate\}\} |
 | Date de fin de la session | \{\{endSessionDate\}\} |
-| Heure de début de la session | \{sessionTime\}\} |
+| Heure de début de la session | \{sessionTime\}\&rbrace; |
 | Heure de fin de la session | \{\{endSessionTime\}\} |
 | Nom du lieu | \{\{venueName\}\} |
 | Informations sur le lieu | \{\{venueInfo\}\} |
@@ -367,7 +367,7 @@ Saisissez le nom de la variable directement entre doubles accolades : {\{variabl
 | URL de classe virtuelle | \{\{vcUrl\}\} |
 | Compte de fournisseur de salle de classe virtuelle requis | \{\{VCProviderAccountReq\}\} |
 | Nom du formateur | \{\{instructorName\}\} |
-| Nom du module | \{moduleName\}\} |
+| Nom du module | \{moduleName\}\&rbrace; |
 | Nom de l’objet d’apprentissage | \{\{learningObjectName\}\} |
 | Date d’achèvement de l’objet d’apprentissage | \{\{loCompletionDate\}\} |
 | Autres noms d’objets d’apprentissage | \{\{alternateLoNameList\}\} |
@@ -379,7 +379,7 @@ Saisissez le nom de la variable directement entre doubles accolades : {\{variabl
 | Nom du tableau de bord de rapport | \{\{reportDashboardName\}\} |
 | Nom de l’assistance à la tâche | \{\{jobAidName\}\} |
 | Contenu de l’annonce | \{\{announcementContentText\}\} |
-| Nom du profil | \{profileName\}\} |
+| Nom du profil | \{profileName\}\&rbrace; |
 | Limite de places pour le cours | \{\{seatLimit\}\} |
 | Lien vers la page d’accueil du document d’aide | \{\{captivatePrimeHelp\}\} |
 | Lien vers la page d’aide | \{\{helpPageLink\}\} |

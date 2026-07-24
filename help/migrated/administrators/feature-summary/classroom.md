@@ -127,7 +127,7 @@ Pour ajouter un emplacement de salle de classe :
 
    ![Onglet Tous les emplacements](assets/all-locations-tab.png)
 
-   *Sélectionnez l&#39;onglet **Tous les emplacements**pour ajouter un emplacement de salle de classe.*
+   *Sélectionnez l&#39;onglet **Tous les emplacements**&#x200B;pour ajouter un emplacement de salle de classe.*
 
 1. Sélectionnez **Ajouter** > **Nouvel emplacement** dans le coin supérieur droit.
 
