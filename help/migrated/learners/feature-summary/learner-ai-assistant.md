@@ -351,7 +351,7 @@ L’assistant d’apprentissage de Adobe Learning Manager peut répondre aux que
 
 >[!IMPORTANT]
 >
->Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
+>Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/fr/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
 
 
 Lorsqu’un administrateur ajoute un catalogue Go1 ou LinkedIn Learning à Adobe Learning Manager, le contenu du catalogue passe par un processus d’ingestion planifié. Une fois l&#39;ingestion terminée, les objets d&#39;apprentissage de ce catalogue deviennent disponibles pour que l&#39;Assistant Apprentissage puisse les interroger.
