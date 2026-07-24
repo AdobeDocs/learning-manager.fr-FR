@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '9424'
-ht-degree: 61%
+source-wordcount: '10009'
+ht-degree: 57%
 
 ---
 
@@ -55,10 +55,10 @@ Pour créer un cours, suivez les étapes ci-dessous :
 4. Pour rendre votre cours disponible dans d’autres langues, cliquez sur Ajouter une nouvelle langue dans le coin supérieur gauche de la page. Sélectionnez la ou les langues dans lesquelles vous souhaitez rendre votre cours disponible. Cliquez sur **[!UICONTROL Enregistrer]**. Pour plus d’informations, voir [Ajouter du contenu pour différentes langues](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modification des paramètres d’un cours**
 
-   a. Sur la page Paramètres du cours, sélectionnez une compétence pour le cours. Dans la liste déroulante Compétence, sélectionnez la compétence requise. Puis, dans la liste déroulante Niveau, sélectionnez le niveau requis.
-b. Sélectionnez les compétences du cours, le niveau et définissez les crédits pour la compétence. Ajoutez d’autres compétences, si nécessaire.
-c. Ajoutez les étiquettes de conformité personnalisées au cours, si nécessaire. Voir [Ajouter des étiquettes de conformité au cours/parcours d&#39;apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-d. Dans la liste déroulante **Type d’inscription**, sélectionnez le type d’inscription.
+   a. Dans la page Paramètres du cours, choisissez une compétence pour le cours. Dans la liste déroulante Compétence, sélectionnez la compétence requise. Ensuite, dans la liste déroulante Niveau, choisissez le niveau requis.
+   b. Choisissez les compétences du cours, le niveau et définissez les crédits pour la compétence. Ajoutez d’autres compétences, si nécessaire.
+   c. Ajoutez les étiquettes de conformité personnalisées au cours, si nécessaire. Voir [Ajouter des étiquettes de conformité au cours/parcours d&#39;apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+   d. Dans la liste déroulante **Type d&#39;inscription**, choisissez le type d&#39;inscription.
 
    Les différents types d’inscriptions sont les suivants :
 
@@ -111,7 +111,89 @@ d. Dans la liste déroulante **Type d’inscription**, sélectionnez le type d�
 14. Dans le champ Retrait automatique, sélectionnez une date de retrait du cours. L’administrateur doit d’abord activer l’option de Suppression automatique.
 15. Pour enregistrer les modifications, sélectionnez **[!UICONTROL Enregistrer]**. Pour publier le cours, cliquez sur **[!UICONTROL Publier]**.
 
-### Ajouter des étiquettes de conformité au cours/parcours d’apprentissage/certification {#add-custom-compliance-label}
+## Configuration du carnet de notes d’un cours {#configuregradebookforacourse}
+
+Configurez le score pondéré d&#39;un cours dans Adobe Learning Manager afin que chaque élève reçoive un score total calculé à partir des performances de son module et que l&#39;achèvement du cours puisse être lié à l&#39;atteinte d&#39;un seuil de score minimum.
+
+Le carnet de notes est configuré au niveau du cours lors de la création d’un nouveau cours. Il ne peut pas être ajouté à un cours publié existant.
+
+>[!NOTE]
+>
+>Pour que les élèves puissent voir le Gradebook dans un cours, un administrateur doit d&#39;abord activer la **visibilité du Gradebook** au niveau du compte.
+
+### Activer le carnet de notes pour un cours
+
+* Se connecter à Adobe Learning Manager en tant qu’auteur.
+* Dans le volet de navigation de gauche, sélectionnez **Cours**, puis **Ajouter** pour créer un cours.
+* Saisissez le nom du cours, la description et d’autres détails requis.
+* Dans la section **Modules**, localisez le bouton à bascule **Livre de classement**.
+
+  ![](assets/image_0003.png)
+
+* Sélectionnez l&#39;option **Livre de classement** pour l&#39;activer. Deux options s’affichent en dessous. Les deux sont activés par défaut :
+  * **Afficher le carnet de notes aux élèves :** les élèves voient un onglet **Carnet de notes** dans le lecteur de cours affichant leurs scores de module, la répartition des pondérations et le résultat global. Désactivez cette option pour calculer les notes en interne sans les exposer aux élèves.
+  * **Inclure les modules qui ne contribuent pas à la note finale :** les modules non marquables (PDF, vidéo, audio et similaires) apparaissent dans le Gradebook. Les modules ne pouvant pas être notés ne contribuent pas au score final de l’élève.
+
+### Ajout de modules et attribution d’une pondération
+
+Après avoir activé le Gradebook, ajoutez vos modules de contenu et affectez un pourcentage de pondération à chaque module pouvant recevoir des scores. Les pourcentages de poids doivent atteindre exactement 100 pour que vous puissiez enregistrer la configuration.
+
+1. Sélectionnez **Ajouter des modules**.
+2. Dans le sélecteur de modules, sélectionnez les modules que vous souhaitez ajouter et sélectionnez **Ajouter**. Les modules apparaissent dans la section **Contenu**. Les modules évaluables, SCORM, le contenu du Captivate, AICC, xAPI, les quiz natifs, les modules d&#39;activité, les sessions de classe et les sessions de classe virtuelle affichent un champ de saisie **Pondération**. Les modules non marquables affichent un tiret dans la colonne de pondération.
+3. Entrez une valeur de pourcentage dans le champ **Pondération** pour chaque module pouvant être noté. Un indicateur de **pesage total** est mis à jour au fur et à mesure que vous tapez et doit atteindre exactement **100 %** avant de pouvoir enregistrer.
+
+   ![](assets/image_0004.png)
+
+4. Pour les modules avec plusieurs types de livraison : la pondération ne peut être attribuée que si les types de livraison **all** dans le module prennent en charge le score. Si un type de livraison ne prend pas en charge l&#39;évaluation, l&#39;ensemble du module ne peut pas être pondéré.
+
+>[!NOTE]
+>
+>L&#39;échelle de notation ne doit pas nécessairement correspondre entre les types de livraison. Une session de classe notée sur 100 et un module SCORM noté sur 10 peuvent coexister dans le même Gradebook. La formule normalise automatiquement chaque contribution.
+
+### Définition de la note de passage minimale
+
+* Dans l&#39;éditeur de cours, recherchez la section **Critères de réussite**.
+* Dans le champ **Score d&#39;agrégation minimal sur les modules**, entrez un pourcentage compris entre 0 et 100.
+* Une valeur de **0** signifie que le cours est terminé en fonction de l&#39;achèvement du module requis uniquement, sans seuil de score global.
+* Toute valeur supérieure à 0 signifie que l’élève doit terminer les modules requis ET atteindre ou dépasser ce score total.
+* Dans le champ **Modules obligatoires**, saisissez le nombre requis ou sélectionnez-le dans la liste déroulante.
+
+  ![](assets/image_0005.png)
+
+* Sélectionnez **Enregistrer**.
+
+La note de passage minimale est visible par les élèves dans l&#39;onglet **Gradebook** afin qu&#39;ils connaissent le seuil avant de commencer.
+
+### Configuration des paramètres de score pour les modules avec plusieurs tentatives
+
+Lorsqu&#39;un module autorise plusieurs tentatives, choisissez le score de tentative à utiliser dans le calcul du Gradebook.
+
+* Dans l&#39;éditeur de cours, recherchez un module pour lequel plusieurs tentatives sont activées.
+
+  ![](assets/image_0006.png)
+
+* Recherchez le paramètre **Score à utiliser** en regard de ce module.
+* Sélectionnez **Latest** ou **Highest** :
+  * **Dernière tentative :** le score de tentative le plus récent est toujours utilisé. Un score plus faible lors d’une tentative ultérieure remplace un score plus élevé précédemment.
+  * **Le plus élevé :** le meilleur score de toute tentative est conservé. Un score plus faible lors d’une tentative ultérieure ne réduit pas le score stocké.
+
+  ![](assets/image_0007.png)
+
+* Sélectionnez **Enregistrer**.
+
+### Publish du cours
+
+Après avoir configuré tous les paramètres du Gradebook, publiez le cours à l’aide du workflow standard. Sélectionnez **Enregistrer**, puis **Publish** pour mettre le cours à la disposition des élèves.
+
+### Bonnes pratiques
+
+* Attribuez une pondération qui reflète l&#39;importance relative de chaque module. Attribuez des pourcentages plus élevés aux modules les plus importants pour l’objectif d’apprentissage.
+* Activez **Afficher le carnet de notes pour les élèves**, sauf s&#39;il existe une raison spécifique de masquer les scores. Les élèves qui peuvent voir leur pondération et leur score d&#39;exécution sont mieux placés pour hiérarchiser leurs efforts.
+* Définissez le score de réussite minimum avant l’inscription des élèves. Sa modification après les inscriptions actives peut affecter les achèvements en cours.
+* Utilisez le paramètre **Maximale** pour les tentatives multiples lorsque les modules sont des évaluations que les élèves doivent réessayer. Utilisez **Dernière** lorsque vous souhaitez capturer le niveau de connaissances actuel plutôt que les meilleures performances.
+* Vérifiez que l&#39;indicateur **Pondération totale** affiche exactement 100 % avant d&#39;enregistrer.
+
+## Ajouter des étiquettes de conformité au cours/parcours d’apprentissage/certification {#add-custom-compliance-label}
 
 Pour ajouter les étiquettes de conformité aux cours, procédez comme suit :
 
@@ -210,16 +292,16 @@ Vous pouvez allouer des points de ludification au niveau du cours et au niveau d
    * **[!UICONTROL À l’achèvement]** : sélectionnez cette option si vous souhaitez que l’élève obtienne 100 points à la fin d’un cours.
    * **Autres règles**
 
-      * **[!UICONTROL Accomplissement précoce]** : si vous sélectionnez cette option, les 30 premiers élèves qui terminent un cours reçoivent 100 points.
-      * **[!UICONTROL Accomplissement en temps voulu]** : si vous sélectionnez cette option, les élèves reçoivent 100 points s’ils terminent un cours dans les 999 jours.
+     * **[!UICONTROL Accomplissement précoce]** : si vous sélectionnez cette option, les 30 premiers élèves qui terminent un cours reçoivent 100 points.
+     * **[!UICONTROL Accomplissement en temps voulu]** : si vous sélectionnez cette option, les élèves reçoivent 100 points s’ils terminent un cours dans les 999 jours.
 
 1. Si vous sélectionnez **[!UICONTROL Utiliser des paramètres personnalisés]**, les options suivantes s’affichent :
 
    * **[!UICONTROL À l’achèvement]** : sélectionnez cette option si vous souhaitez que l’élève obtienne 100 points à la fin d’un cours.
    * **Autres règles**
 
-      * **[!UICONTROL Accomplissement précoce]** : si vous sélectionnez cette option, vous pouvez déterminer le nombre de points à attribuer aux élèves.
-      * **[!UICONTROL Accomplissement en temps voulu]** : si vous sélectionnez cette option, vous pouvez déterminer le nombre de points que les élèves reçoivent s’ils terminent un cours dans un délai spécifié.
+     * **[!UICONTROL Accomplissement précoce]** : si vous sélectionnez cette option, vous pouvez déterminer le nombre de points à attribuer aux élèves.
+     * **[!UICONTROL Accomplissement en temps voulu]** : si vous sélectionnez cette option, vous pouvez déterminer le nombre de points que les élèves reçoivent s’ils terminent un cours dans un délai spécifié.
 
    ![points de ludification](assets/gamification-custom-settings.png)
 
@@ -425,7 +507,7 @@ Une fois que l’administrateur a activé les tentatives multiples, en tant qu�
   </tr>
   <tr>
    <td>
-    <p>Définir les tentatives à</p></td>
+    <p>Définir les tentatives sur</p></td>
    <td>
     <p>Vous pouvez définir le nombre de tentatives pour un module sur Infini ou définir une limite définie.<span style="font-size: 0.8125rem;">Les informations relatives à la tentative seront montrées à l’élève après l’activation. L'élève peut choisir de retenter le module en cliquant sur le bouton « Réessayer ».</span></p></td>
   </tr>
@@ -511,6 +593,10 @@ Pour ajouter un module Contenu, effectuez les étapes ci-dessous :
    **Remarque :** Un élève doit être disponible sur Microsoft Teams. Toutefois, l’élève peut rejoindre Learning Manager en tant qu’invité.
 
    **Module de salle de classe :** dans ce mode, les élèves assistent en personne à des cours assurés par un instructeur qualifié. Saisissez le titre, la description et la durée de la session. Vous pouvez également préciser l’emplacement de la classe et les instructeurs qui animeront la session. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer les modifications.
+
+   >[!NOTE]
+   >
+   >La possibilité de créer un nouvel emplacement ici dépend du paramètre Autoriser les auteurs à créer des emplacements, configuré par votre administrateur. S’il est désactivé, vous pouvez uniquement rechercher et sélectionner des emplacements que l’administrateur a déjà ajoutés. Voir [Ajouter des emplacements de salle de classe](../../../migrated/administrators/feature-summary/classroom.md) pour plus d&#39;informations.
 
    ![](assets/classroom-module.png)
 
@@ -753,8 +839,8 @@ Bien que les auteurs n’effectuent pas d’évaluations, il est utile de compre
 * Les réviseurs voient un champ **remarques** lors de l&#39;évaluation des élèves
 * Les réviseurs peuvent ajouter des commentaires contextuels lors de l’envoi
 * Si cette option est activée :
-   * Les élèves voient les commentaires des réviseurs
-   * Les élèves voient le nom du réviseur
+  * Les élèves voient les commentaires des réviseurs
+  * Les élèves voient le nom du réviseur
 
 #### Expérience de l’élève (lorsque cette option est activée)
 
@@ -770,8 +856,8 @@ Cela aide les apprenants à comprendre clairement les résultats de l&#39;évalu
 * Les commentaires de liste de contrôle sont **facultatifs** et doivent être explicitement activés
 * La visibilité des commentaires et l&#39;identité des réviseurs sont **entièrement contrôlées par l&#39;auteur**
 * Fonctionne avec :
-   * Un ou plusieurs réviseurs
-   * Listes de contrôle basées sur le score, Oui/Non et mises à l’échelle
+  * Un ou plusieurs réviseurs
+  * Listes de contrôle basées sur le score, Oui/Non et mises à l’échelle
 * Aucun impact sur les listes de contrôle existantes, sauf mise à jour par l’auteur
 
 ### Création d’une liste de contrôle multilingue
@@ -892,15 +978,15 @@ La liste de contrôle est désormais activée avec une notation pondérée pour 
 * Les réviseurs voient chaque question de liste de contrôle avec son **score maximum**
 * Les réviseurs attribuent des notes par question pendant l&#39;évaluation
 * Le système calcule :
-   * Score total atteint
-   * Statut Réussite ou Échec basé sur des critères définis
+  * Score total atteint
+  * Statut Réussite ou Échec basé sur des critères définis
 
 #### Expérience de l’élève
 
 * Les élèves voient l’état d’achèvement de la liste de contrôle (réussite/échec)
 * Si cette option est activée, les élèves peuvent également voir :
-   * Commentaires du réviseur
-   * Nom du réviseur
+  * Commentaires du réviseur
+  * Nom du réviseur
 * La logique de notation est appliquée de manière cohérente à toutes les évaluations
 
 #### Notes pour les auteurs
@@ -908,8 +994,8 @@ La liste de contrôle est désormais activée avec une notation pondérée pour 
 * Les listes de contrôle pondérées conviennent mieux aux **évaluations formelles**
 * Les scores des questions doivent être soigneusement calibrés pour éviter des résultats faussés
 * Fonctionne avec :
-   * Un ou plusieurs réviseurs
-   * Commentaires du réviseur (si cette option est activée)
+  * Un ou plusieurs réviseurs
+  * Commentaires du réviseur (si cette option est activée)
 * Les listes de contrôle existantes ne sont pas affectées, sauf mise à jour explicite
 
 
@@ -927,7 +1013,7 @@ Pour permettre aux instructeurs de marquer la réussite de l’élève :
 6. Saisissez les détails nécessaires et sélectionnez les dates.
 7. Sélectionnez l&#39;option **[!UICONTROL Autoriser l&#39;instructeur à marquer le succès]**.
 
-   ![Autoriser l’instructeur à indiquer le succès ? la case est cochée, permettant aux auteurs de laisser les instructeurs enregistrer l’état de réussite de l’élève pour un module](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![La case « Autoriser l&#39;instructeur à marquer le succès ? » est cochée, ce qui permet aux auteurs d&#39;autoriser les instructeurs à enregistrer l&#39;état de réussite de l&#39;élève pour un module](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Écran Détails de la session avec l’option Autoriser l’instructeur à marquer le succès mise en évidence pour les modules de salle de classe ou de classe virtuelle_
 
 8. Sélectionnez **[!UICONTROL Terminé]**.
@@ -1152,7 +1238,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

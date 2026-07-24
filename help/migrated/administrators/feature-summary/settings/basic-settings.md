@@ -3,10 +3,10 @@ description: En savoir plus sur la façon dont les paramètres de base vous aide
 jcr-language: en_us
 title: Paramètres de base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
+source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
 workflow-type: tm+mt
-source-wordcount: '4494'
-ht-degree: 5%
+source-wordcount: '5914'
+ht-degree: 4%
 
 ---
 
@@ -106,8 +106,8 @@ Pour optimiser vos taux de réponse, il est recommandé de configurer des rappel
 2. **Définir une planification de rappel** : dans le panneau **Paramètres de rappel** qui s’affiche, utilisez les menus déroulants et les champs de saisie pour configurer le rappel :
 
    a. **[!UICONTROL Quand envoyer]** : indiquez si le rappel doit être envoyé **[!UICONTROL à la fin du cours]** ou **[!UICONTROL après la fin du cours]**.
-b. **[!UICONTROL Récurrence]** : sélectionnez la fréquence du rappel (par exemple, Toutes les semaines).
-c. **[!UICONTROL Pour]** : spécifiez la durée totale (en semaines) pendant laquelle les rappels seront envoyés (par exemple, 4 semaines).
+   b. **[!UICONTROL Récurrence]** : sélectionnez la fréquence du rappel (par exemple, Toutes les semaines).
+   c. **[!UICONTROL Pour]** : spécifiez la durée totale (en semaines) pendant laquelle les rappels seront envoyés (par exemple, 4 semaines).
 
 3. **[!UICONTROL Enregistrez le rappel]** : sélectionnez l’icône en forme de coche bleue pour enregistrer la nouvelle configuration de rappel. Vous pouvez répéter cette procédure pour ajouter d’autres rappels si nécessaire.
 
@@ -238,6 +238,10 @@ Adobe Learning Manager utilise une terminologie de produit spécifique pour déf
 
 Voir Terminologie du produit dans Adobe Learning Manager pour plus d’informations.
 
+### Crédits
+
+Lorsque cette option est activée, les auteurs et les instructeurs peuvent enregistrer le nombre de crédits d’enseignement pour chaque session ou module. Les crédits représentent le temps d’instruction qu’un élève recevra pour avoir terminé l’activité. Les valeurs de crédit apparaissent dans les relevés de notes des élèves, les rapports d’apprentissage et contribuent aux calculs de durée totale des parcours d’apprentissage. Si vous désactivez ce paramètre, les valeurs de crédit précédemment saisies sont conservées et restaurées si le paramètre est réactivé.
+
 ### Mise à jour de la version du module
 
 Cette option permet aux administrateurs de mettre à jour le contenu d&#39;un module sans interrompre la progression des élèves déjà inscrits aux cours contenant ce module. Cela permet aux élèves de poursuivre leur parcours d’apprentissage en douceur, tandis que les auteurs peuvent maintenir le contenu à jour. Lorsque l’option est activée, les auteurs peuvent télécharger une nouvelle version d’un module (par exemple, les packages SCORM, AICC ou xAPI) pour remplacer l’existant.
@@ -260,6 +264,10 @@ Cette option supprime les utilisateurs qui n’accèdent pas à Adobe Learning M
 * Les utilisateurs internes qui sont inactifs depuis une durée définie sont automatiquement supprimés.
 * Les utilisateurs sont informés avant la suppression, ce qui leur donne la possibilité de se connecter et d’empêcher la suppression.
 * Pour que son accès soit restauré, un utilisateur supprimé doit contacter l’administrateur du compte.
+
+### Purge automatique des utilisateurs supprimés
+
+Supprimez automatiquement et définitivement du système les utilisateurs qui ont été à l’état Supprimé pendant une durée spécifiée. Une fois vidées, toutes les données utilisateur associées sont définitivement supprimées et ne peuvent pas être récupérées.
 
 ### Afficher les étiquettes de catalogue
 
@@ -338,7 +346,7 @@ Fonctionnement :
 >* Adobe Learning Manager ne fournit pas de compte Badgr dans le cadre de l’intégration. Les élèves doivent créer leur propre compte Badgr.
 >* Les élèves peuvent configurer leur compte Badgr directement à partir de la page Badges de l’application de l’élève.
 
-Pour plus d&#39;informations, voir Prise en charge des badges Badgr[&#128279;](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).
+Pour plus d&#39;informations, voir Prise en charge des badges Badgr](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).[
 
 ### Afficher les évaluations
 
@@ -395,6 +403,215 @@ Cette fonctionnalité est particulièrement utile pour les organisations qui ven
 *Paiement simplifié : réduit la nécessité pour les élèves d’effectuer des achats distincts pour chaque élément de formation.
 * Gestion des SKU : les administrateurs peuvent gérer les SKU des cours, des parcours d’apprentissage et des certifications pour assurer un suivi et un reporting appropriés.
 
+### Autres cours/parcours
+
+Lorsque les élèves terminent un cours/parcours, un autre ensemble spécifié de cours/parcours peut être marqué comme terminé via un autre. Ceci est utile lorsque les cours couvrent un contenu équivalent ou qui se chevauche. Par exemple, lorsqu’un nouveau cours remplace une ancienne version ou lorsqu’il existe des variantes régionales de la même formation. Les élèves ne sont pas automatiquement inscrits à des cours/parcours marqués comme terminés via une autre plateforme et ne recevront que des crédits, des badges et des points pour le cours/parcours qu’ils ont réellement terminé. Les autres achèvements apparaissent dans le relevé de notes de l’élève et sont pris en compte dans tout parcours d’apprentissage ou certification qui inclut le cours alternatif.
+
+**Activer les terminaisons rétroactives (irréversible)**
+Si des élèves ont terminé un cours/parcours plus tôt et qu’un autre cours/parcours est ajouté ultérieurement sous Autres cours/parcours, ceux-ci seront également marqués comme terminés via Autre pour les élèves. Cela s’applique rétroactivement à toutes les réalisations passées, pas seulement aux inscriptions à venir. Utilisez cette option lorsque vous souhaitez que les achèvements historiques soient pris en compte dans les nouveaux cours alternatifs. Une fois activé, cette option ne peut plus être désactivée.
+
+**Activer les inachevements rétroactifs (irréversible)**
+Si un cours/parcours est supprimé des autres cours/parcours, les élèves qui étaient précédemment marqués comme terminés via un autre parcours seront marqués comme incomplets. Cela affecte tous les élèves dont l’achèvement était basé uniquement sur l’alternative, et non les élèves qui ont terminé le cours directement. Leur relevé de notes reflétera le statut incomplet mis à jour. Une fois activé, cette option ne peut plus être désactivée.
+
+### Visibilité de Gradebook
+
+Lorsque cette option est activée, les auteurs peuvent contrôler la visibilité du cahier de notes au niveau du cours, ce qui permet aux élèves d&#39;afficher leurs scores de module pondérés, le score total du cours et le statut Réussite/Échec directement dans le lecteur de cours. Si ce paramètre est désactivé au niveau du compte, les élèves ne peuvent pas voir le cahier de notes dans un cours, quelle que soit la façon dont les cours individuels sont configurés. Les scores et les calculs du carnet de notes continuent d’être exécutés en arrière-plan à des fins de création de rapports par l’administrateur même lorsque la visibilité des élèves est désactivée.
+
+**Activer l&#39;affichage du carnet de notes pour les élèves**
+
+Active l’autorisation au niveau du compte qui permet aux auteurs d’afficher ou de masquer le journal de notes par cours. Une fois activée, les auteurs voient une option Afficher le carnet de notes aux élèves dans l&#39;éditeur de cours. Les élèves verront un onglet Gradebook dans le lecteur de cours pour tout cours pour lequel l&#39;auteur l&#39;a activé. La désactivation de ce paramètre au niveau du compte remplace toutes les configurations au niveau du cours. Les élèves ne verront pas le cahier de notes dans un cours tant que le paramètre n’est pas réactivé.
+
+### Apprentissage externe
+
+Lorsque cette option est activée, les élèves peuvent envoyer et suivre les activités d’apprentissage terminées en dehors de Adobe Learning Manager, telles que les certifications, les ateliers, les conférences et les cours externes, directement à partir de leur tableau de bord d’élève. Les envois sont révisés et approuvés par le responsable direct de l’élève avant d’être enregistrés. Une fois approuvée, l’activité d’apprentissage externe est ajoutée au relevé de notes de l’élève et est prise en compte dans son enregistrement d’apprentissage global. Les administrateurs peuvent configurer les champs que les élèves doivent remplir lors de l&#39;envoi d&#39;une activité d&#39;apprentissage externe, y compris les champs personnalisés spécifiques à votre organisation.
+
+**Activer**
+
+Active la fonctionnalité Apprentissage externe pour tous les élèves du compte. Une fois activé, un formulaire d’envoi devient disponible sur le tableau de bord des élèves. Les élèves peuvent saisir des détails tels que le nom de la formation, sa durée, la date, le score et le justificatif d’accomplissement. La soumission est envoyée à son responsable pour révision et approbation. Les envois approuvés apparaissent dans le relevé de notes de l’élève et dans les rapports de l’administrateur. Les soumissions rejetées ne sont pas enregistrées dans la transcription.
+
+>[!NOTE]
+>
+>L’activation de ce paramètre ajoute de nouvelles colonnes au relevé de notes de l’élève pour les soumissions d’apprentissage externes. Si votre organisation utilise des workflows ou des intégrations automatisés qui traitent les données du relevé de notes de l’élève, vérifiez-les avant de les activer pour vous assurer de la compatibilité avec la structure du relevé de notes mise à jour.
+
+L’apprentissage externe est un type d’activité d’apprentissage pour la formation hors plateforme. Les élèves l&#39;utilisent pour enregistrer une formation qui n&#39;existe pas dans Adobe Learning Manager, telle qu&#39;un examen de certification du secteur, une conférence professionnelle, une session de mentorat ou un cours universitaire.
+
+1. Un **élève** remplit un formulaire de soumission avec des détails sur sa formation externe et télécharge éventuellement une preuve d’accomplissement.
+
+2. Le **responsable** de l&#39;élève reçoit une notification l&#39;invitant à examiner l&#39;envoi et l&#39;approuve ou le rejette avec un commentaire facultatif.
+
+3. Lors de l&#39;approbation, l&#39;envoi est ajouté au **relevé de notes de l&#39;élève**, où les administrateurs peuvent le consulter et le signaler.
+
+Ce workflow permet aux entreprises de combiner la formation obligatoire sur la conformité intégrée à la plateforme avec l’apprentissage autonome ad hoc effectué par leurs employés dans le monde réel, et de suivre les deux dans un seul système.
+
+L’apprentissage externe est une fonctionnalité configurable. Les administrateurs contrôlent si les élèves y ont accès, quels champs apparaissent sur le formulaire d’envoi et si chaque champ est obligatoire ou facultatif. Des champs personnalisés peuvent être ajoutés pour capturer des informations spécifiques à l’organisation telles qu’un type de formation ou un numéro de référence de certificat.
+
+### Cycle de vie du statut de la soumission
+
+Chaque soumission d’apprentissage externe passe par un ensemble défini de statuts :
+
+| **Statut** | **Signification** |
+|-------------------|--------------------------------------------------------------------------------|
+| Attente de l&#39;approbation | L’élève a soumis la demande. Elle est en attente d’examen par le responsable. |
+| Approuvé | Le responsable a approuvé l’envoi ; il apparaît dans le relevé de notes de l’élève. |
+| Rejeté | Le responsable a rejeté l’envoi. L’élève peut envoyer une nouvelle demande. |
+
+Un élève peut modifier une soumission lorsqu&#39;elle est à l&#39;état **En attente d&#39;approbation**. Une fois qu’un responsable a pris des mesures, la soumission ne peut plus être modifiée. Si une soumission est rejetée, l’élève soumet une nouvelle demande d’apprentissage externe plutôt que de modifier la demande rejetée.
+
+### Disponibilité et visibilité des fonctionnalités
+
+Les administrateurs contrôlent la disponibilité de l’apprentissage externe via un paramètre unique au niveau du compte :
+
+**Lorsque l’apprentissage externe est activé :**
+
+* Les élèves voient l&#39;onglet **Apprentissage externe** dans la navigation et peuvent soumettre de nouvelles demandes
+* Les responsables voient l&#39;onglet **Apprentissage externe** dans le tableau de bord de leur équipe et peuvent consulter les envois
+* Les relevés de notes des administrateurs et des élèves incluent des données d’apprentissage externes pour les envois approuvés
+
+**Lorsque l’apprentissage externe est désactivé :**
+
+* Les élèves qui n’ont pas de demandes précédentes ne voient aucune interface d’apprentissage externe
+
+* Les élèves qui ont déjà envoyé des fichiers peuvent toujours afficher leur historique et l’état des fichiers envoyés, mais ne peuvent pas créer de nouveaux fichiers envoyés
+
+* Les responsables conservent l’accès à l’onglet Apprentissage externe si leur équipe a déjà soumis des ressources. Sinon, l’onglet est supprimé
+
+* Les données de relevé de notes existantes pour les soumissions approuvées ne sont pas affectées
+
+#### Champs principaux
+
+Ces champs sont disponibles par défaut pour tous les comptes. Les administrateurs peuvent choisir les champs à afficher sur le formulaire de soumission de l’élève et marquer chacun comme obligatoire ou facultatif.
+
+| **Champ** | **Type** | **Notes** |
+| --- | --- | --- |
+| Titre | Texte | Nom de l’apprentissage, du cours ou de la certification externe. |
+| Description/Notes | Texte | L’élève peut ajouter des détails sur le fournisseur ou le contexte de formation. |
+| Date/Plage de dates | Date/heure | Date de début, date de fin ou les deux. Prend en charge les heures, les minutes, la semaine, le mois, les jours ou l&#39;année. |
+| Durée | Durée (heures) | Temps consacré à la formation externe. |
+| Score | Nombre | Score reçu par l’élève, le cas échéant. |
+| Pièces jointes | Téléchargement de fichier | Preuve d’accomplissement. L’élève peut envoyer un certificat, un relevé de notes ou toute autre documentation. |
+
+#### Champs personnalisés
+
+Les administrateurs peuvent ajouter jusqu’à 10 champs personnalisés pour capturer des informations supplémentaires spécifiques à l’organisation. Les champs personnalisés prennent en charge les types suivants :
+
+| **Type** | **Description** |
+|------------|------------------------------------------------------------------|
+| Texte | Saisie de texte libre. |
+| Nombre | Saisie numérique. |
+| Case à cocher | Bouton Oui/Non unique. |
+| Liste déroulante | Sélection unique dans une liste d’options définie par l’administrateur. |
+
+### Exigences relatives au fichier de preuve d’accomplissement
+
+* **Types de fichiers pris en charge :** PDF, DOC, DOCX, PNG, JPEG, JPG
+
+* **Taille maximale de fichier :** 50 Mo par pièce jointe
+
+#### Ce que les administrateurs contrôlent pour l’apprentissage externe
+
+L&#39;apprentissage externe est **désactivé par défaut** pour tous les comptes. Vous devez l’activer explicitement avant que les élèves puissent soumettre des demandes ou que les responsables puissent voir l’onglet Révision.
+
+Lorsque vous activez l’apprentissage externe :
+
+* Les élèves ont accès à l&#39;onglet **Apprentissage externe** et peuvent soumettre de nouvelles demandes
+
+* Les responsables ont accès à l&#39;onglet de révision **Apprentissage externe**
+
+* Les relevés de notes de l’administrateur et de l’élève obtiennent les colonnes de rapport pour les activités d’apprentissage externes approuvées. Une fois l’apprentissage externe activé, cela peut affecter les rapports de relevé de notes de l’élève. Si votre organisation utilise les données du relevé de notes de l’élève pour l’automatisation, passez en revue et mettez à jour tous les workflows dépendants pour tenir compte des nouveaux champs et enregistrements d’apprentissage externes.
+
+Lorsque vous désactivez l’apprentissage externe après son utilisation :
+
+* Les nouvelles demandes d’élèves sont bloquées
+
+* Les élèves avec une approbation envoyée et en attente peuvent être modifiés
+
+* Les responsables ayant soumis des demandes précédentes peuvent toujours agir sur les demandes en attente
+
+* Les données de transcription des soumissions précédemment approuvées sont inchangées
+
+* Vous pouvez réactiver la fonctionnalité à tout moment. Aucune donnée n’est perdue lorsque la fonctionnalité est désactivée.
+
+#### Activation ou désactivation de l’apprentissage externe
+
+**Attention :** l’activation de l’apprentissage externe ajoute de nouvelles colonnes au relevé de notes de l’élève administrateur : **Nom de l’apprentissage externe**, **Commentaire d’achèvement** et tout champ personnalisé configuré pour votre compte. Les colonnes de champs personnalisés apparaissent à la fin du relevé de notes.
+
+Si votre organisation utilise le relevé de notes de l’élève dans des processus automatisés ou des processus de création de rapports en aval, mettez à jour ces systèmes pour gérer les nouvelles colonnes avant d’activer cette fonctionnalité.
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+
+2. Dans le volet de navigation de gauche, sélectionnez **Paramètres**.
+
+3. Sélectionnez **Général**.
+
+4. Accédez à la section **Apprentissage externe**.
+
+5. Cochez la case **Activer l&#39;apprentissage externe** pour activer la fonctionnalité.
+
+6. Sélectionnez **Enregistrer**.
+
+Les élèves peuvent désormais soumettre des demandes d’apprentissage externes. Leurs responsables recevront des notifications sur la plateforme lors de la création des soumissions.
+
+Pour désactiver la fonctionnalité, suivez les mêmes étapes et désactivez l’option.
+
+#### Configuration du formulaire d’apprentissage externe
+
+Après avoir activé la fonctionnalité, configurez les champs qui apparaissent sur le formulaire de soumission de l’élève.
+
+1. Dans **Paramètres > Général**, ouvrez la section **Apprentissage externe**.
+
+2. Sous **Configuration du formulaire**, passez en revue la liste des champs par défaut.
+
+3. Cochez la case en regard de chaque champ pour l’afficher ou le masquer dans le formulaire de l’élève.
+
+4. Pour chaque champ visible, sélectionnez **Obligatoire** pour contrôler si les élèves doivent le remplir avant l’envoi.
+
+5. Sélectionnez **Enregistrer**.
+
+**Remarque :** le champ **Titre** est toujours obligatoire et ne peut pas être masqué ni rendu facultatif.
+
+Le formulaire de soumission de l’élève reflète immédiatement vos modifications. Les envois existants ne sont pas affectés par les modifications de configuration du formulaire.
+
+#### Ajouter et gérer des champs personnalisés
+
+Vous pouvez ajouter jusqu’à 10 champs personnalisés pour capturer des informations spécifiques à votre organisation.
+
+**Ajouter un champ personnalisé**
+
+1. Dans **Paramètres > Général**, ouvrez la section **Apprentissage externe**.
+
+2. Développez **Champs personnalisés**.
+
+3. Sélectionnez **Nouveau champ**.
+
+4. Sélectionnez un **type de champ** : **Texte**, **Numéro**, **Case à cocher** ou **Liste déroulante**.
+
+   1. Si vous sélectionnez **Liste déroulante**, entrez la liste de valeurs parmi lesquelles les élèves peuvent choisir. Vous pouvez ajouter jusqu’à 100 valeurs de liste déroulante.
+
+   2. Saisissez le nom du champ et, éventuellement, sa description.
+
+5. Sélectionnez ou désélectionnez l&#39;option **Obligatoire** pour les nouveaux champs personnalisés.
+
+6. Sélectionnez **Enregistrer**.
+
+Le nouveau champ s’affiche immédiatement sur le formulaire de soumission de l’élève.
+
+**Modifier un champ personnalisé**
+
+1. Dans **Paramètres > Général**, ouvrez la section **Apprentissage externe**.
+
+2. En regard du champ personnalisé que vous souhaitez modifier, sélectionnez **Modifier**.
+
+3. Mettez à jour le nom du champ ou, pour les champs déroulants, ajoutez, modifiez ou supprimez des valeurs.
+
+4. Sélectionnez **Enregistrer**.
+
+La modification d’un nom de champ ou de valeurs de liste déroulante ne modifie pas les données déjà capturées dans les envois existants. Seules les nouvelles soumissions utilisent les étiquettes et les options mises à jour.
+
+**IMPORTANT**
+
+Une fois que vous avez ajouté un champ personnalisé, vous ne pouvez plus le supprimer. Vous ne pouvez que le modifier. Si vous souhaitez qu’un champ n’apparaisse pas sur le formulaire d’un élève, décochez-le.
+
+
 ### Paramètres du lecteur
 
 Cette option permet aux auteurs de personnaliser le lecteur Fluidic pour différents cours au niveau du cours. Les auteurs peuvent configurer la façon dont le contenu de formation est affiché pour les élèves dans le lecteur. Cela inclut les paramètres liés à la langue du contenu, aux préférences de l’interface et aux options de lecture.
@@ -406,9 +623,9 @@ Les responsables peuvent marquer l’achèvement du cours via :
 
 * Module Liste de contrôle : Le module Liste de contrôle permet aux responsables d&#39;évaluer les performances des élèves en fonction de tâches ou de critères spécifiques. Les auteurs doivent activer ce module lors de la création du cours et affecter des responsables en tant que réviseurs.
 * Page du cours : sur la page du cours :
-a.    Sélectionnez l&#39;onglet **[!UICONTROL Élèves]** dans le volet de gauche.
-b.    Sélectionnez l’élève dont vous souhaitez marquer l’assiduité.
-c.    Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Marquer comme terminé]**.
+a. Sélectionnez l&#39;onglet **[!UICONTROL Élèves]** dans le volet de gauche.
+b. Sélectionnez l’élève dont vous souhaitez marquer l’assiduité.
+c. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Marquer comme terminé]**.
 
 **Remarques supplémentaires :**
 
@@ -425,7 +642,7 @@ i. Les élèves déjà inscrits au cours ou au parcours d’apprentissage retir�
 ii. Ils peuvent continuer à effectuer des actions telles que terminer le cours ou consulter le matériel.
 b. Élèves non encore inscrits :
 i. Les élèves qui ne sont pas inscrits au cours ou au parcours d’apprentissage avant son retrait ne verront plus le contenu dans le catalogue.
-ii. Ils perdront complètement l’accès au contenu retiré.
+ii. Ils perdront entièrement l’accès au contenu retiré.
 2. Une fois retirés, les élèves inscrits et non encore inscrits perdront l’accès :
 a. Élèves inscrits :
 i. Les élèves qui étaient déjà inscrits au cours ou au parcours d’apprentissage perdront l’accès au contenu une fois qu’il sera retiré.
