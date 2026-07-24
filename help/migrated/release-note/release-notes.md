@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
+source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
 workflow-type: tm+mt
-source-wordcount: '30900'
-ht-degree: 72%
+source-wordcount: '33111'
+ht-degree: 67%
 
 ---
 
@@ -24,6 +24,123 @@ ht-degree: 72%
  </tbody>
 </table>
 -->
+
++++Mise à jour 110 : version d’août 2026 de Adobe Learning Manager
+
+>[!IMPORTANT]
+>
+>Les fonctionnalités décrites dans ces notes de mise à jour sont disponibles dans le cadre de la version Beta. les fonctionnalités de Adobe Learning Manager version bêta sont fournies à des fins d’évaluation et peuvent être modifiées, limitées ou supprimées avant la mise à disposition générale. Les noms de fonctionnalités, le comportement et les options de configuration peuvent être modifiés sans préavis.
+
+## Annuler les tons clairs
+
+La version d’août 2026 de Adobe Learning Manager offre des avancées significatives en matière d’apprentissage personnalisé, d’IA, de création de rapports et d’intégrations. Les cours adaptatifs introduisent des règles de visibilité et d&#39;achèvement de module axées sur des groupes d&#39;utilisateurs, ce qui permet à un cours unique de présenter différents contenus à différents élèves en fonction de leur rôle, région ou profil, éliminant ainsi la nécessité de conserver des versions de cours distinctes.
+
+L&#39;ensemble complet de notes ajoute une notation pondérée et un calcul d&#39;agrégation réussite/échec aux cours, ce qui donne aux organisations une mesure précise et configurable des performances des élèves au-delà du simple suivi d&#39;achèvement.
+
+Sur le front de l’IA, l’assistant AI pour les élèves acquiert des résumés de cours, une comparaison des objets d’apprentissage, des réponses Adobe Experience League et des requêtes de contenu tiers à partir des catalogues d’apprentissage Go1 et LinkedIn ; un nouvel agent de parcours d’apprentissage guide les élèves dans une conversation pour générer automatiquement un parcours d’apprentissage séquencé personnalisé ; et l’agent Insights introduit des requêtes en langage naturel dans les rapports de l’administrateur. Toutes les fonctionnalités d’IA sont régies par un nouveau système de crédits Gen AI sur la page Facturation, qui indique aux administrateurs des limites d’utilisation par fonctionnalité et des alertes de consommation.
+
+La gestion du contenu est renforcée par un créateur de modèles de courrier électronique basé sur les composants WYSIWYG, une structure de dossiers de contenu hiérarchique avec un accès basé sur les rôles, une fonctionnalité Apprentissage externe pour soumettre et approuver des formations hors plateforme, et une nouvelle fonctionnalité Canaux qui agrège le contenu vidéo à partir des pages Web d’entreprise et des pages Confluence.
+
+Pour plus d&#39;informations, voir [Nouveautés et modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/whats-new.md).
+
+## Dernières modifications apportées à la version
+
+### Fonctionnalité Apprentissage externe : nouvelles colonnes dans le relevé de notes de l&#39;élève
+
+Ils ajoutent des champs personnalisés Apprentissage externe spécifiques au compte au rapport LT. Dans Admin LT, de nouvelles colonnes de champs personnalisés sont ajoutées à la fin ; dans Admin LT, Nom de l’apprentissage externe et Commentaire d’achèvement sont insérés à côté des champs associés au module et au réviseur, les champs personnalisés restants étant ajoutés à la fin.
+
+En savoir plus sur les [rapports de modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### ID de formation racine pour les certifications dans le relevé de notes de l’élève
+
+Cela ajoute une nouvelle colonne ID de formation racine à la fois pour les LT Administrateur et Élève. La colonne s’affiche à la fin du rapport et permet d’identifier le contexte de certification parent pour l’enregistrement de l’élève.
+
+En savoir plus sur les [rapports de modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Alignement du format date/heure du webhook sur le relevé de notes de l’élève
+
+Cela normalise les valeurs de date et d’heure de l’objet de données du webhook avec une précision minimale. Les secondes 00 sont toujours émises, ce qui aligne les horodatages des webhooks sur le format de rapport LT.
+
+En savoir plus sur les [rapports de modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Colonne Pondération dans le relevé de notes de l’élève
+
+Une colonne Poids est ajoutée au rapport LT pour les modules des cours compatibles avec Gradebook. Le poids du module s’affiche directement dans la sortie du rapport.
+
+En savoir plus sur les [rapports de modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Détails de l’auteur du cours partagé dans l’API LearningObjects
+
+Les détails mettent à jour la réponse d’objet d’apprentissage de l’API learningObjects pour les cours partagés afin que les comptes de réception n’affichent plus l’administrateur acceptant comme auteur. Seuls les détails de l’auteur externe d’origine sont affichés dans les comptes de pairs ; le comportement du compte parent reste inchangé.
+
+### Détection d’intention dans l’agent AI Orchestrator
+
+L&#39;agent AI Orchestrator déplace la détection d&#39;intention pour les requêtes uniques dans l&#39;orchestrator et supprime les basculements manuels de l&#39;interface utilisateur. Le routage des requêtes peut changer entre les flux Q&amp;R et PLP en fonction du mode détecté.
+
+## Corrections de bugs dans la version
+
+**Relevé de notes de l’élève :** les dates dans le rapport de relevé de notes de l’élève étaient auparavant de 00 pendant les secondes, tandis que dans le webhook les secondes s’affichaient comme elles le devaient, à savoir en deux chiffres. Ce problème a été résolu. Le relevé de notes de l’élève affiche désormais correctement les secondes à deux chiffres également.
+
+**Instance :** lorsqu&#39;une session Microsoft Teams ou Adobe Connect VC était annulée à partir de la page d&#39;instance, certains détails de session associés étaient conservés après une actualisation de la page. Ce problème a été résolu et les sessions annulées suppriment désormais correctement tous les détails associés, y compris les paramètres de l’organisateur d’équipes et de contournement de la salle d’attente, ainsi que l’instructeur principal Connect.
+
+**API :** un problème dans un workflow AWS automatisé a entraîné des demandes de téléchargement répétées à l&#39;API HTTP du CMS pour utiliser des URL mal codées, ce qui a entraîné des erreurs HTTP 500 intermittentes et des volumes élevés de trafic non valide. Le workflow a été mis à jour pour coder correctement les espaces et autres caractères spéciaux dans les URL de demande de téléchargement. Par conséquent, les demandes de téléchargement de ressources de compte sont traitées avec succès, ce qui réduit les erreurs et améliore la fiabilité de la récupération automatisée des ressources.
+
+**Élève :** en raison d&#39;un problème, le formatage italique appliqué dans la section Présentation détaillée d&#39;un cours s&#39;affichait correctement lors de la création, mais pas sur la page de présentation du cours destinée aux élèves après la publication. La logique de rendu a été mise à jour pour conserver le formatage de texte en italique lors de la publication du contenu du cours. Par conséquent, les italiques appliqués dans la section Présentation détaillée s&#39;affichent correctement et de manière cohérente pour les élèves sur la page de présentation du cours publié.
+
+**Certifications personnalisées :** l&#39;aperçu du certificat affichait un arrière-plan blanc vide lorsqu&#39;une image de SVG était chargée en tant qu&#39;arrière-plan de certificat pour un certificat de réussite. Le processus de rendu de l’aperçu du certificat a été mis à jour pour prendre correctement en charge et afficher les images d’arrière-plan téléchargées du SVG. Par conséquent, les aperçus de certificat affichent désormais comme prévu l’arrière-plan du SVG configuré, fournissant une représentation précise du certificat final.
+
+**Auteur :** la génération de fichiers VTT pour les vidéos interactives longues peut connaître des retards importants, avec des délais de traitement supérieurs à deux heures pour certains chargements. Ce problème a été étudié et optimisé pour améliorer les performances de génération VTT et la fiabilité pour les fichiers vidéo volumineux. En conséquence, les fichiers VTT sont désormais générés plus efficacement, offrant un workflow de sous-titrage plus rapide et plus cohérent pour les chargements vidéo interactifs.
+
+**API :** certains enregistrements d&#39;achèvement d&#39;élève n&#39;étaient pas renvoyés par l&#39;API d&#39;exportation de rapport, même si les données d&#39;achèvement existaient en arrière-plan, correspondaient à la plage de dates spécifiée et aux filtres de groupe d&#39;utilisateurs, et répondaient à tous les critères de rapport. Le processus d&#39;exportation des rapports pour les achèvements des élèves sur plusieurs tâches et la logique d&#39;extraction des données ont été améliorés pour s&#39;assurer que les enregistrements d&#39;achèvements éligibles sont systématiquement inclus dans les exportations d&#39;API. Les réponses de l’API de rapport d’exportation retournent désormais des données d’achèvement complètes des élèves pour les utilisateurs dont les horodatages d’achèvement font partie de la plage de dates et de la portée de filtre demandées, ce qui fournit des résultats de rapport plus précis et plus fiables.
+
+**Webhook :** lorsqu&#39;un élève s&#39;inscrivait à une session qui a été annulée par la suite, l&#39;inscription à une autre session du même cours ne déclenchait pas un nouvel événement webhook d&#39;inscription, sauf si l&#39;élève était désinscrit pour la première fois de la session annulée. Cela a empêché les systèmes en aval de recevoir les mises à jour d&#39;inscription valides pour les instances annulées ou précédemment terminées. Le flux de webhook a été mis à jour afin qu’un nouvel événement d’inscription soit déclenché lorsqu’un élève s’inscrit à une autre session du même cours après l’annulation ou la fin de la session précédente, ce qui garantit que l’activité d’inscription est signalée de manière cohérente.
+
+**API :** les demandes d’API d’administration pour les parcours d’apprentissage qui incluaient des données associées étendues (telles que les instances, les inscriptions, les ressources et les notes) ont subi une dégradation significative des performances, les temps de réponse passant de cinq à huit secondes habituelles à jusqu’à 45 à 60 secondes, ce qui a un impact sur les workflows d’intégration et les systèmes en aval. Des optimisations de performances ont été mises en œuvre pour inclure des demandes d’objets d’apprentissage complexes afin d’améliorer l’efficacité de la récupération des données. Les appels API de parcours d’apprentissage qui incluent des relations imbriquées complexes renvoient désormais des résultats de manière plus cohérente et avec des temps de réponse améliorés, ce qui permet d’assurer des performances d’intégration fiables.
+
+**Courriers électroniques et notifications :** les élèves qui terminaient des cours de certification récurrents recevaient des courriers électroniques d&#39;achèvement de cours même lorsque le modèle de courrier électronique d&#39;achèvement avait été désactivé sur le cours d&#39;origine. Cela s’est produit car les certifications récurrentes ont créé de nouveaux cours et instances sans copier les paramètres de notification de niveau cours d’origine, ce qui a entraîné l’utilisation des configurations de messagerie par défaut pour les cours dupliqués. Le processus de périodicité a été mis à jour pour conserver les paramètres de notification de cours lors de la duplication de cours. Par conséquent, les e-mails d’achèvement ne sont désormais envoyés que lorsqu’ils sont explicitement activés sur la configuration de cours d’origine.
+
+**Élève :** les annonces en-tête configurées avec des vidéos n&#39;affichaient que l&#39;image vidéo initiale sur la page d&#39;accueil de l&#39;élève et la lecture ne démarrait pas automatiquement comme prévu. Le comportement de lecture vidéo a été mis à jour pour s’assurer que les vidéos d’en-tête prises en charge sont lues automatiquement correctement lorsque l’annonce est chargée. Les élèves peuvent désormais afficher les annonces d&#39;en-tête vidéo sans lecture manuelle, ce qui offre une expérience plus attrayante.
+
+**Élève :** le widget **Tendance dans votre réseau** n&#39;affichait pas correctement une carte vide **Commencer l&#39;apprentissage** dans les deux lignes horizontales. Ce problème a été résolu en affichant la carte d’état vide appropriée pour chaque ligne. La première ligne affiche désormais un lien **Accéder au catalogue**, tandis que la deuxième ligne continue d&#39;afficher la carte **Commencer l&#39;apprentissage** comme prévu.
+
+**API :** lorsque les élèves triaient le catalogue par nom dans l&#39;ordre croissant (A-Z), l&#39;API publique renvoyait les résultats en utilisant un tri sensible à la casse, ce qui entraînait l&#39;affichage des noms de cours en majuscules (AA, BB, CC) avant les noms en minuscules (aa, bb) au lieu de suivre l&#39;ordre alphabétique standard. La logique de tri a été mise à jour pour utiliser une comparaison non sensible à la casse. Les résultats du catalogue s’affichent désormais dans la séquence alphabétique attendue, quelle que soit la casse des lettres, ce qui garantit un ordre cohérent des noms de cours.
+
+**CR-VC :** lorsqu&#39;un nouvel instructeur était ajouté à un cours VC, aucun e-mail d&#39;invitation à une session n&#39;était envoyé si le modèle de courrier électronique « Vous avez été ajouté en tant qu&#39;instructeur/Organisateur/Co-organisateur » était désactivé, empêchant les instructeurs de recevoir les détails de la session. La logique de notification a été corrigée pour s’assurer que les invitations à une session d’instructeur sont générées indépendamment du modèle.
+
+**Client commun :** lorsque la durée d&#39;un module d&#39;activité était mise à jour après l&#39;ajout du cours à un plan d&#39;apprentissage à déclenchement automatique d&#39;inscription (AET), l&#39;aperçu de l&#39;élève continuait à afficher la durée de l&#39;instance AET au lieu de la durée mise à jour de l&#39;instance de cours par défaut. Ce problème a été résolu en s&#39;assurant que l&#39;aperçu de l&#39;élève récupère la durée du module à partir de l&#39;instance de cours correcte. Les aperçus des élèves affichent désormais avec précision la dernière durée du module publié, en reflétant les mises à jour apportées au contenu du cours.
+
+**Élève :** dans une certification ordonnée, les élèves pouvaient contourner un premier cours qui avait échoué et accéder à un deuxième cours verrouillé en remplissant sa condition préalable, ce qui permettait de marquer la certification comme terminée lorsque la condition était définie sur n&#39;importe quel cours. La validation a été mise à jour pour appliquer l’ordre des cours et verrouiller les règles de manière cohérente. Les élèves peuvent désormais satisfaire aux exigences de certification uniquement dans l&#39;ordre défini, ce qui empêche les cours verrouillés de contribuer à l&#39;achèvement de la certification.
+
+**API :** lorsqu&#39;une ressource était ajoutée à un cours sans description, l&#39;API GET /learningObject/{id} ne renvoyait pas une description nouvellement ajoutée si la ressource était mise à jour ultérieurement. Cela a entraîné l’affichage de métadonnées de ressources obsolètes via l’API. Le problème de synchronisation a été résolu et l&#39;API renvoie désormais la dernière description de ressource, quelle que soit la date à laquelle elle a été ajoutée.
+
+**API :** lorsqu&#39;un module a été migré avec une description et que la description a été mise à jour ultérieurement, la valeur mise à jour a été correctement enregistrée dans la table du module, mais n&#39;a pas été reflétée dans l&#39;interface utilisateur. L&#39;interface utilisateur a continué à afficher l&#39;ancienne description, car elle provenait de l&#39;enregistrement content_group, qui n&#39;était pas mis à jour lors de la modification. Ce problème de synchronisation a été résolu et les descriptions de module mises à jour sont désormais reflétées de manière cohérente dans l’interface utilisateur après la migration.
+
+**Modèles de courrier électronique et configuration :** lorsque les administrateurs ont mis à jour la bannière de courrier électronique dans les paramètres du modèle de courrier électronique, la nouvelle bannière s&#39;est affichée correctement dans Outlook Desktop, mais elle ne s&#39;est pas affichée dans Outlook Web, ce qui a entraîné une expérience de courrier électronique incohérente entre les clients. Le rendu du modèle de courrier électronique a été mis à jour pour assurer la compatibilité de la bannière entre les plateformes Outlook. Les bannières d&#39;e-mail mises à jour s&#39;affichent désormais correctement dans Outlook pour poste de travail et Outlook pour le web.
+
+## Problèmes connus dans la version
+
+### Les noms de colonne ne sont pas localisés dans le fichier CSV Emplacements de salle de classe exporté
+
+Lorsque les paramètres régionaux de l’interface utilisateur sont définis sur une langue autre que l’anglais, le fichier CSV exporté à partir de la page Emplacements de la salle de classe affiche ses noms de colonnes (la ligne d’en-tête) en anglais plutôt que dans la langue sélectionnée.
+
+Ce comportement se produit lors de l’exportation des emplacements de salle de classe à partir du profil Administrateur > Paramètres > Emplacements de salle de classe. Bien que les données d’emplacement dans le fichier soient renvoyées correctement, les en-têtes de colonne ne sont pas traduits pour correspondre aux paramètres régionaux de l’interface utilisateur choisis par l’administrateur. Par conséquent, un administrateur travaillant dans des paramètres régionaux non anglais voit les noms de colonnes en anglais dans un environnement localisé.
+
+Seule la ligne d’en-tête est affectée ; les données d’emplacement sous-jacentes dans le fichier exporté ne sont pas affectées. Aucun correctif n’est inclus dans cette version et le problème est en cours d’évaluation pour une version ultérieure.
+
+### Le champ Durée du crédit limite la saisie à 9 999,99
+
+Lorsqu’un utilisateur saisit une valeur Durée du crédit supérieure à 9 999,99 (par exemple, 999999) dans le formulaire de modification de session, la valeur est limitée en mode silencieux à 9 999,99 lors de l’enregistrement, sans qu’aucune erreur de validation ni aucun avertissement ne s’affiche pour l’utilisateur. Le champ a un attribut HTML max défini sur 9999.99, qui applique cette limite au niveau du navigateur sans informer l’utilisateur que sa saisie a été rejetée ou modifiée. Aucun correctif n’a été appliqué à cette version, car il est confirmé que ce comportement fonctionne comme prévu.
+
+### Le message d’erreur n’indique pas de ligne manquante dans la langue par défaut lors des téléchargements CSV
+
+Lorsqu’un chargement CSV d’emplacement structuré contient des lignes uniquement dans des paramètres régionaux autres que ceux par défaut, tels que fr, de et aucune ligne dans la langue par défaut du compte, le message d’erreur renvoyé est Paramètres régionaux à la ligne CSV 1 et la colonne 2 n’est pas valide ou n’est pas prise en charge. Cela n’indique pas que le problème réel est une ligne manquante dans la langue par défaut. Cela empêche les utilisateurs de charger des fichiers CSV multilingues et de diagnostiquer le problème à partir des seuls messages d’erreur. Ce problème a été supprimé pour cette version sans aucun correctif appliqué.
+
+### Le champ Limite de siège autorise des valeurs irréalistes allant jusqu’à 4 294 967 295.
+
+Le champ Limite de places dans le modèle Emplacement de la salle de classe accepte toute valeur jusqu’à 4 294 967 295 (environ 4,3 milliards), un plafond qui est techniquement déterminé par le type de données sous-jacent plutôt que par une contrainte d’entreprise réaliste. Les utilisateurs peuvent saisir et enregistrer des nombres de places irréalistes, tels que 1 000 000 000, sans qu’aucune validation au niveau de l’entreprise ne les rejette.
+Aucun correctif n’a été appliqué à cette version ; aucun maximum professionnel réaliste n’a encore été convenu ni appliqué.
+
++++
 
 +++Mise à jour 109 : version de juillet 2026 de Adobe Learning Manager
 
@@ -678,8 +795,8 @@ La nouvelle application Adobe Learning Manager sur Microsofts Teams est conçue 
 **Problèmes connus dans cette mise à jour**
 
 * Le bouton Partager du catalogue des élèves ne fonctionne pas comme prévu dans le navigateur Safari, l’application Mobile et iPad MS Teams.
-* Les notifications ne s’affichent pas dans l’onglet Activité lorsque l’application est supprimée sur d’autres ordinateurs.
-Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur un iPhone 14.
+* Les notifications ne s’affichent pas dans l’onglet Activité une fois que l’application est supprimée sur d’autres ordinateurs.
+Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur iPhone 14.
 * Dans l’application MS Teams, les notifications Learning Manager (terminé, inscrit, échéance et retard) n’affichent ni l’état ni le nom du cours dans l’onglet Activité.
 * Une fenêtre contextuelle avec du contenu XML s’affiche lorsque l’administrateur d’intégration n’approuve pas l’application MS Teams.
 * Parfois, la langue de l’interface utilisateur dans l’application Adobe Learning Manager sur MS Teams ne change pas comme prévu lors du changement de la langue.
@@ -705,7 +822,7 @@ Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Acti
 ### Amélioration Des Performances Dans Cette Version
 
 Lorsqu&#39;une inscription en bloc d&#39;élèves est effectuée, aucun fichier journal n&#39;est généré pour chaque élève.
-Nous avons optimisé le traitement des plans d’apprentissage pour les comptes volumineux. Cela permet d’éviter tout problème ou retard de recherche.
+Nous avons optimisé le traitement des plans d’apprentissage pour les grands comptes. Cela permet d’éviter tout problème ou retard de recherche.
 +++
 
 +++Mise à jour 87
@@ -737,8 +854,8 @@ Ajout de la prise en charge du code de langue à quatre lettres lors du filtrage
 
 ### Bogues Corrigés Dans Cette Mise À Jour
 
-Pour certaines langues, les résultats de recherche sont incorrects.
-Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes du même paramètre régional.
+Pour certaines langues, la recherche renvoie des résultats incorrects.
+Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes des mêmes paramètres régionaux.
 +++
 
 +++Mise à jour 84
@@ -871,9 +988,9 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 * Le tableau de bord Conformité affiche des données incorrectes pour les élèves non conformes.
 * Lors de l’ajout d’un rapport, vous ne pouvez pas sélectionner de cours ou de catalogues où la langue de l’interface n’a pas été ajoutée à la langue du contenu.
 * Nous avons ajouté les langues de contenu suivantes dans cette version :
-   * Bulgare
-   * Flamand
-   * Portugais (Brésil)
+  * Bulgare
+  * Flamand
+  * Portugais (Brésil)
 
 ### Problèmes connus de cette mise à jour
 
@@ -904,9 +1021,9 @@ La version de novembre 2022 d’Adobe Learning Manager se compose des élément
 * Les administrateurs et les instructeurs peuvent ajouter des commentaires pour les utilisateurs qui n’ont pas participé aux sessions ILT/VILT.
 * Amélioration des performances lors du téléchargement de rapports volumineux.
 * Lorsque l’e-mail d’un utilisateur est rejeté (rebond), l’administrateur reçoit une notification par e-mail. L’e-mail contient un lien sur lequel l’utilisateur peut cliquer pour télécharger un fichier CSV contenant la liste des utilisateurs dont l’e-mail a fait l’objet d’un rebond. L’administrateur peut alors prendre les mesures nécessaires.
-   * L’e-mail se déclenche en cas de rebond ou d’annulation d’un e-mail.
-   * L’e-mail se déclenche une fois par jour pour tous les administrateurs ajoutés à la liste.
-   * Le lien expire dans sept jours.
+  * L’e-mail se déclenche en cas de rebond ou d’annulation d’un e-mail.
+  * L’e-mail se déclenche une fois par jour pour tous les administrateurs ajoutés à la liste.
+  * Le lien expire dans sept jours.
 * Un message d’erreur s’affiche lors de la tentative d’intégration d’un compte Adobe Connect déjà intégré à un autre compte Learning Manager.
 +++
 
@@ -1206,14 +1323,14 @@ Date de publication : 28 septembre 2021
 
 * Sur le navigateur mobile, les liens profonds ont été activés pour les éléments suivants :
 
-   * Tous les forums
-   * Forum et publication publics
-   * Forum et publication privés avec accès
-   * Forum et publication privés sans accès
-   * Forum et publication à accès limité
-   * Commentaire sur la publication
-   * Réponse au commentaire
-   * Profil utilisateur réseau social
+  * Tous les forums
+  * Forum et publication publics
+  * Forum et publication privés avec accès
+  * Forum et publication privés sans accès
+  * Forum et publication à accès limité
+  * Commentaire sur la publication
+  * Réponse au commentaire
+  * Profil utilisateur réseau social
 
 * Pour les comptes utilisant un domaine personnalisé, l’application Learner n’affiche pas l’icône des favoris.
 * Sur AEM, le composant Learning Manager supprime la configuration des autres composants.
@@ -1659,8 +1776,8 @@ Date de publication : 23 septembre 2020
 
 * Pour identifier tous les cours auxquels chaque élève est inscrit et savoir s&#39;il l&#39;a terminé, incluez les champs suivants dans le rapport d&#39;abonnement du tableau de bord :
 
-   * UUID
-   * Adresse électronique
+  * UUID
+  * Adresse électronique
 
 **Relevé de notes de l’élève**
 
@@ -2165,10 +2282,10 @@ Dans cette mise à jour, un **message d&#39;avertissement indiquant que les donn
 
 * Sur les navigateurs mentionnés ci-dessous, lorsque vous pointez avec la souris sur le volet de gauche, le texte apparaît avec un léger retard.
 
-   * Edge 42.17134.1.0
-   * Edge 44.17763.1.0
-   * Internet Explorer 11.1006
-   * Internet Explorer 11.615
+  * Edge 42.17134.1.0
+  * Edge 44.17763.1.0
+  * Internet Explorer 11.1006
+  * Internet Explorer 11.615
 
 * Un élève est autorisé à entrer dans une salle de réunion Connect avant et après la session.
 
@@ -2348,10 +2465,10 @@ Date de publication : 30 mai 2019
 * Téléchargez les relevés de notes des élèves pour les utilisateurs supprimés. Pour plus d&#39;informations, voir [***Relevés de notes des élèves***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 * Prise en charge des langues suivantes :
 
-   * Coréen
-   * Turc
-   * Néerlandais
-   * Polonais
+  * Coréen
+  * Turc
+  * Néerlandais
+  * Polonais
 
 **Problèmes connus**
 
@@ -3821,8 +3938,8 @@ Date de publication : 9 décembre 2015
 * Les problèmes liés aux liens URL dans les modèles de courrier électronique sont corrigés.
 * Prise en charge pour
 
-   * Publish vers Learning Manager
-   * Prise en charge du chargement accéléré de contenu pour la version CP 8 (correctif CP803 requis)
+  * Publish vers Learning Manager
+  * Prise en charge du chargement accéléré de contenu pour la version CP 8 (correctif CP803 requis)
 
 +++
 

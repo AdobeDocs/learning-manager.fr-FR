@@ -2,16 +2,23 @@
 title: Nouveautés de Adobe Learning Manager
 description: Découvrez les changements à venir dans Adobe Learning Manager. Restez informé des dernières mises à jour et des annonces futures.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
+
 # Mises à jour dans Adobe Learning Manager
 
-La version de [avril 2026](/help/migrated/whats-new.md) a été publiée. Pour le moment, il n’y a pas d’autres changements à venir. Cette page sera mise à jour lorsque de nouvelles annonces seront disponibles.
+>[!IMPORTANT]
+>
+>Le document **Modifications à venir** sera bientôt retiré. À l&#39;avenir, les informations de version seront regroupées dans deux documents principaux : **Notes de mise à jour** et **Nouveautés**.
+>
+>Les fonctionnalités et améliorations prévues pour la **disponibilité générale** seront introduites dans les **Nouveautés** pendant la phase bêta et seront également incluses dans la documentation de la version lorsqu&#39;elles seront disponibles. Les **Nouveautés** et les **Notes de mise à jour** incluront des liens vers de nouveaux articles ainsi que des mises à jour de la documentation existante.
+>
+>Pour consulter la documentation de la version d&#39;août 2026, consultez les [notes de mise à jour](/help/migrated/release-note/release-notes.md) et les [nouveautés](/help/migrated/whats-new.md)
 
 <!-- 
 >[!IMPORTANT]

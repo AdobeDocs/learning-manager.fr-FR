@@ -3,10 +3,10 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '5385'
-ht-degree: 38%
+source-wordcount: '5992'
+ht-degree: 33%
 
 ---
 
@@ -128,9 +128,15 @@ Le tableau ci-dessous affiche les types de fichiers interactifs et statiques que
  </tbody>
 </table>
 
+## Aperçu du contenu du cours {#previewcontentlibrary}
+
+Vous pouvez prévisualiser le contenu du cours une fois qu&#39;il est ajouté à la bibliothèque de contenu. Pour afficher un aperçu, sélectionnez l’icône en forme d’œil à la fin de la ligne du cours correspondant.
+
+![](assets/preview-content-library.png)
+
 ## Ajouter du nouveau contenu dans la bibliothèque {#addnewcontentinthelibrary}
 
-**Les auteurs** peuvent ajouter du contenu dans ALM. Il existe deux types de contenu dans ALM : **[!UICONTROL Contenu]** et **[!UICONTROL Quiz]**. Pour savoir comment ajouter du contenu, consultez [Ajouter du contenu statique](content-library.md#addstaticcontent) et [Créer un quiz](content-library.md##createaquiz).
+**Les auteurs** peuvent ajouter du contenu dans ALM. Il existe deux types de contenu dans ALM : **[!UICONTROL Contenu]** et **[!UICONTROL Quiz]**. Pour savoir comment ajouter du contenu, consultez [Ajouter du contenu statique](content-library.md#addstaticcontent) et [Créer un quiz](content-library.md#createaquiz).
 
 ## Ajouter du contenu statique {#addstaticcontent}
 
@@ -243,7 +249,7 @@ La bibliothèque de contenus maintient également le contrôle de version de vos
    La même vue apparaît dans **l&#39;application de l&#39;élève** ainsi que dans **Aperçu en tant qu&#39;élève**.
 
    Lorsque vous **ajoutez, mettez à jour ou supprimez** le fichier vtt, vous recevez une notification.
-La prise en charge de WebVTT n’est pas disponible pour :
+   La prise en charge de WebVTT n’est pas disponible pour :
 
    1. Annonces vidéo.
    1. Vidéo lue dans le contenu de formation en ligne. Cela dépend du contenu.
@@ -425,31 +431,114 @@ Il s’agit d’une liste qui affiche les auteurs qui ont créé du contenu et l
 
 Cette option est disponible **uniquement** lorsqu&#39;un administrateur crée un dossier.
 
+### Ajout de contenu à un dossier
+
+Lorsque vous chargez un nouveau contenu, vous choisissez le dossier dans lequel le stocker pendant le processus de chargement.
+
+1. Connectez-vous en tant qu&#39;auteur et accédez à **Gérer** > **Bibliothèque de contenu** ou sélectionnez **Créer du contenu** à partir de la page d&#39;accueil.
+
+2. Sélectionnez **Ajouter** > **Contenu** dans le coin supérieur droit de la page.
+
+3. Saisissez un nom et une description pour le contenu.
+
+4. Sous **Ajouter un fichier de contenu**, faites glisser et déposez le fichier de contenu ou sélectionnez le champ à parcourir et à télécharger.
+   ![](assets/cl2.png)
+
+5. Sous **Ajouter au dossier**, sélectionnez **Parcourir les dossiers** et accédez au dossier où vous souhaitez stocker le contenu. Sélectionnez le dossier à confirmer.
+   ![](assets/cl3.png)
+
+6. Sélectionnez **Ajouter**.
+
+7. Renseignez les champs restants, **Durée**, **Balises**, **ID de contenu unique** et **Date d&#39;expiration**, selon vos besoins.
+
+8. Sélectionnez **Enregistrer**. Le fichier de contenu est ajouté à la bibliothèque de contenu et apparaît en haut de la liste.
+   ![](assets/cl4.png)
+
+>[!NOTE]
+>
+>Vous ne pouvez pas copier ou déplacer du contenu entre les dossiers publics et privés. Si vous tentez de le faire, Adobe Learning Manager affiche une erreur.
+
+
+## Affichage des chemins d’accès aux dossiers dans la bibliothèque de contenu
+
+Dans la **Bibliothèque de contenu**, chaque fichier de contenu affiche son chemin de dossier complet, par exemple **Formation commerciale** > **Modules d&#39;auto-apprentissage** > **Actifs de PDF**. Ce chemin vous indique exactement où se trouve le fichier dans la hiérarchie.
+
+* Si un fichier existe dans plusieurs dossiers, tous les chemins apparaissent séparés par des virgules.
+
+* Si un chemin est long, il est tronqué depuis le début avec une ellipse (...), et le nom du dossier le plus profond est toujours affiché.
+
+* Le contenu publié, retiré et brouillon s’affiche dans la bibliothèque de contenu et indique les chemins d’accès de ses dossiers.
+
+![](assets/cl1.png)
+
+## Filtrage du contenu par dossier
+
+Le filtre **Dossiers** de la bibliothèque de contenu vous permet de réduire la liste pour afficher uniquement le contenu stocké dans des dossiers spécifiques.
+
+1. Dans la **Bibliothèque de contenu**, sélectionnez le menu déroulant **Dossiers** dans l&#39;en-tête de colonne.
+   ![](assets/cl5.png)
+   La liste déroulante affiche le dossier public et une liste de dossiers privés. Les dossiers publics et privés ne peuvent pas être sélectionnés simultanément. La sélection de l’une désélectionne l’autre.
+
+2. Pour filtrer par dossier privé spécifique :
+   * La sélection d&#39;un dossier de **niveau 1** sélectionne automatiquement tous les sous-dossiers de niveau 2 et de niveau 3 situés en dessous. Ces sous-dossiers apparaissent comme sélectionnés, mais ne peuvent pas être désélectionnés individuellement. Le filtre renvoie tout le contenu du dossier Niveau 1 et de ses sous-dossiers.
+   * La sélection d&#39;un **dossier de niveau 2** sélectionne automatiquement tous les sous-dossiers de niveau 3 situés en dessous.
+     ![](assets/cl6.png)
+
+3. Utilisez la zone de recherche déroulante pour rechercher un dossier par nom.
+
+4. Vous pouvez sélectionner jusqu&#39;à **25 dossiers** à la fois. La sélection de plus de 25 affiche une erreur.
+
 ## Déplacer le contenu vers le dossier {#movecontenttofolder}
 
-Pour déplacer un contenu de dossier public vers un dossier privé,
+Le déplacement de contenu supprime le contenu de son dossier actuel et le place dans le dossier de destination.
 
-1. Sélectionnez le dossier **Public** dans la liste déroulante **Tous les dossiers**.
+1. Dans la **Bibliothèque de contenu**, cochez la case en regard de chaque fichier de contenu que vous souhaitez déplacer.
+2. Sélectionnez **Actions** > **Organiser le contenu** > **Déplacer le contenu vers le dossier**. Le panneau **Déplacer le contenu vers le dossier** s&#39;ouvre.
+3. Sélectionnez le dossier de destination où vous souhaitez déplacer le contenu.
+4. Sélectionnez **Déplacer le contenu**. La bibliothèque de contenu est mise à jour pour afficher le nouveau chemin d’accès au dossier.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas déplacer le contenu d’un dossier privé vers le dossier public, ni du dossier public vers un dossier privé.
+
+
+<!--
+
+1. Select **Public** folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
-   *Afficher tout le contenu chargé*
+   *View all uploaded content*
 
-1. Choisissez le contenu que vous souhaitez déplacer vers un dossier. Cliquez ensuite sur **[!UICONTROL Actions]** > **[!UICONTROL Organiser le contenu]** > **[!UICONTROL Déplacer le contenu vers le dossier]**.
+1. Choose the content that you'd like to move it to a folder. Then click **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
 
    ![](assets/move-content-to-folder.png)
 
-   *Déplacer un contenu sélectionné vers le dossier*
+   *Move a selected content to folder*
 
-1. Sélectionnez le dossier vers lequel vous souhaitez déplacer le contenu. Cliquez sur **[!UICONTROL Déplacer]**.
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
+-->
 
 ## Copier le contenu vers le dossier {#copycontenttofolder}
 
-Si vous copiez un dossier, cela signifie que vous ajouteriez une balise au dossier. L’opération de copie ne crée aucune copie de contenu, mais ajoute uniquement une association avec des dossiers spécifiés.
+La copie crée un lien vers le contenu d’un dossier supplémentaire sans le supprimer de son emplacement actuel. Le fichier de contenu lui-même n’est pas dupliqué.
+
+1. Dans la **Bibliothèque de contenu**, cochez la case en regard de chaque fichier de contenu que vous souhaitez copier.
+2. Sélectionnez **Actions** > **Organiser le contenu** > **Copier le contenu dans le dossier**. Le panneau **Copier le contenu dans le dossier** s&#39;ouvre et affiche la hiérarchie des dossiers.
+3. Sélectionnez le ou les dossiers de destination où vous souhaitez que le contenu apparaisse.
+4. Sélectionnez **Copier le contenu**. La bibliothèque de contenu est mise à jour pour afficher les nouveaux chemins de dossier pour le contenu copié.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas copier le contenu d’un dossier privé vers le dossier public, ni du dossier public vers un dossier privé.
+
+<!--
+Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
-*Copier un dossier*
+*Copy a folder*
+-->
 
 ## Annuler le lien d&#39;un dossier {#unlinkfolder}
 
@@ -464,6 +553,26 @@ Le contenu peut être dissocié d&#39;un dossier spécifié **UNIQUEMENT** s&#39
 ![](assets/unlink-a-folder.png)
 
 *Dissocier un dossier*
+
+## Ajouter un module à un cours en parcourant les dossiers
+
+Lors de l&#39;ajout d&#39;un module d&#39;auto-apprentissage à un cours, vous pouvez parcourir la hiérarchie des dossiers pour localiser le bon fichier de contenu au lieu de rechercher par nom.
+
+1. Connectez-vous en tant qu&#39;auteur et accédez à **Cours** dans le volet de navigation de gauche.
+
+2. Sélectionnez **Ajouter** pour créer un cours ou ouvrir un cours existant en mode édition.
+
+3. Accédez à la section **Modules** et sélectionnez **Contenu** > **Ajouter des modules**.
+
+4. Dans la boîte de dialogue **Sélectionner le type de module**, sélectionnez **Auto-apprentissage** comme type de module. La boîte de dialogue **Module individualisé** s&#39;ouvre.
+
+5. Sélectionnez **Parcourir les dossiers** pour ouvrir la hiérarchie des dossiers.
+
+6. Parcourez les niveaux de dossier pour localiser le module à ajouter. Sélectionnez le fichier de contenu.
+
+7. Sélectionnez **Ajouter**. Le module est ajouté au cours.
+
+8. Renseignez les champs de cours restants et sélectionnez **Enregistrer**.
 
 ## Ajouter du contenu pour différentes langues {#addcontentfordifferentlanguages}
 
@@ -525,10 +634,10 @@ Dans la section Critères d’achèvement, vous pouvez définir les options ment
 * **Quiz tenté :** le statut est considéré comme terminé si les élèves tentent le quiz, qu’ils le réussissent ou non.
 * **Quiz réussi ou nombre maximal de tentatives atteint :** le statut est défini sur Terminé si l’utilisateur réussit le quiz ou atteint le nombre maximal de tentatives. Par exemple, si le nombre de tentatives pour le cours est de deux et :
 
-   * Si les élèves font la première tentative et réussissent, l&#39;état est défini sur Terminé et Réussi.
-   * Si les élèves font la première tentative et échouent, l&#39;état est signalé comme Incomplet et Échec car la limite de tentatives n&#39;est toujours pas atteinte.
-   * Si les élèves reprennent le quiz et échouent, l’état est défini sur Terminé et Échec.
-   * Si les élèves tentent à nouveau le quiz et le réussissent, l’état est défini sur Terminé et Réussi.
+  * Si les élèves font la première tentative et réussissent, l&#39;état est défini sur Terminé et Réussi.
+  * Si les élèves font la première tentative et échouent, l&#39;état est signalé comme Incomplet et Échec car la limite de tentatives n&#39;est toujours pas atteinte.
+  * Si les élèves reprennent le quiz et échouent, l’état est défini sur Terminé et Échec.
+  * Si les élèves tentent à nouveau le quiz et le réussissent, l’état est défini sur Terminé et Réussi.
 
 ## Définir des critères de réussite {#setsuccesscriteria}
 
@@ -612,7 +721,7 @@ Pour ajouter un ID de contenu unique et une date d’expiration :
 
 8. Sélectionnez la date d’expiration du contenu. Cette date n’affecte pas la disponibilité du contenu ni l’accès des élèves. Vous pouvez choisir n’importe quelle date entre 1990 et 2037. Si une date passée est sélectionnée, un avertissement s’affiche, mais le contenu peut toujours être publié.
 9. Sélectionnez **[!UICONTROL Enregistrer]**.
-Le contenu chargé apparaît désormais dans la **[!UICONTROL bibliothèque de contenu]**.
+Le contenu chargé apparaît désormais dans la **[!UICONTROL Bibliothèque de contenu]**.
 
 ### Définir l’ID unique du contenu et la date d’expiration pour les langues
 

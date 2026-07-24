@@ -4,16 +4,20 @@ title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '3466'
-ht-degree: 32%
+source-wordcount: '5437'
+ht-degree: 25%
 
 ---
 
 # Rôles personnalisés
 
 Cette fonctionnalité vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d&#39;attribuer des responsabilités en dehors du rôle existant de la personne.
+
+Adobe Learning Manager permet aux administrateurs complets de déléguer des responsabilités de gestion des rôles personnalisés à des administrateurs personnalisés approuvés, y compris la création, la modification et l’affectation de rôles personnalisés, sans leur donner des informations d’identification d’administrateur complètes. Cette fonctionnalité permet aux administrateurs personnalisés de gérer d’autres rôles sans surcharger les administrateurs de tâches. Cela est contrôlé par le niveau d&#39;autorisation **Avancé** sous la section **Utilisateurs** d&#39;une définition de rôle personnalisée. Voir [Ce que l&#39;autorisation utilisateur avancée déverrouille](#advanced-user) pour plus d&#39;informations.
+
+Les organisations utilisent cette fonctionnalité pour déléguer la gestion des rôles de routine à des administrateurs personnalisés désignés. Par exemple, pour permettre à une équipe dédiée de créer et d’attribuer des rôles d’éditeur ou d’auteur de manière continue, ou pour permettre à une équipe d’exploitation de nettoyer les comptes des utilisateurs qui ont quitté l’organisation. Cela évite d’avoir à donner à ces équipes un accès administrateur complet, qui comporte des privilèges plus étendus que ceux requis par leurs responsabilités.
 
 Vous pouvez créer un rôle personnalisé pour fournir des fonctionnalités de création limitées à un catalogue particulier. Vous pouvez également créer un rôle dédié à la gestion des rapports. Ces rôles peuvent ensuite être affectés à des personnes qui sont censées assumer ces responsabilités spécifiques.
 
@@ -29,11 +33,11 @@ Les auteurs personnalisés peuvent effectuer les tâches suivantes :
 
 * Accédez à la bibliothèque de contenu pour ajouter, modifier ou supprimer du contenu de base.
 * Créer, modifier et supprimer :
-   * Cours
-   * Assistances à la tâche
-   * Certifications
-   * Parcours d’apprentissage
-   * Plans d’apprentissage
+  * Cours
+  * Assistances à la tâche
+  * Certifications
+  * Parcours d’apprentissage
+  * Plans d’apprentissage
 
 Les administrateurs et les auteurs, y compris les administrateurs et les auteurs personnalisés, pourront partager des objets d’apprentissage avec des catalogues partagés en externe. Les administrateurs et les auteurs doivent pouvoir rechercher des catalogues partagés en externe lors de la création d’objets d’apprentissage (LO).
 
@@ -270,7 +274,7 @@ Un utilisateur avec un rôle personnalisé peut :
     </tbody>
    </table>
 
-1. **Utilisateurs :** utilisez cette option pour déterminer les utilisateurs auxquels ce rôle est affecté. Vous pouvez choisir un ou plusieurs utilisateurs à l’aide de la zone de recherche.
+1. **Utilisateurs :** utilisez cette option pour déterminer les utilisateurs auxquels ce rôle est affecté. Vous pouvez choisir un ou plusieurs utilisateurs à l’aide du champ de recherche.
 
    **Ajouter des utilisateurs au chargement CSV de rôle personnalisé :** pour ajouter des utilisateurs via CSV chargé, ajoutez une colonne CustomRole au fichier .csv que l&#39;administrateur a utilisé pour importer des utilisateurs. Saisissez le rôle de l’utilisateur dans la colonne CustomRole pour les utilisateurs auxquels vous souhaitez attribuer un rôle personnalisé. Pour télécharger le fichier CSV, cliquez sur **[!UICONTROL Ajouter > Télécharger un fichier CSV]**.
 
@@ -282,6 +286,207 @@ Un utilisateur avec un rôle personnalisé peut :
 
    * Un administrateur personnalisé ayant l’autorisation d’accéder à Paramètres pourra configurer la planification pour la synchronisation ou synchroniser les utilisateurs à partir de la source de données même s’ils n’ont pas l’autorisation d’accéder à l’entité Utilisateurs.
    * Si un administrateur personnalisé dispose d’une autorisation sur l’entité Utilisateurs, il peut s’attribuer un rôle d’administrateur et devenir un administrateur standard.
+
+## <a id="advanced-user"></a>Ce que l&#39;autorisation utilisateur avancée déverrouille {#whatadvanceduserpermissionunlocks}
+
+Lorsqu&#39;un administrateur complet active l&#39;accès **avancé** sous **Utilisateurs** dans un rôle personnalisé, l&#39;administrateur personnalisé a accès à quatre sections supplémentaires : **Rôles personnalisés**, **Importer des journaux**, **Champs actifs** et **Nettoyage de l&#39;utilisateur**.
+
+Deux niveaux d&#39;accès sont disponibles :
+
+* **Lecture seule** : l&#39;administrateur personnalisé peut afficher des informations et télécharger des rapports, mais ne peut pas apporter de modifications.
+* **Contrôle total** : l&#39;administrateur personnalisé peut créer, modifier et supprimer des rôles personnalisés, importer des utilisateurs et purger les utilisateurs supprimés.
+
+### Héritage des autorisations et de la portée
+
+Lorsqu’un administrateur personnalisé crée un nouveau rôle personnalisé ou modifie un rôle existant, les autorisations et la portée qu’il peut attribuer sont limitées à ce qu’il détient lui-même. Un administrateur personnalisé ne peut pas accorder d&#39;autorisations de rôle qui dépassent les siennes, et ne peut pas étendre la portée d&#39;un rôle au-delà de la portée qui lui est assignée.
+
+Cela signifie qu’un administrateur personnalisé ayant accès à un catalogue spécifique peut uniquement créer des rôles dont la portée s’étend à ce catalogue ou à un sous-ensemble de celui-ci. De même, ils ne peuvent attribuer que les autorisations qu’ils détiennent personnellement aux rôles qu’ils créent.
+
+Lorsque vous affectez des utilisateurs à un rôle que vous avez créé, vous pouvez rechercher et ajouter n’importe quel utilisateur dans le compte. Les autorisations liées aux utilisateurs dans les rôles personnalisés s&#39;appliquent toujours à la portée complète du groupe d&#39;utilisateurs et du catalogue. La portée du catalogue ou du groupe d&#39;utilisateurs ne s&#39;applique pas lorsqu&#39;un rôle personnalisé inclut des autorisations de gestion des utilisateurs.
+
+Si un administrateur complet réduit votre portée ou supprime une autorisation de votre rôle, tous les rôles que vous avez créés précédemment ne sont pas immédiatement affectés. Ces rôles continuent de fonctionner avec leurs autorisations existantes jusqu’à ce qu’un administrateur complet s’ouvre et enregistre chacun d’eux individuellement.
+
+## Octroi d’autorisations utilisateur avancées à un rôle personnalisé
+
+Les administrateurs complets suivent cette procédure pour activer la gestion étendue des utilisateurs pour un rôle personnalisé.
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Sélectionnez **Utilisateurs** dans la navigation de gauche, puis sélectionnez **Rôles personnalisés**.
+3. Sélectionnez **Créer un rôle personnalisé** pour créer un rôle ou sélectionnez un rôle existant pour le modifier.
+4. Sous **Droits de compte**, recherchez la section **Utilisateurs**.
+5. Dans la section **Utilisateurs avancés**, sélectionnez **Lecture seule** ou **Contrôle total** en fonction du niveau d&#39;accès requis.
+6. Ajoutez des utilisateurs au rôle dans la section **Utilisateurs**.
+7. Sélectionnez **Enregistrer**.
+
+Les utilisateurs affectés peuvent désormais accéder aux sections **Rôles personnalisés**, **Champs actifs**, **Importer des journaux** et **Nettoyage de l&#39;utilisateur** lors de la connexion.
+
+## Ce que les administrateurs personnalisés peuvent faire avec l’accès en lecture seule
+
+### Journaux d&#39;importation
+
+Les administrateurs personnalisés avec un accès en lecture seule peuvent afficher tous les journaux d’importation du compte. Le bouton **Ajouter** n&#39;est pas disponible. Aucune nouvelle importation ne peut être lancée.
+
+### Suppression de l’utilisateur
+
+La section **Nettoyage de l&#39;utilisateur** est disponible en mode lecture seule. Les administrateurs personnalisés peuvent :
+
+* Afficher la liste des utilisateurs supprimés
+* Recherche d’utilisateurs spécifiques
+* Filtrer les utilisateurs supprimés par mois de suppression
+* Afficher les autres utilisateurs du compte
+
+Aucune action, telle que la purge, n&#39;est disponible sous l&#39;accès en **lecture seule**.
+
+### Rôles personnalisés
+
+Les administrateurs personnalisés peuvent afficher toutes les définitions de rôle personnalisées du compte, y compris les autorisations qui leur sont attribuées et les listes d’utilisateurs. Ils peuvent télécharger le rapport des rôles personnalisés. Ils ne peuvent pas modifier, créer ou supprimer un rôle.
+
+## Ce que les administrateurs personnalisés peuvent faire avec l’accès Contrôle total
+
+**Importer Des Journaux**
+
+Les administrateurs personnalisés avec contrôle total peuvent afficher tous les journaux et ajouter ou importer de nouveaux utilisateurs via CSV.
+
+**Nettoyage de l&#39;utilisateur**
+
+Contrôle total donne accès à toutes les actions de nettoyage de l&#39;utilisateur :
+
+* Afficher, rechercher et filtrer les utilisateurs supprimés par mois de suppression
+* Sélectionner des utilisateurs individuels ou tout sélectionner
+* Purger les utilisateurs supprimés du système
+* Rechercher et purger d’autres utilisateurs
+
+**Rôles personnalisés**
+
+Les administrateurs personnalisés avec contrôle total peuvent :
+
+* Créer de nouveaux rôles personnalisés, avec des autorisations égales ou inférieures aux leurs
+* Modifier les rôles personnalisés existants
+* Supprimer les rôles personnalisés
+* Affectation d’utilisateurs à des rôles personnalisés
+* Supprimer des utilisateurs de rôles personnalisés
+* Télécharger le rapport des rôles personnalisés
+* Filtrez la liste des rôles par **Tous**, **Créé à partir de l&#39;interface utilisateur** ou **Créé à partir du fichier CSV**
+
+>[!NOTE]
+>
+>Les administrateurs personnalisés ne peuvent pas s’ajouter à un autre rôle, ni modifier leur propre rôle avec des autorisations plus élevées.
+
+>[!IMPORTANT]
+>
+>Les rôles créés par un administrateur personnalisé peuvent inclure un accès aux rôles personnalisés, y compris l&#39;autorisation utilisateur avancée qui active la gestion des rôles personnalisés. Cela signifie qu’un administrateur personnalisé avec contrôle total peut créer des rôles qui accordent à d’autres utilisateurs les mêmes capacités de rôles personnalisés qu’ils détiennent. Les autorisations disponibles lors de la création du rôle sont toujours soumises au modèle de délégation standard. L’administrateur personnalisé peut uniquement attribuer les autorisations qu’il détient personnellement, sauf si l’administration des rôles étendus est activée pour le compte.
+
+### Exemple : création de rôles étendus en tant qu’administrateur personnalisé
+
+Un administrateur complet accorde à un administrateur personnalisé un contrôle total avec accès à deux catalogues de produits. L’administrateur personnalisé :
+
+1. Crée un rôle d&#39;éditeur dont la portée s&#39;étend au premier catalogue et lui affecte des auteurs
+1. Crée un deuxième rôle d&#39;éditeur dont la portée s&#39;étend au deuxième catalogue et affecte un ensemble différent d&#39;auteurs
+1. Attribue les nouveaux auteurs qui rejoignent l’équipe au rôle approprié sans impliquer l’administrateur complet
+
+Chaque rôle créé par l&#39;administrateur personnalisé hérite d&#39;un sous-ensemble des autorisations de l&#39;administrateur personnalisé. Les auteurs affectés à ces rôles peuvent accéder au contenu et le publier dans leurs catalogues respectifs. Ils ne peuvent pas gérer eux-mêmes les rôles personnalisés, car la section Rôles personnalisés n&#39;est pas disponible dans les rôles créés par les administrateurs personnalisés.
+
+## Comparaison des capacités
+
+| Section | Lecture seule | Contrôle complet |
+|---|---|---|
+| Importer les journaux : afficher les journaux | ✓ | ✓ |
+| Importer des journaux : ajoutez ou importez des utilisateurs via CSV | — | ✓ |
+| Nettoyage de l’utilisateur : afficher les utilisateurs supprimés, rechercher, filtrer | ✓ | ✓ |
+| Nettoyage des utilisateurs : purge les utilisateurs supprimés | — | ✓ |
+| Rôles personnalisés : afficher tous les rôles et définitions | ✓ | ✓ |
+| Rôles personnalisés : télécharger le rapport des rôles personnalisés | ✓ | ✓ |
+| Rôles personnalisés : créer, modifier et supprimer des rôles | — | ✓ |
+| Rôles personnalisés : affecter et supprimer des utilisateurs | — | ✓ |
+
+## Rétrocompatibilité
+
+Si un compte comporte des rôles personnalisés existants avec un accès **Avancé** activé, ces rôles incluent automatiquement l&#39;accès aux Journaux d&#39;importation lorsque votre compte est mis à jour. Si l’accès avancé est actuellement désactivé pour un rôle, il n’y a aucune modification. Le rôle continue de se comporter comme avant.
+
+>[!NOTE]
+>
+>Si les options d’accès avancé sont activées pour les utilisateurs, passez en revue les rôles disposant de ce privilège et confirmez que ces rôles sont destinés à le conserver.
+
+## Journal d’audit des modifications de rôle personnalisées
+
+Toutes les modifications apportées aux rôles personnalisés, y compris la création, la modification, la suppression et l’affectation des utilisateurs, sont enregistrées dans le rapport d’audit des rôles personnalisés. Le rapport d’audit affiche désormais le nom du rôle personnalisé responsable de chaque modification, plutôt qu’un libellé d’administrateur générique. Aucune configuration n’est requise pour activer ce comportement.
+
+Les administrateurs complets peuvent accéder au rapport d&#39;audit à partir de la section **Rapports**.
+
+## Cas d’utilisation réels
+
+### Équipe de gestion des rôles
+
+Une grande organisation dispose d’une équipe dédiée chargée de créer et d’attribuer des rôles d’auteur de contenu à des dizaines de catalogues de produits. Auparavant, chaque nouveau rôle nécessitait un administrateur complet pour le créer. Avec un accès Contrôle total, l’équipe de gestion des rôles peut créer des rôles d’éditeur et d’auteur dont la portée s’étend à des catalogues spécifiques, affecter de nouveaux auteurs et gérer ces rôles indépendamment, sans aucune implication d’administrateur complète pour les opérations de routine.
+
+### Gestion des opérations de RH et du cycle de vie des utilisateurs
+
+Une équipe des opérations RH est responsable du nettoyage des comptes lorsque les employés quittent l&#39;organisation. Ils doivent purger régulièrement les utilisateurs supprimés, mais ne doivent pas avoir accès au contenu du cours, aux données de l’élève ou aux paramètres système. L’octroi d’un accès Contrôle total avancé, limité à la gestion des utilisateurs, donne à l’équipe des RH l’accès spécifique dont elle a besoin pour le nettoyage et l’importation des utilisateurs sans exposer d’autres fonctions administratives.
+
+### Équipe chargée de la conformité et de l’audit
+
+Une équipe d’audit interne doit régulièrement examiner les rôles personnalisés existants, les autorisations qu’ils incluent et les personnes qui détiennent chaque rôle. Avec un accès en lecture seule, l’équipe d’audit peut afficher toutes les définitions de rôle et télécharger le rapport des rôles personnalisés pour révision, mais elle ne peut rien modifier.
+
+## Ce que les administrateurs personnalisés peuvent faire
+
+Les procédures suivantes s&#39;appliquent aux administrateurs personnalisés disposant d&#39;un accès en **contrôle total**. Connectez-vous en tant qu’administrateur personnalisé et accédez à **Utilisateurs** > **Rôles personnalisés** pour commencer.
+
+### Passer en revue les rôles personnalisés existants
+
+1. Sélectionnez **Utilisateurs** > **Rôles personnalisés**.
+1. Utilisez la liste déroulante du filtre pour affiner la liste :
+
+   * **Tous** : chaque rôle dans le compte
+   * **Créé à partir de l&#39;interface utilisateur** : rôles créés manuellement
+   * **Créé à partir de CSV** : rôles importés via CSV
+
+1. Sélectionnez un nom de rôle pour ouvrir sa définition complète, notamment les autorisations, l’étendue et les utilisateurs affectés.
+
+### Créer un rôle personnalisé
+
+1. Sélectionnez **Utilisateurs** > **Rôles personnalisés**, puis sélectionnez **Créer un rôle**.
+1. Entrez un nom pour le rôle.
+1. Sous **Privilèges de compte**, configurez les autorisations. Seules les autorisations de votre propre portée sont disponibles pour la sélection. Les autorisations hors de votre portée semblent désactivées.
+1. Définissez la portée du catalogue et du groupe d&#39;utilisateurs pour le rôle.
+1. Dans la section **Utilisateurs**, recherchez et ajoutez les utilisateurs qui détiendront ce rôle.
+1. Sélectionnez **Enregistrer**.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas vous ajouter à un rôle que vous créez et vous ne pouvez pas créer un rôle avec des autorisations qui dépassent les vôtres. Si une autorisation est désactivée lors de la création d’un rôle, elle se trouve en dehors de votre portée actuelle.
+
+### Modifier un rôle personnalisé
+
+1. Sélectionnez **Utilisateurs** > **Rôles personnalisés** et ouvrez le rôle à mettre à jour.
+1. Sélectionnez **Modifier**.
+1. Mettez à jour le nom, les autorisations, l’étendue ou les affectations d’utilisateur selon les besoins.
+1. Sélectionnez **Enregistrer**.
+
+>[!NOTE]
+>
+>Vous ne pouvez pas modifier les autorisations de votre propre rôle personnalisé. Contactez un administrateur complet si des modifications de votre propre rôle sont nécessaires.
+
+### Affectation d’utilisateurs à un rôle personnalisé
+
+1. Ouvrez le rôle personnalisé dans **Utilisateurs** > **Rôles personnalisés**.
+1. Dans la section **Utilisateurs**, recherchez l&#39;utilisateur que vous souhaitez ajouter.
+1. Sélectionnez l’utilisateur à ajouter au rôle.
+1. Sélectionnez **Enregistrer**.
+
+### Suppression d’utilisateurs d’un rôle personnalisé
+
+1. Ouvrez le rôle personnalisé dans **Utilisateurs** > **Rôles personnalisés**.
+1. Dans la section **Utilisateurs**, recherchez l&#39;utilisateur que vous souhaitez supprimer.
+1. Sélectionnez l’action de suppression en regard de leur nom.
+1. Sélectionnez **Enregistrer**.
+
+### Purger les utilisateurs supprimés
+
+1. Sélectionnez **Utilisateurs** dans la navigation de gauche.
+1. Sélectionnez **Nettoyage de l&#39;utilisateur**.
+1. Utilisez le champ de recherche ou le filtre du mois de suppression pour localiser les utilisateurs que vous souhaitez supprimer.
+1. Cochez la case en regard des utilisateurs individuels ou sélectionnez **Tout sélectionner** pour sélectionner tous les résultats.
+1. Sélectionnez **Actions** > **Purger l’utilisateur**.
 
 ## Attribution de plusieurs rôles personnalisés à un utilisateur
 
@@ -332,7 +537,7 @@ Le fichier role.csv comprend les champs, le rôle personnalisé, la source de cr
 Si le fichier CSV contient des données incorrectes ou dépasse les limites (50 rôles par utilisateur et 500 utilisateurs par rôle), un message s’affiche et indique les erreurs.
 
 ![](assets/error-custom-role.png)
-_Notification d&#39;erreur pour les rôles personnalisés_
+_Notification d’erreur pour les rôles personnalisés_
 Les utilisateurs reçoivent des notifications par e-mail lorsque des rôles sont attribués, y compris le nom du rôle.
 
 ### Gérer les rôles personnalisés
@@ -420,15 +625,15 @@ Reportez-vous à cet article [Journal d&#39;audit pour les rôles personnalisés
 
 ## Restreindre l&#39;accès aux dossiers aux auteurs personnalisés {#folder-custom-author}
 
-Learning Manager prend déjà en charge la possibilité de donner accès à la bibliothèque de contenu à l’aide de rôles personnalisés. Tous les auteurs personnalisés qui ont déjà accès à la bibliothèque de contenu continueront d’avoir accès à tous les fichiers de contenu même après la configuration des dossiers de contenu. Cette approche vise à conserver l&#39;ancien comportement. Les administrateurs n’ont pas besoin d’apporter de modifications s’ils souhaitent continuer à adopter le comportement actuel.
+Learning Manager prend déjà en charge la possibilité d’accorder l’accès à la bibliothèque de contenu en utilisant des rôles personnalisés. Tous les auteurs personnalisés qui ont déjà accès à la bibliothèque de contenu continueront d&#39;avoir accès à tous les fichiers de contenu, même après la configuration des dossiers de contenu. Cette approche vise à conserver l&#39;ancien comportement. Les administrateurs n&#39;ont pas besoin d&#39;effectuer des modifications s&#39;ils souhaitent garder le comportement actuel.
 
-S’ils souhaitent restreindre l’accès à ces auteurs personnalisés, les administrateurs doivent modifier le rôle personnalisé existant et le configurer en ne donnant accès qu’à des dossiers de contenu spécifiques.
+S&#39;ils souhaitent restreindre l&#39;accès à ces auteurs personnalisés, les administrateurs doivent modifier le rôle personnalisé existant et le configurer en ne donnant accès qu&#39;à des dossiers de contenu spécifiques.
 
 ![](assets/folder-access-forcustomauthors.png)
 
 *Restreindre l’accès aux dossiers aux auteurs personnalisés*
 
-Lorsque vous créez un auteur personnalisé, vous pouvez désormais lui attribuer des dossiers de contenu. Sélectionnez l&#39;option **Dossiers sélectionnés**.
+Lorsque vous créez un auteur personnalisé, vous pouvez désormais lui attribuer des dossiers de contenu. Sélectionnez l’option **Dossiers sélectionnés**.
 
 Lorsque vous cliquez sur l&#39;option, une nouvelle boîte de dialogue s&#39;ouvre, dans laquelle vous pouvez attribuer les dossiers à l&#39;auteur personnalisé.
 
@@ -436,17 +641,17 @@ Lorsque vous cliquez sur l&#39;option, une nouvelle boîte de dialogue s&#39;ouv
 
 *Sélectionner les dossiers de l&#39;auteur personnalisé*
 
-Sélectionnez les dossiers et cliquez sur **[!UICONTROL OK]**.
+Choisissez les dossiers, puis cliquez sur **[!UICONTROL OK]**.
 
 ## Tableau de bord Résumé de l’apprentissage pour l’administrateur personnalisé {#custom-admin-dashboard}
 
-Les administrateurs personnalisés peuvent voir la même vue que les administrateurs. Un administrateur personnalisé peut stocker des données en dehors de son périmètre. Cela s’applique uniquement si l’administrateur personnalisé a une portée complète. Pour accorder l&#39;étendue complète, lors de la création d&#39;un administrateur personnalisé, activez l&#39;option **[!UICONTROL Contrôle total]** dans Rapport récapitulatif du compte.
+Les administrateurs personnalisés peuvent voir la même vue que les administrateurs. Un administrateur personnalisé peut fournir des données en dehors de sa portée. Cette règle ne s&#39;applique que si l&#39;administrateur personnalisé dispose d&#39;une portée complète. Pour accorder une portée complète, lors de la création d’un administrateur personnalisé, activez l’option **[!UICONTROL Contrôle complet]** dans Rapport sur le résumé du compte.
 
 ![](assets/create-custom-role.png)
 
 *Créer un rôle personnalisé*
 
-Par conséquent, les options **[!UICONTROL Tous les catalogues]** et **[!UICONTROL Tous les groupes d&#39;utilisateurs]** seront sélectionnées et les autres options seront désactivées.
+Ainsi, les options **[!UICONTROL Tous les catalogues]** et **[!UICONTROL Tous les groupes d’utilisateurs]** seront sélectionnées, et les autres options seront désactivées.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -454,7 +659,7 @@ Par conséquent, les options **[!UICONTROL Tous les catalogues]** et **[!UICONTR
 
 ## Autorisations implicites {#implicitpermissions}
 
-Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifique, il peut y avoir des cas où il a besoin d&#39;accéder à d&#39;autres entités également pour pouvoir effectuer des tâches sur l&#39;entité accordée. Par exemple, si un utilisateur dispose d’un accès Créer sur l’entité Cours, il doit avoir accès aux entités Compétence et Balise afin de pouvoir les associer au cours en cours de création. Ce tableau fournit des informations sur ces autorisations implicites.
+Lorsqu’un utilisateur se voit affecter un rôle avec une entité spécifique, il peut arriver qu’il ait besoin d’accéder à d’autres entités pour pouvoir effectuer des tâches sur l’entité accordée. Par exemple, si un utilisateur se voit affecter l’entité Créer un accès au cours, il doit avoir accès aux entités Compétence et Balise pour pouvoir les associer au cours en cours de création. Ce tableau fournit des informations sur ces autorisations implicites.
 
 <table>
  <tbody>
@@ -489,7 +694,7 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
    <td>Créer</td>
    <td>Cours</td>
    <td>Groupe de contenus<br>
-     Balise <br>
+     Balise<br>
      Compétence<br>
      Badge<br>
      Assistance à la tâche</td>
@@ -497,10 +702,10 @@ Lorsqu&#39;un utilisateur se voit attribuer un rôle avec une entité spécifiqu
   </tr>
   <tr>
    <td>Créer</td>
-   <td>Programme d'apprentissage<br>
+   <td>Programme d’apprentissage<br>
      Certification<br></td>
    <td>Cours<br>
-     Balise <br>
+     Balise<br>
      Compétence<br>
      Badge</td>
    <td>Lire</td>
@@ -576,7 +781,7 @@ Pour changer de rôle, cliquez sur l’icône de votre profil en haut à droite 
 
 Dans les versions antérieures de Learning Manager, tout rôle personnalisé autorisé à créer des plans d’apprentissage pouvait étendre le plan d’apprentissage à tous les types de groupes d’utilisateurs et d’objets d’apprentissage.
 
-Le paramètre d&#39;étendue était désactivé lorsque l&#39;accès au plan d&#39;apprentissage était accordé, ce qui donnait à l&#39;utilisateur l&#39;accès à Tous les catalogues et Tous les groupes d&#39;utilisateurs par défaut.
+Le paramètre de portée était auparavant désactivé lorsque l’accès au plan d’apprentissage était octroyé, ce qui permettait à l’utilisateur d’accéder à tous les catalogues et à tous les groupes d’utilisateurs par défaut.
 
 Tous les plans d&#39;apprentissage créés par un administrateur, par défaut, s&#39;appliquent à tous les utilisateurs. Les utilisateurs peuvent également se voir attribuer n’importe quel objet d’apprentissage. D’un autre côté, les utilisateurs avec des rôles personnalisés bénéficient d’un accès complet, par exemple à tous les catalogues, objets d’apprentissage ou groupes d’utilisateurs. Cela signifiait que les administrateurs n&#39;étaient pas en mesure de créer des rôles personnalisés comme prévu, qui permettaient l&#39;accès aux plans d&#39;apprentissage pour les utilisateurs avec une portée limitée.
 
@@ -656,12 +861,29 @@ Si un administrateur modifie les points de niveau, les rapports affichent les ni
 
 La réinitialisation de la ludification ne réinitialise pas la date à laquelle le niveau a été atteint.
 
-## Forum aux questions {#frequentlyaskedquestions}
+## Foire aux questions
 
-+++Comment créer un rôle personnalisé ?
+**Que se passe-t-il si un administrateur complet supprime une autorisation de mon rôle personnalisé ?**
 
-Un rôle personnalisé est semblable à un sous-ensemble d’un rôle d’auteur ou d’administrateur. Autoriser un ou plusieurs privilèges, définir la portée et attribuer le rôle à un utilisateur.
+Votre rôle conserve ses autorisations existantes jusqu&#39;à la prochaine ouverture et l&#39;enregistrement de votre définition de rôle par un administrateur complet. La modification ne prend pas effet immédiatement. Vos autorisations actuelles restent en place jusqu’à ce que votre rôle soit explicitement modifié et enregistré.
 
-Cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Rôles personnalisés]**. Dans la page Rôles personnalisés, cliquez sur **[!UICONTROL Créer un rôle]**. Entrez le nom du rôle personnalisé et définissez les privilèges du rôle. Pour plus d’informations, voir [Création d’un rôle personnalisé](custom-role.md#create-role).
-+++
+**Puis-je accorder l&#39;accès au catalogue de rôles aux catalogues auxquels je ne peux pas accéder ?**
+
+Non. La portée de tout rôle que vous créez est limitée aux catalogues et aux groupes d’utilisateurs de votre propre portée. Vous ne pouvez pas créer un rôle avec un accès plus large que celui que vous détenez vous-même, à moins que votre administrateur n’ait configuré votre compte pour permettre une administration des rôles étendue.
+
+**Quelle est la différence entre le contrôle en lecture seule et le contrôle total ?**
+
+**Lecture seule** vous permet d&#39;afficher **Rôles personnalisés**, Champs actifs, **Journaux d&#39;importation** et **Nettoyage de l&#39;utilisateur**. Vous pouvez parcourir, rechercher et télécharger des rapports, mais vous ne pouvez rien faire. **Le contrôle total** vous offre toutes ces fonctionnalités, ainsi que la possibilité de créer, modifier et supprimer des rôles, d&#39;importer des utilisateurs via CSV, d&#39;affecter et de supprimer des utilisateurs de rôles, et de purger les utilisateurs supprimés.
+
+**Puis-je donner à un rôle les mêmes autorisations que celles dont je dispose ?**
+
+Oui. Vous pouvez attribuer toutes les autorisations que vous détenez personnellement aux rôles que vous créez. Vous ne pouvez pas dépasser votre propre jeu d’autorisations, mais vous pouvez créer des rôles avec le même niveau d’accès que vous ou tout sous-ensemble de celui-ci.
+
+**Le journal d’audit indique-t-il qui je suis lorsque j’apporte des modifications ?**
+
+Oui. Le rapport d’audit répertorie votre rôle personnalisé en tant que source de chaque modification. Cela signifie que les administrateurs complets peuvent voir quel rôle personnalisé a apporté une modification donnée au système.
+
+**Qu&#39;advient-il des rôles existants lorsque cette fonctionnalité est activée pour le compte ?**
+
+Les rôles personnalisés existants avec un accès **avancé** déjà activé ont automatiquement accès à **Importer des journaux**. Tous les autres comportements existants sont inchangés. Les rôles pour lesquels l’accès avancé n’est pas activé ne sont pas affectés.
 

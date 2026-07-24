@@ -3,12 +3,13 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Nouveautés de la version d’octobre 2025 de Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: f200caa15d4e58ce1a4b947c1d5b8a35ba87afc3
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5643'
+source-wordcount: '5580'
 ht-degree: 0%
 
 ---
+
 
 # Nouveautés de la version d’octobre 2025 de Adobe Learning Manager
 
@@ -641,7 +642,7 @@ La réponse de l’API inclut désormais deux champs supplémentaires :
 }
 ```
 
-En réponse, **course:15067_30122_41715_1_3400468** est l&#39;ID de la note de la ressource Objet d&#39;apprentissage pour laquelle les informations sont demandées. L&#39;ID `learningObjectResourceGrad`e peut être obtenu à partir de l&#39;API `GET /enrollments/{id}`.
+En réponse, **course:15067_30122_41715_1_3400468** est l&#39;ID de la note de ressource de l&#39;objet d&#39;apprentissage pour lequel les informations sont demandées. L&#39;ID `learningObjectResourceGrad`e peut être obtenu à partir de l&#39;API `GET /enrollments/{id}`.
 
 ### Les réponses API prennent en charge la sensibilité à la casse pour les noms d’auteurs
 

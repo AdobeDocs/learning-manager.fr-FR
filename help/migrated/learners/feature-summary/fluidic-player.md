@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Lecteur Fluidic
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 48%
+source-wordcount: '650'
+ht-degree: 52%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 Lisez cet article pour savoir comment utiliser le lecteur Fluidic pendant vos cours.
 
-Le lecteur Fluidic est une plate-forme destinée aux élèves qui leur permet d’aborder le contenu avec une expérience d’apprentissage ininterrompue et mixte. Tous les formats pris en charge sont lus de manière cohérente dans ce lecteur. Les auteurs et les administrateurs peuvent prévisualiser le contenu par le biais du lecteur.
+Le lecteur Fluidic est une plate-forme destinée aux élèves qui leur permet d’aborder le contenu avec une expérience d’apprentissage ininterrompue et mixte. Tous les formats pris en charge sont lus uniformément dans ce lecteur. Les auteurs et les administrateurs peuvent prévisualiser le contenu par le biais du lecteur.
 
 ## Fonctionnalités du lecteur {#playerfeatures}
 
@@ -38,7 +38,7 @@ Le lecteur Fluidic est une plate-forme destinée aux élèves qui leur permet d�
 * En cliquant sur Revoir le cours lorsque le cours est terminé.
 * En cliquant sur Continuer lorsque le cours est n’est pas terminé.
 
-**Plein écran** Cliquez sur l&#39;icône Plein écran dans le coin inférieur droit du lecteur pour afficher le cours dans la fenêtre en plein écran.
+**Plein écran** Cliquez sur l’icône Plein écran dans le coin inférieur droit du lecteur pour afficher le cours dans la fenêtre en plein écran.
 
 **Boutons de navigation** Utilisez les flèches haut/bas pour vous déplacer à travers les diapositives de contenu au format PDF, DOCX et PPTX. Les flèches des diapositives peuvent être utilisées pour passer à la rubrique suivante pour tous les types de contenu.
 
@@ -62,7 +62,7 @@ Après avoir quitté le cours, vous pouvez revenir au cours en cliquant sur le b
 
 **Lecture automatique** : le lecteur Fluidic de Adobe Learning Manager n&#39;a pas d&#39;option intégrée pour arrêter la lecture automatique des vidéos. La lecture automatique d’une vidéo dépend des paramètres de votre navigateur, et non du lecteur lui-même.
 
-Le lecteur Fluidic peut également être intégré dans un site Web ou une application externe à l’aide de l’API Learning Manager.
+Le lecteur Fluidic peut également être intégré dans un site Web ou une application externe à l’aide de l’API Learning Manager.
 
 Le lecteur Fluidic mobile a les fonctions suivantes :
 
@@ -70,3 +70,18 @@ Le lecteur Fluidic mobile a les fonctions suivantes :
 * Si la barre de navigation n’interagit pas avec, elle disparaît au bout de 3 secondes.
 * La barre de navigation reste active jusqu’à ce que les éléments du menu de navigation (table des matières, notes, paramètres) soient fermés.
 
+**Prise en charge de 11 langues** : le lecteur Fluidic prend en charge 11 langues. Ce sont :
+
+| Langue | Territoire | IBM Identifier |
+|---|---|---|
+| Arabe | Arabie saoudite | ar-SA |
+| Chinois traditionnel | République populaire de Chine (RAS de Hong Kong) | zh-Hant-HK |
+| Chinois traditionnel | Taiwan | zh-Hant-TW |
+| Tchèque | République tchèque | cs-CZ |
+| Danois | Danemark | da-DK |
+| Hébreu | Israël | he-IL |
+| Hongrois | Hongrie | hu-HU |
+| Indonésien | Indonésie | id-ID |
+| Roumain | Roumanie | ro-RO |
+| Thaï | Thaïlande | th-TH |
+| Ukrainien | Ukraine | uk-UA |

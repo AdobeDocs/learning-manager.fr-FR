@@ -1,192 +1,267 @@
 ---
-jcr-language: en_us
-title: Ajouter des emplacements de salle de classe
-description: Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
-contentowner: saghosh
-exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
-source-git-commit: 8cb8a95812c97b0b59a2ae5188500cfafe09bd27
+title: Ajouter des lieux de salles de classe
+description: Découvrez comment les administrateurs peuvent configurer les paramètres et ajouter, migrer, modifier et supprimer des emplacements de salle de classe dans Adobe Learning Manager, et comment ajouter des traductions pour un emplacement de salle de classe.
+source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 54%
+source-wordcount: '1641'
+ht-degree: 3%
 
 ---
 
-# Salle de classe
 
-## Vue d’ensemble
+# Ajouter des lieux de salles de classe
 
-Les administrateurs peuvent désormais configurer une bibliothèque d’emplacements de salle de classe. Pour chaque emplacement de salle de classe, les administrateurs peuvent définir les métadonnées qui incluent le nom de l’emplacement, la limite de places ainsi que des informations supplémentaires telles que l’URL de l’emplacement. Les auteurs et les administrateurs peuvent ensuite utiliser ces emplacements de classe préconfigurés pour configurer des événements de formation dirigée par un instructeur (modules de salle de classe).
+Les administrateurs peuvent créer et gérer une bibliothèque d’emplacements de salle de classe à réutiliser lors de la configuration d’événements de formation dirigée par un instructeur dans le module Salle de classe et salles de classe virtuelles. Pour chaque emplacement, vous pouvez définir des détails tels que le nom de l’emplacement, la limite de places et des informations supplémentaires, y compris une URL d’emplacement. Les auteurs peuvent ensuite sélectionner ces emplacements prédéfinis lors de la création d&#39;un cours.
 
-Vous pouvez utiliser les deux méthodes suivantes pour ajouter un emplacement de salle de classe.
-
-## Ajouter une salle de classe via l’interface utilisateur
-
-Vous pouvez ajouter un emplacement de salle de classe en utilisant l’interface utilisateur :
-
-1. Dans l&#39;application d&#39;administration (interface utilisateur des rôles d&#39;administrateur), cliquez sur **[!UICONTROL Paramètres]** > **[!UICONTROL Emplacements de salle de classe]**.
-
-1. Cliquez sur **[!UICONTROL Ajouter]** > **[!UICONTROL Nouvel emplacement]**.
-
-1. Dans la boîte de dialogue **[!UICONTROL Emplacement de salle de classe]**, entrez les informations suivantes :
-
-   * Tapez le **[!UICONTROL Nom de l&#39;emplacement]**. Utilisez un nom unique. Sinon, Learning Manager affiche un message d’erreur.
-   * Saisissez la description de l’emplacement dans le champ **[!UICONTROL Informations de localisation]**. Ce champ est facultatif.
-   * Saisissez l’**[!UICONTROL URL de localisation]**. L’élève peut voir ces informations dans les détails de la salle de classe. L’URL peut également être une URL d’emplacement de mappage, si nécessaire. Il s’agit d’un champ facultatif.
-   * Tapez et sélectionnez la **[!UICONTROL région d&#39;emplacement]**. Ce champ est facultatif.
-   * Saisissez le nombre de places disponibles dans le champ **[!UICONTROL Limite de siège]**. Cela indique la capacité en sièges de la salle de classe. Cette valeur peut être modifiée lors de la création de l’événement de formation dirigée par un instructeur.
-
-   ![](assets/add-classroom-location.png)
-
-   *Ajouter un emplacement de salle de classe*
-
-Après avoir ajouté l&#39;emplacement, la page **[!UICONTROL Paramètres]** > **[!UICONTROL Emplacements de salle de classe]** répertorie les salles de réunion :
-
-![](assets/list-meeting-rooms.png)
-
-*Afficher toutes les salles de réunion*
-
-La liste comporte les champs suivants :
-
-**[!UICONTROL Nom de l&#39;emplacement]** : nom de l&#39;emplacement de la salle de classe.
-
-**[!UICONTROL Sessions futures]** : nombre d&#39;événements qui se produiront à l&#39;emplacement correspondant. Cliquez sur le numéro pour afficher les détails dans une boîte de dialogue.
-
-![](assets/sessions-list.png)
-
-*Afficher les sessions futures*
-
-La boîte de dialogue affiche les détails de chaque session, y compris le nom de la session, le nom de la formation qui inclut la session et le calendrier de la session. L’heure affichée s’aligne sur le fuseau horaire système de l’élève.
-
-Le champ **[!UICONTROL Sessions futures]** affiche **zéro** lorsque la salle de classe n’est utilisée pour aucune session ou lorsqu’elle est associée à des sessions précédentes.
-
-**[!UICONTROL Limite de places]** : affiche la capacité en places de la salle de classe.
-
-**URL d&#39;emplacement** : URL fournie lors de la création de l&#39;emplacement de la salle de classe.
-
-**Informations de localisation** : informations sur la salle de classe que vous avez fournies lors de sa création.
-
-### Modification des emplacements de salle de classe
-
-Pour modifier les emplacements de salle de classe, procédez comme suit :
-
-1. Dans l&#39;application Administration (interface utilisateur pour les rôles d&#39;administrateur), sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Emplacements de salle de classe]**.
-
-1. Passez la souris sur l’emplacement de salle de classe souhaité que vous souhaitez modifier.
-
-1. Sélectionnez l&#39;icône **[!UICONTROL Modifier le lieu de salle de classe]**.
-
-1. Modifiez l&#39;emplacement de la classe et sélectionnez **[!UICONTROL Enregistrer]**.
-
-## Ajout d’une salle de classe à l’aide du fichier CSV
-
-Vous pouvez également ajouter un ou plusieurs emplacements de salle de classe en important un fichier CSV contenant les informations de la salle de classe.
-
-Dans l&#39;**[!UICONTROL application d&#39;administration]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Emplacements de salle de classe]** > **[!UICONTROL Ajouter]**, cliquez sur le bouton **[!UICONTROL Emplacements d&#39;importation en bloc]**. Accédez à l’emplacement contenant le fichier CSV et sélectionnez le fichier.
-
-Le fichier CSV utilise ces champs pour stocker des détails sur un ou plusieurs emplacements de classe :
-
-* name
-* info
-* url
-* (région)
-* seatLimit
-
-Vous pouvez personnaliser les en-têtes.
-
-Le fichier CSV doit obligatoirement contenir toutes les colonnes dans le même ordre que celui spécifié ici.
-
-Une fois que le système a importé le fichier CSV, les emplacements sont ajoutés à la bibliothèque.
-
-## Recherche de salles de classe
-
-Pour rechercher des salles de classe, sélectionnez le cours de classe virtuelle, puis accédez à **[!UICONTROL Instances]** > **[!UICONTROL Sessions]**. Un auteur ou un administrateur peut commencer à taper le nom de l’emplacement pour voir les résultats pertinents qui commencent à apparaître. Ils peuvent ensuite sélectionner un emplacement parmi les résultats affichés. Si aucun emplacement n’est affiché dans les résultats de type d’avance, l’utilisateur peut toujours ajouter le nom du nouvel emplacement de salle de classe. Notez que ce nom d’emplacement créé à l’aide du processus de création de sessions n’est pas ajouté à la bibliothèque d’emplacements créée par l’administrateur.
-
-Lorsqu’une salle de classe est ajoutée, la plateforme d’apprentissage indique également si la salle de classe est déjà réservée pour la période mentionnée. Elle fournit même des créneaux horaires alternatifs comme suggestions. Cela permet donc à l’auteur d’ajuster l’heure de la réunion s’il décide d’utiliser le même emplacement de salle de classe.
-
-![](assets/classroom-search.png)
-
-*Rechercher des salles de classe*
-
-## L’administrateur
-
-En tant qu’administrateur, vous pouvez gérer les instructeurs et les instances de cours.
-
-### Configuration des instructeurs :
-
-Dans l&#39;application d&#39;administration, sous **[!UICONTROL Paramètres]** > **[!UICONTROL Général]**, les administrateurs peuvent trouver l&#39;option **[!UICONTROL Gestion des instructeurs]**. Cette fonctionnalité garantit que seuls des utilisateurs préapprouvés affectés à titre d’instructeurs peuvent être ajoutés pour mener des sessions.
-
-Pour affecter un instructeur, procédez comme suit :
-
-1. Accédez à la page **[!UICONTROL Prise en main]** et sélectionnez **[!UICONTROL Utilisateurs]** dans le volet de gauche.
-
-1. Sélectionnez l’utilisateur souhaité.
-
-1. Attribuez le rôle d&#39;instructeur à l&#39;utilisateur en sélectionnant **[!UICONTROL Actions]** > **[!UICONTROL Attribuer le rôle]**.
-
-### Annulation des sessions :
-
-Sur la page **[!UICONTROL Instance de cours]**, les administrateurs peuvent annuler une ou plusieurs sessions. Lorsque des sessions sont annulées, le système supprime tous les détails de la session, mais conserve la limite de places.
-
-En outre, les administrateurs peuvent :
-
-* **[!UICONTROL Afficher l&#39;inscription]** : obtenez des informations sur les élèves inscrits et inscrits sur liste d&#39;attente pour chaque session.
-* **[!UICONTROL Désinscrire des élèves]** : supprimez des élèves d&#39;un cours avec des sessions annulées sans modifier leur statut d&#39;inscription.
-* **[!UICONTROL Gestion de l&#39;assiduité]** : marquez l&#39;assiduité pour les sessions, même si les sessions sont annulées.
-* **[!UICONTROL Achèvement du cours]** : les administrateurs peuvent marquer un cours comme terminé même si les sessions ont été annulées.
-* **[!UICONTROL Replanification]** : planifiez les sessions annulées pour des dates ultérieures et ajoutez un instructeur pendant la replanification.
-
-Notez qu’après l’annulation, les élèves restent inscrits à l’instance de formation. Leur statut d’inscription (inscription confirmée, liste d’attente et attente de l’approbation du responsable) reste inchangé. Cela est utile, car l’administrateur peut configurer et replanifier la session annulée à l’avenir.
-
-## Auteur
-
-Si l&#39;administrateur sélectionne l&#39;option **[!UICONTROL Gestion des instructeurs]**, un auteur peut uniquement rechercher et ajouter les utilisateurs dotés du rôle d&#39;instructeur aux sessions de salle de classe, aux sessions de classe virtuelle, aux listes de contrôle et aux modules d&#39;envoi de fichiers.
-
-En outre, un auteur peut :
-
-* Ajouter et supprimer des instructeurs dans des sessions existantes.
-* Ajouter des instructeurs aux sessions existantes qui ont déjà un ou plusieurs instructeurs.
-
-Par conséquent, une fois qu&#39;un administrateur a activé l&#39;option **[!UICONTROL Gestion des instructeurs]**, seuls les utilisateurs dotés du rôle d&#39;instructeur peuvent être ajoutés en tant qu&#39;instructeurs.
+Par défaut, Adobe Learning Manager utilise un format d’emplacement à champ unique. Pour les organisations qui gèrent les emplacements de salle de classe dans plusieurs pays et langues, Learning Manager prend également en charge un format structuré à quatre champs qui comprend **Pays**, **État/Province/Région**, **Ville** et **Nom de l’emplacement**. Ce format fournit des fonctionnalités supplémentaires telles que le filtrage basé sur l’emplacement et la prise en charge linguistique pour des emplacements individuels. Les administrateurs peuvent passer au format à quatre champs par le biais d’une migration unique.
 
 >[!NOTE]
 >
->Cela ne s’applique pas lorsque vous migrez des sessions à l’aide du fichier CSV des sessions. Dans ce cas, un utilisateur qui ne dispose pas du rôle d’instructeur peut être ajouté en tant qu’instructeur.
+>Si le format d’emplacement à quatre champs n’est pas activé, les auteurs et les élèves peuvent continuer à utiliser les emplacements de salle de classe comme d’habitude. Le format d’emplacement de champ unique existant reste disponible et aucune modification n’est requise. Voir [Migrer vers la méthode à quatre champs](#migrate-classroom-locations-to-the-four-field-format) pour plus d&#39;informations.
 
-Sur la page **[!UICONTROL Instance de cours]**, un auteur peut annuler une ou plusieurs sessions. Lorsque des sessions sont annulées, le système supprime tous les détails de la session, mais conserve la limite de places.
+## Configurer les paramètres d’emplacement de salle de classe
 
-Par conséquent, un auteur peut utiliser les liens **[!UICONTROL Annuler la session]** pour annuler une ou plusieurs sessions de salle de classe ou sessions de classe virtuelle disponibles dans la même instance de cours ou dans des instances de cours différentes.
+Les administrateurs peuvent contrôler si les auteurs peuvent créer et gérer les emplacements de salle de classe. Utilisez les paramètres **Emplacements de salle de classe** pour définir le niveau d’accès disponible pour les auteurs.
 
-## Se limiter à une liste prédéterminée d’instructeurs
+Pour configurer les **emplacements de salle de classe** :
 
-Actuellement, les utilisateurs peuvent ajouter n’importe quel utilisateur inscrit en tant qu’instructeur lors de la création d’une salle de classe ou d’une session de classe virtuelle. Cette fonctionnalité reste inchangée dans cette version.
+1. Connectez-vous à Adobe Learning Manager en tant qu&#39;**administrateur**.
+1. Sélectionnez **Paramètres** > **Emplacements de salle de classe**.
 
-Cependant, les administrateurs disposent désormais d’une option supplémentaire pour contrôler plus précisément qui est affecté en tant qu’instructeur sur la plateforme d’apprentissage. Cela empêche tout ajout accidentel d’un nouvel instructeur lors de la création d’une session.
+   La page **Emplacements de salle de classe** s&#39;affiche.
 
-## Annuler la session existante
+1. Sélectionnez l&#39;onglet **Paramètres**.
 
-Un auteur ou un administrateur peut annuler une session et la replanifier, si nécessaire.
+   ![Onglet Paramètres pour les emplacements de salle de classe](assets/classroom-locations-settings-tab.png)
 
-Lorsqu’un utilisateur annule une session, le système envoie un e-mail d’annulation de réunion à tous les élèves et instructeurs inscrits. L’e-mail inclut les détails de la session mis à jour.
+   *Activez les privilèges d&#39;auteur pour les emplacements de salle de classe et de salle de classe virtuelle à partir de l&#39;onglet **Paramètres**.*
 
-Il existe un modèle nommé **[!UICONTROL Annulation de session]** qui aide à annuler une session.
+1. Sélectionnez **Modifier**.
 
-Sur la page **[!UICONTROL Instance de cours]**, chaque session répertoriée sous une instance de cours inclut une option permettant d’annuler la session.
+   Le bouton devient modifiable, ce qui vous permet de mettre à jour les paramètres suivants :
 
-![](assets/cancel-session.png)
+   | **Paramètre** | **Description** |
+   |---|---|
+   | **Autoriser les auteurs à créer des emplacements** | Activez cette option pour permettre aux auteurs de créer des emplacements de module de salle de classe et de salle de classe virtuelle lors de la création de sessions de formation dirigée par un instructeur. |
+   | **Autoriser les auteurs à modifier et à supprimer des emplacements** | Activez cette option pour permettre aux auteurs de modifier ou de supprimer les emplacements de salle de classe et de salle de classe virtuelle. |
 
-*Annuler une session existante*
+1. Sélectionnez **Enregistrer**.
 
-Lorsque vous cliquez sur le bouton **[!UICONTROL Annuler la session]**, un message d’avertissement s’affiche.
+## Créer et gérer des emplacements de salle de classe
 
-Dans la boîte de dialogue Message d’avertissement, si vous cliquez sur **[!UICONTROL Continuer]**, le système annule la session.
+Les administrateurs peuvent créer et gérer des emplacements de salle de classe que les auteurs peuvent réutiliser lors de la création de sessions de formation en salle de classe et en salle de classe virtuelle. Adobe Learning Manager prend en charge deux formats d’emplacement :
 
-Le système efface également les détails suivants après l’annulation d’une session :
+* **Format de champ unique** : chaque lieu de salle de classe est identifié par un seul champ **Nom du lieu**. Pour plus d&#39;informations, consultez [Ajouter un emplacement de salle de classe en utilisant un format à champ unique](#add-a-classroom-location-using-a-single-field-format).
+* **Format à quatre champs** : chaque lieu de salle de classe est organisé en **pays**, **état/province/région**, **ville** et **nom du lieu**, ce qui facilite la gestion des lieux dans plusieurs régions. Si votre compte utilise actuellement le format à un seul champ, effectuez la migration unique avant de passer au format à quatre champs. Voir [Migrer vers la méthode à quatre champs](#migrate-classroom-locations-to-the-four-field-format) pour plus d&#39;informations.
 
-* Date de début de la session
-* Date de fin de la session
-* Heure de début de la session
-* Heure de fin de la session
-* Instructeurs ajoutés à la session
-* URL de classe virtuelle
-* Emplacement/lieu ajouté à la session
-* Limite de liste d’attente ajoutée par le formateur
+### Ajout d’un emplacement de salle de classe à l’aide d’un format à champ unique
+
+Vous pouvez ajouter un lieu de salle de classe en utilisant le format de champ unique :
+
+1. Connectez-vous à Adobe Learning Manager en tant qu&#39;**administrateur**.
+1. Sélectionnez **Paramètres** > **Emplacements de salle de classe**.
+1. Sélectionnez **Ajouter** > **Nouvel emplacement**.
+1. Saisissez les détails suivants dans la boîte de dialogue **Emplacements de salle de classe** :
+
+   1. Tapez le **Nom de l&#39;emplacement**. Utilisez un nom unique. Sinon, Learning Manager affiche un message d’erreur.
+   1. Saisissez la description de l’emplacement dans le champ **Informations de localisation**. Ce champ est facultatif.
+   1. Saisissez l’**URL de localisation**. Les élèves peuvent voir ces informations dans les détails de la salle de classe. L’URL peut également être une URL d’emplacement de mappage, si nécessaire. Il s’agit d’un champ facultatif.
+   1. Tapez et sélectionnez la **région d&#39;emplacement**. Ce champ est facultatif.
+   1. Saisissez le nombre de places disponibles dans le champ **Limite de places**. Cela indique la capacité en sièges de la salle de classe. Cette valeur peut être modifiée lors de la création de l’événement de formation dirigée par un instructeur.
+      ![Ajouter un emplacement de salle de classe en utilisant le format à champ unique](assets/add-classroom-location-single-field-format.jpeg)
+      *Ajoutez un emplacement de salle de classe en utilisant le format à champ unique.*
+
+### Migration des emplacements de salle de classe vers le format à quatre champs
+
+Si votre compte utilise le format hérité Emplacement de salle de classe à champ unique, migrez vos emplacements de salle de classe existants avant d’activer le format à quatre champs. Le format à quatre champs organise les données de localisation en **pays**, **état/province/région**, **ville** et **nom de l&#39;emplacement**, ce qui facilite la gestion des emplacements dans plusieurs régions.
+
+Cette migration est un processus unique. Après avoir basculé vers le format à quatre champs, vous ne pouvez pas rétablir le compte au format à un seul champ.
+
+Pour migrer des emplacements existants :
+
+1. Accédez à **Administrateur** > **Emplacements de salle de classe** et sélectionnez l’onglet **Paramètres**.
+1. Sélectionnez **Exporter** dans la section **Migration du format d&#39;emplacement**.
+
+   Un fichier CSV avec vos emplacements de salle de classe existants est téléchargé. Les colonnes suivantes sont disponibles :
+
+   1. **room_id** : identifiant unique de l&#39;emplacement.
+   1. **paramètres régionaux** : paramètres régionaux pour le nom d&#39;emplacement traduit et les informations d&#39;emplacement.
+   1. **name** : nom de la salle de classe.
+   1. **pays** : pays où se trouve la salle de classe.
+   1. **état** : État, province ou région où se trouve la salle de classe.
+   1. **ville** : ville où se trouve la salle de classe.
+   1. **informations** : détails supplémentaires, tels que le nom du bâtiment, l&#39;étage ou le numéro de chambre.
+   1. **url** : URL associée à l&#39;emplacement, telle qu&#39;un lien de mappage.
+   1. **seatlimit** : capacité maximale en sièges de la salle de classe.
+
+   >[!NOTE]
+   >
+   >Le fichier CSV exporté inclut toujours les colonnes de format d’emplacement à quatre champs, même si le format à quatre champs n’est pas activé.
+
+   ![Vérifier la progression de la migration](assets/location-format-migration-progress.png)
+
+   *Vérifiez la progression de la migration avant de passer au format d’emplacement à quatre champs.*
+
+1. Pour chaque nom de colonne, mettez à jour le fichier CSV avec les informations requises, telles que le pays, l’état, la ville, ainsi que toute autre information requise.
+1. Sélectionnez **Importer**, puis chargez le fichier CSV mis à jour.
+
+   Adobe Learning Manager valide les données et met à jour la progression de la migration.
+
+1. Lorsque la barre de progression de la migration atteint 100 %, sélectionnez **Passer au nouveau format à 4 champs**. L&#39;état de la migration du format **Location** est mis à jour en **Migration terminée**.
+
+   ![Statut de la migration du format de l&#39;emplacement terminée](assets/location-format-migration-complete.png)
+
+   *Mises à jour de la migration du format d&#39;emplacement vers l&#39;état Migration terminée.*
+
+## Ajouter des emplacements de salle de classe à l’aide d’un format à quatre champs
+
+Après avoir terminé la migration unique, les administrateurs peuvent créer des emplacements de salle de classe dans le format à quatre champs. Les auteurs peuvent ensuite réutiliser ces emplacements lors de la création de sessions de formation dirigées par un instructeur. Les administrateurs peuvent ajouter des emplacements de salle de classe individuellement ou importer plusieurs emplacements de salle de classe à partir d’un fichier CSV.
+
+### Ajouter un emplacement de salle de classe
+
+Utilisez les emplacements de salle de classe pour normaliser les lieux de formation et simplifier la planification des sessions pour les auteurs.
+
+Pour ajouter un emplacement de salle de classe :
+
+1. Dans l&#39;application Administration, sélectionnez **Paramètres** > **Emplacements de salle de classe**.
+
+   ![Onglet Tous les emplacements](assets/all-locations-tab.png)
+
+   *Sélectionnez l&#39;onglet **Tous les emplacements**&#x200B;pour ajouter un emplacement de salle de classe.*
+
+1. Sélectionnez **Ajouter** > **Nouvel emplacement** dans le coin supérieur droit.
+
+   La fenêtre contextuelle **Emplacement de la salle de classe** s&#39;affiche.
+
+   ![Fenêtre contextuelle d’emplacement de salle de classe](assets/classroom-location-popup-window.png)
+
+   *Saisissez les détails dans la fenêtre contextuelle Emplacement de la salle de classe.*
+
+1. Dans la fenêtre contextuelle **Emplacement de la salle de classe**, entrez les détails suivants :
+
+   | **Champ** | **Description** |
+   |---|---|
+   | **Pays** | Sélectionnez le pays où se trouve la salle de classe. |
+   | **État/Province/Région** | Sélectionnez l’état, la province ou la région. |
+   | **Ville** | Sélectionnez la ville où se trouve la salle de classe. |
+   | **Nom de l&#39;emplacement** | Entrez le nom de la salle de classe ou de la salle. |
+   | **Informations de localisation** | Entrez des détails supplémentaires, tels que le nom du bâtiment, l&#39;étage ou le numéro de la pièce. |
+   | **URL d&#39;emplacement** | Entrez une URL pour l’emplacement, telle qu’un lien de mappage. |
+   | **Limite de places** | Entrez la capacité maximale en sièges de la salle de classe. |
+
+1. Sélectionnez **Enregistrer**.
+
+   Le lieu de la salle de classe est enregistré et répertorié dans l&#39;onglet **Tous les lieux**.
+
+### Importer des emplacements de salle de classe en bloc
+
+Utilisez l’importation en bloc pour ajouter plusieurs emplacements de salle de classe ou mettre à jour des emplacements existants à l’aide d’un fichier CSV.
+
+Pour importer des emplacements de salle de classe en bloc :
+
+1. Dans l&#39;application Administration, sélectionnez **Paramètres** > **Emplacements de salle de classe**.
+1. Sélectionnez **Télécharger CSV** dans l&#39;onglet **Tous les emplacements**.
+
+   Un fichier CSV contenant vos emplacements de salle de classe existants est téléchargé. Les colonnes suivantes sont disponibles :
+
+   1. **room_id** : identifiant unique de l&#39;emplacement.
+   1. **paramètres régionaux** : paramètres régionaux pour le nom d&#39;emplacement traduit et les informations d&#39;emplacement.
+   1. **name** : nom de la salle de classe.
+   1. **pays** : pays où se trouve la salle de classe.
+   1. **état** : État, province ou région où se trouve la salle de classe.
+   1. **ville** : ville où se trouve la salle de classe.
+   1. **informations** : détails supplémentaires, tels que le nom du bâtiment, l&#39;étage ou le numéro de chambre.
+   1. **url** : URL associée à l&#39;emplacement, telle qu&#39;un lien de mappage.
+   1. **seatlimit** : capacité maximale en sièges de la salle de classe.
+
+1. Pour chaque nom de colonne, mettez à jour le fichier CSV avec les informations requises, telles que le pays, l’état, la ville, ainsi que toute autre information requise.
+1. Sélectionnez **Ajouter** > **Emplacements d&#39;importation en bloc** dans le coin supérieur droit.
+
+   La fenêtre contextuelle **Importer des emplacements CSV** s&#39;affiche.
+
+   ![Fenêtre contextuelle CSV des emplacements d&#39;importation](assets/import-locations-csv-popup.png)
+
+   *Faites glisser et déposez le fichier CSV avec les informations mises à jour.*
+
+1. Glissez-déposez le fichier CSV mis à jour dans la zone de téléchargement.
+1. Sélectionnez **Importer**.
+
+   Les emplacements de salle de classe sont mis à jour.
+
+## Ajouter des traductions pour un emplacement de salle de classe
+
+Ajoutez des traductions pour les champs **Nom du lieu** et **Informations sur le lieu** pour afficher les détails du lieu de salle de classe dans les langues préférées de l&#39;élève.
+
+Pour ajouter des traductions pour un emplacement de salle de classe :
+
+1. Sélectionnez **Tous les emplacements** > **Ajouter** dans les **emplacements de salle de classe**.
+1. Sélectionnez **Nouvel emplacement**.
+
+   La fenêtre contextuelle **Emplacement de la salle de classe** s&#39;affiche.
+
+1. Sélectionnez **Ajouter une nouvelle langue**.
+
+   La fenêtre contextuelle **Ajouter une nouvelle langue** s&#39;affiche.
+
+   ![Fenêtre contextuelle Ajouter une nouvelle langue](assets/add-new-language-popup.png)
+
+   *Sélectionnez les langues dans la fenêtre contextuelle Ajouter une nouvelle langue.*
+
+1. Sélectionnez **Enregistrer**.
+
+   Les traductions sont enregistrées et affichées aux utilisateurs.
+
+>[!NOTE]
+>
+>Seuls les champs **Nom de l&#39;emplacement** et **Informations d&#39;emplacement** prennent en charge les traductions. Les détails de l&#39;emplacement tels que **Pays**, **État/Province/Région** et **Ville** ne sont pas traduits.
+
+## Modifier un emplacement de salle de classe
+
+Pour modifier un emplacement de salle de classe, procédez comme suit :
+
+1. Dans l&#39;application Administration, sélectionnez **Paramètres** > **Emplacements de salle de classe**.
+1. Passez la souris sur l’emplacement de salle de classe que vous souhaitez modifier.
+
+   ![Icône Modifier pour un emplacement de salle de classe](assets/edit-classroom-location-icon.png)
+
+   *Survolez l’emplacement de salle de classe requis et sélectionnez l’icône Modifier.*
+
+1. Sélectionnez l&#39;icône **Modifier l&#39;emplacement de la salle de classe**.
+
+   La fenêtre contextuelle Emplacement de la salle de classe s’affiche.
+
+1. Modifiez l&#39;emplacement de la salle de classe et sélectionnez **Enregistrer**.
+
+## Supprimer un emplacement de salle de classe
+
+Pour supprimer un emplacement de salle de classe, procédez comme suit :
+
+1. Dans l&#39;application Administration, sélectionnez **Paramètres** > **Emplacements de salle de classe**.
+1. Survolez l’emplacement de salle de classe que vous souhaitez supprimer.
+1. Sélectionnez l&#39;icône **Supprimer l&#39;emplacement de salle de classe**.
+
+   La fenêtre contextuelle Confirmation requise s’affiche.
+
+   ![Fenêtre contextuelle Confirmation requise](assets/delete-classroom-location-confirmation.png)
+
+   *Sélectionnez Supprimer pour confirmer la suppression d’un emplacement de salle de classe.*
+
+1. Sélectionnez **Supprimer**.
+
+## Foire aux questions
+
+1. **Qu’advient-il des emplacements de salle de classe existants une fois la migration terminée ?**<br>
+Vous pouvez activer le format d’emplacement à quatre champs uniquement après la migration de tous les emplacements existants, soit manuellement, soit par le biais d’un chargement CSV. Une fois le format à quatre champs activé, tous les cours existants qui utilisent des emplacements de salle de classe affichent des emplacements dans le nouveau format.
+
+1. **Dois-je restructurer manuellement le fichier CSV exporté pour qu’il corresponde au format d’emplacement à quatre champs ?**<br>
+Non. Le fichier CSV exporté utilise toujours le format d’emplacement à quatre champs, qu’il soit actuellement activé ou non. Il vous suffit de mettre à jour les valeurs manquantes avant d’importer le fichier.
+
+1. **La migration affecte-t-elle les rapports Adobe Learning Manager ?**<br>
+Oui. Après la migration, les rapports qui incluent les informations de localisation de la salle de classe affichent les emplacements au format suivant :
+
+   **Pays > État/Province/Région > Ville > Nom de l’emplacement**
+
+   Ce format remplace la valeur d’emplacement de champ unique précédente.
+
+1. **Que se passe-t-il si je n&#39;active pas le format d&#39;emplacement à quatre champs ?**<br>
+Rien ne change pour les auteurs ou les élèves. Les emplacements de salle de classe continuent d’apparaître et de fonctionner comme à l’heure actuelle, en utilisant le format de champ unique existant jusqu’à ce qu’un administrateur termine la migration et active le format à quatre champs.

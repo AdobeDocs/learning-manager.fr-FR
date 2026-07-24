@@ -3,10 +3,10 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '6280'
-ht-degree: 52%
+source-wordcount: '7489'
+ht-degree: 44%
 
 ---
 
@@ -545,8 +545,8 @@ Capture les informations d’achèvement au niveau de l’utilisateur pour les o
 
 * Toutes les données relatives à l’équivalence doivent être introduites via la migration.
 * Le système ne prend pas en charge les scénarios dans lesquels :
-   * Les données objet d’apprentissage (cours/programmes d’apprentissage) ont été créées via l’interface utilisateur.
-   * Les relations d’équivalence sont importées ultérieurement uniquement via CSV.
+  * Les données objet d’apprentissage (cours/programmes d’apprentissage) ont été créées via l’interface utilisateur.
+  * Les relations d’équivalence sont importées ultérieurement uniquement via CSV.
 
 Cela signifie :
 
@@ -1054,3 +1054,213 @@ Résolution des erreurs de migration courantes
 | Échec de la ligne de session avec une erreur de métadonnées | Vérifiez que tous les noms de clé JSON dans le champ `metadata` utilisent exactement camelCase. Les touches sont sensibles à la casse. |
 | Teams `isCompletionCriteria` n&#39;a aucun effet | L’indicateur de fonctionnalité des critères d’achèvement pour Teams doit être activé par votre administrateur de compte ALM avant que les valeurs de migration ne prennent effet. |
 | Ligne de session créée, mais le champ instructeur est vide | Si l’adresse e-mail de l’instructeur fournie ne correspond pas à un utilisateur dans ALM, la session est créée avec un champ d’instructeur vide. Vérifiez que l’adresse e-mail de l’instructeur existe dans ALM avant de procéder au chargement. |
+
+## Migration de modules LTI {#migrationofltimodules}
+
+### Présentation
+
+La migration LTI étend le workflow de migration existant et ne nécessite pas de fichiers de migration supplémentaires. Les enregistrements d&#39;association de cours, de modules et de modules existants continuent d&#39;utiliser le format de migration standard. Les informations spécifiques à LTI sont fournies par les données de version du module.
+
+### Utiliser des fichiers pour la migration LTI
+
+Les modules LTI sont migrés à l’aide des fichiers de migration standard.
+
+Les fichiers suivants continuent d’utiliser le format de migration existant :
+
+* course.csv
+* module.csv
+* course_module.csv
+
+Aucun champ spécifique à LTI n&#39;est requis dans ces fichiers. Les paramètres spécifiques à LTI sont configurés dans le fichier `module_version.csv`.
+
+### Configuration d’une version de module LTI
+
+Utilisez le fichier `module_version.csv` pour définir les propriétés d&#39;une version de module LTI.
+
+Outre les champs existants pris en charge dans `module_version.csv`, Adobe Learning Manager prend en charge les valeurs et attributs spécifiques à LTI.
+
+#### contentType
+
+Utilisez la valeur `LTI` dans le champ `contentType` pour identifier la version du module comme module LTI.
+
+*Champ et valeur utilisés pour identifier une version de module LTI*
+
+| **Champ** | **Valeur** |
+|-------------|-----------|
+| contentType | LTI |
+
+#### ltiLaunchUrl
+
+Spécifie l&#39;URL de lancement du fournisseur LTI externe.
+
+Lorsqu’un élève lance le module dans Adobe Learning Manager, il est redirigé vers le point de terminaison LTI configuré.
+
+*Champ utilisé pour spécifier l&#39;URL de lancement du fournisseur LTI externe*
+
+| **Champ** | **Description** |
+|--------------|--------------------------------------------------|
+| ltiLaunchUrl | URL de lancement fournie par la plateforme LTI externe |
+
+#### ltiCustomParams
+
+Spécifie les paramètres de lancement personnalisés qui sont transmis au fournisseur LTI lors du lancement.
+
+Utilisez ce champ lorsque la plate-forme externe nécessite un contexte de lancement ou des paramètres de configuration supplémentaires.
+
+*Champ utilisé pour transmettre les paramètres de lancement personnalisés au fournisseur LTI*
+
+| **Champ** | **Description** |
+|-----------------|------------------------------------------------------------|
+| ltiCustomParams | Paramètres personnalisés transmis à la plateforme LTI lors du lancement |
+
+#### tpName
+
+Spécifie le nom du fournisseur LTI tiers associé au module.
+
+*Champ utilisé pour identifier le fournisseur LTI tiers*
+
+| **Champ** | **Description** |
+|-----------|-----------------------------------------------------------------|
+| tpName | Nom du fournisseur LTI tiers associé au module |
+
+### Exemple de version de module LTI
+
+L&#39;exemple suivant montre un enregistrement de version de module configuré pour un module LTI :
+
+```csv
+moduleId,moduleVersion,contentType,dateCreated,duration,desiredDuration,contentUrl,hasQuiz,ltiLaunchUrl,ltiCustomParams,tpName
+2024101905,1,LTI,2024-10-19T09:55:21.123Z,60,60,,,https://m42almintegrationsv01.moodlecloud.com/enrol/lti/launch.php,"id=8600f9a1-256f-4a0c-bcfc-36377eba8ae1
+param=1",DND_Moodle_isProducer
+```
+
+Dans cet exemple :
+
+* La version du module est identifiée en tant que module LTI par la valeur `contentType=LTI`.
+* L’URL de lancement pointe vers le fournisseur LTI externe.
+* Les paramètres de lancement personnalisés sont fournis via `ltiCustomParams`.
+* Le fournisseur est identifié via le champ `tpName`.
+
+### Migration d’un module LTI
+
+Pour migrer un module LTI :
+
+1. Créez l&#39;enregistrement de cours dans `course.csv`.
+2. Créez l&#39;enregistrement de module dans `module.csv`.
+3. Associez le cours et le module dans `course_module.csv`.
+4. Ajoutez les détails de version du module dans `module_version.csv`.
+5. Définissez la valeur `contentType` sur `LTI`.
+6. Indiquez l’URL de lancement LTI et les paramètres de lancement facultatifs.
+7. Exécutez le sprint de migration.
+
+Le framework de migration traite le module LTI dans le cadre du flux de migration standard.
+
+### Validation des versions du module LTI
+
+Lors de la création de versions de module LTI :
+
+* Utilisez la valeur `LTI` pour le champ `contentType`.
+* Indiquez une URL de lancement valide dans le champ `ltiLaunchUrl`.
+* Spécifiez le nom du fournisseur externe dans le champ `tpName`.
+* Assurez-vous que le module est associé à un cours via les fichiers de migration standard.
+* Continuez à suivre toutes les exigences de migration et règles de validation de versions de module existantes documentées pour `module_version.csv`.
+
+Le système de migration applique le workflow de traitement de migration standard en plus des champs spécifiques à LTI.
+
+## Migration de cours adaptatifs
+
+Si vous migrez des cours d’un système externe vers Adobe Learning Manager et que vous souhaitez qu’ils soient configurés en tant que cours adaptatifs avec des règles de visibilité et d’achèvement au niveau du module par groupe d’utilisateurs, vous pouvez utiliser deux fichiers CSV pour définir les cours et leurs règles adaptatives.
+
+### Éléments à migrer
+
+La migration d’un cours adaptatif nécessite deux modifications de votre package CSV de migration standard :
+
+* **Mise à jour de** _course.csv_ : nouvelle colonne qui marque un cours comme adaptatif
+* **Un nouveau fichier,** _course_ module_user_group.csv_ : une ligne par règle module-to-user-group
+
+Les deux fichiers doivent être inclus dans le même projet de migration.
+
+### Mettre à jour course.csv
+
+Ajoutez la colonne isAdaptive à votre fichier course.csv.
+
+| **Colonne** | **Valeurs** | **Description** |
+| --- | --- | --- |
+| isAdaptive | vrai ou vide | Définissez sur true pour les cours adaptatifs. Laissez vide ou définissez la valeur sur false pour les cours réguliers. |
+
+Toutes les autres colonnes course.csv restent inchangées.
+
+**Exemple d&#39;ordre des colonnes :**
+
+* l&#39;identifiant
+* courseName
+* description
+* courseCreationDate
+* l&#39;état
+* séquentiel
+* auteur
+* thumbnailUrl
+* balises
+* isAdaptive
+
+>[!NOTE]
+>
+>La colonne isAdaptive est facultative pour les cours réguliers. S&#39;il est omis ou laissé vide, le cours est traité comme un cours normal.
+
+### Ajouter course_module_user_group.csv
+
+Il s’agit d’un nouveau fichier CSV qui définit les règles de visibilité adaptative et d’achèvement pour chaque module de chaque cours adaptatif. Chaque ligne mappe un module à un groupe d&#39;utilisateurs avec un type de règle.
+
+| **Colonne** | **Description** |
+| --- | --- |
+| courseId | L&#39;identificateur source du cours (doit correspondre à l&#39;ID dans course.csv) |
+| moduleId | L&#39;identifiant source du module (doit correspondre à l&#39;identifiant du module dans vos fichiers de module) |
+| userGroupId | ID Adobe Learning Manager du groupe d’utilisateurs auquel cette règle s’applique |
+| type | OBLIGATOIRE : le groupe d’utilisateurs doit terminer ce module pour terminer le cours. FACULTATIF — le groupe d&#39;utilisateurs peut voir ce module et y accéder, mais il n&#39;est pas nécessaire de le terminer. |
+| opération | AJOUTER : créez ou mettez à jour cette règle. DELETE : supprimez cette règle. |
+
+**Exemple d&#39;ordre des colonnes :**
+
+* courseId
+* moduleId
+* userGroupId
+* type
+* opération
+
+### Règles applicables au fichier
+
+* Chaque module de contenu d&#39;un cours adaptatif doit avoir au moins une ligne dans ce fichier. Un module sans règles n’est visible par aucun élève.
+* Les modules préparatoires et les modules de test ne nécessitent pas de règles. Ils sont automatiquement appliqués à tous les élèves inscrits et ne doivent pas apparaître dans ce fichier.
+* Vous pouvez avoir plusieurs lignes pour le même module. Un par groupe d’utilisateurs.
+* Si vous soumettez une ligne ADD pour une règle qui existe déjà dans le système, la règle existante est mise à jour au lieu de créer un doublon.
+
+### Charger l’ordre
+
+Les fichiers de votre projet de migration doivent être chargés et traités dans l’ordre suivant. Les fichiers ultérieurs dépendent des données créées par les fichiers antérieurs et échoueront si l’ordre n’est pas suivi.
+
+* **module.csv** : définissez les modules
+* **module_version.csv** : définissez les versions de module
+* **course.csv** : (avec isAdaptive=true pour les cours adaptatifs) - Créez les cours
+* **course_module.csv** : liaison des modules aux cours
+* **course_module_user_group.csv** : appliquer des règles de visibilité et d&#39;achèvement adaptatives
+
+Téléchargez les fichiers de migration ici : [Fichiers de migration de cours adaptatifs](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
+
+>[!IMPORTANT]
+>
+>**course_module_user_group.csv** doit être chargé en dernier. Les règles de ce fichier font référence à un cours et à un module qui doivent déjà être liés à l&#39;étape 4 avant que les règles puissent être appliquées.
+
+### Référence de validation et d’erreur
+
+Adobe Learning Manager valide chaque ligne dans course_module_user_group.csv avant d’appliquer les règles. Toute ligne dont la validation échoue est rejetée avec un message d’erreur. Les lignes valides restantes sont toujours traitées.
+
+| **Scénario** | **Que se passe-t-il** | **Message d&#39;erreur** |
+| --- | --- | --- |
+| Règles fournies pour un cours qui n&#39;est pas marqué comme adaptatif | Ligne rejetée | Le cours doit être adaptatif pour avoir des règles de visibilité du contenu. ID du cours : {courseId} |
+| Cours marqué comme adaptatif, mais aucune règle n&#39;est fournie pour ses modules de contenu | Cours refusé | Le cours adaptatif doit avoir au moins une règle de visibilité pour chaque module de contenu. L&#39;ID de cours {courseId} n&#39;a pas de règles pour le ou les modules {moduleIds} |
+| Le module n&#39;est pas lié au cours | Ligne rejetée | Le module {moduleId} n&#39;est pas lié au cours {courseId}. Ajoutez d&#39;abord le module au cours via course_module.csv. |
+| Le module est un module préparatoire ou de test (et non un module de contenu) | Ligne rejetée | Les règles de visibilité s’appliquent uniquement aux modules de type de contenu. Le module {moduleId} est de type {actualType}. |
+| Le groupe d’utilisateurs n’existe pas ou est inactif | Ligne rejetée | Groupe d&#39;utilisateurs {userGroupId} introuvable ou inactif. |
+| La valeur de type n&#39;est ni OBLIGATOIRE ni FACULTATIF | Ligne rejetée | Type &#39;{type}&#39; non valide. Doit être OBLIGATOIRE ou FACULTATIF. |
+| La valeur de l&#39;opération n&#39;est pas ADD ou DELETE | Ligne rejetée | Opération « {operation} » non valide. Doit être ADD ou DELETE. |
+| AJOUTER soumis pour une règle qui existe déjà | Règle mise à jour silencieusement | Aucune erreur : la règle existante est mise à jour avec la nouvelle valeur de type. |
+
