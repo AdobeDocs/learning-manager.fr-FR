@@ -3,9 +3,9 @@ description: En tant qu’auteur, découvrez comment créer des cours adaptatifs
 jcr-language: en_us
 title: Cours adaptatifs pour les auteurs
 contentowner: mmanuel
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Après avoir ajouté un module de contenu, configurez ses règles adaptatives :
 
 **Règles clés :**
 
-* Un élève appartenant à plusieurs groupes d&#39;utilisateurs obtient le résultat le plus restrictif : si un groupe rend un module obligatoire, il est obligatoire pour cet élève.
+* Si un groupe rend un module obligatoire, il est obligatoire pour cet élève.
 * Vous devez configurer au moins un module comme **Obligatoire** pour au moins un groupe d&#39;utilisateurs avant de pouvoir publier. Le système bloque la publication jusqu&#39;à ce que cette condition soit remplie.
 
 ### Cours à l’état de brouillon
@@ -120,6 +120,10 @@ Notez que vous ne pouvez plus modifier les paramètres de visibilité dans le co
 
 ![](assets/ac-author-008.png)
 
+>[!NOTE]
+>
+>Un élève ne peut pas être sur liste d&#39;attente lors du changement d&#39;instance, l&#39;inscription sera bloquée.
+
 ### Ajout ou modification de modules
 
 1. Ouvrez le cours publié.
@@ -141,8 +145,8 @@ Notez que vous ne pouvez plus modifier les paramètres de visibilité dans le co
 Un élève qui change d’instances d’un cours adaptatif poursuit sa progression :
 
 * Les modules déjà terminés restent terminés dans la nouvelle instance.
-* Les places sont consommées uniquement pour les modules visibles non\ terminés dans la nouvelle instance.
-* Si les modules visibles dans la nouvelle instance n’ont pas de places disponibles, l’élève est sur liste d’attente pour ces sessions.
+* Les places sont consommées uniquement pour les modules visibles non terminés dans la nouvelle instance.
+* Ils ne peuvent pas être inscrits sur liste d’attente lorsqu’aucune place n’est disponible pour une instance. L’inscription sera bloquée.
 
 ## Gestion des limites de places et des listes d’attente dans les cours adaptatifs
 

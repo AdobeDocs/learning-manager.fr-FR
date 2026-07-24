@@ -3,9 +3,9 @@ description: Proposez un cours à plusieurs publics en contrôlant les modules q
 jcr-language: en_us
 title: Cours adaptatifs dans Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: ffaf107e8077b6a6270fa2f8afc76e721d393702
+source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,16 @@ Les règles adaptatives s&#39;appliquent uniquement aux **modules de contenu**. 
 
 - **Modules de préparation :** affichés à tous les élèves avant le début du contenu de base.
 - **Modules de test :** disponibles pour tous les élèves ; terminer un test termine le cours quel que soit le statut du module de contenu.
-- **Assistances à la tâche et ressources :** visible à tout moment par tous les élèves inscrits.
+- **Conditions préalables :** si des conditions préalables sont configurées pour un cours, tous les élèves doivent les remplir avant de s&#39;inscrire, quel que soit leur groupe d&#39;utilisateurs. Les conditions préalables ne sont pas adaptatives et ne peuvent pas être étendues à des groupes d’utilisateurs spécifiques.
+
+Les assistances à la tâche et les ressources associées au cours ne sont pas non plus adaptatives. Ils sont visibles par tous les élèves inscrits.
+
+Les compétences, les points de ludification et les badges sont attribués en fonction de la première fin de cours de l’élève et ne sont pas affectés par les nouvelles finalisations résultant de changements de profil.
+
+>[!NOTE]
+>
+>Lorsqu’un cours adaptatif fait partie d’un objet d’apprentissage d’ordre supérieur partagé en externe, le cours adaptatif est copié en tant que cours normal dans le compte enfant.
+
 
 ## Disponibilité des fonctionnalités
 
