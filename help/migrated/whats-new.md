@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et améliorations, y comp
 jcr-language: en_us
 title: Nouveautés de la version d’août 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
+source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,11 @@ Points saillants :
 * Aidez vos élèves à tirer le meilleur parti de chaque session avec des résumés et des enregistrements de session générés par l’IA consultables par sujet.
 * Mesurez ce qui compte grâce à des analyses d’engagement qui vont au-delà de l’assiduité pour révéler une véritable participation à l’apprentissage.
 * Aidez vos auteurs à utiliser le Finder d’instructeurs basé sur l’IA pour trouver le bon instructeur en fonction des compétences, de la disponibilité, des heures préférées, du fuseau horaire et de l’utilisation actuelle.
+
+>[!NOTE]
+>
+>Live Hub est actuellement en version Beta et sera disponible dans la prochaine version d’août de Adobe Learning Manager. La documentation de Live Hub sera disponible une fois la fonctionnalité publiée.
+
 
 ## Créateur de modèles d’e-mail basé sur des composants
 
@@ -214,6 +219,8 @@ Pour plus d&#39;informations, voir [Emplacements de salle de classe](/help/migra
 ## Bientôt disponible : Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer est un outil de création de cours d’IA à venir dans Adobe Learning Manager qui vous aide à créer un cours prêt à être publié en un rien de temps.
+
+Un assistant d&#39;IA conversationnelle vous guidera tout au long du processus : Invite, Bref, Plan et Cours. Vous garderez ainsi le contrôle à chaque étape, en passant en revue et en affinant avant d&#39;aller plus loin. Vous pourrez ancrer du contenu dans vos propres documents sources, appliquer une thématique instantanée aux cours et partager ou exporter des cours finalisés via SCORM ou publication directe vers Adobe Learning Manager.
 
 ## Signalement des modifications apportées à la version
 
