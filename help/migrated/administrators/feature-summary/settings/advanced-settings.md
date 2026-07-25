@@ -3,9 +3,9 @@ description: En savoir plus sur la configuration des paramètres avancés dans A
 jcr-language: en_us
 title: Paramètres avancés dans Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,10 @@ Les dossiers de contenu privés prennent en charge jusqu’à trois niveaux d’
 
 Cette structure permet aux organisations de refléter l’organisation du contenu réel, par rubrique, type de diffusion, audience ou équipe, plutôt que de gérer des milliers de fichiers dans une liste plate.
 
-Seuls les administrateurs peuvent créer, modifier ou supprimer des dossiers à n’importe quel niveau. Les auteurs et les utilisateurs personnalisés interagissent avec la hiérarchie, mais ne peuvent pas la modifier.
+>[!NOTE]
+>
+>Seuls les administrateurs peuvent créer, modifier ou supprimer des dossiers à n’importe quel niveau. Les auteurs et les utilisateurs personnalisés interagissent avec la hiérarchie, mais ne peuvent pas la modifier. En outre, les administrateurs personnalisés ayant accès à n’importe quel dossier racine peuvent créer, modifier ou supprimer des dossiers sous ce dossier racine.
+
 
 ### Règles de dénomination des dossiers
 
@@ -71,7 +74,7 @@ Les noms de dossier doivent être uniques au sein du même niveau et se trouver 
 
 ### Affichage des chemins de dossier
 
-La bibliothèque de contenu affiche le chemin complet de chaque fichier de contenu. Par exemple, **Programmes de formation** > **Intégration** > **Ressources SCORM**. Ce chemin montre l’emplacement complet du contenu.
+La bibliothèque de contenu affiche le chemin complet de chaque fichier de contenu. Par exemple, **Programmes de formation** / **Intégration** / **Ressources SCORM**. Ce chemin montre l’emplacement complet du contenu.
 
 Si un fichier existe dans plusieurs dossiers, tous les chemins apparaissent séparés par des virgules. Si un chemin est long, il est tronqué depuis le début avec une ellipse (...), et le nom du dossier le plus profond est toujours affiché.
 
@@ -140,7 +143,7 @@ Avec une structure à trois niveaux :
 
 * Niveau 3 : modules ou ressources spécifiques par région (PDF de la réglementation de la confidentialité, jeux de politiques locales, fichiers d’évaluation)
 
-Les équipes régionales d’auteurs n’ont accès qu’à leur branche de niveau 1 ou 2. Ils peuvent uniquement trouver, mettre à jour et réutiliser les ressources correspondant à leur juridiction sans voir ou modifier accidentellement le contenu d’une autre région.
+Dans le cas d’auteurs régionaux, étant un rôle personnalisé, seul le dossier de niveau 1 peut être sélectionné lors de la création du rôle personnalisé. La sélection du dossier de niveau 2 n’est pas une option. Ils peuvent uniquement trouver, mettre à jour et réutiliser les ressources correspondant à leur juridiction sans voir ou modifier accidentellement le contenu d’une autre région.
 
 **Cas d’utilisation 2- Programme d’intégration à grande échelle avec de nombreux rôles**
 
@@ -212,7 +215,7 @@ En tant qu’administrateur dans Adobe Learning Manager, vous créez et gérez l
 Avant de supprimer, tenez compte des règles suivantes :
 
 * Vous pouvez supprimer un dossier vide à n’importe quel niveau.
-* Vous ne pouvez pas supprimer un dossier dont le contenu n’est lié à aucun autre dossier. Déplacez d’abord ce contenu vers un autre dossier.
+* Seuls les dossiers vides peuvent être supprimés. Les dossiers qui contiennent du contenu ne peuvent pas être supprimés, que le contenu soit lié à d’autres dossiers ou non.
 * La suppression d’un dossier parent supprime tous ses sous-dossiers. La sélection d’un dossier parent sélectionne automatiquement tous ses enfants.
 
 #### Supprimer le dossier parent
