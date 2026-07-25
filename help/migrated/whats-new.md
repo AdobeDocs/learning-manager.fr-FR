@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et améliorations, y comp
 jcr-language: en_us
 title: Nouveautés de la version d’août 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Fonctionnalités clés :
 * Maximum de 10 parcours d’apprentissage personnalisés visibles sur la page d’accueil de l’élève
 * Les tracés terminés peuvent être partagés avec des collègues
 
-Pour plus d&#39;informations, voir [Assistant IA pour les élèves](/help/migrated/learners/feature-summary/learning-path-agent.md).
+Pour plus d&#39;informations, voir [Agent du parcours d&#39;apprentissage](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Agent d’informations
 

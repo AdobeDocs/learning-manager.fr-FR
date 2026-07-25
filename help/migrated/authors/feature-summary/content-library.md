@@ -3,9 +3,9 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '5992'
+source-wordcount: '6048'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Lorsque vous chargez un nouveau contenu, vous choisissez le dossier dans lequel 
 4. Sous **Ajouter un fichier de contenu**, faites glisser et déposez le fichier de contenu ou sélectionnez le champ à parcourir et à télécharger.
    ![](assets/cl2.png)
 
-5. Sous **Ajouter au dossier**, sélectionnez **Parcourir les dossiers** et accédez au dossier où vous souhaitez stocker le contenu. Sélectionnez le dossier à confirmer.
+5. Sous **Ajouter au dossier**, parcourez le dossier ou recherchez le dossier dans le champ de recherche.
    ![](assets/cl3.png)
 
 6. Sélectionnez **Ajouter**.
@@ -461,7 +461,7 @@ Lorsque vous chargez un nouveau contenu, vous choisissez le dossier dans lequel 
 
 ## Affichage des chemins d’accès aux dossiers dans la bibliothèque de contenu
 
-Dans la **Bibliothèque de contenu**, chaque fichier de contenu affiche son chemin de dossier complet, par exemple **Formation commerciale** > **Modules d&#39;auto-apprentissage** > **Actifs de PDF**. Ce chemin vous indique exactement où se trouve le fichier dans la hiérarchie.
+Dans la **Bibliothèque de contenu**, chaque fichier de contenu affiche son chemin de dossier complet, par exemple, **Formation commerciale** / **Modules individualisés** / **Ressources du PDF**. Ce chemin vous indique exactement où se trouve le fichier dans la hiérarchie.
 
 * Si un fichier existe dans plusieurs dossiers, tous les chemins apparaissent séparés par des virgules.
 
@@ -490,16 +490,17 @@ Le filtre **Dossiers** de la bibliothèque de contenu vous permet de réduire la
 
 ## Déplacer le contenu vers le dossier {#movecontenttofolder}
 
-Le déplacement de contenu supprime le contenu de son dossier actuel et le place dans le dossier de destination.
+Le déplacement de contenu supprime le contenu de son dossier actuel et le place dans le dossier de destination. Vous pouvez sélectionner plusieurs dossiers privés dans la boîte de dialogue pour déplacer le contenu. Cependant, vous ne pouvez pas sélectionner des dossiers privés et publics en même temps. Vous pouvez sélectionner plusieurs dossiers privés ou un seul dossier public.
 
 1. Dans la **Bibliothèque de contenu**, cochez la case en regard de chaque fichier de contenu que vous souhaitez déplacer.
 2. Sélectionnez **Actions** > **Organiser le contenu** > **Déplacer le contenu vers le dossier**. Le panneau **Déplacer le contenu vers le dossier** s&#39;ouvre.
 3. Sélectionnez le dossier de destination où vous souhaitez déplacer le contenu.
 4. Sélectionnez **Déplacer le contenu**. La bibliothèque de contenu est mise à jour pour afficher le nouveau chemin d’accès au dossier.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Vous ne pouvez pas déplacer le contenu d’un dossier privé vers le dossier public, ni du dossier public vers un dossier privé.
+>Vous pouvez déplacer le contenu d’un dossier public vers un dossier privé et inversement. Cependant, vous ne pouvez pas déplacer du contenu vers des dossiers publics et privés dans la même action. Si vous sélectionnez un dossier public, vous ne pouvez pas sélectionner de dossiers privés, et inversement.
+
 
 
 <!--
