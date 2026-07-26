@@ -942,7 +942,7 @@ Les quatre fichiers CSV acceptent `almCourseID` pour référencer des cours et `
 
 ### Définir la date de début des instances de cours et de parcours d’apprentissage
 
-Utilisez le fichier CSV de l&#39;instance de cours **1} et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
+Utilisez le fichier CSV de l&#39;instance de cours **1&rbrace; et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
 
 **Fichier CSV de l&#39;instance de cours : ajoutez une date de début**
 
