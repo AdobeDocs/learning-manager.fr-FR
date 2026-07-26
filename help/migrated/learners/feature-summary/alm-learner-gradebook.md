@@ -2,9 +2,9 @@
 description: Tout sur le Gradebook du point de vue de l'élève
 jcr-language: en_us
 title: Classeur pour les élèves
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 45338a2325a1d6b4c31869399acf3331c65afed7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Vous pouvez ouvrir l&#39;onglet **Gradebook** à tout moment pendant votre inscr
 
 * **Avant de commencer :** après l&#39;inscription, la liste complète des modules pouvant être notés s&#39;affiche, avec leurs pourcentages de pondération, le nombre maximal de notes pour chacun et les critères de réussite définis par l&#39;auteur. Cela vous montre exactement comment le cours est noté avant de commencer.
 * **En cours :** à mesure que vous terminez les modules et que les scores sont enregistrés, le journal de notation est mis à jour pour afficher vos scores jusqu&#39;à présent, aux côtés des modules qui n&#39;ont pas encore été tentés ou qui sont en attente de notation.
-* **Après avoir terminé :** le cahier de notes affiche tous les scores du module final, le score total calculé du cours et un résultat **Réussi** dans l&#39;en-tête.
+* **Après avoir terminé :** le cahier de notes affiche tous les scores du module final, votre score total calculé du cours et un résultat de **note finale** dans l&#39;en-tête.
 
 ## Afficher le carnet de notes
 
@@ -78,8 +78,8 @@ Chaque module du classeur affiche l’un des statuts suivants :
 ![](assets/image_0012.png)
 
 | **Statut** | **Signification** |
-|------------|-------------------|
-| **Terminé** | Module terminé et score enregistré |
+| ------------ | ------------------- |
+| **Réussite** | Module terminé et score enregistré |
 | **En cours** | Module démarré mais pas encore terminé |
 | **Non démarré** | Module non encore ouvert |
 | **Échec** | Le module a obtenu un score qui n’a pas atteint le seuil de réussite du module |
