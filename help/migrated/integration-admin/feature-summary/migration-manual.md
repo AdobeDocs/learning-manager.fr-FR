@@ -3,10 +3,10 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '7489'
-ht-degree: 44%
+source-wordcount: '9158'
+ht-degree: 36%
 
 ---
 
@@ -942,7 +942,7 @@ Les quatre fichiers CSV acceptent `almCourseID` pour référencer des cours et `
 
 ### Définir la date de début des instances de cours et de parcours d’apprentissage
 
-Utilisez le fichier CSV de l&#39;instance de cours **1&rbrace; et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
+Utilisez le fichier CSV de l&#39;instance de cours **1} et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
 
 **Fichier CSV de l&#39;instance de cours : ajoutez une date de début**
 
@@ -1264,3 +1264,196 @@ Adobe Learning Manager valide chaque ligne dans course_module_user_group.csv ava
 | La valeur de l&#39;opération n&#39;est pas ADD ou DELETE | Ligne rejetée | Opération « {operation} » non valide. Doit être ADD ou DELETE. |
 | AJOUTER soumis pour une règle qui existe déjà | Règle mise à jour silencieusement | Aucune erreur : la règle existante est mise à jour avec la nouvelle valeur de type. |
 
+## Migration de la hiérarchie des dossiers de contenu {#migratecontentfolderhierarchy}
+
+Si vous migrez votre contenu d’apprentissage à partir d’une autre plate-forme vers Adobe Learning Manager et que vous souhaitez conserver l’organisation de vos dossiers existants, vous pouvez utiliser les fichiers CSV pour créer une structure de dossiers hiérarchique et associer vos fichiers de contenu aux dossiers appropriés.
+
+Cette migration est généralement effectuée dans le cadre d’une migration de plateforme plus vaste, une fois que vos utilisateurs, cours, modules et fichiers de contenu ont déjà été importés dans Adobe Learning Manager. Cette étape de migration réorganise ce contenu dans la structure de dossiers que vous aviez dans votre système source.
+
+### Conditions préalables
+
+Avant de commencer la migration des dossiers de contenu, vérifiez les points suivants :
+
+| Prérequis | Pourquoi c’est important |
+| --- | --- |
+| La fonctionnalité Dossiers de contenu hiérarchique est activée pour votre compte | La migration échoue si cette fonctionnalité n’est pas active. Contactez l’Adobe en cas de doute. |
+| Un projet de migration a été créé dans l’outil de migration | Tous les fichiers CSV doivent s’exécuter sous un projet de migration pour le suivi et la prise en charge de la réexécution. |
+| Les utilisateurs, cours, modules et fichiers de contenu ont déjà été migrés (étapes 1 à 4 de votre migration) | La migration des dossiers est l’étape 5 : elle organise le contenu qui doit déjà exister dans Adobe Learning Manager. |
+| Votre compte administrateur dispose d’une autorisation d’exécution de la migration | Requis pour déclencher les sprints de migration. |
+
+### Rôle de cette migration
+
+La migration des dossiers de contenu crée jusqu’à trois niveaux de dossiers imbriqués dans la bibliothèque de contenu Adobe Learning Manager et associe vos fichiers de contenu existants aux sous-dossiers appropriés. Les liens de vos cours et modules aux fichiers de contenu ne sont pas affectés. Seule l’organisation des dossiers change.
+
+La migration s’exécute en tant que tâche d’arrière-plan asynchrone. Vous chargez un fichier CSV, les processus de migration en arrière-plan et vous pouvez suivre la progression pendant que le système fonctionne. La migration peut être réexécutée si des corrections sont nécessaires ; les lignes déjà traitées avec succès sont automatiquement ignorées lors d&#39;une exécution ultérieure.
+
+### Deux phases de migration
+
+La migration des dossiers de contenu comporte deux phases indépendantes. Chacun peut être exécuté et validé séparément.
+
+| Phase | Ce que vous fournissez | Ce qu’il fait |
+| --- | --- | --- |
+| **Phase 1 — Structure de dossier** | `content_folder.csv` | Crée votre hiérarchie de dossiers de niveau 1, 2 et 3 dans Adobe Learning Manager |
+| **Phase 2 — Association de contenu** | `module_version.csv` (mis à jour avec le chemin d&#39;accès au dossier) | Associe vos fichiers de contenu aux dossiers appropriés lors de l’importation de versions de module |
+
+La phase 2 ne nécessite pas de fichier CSV distinct : vous ajoutez une colonne de chemin de dossier à votre fichier `module_version.csv` existant.
+
+### Phase 1 : création de la hiérarchie des dossiers
+
+#### Planifiez d’abord la hiérarchie des dossiers
+
+Avant de préparer le fichier CSV, mappez la structure de dossiers ou de catégories de votre système source à la hiérarchie à trois niveaux de Adobe Learning Manager. Adobe Learning Manager prend en charge trois niveaux maximum (Niveau 1 → Niveau 2 → Niveau 3). Si votre système source dispose d’imbrication plus profonde, aplatissez-le à trois niveaux avant de procéder à la migration.
+
+>[!NOTE]
+>
+>Si votre système source utilise des barres obliques (`/`) dans les noms de catégorie ou de dossier, remplacez-les par un trait d&#39;union (`-`) ou un trait de soulignement (`_`) avant de préparer votre fichier CSV. Adobe Learning Manager n&#39;autorise pas `/` dans les noms de dossier, car il est réservé à la résolution du chemin d&#39;accès au dossier.
+
+
+#### content_folder.csv
+
+Utilisez `content_folder.csv` pour définir la hiérarchie des dossiers cibles. Chaque ligne du fichier représente un dossier.
+
+**Référence de colonne :**
+
+| Colonne | Obligatoire | Description |
+| --- | --- | --- |
+| `id` | Oui | Identificateur unique que vous attribuez à ce dossier. Il s’agit de votre propre ID de référence, par exemple, un ID de catégorie de votre système source. Utilisé pour lier les dossiers parents et enfants dans le fichier et pour rendre la migration réexécutable en toute sécurité. |
+| `name` | Oui | Nom d&#39;affichage du dossier. 63 caractères maximum. Ne peut pas contenir de barre oblique (`/`). Doit être unique parmi les dossiers ayant le même parent. |
+| `description` | Non | Description facultative du dossier. 2 046 caractères maximum. |
+| `parentExternalId` | Non | `id` du dossier parent. Laissez vide pour les dossiers de niveau 1 (racine). Pour les dossiers de niveau 2, entrez le `id` du parent de niveau 1. Pour les dossiers de niveau 3, entrez le `id` du parent de niveau 2. |
+| `action` | Oui | Opération à effectuer : `CREATE_FOLDER`, `UPDATE_FOLDER` ou `DELETE_FOLDER`. |
+
+**Exemple :**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+Dans cet exemple :
+
+* `Training` et `HR` sont des dossiers de niveau 1 (pas de parent)
+* `Sales` est un dossier de niveau 2 sous `Training`
+* `Onboarding` est un dossier de niveau 3 sous `Sales`
+* `Compliance` est un dossier de niveau 2 sous `HR`
+
+**Règles de validation :**
+
+* Un dossier ne peut pas être son propre ancêtre — les références circulaires ne sont pas autorisées
+* La profondeur maximale de dossier est de 3 niveaux (Niveau 1 → Niveau 2 → Niveau 3)
+* Deux dossiers ayant le même parent ne peuvent pas avoir le même nom
+* Le `parentExternalId` doit faire référence à une autre ligne du même fichier CSV ou à un dossier existant déjà dans votre compte
+* Les dossiers parents doivent être répertoriés avant leurs dossiers enfants dans le fichier
+
+>[!NOTE]
+>
+>Vous pouvez référencer un dossier existant dans votre compte (créé avant cette migration) comme parent d&#39;un nouveau dossier en utilisant le préfixe `existing:` suivi de l&#39;ID du dossier dans la colonne `parentExternalId`, par exemple `existing:12345`.
+
+
+### Phase 2 : Association de contenu à des dossiers
+
+Les fichiers de contenu sont associés aux dossiers via la colonne `folder` de votre fichier `module_version.csv`. Aucun fichier CSV distinct n’est requis pour cette phase.
+
+#### Mise à jour de module_version.csv — colonne de dossier
+
+La colonne `folder` dans `module_version.csv` prend désormais en charge les chemins de dossier en plus des noms de dossier simples.
+
+| valeur du dossier | Comment résoudre ce problème |
+| --- | --- |
+| `Sales` (pas de barre oblique) | Résout par nom de dossier : le comportement existant pour les dossiers de niveau 1 |
+| `Training/Sales/Onboarding` (barres obliques) | Résout par chemin : navigue du niveau 1 jusqu’à chaque niveau pour atteindre le sous-dossier cible. |
+| `"Training/Sales,HR/Compliance"` (séparés par des virgules, entre guillemets) | Associe le fichier de contenu à plusieurs dossiers ; chaque chemin d’accès est résolu indépendamment |
+| (vide) | Aucune association de dossiers — le contenu reste à l&#39;emplacement par défaut |
+
+**Exemple :**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>Lors de l’association d’un fichier de contenu à plusieurs dossiers, la liste séparée par des virgules doit être placée entre guillemets doubles dans le fichier CSV, car les virgules sont également utilisées comme séparateurs de colonnes.
+
+>[!NOTE]
+>
+>Cette phase prend en charge l’ajout d’un fichier de contenu à un dossier. La suppression d’un fichier contenu d’un dossier à l’aide de l’approche de chemin de dossier n’est pas prise en charge : utilisez l’interface d’administration Adobe Learning Manager pour supprimer les associations de dossiers après la migration.
+
+### Ordre de migration
+
+Lors de l’exécution d’une migration complète du contenu, chargez et traitez vos fichiers dans l’ordre suivant :
+
+1. `module.csv` — définissez vos modules
+2. `module_version.csv` (sans chemins de dossier) — télécharger le contenu du module
+3. `course.csv` — créez vos cours
+4. `course_module.csv` — lier des modules à des cours
+5. `content_folder.csv` — créer la hiérarchie des dossiers (Phase 1)
+6. `module_version.csv` (avec les chemins d&#39;accès aux dossiers) — associer le contenu aux dossiers (Phase 2)
+
+>[!NOTE]
+>
+>`content_folder.csv` doit être traité avant le fichier de version du module qui contient les chemins d&#39;accès aux dossiers, car la structure des dossiers doit exister pour que le contenu puisse y être associé.
+
+
+### Référence de validation et d’erreur
+
+Adobe Learning Manager valide chaque ligne dans `content_folder.csv` avant le traitement. Les lignes dont la validation échoue sont ignorées et signalées comme des erreurs. Les lignes valides dans le même fichier continuent d’être traitées.
+
+| Scénario | Que se passe-t-il ? | Résolution |
+| --- | --- | --- |
+| Le nom du dossier dépasse 63 caractères | Ligne rejetée | Raccourcissez le nom dans le fichier CSV avant de retélécharger |
+| La description dépasse 2 046 caractères | Ligne rejetée | Raccourcissement de la description dans le fichier CSV |
+| Un nom de dossier contient une barre oblique (`/`) | Ligne rejetée | Remplacez `/` par `-` ou `_` dans le nom du dossier |
+| Deux dossiers ayant le même parent portent le même nom | Ligne rejetée | Renommer l’un des dossiers en double |
+| `parentExternalId` référence un ID introuvable dans le fichier ou dans le compte | Ligne rejetée | Confirmez que l’ID du dossier parent est correct et que la ligne parent a été traitée avec succès |
+| La profondeur du dossier dépasse 3 niveaux | Ligne rejetée | Aplatir votre hiérarchie jusqu’à un maximum de 3 niveaux avant la migration |
+| Référence circulaire détectée (le dossier A est l’ancêtre du dossier B et B est répertorié comme parent de A) | Rejet de l’intégralité du fichier CSV | Vérifiez la chaîne `parentExternalId` et supprimez la référence circulaire |
+| `action` n&#39;est pas `CREATE_FOLDER`, `UPDATE_FOLDER` ou `DELETE_FOLDER` | Ligne rejetée | Corriger la valeur `action` : seules ces trois valeurs sont acceptées |
+| `DELETE_FOLDER` pour un dossier qui contient encore des fichiers de contenu | Ligne rejetée | Déplacez les fichiers de contenu vers un autre dossier avant de supprimer, ou supprimez manuellement la ligne et la poignée de suppression dans l’interface d’administration |
+| `UPDATE_FOLDER` pour un `id` qui n&#39;existe pas dans le compte | Ligne rejetée | Confirmez que le dossier a bien été créé lors d&#39;une exécution précédente ; utilisez `CREATE_FOLDER` pour les nouveaux dossiers |
+| `CREATE_FOLDER` pour un `id` déjà migré avec succès | Ligne ignorée | Aucune action requise : ce comportement est attendu lors de la réexécution d’une migration |
+| Le chemin du dossier dans `module_version.csv` référence un dossier qui n&#39;existe pas | Ligne de module rejetée | Exécutez d’abord la structure du dossier sprint ou vérifiez que le nom et le chemin du dossier sont orthographiés correctement |
+| Double barre oblique dans le chemin d&#39;accès au dossier (par exemple, `Training//Sales`) | Ligne de module rejetée | Supprimer la barre oblique supplémentaire du tracé |
+
+
+### Rétrocompatibilité
+
+Si vous utilisez déjà `content_folder.csv` ou `module_version.csv` dans vos workflows de migration, vos fichiers existants continuent de fonctionner sans aucune modification.
+
+| Scénario | Comportement |
+| --- | --- |
+| Existant `content_folder.csv` sans la colonne `parentExternalId` | Fonctionne de manière identique : les dossiers sont créés en tant que dossiers de niveau 1, comme auparavant |
+| `module_version.csv` existant avec des noms de dossier simples (non `/`) | Fonctionne de manière identique : les noms de dossier sont résolus par recherche de nom, comme auparavant |
+| Nouveau `module_version.csv` avec des chemins de dossier contenant `/` | La résolution basée sur le chemin est déclenchée automatiquement par la présence de `/` |
+| Combinaison de noms et de chemins simples dans le même `module_version.csv` | Chaque ligne est résolue indépendamment : les deux formats fonctionnent dans le même fichier |
+| Réexécution du même `content_folder.csv` | Sécurisé : les lignes déjà traitées sont automatiquement ignorées |
+
+### Bonnes pratiques
+
+**Préparation de content_folder.csv**
+
+* Utilisez les propres ID de catégorie ou de dossier de votre système source comme valeur `id`. Ceux-ci sont stockés en permanence pour le suivi de la réexécution et doivent rester stables.
+* Conserver les noms de dossier de moins de 63 caractères. Tronquez dans le fichier CSV avant le téléchargement. La migration rejettera les noms qui dépassent la limite.
+* Assurez-vous qu’aucun dossier sous le même parent n’a le même nom. Les dossiers sous différents gabarits peuvent partager un nom.
+* Bien que l’ordre des lignes dans le fichier n’affecte pas le résultat (la migration trie les lignes automatiquement), la liste des dossiers parents avant les dossiers enfants facilite la révision du fichier.
+
+**Préparation de module_version.csv avec les chemins d&#39;accès au dossier**
+
+* La correspondance de chemin de dossier ne respecte pas la casse, mais les noms de dossier doivent correspondre exactement à ce qui a été créé dans la phase 1.
+* Exécutez la phase 1 (structure de dossiers) avant d’exécuter la phase 2 (association de contenu). La résolution de chemin d’accès vérifie les dossiers qui existent déjà : si aucun dossier n’a encore été créé, la ligne de module échoue.
+* Éviter les doubles barres obliques dans les chemins : `Training//Sales` échouera en raison d&#39;un segment de chemin vide.
+* Les barres obliques d&#39;en-tête et de fin sont rognées automatiquement : `Training/Sales/` et `/Training/Sales` se résolvent correctement, mais évitez-les pour plus de clarté.
+
+**Exécution de la migration**
+
+* Testez d’abord avec un petit lot : chargez de 10 à 20 lignes pour vérifier votre format CSV avant d’effectuer une mise à l’échelle vers votre jeu de données complet.
+* Terminez le sprint de structure de dossiers avant de lancer le sprint de version du module. Leur exécution en parallèle peut entraîner des erreurs de résolution du chemin.
+* Une fois les deux sprints terminés, vérifiez dans l’interface d’administration de Adobe Learning Manager que l’arborescence des dossiers affiche la bonne hiérarchie et que les fichiers de contenu apparaissent dans les dossiers prévus.
