@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et améliorations, y comp
 jcr-language: en_us
 title: Nouveautés de la version d’août 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Fonctionnalités clés :
 * Parcourir les dossiers lors de la sélection de modules dans la création de cours
 
 Pour plus d&#39;informations sur les fonctionnalités au niveau de l&#39;administrateur, voir [Dossiers de contenu hiérarchique](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Pour plus d&#39;informations sur les fonctionnalités au niveau de l&#39;auteur, voir [Dossiers de contenu hiérarchique](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+
+Si vous migrez votre contenu d’apprentissage à partir d’une autre plate-forme vers Adobe Learning Manager et que vous souhaitez conserver l’organisation de vos dossiers existants, vous pouvez utiliser les fichiers CSV pour créer une structure de dossiers hiérarchique et associer vos fichiers de contenu aux dossiers appropriés. En savoir plus sur la migration dans la [hiérarchie des dossiers de contenu migrés](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
 ## Hub en direct
 
