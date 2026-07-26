@@ -3,9 +3,9 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '9158'
+source-wordcount: '9051'
 ht-degree: 36%
 
 ---
@@ -942,7 +942,7 @@ Les quatre fichiers CSV acceptent `almCourseID` pour référencer des cours et `
 
 ### Définir la date de début des instances de cours et de parcours d’apprentissage
 
-Utilisez le fichier CSV de l&#39;instance de cours **1&rbrace; et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
+Utilisez le fichier CSV de l&#39;instance de cours **1} et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
 
 **Fichier CSV de l&#39;instance de cours : ajoutez une date de début**
 
@@ -1269,17 +1269,6 @@ Adobe Learning Manager valide chaque ligne dans course_module_user_group.csv ava
 Si vous migrez votre contenu d’apprentissage à partir d’une autre plate-forme vers Adobe Learning Manager et que vous souhaitez conserver l’organisation de vos dossiers existants, vous pouvez utiliser les fichiers CSV pour créer une structure de dossiers hiérarchique et associer vos fichiers de contenu aux dossiers appropriés.
 
 Cette migration est généralement effectuée dans le cadre d’une migration de plateforme plus vaste, une fois que vos utilisateurs, cours, modules et fichiers de contenu ont déjà été importés dans Adobe Learning Manager. Cette étape de migration réorganise ce contenu dans la structure de dossiers que vous aviez dans votre système source.
-
-### Conditions préalables
-
-Avant de commencer la migration des dossiers de contenu, vérifiez les points suivants :
-
-| Prérequis | Pourquoi c’est important |
-| --- | --- |
-| La fonctionnalité Dossiers de contenu hiérarchique est activée pour votre compte | La migration échoue si cette fonctionnalité n’est pas active. Contactez l’Adobe en cas de doute. |
-| Un projet de migration a été créé dans l’outil de migration | Tous les fichiers CSV doivent s’exécuter sous un projet de migration pour le suivi et la prise en charge de la réexécution. |
-| Les utilisateurs, cours, modules et fichiers de contenu ont déjà été migrés (étapes 1 à 4 de votre migration) | La migration des dossiers est l’étape 5 : elle organise le contenu qui doit déjà exister dans Adobe Learning Manager. |
-| Votre compte administrateur dispose d’une autorisation d’exécution de la migration | Requis pour déclencher les sprints de migration. |
 
 ### Rôle de cette migration
 
