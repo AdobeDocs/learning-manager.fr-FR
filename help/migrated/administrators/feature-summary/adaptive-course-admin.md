@@ -3,9 +3,9 @@ description: Proposez un cours à plusieurs publics en contrôlant les modules q
 jcr-language: en_us
 title: Cours adaptatifs dans Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: cf30b15313599f8206b668709f245c3e388d3aa8
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ Des cours adaptatifs peuvent être ajoutés aux catalogues de votre compte. Lors
 >
 >Lorsqu’un parcours d’apprentissage ou une certification contenant un cours adaptatif est partagé en externe, le compte destinataire voit le parcours d’apprentissage ou la certification dans son catalogue, mais le cours adaptatif qu’il contient n’apparaît pas. L’objet d’apprentissage n’est pas entièrement exclu ; seul le composant de cours adaptatif est supprimé de la version partagée. Les auteurs du compte destinataire doivent savoir que l’objet d’apprentissage partagé peut comporter moins de modules que la version source.
 
+>[!NOTE]
+>
+>Lorsqu&#39;un cours adaptatif est configuré comme prérequis d&#39;un autre cours et que ce cours parent est partagé avec un compte destinataire via le partage de catalogue, le cours prérequis adaptatif n&#39;est pas partagé avec le compte destinataire. Cela s’applique que la condition préalable soit définie directement sur le cours ou via un objet d’apprentissage d’ordre supérieur tel qu’un parcours d’apprentissage ou une certification.
+>
+>Dans le compte de réception, le cours parent est disponible, mais la condition préalable adaptative est absente. Les élèves du compte destinataire ne sont pas affectés par la condition préalable manquante, car la dépendance de la condition préalable n’est pas appliquée pour le contenu qui arrive par partage de catalogue sans que ses conditions préalables soient présentes.
+>
+>Ne configurez pas les cours adaptatifs comme conditions préalables pour le contenu que vous avez l&#39;intention de partager en externe.
+
 ## Configurations prises en charge
 
 | Configuration | Pris en charge ? |
-|---|---|
+| --- | --- |
 | Cours adaptatif dans un parcours d’apprentissage régulier | Oui (voir note ci-dessous) |
 | Cours adaptatif dans un parcours d’apprentissage flexible | Oui |
 | Cours adaptatif dans un parcours d’apprentissage adaptatif | Non |
