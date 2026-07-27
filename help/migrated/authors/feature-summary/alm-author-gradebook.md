@@ -2,7 +2,7 @@
 description: Configurez le score pondéré des élèves dans l'annuaire de notes afin que l'achèvement du cours puisse être lié à l'atteinte d'un seuil de score minimum.
 jcr-language: en_us
 title: Gradebook pour les auteurs
-source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
+source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
