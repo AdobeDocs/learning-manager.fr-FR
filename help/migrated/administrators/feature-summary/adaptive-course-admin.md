@@ -3,9 +3,9 @@ description: Proposez un cours à plusieurs publics en contrôlant les modules q
 jcr-language: en_us
 title: Cours adaptatifs dans Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ Des cours adaptatifs peuvent être ajoutés aux catalogues de votre compte. Lors
 >
 >Lorsqu’un parcours d’apprentissage ou une certification contenant un cours adaptatif est partagé en externe, le compte destinataire voit le parcours d’apprentissage ou la certification dans son catalogue, mais le cours adaptatif qu’il contient n’apparaît pas. L’objet d’apprentissage n’est pas entièrement exclu ; seul le composant de cours adaptatif est supprimé de la version partagée. Les auteurs du compte destinataire doivent savoir que l’objet d’apprentissage partagé peut comporter moins de modules que la version source.
 
+>[!NOTE]
+>
+>Lorsqu&#39;un cours adaptatif est configuré comme prérequis d&#39;un autre cours et que ce cours parent est partagé avec un compte destinataire via le partage de catalogue, le cours prérequis adaptatif n&#39;est pas partagé avec le compte destinataire. Cela s’applique que la condition préalable soit définie directement sur le cours ou via un objet d’apprentissage d’ordre supérieur tel qu’un parcours d’apprentissage ou une certification.
+>
+>Dans le compte de réception, le cours parent est disponible, mais la condition préalable adaptative est absente. Les élèves du compte destinataire ne sont pas affectés par la condition préalable manquante, car la dépendance de la condition préalable n’est pas appliquée pour le contenu qui arrive par partage de catalogue sans que ses conditions préalables soient présentes.
+>
+>Ne configurez pas les cours adaptatifs comme conditions préalables pour le contenu que vous avez l&#39;intention de partager en externe.
+
 ## Configurations prises en charge
 
 | Configuration | Pris en charge ? |
-|---|---|
+| --- | --- |
 | Cours adaptatif dans un parcours d’apprentissage régulier | Oui (voir note ci-dessous) |
 | Cours adaptatif dans un parcours d’apprentissage flexible | Oui |
 | Cours adaptatif dans un parcours d’apprentissage adaptatif | Non |
@@ -126,6 +134,15 @@ Des cours adaptatifs peuvent être ajoutés aux catalogues de votre compte. Lors
 | Partage de catalogue (entre comptes) | Non |
 | Règles de visibilité des modules préparatoires ou de test | Non |
 | Règles de visibilité sur les modules de contenu de base | Oui |
+| Cours adaptatif dans un parcours d’apprentissage flexible | Oui |
+
+>[!NOTE]
+>
+>Lors du téléchargement du **PDF de rapport de présence** pour une session d’un cours adaptatif qui fait partie d’un parcours d’apprentissage Flex, les élèves inscrits sur liste d’attente apparaissent sous la section Actif du PDF. L’interface du parcours d’apprentissage ne dispose pas d’une section de liste d’attente dédiée, il n’existe donc aucun compartiment de liste d’attente distinct dans l’exportation du PDF. Pour identifier précisément les élèves inscrits sur liste d&#39;attente, cochez la case **Administrateur > [Cours adaptatif] > Liste d&#39;attente** avant de marquer l&#39;assiduité.
+
+La colonne **Incorporé dans** du rapport Liste d’attente identifie les instances du parcours d’apprentissage Flex qui contiennent ce cours adaptatif en tant qu’élément. Le nom du parcours d’apprentissage et l’ID de l’objet d’apprentissage s’affichent. Il n&#39;est pas destiné à afficher les chemins d&#39;inscription d&#39;un élève individuel. Pour les cours adaptatifs imbriqués dans un sous-parcours d’apprentissage qui se trouve lui-même dans un parcours d’apprentissage parent, seul le parcours d’apprentissage parent direct apparaît dans cette colonne.
+
+Lorsque le cours adaptatif fait partie d&#39;une **certification récurrente**, l&#39;achèvement de l&#39;actualisation s&#39;applique uniquement à l&#39;inscription de l&#39;élève au cycle de certification racine. Les cycles récurrents suivants contiennent une instance distincte du cours adaptatif qui n&#39;est pas affectée par l&#39;actualisation. Les élèves inscrits à un cycle récurrent ne voient pas les mises à jour du module ou voient leurs achèvements annulés. Si votre organisation utilise des cours adaptatifs dans les certifications récurrentes, communiquez cette limitation aux administrateurs avant de déclencher les fins d&#39;actualisation.
 
 >[!NOTE]
 >

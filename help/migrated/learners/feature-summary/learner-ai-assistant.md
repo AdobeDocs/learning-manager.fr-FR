@@ -3,9 +3,9 @@ description: Obtenez des réponses rapides et précises de votre contenu d’app
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,22 +175,25 @@ Avant de configurer l’assistant AI, vérifiez que vous disposez d’informatio
 
 Pour activer l’assistant d’IA dédiée aux élèves :
 
-&#x200B;1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
 
-&#x200B;2. Sélectionnez **Paramètres** dans la page d&#39;accueil.
-![Console Administrateur avec l’option Paramètres dans le volet de gauche](assets/settings-menu.png)
+1. Sélectionnez **Paramètres** dans la page d&#39;accueil.
 
-&#x200B;3. Sélectionnez **Learner AI Assistant (Beta)** dans le menu **Paramètres**.
-![La console Administrateur affiche l’option Assistant IA de l’élève dans le volet de gauche](assets/learner-assistant-ai-beta.png)
+   ![Console Administrateur avec l&#39;option Paramètres dans le volet de gauche](assets/settings-menu.png)
 
-&#x200B;4. Sélectionnez le bouton à bascule pour activer l&#39;**assistant Learner AI (Beta)**.
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. Sélectionnez **Learner AI Assistant (Beta)** dans le menu **Paramètres**.
 
-&#x200B;5. Sélectionnez un ou plusieurs catalogues dans l&#39;option **Catalogues éligibles**.
+   ![La console Administrateur affiche l&#39;option Assistant IA de l&#39;élève dans le volet de gauche](assets/learner-assistant-ai-beta.png)
 
-&#x200B;6. Sélectionnez **Enregistrer** pour appliquer les paramètres du catalogue.
+1. Sélectionnez le bouton à bascule pour activer l&#39;**assistant Learner AI (Beta)**.
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. Sélectionnez un ou plusieurs catalogues dans l&#39;option **Catalogues éligibles**.
+
+1. Sélectionnez **Enregistrer** pour appliquer les paramètres du catalogue.
 
 >[!IMPORTANT]
 >
@@ -202,20 +205,23 @@ Pour lancer l’assistant AI :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’élève.
 
-2. Sélectionnez **Demander à l&#39;assistant IA** sur la page d&#39;accueil.
+1. Sélectionnez **Demander à l&#39;assistant IA** sur la page d&#39;accueil.
+
    ![La page d’accueil de l’élève affiche Demander à l’assistant IA de sélectionner et d’ouvrir le panneau Assistant IA de l’élève](assets/ask-ai-assistant.png)
 
-3. Lorsque l&#39;écran **Assistant IA dédiée aux élèves** apparaît, sélectionnez **Commencer**.
+1. Lorsque l&#39;écran **Assistant IA dédiée aux élèves** apparaît, sélectionnez **Commencer**.
+
    ![Sélectionnez Commencer pour lancer l’assistant Élève](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->Lorsque vous lancez l’assistant AI pour la première fois, vous devez donner votre consentement avant de l’utiliser. La boîte de dialogue de consentement s’affiche uniquement lors de ce lancement initial. Pour tous les lancements suivants, vous serez directement redirigé vers l’assistant AI pour saisir vos invites.
+   >[!NOTE]
+   >
+   >Lorsque vous lancez l’assistant AI pour la première fois, vous devez donner votre consentement avant de l’utiliser. La boîte de dialogue de consentement s’affiche uniquement lors de ce lancement initial. Pour tous les lancements suivants, vous serez directement redirigé vers l’assistant AI pour saisir vos invites.
 
-&#x200B;4. Saisissez l’invite dans le champ de texte.
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. Saisissez l’invite dans le champ de texte.
 
-&#x200B;5. Appuyez sur **Entrée** pour recevoir une réponse. Passez en revue votre réponse, vos sources et vos recommandations.
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. Appuyez sur **Entrée** pour recevoir une réponse. Passez en revue votre réponse, vos sources et vos recommandations.
 
 Vous pouvez :
 

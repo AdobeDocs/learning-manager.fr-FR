@@ -2,9 +2,9 @@
 description: L’API de rapport utilisateur incrémentiel permet aux administrateurs d’exporter uniquement les utilisateurs dont les données ont changé au cours d’une période spécifiée. Cela élimine la nécessité d’exporter l’intégralité des utilisateurs et permet une synchronisation plus efficace des enregistrements d’utilisateurs nouveaux ou mis à jour.
 jcr-language: en_us
 title: Rapport utilisateur incrémentiel (API de tâche)
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: aad13507c56f0c2020a97e809edd9fa0b223479f
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1576'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Type de tâche : generateUsers. Rôle d’administrateur uniquement.
 
 ## Rapport utilisateur incrémentiel (generateUserIncrementalReport)
 
-Cette section décrit la nouvelle fonctionnalité de rapport utilisateur incrémentiel introduite dans M46. C&#39;est le sujet principal de ce document.
+Cette section décrit la nouvelle fonctionnalité : Rapport utilisateur incrémentiel.
 
 ## Qu’est-ce qu’une exportation incrémentielle ?
 
@@ -323,6 +323,4 @@ La portée du rapport utilisateur incrémentiel est intentionnelle. Les fonction
 
 Le rapport utilisateur incrémentiel est conçu pour être utilisé dans les connecteurs Adobe Learning Manager (PowerBI, Salesforce et autres) en tant que remplacement compensé pour le rapport utilisateur complet dans les pipelines de synchronisation régulière. Cela permet aux connecteurs qui utilisent actuellement generateUsers de migrer vers le modèle incrémentiel sans apporter de modifications au schéma de données en aval.
 
-&#x200B;* Le fichier CSV de sortie est compatible avec les colonnes du rapport d’utilisateur complet.
-&#x200B;* Les connecteurs peuvent utiliser le rapport incrémentiel pour la synchronisation delta et revenir au rapport complet pour les données d’amorçage ou la récupération.
-&#x200B;* Prise en charge de l’intégration du connecteur (PowerBI, SFDC)
+Les connecteurs peuvent utiliser le rapport incrémentiel pour la synchronisation delta et revenir au rapport complet pour les données d’amorçage ou la récupération.
