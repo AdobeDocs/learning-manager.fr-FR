@@ -2,9 +2,9 @@
 description: Configurez le score pondéré des élèves dans l'annuaire de notes afin que l'achèvement du cours puisse être lié à l'atteinte d'un seuil de score minimum.
 jcr-language: en_us
 title: Gradebook pour les auteurs
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Le carnet de notes est configuré au niveau du cours lors de la création d’un
 
 * Sélectionnez l&#39;option **Livre de classement** pour l&#39;activer. Deux options s’affichent en dessous. Les deux sont activés par défaut :
   * **Afficher le carnet de notes aux élèves :** les élèves voient un onglet **Carnet de notes** dans le lecteur de cours affichant leurs scores de module, la répartition des pondérations et le résultat global. Désactivez cette option pour calculer les notes en interne sans les exposer aux élèves.
-  * **Inclure les modules qui ne contribuent pas à la note finale :** les modules non marquables (PDF, vidéo, audio et similaires) apparaissent dans le Gradebook. Les modules ne pouvant pas être notés ne contribuent pas au score final de l’élève.
+  * **Inclure les modules qui ne contribuent pas à la note finale :** les modules qui ne font pas partie des critères de réussite seront également affichés dans le cahier de notes. Si ce paramètre n’est pas coché, seuls les modules faisant partie des critères de réussite sont affichés.
 
 ### Ajout de modules et attribution d’une pondération
 
