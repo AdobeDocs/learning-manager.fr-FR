@@ -41,18 +41,18 @@ L’exportation utilisateur complète actuelle (type de tâche generateUsers) re
 | ID client | 7,7 millions d’utilisateurs (migration) |
 
 
-* À ces échelles, le pipeline d’exportation s’exécute à environ 90 % de l’utilisation du processeur lors de la récupération, du traitement et du stockage des données.
-* Les tableaux de bord en aval (PowerBI, Salesforce, intégrations personnalisées) réingèrent les enregistrements d’utilisateur inchangés à chaque exécution, ce qui fait perdre de la bande passante et du temps de traitement.
-* Il est impossible de demander « quels utilisateurs ont changé depuis ma dernière exportation ? » à l’aide de l’API actuelle.
+&#x200B;* À ces échelles, le pipeline d’exportation s’exécute à environ 90 % de l’utilisation du processeur lors de la récupération, du traitement et du stockage des données.
+&#x200B;* Les tableaux de bord en aval (PowerBI, Salesforce, intégrations personnalisées) réingèrent les enregistrements d’utilisateur inchangés à chaque exécution, ce qui fait perdre de la bande passante et du temps de traitement.
+&#x200B;* Il est impossible de demander « quels utilisateurs ont changé depuis ma dernière exportation ? » à l’aide de l’API actuelle.
 
 ## Quand utiliser les rapports incrémentiels
 
 Utilisez l’exportation incrémentielle lorsque vous devez garder un système externe synchronisé avec les données utilisateur Adobe Learning Manager. Cas d’utilisation typiques :
 
-* Maintenir un tableau de bord d’entreprise (PowerBI, Tableau, SFDC) à jour avec les modifications de profil utilisateur.
-* Alimentation des systèmes de gestion des identités en aval avec des modifications de rôle, d’état ou de métadonnées.
-* Exécution nocturne ou horaire des pipelines de synchronisation delta au lieu de rechargements complets.
-* Réduction de la charge d’API et des coûts de transfert de données pour les comptes comptant des millions d’utilisateurs.
+&#x200B;* Maintenir un tableau de bord d’entreprise (PowerBI, Tableau, SFDC) à jour avec les modifications de profil utilisateur.
+&#x200B;* Alimentation des systèmes de gestion des identités en aval avec des modifications de rôle, d’état ou de métadonnées.
+&#x200B;* Exécution nocturne ou horaire des pipelines de synchronisation delta au lieu de rechargements complets.
+&#x200B;* Réduction de la charge d’API et des coûts de transfert de données pour les comptes comptant des millions d’utilisateurs.
 
 Utilisez l’exportation complète (generateUsers) lorsque vous avez besoin d’une ligne de base faisant autorité, par exemple lors de la première configuration ou après un long intervalle entre les synchronisations.
 
@@ -73,9 +73,9 @@ Le rapport CSV de l’utilisateur actuel est soumis en tant que travail via l’
 
 La charge utile prend en charge trois filtres facultatifs :
 
-* `expandMetadata` - Transmettez true pour exporter les métadonnées en tant que colonne distincte.
-* `fetchActiveUsers` - Passe true pour exporter uniquement les utilisateurs actifs.
-* `peerAccountId` - Pour générer le rapport d&#39;utilisateur pour un compte de pairs.
+&#x200B;* `expandMetadata` - Transmettez true pour exporter les métadonnées en tant que colonne distincte.
+&#x200B;* `fetchActiveUsers` - Passe true pour exporter uniquement les utilisateurs actifs.
+&#x200B;* `peerAccountId` - Pour générer le rapport d&#39;utilisateur pour un compte de pairs.
 
 ## Colonnes CSV
 
@@ -129,9 +129,9 @@ Type de tâche : generateUsers. Rôle d’administrateur uniquement.
 
 ## Limitations
 
-* Aucun filtrage basé sur la date : chaque exécution exporte tous les utilisateurs.
-* Impossible pour les grands comptes - épuisement des ressources de pipeline supérieur à ~1 million d&#39;utilisateurs.
-* Aucune capacité incrémentielle ou delta.
+&#x200B;* Aucun filtrage basé sur la date : chaque exécution exporte tous les utilisateurs.
+&#x200B;* Impossible pour les grands comptes - épuisement des ressources de pipeline supérieur à ~1 million d&#39;utilisateurs.
+&#x200B;* Aucune capacité incrémentielle ou delta.
 
 ## Rapport utilisateur incrémentiel (generateUserIncrementalReport)
 
@@ -174,13 +174,13 @@ Un utilisateur est inclus dans un rapport incrémentiel si l’un des champs sui
 
 Les champs suivants apparaissent dans la sortie CSV, mais ne déclenchent pas l’inclusion dans une exportation incrémentielle lorsqu’ils sont modifiés :
 
-* excludeFromGamification
-* pointsEarned
-* lastLoginDate
-* dateDeleted
-* dateCreated
-* userSource
-* lastSocialActivityDate
+&#x200B;* excludeFromGamification
+&#x200B;* pointsEarned
+&#x200B;* lastLoginDate
+&#x200B;* dateDeleted
+&#x200B;* dateCreated
+&#x200B;* userSource
+&#x200B;* lastSocialActivityDate
 
 ## Format de sortie
 
@@ -313,11 +313,11 @@ Pour récupérer toutes les pages d’une exportation incrémentielle volumineus
 
 La portée du rapport utilisateur incrémentiel est intentionnelle. Les fonctionnalités suivantes ne sont pas couvertes :
 
-* Pas un rapport d’audit de l’utilisateur : il ne répertorie pas les champs spécifiques modifiés.
-* Aucune comparaison entre anciennes et nouvelles valeurs : le rapport affiche uniquement les valeurs de champ actuelles.
-* Aucun horodatage par modification : l’heure des modifications individuelles des champs n’est pas affichée.
-* Aucune indication du nombre de modifications : un utilisateur modifié une fois et un utilisateur modifié dix fois apparaissent de manière identique dans l’exportation.
-* Le format de rapport existant reste inchangé : la structure des colonnes du fichier CSV est identique à celle du rapport complet de l’utilisateur.
+&#x200B;* Pas un rapport d’audit de l’utilisateur : il ne répertorie pas les champs spécifiques modifiés.
+&#x200B;* Aucune comparaison entre anciennes et nouvelles valeurs : le rapport affiche uniquement les valeurs de champ actuelles.
+&#x200B;* Aucun horodatage par modification : l’heure des modifications individuelles des champs n’est pas affichée.
+&#x200B;* Aucune indication du nombre de modifications : un utilisateur modifié une fois et un utilisateur modifié dix fois apparaissent de manière identique dans l’exportation.
+&#x200B;* Le format de rapport existant reste inchangé : la structure des colonnes du fichier CSV est identique à celle du rapport complet de l’utilisateur.
 
 ## Intégration du connecteur
 
