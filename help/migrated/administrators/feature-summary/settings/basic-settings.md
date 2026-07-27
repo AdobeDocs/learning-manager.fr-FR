@@ -3,9 +3,9 @@ description: En savoir plus sur la façon dont les paramètres de base vous aide
 jcr-language: en_us
 title: Paramètres de base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '5914'
+source-wordcount: '5921'
 ht-degree: 4%
 
 ---
@@ -346,7 +346,7 @@ Fonctionnement :
 >* Adobe Learning Manager ne fournit pas de compte Badgr dans le cadre de l’intégration. Les élèves doivent créer leur propre compte Badgr.
 >* Les élèves peuvent configurer leur compte Badgr directement à partir de la page Badges de l’application de l’élève.
 
-Pour plus d&#39;informations, voir Prise en charge des badges Badgr[&#128279;](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).
+Pour plus d&#39;informations, voir Prise en charge des badges Badgr](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).[
 
 ### Afficher les évaluations
 
@@ -413,13 +413,13 @@ Si des élèves ont terminé un cours/parcours plus tôt et qu’un autre cours/
 **Activer les inachevements rétroactifs (irréversible)**
 Si un cours/parcours est supprimé des autres cours/parcours, les élèves qui étaient précédemment marqués comme terminés via un autre parcours seront marqués comme incomplets. Cela affecte tous les élèves dont l’achèvement était basé uniquement sur l’alternative, et non les élèves qui ont terminé le cours directement. Leur relevé de notes reflétera le statut incomplet mis à jour. Une fois activé, cette option ne peut plus être désactivée.
 
-### Visibilité de Gradebook
+### Visibilité de Gradebook {#gradebookvisibility}
 
 Lorsque cette option est activée, les auteurs peuvent contrôler la visibilité du cahier de notes au niveau du cours, ce qui permet aux élèves d&#39;afficher leurs scores de module pondérés, le score total du cours et le statut Réussite/Échec directement dans le lecteur de cours. Si ce paramètre est désactivé au niveau du compte, les élèves ne peuvent pas voir le cahier de notes dans un cours, quelle que soit la façon dont les cours individuels sont configurés. Les scores et les calculs du carnet de notes continuent d’être exécutés en arrière-plan à des fins de création de rapports par l’administrateur même lorsque la visibilité des élèves est désactivée.
 
 **Activer l&#39;affichage du carnet de notes pour les élèves**
 
-Active l’autorisation au niveau du compte qui permet aux auteurs d’afficher ou de masquer le journal de notes par cours. Une fois activée, les auteurs voient une option Afficher le carnet de notes aux élèves dans l&#39;éditeur de cours. Les élèves verront un onglet Gradebook dans le lecteur de cours pour tout cours pour lequel l&#39;auteur l&#39;a activé. La désactivation de ce paramètre au niveau du compte remplace toutes les configurations au niveau du cours. Les élèves ne verront pas le cahier de notes dans un cours tant que le paramètre n’est pas réactivé.
+Active l’autorisation au niveau du compte qui permet aux auteurs d’afficher ou de masquer le journal de notes par cours. Une fois activée, les auteurs voient une option Afficher le carnet de notes aux élèves dans l&#39;éditeur de cours. Les élèves verront un onglet Gradebook dans le lecteur de cours pour tout cours pour lequel l&#39;auteur l&#39;a activé. La désactivation de ce paramètre au niveau du compte remplace toutes les configurations au niveau du cours. Les élèves ne verront pas le cahier de notes dans un cours tant que le paramètre n’est pas réactivé. Pour plus d&#39;informations, voir [Classeur pour administrateur](/help/migrated/administrators/feature-summary/alm-admin-gradebook.md).
 
 ### Apprentissage externe
 
