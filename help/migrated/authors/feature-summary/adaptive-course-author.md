@@ -3,9 +3,9 @@ description: En tant qu’auteur, découvrez comment créer des cours adaptatifs
 jcr-language: en_us
 title: Cours adaptatifs pour les auteurs
 contentowner: mmanuel
-source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '3038'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,18 @@ Une fois publié, le cours est disponible pour inscription. Les élèves voient 
 >
 >Une fois publié, vous ne pouvez pas faire passer le cours de Adaptatif à Normal ou vice versa. Vérifiez votre configuration avant de publier.
 
+### Comportement de partage de catalogue
+
+Lorsqu&#39;un catalogue contenant des cours adaptatifs est partagé en externe avec un compte de pairs, les comportements suivants s&#39;appliquent :
+
+* **Cours adaptatifs partagés directement :** les cours adaptatifs sont exclus du catalogue partagé. Ils n’apparaissent pas dans le compte de réception.
+* **Cours adaptatifs dans un parcours d’apprentissage ou une certification :** si un programme d’apprentissage ou une certification contenant un cours adaptatif est partagé, le programme d’apprentissage ou la certification elle-même est copié sur le compte destinataire. Le cours adaptatif qu&#39;il contient est copié en tant que **cours normal**. La configuration adaptative, y compris toutes les règles de visibilité et d&#39;achèvement, n&#39;est pas copiée. Les auteurs du compte destinataire voient le cours comme un cours régulier avec tous les modules visibles par tous les élèves.
+* **Cours adaptatifs définis comme prérequis :** si un cours adaptatif est configuré comme prérequis d’un cours régulier, d’un parcours d’apprentissage ou d’une certification qui est partagé, la relation prérequise n’est pas propagée au compte destinataire. Le cours parent ou l’objet d’apprentissage arrive sur le compte destinataire sans les conditions préalables.
+
+>[!NOTE]
+>
+>Dans la mesure où les configurations adaptatives ne sont pas copiées lors du partage de catalogue, vérifiez toutes les relations préalables et les structures de programme d&#39;apprentissage/certification avant de partager un catalogue en externe. Les élèves du compte destinataire ne rencontreront pas le même comportement adaptatif que les élèves du compte source.
+
 
 ### Mettre à jour un cours adaptatif publié
 
@@ -140,6 +152,14 @@ Notez que vous ne pouvez plus modifier les paramètres de visibilité dans le co
 | Le module est passé de obligatoire à facultatif pour le groupe d’utilisateurs d’un élève | Le module reste visible ; l’élève n’a plus besoin de le terminer pour terminer le cours. |
 | Nouveau module obligatoire ajouté (l’élève a déjà terminé le cours) | Le module devient visible pour l’élève, mais il ne reçoit pas automatiquement de place ou n’y accède pas. Le nouveau module devient accessible uniquement lorsqu’une actualisation est terminée. |
 
+>[!NOTE]
+>
+>**Parcours d’apprentissage ordonné :** lorsqu’un cours adaptatif est inclus dans un parcours d’apprentissage ordonné, les élèves qui n’ont pas de modules visibles dans le cours adaptatif ne peuvent pas le terminer. Cela empêche tous les éléments suivants du parcours d’apprentissage ordonné d’être accessibles. Assurez-vous que chaque élève inscrit au parcours d’apprentissage appartient à au moins un groupe d’utilisateurs qui rend au moins un module visible dans chaque cours adaptatif du parcours.
+
+>[!NOTE]
+>
+>**Parcours d’apprentissage normal — désinscription automatique :** lorsqu’un élève est désinscrit automatiquement d’un cours adaptatif dans un parcours d’apprentissage normal parce qu’un changement de groupe d’utilisateurs a supprimé tous ses modules visibles, le parcours d’apprentissage parent reste inscrit. Le parcours d’apprentissage ne se désinscrit pas automatiquement. L’élève voit le parcours d’apprentissage comme inscrit dans son relevé de notes même si le cours adaptatif n’est plus accessible. Si votre cas d’utilisation nécessite que le parcours d’apprentissage se désinscrive également lorsque le cours adaptatif le fait, utilisez un **parcours d’apprentissage adaptatif** au lieu d’un parcours d’apprentissage normal.
+
 ### Comportement de changement d’instance
 
 Un élève qui change d’instances d’un cours adaptatif poursuit sa progression :
@@ -159,10 +179,16 @@ Lorsqu&#39;un élève s&#39;inscrit à un cours adaptatif qui comprend des modul
 * Si toutes les sessions de salle de classe visible ou de classe virtuelle disposent de places disponibles, l’élève est inscrit et dispose d’un accès complet immédiatement.
 * Si une ou plusieurs sessions visibles n’ont pas de places disponibles, l’élève est inscrit et est immédiatement sur liste d’attente pour ces sessions spécifiques uniquement. Ils peuvent commencer et progresser dans tous les autres modules immédiatement.
 
+### Limite de liste d’attente
+
+Dans les cours réguliers, les instructeurs peuvent configurer une **limite de liste d&#39;attente**, une limite sur le nombre d&#39;élèves qui peuvent être placés sur la liste d&#39;attente pour une session.
+
+Dans les cours adaptatifs, le paramètre **Limite de liste d&#39;attente** est désactivé dans l&#39;application de l&#39;instructeur et ne peut pas être configuré. Il n’y a pas de limite au nombre d’élèves qui peuvent être inscrits sur liste d’attente pour une session d’un cours adaptatif. Tous les élèves qui tentent de s’inscrire lorsqu’une session est pleine sont sur liste d’attente sans restriction.
+
 Le tableau suivant décrit tous les scénarios de siège et de liste d&#39;attente pour les cours adaptatifs.
 
 | Condition à l’inscription | Résultat |
-|---|---|
+| --- | --- |
 | Toutes les sessions CR/VC visibles ont des places disponibles | Inscrit avec un accès complet à tous les modules |
 | Une ou plusieurs sessions CR/VC visibles sont saturées | Inscrit ; en liste d’attente pour les sessions complètes uniquement ; tous les autres modules accessibles immédiatement |
 | Élève déjà inscrit ; l’auteur ajoute une nouvelle session CR/VC obligatoire sans sièges | L’élève est sur liste d’attente pour la nouvelle session ; la progression existante et l’accès ne sont pas affectés |
@@ -170,6 +196,12 @@ Le tableau suivant décrit tous les scénarios de siège et de liste d&#39;atten
 | La modification du groupe d’utilisateurs supprime une session du jeu visible de l’élève | Siège libéré immédiatement |
 | L’élève termine le cours ; une nouvelle session CR/VC obligatoire devient visible | Module visible, mais aucun siège assigné automatiquement. L’élève doit déclencher la fin de l’actualisation pour accéder à la session. |
 | L’administrateur ou l’instructeur alloue des licences | Toutes les sessions CR/VC de liste d’attente pour cet élève sont effacées simultanément |
+
+>[!NOTE]
+>
+>**Comportement du parcours d’apprentissage Flex :** lorsqu’un cours adaptatif fait partie d’un parcours d’apprentissage Flex, le comportement de liste d’attente diffère de celui de l’inscription directe. Si un élève sélectionne une instance du cours adaptatif dans le programme d&#39;apprentissage Flex et qu&#39;aucune place n&#39;est disponible pour cette instance, l&#39;élève est sur liste d&#39;attente pour cette instance spécifique. Les informations sur les élèves inscrits sur liste d&#39;attente pour ce scénario sont visibles uniquement dans **Administrateur > [Cours adaptatif] > Liste d&#39;attente** ; elles n&#39;apparaissent pas dans **Administrateur > Parcours d&#39;apprentissage**. Consultez l’onglet Liste d’attente du cours adaptatif pour gérer les élèves qui étaient sur liste d’attente via un programme d’apprentissage Flex.
+
+Lorsque vous téléchargez le **PDF de rapport de présence** pour une session d’un cours adaptatif qui fait partie d’un parcours d’apprentissage Flex, les élèves inscrits sur liste d’attente apparaissent sous la section **Actif** du PDF. En effet, l’interface du parcours d’apprentissage ne comporte pas de section Liste d’attente distincte. Utilisez **Administrateur > [Cours adaptatif] > Liste d&#39;attente** pour identifier les élèves inscrits sur liste d&#39;attente et les distinguer des participants confirmés avant de marquer leur présence.
 
 ### Afficher la liste d’attente
 
