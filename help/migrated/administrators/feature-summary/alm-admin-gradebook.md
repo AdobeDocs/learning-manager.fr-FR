@@ -2,9 +2,9 @@
 description: Tout sur l’activation du Gradebook et sa visibilité pour les auteurs et les élèves
 jcr-language: en_us
 title: Classeur pour l’administrateur
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ Avant que les auteurs puissent afficher le cahier de notes aux élèves dans un 
 
 Le paramètre **Visibilité du cahier de notes** dans **Paramètres** > **Général** détermine si les auteurs sont autorisés à exposer le cahier de notes aux élèves au niveau du cours.
 
+Pour plus d&#39;informations, voir [Visibilité du livre de classement](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility).
+
 | État du paramètre | Effet |
 | --- | --- |
 | Activé | Les auteurs peuvent contrôler la visibilité du journal de notes par cours à l&#39;aide de l&#39;option **Afficher le journal de notes aux élèves** dans l&#39;éditeur de cours. Les élèves voient l&#39;onglet **Gradebook** dans les cours où l&#39;auteur l&#39;a activé. |
 | Désactivé | Les élèves ne peuvent pas voir le cahier de notes dans un cours. Si elle est désactivée, la configuration du cours n’aura pas le paramètre permettant d’afficher le cahier de notes pour les élèves. |
-
 
 Cela signifie que le paramètre au niveau du compte et le paramètre au niveau du cours fonctionnent ensemble. Les deux doivent être activés pour qu’un élève puisse afficher le cahier de notes.
 
