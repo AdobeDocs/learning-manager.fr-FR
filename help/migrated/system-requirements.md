@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 62%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -65,7 +65,7 @@ Un microphone est nécessaire pour l’enregistrement audio ; une webcam est n�
 
 >[!NOTE]
 >
->Le navigateur mobile prend uniquement en charge le rôle d&#39;élève dans la **disposition immersive**.
+>Le navigateur Mobile ne prend en charge que le rôle d’élève dans la **mise en page immersive**.
 
 >[!NOTE]
 >
@@ -81,14 +81,14 @@ La page d’accueil avec mise en page immersive n’est pas prise en charge dans
 
 * Google Chrome version 43 et ultérieure.
 * Dernières versions d’Edge, de Safari (version 13 et ultérieure), et de Firefox.
-* Internet Explorer version 11 et ultérieure
+* Internet Explorer version 11 et ultérieure
 
 ## Taille recommandée des images {#recommendedsizeofimages}
 
 * En-tête :
-   * Pour les paramètres de grande taille : 1 280 x 360 PX
-   * Pour les paramètres moyens : 1 280 x 273 PX
-   * Pour des paramètres aussi petits : 1 280 x 187 PX
+  * Pour les paramètres de grande taille : 1 280 x 360 PX
+  * Pour les paramètres moyens : 1 280 x 273 PX
+  * Pour des paramètres aussi petits : 1 280 x 187 PX
 * Image sur la carte du catalogue : 280 x 100 px
 * Taille de la carte de formation : 300 x 240 px
 * Bannière pour réseaux sociaux : 1600 x 240 px
@@ -101,7 +101,7 @@ La taille de fichier maximale pouvant être téléchargée est de 600 Mo.
 >
 >Si la taille du fichier *user.csv* dépasse 100 Mo, l’importation de ce fichier peut entraîner un comportement inattendu de la part du navigateur. Le problème se produit car la mémoire du navigateur est insuffisante.
 
-Nous vous recommandons d&#39;importer des fichiers *user.csv* de grande taille à l&#39;aide du workflow automatisé Box/Exavault. Pour en savoir plus, voir [Migration de fichiers](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Nous vous recommandons d’importer des fichiers *user.csv* de grande taille à l’aide du processus Box/ExaVault automatisé. Pour en savoir plus, consultez [Migration de fichiers](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Format de contenu pris en charge
@@ -197,7 +197,7 @@ Nous vous recommandons d&#39;importer des fichiers *user.csv* de grande taille �
    <td>
     <p><strong>Ressources / pièces jointes de cours</strong></p></td>
    <td>
-    <p> Tous les formats de fichiers</p></td>
+    <p> Tous les formats de fichier</p></td>
   </tr>
  </tbody>
 </table>
@@ -222,31 +222,31 @@ Nous vous recommandons d&#39;importer des fichiers *user.csv* de grande taille �
    <td>
     <p>Badge étendu sur l’application de l’élève</p></td>
    <td>
-    <p>90x90 pixels</p></td>
+    <p>90 x 90 pixels</p></td>
   </tr>
   <tr>
    <td>
     <p>Photo de profil utilisateur sur le tableau des réussites de l’élève</p></td>
    <td>
-    <p>100x100 pixels</p></td>
+    <p>100 x 100 pixels</p></td>
   </tr>
   <tr>
    <td>
     <p>Photo de profil utilisateur sur le menu déroulant de déconnexion</p></td>
    <td>
-    <p>42x42 pixels</p></td>
+    <p>42 x 42 pixels</p></td>
   </tr>
   <tr>
    <td>
     <p>Logo de société dans l’en-tête</p></td>
    <td>
-    <p>45 pixels de hauteur, la largeur est calculée en conséquence.</p></td>
+    <p>45 pixels de haut, la largeur est calculée en conséquence.</p></td>
   </tr>
   <tr>
    <td>
     <p>Logo de l’entreprise sur la page d’accueil de Learning Manager</p></td>
    <td>
-    <p>100 pixels de hauteur, la largeur est calculée en conséquence.</p></td>
+    <p>100 pixels de haut, la largeur est calculée en conséquence.</p></td>
   </tr>
  </tbody>
 </table>
