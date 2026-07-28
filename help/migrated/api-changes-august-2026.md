@@ -2,9 +2,9 @@
 description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version d’août 2026 de Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Cette version ajoute trois nouveaux points d’entrée API publics de portée ad
 
 Ces points de terminaison fonctionnent uniquement avec des groupes d’utilisateurs personnalisés. Les groupes gérés par le système, tels que le groupe Tous les utilisateurs et les groupes d’utilisateurs générés automatiquement, ont la valeur readOnly : true dans la réponse de l’API et ne peuvent pas être modifiés ou supprimés via ces points de terminaison.
 
-Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Groupes d’utilisateurs points de terminaison d’API
 
@@ -131,9 +131,8 @@ L’un ou l’autre champ peut être omis ; l’omission d’un champ ne modifie
 
 | **Paramètre** | **Requis** | **Type** | **Description** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name | Non | chaîne | Nouveau nom d’affichage. Ne doit pas être vide s’il est fourni. Ne rien modifier. |
+| name | Oui | chaîne | Nouveau nom d’affichage. Ne doit pas être vide s’il est fourni. Ne rien modifier. |
 | description | Non | chaîne | Nouvelle description. Transmettez la valeur NULL à effacer. Ne rien modifier. |
-| data | — | null | Doit être nul ou absent. Toute valeur non nulle renvoie une erreur 400. |
 
 #### **Réponse 200 OK**
 
@@ -205,7 +204,7 @@ Le workflow d’apprentissage externe via l’API reflète le workflow dans l’
 
 Les cinq points d’entrée ont une portée d’élève. Un élève ne peut accéder qu’à ses propres envois : l’API renvoie une erreur si un élève tente d’accéder aux données d’un autre élève.
 
-Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Points de terminaison d’API d’apprentissage externe
 
