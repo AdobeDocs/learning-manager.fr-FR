@@ -2,9 +2,9 @@
 description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version d’août 2026 de Adobe Learning Manager
-source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ Cette version ajoute trois nouveaux points d’entrée API publics de portée ad
 
 Ces points de terminaison fonctionnent uniquement avec des groupes d’utilisateurs personnalisés. Les groupes gérés par le système, tels que le groupe Tous les utilisateurs et les groupes d’utilisateurs générés automatiquement, ont la valeur readOnly : true dans la réponse de l’API et ne peuvent pas être modifiés ou supprimés via ces points de terminaison.
 
-Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Groupes d’utilisateurs points de terminaison d’API
 
@@ -204,7 +204,7 @@ Le workflow d’apprentissage externe via l’API reflète le workflow dans l’
 
 Les cinq points d’entrée ont une portée d’élève. Un élève ne peut accéder qu’à ses propres envois : l’API renvoie une erreur si un élève tente d’accéder aux données d’un autre élève.
 
-Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Points de terminaison d’API d’apprentissage externe
 
@@ -510,7 +510,9 @@ Fournissez l&#39;**ID de certification racine** comme entrée. L’API évalue l
 
 Cela signifie que deux élèves qui interrogent le même ID de certification racine en même temps peuvent recevoir des résultats différents, en fonction de l&#39;historique d&#39;inscription individuel de chaque élève.
 
-**Remarque** : il peut y avoir une brève fenêtre au cours d&#39;une périodicité, pendant la création de la nouvelle version et la migration des inscriptions, pendant laquelle l&#39;API peut retourner la version qui est sur le point d&#39;être remplacée plutôt que la nouvelle version créée.
+>[!NOTE]
+>
+>Pendant la création d&#39;une nouvelle version et la migration des inscriptions, il peut y avoir une brève fenêtre au cours d&#39;une périodicité, pendant laquelle l&#39;API peut renvoyer la version sur le point d&#39;être remplacée plutôt que la nouvelle version créée.
 
 **Exemple**
 
