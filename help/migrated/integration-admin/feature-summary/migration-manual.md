@@ -3,9 +3,9 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9051'
+source-wordcount: '9122'
 ht-degree: 36%
 
 ---
@@ -942,7 +942,7 @@ Les quatre fichiers CSV acceptent `almCourseID` pour référencer des cours et `
 
 ### Définir la date de début des instances de cours et de parcours d’apprentissage
 
-Utilisez le fichier CSV de l&#39;instance de cours **1&rbrace; et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
+Utilisez le fichier CSV de l&#39;instance de cours **1} et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
 
 **Fichier CSV de l&#39;instance de cours : ajoutez une date de début**
 
@@ -1178,6 +1178,17 @@ La migration d’un cours adaptatif nécessite deux modifications de votre packa
 * **Un nouveau fichier,** _course_ module_user_group.csv_ : une ligne par règle module-to-user-group
 
 Les deux fichiers doivent être inclus dans le même projet de migration.
+
+### Noms de fichiers CSV mis à jour pour la migration de cours adaptative
+
+Les noms de fichiers CSV pour la migration des cours adaptatifs et des parcours d’apprentissage adaptatifs suivent désormais la convention de nom complet utilisée par tous les autres fichiers de migration dans Adobe Learning Manager. Par exemple, learning_object_section.csv au lieu de lo_section.csv. Si vous disposez de scripts ou de modèles de migration existants qui font référence aux noms abrégés précédents, mettez-les à jour avec les nouveaux noms avant votre prochaine exécution de migration.
+
+| Ancien nom | Nouveau nom |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### Mettre à jour course.csv
 
