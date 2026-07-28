@@ -2,9 +2,9 @@
 description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version d’août 2026 de Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -131,9 +131,8 @@ L’un ou l’autre champ peut être omis ; l’omission d’un champ ne modifie
 
 | **Paramètre** | **Requis** | **Type** | **Description** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name | Non | chaîne | Nouveau nom d’affichage. Ne doit pas être vide s’il est fourni. Ne rien modifier. |
+| name | Oui | chaîne | Nouveau nom d’affichage. Ne doit pas être vide s’il est fourni. Ne rien modifier. |
 | description | Non | chaîne | Nouvelle description. Transmettez la valeur NULL à effacer. Ne rien modifier. |
-| data | — | null | Doit être nul ou absent. Toute valeur non nulle renvoie une erreur 400. |
 
 #### **Réponse 200 OK**
 
@@ -511,7 +510,9 @@ Fournissez l&#39;**ID de certification racine** comme entrée. L’API évalue l
 
 Cela signifie que deux élèves qui interrogent le même ID de certification racine en même temps peuvent recevoir des résultats différents, en fonction de l&#39;historique d&#39;inscription individuel de chaque élève.
 
-**Remarque** : il peut y avoir une brève fenêtre au cours d&#39;une périodicité, pendant la création de la nouvelle version et la migration des inscriptions, pendant laquelle l&#39;API peut retourner la version qui est sur le point d&#39;être remplacée plutôt que la nouvelle version créée.
+>[!NOTE]
+>
+>Pendant la création d&#39;une nouvelle version et la migration des inscriptions, il peut y avoir une brève fenêtre au cours d&#39;une périodicité, pendant laquelle l&#39;API peut renvoyer la version sur le point d&#39;être remplacée plutôt que la nouvelle version créée.
 
 **Exemple**
 

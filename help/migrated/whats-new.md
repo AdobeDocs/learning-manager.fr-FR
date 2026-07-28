@@ -3,9 +3,9 @@ description: Découvrez les nouvelles fonctionnalités et améliorations, y comp
 jcr-language: en_us
 title: Nouveautés de la version d’août 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
+source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -202,6 +202,10 @@ Deux niveaux d&#39;accès sont disponibles :
 | **Lecture seule** | Afficher tous les rôles personnalisés, les journaux d’importation et les utilisateurs supprimés ; télécharger le rapport des rôles personnalisés |
 | **Contrôle total** | Toutes les fonctionnalités en lecture seule plus : créer, modifier, supprimer et affecter des rôles personnalisés ; importer des utilisateurs via CSV ; purger les utilisateurs supprimés |
 
+### Limitations
+
+**Rôles créés manuellement uniquement** : les fonctionnalités étendues d&#39;administration de rôles personnalisés s&#39;appliquent uniquement aux rôles créés via l&#39;interface de l&#39;administrateur Adobe Learning Manager. Les rôles importés via le chargement CSV ne sont pas pris en charge.
+
 En savoir plus sur les modifications de rôle personnalisées. Pour plus d&#39;informations, voir [Ce que l&#39;autorisation utilisateur avancé déverrouille](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## Liaison profonde LTI
@@ -246,7 +250,7 @@ En savoir plus sur les [modifications d&#39;API dans la version d&#39;août 2026
 | **Normalisation de l’horodatage du webhook** | Tous les champs de date et d’heure de l’objet `data` des charges utiles de webhook ont désormais la valeur `00` en secondes, ce qui offre une précision à la minute cohérente avec les rapports de relevé de notes de l’élève. |
 | **Améliorations de Connect** | Mises à jour du connecteur Azure Data Lake Storage (ADLS) ; prise en charge des noms de salle persistants pour les sessions de classe virtuelle récurrentes ; suivi de l’assiduité basé sur la vue d’enregistrement. |
 | **Améliorations des performances du lecteur** | Le lecteur de cours fluidic a été optimisé pour des temps de chargement plus rapides et des transitions plus fluides entre les modules. |
-| **Avertissement d’impact avant de retirer des cours/programmes d’apprentissage** | Les administrateurs voient désormais un avertissement répertoriant toutes les inscriptions actives et les parcours d’apprentissage dépendants avant qu’un cours ou un parcours d’apprentissage puisse être retiré. |
+| **Avertissement d’impact avant de retirer des cours/programmes d’apprentissage** | L’auteur/l’administrateur verra une liste d’avertissement des objets d’apprentissage dépendants avant qu’un cours ou un parcours d’apprentissage ne puisse être retiré. Indique à l’auteur qu’un objet d’apprentissage constitutif a été retiré. Les administrateurs reçoivent l’objet d’apprentissage s’ils l’ont créé mais n’ont pas le rôle d’auteur. |
 | **Module CR/VC : durée attendue** | Les auteurs peuvent désormais définir une durée attendue pour les modules de salle de classe et de salle de classe virtuelle, indépendamment de l’heure de la session planifiée. Cette valeur apparaît dans les rapports et les informations sur les cours destinés aux élèves. |
 | **Confirmation avant de modifier les cours acquis** | Les administrateurs de comptes de pairs voient désormais une boîte de dialogue de confirmation avant de modifier un cours acquis via le partage de catalogue, ce qui empêche toute modification involontaire du contenu partagé. |
 | **URL de session avec ID d&#39;instance** | Les URL de lancement de session pour les sessions Microsoft Teams, Adobe Connect et Zoom incluent désormais l’ID d’instance, ce qui garantit que les élèves sont redirigés vers la bonne session lorsqu’il existe plusieurs instances. |

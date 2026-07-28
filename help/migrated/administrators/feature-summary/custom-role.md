@@ -4,10 +4,10 @@ title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
 workflow-type: tm+mt
-source-wordcount: '5437'
-ht-degree: 25%
+source-wordcount: '5467'
+ht-degree: 24%
 
 ---
 
@@ -305,6 +305,11 @@ Cela signifie qu’un administrateur personnalisé ayant accès à un catalogue 
 Lorsque vous affectez des utilisateurs à un rôle que vous avez créé, vous pouvez rechercher et ajouter n’importe quel utilisateur dans le compte. Les autorisations liées aux utilisateurs dans les rôles personnalisés s&#39;appliquent toujours à la portée complète du groupe d&#39;utilisateurs et du catalogue. La portée du catalogue ou du groupe d&#39;utilisateurs ne s&#39;applique pas lorsqu&#39;un rôle personnalisé inclut des autorisations de gestion des utilisateurs.
 
 Si un administrateur complet réduit votre portée ou supprime une autorisation de votre rôle, tous les rôles que vous avez créés précédemment ne sont pas immédiatement affectés. Ces rôles continuent de fonctionner avec leurs autorisations existantes jusqu’à ce qu’un administrateur complet s’ouvre et enregistre chacun d’eux individuellement.
+
+>[!IMPORTANT]
+>
+>**Rôles créés manuellement uniquement** : les fonctionnalités étendues d&#39;administration de rôles personnalisés s&#39;appliquent uniquement aux rôles créés via l&#39;interface de l&#39;administrateur Adobe Learning Manager. Les rôles importés via le chargement CSV ne sont pas pris en charge.
+
 
 ## Octroi d’autorisations utilisateur avancées à un rôle personnalisé
 
