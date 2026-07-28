@@ -2,9 +2,9 @@
 description: Insights Agent est une fonctionnalité optimisée par l’IA dans Adobe Learning Manager qui permet aux administrateurs d’interroger les données des élèves en utilisant un langage naturel.
 jcr-language: en_us
 title: Insights Agent (bêta) dans Adobe Learning Manager
-source-git-commit: f14f2211eabc025d921392711a3382dd62273dc3
+source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2864'
 ht-degree: 1%
 
 ---
@@ -91,10 +91,10 @@ Après avoir envoyé votre question, Insights Agent traite votre demande et renv
 1. **Désambiguïté (si nécessaire) :** si votre question contient un terme ambigu, tel que \« activité d’apprentissage\ » ou \« performances\ », ou « Donnez-moi les données de performance des 3 derniers mois », l’assistant affiche une liste d’options et vous demande d’en sélectionner une avant de poursuivre. Sélectionnez l’option qui correspond le mieux à ce que vous recherchez. Après la question initiale, vous ne pouvez pas saisir d’instructions supplémentaires. La sélection à partir des options fournies est la seule interaction disponible jusqu’à ce que vous commenciez une nouvelle requête à l’aide de l’interface de requête. Vous ne pouvez répondre à la désambiguïsation qu’en sélectionnant l’une des options fournies ; le suivi de texte libre n’est pas disponible dans cette version.
 
 ![](assets/disambiguation.png)
-&#x200B;2. **Approche :** la section **Approche** décrit les étapes suivies par l&#39;agent pour récupérer vos données. Elle apparaît sous la forme d’un panneau déroulant sous la question. Sélectionnez l’icône de développement pour afficher l’approche complète. En consultant cette section, vous pouvez vérifier que la logique correspond à votre intention, en particulier pour les requêtes complexes. Par exemple, si vous demandez « tous les élèves inscrits au cours de la dernière année », l’agent peut renvoyer la dernière inscription de chaque élève plutôt que chaque enregistrement d’inscription. La section **Approche** **mai** ou **expliquera** cette décision. Si la logique ne correspond pas à votre intention, démarrez une nouvelle requête avec des termes plus spécifiques.
+2. **Approche :** la section **Approche** décrit les étapes suivies par l&#39;agent pour récupérer vos données. Elle apparaît sous la forme d’un panneau déroulant sous la question. Sélectionnez l’icône de développement pour afficher l’approche complète. En consultant cette section, vous pouvez vérifier que la logique correspond à votre intention, en particulier pour les requêtes complexes. Par exemple, si vous demandez « tous les élèves inscrits au cours de la dernière année », l’agent peut renvoyer la dernière inscription de chaque élève plutôt que chaque enregistrement d’inscription. La section **Approche** **mai** ou **expliquera** cette décision. Si la logique ne correspond pas à votre intention, démarrez une nouvelle requête avec des termes plus spécifiques.
 
 ![](assets/approach.png)
-&#x200B;3. **Résultats :** Insights Agent génère des résultats sous forme de texte ou de tableau. Pour les points de données qui sont les mieux interprétés dans un format tabulaire, Insights Agent renvoie un tableau. Insights Agent ne génère pas de graphiques ou de graphiques. Pour visualiser les données, téléchargez le fichier CSV et ouvrez-le dans l’outil de votre choix. Si vos résultats contiennent 50 lignes ou moins, un résumé en langage clair peut être inclus au-dessus du tableau. Par exemple, \« Quels cours n’ont pas moins de 5 inscriptions qui ont été créés au cours de la dernière année et qui sont les auteurs ?\ »
+3. **Résultats :** Insights Agent génère des résultats sous forme de texte ou de tableau. Pour les points de données qui sont les mieux interprétés dans un format tabulaire, Insights Agent renvoie un tableau. Insights Agent ne génère pas de graphiques ou de graphiques. Pour visualiser les données, téléchargez le fichier CSV et ouvrez-le dans l’outil de votre choix. Si vos résultats contiennent 50 lignes ou moins, un résumé en langage clair peut être inclus au-dessus du tableau. Par exemple, \« Quels cours n’ont pas moins de 5 inscriptions qui ont été créés au cours de la dernière année et qui sont les auteurs ?\ »
 
 ![](assets/results.png)
 
@@ -133,10 +133,11 @@ Après chaque réponse, sélectionnez l’icône Pouces vers le haut ou Pouces v
 
 ## Bonnes pratiques
 
-- Commençons par une question précise plutôt que par une question générale. \« Quel est le taux d&#39;achèvement du cours de formation à la sécurité dans le groupe d&#39;utilisateurs nord-américain ?\ » renvoie des résultats plus utiles que \« Afficher les données d&#39;achèvement.\ »
+- Commençons par une question précise plutôt que par une question générale. \« Quel est le taux d&#39;achèvement du cours de formation à la sécurité dans le groupe d&#39;utilisateurs d&#39;Amérique du Nord ?\ » renvoie des résultats plus utiles que \« Afficher les données d&#39;achèvement. »
 - Utilisez des termes Adobe Learning Manager exacts pour nommer le contenu et les groupes d’élèves. Le guide d&#39;écriture de requête répertorie les termes corrects à utiliser.
 - Si l&#39;agent pose une question de clarification, traitez-la comme un signal pour affiner votre requête originale. Plus votre question est précise, moins il y a de précisions à apporter.
 - Passez en revue la section **Approche** avant d&#39;agir sur les résultats, en particulier pour les requêtes liées à la conformité pour lesquelles la précision est essentielle.
+- **Indiquez si les élèves inscrits sur liste d&#39;attente doivent être inclus ou exclus**. Par défaut, les requêtes de nombre d&#39;inscriptions incluent les élèves qui sont sur une liste d&#39;attente avec des inscriptions confirmées actives. Si vous n’avez besoin que de participants actifs, excluez explicitement les élèves inscrits sur liste d’attente dans votre requête. Par exemple : « Combien d’élèves sont directement inscrits au cours de formation à la sécurité, à l’exclusion des élèves inscrits sur liste d’attente ? » L&#39;agent doit divulguer dans la section Approche que l&#39;exclusion a été appliquée. Sans cette instruction, les totaux d&#39;inscription peuvent inclure une proportion importante d&#39;élèves inscrits sur liste d&#39;attente qui n&#39;ont pas encore commencé le contenu.
 
 
 ## Rédiger des requêtes efficaces pour Insights Agent
@@ -267,9 +268,11 @@ Lorsque vous interrogez des données pour un cours associé à une certification
 
 Une fois le contenu créé, les élèves inscrits ou les enregistrements d’achèvement mis à jour, la disponibilité de ces données dans les résultats de la requête peut prendre jusqu’à 30 minutes. Si les résultats semblent incomplets ou ne reflètent pas une activité récente, attendez 30 minutes et réessayez.
 
-**Les données d&#39;inscription et d&#39;achèvement comprennent les inscriptions directes et indirectes**
+**Nombre d&#39;inscriptions directes et indirectes**
 
-Lorsque vous interrogez les données d’inscription ou d’achèvement pour un cours ou un parcours d’apprentissage, Insights Agent renvoie un nombre combiné qui inclut à la fois les inscriptions directes (élèves inscrits spécifiquement à ce cours ou parcours d’apprentissage) et indirectes (élèves ayant accédé au même contenu dans le cadre d’un autre parcours d’apprentissage ou d’une autre certification). Les résultats ne séparent pas ces deux types d’inscription.
+Lorsque vous interrogez les données d’inscription ou d’achèvement pour un cours ou un parcours d’apprentissage, Insights Agent fait la distinction entre les inscriptions directes (élèves inscrits spécifiquement à ce cours ou parcours d’apprentissage) et les inscriptions indirectes (élèves ayant accédé au même contenu dans le cadre d’un parcours d’apprentissage ou d’une certification). Si vous demandez spécifiquement des inscriptions directes ou indirectes, l&#39;agent renvoie le nombre correct pour chaque type.
+
+Si votre requête ne spécifie pas le nombre direct ou indirect, l&#39;agent peut renvoyer un nombre combiné. Pour obtenir des nombres séparés, incluez explicitement la distinction dans votre requête. Par exemple : « Combien d’élèves sont inscrits directement ou indirectement au cours de formation sur la sécurité ? »
 
 **Les requêtes envoyées dans des scripts non latins ne sont pas prises en charge**
 
