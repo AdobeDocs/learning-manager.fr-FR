@@ -18,7 +18,7 @@ Cette version ajoute trois nouveaux points d’entrée API publics de portée ad
 
 Ces points de terminaison fonctionnent uniquement avec des groupes d’utilisateurs personnalisés. Les groupes gérés par le système, tels que le groupe Tous les utilisateurs et les groupes d’utilisateurs générés automatiquement, ont la valeur readOnly : true dans la réponse de l’API et ne peuvent pas être modifiés ou supprimés via ces points de terminaison.
 
-Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Groupes d’utilisateurs points de terminaison d’API
 
@@ -204,7 +204,7 @@ Le workflow d’apprentissage externe via l’API reflète le workflow dans l’
 
 Les cinq points d’entrée ont une portée d’élève. Un élève ne peut accéder qu’à ses propres envois : l’API renvoie une erreur si un élève tente d’accéder aux données d’un autre élève.
 
-Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Pour connaître les exigences d&#39;authentification d&#39;API, voir [Authentification d&#39;API Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Points de terminaison d’API d’apprentissage externe
 
