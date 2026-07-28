@@ -3,7 +3,7 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -942,7 +942,7 @@ Les quatre fichiers CSV acceptent `almCourseID` pour référencer des cours et `
 
 ### Définir la date de début des instances de cours et de parcours d’apprentissage
 
-Utilisez le fichier CSV de l&#39;instance de cours **1&rbrace; et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
+Utilisez le fichier CSV de l&#39;instance de cours **1} et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
 
 **Fichier CSV de l&#39;instance de cours : ajoutez une date de début**
 
@@ -1166,7 +1166,7 @@ Lors de la création de versions de module LTI :
 
 Le système de migration applique le workflow de traitement de migration standard en plus des champs spécifiques à LTI.
 
-## Migration de cours adaptatifs
+## Migration de cours adaptatifs {#migrateadaptivecourses}
 
 Si vous migrez des cours d’un système externe vers Adobe Learning Manager et que vous souhaitez qu’ils soient configurés en tant que cours adaptatifs avec des règles de visibilité et d’achèvement au niveau du module par groupe d’utilisateurs, vous pouvez utiliser deux fichiers CSV pour définir les cours et leurs règles adaptatives.
 
