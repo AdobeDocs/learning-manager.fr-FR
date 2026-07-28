@@ -4,10 +4,10 @@ title: Catalogues
 description: 'Les catalogues sont un ensemble de formations : cours, programmes d’apprentissage et certifications. Les catalogues vous permettent d’offrir aux élèves un accès à un ensemble personnalisé d’objets d’apprentissage. Vous pouvez associer les objets d’apprentissage à un catalogue pendant la création d’un nouveau catalogue.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+source-git-commit: e8d279fd1c8ba0af01241c4041d016759966bdde
 workflow-type: tm+mt
-source-wordcount: '2593'
-ht-degree: 79%
+source-wordcount: '3238'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,92 @@ Pour supprimer un catalogue partagé, cliquez sur le menu déroulant **[!UICONTR
 * Vous ne pouvez pas partager un catalogue par défaut avec des comptes externes.
 * Vous ne pouvez pas supprimer un catalogue qui a été partagé en externe par vous-même.
 * Vous ne pouvez pas supprimer un catalogue que vous avez partagé avec d’autres comptes.
+
+## Restreindre les modifications sur les cours/parcours d’apprentissage acquis {#restrictchangesonacquiredcourseslp}
+
+Dans les organisations qui utilisent le partage de compte, le contenu d’apprentissage est souvent créé et géré sur un compte principal, puis partagé avec des comptes de pairs via des catalogues partagés. Bien que ce modèle permette de maintenir un contenu cohérent entre plusieurs comptes, il peut également entraîner des modifications involontaires dans les comptes de réception.
+
+Cela permet de protéger les objets d’apprentissage partagés en empêchant les auteurs des comptes de réception d’apporter des modifications susceptibles de rompre la relation entre le compte source et le contenu partagé. Cela permet aux propriétaires de contenu de maintenir une gouvernance centralisée tout en veillant à ce que les mises à jour du compte source continuent d’être transférées vers les comptes de réception.
+
+Cette fonctionnalité aide les organisations à :
+
+* Préservez l’intégrité du contenu partagé à partir d’un compte source.
+* Empêchez les modifications accidentelles qui pourraient interrompre la synchronisation avec le compte source.
+* Réduisez les frais de gestion de contenu sur plusieurs comptes.
+* Assurez-vous que les mises à jour effectuées dans le compte source continuent d’être propagées aux comptes de réception.
+* Avertissez clairement les auteurs lorsqu’ils tentent de modifier du contenu partagé.
+
+Lorsqu&#39;un catalogue est partagé entre un compte source et un compte destinataire, les objets d&#39;apprentissage tels que les cours, les parcours d&#39;apprentissage et les certifications deviennent disponibles dans le compte destinataire.
+
+Si le compte destinataire active l’option Restreindre les modifications sur les cours/parcours d’apprentissage acquis, Adobe Learning Manager restreint la modification du contenu hérité provenant du catalogue partagé. Les auteurs peuvent toujours utiliser le contenu partagé, mais ils ne peuvent pas apporter de modifications susceptibles de rompre la relation avec le compte source.
+
+### Activer les restrictions de modification pour le contenu du catalogue partagé
+
+**Conditions préalables**
+
+Le compte doit déjà recevoir du contenu d’un catalogue partagé.
+
+1. Se connecter à ALM en tant qu’administrateur.
+2. Sélectionnez **Catalogues**.
+3. Sélectionnez un catalogue partagé.
+4. Dans la section **Présentation** du catalogue partagé, sélectionnez l’option **Restreindre les modifications sur les cours/parcours d’apprentissage acquis**. Lorsque cette option est activée, les modifications apportées aux cours/parcours d’apprentissage dans le catalogue acquis sont limitées pour permettre le transfert des mises à jour du compte principal vers ce compte.
+
+   ![](assets/shared-catalog-enabled.png)
+
+5. Sélectionnez **Mettre à jour** pour enregistrer la configuration.
+
+### Expérience de l’auteur
+
+Lorsqu&#39;un auteur ouvre un cours acquis via un catalogue partagé, le système affiche un message d&#39;information indiquant que :
+
+* Le cours provient d’un catalogue partagé.
+* Les restrictions de modification sont activées.
+* Certaines modifications de contenu sont limitées.
+
+### Tentative de modification de contenu restreint
+
+Si un auteur tente de modifier du contenu protégé :
+
+* Un avertissement peut s’afficher pour l’auteur indiquant que le cours a été acquis à partir d’un compte source.
+* L’avertissement explique que la modification du contenu peut rompre la relation avec le compte source.
+* En fonction des paramètres, le système restreint ou empêche les modifications apportées au contenu concerné.
+
+Cela aide les auteurs à comprendre l’impact de leurs actions avant que des modifications ne soient apportées.
+
+**Quelles sont les modifications restreintes ?**
+
+Lorsque les restrictions de modification sont activées, les modifications apportées au contenu hérité des cours sont restreintes, car ces composants sont gérés par le compte source. Ces restrictions sont conçues pour préserver la synchronisation entre les comptes.
+
+Voici des exemples de contenu généralement régi par le compte source :
+
+* Métadonnées du cours
+* Structure de cours partagée
+* Contenu d’apprentissage partagé
+* Configurations du parcours d’apprentissage partagé
+
+L’objectif est d’empêcher les modifications qui pourraient faire que la copie du compte destinataire diverge de la version source.
+
+**Quelles modifications restent autorisées ?**
+
+Certains paramètres continuent d’être gérés indépendamment au sein du compte destinataire et restent modifiables. Il s’agit des éléments suivants :
+
+* Personnalisation du modèle d’e-mail
+* Gestion des instances
+* Autres configurations au niveau du compte qui ne proviennent pas du compte source.
+
+### Exemple de scénario
+
+#### Avant la restriction
+
+Une équipe d’apprentissage d’entreprise maintient un cours de conformité dans le compte source et le partage avec plusieurs comptes régionaux.
+
+Un auteur d’un compte régional modifie directement le cours acquis. Par conséquent, la connexion avec le cours d’origine peut être interrompue, ce qui empêche les futures mises à jour du compte source de s’exécuter correctement.
+
+#### Après restriction
+
+Le compte destinataire permet de **restreindre les modifications sur les cours/parcours d’apprentissage acquis**.
+
+Lorsque des auteurs régionaux accèdent au cours partagé, ils peuvent afficher et attribuer le contenu, mais les champs protégés ne peuvent pas être modifiés. Les mises à jour effectuées par le compte source continuent d’être distribuées aux comptes de réception sans interruption.
 
 ## Activer le contrôle complet du catalogue partagé {#enablefullcontrolofsharedcatalog}
 
