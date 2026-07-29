@@ -2,7 +2,7 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -23,7 +23,7 @@ ht-degree: 50%
   * [Nouvelles fonctionnalités de mars 2024](whats-new-march-2024.md)
   * {hide-from-toc}[Nouvelles fonctionnalités de novembre 2023](whats-new-november-2023.md)
   * {hide-from-toc}[Nouvelles fonctionnalités de juillet 2023](whats-new-2023-july.md)
-  * [Changements à venir dans Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+  * {hide-from-toc}[Changements à venir dans Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
   * [Notes de mise à jour](release-note/release-notes.md)
   * [Configuration système](system-requirements.md)
   * [Application Adobe Learning Manager pour Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
