@@ -2,7 +2,8 @@
 jcr-language: en_us
 title: Cours adaptatifs pour les élèves
 description: Suivez des cours adaptatifs qui répondent aux exigences spécifiques de votre groupe d’utilisateurs.
-source-git-commit: 9686712005ab0a48da1969d2645206fad403e727
+hide: true
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
