@@ -3,7 +3,8 @@ description: En tant qu’auteur, découvrez comment créer des cours adaptatifs
 jcr-language: en_us
 title: Cours adaptatifs pour les auteurs
 contentowner: mmanuel
-source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
+hide: true
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 0%

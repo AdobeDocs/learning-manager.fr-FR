@@ -2,9 +2,9 @@
 description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version d’août 2026 de Adobe Learning Manager
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -300,8 +300,8 @@ Vérifiez l’attribut activé de niveau supérieur avant de continuer. Si la va
 | titre | TEXTE | Oui | Nom de la formation. Toujours présent. Ne peut pas être désactivé par l&#39;administrateur. |
 | description_notes | TEXTE | Non | Description ou notes en texte libre. |
 | l’annonce | HORODATAGE | Non | Plage de dates. Valeur shape : { « start_date » : « <ISO-Z> », « end_date » : « <ISO-Z>&quot; }. Les deux valeurs peuvent être Null. |
-| score | NOMBRE | Oui | Forme de la valeur : { « completed_score » : <number>, « max_score » : <number> }. Les deux valeurs doivent être numériques. |
-| durée | TEXTE | Non | Chaîne libre, par exemple « 40 hours ». |
+| score | NOMBRE | Oui | Forme de la valeur : { « completed_score » : <number>, « max_score » : <number> }. Les deux valeurs doivent être numériques.  max_score ne peut pas être négatif. |
+| durée | OBJET | Non | Par exemple, { « timeSpan » : 8, « period » : « HOURS » }. |
 | pièces jointes | FILE_UPLOAD | Oui | Preuve d’accomplissement. **Non** transmis dans les champs[] — utilisez plutôt l&#39;attribut submissionUrl de niveau supérieur. |
 
 Les champs personnalisés sont définis par l&#39;administrateur et renvoyés dans customFields[]. Leurs ID, types, indicateurs obligatoires, étiquettes et options de liste déroulante varient selon la configuration du compte.

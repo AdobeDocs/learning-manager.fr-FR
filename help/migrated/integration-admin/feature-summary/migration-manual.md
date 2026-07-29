@@ -3,10 +3,10 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '9122'
-ht-degree: 36%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1166,115 +1166,6 @@ Lors de la création de versions de module LTI :
 
 Le système de migration applique le workflow de traitement de migration standard en plus des champs spécifiques à LTI.
 
-## Migration de cours adaptatifs {#migrateadaptivecourses}
-
-Si vous migrez des cours d’un système externe vers Adobe Learning Manager et que vous souhaitez qu’ils soient configurés en tant que cours adaptatifs avec des règles de visibilité et d’achèvement au niveau du module par groupe d’utilisateurs, vous pouvez utiliser deux fichiers CSV pour définir les cours et leurs règles adaptatives.
-
-### Éléments à migrer
-
-La migration d’un cours adaptatif nécessite deux modifications de votre package CSV de migration standard :
-
-* **Mise à jour de** _course.csv_ : nouvelle colonne qui marque un cours comme adaptatif
-* **Un nouveau fichier,** _course_ module_user_group.csv_ : une ligne par règle module-to-user-group
-
-Les deux fichiers doivent être inclus dans le même projet de migration.
-
-### Noms de fichiers CSV mis à jour pour la migration de cours adaptative
-
-Les noms de fichiers CSV pour la migration des cours adaptatifs et des parcours d’apprentissage adaptatifs suivent désormais la convention de nom complet utilisée par tous les autres fichiers de migration dans Adobe Learning Manager. Par exemple, learning_object_section.csv au lieu de lo_section.csv. Si vous disposez de scripts ou de modèles de migration existants qui font référence aux noms abrégés précédents, mettez-les à jour avec les nouveaux noms avant votre prochaine exécution de migration.
-
-| Ancien nom | Nouveau nom |
-| --- | --- |
-| `lo_section.csv` | `learning_object_section.csv` |
-| `lp_section.csv` | `learning_program_section.csv` |
-| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
-| `course_module_ug.csv` | `course_module_user_group.csv` |
-
-### Mettre à jour course.csv
-
-Ajoutez la colonne isAdaptive à votre fichier course.csv.
-
-| **Colonne** | **Valeurs** | **Description** |
-| --- | --- | --- |
-| isAdaptive | vrai ou vide | Définissez sur true pour les cours adaptatifs. Laissez vide ou définissez la valeur sur false pour les cours réguliers. |
-
-Toutes les autres colonnes course.csv restent inchangées.
-
-**Exemple d&#39;ordre des colonnes :**
-
-* l&#39;identifiant
-* courseName
-* description
-* courseCreationDate
-* l&#39;état
-* séquentiel
-* auteur
-* thumbnailUrl
-* balises
-* isAdaptive
-
->[!NOTE]
->
->La colonne isAdaptive est facultative pour les cours réguliers. S&#39;il est omis ou laissé vide, le cours est traité comme un cours normal.
-
-### Ajouter course_module_user_group.csv
-
-Il s’agit d’un nouveau fichier CSV qui définit les règles de visibilité adaptative et d’achèvement pour chaque module de chaque cours adaptatif. Chaque ligne mappe un module à un groupe d&#39;utilisateurs avec un type de règle.
-
-| **Colonne** | **Description** |
-| --- | --- |
-| courseId | L&#39;identificateur source du cours (doit correspondre à l&#39;ID dans course.csv) |
-| moduleId | L&#39;identifiant source du module (doit correspondre à l&#39;identifiant du module dans vos fichiers de module) |
-| userGroupId | ID Adobe Learning Manager du groupe d’utilisateurs auquel cette règle s’applique |
-| type | OBLIGATOIRE : le groupe d’utilisateurs doit terminer ce module pour terminer le cours. FACULTATIF — le groupe d&#39;utilisateurs peut voir ce module et y accéder, mais il n&#39;est pas nécessaire de le terminer. |
-| opération | AJOUTER : créez ou mettez à jour cette règle. DELETE : supprimez cette règle. |
-
-**Exemple d&#39;ordre des colonnes :**
-
-* courseId
-* moduleId
-* userGroupId
-* type
-* opération
-
-### Règles applicables au fichier
-
-* Chaque module de contenu d&#39;un cours adaptatif doit avoir au moins une ligne dans ce fichier. Un module sans règles n’est visible par aucun élève.
-* Les modules préparatoires et les modules de test ne nécessitent pas de règles. Ils sont automatiquement appliqués à tous les élèves inscrits et ne doivent pas apparaître dans ce fichier.
-* Vous pouvez avoir plusieurs lignes pour le même module. Un par groupe d’utilisateurs.
-* Si vous soumettez une ligne ADD pour une règle qui existe déjà dans le système, la règle existante est mise à jour au lieu de créer un doublon.
-
-### Charger l’ordre
-
-Les fichiers de votre projet de migration doivent être chargés et traités dans l’ordre suivant. Les fichiers ultérieurs dépendent des données créées par les fichiers antérieurs et échoueront si l’ordre n’est pas suivi.
-
-* **module.csv** : définissez les modules
-* **module_version.csv** : définissez les versions de module
-* **course.csv** : (avec isAdaptive=true pour les cours adaptatifs) - Créez les cours
-* **course_module.csv** : liaison des modules aux cours
-* **course_module_user_group.csv** : appliquer des règles de visibilité et d&#39;achèvement adaptatives
-
-Téléchargez les fichiers de migration ici : [Fichiers de migration de cours adaptatifs](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
-
->[!IMPORTANT]
->
->**course_module_user_group.csv** doit être chargé en dernier. Les règles de ce fichier font référence à un cours et à un module qui doivent déjà être liés à l&#39;étape 4 avant que les règles puissent être appliquées.
-
-### Référence de validation et d’erreur
-
-Adobe Learning Manager valide chaque ligne dans course_module_user_group.csv avant d’appliquer les règles. Toute ligne dont la validation échoue est rejetée avec un message d’erreur. Les lignes valides restantes sont toujours traitées.
-
-| **Scénario** | **Que se passe-t-il** | **Message d&#39;erreur** |
-| --- | --- | --- |
-| Règles fournies pour un cours qui n&#39;est pas marqué comme adaptatif | Ligne rejetée | Le cours doit être adaptatif pour avoir des règles de visibilité du contenu. ID du cours : {courseId} |
-| Cours marqué comme adaptatif, mais aucune règle n&#39;est fournie pour ses modules de contenu | Cours refusé | Le cours adaptatif doit avoir au moins une règle de visibilité pour chaque module de contenu. L&#39;ID de cours {courseId} n&#39;a pas de règles pour le ou les modules {moduleIds} |
-| Le module n&#39;est pas lié au cours | Ligne rejetée | Le module {moduleId} n&#39;est pas lié au cours {courseId}. Ajoutez d&#39;abord le module au cours via course_module.csv. |
-| Le module est un module préparatoire ou de test (et non un module de contenu) | Ligne rejetée | Les règles de visibilité s’appliquent uniquement aux modules de type de contenu. Le module {moduleId} est de type {actualType}. |
-| Le groupe d’utilisateurs n’existe pas ou est inactif | Ligne rejetée | Groupe d&#39;utilisateurs {userGroupId} introuvable ou inactif. |
-| La valeur de type n&#39;est ni OBLIGATOIRE ni FACULTATIF | Ligne rejetée | Type &#39;{type}&#39; non valide. Doit être OBLIGATOIRE ou FACULTATIF. |
-| La valeur de l&#39;opération n&#39;est pas ADD ou DELETE | Ligne rejetée | Opération « {operation} » non valide. Doit être ADD ou DELETE. |
-| AJOUTER soumis pour une règle qui existe déjà | Règle mise à jour silencieusement | Aucune erreur : la règle existante est mise à jour avec la nouvelle valeur de type. |
-
 ## Migration de la hiérarchie des dossiers de contenu {#migratecontentfolderhierarchy}
 
 Si vous migrez votre contenu d’apprentissage à partir d’une autre plate-forme vers Adobe Learning Manager et que vous souhaitez conserver l’organisation de vos dossiers existants, vous pouvez utiliser les fichiers CSV pour créer une structure de dossiers hiérarchique et associer vos fichiers de contenu aux dossiers appropriés.
@@ -1307,7 +1198,6 @@ Avant de préparer le fichier CSV, mappez la structure de dossiers ou de catégo
 >[!NOTE]
 >
 >Si votre système source utilise des barres obliques (`/`) dans les noms de catégorie ou de dossier, remplacez-les par un trait d&#39;union (`-`) ou un trait de soulignement (`_`) avant de préparer votre fichier CSV. Adobe Learning Manager n&#39;autorise pas `/` dans les noms de dossier, car il est réservé à la résolution du chemin d&#39;accès au dossier.
-
 
 #### content_folder.csv
 
@@ -1352,7 +1242,6 @@ Dans cet exemple :
 >[!NOTE]
 >
 >Vous pouvez référencer un dossier existant dans votre compte (créé avant cette migration) comme parent d&#39;un nouveau dossier en utilisant le préfixe `existing:` suivi de l&#39;ID du dossier dans la colonne `parentExternalId`, par exemple `existing:12345`.
-
 
 ### Phase 2 : Association de contenu à des dossiers
 
@@ -1402,7 +1291,6 @@ Lors de l’exécution d’une migration complète du contenu, chargez et traite
 >
 >`content_folder.csv` doit être traité avant le fichier de version du module qui contient les chemins d&#39;accès aux dossiers, car la structure des dossiers doit exister pour que le contenu puisse y être associé.
 
-
 ### Référence de validation et d’erreur
 
 Adobe Learning Manager valide chaque ligne dans `content_folder.csv` avant le traitement. Les lignes dont la validation échoue sont ignorées et signalées comme des erreurs. Les lignes valides dans le même fichier continuent d’être traitées.
@@ -1422,7 +1310,6 @@ Adobe Learning Manager valide chaque ligne dans `content_folder.csv` avant le tr
 | `CREATE_FOLDER` pour un `id` déjà migré avec succès | Ligne ignorée | Aucune action requise : ce comportement est attendu lors de la réexécution d’une migration |
 | Le chemin du dossier dans `module_version.csv` référence un dossier qui n&#39;existe pas | Ligne de module rejetée | Exécutez d’abord la structure du dossier sprint ou vérifiez que le nom et le chemin du dossier sont orthographiés correctement |
 | Double barre oblique dans le chemin d&#39;accès au dossier (par exemple, `Training//Sales`) | Ligne de module rejetée | Supprimer la barre oblique supplémentaire du tracé |
-
 
 ### Rétrocompatibilité
 

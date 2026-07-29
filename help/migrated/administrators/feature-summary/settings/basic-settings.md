@@ -3,7 +3,7 @@ description: En savoir plus sur la façon dont les paramètres de base vous aide
 jcr-language: en_us
 title: Paramètres de base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '5921'
 ht-degree: 4%
@@ -202,7 +202,7 @@ Sélectionnez **[!UICONTROL Modifier]** pour restreindre ce qu&#39;un élève pe
 
 Les élèves explorent ensuite les compétences et les balises qui leur sont visibles et souscrivent aux compétences de leur choix.
 
-### ID d’objet d’apprentissage uniques
+### ID d’objets d’apprentissage uniques
 
 L’option vous permet d’attribuer un identifiant unique à chaque objet d’apprentissage (tel que les cours, les parcours d’apprentissage, les certifications ou les assistances à la tâche). Cela garantit que chaque objet d’apprentissage possède un ID distinct, ce qui peut être utile pour le suivi, la génération de rapports et l’intégration avec des systèmes externes.
 
