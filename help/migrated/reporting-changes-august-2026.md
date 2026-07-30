@@ -2,9 +2,9 @@
 description: Ce document résume les modifications apportées aux rapports d’août 2026 dans Adobe Learning Manager. Elle couvre les colonnes nouvelles et mises à jour du relevé de notes de l'élève, de la formation, de l'inscription, de la liste d'attente, de la présence, de l'audit de contenu et des rapports utilisateur. Il explique également le comportement adaptatif du cours, la notation des classeurs, les enregistrements d’apprentissage externes, les rapports de crédit d’IA générale, le suivi de la certification racine, la normalisation des horodatages et les mises à jour des auteurs d’API.
 jcr-language: en_us
 title: Rapports sur les modifications de la version d’août 2026 de Adobe Learning Manager
-source-git-commit: 2d60f665d2e00c95edfc96360ee65fdae013c0cd
+source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Rapports sur les modifications de la version d’août 2026 de Adobe Learning Manager
 
-La version d’août 2026 de Adobe Learning Manager introduit des améliorations en matière de création de rapports dans les cours adaptatifs, les classeurs, l’apprentissage externe, l’utilisation des crédits d’IA générative, etc. Cet article résume les nouvelles colonnes, les nouveaux rapports et les changements de comportement disponibles pour les administrateurs dans cette version.
+La version d’août 2026 de Adobe Learning Manager introduit des améliorations en matière de création de rapports dans les classeurs, l’apprentissage externe, l’utilisation des crédits Gen AI, etc. Cet article résume les nouvelles colonnes, les nouveaux rapports et les changements de comportement disponibles pour les administrateurs dans cette version.
 
 ## Quels sont les changements apportés
 
-Les mises à jour des rapports couvrent huit domaines de fonctionnalités : comportement des cours adaptatifs, liste d’attente adaptative, notation des classeurs, apprentissage externe, exportations incrémentielles d’utilisateurs, utilisation des crédits d’IA générative, suivi de la certification racine et alignement de l’horodatage du webhook. Les modifications concernent principalement les rapports suivants :
+Les mises à jour des rapports couvrent huit domaines de fonctionnalités : notation du journal de notes, apprentissage externe, exportations incrémentielles d’utilisateurs, utilisation des crédits d’IA générative, suivi de la certification racine et alignement de l’horodatage du webhook. Les modifications concernent principalement les rapports suivants :
 
 - Relevé de notes de l’élève (LT)
 - Rapport des formations
@@ -26,66 +26,70 @@ Les mises à jour des rapports couvrent huit domaines de fonctionnalités : comp
 
 La plupart des mises à jour introduisent de nouvelles colonnes. Certains ont introduit de nouveaux types de rapports. Quelques-uns ont modifié la façon dont les données existantes sont modélisées ou formatées.
 
-## Modifications adaptatives des rapports de cours
+<!--
+## Adaptive course reporting changes
 
-### Rapport des formations
+### Training report
 
-Trois nouvelles colonnes du rapport de formation prennent en charge le comportement de cours adaptatif.
+Three new columns in the Training report support adaptive course behavior.
 
-| **Colonne** | **Description** | **Valeurs Prises En Charge** |
+| **Column**               | **Description**                                          | **Supported Values**                                                   |
 |--------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
-| Objet d’apprentissage adaptatif | Indique si un cours est adaptatif | true (adaptatif), false (non adaptatif) |
-| Groupes d’utilisateurs de visibilité | Répertorie les groupes d&#39;utilisateurs qui peuvent afficher chaque module | Un ou plusieurs noms de groupe d’utilisateurs (par exemple, Tous les élèves, UG-Australie) |
-| Obligatoire | Indique si un module est obligatoire pour un groupe d&#39;utilisateurs | Noms de groupe d&#39;utilisateurs pour lesquels le module est obligatoire ; vide = facultatif |
+| Adaptive Learning Object | Identifies whether a course is adaptive                  | true (adaptive), false (non-adaptive)                                  |
+| Visibility User Groups   | Lists user groups that can view each module              | One or more user group names (for example, All Learners, UG-Australia) |
+| Mandatory                | Indicates whether a module is mandatory for a user group | User group names for which the module is mandatory; blank = optional   |
 
-Vous pouvez combiner les **groupes d&#39;utilisateurs Visibility** et les **groupes obligatoires** pour interpréter les règles d&#39;achèvement adaptatives directement dans le rapport. Par exemple, un module peut être visible par **Tous les élèves**, mais obligatoire uniquement pour le **groupe d&#39;administrateurs**.
+You can combine **Visibility User Groups** and **Mandatory** to interpret adaptive completion rules directly in the report. For example, a module may be visible to **All Learners** but mandatory only for the **Administrator group**.
 
-### Relevé de notes de l&#39;élève
 
-Une nouvelle colonne **Achèvements précédents** capture les données d&#39;achèvement historiques lorsque la logique adaptative déclenche la réachèvement.
+### Learner Transcript
 
-| **Sous-champ** | **Description** |
+A new **Previous Completions** column captures historical completion data when adaptive logic triggers recompletion.
+
+| **Sub-field**         | **Description**                         |
 |-----------------------|-----------------------------------------|
-| completionRefreshDate | Horodatage lors de la réinitialisation de l’achèvement |
-| completedDate | Horodatage de la fin précédente |
-| progressAtRefresh | Progression de l’élève avant la réinitialisation |
-| gradeAtRefresh | Score de l’élève au moment de la réinitialisation |
+| completionRefreshDate | Timestamp when the completion was reset |
+| completedDate         | Previous completion timestamp           |
+| progressAtRefresh     | Learner progress before reset           |
+| gradeAtRefresh        | Learner score at the time of reset      |
 
-Le relevé de notes de l’élève prend désormais en charge plusieurs cycles d’achèvement. Lorsqu&#39;un événement de réachèvement se produit, par exemple, en raison de mises à jour de cours ou de nouveaux modules obligatoires, l&#39;achèvement précédent passe à la colonne **Achèvements précédents**. L’accomplissement actuel reste dans les champs de relevé de notes standard.
+The Learner Transcript now supports multiple completion cycles. When a recompletion event occurs, for example, due to course updates or new mandatory modules, the previous completion moves to the **Previous Completions** column. The current completion remains in the standard transcript fields.
 
-### Rapport d’inscription
+### Enrollment report
 
-Une nouvelle colonne **Liste d&#39;attente** indique si un élève est sur liste d&#39;attente dans un module d&#39;un cours.
+A new **Waitlisted** column indicates whether a learner is waitlisted in any module within a course.
 
-| **Valeur** | **Signification** |
+| **Value** | **Meaning**                                             |
 |-----------|---------------------------------------------------------|
-| vrai | L’élève est sur liste d’attente dans un ou plusieurs modules |
-| faux | L’élève a confirmé son inscription dans tous les modules visibles |
+| true      | The learner is waitlisted in one or more modules        |
+| false     | Learner has confirmed enrollment in all visible modules |
 
-### Rapport de liste d’attente
+### Waitlist report
 
-Deux nouvelles colonnes et un module de prise en charge amélioré du statut et des détails permettent le suivi des listes d’attente au niveau du module.
+Two new columns and an enhanced status-detail support module enable waitlist tracking at the module level.
 
-| **Colonne** | **Description** |
+| **Column**      | **Description**                                                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **Module** | Nom du module (salle de classe ou session de classe virtuelle) dans lequel l’élève est sur liste d’attente. Apparaît après la colonne État de l&#39;instance. |
-| **ID de module** | Identificateur du module dans lequel l’élève est sur liste d’attente. Apparaît après la colonne Module. |
-| **Incorporé Dans** | Nom et ID de tout parcours d’apprentissage contenant ce cours. Vide si le cours ne fait pas partie d’un parcours d’apprentissage. |
+| **Module**      | Name of the module (classroom or virtual classroom session) where the learner is waitlisted. Appears after the Instance Status column. |
+| **Module ID**   | Identifier of the module where the learner is waitlisted. Appears after the Module column.                                             |
+| **Embedded In** | The learning path name and ID of any learning path that contains this course. Blank if the course is not part of a learning path.      |
 
-Le rapport de liste d’attente est passé d’un modèle au niveau du cours à un modèle au niveau de la session du module. Un élève peut désormais être inscrit à certains modules et sur liste d’attente à d’autres. Le rapport prend également en charge le suivi des listes d’attente dans les parcours d’apprentissage Flex, où les limites de places sont appliquées au niveau du module.
+The Waitlist report has shifted from a course-level model to a module session–level model. A learner can now be enrolled in some modules and waitlisted in others. The report also supports waitlist tracking within Flex learning paths, where seat limits are enforced at the module level.
 
-### Rapport d&#39;inscription LP
+### LP Enrollment report
 
-Le rapport d’inscription au parcours d’apprentissage reçoit également une nouvelle colonne **Remarques**. Lorsqu&#39;un élève est sur liste d&#39;attente pour une classe ou une session de classe virtuelle dans les cours qui composent le parcours d&#39;apprentissage, la colonne Remarques affiche **Liste d&#39;attente**. Lorsque toutes les sessions sont confirmées, la colonne est vide.
+The Learning Path Enrollment report also receives a new **Remarks** column. When a learner is in a waitlisted state on any classroom or virtual classroom session within the courses that make up the learning path, the Remarks column shows **Waitlisted**. When all sessions are confirmed, the column is blank.
 
-### Rapport de présence
+### Attendance report
 
-La colonne **Statut de l&#39;élève** fait désormais la distinction entre les élèves confirmés et ceux sur liste d&#39;attente.
+The **Learner status** column now distinguishes between confirmed and waitlisted learners.
 
-| **Valeur** | **Signification** |
+| **Value**  | **Meaning**                            |
 |------------|----------------------------------------|
-| Confirmé | Une place est allouée à l’élève |
-| Sur liste d’attente | L’élève est en attente d’attribution de places |
+| Confirmed  | The learner has an allocated seat      |
+| Waitlisted | The learner is pending seat allocation |
+
+-->
 
 ## Modifications apportées aux rapports de l’annuaire de notes
 

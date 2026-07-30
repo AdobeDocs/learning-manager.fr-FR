@@ -3,9 +3,9 @@ title: Adobe Learning Manager - gestion des paramètres de sécurité et de la c
 description: Ce document décrit les types de comptes administratifs de Adobe Learning Manager, les paramètres de sécurité, les paramètres par défaut sécurisés recommandés, les fonctionnalités d’API, les fonctionnalités d’exportation, les méthodes de comparaison des configurations, les méthodes de publication et l’historique des versions. Il fournit des conseils détaillés sur le fonctionnement des comptes privilégiés, leurs implications en matière de sécurité et la prise en charge de la gestion de la configuration sur l’ensemble de la plateforme.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ Les deux types de comptes privilégiés de Adobe Learning Manager : Administrate
 
 **Références** :
 
-* [Rôles personnalisés | Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/custom-role)
-* [Gestion des rôles personnalisés via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/configure-role-csv-files)
+* [Rôles personnalisés | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/custom-role)
+* [Gestion des rôles personnalisés via CSV | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/configure-role-csv-files)
 * [Manuel du développeur d’applications \| Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual)
-* [Connecteurs Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/connectors)
+* [Connecteurs Adobe Learning Manager](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -69,9 +69,9 @@ Les documents Adobe Learning Manager recommandent des valeurs par défaut sécur
 
 **Références** :
 
-* [Paramètres | Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/custom-role)
-* [Authentification et mots de passe sécurisés des utilisateurs | Adobe Admin Console](https://helpx.adobe.com/fr/enterprise/using/authentication-settings.html)
-* [Rôles personnalisés | Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/custom-role)
+* [Paramètres | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/custom-role)
+* [Authentification et mots de passe sécurisés des utilisateurs | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/fr/enterprise/using/authentication-settings.html)
+* [Rôles personnalisés | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Adobe Learning Manager ne dispose pas d’un tableau de bord de comparaison déd
 
 **Référence**
 
-* [Manuel du développeur d’applications | Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual)
+* [Manuel du développeur d’applications | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Manager prend en charge l’exportation des données de configura
 
 **Référence**
 
-* [Manuel du développeur d’applications | Adobe Learning Manager](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual)
+* [Manuel du développeur d’applications | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
