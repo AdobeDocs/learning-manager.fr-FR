@@ -3,9 +3,9 @@ description: Découvrez comment utiliser les champs actifs dans Adobe Learning M
 jcr-language: en_us
 title: Configuration des champs actifs dans Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ En ajoutant des attributs personnalisés aux profils utilisateur, les champs act
 
 >[!INFO]
 >
->Regardez cette formation ALM Academy pour apprendre à ajouter, personnaliser et configurer des champs actifs.<br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
+>Regardez cette formation ALM Academy pour apprendre à ajouter, personnaliser et configurer les champs actifs.<br>[![bouton](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br>
 
 ## Ajouter des champs actifs
 
@@ -77,7 +77,7 @@ Pour configurer les paramètres des champs actifs :
    ![](assets/settings-active-field.png)
    _Sélectionnez l&#39;onglet Paramètres pour personnaliser les champs actifs_
 
-2. Sélectionnez une ou les deux options, selon vos besoins.:
+2. Sélectionnez une ou les deux options, selon vos besoins :
 
    * **Afficher uniquement les champs non remplis lors de la connexion de l&#39;élève :** lorsque cette option est sélectionnée, les élèves ne verront que les champs actifs qu&#39;ils n&#39;ont pas encore remplis. Cela les invite à compléter leur profil, ce qui permet de garantir que les données utilisateur sont exactes et à jour. L’affichage de ces champs prend en charge des profils d’élève complets et permet des expériences d’apprentissage personnalisées.
    * **Si cette case n&#39;est pas cochée, la page « Finaliser votre profil » n&#39;est pas affichée aux utilisateurs :** Lorsque cette option est désactivée, les élèves ne verront pas la page **Finaliser votre profil** lors de la connexion. Ils ne seront pas invités à mettre à jour ou à remplir les informations de profil et peuvent accéder directement à la plateforme.
@@ -126,6 +126,6 @@ Dans certains cas, les administrateurs préfèrent que les élèves remplissent 
 
 Si un fichier CSV ne comprend pas tous les champs actifs, l’administrateur doit saisir manuellement les valeurs manquantes après l’importation.
 
-Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/connectors) pour plus d&#39;informations sur les connecteurs.
+Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Consultez cet [article](/help/migrated/integration-admin/feature-summary/connectors.md) pour plus d&#39;informations sur les connecteurs.
 
 
