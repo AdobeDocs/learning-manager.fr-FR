@@ -2,9 +2,9 @@
 title: Aide de Adobe Learning Manager Content Composer (Beta)
 description: Du langage clair à un cours publié, le compositeur de contenu Adobe Learning Manager gère la conception pédagogique afin que vous puissiez vous concentrer sur les besoins des élèves en créant du contenu pédagogique percutant.
 contentowner: saghosh
-source-git-commit: 70827aa150f7fd9946732075c2c38f5b89c3e1f9
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -104,20 +104,7 @@ Prêt à créer votre premier cours ? Ouvrez le compositeur de contenu et passez
     <p>Déployez votre cours terminé sur Adobe Learning Manager et découvrez comment le compositeur de contenu et ALM divisent les responsabilités en matière de création, de diffusion et de création de rapports.</p>
    </td>
   </tr>
-  <tr>
-   <td style="border:none;">
-    <a href="write-effective-prompts.md">
-    <img alt="Rédiger des invites efficaces" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>Rédiger des invites effectives</strong></a>
-    </div>
-    <p>Découvrez comment rédiger des invites qui produisent de meilleurs documents, des contours plus nets et un contenu généré par l’IA plus précis.</p>
-   </td>
-   <td style="border:none;"></td>
-   <td style="border:none;"></td>
-  </tr>
- </tbody>
+  </tbody>
 </table>
 
 ## Rechercher des éléments {#lookthingsup}
