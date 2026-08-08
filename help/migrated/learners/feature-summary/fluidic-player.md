@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Lecteur Fluidic
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 52%
+source-wordcount: '649'
+ht-degree: 53%
 
 ---
 
@@ -72,7 +72,7 @@ Le lecteur Fluidic mobile a les fonctions suivantes :
 
 **Prise en charge de 11 langues** : le lecteur Fluidic prend en charge 11 langues. Ce sont :
 
-| Langue | Territoire | IBM Identifier |
+| Langue | Territoire | Identificateur |
 |---|---|---|
 | Arabe | Arabie saoudite | ar-SA |
 | Chinois traditionnel | République populaire de Chine (RAS de Hong Kong) | zh-Hant-HK |

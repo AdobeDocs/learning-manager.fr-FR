@@ -4,10 +4,10 @@ title: Gérer des rôles personnalisés via les fichiers CSV
 description: L’administrateur de l’intégration peut ajouter un certain nombre de rôles personnalisés à son compte en masse via un fichier CSV et les attribuer à différents utilisateurs. Cette approche automatise le processus de création des rôles personnalisés.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 72%
+source-wordcount: '1002'
+ht-degree: 78%
 
 ---
 
@@ -25,8 +25,8 @@ Une fois connecté à votre compte de stockage Box, l’administrateur d’inté
 
 Pour commencer, téléchargez les fichiers CSV et modifiez les valeurs en fonction de vos besoins.
 
-* Fichier d&#39;exemple : [role.csv](assets/role.csv)
-* Fichier d&#39;exemple : [user_role.csv](assets/user_role.csv)
+* Fichier d&#39;exemple : [role.csv](assets/role.zip)
+* Fichier d&#39;exemple : [user_role.csv](assets/user-role.zip)
 
 **role.csv**
 
@@ -52,7 +52,7 @@ Pour commencer, téléchargez les fichiers CSV et modifiez les valeurs en foncti
    <td>
     <p>&lt;Entity&gt;</p></td>
    <td>
-    <p>Identifiez le type d'accès (COMPLET, ÉCRIT, INSCRIPTION, RAPPORT, AUCUN) pour chaque type d'entité tel que COURS, CATALOGUE, etc.</p></td>
+    <p>Identifiez le type d’accès (COMPLET, ÉCRITURE, INSCRIPTION, RAPPORT, AUCUN) pour chaque type d’entité tel que COURSE, CATALOGUE, etc.</p></td>
    <td>
     <p>COMPLET</p>
     <p>AUCUN</p>
@@ -160,7 +160,7 @@ Les deux fichiers CSV doivent être chargés via Box uniquement et ne peuvent pa
 
 Les rôles personnalisés créés à l’aide du fichier CSV ne sont pas visibles par les administrateurs de l’interface utilisateur. Ces rôles ne seront pas associés ni attribués par les rôles créés (ou à créer ultérieurement) par l’interface utilisateur.
 
-Les rôles personnalisés qui ont été créés par un fichier CSV peuvent être entièrement gérés via le fichier CSV lui-même. Cela inclut l’ajout, la modification et la suppression de rôles.
+Les rôles personnalisés créés par un fichier CSV peuvent être entièrement gérés via le fichier CSV lui-même. Cela inclut l’ajout, la modification et la suppression de rôles.
 
 Les rôles attribués peuvent être révoqués en supprimant les entrées d’attribution du fichier CSV user_role. Cependant, les attributions effectuées via l’interface utilisateur d’administration ne sont pas concernées.
 
@@ -178,7 +178,7 @@ Dans la section Paramètres de synchronisation, activez l’option **[!UICONTROL
 
 *Sélectionnez l’option Activer la synchronisation automatique*
 
-Lorsque vous sélectionnez cette option, vous pouvez programmer l’heure de synchronisation à l’heure exacte indiquée dans le champ Heure de synchronisation. Si vous spécifiez l&#39;heure de synchronisation sur 12:00 AM, les rôles personnalisés sont mis à jour tous les jours exactement à l&#39;heure spécifiée.
+Lorsque vous sélectionnez cette option, vous pouvez programmer l’heure de synchronisation à l’heure exacte indiquée dans le champ Heure de synchronisation. Si vous indiquez 00:00 comme heure de synchronisation, les rôles personnalisés sont chaque jour mis à jour à l’heure exacte spécifiée.
 
 Si vous souhaitez synchroniser les données à la demande, cliquez sur **[!UICONTROL Synchroniser maintenant]**.
 
