@@ -3,12 +3,13 @@ jcr-language: en_us
 title: Annonce de la nouvelle ligue d'expérience
 description: Découvrez les dernières annonces sur Experience League.
 exl-id: 26f601cc-3197-4824-91dc-a0a42d1de935
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: e007447a9e7683c5d0fd5ef412e97610d11fb61d
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
 
 ---
+
 
 # Nouvelles annonces de ligue d&#39;expérience
 

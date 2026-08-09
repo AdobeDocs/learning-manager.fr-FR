@@ -1,15 +1,15 @@
 ---
 title: Découvrir et interagir avec les canaux
 description: Apprenez à rechercher du contenu vidéo disponible sur les canaux de Adobe Learning Manager, à vous y abonner, à le regarder, à l’aimer et à participer à des discussions.
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
 
-# Découvrir et interagir avec les canaux
+# Découvrir et utiliser les canaux (Beta)
 
 Les canaux permettent aux élèves de découvrir et d’accéder à du contenu d’apprentissage informel basé sur la vidéo organisé dans des pages Web et Cloud Confluence dans Adobe Learning Manager. Les administrateurs créent des canaux en les connectant à des pages web d’entreprise ou à des pages de convergence du cloud qui hébergent des sessions enregistrées de partage et de transfert de connaissances.
 

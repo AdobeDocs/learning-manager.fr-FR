@@ -3,9 +3,9 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '6048'
+source-wordcount: '6082'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Lorsque vous chargez un nouveau contenu, vous choisissez le dossier dans lequel 
 4. Sous **Ajouter un fichier de contenu**, faites glisser et déposez le fichier de contenu ou sélectionnez le champ à parcourir et à télécharger.
    ![](assets/cl2.png)
 
-5. Sous **Ajouter au dossier**, parcourez le dossier ou recherchez le dossier dans le champ de recherche.
+5. Sous **Ajouter au dossier**, parcourez le dossier ou recherchez le dossier dans le champ de recherche. Vous pouvez également sélectionner plusieurs dossiers.
    ![](assets/cl3.png)
 
 6. Sélectionnez **Ajouter**.
@@ -453,11 +453,6 @@ Lorsque vous chargez un nouveau contenu, vous choisissez le dossier dans lequel 
 
 8. Sélectionnez **Enregistrer**. Le fichier de contenu est ajouté à la bibliothèque de contenu et apparaît en haut de la liste.
    ![](assets/cl4.png)
-
->[!NOTE]
->
->Vous ne pouvez pas copier ou déplacer du contenu entre les dossiers publics et privés. Si vous tentez de le faire, Adobe Learning Manager affiche une erreur.
-
 
 ## Affichage des chemins d’accès aux dossiers dans la bibliothèque de contenu
 
@@ -486,7 +481,7 @@ Le filtre **Dossiers** de la bibliothèque de contenu vous permet de réduire la
 
 3. Utilisez la zone de recherche déroulante pour rechercher un dossier par nom.
 
-4. Vous pouvez sélectionner jusqu&#39;à **25 dossiers** à la fois. La sélection de plus de 25 affiche une erreur.
+4. Vous pouvez sélectionner plusieurs dossiers à la fois.
 
 ## Déplacer le contenu vers le dossier {#movecontenttofolder}
 
@@ -722,7 +717,7 @@ Pour ajouter un ID de contenu unique et une date d’expiration :
 
 8. Sélectionnez la date d’expiration du contenu. Cette date n’affecte pas la disponibilité du contenu ni l’accès des élèves. Vous pouvez choisir n’importe quelle date entre 1990 et 2037. Si une date passée est sélectionnée, un avertissement s’affiche, mais le contenu peut toujours être publié.
 9. Sélectionnez **[!UICONTROL Enregistrer]**.
-Le contenu chargé apparaît désormais dans la **[!UICONTROL Bibliothèque de contenu]**.
+Le contenu chargé apparaît désormais dans la **[!UICONTROL bibliothèque de contenu]**.
 
 ### Définir l’ID unique du contenu et la date d’expiration pour les langues
 

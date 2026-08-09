@@ -3,9 +3,9 @@ description: Découvrez comment créer et gérer des groupes d’utilisateurs da
 jcr-language: en_us
 title: Gestion des groupes d’utilisateurs dans Adobe Learning Manager | Organiser et affecter des élèves
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
+source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -215,4 +215,10 @@ Lorsque vous utilisez la logique OR, Adobe Learning Manager ajoute les utilisate
 
 ![](assets/or-logic.png)
 _Exemple d&#39;affichage de plusieurs groupes combinés à l&#39;aide de la logique OR_
+
+## Ajouter et gérer des instructeurs pour les sessions Live Hub
+
+Dans Adobe Learning Manager, les administrateurs peuvent également gérer les instructeurs pour les sessions Live Hub, y compris définir leurs compétences, leur disponibilité et leurs préférences d’enseignement. Cela permet de s’assurer que les bons instructeurs sont affectés aux bons cours en fonction du calendrier et de l’expertise.
+
+Pour connaître la procédure détaillée de création et de gestion des profils d&#39;instructeur, consultez [Ajouter et gérer des instructeurs](../../getting-started-with-live-hub/instructor-management.md).
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '33074'
-ht-degree: 67%
+source-wordcount: '34007'
+ht-degree: 65%
 
 ---
 
@@ -19,17 +19,13 @@ ht-degree: 67%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/fr/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
 
 +++Mise à jour 110 : version d’août 2026 de Adobe Learning Manager
-
->[!IMPORTANT]
->
->Les fonctionnalités décrites dans ces notes de mise à jour sont disponibles dans le cadre de la version Beta. les fonctionnalités de Adobe Learning Manager version bêta sont fournies à des fins d’évaluation et peuvent être modifiées, limitées ou supprimées avant la mise à disposition générale. Les noms de fonctionnalités, le comportement et les options de configuration peuvent être modifiés sans préavis.
 
 ## Annuler les tons clairs
 
@@ -118,6 +114,66 @@ L&#39;agent AI Orchestrator déplace la détection d&#39;intention pour les requ
 **Modèles de courrier électronique et configuration :** lorsque les administrateurs ont mis à jour la bannière de courrier électronique dans les paramètres du modèle de courrier électronique, la nouvelle bannière s&#39;est affichée correctement dans Outlook Desktop, mais elle ne s&#39;est pas affichée dans Outlook Web, ce qui a entraîné une expérience de courrier électronique incohérente entre les clients. Le rendu du modèle de courrier électronique a été mis à jour pour assurer la compatibilité de la bannière entre les plateformes Outlook. Les bannières d&#39;e-mail mises à jour s&#39;affichent désormais correctement dans Outlook pour poste de travail et Outlook pour le web.
 
 ## Problèmes connus dans la version
+
+### L’instructeur ne peut pas rejoindre la salle de classe virtuelle entre les modules
+
+Les instructeurs ne peuvent pas rejoindre la salle de classe virtuelle lorsqu’ils tentent d’entrer dans une salle en dehors de l’heure planifiée pour le module de cours qui leur est attribué.
+
+Adobe Learning Manager utilise une seule salle de classe virtuelle pour tous les modules d’un cours. Lorsqu&#39;un instructeur lance la salle, la session est associée au module lié à la jointure de cet instructeur
+URL. Toute demande de jointure ultérieure doit correspondre au module actif associé à l&#39;espace. Si un autre instructeur tente de rejoindre la session à l’aide du lien de jointure d’un autre module alors qu’un autre module est actif, accédez à la section
+salle refusée. Un seul module peut être actif dans la salle partagée à la fois.
+
+Ce comportement est attendu dans la version actuelle. Des améliorations permettant aux instructeurs de cours de rejoindre la salle, quel que soit le module actif, sont prévues pour une prochaine version.
+
+### L’audio se rompt lorsque le micro et le haut-parleur diffèrent dans macOS
+
+L’audio peut se rompre par intermittence ou sembler confus lors d’une session de classe virtuelle sur macOS lorsque le microphone et le haut-parleur sélectionnés sont des périphériques différents.
+
+Ce comportement peut se produire lorsque différents périphériques sont utilisés pour l’entrée et la sortie audio, tels que les AirPods pour le microphone et le haut-parleur intégré pour la lecture. Etant donné que chaque périphérique introduit son propre retard audio, écho
+l’annulation est moins efficace et la suppression du bruit de fond peut parfois confondre certaines parties de la parole avec du bruit. Cela peut entraîner de brèves interruptions audio. Le problème est plus perceptible lorsque le
+la voix du haut-parleur est capturée à un volume faible, par exemple lorsque le microphone est placé plus loin.
+
+Il s’agit d’une limitation de plateforme connue et elle n’est pas spécifique à Adobe Learning Manager. Un comportement similaire a été observé dans d&#39;autres applications de conférence. Aucun correctif n’est inclus dans cette version et le problème est en cours d’évaluation pour une version ultérieure.
+
+Utilisez le même appareil pour le microphone et les haut-parleurs afin d’éviter ce comportement.
+
+### La vidéo partagée se fige dans Chrome après avoir perdu la mise au point
+
+Lorsqu’un instructeur partage une fenêtre Chrome en lisant une vidéo, puis change de focus, les participants peuvent voir le contenu partagé se figer ou afficher un écran noir.
+
+La vidéo continue d’être lue en local pour l’instructeur, mais les participants à distance peuvent ne pas voir la mise à jour du contenu lorsque la fenêtre partagée n’est pas active. Le comportement varie selon le système d’exploitation :
+
+- Sous Windows, les participants voient un écran noir.
+- Sur macOS, les participants voient la dernière image vidéo affichée.
+
+La lecture vidéo pour les participants reprend généralement lorsque le focus revient à la fenêtre de navigateur partagée.
+
+Il s’agit d’une limitation du navigateur et du système d’exploitation qui n’est pas spécifique à Adobe Learning Manager. Aucun correctif spécifique au produit n’est disponible pour cette version.
+
+Maintenez la fenêtre du navigateur partagé active lors de la présentation du contenu vidéo. Évitez de revenir à la fenêtre Salle de classe virtuelle pendant la lecture.
+
+### L’instructeur ne peut pas rejoindre un module déjà utilisé
+
+Lorsque les instructeurs tentent de lancer deux modules de cours qui utilisent la même salle de classe virtuelle en même temps, seul le premier instructeur peut entrer avec succès dans la salle.
+
+Adobe Learning Manager utilise une seule salle de classe virtuelle partagée pour une instance de cours. Lorsque le premier instructeur rejoint l&#39;espace, celui-ci est associé au module de cet instructeur. Demandes de participation supplémentaires :
+validé par rapport au module actif. Si un autre instructeur tente de participer à l’aide d’un lien de module différent, l’accès est refusé. Par conséquent, les sessions simultanées dirigées par un instructeur ne peuvent pas être menées dans le même
+instance de cours utilisant des modules distincts qui partagent une salle.
+
+Ce comportement est attendu dans la version actuelle et est cohérent avec l&#39;architecture d&#39;espace existante. La fonctionnalité est en cours d’examen pour une amélioration future sur la base des commentaires des clients.
+
+### Le contenu partagé affiche un effet de tunnel après son retour à la fenêtre du hub en direct
+
+Lorsqu’un instructeur partage l’intégralité de son écran, puis revient à la fenêtre du hub en direct, les participants peuvent ressentir un effet de tunnel dans le contenu partagé. Lorsque vous partagez l’ensemble de votre écran, le flux partagé inclut tout ce qui s’affiche sur votre bureau. Le fait de revenir à la fenêtre du hub dynamique peut entraîner la capture et l’affichage répétés du contenu partagé sur l’interface du hub dynamique, ce qui entraîne un comportement visuel inattendu. Il s’agit d’une limitation connue du partage en plein écran qui est en cours d’évaluation pour une prochaine version.
+
+Partagez une application ou une fenêtre spécifique au lieu de l’ensemble de votre écran. Par exemple, partagez la fenêtre de présentation ou de document que les participants doivent afficher. Le partage d’une seule application isole le contenu partagé et empêche l’effet de tunnel.
+
+### Le rapport du tableau de bord de session ne sera pas disponible immédiatement après avoir rejoint une session terminée
+
+Le rapport du tableau de bord de session ne sera pas disponible immédiatement après avoir rejoint une session terminée
+Si un instructeur consulte le tableau de bord de session après la fin d’une session, puis rejoint la même session à l’aide de son URL, le rapport du tableau de bord de session existant peut ne plus être disponible. L&#39;actualisation du rapport peut prendre environ cinq à sept minutes et le rapport peut être de nouveau disponible pendant le traitement de l&#39;instance de session précédente. Il s’agit d’une limitation connue qui est en cours d’évaluation pour une prochaine version.
+
+Patientez cinq à sept minutes après la fermeture de la session avant de rouvrir l’URL du tableau de bord. Cela permet à l&#39;instance de session précédente de terminer le traitement, après quoi le rapport du tableau de bord de session redevient disponible.
 
 ### Les noms de colonne ne sont pas localisés dans le fichier CSV Emplacements de salle de classe exporté
 
@@ -557,7 +613,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/fluidic-p
 
 * Correction d’un problème en raison duquel les élèves qui avaient terminé un cours voyaient un écran blanc lors de la consultation de celui-ci après la mise à jour du module de contenu vers une nouvelle version.
 
-En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -795,8 +851,8 @@ La nouvelle application Adobe Learning Manager sur Microsofts Teams est conçue 
 **Problèmes connus dans cette mise à jour**
 
 * Le bouton Partager du catalogue des élèves ne fonctionne pas comme prévu dans le navigateur Safari, l’application Mobile et iPad MS Teams.
-* Les notifications ne s’affichent pas dans l’onglet Activité une fois que l’application est supprimée sur d’autres ordinateurs.
-Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur iPhone 14.
+* Les notifications ne s’affichent pas dans l’onglet Activité lorsque l’application est supprimée sur d’autres ordinateurs.
+Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Activité de l’application sur un iPhone 14.
 * Dans l’application MS Teams, les notifications Learning Manager (terminé, inscrit, échéance et retard) n’affichent ni l’état ni le nom du cours dans l’onglet Activité.
 * Une fenêtre contextuelle avec du contenu XML s’affiche lorsque l’administrateur d’intégration n’approuve pas l’application MS Teams.
 * Parfois, la langue de l’interface utilisateur dans l’application Adobe Learning Manager sur MS Teams ne change pas comme prévu lors du changement de la langue.
@@ -822,7 +878,7 @@ Rien ne se passe lorsque vous cliquez sur les notifications dans l’onglet Acti
 ### Amélioration Des Performances Dans Cette Version
 
 Lorsqu&#39;une inscription en bloc d&#39;élèves est effectuée, aucun fichier journal n&#39;est généré pour chaque élève.
-Nous avons optimisé le traitement des plans d’apprentissage pour les grands comptes. Cela permet d’éviter tout problème ou retard de recherche.
+Nous avons optimisé le traitement des plans d’apprentissage pour les comptes volumineux. Cela permet d’éviter tout problème ou retard de recherche.
 +++
 
 +++Mise à jour 87
@@ -854,8 +910,8 @@ Ajout de la prise en charge du code de langue à quatre lettres lors du filtrage
 
 ### Bogues Corrigés Dans Cette Mise À Jour
 
-Pour certaines langues, la recherche renvoie des résultats incorrects.
-Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes des mêmes paramètres régionaux.
+Pour certaines langues, les résultats de recherche sont incorrects.
+Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs variantes du même paramètre régional.
 +++
 
 +++Mise à jour 84
@@ -1603,7 +1659,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 * Le téléchargement des ressources d&#39;un cours ne fonctionnait pas s&#39;il était dupliqué à partir d&#39;un autre cours et que l&#39;élève n&#39;avait pas accès au cours original utilisé pour créer un double.
 * Les images de bannière ne sont pas supprimées lorsque l&#39;auteur les supprime d&#39;un cours à l&#39;état de brouillon. Ce problème a été résolu.
 
-**AEM &#x200B;**
+**AEM **
 
 * Après l&#39;insertion du composant Learning Manager dans AEM, le chargement de la page prenait beaucoup de temps, empêchant ainsi l&#39;accès aux autres composants. Ce problème a été résolu.
 
@@ -1686,7 +1742,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 >[!NOTE]
 >
->Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.**&#x200B;**
+>Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.****
 
 +++
 
@@ -2037,7 +2093,7 @@ Dans cette mise à jour, un élève peut charger des actifs comme justificatif d
 
 Un élève peut ouvrir un certificat externe et charger des actifs, tels que des fichiers PDF, texte ou image.
 
-Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problèmes résolus dans cette version {#issuesfixedinthisrelease}
 
@@ -2415,7 +2471,7 @@ Date de publication : 20 juin 2019
 
 **Auto-curation du contenu**
 
-L’apprentissage par les réseaux sociaux permet au contenu publié par les élèves d’être conservé de deux manières, à savoir **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. Sur la base du score de confiance, le contenu est publié en direct ou envoyé pour curation manuelle. Pour plus d&#39;informations, voir *[**&#x200B; Curation à assistance automatique &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’apprentissage par les réseaux sociaux permet au contenu publié par les élèves d’être conservé de deux manières, à savoir **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. Sur la base du score de confiance, le contenu est publié en direct ou envoyé pour curation manuelle. Pour plus d&#39;informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappage de compétences avec les domaines de compétence**
 
@@ -3041,7 +3097,7 @@ Date de publication : 6 décembre 2016.
 
 ### Amélioration {#enhancement}
 
-Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l&#x200B;**&#x200B;**&#x200B;aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
+Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l****aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
 
 * Nom
 * Courrier électronique
@@ -3551,7 +3607,7 @@ L&#39;exportation des données d&#39;inscription échouait si l&#39;un des élè
 
 **Modèles de courrier électronique**
 
-* Le mot **partenaires**, utilisé pour représenter les groupes externes,**&#x200B;** est **&#x200B;**&#x200B;retiré du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
+* Le mot **partenaires**, utilisé pour représenter les groupes externes,**** est **** retiré du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
   **Remarque :** ce modèle mis à jour n&#39;apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Revenir à l&#39;original** dans la boîte de dialogue **Aperçu du modèle**.
 
 * Il est impossible de cliquer sur l&#39;URL dans le courrier électronique reçu par des administrateurs si les modèles de courriers électroniques **Profil créé (auto-enregistrement)** et **Profil créé (externe/partenaires)** ont été modifiés. Ce problème a été résolu.

@@ -3,9 +3,9 @@ description: En savoir plus sur la configuration des paramètres avancés dans A
 jcr-language: en_us
 title: Paramètres avancés dans Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
 workflow-type: tm+mt
-source-wordcount: '2391'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Cette structure permet aux organisations de refléter l’organisation du conten
 
 >[!NOTE]
 >
->Seuls les administrateurs peuvent créer, modifier ou supprimer des dossiers à n’importe quel niveau. Les auteurs et les utilisateurs personnalisés interagissent avec la hiérarchie, mais ne peuvent pas la modifier. En outre, les administrateurs personnalisés ayant accès à n’importe quel dossier racine peuvent créer, modifier ou supprimer des dossiers sous ce dossier racine.
+>Seuls les administrateurs peuvent créer, modifier ou supprimer des dossiers à n’importe quel niveau. Les administrateurs personnalisés ayant accès à n’importe quel dossier racine peuvent créer, modifier ou supprimer des dossiers de ce dossier racine.
 
 
 ### Règles de dénomination des dossiers
@@ -98,22 +98,7 @@ Le tableau suivant décrit ce que chaque rôle peut faire avec la hiérarchie de
 | Dossiers de niveau 1 par compte | Aucune limite |
 | Sous-dossiers de niveau 2 par dossier de niveau 1 | 25 |
 | Sous-dossiers de niveau 3 par dossier de niveau 2 | 25 |
-| Profondeur de dossier maximale | 3 niveaux |
-
-
-### Comportement de sélection de dossier
-
-Lorsque vous sélectionnez un dossier, par exemple, lors du filtrage ou de la suppression, la sélection se propage en cascade dans la hiérarchie comme suit :
-
-* La sélection d&#39;un dossier de **niveau 1** sélectionne automatiquement tous les dossiers de niveau 2 et de niveau 3 situés en dessous.
-
-* La sélection d&#39;un **dossier de niveau 2** sélectionne automatiquement tous les dossiers de niveau 3 situés en dessous. Les autres dossiers de niveau 2 du même dossier de niveau 1 ne sont pas sélectionnés.
-
-* La sélection d&#39;un dossier de **niveau 3** sélectionne uniquement ce dossier. Aucun autre dossier n’est sélectionné.
-
->[!NOTE]
->
->Lorsque vous sélectionnez un sous-dossier sans sélectionner son parent, le dossier parent n’affiche pas d’indicateur de sélection partielle ou mixte. C&#39;est intentionnel. Car un dossier parent peut lui-même contenir du contenu, pas seulement des sous-dossiers. La sélection d’un dossier parent signifie « inclure tout le contenu de ce dossier et de tout ce qui se trouve en dessous ». Un indicateur partiel suggère que le contenu propre au dossier parent est partiellement inclus, ce qui serait trompeur. Si vous souhaitez filtrer uniquement par sous-dossier spécifique, sélectionnez directement ce sous-dossier. Si vous souhaitez que tout le contenu se trouve dans un dossier parent et ses sous-dossiers, sélectionnez le dossier parent.
+| Profondeur maximale du dossier | 3 niveaux |
 
 ### Quand utiliser une structure de dossiers hiérarchique
 
@@ -202,7 +187,7 @@ En tant qu’administrateur dans Adobe Learning Manager, vous créez et gérez l
 
 >[!NOTE]
 >
->Chaque dossier peut contenir jusqu’à 25 sous-dossiers directs. Le niveau 3 correspond à la profondeur maximale. Vous ne pouvez pas créer de sous-dossier dans un dossier de niveau 3.
+>Chaque dossier peut contenir jusqu’à 25 sous-dossiers directs. Le niveau 3 est la profondeur maximale. Vous ne pouvez pas créer de sous-dossier dans un dossier de niveau 3.
 
 #### Renommer un dossier
 
@@ -216,7 +201,7 @@ Avant de supprimer, tenez compte des règles suivantes :
 
 * Vous pouvez supprimer un dossier vide à n’importe quel niveau.
 * Seuls les dossiers vides peuvent être supprimés. Les dossiers qui contiennent du contenu ne peuvent pas être supprimés, que le contenu soit lié à d’autres dossiers ou non.
-* La suppression d’un dossier parent supprime tous ses sous-dossiers. La sélection d’un dossier parent sélectionne automatiquement tous ses enfants.
+* La suppression d’un dossier parent supprime tous ses sous-dossiers, à condition que le dossier et tous ses sous-dossiers soient vides. La sélection d’un dossier parent sélectionne automatiquement tous ses enfants.
 
 #### Supprimer le dossier parent
 
@@ -229,11 +214,6 @@ Avant de supprimer, tenez compte des règles suivantes :
 1. Sur la page **Dossier de contenu**, cochez la case en regard du sous-dossier que vous souhaitez supprimer.
 2. Sélectionnez **Actions** > **Supprimer le dossier** dans le coin supérieur droit de la page.
 3. Confirmez la suppression lorsque vous y êtes invité. Le sous-dossier est supprimé.
-
->[!CAUTION]
->
->La suppression d’un dossier est définitive. Assurez-vous que tout le contenu du dossier a été déplacé vers un autre emplacement avant de confirmer.
-
 
 #### Configuration de l’accès aux dossiers pour les rôles personnalisés
 
@@ -267,9 +247,6 @@ Les pratiques suivantes vous aident à créer une structure de dossiers qui évo
 3. **Les noms doivent être courts, descriptifs et uniques dans leur parent.** Évitez les noms génériques tels que « Module 1 » ou « Contenu ». Utilisez des identifiants adaptés aux auteurs qui parcourent la bibliothèque.
 
 4. **Attribuer un accès au rôle personnalisé au niveau 1 uniquement.** L&#39;accès se propageant automatiquement en cascade, l&#39;affectation au niveau 1 est suffisante et simplifie la gestion de l&#39;accès. Vous n’avez pas besoin de mettre à jour l’accès lorsque vous ajoutez des sous-dossiers de niveau 2 ou 3.
-
-5. **Déplacer le contenu avant de supprimer les dossiers.** Si un dossier contient du contenu qui n’est lié à aucun autre emplacement, la suppression est bloquée. Prenez l’habitude de vérifier le contenu des dossiers avant de les supprimer.
-
 
 <!--
 
@@ -315,6 +292,29 @@ To add a content folder, follow the steps:
 * **[!UICONTROL Add a folder]**: To add a folder, select the folder, and then select **[!UICONTROL Add]** on the upper-right corner of the screen.
 * **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.
 -->
+
+## Vacances
+
+Le paramètre **Jours fériés** de Adobe Learning Manager vous permet de définir des jours fériés à l’échelle de l’organisation. Les jours fériés apparaissent sur le calendrier de l&#39;instructeur comme des jours chômés, ce qui affecte la disponibilité des instructeurs lors de la planification en direct
+Sessions de hub.
+
+### Points clés
+
+Les jours fériés sont un ensemble de jours non ouvrables gérés au niveau du compte, avec les propriétés suivantes :
+
+- Seul l’administrateur peut ajouter, modifier ou supprimer des congés.
+
+- Les jours fériés s’appliquent à l’ensemble de l’organisation et apparaissent sur le calendrier de chaque instructeur sous la forme de jours non ouvrables.
+
+- Les jours fériés marquant les instructeurs comme indisponibles, les sessions Live Hub ne peuvent pas être planifiées à ces dates.
+
+- Chaque jour férié nécessite une date et un nom ; une description est facultative.
+
+- Vous pouvez ajouter des jours fériés un par un ou importer plusieurs jours fériés à la fois à l’aide d’un fichier CSV.
+
+- Une fois ajoutés, les jours fériés apparaissent sur la page **Jours fériés**, où vous pouvez les consulter, les rechercher et les gérer.
+
+Voir [Gérer les jours fériés](../../../getting-started-with-live-hub/manage-holidays.md) pour plus d&#39;informations.
 
 ## Lieux de salles de classe
 

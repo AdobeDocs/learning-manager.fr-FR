@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Modules
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 63%
+source-wordcount: '1098'
+ht-degree: 61%
 
 ---
 
@@ -78,7 +78,7 @@ Les instructeurs de module peuvent approuver ou rejeter ces fichiers. Le module 
 
 ## Évaluer le module de liste de contrôle {#evaluate-checklist-module}
 
-Une fois que l’élève a suivi le cours, l’instructeur voit le module de liste de contrôle sur la page Envois/listes de contrôle dans la section **Modules**. Cette page contient tous les modules de liste de contrôle d&#39;activité ainsi que les modules d&#39;envoi d&#39;activité pour lesquels des révisions sont attendues.  Pour chaque module, le nombre d’élèves s’affiche pour la personne qui doit effectuer l’évaluation. Pour chaque module, le nombre d&#39;élèves pour lesquels il faut l&#39;évaluation est affiché.
+Une fois que l’élève a suivi le cours, l’instructeur voit le module de liste de contrôle sur la page Envois/listes de contrôle dans la section **Modules**. Cette page contient tous les modules de liste de contrôle d&#39;activité ainsi que les modules d&#39;envoi d&#39;activité pour lesquels des révisions sont attendues.  Pour chaque module, le nombre d’élèves s’affiche pour la personne qui doit effectuer l’évaluation. Pour chaque module, le nombre d&#39;élèves pour lesquels l&#39;évaluation est attendue s&#39;affiche.
 
 Sur la page ci-dessous, vous pouvez afficher les modules de type **Envoi** et **Liste de contrôle**. Pour cet exemple, nous allons utiliser le module Liste de contrôle.
 
@@ -115,7 +115,7 @@ Une fois que l&#39;instructeur a évalué le cours à l&#39;aide de la liste de 
 
 ## Commentaires du formateur en cas de rejet d’une activité {#rejection-comments}
 
-Un élève peut voir le commentaire d’un instructeur dans la notification envoyée pour rejet. L’élève peut ensuite soumettre à nouveau son contenu en fournissant davantage d’informations sous forme de commentaires.
+Un élève peut afficher le commentaire d’un formateur dans la notification envoyée pour rejet. L’élève peut ensuite soumettre à nouveau son contenu en fournissant davantage d’informations sous forme de commentaires.
 
 Voici le workflow :
 
@@ -126,12 +126,12 @@ Voici le workflow :
    ![](assets/proof-of-completion.png)
    *Envoyer un justificatif d&#39;accomplissement*
 
-1. L’instructeur sélectionne ensuite le module d’activité qui lui est attribué. Dans la page Envois du module, l&#39;instructeur clique sur **Modifier**. Il peut ensuite saisir les commentaires pour rejet et activer l’option Afficher le commentaire, afin que l’élève puisse afficher le commentaire dans la notification.
+1. Le formateur sélectionne ensuite le module d&#39;activité qui lui est attribué. Dans la page Envois du module, le formateur clique sur **Modifier**. Il peut ensuite saisir les commentaires pour rejet et activer l’option Afficher le commentaire, afin que l’élève puisse afficher le commentaire dans la notification.
 
    ![](assets/enter-comments.png)
    *Saisir des commentaires d&#39;achèvement*
 
-1. L&#39;instructeur peut cliquer sur **Rejeter**. L&#39;état de l&#39;envoi passe à **Marqué pour rejet**.
+1. Le formateur peut cliquer sur **Rejeter**. L&#39;état de l&#39;envoi passe à **Marqué pour rejet**.
 
    ![](assets/marked-for-rejection.png)
    *Rejeter une soumission*
@@ -141,7 +141,7 @@ Voici le workflow :
    ![](assets/rejected-status.png)
    *Afficher l&#39;état de rejet*
 
-1. L’élève reçoit désormais une notification indiquant que son envoi a été rejeté. Les commentaires de l’instructeur apparaissent également dans la notification.
+1. L’élève voit désormais une notification indiquant que son envoi a été rejeté. Les commentaires de l’instructeur apparaissent également dans la notification.
 
    ![](assets/notification-of-rejection.png)
    *Recevoir une notification de rejet*
@@ -168,3 +168,16 @@ Pour ajouter des scores et des commentaires à des modules d’activité envoyé
    *Modifier les scores et les commentaires*
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Session Live Hub
+
+Pour les sessions créées à l&#39;aide de Live Hub, la section **Live Hub** de la page **Présentation de la session** fournit un accès rapide aux activités clés de la session.
+
+- **Entrer dans la salle de classe virtuelle** : sélectionnez **Entrer dans la salle de classe** pour rejoindre la salle de classe virtuelle ou configurez-la avant le début de la session. Vous pouvez également sélectionner **Copier l&#39;URL** pour copier le lien de la session et le partager avec les participants.
+
+- **Afficher les analyses de session** : sélectionnez la **page Afficher les analyses** pour ouvrir le tableau de bord d&#39;analyse de session une fois la session terminée. Le tableau de bord fournit des informations sur la présence, la participation, l’engagement des élèves et d’autres mesures de session.
+
+- **Afficher l&#39;enregistrement** : si la session a été enregistrée, sélectionnez **Afficher l&#39;enregistrement** pour accéder à l&#39;enregistrement directement à partir de la page **Présentation de la session**. Si aucun enregistrement n’est disponible, la carte indique son statut.
+
+Page ![Présentation de la session](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*Page de présentation de la session montrant la section Live Hub avec accès aux activités Live Hub.*
