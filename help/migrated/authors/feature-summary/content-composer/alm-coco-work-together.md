@@ -60,7 +60,7 @@ Pour plus d&#39;informations, voir [Configurer les paramètres du cours](#settin
 4.**Publish du cours ALM :** un auteur ALM assemble le module dans un cours ALM, ajoute des images et des paramètres de cours, puis le publie. Ce n’est qu’après cette étape que les élèves peuvent être inscrits.
 
 Pour plus d&#39;informations, voir [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
-![ Bibliothèque de contenu dans Adobe Learning Manager, affichant les modules publiés et de traitement](../assets/51_alm_content_library_list_view_updated.png)
+![&#x200B; Bibliothèque de contenu dans Adobe Learning Manager, affichant les modules publiés et de traitement](../assets/51_alm_content_library_list_view_updated.png)
 
 Pour plus d&#39;informations, voir [Création de cours en tant qu&#39;auteur sur ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
 

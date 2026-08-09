@@ -173,11 +173,11 @@ Pour ajouter des scores et des commentaires à des modules d’activité envoyé
 
 Pour les sessions créées à l&#39;aide de Live Hub, la section **Live Hub** de la page **Présentation de la session** fournit un accès rapide aux activités clés de la session.
 
-- **Entrer dans la salle de classe virtuelle** : sélectionnez **Entrer dans la salle de classe** pour rejoindre la salle de classe virtuelle ou configurez-la avant le début de la session. Vous pouvez également sélectionner **Copier l&#39;URL** pour copier le lien de la session et le partager avec les participants.
+&#x200B;- **Entrer dans la salle de classe virtuelle** : sélectionnez **Entrer dans la salle de classe** pour rejoindre la salle de classe virtuelle ou configurez-la avant le début de la session. Vous pouvez également sélectionner **Copier l&#39;URL** pour copier le lien de la session et le partager avec les participants.
 
-- **Afficher les analyses de session** : sélectionnez la **page Afficher les analyses** pour ouvrir le tableau de bord d&#39;analyse de session une fois la session terminée. Le tableau de bord fournit des informations sur la présence, la participation, l’engagement des élèves et d’autres mesures de session.
+&#x200B;- **Afficher les analyses de session** : sélectionnez la **page Afficher les analyses** pour ouvrir le tableau de bord d&#39;analyse de session une fois la session terminée. Le tableau de bord fournit des informations sur la présence, la participation, l’engagement des élèves et d’autres mesures de session.
 
-- **Afficher l&#39;enregistrement** : si la session a été enregistrée, sélectionnez **Afficher l&#39;enregistrement** pour accéder à l&#39;enregistrement directement à partir de la page **Présentation de la session**. Si aucun enregistrement n’est disponible, la carte indique son statut.
+&#x200B;- **Afficher l&#39;enregistrement** : si la session a été enregistrée, sélectionnez **Afficher l&#39;enregistrement** pour accéder à l&#39;enregistrement directement à partir de la page **Présentation de la session**. Si aucun enregistrement n’est disponible, la carte indique son statut.
 
 Page ![Présentation de la session](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Page de présentation de la session montrant la section Live Hub avec accès aux activités Live Hub.*

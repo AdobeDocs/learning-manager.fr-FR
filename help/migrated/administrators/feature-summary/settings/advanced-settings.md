@@ -302,17 +302,17 @@ Sessions de hub.
 
 Les jours fériés sont un ensemble de jours non ouvrables gérés au niveau du compte, avec les propriétés suivantes :
 
-- Seul l’administrateur peut ajouter, modifier ou supprimer des congés.
+&#x200B;- Seul l’administrateur peut ajouter, modifier ou supprimer des congés.
 
-- Les jours fériés s’appliquent à l’ensemble de l’organisation et apparaissent sur le calendrier de chaque instructeur sous la forme de jours non ouvrables.
+&#x200B;- Les jours fériés s’appliquent à l’ensemble de l’organisation et apparaissent sur le calendrier de chaque instructeur sous la forme de jours non ouvrables.
 
-- Les jours fériés marquant les instructeurs comme indisponibles, les sessions Live Hub ne peuvent pas être planifiées à ces dates.
+&#x200B;- Les jours fériés marquant les instructeurs comme indisponibles, les sessions Live Hub ne peuvent pas être planifiées à ces dates.
 
-- Chaque jour férié nécessite une date et un nom ; une description est facultative.
+&#x200B;- Chaque jour férié nécessite une date et un nom ; une description est facultative.
 
-- Vous pouvez ajouter des jours fériés un par un ou importer plusieurs jours fériés à la fois à l’aide d’un fichier CSV.
+&#x200B;- Vous pouvez ajouter des jours fériés un par un ou importer plusieurs jours fériés à la fois à l’aide d’un fichier CSV.
 
-- Une fois ajoutés, les jours fériés apparaissent sur la page **Jours fériés**, où vous pouvez les consulter, les rechercher et les gérer.
+&#x200B;- Une fois ajoutés, les jours fériés apparaissent sur la page **Jours fériés**, où vous pouvez les consulter, les rechercher et les gérer.
 
 Voir [Gérer les jours fériés](../../../getting-started-with-live-hub/manage-holidays.md) pour plus d&#39;informations.
 

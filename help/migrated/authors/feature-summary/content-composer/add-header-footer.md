@@ -17,7 +17,7 @@ Ajoutez un en-tête et un pied de page pour inclure des éléments tels que votr
 1. Sélectionnez **Thèmes** dans la barre d&#39;outils, puis passez le curseur sur le thème appliqué et sélectionnez **Modifier**.
 
 2. Activez l&#39;option **Ajouter un en-tête** pour ajouter un en-tête à votre cours.
-   ![ Les boutons Ajouter un en-tête et Ajouter un pied de page du panneau Modifier le thème](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![&#x200B; Les boutons Ajouter un en-tête et Ajouter un pied de page du panneau Modifier le thème](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. Sous **Logo**, sélectionnez **Ajouter** pour charger un logo pour l&#39;en-tête.
 

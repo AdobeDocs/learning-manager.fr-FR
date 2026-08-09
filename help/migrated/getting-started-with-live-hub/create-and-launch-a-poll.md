@@ -186,7 +186,7 @@ Après la fermeture d’un sondage, vous pouvez le gérer à partir du menu d’
 
 Pour gérer un sondage fermé :
 
-1. Dans le ![panneau polls-quizzes-1}, sélectionnez l&#39;onglet **Poll**.](./assets/poll-quiz-panel.svg)
+1. Dans le ![panneau polls-quizzes-1&rbrace;, sélectionnez l&#39;onglet **Poll**.](./assets/poll-quiz-panel.svg)
 
 1. Accédez au sondage fermé et sélectionnez les options (**...**) menu.
 
