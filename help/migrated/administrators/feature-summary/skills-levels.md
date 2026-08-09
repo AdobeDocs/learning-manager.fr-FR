@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création et modification de compétences et niveaux
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: 7f7e7d04943ce65fee3fa9ea801ab832e7c040fe
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 79%
+source-wordcount: '1828'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ Créez, attribuez et modifiez des compétences et niveaux.
 
 Une carte de compétences est un regroupement d’ensembles de compétences, de connaissances et de caractéristiques d’un employé dans une organisation. Ces cartes de compétences aident les entreprises/organisations à définir ou augmenter leurs attentes en termes de performance de leurs employés. Les compétences permettent aux employés d’aligner leurs comportements sur les attentes de leur entreprise.
 
-Adobe Learning Manager vous permet de déterminer les performances des élèves en fonction de leurs compétences à l’aide de la carte des compétences. Une fois que les élèves ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en consultant les cartes de compétences.
+Adobe Learning Manager vous permet de déterminer les performances des élèves en fonction de leurs compétences à l’aide de la carte des compétences. Quand des stagiaires ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en consultant les cartes de compétences.
 
 Le but fondamental des compétences dans le système de gestion d’apprentissage (LMS) Learning Manager est de fournir à l’administrateur un outil qui adapte l’apprentissage aux objectifs de l’entreprise.
 
@@ -37,7 +37,7 @@ Pour ajouter une compétence, suivez les étapes ci-dessous :
 
    *Ajouter le nom et la description d&#39;une compétence*
 
-1. Attribuez un domaine à la compétence. Lors de la création d’une compétence, vous pouvez la mapper avec les domaines de compétence les plus pertinents pris en charge par Learning Manager. Pour plus d’informations, voir [***Mappage de compétences avec les domaines***](/help/migrated/administrators/feature-summary/curation-skills.md).
+1. Attribuez un domaine à la compétence. Lors de la création d’une compétence, vous pouvez la mapper avec les domaines de compétence les plus pertinents pris en charge par Learning Manager. Pour plus d’informations, voir [***Mappage de compétences avec les domaines***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
    Commencez à saisir le domaine dans le champ et les recommandations s’affichent. Sélectionnez l’option ou les options adaptées à la compétence.
 
@@ -69,6 +69,25 @@ Pour ajouter une compétence, suivez les étapes ci-dessous :
    ![](assets/list-of-skills.png)
 
    *Afficher la liste des compétences*
+
+## Ajouter des compétences en bloc
+
+Les administrateurs peuvent ajouter plusieurs compétences directement dans Adobe Learning Manager à l’aide de l’option de téléchargement en bloc dans la boîte de dialogue **Ajouter des compétences**.
+
+Pour ajouter des compétences en bloc :
+
+1. Sélectionnez **Compétences** dans le volet de gauche.
+
+1. Sélectionnez **Ajouter** > **Ajouter des compétences**. <br> Une fenêtre contextuelle de **Ajout de compétences** s&#39;affiche.
+
+1. Sélectionnez **Ajouter des compétences en bloc (charger un fichier CSV)**.
+
+   ![Boîte de dialogue Ajouter des compétences en bloc avec l’option Télécharger CSV](assets/add-skills-bulk-upload-csv.png)
+   *Fenêtre contextuelle Ajouter des compétences affichant les options permettant d’ajouter les compétences en bloc.*
+
+1. Chargez le fichier CSV avec les détails de compétence.
+
+1. Sélectionnez **Enregistrer**.
 
 ## Attribution de la compétence aux élèves {#assigntheskilltolearners}
 
@@ -152,7 +171,7 @@ Vous pouvez rechercher des compétences dans les sections **[!UICONTROL Active]*
 
 ## Modification d’une compétence {#editaskill}
 
-Sur la page **[!UICONTROL Compétence]**, cliquez sur la compétence que vous souhaitez modifier. Dans la boîte de dialogue **[!UICONTROL Modifier la compétence]**, effectuez les modifications requises, par exemple :
+Sur la page **[!UICONTROL Compétence]**, cliquez sur la compétence que vous souhaitez modifier. Dans la boîte de dialogue **[!UICONTROL Modifier la compétence]**, apportez les modifications nécessaires, par exemple :
 
 * Ajout ou suppression d’un domaine de compétence
 * Modification du nom et de la description de la compétence
@@ -192,7 +211,7 @@ Vous pouvez uniquement supprimer une compétence lorsqu’elle n’est associée
 Ajoutez un fichier CSV qui contient les compétences des instructeurs. Ces compétences sont ensuite ajoutées à la liste des compétences.
 
 1. Dans le coin supérieur droit de l&#39;écran, sélectionnez **[!UICONTROL Ajouter]** > **[!UICONTROL Attribuer des compétences à un instructeur]**.
-1. Chargez un fichier CSV. Les colonnes du fichier CSV sont les suivantes :
+1. Téléchargez un fichier csv. Les colonnes du fichier CSV sont les suivantes :
 
    * Nom de la compétence
    * Niveau de compétence
@@ -234,19 +253,19 @@ La page Compétences comporte une colonne intitulée Instructeurs qui indique le
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-+++Comment puis-je supprimer un élève d’une compétence ?
++++Comment puis-je retirer un élève d’une compétence ?
 
 Vous ne pouvez pas retirer un élève d’une compétence. Vous pouvez cependant ajouter de nouveaux élèves ou groupes d’utilisateurs à la compétence.
 +++
 
-+++Comment inscrire automatiquement des élèves à une compétence ?
++++Comment puis-je inscrire automatiquement des élèves à une compétence ?
 
 La fonction d’inscription automatique est réservée aux groupes d’utilisateurs. L’inscription automatique est activée par défaut lorsque vous inscrivez un groupe d’utilisateurs, comme par exemple, Tous les auteurs, à une compétence et que vous l’enregistrez. Ainsi, la compétence sera attribuée à tout nouvel utilisateur ajouté au groupe d’utilisateurs Tous les auteurs.
 
 Si vous désactivez l’inscription automatique à ce niveau de compétence pour Tous les auteurs, la compétence ne sera pas attribuée aux nouveaux utilisateurs ajoutés à ce groupe d’utilisateurs.
 +++
 
-+++Comment redémarrer l’inscription automatique ?
++++Comment réactiver l’inscription automatique ?
 
 Inscrivez à nouveau le même groupe d’utilisateurs au niveau de compétence pour lequel l’inscription automatique a été désactivée.
 
@@ -255,17 +274,17 @@ Cette opération réactive l’inscription automatique et les élèves qui ont �
 Autrement dit, à chaque fois que vous réactivez l’inscription automatique pour un groupe d’utilisateurs, les membres du groupe d’utilisateurs sont réactualisés et la compétence est attribuée à tous les membres actuels.
 +++
 
-+++Comment puis-je affecter une compétence à un cours ?
++++Comment puis-je attribuer une compétence à un cours ?
 
 Voir la section [Attribution d’une compétence à un cours](skills-levels.md#assignskilltocourse) pour obtenir plus d’informations sur la procédure.
 +++
 
-+++Comment modifier un niveau de compétence ?
++++Comment puis-je modifier un niveau de compétence ?
 
 Pour modifier un ou plusieurs niveaux dans une compétence, modifiez cette dernière et modifiez les propriétés des niveaux existants.
 +++
 
-+++Comment puis-je activer les badges et les compétences afin qu’ils soient liés à l’achèvement du cours ?
++++Comment puis-je activer les badges et les compétences afin qu’ils soient liés à l’achèvement d’un cours ?
 
 Les compétences peuvent être liées à l’achèvement d’un cours lors de la création de ce cours par un auteur. Dans la section Paramètres, vous pouvez définir les critères de compétence pour l’achèvement du cours.
 
@@ -274,7 +293,7 @@ Les compétences peuvent être liées à l’achèvement d’un cours lors de la
 Pour activer des badges pour l’achèvement du cours, dans la section **[!UICONTROL Instances]** de l’application d’auteur, activez le badge requis.
 +++
 
-+++ Un administrateur peut-il marquer un badge comme terminé même s’il indique « En cours » ?
++++Un administrateur peut-il marquer un badge comme achevé, même si le badge indique « En cours » ?
 
 Un administrateur peut marquer un objet d’apprentissage comme terminé. Les compétences et les badges sont associés à l’objet d’apprentissage et ne peuvent pas être marqués comme **[!UICONTROL Terminés]** séparément.
 
@@ -283,4 +302,4 @@ En d’autres termes, pour obtenir le badge, **un élève doit terminer l’obje
 
 ### Articles connexes
 
-* [Compétences et Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [Compétences et Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

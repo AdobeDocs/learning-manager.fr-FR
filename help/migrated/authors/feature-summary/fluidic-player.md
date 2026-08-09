@@ -4,9 +4,9 @@ title: Aperçu en tant qu’élève
 description: Le lecteur Fluidic est une plate-forme destinée aux élèves qui leur permet d’aborder le contenu avec une expérience d’apprentissage ininterrompue et mixte. Tous les formats pris en charge sont lus uniformément dans ce lecteur. Les auteurs et les administrateurs peuvent prévisualiser le contenu par le biais du lecteur.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 68%
 
 ---
@@ -33,7 +33,7 @@ Lors de la création des cours, les auteurs disposent d’une option de prévisu
 
 Le lecteur Fluidic prend en charge 11 langues. Ce sont :
 
-| Langue | Territoire | IBM Identifier |
+| Langue | Territoire | Identificateur |
 |---|---|---|
 | Arabe | Arabie saoudite | ar-SA |
 | Chinois traditionnel | République populaire de Chine (RAS de Hong Kong) | zh-Hant-HK |

@@ -3,21 +3,21 @@ jcr-language: en_us
 title: Intégration d'Adobe Connect
 description: Les auteurs peuvent créer des cours d'une classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l'administrateur de votre entreprise.
 exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '419'
+ht-degree: 69%
 
 ---
 
-# Intégration d&#39;Adobe Connect
+# Intégration d’Adobe Connect
 
 Les auteurs peuvent créer des cours d&#39;une classe virtuelle avec Adobe Connect pendant le processus de création de cours. Pour activer Adobe Connect pour votre compte Learning Manager, vous devez contacter l&#39;administrateur de votre entreprise.
 
 ## Création d’un cours de classe virtuelle (VC) avec Adobe Connect {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. Dans la page Mes cours, cliquez sur Ajouter des modules et choisissez Classe virtuelle. La boîte de dialogue Créer une classe virtuelle s’affiche.
-1. Dans l&#39;option **Système de conférence**, choisissez Adobe Connect.
+1. Dans l&#39;option **Outils de formation virtuelle en direct**, choisissez **Adobe Connect**.
 
    ![](assets/create-vc-author.png)
 
@@ -40,3 +40,13 @@ Les auteurs peuvent créer des cours d&#39;une classe virtuelle avec Adobe Conn
 ## Modèles partagés d’Adobe Connect {#sharedtemplatesofadobeconnect}
 
 Par défaut, tous les modèles partagés créés dans le compte Adobe Connect sont récupérés dans l’application Learning Manager. Vous pouvez ajouter des modèles personnalisés en les partageant dans le compte Adobe Connect.
+
+## Création d’un cours de classe virtuelle avec Live Hub
+
+Live Hub est la solution de classe virtuelle native de Adobe Learning Manager, optimisée par l’IA, qui permet aux organisations de fournir des formations en direct sans avoir recours à des outils de conférence tiers.
+
+Lorsque votre administrateur active Live Hub pour votre compte, il devient disponible dans la liste **Outils de formation virtuelle en direct** aux côtés d&#39;autres fournisseurs pris en charge, tels qu&#39;Adobe Connect.
+
+Live Hub comprend également un Finder d’instructeurs basé sur l’IA qui recommande des instructeurs en fonction des exigences de votre classe virtuelle, des compétences requises et des détails de la session. Cela vous aide à identifier les instructeurs appropriés sans avoir à rechercher manuellement l’intégralité de la liste des instructeurs.
+
+Pour plus d&#39;informations, consultez [Créer une session Live Hub](../../getting-started-with-live-hub/create-a-live-hub-session.md).

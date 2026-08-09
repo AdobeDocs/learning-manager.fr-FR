@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
 workflow-type: tm+mt
-source-wordcount: '10009'
-ht-degree: 57%
+source-wordcount: '10239'
+ht-degree: 56%
 
 ---
 
@@ -55,10 +55,10 @@ Pour créer un cours, suivez les étapes ci-dessous :
 4. Pour rendre votre cours disponible dans d’autres langues, cliquez sur Ajouter une nouvelle langue dans le coin supérieur gauche de la page. Sélectionnez la ou les langues dans lesquelles vous souhaitez rendre votre cours disponible. Cliquez sur **[!UICONTROL Enregistrer]**. Pour plus d’informations, voir [Ajouter du contenu pour différentes langues](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modification des paramètres d’un cours**
 
-   a. Dans la page Paramètres du cours, choisissez une compétence pour le cours. Dans la liste déroulante Compétence, sélectionnez la compétence requise. Ensuite, dans la liste déroulante Niveau, choisissez le niveau requis.
-   b. Choisissez les compétences du cours, le niveau et définissez les crédits pour la compétence. Ajoutez d’autres compétences, si nécessaire.
+   a. Sur la page Paramètres du cours, sélectionnez une compétence pour le cours. Dans la liste déroulante Compétence, sélectionnez la compétence requise. Puis, dans la liste déroulante Niveau, sélectionnez le niveau requis.
+   b. Sélectionnez les compétences du cours, le niveau et définissez les crédits pour la compétence. Ajoutez d’autres compétences, si nécessaire.
    c. Ajoutez les étiquettes de conformité personnalisées au cours, si nécessaire. Voir [Ajouter des étiquettes de conformité au cours/parcours d&#39;apprentissage/certification](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   d. Dans la liste déroulante **Type d&#39;inscription**, choisissez le type d&#39;inscription.
+   d. Dans la liste déroulante **Type d’inscription**, sélectionnez le type d’inscription.
 
    Les différents types d’inscriptions sont les suivants :
 
@@ -592,6 +592,8 @@ Pour ajouter un module Contenu, effectuez les étapes ci-dessous :
 
    **Remarque :** Un élève doit être disponible sur Microsoft Teams. Toutefois, l’élève peut rejoindre Learning Manager en tant qu’invité.
 
+   Vous pouvez également créer un cours Live Hub si les administrateurs ont activé Live Hub pour un compte ALM. Pour créer la session VC avec Live Hub, consultez [Créer une session Live Hub](../../getting-started-with-live-hub/create-a-live-hub-session.md)
+
    **Module de salle de classe :** dans ce mode, les élèves assistent en personne à des cours assurés par un instructeur qualifié. Saisissez le titre, la description et la durée de la session. Vous pouvez également préciser l’emplacement de la classe et les instructeurs qui animeront la session. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer les modifications.
 
    >[!NOTE]
@@ -1013,7 +1015,7 @@ Pour permettre aux instructeurs de marquer la réussite de l’élève :
 6. Saisissez les détails nécessaires et sélectionnez les dates.
 7. Sélectionnez l&#39;option **[!UICONTROL Autoriser l&#39;instructeur à marquer le succès]**.
 
-   ![La case « Autoriser l&#39;instructeur à marquer le succès ? » est cochée, ce qui permet aux auteurs d&#39;autoriser les instructeurs à enregistrer l&#39;état de réussite de l&#39;élève pour un module](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![Autoriser l’instructeur à indiquer le succès ? la case est cochée, permettant aux auteurs de laisser les instructeurs enregistrer l’état de réussite de l’élève pour un module](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Écran Détails de la session avec l’option Autoriser l’instructeur à marquer le succès mise en évidence pour les modules de salle de classe ou de classe virtuelle_
 
 8. Sélectionnez **[!UICONTROL Terminé]**.

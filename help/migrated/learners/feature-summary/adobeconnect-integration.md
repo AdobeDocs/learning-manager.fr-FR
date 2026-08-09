@@ -1,22 +1,22 @@
 ---
 jcr-language: en_us
 title: Intégration d'Adobe Connect
-description: En tant qu’élève, vous pouvez suivre des cours en salle de classe virtuelle à l’aide d’Adobe Connect si votre société intègre Adobe Connect à votre compte Learning Manager. Contactez l’administrateur de votre société si vous ne pouvez pas utiliser Adobe Connect.
+description: En tant qu’élève, vous pouvez suivre des cours de classe virtuelle à l’aide d’Adobe Connect si votre société intègre Adobe Connect à votre compte Learning Manager. Contactez l’administrateur de votre entreprise si vous ne pouvez pas utiliser Adobe Connect.
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7babb0c2c656063871be5ae054c5d9f13423abba
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '342'
+ht-degree: 78%
 
 ---
 
-# Intégration d&#39;Adobe Connect
+# Intégration d’Adobe Connect
 
-En tant qu’élève, vous pouvez suivre des cours en salle de classe virtuelle à l’aide d’Adobe Connect si votre société intègre Adobe Connect à votre compte Learning Manager. Contactez l’administrateur de votre société si vous ne pouvez pas utiliser Adobe Connect.
+En tant qu’élève, vous pouvez suivre des cours de classe virtuelle à l’aide d’Adobe Connect si votre société intègre Adobe Connect à votre compte Learning Manager. Contactez l’administrateur de votre entreprise si vous ne pouvez pas utiliser Adobe Connect.
 
 ## Suivre les cours d’une classe virtuelle Adobe Connect {#consumeadobeconnectvirtualclassroomcourses}
 
-Connectez-vous à Learning Manager en tant qu’élève et cliquez sur la carte de cours de classe virtuelle à partir du widget Mon apprentissage. Vous pouvez également choisir Catalogue dans le volet de gauche, filtrer les cours et cliquer sur le cours de classe virtuelle requis.
+Connectez-vous à Learning Manager en tant qu’élève et cliquez sur la carte de cours de classe virtuelle depuis le widget Mon apprentissage. Vous pouvez également choisir Catalogue dans le volet de gauche, filtrer les cours et cliquer sur le cours de classe virtuelle requis.
 
 Si vous êtes inscrit à une session de classe virtuelle Adobe Connect, vous recevrez une notification avant le début de la session avec l’URL de votre compte.
 
@@ -35,4 +35,8 @@ Si vous souhaitez écouter les sessions de classe virtuelle enregistrées, cliqu
 
 >[!NOTE]
 >
->En général, les URL des sessions enregistrées sont reflétées dans l’application Learning Manager deux heures après la fin de la session.
+>Généralement, les URL des sessions enregistrées sont reflétées dans l’application Learning Manager deux heures après la fin de la session.
+
+## Utiliser des sessions Live Hub
+
+En tant qu’élève, vous pouvez suivre des cours de classe virtuelle à l’aide de Live Hub si Live Hub est activé pour votre compte Learning Manager dans votre entreprise. Contactez l’administrateur de votre société si vous ne pouvez pas utiliser Live Hub. Pour savoir comment participer à la session, consultez [Rejoindre une session en tant qu’élève](../../getting-started-with-live-hub/join-live-hub-session-as-a-learner.md).

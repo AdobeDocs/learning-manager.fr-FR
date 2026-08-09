@@ -4,10 +4,10 @@ title: Comment choisir les modules de cours ?
 description: Adobe Learning Manager prend en charge quatre types de modules de cours. Si vous êtes responsable de la création d’un programme de formation, vous pouvez vous demander quel type de module vous devez sélectionner pour répondre aux besoins de votre entreprise. En fonction des besoins en termes de budget et de public de votre entreprise, vous pouvez sélectionner les modules du cours. Certains des cas d’utilisation standard pour chaque type de module sont expliqués ci-dessous pour référence.
 contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: fcbe70fb0eef5aae891f6a222112804707dfe626
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 95%
+source-wordcount: '648'
+ht-degree: 76%
 
 ---
 
@@ -106,14 +106,15 @@ Learning Manager prend en charge quatre types de modules de cours. Si vous ête
   <tr>
    <td><img src="assets/virtual-classroom.png"></td>
    <td>
-    <p>Dans la formation en salle de classe virtuelle, les élèves suivent les classes en ligne avec un relais en direct par un formateur. Les élèves doivent participer aux cours à une heure indiquée. Cependant, ils peuvent participer aux cours à partir de n’importe où.</p>
+    <p>Utilisez un module de classe virtuelle lorsque vous souhaitez que les élèves participent à des sessions en direct dirigées par un instructeur dans un environnement en ligne. Ces sessions peuvent être animées à l’aide de Live Hub, l’outil de formation virtuelle en direct optimisé par l’IA intégré dans Learning Manager, ou via des outils externes tels que Zoom, Microsofts Teams, etc.</p>
     <p> </p>
     <p> </p>
     <p><strong>Avantages</strong></p>
     <ul>
-     <li>Vous pouvez sélectionner le module de salle de classe virtuelle lorsque le cours n’est pas complexe.</li>
-     <li>Lorsque les élèves et formateurs font partie d’équipes dispersées dans différents lieux. </li>
-     <li>Vous pouvez économiser des frais de logistique pour les élèves et les formateurs.</li>
+     <li>Convient aux sessions qui nécessitent une interaction en temps réel avec un instructeur, telles que des discussions, des questions-réponses ou un apprentissage guidé</li>
+     <li>Permet la formation d’équipes réparties sur différents sites, sans nécessiter de présence physique. </li>
+     <li>Réduit les coûts logistiques pour les élèves et les instructeurs.</li>
+     <li>Avec Live Hub, vous pouvez mener des sessions directement dans Learning Manager sans avoir recours à des outils externes, ce qui garantit une expérience d’apprentissage transparente et intégrée. Ses fonctionnalités d'IA vous aident également à trouver rapidement des instructeurs et des créneaux horaires adaptés.</li>
     </ul></td>
   </tr>
  </tbody>
