@@ -2,9 +2,9 @@
 description: Passez en revue la leçon et la structure de rubrique générées par l'IA avant de vous engager à générer la totalité du cours. Demandez des modifications via le panneau de conversation. Renommez, ajoutez, supprimez, divisez ou fusionnez des leçons et des rubriques par conversation.
 jcr-language: en_us
 title: Modifier le contour du cours
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modifier le contour du cours
 
-     ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Le compositeur de contenu Adobe Learning Manager génère une structure de leçon et de rubrique à partir de votre bref fichier et de votre fichier source. Le plan s’affiche sur la zone de travail et montre toutes les leçons et leurs rubriques.
 
