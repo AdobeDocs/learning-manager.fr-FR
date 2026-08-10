@@ -3,7 +3,7 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités, novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Reportez-vous à ces articles [Rapport de liste d&#39;attente (administrateur)](
 
 ## Accessibilité dans la page d’accueil de l’élève
 
-Adobe Learning Manager prend désormais en charge le texte optionnel pour tous les en-têtes afin d’améliorer l’accessibilité pour les élèves. Cela permet aux élèves ayant des besoins spéciaux d’utiliser des lecteurs d’écran pour lire le texte optionnel et comprendre l’image. Vous pouvez sélectionner plusieurs langues et fournir un texte de remplacement pour chaque langue. Veillez à ajouter le texte optionnel dans les langues respectives. Assurez-vous que le logo de la société dans votre compte inclut également un texte de remplacement avec le nom de la société.Reportez-vous à cet article [Annonce](/help/migrated/administrators/feature-summary/announcements.md#masthead) pour plus d&#39;informations.
+Adobe Learning Manager prend désormais en charge le texte optionnel pour tous les en-têtes afin d’améliorer l’accessibilité pour les élèves. Cela permet aux élèves ayant des besoins spéciaux d’utiliser des lecteurs d’écran pour lire le texte optionnel et comprendre l’image. Vous pouvez sélectionner plusieurs langues et fournir un texte de remplacement pour chaque langue. Veillez à ajouter le texte optionnel dans les langues respectives. Assurez-vous que le logo de la société dans votre compte inclut également un texte de remplacement avec le nom de la société.
+Reportez-vous à cet article [Annonce](/help/migrated/administrators/feature-summary/announcements.md#masthead) pour plus d&#39;informations.
 
 ## Prise en charge de l’hindi
 
@@ -227,7 +228,7 @@ La colonne dossier utilise le type de données string et il s&#39;agit d&#39;une
 * Si vous ajoutez un nouveau nom de dossier pour un module déjà présent dans un autre dossier, la nouvelle valeur ne remplacera pas le dossier attribué. Le module sera ajouté au nouveau dossier et restera également disponible dans le dossier existant.
 * Si la valeur est vide, le dossier sera défini par défaut sur **[!UICONTROL Public]**.
 
-Reportez-vous au fichier [module_version csv spec](assets/4-module_version.xlsx) pour plus d&#39;informations.
+Reportez-vous au fichier [module_version csv spec](assets/module_version.csv) pour plus d&#39;informations.
 
 ### Modifications apportées à la migration des modules - critères d’achèvement
 
@@ -238,10 +239,10 @@ Voici les conditions applicables aux nouvelles colonnes :
 1. `completionCriteria`:
 
    * Le type de données doit être une chaîne de valeurs et les valeurs prises en charge sont :
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * Ajoutez des critères d&#39;achèvement au niveau du module uniquement pour les types de modules d&#39;auto-apprentissage.
    * Les valeurs prises en charge pour le contenu statique sont `LAUNCH_CONTENT` et `VIEW_PERCENT`.
    * Les valeurs prises en charge pour le contenu interactif sont `LAUNCH_CONTENT`, `VIEW_PERCENT` et `QUIZ`.
@@ -257,7 +258,7 @@ Voici les conditions applicables aux nouvelles colonnes :
    * Le type de données doit être une chaîne et les valeurs prises en charge sont `QUIZ_ATTEMPTED`, `QUIZ_PASSED` et `QUIZPASSED_OR_LIMITREACHED`.
    * Lorsque `completionCriteria` est défini sur `QUIZ`, entrez la valeur de quiz appropriée dans la colonne `quizData`.
 
-Reportez-vous au fichier [module_version csv spec](assets/4-module_version.xlsx) pour plus d&#39;informations.
+Reportez-vous au fichier [module_version csv spec](assets/module_version.csv) pour plus d&#39;informations.
 
 ### Changements dans la migration du cours - Critères d’achèvement
 
@@ -271,27 +272,27 @@ Voici les conditions pour la colonne `completionCriteria` :
 * Si vous définissez `completionCriteria` sur `SELECTEDMODULES`, vous devez marquer les modules obligatoires dans le fichier [course_module.csv](assets/course_module.csv).
 * Dans la colonne `optionalCriteria`, saisissez `TRUE` ou `FALSE`. Si vous définissez la valeur sur `TRUE`, le module deviendra obligatoire.
 
-Reportez-vous aux fichiers [spéc csv de cours](assets/3-course.xlsx) et [spéc csv de module de cours](assets/6-course_module.xlsx) pour plus d&#39;informations.
+Reportez-vous aux fichiers [spéc csv de cours](assets/course.csv) et [spéc csv de module de cours](assets/course_module.csv) pour plus d&#39;informations.
 
 ## Modifications de l’API
 
 Voici les modifications apportées à l’API :
 
 * **API de recherche** :
-   * Nouveau filtre de mode avec des options : classicSearch et advanceSearch.
-   * Nouvelle option loMetadata pour snippetTypes.
+  * Nouveau filtre de mode avec des options : classicSearch et advanceSearch.
+  * Nouvelle option loMetadata pour snippetTypes.
 * **API d&#39;annonce** :
-   * Inclut l’attribut altText pour les descriptions d’en-tête.
+  * Inclut l’attribut altText pour les descriptions d’en-tête.
 * **API d&#39;instance** :
-   * Nouvel attribut de paramètres régionaux pour récupérer les détails des paramètres régionaux.
+  * Nouvel attribut de paramètres régionaux pour récupérer les détails des paramètres régionaux.
 * **Vérification des blasphèmes** :
-   * API mises à jour pour vérifier les mots interdits dans les commentaires et les réponses aux publications sur les réseaux sociaux :
+  * API mises à jour pour vérifier les mots interdits dans les commentaires et les réponses aux publications sur les réseaux sociaux :
 * **TPM et limitation de rafale** :
-   * Ajout de RPM (demandes par minute) et de limites de rafale pour toutes les API.
+  * Ajout de RPM (demandes par minute) et de limites de rafale pour toutes les API.
 * **API de badge** :
-   * Nouvel attribut externalProvider pour récupérer les informations sur les badges externes.
+  * Nouvel attribut externalProvider pour récupérer les informations sur les badges externes.
 * **API de tâche** :
-   * Téléchargez le rapport de groupe d’utilisateurs et le rapport d’audit de rôle personnalisé à l’aide de l’API de tâche.
+  * Téléchargez le rapport de groupe d’utilisateurs et le rapport d’audit de rôle personnalisé à l’aide de l’API de tâche.
 
 ### Modifications apportées à l’API de recherche
 

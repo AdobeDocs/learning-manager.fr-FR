@@ -2,9 +2,9 @@
 description: Chargez des documents, stratégies ou platines existants pour ancrer l’IA dans le contenu de votre entreprise. Choisissez de limiter la génération à ces fichiers uniquement ou de laisser l’IA compléter ses connaissances générales.
 jcr-language: en_us
 title: Gestion des fichiers source
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ Les documents sources peuvent être obsolètes une fois qu&#39;un cours a déjà
 
 ### Confirmer le téléchargement du fichier
 
-     ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 Une fois qu’un fichier est joint, l’icône de fichier dans la barre d’outils affiche un nombre de badges. L&#39;assistant confirme le téléchargement et propose un raccourci **Générer le contour**. Sélectionnez-le ou sélectionnez **Générer le contour** dans la barre d&#39;outils supérieure.

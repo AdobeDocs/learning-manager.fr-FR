@@ -1,7 +1,7 @@
 ---
 title: Création d’une session Live Hub
 description: Découvrez comment créer un cours Live Hub, ajouter des instances de cours, affecter des instructeurs avec le Finder d'instructeurs, inscrire des élèves et personnaliser l'image de marque de la salle.
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Pour créer un cours Live Hub :
 
    1. Saisissez les noms des instructeurs dans le champ **Instructeurs**.
 
-   1. Sélectionnez **Trouver des instructeurs utilisant l&#39;IA** pour afficher les instructeurs recommandés par l&#39;IA. Voir [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
+   1. Sélectionnez **Trouver des instructeurs utilisant l&#39;IA** pour afficher les instructeurs recommandés par l&#39;IA. Consultez [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
 
 1. Sélectionnez **Ajouter** > **Enregistrer**.
 
@@ -109,7 +109,7 @@ Pour créer une instance de cours :
    Panneau de configuration de la session ![](assets/session-configuration-panel.png)
    *Configurez la planification, l&#39;instructeur et l&#39;emplacement d&#39;une instance de session spécifique.*
 
-1. Dans le champ **Instructeurs**, saisissez des noms manuellement ou sélectionnez **Rechercher des instructeurs utilisant l&#39;IA** pour les instructeurs recommandés par l&#39;IA. Voir [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
+1. Dans le champ **Instructeurs**, saisissez des noms manuellement ou sélectionnez **Rechercher des instructeurs utilisant l&#39;IA** pour les instructeurs recommandés par l&#39;IA. Consultez [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
 
 1. Saisissez les détails de l&#39;**emplacement**, puis sélectionnez **Enregistrer**. La session est mise à jour avec les horaires configurés, l’instructeur et les détails de l’emplacement.
 
