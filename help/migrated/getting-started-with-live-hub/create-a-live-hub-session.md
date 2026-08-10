@@ -1,7 +1,7 @@
 ---
 title: Création d’une session Live Hub
 description: Découvrez comment créer un cours Live Hub, ajouter des instances de cours, affecter des instructeurs avec le Finder d'instructeurs, inscrire des élèves et personnaliser l'image de marque de la salle.
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Pour créer un cours Live Hub :
 
    1. Saisissez les noms des instructeurs dans le champ **Instructeurs**.
 
-   1. Sélectionnez **Trouver des instructeurs utilisant l&#39;IA** pour afficher les instructeurs recommandés par l&#39;IA. Voir [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
+   1. Sélectionnez **Trouver des instructeurs utilisant l&#39;IA** pour afficher les instructeurs recommandés par l&#39;IA. Consultez [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
 
 1. Sélectionnez **Ajouter** > **Enregistrer**.
 
@@ -109,7 +109,7 @@ Pour créer une instance de cours :
    Panneau de configuration de la session ![](assets/session-configuration-panel.png)
    *Configurez la planification, l&#39;instructeur et l&#39;emplacement d&#39;une instance de session spécifique.*
 
-1. Dans le champ **Instructeurs**, saisissez des noms manuellement ou sélectionnez **Rechercher des instructeurs utilisant l&#39;IA** pour les instructeurs recommandés par l&#39;IA. Voir [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
+1. Dans le champ **Instructeurs**, saisissez des noms manuellement ou sélectionnez **Rechercher des instructeurs utilisant l&#39;IA** pour les instructeurs recommandés par l&#39;IA. Consultez [Ajouter des instructeurs à l&#39;aide du Finder d&#39;instructeurs](#add-instructors-using-instructor-finder) pour plus d&#39;informations.
 
 1. Saisissez les détails de l&#39;**emplacement**, puis sélectionnez **Enregistrer**. La session est mise à jour avec les horaires configurés, l’instructeur et les détails de l’emplacement.
 
@@ -138,9 +138,9 @@ Pour ajouter des instructeurs à l’aide du Finder d’instructeurs :
 
 Les élèves peuvent être inscrits à un cours Live Hub de deux manières :
 
-1. Un **administrateur** inscrit des élèves au cours en fonction des exigences de l&#39;organisation. Pour plus d&#39;informations, consultez [Créer des instances de cours et des parcours d&#39;apprentissage](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/courses).
+1. Un **administrateur** inscrit des élèves au cours en fonction des exigences de l&#39;organisation. Pour plus d&#39;informations, consultez [Créer des instances de cours et des parcours d&#39;apprentissage](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses).
 
-1. Les élèves peuvent directement s&#39;inscrire au cours à partir de la page **Catalogue**. Si le cours est configuré pour l&#39;auto-inscription, les élèves sont immédiatement inscrits et peuvent accéder au cours à partir de **Mes apprentissages**. Consultez [Mes apprentissages](https://experienceleague.adobe.com/fr/docs/learning-manager/using/learner/courses) pour plus d&#39;informations.
+1. Les élèves peuvent directement s&#39;inscrire au cours à partir de la page **Catalogue**. Si le cours est configuré pour l&#39;auto-inscription, les élèves sont immédiatement inscrits et peuvent accéder au cours à partir de **Mes apprentissages**. Consultez [Mes apprentissages](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) pour plus d&#39;informations.
 
 Après l’inscription, les élèves sont ajoutés au cours et reçoivent une notification dans leur compte Adobe Learning Manager. En fonction des paramètres de notification par e-mail du compte, les élèves peuvent également recevoir une invitation à rejoindre le cours par e-mail.
 
