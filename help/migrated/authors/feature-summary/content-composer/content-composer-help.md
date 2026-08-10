@@ -2,9 +2,9 @@
 title: Aide de Adobe Learning Manager Content Composer (Beta)
 description: Du langage clair à un cours publié, le compositeur de contenu Adobe Learning Manager gère la conception pédagogique afin que vous puissiez vous concentrer sur les besoins des élèves en créant du contenu pédagogique percutant.
 contentowner: saghosh
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,18 @@ Le compositeur de contenu guide les auteurs à travers les objectifs de formatio
 - **Publication directe sur Adobe Learning Manager** : les cours terminés sont publiés directement sur Adobe Learning Manager ; aucun outil de création distinct, aucune exportation SCORM manuelle.
 - **Workflow à système unique** : la création de cours, la gestion des élèves et la génération de rapports restent sur une seule plateforme, ce qui élimine la charge de travail liée à la gestion de plusieurs outils de création et de diffusion.
 
+## Avant de vous connecter
+
+>[!IMPORTANT]
+>
+>Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
+
+
 ## Essayer le compositeur de contenu {#trycontent-composer}
 
 Prêt à créer votre premier cours ? Ouvrez le compositeur de contenu et passez d’une invite en langage clair à un cours prêt à la publication en un rien de temps.
 
-[**Essayer le compositeur de contenu**](https://contentcomposer-dev.adobe.io/)
+[**Essayer le compositeur de contenu**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -149,4 +156,4 @@ Réponses rapides, contraintes actuelles et schéma JSON complet. Tout ce dont v
 
 Vous avez tout ce dont vous avez besoin. Ouvrez le compositeur de contenu et créez votre premier cours.
 
-[**Essayer le compositeur de contenu**](https://contentcomposer-dev.adobe.io/)
+[**Essayer le compositeur de contenu**](https://contentcomposer.adobe.io/)
