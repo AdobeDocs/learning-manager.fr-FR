@@ -1,15 +1,15 @@
 ---
-title: Création d’une session Live Hub
+title: Création d’une session Live Hub (Beta)
 description: Découvrez comment créer un cours Live Hub, ajouter des instances de cours, affecter des instructeurs avec le Finder d'instructeurs, inscrire des élèves et personnaliser l'image de marque de la salle.
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# Création d’une session Live Hub
+# Création d’une session Live Hub (Beta)
 
 Utilisez Live Hub pour dispenser une formation en direct dispensée par un instructeur dans le cadre d’un cours Adobe Learning Manager. Vous pouvez combiner des sessions Live Hub avec du contenu d’auto-apprentissage pour créer une expérience d’apprentissage mixte.
 
@@ -138,9 +138,9 @@ Pour ajouter des instructeurs à l’aide du Finder d’instructeurs :
 
 Les élèves peuvent être inscrits à un cours Live Hub de deux manières :
 
-1. Un **administrateur** inscrit des élèves au cours en fonction des exigences de l&#39;organisation. Pour plus d&#39;informations, consultez [Créer des instances de cours et des parcours d&#39;apprentissage](https://experienceleague.adobe.com/fr/docs/learning-manager/using/admin/courses).
+1. Un **administrateur** inscrit des élèves au cours en fonction des exigences de l&#39;organisation. Pour plus d&#39;informations, consultez [Créer des instances de cours et des parcours d&#39;apprentissage](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses).
 
-1. Les élèves peuvent directement s&#39;inscrire au cours à partir de la page **Catalogue**. Si le cours est configuré pour l&#39;auto-inscription, les élèves sont immédiatement inscrits et peuvent accéder au cours à partir de **Mes apprentissages**. Consultez [Mes apprentissages](https://experienceleague.adobe.com/fr/docs/learning-manager/using/learner/courses) pour plus d&#39;informations.
+1. Les élèves peuvent directement s&#39;inscrire au cours à partir de la page **Catalogue**. Si le cours est configuré pour l&#39;auto-inscription, les élèves sont immédiatement inscrits et peuvent accéder au cours à partir de **Mes apprentissages**. Consultez [Mes apprentissages](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) pour plus d&#39;informations.
 
 Après l’inscription, les élèves sont ajoutés au cours et reçoivent une notification dans leur compte Adobe Learning Manager. En fonction des paramètres de notification par e-mail du compte, les élèves peuvent également recevoir une invitation à rejoindre le cours par e-mail.
 

@@ -2,9 +2,9 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1653'
 ht-degree: 37%
 
 ---
@@ -388,7 +388,7 @@ ht-degree: 37%
 * Signaler les modifications {#reporting-changes}
   * [Rapports sur les modifications de la version d’août 2026](/help/migrated/reporting-changes-august-2026.md)
 * Base de connaissances {#knowledge-base}
-  * [Guide de dépannage pour Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Guide de dépannage pour Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
   * [Impossible de se connecter à Learning Manager](kb/unable-log-in-learning-manager.md)
   * [Le Résumé de l’apprentissage n’affiche pas les données actuelles](kb/learning-summary-not-display-data.md)
   * [Impossible de charger un fichier CSV](kb/unable-to-upload-csv.md)

@@ -1,15 +1,15 @@
 ---
-title: Rejoindre une session Live Hub en tant qu’instructeur
+title: Rejoindre une session Live Hub (Beta) en tant qu’instructeur
 description: Découvrez comment les instructeurs rejoignent une session Live Hub avant l’heure de début prévue pour préparer la salle et configurer les paramètres avant l’arrivée des élèves.
-source-git-commit: d9280a361eaecb46d40bdc0ffb19b6010da6d1ed
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '203'
 ht-degree: 2%
 
 ---
 
 
-# Rejoindre une session Live Hub en tant qu’instructeur
+# Rejoindre une session Live Hub (Beta) en tant qu’instructeur
 
 Les instructeurs peuvent entrer dans la salle de classe virtuelle avant l’heure de début prévue pour préparer la salle, configurer les autorisations des élèves, les légendes, les sondages, les quiz et les sous-groupes, et configurer leurs propres données audio et vidéo avant l’arrivée des élèves.
 
