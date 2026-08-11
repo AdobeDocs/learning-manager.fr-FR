@@ -1,15 +1,15 @@
 ---
-title: Live Hub Foire aux questions
+title: Live Hub (Beta) Foire aux questions
 description: Questions fréquentes sur Live Hub dans Adobe Learning Manager, organisées par rôle pour les administrateurs, les auteurs, les instructeurs et les élèves.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
 
 
-# Foire aux questions pour Live Hub
+# Forum aux questions sur Live Hub (Beta)
 
 <table>
  <tbody>
