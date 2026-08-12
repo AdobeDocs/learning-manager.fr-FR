@@ -34,7 +34,7 @@ Le compositeur de contenu guide les auteurs à travers les objectifs de formatio
 
 >[!IMPORTANT]
 >
->Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
+>Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/fr/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
 
 ## Essayer le compositeur de contenu
 
