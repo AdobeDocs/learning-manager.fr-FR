@@ -1,15 +1,15 @@
 ---
-title: Présentation de Live Hub
+title: Présentation de Live Hub (Beta)
 description: Découvrez les panneaux et les commandes qui composent la salle de session du hub en direct, notamment la barre de contrôle, le panneau Participants, le panneau Conversation et le panneau Éruptions.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# Présentation de Live Hub
+# Présentation de Live Hub (Beta)
 
 Dans Adobe Learning Manager Live Hub, la salle de session est conçue pour aider les instructeurs et les élèves à collaborer efficacement pendant les sessions en direct. La disposition comprend plusieurs panneaux et commandes qui vous permettent de gérer l’audio, la vidéo, les participants et les interactions en temps réel.
 
@@ -108,7 +108,7 @@ Ouvrez **Plus d&#39;applications** pour accéder aux outils intégrés qui éten
 
 * Collaborez visuellement avec tous les participants sans quitter la session.
 
-Afficher[À propos du tableau blanc](./about-the-whiteboard.md) pour plus d&#39;informations.
+Voir [À propos du tableau blanc](./about-the-whiteboard.md) pour plus d&#39;informations.
 
 ### Engagement des participants
 
@@ -120,4 +120,4 @@ L&#39;engagement des participants permet de suivre l&#39;activité et l&#39;enga
 
 * Identifiez si les élèves sont activement engagés ou s’ils ont besoin d’attention.
 
-Afficher[Suivre l&#39;engagement du participant](./track-the-participant-engagement.md) pour plus d&#39;informations.
+Afficher [Suivre l&#39;engagement du participant](./track-the-participant-engagement.md) pour plus d&#39;informations.

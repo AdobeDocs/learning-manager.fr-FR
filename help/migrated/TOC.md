@@ -2,9 +2,9 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: 2ce14029fdeb3ffcb3bcd974405ba9c8eed2dba6
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1653'
 ht-degree: 37%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 37%
   * [Prise en main de Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
 * L’administrateur {#admin}
   * IA dans l’apprentissage (Beta) {#ai-in-learning}
-    * [Activer Live Hub](./administrators/feature-summary/enable-live-hub.md)
+    * [Activer Live Hub (Beta)](./administrators/feature-summary/enable-live-hub.md)
   * [Admin AI Assistant (Beta) dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Insights Agent (bêta) dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [Connexion utilisateur](administrators/feature-summary/user-login.md)
@@ -369,14 +369,14 @@ ht-degree: 37%
       * [Afficher le tableau de bord de session](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [Composants du tableau de bord de session](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [Bonnes pratiques](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [Utiliser Live Hub sur mobile en tant qu’élève](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [Utiliser Live Hub (Beta) sur mobile en tant qu’élève](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Forum aux questions {#faq}
   * [Questions fréquentes des administrateurs](administrators/frequently-asked-questions-for-administrators.md)
   * [Questions fréquemment posées pour les auteurs](authors/frequently-asked-questions-for-authors.md)
   * [Forum aux questions pour les instructeurs](instructors/frequently-asked-questions-for-instructors.md)
   * [Questions fréquemment posées par les responsables](managers/frequently-asked-questions-for-managers.md)
   * [Questions fréquemment posées par les élèves](learners/frequently-asked-questions-for-learners.md)
-  * [Forum aux questions pour une session Live Hub](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [Forum aux questions pour une session Live Hub (Beta)](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [Nouvelles annonces de ligue d&#39;expérience](/help/migrated/new-experience-league-announcement.md)
   * [Comment envoyer un ticket d’assistance sur Experience League](/help/migrated/how-to-submit-support-ticket.md)
   * [Création d’un compte d’évaluation dans Adobe Learning Manager](/help/migrated/create-trial-account.md)
@@ -388,7 +388,7 @@ ht-degree: 37%
 * Signaler les modifications {#reporting-changes}
   * [Rapports sur les modifications de la version d’août 2026](/help/migrated/reporting-changes-august-2026.md)
 * Base de connaissances {#knowledge-base}
-  * [Guide de dépannage pour Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Guide de dépannage pour Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
   * [Impossible de se connecter à Learning Manager](kb/unable-log-in-learning-manager.md)
   * [Le Résumé de l’apprentissage n’affiche pas les données actuelles](kb/learning-summary-not-display-data.md)
   * [Impossible de charger un fichier CSV](kb/unable-to-upload-csv.md)

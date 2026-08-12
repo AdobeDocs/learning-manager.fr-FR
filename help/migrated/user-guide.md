@@ -3,10 +3,10 @@ title: Bienvenue dans le Guide de l’utilisateur d’Adobe Learning Manager
 description: Découvrez la dernière offre de Adobe Learning Manager (anciennement Adobe Captivate Prime). Pour commencer, visitez chaque section individuellement ou connectez-vous à la communauté pour prendre connaissance du cycle de vie d’un projet.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 7df65804882833d8a840634d0d4007142e6a72de
+source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 30%
+source-wordcount: '151'
+ht-degree: 29%
 
 ---
 
@@ -52,7 +52,7 @@ Visitez la [communauté des utilisateurs Adobe Learning Manager](https://communi
     <img alt="prise en main de live hub" src="assets/getting-started-live-hub.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>Prise en main de Live Hub</strong></a>
+    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>Prise en main de Live Hub (Beta)</strong></a>
     </div>
    </td>
   </tr>

@@ -1,9 +1,9 @@
 ---
-title: Configuration de l’écran de pré-jointure dans Live Hub
+title: Configuration de l’écran de pré-jointure dans Live Hub (Beta)
 description: Découvrez comment fonctionne l’écran de pré-jointure Live Hub, comment autoriser les autorisations du navigateur et comment configurer les commandes audio et de caméra avant de rejoindre une session.
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
