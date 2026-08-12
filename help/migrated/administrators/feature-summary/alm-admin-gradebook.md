@@ -2,9 +2,9 @@
 description: Tout sur l’activation du Gradebook et sa visibilité pour les auteurs et les élèves
 jcr-language: en_us
 title: Classeur pour l’administrateur
-source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
+source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Vous pouvez télécharger un relevé de notes de l’élève filtré pour ce cou
 * Dans le **Carnet de notes de retour d&#39;informations actif**, sélectionnez **Télécharger le relevé de notes de l&#39;élève** dans le coin supérieur droit de la page.
 * Sur la page d&#39;accueil de l&#39;administrateur, sélectionnez **Rapports**, puis **Rapports personnalisés**. Sélectionnez **Relevés de notes des élèves** dans la liste des rapports disponibles.
 
-Voir Signaler les modifications dans la version pour plus d’informations.
+>[!NOTE]
+>
+>Le relevé de notes de l’élève (rapport CSV et API des tâches) verra le coefficient ajouté sous forme de colonne lorsque le carnet de notes sera activé au niveau du cours.
+
 
 ## Événements de piste d’audit de contenu
 
