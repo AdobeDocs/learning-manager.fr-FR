@@ -2,7 +2,7 @@
 title: Aide de Adobe Learning Manager Content Composer (Beta)
 description: Du langage clair à un cours publié, le compositeur de contenu Adobe Learning Manager gère la conception pédagogique afin que vous puissiez vous concentrer sur les besoins des élèves en créant du contenu pédagogique percutant.
 contentowner: saghosh
-source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
+source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Les fonctionnalités Beta peuvent contenir des défauts et sont fournies « EN L’ÉTAT » sans garantie d’aucune sorte. Adobe a la seule discrétion de rendre les fonctionnalités bêta généralement disponibles. Adobe n’a aucune obligation de maintenir, de corriger, de mettre à jour, de modifier ou de prendre en charge d’une autre manière (par le biais des Services d’assistance d’Adobe ou autrement) les fonctionnalités bêta. Si une fonctionnalité Beta devient disponible de manière générale, elle peut être soumise à des conditions générales supplémentaires, y compris les frais applicables. Les fonctionnalités Beta peuvent être modifiées sans préavis, y compris être arrêtées. Il est conseillé aux clients d’être prudents et de ne pas compter de quelque manière que ce soit sur le fonctionnement ou les performances ininterrompus ou sans erreur des fonctionnalités bêta. Par conséquent, toute utilisation des fonctionnalités Beta est entièrement à la charge du Client. Les fonctionnalités du produit et la documentation associée peuvent changer au fur et à mesure de leur évolution. Cette documentation reflète l’expérience Beta actuelle et ne doit pas être considérée comme une documentation finale ou complète du produit.
 
-**Du concept au cours en quelques minutes**
+## Du concept au cours en quelques minutes
 
 Adobe Learning Manager Content Composer est un outil de création de cours d’IA qui transforme une invite en langage clair en un cours structuré et prêt à être publié, comprenant des leçons, des évaluations et des médias, sans nécessiter d’expérience préalable de conception pédagogique.
 
@@ -34,14 +34,13 @@ Le compositeur de contenu guide les auteurs à travers les objectifs de formatio
 
 >[!IMPORTANT]
 >
->Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/fr/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
+>Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
 
-
-## Essayer le compositeur de contenu {#trycontent-composer}
+## Essayer le compositeur de contenu
 
 Prêt à créer votre premier cours ? Ouvrez le compositeur de contenu et passez d’une invite en langage clair à un cours prêt à la publication en un rien de temps.
 
-[**Essayer le compositeur de contenu**](https://contentcomposer.adobe.io/)
+**[Essayer le → du compositeur de contenu](https://contentcomposer.adobe.io/)**
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
