@@ -4,10 +4,10 @@ title: Impossible de rechercher un cours dans Learning Manager
 description: Un élève ne peut pas rechercher un cours dans Learning Manager.
 contentowner: nluke
 exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 55%
+source-wordcount: '308'
+ht-degree: 61%
 
 ---
 
@@ -29,7 +29,7 @@ Dans Learning Manager, lorsqu’un élève est inscrit par le biais d’un progr
 
 Par conséquent, l’élève ne peut pas rechercher les cours autonomes sous **Mon apprentissage**.
 
-Cependant, l’élève ne peut pas afficher les cours dans le programme d’apprentissage/la certification.
+Cependant, l’élève peut afficher les cours dans le programme d’apprentissage/la certification.
 
 ## Scénario 2 : l’élève n’a pas accès au catalogue contenant le cours.
 
@@ -59,7 +59,7 @@ Ce problème se produit si :
 
    * L’élève ne fait pas partie du catalogue
 
-     Pour partager le catalogue, cliquez sur **[!UICONTROL Ajouter]** et ajoutez le groupe d&#39;utilisateurs auquel appartient l&#39;utilisateur. Cliquez sur **[!UICONTROL Enregistrer]**.
+     Pour partager le catalogue, cliquez sur **[!UICONTROL Ajouter]**, puis ajoutez le groupe d’utilisateurs auquel appartient l’utilisateur. Cliquez sur **[!UICONTROL Enregistrer]**.
 
      ![](assets/cp-add-user-group.png)
 

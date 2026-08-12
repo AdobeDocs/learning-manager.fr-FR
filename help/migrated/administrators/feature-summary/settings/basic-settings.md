@@ -3,9 +3,9 @@ description: En savoir plus sur la façon dont les paramètres de base vous aide
 jcr-language: en_us
 title: Paramètres de base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '5921'
+source-wordcount: '6363'
 ht-degree: 4%
 
 ---
@@ -269,6 +269,8 @@ Cette option supprime les utilisateurs qui n’accèdent pas à Adobe Learning M
 
 Supprimez automatiquement et définitivement du système les utilisateurs qui ont été à l’état Supprimé pendant une durée spécifiée. Une fois vidées, toutes les données utilisateur associées sont définitivement supprimées et ne peuvent pas être récupérées.
 
+Si cette option est activée, purge les données des utilisateurs qui ont déjà été supprimés dans ALM après le nombre de jours spécifié.
+
 ### Afficher les étiquettes de catalogue
 
 Cette option permet à un auteur de définir des étiquettes de catalogue lors de la création d&#39;un objet d&#39;apprentissage. Un élève voit ensuite les étiquettes de catalogue dans la section Catalogue de l’application de l’élève. Ces étiquettes aident les élèves à identifier et à différencier les différents catalogues disponibles. Si l’option est désélectionnée, les cours ou les objets d’apprentissage passent au catalogue par défaut.
@@ -346,7 +348,7 @@ Fonctionnement :
 >* Adobe Learning Manager ne fournit pas de compte Badgr dans le cadre de l’intégration. Les élèves doivent créer leur propre compte Badgr.
 >* Les élèves peuvent configurer leur compte Badgr directement à partir de la page Badges de l’application de l’élève.
 
-Pour plus d&#39;informations, voir Prise en charge des badges Badgr[&#128279;](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).
+Pour plus d&#39;informations, voir Prise en charge des badges Badgr](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges).[
 
 ### Afficher les évaluations
 
@@ -623,9 +625,9 @@ Les responsables peuvent marquer l’achèvement du cours via :
 
 * Module Liste de contrôle : Le module Liste de contrôle permet aux responsables d&#39;évaluer les performances des élèves en fonction de tâches ou de critères spécifiques. Les auteurs doivent activer ce module lors de la création du cours et affecter des responsables en tant que réviseurs.
 * Page du cours : sur la page du cours :
-a. Sélectionnez l&#39;onglet **[!UICONTROL Élèves]** dans le volet de gauche.
-b. Sélectionnez l’élève dont vous souhaitez marquer l’assiduité.
-c. Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Marquer comme terminé]**.
+a.    Sélectionnez l&#39;onglet **[!UICONTROL Élèves]** dans le volet de gauche.
+b.    Sélectionnez l’élève dont vous souhaitez marquer l’assiduité.
+c.    Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Marquer comme terminé]**.
 
 **Remarques supplémentaires :**
 
@@ -642,7 +644,7 @@ i. Les élèves déjà inscrits au cours ou au parcours d’apprentissage retir�
 ii. Ils peuvent continuer à effectuer des actions telles que terminer le cours ou consulter le matériel.
 b. Élèves non encore inscrits :
 i. Les élèves qui ne sont pas inscrits au cours ou au parcours d’apprentissage avant son retrait ne verront plus le contenu dans le catalogue.
-ii. Ils perdront entièrement l’accès au contenu retiré.
+ii. Ils perdront complètement l’accès au contenu retiré.
 2. Une fois retirés, les élèves inscrits et non encore inscrits perdront l’accès :
 a. Élèves inscrits :
 i. Les élèves qui étaient déjà inscrits au cours ou au parcours d’apprentissage perdront l’accès au contenu une fois qu’il sera retiré.
