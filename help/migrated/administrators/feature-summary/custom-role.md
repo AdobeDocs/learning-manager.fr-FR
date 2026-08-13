@@ -4,7 +4,7 @@ title: Rôles personnalisés
 description: La fonctionnalité Parcours d’apprentissage vous aide à définir des rôles personnalisés et à affecter des responsabilités spécifiques à un ensemble d’utilisateurs. Cette fonction vous permet d'attribuer des responsabilités en dehors du rôle existant de la personne.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
+source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
 workflow-type: tm+mt
 source-wordcount: '5467'
 ht-degree: 24%
@@ -524,7 +524,7 @@ Après avoir affecté des utilisateurs à un rôle personnalisé supplémentaire
 
 >[!NOTE]
 >
->Vous pouvez attribuer jusqu’à 50 rôles à chaque utilisateur et ajouter jusqu’à 500 utilisateurs à chaque rôle.
+>Vous pouvez attribuer jusqu’à 50 rôles à chaque utilisateur et ajouter jusqu’à 3 500 utilisateurs à chaque rôle.
 
 ### Attribution de plusieurs rôles personnalisés à l’aide du fichier CSV
 
@@ -539,7 +539,7 @@ Le fichier user_role.csv comprend les champs Rôle personnalisé et ID utilisate
 
 Le fichier role.csv comprend les champs, le rôle personnalisé, la source de création et des informations détaillées pour les catalogues, les utilisateurs, les cours, les parcours d’apprentissage, etc.
 
-Si le fichier CSV contient des données incorrectes ou dépasse les limites (50 rôles par utilisateur et 500 utilisateurs par rôle), un message s’affiche et indique les erreurs.
+Si le fichier CSV contient des données incorrectes ou dépasse les limites (50 rôles par utilisateur et 3 500 utilisateurs par rôle), un message s’affiche et indique les erreurs.
 
 ![](assets/error-custom-role.png)
 _Notification d’erreur pour les rôles personnalisés_
