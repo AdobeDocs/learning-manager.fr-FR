@@ -2,9 +2,9 @@
 title: Aide de Adobe Learning Manager Content Composer (Beta)
 description: Du langage clair à un cours publié, le compositeur de contenu Adobe Learning Manager gère la conception pédagogique afin que vous puissiez vous concentrer sur les besoins des élèves en créant du contenu pédagogique percutant.
 contentowner: saghosh
-source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
+source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Le compositeur de contenu guide les auteurs à travers les objectifs de formatio
 
 >[!IMPORTANT]
 >
->Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/fr/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
+>Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
+
+>[!NOTE]
+>
+>Pour une expérience optimale avec le compositeur de contenu, Google Chrome est recommandé. Firefox et Safari peuvent présenter des différences de fonctionnalité ou de comportement.
 
 ## Essayer le compositeur de contenu
 
