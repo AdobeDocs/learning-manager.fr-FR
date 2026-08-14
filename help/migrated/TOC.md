@@ -2,9 +2,9 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 37%
 
 ---
@@ -364,7 +364,7 @@ ht-degree: 37%
     * Enregistrements et transcriptions{#recordings-and-transcripts}
       * [Compréhension des enregistrements et des transcriptions](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [Enregistrer une session](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [Afficher les enregistrements en tant qu’élève](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [Afficher les enregistrements de session en tant qu’élève](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * Tableau de bord de session {#session-dashboard}
       * [Afficher le tableau de bord de session](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [Composants du tableau de bord de session](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)

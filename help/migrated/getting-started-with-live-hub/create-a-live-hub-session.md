@@ -1,9 +1,9 @@
 ---
 title: Création d’une session Live Hub (Beta)
 description: Découvrez comment créer un cours Live Hub, ajouter des instances de cours, affecter des instructeurs avec le Finder d'instructeurs, inscrire des élèves et personnaliser l'image de marque de la salle.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Pour ajouter des instructeurs à l’aide du Finder d’instructeurs :
    ![Recommendations de l&#39;instructeur du panneau Assistant d&#39;IA](assets/ai-assistant-panel-instructor-recommendations.png)
    *Utilisez le panneau de l&#39;Assistant IA pour obtenir des recommandations d&#39;instructeur et de créneau horaire en fonction des détails de la session.*
 
-1. Consultez la liste des instructeurs recommandés. Le Finder des instructeurs recommande les instructeurs en fonction des compétences du cours et des exigences de la session. Recommendations tient également compte de la disponibilité et de l’utilisation des instructeurs, ainsi que du calendrier des vacances de votre organisation. Voir **Gestion des instructeurs** pour plus d&#39;informations.
+1. Consultez la liste des instructeurs recommandés.
 
 1. Accédez à l’instructeur que vous souhaitez affecter, puis sélectionnez **Ajouter**. <br> L&#39;instructeur sélectionné est ajouté au champ **Instructeurs** en tant que balise.
 

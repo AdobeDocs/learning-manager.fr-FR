@@ -1,9 +1,9 @@
 ---
 title: Bonnes pratiques pour une session Live Hub (Beta)
 description: Suivez ces bonnes pratiques pour préparer, exécuter et suivre une session Live Hub dans Adobe Learning Manager, pour les auteurs, les administrateurs, les instructeurs et les élèves.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1885'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Bonnes pratiques pour une session Live Hub (Beta)
 
-Un cours Live Hub dans Adobe Learning Manager réunit les instructeurs et les élèves pour une formation en temps réel, avec chat, sondages, questionnaires, tableaux blancs, salles d&#39;ateliers, enregistrement et analyses. Cet article explique comment effectuer chaque tâche. Ce document est son compagnon : il explique comment bien les faire.
+Un cours Live Hub dans Adobe Learning Manager réunit les instructeurs et les élèves pour une formation en temps réel, avec des fonctionnalités interactives telles que le chat, les sondages, les quiz, les tableaux blancs, les salles d&#39;atelier, les enregistrements et les analyses. Ce guide d’accompagnement est axé sur les pratiques que les administrateurs, les auteurs et les instructeurs peuvent adopter pour créer une expérience d’apprentissage fluide, attrayante et efficace.
 
 Chaque session Live Hub passe par trois phases. Ce guide suit le même rythme, et la plupart des efforts qui déterminent le succès d&#39;une session se produisent avant que quiconque ne se joigne à la salle.
 

@@ -1,9 +1,9 @@
 ---
 title: Live Hub (Beta) Foire aux questions
 description: Questions fréquentes sur Live Hub dans Adobe Learning Manager, organisées par rôle pour les administrateurs, les auteurs, les instructeurs et les élèves.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4473'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-Live Hub inclut les rôles d’administrateur, d’auteur, d’instructeur et d’élève, chacun étant responsable d’une partie différente du workflow de formation. Ce document réorganise le contenu original des FAQ de Live Hub par rôle, afin que chaque public puisse trouver rapidement les questions les plus pertinentes pour lui.
+Live Hub inclut les rôles d’administrateur, d’auteur, d’instructeur et d’élève, chacun étant responsable d’une partie différente du workflow de formation. Ce document organise les questions fréquentes de Live Hub par rôle, afin que chaque public puisse trouver rapidement les questions les plus pertinentes pour lui.
 
 ## L’administrateur
 

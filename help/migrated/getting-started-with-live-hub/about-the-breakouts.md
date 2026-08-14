@@ -1,9 +1,9 @@
 ---
 title: À propos des sous-programmes dans Live Hub
 description: Découvrez comment les salles d’atelier permettent aux instructeurs de diviser une session Live Hub en petits groupes pour les discussions, les activités et la collaboration.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ Cette phase est axée sur la collaboration et la participation active.
 
 Cela marque la fin de l’activité d’éclatement et permet la révision post-session.
 
-![Distribution des salles de réunion](assets/breakout-room-distribution.png "Interface Live Hub montrant la répartition des élèves dans les salles de réunion").
+![Distribution en salle de réunion](assets/breakout-room-distribution.png)
+*Interface Live Hub affichant la disposition de la session de découpage*
 
 ## Rôles et autorisations
 
-Les salles d’atelier sont disponibles pour les instructeurs et les élèves. Les actions et commandes disponibles dans le panneau varient en fonction du rôle de l’utilisateur dans la salle de classe virtuelle.
+Des sessions en petits groupes sont disponibles pour les instructeurs et les élèves pendant une session Live Hub. Les actions et commandes disponibles varient en fonction du rôle de l’utilisateur.
 
 | **Instructeurs** | **Élèves** |
 |----|----|

@@ -1,9 +1,9 @@
 ---
 title: Prise en main de Live Hub (Beta)
 description: Découvrez comment Live Hub dans Adobe Learning Manager vous permet d’offrir des sessions de formation en direct, dirigées par un instructeur, directement sur la plateforme.
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ expérience d’apprentissage fluide.
 
 | **Scène** | **Activités clés** |
 |---|---|
-| **Pré-session** | L&#39;administrateur vérifie que la [configuration requise](./system-requirements-for-live-hub.md) est respectée et [active Live Hub](../administrators/feature-summary/enable-live-hub.md) pour le compte. Ils peuvent également inscrire les élèves à un cours. L&#39;auteur [crée le cours Live Hub](create-a-live-hub-session.md) et l&#39;instructeur prépare la salle en [configurant les dispositions](./understand-the-live-hub-layout.md), le contenu et les activités interactives pour la session à venir. |
+| **Pré-session** | L&#39;administrateur vérifie que la [configuration requise](./system-requirements-for-live-hub.md) est respectée et [active Live Hub](../administrators/feature-summary/enable-live-hub.md) pour le compte. L&#39;auteur [crée le cours Live Hub](create-a-live-hub-session.md) et les élèves peuvent s&#39;inscrire eux-mêmes au cours ou l&#39;administrateur peut les inscrire. L&#39;instructeur prépare la salle en [configurant les dispositions](./understand-the-live-hub-layout.md), le contenu et les activités interactives pour la session à venir. |
 | **En cours de session** | L&#39;instructeur donne la session en direct et engage les élèves à l&#39;aide de fonctionnalités telles que le [chat](about-the-chat-panel.md), les [sondages](./about-the-polls.md), les [quiz](./about-the-quiz.md), les [tableaux blancs](./about-the-whiteboard.md), le [partage d&#39;écran](./about-the-screen-sharing.md) et les [salles d&#39;atelier](./about-the-breakouts.md). Les élèves participent à ces activités tout au long de la session. L&#39;instructeur peut [enregistrer la session](./record-a-session.md) pour la rendre disponible afin que les élèves puissent la consulter ultérieurement. |
 | **Post-session** | L&#39;instructeur examine les enregistrements de session, les rapports de présence et les [analyses de l&#39;engagement](./view-the-session-dashboard.md) pour évaluer la participation de l&#39;élève et l&#39;efficacité de la session. Les élèves peuvent revenir sur la session via une vue d&#39;[enregistrement par rubrique](./view-recordings-as-a-learner.md) qui divise l&#39;enregistrement en rubriques accessibles, chacune avec un titre, une présentation et des notes, afin de pouvoir accéder à n&#39;importe quelle rubrique ou la lire au lieu de la regarder. |
 

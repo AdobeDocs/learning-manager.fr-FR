@@ -3,9 +3,9 @@ description: En savoir plus sur la façon dont les paramètres de base vous aide
 jcr-language: en_us
 title: Paramètres de base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
+source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
 workflow-type: tm+mt
-source-wordcount: '6363'
+source-wordcount: '6386'
 ht-degree: 4%
 
 ---
@@ -431,6 +431,8 @@ Lorsque cette option est activée, les élèves peuvent envoyer et suivre les ac
 
 Active la fonctionnalité Apprentissage externe pour tous les élèves du compte. Une fois activé, un formulaire d’envoi devient disponible sur le tableau de bord des élèves. Les élèves peuvent saisir des détails tels que le nom de la formation, sa durée, la date, le score et le justificatif d’accomplissement. La soumission est envoyée à son responsable pour révision et approbation. Les envois approuvés apparaissent dans le relevé de notes de l’élève et dans les rapports de l’administrateur. Les soumissions rejetées ne sont pas enregistrées dans la transcription.
 
+![Sélectionnez Activer pour activer les envois d&#39;apprentissage externes d&#39;un élève](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >L’activation de ce paramètre ajoute de nouvelles colonnes au relevé de notes de l’élève pour les soumissions d’apprentissage externes. Si votre organisation utilise des workflows ou des intégrations automatisés qui traitent les données du relevé de notes de l’élève, vérifiez-les avant de les activer pour vous assurer de la compatibilité avec la structure du relevé de notes mise à jour.
@@ -502,6 +504,8 @@ Les administrateurs peuvent ajouter jusqu’à 10 champs personnalisés pour cap
 | Nombre | Saisie numérique. |
 | Case à cocher | Bouton Oui/Non unique. |
 | Liste déroulante | Sélection unique dans une liste d’options définie par l’administrateur. |
+
+![Sélectionnez les champs principaux et personnalisés qu’un élève utilise pour soumettre un apprentissage externe](../assets/external-learning-fields.png)
 
 ### Exigences relatives au fichier de preuve d’accomplissement
 
