@@ -1,10 +1,10 @@
 ---
-description: L’éditeur de cours s’ouvre automatiquement après la génération. Passez en revue l’ensemble du contenu, du texte, des images, des vérifications de connaissances et du quiz avant de le partager ou de le publier. La sortie AI peut varier et nécessite la vérification de l’auteur.
+description: Découvrez comment examiner le contenu du cours généré par l'IA dans l'éditeur de cours du compositeur de contenu avant de le partager ou de le publier, car la sortie IA peut varier.
 jcr-language: en_us
 title: Passer en revue le cours généré
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

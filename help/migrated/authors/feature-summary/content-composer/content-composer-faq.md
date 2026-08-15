@@ -1,10 +1,10 @@
 ---
-description: Trouvez des réponses aux questions les plus fréquentes sur le compositeur de contenu, notamment pourquoi l’option Générer le contour est grisée, comment renommer une leçon, pourquoi les questions du quiz semblent mal alignées et ce qu’il faut faire lorsque Publish est désactivé.
+description: Trouvez des réponses aux questions courantes du compositeur de contenu sur la modification des contours, le comportement du quiz, la compatibilité des Captivate, la publication et le partage pour révision.
 jcr-language: en_us
 title: FAQ sur Adobe Learning Manager Content Composer
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -65,3 +65,114 @@ Seules les évaluations de quiz de fin de leçon sont notées. Si vous avez beso
 **Les questions du quiz ne correspondent pas à ce que le cours enseigne. Comment résoudre ce problème ?**
 
 Le compositeur de contenu utilise l&#39;IA pour générer des questions de quiz, et la sortie IA est non déterministe. Les questions ne reflètent pas toujours exactement ce à quoi vous vous attendez. Passez en revue toutes les questions du quiz après la génération du cours, modifiez celles qui nécessitent un ajustement directement dans l&#39;éditeur de cours et vérifiez que le contenu est exact avant de le publier.
+
+## À propos du partage pour révision
+
+**Qu’est-ce que le partage pour révision dans le compositeur de contenu ?**
+
+Partager pour révision vous permet de distribuer un cours aux réviseurs pour obtenir des commentaires avant de le publier. Les réviseurs ouvrent le cours dans un navigateur, ajoutent des commentaires sur n’importe quel composant et tentent le quiz, sans avoir à installer le compositeur de contenu ou à s’abonner.
+
+**Les réviseurs ont-ils besoin d’une licence de compositeur de contenu ?**
+
+Non. Les réviseurs n’ont pas besoin d’un abonnement ou d’une installation du compositeur de contenu. Toute personne disposant du lien de révision peut ouvrir le cours dans son navigateur.
+
+**Les réviseurs ont-ils besoin d’un Adobe ID pour participer ?**
+
+Oui. La révision d&#39;un cours nécessite une connexion, par conséquent un Adobe ID est requis pour participer. Une fois connectés, les réviseurs peuvent ouvrir le cours, ajouter des commentaires, tenter le quiz et utiliser @mentions pour baliser l’auteur ou les autres réviseurs.
+
+**Les réviseurs peuvent-ils modifier le contenu du cours ?**
+
+Non. L’accès en révision est réservé aux commentaires. Les réviseurs peuvent ajouter des commentaires, y répondre, les résoudre et les filtrer, mais ils ne peuvent pas modifier le texte, les images ou la structure du cours.
+
+Où sont stockés les fichiers de révision ? Les fichiers de révision sont hébergés dans le cloud d’Adobe. Les auteurs n&#39;ont pas besoin de gérer le stockage des fichiers ou d&#39;envoyer directement les fichiers de cours aux réviseurs.
+
+### Partage et accès
+
+**Qui peut accéder à un lien de révision ?**
+
+Par défaut, seules les personnes que vous invitez par nom ou adresse e-mail peuvent accéder au projet. Vérifiez cela dans la section Qui a accès du panneau Partager le projet avant d’envoyer le lien.
+
+**Puis-je inviter des parties prenantes externes qui ne sont pas des utilisateurs Adobes ?**
+
+Oui, vous pouvez inviter n’importe qui par adresse électronique. Cependant, ils ont besoin d’un compte Adobe pour se connecter et consulter le cours.
+
+**Puis-je ajouter des réviseurs une fois que la révision a déjà commencé ?**
+
+Oui. Ouvrez le panneau Partager le projet à tout moment, ajoutez des noms ou des adresses e-mail, puis sélectionnez Inviter à commenter. Les nouveaux réviseurs reçoivent immédiatement une invitation.
+
+**Puis-je supprimer un réviseur après le partage ?**
+
+Oui. Dans le panneau Partager le projet, recherchez le réviseur sous Qui a accès et supprimez-les. S’ils tentent d’ouvrir le cours à l’aide d’un lien précédemment partagé, un message de refus d’accès s’affiche.
+
+**Que se passe-t-il si un réviseur perd l’accès ?**
+
+Ils peuvent sélectionner Demander l’accès sur l’écran Accès refusé. Le propriétaire du cours reçoit une notification pour rétablir l’accès.
+
+### Commentaires et commentaires
+
+Les réviseurs peuvent-ils commenter une partie spécifique du cours ?
+
+Oui. Les réviseurs sélectionnent n&#39;importe quel composant du cours (un bloc de texte, une image ou une question de quiz) et ajoutent un commentaire directement sur cet élément. Les commentaires restent contextuellement liés au composant sur lequel ils ont été ajoutés.
+
+**Plusieurs réviseurs peuvent-ils commenter en même temps ?**
+
+Oui. Tous les réviseurs voient les commentaires des autres dans le panneau Commentaires et peuvent y répondre, les résoudre ou s’@mention mutuellement.
+
+**Puis-je filtrer les commentaires pour trouver les commentaires non résolus ?**
+
+Oui. Utilisez le filtre Résolu dans le panneau Commentaires pour afficher uniquement les commentaires non résolus. Vous pouvez également filtrer par Réviseurs pour voir les commentaires d’une personne spécifique ou par Heure pour trouver les commentaires les plus récents.
+
+**Comment baliser un autre réviseur dans un commentaire ?**
+
+Tapez @ suivi de leur nom ou de leur adresse e-mail et sélectionnez-les dans la liste déroulante. Les utilisateurs balisés reçoivent une notification. Pour cela, le réviseur doit être connecté avec un Adobe ID.
+
+#### Quiz et accès des élèves
+
+**Les réviseurs peuvent-ils répondre au quiz ?**
+
+Oui. Les réviseurs peuvent tenter le quiz jusqu’au nombre spécifié de tentatives. Leurs scores ne sont pas enregistrés et n’affectent pas le cours ou les rapports du LMS.
+
+**Quelle est la différence entre le partage pour révision et le partage pour les élèves ?**
+
+L’option Partager pour révision donne accès au cours avec le panneau de commentaires activé. Il est destiné aux collègues et aux parties prenantes qui donnent leur avis. L’option Partager pour les élèves donne accès au cours sans commentaires, destinée aux élèves qui ne sont pas inscrits via un LMS. Les scores des élèves ne sont pas non plus enregistrés via un lien direct.
+
+### Mise à jour et fermeture d’une révision
+
+**Dois-je créer une nouvelle révision après avoir apporté des modifications ?**
+
+Non. L’URL de révision reste la même après la mise à jour du cours. Sélectionnez **Partager** pour informer les réviseurs qu&#39;une version mise à jour est disponible.
+
+**Les réviseurs seront-ils informés lorsque je mettrai à jour le cours ?**
+Les réviseurs voient une bannière de notification lorsqu’ils ouvrent le lien de révision après une mise à jour. Ils peuvent sélectionner Recharger pour afficher la dernière version.
+
+**Les anciens commentaires sont-ils conservés après une mise à jour du cours ?**
+
+Oui. Les commentaires existants sont conservés sur toutes les mises à jour. Les réviseurs et les auteurs peuvent continuer à résoudre les commentaires sur la version mise à jour.
+
+**Qu’advient-il d’un lien d’élève après la mise à jour du cours ?**
+
+Le lien existant de l&#39;élève continue d&#39;afficher la version précédente. Générez un nouveau lien après chaque mise à jour et partagez-le avec les élèves pour vous assurer qu’ils accèdent au contenu le plus récent.
+
+**Comment afficher les mises à jour du projet ?**
+
+Si l&#39;auteur met à jour le cours pendant que vous le révisez, une notification s&#39;affiche.
+
+![](../assets/68_newer_version_available_reload_notification.png)
+
+- Sélectionnez **Recharger** pour charger la dernière version ou ignorez la notification pour continuer la révision de la version actuelle. Le rechargement est sécurisé : vos commentaires existants persistent même après les mises à jour du projet, de sorte que vous ne perdrez pas les commentaires que vous avez déjà ajoutés.
+
+## Tenter le quiz en tant que réviseur
+
+En tant que réviseur, vous pouvez tenter le quiz jusqu’au nombre de fois spécifié, mais vos scores ne sont pas enregistrés.
+
+- Sélectionnez **DÉMARRER LE QUIZ** pour tenter de répondre au quiz.
+
+  ![](../assets/66_final_quiz_start_screen_attempts_info.png)
+
+- Une fois l’opération terminée, les résultats s’affichent. À partir de là, vous pouvez sélectionner Vérifier les réponses pour voir quelles questions ont été bonnes ou mauvaises, ou Répondre à nouveau au quiz pour réessayer.
+
+  ![](../assets/67_quiz_results_attempts_remaining_reviewer.png)
+
+
+
+

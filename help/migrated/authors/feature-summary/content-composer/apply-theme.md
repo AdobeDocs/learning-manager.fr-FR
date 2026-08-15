@@ -1,10 +1,10 @@
 ---
-description: Découvrez comment appliquer un thème de cours dans le compositeur de contenu. Parcourez les thèmes par défaut et personnalisés, utilisez la barre de recherche pour trouver un thème par nom et appliquez-le à l’ensemble du cours avec une seule sélection.
+description: Découvrez comment appliquer un thème de cours dans le compositeur de contenu. Parcourez les thèmes par défaut et personnalisés, effectuez une recherche par nom et appliquez instantanément l’ensemble du cours.
 jcr-language: en_us
 title: Application d’un thème
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---

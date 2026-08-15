@@ -1,10 +1,10 @@
 ---
-description: Découvrez comment modifier les polices d’en-tête et de corps dans le compositeur de contenu en modifiant un thème. Faites votre choix parmi les options de police disponibles et enregistrez-les en tant que nouveau thème personnalisé ou remplacez-en un existant.
+description: Découvrez comment modifier les polices d’en-tête et de corps dans le compositeur de contenu en modifiant un thème, puis en enregistrant les modifications ou en créant un thème personnalisé.
 jcr-language: en_us
 title: Modification des polices
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

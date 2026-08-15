@@ -1,10 +1,10 @@
 ---
-description: Chargez des documents, stratégies ou platines existants pour ancrer l’IA dans le contenu de votre entreprise. Choisissez de limiter la génération à ces fichiers uniquement ou de laisser l’IA compléter ses connaissances générales.
+description: Découvrez comment télécharger des fichiers source dans le compositeur de contenu, restreindre la sortie AI à votre contenu et mettre à jour les fichiers source lorsque des modifications importantes sont apportées.
 jcr-language: en_us
 title: Gestion des fichiers source
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---

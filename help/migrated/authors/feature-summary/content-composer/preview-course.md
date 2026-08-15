@@ -1,10 +1,10 @@
 ---
-description: L’aperçu affiche le cours exactement comme les élèves le verront, avec le thème appliqué, les composants interactifs actifs actifs et le quiz en mode réponse. Utilisez-le pour vérifier le contenu et les interactions avant la publication.
+description: Découvrez comment prévisualiser un cours du compositeur de contenu exactement tel que les élèves le verront, avec le thème appliqué, les composants et le quiz actifs.
 jcr-language: en_us
 title: Aperçu du cours
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

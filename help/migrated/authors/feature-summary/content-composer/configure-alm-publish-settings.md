@@ -1,10 +1,10 @@
 ---
-description: Découvrez comment connecter le compositeur de contenu à Adobe Learning Manager, configurer les détails de publication et déployer votre cours fini directement dans la bibliothèque de contenu ALM en tant que module, sans exportation SCORM manuelle.
+description: Découvrez comment connecter Content Composer à Adobe Learning Manager, configurer les détails de publication et déployer votre cours dans la bibliothèque de contenu ALM.
 jcr-language: en_us
 title: Se connecter et publier sur Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: Sélectionnez une image pour régler la taille, la luminosité, la saturation et la transparence. Remplacez-le par un fichier chargé, une ressource Adobe Stock ou une image générée par l’IA à l’aide d’une description en langage clair.
+description: 'Apprenez à modifier une image dans le compositeur de contenu : réglez la taille, la luminosité et la saturation, ou remplacez-la par une image téléchargée, Adobe Stock ou AI.'
 jcr-language: en_us
 title: Modifier ou ajouter une image
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

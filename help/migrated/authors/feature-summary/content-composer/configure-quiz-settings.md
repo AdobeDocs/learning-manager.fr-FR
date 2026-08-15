@@ -1,10 +1,10 @@
 ---
-description: Définissez les reprises de quiz, les limites de temps, l’ordre des questions et les scores de réussite dans le compositeur de contenu. Découvrez comment chaque paramètre de quiz affecte l’expérience de l’élève et comment les scores sont rapportés à votre système de gestion de l’apprentissage.
+description: Découvrez comment configurer les paramètres de reprises de quiz, de limites de temps, d’ordre des questions, de réorganisation et de score SCORM dans le compositeur de contenu.
 jcr-language: en_us
 title: Configuration des paramètres du quiz
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

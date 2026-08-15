@@ -1,10 +1,10 @@
 ---
-description: Sélectionnez un élément de texte pour activer la barre d’outils de formatage en ligne. Modifiez le corps du texte, les titres et les étiquettes directement sur la zone de travail. Renommez les leçons et les rubriques via l’assistant et non en sélectionnant des titres.
+description: Apprenez à modifier le texte du cours dans le compositeur de contenu à l'aide de la barre d'outils de formatage en ligne et à renommer les leçons et les rubriques via l'assistant.
 jcr-language: en_us
 title: Modifier le texte du cours
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---

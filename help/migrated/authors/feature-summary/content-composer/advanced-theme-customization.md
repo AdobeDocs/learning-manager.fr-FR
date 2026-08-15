@@ -1,10 +1,10 @@
 ---
-description: Apprenez à utiliser les propriétés de thème avancées dans le compositeur de contenu pour personnaliser des éléments de texte individuels, notamment les noms des leçons, des rubriques, des en-têtes de bloc, des légendes et des paragraphes, avec des commandes de police et de style granulaires.
+description: Découvrez comment utiliser les propriétés de thème avancées dans le compositeur de contenu pour personnaliser les polices, les couleurs, l’espacement et la mise en page des titres et des éléments de texte.
 jcr-language: en_us
 title: Personnalisation avancée du thème
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
