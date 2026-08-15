@@ -1,10 +1,10 @@
 ---
-description: Chargez vos stratégies, procédures ou platines et limitez l’IA à ce contenu uniquement. Cela garantit que les cours générés reflètent la langue exacte de votre organisation, ce qui est essentiel pour la formation en matière de conformité, de réglementation et de procédures.
+description: Apprenez à ancrer des cours du compositeur de contenu dans vos propres documents en limitant la sortie de l'IA à vos politiques, procédures ou platines uniquement.
 jcr-language: en_us
 title: Fondez votre cours sur vos propres documents
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

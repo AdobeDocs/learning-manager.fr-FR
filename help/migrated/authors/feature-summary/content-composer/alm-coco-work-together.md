@@ -1,10 +1,10 @@
 ---
-description: Découvrez comment le compositeur de contenu et Adobe Learning Manager divisent les responsabilités en matière de création et de livraison, comment un cours terminé passe du compositeur de contenu à la bibliothèque de contenu ALM, et comment le suivi des élèves et la génération de rapports fonctionnent après la publication.
+description: Découvrez comment Content Composer gère la création et Adobe Learning Manager la livraison, le suivi et le reporting après la publication.
 jcr-language: en_us
 title: Fonctionnement conjoint de Content Composer et de Adobe Learning Manager
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

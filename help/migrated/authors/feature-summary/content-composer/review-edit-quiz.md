@@ -1,10 +1,10 @@
 ---
-description: Un quiz noté s’affiche à la fin du cours, avec une balise pour chaque question par rapport au sujet testé. Modifiez le texte de la question, modifiez la bonne réponse, attribuez des scores ou demandez à l’IA de régénérer des questions.
+description: 'Découvrez comment modifier les questions du quiz dans le compositeur de contenu : modifier les réponses correctes, attribuer des scores, supprimer des questions ou demander à l’IA de les régénérer.'
 jcr-language: en_us
 title: Réviser et modifier le quiz
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

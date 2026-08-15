@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '34007'
 ht-degree: 65%
@@ -37,7 +37,7 @@ Sur le front de l’IA, l’assistant AI pour les élèves acquiert des résumé
 
 La gestion du contenu est renforcée par un créateur de modèles de courrier électronique basé sur les composants WYSIWYG, une structure de dossiers de contenu hiérarchique avec un accès basé sur les rôles, une fonctionnalité Apprentissage externe pour soumettre et approuver des formations hors plateforme, et une nouvelle fonctionnalité Canaux qui agrège le contenu vidéo à partir des pages Web d’entreprise et des pages Confluence.
 
-Pour plus d&#39;informations, voir [Nouveautés et modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/whats-new.md).
+Découvrez les [Nouveautés et modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/whats-new.md).
 
 ## Dernières modifications apportées à la version
 

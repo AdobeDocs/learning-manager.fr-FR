@@ -1,10 +1,10 @@
 ---
-description: Vous devez y accéder via votre abonnement au Creative Cloud pour tester le compositeur de contenu, avoir une idée générale de ce que le cours doit couvrir et éventuellement, accéder aux documents sources pour ancrer l’IA dans le contenu spécifique de votre entreprise.
+description: 'Découvrez ce dont vous avez besoin avant de lancer le compositeur de contenu : un compte de Creative Cloud, Google Chrome et des documents sources facultatifs pour guider l’IA.'
 jcr-language: en_us
 title: Ce dont vous avez besoin avant de commencer
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

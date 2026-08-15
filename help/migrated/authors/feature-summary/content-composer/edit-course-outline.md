@@ -1,10 +1,10 @@
 ---
-description: Passez en revue la leçon et la structure de rubrique générées par l'IA avant de vous engager à générer la totalité du cours. Demandez des modifications via le panneau de conversation. Renommez, ajoutez, supprimez, divisez ou fusionnez des leçons et des rubriques par conversation.
+description: Apprenez à modifier les grandes lignes d’un cours du compositeur de contenu en renommant, ajoutant, supprimant, fractionnant ou fusionnant des leçons et des rubriques dans le panneau de conversation.
 jcr-language: en_us
 title: Modifier le contour du cours
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

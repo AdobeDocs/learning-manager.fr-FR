@@ -1,10 +1,10 @@
 ---
-description: 'L’étape Brief permet de capturer trois informations : le titre du cours, le profil de l’élève et l’objectif d’apprentissage, grâce à une conversation guidée. Les trois champs doivent être remplis pour que l’IA puisse générer une vectorisation.'
+description: 'Apprenez à terminer l’étape de résumé du compositeur de contenu : définissez le titre de votre cours, définissez les élèves et rédigez un objectif avant de générer un plan.'
 jcr-language: en_us
 title: Compléter le résumé du cours
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

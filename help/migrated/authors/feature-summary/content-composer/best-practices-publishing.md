@@ -1,10 +1,10 @@
 ---
-description: Consultez les bonnes pratiques pour connecter le compositeur de contenu à Adobe Learning Manager, notamment quand configurer les critères d’achèvement, comment nommer les modules pour la découvrabilité et comment gérer le contrôle de version entre les mises à jour de cours.
+description: 'Bonnes pratiques pour générer des cours dans le compositeur de contenu : rédaction des objectifs d''apprentissage, révision des contours, restriction de la sortie IA et utilisation des composants.'
 jcr-language: en_us
 title: Bonnes pratiques pour la publication de Content Composer vers ALM
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

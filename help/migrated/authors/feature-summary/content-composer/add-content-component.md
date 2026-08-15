@@ -1,10 +1,10 @@
 ---
-description: Insérez des blocs interactifs et multimédias entre les éléments existants Paragraphe, Image, Vidéo, Flip Card, Accordéon, Montage, Onglet, Carrousel, MCQ et Vrai/Faux à l’aide du sélecteur de composants.
+description: 'Découvrez comment ajouter des blocs de contenu dans le compositeur de contenu : paragraphe, image, vidéo, carte de retournement, accordéon, montage, onglet, carrousel, MCQ et True/False.'
 jcr-language: en_us
 title: Ajout d’un composant de contenu
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
