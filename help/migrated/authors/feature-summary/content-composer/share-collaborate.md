@@ -2,7 +2,7 @@
 description: Découvrez comment partager un cours du compositeur de contenu pour révision avec des collègues ou directement avec des élèves. Comprendre la différence entre les deux flux de partage, les contrôles d’accès et les implications de suivi.
 jcr-language: en_us
 title: Partage et collaboration sur un cours du compositeur de contenu
-source-git-commit: c2e76c6c3e343b571c257c6287eaa1c6b6342e84
+source-git-commit: c9c3345c11cae687ec2c1192129bf941e24160f4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Bientôt disponible !
+>BIENTÔT DISPONIBLE !
 
 Avant la publication, vous pouvez envoyer votre cours aux réviseurs pour obtenir des commentaires. Les réviseurs ouvrent le lien partagé dans un navigateur, ajoutent des commentaires sur n&#39;importe quel composant de cours et tentent le quiz pour prévisualiser l&#39;expérience complète de l&#39;élève. Les auteurs contrôlent l&#39;accès, recueillent des commentaires et mettent à jour le cours sans modifier l&#39;URL de révision. Vous pouvez répondre aux commentaires, mettre à jour le cours et initier des cycles de révision supplémentaires si nécessaire.
 
