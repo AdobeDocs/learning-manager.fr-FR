@@ -2,7 +2,8 @@
 description: Découvrez comment afficher et gérer les commentaires dans le panneau Commentaires du compositeur de contenu, notamment comment répondre, résoudre, mentionner un réviseur à l’aide d’un symbole @, filtrer par réviseur, heure ou statut, et marquer les commentaires comme résolus.
 jcr-language: en_us
 title: Gestion et réponse aux commentaires
-source-git-commit: eb764ba06a5807bead165cbfdbfec0367654ed08
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

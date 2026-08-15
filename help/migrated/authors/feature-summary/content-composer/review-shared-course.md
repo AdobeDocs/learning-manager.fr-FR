@@ -1,8 +1,9 @@
 ---
 description: Découvrez comment ouvrir et réviser un cours du compositeur de contenu partagé pour recueillir des commentaires, y compris comment naviguer dans le cours, ajouter des commentaires, répondre à d'autres réviseurs et baliser d'autres réviseurs.
 jcr-language: en_us
-title: Réviser le cours partagé
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+title: Réviser le projet partagé
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
