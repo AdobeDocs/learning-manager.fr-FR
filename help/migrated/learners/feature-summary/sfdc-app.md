@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: Application Learning Manager pour Salesforce
-description: Salesforce&amp ; trade ; est la solution CRM la plus populaire parmi les équipes commerciales et marketing. Grâce à l’application Adobe Learning Manager dans Salesforce, les élèves peuvent accéder à leur contenu d’apprentissage directement depuis leur interface Salesforce. Les élèves peuvent accéder au contenu d’apprentissage qui leur a été affecté (cours, programmes d’apprentissage, assistances à la tâche, etc.) depuis Salesforce. Les utilisateurs peuvent également recevoir des notifications sur leurs inscriptions et des annonces de la part de l’administrateur.
+description: Salesforce&trade ; est la solution CRM la plus populaire parmi les équipes de vente et de marketing. Grâce à l’application Adobe Learning Manager dans Salesforce, les élèves peuvent accéder à leur contenu d’apprentissage directement depuis leur interface Salesforce. Les élèves peuvent accéder au contenu d’apprentissage qui leur a été affecté (cours, programmes d’apprentissage, assistances à la tâche, etc.) depuis Salesforce. Les utilisateurs peuvent également recevoir des notifications sur leurs inscriptions et des annonces de la part de l’administrateur.
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 62%
+source-wordcount: '502'
+ht-degree: 65%
 
 ---
 
 # Application Learning Manager pour Salesforce
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 Salesforce™ est la solution CRM la plus populaire parmi les équipes de vente et marketing. Grâce à l’application Adobe Learning Manager dans Salesforce, les élèves peuvent accéder à leur contenu d’apprentissage directement depuis leur interface Salesforce. Les élèves peuvent accéder au contenu d’apprentissage qui leur a été affecté (cours, programmes d’apprentissage, assistances à la tâche, etc.) depuis Salesforce. Les utilisateurs peuvent également recevoir des notifications sur leurs inscriptions et des annonces de la part de l’administrateur.
 
@@ -45,7 +45,7 @@ Un instantané représentatif de la vue d’élève de l’application Adobe Le
 
 ## Se déconnecter de l’application {#disconnectfromtheapp}
 
-Vous pouvez cliquer sur le lien de déconnexion en bas de la page des élèves, comme indiqué dans l’instantané ci-dessus, pour vous **déconnecter** de l’application Adobe Learning Manager. Une fois déconnecté, vous êtes redirigé vers la page d’accueil de l’application Adobe Learning Manager.
+Vous pouvez cliquer sur le lien de déconnexion en bas de la page des élèves, comme indiqué dans l’instantané ci-dessus, pour vous **déconnecter** de l’application Adobe Learning Manager. Une fois déconnecté, vous êtes redirigé vers la page d’accueil de l’application Adobe Learning Manager.
 
 Vous pouvez vous connecter ou vous déconnecter de l’application autant de fois que vous le souhaitez.
 

@@ -2,13 +2,13 @@
 title: Directives et limitations d’Experience Builder dans Adobe Learning Manager
 description: Les directives et limitations d’Experience Builder fournissent des suggestions de cours et de contenu personnalisées aux élèves à l’aide d’algorithmes pilotés par l’IA.
 jcr-language: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
-
 
 # Directives et limitations d’Experience Builder
 
@@ -115,13 +115,3 @@ Chaque widget et page possède des ID uniques qui peuvent être utilisés pour d
 * Niveau global : applique les modifications CSS à toutes les pages.
 * Niveau du widget : applique les modifications CSS à des widgets spécifiques.
 * Niveau de page : applique les modifications CSS à tous les widgets d’une page spécifique.
-
-
-
-
-
-
-
-
-
-
