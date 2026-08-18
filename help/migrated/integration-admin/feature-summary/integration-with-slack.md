@@ -5,8 +5,8 @@ description: Intégration de Learning Manager à Slack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 44%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,7 @@ L’application Learning Manager pour Slack n’est pas prise en charge dans une
 
 ## Installation de l’application Adobe Learning Manager {#installingadobecaptivateprimeapp}
 
-En tant qu’élève, vous pouvez installer l’application CP Prime dans votre compte Slack. Pour installer l’application dans votre compte Slack, ouvrez le répertoire d’applications et recherchez Learning Manager. Téléchargez et installez l’application. Si l’application n’est pas approuvée dans votre compte, contactez votre administrateur d’intégration pour obtenir son approbation. Si elle est déjà approuvée, vous pourrez vous connecter.
+En tant qu’élève, vous pouvez installer l’application CP Prime dans votre compte Slack. Pour installer l’application dans votre compte Slack, ouvrez le répertoire d’applications et recherchez Learning Manager. Téléchargez et installez l’application. Si l’application n’est pas approuvée dans votre compte, contactez votre administrateur d’intégration pour qu’il l’approuve. Si elle est déjà approuvée, vous pourrez vous connecter.
 
 ## Approbation de la connexion de l’élève en tant qu’administrateur d’intégration {#approvinglearnersigninasanintegrationadmin}
 
@@ -36,7 +36,7 @@ En tant qu’administrateur d’intégration, pour approuver l’autorisation d�
 
    ![](assets/approval.png)
 
-1. Revenez à la page **[!UICONTROL Applications]**. Une fois approuvé, Slack devrait apparaître dans l&#39;onglet **[!UICONTROL Applications externes]**.
+1. Retournez à la page **[!UICONTROL Applications]**. Une fois approuvée, Slack doit apparaître dans l’onglet **[!UICONTROL Applications externes]**.
 1. Les élèves peuvent désormais se connecter à leur compte Prime via Slack.
 
 ## Fonctionnalités de Primebot {#primebotfunctionalities}

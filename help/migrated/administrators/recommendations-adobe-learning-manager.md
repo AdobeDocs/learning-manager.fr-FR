@@ -5,15 +5,15 @@ description: Recommendations dans Adobe Learning Manager.
 contentowner: saghosh
 source-git-commit: 78957f8dc3bba39c9bb53c6ac8f888d86e18fc95
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 52%
 
 ---
 
 
-# Vue d’ensemble
+# Présentation
 
-Adobe Learning Manager a introduit un système repensé de recommandations de cours. Cette fonctionnalité de recommandations utilise des algorithmes d’IA et les intérêts des utilisateurs tels que les produits, les rôles et les niveaux pour fournir des recommandations de contenu personnalisées.
+Adobe Learning Manager a introduit un nouveau système revisité de recommandations de cours. Cette fonctionnalité de recommandations utilise des algorithmes d’IA et les intérêts des utilisateurs tels que les produits, les rôles et les niveaux pour fournir des recommandations de contenu personnalisées.
 
 Le nouveau système de recommandations vous permet de créer des paramètres personnalisés que les élèves peuvent sélectionner pour recevoir des recommandations personnalisées. Ces recommandations s’affichent en tant que cours, parcours d’apprentissage et certifications dans le flux de la page d’accueil des élèves.
 

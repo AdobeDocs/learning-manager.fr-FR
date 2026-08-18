@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: Page d’accueil de l’élève
-description: Une fois que l’administrateur a activé la mise en page immersive, l’élève, après s’être connecté à l’application, est accueilli par une interface utilisateur complètement remaniée.
+description: Une fois la mise en page immersive activée par l’administrateur, l’élève, après s’être connecté à l’application, est accueilli par une interface utilisateur entièrement remaniée.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 39%
+source-wordcount: '1205'
+ht-degree: 53%
 
 ---
 
 # Page d’accueil de l’élève
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 Une fois que l’administrateur a activé la mise en page immersive, l’élève est accueilli par une interface utilisateur entièrement remaniée lorsqu’il se connecte à l’application.
 
@@ -81,7 +81,7 @@ _Barre latérale et barre de recherche_
 
 ### En-tête {#masthead}
 
-Comprend un carrousel d’images ou de vidéos avec une URL intégrée. L&#39;[administrateur peut charger n&#39;importe quelle image ou ressource vidéo](../../administrators/feature-summary/announcements.md#masthead) en tant qu&#39;en-tête et définir sa visibilité pour un groupe d&#39;élèves.
+Comprend un carrousel vidéo ou d’image avec une URL intégrée. L&#39;[administrateur peut charger n&#39;importe quelle image ou ressource vidéo](../../administrators/feature-summary/announcements.md#masthead) en tant qu&#39;en-tête et définir sa visibilité pour un groupe d&#39;élèves.
 
 ![](assets/learner-masthead.png)
 
@@ -89,7 +89,7 @@ Comprend un carrousel d’images ou de vidéos avec une URL intégrée. L&#39;[a
 
 ### Liste Mon apprentissage {#mylearninglist}
 
-Affiche la formation suivie par l’élève. Ces formations sont affichées sous la forme de cartes alignées horizontalement. Vous pouvez cliquer sur le bouton droit ou gauche pour parcourir les cours.
+Affiche la formation que l’élève a suivie. Ces formations sont affichées sous forme de fiches alignées horizontalement. Vous pouvez cliquer sur le bouton droit ou gauche pour parcourir les cours.
 
 ![](assets/learner-my-learning-list.png)
 
@@ -169,11 +169,11 @@ Les compétences de profil sont utilisées pour les recommandations de cours. Si
 ![](assets/profile-skills.png)
 *Afficher les compétences de profil*
 
-Si un élève s’inscrit à un cours, seules les compétences externes basées sur un score sont ajoutées aux compétences de profil. En outre, un élève peut rechercher, sélectionner et ajouter des compétences externes à son profil. Si un élève s’est connecté à l’application de l’élève pour la première fois et que ses compétences sont déjà présentes, les compétences apparaissent sur Mon profil.
+Si un élève s’inscrit à un cours, seules les compétences externes basées sur un score sont ajoutées aux compétences de profil. En outre, un élève peut rechercher, sélectionner et ajouter des compétences externes à son profil.Si un élève se connecte à l’application de l’élève pour la première fois et que ses compétences sont déjà présentes, les compétences apparaissent dans Mon profil.
 
 ## Recommandé en fonction de vos centres d’intérêt {#recommendationbasedonyourareaofinterest}
 
-Affiche la formation en fonction de votre centre d’intérêt choisi. La recommandation est pilotée par un algorithme de machine learning.
+Affiche la formation en fonction de votre centre d’intérêt choisi. La recommandation sont déclenchées par un algorithme d’apprentissage automatique.
 
 ![](assets/learner-recommendation.png)
 
@@ -185,7 +185,7 @@ Une fois que vous aurez ajouté une compétence, les recommandations futures ser
 
 Si l’administrateur a désactivé l’option **Explorer les compétences**, vous pourrez ajouter un centre d’intérêt à vos compétences.
 
-Les cours recommandés sont affichés sous forme de fiches. Lorsque vous placez le curseur de la souris sur une carte, vous pouvez voir plus de détails sur le cours.
+Les cours recommandés sont affichés sous forme de fiches. Lorsque vous passez la souris sur une fiche, vous pouvez voir plus de détails sur le cours.
 
 La terminologie du produit est également prise en charge.
 
@@ -201,7 +201,7 @@ Dans la visualisation Carte de compétence, vous pouvez rechercher une ou des co
 
 *Visualisation de la carte de compétences*
 
-Activez l&#39;option **Afficher les compétences pour lesquelles des formations sont présentes dans mon compte**, si vous souhaitez afficher toutes les compétences présentes dans votre compte.
+Activez l&#39;option **Afficher les compétences liées aux formations qui apparaissent dans mon compte** si vous souhaitez afficher toutes les compétences figurant dans votre compte.
 
 Après avoir ajouté une compétence, vous pouvez voir le graphique dirigé par la force avec la compétence sélectionnée comme sommet principal et les compétences associées comme sommets plus petits.
 
@@ -215,4 +215,4 @@ Pour ajouter les compétences, cliquez sur **[!UICONTROL Ajouter]**.
 
 ## Recommandation sur la base de l’activité des pairs {#recommendationbasedonpeeractivity}
 
-Affiche la formation en fonction de ce que vos homologues suivent. Ceci est aussi déclenché par un algorithme d’apprentissage automatique. Les recommandations sont basées sur la formation pour les élèves personnalisés et alignés sur le secteur.
+Affiche la formation en fonction de ce qui a été choisi par vos pairs. Ceci est aussi déclenché par un algorithme d’apprentissage automatique. Les recommandations sont basées sur la formation pour les élèves personnalisés et alignés sur le secteur.
