@@ -45,7 +45,7 @@ Pour activer la fonctionnalité **Canaux** :
 
    ![Activer la fonctionnalité Canaux](assets/enable-channels-feature.png)
 
-   *Activez la fonctionnalité Canal dans l&#39;onglet **Paramètres**pour permettre aux administrateurs de créer des canaux pour le compte.*
+   *Activez la fonctionnalité Canal dans l&#39;onglet **Paramètres**&#x200B;pour permettre aux administrateurs de créer des canaux pour le compte.*
 
 1. Activez la fonctionnalité **Canal**.
 
@@ -100,7 +100,7 @@ Créez un canal pour définir la source de contenu que Adobe Learning Manager an
 
    ![Tester la connexion source du canal](assets/test-channel-source-connection.png)
 
-   *Utilisez **Tester maintenant**pour confirmer que les vidéos sont récupérées à partir de la source avant de créer le canal.*
+   *Utilisez **Tester maintenant**&#x200B;pour confirmer que les vidéos sont récupérées à partir de la source avant de créer le canal.*
 
 1. Sélectionnez **Créer un canal**. Le canal est créé et ajouté à la liste **Canaux**.
 
