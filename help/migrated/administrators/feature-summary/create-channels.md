@@ -1,9 +1,9 @@
 ---
 title: Créer des canaux (Beta)
 description: Découvrez comment activer, créer et modifier des canaux dans Adobe Learning Manager pour regrouper le contenu d’apprentissage vidéo à partir de pages web et de pages Confluence Cloud dans un emplacement unique et indexable pour les élèves.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 Les organisations stockent souvent des sessions de partage de connaissances, des enregistrements de formation et d&#39;autres contenus vidéo sur des contenus d&#39;apprentissage informels organisés sur le web et des pages Confluence Cloud. Les canaux connectent Adobe Learning Manager à ces sources de contenu, ce qui facilite la découverte et l’utilisation des vidéos sans que les élèves aient à parcourir plusieurs systèmes. Les canaux vous permettent d’organiser et de partager du contenu de formation basé sur la vidéo à partir de pages Web d’entreprise et de pages Confluence Cloud dans un emplacement unique et indexable. Au lieu de parcourir plusieurs sites internes, les élèves peuvent découvrir et accéder à des enregistrements pertinents directement depuis Adobe Learning Manager. Consultez [Découvrir et interagir avec les canaux](../../learners/feature-summary/discover-and-engage-with-channels.md) pour plus d&#39;informations.
 
-En tant qu’administrateur, vous pouvez créer et gérer des canaux, configurer les paramètres de visibilité, synchroniser le contenu avec sa source et vérifier que les vidéos sont disponibles avant de rendre le canal accessible aux élèves. Cet article explique comment effectuer ces tâches de gestion des canaux.
+En tant qu’administrateur, vous pouvez créer et gérer des canaux, configurer les paramètres de visibilité, synchroniser le contenu avec sa source et vérifier que les vidéos sont disponibles avant de rendre le canal accessible aux élèves. Les formats vidéo pris en charge sont **MP4** et **WebM**.
+
+Cet article explique comment effectuer ces tâches de gestion des canaux.
 
 **Principaux avantages**
 
@@ -43,7 +45,7 @@ Pour activer la fonctionnalité **Canaux** :
 
    ![Activer la fonctionnalité Canaux](assets/enable-channels-feature.png)
 
-   *Activez la fonctionnalité Canal dans l&#39;onglet **Paramètres**&#x200B;pour permettre aux administrateurs de créer des canaux pour le compte.*
+   *Activez la fonctionnalité Canal dans l&#39;onglet **Paramètres**pour permettre aux administrateurs de créer des canaux pour le compte.*
 
 1. Activez la fonctionnalité **Canal**.
 
@@ -98,7 +100,7 @@ Créez un canal pour définir la source de contenu que Adobe Learning Manager an
 
    ![Tester la connexion source du canal](assets/test-channel-source-connection.png)
 
-   *Utilisez **Tester maintenant**&#x200B;pour confirmer que les vidéos sont récupérées à partir de la source avant de créer le canal.*
+   *Utilisez **Tester maintenant**pour confirmer que les vidéos sont récupérées à partir de la source avant de créer le canal.*
 
 1. Sélectionnez **Créer un canal**. Le canal est créé et ajouté à la liste **Canaux**.
 
