@@ -2,8 +2,7 @@
 description: Découvrez comment générer un lien d’élève dans le compositeur de contenu, à quoi les élèves peuvent accéder via ce lien et pourquoi le suivi de la livraison nécessite la publication sur Adobe Learning Manager plutôt que le partage d’un lien direct.
 jcr-language: en_us
 title: Partager un cours avec les élèves
-hide: true
-source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
