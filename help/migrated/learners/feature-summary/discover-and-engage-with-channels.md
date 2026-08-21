@@ -1,15 +1,19 @@
 ---
 title: Découvrir et interagir avec les canaux
 description: Apprenez à rechercher du contenu vidéo disponible sur les canaux de Adobe Learning Manager, à vous y abonner, à le regarder, à l’aimer et à participer à des discussions.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
 
 # Découvrir et utiliser les canaux (Beta)
+
+>[!IMPORTANT]
+>
+>Les fonctionnalités Beta peuvent contenir des défauts et sont fournies « EN L’ÉTAT » sans garantie d’aucune sorte. Adobe a la seule discrétion de rendre les fonctionnalités bêta généralement disponibles. Adobe n’a aucune obligation de maintenir, de corriger, de mettre à jour, de modifier ou de prendre en charge d’une autre manière (par le biais des Services d’assistance d’Adobe ou autrement) les fonctionnalités bêta. Si une fonctionnalité Beta devient disponible de manière générale, elle peut être soumise à des conditions générales supplémentaires, y compris les frais applicables. Les fonctionnalités Beta peuvent être modifiées sans préavis, y compris être arrêtées. Il est conseillé aux clients d’être prudents et de ne pas compter de quelque manière que ce soit sur le fonctionnement ou les performances ininterrompus ou sans erreur des fonctionnalités bêta. Par conséquent, toute utilisation des fonctionnalités Beta est entièrement à la charge du Client. Les fonctionnalités du produit et la documentation associée peuvent changer au fur et à mesure de leur évolution. Cette documentation reflète l’expérience Beta actuelle et ne doit pas être considérée comme une documentation finale ou complète du produit.
 
 Les canaux permettent aux élèves de découvrir et d’accéder à du contenu d’apprentissage informel basé sur la vidéo organisé dans des pages Web et Cloud Confluence dans Adobe Learning Manager. Les administrateurs créent des canaux en les connectant à des pages web d’entreprise ou à des pages de convergence du cloud qui hébergent des sessions enregistrées de partage et de transfert de connaissances.
 
