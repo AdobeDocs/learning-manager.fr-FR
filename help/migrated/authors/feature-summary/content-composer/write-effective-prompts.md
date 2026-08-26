@@ -2,7 +2,8 @@
 description: L’invite est l’entrée la plus importante dans le compositeur de contenu. Une invite spécifique, telle que le nom du public, 2 à 3 sujets et un signal de portée, produit un résumé plus précis, un contour plus fort et moins de modification en aval.
 jcr-language: en_us
 title: Rédiger des invites efficaces dans le compositeur de contenu
-source-git-commit: c58fff50e6ccf6ab45722a0aafb7f4cee73752b5
+hide: true
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
 source-wordcount: '2339'
 ht-degree: 0%
