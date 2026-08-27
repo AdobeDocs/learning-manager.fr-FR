@@ -1,9 +1,9 @@
 ---
 title: Créer et gérer des sessions en petits groupes dans Live Hub
 description: Découvrez comment les instructeurs créent, configurent, démarrent, surveillent et gèrent les salles d’atelier dans une session Live Hub, y compris les résumés et les rapports de salle générés par l’IA.
-source-git-commit: f16239fb4a169f22e03a23d11c43f9accfbb72ec
+source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Les instructeurs peuvent afficher les résumés des discussions générés par l
 
 >[!NOTE]
 >
->Une salle a besoin d&#39;au moins 60 secondes de discussion avant qu&#39;un résumé puisse être généré. Les salles avec moins d&#39;activité n&#39;afficheront pas de récapitulatif dans la fenêtre Vérifier la salle.
+>Une salle de réunion nécessite au moins 60 secondes de discussion avant qu&#39;un résumé puisse être généré. Les salles avec moins d&#39;activité n&#39;afficheront pas de récapitulatif dans la fenêtre Vérifier la salle.
 
 Pour afficher des résumés :
 
@@ -184,20 +184,24 @@ Vous pouvez mettre fin à la session en petits groupes à tout moment.
 
 ## Afficher un rapport de session en petits groupes
 
-Une fois la session de sous-groupe terminée, vous pouvez accéder au rapport de la session de sous-groupe pour passer en revue l’activité et la participation à la session. Le rapport comprend des détails sur les participants, des résumés spécifiques aux salles des discussions en petits groupes, des instructions partagées avec les participants et un aperçu de la durée et de la participation de la session.
+Une fois la session de sous-groupe terminée, vous pouvez accéder au rapport de la session de sous-groupe pour passer en revue l’activité et la participation à la session. Le rapport comprend des détails sur les participants, un résumé global et spécifique à la salle des discussions en petits groupes, des instructions partagées avec les participants, et un aperçu de la durée de la session et de l&#39;engagement.
 
 >[!NOTE]
 >
->Les salles de moins de 60 secondes de discussion ne comportent pas de résumé dans le rapport.
+>Les sous-groupes de moins de 60 secondes de discussion n&#39;ont pas de résumé inclus dans le rapport.
 
 Pour afficher un rapport de session en petits groupes :
 
 1. Accédez à la session de petits groupes fermée dans le panneau **Petits groupes**.
 
-1. Sélectionnez **Afficher les rapports**. <br> La fenêtre contextuelle du rapport de répartition s&#39;ouvre avec le rapport des salles.
+1. Sélectionnez **Afficher les rapports**. <br> La fenêtre contextuelle du rapport sur les groupes s&#39;ouvre avec le résumé de la session.
 
    ![Rapport de session en atelier](assets/breakout-session-report.png)
    *Fenêtre contextuelle des rapports des sous-groupes affichant le rapport des sous-groupes.*
+
+1. Effectuez l’une des opérations suivantes :
+   * Sélectionnez **Toutes les salles** pour afficher le **résumé global** de la session en petits groupes.
+   * Sélectionnez l&#39;onglet d&#39;un espace pour afficher le récapitulatif de cet espace.
 
 Tous les aperçus de session en petits groupes sont également disponibles dans le **tableau de bord de session**, où vous pouvez consulter les résumés, analyser la participation et suivre les résultats de la session après la session. Afficher [Composants du tableau de bord de session](./components-of-the-session-dashboard.md) pour plus d&#39;informations.
 

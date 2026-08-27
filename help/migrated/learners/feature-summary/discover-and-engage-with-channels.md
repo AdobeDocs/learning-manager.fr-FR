@@ -1,9 +1,9 @@
 ---
 title: Découvrir et interagir avec les canaux
 description: Apprenez à rechercher du contenu vidéo disponible sur les canaux de Adobe Learning Manager, à vous y abonner, à le regarder, à l’aimer et à participer à des discussions.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ Utilisez la page **Canaux** pour découvrir de nouveaux contenus, accéder aux c
 1. Connectez-vous à Adobe Learning Manager.
 
 1. Sélectionnez **Canaux** dans la barre de navigation supérieure.
+
+   >[!NOTE]
+   >
+   >Si vous ne parvenez pas à afficher l&#39;onglet **Canaux** dans la barre de navigation, contactez votre administrateur.
 
    <br> La page **Canaux** s&#39;ouvre avec l&#39;onglet **Tous** affiché par défaut.
 
