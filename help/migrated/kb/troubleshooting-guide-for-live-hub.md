@@ -1,9 +1,9 @@
 ---
 title: Guide de dépannage pour Live Hub (Beta)
 description: Messages d’erreur et notifications courants que vous pouvez rencontrer au cours d’une session Live Hub, leurs causes et les étapes à suivre pour les résoudre.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: a454fbcdfc37a139245d925dd01bb931d6f83432
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Les messages ci-dessous peuvent apparaître lorsqu’un instructeur tente de dé
 |---|---|---|
 | Impossible de démarrer l&#39;interruption — la connexion est interrompue. Veuillez réessayer une fois reconnecté. | Un instructeur tente de démarrer les salles d’atelier alors que sa connexion est actuellement interrompue ou en cours de reconnexion. | Attendez que votre connexion se stabilise (un indicateur de reconnexion est présent), puis redémarrez les salles de réunion. |
 | Impossible de démarrer l&#39;éclatement. Veuillez essayer de nouveau. | Un instructeur commence les salles de petits groupes et la demande de démarrage échoue. | Réessayez de démarrer les salles de réunion. Si le problème persiste, fermez le panneau Répartitions et réessayez. |
-| Impossible de générer le résumé. | Cela peut se produire dans les situations suivantes : <ul><li>Aucun utilisateur ne s’est exprimé pendant la session, il n’y a donc pas de contenu audio à résumer.</li><li>La discussion dure moins de 60 secondes.</li></ul> | Assurez-vous que les participants parlent activement pendant au moins 60 secondes pendant la session avant de générer le résumé. Si le problème persiste, attendez un moment et réessayez. |
+| Impossible de générer le résumé. | Cette erreur peut apparaître à trois endroits : le résumé en direct **Vérifier la salle**, un résumé **spécifique à la salle** dans le rapport de répartition et le **résumé global** dans le rapport de répartition, en fonction de la cause : <ul><li>Aucun participant n&#39;a pris la parole au cours de la discussion.</li><li>La discussion de la salle a duré moins de 60 secondes.</li><li>Une seule salle de réunion a généré un résumé.</li></ul> | Faites correspondre le correctif à la cause ci-dessus : <ul><li>Assurez-vous que les participants parlent activement pendant la discussion dans la salle.</li><li>Assurez-vous que la discussion dure au moins 60 secondes avant de vérifier ou de générer le résumé.</li><li>Assurez-vous qu&#39;au moins deux salles de réunion ont généré des résumés individuels avant de générer le résumé global.</li><li>Si le problème persiste après avoir résolu la cause concernée, attendez un moment et réessayez.</li></ul> |
 
 ## Problèmes de toast de génération de réponses
 

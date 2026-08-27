@@ -1,9 +1,9 @@
 ---
 title: Créer des canaux (Beta)
 description: Découvrez comment activer, créer et modifier des canaux dans Adobe Learning Manager pour regrouper le contenu d’apprentissage vidéo à partir de pages web et de pages Confluence Cloud dans un emplacement unique et indexable pour les élèves.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -86,11 +86,15 @@ Créez un canal pour définir la source de contenu que Adobe Learning Manager an
 
    1. **Visible par les élèves** : activez cette option pour rendre le canal disponible pour les élèves. Désactivez-le pour masquer le canal pendant que vous continuez à le configurer ou à le tester.
 
+      >[!NOTE]
+      >
+      >L’onglet Canaux est visible par les élèves uniquement lorsque ce paramètre est activé et contient au moins une vidéo.
+
    1. **Synchroniser automatiquement** : activez cette option pour mettre à jour automatiquement le canal lorsque de nouvelles vidéos sont ajoutées à la source. Désactivez-la si vous souhaitez synchroniser manuellement le canal.
 
 1. (Facultatif) Sélectionnez **Afficher les paramètres avancés**, puis configurez les options suivantes selon vos besoins :
 
-   1. **Couleur du thème de la couche** : sélectionnez une couleur pour personnaliser l&#39;apparence visuelle de la couche.
+   1. **Couleur du thème de la couche** : sélectionnez une couleur dans la liste déroulante pour personnaliser l&#39;apparence visuelle de la couche.
 
    1. **profondeur d&#39;analyse** : entrez la profondeur d&#39;analyse pour les pages liées à analyser pour le contenu vidéo. Il prend en charge une profondeur d&#39;analyse maximale de **2**.
 

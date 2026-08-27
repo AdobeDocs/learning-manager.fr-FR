@@ -2,13 +2,13 @@
 title: Ajout et configuration de widgets dans Experience Builder
 description: Découvrez comment ajouter, personnaliser et configurer divers widgets dans Experience Builder dans Adobe Learning Manager. Ce guide couvre les widgets couramment utilisés tels que les calendriers, les catégories, l’état de conformité, les cours et les parcours, la ludification, le contenu de HTML, les IFrames, l’apprentissage par les réseaux sociaux, etc.
 jcr-language: en-us
-source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
+source-git-commit: 30372b696921be9e896f947e96683b72587f1323
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
-
 
 # Ajout et configuration de widgets
 
@@ -20,7 +20,7 @@ Le widget Calendrier peut être ajouté à une page par un administrateur pour a
 
 ### Ajout d’un widget Calendrier
 
-Dans une société financière dotée d’équipes distinctes de Sales Manager (CSM) et de Customer Success Manager (CSM), les administrateurs peuvent utiliser ce widget pour mettre en avant des sessions de formation spécifiques à l’équipe. Par exemple :
+Dans une société financière dotée d’équipes distinctes de Sales Manager (CSM) et de Customer Success Manager (CSM), les administrateurs peuvent utiliser ce widget pour mettre en avant des sessions de formation spécifiques à l’équipe. Par exemple :
 
 * L’équipe commerciale peut consulter les sessions à venir sur les mises à jour de produits, les formations sur la conformité et les ateliers de présentation.
 * L&#39;équipe CSM peut consulter les ateliers d&#39;intégration des clients, la formation en communication avec les clients et les programmes d&#39;excellence du service.
@@ -154,7 +154,7 @@ Pour configurer le widget Cours et parcours :
 10. Sélectionnez les catalogues ou choisissez manuellement jusqu’à 25 cours à afficher.
 
 ![](assets/configure-course-paths.png)
-_Widget Cours et parcours où les administrateurs définissent le titre et la description du widget, et sélectionnent les cours ou parcours d’apprentissage à afficher sous forme de cartes interactives_
+_Widget Cours et parcours dans lequel les administrateurs définissent le titre et la description du widget, et sélectionnent les cours ou parcours d’apprentissage à afficher sous forme de cartes interactives_
 &#x200B;11. Sélectionnez **[!UICONTROL Ajouter un widget]**.
 
 Le widget Cours et parcours sera ajouté à la page. Les administrateurs peuvent ajouter d’autres widgets et publier la page.
@@ -187,7 +187,7 @@ Pour configurer le widget Zone de contenu :
     * **[!UICONTROL Couleur]** : sélectionnez la couleur dans le sélecteur de couleurs ou saisissez le code couleur dans le champ de texte.
     * **[!UICONTROL Image]** : parcourez et chargez une photo.
 
-11. Ajustez la hauteur de la zone à l&#39;aide de l&#39;option **[!UICONTROL Hauteur de la zone de contenu]**.
+11. Ajustez l&#39;height de la zone à l&#39;aide de l&#39;option **[!UICONTROL height de la zone de contenu]**.
 12. Sélectionnez les options de mise en forme du texte.
 
     ![](assets/configure-content-box.png)
@@ -273,10 +273,10 @@ Pour configurer le widget Iframe :
    _Écran de sélection du widget affichant le widget Iframe pour incorporer des applications externes ou des pages web dans une section sélectionnée_
 
 8. Saisissez l&#39;URL dans l&#39;option **[!UICONTROL Page liée au bouton Action]**.
-9. Ajustez la hauteur de l&#39;iframe à l&#39;aide de l&#39;option **[!UICONTROL Hauteur d&#39;iframe]**.
+9. Ajustez l&#39;height Iframe à l&#39;aide de l&#39;option **[!UICONTROL height Iframe]**.
 
    ![](assets/configure-iframe.png)
-   _Écran de personnalisation du widget Iframe, où les administrateurs peuvent saisir une URL de page et spécifier la hauteur de l&#39;iframe pour intégrer du contenu externe_
+   _Écran de personnalisation du widget Iframe, où les administrateurs peuvent saisir une URL de page et spécifier l&#39;height iframe pour intégrer du contenu externe_
 
 10. Sélectionnez **[!UICONTROL Ajouter un widget]**.
 
@@ -314,6 +314,58 @@ Pour configurer le widget Mon apprentissage :
 9. Sélectionnez **[!UICONTROL Ajouter un widget]**.
 
 Le widget Mon apprentissage sera ajouté à la page. Les administrateurs peuvent ajouter d’autres widgets et publier la page.
+
+<!--
+
+## Saved by me widget {#bookmark-widget}
+
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+
+Adding this widget to a page can help: 
+
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
 
 ## Widget Apprentissage par les réseaux sociaux
 
