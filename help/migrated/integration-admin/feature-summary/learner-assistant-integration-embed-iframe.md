@@ -32,7 +32,7 @@ Lorsqu’il est intégré via iFrame, l’assistant Élève donne accès à tout
 Avant de commencer, assurez-vous d’avoir :
 
 * Un client ALM avec l’assistant Élève activé. Configurez les catalogues requis à partir de la page des paramètres de l’administrateur.
-* Un jeton d’accès valide pour authentifier la session de l’élève (ou de l’administrateur). Pour générer un jeton d’accès, suivez les instructions de la page [Authentification à l’aide d’OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). La page comprend les étapes requises pour s’authentifier et générer le jeton d’accès nécessaire pour continuer.
+* Un jeton d’accès valide pour authentifier la session de l’élève (ou de l’administrateur). Pour générer un jeton d’accès, suivez les instructions de la page [Authentification à l’aide d’OAuth 2.0](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). La page comprend les étapes requises pour s’authentifier et générer le jeton d’accès nécessaire pour continuer.
 * Possibilité d&#39;incorporer un `<iframe>` dans votre application et de communiquer avec lui via l&#39;API postMessage du navigateur.
 * Propriété du code frontal de l’application parent, car votre application doit écouter et répondre aux messages de l’iFrame intégré.
 
