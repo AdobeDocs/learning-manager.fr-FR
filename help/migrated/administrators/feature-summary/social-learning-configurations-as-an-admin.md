@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3756'
-ht-degree: 62%
+source-wordcount: '3793'
+ht-degree: 75%
 
 ---
 
@@ -21,8 +21,8 @@ L’apprentissage par les réseaux sociaux permet aux élèves d’étudier où 
 
 Pour activer et configurer la fonctionnalité d’Apprentissage par les réseaux sociaux, procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]** dans le panneau de navigation de gauche. Vous êtes redirigé vers la page d&#39;activité.
-1. Activez la fonctionnalité **[!UICONTROL Apprentissage par les réseaux sociaux]** à l&#39;aide du bouton **[!UICONTROL Activer]** dans la page Activité si vous l&#39;activez pour la première fois. Sinon, elle peut être activée à partir de la page **[!UICONTROL Paramètres]**.
+1. Cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]** dans le panneau de navigation de gauche. Vous serez redirigé vers la page d’activité.
+1. Activez la fonctionnalité **[!UICONTROL Apprentissage par les réseaux sociaux]** à l&#39;aide du bouton **[!UICONTROL Activer]** dans la page Activité si vous l&#39;activez pour la première fois. Dans le cas contraire, elle peut être activée depuis la page **[!UICONTROL Paramètres]**.
 
    Une boîte de dialogue contextuelle apparaît comme dans la copie d’écran ci-dessous.
 
@@ -40,9 +40,9 @@ L’Apprentissage par les réseaux sociaux étant un apprentissage informel, ses
 
 **[!UICONTROL Curation manuelle uniquement]** et **[!UICONTROL Aucune curation]** sont deux options de curation qui peuvent être sélectionnées par l’administrateur.
 
-**[!UICONTROL Curation manuelle assistée automatiquement] :** Learning Manager dispose d’un moteur d’auto-curation basé sur l’intelligence artificielle qui peut trouver intelligemment l’essence du contenu de n’importe quel format qui peut être ultérieurement diffusé aux élèves souhaités. Il peut également approuver ou rejeter la publication d’un contenu en fonction de son score de confiance donné.
+**[!UICONTROL Curation manuelle assistée automatiquement] :** Learning Manager dispose d’un moteur d’auto-curation basé sur l’intelligence artificielle qui peut découvrir intelligemment l’essence du contenu de n’importe quel format qui peut être diffusé ultérieurement aux élèves souhaités. Il peut également approuver ou rejeter la publication d’un contenu en fonction de son score de confiance donné.
 
-Par exemple, Adarsh est un élève et il a trouvé un blog intéressant, il le publie donc sur la plateforme d’apprentissage par les réseaux sociaux de Adobe Learning Manager. La publication est ensuite transmise au moteur de curation de contenu alimenté par l’IA, qui prédit les compétences présentes dans le contenu et compare ces compétences avec les compétences associées au forum. Si l’une des compétences correspond, le contenu est publié, sinon il est envoyé pour une curation manuelle uniquement.
+Par exemple, Adarsh est un élève et il a trouvé un blog intéressant, il le publie donc sur la plateforme d’apprentissage par les réseaux sociaux de Adobe Learning Manager. La publication est ensuite transmise au Moteur de curation de contenu alimenté par l’IA qui prédit les compétences présentes dans le contenu et compare ces compétences avec les compétences associées au forum. Si l’une des compétences correspond, le contenu est publié, sinon il est envoyé pour une curation manuelle uniquement.
 
 Le score de confiance minimum requis pour l’affichage est de 50 %.
 
@@ -55,7 +55,7 @@ Dans les sections Tableau des scores des réseaux sociaux, un utilisateur peut v
 
 Si vous avez obtenu des privilèges d’utilisateur spécial, vous pouvez voir tous les utilisateurs dans le compte de votre tableau des scores, indépendamment de l’étendue des utilisateurs.
 
-Si des utilisateurs spéciaux deviennent des experts en gagnant suffisamment de points, ils apparaissent dans la liste **[!UICONTROL Experts en la matière]** du tableau des scores des réseaux sociaux.
+Si les utilisateurs spéciaux deviennent des experts en gagnant suffisamment de points, ils apparaissent dans la liste **[!UICONTROL Principaux experts en la matière]** du tableau des scores des réseaux sociaux.
 
 Patientez 60 minutes pour que les modifications prennent effet.
 
@@ -71,15 +71,15 @@ Des sections séparées sont prévues pour autoriser les utilisateurs internes e
 
 **Activer pour les élèves internes**
 
-Dans cette section, vous pouvez choisir la caractéristique de l’utilisateur pour définir l’étendue de l’apprentissage par les réseaux sociaux pour les utilisateurs internes. Les utilisateurs ayant les mêmes caractéristiques **valeur** partagent le même espace d&#39;apprentissage par les réseaux sociaux.
+Dans cette section, vous pouvez sélectionner la caractéristique utilisateur pour définir l’étendue de l’apprentissage par les réseaux sociaux pour les utilisateurs internes. Les utilisateurs ayant les mêmes **valeurs** de caractéristiques partagent le même espace d’Apprentissage par les réseaux sociaux.
 
-Dans la liste déroulante **Caractéristiques de l&#39;utilisateur**, sélectionnez l&#39;option requise.
+Dans la liste déroulante **Caractéristique utilisateur**, sélectionnez l’option requise.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Sélectionner les caractéristiques de l&#39;utilisateur pour définir l&#39;étendue*
 
-Par défaut, l&#39;option **[!UICONTROL Tous les utilisateurs internes]** dans la liste déroulante des caractéristiques de l&#39;utilisateur est toujours sélectionnée.
+Par défaut, l’option **[!UICONTROL Tous les utilisateurs internes]** dans l’option de la liste déroulante Caractéristique utilisateur est toujours sélectionnée.
 
 Vous pouvez définir les utilisateurs internes en fonction de leurs champs actifs.
 
@@ -133,7 +133,7 @@ Par défaut, l’option **[!UICONTROL Tous les élèves]** est activée.
 
 **[!UICONTROL Tous les élèves]:** Si vous choisissez cette option, tous les utilisateurs internes et externes peuvent créer des forums.
 
-**Un groupe d’élèves :** si vous sélectionnez cette option, seuls les utilisateurs ayant les autorisations de créer un forum voient le lien **[!UICONTROL Créer un nouveau forum]** dans l’Apprentissage par les réseaux sociaux. Choisissez le groupe d’utilisateurs auquel vous devez accorder l’autorisation de créer un forum. Vous pouvez également ajouter des groupes d’utilisateurs générés automatiquement ainsi que des groupes personnalisés.
+**Un groupe d’élèves :** si vous sélectionnez cette option, seuls les utilisateurs ayant les autorisations de créer un forum voient le lien **[!UICONTROL Créer un nouveau forum]** dans l’Apprentissage par les réseaux sociaux. Sélectionnez le groupe d’utilisateurs qui doit être autorisé à créer un forum. Vous pouvez également ajouter des groupes d’utilisateurs générés automatiquement ou personnalisés.
 
 <!--![](assets/grant-permissiontoausergroup.png)-->
 
@@ -165,13 +165,13 @@ Dans les sections Tableau des scores des réseaux sociaux, un utilisateur peut v
 
 Si vous avez obtenu des privilèges d’utilisateur spécial, vous pouvez voir tous les utilisateurs dans le compte de votre tableau des scores, indépendamment de l’étendue des utilisateurs.
 
-Si des utilisateurs spéciaux deviennent des experts en gagnant suffisamment de points, ils apparaissent dans la liste **[!UICONTROL Experts en la matière]** du tableau des scores des réseaux sociaux.
+Si les utilisateurs spéciaux deviennent des experts en gagnant suffisamment de points, ils apparaissent dans la liste **[!UICONTROL Principaux experts en la matière]** du tableau des scores des réseaux sociaux.
 
 Patientez 60 minutes pour que les modifications prennent effet.
 
 ### Personnalisation de la bannière pour réseaux sociaux {#customize-social-banner}
 
-L’administrateur peut personnaliser le titre et le sous-titre qui apparaissent sur l’image d’en-tête sur la page d’accueil Apprentissage par les réseaux sociaux. Quelle que soit la décision de l’administrateur de saisir le titre et le sous-titre, les mêmes fonctionnalités sont disponibles sur la page d’accueil de l’apprentissage par les réseaux sociaux de l’élève.
+L’administrateur peut personnaliser le titre et le sous-titre qui apparaissent sur l’image d’en-tête dans la page d’accueil Apprentissage par les réseaux sociaux. Quelle que soit la décision de l’administrateur de saisir le titre et le sous-titre, les mêmes fonctionnalités sont disponibles sur la page d’accueil de l’apprentissage par les réseaux sociaux de l’élève.
 
 1. Dans l&#39;application Administration, cliquez sur **[!UICONTROL Apprentissage par les réseaux sociaux]** > **[!UICONTROL Paramètres]**.
 1. Cliquez sur **[!UICONTROL Personnaliser]**.
@@ -185,7 +185,7 @@ L’administrateur peut personnaliser le titre et le sous-titre qui apparaissent
 
 Vous disposez de quelques options supplémentaires :
 
-* **[!UICONTROL Langue]:** Dans la liste déroulante, sélectionnez la langue dans laquelle traduire le titre et le sous-titre. Vous pouvez également ajouter du texte personnalisé pour différentes langues.
+* **[!UICONTROL Langue]:** Dans la liste déroulante, sélectionnez la langue dans laquelle translater le titre et le sous-titre. Vous pouvez également ajouter du texte personnalisé pour différentes langues.
 * **[!UICONTROL Répliquer]:** Cliquez sur ce bouton pour répliquer le titre et le sous-titre dans toutes les langues.
 * **[!UICONTROL Réinitialiser]:** Cliquez sur ce bouton pour revenir au titre et au sous-titre d&#39;origine.
 
@@ -225,7 +225,7 @@ Un administrateur peut activer l’option permettant de conserver automatiquemen
 
 Lorsqu’un utilisateur télécharge un contenu sur un forum, un algorithme basé sur l’IA extrait le texte du contenu puis le texte est ensuite transmis au moteur de curation. Le moteur de curation essaie de trouver les compétences présentes dans le contenu.
 
-Les compétences prévues du contenu téléchargé sont mises en correspondance avec celles du forum dans lequel le contenu a été téléchargé.  Si une compétence correspond à un score de confiance supérieur à 50 % de la compétence du forum, le contenu est publié dans le forum. Si le score de confiance est inférieur à 50 %, le contenu est envoyé pour curation manuelle.
+Les compétences prévues du contenu téléchargé sont associées à celles du forum sur lequel le contenu a été téléchargé.  Si une compétence correspond à un score de confiance supérieur à 50 % de la compétence du forum, le contenu est publié dans le forum. Si le score de confiance est inférieur à 50 %, le contenu est envoyé pour curation manuelle.
 
 Chaque fois qu’un contenu est conservé automatiquement, l’utilisateur reçoit une notification l’informant que le contenu est disponible sur le forum sur lequel il a été précédemment téléchargé.
 
@@ -241,13 +241,13 @@ Il est recommandé que l’administrateur ajoute des experts pour des compétenc
 
 ## Questions fréquentes sur l&#39;auto-curation du contenu {#faq-auto-curation}
 
-+++Combien de temps l’expert dispose-t-il pour organiser une publication ?
++++Combien de temps un expert peut-il consacrer à la curation d&#39;une publication ?
 
-Un expert dispose d&#39;au moins 24 heures à consacrer à la curation d&#39;une publication. En raison des différences de fuseau horaire, elle peut être portée à 47 heures.
+Un expert dispose d&#39;au moins 24 heures à consacrer à la curation d&#39;une publication. En raison des différences de fuseaux horaires, ce délai peut être porté à 47 heures.
 
 +++
 
-+++Est-ce qu&#39;on passe à la prochaine série de trois PME si les trois sont disponibles? Est-ce toujours trois experts qui sont impliqués ?
++++Est-ce que cela va à la prochaine série de trois experts si tous les trois sont disponibles ? Est-ce toujours trois experts qui sont impliqués ?
 
 Le premier jour, la demande de curation est adressée aux experts principaux. S&#39;ils ne répondent pas, la demande est adressée aux trois experts suivants le lendemain.
 
@@ -257,17 +257,17 @@ Si les modérateurs du forum ne répondent pas, la demande est automatiquement a
 
 +++
 
-+++Si deux experts procèdent à la curation et que l’autre ne le fait pas, la demande est-elle adressée au quatrième expert ou prend-elle la moyenne de ce que le premier ensemble d’experts évalue comme publication ?
++++Si deux experts procèdent à la curation et qu&#39;un ne le fait pas, la demande va-t-elle au quatrième expert ou prend-elle la moyenne du premier ensemble d&#39;experts qui évalue la publication ?
 
 Une évaluation d&#39;approbation de 50 % est requise pour approuver la publication. De même, une évaluation de rejet de 50 % est utilisée pour rejeter la publication. Chaque approbation effectuée par un expert est évaluée si elle a atteint 50 %.
 
 Si elle n&#39;atteint pas 50 % après un jour, elle est envoyée à l&#39;ensemble suivant d&#39;experts, menant à l&#39;expiration des précédentes demandes de curation sans réponse.
 
-Par exemple, le premier jour, la demande de curation est envoyée à trois experts. L&#39;un d&#39;eux l&#39;approuve et deux n&#39;ont pas répondu. Le jour suivant, la demande de curation est adressée à trois experts à ce niveau, il y a maintenant quatre experts actifs au total. Au moins deux experts doivent l&#39;approuver pour que le curation soit approuvée.(S&#39;il y a 2 approbations et 2 rejets, la première catégorie à atteindre 50 % en premier sera prise en compte.)
+Par exemple, le premier jour, la demande de curation est envoyée à trois experts. L&#39;un d&#39;eux l&#39;approuve et deux n&#39;ont pas répondu. Le jour suivant, la demande de curation est adressée à trois experts à ce niveau, il y a maintenant quatre experts actifs au total. Au moins deux SEM doivent l&#39;approuver pour que la curation soit approuvée. (Dans le cas où 2 approuvent et 2 rejettent, ce qui atteint les 50% premiers sera pris.)
 
 +++
 
-+++ D&#39;après ce que je vois, un « modérateur » n&#39;est affecté (et ce n&#39;est pas obligatoire) que lorsqu&#39;une personne crée un nouveau forum. Quel est l&#39;intérêt pour un élève d&#39;affecter un « modérateur » à un forum si des experts seront affectés à la compétence à laquelle un forum est associé ?
++++D&#39;après ce que je vois, un « modérateur » n&#39;est affecté (et ce n&#39;est pas obligatoire) que lorsqu&#39;une personne crée un nouveau forum. Quel est l&#39;intérêt pour un élève d&#39;affecter un « modérateur » à un forum si des experts seront affectés à la compétence à laquelle un forum est associé ?
 
 Les responsabilités suivantes incombent à un modérateur de Forum de réseau social :
 
@@ -278,13 +278,13 @@ Les responsabilités suivantes incombent à un modérateur de Forum de réseau s
 
 +++
 
-+++Notre équipe de formation ajoutera/surveillera les compétences associées au niveau de compétence ainsi que les experts affectés aux compétences.
++++Notre équipe de formation ajoute/surveille les compétences associées au niveau de compétence ainsi que les experts affectés aux compétences.
 
 Les experts sont ajoutés/affectés en fonction des compétences, et non du niveau de compétence. C&#39;est comme prévu.
 
 +++
 
-+++ Quelle est la différence entre un « modérateur » d’apprentissage par les réseaux sociaux et un « expert » d’apprentissage par les réseaux sociaux ?
++++Quelle est la différence entre un « modérateur » d&#39;apprentissage par les réseaux sociaux et un « expert » d&#39;apprentissage par les réseaux sociaux ?
 
 **Modérateurs :** propriétaires secondaires du forum. Ils sont ajoutés par les créateurs lors de la création du forum afin de pouvoir contrôler le forum en l&#39;absence du créateur. Par défaut, le créateur du forum est le modérateur.
 
@@ -292,7 +292,7 @@ Les experts sont ajoutés/affectés en fonction des compétences, et non du nive
 
 +++
 
-+++S’il y a deux ou trois experts affectés à une compétence : l’approbation ou le rejet d’un post Apprentissage par les réseaux sociaux dépend-il de la curation de tous les experts ou du curateur en premier ?
++++S’il y a deux ou trois experts affectés à une compétence - Est-ce qu’une approbation ou un rejet d’une publication d’apprentissage par les réseaux sociaux dépend de la curation de tous les experts ou de la personne qui s’en occupe en premier ?
 
 Une évaluation d&#39;approbation de 50 % est requise pour approuver la publication. De même, une évaluation de rejet de 50 % est utilisée pour rejeter la publication. Chaque approbation effectuée par un expert est évaluée si elle a atteint 50 %.
 
@@ -314,13 +314,13 @@ Le premier visuel fournit à l’administrateur les informations suivantes pour 
 
 1. **[!UICONTROL Nouvelles publications]** : affiche le nombre de nouvelles publications créées au cours de la période. Le nombre total de publications pour toute la période est également affiché.
 1. **[!UICONTROL Pourcentage d’utilisateurs actifs]** : affiche le pourcentage total d’utilisateurs actifs dans l’apprentissage par les réseaux sociaux par rapport au nombre total d’utilisateurs disponibles dans le compte.
-1. **[!UICONTROL Nouveaux tableaux]** : affiche le nombre de nouveaux tableaux qui ont été créés. Le nombre total de tableaux pour toute la période est également affiché.
+1. **[!UICONTROL Nouveaux forums]** : affiche le nombre de nouveaux forums qui ont été créés. Le nombre total de forums pour toute la période est également affiché.
 
 Le deuxième visuel est un graphique linéaire affichant la tendance du nombre de forums ou de publications créés en fonction de la période sélectionnée dans le filtre de dates. Cliquez sur le filtre pour afficher les différentes options de temps comme les sept derniers jours, le dernier mois, les trois derniers mois et tous les temps.
 
 ![](assets/trends.png)
 
-*Graphique linéaire affichant la tendance*
+*graphe LIne affichant la tendance*
 
 ## Compétences {#skills}
 
@@ -433,7 +433,7 @@ Les **experts** sont des personnes qui possèdent des connaissances et une exper
 
 ## Conditions pour être un expert {#requirementstobeansme}
 
-Le statut d’expert ne peut être obtenu qu’en accumulant des points d’experts dans le cadre d’activités d’apprentissage par les réseaux sociaux. L’administrateur peut attribuer des points à un expert en fonction de son expertise dans le niveau de compétence.
+Le statut d’expert ne peut être obtenu qu’en accumulant des points d’experts dans le cadre d’activités d’apprentissage par les réseaux sociaux. L’administrateur peut attribuer des points à un expert en fonction de son expertise du niveau des compétences.
 
 ## Ajout d’experts à une compétence {#addingsmestoaskill}
 
@@ -463,7 +463,7 @@ Pour ajouter des experts à une compétence, suivez les étapes indiquées :
 
 1. En cochant la case **[!UICONTROL Activer le minimum de points d’experts]**, vous pouvez définir une limite au nombre minimal de points qu’un utilisateur doit afficher en tant qu’expert dans la liste des meilleurs experts. Une fois la valeur seuil définie, les experts dont le nombre de points est inférieur ou égal à la valeur minimale requise ne sont pas répertoriés dans les listes d’experts.
 
-   Si la case à cocher **[!UICONTROL Activer les points SME minimaux]** n&#39;est pas sélectionnée, les trois premiers utilisateurs avec les points les plus élevés sont considérés comme les SME pour cette compétence particulière.
+   Si la case **[!UICONTROL Activer le minimum de points d’experts]** n’est pas sélectionnée, les trois utilisateurs possédant le nombre le plus élevé de points sont considérés comme les experts de la compétence concernée.
 
 1. Cliquez sur le bouton **[!UICONTROL Enregistrer]** pour afficher les modifications apportées.
 
@@ -484,11 +484,11 @@ Pour ajouter des experts à une compétence, suivez les étapes indiquées :
 
 ## Activités sociales pour la facturation mensuelle des utilisateurs actifs {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Chaque fois qu&#39;un utilisateur crée un nouveau forum social, une publication sociale ou un commentaire social, il est considéré comme une activité valide à comptabiliser dans la formule **Utilisateur avec activation mensuelle**(MAU) si le compte suit le modèle de facturation MAU. Pour plus d’informations, reportez-vous à la [gestion de la facturation](billing-management.md).
+Chaque fois qu’un utilisateur crée un nouveau forum social, une publication sociale ou un commentaire social, cela compte comme une activité valide à comptabiliser dans le plan **Utilisateur à activation mensuelle** (MAU) si le compte suit le modèle de facturation MAU. Pour plus d’informations, reportez-vous à la [gestion de la facturation](billing-management.md).
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-+++Comment activer l’apprentissage par les réseaux sociaux pour les élèves externes ?
++++Comment activer l’apprentissage par les réseaux sociaux pour les élèves externes ?
 
 Dans **[!UICONTROL Apprentissage par les réseaux sociaux]** > **[!UICONTROL Paramètres]**, dans la section Paramètres de l&#39;étendue, activez l&#39;option **[!UICONTROL Activer pour les élèves externes]**. Dans la liste déroulante, choisissez un profil externe et définissez l’étendue d’apprentissage pour ce profil
 
