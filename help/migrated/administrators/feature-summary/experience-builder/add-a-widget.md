@@ -3,9 +3,9 @@ title: Ajout et configuration de widgets dans Experience Builder
 description: Découvrez comment ajouter, personnaliser et configurer divers widgets dans Experience Builder dans Adobe Learning Manager. Ce guide couvre les widgets couramment utilisés tels que les calendriers, les catégories, l’état de conformité, les cours et les parcours, la ludification, le contenu de HTML, les IFrames, l’apprentissage par les réseaux sociaux, etc.
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 30372b696921be9e896f947e96683b72587f1323
+source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
-source-wordcount: '2495'
+source-wordcount: '2864'
 ht-degree: 0%
 
 ---
@@ -315,57 +315,53 @@ Pour configurer le widget Mon apprentissage :
 
 Le widget Mon apprentissage sera ajouté à la page. Les administrateurs peuvent ajouter d’autres widgets et publier la page.
 
-<!--
+## Widget Enregistré par moi {#bookmark-widget}
 
-## Saved by me widget {#bookmark-widget}
+Le widget **Enregistré par moi** affiche les cours, les parcours d’apprentissage, les certifications et les assistances à la tâche qu’un élève a mis en signet pour plus tard. Les élèves disposent ainsi d’un emplacement unique pour rechercher le contenu qu’ils ont marqué comme enregistré, sans avoir à rechercher à nouveau dans le catalogue.
 
-The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+En tant qu&#39;administrateur, vous pouvez ajouter le widget **Enregistré par moi** à une page pour permettre aux élèves d&#39;accéder rapidement à leur contenu marqué d&#39;un signet. Les élèves peuvent utiliser le widget pour consulter à nouveau les cours qu&#39;ils ont enregistrés lors de la navigation, sans répéter leur recherche ou navigation d&#39;origine.
 
-As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+L’ajout de ce widget à une page peut vous aider à :
 
-Adding this widget to a page can help: 
+* Rationalisez les workflows des élèves en fournissant un accès en un clic au contenu fréquemment consulté
 
-* Streamline learner workflows by providing single-click access to frequently accessed content 
+* Réduction du temps passé à rechercher des ressources et à naviguer de manière répétitive
 
-* Reduce repetitive navigation and time spent searching for resources 
+* Créez une expérience d’apprentissage plus personnalisée qui augmente la satisfaction et l’engagement
 
-* Create a more personalized learning experience that increases satisfaction and engagement 
+### Ajouter un widget Enregistré par moi
 
-### Add a Saved by me widget 
+Imaginez qu’une société financière déploie un nouveau programme de plus de 50 cours pour ses équipes de gestion des ventes et de succès client (CSM).  Lorsque les élèves parcourent le catalogue, ils mettent en signet les cinq ou six cours les plus pertinents pour leur propre rôle.
 
-Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+Ces cours enregistrés apparaissent automatiquement dans le widget Enregistré par moi de la page d’accueil personnalisée de l’élève. Au lieu de parcourir à nouveau le catalogue, ils peuvent accéder directement au widget pour accéder au contenu qu’ils réservent ou s’y inscrire.
 
-Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+Pour configurer le widget **Enregistré par moi** :
 
-To configure the **Saved by me** widget: 
-
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **Branding** in the left navigation pane. 
-3. Select **Custom Pages**. 
-4. Select the required page and then select **Page Design**. 
-5. Select the layout. 
-6. Select **Add Widget**. 
-7. Select **Saved by me** and then select **Proceed**. 
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+2. Sélectionnez **Identité visuelle** dans le volet de navigation de gauche.
+3. Sélectionnez **Pages personnalisées**.
+4. Sélectionnez la page requise, puis **Conception de page**.
+5. Sélectionnez la mise en page.
+6. Sélectionnez **Ajouter un widget**.
+7. Sélectionnez **Enregistré par moi**, puis **Continuer**.
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
 
-8. Type a **Widget title** and **Widget description**.
+8. Saisissez un **titre de widget** et une **description de widget**.
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
 
-9. Select **Add widget**. 
+9. Sélectionnez **Ajouter un widget**.
 
-The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+Le widget **Enregistrer par moi** sera ajouté à la page. Les administrateurs peuvent ajouter d’autres widgets et publier la page.
 
 ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
 
 >[!NOTE]
 >
->If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+>Si un élève n’a marqué aucun contenu d’un signet, le widget Enregistré par moi affiche un état vide sur sa page. Lorsque l’élève met en signet des cours, des parcours d’apprentissage, des certifications ou des assistances à la tâche, ces éléments apparaissent automatiquement dans le widget.
 
-Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
-
--->
+Le titre et la description du widget prennent en charge la localisation de la même manière que les autres widgets dans Experience Builder. Si plusieurs langues sont configurées pour votre compte, fournissez un titre et une description pour chaque langue, afin que les élèves voient le widget dans leurs paramètres régionaux préférés.
 
 ## Widget Apprentissage par les réseaux sociaux
 
