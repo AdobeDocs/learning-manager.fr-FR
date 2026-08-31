@@ -155,7 +155,7 @@ Pour configurer le widget Cours et parcours :
 
 ![](assets/configure-course-paths.png)
 _Widget Cours et parcours dans lequel les administrateurs définissent le titre et la description du widget, et sélectionnent les cours ou parcours d’apprentissage à afficher sous forme de cartes interactives_
-11. Sélectionnez **[!UICONTROL Ajouter un widget]**.
+&#x200B;11. Sélectionnez **[!UICONTROL Ajouter un widget]**.
 
 Le widget Cours et parcours sera ajouté à la page. Les administrateurs peuvent ajouter d’autres widgets et publier la page.
 
