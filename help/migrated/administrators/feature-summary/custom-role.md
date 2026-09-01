@@ -84,7 +84,7 @@ _Filtrer les rôles personnalisés_
 
    *Définir la portée*
 
-   ### La mise en page du modèle d’e-mail nécessite le privilège de compte Modèles d’e-mail
+   &#x200B;### La mise en page du modèle d’e-mail nécessite le privilège de compte Modèles d’e-mail
 
    Pour afficher un modèle d&#39;e-mail de niveau cours avec sa mise en page rendue correctement, un rôle personnalisé nécessite **les deux** éléments suivants :
 
