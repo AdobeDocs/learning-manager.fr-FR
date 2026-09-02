@@ -3,9 +3,9 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
 workflow-type: tm+mt
-source-wordcount: '6082'
+source-wordcount: '6094'
 ht-degree: 33%
 
 ---
@@ -271,7 +271,7 @@ Une fois que vous avez téléchargé le contenu, une notification s’affiche lo
 
 ### Prise en charge VTT multilingue
 
-La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Learning Manager permet aux auteurs de fournir des sous-titres et des légendes pour le contenu vidéo et audio dans plusieurs langues. Cette fonctionnalité rationalise la localisation, rend la formation accessible à un public international et garantit la conformité aux normes d’accessibilité. Les auteurs peuvent générer, traduire, réviser et modifier automatiquement les fichiers VTT directement sur la plateforme.
+La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Learning Manager permet aux auteurs de fournir des sous-titres et des légendes pour le contenu vidéo et audio dans plusieurs langues. Cette fonctionnalité rationalise la localisation, rend la formation accessible à un public international et garantit la conformité aux normes d’accessibilité. Les auteurs peuvent générer, translater, réviser et modifier automatiquement les fichiers VTT directement sur la plateforme.
 
 >[!NOTE]
 >
@@ -281,13 +281,13 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 
 * Formation globale : proposez du contenu vidéo avec sous-titres dans plusieurs langues pour atteindre des élèves internationaux.
 * Conformité à l’accessibilité : proposez des sous-titres aux utilisateurs malentendants dans leur langue préférée.
-* Localisation plus rapide : réduisez les efforts manuels et accélérez le déploiement du contenu en générant et en traduisant automatiquement les fichiers VTT.
+* Localisation plus rapide : réduisez les efforts manuels et accélérez le déploiement du contenu en générant et en translatant automatiquement les fichiers VTT.
 * Expérience cohérente : assurez-vous que tous les élèves reçoivent les mêmes informations, quelle que soit la langue.
 
 #### Fonctionnalités clés
 
 * Génération VTT automatique : chargez un fichier vidéo ou audio et générez automatiquement des légendes VTT dans la langue d’origine.
-* Traduction multilingue : traduisez les sous-titres dans l’une des 39 langues non anglophones prises en charge.
+* Traduction multilingue : Translatez les sous-titres dans l’une des 10 langues non anglophones prises en charge.
 * Révision et modification dans l’application : révisez, modifiez et téléchargez les fichiers VTT avant de les publier.
 * Notifications : recevez des notifications dans l’application lorsque la génération et la traduction VTT sont terminées.
 * Publication fluide : légendes finalisées Publish auxquelles les élèves peuvent accéder dans la langue de leur choix.
@@ -298,8 +298,8 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 2. Chargez votre fichier MP3 ou MP4.
 3. Dans la boîte de dialogue de téléchargement, sélectionnez l&#39;option **Générer la traduction**.
 4. Sélectionnez la langue du contenu d’origine (la langue par défaut est celle du fichier).
-5. Sélectionnez d’autres langues cibles pour la traduction (jusqu’à 39 prises en charge).
-6. Sélectionnez [!UICONTROL Enregistrer]. Le système commence à générer et à traduire des fichiers VTT.
+5. Sélectionnez d’autres langues cibles pour la traduction (jusqu’à 10 prises en charge).
+6. Sélectionnez [!UICONTROL Enregistrer]. Le système commence à générer et à translater des fichiers VTT.
 
 #### Suivi de la progression
 
@@ -323,11 +323,11 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 
 #### Informations supplémentaires
 
-* Langues prises en charge : les 39 langues autres que l’anglais sont prises en charge par Adobe Learning Manager.
-* Notifications : les auteurs sont avertis lorsque la génération et la traduction VTT sont terminées.
+* **Langues prises en charge :** dix langues autres que l&#39;anglais (français, allemand, espagnol, italien, portugais, néerlandais, suédois, indonésien, norvégien, bokmal et danois) sont prises en charge par Adobe Learning Manager.
+* **Notifications :** les auteurs sont avertis lorsque la génération et la traduction VTT sont terminées.
 * Flexibilité de modification : les sous-titres peuvent être modifiés dans l’application ou hors ligne et rechargés.
-* Évolutivité : conçu pour les besoins de localisation et d’accessibilité à l’échelle de l’entreprise.
-* Pas besoin de téléchargement VTT manuel : le système peut générer des fichiers VTT à partir de zéro à l&#39;aide de la vidéo/audio téléchargée.
+* **Évolutivité :** conçue pour les besoins de localisation et d&#39;accessibilité à l&#39;échelle de l&#39;entreprise.
+* **Pas besoin de chargement VTT manuel :** le système peut générer des fichiers VTT à partir de zéro à l&#39;aide de la vidéo/audio chargée.
 
 #### Bonnes pratiques
 
@@ -681,7 +681,7 @@ La Date d’expiration marque le contenu qui peut être obsolète ou qui n’est
 
 Cela aide les organisations à conserver la pertinence du contenu sans supprimer accidentellement les éléments publiés.
 
-L’ID unique du contenu et la date d’expiration s’appliquent à toutes les versions linguistiques d’un groupe de contenus, ce qui garantit une expérience cohérente pour tous les utilisateurs, quelle que soit la langue. Les auteurs peuvent utiliser l’ID unique de contenu pour rechercher et trouver rapidement du contenu spécifique, ce qui facilite la gestion et la mise à jour des supports de formation.
+L’ID unique du contenu et la date d’expiration s’appliquent à toutes les versions linguistiques d’un groupe de contenus, ce qui garantit une expérience cohérente pour tous les utilisateurs, quelle que soit la langue. Les auteurs peuvent utiliser l’ID unique du contenu pour rechercher et rechercher rapidement du contenu spécifique, ce qui facilite la gestion et la mise à jour des matériaux de formation.
 
 Le **[!UICONTROL rapport de formation]** inclut désormais deux nouvelles colonnes : **[!UICONTROL Date d&#39;expiration du contenu (fuseau horaire UTC)]** et **[!UICONTROL ID de contenu unique]**, pour suivre l&#39;ID de contenu unique et la date d&#39;expiration. Ces champs peuvent être ajoutés via l’interface utilisateur ou la migration, et l’administrateur peut les suivre de manière centralisée via des rapports de formation.
 
@@ -798,7 +798,7 @@ Cela aidera les élèves à obtenir la dernière version du contenu.
 
 Consultez ce [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) pour plus d&#39;informations.
 
-### Contrôle de version du contenu pour les élèves qui ont terminé un cours
+### Gestion de versions de contenu pour les élèves qui ont terminé un cours
 
 Adobe Learning Manager offre désormais aux auteurs des options plus claires pour gérer les mises à jour de contenu. Les auteurs peuvent mettre à jour le contenu déjà disponible dans un cours. Lorsqu’une nouvelle version est ajoutée, le numéro de version apparaît en regard du contenu.
 
