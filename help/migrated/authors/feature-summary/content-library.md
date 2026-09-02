@@ -3,9 +3,9 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6094'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -287,7 +287,7 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 #### Fonctionnalités clés
 
 * Génération VTT automatique : chargez un fichier vidéo ou audio et générez automatiquement des légendes VTT dans la langue d’origine.
-* Traduction multilingue : Translatez les sous-titres dans l’une des 10 langues non anglophones prises en charge.
+* Traduction multilingue : Translatez les sous-titres dans l’une des 39 langues non anglophones prises en charge.
 * Révision et modification dans l’application : révisez, modifiez et téléchargez les fichiers VTT avant de les publier.
 * Notifications : recevez des notifications dans l’application lorsque la génération et la traduction VTT sont terminées.
 * Publication fluide : légendes finalisées Publish auxquelles les élèves peuvent accéder dans la langue de leur choix.
@@ -298,7 +298,7 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 2. Chargez votre fichier MP3 ou MP4.
 3. Dans la boîte de dialogue de téléchargement, sélectionnez l&#39;option **Générer la traduction**.
 4. Sélectionnez la langue du contenu d’origine (la langue par défaut est celle du fichier).
-5. Sélectionnez d’autres langues cibles pour la traduction (jusqu’à 10 prises en charge).
+5. Sélectionnez d’autres langues cibles pour la traduction (jusqu’à 39 prises en charge).
 6. Sélectionnez [!UICONTROL Enregistrer]. Le système commence à générer et à translater des fichiers VTT.
 
 #### Suivi de la progression
@@ -323,7 +323,7 @@ La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Lear
 
 #### Informations supplémentaires
 
-* **Langues prises en charge :** dix langues autres que l&#39;anglais (français, allemand, espagnol, italien, portugais, néerlandais, suédois, indonésien, norvégien, bokmal et danois) sont prises en charge par Adobe Learning Manager.
+* **Langues prises en charge :** les 39 langues autres que l&#39;anglais sont prises en charge par Adobe Learning Manager.
 * **Notifications :** les auteurs sont avertis lorsque la génération et la traduction VTT sont terminées.
 * Flexibilité de modification : les sous-titres peuvent être modifiés dans l’application ou hors ligne et rechargés.
 * **Évolutivité :** conçue pour les besoins de localisation et d&#39;accessibilité à l&#39;échelle de l&#39;entreprise.
@@ -798,7 +798,7 @@ Cela aidera les élèves à obtenir la dernière version du contenu.
 
 Consultez ce [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) pour plus d&#39;informations.
 
-### Gestion de versions de contenu pour les élèves qui ont terminé un cours
+### Contrôle de version du contenu pour les élèves qui ont terminé un cours
 
 Adobe Learning Manager offre désormais aux auteurs des options plus claires pour gérer les mises à jour de contenu. Les auteurs peuvent mettre à jour le contenu déjà disponible dans un cours. Lorsqu’une nouvelle version est ajoutée, le numéro de version apparaît en regard du contenu.
 
