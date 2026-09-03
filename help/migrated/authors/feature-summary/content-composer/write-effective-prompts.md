@@ -3,9 +3,9 @@ description: L’invite est l’entrée la plus importante dans le compositeur d
 jcr-language: en_us
 title: Rédiger des invites efficaces dans le compositeur de contenu
 hide: true
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: fad98839f06f2e9cea2e78621bbb7e2e52444e9e
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,21 @@ Le compositeur de contenu est axé sur la conversation. La qualité de ce qu&#39
 
 L’invite d’ouverture est votre point de départ. Elle n&#39;a pas besoin d&#39;être parfaite. Le compositeur de contenu lit votre invite et l’utilise pour ouvrir une conversation. Même une invite brusque fait avancer le processus ; l&#39;assistant posera des questions de suivi à l&#39;étape Brief pour compléter ce qui manque.
 
-Cela dit, une invite plus spécifique signifie que l’IA pré-remplit le résumé avec plus de précision, ce qui réduit les allers-retours avant que vous ne génériez le plan. Si vous avez une idée précise du public, des sujets et de l’objectif, placez-le dans l’invite.
-
-Une invite vague produit un bref vague. Un résumé vague donne un aperçu général. Un plan générique produit un cours qui nécessite des modifications importantes. La spécificité à l’étape d’invite se propage en cascade à chaque étape suivante.
+Cela dit, une invite plus spécifique signifie que l’IA pré-remplit le résumé avec plus de précision, ce qui réduit les allers-retours avant que vous ne génériez le plan. Si vous avez une idée précise du public, du titre et de l’objectif, placez-le dans l’invite.
 
 ### À quoi s’attend le compositeur de contenu
 
-Le compositeur de contenu attend ce qui suit en une ou deux phrases :
+Le compositeur de contenu attend les éléments suivants :
 
-- **Qui** sont les élèves ? Nommez leur rôle et leur niveau d’expérience.
-  - **Que** couvrira le cours ? Décrivez 2 à 3 sujets spécifiques plutôt qu&#39;un domaine général. Par exemple, « reconnaissance du phishing, hygiène des mots de passe et configuration de l&#39;authentification multifacteur » est plus utile que « sécurité informatique ».
-- **Quel est l’objectif d’apprentissage ?** Décrivez le résultat ou le changement de comportement que vous souhaitez que les élèves accomplissent après avoir terminé le cours.
+- **De quoi traite le cours** ? Décrivez le sujet en une ou deux phrases. Cela devient le titre du cours.
+- **Qui** sont les élèves ? Nommez leur rôle et leur niveau d’expérience. Cela devient le profil de l’élève.
+- **Quel est l’objectif d’apprentissage ?** Décrivez le résultat ou le changement de comportement que vous souhaitez que les élèves accomplissent après avoir terminé le cours. Cela devient l’objectif d’apprentissage dans le résumé.
 
 ### Anatomie d&#39;une invite efficace
 
-**[Niveau d’audience + d’expérience]** + **[2-3 sujets spécifiques]** + **[objectif d’apprentissage]**
+**[Élèves + niveau d’expérience]** + **[un titre spécifique]** + **[objectif d’apprentissage]**
+
+Une invite efficace effectue trois choses : elle décrit le sujet du cours, à qui il s’adresse et ce que les élèves doivent être en mesure de faire une fois le cours terminé.
 
 **Exemple** :
 
@@ -43,29 +43,28 @@ Je souhaite créer un cours pour les nouveaux commerciaux couvrant nos niveaux d
 
 Décomposition :
 
-- **Audience :** nouveaux représentants commerciaux
-
-- **Sujets :** niveaux de tarification d&#39;entreprise, flux d&#39;approbation de remise, trois objections courantes
-  - **Objectif d&#39;apprentissage** : traitez en toute confiance les trois objections les plus courantes des clients : un résultat mesurable sur le plan du comportement, pas un sujet à aborder
+- **Titre :** cours sur la tarification en entreprise, les approbations de remise et la gestion des objections des clients destiné aux nouveaux représentants commerciaux
+- **Élève :** nouveaux représentants commerciaux dans leurs 90 premiers jours, ne connaissant pas les structures tarifaires de l’entreprise
+- **Objectif :** traitez les trois objections de client les plus courantes en toute confiance à l&#39;aide du framework de messagerie approuvé
 
 Une fois que vous avez sélectionné **Commencer**, le compositeur de contenu ouvre l&#39;étape **Bref**. Passez en revue les champs préremplis, le titre, le profil de l’élève et l’objectif que l’IA a générés à partir de votre invite, et affinez tout ce qui ne correspond pas à votre intention avant de générer le plan.
 
 ### À faire et à ne pas faire d&#39;une invite efficace
 
-| **Inclure** | **Éviter** |
-|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Un rôle d’audience spécifique (« nouveaux commerciaux », « responsables de première ligne ») | Des publics vagues (« tout le personnel », « tout le monde », « utilisateurs ») |
-| 2-3 domaines thématiques concrets | Plus de 6 rubriques dans une seule invite : elles produisent des contours surchargés, divisés plutôt en cours distincts |
-| Un signal d’étendue : durée, profondeur ou résultat de l’élève | Objectifs génériques (« apprenez-leur tout sur X », « couvrez tous les aspects de ») |
-| Contexte qui façonne le ton ou la profondeur (« pour la conformité », « pour un public non technique », « en fonction de scénarios ») | Poser des questions sur l’IA. L’invite est brève, pas une conversation |
-| Ce que les élèves pourront faire après le cours | Ce que contiendra le cours (laisser la structure à l’étape du plan) |
+| Inclure | Éviter |
+|---|---|
+| Un titre de cours ou un sujet clair | Sujets vagues (« quelque chose sur la sécurité », « une formation générale ») |
+| Rôle ou profil démographique de l’élève (« nouveaux commerciaux », « personnel d’entrepôt de première ligne ») | Large public (« tout le personnel », « tout le monde », « utilisateurs ») |
+| Niveau d’expérience de l’élève (« début de carrière », « familier avec X mais pas Y ») | En supposant que l&#39;IA connaît l&#39;arrière-plan de votre public |
+| Ce avec quoi les élèves sont aux prises ou ce qu’ils ne savent pas | Les lacunes d’apprentissage sont ignorées. L&#39;IA les utilise pour façonner le vocabulaire et les scénarios |
+| Un objectif d’apprentissage clair : ce que les élèves pourront faire après le cours | Objectifs génériques (« apprenez-leur tout sur X », « couvrez tous les aspects de ») |
 
 ### Invites de démarrage par type de cours
 
 | **Type de cours** | **Invite de démarrage** |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Formation à la conformité** | « Je veux créer un cours pour tous les employés sur le traitement des données RGPD, couvrant ce qui compte comme des données personnelles, comment les stocker et les partager correctement, et ce qu&#39;il faut faire en cas de violation. » |
-| **Intégration** | « Je souhaite créer un module d’intégration pour le nouveau \[rôle\] couvrant \[rubrique 1\], \[rubrique 2\] et \[rubrique 3\]. |
+| **Intégration** | « Je souhaite créer un module d’intégration pour les nouveaux agents du service clientèle. Il explique comment enregistrer un ticket, faire remonter un problème et fermer un dossier dans notre système de support technique. » |
 | **Compétences techniques** | « Je veux créer un cours pour les ingénieurs en logiciels débutants sur les pratiques de codage sécurisées, telles que la prévention de l&#39;injection de code SQL, la validation des entrées et la lecture d&#39;un rapport SAST. » |
 | **Compétences non techniques** | « Je veux créer un cours pour les responsables de la vente au détail de première ligne sur la façon de donner une rétroaction constructive, comme la couverture du modèle SBI, la façon de se préparer à une conversation de rétroaction et la façon de faire un suivi. » |
 | **Politique et procédure** | « Je veux créer un cours pour le personnel de l&#39;entrepôt sur les procédures de manutention manuelle, comme la bonne technique de levage, quand utiliser l&#39;équipement et comment signaler un quasi-échec. » |
@@ -83,11 +82,9 @@ Il s&#39;agit d&#39;une étape de conversation. La qualité de vos réponses aux
 
 ### Titre du cours
 
-L’IA propose deux options de titre. Sélectionnez celui qui convient ou saisissez le vôtre. Si aucun des deux n’est correct, décrivez l’écart :
+L’IA pré-remplit le titre du cours en fonction de votre invite. Passez-le en revue et sélectionnez-le s’il convient, saisissez-le ou décrivez plutôt ce que vous souhaitez :
 
 « Ni l&#39;un ni l&#39;autre. Le cours traite spécifiquement du workflow d’approbation, et non de la tarification générale. »
-
-Un bon titre est orienté vers l’élève. Il décrit ce que l’élève sera capable de faire, et non ce que couvre le cours.
 
 ### Profil d’élève
 
@@ -115,28 +112,30 @@ Rédigez l’objectif sous la forme d’un comportement en commençant par un ve
 >
 >**Avant de générer le plan :** le plan est entièrement créé à partir du résumé, et non à partir de votre invite d&#39;origine. Avant de sélectionner **Générer l&#39;aperçu**, vérifiez que le titre est destiné à l&#39;élève, que le profil de l&#39;élève nomme un rôle et un niveau d&#39;expérience spécifiques et que l&#39;objectif d&#39;apprentissage décrit un comportement mesurable sur le terrain. Un résumé bien défini produit un plan bien structuré. Si un champ semble encore générique, affinez-le maintenant.  Cela permet d’économiser des modifications importantes ultérieurement.
 
+Vous êtes toujours aux commandes. Le compositeur de contenu posera des questions complémentaires pour affiner le résumé, mais c’est vous qui décidez de ce qui doit être inclus dans chaque champ. Un résumé bien défini produit un plan bien structuré. Plus vos entrées sont spécifiques, moins vous aurez besoin de modifications ultérieurement.
+
 ### Signes le document doit être retravaillé
 
 - Le profil de l’élève indique « employés qui souhaitent en savoir plus sur X » plutôt que de nommer un rôle et un niveau d’expérience spécifiques
 - L’objectif d’apprentissage décrit un sujet plutôt qu’un comportement mesurable au travail
-- Le titre est un libellé de rubrique (« Sécurité informatique ») plutôt qu’un résultat destiné à l’élève (« Identifier et répondre aux tentatives de phishing »)
+- Le titre est vague (« Sécurité informatique ») plutôt qu&#39;un résultat destiné à l&#39;élève (« Identification et réponse aux tentatives d&#39;hameçonnage »)
 
 ## Étape 3 : vectoriser - modifier par la conversation
 
 Après avoir confirmé la note, le compositeur de contenu génère une structure de leçon et de rubrique. Vous pouvez le consulter et demander des modifications via le panneau de conversation avant de générer le cours complet.
 
-La modification des contours est entièrement conversationnelle dans la version actuelle. Vous ne pouvez pas sélectionner une leçon ou une rubrique sur la zone de travail pour la renommer ou la réorganiser. Toutes les modifications sont effectuées en saisissant des demandes en langage clair et simple.
+La modification des contours est entièrement conversationnelle dans la version actuelle. Vous ne pouvez pas sélectionner une leçon ou un titre sur la zone de travail pour la renommer ou la réorganiser. Toutes les modifications sont effectuées en saisissant des demandes en langage clair et simple.
 
 C&#39;est aussi l&#39;étape la plus efficace pour apporter des changements structurels. La modification du contour prend quelques secondes. La restructuration d’un cours généré prend beaucoup plus de temps.
 
 ### Comment formuler des demandes de modification de contour
 
-Soyez direct et précis. Nommez la leçon ou la rubrique par son titre actuel, décrivez la modification souhaitée et éventuellement expliquez pourquoi.
+Soyez direct et précis. Nommez la leçon par son titre actuel, décrivez la modification souhaitée et éventuellement expliquez-en la raison.
 
 **Renommer :**
 
 - « Renommez la leçon 1 en &#39;Comment fonctionnent les attaques de phishing&#39;. »
-- « Renommez la rubrique 2.3 en &#39;Chemins et chronologies d&#39;escalade&#39;. »
+- « Renommez le titre 2.3 en &#39;Chemins et chronologies d&#39;escalade&#39;. »
 
 **Ajouter :**
 
@@ -169,16 +168,17 @@ Soyez direct et précis. Nommez la leçon ou la rubrique par son titre actuel, d
 ### Ce que l’étape de vectorisation ne peut pas faire
 
 - La hiérarchie est définie comme Leçons > Rubriques. Vous ne pouvez pas créer de sous-rubriques ou de structures à trois niveaux.
-- Vous ne pouvez pas définir d’objectifs de leçon individuels à ce stade : l’objectif d’apprentissage global du résumé s’applique au cours complet.
 - Vous ne pouvez pas ajouter de composants ou de médias à ce stade. Ils sont ajoutés dans l’éditeur de cours.
 
-### Quand régénérer et quand modifier
+<!--
+### When to regenerate versus when to edit
 
-| Utiliser la modification par conversation lorsque... | Régénérer lorsque... |
+| Use conversational editing when... | Regenerate when... |
 |---|---|
-| La structure globale est correcte, mais les noms ou les rubriques individuels doivent être ajustés | La structure globale ne correspond pas du tout à votre intention |
-| Vous souhaitez ajouter ou supprimer des éléments spécifiques | Le résumé a été considérablement affiné après la génération du premier plan |
-| Une leçon nécessite d’être divisée ou fusionnée | Le plan semble générique et manque du contexte spécifique de votre organisation |
+| The overall structure is right but individual names or topics need adjusting | The overall structure doesn't match your intent at all |
+| You want to add or remove specific items | The Brief was refined significantly after the first outline was generated |
+| One lesson needs splitting or merging | The outline feels generic and lacks your organisation's specific context |
+-->
 
 ## Étape 4 : cours - amélioration du contenu via l’assistant
 
