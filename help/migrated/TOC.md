@@ -2,9 +2,9 @@
 user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
-source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
+source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 36%
 
 ---
@@ -165,9 +165,9 @@ ht-degree: 36%
   * [Manuel de migration](integration-admin/feature-summary/migration-manual.md)
   * Connecteurs Learning Manager {#connectors}
     * [Présentation des connecteurs](integration-admin/feature-summary/connectors.md)
-    * [Connecteur ADFS](integration-admin/feature-summary/adfs-connector.md)
+    * [CONNECTEUR ADFS](integration-admin/feature-summary/adfs-connector.md)
     * [Connecteur Adobe Commerce](integration-admin/feature-summary/adobe-commerce-connector.md)
-    * [Connecteur Adobe Connect](integration-admin/feature-summary/adobe-connect-connector.md)
+    * [connecteur Adobe Connect](integration-admin/feature-summary/adobe-connect-connector.md)
     * [Connecteur Box](integration-admin/feature-summary/box-connector.md)
     * [Connecteur FTP personnalisé](integration-admin/feature-summary/custom-ftp-connector.md)
     * [Connecteur FTP](integration-admin/feature-summary/ftp-connector.md)
@@ -222,8 +222,9 @@ ht-degree: 36%
       * [Qu’est-ce que le compositeur de contenu ?](authors/feature-summary/content-composer/what-is-content-composer.md)
       * [Fonctionnement du compositeur de contenu](authors/feature-summary/content-composer/how-content-composer-works.md)
       * [À qui s’adresse Content Composer](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [Configuration du stockage dans un Creative Cloud pour le compositeur de contenu](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
       * [Ce dont vous avez besoin avant de commencer](authors/feature-summary/content-composer/before-you-start.md)
-      * [Fondez votre cours sur vos propres documents](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [Sol de votre cours dans vos propres documents](authors/feature-summary/content-composer/ground-course-documents.md)
       * [Ce que le compositeur de contenu n’est pas](authors/feature-summary/content-composer/what-content-composer-is-not.md)
     * Rédiger des invites efficaces {#write-effective-prompt}
       * [Rédiger des invites efficaces dans le compositeur de contenu](authors/feature-summary/content-composer/write-effective-prompts.md)
