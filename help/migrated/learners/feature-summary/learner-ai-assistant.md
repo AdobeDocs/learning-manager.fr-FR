@@ -3,9 +3,9 @@ description: Obtenez des réponses rapides et précises de votre contenu d’app
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
+source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
 workflow-type: tm+mt
-source-wordcount: '3167'
+source-wordcount: '3236'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ L’assistant AI est un compagnon de chat alimenté par l’IA générative dans
 
 ## Ce que l’assistant d’IA peut faire
 
-L’assistant AI est un compagnon de conversation alimenté par l’IA générative qui répond aux questions à l’aide du contenu d’apprentissage qui vous est attribué. Chaque réponse comprend des citations avec des liens directs vers le matériel source afin que vous puissiez vérifier les informations et continuer à apprendre en contexte.
+L’assistant AI est un compagnon de conversation alimenté par l’IA générative qui répond aux questions à l’aide du contenu d’apprentissage qui vous est attribué. Chaque réponse comprend des citations avec des liens directs vers le matériau source, ce qui vous permet de vérifier les informations et de poursuivre l’apprentissage en contexte.
 
 En plus de répondre aux questions, l’assistant IA peut :
 
@@ -81,7 +81,7 @@ Adobe traite votre contenu d’apprentissage de manière sécurisée à l’aide
 
 ### Limitations du catalogue et de la source de contenu
 
-L&#39;Assistant IA utilise uniquement le contenu des catalogues **internes** qui sont explicitement configurés par les administrateurs.
+L’assistant AI utilise uniquement le contenu des catalogues internes, des catalogues externes et des bibliothèques de contenu tierces. Les réponses aux requêtes des élèves sont dérivées uniquement des catalogues auxquels ils ont accès.
 
 Les sources de contenu suivantes ne sont pas prises en charge dans la version actuelle :
 
@@ -117,7 +117,7 @@ L’assistant AI aide Marcus à :
 
 ### Intégration d’un nouvel employé
 
-Jennifer vient de se joindre à l&#39;entreprise et est submergée par la quantité de matériel de formation. Elle a besoin d’un moyen de trouver des informations spécifiques sans passer en revue l’intégralité des cours.
+Jennifer vient de se joindre à la compagnie et est submergée par la quantité de matériau de formation. Elle a besoin d’un moyen de trouver des informations spécifiques sans passer en revue l’intégralité des cours.
 
 L’assistant AI aide Jennifer à :
 
@@ -152,7 +152,7 @@ Chaque réponse de l&#39;assistant AI comprend des citations qui renvoient direc
 - Vérifiez les informations et explorez le contexte supplémentaire à partir de la source faisant autorité.
 
 > **IMPORTANT**
-> L’assistant IA fournit des réponses en fonction du contenu activé par l’administrateur. Si vous n’avez pas accès à un élément référencé, un message « non pris en charge » s’affiche lorsque vous essayez de l’ouvrir.
+> L’assistant AI fournit des réponses basées sur le contenu activé par l’administrateur. Si vous n’avez pas accès à un élément référencé, un message « non pris en charge » s’affiche lorsque vous essayez de l’ouvrir.
 
 
 ## Invites intégrées
@@ -331,7 +331,7 @@ Découvrez comment l’assistant d’apprentissage de Adobe Learning Manager peu
 
 ### Utilisation d’Experience League par l’assistant d’apprentissage
 
-L&#39;assistant d&#39;apprentissage de Adobe Learning Manager peut obtenir des réponses à partir d&#39;[Adobe Experience League](/help/migrated/user-guide.md), le site d&#39;aide et de documentation officiel de l&#39;Adobe. Lorsqu&#39;un élève pose une question de procédure ou de procédure, l&#39;assistant d&#39;apprentissage peut récupérer une réponse pertinente et inclure un lien vers l&#39;article complet de l&#39;Experience League.
+L&#39;assistant d&#39;apprentissage de Adobe Learning Manager peut obtenir des réponses à partir d&#39;[Adobe Experience League](/help/migrated/user-guide.md), le site d&#39;aide et de documentation officiel de l&#39;Adobe. Lorsqu’un élève pose une question procédurale ou pratique, l’assistant d’apprentissage peut récupérer une réponse pertinente et inclure un lien vers l’article complet de l’Experience League.
 
 ### À quels types de questions peut répondre l’assistant d’apprentissage
 
