@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '858'
+ht-degree: 52%
 
 ---
 
@@ -29,13 +29,13 @@ Assurez-vous que vos comptes ont été créés dans les services FTP et Box. Lor
 
 * Assurez-vous que les noms des fichiers .csv respectent les noms de spécification des fichiers CSV :
 
-   * course.csv
-   * course_instance.csv
-   * course_module.csv
-   * enrollment.csv
-   * module.csv
-   * module_version.csv
-   * user_course_grade.csv
+  * course.csv
+  * course_instance.csv
+  * course_module.csv
+  * enrollment.csv
+  * module.csv
+  * module_version.csv
+  * user_course_grade.csv
 
 ### Les erreurs s’affichent pour les tâches avec des enregistrements d’erreur {#failuresareshownforjobswitherrorrecords}
 
@@ -43,7 +43,7 @@ Assurez-vous que vos comptes ont été créés dans les services FTP et Box. Lor
 1. Corrigez les fichiers .csv d’origine en fonction des erreurs signalées, et
 1. Réexécutez le sprint avec les fichiers CSV modifiés.
 
-Il est recommandé d’exécuter des fichiers CSV modifiés dans un nouveau sprint lorsque le nombre de modifications est inférieur au nombre total d’enregistrements.
+Il est recommandé d’exécuter des fichiers .csv modifiés dans un nouvel élément Sprint lorsque le nombre de modifications est inférieur au nombre total d’enregistrements.
 
 ### Impossible de se connecter à l’application Learning Manager, même après avoir arrêté la migration Sprint {#unabletologintocaptivateprimeapplicationevenafterstoppingthesprintmigration}
 
@@ -65,7 +65,7 @@ Assurez-vous que le sprint actuel est marqué comme terminé, avant de marquer l
 
 ### la migration du fichier module_version.csv échoue et le contenu n’est pas encore migré {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Assurez-vous que le contenu est disponible dans le dossier Contenu (compte Box sous le projet de migration spécifié, chemin d’accès sprint). Assurez-vous également d&#39;avoir sélectionné l&#39;option **Oui** pour **Allez-vous migrer le contenu pour ce sprint ?Question** dans la page de création Sprint.
+Assurez-vous que le contenu est disponible dans le dossier Contenu (compte Box sous le projet de migration spécifié, chemin d’accès sprint). Assurez-vous également d&#39;avoir sélectionné l&#39;option **Oui** pour **Allez-vous migrer du contenu pour ce sprint ?** dans la page de création Sprint.
 
 Si vous omettez de sélectionner **Oui**, puis poursuivez cette exécution de Sprint, vous devez attendre la fin de l’exécution. Créez un autre sprint et cliquez sur **[!UICONTROL Oui]**.
 
@@ -77,7 +77,7 @@ Assurez-vous que l’identifiant de courrier électronique indiqué dans les cha
 
 ### Les cours apparaissent vides ou les modules incorrects sont lus pour un cours migré {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Assurez-vous que la valeur de clé **moduleOrderInCourse** d&#39;un cours commence par **0** et est dans l&#39;ordre continu. L&#39;ordre en termes de courseModuleType doit être PRETEST, TESTOUT, CONTENT
+Vérifiez que la valeur de clé **moduleOrderInCourse** d’un cours commence par **0** et qu’elle se trouve dans l’ordre continu. L&#39;ordre en termes de courseModuleType doit être PRETEST, TESTOUT, CONTENT
 
 Assurez-vous également que deux versions d’Activity, Classroom et VC ne sont pas liées au cours existant.
 
