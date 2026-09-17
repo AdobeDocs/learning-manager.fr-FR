@@ -3,9 +3,9 @@ description: Obtenez des réponses rapides et précises de votre contenu d’app
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
+source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3241'
 ht-degree: 0%
 ---
 # Assistant d’IA pour les élèves
@@ -81,7 +81,7 @@ Adobe traite votre contenu d’apprentissage de manière sécurisée à l’aide
 
 L’assistant AI utilise uniquement le contenu des catalogues internes et des bibliothèques de contenu tierces. Les réponses aux requêtes des élèves sont dérivées uniquement des catalogues auxquels ils ont accès.
 
-Les sources de contenu suivantes ne sont pas prises en charge dans la version actuelle :
+Les sources de contenu suivantes ne sont pas prises en charge :
 
 - Catalogues externes partagés
 - Catalogues par défaut
@@ -354,7 +354,7 @@ L’assistant d’apprentissage de Adobe Learning Manager peut répondre aux que
 
 >[!IMPORTANT]
 >
->Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/fr/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
+>Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
 
 
 Lorsqu’un administrateur ajoute un catalogue Go1 ou LinkedIn Learning à Adobe Learning Manager, le contenu du catalogue passe par un processus d’ingestion planifié. Une fois l&#39;ingestion terminée, les objets d&#39;apprentissage de ce catalogue deviennent disponibles pour que l&#39;Assistant Apprentissage puisse les interroger.
