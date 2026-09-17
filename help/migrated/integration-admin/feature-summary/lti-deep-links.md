@@ -1,15 +1,13 @@
 ---
-description: Découvrez comment intégrer le connecteur LinkedIn Learning à Adobe Learning Manager
+description: Découvrez comment intégrer LinkedIn Learning connecteur à Adobe Learning Manager
 jcr-language: en_us
 title: Incorporation de liens profonds dans un outil LTI à partir d’ALM
 contentowner: mmanuel
-source-git-commit: ce25b5982c86695352029e22e427b4e85274a1cb
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 
 # LTI Deep Linking dans Adobe Learning Manager
 
@@ -27,7 +25,7 @@ Dans ce modèle :
 
 * Les instructeurs et les auteurs du LMS externe lancent une expérience de sélection par lien profond dédiée pour parcourir ALM.
 * Le système renvoie un objet de lien profond d&#39;ALM vers le LMS externe afin que l&#39;élément sélectionné puisse être incorporé dans le cadre de son flux de création de cours.
-* Les étudiants consomment du contenu lié de manière approfondie dans leur système de gestion de l’apprentissage principal, qui lance de manière transparente le contenu hébergé dans ALM.
+* Les étudiants consomment du contenu lié de manière approfondie dans leur système de gestion de l’apprentissage principal, qui lance de manière transparente le matériau hébergé dans ALM.
 
 ## Exposé du problème
 
@@ -52,7 +50,7 @@ Les principaux objectifs de cette fonctionnalité sont les suivants :
 1. Activation de la liaison approfondie LTI dans un fournisseur d’outils LTI
    * Prise en charge des lancements de liens profonds d’ALM vers un fournisseur d’outils LTI.
 2. Fourniture d’un workflow de sélection de contenu régi
-   * Exposez uniquement le contenu et les catalogues approuvés et pertinents lors de la sélection par lien profond.
+   * Exposez uniquement aux catalogues et contenus approuvés et pertinents lors de la sélection par lien profond.
 3. Autoriser les instructeurs et les auteurs à sélectionner des objets d’apprentissage
    * Fournir une interface utilisateur pouvant être recherchée et filtrée pour sélectionner des objets d’apprentissage éligibles.
 4. Renvoyer une réponse de lien profond valide à ALM
@@ -87,20 +85,24 @@ La liaison profonde exchange les paramètres suivants entre ALM et la plateforme
 
 ## Création d’un lien profond
 
+>[!IMPORTANT]
+>
+>Les étapes mentionnées dans la section ci-dessous et dans la section destinée aux auteurs doivent être effectuées sur la plateforme qui consomme les cours et non du côté d’ALM.
+
 ### Prérequis
 
 1. Vous devez être connecté en tant qu’administrateur d’intégration.
-2. Lors de la configuration de l’intégration LTI, cochez la case Prend en charge la liaison approfondie.
+2. Lors de la configuration de l&#39;intégration LTI, cochez la case **Prise en charge de la liaison approfondie**. Découvrez comment configurer l&#39;[intégration LTI](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md).
 3. Indiquez l’URL dans le champ pour amener l’utilisateur ou l’auteur à la sélection.
-4. Sélectionnez Enregistrer les modifications.
+4. Sélectionnez **Enregistrer les modifications**.
 
    La même URL de lancement est réutilisée pour simplifier la configuration et l’utilisation.
 
-   Le comportement est déterminé par le type de message LTI. Lorsque le type de message est `content_consumption`, l&#39;utilisateur est dirigé vers le lecteur de cours. Lorsque le type de message est `content_selection`, l&#39;utilisateur est routé via le flux de liaison approfondie, où l&#39;auteur peut sélectionner le contenu souhaité directement sans copier manuellement les identificateurs spécifiques au cours.
+   Le comportement est déterminé par le type de message LTI. Lorsque le type de message est `content_consumption`, l&#39;utilisateur est dirigé vers le lecteur de cours. Lorsque le type de message est `content_selection`, l&#39;utilisateur est routé via le flux de liaison approfondie, où l&#39;auteur peut sélectionner le contenu souhaité directement sans copier manuellement les identifiants spécifiques au cours.
 
    Après avoir enregistré vos modifications, sélectionnez l&#39;onglet **Sélectionner le contenu**. (L&#39;onglet **Sélectionner le contenu** ne devient actif qu&#39;une fois cette case cochée.)
 
-**La section suivante est destinée aux auteurs.**
+**Pour les auteurs**
 
 En tant qu&#39;auteur, vous pouvez sélectionner du contenu dans la fenêtre **Sélectionner du contenu**. La fenêtre **Sélectionner le contenu** affiche **Catalogue**, **Nombre de cours** et **Date d&#39;exportation**.
 
