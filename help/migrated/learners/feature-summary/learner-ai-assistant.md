@@ -3,13 +3,11 @@ description: Obtenez des réponses rapides et précises de votre contenu d’app
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3245'
 ht-degree: 0%
-
 ---
-
 # Assistant d’IA pour les élèves
 
 ## Introduction
@@ -81,15 +79,14 @@ Adobe traite votre contenu d’apprentissage de manière sécurisée à l’aide
 
 ### Limitations du catalogue et de la source de contenu
 
-L’assistant AI utilise uniquement le contenu des catalogues internes, des catalogues externes et des bibliothèques de contenu tierces. Les réponses aux requêtes des élèves sont dérivées uniquement des catalogues auxquels ils ont accès.
+L’assistant AI utilise uniquement le contenu des catalogues internes et des bibliothèques de contenu tierces. Les réponses aux requêtes des élèves sont dérivées uniquement des catalogues auxquels ils ont accès.
 
 Les sources de contenu suivantes ne sont pas prises en charge dans la version actuelle :
 
-- Catalogues **partagés**
-- Catalogues **acquis**
-- Catalogues **externes**
-- Catalogues **par défaut**
-- Bibliothèques de contenu tierces (par exemple, LinkedIn Learning ou Go1)
+- Catalogues externes partagés
+- Catalogues par défaut
+
+Les catalogues acquis sont pris en charge, ainsi que les réponses des métadonnées disponibles à partir de bibliothèques de contenu tierces (par exemple, LinkedIn Learning ou Go1).
 
 Si vous n’avez pas accès à un cours ou à une assistance à la tâche, l’assistant IA ne fait pas apparaître les informations de ce contenu et les liens de citation ne sont pas accessibles.
 
@@ -357,7 +354,7 @@ L’assistant d’apprentissage de Adobe Learning Manager peut répondre aux que
 
 >[!IMPORTANT]
 >
->Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/fr/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
+>Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
 
 
 Lorsqu’un administrateur ajoute un catalogue Go1 ou LinkedIn Learning à Adobe Learning Manager, le contenu du catalogue passe par un processus d’ingestion planifié. Une fois l&#39;ingestion terminée, les objets d&#39;apprentissage de ce catalogue deviennent disponibles pour que l&#39;Assistant Apprentissage puisse les interroger.
