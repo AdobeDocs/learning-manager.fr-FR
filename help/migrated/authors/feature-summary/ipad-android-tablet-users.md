@@ -4,28 +4,25 @@ title: Utilisateurs de tablettes Android et iPad
 description: Utilisateurs de tablettes Android et iPad
 contentowner: manochan
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: d6300070-9de0-4971-ae1a-ae944731b3bb
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 74%
-
+source-wordcount: '256'
+ht-degree: 100%
 ---
-
-
-
 # Utilisateurs de tablettes Android et iPad
 
-Dans l’application Learning Manager sur tablette iPad ou Android, une fois que vous vous êtes connecté en tant qu’élève, l’écran d’accueil suivant s’affiche :
+Dans l’application Learning Manager sur tablettes iPad et Android, une fois que vous vous êtes connecté en tant qu’élève, l’écran d&#39;accueil suivant s’affiche :
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
+Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur la flèche déroulante **Menu**, puis choisissez l’option appropriée.
 
 ![](assets/menu-ipad.png)
 
 Vous pouvez accéder à l’application Learning Manager hors ligne sur les tablettes Android et iPad. Téléchargez et prenez les cours en mode hors ligne, et synchronisez ensuite le contenu avec l’application en ligne quand vous connectez au réseau.
 
-1. Appuyez sur la liste déroulante Menu en haut de l’écran, puis sur l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
+1. Appuyez sur la flèche déroulante Menu en haut de l’écran, puis sélectionnez l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
 1. Appuyez sur l’icône de téléchargement au bas de chaque vignette d’objet de formation pour télécharger le contenu d’apprentissage.
 
 ![](assets/download-ipad.png)
@@ -36,7 +33,7 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
 
 Vous pouvez surveiller votre espace de stockage régulièrement.
 
-Appuyez sur l&#39;icône de profil dans le coin supérieur droit de l&#39;application et appuyez sur l&#39;option de menu **Stockage sur l&#39;appareil**.
+Appuyez sur l’icône de profil dans l’angle supérieur droit de l’application et appuyez sur l’option de menu **Stockage sur le périphérique**.
 
 ![](assets/app-device-storage.png)
 

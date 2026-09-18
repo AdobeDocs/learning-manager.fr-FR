@@ -3,20 +3,17 @@ description: Découvrez comment intégrer Salesforce à Learning Manager à l�
 jcr-language: en_us
 title: Connecteurs Learning Manager
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '6293'
-ht-degree: 72%
-
+source-wordcount: '6186'
+ht-degree: 83%
 ---
-
-
-
-# Connecteurs Learning Manager
+# Connecteurs Learning Manager
 
 Découvrez comment intégrer Salesforce à Learning Manager à l’aide de connecteurs, comment intégrer FTP à Learning Manager et charger un fichier CSV automatiquement à l’aide du connecteur FTP.
 
-Les entreprises disposent d’autres applications et systèmes devant éventuellement être intégrés à Learning Manager. Les connecteurs sont des utilitaires qui facilitent l’exécution d’intégrations basées sur des données, telles que l’importation de données dans Learning Manager à partir de systèmes externes ou l’exportation de données vers des systèmes externes à partir de Learning Manager. Dans la version de juillet 2016, les connecteurs permettent uniquement d’importer en bloc des utilisateurs pour Learning Manager à partir de systèmes externes.
+Les entreprises disposent d’autres applications et systèmes devant éventuellement être intégrés à Learning Manager. Les connecteurs sont des utilitaires qui aident à effectuer des intégrations basées sur des données telles que l’importation de données dans Learning Manager à partir de systèmes externes ou l’exportation de données vers des systèmes externes à partir de Learning Manager. Dans la version de juillet 2016, les connecteurs permettent uniquement d’importer en bloc des utilisateurs pour Learning Manager à partir de systèmes externes.
 
 Learning Manager fournit des connecteurs Salesforce et FTP. À l’aide du connecteur Salesforce, les administrateurs d’intégration d’une entreprise peuvent intégrer leurs applications Salesforce à Learning Manager. En tant qu’intégrateur, vous pouvez également utiliser le connecteur FTP pour importer automatiquement un groupe d’utilisateurs dans l’application de votre entreprise.
 
@@ -28,7 +25,7 @@ Lisez ce qui suit pour savoir comment configurer et utiliser chacun de ces conne
 
 ## Connecteur Salesforce {#sfconnector}
 
-Le connecteur Salesforce connecte les comptes Learning Manager et Salesforce pour automatiser la synchronisation des données. Les fonctionnalités du connecteur Salesforce sont les suivantes :
+Le connecteur Salesforce connecte les comptes Learning Manager et Salesforce pour automatiser la synchronisation des données. Les fonctionnalités du connecteur Salesforce sont les suivantes :
 
 ### Attributs de mappage
 
@@ -40,7 +37,7 @@ L’importation des utilisateurs permet à l’administrateur de Learning Manag
 
 ### Planification automatique
 
-L’utilisation de la fonctionnalité de planification automatique avec la fonctionnalité d’importation automatisée d’utilisateur peut être efficace. L’administrateur de Learning Manager peut configurer une planification en fonction des besoins de l’organisation. Les utilisateurs de l’application Learning Manager peuvent être à jour en fonction de la planification. La synchronisation peut être exécutée de façon quotidienne dans l’application Learning Manager.
+L’utilisation de la fonctionnalité de planification automatique avec la fonctionnalité d’importation automatisée d’utilisateur peut être efficace. L’administrateur de Learning Manager peut configurer une planification en fonction des besoins de l’organisation. Les utilisateurs de l’application Learning Manager peuvent être actualisés selon la planification. La synchronisation peut être exécutée de façon quotidienne dans l’application Learning Manager.
 
 ### Filtrage des utilisateurs
 
@@ -52,7 +49,7 @@ Découvrez le processus d’intégration de Learning Manager à Salesforce.
 
 ### Prérequis {#prerequisites}
 
-Assurez-vous de disposer de l’URL de votre organisation Salesforce. Par exemple, si le nom de votre organisation est **myorg**, l’URL Salesforce peut être [&#x200B; https://myorg.salesforce.com.](https://myorg.salesforce.com/) Il s’agit de la seule opération requise pour connecter le compte Salesforce à Learning Manager.
+Assurez-vous de disposer de l’URL de votre organisation Salesforce. Par exemple, si le nom de votre organisation est **myorg**, l’URL Salesforce peut être [ https://myorg.salesforce.com.](https://myorg.salesforce.com/) Il s’agit de la seule opération requise pour connecter le compte Salesforce à Learning Manager.
 
 Veillez également à disposer des informations d’identification appropriées pour vous connecter au compte.
 
@@ -62,7 +59,7 @@ Veillez également à disposer des informations d’identification appropriées 
 
    ![](assets/mouserover-salesforce.png)
 
-1. Une boîte de dialogue s’affiche vous invitant à entrer l’URL de l’organisation. Cliquez sur **[!UICONTROL Se connecter]** après avoir fourni l&#39;URL.
+1. Une boîte de dialogue s’affiche vous invitant à entrer l’URL de l’organisation. Cliquez sur **[!UICONTROL Connecter]** après avoir renseigné l’URL.
 1. En cas de réussite de la connexion, la page de présentation s’affiche.
 
 ## Attribut de mappage {#mapattributes}
@@ -73,7 +70,7 @@ Une fois la connexion établie, vous pouvez mapper les colonnes Salesforce aux 
 
    ![](assets/sfdc-map-columns.png)
 
-   Les données de la colonne Learning Manager affichées sur le côté gauche sont extraites des champs actifs. Le champ **responsable** doit nécessairement être mappé à un champ d&#39;adresse e-mail de type. Le mappage de toutes les colonnes est obligatoire pour que le connecteur puisse être utilisé.
+   Les données de la colonne Learning Manager affichées sur le côté gauche sont extraites des champs actifs. Le champ du **gestionnaire** doit obligatoirement être mappé à un champ d’adresse électronique. Le mappage de toutes les colonnes est obligatoire pour que le connecteur puisse être utilisé.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** après avoir terminé le mappage.
 1. Le connecteur est maintenant prêt à l’emploi. Le compte qui a été configuré s’affiche comme une source de données dans l’application de l’administrateur pour que l’administrateur programme l’importation ou pour une synchronisation à la demande.
@@ -84,7 +81,7 @@ Le connecteur Salesforce se connecte à Salesforce.com pour récupérer les uti
 
 ## Connecteur FTP Learning Manager {#ftpconnector}
 
-À l’aide du connecteur FTP, vous pouvez intégrer Learning Manager à des systèmes externes arbitraires pour automatiser la synchronisation des données. Les systèmes externes doivent pouvoir exporter des données au format CSV et les placer dans le dossier approprié du compte FTP de Learning Manager. Les fonctionnalités du connecteur FTP sont les suivantes :
+À l’aide du connecteur FTP, vous pouvez intégrer Learning Manager à des systèmes externes arbitraires pour automatiser la synchronisation des données. Les systèmes externes doivent pouvoir exporter des données au format CSV et les placer dans le dossier approprié du compte FTP de Learning Manager. Les fonctionnalités du connecteur FTP sont les suivantes :
 
 Vous pouvez également utiliser le connecteur Box pour la migration de données, l’importation d’utilisateurs et l’exportation de données. Pour plus d’informations, voir [Connecteur Box.](third-party-connectors.md#main-pars_header_302653946)
 
@@ -94,9 +91,9 @@ L’importation des utilisateurs permet à l’administrateur de Learning Manag
 
 **Attributs de mappage**
 
-L’administrateur d’intégration peut sélectionner les colonnes du fichier CSV et les mapper aux attributs compatibles avec les groupes de Learning Manager. Ce mappage est une opération unique. Une fois le mappage terminé, le même mappage est utilisé lors des importations suivantes des utilisateurs. Le mappage peut être reconfiguré si l’administrateur souhaite un mappage différent pour l’importation des utilisateurs.
+L’administrateur d’intégration peut sélectionner les colonnes du fichier CSV et les mapper aux attributs compatibles avec les groupes de Learning Manager. Ce mappage est une opération unique. Une fois le mappage terminé, le même mappage est utilisé lors des importations suivantes des utilisateurs.Il peut être reconfiguré si l’administrateur souhaite avoir un mappage différent pour importer des utilisateurs.
 
-## Exporter des données {#exportdata}
+## Exportation de données {#exportdata}
 
 Vous pouvez désormais exporter des compétences d’utilisateur vers un emplacement FTP à des fins d’intégration avec un système tiers.
 
@@ -114,12 +111,12 @@ Découvrez le processus d’intégration de Learning Manager au connecteur FTP.
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. Une boîte de dialogue s’affiche vous invitant à entrer l’ID de messagerie. Indiquez l’ID de messagerie de la personne responsable de la gestion du compte FTP de Learning Manager pour l’organisation. Cliquez sur **[!UICONTROL Se connecter]** après avoir fourni l&#39;ID de messagerie.
+1. Une boîte de dialogue s’affiche vous invitant à entrer l’ID de messagerie. Saisissez l’ID de messagerie de la personne chargée de gérer le compte FTP de Learning Manager pour l’entreprise. Cliquez sur **[!UICONTROL Connecter]** après avoir renseigné l’ID de messagerie.
 1. Learning Manager vous envoie un courrier électronique invitant l’utilisateur à réinitialiser le mot de passe avant d’accéder au FTP pour la première fois. L’utilisateur doit réinitialiser le mot de passe et l’utiliser pour accéder au compte FTP Learning Manager.
 
    Un seul compte FTP Learning Manager peut être créé pour un compte Learning Manager donné.
 
-   Dans la page de présentation, vous pouvez spécifier le nom de connexion pour votre intégration. Sélectionnez les mesures à prendre parmi les options suivantes :
+   Dans la page de présentation, vous pouvez spécifier le nom de la connexion pour votre intégration. Sélectionnez les mesures à prendre parmi les options suivantes :
 
    * Importer les utilisateurs internes
    * Exporter les compétences des utilisateurs : configurer un calendrier
@@ -139,7 +136,7 @@ L’option d’importation d’utilisateur interne vous permet de planifier la g
 
 Une fois la connexion établie, vous pouvez associer les colonnes des fichiers CSV qui seront placés dans le dossier FTP aux attributs correspondants de Learning Manager. Cette étape est obligatoire.
 
-1. Sur la gauche de la page Attributs de mappage, vous pouvez voir les colonnes attendues de Learning Manager et sur la droite, les noms des colonnes du fichier CSV. À droite, vous pouvez initialement voir une zone de sélection vide. Importez n&#39;importe quel modèle CSV en cliquant sur **Choisir un fichier**.
+1. Sur la gauche de la page Attributs de mappage, vous pouvez voir les colonnes attendues de Learning Manager et sur la droite, les noms des colonnes du fichier CSV. À droite, vous pouvez initialement voir une zone de sélection vide. Importez n’importe quel modèle CSV en cliquant sur **Sélectionner un fichier**.
 1. Les étapes ci-dessus permettent de compléter la liste déroulante de sélection de droite avec tous les noms de colonnes du fichier CSV. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
 
    *Le champ du gestionnaire doit obligatoirement être mappé à un champ d’adresse électronique. Le mappage de toutes les colonnes est obligatoire pour que le connecteur puisse être utilisé.*
@@ -152,7 +149,7 @@ Une fois la connexion établie, vous pouvez associer les colonnes des fichiers C
 
 +++
 
-+++Utilisation du connecteur FTP Learning Manager
++++Utilisation du connecteur FTP Learning Manager
 
 1. Les fichiers CSV de systèmes externes doivent être placés à l’emplacement suivant :
 
@@ -162,11 +159,11 @@ Une fois la connexion établie, vous pouvez associer les colonnes des fichiers C
 
    `code Home/import/user/internal/*.csv`
 
-1. Le connecteur FTP extrait toutes les lignes des fichiers CSV. Il est donc important que la ligne correspondant à un utilisateur dans un fichier CSV n’apparaisse dans aucun autre fichier CSV.
+1. Le connecteur FTP prend toutes les lignes des fichiers CSV. Il est donc important que la ligne correspondant à un utilisateur dans un fichier CSV n’apparaisse dans aucun autre fichier CSV.
 1. Tous les fichiers CSV doivent contenir les colonnes spécifiées dans le mappage.
 1. Tous les fichiers CSV requis doivent être présents dans le dossier avant le début du processus.
 
-Lors de l’importation des utilisateurs dans Learning Manager, l’administrateur doit également déterminer la gestion des utilisateurs dans Learning Manager. Reportez-vous à l&#39;[Aide sur la gestion des utilisateurs](../integration-admin/feature-summary/migration-manual.md#usermanagement) pour en savoir plus.
+Lors de l’importation des utilisateurs dans Learning Manager, l’administrateur doit également déterminer la gestion des utilisateurs dans Learning Manager. Reportez-vous à [l’aide sur la gestion des utilisateurs](../integration-admin/feature-summary/migration-manual.md#usermanagement) pour en savoir plus.
 
 +++
 
@@ -174,7 +171,7 @@ Lors de l’importation des utilisateurs dans Learning Manager, l’administrat
 
 +++Compétences
 
-Il existe deux options pour exporter les rapports de compétences des utilisateurs.
+Deux options permettent d’exporter des rapports de compétence d’utilisateur.
 
 **[!UICONTROL Compétences d&#39;utilisateur - À la demande]** : vous pouvez spécifier la date de début et exporter le rapport à l&#39;aide de l&#39;option. Le rapport sera extrait à partir de la date entrée jusqu&#39;à présent.
 
@@ -186,7 +183,7 @@ Il existe deux options pour exporter les rapports de compétences des utilisateu
 
 +++
 
-Pour ouvrir le dossier d’exportation dans lequel les fichiers exportés seront placés à votre emplacement FTP, ouvrez le lien vers le dossier FTP fourni dans la page Compétences de l’utilisateur comme indiqué ci-dessous.
+Pour ouvrir le dossier d’exportation où les fichiers exportés seront placés dans votre emplacement FTP, ouvrez le lien vers le dossier FTP fourni dans la page des compétences de l’utilisateur comme indiqué ci-dessous.
 
 ![](assets/ftp-folder.png)
 
@@ -301,7 +298,7 @@ Le connecteur getAbstract peut être utilisé par les clients professionnels de 
 
    Pour garantir le fonctionnement de tout type de synchronisation, vous devez vous assurer que le flux utilisateur est présent dans le dossier FTP getAbstract pour les dates spécifiées dans la synchronisation.
 
-   Consultez la feuille Excel suivante. Il s’agit d’un exemple de fichier de flux utilisateur getAbstract. Le nom du fichier doit suivre le format **&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** ou **report_export_yyyy_MM_dd.xlsx**.
+   Consultez la feuille Excel suivante. Il s’agit d’un exemple de fichier de flux utilisateur getAbstract. Le nom du fichier doit suivre le format **report_export_yyyy_MM_dd_HHmmss.xlsx** ou **report_export_yyyy_MM_dd.xlsx**.
    [Exemple de feuille Excel de flux utilisateur getAbstract](assets/report-export-20170401175342.xlsx)
 
 ## Connecteur Harvard ManageMentor {#hmmconnector}
@@ -385,9 +382,9 @@ L’administrateur peut définir des tâches de planification en fonction des be
 ## Configuration du connecteur Workday {#configureworkdayconnector}
 
 **Condition requise :** demandez à l’administrateur Workday de votre entreprise de créer un ISU (Integration System User, utilisateur système d’intégration) avec des autorisations comme défini dans le document ISU_Permissions. Téléchargez une copie à partir du lien ci-dessous.
-[Téléchargez une copie de la sécurité de l&#39;utilisateur du système d&#39;intégration (ISU).](assets/isu-permissions-v1.pdf) Découvrez le processus d’intégration de Learning Manager au connecteur Workday.
+[Téléchargez une copie de la sécurité de l&#39;utilisateur du système d&#39;intégration (ISU).](assets/isu-permissions-v1.pdf) Découvrez le processus pour intégrer Learning Manager au connecteur Workday.
 
-1. Dans la page d’accueil de Learning Manager, placez le curseur de la souris sur la vignette Workday. Un menu s’affiche. Cliquez sur l’élément **[!UICONTROL Connecter]** dans le menu.
+1. Sur la page d’accueil de Learning Manager, placez le curseur de la souris sur la mosaïque Workday. Un menu s’affiche. Cliquez sur l’élément **[!UICONTROL Connecter]** dans le menu.
 
    ![](assets/workday-tile.png)
 
@@ -395,8 +392,8 @@ L’administrateur peut définir des tâches de planification en fonction des be
 
    * Nom de la connexion : fournissez le nom de votre choix pour la connexion.
    * URL hôte : l’administrateur d’intégration peut obtenir les détails de l’URL hôte auprès de l’administrateur Workday correspondant.
-   * Client : le client est interne à votre société. Votre administrateur Workday doit vous fournir les détails du locataire.
-   * Nom d’utilisateur et mot de passe : l’administrateur Workday crée un utilisateur ISU (Integrated System User) avec les privilèges de sécurité requis et le partage avec l’administrateur d’intégration.
+   * Locataire : le locataire est interne à votre entreprise. Votre administrateur Workday doit vous fournir les détails du locataire.
+   * Nom d’utilisateur et mot de passe : l’administrateur Workday crée un utilisateur système intégré (ISU) avec les droits de sécurité requis et le partage avec l’administrateur d’intégration.
 
    Remarque : Learning Manager utilise la version 28.1 de l’API Workday.
 
@@ -406,7 +403,7 @@ L’administrateur peut définir des tâches de planification en fonction des be
 
    Vous pouvez également disposer de plusieurs connexions Workday synchronisées à votre compte Learning Manager.
 
-Dans la page de présentation, vous pouvez spécifier le nom de connexion pour votre intégration. Sélectionnez les mesures à prendre parmi les options suivantes :
+Dans la page de présentation, vous pouvez spécifier le nom de la connexion pour votre intégration. Sélectionnez les mesures à prendre parmi les options suivantes :
 
 * Importer les utilisateurs internes
 * Exporter les compétences des utilisateurs : configurer un calendrier
@@ -428,14 +425,14 @@ Actuellement, Learning Manager prend en charge l’importation de 44 attributs
 
 ![](assets/map-attributes.png)
 
-Workday comporte quatre niveaux hiérarchiques, tandis que Learning Manager en comporte deux. Les quatre niveaux dans Workday sont la catégorie de profil de compétence, le profil de compétence, la catégorie d’élément de compétence et l’élément de compétence. Votre nom de compétence et le niveau de Learning Manager seront mappés dans Workday sous l’élément de compétence.
+Workday comporte quatre niveaux hiérarchiques, tandis que Learning Manager en comporte deux. Les quatre niveaux de Workday sont Catégorie de profil de compétence, Profil de compétence, Catégorie d’élément de compétence et Élément de compétence. Votre nom de compétence et le niveau de Learning Manager seront mappés dans Workday sous l’élément de compétence.
 
 +++Liste des attributs Workday pris en charge
 
 wd:User_ID\
 wd:Worker_ID\
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Nom_Formaté\
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Nom_Formaté\
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name\
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Formatted_Name\
 wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor\
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor\
 wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name\
@@ -478,15 +475,15 @@ wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organ
 wd:Qualification_Data.wd:Education.0.wd:School_Name\
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title\
 wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company\
-wd:Management_Chain_Data.wd:Worker_Superonto_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
+wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
 
 +++
 
 ## Exportation
 
-Vous pouvez exporter toutes les compétences terminées par un utilisateur de Learning Manager vers Workday. Notez que seules toutes les compétences actives sont exportées et Learning Manager n’exporte pas les compétences retirées. Vous pouvez également connecter plusieurs comptes Learning Manager au même connecteur Workday. Si les noms de compétence sont identiques dans deux comptes Learning Manager, ils sont mappés à la même compétence dans Workday. Il est conseillé de mettre à jour les noms de compétence dans tous les comptes Learning Manager avant de mettre à jour la compétence dans Workday au cas où deux comptes Learning Manager utiliseraient le même compte Workday.
+Vous pouvez exporter toutes les compétences terminées par un utilisateur de Learning Manager vers Workday. Notez que seules toutes les compétences actives sont exportées et Learning Manager n’exporte pas les compétences retirées. Vous pouvez également connecter plusieurs comptes Learning Manager au même connecteur Workday. Au cas où les noms de compétence seraient identiques dans deux comptes Learning Manager, ils sont mappés à la même compétence dans Workday. Il est conseillé de mettre à jour les noms de compétence dans tous les comptes Learning Manager avant de mettre à jour la compétence dans Workday au cas où deux comptes Learning Manager utiliseraient le même compte Workday.
 
-+++Compétences de l’utilisateur - Configuration
++++Compétences d’utilisateur - Configuration
 
 Cette option vous permet de planifier l’extraction du rapport. Assurez-vous que la case Activer l’exportation des compétences d’utilisateur à l’aide de cette connexion est sélectionnée. Cochez la case Activer le calendrier et précisez la date et l’heure de début. Vous pouvez également spécifier l’intervalle auquel vous souhaitez que le rapport soit généré et envoyé. Sélectionnez la case Activer la planification et indiquez la date de début, la durée et la répétition après le numéro « n » de jours. Une fois terminé, cliquez sur Enregistrer.
 
@@ -494,7 +491,7 @@ Cette option vous permet de planifier l’extraction du rapport. Assurez-vous qu
 
 +++
 
-+++Compétences des utilisateurs - À la demande
++++Compétences d’utilisateur - À la demande
 
 Vous pouvez spécifier la date de début et exporter le rapport à l’aide de l’option. Le rapport sera extrait à partir de la date saisie jusqu’à la date du jour. Saisissez la date à partir de laquelle vous souhaitez commencer à générer le rapport et cliquez sur Exécuter.
 
@@ -502,7 +499,7 @@ Vous pouvez spécifier la date de début et exporter le rapport à l’aide de l
 
 +++
 
-+++Compétences de l’utilisateur - Statut d’exécution
++++Compétences d’utilisateur - État d’exécution
 
 Ici, vous pouvez consulter le résumé de toutes les tâches et accéder à leur rapport d’état. vous pouvez télécharger des rapports d’erreurs en cliquant sur le lien de rapport d’erreurs.
 
@@ -528,7 +525,7 @@ L’importation des utilisateurs permet à l’administrateur de Learning Manage
 
 L’administrateur de Learning Manager peut appliquer un filtrage sur les utilisateurs avant de les importer. Par exemple, l’administrateur de Learning Manager peut choisir d’importer tous les utilisateurs sous un ou plusieurs responsables spécifiques dans la hiérarchie.
 
-Pour configurer   miniOrange   , veuillez contacter l’équipe CSM Learning Manager.
+Pour configurer le connecteur miniOrange, contactez l’équipe CSM de Learning Manager.
 
 ## Configurer le connecteur miniOrange {#configureminiorangeconnector}
 
@@ -536,15 +533,15 @@ Pour configurer   miniOrange   , veuillez contacter l’équipe CSM Learning Man
 
    ![](assets/miniorange-tile.png)
 
-1. Cliquez sur Connexion pour établir une nouvelle connexion. La page du connecteur miniOrange s’affiche. Saisissez les détails de votre compte que vous souhaitez mapper.
+1. Cliquez sur Connexion pour établir une nouvelle connexion. La page de connecteur miniOrange s’affiche. Saisissez les détails de votre compte que vous souhaitez mapper.
 
    ![](assets/establish-connection.png)
 
-1. Si vous souhaitez importer un utilisateur miniOrnage directement en tant qu’utilisateur interne Learning Manager, utilisez l’option **[!UICONTROL Importer les utilisateurs internes]**.
+1. Si vous souhaitez importer un utilisateur miniOrange directement en tant qu’utilisateur interne Learning Manager, utilisez l’option **[!UICONTROL Importer les utilisateurs internes]**.
 
    ![](assets/import-users.png)
 
-1. Dans la page de mappage, à gauche   sur le côté, vous pouvez voir les colonnes de Learning Manager et à droite   côté, vous pouvez voir les colonnes miniOrange. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
+1. Dans la page de mappage, sur le côté gauche, vous pouvez voir les colonnes de Learning Manager et sur le côté droit, vous pouvez voir les colonnes miniOrange. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
 
    ![](assets/map-attributes.png)
 
@@ -562,7 +559,7 @@ Procédez comme suit pour supprimer une connexion mini-Orange établie.
 
 ## Connecteur BlueJeans {#bluejeansconnector}
 
-Vous pouvez désormais intégrer Learning Manager au connecteur BlueJeans et utiliser BlueJeans pour héberger des classes. BlueJeans vous permet de lancer des conférences téléphoniques audio et vidéo, des conversations vidéo et des webinaires.
+Vous pouvez maintenant intégrer Learning Manager avec le connecteur BlueJeans et utiliser BlueJeans pour héberger des classes. BlueJeans vous permet de lancer des conférences téléphoniques audio et vidéo, des conversations vidéo et des webinaires.
 
 Suivez les étapes ci-dessous pour configurer et utiliser le connecteur.
 
@@ -570,7 +567,7 @@ Suivez les étapes ci-dessous pour configurer et utiliser le connecteur.
 
    ![](assets/miniorange.png)
 
-1. La page du connecteur BlueJeans s’ouvre. Saisissez les détails de votre compte dans les champs respectifs pour intégrer Learning Manager et BlueJeans afin de synchroniser le flux utilisateur. Vous pouvez obtenir ces détails auprès de l’administrateur de votre compte BlueJeans.
+1. La page du connecteur BlueJeans s’ouvre. Saisissez les détails de votre compte dans les champs respectifs pour intégrer Learning Manager et BlueJeans à des fins de synchronisation du flux utilisateur. Vous pouvez obtenir ces détails auprès de l’administrateur de votre compte BlueJeans.
 
    ![](assets/bluejeans-connecotrpage.png)
 
@@ -587,7 +584,7 @@ Suivez les étapes ci-dessous pour configurer et utiliser le connecteur.
 
 ## Connecteur Box {#boxconnector}
 
-À l’aide du connecteur BOX, vous pouvez intégrer Learning Manager à des systèmes externes de votre choix pour automatiser la synchronisation des données. Les systèmes externes doivent pouvoir exporter des données au format CSV et les placer dans le dossier approprié du compte Box de Learning Manager. Les fonctionnalités du connecteur Box sont les suivantes :
+À l’aide du connecteur BOX, vous pouvez intégrer Learning Manager à des systèmes externes de votre choix pour automatiser la synchronisation des données. Les systèmes externes doivent pouvoir exporter des données au format CSV et les placer dans le dossier approprié du compte FTP de Learning Manager. Les fonctionnalités du connecteur Box sont les suivantes :
 
 Vous pouvez également utiliser le connecteur FTP pour la migration de données, l’importation d’utilisateurs et l’exportation de données. Pour plus d’informations, consultez [Connecteur FTP Learning Manager.](third-party-connectors.md#main-pars_header_1427405935)
 
@@ -597,7 +594,7 @@ L’importation des utilisateurs permet à l’administrateur de Learning Manag
 
 **Attributs de mappage**
 
-L’administrateur d’intégration peut sélectionner les colonnes du fichier CSV et les mapper aux attributs compatibles avec les groupes de Learning Manager. Ce mappage est un effort unique. Une fois le mappage terminé, le même mappage est utilisé lors des importations suivantes des utilisateurs. Le mappage peut être reconfiguré si l’administrateur souhaite un mappage différent pour l’importation des utilisateurs.
+L’administrateur d’intégration peut sélectionner les colonnes du fichier CSV et les mapper aux attributs compatibles avec les groupes de Learning Manager. Ce mappage est un effort unique. Une fois le mappage terminé, le même mappage est utilisé lors des importations suivantes des utilisateurs.Il peut être reconfiguré si l’administrateur souhaite avoir un mappage différent pour importer des utilisateurs.
 
 ## Exportation de données {#dataexport}
 
@@ -615,13 +612,13 @@ Découvrez le processus d’intégration de Learning Manager au connecteur Box.
 
    ![](assets/screen-shot-2017-10-25at54426pm.png)
 
-1. Une boîte de dialogue s’affiche vous invitant à entrer l’ID de messagerie. Indiquez l’ID de messagerie de la personne responsable de la gestion du compte Box de Learning Manager pour l’organisation. Cliquez sur Connecter après avoir renseigné l’ID de messagerie.
+1. Une boîte de dialogue s’affiche vous invitant à entrer l’ID de messagerie. Saisissez l’ID de messagerie de la personne chargée de gérer le compte Box de Learning Manager pour l’entreprise. Cliquez sur Connecter après avoir renseigné l’ID de messagerie.
 
 1. Learning Manager vous envoie un courrier électronique invitant l’utilisateur à réinitialiser le mot de passe avant d’accéder au Box pour la première fois. L’utilisateur doit réinitialiser le mot de passe et l’utiliser pour accéder au compte Box de Learning Manager.
 
    Un seul compte Box Learning Manager peut être créé pour un compte Learning Manager donné.
 
-   Dans la page de présentation, vous pouvez spécifier le nom de connexion pour votre intégration. Sélectionnez les mesures à prendre parmi les options suivantes :
+   Dans la page de présentation, vous pouvez spécifier le nom de la connexion pour votre intégration. Sélectionnez les mesures à prendre parmi les options suivantes :
 
    * Importer les utilisateurs internes
    * Exporter les compétences des utilisateurs : configurer un calendrier
@@ -635,11 +632,11 @@ L’option d’importation d’utilisateur interne vous permet de planifier la g
 
 +++
 
-+++Attributs Map
++++Attributs de mappage
 
 Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV qui seront placés dans le dossier Box aux attributs correspondants de Learning Manager. Cette étape est obligatoire.
 
-1. Dans la page Attributs de mappage, à gauche   sur le côté, vous pouvez voir les colonnes attendues de Learning Manager et à droite   Vous pouvez voir les noms des colonnes CSV. À droite, vous pouvez initialement voir une zone de sélection vide. Importez n’importe quel modèle CSV en cliquant sur Sélectionner un fichier.
+1. Sur la gauche de la page Attributs de mappage, vous pouvez voir les colonnes attendues de Learning Manager et sur la droite, les noms des colonnes du fichier CSV. À droite, vous pouvez initialement voir une zone de sélection vide. Importez n’importe quel modèle CSV en cliquant sur Sélectionner un fichier.
 
 1. Les étapes ci-dessus permettent de compléter la liste déroulante de sélection de droite avec tous les noms de colonnes du fichier CSV. Sélectionnez le nom de colonne approprié qui correspond au nom de colonne de Learning Manager.
 
@@ -664,7 +661,7 @@ Une fois la connexion établie, vous pouvez mapper les colonnes des fichiers CSV
 1. Tous les fichiers CSV doivent contenir les colonnes spécifiées dans le mappage.
 1. Tous les fichiers CSV requis doivent être présents dans le dossier avant le début du processus.
 
-Lors de l’importation des utilisateurs dans Learning Manager, l’administrateur doit également déterminer la gestion des utilisateurs dans Learning Manager. Reportez-vous à l&#39;[Aide sur la gestion des utilisateurs](../integration-admin/feature-summary/migration-manual.md#usermanagement) pour en savoir plus.
+Lors de l’importation des utilisateurs dans Learning Manager, l’administrateur doit également déterminer la gestion des utilisateurs dans Learning Manager. Reportez-vous à [l’aide sur la gestion des utilisateurs](../integration-admin/feature-summary/migration-manual.md#usermanagement) pour en savoir plus.
 
 +++
 
@@ -672,15 +669,15 @@ Lors de l’importation des utilisateurs dans Learning Manager, l’administrat
 
 +++Compétences
 
-Il existe deux options pour exporter les rapports de compétences des utilisateurs.
+Deux options permettent d’exporter des rapports de compétence d’utilisateur.
 
-Compétences des utilisateurs - À la demande : vous pouvez spécifier la date de début et exporter le rapport à l’aide de l’option. Le rapport sera extrait à partir de la date entrée jusqu’à présent
+Compétences des utilisateurs - Sur demande : vous pouvez spécifier la date de début et exporter le rapport à l’aide de l’option.Le rapport sera extrait à partir de la date entrée jusqu&#39;à présent
 
 **[!UICONTROL Compétences des utilisateurs : Configurer]** : cette option vous permet de planifier l’extraction du rapport. Cochez la case Activer le calendrier et précisez la date et l’heure de début. Vous pouvez également spécifier l’intervalle auquel vous souhaitez que le rapport soit généré et envoyé.
 
 +++
 
-Pour ouvrir le dossier d’exportation dans lequel les fichiers exportés seront placés dans votre emplacement Box, ouvrez le lien vers le dossier Box fourni dans la page Compétences de l’utilisateur, comme indiqué ci-dessous.
+Pour ouvrir le dossier d’exportation où les fichiers exportés seront placés dans votre emplacement Box, ouvrez le lien vers le dossier Box fourni dans la page des compétences d’utilisateur comme indiqué ci-dessous.
 
 Les fichiers exportés automatiquement seront présents à l&#39;emplacement **Accueil/Exportation/&#42;Emplacement_Box&#42;**
 
@@ -733,4 +730,3 @@ Le connecteur LinkedInLearning peut être utilisé par les clients professionne
    Lorsque vous supprimez et recréez une connexion, les exécutions précédentes du connecteur se produisent de nouveau. Vous pouvez afficher toutes les exécutions antérieures à la suppression de la connexion.
 
    Vous pouvez exécuter de nouveau la dernière synchronisation uniquement.
-

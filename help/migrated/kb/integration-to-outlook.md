@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Voir la réponse de l’élève à une invitation du calendrier Outlook sur Learning Manager
 contentowner: kuppan
 preview: true
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 36%
-
+source-wordcount: '523'
+ht-degree: 43%
 ---
-
-
-
 # Afficher la réponse de l&#39;élève à une invitation du calendrier Outlook sur [!DNL Learning Manager]
 
 Découvrez comment un administrateur et un instructeur peuvent voir la réponse de l’élève à une invitation de calendrier.
@@ -25,7 +22,7 @@ Si un élève répond à la même invitation plusieurs fois, la dernière répon
 
 ## Activation de la fonctionnalité de suivi des réponses aux invitations {#enablingtheinvitereplytrackingfeature}
 
-* Contactez l’assistance Adobe Learning Manager pour activer la fonctionnalité de suivi des réponses aux invitations.
+* Contactez le support d’Adobe Learning Manager pour activer la fonctionnalité de suivi des réponses aux invitations.
 * Une fois la fonctionnalité activée pour le compte, toutes les futures sessions de classe virtuelle/salle de classe créées par un auteur peuvent enregistrer la réponse de l’élève à l’invitation de calendrier.
 
 Si les élèves sont inscrits à une session de classe virtuelle/salle de classe créée avant l’activation de la fonctionnalité de suivi des réponses aux invitations, les réponses de l’élève à l’invitation de calendrier ne sont pas enregistrées.
@@ -64,4 +61,3 @@ Si la fonctionnalité de suivi des réponses aux invitations est activée pour l
    Pour envoyer des courriers électroniques à tous les élèves dans le tableau affiché, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Envoyer un courrier électronique à tous]**.
 
    ![](assets/instructor-actions1.png)
-

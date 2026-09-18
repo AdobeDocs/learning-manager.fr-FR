@@ -3,15 +3,12 @@ description: Ce document vous aide à configurer l’authentification SSO pour v
 jcr-language: en_us
 title: Se connecter à Learning Manager à l’aide de l’authentification SSO
 contentowner: dvenkate
-source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 70%
-
+source-wordcount: '135'
+ht-degree: 68%
 ---
-
-
-
 # Se connecter à Learning Manager à l’aide de l’authentification SSO
 
 Ce document vous aide à configurer l’authentification SSO pour vous connecter à votre compte Learning Manager.
@@ -38,4 +35,3 @@ Pour configurer l’authentification unique, suivez la procédure suivante :
    L’authentification unique que vous configurez dans Learning Manager doit être prise en charge par SAML 2.0.
 
    Vous pouvez désormais vous connecter à Learning Manager à l’aide de l’authentification SSO.
-

@@ -2,14 +2,12 @@
 title: Rôle personnalisé avec autorisations d'annonce étendues
 jcr-language: en_us
 description: Découvrez comment créer un rôle personnalisé dans Adobe Learning Manager qui autorise les annonces uniquement pour les catalogues et les groupes d'utilisateurs sélectionnés.
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
-
 ---
-
-
 # Rôle personnalisé avec autorisations d&#39;annonce étendues
 
 Les administrateurs peuvent créer des rôles personnalisés avec des autorisations d&#39;annonce limitées à des catalogues et des groupes d&#39;utilisateurs spécifiques. Cela permet de s&#39;assurer que les annonces sont ciblées, pertinentes et visibles uniquement par les élèves prévus. Les annonces limitées garantissent que les bons utilisateurs reçoivent les annonces pertinentes sans envoyer de détails à d&#39;autres personnes.
@@ -63,10 +61,10 @@ Pour créer une annonce pour la portée affectée :
    _Page Annonces dans Adobe Learning Manager, où les administrateurs peuvent créer et gérer des annonces pour des groupes d&#39;utilisateurs ciblés_
 
 4. Sélectionnez le **[!UICONTROL Type d&#39;annonce]** dans le menu déroulant.
-a. **[!UICONTROL En tant que notification]**
+a. **[!UICONTROL Notification As]**
 b. **[!UICONTROL En tant qu&#39;en-tête]**
 c. **[!UICONTROL Comme recommandation]**
-d. **[!UICONTROL Comme e-mail]**
+d. **[!UICONTROL Par E-Mail]**
 5. Sélectionnez **[!UICONTROL En Tant Qu&#39;En-Tête]**.
 6. Sélectionnez la langue et chargez une image pour l’en-tête.
 7. Ajoutez éventuellement une URL pour le bouton d’action.

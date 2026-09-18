@@ -2,14 +2,12 @@
 description: En savoir plus sur la façon dont les paramètres d’intégration connectent Adobe Learning Manager à des solutions tierces
 jcr-language: en_us
 title: Paramètres d’intégration dans Adobe Learning Manager
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 4%
-
 ---
-
-
 # Paramètres d’intégration dans Adobe Learning Manager
 
 ## Méthodes de connexion
@@ -73,9 +71,9 @@ Les sources de données vous permettent, ou permettent aux administrateurs d’i
 
 **Exemples de types de sources de données**
 
-* **Connecteurs FTP** : les sources de données FTP permettent aux organisations de charger des fichiers de données utilisateur directement dans Adobe Learning Manager via des protocoles de transfert de fichiers sécurisés. Ces connexions sont particulièrement utiles pour les importations par lots d&#39;informations utilisateur, les inscriptions de cours et d&#39;autres opérations de données en bloc.
+* **connecteurs FTP** : les sources de données FTP permettent aux organisations de charger des fichiers de données utilisateur directement dans Adobe Learning Manager via des protocoles de transfert de fichiers sécurisés. Ces connexions sont particulièrement utiles pour les importations par lots d&#39;informations utilisateur, les inscriptions de cours et d&#39;autres opérations de données en bloc.
 * **Intégrations tierces** : Adobe Learning Manager prend en charge l’intégration avec divers systèmes d’entreprise via des connecteurs préconfigurés. Ces intégrations peuvent inclure des systèmes de gestion des RH, des plateformes de gestion de la relation client et d&#39;autres systèmes de gestion de l&#39;apprentissage.
-*** l’intégration de Salesforce &#x200B;** : le connecteur Salesforce permet la synchronisation directe des données utilisateur, des informations sur les cours et des enregistrements d’apprentissage entre Salesforce et Adobe Learning Manager.
+*** l’intégration de Salesforce ** : le connecteur Salesforce permet la synchronisation directe des données utilisateur, des informations sur les cours et des enregistrements d’apprentissage entre Salesforce et Adobe Learning Manager.
 
 Voir [Connecteurs dans Adobe Learning Manager](/help/migrated/integration-admin/feature-summary/connectors.md) pour plus d&#39;informations.
 
@@ -84,8 +82,3 @@ Voir [Connecteurs dans Adobe Learning Manager](/help/migrated/integration-admin/
 Les comptes de pairs dans Adobe Learning Manager vous permettent de partager les places achetées et d’afficher des rapports sur les comptes associés. Cette fonctionnalité est utile pour les organisations qui doivent collaborer ou partager des ressources entre différents comptes.
 
 Voir [Comptes de pairs](/help/migrated/administrators/feature-summary/peer-account.md) dans Adobe Learning Manager pour plus d&#39;informations.
-
-
-
-
-

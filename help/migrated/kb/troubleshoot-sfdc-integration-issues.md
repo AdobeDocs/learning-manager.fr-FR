@@ -3,14 +3,12 @@ jcr-language: en_us
 title: Résolution des problèmes d’intégration de Salesforce (SFDC) avec Adobe Learning Manager
 description: Résolvez les problèmes courants d’intégration de Salesforce (SFDC) à Adobe Learning Manager (ALM), notamment les échecs d’exportation, les problèmes d’autorisation de champ dans les objets personnalisés SFDC et les notes importantes sur la compatibilité SFDC-ALM.
 contentowner: saghosh
-source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
+exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
-
 # Résolution des problèmes d’intégration de Salesforce (SFDC) avec Adobe Learning Manager
 
 ## Dépannage des échecs d’exportation SFDC (aucune exportation pendant 2 à 3 heures ou plus)
@@ -55,7 +53,7 @@ Utilisez la fonctionnalité **Accessibilité des champs** pour résoudre les pro
 1. **Répétez** les étapes d&#39;accessibilité des champs de la section 2 pour **chaque champ** signalé comme présentant des problèmes d&#39;autorisation dans les **tâches de chargement de données en bloc**.
 2. Une fois que tous les champs problématiques ont une visibilité et des autorisations de modification correctes :
    - Revenez à **Adobe Learning Manager**.
-   - Dans la configuration **Connecteur SFDC**, **réessayez l&#39;exportation**.
+   - Dans la configuration **connecteur SFDC**, **réessayez l&#39;exportation**.
 
 
 ## Remarques importantes et limitations
@@ -66,9 +64,9 @@ Gardez ces spécificités SFDC-ALM à l’esprit lors de la conception ou du dé
 
 - Le connecteur **SFDC ne crée pas de nouveaux objets ou champs dans Salesforce**.
 - Si un **nouveau champ est ajouté dans ALM** et que vous souhaitez qu’il apparaisse dans SFDC :
-   - **Créez manuellement le champ personnalisé correspondant** dans SFDC.
-   - **Mappez** le champ personnalisé SFDC au **champ ALM approprié** dans la configuration du connecteur.
-   - Assurez-vous que le nouveau champ dispose des **autorisations appropriées** au niveau des champs (utilisez la section 2).
+  - **Créez manuellement le champ personnalisé correspondant** dans SFDC.
+  - **Mappez** le champ personnalisé SFDC au **champ ALM approprié** dans la configuration du connecteur.
+  - Assurez-vous que le nouveau champ dispose des **autorisations appropriées** au niveau des champs (utilisez la section 2).
 
 ### URL de rappel pour les comptes ALM avec des domaines personnalisés
 

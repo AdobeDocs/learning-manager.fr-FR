@@ -3,13 +3,12 @@ description: Adobe Learning Manager utilise un ensemble de terminologies standar
 jcr-language: en_us
 title: Terminologie du produit
 contentowner: chandrum
-source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
+exl-id: 4fd0dd43-9e6c-4586-8f0b-eadac3374bec
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '279'
 ht-degree: 72%
-
 ---
-
 # Terminologie du produit
 
 >[!IMPORTANT]
@@ -81,4 +80,3 @@ Les modifications terminologiques ne s’appliquent pas dans les cas suivants :
 
 * Modèles de courrier électronique (**[!UICONTROL Administrateur]** > **[!UICONTROL Modèles de courrier électronique]**)
 * Rapports (**[!UICONTROL Administrateur]** > **[!UICONTROL Rapports]**)
-
