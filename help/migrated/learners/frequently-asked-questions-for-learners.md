@@ -4,20 +4,17 @@ title: Questions fréquemment posées par les élèves
 description: Forum aux questions pour les élèves de Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
+source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 55%
-
+source-wordcount: '2402'
+ht-degree: 78%
 ---
-
-
-
 # Questions fréquemment posées par les élèves
 
-+++Comment m’inscrire à une offre de cours ?
++++Comment puis-je m’inscrire à une offre de cours ?
 
-Le Catalogue de cours affiche tous les cours auxquels vous êtes éligible. Si votre responsable vous désigne pour des cours, vous recevez une notification avec la possibilité d’accepter ou de refuser les cours.
+Le catalogue des cours affiche tous les cours auxquels vous avez droit. Si votre responsable vous désigne pour des cours, vous recevez une notification avec la possibilité d’accepter ou de refuser les cours.
 
 Toutefois, vous avez la possibilité de parcourir les cours répertoriés sous CATALOGUE en suivant les étapes ci-dessous :
 
@@ -28,7 +25,7 @@ Toutefois, vous avez la possibilité de parcourir les cours répertoriés sous C
 
 +++
 
-+++ Puis-je suivre un cours hors ligne ?
++++Puis-je suivre un cours lorsque je suis hors ligne ?
 
 Oui, vous pouvez accéder au contenu hors ligne sur iPad, sur des tablettes Android et sur des smartphones.
 
@@ -36,15 +33,15 @@ Pour plus d&#39;informations sur l&#39;accès hors ligne, consultez la fonctionn
 
 +++
 
-+++Comment puis-je rechercher des cours ?
++++Comment puis-je rechercher des cours ?
 
-Vous pouvez rechercher n’importe quel objet d’apprentissage à l’aide du champ de recherche de texte libre dans les onglets Catalogue et Contenu d’apprentissage.
+Vous pouvez effectuer des recherches portant sur les objets d’apprentissage à l’aide du champ de recherche de texte libre dans les onglets Catalogue et Contenu d’apprentissage.
 
 Cliquez sur le champ de recherche. Vous pouvez rechercher en temps réel dans ce champ. Affichez les résultats de la recherche dans la liste déroulante et choisissez l’option appropriée pour afficher les résultats.
 
 +++
 
-+++ Puis-je afficher les points d’apprentissage de mes homologues ?
++++Puis-je visualiser les points d’apprentissage de mes collègues ?
 
 Oui, vous pouvez comparer vos points d’apprentissage à ceux de vos collègues. Placez le pointeur de la souris sur le cercle de profil. Vous pouvez afficher vos propres points ici. Pour afficher la boîte de dialogue Tableau des scores, cliquez sur Accéder au tableau des scores. Dans cette boîte de dialogue, vous pouvez afficher la liste de vos collègues dont le classement est similaire au vôtre.
 
@@ -52,13 +49,13 @@ Pour plus d&#39;informations, reportez-vous à la fonctionnalité [Tableau des s
 
 +++
 
-+++Qu’est-ce que l’efficacité d’un cours ?
++++Qu’est-ce que l’efficacité de cours ?
 
-L’efficacité du cours est évaluée pour comprendre l’utilité d’un cours pour l’élève. Elle est calculée en fonction du retour d&#39;informations reçu par le nombre d&#39;utilisateurs pour un cours particulier. Si le pourcentage d&#39;élèves donnant un retour d&#39;informations est important, l&#39;évaluation de l&#39;efficacité du cours est élevée.
+L’efficacité du cours est évaluée pour comprendre l’utilité d’un cours pour l’élève. Elle est calculée en fonction du retour d’informations reçu par le nombre d’utilisateurs pour un cours particulier. Si le pourcentage d’élèves donnant un retour d’informations est important, l’évaluation de l’efficacité du cours est élevée.
 
 Il s’agit d’une combinaison des résultats des retours d’informations de l’élève sur le contenu du cours, des résultats du quiz de cours pour un élève et du retour d’informations du responsable évaluant un élève en fonction des apprentissages du cours.
 
-Dans l’onglet Cours, un élève peut afficher l’évaluation de l’efficacité du cours sur les vignettes de cours
+Dans l’onglet Cours, un élève peut afficher l’évaluation de l’efficacité des cours sur les vignettes de cours.
 
 Pour afficher les détails de l’évaluation de l’efficacité du cours, cliquez sur la valeur d’efficacité du cours. Une fenêtre contextuelle s’affiche.
 
@@ -66,29 +63,29 @@ Cliquez sur la flèche vers le bas dans l’angle inférieur droit de la fenêtr
 
 +++
 
-+++ Quelle est la différence entre l’apprentissage et le catalogue ?
++++Quelle est la différence entre Apprentissage et Catalogue ?
 
-Dans l&#39;onglet Apprentissage, vous pouvez afficher tous les [cours](feature-summary/courses.md), [programmes d&#39;apprentissage](feature-summary/learning-programs.md) et [certifications](feature-summary/certifications.md) que vous inscrivez ou qui vous sont attribués. Vous pouvez également passer à l’onglet Apprentissage en cliquant sur le lien Aller à l’apprentissage.
+Dans l&#39;onglet Apprentissage, vous pouvez afficher tous les [cours](feature-summary/courses.md), [programmes d&#39;apprentissage](feature-summary/learning-programs.md) et [certifications](feature-summary/certifications.md) que vous inscrivez ou qui vous sont attribués. Vous pouvez également ouvrir l’onglet Apprentissage en cliquant sur le lien Aller à l’apprentissage.
 
-Dans l’onglet Catalogue, vous pouvez voir tous les cours, programmes d’apprentissage et certifications disponibles pour votre rôle dans le compte de l’entreprise. Vous pouvez également passer à l’onglet Catalogue en cliquant sur le lien Aller au catalogue.
+Dans l’onglet Catalogue, vous pouvez voir tous les cours, programmes d’apprentissage et certifications qui sont disponibles pour votre rôle sur le compte d’entreprise. Vous pouvez également ouvrir l’onglet Catalogue en cliquant sur le lien Accéder au catalogue.
 
 +++
 
-+++Qu’est-ce qu’un calendrier d’apprentissage ?
++++Qu’est-ce qu’un montage chronologique d’apprentissage ?
 
 Dans cette section, vous pouvez voir les alertes pour tous les cours, certifications et programmes d’apprentissage dans l’ordre croissant des échéances. Les échéances pour chacune de vos activités d’apprentissage sont affichées dans le volet de gauche.
 
-Cliquez sur chaque objet d’apprentissage pour afficher les informations correspondantes dans le panneau de droite. Vous pouvez cliquer sur la vignette cours/programme d’apprentissage/certification pour afficher les informations complètes de chaque objet d’apprentissage.
+Cliquez sur chaque objet d’apprentissage pour afficher les informations correspondantes dans le panneau de droite. Vous pouvez cliquer sur la vignette de cours/programme d’apprentissage/certification pour afficher l’ensemble des informations sur chaque objet de formation.
 
 Placez le pointeur de la souris sur la zone de la chronologie pour afficher la barre de défilement sur le côté droit. Utilisez la barre de défilement pour vous déplacer vers le haut ou vers le bas et afficher plus d’alertes.
 
 +++
 
-+++ Qu’est-ce qu’une carte de compétences ?
++++Qu’est-ce qu’une carte de compétences ?
 
 Une carte de compétences est un regroupement d’ensembles de compétences, de connaissances et de caractéristiques d’un employé dans une organisation. Ces cartes de compétences aident les entreprises/organisations à définir ou augmenter leurs attentes en termes de performance de leurs employés. Les compétences permettent aux employés d’aligner leurs comportements sur les attentes de leur entreprise.
 
-Une fois que les élèves ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en consultant les cartes de compétences.
+Quand des stagiaires ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en consultant les cartes de compétences.
 
 ## Affichage des cartes de compétences
 
@@ -98,7 +95,7 @@ Pour plus d&#39;informations, consultez la fonctionnalité [Compétences et nive
 
 +++
 
-+++ Puis-je accéder à Learning Manager depuis un smartphone ?
++++Puis-je accéder à Learning Manager depuis un smartphone ?
 
 Oui, vous pouvez accéder à Learning Manager sur des smartphones, des iPad ou toute autre tablette Android.
 
@@ -106,7 +103,7 @@ Pour plus d&#39;informations sur cette fonctionnalité, consultez la section [Ut
 
 +++
 
-+++ Puis-je accéder à Learning Manager dans iPad ?
++++Puis-je accéder à Learning Manager depuis un iPad ?
 
 Oui, Learning Manager est accessible à l’aide d’un iPad. Vous pouvez télécharger l’application depuis App Store ou Google Play.
 
@@ -114,39 +111,39 @@ Seules les fonctions du rôle Élève sont accessibles à l’aide d’une table
 
 +++
 
-+++Impossible de se connecter à Learning Manager. Que faire ?
++++Impossible de se connecter à Learning Manager. Que faire ?
 
 Si vous disposez d’un ID Adobe, vous pouvez vous connecter à Learning Manager. Suivez les instructions de la fonctionnalité [connexion utilisateur](feature-summary/user-login.md) pour plus d&#39;informations sur la connexion à l&#39;application. Si le problème persiste, contactez notre équipe d’assistance.
 
 +++
 
-+++Comment atteindre un niveau de compétence ?
++++Comment acquérir un niveau de compétence ?
 
 Vous obtenez des crédits chaque fois que vous acquérez un nouveau niveau de compétence. Les crédits sont associés aux niveaux de compétence. Pour plus d&#39;informations sur les compétences et les niveaux, consultez la fonctionnalité [compétences et niveaux](feature-summary/skills-levels.md).
 
 +++
 
-+++Où puis-je consulter l’historique/les rapports de tous mes apprentissages ?
++++Où puis-je voir un historique ou des rapports de tous mes apprentissages ?
 
-Vous pouvez visualiser l’historique de tous vos apprentissages dans la page d’accueil. Cliquez sur l’onglet Apprentissage et dans chacun des onglets Cours, Programmes et Certifications, vous pouvez choisir Terminé pour afficher la liste de tous les apprentissages terminés.
+Vous pouvez visualiser l’historique de tous vos apprentissages dans la page d’accueil. Cliquez sur l’onglet Apprentissage et dans chacun des onglets Cours, Programmes et Certifications, vous pouvez choisir l’option Terminé pour afficher la liste de tous les apprentissages terminés.
 
 +++
 
-+++ Puis-je exprimer mon intérêt pour un cours ?
++++Puis-je exprimer mon intérêt pour un cours ?
 
 Vous pouvez exprimer votre intérêt à prendre part à tout cours de salle de classe qui n’a aucune session planifiée. Vous recevrez une notification dès que la session de cours commence pour rejoindre le cours.
 
 +++
 
-+++ Quelle est la différence entre les crédits et les points de ludification ?
++++Quelle est la différence entre les crédits et les points de ludification ?
 
 Vous obtenez des crédits chaque fois que vous acquérez un nouveau niveau de compétence. Les crédits sont associés aux niveaux de compétence. Pour plus d&#39;informations sur les crédits, les compétences et les niveaux, consultez la fonctionnalité [compétences et niveaux](feature-summary/skills-levels.md).
 
-Vous obtenez des points de ludification chaque fois que vous terminez une tâche. Actuellement, six tâches de ludification sont disponibles dans Learning Manager. A l&#39;achèvement de chaque tâche, vous obtenez un nombre spécifique de points associés à cette tâche. Pour plus d&#39;informations, consultez la fonctionnalité de [ludification](feature-summary/gamification.md).
+Vous obtenez des points de ludification dès lors que vous terminez une tâche. Actuellement, il existe six tâches de ludification disponibles dans Learning Manager. À la fin de chaque tâche, vous obtenez un nombre de points spécifique associé à cette tâche. Pour plus d&#39;informations, consultez la fonctionnalité de [ludification](feature-summary/gamification.md).
 
 +++
 
-+++Que sont les badges ? Comment puis-je obtenir des badges ?
++++Que sont les badges ? Comment puis-je obtenir des badges ?
 
 Adobe Learning Manager introduit l’un des plus récents concepts d’apprentissage en ligne appelé Badges. Les badges encouragent les stagiaires à mieux se définir et présenter leur ensemble granulaire de compétences, en plus de leur apporter une crédibilité et une bonne visibilité.
 
@@ -158,17 +155,17 @@ Pour plus d&#39;informations, consultez la fonctionnalité [badges](feature-summ
 
 +++
 
-+++ Qu’est-ce qu’un programme d’apprentissage ?
++++Qu’est-ce qu’un programme d’apprentissage ?
 
 Les programmes d’apprentissage sont des ensembles de cours uniquement destinés à réaliser les objectifs spécifiques des élèves. Seuls les administrateurs peuvent créer des programmes d’apprentissage pour les élèves. Lorsqu&#39;un administrateur affecte une instance de programme d&#39;apprentissage aux élèves, il voit cette **instance de programme &#x200B;** dans l&#39;onglet Programmes. Les élèves peuvent également consulter et s’inscrire eux-mêmes à tout type de programmes d’apprentissage.
 
 Pour commencer à suivre le programme d’apprentissage, cliquez sur le programme qui vous est assigné. Vous pouvez afficher les informations détaillées de ce programme particulier.
 
-Un bouton **Démarrer le programme** apparaît dans le coin supérieur droit de la page du programme d&#39;apprentissage. Cliquez sur **[!UICONTROL Démarrer le programme]** pour commencer à suivre le cours.
+Le bouton **Commencer le programme** s’affiche dans l’angle supérieur droit de la page du programme d’apprentissage. Cliquez sur **[!UICONTROL Commencer le programme]** pour commencer votre participation au cours.
 
 +++
 
-+++Comment obtenir des points (ludification) ?
++++Comment puis-je acquérir des points (ludification) ?
 
 À la fin de chaque cours, vous allez recevoir des points en ligne.
 
@@ -179,15 +176,15 @@ En fonction des points obtenus en terminant les cours, vous obtenez les niveaux 
 1. 3500 points - Niveau Or
 1. 5000 points - Platine
 
-Vous pouvez afficher vos points de niveau actuel dans votre profil et votre cible pour obtenir des points plus élevés, si nécessaire.
+Vous pouvez afficher vos points de niveau actuels dans votre profil ainsi que l’objectif à atteindre pour récolter plus de points, si nécessaire.
 
 Reportez-vous à la [fonctionnalité de ludification](feature-summary/gamification.md) pour plus d&#39;informations.
 
 +++
 
-+++ Puis-je lire mon contenu de formation en plein écran ?
++++Puis-je lire mon contenu d’apprentissage en plein écran ?
 
-Tous les cours dans Learning Manager sont lus dans un navigateur. Vous pouvez afficher les cours en plein écran à l’aide du lecteur Fluidic de Learning Manager.
+Tous les cours dans Learning Manager sont lus dans un navigateur. Vous pouvez afficher les cours en plein écran à l’aide du lecteur Fluidic de Learning Manager.
 
 Reportez-vous à la [fonctionnalité Lecteur Fluidic](feature-summary/fluidic-player.md) pour plus d&#39;informations sur le lecteur.
 
@@ -204,7 +201,7 @@ Oui, vous pouvez exporter des notes au format PDF en suivant les étapes ci-dess
 
 +++
 
-+++Learning Manager offre-t-il une expérience personnalisée aux élèves ?
++++Est-ce que Learning Manager offre une expérience personnalisée aux élèves ?
 
 Dans Learning Manager, vous avez la possibilité de marquer votre contenu d’un signet afin de pouvoir le revisiter.
 
@@ -213,7 +210,7 @@ Cliquez sur l’icône de ruban en regard des noms de rubrique répertoriés pou
 Vous pouvez prendre des notes en lisant le contenu de votre cours en suivant ces étapes :
 
 1. Cliquez sur la vignette du cours que vous voulez suivre.
-1. Au bas de l&#39;écran du lecteur de cours, cliquez sur l&#39;icône Notes pour ouvrir la section Notes.
+1. Au bas de l’écran de lecture du cours, cliquez sur l’icône + Notes pour ouvrir la section Notes.
 1. Ajoutez les notes et cliquez sur Ajouter. Votes notes sont enregistrées.
 
 >[!NOTE]
@@ -225,26 +222,26 @@ Vous pouvez prendre des notes en lisant le contenu de votre cours en suivant ces
 Vous avez la possibilité de télécharger ou d’envoyer par e-mail vos notes de cours en suivant les étapes ci-dessous :
 
 1. Cliquez sur la vignette du cours pour lequel vous voulez visualiser les notes.
-1. Cliquez sur l&#39;onglet **Notes** en regard de l&#39;onglet **Modules**.
+1. Cliquez sur l’onglet **Notes** à côté de l’onglet **Modules**.
 
-1. Cliquez sur **[!UICONTROL Télécharger les notes]** pour les télécharger au format PDF.
-1. Cliquez sur **[!UICONTROL Envoyer les notes par e-mail]** pour les recevoir par e-mail dans votre compte de messagerie.
-
-+++
-
-+++ Puis-je ajouter mes auto-évaluations de formations à Learning Manager ? Comment ?
-
-Actuellement, cette fonctionnalité n’est pas prise en charge dans Learning Manager 1.0. Toutefois, il existe une possibilité de prendre des certifications externes. Ces certifications externes vous sont attribuées par l’administrateur de votre organisation. Contactez votre responsable pour vous inscrire à des certifications externes.
+1. Cliquez sur **[!UICONTROL Télécharger les notes]** pour télécharger les notes au format PDF.
+1. Cliquez sur **[!UICONTROL Notes par e-mail]** pour recevoir les notes sous forme de courrier électronique sur votre compte de messagerie.
 
 +++
 
-+++ Puis-je afficher la liste des cours en fonction de mon parcours d’apprentissage ?
++++Puis-je ajouter mes auto-apprentissages externes dans Learning Manager ? Comment ?
+
+Actuellement, nous ne prenons pas en charge cette fonctionnalité dans Learning Manager 1.0. Cependant, il existe une disposition permettant d&#39;obtenir des certifications externes. Ces certifications externes vous sont attribuées par l’administrateur de votre organisation. Contactez votre responsable pour vous inscrire à des certifications externes.
+
++++
+
++++Puis-je afficher une liste de cours basée sur mon cursus d’apprentissage ?
 
 Actuellement, cette fonction n’est pas disponible.
 
 +++
 
-+++Comment fournir une évaluation ou un retour d’informations sur les cours ?
++++Comment puis-je produire une évaluation ou un retour d’informations sur les cours ?
 
 Vous recevrez une notification à la fin du cours ainsi qu’un lien pour fournir un retour d’informations.
 
@@ -255,7 +252,7 @@ Vous recevrez une notification à la fin du cours ainsi qu’un lien pour fourni
 
 +++
 
-+++ Comment obtenir mes certificats ?
++++Comment puis-je obtenir mes certificats ?
 
 Dans le cadre de la récompense et de la reconnaissance des accomplissements des élèves, Learning Manager introduit des badges en ligne pour les élèves. Les badges sont attribués en fonction d&#39;un critère défini et sont ensuite affichés sur le profil d&#39;un élève en haut de la page d&#39;accueil des élèves.
 
@@ -263,13 +260,13 @@ Reportez-vous à la [fonctionnalité Certifications](feature-summary/certificati
 
 +++
 
-+++Comment afficher et imprimer les relevés de notes des formations ?
++++Comment afficher et imprimer les transcriptions des apprentissages ?
 
 Actuellement, les transcriptions des formations ne sont pas disponibles dans Learning Manager 1.0.
 
 +++
 
-+++Comment annuler un cours auquel je suis inscrit ?
++++Comment puis-je annuler un cours inscrit ?
 
 Vous pouvez rejeter un cours affecté par votre responsable en cliquant sur Rejeter dans la fenêtre Notifications.
 
@@ -277,7 +274,7 @@ Pour annuler les cours auxquels vous êtes inscrit volontairement, envoyez une d
 
 +++
 
-+++ Puis-je connaître l’état d’approbation de mon cours ?
++++Puis-je connaître l’état d’approbation de mon cours ?
 
 Oui, vous pouvez voir l’état dans les notifications. Cliquez sur l’icône Notifications dans l’angle supérieur droit de la fenêtre pour voir vos notifications.
 
@@ -285,7 +282,7 @@ Votre responsable communique également avec vous par courrier électronique.
 
 +++
 
-+++Est-ce que je reçois des notifications et des rappels pour MES COURS ?
++++Est-ce que je reçois des notifications et des rappels pour MES COURS ?
 
 Oui, vous pouvez les voir en cliquant sur l’icône Notification, dans l’angle supérieur droit de la fenêtre.
 
@@ -293,7 +290,7 @@ La fenêtre de notifications s’affiche.
 
 +++
 
-+++Comment puis-je rechercher des cours et des programmes d’apprentissage ?
++++Comment puis-je rechercher des cours et des programmes d’apprentissage ?
 
 Vous pouvez rechercher vos cours de deux manières :
 
@@ -306,18 +303,18 @@ En fonction de votre choix, vous pouvez afficher la liste de cours filtrée et s
 
 +++
 
-+++ Comment accéder à mes cours dans Learning Manager ?
++++Comment accéder à mes cours dans Learning Manager ?
 
 1. Impossible de se connecter à Learning Manager. Si vous avez oublié le mot de passe, cliquez sur le lien **[!UICONTROL Mot de passe oublié]** fourni dans la page de connexion pour le récupérer dans votre ID de messagerie.
 1. Une fois connecté, vous pouvez voir l’onglet COURS en haut de l’écran. Cliquez sur l&#39;onglet **[!UICONTROL COURS]** pour afficher la liste des cours qui vous ont été attribués.
 
 +++
 
-+++Comment suivre un cours en ligne ?
++++Comment est-ce que je prends un cours en ligne ?
 
 En dehors des cours en salle de classe, les trois autres types de cours (fusionnés, auto-apprentissage et classe virtuelle) disponibles dans Learning Manager peuvent être considérés comme des cours en ligne.
 
-En certaines occasions, vous êtes automatiquement inscrit(e) à un apprentissage. Ces cours apparaîtront dans l’onglet COURS. Vous pouvez rechercher le cours que vous souhaitez suivre, puis cliquer sur le bouton Explorer et s’inscrire sur la page.
+En certaines occasions, vous êtes automatiquement inscrit(e) à un apprentissage. Ces cours s’afficheront dans l’onglet COURS. Vous pouvez rechercher le cours que vous souhaitez suivre, puis cliquer sur Explorer et le bouton Inscrire sur la page.
 
 >[!NOTE]
 >
@@ -331,19 +328,19 @@ Vous pouvez voir la progression de votre cours et ajouter des notes.
 
 +++
 
-+++ Qu’est-ce que l’apprentissage fusionné ?
++++Qu’est-ce qu’un apprentissage fusionné ?
 
 L’apprentissage fusionné est une approche de l’apprentissage et de l’enseignement qui combine l’apprentissage entrepris en sessions individualisées avec des opportunités d’apprentissage créées en ligne. Les cours Learning Manager reposent sur des méthodes d’apprentissage fusionnées.
 
 +++
 
-+++ Qu’est-ce qu’un module individualisé ?
++++Qu’est-ce que le module d’auto-apprentissage ?
 
 Dans ce module, les élèves peuvent commencer et terminer un module de cours selon leur propre calendrier à leur propre rythme. Par exemple, vidéo, audio, conférences préenregistrées de classe.
 
 +++
 
-+++ Puis-je exporter mes notes personnelles ?
++++Puis-je exporter mes notes personnelles ?
 
 Oui, vous pouvez exporter des notes au format PDF en suivant les étapes ci-dessous :
 
@@ -354,7 +351,7 @@ Oui, vous pouvez exporter des notes au format PDF en suivant les étapes ci-dess
 
 +++
 
-+++Où puis-je télécharger la version de bureau de l’application ?
++++Où puis-je télécharger la version de bureau de l’application ? 
 
 Suivez les étapes ci-dessous pour télécharger la version pour ordinateur :
 
@@ -365,4 +362,3 @@ Suivez les étapes ci-dessous pour télécharger la version pour ordinateur :
 Le téléchargement de l’application démarre.
 
 +++
-

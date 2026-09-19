@@ -2,13 +2,12 @@
 description: Découvrez les API non connectées pour développer l’interface sans en-tête.
 jcr-language: en_us
 title: API non connectées
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
-
 # API non connectées
 
 Pour en savoir plus sur les API Adobe Learning Manager, qui fournissent des données pour l’expérience sans tête ou hors connexion, consultez cet article.
@@ -343,7 +342,7 @@ L&#39;API CDN JSON vous permet de récupérer les informations complètes sur un
 
 **Exemple de boucle pour le cours**
 
-Utilisez la méthode de GET pour effectuer la requête suivante. Remplacez &lt;chemin_CDN> par votre URL de base dans la commande de boucle ci-dessous. Vous trouverez le &lt;chemin_CDN> sur la page du connecteur d’accès aux données de formation. Remplacez &lt;Course_ID> par l’ID de cours spécifique.
+Utilisez la méthode de GET pour effectuer la requête suivante. Remplacez &lt;chemin_CDN> par votre URL de base dans la commande de boucle ci-dessous. Vous trouverez le &lt;Chemin_CDN> sur la page du connecteur d’accès aux données de formation. Remplacez &lt;Course_ID> par l’ID de cours spécifique.
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'

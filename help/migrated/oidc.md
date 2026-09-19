@@ -2,14 +2,12 @@
 description: En savoir plus sur la méthode de connexion OIDC
 jcr-language: en_us
 title: Connexion à Adobe Learning Manager avec OpenID Connect
-source-git-commit: 7c430e3fbb2716455310f2130d73af10ce2e56c7
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
-
 # Connexion à Adobe Learning Manager avec OpenID Connect (OIDC)
 
 Découvrez comment fonctionne la connexion OpenID Connect dans Adobe Learning Manager pour les élèves, les auteurs et les administrateurs. Cet article traite de l&#39;expérience et non de la mise en œuvre.
@@ -31,7 +29,7 @@ Les organisations choisissent souvent OIDC pour les raisons suivantes :
 
 * Les utilisateurs bénéficient de la même expérience d’identité d’entreprise ou en ligne qu’ils utilisent pour d’autres applications.
 * Les politiques de mot de passe, l’authentification multifacteur et le cycle de vie du compte sont gérés dans le fournisseur d’identité, de manière cohérente avec les autres applications d’entreprise.
-* OIDC suit des modèles similaires à d’autres flux de connexion modernes du point de vue de l’utilisateur et de l’informatique, sans l’exchange de document plus lourd associé à certaines configurations SAML uniquement.
+* OIDC suit des modèles similaires à d’autres flux de connexion modernes d’un utilisateur et d’une perspective informatique, sans l’exchange de document plus lourd associé à certaines configurations SAML uniquement.
 
 Votre expérience est toujours la même : accédez à Learning Manager, connectez-vous là où votre organisation vous l’a indiqué et accédez à l’application.
 
@@ -50,7 +48,7 @@ Si votre compte utilise OIDC, le démarrage de la connexion redirige généralem
 
 ### Se connecter avec votre organisation
 
-Sur la page de votre fournisseur d’identité, saisissez vos informations d’identification et effectuez toutes les étapes supplémentaires requises par votre organisation, telles que l’authentification multifacteur. Cette étape se produit en dehors du formulaire de connexion de Adobe Learning Manager lorsque l’OIDC est la méthode utilisée. De votre point de vue, cela revient à vous connecter à votre compte d’entreprise ou d’établissement scolaire. Vous ne verrez peut-être pas de termes techniques tels que *OIDC* ou *OAuth* au cours de cette étape.
+Sur la page de votre fournisseur d’identité, saisissez vos informations d’identification et effectuez toutes les étapes supplémentaires requises par votre organisation, telles que l’authentification multifacteur. Cette étape se produit en dehors du formulaire de connexion de Adobe Learning Manager lorsque l’OIDC est la méthode utilisée. De votre perspective, vous avez l’impression de vous connecter à votre compte d’entreprise ou d’établissement scolaire. Vous ne verrez peut-être pas de termes techniques tels que *OIDC* ou *OAuth* au cours de cette étape.
 
 ### Revenir à Adobe Learning Manager
 

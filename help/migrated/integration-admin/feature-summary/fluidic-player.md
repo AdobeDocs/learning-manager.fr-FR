@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Lecteur Fluidic intégrable
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1693'
 ht-degree: 48%
-
 ---
-
-
-
 # Lecteur Fluidic intégrable
 
 Lisez cet article pour découvrir comment intégrer le lecteur Fluidic dans une application personnalisée.
@@ -75,9 +72,9 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Ici, **[!UICONTROL client id]** est l&#39;identifiant de l&#39;application obtenu à l&#39;étape 1.
+Ici, **[!UICONTROL client id]** est l’identifiant de l’application obtenu à l’étape 1.
 **[!UICONTROL redirect_url]** est l&#39;url_redirect définie à l&#39;étape 1.
-**[!UICONTROL state]** est une donnée fictive basée sur laquelle nous devons filtrer l&#39;URL de redirection pour obtenir le code OAuth. Scope est le rôle d’élève défini à l’étape 1.
+L&#39;**[!UICONTROL état]** est une donnée fictive basée sur laquelle nous devons filtrer l&#39;URL de redirection pour obtenir le code OAuth. Scope est le rôle d’élève défini à l’étape 1.
 **[!UICONTROL response_typ]**&#x200B;e est toujours « CODE ».\
 **[!UICONTROL compte]**&#x200B;est un champ facultatif\
 **[!UICONTROL e-mail]** est un champ facultatif\
@@ -154,10 +151,10 @@ code window.addEventListener("message", function closePlayer(){
 
 ## Exemple de didacticiel d’application {#sampleapplicationtutorial}
 
-Le document pdf joint contient un exemple de tutoriel d’application.
-[Exemple de tutoriel et source du tutoriel pour intégrer le lecteur Fluidic.](assets/sample-applicationtutorial.zip) Contenus alternatifs
+Le document pdf ci-joint contient un exemple de didacticiel d’application.
+[Exemple de tutoriel et source de tutoriel pour intégrer le lecteur Fluidic.](assets/sample-applicationtutorial.zip) Contenus alternatifs
 
-Si vous êtes un administrateur, vous pouvez configurer votre matériel de cours de manière à proposer un contenu alternatif à vos élèves dans le lecteur Fluidic. Par exemple, si des élèves de différentes zones géographiques peuvent vouloir utiliser plusieurs langues, vous pouvez créer le même contenu dans plusieurs langues. Le lecteur Fluidic offrira à l&#39;élève la langue pour laquelle il pourrait être configuré, mais l&#39;élève a également le choix de passer à une autre langue directement à partir du lecteur.
+Si vous êtes un administrateur, vous pouvez configurer votre matériau de cours de manière à proposer un contenu alternatif à vos élèves dans le lecteur Fluidic. Par exemple, si des élèves de différentes zones géographiques peuvent vouloir utiliser plusieurs langues, vous pouvez créer le même contenu dans plusieurs langues. Le lecteur Fluidic offrira à l&#39;élève la langue pour laquelle il pourrait être configuré, mais l&#39;élève a également le choix de passer à une autre langue directement à partir du lecteur.
 
 Commandes spécifiques à la vidéo
 
@@ -179,7 +176,7 @@ Cette manipulation doit être effectuée par une personne de votre équipe infor
 
 1. Utiliser le jeton d’accès comme paramètre obligatoire.
 
-   * access_token : il s’agit du paramètre de sécurité, utilisez l’API publique oauth   jeton d’accès
+   * access_token : il s’agit du paramètre de sécurité, utilisez le jeton d’accès oauth de l’API publique
 
    Vous pouvez obtenir votre jeton en configurant votre lecteur Fluidic intégrable dans votre administration d’intégration. Vous pouvez obtenir votre jeton d’authentification utilisable comme jeton d’accès.
 
@@ -224,7 +221,7 @@ L’un de ces paramètres peut être utilisé pour lancer un cours :
 
 Paramètre obligatoire :
 
-* access_token : il s’agit du paramètre de sécurité, utilisez l’API publique oauth   jeton d’accès
+* access_token : il s’agit du paramètre de sécurité, utilisez le jeton d’accès oauth de l’API publique
 
 Effectuez des appels API Learning Manager pour récupérer les paramètres susmentionnés. Ces appels d’API doivent être effectués par l’application créée et hébergée sur votre site par votre équipe/consultant informatique.
 
@@ -235,5 +232,3 @@ API Learning Manager V1 - [https://learningmanager.adobe.com/docs/primeapi/v1/](
 
 
 API Learning Manager V2 - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

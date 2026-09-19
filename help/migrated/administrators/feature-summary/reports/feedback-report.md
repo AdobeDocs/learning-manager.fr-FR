@@ -2,17 +2,15 @@
 description: Découvrez comment accéder au rapport de commentaires, le télécharger et l’interpréter dans Adobe Learning Manager. Comprendre les colonnes du rapport, les types de questions, les réponses du responsable et de l'élève, et comment les commentaires prennent en charge l'évaluation de la formation et l'amélioration continue.
 jcr-language: en_us
 title: Rapport de commentaires dans Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '916'
 ht-degree: 7%
-
 ---
-
-
 # Rapport de commentaires
 
-## Vue d’ensemble
+## Présentation
 
 Le rapport Retour d’informations dans Adobe Learning Manager collecte les niveaux 1 (Retour d’informations de l’élève) et 3 (Retour d’informations du responsable) une fois que les élèves ont terminé les objets d’apprentissage. Ce rapport présente un aperçu structuré des réponses subjectives et objectives des élèves et de leurs responsables.
 
@@ -45,7 +43,7 @@ Le rapport effectue le suivi des détails de l’élève tels que le nom, l’ad
    ![](assets/feedback-report.png)
    _Configurez le rapport de retour d&#39;informations en sélectionnant l&#39;étendue de la formation, en définissant la période et en choisissant l&#39;option de traduction avant le téléchargement_
 
-6. Sélectionnez la langue dans laquelle traduire le retour d&#39;informations L1. Les questions objectives et leurs réponses sont traduites dans la langue sélectionnée lorsque cette version linguistique est explicitement définie. Seules les questions subjectives explicitement définies dans la langue sélectionnée apparaissent dans le rapport.  Les réponses aux questions subjectives seront rédigées dans le langage de réponse d&#39;origine.
+6. Sélectionnez la langue à laquelle translater le retour d&#39;informations L1. Les questions objectives et leurs réponses sont translatées dans la langue sélectionnée lorsque cette version linguistique est explicitement définie. Seules les questions subjectives explicitement définies dans la langue sélectionnée apparaissent dans le rapport.  Les réponses aux questions subjectives seront rédigées dans le langage de réponse d&#39;origine.
 7. Sélectionnez **[!UICONTROL Télécharger]** pour télécharger le rapport.
 
 ## Que contient le rapport de commentaires ?
@@ -57,7 +55,7 @@ Voici les colonnes par défaut du rapport au niveau du compte :
 | Type de retour d’informations | Indique si le retour d’informations provient de l’élève (L1) ou du responsable (L3) |
 | Nom d’utilisateur | Nom de l’élève qui a suivi la formation |
 | Courrier électronique de l’utilisateur | Adresse électronique de l’élève |
-| ID de formation | Un identifiant unique généré par le système attribué à chaque objet d’apprentissage (cours, certification ou parcours d’apprentissage) |
+| ID de formation | Identifiant unique généré par le système affecté à chaque objet d’apprentissage (cours, certification ou parcours d’apprentissage) |
 | Nom de la formation | Nom de l’élément d’apprentissage pour lequel le retour d’informations est envoyé |
 | Instance de formation | Nom de l’instance de la formation (pour les cours à instances multiples) |
 | Type de formation | Type de formation (cours, certification, parcours d’apprentissage) |

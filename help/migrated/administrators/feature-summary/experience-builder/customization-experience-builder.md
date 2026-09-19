@@ -2,14 +2,12 @@
 title: Personnaliser Experience Builder
 jcr-language: en_us
 description: Découvrez comment Experience Builder dans Adobe Learning Manager permet une personnalisation approfondie des expériences des élèves.
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: d8f36868-8e6d-4420-9fab-fadaf2fe31ef
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '963'
 ht-degree: 1%
-
 ---
-
-
 # Personnaliser Experience Builder
 
 ## Personnalisation d’un pied de page
@@ -61,19 +59,19 @@ Pour personnaliser les vignettes de cours :
 
 4. Sélectionnez les options ci-dessous pour afficher ou masquer les détails liés aux informations sur le cours :
 
-   a. **[!UICONTROL Format]** : fusionné/individualisé/salle de classe/salle de classe virtuelle : type de l’objet d’apprentissage.
-b. **[!UICONTROL Durée]** : durée de l’objet d’apprentissage.
-c. **[!UICONTROL Compétence/Produit]** : affichez la compétence ou le produit clé couvert par le cours.
-d. **[!UICONTROL Évaluation]** : afficher l’évaluation de l’élève pour le cours.
-e. **[!UICONTROL Nom de l&#39;auteur]** : affiche le nom de l&#39;auteur du cours
-f. **[!UICONTROL Description (affichée au survol)]** : affichez un court résumé du cours lorsque les élèves survolent la carte.
-g. **[!UICONTROL Date de publication/date d’échéance (s’affiche au survol)]** : affichez la date de publication du cours ou la date limite d’achèvement.
+   a. **[!UICONTROL Format]** : fusionné/auto-apprentissage/salle de classe/salle de classe virtuelle : type de l’objet d’apprentissage.
+   b. **[!UICONTROL Durée]** : durée de l’objet d’apprentissage.
+   c. **[!UICONTROL Compétence/Produit]** : afficher la compétence ou le produit clé couvert par le cours.
+   d. **[!UICONTROL Évaluation]** : afficher l&#39;évaluation de l&#39;élève pour le cours.
+   e. **[!UICONTROL Nom de l&#39;auteur]** : affiche le nom de l&#39;auteur du cours
+   f. **[!UICONTROL Description (affichée au survol)]** : affichez un court résumé du cours lorsque les élèves survolent la carte.
+   g. **[!UICONTROL Date de publication/date d’échéance (s’affiche au survol)]** : afficher la date de publication du cours ou la date limite d’achèvement.
 
 5. Sélectionnez les options ci-dessous pour afficher ou masquer les détails liés aux actions de cours :
 
-   a. Bouton **[!UICONTROL Ajouter à la liste d&#39;apprentissage]** : permet aux élèves d&#39;enregistrer le cours dans leur liste d&#39;apprentissage personnelle pour référence ultérieure.
-b. **[!UICONTROL Bouton Enregistrer]** : enregistre toutes les modifications apportées aux paramètres ou préférences du cours.
-c. Bouton **[!UICONTROL S&#39;inscrire / Continuer]** : permet aux élèves de s&#39;inscrire à un nouveau cours ou de continuer un cours qu&#39;ils ont déjà commencé. Si vous masquez cette option, les actions Ne pas recommander et Télécharger qui s’affichent en regard de cette option seront également supprimées.
+   a. **[!UICONTROL Bouton Ajouter à la liste d&#39;apprentissage]** : permet aux élèves d&#39;enregistrer le cours dans leur liste d&#39;apprentissage personnelle pour référence ultérieure.
+   b. **[!UICONTROL Bouton Enregistrer]** : enregistre toutes les modifications apportées aux paramètres ou préférences du cours.
+   c. **[!UICONTROL Bouton S&#39;inscrire / Continuer]** : permet aux élèves de s&#39;inscrire à un nouveau cours ou de continuer un cours qu&#39;ils ont déjà commencé. Si vous masquez cette option, les actions Ne pas recommander et Télécharger qui s’affichent en regard de cette option seront également supprimées.
 
    ![](assets/select-details-to-show.png)
    _Écran de configuration de la mosaïque de cours dans Adobe Learning Manager, où les administrateurs sélectionnent les informations et les actions à afficher pour les élèves_
@@ -332,7 +330,7 @@ _Page de l’élève Ingénieur commercial avant la personnalisation_
 
 **Après la personnalisation**
 
-Après avoir ajouté les classes CSS suivantes, la page de l’élève est mise à jour en fonction des styles définis dans ces classes. En fonction de la feuille de style CSS, le texte du widget Zone de contenu a été aligné à gauche et les vignettes de cours sont désormais espacées davantage.
+Après avoir ajouté les classes CSS suivantes, la page de l’élève est mise à jour en fonction des styles définis dans ces classes. En fonction de la feuille de style CSS, le texte du widget Zone de contenu a été aligné à gauche et l&#39;espacement entre les vignettes de cours a été amélioré.
 
 ```
 .alm-custom-content-box-center {
@@ -372,5 +370,3 @@ Vous trouverez ci-dessous quelques classes CSS prédéfinies disponibles pour le
 | Zone de contenu | alm-custom-content-box-container |
 | Ludification | alm-lead-board-container |
 | Apprentissage par les réseaux sociaux | alm-social-learning-container |
-
-

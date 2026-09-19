@@ -3,13 +3,12 @@ description: Définissez une fenêtre temporelle pendant laquelle les élèves s
 jcr-language: en_us
 title: Contrôle du temps d'accès au module
 contentowner: mmanuel
-source-git-commit: 6423fd5c0853705a28c6c67b6936d93e68cbca20
+exl-id: b99b1c98-57a0-4201-bf1f-f85bacb0d00e
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '603'
 ht-degree: 1%
-
 ---
-
 # Contrôle du temps d&#39;accès au module
 
 ## Présentation
@@ -33,7 +32,7 @@ Cela améliore l’expérience de l’élève : au lieu de faire face à des mod
 
 **Programme d&#39;accompagnement par cohorte** : dans ce programme, chaque semaine ouvre un nouveau module. Le contenu de la semaine 1 est disponible immédiatement, tandis que la semaine 2 est visible, mais ne peut pas être démarrée avant une date spécifiée. La semaine 3 suit le même processus de contrôle. Les élèves peuvent voir l’intégralité du parcours d’apprentissage, mais le système contrôle à quel moment ils peuvent réellement commencer chaque étape.
 **Formation liée au produit ou à la campagne** : les équipes marketing ou produit peuvent créer un module de formation qui n’est accessible que lorsqu’une campagne est active ou lorsqu’une version spécifique d’un produit est toujours disponible. Cette fenêtre de début désignée permet de s’assurer que les élèves ne commencent pas un module sur une version de produit retirée après l’heure de fin spécifiée.
-**Environnements d’évaluation ou d’examen** : les organisations peuvent ouvrir un module (tel qu’un test) pendant une courte période bien définie (par exemple, « vous pouvez commencer l’examen à tout moment entre 9:00 et 12:00 à une date donnée »). Les élèves ne peuvent pas commencer l&#39;examen en dehors de cette fenêtre, ce qui permet un planning équitable entre les fuseaux horaires et les cohortes.
+**Environnements d’évaluation ou d’examen** : les organisations peuvent ouvrir un module (tel qu’un test) pendant une courte période bien définie (par exemple, « vous pouvez commencer l’examen à tout moment entre 9 h 00 et 12 h 00 à une date donnée »). Les élèves ne peuvent pas commencer l&#39;examen en dehors de cette fenêtre, ce qui permet un planning équitable entre les fuseaux horaires et les cohortes.
 
 ## Définition du temps d&#39;accès au module
 
@@ -45,13 +44,3 @@ Cela améliore l’expérience de l’élève : au lieu de faire face à des mod
 6. Sélectionnez **Modifier**. Les sections pertinentes liées au module s&#39;ouvrent vers le bas de la page.![alt-text](/help/migrated/administrators/feature-summary/assets/module-access-time4.png)
 7. Pour chaque section, sélectionnez une date de début, une heure de fin, une date de fin et une heure de fin.
 8. Sélectionnez **Enregistrer**. ALM affiche un message indiquant « Mappage enregistré avec succès ».
-
-
-
-
-
-
-
-
-
-

@@ -2,15 +2,13 @@
 title: Widgets dans Experience Builder
 jcr-language: en_us
 description: Découvrez comment les widgets dans Experience Builder de Adobe Learning Manager servent de blocs modulaires et configurables pour créer des pages d’apprentissage personnalisées. Ajoutez, configurez et organisez des widgets tels que des boîtes de contenu, des catalogues et des bannières pour créer des expériences interactives de marque sans codage.
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
-
+source-wordcount: '480'
+ht-degree: 1%
 ---
-
-
-# Vue d’ensemble
+# Présentation
 
 Les widgets sont des blocs de contenu modulaires et configurables ou des éléments fonctionnels dans Experience Builder de Adobe Learning Manager.
 Ils constituent les éléments de base de vos pages d’apprentissage personnalisées, ce qui vous permet d’ajouter facilement du contenu d’apprentissage, des fonctionnalités interactives, des éléments de branding et des intégrations sans code.
@@ -51,4 +49,3 @@ Vous pouvez facilement repositionner les widgets sur la page en les faisant glis
 | [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | Intègre des applications ou des pages web externes dans l’interface. | Affichez du contenu ou des outils externes sans quitter la plateforme. |
 | [Mon apprentissage](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | Affiche une vue personnalisée des cours et de la progression en cours d’un élève. | Aidez les élèves à suivre leurs cours terminés et leurs objectifs d’apprentissage. |
 | [Apprentissage par les réseaux sociaux](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | Permet d’accéder à des forums, des discussions, des groupes ou des outils de collaboration sociale. | Encourager l&#39;interaction entre pairs, la collaboration et le partage des connaissances. |
-

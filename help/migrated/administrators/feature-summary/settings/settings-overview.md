@@ -2,14 +2,12 @@
 description: Découvrez les paramètres d’administration que vous pouvez configurer dans Adobe Learning Manager pour gérer les utilisateurs, contrôler l’accès, personnaliser votre environnement d’apprentissage et adapter la plateforme aux besoins de votre organisation.
 jcr-language: en_us
 title: Présentation des paramètres
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
-
 ---
-
-
 # Paramètres
 
 ## Présentation
@@ -34,9 +32,8 @@ Voir Paramètres dans Adobe Learning Manager pour plus d’informations.
 
 ### Paramètres avancés
 
-* Créez et gérez des étiquettes personnalisées pour organiser et classer le contenu d’apprentissage, ce qui permet aux élèves de trouver plus facilement des supports pertinents.
+* Créez et gérez des étiquettes personnalisées pour organiser et classer le contenu d’apprentissage, ce qui permet aux élèves de trouver plus facilement les matériaux pertinents.
 * Configurez et gérez les emplacements physiques de la salle de classe pour les sessions de formation dirigée par un instructeur, y compris la capacité, l’équipement et les détails de planification.
 * Configurez les tableaux de bord Conformité et Réussite du groupe.
 
 Voir Paramètres dans Adobe Learning Manager pour plus d’informations.
-
