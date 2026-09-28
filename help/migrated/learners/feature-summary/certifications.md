@@ -7,10 +7,8 @@ exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 62%
-
+ht-degree: 74%
 ---
-
 # Certifications
 
 Découvrez comment suivre des certifications à l’aide de l’application Learning Manager Learners.
@@ -35,14 +33,14 @@ Une page s’affiche avec une liste de toutes les certifications qui vous concer
 
 1. Afficher les certifications dans différents modes :
 
-   1. Cliquez sur Widget En attente pour afficher toutes les certifications que vous devez remplir.
+   1. Cliquez sur le widget En attente pour voir toutes les certifications que vous devez obtenir.
    1. Cliquez sur Mon apprentissage dans le volet de gauche, puis sélectionnez Certifications pour afficher toutes les certifications.
    1. Triez et affichez la liste des certifications selon la pertinence et la date de publication.
 
-1. Dans Widget En attente de la page Accueil, cliquez sur la certification interne que vous devez accepter.\
+1. Dans le widget En attente de la page d’accueil, cliquez sur la certification interne que vous devez obtenir.\
    Les certifications en attente s’affichent sous le widget.
 
-1. Cliquez sur Démarrer pour commencer la certification.
+1. Cliquez sur Commencer pour démarrer la certification.
 
 >[!NOTE]
 >
@@ -60,7 +58,7 @@ Vous devez obtenir la certification externe en dehors de votre entreprise et fou
 
    Une page de certification s’affiche avec la présentation de la certification, la date de validité de la certification, l’émetteur, la date d’achèvement, le type (périodique ou permanente) et le badge.
 
-1. Pour soumettre le justificatif d&#39;accomplissement de votre certification, cliquez sur Parcourir, sélectionnez le fichier dans votre chemin local et cliquez sur **[!UICONTROL Charger]**.
+1. Pour fournir un justificatif de l’obtention de votre certification, cliquez sur Parcourir, sélectionnez le fichier depuis votre chemin d’accès local et cliquez sur **[!UICONTROL Télécharger]**.
 
 ## Obtention des certifications {#completingcertifications}
 

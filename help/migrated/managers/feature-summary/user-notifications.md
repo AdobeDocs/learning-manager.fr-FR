@@ -6,16 +6,14 @@ contentowner: manochan
 exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 80%
-
+source-wordcount: '471'
+ht-degree: 83%
 ---
-
 # Notifications aux utilisateurs
 
 Configuration de notifications d’utilisateur pour les responsables.
 
-La fonctionnalité Notifications s’applique à tous les utilisateurs d’Adobe Learning Manager 1.0. Cependant, chaque utilisateur reçoit, en fonction de son rôle, différents types de notifications selon divers scénarios. Toutes les alertes et notifications aux utilisateurs sont affichées dans la boîte de dialogue contextuelle de notifications.
+La fonctionnalité Notifications s’applique à tous les utilisateurs de Adobe Learning Manager 1.0. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications dans différents scénarios. Toutes les alertes et notifications aux utilisateurs sont affichées dans la boîte de dialogue contextuelle de notifications.
 
 ## Notifications d’accès {#accessnotifications}
 
@@ -27,9 +25,9 @@ Instantané d’un exemple de notifications du responsable :
 
 *Afficher toutes les notifications*
 
-Cette fenêtre contextuelle affiche l’essentiel de toutes les notifications ainsi que l’heure d’occurrence, avec une barre de défilement. Pour afficher des informations supplémentaires sur toutes les notifications, cliquez sur Afficher toutes les notifications au bas de la fenêtre contextuelle. La page des notifications s’affiche.
+Cette fenêtre contextuelle affiche l’essentiel de toutes les notifications ainsi que l’heure d’occurrence, avec une barre de défilement. Pour afficher plus d’informations sur toutes les notifications, cliquez sur Afficher toutes les notifications au bas de la fenêtre contextuelle. La page des notifications s’affiche.
 
-Un responsable peut voir les tâches en attente et toutes les notifications dans un formulaire à onglets sur la page de notifications. Les notifications de tâches en attente sont classées en approbations, nominations, et ainsi de suite. Pour afficher toutes les notifications, cliquez sur l&#39;onglet **[!UICONTROL Toutes les notifications]**. Dans l’onglet Toutes les notifications, les notifications sont triées en fonction de la date et de l’heure sous forme de liste.
+Un responsable peut voir les tâches en attente et toutes les notifications dans un formulaire à onglets sur la page de notifications. Les notifications de tâches en attente sont classées en approbations, nominations, et ainsi de suite. Pour afficher toutes les notifications, cliquez sur l’onglet **[!UICONTROL Toutes les notifications]**. Dans l’onglet Toutes les notifications, les notifications sont triées en fonction de la date et de l’heure sous forme de liste.
 
 ![](assets/manager-notifications-page.png)
 
@@ -45,7 +43,7 @@ Dans la fenêtre Notifications, comme illustré dans l’instantané ci-dessus, 
 
 *Désigner des élèves pour des cours*
 
-**Types de notifications pour les responsables** 
+**Types de notifications pour les responsables**
 
 Les responsables peuvent recevoir des notifications lorsque les événements suivants se déclenchent :
 

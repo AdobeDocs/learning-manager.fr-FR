@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
 source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
-
+source-wordcount: '467'
+ht-degree: 80%
 ---
-
 # Notifications aux utilisateurs
 
 <!--User notifications for Learners in Learning Manager.-->
@@ -39,7 +37,7 @@ Les élèves recevront des notifications push chaque fois qu&#39;ils manqueront 
 
 ## Afficher toutes les notifications {#showallnotifications}
 
-Cliquez sur le lien **[!UICONTROL Afficher toutes les notifications]** en bas de la fenêtre contextuelle des notifications pour afficher toutes les notifications dans une page distincte.
+Cliquez sur le lien **[!UICONTROL Afficher toutes les notifications]** au bas de la fenêtre contextuelle de notifications pour afficher toutes les notifications dans une page distincte.
 
 ![](assets/notifications-page.png)
 
@@ -61,7 +59,7 @@ Les élèves reçoivent des notifications qui sont déclenchées par les événe
 1. L’élève a rejeté une nomination
 1. Pour les cours approuvés par le responsable, ce dernier approuve/rejette une demande d’inscription à un cours
 1. La liste d’attente des élèves est effacée.
-1. L’élève a été automatiquement inscrit à un cours, un programme d’apprentissage ou une certification
+1. L’élève a été inscrit automatique à un cours, à un programme d’apprentissage ou à une certification
 1. L’élève termine une certification
 1. Le responsable approuve/rejette le document de preuve de fin de certification téléchargé par l’élève
 1. Lorsque l’échéance d’une instance particulière de cours approche. (L’administrateur peut définir la date à partir de laquelle les notifications de rappel peuvent apparaître pour l’élève).
