@@ -7,11 +7,9 @@ preview: true
 exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 75%
-
+source-wordcount: '1491'
+ht-degree: 90%
 ---
-
 # Programmes d’apprentissage
 
 >[!WARNING]
@@ -38,9 +36,9 @@ Les administrateurs peuvent créer des programmes d’apprentissage. Pour créer
 
    **Remarque**
 
-   Tous les types de cours peuvent être ajoutés à un programme d’apprentissage. Il s’agit notamment des cours en salle de classe et en salle de classe virtuelle, des cours d’activité, en auto-apprentissage et fusionnés. Les cours nommés par le responsable et approuvés par le responsable n&#39;apparaissent pas lors de la sélection des cours dans les programmes d&#39;apprentissage.
+   Tous les types de cours peuvent être ajoutés à un programme d’apprentissage. Cela comprend les cours en salle de classe et en salle de classe virtuelle, les activités, les cours en auto-apprentissage et les cours fusionnés. Les cours nommés et approuvés par le responsable ne s’affichent pas lors de la sélection du cours dans les programmes d’apprentissage.
 
-1. Vous devez ajouter des cours au programme d’apprentissage avant de le publier. Cliquez sur l&#39;onglet **[!UICONTROL Catalogue]** pour associer les cours au programme d&#39;apprentissage. Une liste de tous les cours disponibles s’affiche.
+1. Vous devez ajouter des cours au programme d’apprentissage avant de le publier. Cliquez sur l’onglet **[!UICONTROL Catalogue]** pour associer des cours au programme d’apprentissage. Une liste de tous les cours disponibles s’affiche.
 
 1. Sélectionnez les cours que vous souhaitez ajouter au programme d’apprentissage en plaçant le pointeur de la souris sur une carte de cours et en cliquant dessus. Si le cours n’est pas encore ajouté au programme d’apprentissage, vous pouvez voir le symbole + au milieu de cette carte de cours.
 
@@ -50,7 +48,7 @@ Les administrateurs peuvent créer des programmes d’apprentissage. Pour créer
 
    Consultez la liste de tous les cours ajoutés à votre programme d&#39;apprentissage dans l&#39;onglet **[!UICONTROL Curriculum]**. Le libellé des cours ajoutés est visible au bas de la carte de cours, dans l’onglet **[!UICONTROL Catalogue]**.
 
-1. Cliquez sur **[!UICONTROL Revenir aux programmes]** en haut du volet gauche pour afficher la liste de tous les programmes d&#39;apprentissage. Vous pouvez voir que le programme d’apprentissage qui vient d’être ajouté est maintenant dans la liste.
+1. Cliquez sur **[!UICONTROL Retour aux programmes]** en haut du volet de gauche pour afficher la liste de tous les programmes d’apprentissage. Vous pouvez voir que le programme d’apprentissage qui vient d’être ajouté est maintenant dans la liste.
 1. Vous pouvez publier le programme d’apprentissage en cliquant sur Présentation dans le volet de gauche, puis en choisissant Actions > Publier. Vous pouvez également publier le programme d’apprentissage dans la vue Cours et instances en cliquant sur Publier dans l’angle supérieur droit de la page.
 
 ## Ajout d’élèves à un programme d’apprentissage {#addlearnerstoalearningprogram}
@@ -86,7 +84,7 @@ Vous pouvez créer plusieurs instances d’un cours ou d’un programme d’appr
 1. Une nouvelle instance du programme d’apprentissage s’affiche.
 1. Cliquez sur les icônes de modification (comme indiqué par la flèche rouge dans l’instantané) dans la nouvelle instance pour modifier les valeurs de cours/programme d’apprentissage telles que l’échéance, le nom de l’instance, le retour d’informations et le badge. Après avoir apporté les modifications, cliquez sur la coche à côté de la valeur modifiée pour enregistrer les modifications. Cliquez sur le symbole X pour annuler les modifications.
 
-Un administrateur peut ajouter des cours de type salle de classe et salle de classe virtuelle à un programme d&#39;apprentissage. Quelle que soit la session donnée par l’auteur lors de la création du cours, elle devient l’instance par défaut. Lorsque l’administrateur ajoute des cours à un programme d’apprentissage, ils sont par défaut mappés à une instance par défaut de tous les types de cours mais l’administrateur peut modifier le mappage de l’instance. Le nombre de cours ajoutés à un programme d’apprentissage est également visible sur la page des instances comme indiqué ci-dessous.
+Un administrateur peut ajouter des cours de type salle de classe et de type classe virtuelle à un programme d’apprentissage. Quelle que soit la session donnée par l’auteur lors de la création du cours, elle devient l’instance par défaut. Lorsque l’administrateur ajoute des cours à un programme d’apprentissage, ils sont par défaut mappés à une instance par défaut de tous les types de cours mais l’administrateur peut modifier le mappage de l’instance. Le nombre de cours ajoutés à un programme d’apprentissage est également visible sur la page des instances comme indiqué ci-dessous.
 
 **Modification du mappage d’instance**
 
@@ -96,7 +94,7 @@ Pour modifier le mappage d’instance, cliquez sur le nombre de cours de la page
 
 ## Création de programmes d’apprentissage flexibles {#flexible}
 
-Grâce aux programmes d’apprentissage flexibles, les élèves peuvent suivre des formations qui ne se limitent pas à ce que propose l’instance par défaut. Un administrateur crée différentes instances pour répondre aux besoins des élèves. Ce type de programme d&#39;apprentissage est généralement une session de classe ou de classe virtuelle. Pour s’assurer que tous les élèves ont la possibilité d’y assister, un administrateur peut créer plusieurs instances d’une session de cours pour s’adapter à différents fuseaux horaires.
+Grâce aux programmes d’apprentissage flexibles, les élèves peuvent suivre des formations qui ne se limitent pas au contenu proposé par l’instance par défaut. Un administrateur crée différentes instances pour répondre aux besoins des élèves. Ce type de programme d&#39;apprentissage est généralement une session en salle de classe ou une classe virtuelle. Pour s’assurer que tous les élèves peuvent y assister, un administrateur peut créer plusieurs instances d’une session de cours afin de prendre en charge différents fuseaux horaires.
 
 Un administrateur peut également mapper une instance d’un programme d’apprentissage à une instance d’un cours sélectionné par l’élève.
 
@@ -126,7 +124,7 @@ Sélectionnez le type d’instance dans la liste déroulante pour afficher les s
 
 ## Affichage des retours d’informations L1 et L3 {#viewl1andl3feedback}
 
-En tant qu’administrateur, vous pouvez activer les retours d’informations L1 et L3 pour un programme d’apprentissage. Le retour d&#39;informations L1 donné par l&#39;élève sera visible sous l&#39;onglet Retour d&#39;informations L1 et le retour d&#39;informations L3 donné par le responsable sera affiché sous l&#39;onglet Retour d&#39;informations L3.
+En tant qu’administrateur, vous pouvez activer les retours d’informations L1 et L3 pour un programme d’apprentissage. Le retour d’informations L1 donné par l’élève sera visible sous l’onglet de retour d’informations L1 et le retour d’informations L3 donné par le responsable sera visible sous l’onglet de retour d’informations L3.
 
 ## Désinscription des stagiaires {#unenrollmentforlearners}
 
@@ -164,6 +162,6 @@ Pour mettre à jour l’ordre des cours d’un programme d’apprentissage,
 
 Un programme d’apprentissage peut être modifié par un administrateur à un état publié. À ce stade, l’administrateur peut modifier toutes les sections d’un programme d’apprentissage et les republier à nouveau.
 
-Pour modifier un programme d&#39;apprentissage publié, cliquez sur la carte du programme d&#39;apprentissage et cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
+Pour éditer un programme d’étude édité, cliquez sur la carte de programme d’étude et cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
 
 Lors de la modification des sections d’un programme d’apprentissage, si vous devez vous extraire de la page, vous devez publier de nouveau le programme d’apprentissage. Vous recevez une confirmation de la boîte de dialogue qui s’affiche vous invitant à republier le programme d’apprentissage.

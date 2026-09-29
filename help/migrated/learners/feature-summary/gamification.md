@@ -6,18 +6,16 @@ contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
 source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 70%
-
+source-wordcount: '1468'
+ht-degree: 83%
 ---
-
 # Ludification
 
 Impliquez les élèves à l’aide des techniques de ludification dans Learning Manager.
 
 La ludification est l’utilisation de l’esprit et de la mécanique du jeu dans des contextes non ludiques pour inciter des utilisateurs à gagner des points tout en apprenant.
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 Utilisez la fonction de ludification de Learning Manager pour impliquer les élèves et les motiver à atteindre leurs objectifs en utilisant des techniques de jeu. Les élèves peuvent rivaliser avec leurs collègues pour marquer des points pour diverses activités d’apprentissage et atteindre les niveaux bronze, argent, or et platine.
 
@@ -35,7 +33,7 @@ Quelques-unes des fonctionnalités du Tableau des scores des participants :
 
 * Les élèves inscrits à une instance de programme d&#39;apprentissage peuvent voir les points des autres si la ludification est activée pour cette instance.
 * Cliquez sur **[!UICONTROL Ajouter des collègues]** pour inclure un membre de l’équipe auquel vous souhaitez vous comparer. L’image de profil du membre de votre équipe est ajoutée à l’échelle de temps en haut de la page du tableau des scores. Ce montage chronologique affiche vos points au début et déplace votre position vers la droite lorsque vous obtenez plus de points que les membres de votre équipe. Vous pouvez uniquement le comparer à d’autres membres du même groupe.
-* **Groupes d&#39;utilisateurs :** à tout moment, vous pouvez choisir les profils des membres de votre équipe avec lesquels vous souhaitez comparer votre rang, à l&#39;aide de l&#39;option **[!UICONTROL Classement avec]**. Dans le champ Sélectionner des groupes d’utilisateurs, saisissez et choisissez le groupe. La liste de tous les membres de l’équipe, ainsi que leurs derniers points, sont répertoriés ci-dessous. Les utilisateurs internes et externes peuvent afficher la liste, mais seuls les utilisateurs internes sont activés pour rechercher d&#39;autres élèves internes.
+* **Groupes d’utilisateurs :** à tout moment, vous pouvez sélectionner les profils des membres de votre équipe dont vous voulez comparer le score avec le vôtre à l’aide de l’option **[!UICONTROL Me classer avec]**. Saisissez et sélectionner le groupe dans le champ Sélectionner des groupes d’utilisateurs. La liste de tous les membres de l’équipe avec leurs derniers points sont énumérés au-dessous. Les utilisateurs internes et externes peuvent afficher la liste, mais seuls les utilisateurs internes sont activés pour rechercher d&#39;autres élèves internes.
 
 * En outre, la fonction Personnes à votre rang affiche les noms des membres de l’équipe qui sont juste au-dessus, au-dessous ou au même niveau que vous.
 * Lorsqu’un utilisateur externe devient un utilisateur interne, la chronologie est automatiquement mise à jour.
@@ -68,7 +66,7 @@ Cette fonctionnalité encourage les utilisateurs à fournir activement des comme
 
 ## Tâches {#tasks}
 
-Il existe cinq tâches de ludification des participants. Vous pouvez afficher les points de ludification à l’intérieur du cercle situé dans l’angle supérieur droit de la fenêtre, sur la page d’accueil des élèves. Pour afficher l’attribution de chaque tâche, cliquez sur Ludification.
+Il existe cinq tâches de ludification des participants. Vous pouvez afficher les points de ludification à l’intérieur du cercle situé dans l’angle supérieur droit de la fenêtre, sur la page d’accueil des élèves. Cliquez sur le cercle pour voir les points attribués pour chaque tâche.
 
 Le système affiche la page Ludification, dont la représentation de l’ensemble des tâches et des points des élèves est affichée ci-dessous :
 
@@ -97,12 +95,12 @@ Les scénarios possibles sont les suivants :
 
 **Pour les autonomes (a)**
 
-Cette tâche s’applique lorsque les élèves s’inscrivent pour le nombre prescrit de cours et terminent dans un délai d’un mois/trimestre/an. Dans ce cas, l’administrateur peut activer cette tâche pour allouer des points et les encourager.
+Cette tâche s’applique lorsque les élèves s’inscrivent pour un nombre requis de cours et les terminent en un mois, un trimestre ou une année. Dans ce cas, l’administrateur peut activer cette tâche avec une allocation de points pour les encourager.
 
 Scénarios possibles :
 
 1. Lorsque les élèves s’inscrivent à un cours en un mois/trimestre/année, ils obtiennent 50 points.
-1. Lorsque les élèves s&#39;inscrivent à deux cours au cours d&#39;un mois/trimestre/an, ils obtiennent 150 points.
+1. Lorsque les élèves s’inscrivent à deux cours en un mois/trimestre/année, ils obtiennent 150 points.
 
 >[!NOTE]
 >
@@ -115,7 +113,7 @@ Cette tâche s’applique lorsque des élèves s’inscrivent et suivent un plus
 Scénarios possibles de l’inscription d’élèves à des cours s’ajoutant à leurs cours affectés :
 
 1. Lorsque les élèves s’inscrivent à un cours en un mois/trimestre/année, ils obtiennent 20 points.
-1. Lorsque les élèves s&#39;inscrivent à deux cours au cours d&#39;un mois/trimestre/an, ils obtiennent 100 points.
+1. Lorsque les élèves s’inscrivent à deux cours en un mois/trimestre/année, ils obtiennent 100 points.
 1. Lorsque les élèves s’inscrivent à trois cours en un mois/trimestre/année, ils obtiennent 300 points supplémentaires.
 1. Lorsque les élèves s’inscrivent à quatre cours en un mois/trimestre/année, ils obtiennent 500 points supplémentaires.
 
@@ -130,9 +128,9 @@ Cette tâche s’applique lorsque les élèves terminent un nombre spécifique d
 Scénarios possibles pour l’élargissement des compétences :
 
 1. Lorsque les participants acquièrent une compétence, ils obtiennent 100 points.
-1. Lorsque les élèves atteignent deux compétences, ils gagnent 300 points.
-1. Lorsque les élèves atteignent trois compétences, ils gagnent 600 points.
-1. Lorsque les élèves atteignent quatre compétences, ils gagnent 900 points.
+1. Lorsque les participants acquièrent deux compétences, ils obtiennent 300 points.
+1. Lorsque les participants acquièrent trois compétences, ils obtiennent 600 points.
+1. Lorsque les participants acquièrent quatre compétences, ils obtiennent 900 points.
 
 >[!NOTE]
 >
@@ -144,9 +142,9 @@ Cette tâche s’applique chaque fois que les élèves atteignent chacun des niv
 
 Les scénarios possibles pour les super perfectionnistes dans les niveaux d’une compétence spécifique :
 
-1. Lorsque les élèves atteignent un niveau, ils obtiennent 100 points.
-1. Lorsque les élèves atteignent deux niveaux, ils obtiennent 200 points.
-1. Lorsque les élèves atteignent trois niveaux, ils obtiennent 500 points.
+1. Lorsque les participants atteignent un niveau, ils obtiennent 100 points.
+1. Lorsque les participants atteignent deux niveaux, ils obtiennent 200 points.
+1. Lorsque les participants atteignent trois niveaux, ils obtiennent 500 points.
 
 >[!NOTE]
 >
