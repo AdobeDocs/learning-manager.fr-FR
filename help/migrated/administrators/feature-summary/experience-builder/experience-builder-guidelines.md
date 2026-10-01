@@ -3,13 +3,11 @@ title: Directives et limitations d’Experience Builder dans Adobe Learning Mana
 description: Les directives et limitations d’Experience Builder fournissent des suggestions de cours et de contenu personnalisées aux élèves à l’aide d’algorithmes pilotés par l’IA.
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '815'
 ht-degree: 0%
-
 ---
-
 # Directives et limitations d’Experience Builder
 
 Experience Builder est un outil puissant conçu pour aider les utilisateurs à créer facilement des pages web dynamiques et attrayantes. Pour garantir des performances, une convivialité et une sécurité optimales, il est essentiel de suivre certaines directives et recommandations lors de la configuration des pages, de l’utilisation de widgets et de la personnalisation des mises en page. Ce document fournit un aperçu détaillé des remarques et points importants que les utilisateurs doivent prendre en compte lorsqu’ils travaillent avec Experience Builder.
@@ -81,7 +79,7 @@ Les menus peuvent être placés en haut ou à gauche de la page. D’autres rég
 
 ### Clause de non-responsabilité
 
-* Le code personnalisé peut ne pas fonctionner comme prévu dans les prochaines versions, ce qui nécessite des ajustements. Préparez-vous à mettre à jour leur code après chaque version.
+* Les personnalisations personnalisées de HTMLS, CSS et JavaScript sont prises en charge. Cependant, les mises à jour de la plate-forme peuvent parfois nécessiter des ajustements mineurs du code personnalisé. Nous vous recommandons de tester les personnalisations après les versions majeures dans le cadre d’une maintenance régulière.
 
 ## Recommandations générales
 

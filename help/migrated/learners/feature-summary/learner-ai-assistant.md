@@ -3,9 +3,9 @@ description: Obtenez des réponses rapides et précises de votre contenu d’app
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # Assistant d’IA pour les élèves
@@ -81,7 +81,7 @@ Adobe traite votre contenu d’apprentissage de manière sécurisée à l’aide
 
 L’assistant AI utilise uniquement le contenu des catalogues internes et des bibliothèques de contenu tierces. Les réponses aux requêtes des élèves sont dérivées uniquement des catalogues auxquels ils ont accès.
 
-Les sources de contenu suivantes ne sont pas prises en charge :
+Les sources de contenu suivantes ne sont pas prises en charge dans la version actuelle :
 
 - Catalogues externes partagés
 - Catalogues par défaut

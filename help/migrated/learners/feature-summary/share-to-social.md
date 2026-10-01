@@ -6,11 +6,9 @@ contentowner: kuppan
 exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
-
+source-wordcount: '648'
+ht-degree: 81%
 ---
-
 # Partager sur l’Apprentissage par les réseaux sociaux
 
 Apprenez à utiliser le signet Réseaux sociaux pour partager instantanément les apprentissages en ligne d’un utilisateur sur les réseaux sociaux.
@@ -32,7 +30,7 @@ Ajoutez une description pour votre publication, puis sélectionnez le forum sur 
 **Pour ajouter ce signet à la barre de signets de votre navigateur, procédez comme suit :**
 
 1. Assurez-vous que l’onglet des signets est activé dans le navigateur.
-1. Impossible de se connecter à Learning Manager en tant qu’élève.
+1. Impossible de se connecter à Learning Manager.
 1. Cliquez sur Apprentissage par les réseaux sociaux dans le panneau de navigation de gauche. Si l’option n’est pas visible, contactez votre administrateur.
 1. Faites glisser l’icône **Partager vers les réseaux sociaux** vers la barre de signets de votre navigateur.
 
@@ -57,7 +55,7 @@ Ajoutez une description pour votre publication, puis sélectionnez le forum sur 
 ## Internet Explorer {#internetexplorer}
 
 * Cliquez avec le bouton droit de la souris sur l’icône des paramètres dans le coin supérieur droit du navigateur. Ou utilisez **Alt + C** sur le clavier pour ouvrir la fenêtre de la barre des favoris.
-* Pour afficher la barre des favoris dans le navigateur, cliquez sur **[!UICONTROL Barre des favoris]**.
+* Pour rendre la barre des favoris visible sur le navigateur, cliquez sur **[!UICONTROL Barre des favoris]**.
 
 ## Microsoft Edge {#microsoftedge}
 
@@ -82,7 +80,7 @@ Pour ajouter manuellement des signets à la barre des signets, cliquez avec le b
 ## Microsoft Edge sous Windows {#microsoftedgeinwindows}
 
 1. Assurez-vous que votre barre des favoris est visible. Cliquez avec le bouton droit de la souris sur la barre des favoris > **Créer un nouveau dossier**.
-1. Pour ajouter l&#39;URL au dossier de la barre des favoris que vous aimez, cliquez sur l&#39;icône **Bookmarks hub** > **Bookmarks icon**.
+1. Pour ajouter une URL au dossier de la barre de vos favoris, cliquez sur l’icône **Hub de signets** > **Icône Signets**.
 1. Enregistrez une page en ligne dans le dossier et renommez-le en Partager vers les réseaux sociaux.
 1. Sélectionnez l’icône du hub de signets > Partager sur les réseaux sociaux > Modifier l’URL.
 1. Collez l’adresse du lien et cliquez sur le bouton Entrée.

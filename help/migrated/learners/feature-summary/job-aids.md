@@ -5,20 +5,18 @@ title: Assistances à la tâche
 exl-id: e7861820-40bc-4914-86e3-245f348253cb
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 77%
-
+source-wordcount: '202'
+ht-degree: 100%
 ---
-
 # Assistances à la tâche
 
 Découvrez comment afficher et utiliser des assistances à la tâche dans Learning Manager.
 
-Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l&#39;aide afin d&#39;effectuer toute activité ou tâche au sein d&#39;une organisation.
+Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l’aide afin d’effectuer toute activité ou tâche au sein d’une organisation.
 
 Les assistances à la tâche peuvent être utilisées indépendamment ou avec le suivi des cours dans Learning Manager.
 
-Un administrateur de votre organisation peut affecter des assistances à la tâche aux élèves. Lorsque vous êtes connecté en tant qu’élève, vous pouvez afficher Assistances à la tâche dans le widget Mes assistances à la tâche, sur la page d’accueil. Si des assistances à la tâche vous sont attribuées, vous pouvez les afficher dans le widget Mes assistances à la tâche au bas de la page de l’élève.
+Un administrateur de votre organisation peut affecter des assistances à la tâche aux élèves. Lorsque vous êtes connecté en tant qu’élève, vous pouvez afficher Assistances à la tâche dans le widget Mes assistances à la tâche, sur la page d’accueil. Si des assistances à la tâche vous sont affectées, vous pouvez les afficher dans le widget Mes assistances à la tâche, en bas de la page de l’élève.
 
 ## Utiliser des assistances à la tâche {#consumejobaids}
 

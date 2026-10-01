@@ -3,29 +3,27 @@ description: Découvrez comment intégrer le connecteur Zoom à Adobe Learning M
 jcr-language: en_us
 title: Connecteur Zoom
 contentowner: mmanuel
-source-git-commit: 481eed24a5ac72329228c8d27b625d443bd637ce
+source-git-commit: 289bd299abdf6ff25d6bbb7bc4dbcaaf057e591e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
-
+source-wordcount: '412'
+ht-degree: 2%
 ---
 
-
-# Connecteur Zoom dans Adobe Learning Manager
+# Connecteur de zoom dans Adobe Learning Manager
 
 ## Introduction
 
-Le connecteur Zoom de Adobe Learning Manager permet une intégration transparente avec Zoom pour offrir des sessions de classe virtuelle en direct. Grâce à cette intégration, les instructeurs peuvent organiser des réunions Zoom directement à partir de Learning Manager, inscrire des élèves et suivre les données de présence et d’achèvement. Les élèves reçoivent des invitations automatiques et peuvent participer aux sessions via leur compte Adobe Learning Manager. Après la session, les données de présence et de performances sont synchronisées avec Adobe Learning Manager pour la création de rapports et le suivi.
+Le Connecteur Zoom de Adobe Learning Manager permet une intégration transparente avec Zoom pour offrir des sessions de classe virtuelle en direct. Grâce à cette intégration, les instructeurs peuvent organiser des réunions Zoom directement à partir de Learning Manager, inscrire des élèves et suivre les données de présence et d’achèvement. Les élèves reçoivent des invitations automatiques et peuvent participer aux sessions via leur compte Adobe Learning Manager. Après la session, les données de présence et de performances sont synchronisées avec Adobe Learning Manager pour la création de rapports et le suivi.
 
 ## Configuration du connecteur Zoom
 
-Pour configurer le connecteur de zoom :
+Pour configurer le Connecteur de zoom :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
 2. Survolez la vignette **Zoom**.
 
    ![](assets/zoom-connector1.png)
-   _Configurer le connecteur Zoom dans Adobe Learning Manager_
+   _Configuration du Connecteur de zoom dans Adobe Learning Manager_
 
 3. Sélectionnez **Se connecter**. La page de configuration du connecteur Zoom s’ouvre.
 4. Saisissez les détails de compte suivants dans les champs respectifs. Vous pouvez obtenir ces informations d’identification auprès de votre administrateur de compte Zoom :
@@ -37,13 +35,13 @@ Pour configurer le connecteur de zoom :
    * Adresse e-mail du super administrateur
 
    ![](assets/zoom-connector2.png)
-   _Tapez les détails de configuration pour configurer le connecteur Zoom_
+   _Tapez les détails de configuration pour configurer le connecteur de zoom_
 
 5. Sélectionnez **Se connecter** pour établir l&#39;intégration.
 
 >[!NOTE]
 >
->Lors de l&#39;activation du connecteur, **les élèves doivent utiliser la même adresse e-mail** pour leurs comptes Zoom et Adobe Learning Manager afin de s&#39;assurer que les données utilisateur sont correctement synchronisées.
+>Lors de l&#39;activation du connecteur, les **élèves doivent utiliser la même adresse e-mail** pour leurs comptes Zoom et Adobe Learning Manager afin de s&#39;assurer que les données utilisateur sont correctement synchronisées.
 
 ## Création de cours Zoom
 
@@ -64,22 +62,21 @@ Après la fin de la session virtuelle :
 
 ## Création d’une application OAuth Zoom de serveur à serveur
 
-Pour utiliser le connecteur Zoom avec Adobe Learning Manager, vous devez créer une application OAuth Zoom de serveur à serveur et configurer les portées requises.
+Pour utiliser le Connecteur Zoom avec Adobe Learning Manager, vous devez créer une application OAuth Zoom de serveur à serveur et configurer les portées requises.
 
 ### Portées OAuth requises
 
 Lors de la création de l’application dans Zoom, assurez-vous que les portées suivantes sont sélectionnées :
 
-```
-| Scope Description | Zoom Scope |
-|---|---|
-| View all user meetings | meeting:read:admin |
-| View and manage all user meetings | meeting:write:admin |
-| View report data | report:read:admin |
-| View all user information | user:read:admin |
-| Manage users | user:write:admin |
-| Add a meeting registrant | meeting:write:registrant:admin |
-| List all meeting registrants | meeting:read:list_registrants:admin |
-| Manage sub-account meetings | meeting:write:meeting:master |
-| View meeting participants report | report:read:list_meeting_participants:admin |
-```
+| Ce que vous voulez | Rechercher ce mot-clé | Puis choisir |
+|---|---|---|
+| Afficher toutes les réunions d’utilisateurs | réunion | `meeting:read:meeting:admin, meeting:read:list_meetings:admin` |
+| Afficher/gérer toutes les réunions d’utilisateurs | réunion | `meeting:update:meeting:admin, meeting:delete:meeting:admin, meeting:write:meeting:admin` |
+| Afficher les données du rapport | rapport | `report:read:meeting:admin, report:read:user:admin` (Choisissez celui qui correspond à votre point de terminaison.) |
+| Afficher toutes les informations utilisateur | l&#39;interface | `user:read:user:admin, user:read:list_users:admin` |
+| Gérer les utilisateurs et les utilisatrices | l&#39;interface | `user:update:user:admin, user:write:user:admin` |
+| Ajout d’un participant à une réunion | inscrit | `meeting:write:registrant:admin` |
+| Répertorier tous les participants à la réunion | inscrit | `meeting:read:list_registrants:admin` |
+| Réunions de sous-comptes | réunion + rechercher :master | `meeting:write:meeting:master` |
+| Rapport sur les participants à la réunion | participant | `report:read:list_meeting_participants:admin` |
+

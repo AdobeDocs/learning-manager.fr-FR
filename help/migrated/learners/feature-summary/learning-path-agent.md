@@ -2,13 +2,11 @@
 description: L’agent Parcours d’apprentissage de Adobe Learning Manager est un assistant optimisé par l’IA qui génère un plan d’apprentissage personnalisé et séquencé en fonction de vos objectifs, de votre expérience et du temps disponible.
 jcr-language: en_us
 title: Agent du parcours d’apprentissage (bêta) dans Adobe Learning Manager
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2201'
 ht-degree: 0%
-
 ---
-
 
 # Qu’est-ce que l’agent de parcours d’apprentissage ?
 
@@ -23,7 +21,7 @@ Les parcours d’apprentissage personnalisés sont conçus pour deux cas d’uti
 
 ## Fonctionnement de l’approche basée sur la conversation
 
-L&#39;agent vous rencontre là où vous êtes. Vous commencez par décrire ce que vous voulez apprendre en langage simple, avec autant de détails que possible. L&#39;agent pose ensuite des questions de suivi pour comprendre votre rôle, vos défis particuliers et le temps que vous pouvez consacrer à l&#39;apprentissage chaque semaine.
+L’agent génère ensuite un parcours d’apprentissage nommé affichant chaque cours, sa description, sa durée et le nombre de modules. Avant d’enregistrer, vous pouvez demander à l’agent d’ajouter, de supprimer ou de remplacer des cours individuels dans le chemin à l’aide du langage naturel. »
 
 À partir de vos réponses, l&#39;agent identifie 3 à 5 sujets d&#39;apprentissage avec des niveaux de compétence suggérés. Vous pouvez consulter ces rubriques, demander des modifications ou les confirmer avant que l&#39;agent ne recherche des cours correspondants. L’agent génère ensuite un parcours d’apprentissage nommé affichant chaque cours, sa description, sa durée et le nombre de modules. Vous pouvez ajuster le tracé avant de l’enregistrer.
 
@@ -47,6 +45,7 @@ Une fois que vous avez enregistré un parcours d’apprentissage personnalisé, 
 - Fournissez votre engagement de temps à l’avance, de sorte que le chemin généré corresponde à votre calendrier réel. L&#39;agent comprend le langage naturel : « deux soirs par semaine » ou « 30 minutes par jour » sont tous deux valides.
 - Passez en revue les rubriques suggérées avant de demander à l&#39;agent de générer des cours. Confirmer ou ajuster les sujets à ce stade permet de gagner du temps par rapport à la révision de la liste des cours par la suite.
 - Si une rubrique n’affiche aucun contenu correspondant, notez-la et contactez votre administrateur pour demander l’ajout de cours pertinents au catalogue.
+- Utilisez un langage naturel pour affiner votre tracé avant de l’enregistrer. Par exemple, demandez à supprimer un cours que vous avez déjà terminé ou remplacez-en un qui semble trop avancé.
 
 ## Configuration de l’agent du parcours d’apprentissage personnalisé
 
@@ -120,11 +119,11 @@ Continuez la conversation jusqu&#39;à ce que l&#39;agent présente les sujets s
 
 ### Examiner les rubriques suggérées
 
-Après avoir rassemblé suffisamment de contexte, l&#39;agent présente une liste de 3 à 5 sujets d&#39;apprentissage, chacun avec un titre, une brève description et un niveau de compétence suggéré.
+À partir de vos réponses, l&#39;agent identifie 3 à 5 sujets d&#39;apprentissage. Vous pouvez consulter ces rubriques, demander des modifications ou les confirmer avant que l&#39;agent ne recherche des cours correspondants. L’agent génère ensuite un parcours d’apprentissage nommé affichant chaque cours, sa description, sa durée et le nombre de modules. Vous pouvez ajuster le tracé avant de l’enregistrer.
 
-1. Lisez attentivement la liste des rubriques. L&#39;agent sélectionne les niveaux de compétence en fonction de ce que vous avez partagé, mais vous pouvez demander des modifications.
-2. Pour ajuster une rubrique, par exemple, pour modifier le niveau de compétence ou échanger une rubrique, saisissez vos commentaires dans la discussion. Par exemple, j&#39;ai déjà une certaine connaissance du premier sujet. Pouvez-vous le définir comme intermédiaire?
-3. Si vous êtes satisfait des rubriques suggérées, confirmez-les en répondant dans la discussion ou en sélectionnant l’invite de confirmation suggérée si elle apparaît.
+1. Passez en revue les rubriques suggérées pour vous assurer qu’elles correspondent à votre objectif d’apprentissage.
+2. Pour ajuster les rubriques, saisissez vos commentaires dans la discussion. Vous pouvez demander à l’agent d’ajouter, de supprimer ou de remplacer une rubrique.
+3. Si les rubriques suggérées vous conviennent, confirmez-les en répondant dans la discussion ou en sélectionnant l’invite de confirmation suggérée si elle apparaît.
 
 ### Examen du parcours d’apprentissage
 
@@ -141,7 +140,27 @@ L&#39;agent vous informe qu&#39;il n&#39;a pas pu trouver de cours pour ces suje
 <!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
 Lorsque le chemin vous convient, demandez à l’agent de l’enregistrer en tapant enregistrer le parcours d’apprentissage.
 
+<!--
 ![](assets/create-lp.png)
+-->
+
+### Ajuster votre parcours d’apprentissage avant d’enregistrer
+
+Avant d&#39;enregistrer votre parcours, vous pouvez demander à l&#39;agent d&#39;ajouter, de supprimer ou de remplacer un cours. Décrivez la modification en langage simple. L&#39;agent met uniquement à jour le cours que vous mentionnez. Le reste de votre chemin reste le même.
+
+Par exemple :
+
+- J&#39;ai déjà terminé le deuxième cours. Supprimez-le.
+- Ajoutez un cours sur [rubrique]. Je n&#39;en vois pas dans la liste.
+- Le quatrième cours semble trop avancé. Pourriez-vous la remplacer par quelque chose de plus fondamental?
+
+L&#39;agent applique votre modification et vous indique le chemin mis à jour. Continuez à ajuster jusqu’à ce que vous soyez satisfait, puis enregistrez le tracé.
+
+>[!NOTE]
+>
+>Un parcours d’apprentissage peut contenir jusqu’à cinq cours. Si vous demandez l&#39;ajout d&#39;un cours alors que le chemin est déjà plein, l&#39;agent vous demande quel cours existant vous souhaitez remplacer.
+
+Si votre demande n&#39;est pas claire, l&#39;agent pose une question de clarification avant d&#39;apporter une modification. S&#39;il n&#39;existe pas de remplacement approprié pour un cours que vous souhaitez échanger, l&#39;agent explique pourquoi et suggère le cours correspondant le plus proche à la place.
 
 ### Enregistrement et accès à votre parcours d’apprentissage
 
@@ -177,7 +196,7 @@ Tous vos parcours enregistrés apparaissent dans la bande _Parcours d’apprenti
 
 _Combien de parcours d’apprentissage personnalisés puis-je enregistrer ?_
 
-La bande _Parcours d’apprentissage personnalisés_ sur votre page d’accueil affiche un maximum de 10 parcours.
+La bande _Parcours d’apprentissage personnalisés_ sur votre page d’accueil affiche un maximum de 20 parcours.
 
 _Quelles informations dois-je fournir pour obtenir un parcours d’apprentissage pertinent ?_
 
@@ -201,10 +220,14 @@ Oui. Au cours de la conversation, vous pouvez demander à l’agent d’ajouter,
 
 _Puis-je modifier les cours individuels dans un chemin généré ?_
 
-Non. Une fois que l&#39;agent génère un chemin, la sélection du cours est corrigée. Vous ne pouvez pas échanger, supprimer ou remplacer des cours individuels. Ce que l&#39;agent recommande correspond au chemin d&#39;accès.
+Oui. Avant d&#39;enregistrer le chemin, vous pouvez demander à l&#39;agent d&#39;ajouter, de supprimer ou de remplacer un cours en utilisant le langage naturel. Par exemple, « supprimez le deuxième cours » ou « remplacez le quatrième cours par quelque chose de plus fondamental ». L&#39;agent met uniquement à jour le cours que vous avez mentionné et laisse le reste du chemin inchangé.
 
-Si les cours suggérés ne vous conviennent pas, la meilleure approche consiste à revenir en arrière et à ajuster vos rubriques avant de générer. L&#39;agent sélectionne les cours en fonction des sujets que vous confirmez, de sorte que la modification de la portée du sujet ou du niveau de compétence produira un ensemble de cours différent.
+Si vous souhaitez effectuer une modification plus large sur plusieurs rubriques, il est plus rapide d&#39;ajuster vos rubriques avant que l&#39;agent ne génère le chemin, car la sélection des cours est basée sur les rubriques que vous confirmez.
+
+_Que se passe-t-il si j’essaie d’ajouter un cours mais que mon chemin est déjà plein ?_
+
+Un parcours d’apprentissage peut inclure jusqu’à cinq cours. Si vous demandez l&#39;ajout d&#39;un nouveau cours alors que le chemin est plein, l&#39;agent vous demande quel cours existant vous souhaitez remplacer par le nouveau.
 
 _Pourquoi l&#39;agent continue-t-il à poser des questions de suivi ?_
 
-L&#39;agent a besoin de suffisamment de clarté sur votre objectif d&#39;apprentissage pour identifier les sujets pertinents. Si votre message initial était général, comme « Je veux apprendre le marketing », il posera des questions pour en restreindre la portée. Fournir des détails plus précis sur votre rôle, les défis auxquels vous êtes confronté et ce que vous voulez être en mesure de faire après l&#39;apprentissage aidera l&#39;agent à passer plus rapidement à la génération de sujets.
+L&#39;agent a besoin de suffisamment de clarté sur votre objectif d&#39;apprentissage pour identifier les sujets pertinents. Si votre message initial était général, comme « Je veux apprendre le marketing », il posera des questions pour en restreindre la portée. Fournir des détails plus précis sur votre rôle, les défis auxquels vous faites face et ce que vous voulez être en mesure de faire après l&#39;apprentissage aidera l&#39;agent à passer plus rapidement à la génération de sujets.
