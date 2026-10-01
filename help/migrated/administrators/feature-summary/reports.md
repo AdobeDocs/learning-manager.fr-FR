@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: d8c811bdfc4f41ef354a8563ab59070db436bd1d
+source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
 workflow-type: tm+mt
-source-wordcount: '8746'
-ht-degree: 56%
+source-wordcount: '8793'
+ht-degree: 55%
 ---
 # Rapports {#reports}
 
@@ -1016,7 +1016,7 @@ La feuille exportée de rapports de tableau de bord fournit des informations dé
    *Axes pour les rapports*
 
 1. Choisissez la plage/les critères secondaires de **[!UICONTROL l’axe Y]** pour votre rapport parmi les options de la liste déroulante. Par exemple, pour une option d’inscription de programme d’apprentissage, choisissez un ou plusieurs états dans la liste déroulante États. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
-1. Choisissez les critères d’axe X&#x200B;**&#x200B;** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
+1. Choisissez les critères d’axe X**** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
 1. Dans la section Intervalle de temps, choisissez l’option appropriée dans la liste déroulante. Les options disponibles sont :
 
    * 30 derniers jours
@@ -1251,9 +1251,10 @@ Le rapport est cumulatif uniquement : de nouveaux enregistrements de modificatio
 
 Le rapport est disponible pour tout utilisateur disposant de privilèges de rapport, y compris les administrateurs complets et les administrateurs personnalisés qui ont obtenu l’accès au rapport, et pas seulement les propriétaires de compte.
 
->[!NOTE]
->
->Les dossiers sont disponibles à partir de la mise à jour 112, septembre 2026. Les modifications apportées avant cette mise à jour ne sont pas incluses dans le rapport. Voir [notes de mise à jour](/help/migrated/release-note/release-notes.md) Mise à jour 112.
+## Enregistrements et modifications {#recordschanges}
+
+* Les dossiers sont disponibles à partir de la mise à jour 112, septembre 2026. Les modifications apportées avant cette mise à jour ne sont pas incluses dans le rapport. Voir [notes de mise à jour](/help/migrated/release-note/release-notes.md) Mise à jour 112.
+* Les modifications apportées à l’un des paramètres peuvent prendre jusqu’à une heure pour être répercutées dans le rapport.
 
 ## Pourquoi ce rapport est important pour la conformité
 
@@ -1326,7 +1327,7 @@ Le fichier `.csv` téléchargé comprend les colonnes suivantes.
 
 ## Accéder à ce rapport par programme
 
-Vous pouvez récupérer le rapport de piste d’audit d’administrateur par programme à l’aide de l’API des tâches, plutôt que de le générer manuellement à partir de l’application d’administration. Ceci est utile si vous souhaitez planifier des exportations régulières ou alimenter le rapport dans un système de surveillance ou d’alerte en aval. En savoir plus sur [l&#39;API Jobs pour le rapport de piste d&#39;audit d&#39;administrateur](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)
+Vous pouvez récupérer le rapport de piste d’audit d’administrateur par programme à l’aide de l’API des tâches, plutôt que de le générer manuellement à partir de l’application d’administration. Ceci est utile si vous souhaitez planifier des exportations régulières ou alimenter le rapport dans un système de surveillance ou d’alerte en aval. En savoir plus sur [l&#39;API de tâche pour le rapport de piste d&#39;audit d&#39;administrateur](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
 ## Limitations
 
@@ -1345,6 +1346,9 @@ Vous pouvez récupérer le rapport de piste d’audit d’administrateur par pro
 
 **Je ne vois aucun enregistrement avant une certaine date**
 Les enregistrements sont disponibles uniquement à partir de la mise à jour 112 (septembre 2026). Les modifications apportées avant cette mise à jour ne sont pas incluses dans le rapport. Voir [notes de mise à jour](/help/migrated/release-note/release-notes.md)
+
+**Je ne vois pas les modifications que j&#39;ai apportées il y a quelques minutes dans le rapport**
+Voir la deuxième puce sous [Enregistrements et modifications](#recordschanges) ci-dessus.
 
 **La colonne UUID est vide pour tout ou partie des enregistrements**
 La colonne UUID est remplie uniquement si l’UUID est activé au niveau du compte. Si elle n’est pas activée, cette colonne n’est pas présente.
