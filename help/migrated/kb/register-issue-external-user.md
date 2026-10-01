@@ -7,10 +7,8 @@ exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 50%
-
+ht-degree: 70%
 ---
-
 # Inscription impossible en tant qu’utilisateur externe
 
 ## Problème
@@ -39,7 +37,7 @@ Ce problème se produit dans l’un des cas suivants :
 
 ## Résolution :
 
-**Scénario 1:** L&#39;utilisateur est déjà inscrit à un autre profil externe.
+**Scénario 1 :** L’utilisateur est déjà inscrit à un autre profil externe.
 
 1. Connectez-vous en tant qu’administrateur.
 1. Sous **Gérer**, cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Externe]**.
@@ -63,7 +61,7 @@ Ce problème se produit dans l’un des cas suivants :
 
 1. Une fois la sélection effectuée, cliquez sur **[!UICONTROL Modifier]**.
 
-**Scénario 2:** L&#39;utilisateur est présent en tant qu&#39;élève interne.
+**Scénario 2 :** L’utilisateur est présent en tant qu’élève interne.
 
 1. Connectez-vous en tant qu’administrateur.
 1. Sous **Gérer**, cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Interne]**.
@@ -73,7 +71,7 @@ Ce problème se produit dans l’un des cas suivants :
 
    *Ouvrir un profil d&#39;élève interne*
 
-1. Modifiez l’adresse e-mail de l’élève ou ajoutez *_old* à l’adresse e-mail existante. L’adresse e-mail sera ainsi libérée.
+1. Modifiez l’adresse électronique de l’élève ou ajoutez *_old* à l’adresse électronique existante. L’adresse électronique sera ainsi libérée.
 
    Par exemple, si l’adresse e-mail de l’élève est *<abc@adobe.com>,* remplacez-la par *<abc_old@adobe.com>*
 
@@ -89,6 +87,6 @@ Ce problème se produit dans l’un des cas suivants :
 
    *Modifier l&#39;adresse e-mail de l&#39;utilisateur*
 
-1. Modifiez l’adresse e-mail de l’élève ou ajoutez *_old* à l’adresse e-mail existante. L’adresse e-mail sera ainsi libérée.
+1. Modifiez l’adresse électronique de l’élève ou ajoutez *_old* à l’adresse électronique existante. L’adresse électronique sera ainsi libérée.
 
    Par exemple, si l’adresse électronique de l’élève est **<abc@adobe.com>**, remplacez-la par **<abc_old@adobe.com>**.

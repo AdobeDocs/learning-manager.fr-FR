@@ -1,23 +1,21 @@
 ---
 jcr-language: en_us
 title: Notifications
-description: La fonctionnalité Notifications s’applique à tous les utilisateurs d’Adobe Learning Manager. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications selon différents scénarios.
+description: La fonctionnalité Notifications s’applique à tous les utilisateurs d’Adobe Learning Manager. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications dans différents scénarios.
 contentowner: manochan
 exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 66%
-
+source-wordcount: '740'
+ht-degree: 78%
 ---
-
 # Notifications
 
 La fonctionnalité Notifications s’applique à tous les utilisateurs d’Adobe Learning Manager. Mais, chaque utilisateur en fonction de son rôle reçoit différents types de notifications dans différents scénarios. Toutes les alertes et notifications aux utilisateurs sont affichées dans la boîte de dialogue contextuelle de notifications.
 
 ## Notifications d’accès {#accessnotifications}
 
-Les utilisateurs peuvent consulter les notifications en cliquant sur l’icône Notifications dans l’angle supérieur droit de la fenêtre. Cette boîte de dialogue contextuelle affiche les zones mises en surbrillance de toutes les notifications ainsi que l’heure de l’occurrence avec une barre de défilement. Pour afficher plus d’informations sur toutes les notifications, cliquez sur Afficher toutes les notifications au bas de la boîte de dialogue contextuelle. La page des notifications s’affiche.
+Les utilisateurs peuvent consulter les notifications en cliquant sur l’icône Notifications dans l’angle supérieur droit de la fenêtre. Cette boîte de dialogue contextuelle affiche les points forts de toutes les notifications ainsi que la période de l’occurrence avec une barre de défilement. Pour afficher plus d’informations sur toutes les notifications, cliquez sur Afficher toutes les notifications au bas de la boîte de dialogue contextuelle. La page des notifications s’affiche.
 
 Vous pouvez connaître le nombre des dernières notifications par le nombre mis en surbrillance sur l’icône de notification. Par exemple, s’il y a cinq dernières notifications depuis votre connexion précédente, vous pouvez voir le numéro 5 affiché sur l’icône de notification. Ces numéros disparaissent une fois que vous avez lu toutes les dernières notifications.
 
@@ -39,9 +37,9 @@ Un exemple de fenêtre de notification pour le rôle d’administrateur est illu
 
 *Afficher les notifications de l&#39;administrateur*
 
-Cette fenêtre contextuelle affiche les zones en surbrillance de toutes les notifications, ainsi que l’heure de l’occurrence et une barre de défilement. Vous pouvez connaître le nombre des dernières notifications basées sur le nombre en surbrillance sur l’icône des notifications. Par exemple, s’il y a cinq dernières notifications depuis votre connexion précédente, vous pouvez voir le numéro 5 affiché sur l’icône de notification. Ces numéros disparaissent une fois que vous avez lu toutes les dernières notifications.
+Cette fenêtre contextuelle affiche les points forts de toutes les notifications ainsi que la période de l’occurrence et une barre de défilement. Vous pouvez connaître le nombre des dernières notifications basées sur le nombre en surbrillance sur l’icône des notifications. Par exemple, s’il y a cinq dernières notifications depuis votre connexion précédente, vous pouvez voir le numéro 5 affiché sur l’icône de notification. Ces numéros disparaissent une fois que vous avez lu toutes les dernières notifications.
 
-Cliquez sur le lien **[!UICONTROL Afficher toutes les notifications]** en bas de la fenêtre contextuelle des notifications pour afficher toutes les notifications dans une page distincte. Sur la page des notifications, vous pouvez voir les éléments suivants :
+Cliquez sur le lien **[!UICONTROL Afficher toutes les notifications]** au bas de la fenêtre contextuelle de notifications pour afficher toutes les notifications dans une page distincte. Sur la page des notifications, vous pouvez voir les éléments suivants :
 
 * **Toutes les notifications** : consultez toutes les notifications ici
 * **En attente** : affichez les notifications en attente ici
@@ -90,7 +88,7 @@ Lorsque les élèves ne respectent pas les échéances, les courriers électroni
 
 ## Forum aux questions {#frequentlyaskedquestions}
 
-+++Comment configurer les notifications de rappel sur l’instance ?
++++Comment configurer des notifications de rappel sur l’instance ?
 
 Sur une instance, cliquez sur Alertes de notification. Un calendrier s’ouvre indiquant l’échéance définie pour le cours surligné en rouge. Cliquez sur la date en surbrillance pour voir que les rappels sont définis pour l’élève. Définissez les rappels, comme expliqué dans cette [section](user-notifications.md#Setupmultilevelescalationnotifications).
 +++

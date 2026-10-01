@@ -7,10 +7,8 @@ exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 50%
-
+ht-degree: 59%
 ---
-
 # Impossible d’afficher les envois de fichiers dans Adobe Learning Manager
 
 ## Le problème
@@ -21,7 +19,7 @@ Un instructeur ne peut pas afficher les envois de fichiers chargées par un él�
 
 Les instructeurs ne peuvent pas afficher les fichiers que les élèves ont chargés dans le **module d&#39;activité d’envoi**.
 
-Par exemple, un élève s&#39;était inscrit à une instance nommée **Instance de test** d&#39;un cours, comme indiqué ci-dessous :
+Par exemple, un élève s’était inscrit pour une instance nommée **Instance test** d&#39;un cours, comme indiqué ci-dessous :
 
 ![](assets/test-instance.png)
 
