@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
+source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
 workflow-type: tm+mt
-source-wordcount: '34464'
-ht-degree: 65%
-
+source-wordcount: '35308'
+ht-degree: 63%
 ---
-
 # Notes de mise à jour de Adobe Learning Manager
 
 <!--
@@ -19,12 +17,129 @@ ht-degree: 65%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/fr/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 
 -->
+
++++Mise à jour 112 : version du 30 septembre 2026 de Adobe Learning Manager
+
+## Fonctionnalités de cette version
+
+**Coach virtuel :** Virtual Coach est une solution de coaching optimisée par l’IA dans Adobe Learning Manager qui aide les élèves à développer leurs compétences par le biais de scénarios de jeux de rôles réalistes, de commentaires personnalisés et d’une pratique à la demande avant d’appliquer ces compétences dans des situations réelles. [En savoir plus](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
+
+**Partage de places :** le partage de places permet à un compte de partager une partie de ses places sous licence avec un autre compte, ce qui permet aux élèves du compte destinataire d’accéder à Adobe Learning Manager à l’aide des places partagées. Le partage de places est disponible uniquement pour les comptes Ultimate ; les comptes Prime ne peuvent ni partager ni recevoir de places et les comptes facturés par carte de crédit figurent par défaut sur la formule Prime. Les comptes d’évaluation sont une exception et peuvent recevoir des places partagées d’un compte Ultimate. Pendant une relation de partage de licences active, le compte d’évaluation reçoit un accès aux fonctionnalités de niveau Ultimate. [En savoir plus](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Rapport de piste d&#39;audit de l&#39;administrateur :** Le rapport de piste d&#39;audit de l&#39;administrateur vous fournit un enregistrement historique des modifications de configuration afin que vous puissiez déterminer :
+
+* Qui a apporté la modification ?
+* Date de la modification
+* Définition du paramètre avant la modification
+* Définition du paramètre après la modification
+
+Le rapport couvre les modifications apportées à :
+
+* Basics
+* Advanced
+* Intégrations
+
+Pour afficher la liste complète des paramètres et leurs détails sous chaque catégorie, vous pouvez sélectionner le lien **Télécharger la liste des paramètres** dans la fenêtre contextuelle Piste d&#39;audit de l&#39;administrateur qui apparaît avant de générer le rapport.
+
+Voici les options disponibles pour chaque catégorie :
+
+Basics
+
+* Basic Info
+* Modération de cours
+* Forum de discussion
+* Tentatives multiples
+* Visibilité des compétences, balises, produits et rôles
+* ID d’objet d’apprentissage uniques → activer
+* Affichage des panneaux de filtrage
+* Vue par défaut (rôle Élève) → Vue Liste
+* Gestion de l’instructeur
+* Aperçu du module
+* Activer la tarification pour les cours/parcours d’apprentissage/certifications
+* Activer Multi Item SKU Cart
+* Paramètres du lecteur
+* Les responsables peuvent marquer la formation comme étant terminée
+* Enregistrement automatique des utilisateurs
+* Supprimer automatiquement les utilisateurs internes (s’ils n’accèdent pas au système pendant (nombre configurable) jours)
+* Afficher les étiquettes de catalogue
+* Type de conformité personnalisé
+* Les élèves peuvent consulter leurs scores
+* E-mail de résumé
+* Activer Les Icônes De Cours/Parcours D’Apprentissage/Certification/Fiche D’Assistance À La Tâche
+* Liens du pied de page
+* Fuseau horaire du rapport
+* Intégration de Badgr
+* Afficher les évaluations
+* Fenêtre contextuelle Afficher l’évaluation par étoiles dans le Lecteur
+* Terminologie du produit
+* Mise à jour de la version du module
+* Retrait (cours, parcours d’apprentissage ou certification)
+* Retrait automatique (cours, parcours d’apprentissage ou certification)
+* Afficher tous les cours inscrits dans les résultats de recherche
+* Importation des compétences
+* Gradebook (visibilité de l’élève)
+* Purge automatique des utilisateurs supprimés
+* Crédits
+* Autres cours/parcours
+* Apprentissage externe
+
+Intégrations
+
+* Méthodes de connexion (internes et externes)
+* Configuration de l’authentification unique (SSO)
+* Sources de données — (Sources + Paramètres de synchronisation)
+* Ajouter des informations d’homologue
+
+Advanced
+
+* Libellés de catalogue → tous les libellés de catalogue
+* Étiquettes de catalogue → Paramètres (accès par valeur)
+* Dossier de contenu
+* Liste et éditeur des emplacements → salle de classe
+* Emplacements de salle de classe → droits d’auteur (paramètres)
+* Emplacements de salle de classe → Importation en bloc
+* Emplacements de salle de classe → migration du format d’emplacement
+* Calendrier des vacances
+* Rapports — Paramètres (tableaux de bord Conformité et réussite du groupe)
+
+Ce rapport peut également être généré par l’API de tâche. Voir [Rapport de journal d&#39;audit de l&#39;administrateur](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) et [API de tâche pour le rapport de journal d&#39;audit de l&#39;administrateur](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
+
+## Améliorations de cette version
+
+### Agent d’informations
+
+Deux améliorations ont été apportées à Insights Agent. Ce sont :
+
+* **Prise en charge de la terminologie du produit :** si votre administrateur a personnalisé les termes standard à l’aide de la terminologie du produit dans Paramètres > Général, Insights Agent reconnaît et utilise ces termes au lieu de la terminologie par défaut. Par exemple, si votre organisation a renommé Cours en Chapitre, vous pouvez demander : « Combien de chapitres ont été terminés le mois dernier ? » Insights Agent interprète le terme personnalisé et utilise « chapitre » dans les en-têtes de réponse et de colonne.
+
+* **Inscription au cours, à l&#39;exclusion de la liste d&#39;attente par défaut :** Pour les requêtes d&#39;inscription directes et indirectes sans filtres, le nombre d&#39;inscriptions directes inclut les élèves avec le statut En attente, même s&#39;ils sont sur liste d&#39;attente et ne participent pas activement. Par défaut, le panneau Approche n’indique pas que les élèves inscrits sur liste d’attente sont inclus dans le nombre. Les élèves inscrits sur liste d’attente sont exclus uniquement lorsque l’administrateur demande explicitement l’exclusion, auquel cas la règle appliquée est divulguée.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+## API
+
+* **API d&#39;accès au catalogue pour les objets d&#39;apprentissage :** l&#39;API d&#39;accès au catalogue pour les objets d&#39;apprentissage vous permet de déterminer si un ou plusieurs objets d&#39;apprentissage sont directement accessibles à un élève par le biais d&#39;un catalogue attribué. Utilisez la réponse pour contrôler les éléments de l’interface utilisateur liés à l’inscription. Par exemple, affichez l&#39;option S&#39;inscrire uniquement lorsque l&#39;accès direct au catalogue est confirmé, tout en permettant aux élèves de consulter la page du cours indépendamment de l&#39;accès au catalogue.
+En savoir plus.
+
+* **API de tâche pour le rapport de piste d&#39;audit de l&#39;administrateur :** cette API est utilisée pour travailler avec les tâches de rapport de piste d&#39;audit, en créant une tâche qui génère un rapport de piste d&#39;audit de modification de configuration pour une plage de dates et un ensemble de types de paramètres donnés.
+
+[En savoir plus](/help/migrated/api-changes-sep-2026.md).
+
+## Correctifs
+
+**L’instance du parcours d’apprentissage :** les dates de début et de fin du parcours d’apprentissage étaient affichées de manière incorrecte lorsque le fuseau horaire de l’instance du parcours d’apprentissage différait du fuseau horaire du système ou du navigateur de l’administrateur. La modification des dates entraînait l’affichage d’une date de début incorrecte et le même problème de conversion de fuseau horaire affectait les alertes de notification dans le calendrier.
+
+**Application mobile :** le lecteur n&#39;a pas été redimensionné correctement dans Safari et Edge lorsque les élèves ont basculé entre l&#39;orientation paysage et portrait, ce qui a entraîné des problèmes d&#39;affichage tels qu&#39;une ligne blanche dans la section Présentation et empêché l&#39;accès à la table des matières et aux notes.
+
+**Ludification :** les élèves n&#39;ont pas reçu de points de ludification lors de la consultation d&#39;un cours terminé à partir de la section Signets.
+
++++
 
 +++Mise à jour 111 : version du 31 août 2026 de Adobe Learning Manager
 
@@ -87,13 +202,13 @@ En savoir plus sur les [rapports de modifications de la version d&#39;août 2026
 
 ### Colonne Pondération dans le relevé de notes de l’élève
 
-Une colonne Poids est ajoutée au rapport LT pour les modules des cours compatibles avec Gradebook. Le poids du module s’affiche directement dans la sortie du rapport.
+Une colonne Poids est ajoutée au rapport LT pour les modules des cours compatibles avec Gradebook. Cela expose le poids du module directement dans la sortie du rapport.
 
 En savoir plus sur les [rapports de modifications de la version d&#39;août 2026 de Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
 
 ### Détails de l’auteur du cours partagé dans l’API LearningObjects
 
-Les détails mettent à jour la réponse d’objet d’apprentissage de l’API learningObjects pour les cours partagés afin que les comptes de réception n’affichent plus l’administrateur acceptant comme auteur. Seuls les détails de l’auteur externe d’origine sont affichés dans les comptes de pairs ; le comportement du compte parent reste inchangé.
+Les détails mettent à jour la réponse d’objet d’apprentissage de l’API learningObjects pour les cours partagés afin que les comptes de réception n’affichent plus l’administrateur acceptant comme auteur. Seuls les détails de l’auteur externe d’origine sont exposés dans les comptes de pairs ; le comportement du compte parent reste inchangé.
 
 ### Détection d’intention dans l’agent AI Orchestrator
 
@@ -121,7 +236,7 @@ L&#39;agent AI Orchestrator déplace la détection d&#39;intention pour les requ
 
 **Courriers électroniques et notifications :** les élèves qui terminaient des cours de certification récurrents recevaient des courriers électroniques d&#39;achèvement de cours même lorsque le modèle de courrier électronique d&#39;achèvement avait été désactivé sur le cours d&#39;origine. Cela s’est produit car les certifications récurrentes ont créé de nouveaux cours et instances sans copier les paramètres de notification de niveau cours d’origine, ce qui a entraîné l’utilisation des configurations de messagerie par défaut pour les cours dupliqués. Le processus de périodicité a été mis à jour pour conserver les paramètres de notification de cours lors de la duplication de cours. Par conséquent, les e-mails d’achèvement ne sont désormais envoyés que lorsqu’ils sont explicitement activés sur la configuration de cours d’origine.
 
-**Élève :** les annonces en-tête configurées avec des vidéos n&#39;affichaient que l&#39;image vidéo initiale sur la page d&#39;accueil de l&#39;élève et la lecture ne démarrait pas automatiquement comme prévu. Le comportement de lecture vidéo a été mis à jour pour s’assurer que les vidéos d’en-tête prises en charge sont lues automatiquement correctement lorsque l’annonce est chargée. Les élèves peuvent désormais afficher les annonces d&#39;en-tête vidéo sans lecture manuelle, ce qui offre une expérience plus attrayante.
+**Élève :** les annonces en-tête configurées avec des vidéos n&#39;affichaient que le cadre vidéo initial sur la page d&#39;accueil de l&#39;élève et la lecture ne démarrait pas automatiquement comme prévu. Le comportement de lecture vidéo a été mis à jour pour s’assurer que les vidéos d’en-tête prises en charge sont lues automatiquement correctement lorsque l’annonce est chargée. Les élèves peuvent désormais afficher les annonces d&#39;en-tête vidéo sans lecture manuelle, ce qui offre une expérience plus attrayante.
 
 **Élève :** le widget **Tendance dans votre réseau** n&#39;affichait pas correctement une carte vide **Commencer l&#39;apprentissage** dans les deux lignes horizontales. Ce problème a été résolu en affichant la carte d’état vide appropriée pour chaque ligne. La première ligne affiche désormais un lien **Accéder au catalogue**, tandis que la deuxième ligne continue d&#39;afficher la carte **Commencer l&#39;apprentissage** comme prévu.
 
@@ -133,7 +248,7 @@ L&#39;agent AI Orchestrator déplace la détection d&#39;intention pour les requ
 
 **Élève :** dans une certification ordonnée, les élèves pouvaient contourner un premier cours qui avait échoué et accéder à un deuxième cours verrouillé en remplissant sa condition préalable, ce qui permettait de marquer la certification comme terminée lorsque la condition était définie sur n&#39;importe quel cours. La validation a été mise à jour pour appliquer l’ordre des cours et verrouiller les règles de manière cohérente. Les élèves peuvent désormais satisfaire aux exigences de certification uniquement dans l&#39;ordre défini, ce qui empêche les cours verrouillés de contribuer à l&#39;achèvement de la certification.
 
-**API :** lorsqu&#39;une ressource était ajoutée à un cours sans description, l&#39;API GET /learningObject/{id} ne renvoyait pas une description nouvellement ajoutée si la ressource était mise à jour ultérieurement. Cela a entraîné l’affichage de métadonnées de ressources obsolètes via l’API. Le problème de synchronisation a été résolu et l&#39;API renvoie désormais la dernière description de ressource, quelle que soit la date à laquelle elle a été ajoutée.
+**API :** lorsqu&#39;une ressource était ajoutée à un cours sans description, l&#39;API GET /learningObject/{id} ne renvoyait pas une description nouvellement ajoutée si la ressource était mise à jour ultérieurement. Les métadonnées de ressources obsolètes étaient alors exposées via l’API. Le problème de synchronisation a été résolu et l&#39;API renvoie désormais la dernière description de ressource, quelle que soit la date à laquelle elle a été ajoutée.
 
 **API :** lorsqu&#39;un module a été migré avec une description et que la description a été mise à jour ultérieurement, la valeur mise à jour a été correctement enregistrée dans la table du module, mais n&#39;a pas été reflétée dans l&#39;interface utilisateur. L&#39;interface utilisateur a continué à afficher l&#39;ancienne description, car elle provenait de l&#39;enregistrement content_group, qui n&#39;était pas mis à jour lors de la modification. Ce problème de synchronisation a été résolu et les descriptions de module mises à jour sont désormais reflétées de manière cohérente dans l’interface utilisateur après la migration.
 
@@ -156,7 +271,7 @@ Ce comportement est attendu dans la version actuelle. Des améliorations permett
 L’audio peut se rompre par intermittence ou sembler confus lors d’une session de classe virtuelle sur macOS lorsque le microphone et le haut-parleur sélectionnés sont des périphériques différents.
 
 Ce comportement peut se produire lorsque différents périphériques sont utilisés pour l’entrée et la sortie audio, tels que les AirPods pour le microphone et le haut-parleur intégré pour la lecture. Etant donné que chaque périphérique introduit son propre retard audio, écho
-l’annulation est moins efficace et la suppression du bruit de fond peut parfois confondre certaines parties de la parole avec du bruit. Cela peut entraîner de brèves interruptions audio. Le problème est plus perceptible lorsque le
+l’annulation est moins efficace et la suppression des bruits en arrière-plan peut parfois confondre certaines parties de la parole avec le bruit. Cela peut entraîner de brèves interruptions audio. Le problème est plus perceptible lorsque le
 la voix du haut-parleur est capturée à un volume faible, par exemple lorsque le microphone est placé plus loin.
 
 Il s’agit d’une limitation de plateforme connue et elle n’est pas spécifique à Adobe Learning Manager. Un comportement similaire a été observé dans d&#39;autres applications de conférence. Aucun correctif n’est inclus dans cette version et le problème est en cours d’évaluation pour une version ultérieure.
@@ -169,8 +284,8 @@ Lorsqu’un instructeur partage une fenêtre Chrome en lisant une vidéo, puis c
 
 La vidéo continue d’être lue en local pour l’instructeur, mais les participants à distance peuvent ne pas voir la mise à jour du contenu lorsque la fenêtre partagée n’est pas active. Le comportement varie selon le système d’exploitation :
 
-&#x200B;- Sous Windows, les participants voient un écran noir.
-&#x200B;- Sur macOS, les participants voient la dernière image vidéo affichée.
+- Sous Windows, les participants voient un écran noir.
+- Sur macOS, les participants voient le dernier cadre vidéo affiché.
 
 La lecture vidéo pour les participants reprend généralement lorsque le focus revient à la fenêtre de navigateur partagée.
 
@@ -205,7 +320,7 @@ Patientez cinq à sept minutes après la fermeture de la session avant de rouvri
 
 Lorsque les paramètres régionaux de l’interface utilisateur sont définis sur une langue autre que l’anglais, le fichier CSV exporté à partir de la page Emplacements de la salle de classe affiche ses noms de colonnes (la ligne d’en-tête) en anglais plutôt que dans la langue sélectionnée.
 
-Ce comportement se produit lors de l’exportation des emplacements de salle de classe à partir du profil Administrateur > Paramètres > Emplacements de salle de classe. Bien que les données d’emplacement dans le fichier soient renvoyées correctement, les en-têtes de colonne ne sont pas traduits pour correspondre aux paramètres régionaux de l’interface utilisateur choisis par l’administrateur. Par conséquent, un administrateur travaillant dans des paramètres régionaux non anglais voit les noms de colonnes en anglais dans un environnement localisé.
+Ce comportement se produit lors de l’exportation des emplacements de salle de classe à partir du profil Administrateur > Paramètres > Emplacements de salle de classe. Bien que les données d’emplacement dans le fichier soient renvoyées correctement, les en-têtes de colonne ne sont pas translatés pour correspondre aux paramètres régionaux de l’interface utilisateur choisis par l’administrateur. Par conséquent, un administrateur travaillant dans des paramètres régionaux non anglais voit les noms de colonnes en anglais dans un environnement localisé.
 
 Seule la ligne d’en-tête est affectée ; les données d’emplacement sous-jacentes dans le fichier exporté ne sont pas affectées. Aucun correctif n’est inclus dans cette version et le problème est en cours d’évaluation pour une version ultérieure.
 
@@ -232,7 +347,7 @@ Date de publication : 16 juillet 2026
 
 **Modèles de courrier électronique :** des courriers électroniques de rappel pour les sessions à venir ont été envoyés sans informations de date et d&#39;heure de session pour les élèves inscrits aux instances de cours. Ce problème a été résolu pour remplir correctement les détails de planification de session dans le modèle de courrier électronique. Les élèves reçoivent désormais des e-mails de rappel de session à venir qui incluent la date et l’heure de la session concernée, fournissant des informations complètes sur la planification.
 
-**Connecteurs :** les auteurs ont rencontré par intermittence des erreurs HTTP 400 lors de la duplication ou de la modification de cours en salle de classe/salle de classe virtuelle basés sur un connecteur. Une fois déclenché, le problème persistait et bloquait les actions suivantes de création ou de modification de cours jusqu’à ce que la session soit actualisée. Ce problème a été résolu pour garantir la fiabilité de la duplication et de la modification des cours basés sur un connecteur. Les auteurs peuvent désormais dupliquer, créer et modifier des cours en salle de classe/salle de classe virtuelle sans rencontrer d’erreurs récurrentes de 400.
+**Connecteurs :** les auteurs ont rencontré par intermittence des erreurs HTTP 400 lors de la duplication ou de la modification de cours en salle de classe/salle de classe virtuelle basés sur un connecteur. Une fois déclenché, le problème persistait et bloquait les actions suivantes de création ou de modification de cours jusqu’à ce que la session soit actualisée. Ce problème a été corrigé pour assurer une duplication et une modification fiables des cours basés sur le connecteur. Les auteurs peuvent désormais dupliquer, créer et modifier des cours en salle de classe/salle de classe virtuelle sans rencontrer d’erreurs récurrentes de 400.
 
 **Codage des requêtes d&#39;API CMS :** un workflow de plateforme automatisée générait des requêtes de téléchargement répétées vers l&#39;API HTTP CMS avec des URL mal codées, ce qui entraînait des erreurs HTTP 500 intermittentes et, parfois, des milliers de requêtes non valides par seconde. La logique de codage de l’URL a été corrigée pour s’assurer que les chemins d’accès aux ressources contenant des caractères spéciaux, tels que des espaces, sont codés correctement avant l’envoi des demandes. Les demandes de téléchargement vers NetStorage s’exécutent désormais correctement, ce qui élimine les erreurs d’API récurrentes et les pics de demandes.
 
@@ -384,7 +499,7 @@ La version d’avril 2026 de Adobe Learning Manager introduit des améliorations
 
 **Mises à jour de l’administrateur et de l’auteur**
 
-* Zoom Connector prend désormais en charge plusieurs sessions virtuelles simultanées, ce qui améliore l’efficacité de la planification.
+* Le Connecteur Zoom prend désormais en charge plusieurs sessions virtuelles simultanées, ce qui améliore l’efficacité de la planification.
 * Possibilité de restreindre la durée de début du module et visibilité améliorée de l’expiration des objets d’apprentissage via les API.
 * Modules de liste de contrôle améliorés avec notation pondérée, prise en charge multilingue et options de retour d’informations des réviseurs.
 * Certificats personnalisés mis à niveau avec un éditeur glisser-déposer, des champs dynamiques et des arrière-plans générés par l’IA.
@@ -424,7 +539,7 @@ Pour plus d&#39;informations, consultez les [Nouveautés et modifications de la 
 
 **Durée du cours :** pour les cours VILT, la durée du niveau de cours était toujours prise à partir d&#39;un objet LO_DURATION statique sur l&#39;instance par défaut, qui est devenue 0 lorsque les sessions ont été retirées et n&#39;a pas été recalculée à partir des modules d&#39;instance réels. La durée du cours VILT reflète désormais les modules d&#39;instance réels au lieu de s&#39;appuyer uniquement sur une valeur LO_DURATION obsolète ou nulle de l&#39;instance par défaut.
 
-**Connecteurs :** Étant donné que le contrôleur Ember module-details a été réutilisé entre les modules, vcHostingSystem n&#39;a pas été mis à jour de manière cohérente, ce qui a entraîné un comportement VC/F2F mixte et l&#39;effacement incorrect des ID d&#39;instructeur basés uniquement sur vcHostingSystem. La gestion des modules permet désormais de conserver la cohérence de vcHostingSystem et efface uniquement les ID d’instructeur pour les véritables sessions VC. Les instructeurs sont donc correctement mis à jour pour les sessions F2F converties.
+**Connecteurs :** Comme le contrôleur Ember module-details a été réutilisé entre les modules, vcHostingSystem n&#39;a pas été mis à jour de manière cohérente, ce qui a entraîné un comportement VC/F2F mixte et l&#39;effacement incorrect des instructorIds basés uniquement sur vcHostingSystem. La gestion des modules permet désormais de conserver la cohérence de vcHostingSystem et efface uniquement les ID d’instructeur pour les véritables sessions VC. Les instructeurs sont donc correctement mis à jour pour les sessions F2F converties.
 
 **Migration LMS :** la colonne CSV LearningProgramCourse pour l&#39;ordre des cours n&#39;était pas respectée par le back-end, de sorte que l&#39;ordre des cours dans les sections LP était ignoré même lorsque orderEnforced avait la valeur true. La colonne CSV inutilisée pour l’ordre des cours a été supprimée pour correspondre au comportement du backend et éviter d’impliquer un ordre non pris en charge via CSV.
 
@@ -452,7 +567,7 @@ Adobe Learning Manager (ALM) n’incrémente pas la version des ressources Secon
 
 Second Nature ne prend pas en charge la gestion des versions dans son système source. Lorsqu&#39;un auteur met à jour des données de scénario dans le portail SN, les ressources ALM et leurs objets d&#39;apprentissage associés référencent automatiquement le contenu mis à jour sans créer de nouvelle version.
 
-En comparaison, ALM prend en charge le contrôle de version pour les ressources basées sur les fichiers et les ressources LTI, où les auteurs peuvent remplacer les fichiers ou mettre à jour les liens de lancement. Dans la mesure où ces commandes ne sont pas disponibles pour les intégrations SN, ALM ne prend pas en charge le déplacement de version pour le contenu Second Nature.
+Par comparaison, ALM prend en charge la gestion de versions pour les ressources basées sur les fichiers et LTI, où les auteurs peuvent remplacer les fichiers ou mettre à jour les liens de lancement. Dans la mesure où ces commandes ne sont pas disponibles pour les intégrations SN, ALM ne prend pas en charge le déplacement de version pour le contenu Second Nature.
 
 
 +++
@@ -468,8 +583,8 @@ Un outil de conversation alimenté par GenAI conçu pour aider vos élèves à t
 
 **Principales caractéristiques**
 
-* Utilise la génération augmentée par extraction (RAG) pour rechercher intelligemment du contenu de cours, des assistances à la tâche et des supports d’apprentissage afin de fournir des réponses précises et contextuelles.
-* Comprend le contexte, conserve les interactions antérieures et fournit des réponses basées sur la citation comme source de vérité au sol, qui peuvent être consommées plus tard si nécessaire.
+* Utilise la génération augmentée par extraction (RAG) pour effectuer des recherches intelligentes dans le contenu des cours, les assistances à la tâche et les matériaux d&#39;apprentissage afin de fournir des réponses précises et contextuelles.
+* Comprend le contexte, conserve les interactions antérieures et fournit des réponses basées sur la citation comme source sol de vérité, celles-ci peuvent être consommées plus tard si nécessaire.
 * Permet aux élèves de demander des scripts, des points de discussion et des résumés personnalisés en fonction de leurs besoins d’apprentissage individuels.
 * Recherche dans tous les formats de contenu pris en charge, notamment PDF, DOCX, PPTX, Audio, Vidéos et SCORM 1.2 &amp; 2004.
 
@@ -518,7 +633,7 @@ _Le lecteur Fluidic affiche désormais le bouton Suivant avec le titre du module
 
 Le retour d’informations L1 ne pouvait être configuré que dans des objets d’apprentissage individuels, ce qui limitait la flexibilité et empêchait les administrateurs d’utiliser différents formulaires dans le catalogue. Les administrateurs peuvent désormais créer et utiliser plusieurs formulaires de retour d’informations L1. Chaque formulaire de retour d’informations peut être affecté à des cours, des parcours d’apprentissage et des certifications spécifiques. Le formulaire prend désormais en charge plusieurs types de questions, notamment l’efficacité du cours, NPS, l’échelle de Likert et les questions de texte libre.
 
-Les formulaires de retour d’informations peuvent être traduits dans d’autres langues, tout en conservant la même structure de questions dans toutes les langues. Les rapports incluent désormais Nom du formulaire de retour d’informations et Version du formulaire de retour d’informations pour vous aider à identifier le formulaire capturé pour chaque réponse.
+Les formulaires de retour d’informations peuvent être translatés dans d’autres langues, tout en conservant la même structure de question pour toutes les langues. Les rapports incluent désormais Nom du formulaire de retour d’informations et Version du formulaire de retour d’informations pour vous aider à identifier le formulaire capturé pour chaque réponse.
 
 **Cas d’utilisation**
 
@@ -567,7 +682,7 @@ Si l’intention est d’envoyer des courriers électroniques aux élèves mais 
 
 Reportez-vous à cet [article](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level) pour plus d&#39;informations.
 
-## Contrôle de version du contenu amélioré pour les élèves qui ont terminé un cours
+## Amélioration de la gestion de versions du contenu pour les élèves qui ont terminé un cours
 
 ### Présentation
 
@@ -639,7 +754,7 @@ Reportez-vous à cet [article](/help/migrated/learners/feature-summary/fluidic-p
 
 * Correction d’un problème en raison duquel les élèves qui avaient terminé un cours voyaient un écran blanc lors de la consultation de celui-ci après la mise à jour du module de contenu vers une nouvelle version.
 
-En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+En outre, pour plus de détails sur les modifications à venir de Adobe Learning Manager, consultez cet [article](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -802,9 +917,9 @@ Plusieurs améliorations ont été apportées à l’expérience de formation di
 
 Les auteurs peuvent désormais sélectionner « Manager » et « Store Manager » en tant qu’observateur pour les listes de contrôle. Les responsables peuvent afficher et compléter les listes de contrôle dans l&#39;interface du responsable sans avoir à basculer vers un rôle d’instructeur. Une notification est envoyée à un responsable lorsqu&#39;une liste de contrôle lui est attribuée.
 
-**Utiliser n’importe quel appareil photo d’application/de smartphone pour numériser les codes QR de Learning Manager**
+**Utiliser n&#39;importe quelle application/Caméra de smartphone pour numériser les codes QR Learning Manager**
 
-Les élèves pourront désormais utiliser n&#39;importe quelle application de numérisation de codes QR ou l&#39;appareil photo de leur smartphone pour numériser les codes QR générés par Learning Manager afin d&#39;inscrire, d&#39;achever et plus encore les cours.
+Les élèves pourront désormais utiliser n&#39;importe quelle application de numérisation de codes QR ou leur caméra de smartphone pour numériser les codes QR générés par Learning Manager pour l&#39;inscription au cours, l&#39;achèvement et plus encore.
 
 **Améliorations des rapports**
 
@@ -932,7 +1047,7 @@ Dans l’application de l’élève, la recherche des utilisateurs et des groupe
 
 ### Modifications apportées à cette mise à jour
 
-Ajout de la prise en charge du code de langue à quatre lettres lors du filtrage des langues dans GET learningmanagerapi/v2/learningObjects.
+Ajout de la prise en charge des codes linguistiques à quatre lettres avec les langues filtrage dans GET learningmanagerapi/v2/learningObjects.
 
 ### Bogues Corrigés Dans Cette Mise À Jour
 
@@ -950,7 +1065,7 @@ Les métadonnées du cours sont écrasées lorsque le cours comporte plusieurs v
 
 Cette mise à jour comporte un nouveau rapport des assistances à la tâche qui répertorie toutes les assistances à la tâche du compte.
 
-**Contrôle de version**
+**Gestion de versions**
 
 Nous avons ajouté le contrôle de version pour les ressources en ajoutant des ressources lors de la création d’un cours.
 
@@ -993,9 +1108,9 @@ Vous pouvez désormais ajouter un prérequis dans quelques modèles de courrier 
 
 Une nouvelle colonne, **unenrollmentAllowed**, est ajoutée à course.xlsx. Téléchargez le fichier à partir de ce manuel.
 
-**Connecteur Linkedin Learning**
+**connecteur Linkedin Learning**
 
-Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learning. Les élèves peuvent se désinscrire sur la page Filtres. Pour plus d&#39;informations, voir [Connecteur LinkedIn Learning](/help/migrated/integration-admin/feature-summary/connectors.md).
+Une nouvelle case à cocher a été ajoutée pour le connecteur LinkedIn Learning. Les élèves peuvent se désinscrire sur la page Filtres. Pour plus d&#39;informations, voir [connecteur d&#39;apprentissage LinkedIn](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 ### Bogues Corrigés Dans Cette Mise À Jour
 
@@ -1685,7 +1800,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 * Le téléchargement des ressources d&#39;un cours ne fonctionnait pas s&#39;il était dupliqué à partir d&#39;un autre cours et que l&#39;élève n&#39;avait pas accès au cours original utilisé pour créer un double.
 * Les images de bannière ne sont pas supprimées lorsque l&#39;auteur les supprime d&#39;un cours à l&#39;état de brouillon. Ce problème a été résolu.
 
-**AEM &#x200B;**
+**AEM **
 
 * Après l&#39;insertion du composant Learning Manager dans AEM, le chargement de la page prenait beaucoup de temps, empêchant ainsi l&#39;accès aux autres composants. Ce problème a été résolu.
 
@@ -1768,7 +1883,7 @@ Pour plus d&#39;informations, voir Nouveautés de la [mise à jour de février 
 
 >[!NOTE]
 >
->Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.**&#x200B;**
+>Les filtres Durée **et Format** de la formation sont identifiés en fonction du contenu de formation disponible pour l&#39;instance par défaut et pour les paramètres régionaux préférés du compte.****
 
 +++
 
@@ -1889,7 +2004,7 @@ La notification push est désormais également prise en charge pour les annonces
 
 ### Retour d&#39;informations L1 obligatoire {#mandatoryl1feedback}
 
-Dans sa dernière version d’août 2020, Learning Manager permet aux administrateurs de configurer le retour d&#39;informations L1 afin que toutes les questions deviennent obligatoires. Cette option est désormais prise en charge du point de vue de l’élève dans l’application mobile.
+Dans sa dernière version d’août 2020, Learning Manager permet aux administrateurs de configurer le retour d&#39;informations L1 afin que toutes les questions deviennent obligatoires. Cette option est désormais prise en charge à partir de la perspective de l’élève dans l’application mobile.
 
 ### Améliorations de l’interface utilisateur {#userinterfaceenhancements}
 
@@ -2119,7 +2234,7 @@ Dans cette mise à jour, un élève peut charger des actifs comme justificatif d
 
 Un élève peut ouvrir un certificat externe et charger des actifs, tels que des fichiers PDF, texte ou image.
 
-Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Pour plus d&#39;informations, voir [***Charger des actifs dans un certificat externe***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### Problèmes résolus dans cette version {#issuesfixedinthisrelease}
 
@@ -2497,7 +2612,7 @@ Date de publication : 20 juin 2019
 
 **Auto-curation du contenu**
 
-L’apprentissage par les réseaux sociaux permet au contenu publié par les élèves d’être conservé de deux manières, à savoir **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. Sur la base du score de confiance, le contenu est publié en direct ou envoyé pour curation manuelle. Pour plus d&#39;informations, voir *[**&#x200B; Curation à assistance automatique &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+L’apprentissage par les réseaux sociaux permet au contenu publié par les élèves d’être conservé de deux manières, à savoir **Aucune curation** et **Curation manuelle**. Dans cette version, Adobe Learning Manager améliore l&#39;apprentissage par les réseaux sociaux en fournissant des fonctionnalités d&#39;auto-curation compatibles avec l&#39;IA. Une fois le contenu publié, celui-ci est analysé afin de déterminer s&#39;il appartient à la compétence pour laquelle il a été publié. Sur la base du score de confiance, le contenu est publié en direct ou envoyé pour curation manuelle. Pour plus d&#39;informations, voir *[** Curation à assistance automatique **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Mappage de compétences avec les domaines de compétence**
 
@@ -2875,7 +2990,7 @@ Avec cette amélioration, vous pouvez définir une plage temporelle après laque
 
 Les assistances à la tâche constituent du contenu de formation auquel un élève peut accéder sans s’inscrire à un objet d’apprentissage spécifique comme un cours ou un programme d’apprentissage. Grâce à cette amélioration, les administrateurs peuvent extraire et télécharger un rapport sur les assistances à la tâche. En tant qu&#39;administrateur, vous pouvez également générer un rapport de toutes les annonces que vous avez envoyées. Les administrateurs et les responsables peuvent également extraire un rapport des élèves qui ont été inscrits.
 
-**Connecteurs Learning Manager**
+**connecteurs Learning Manager**
 
 Vous pouvez désormais exporter des compétences d&#39;utilisateur vers un emplacement FTP à des fins d&#39;intégration avec un système tiers à l&#39;aide de l&#39;option Exportation de données. Vous pouvez spécifier le nom de la connexion pour votre intégration et choisir si vous voulez importer les utilisateurs internes, ou exporter des compétences d&#39;utilisateur en les configurant ou en les récupérant sur demande.
 
@@ -3123,7 +3238,7 @@ Date de publication : 6 décembre 2016.
 
 ### Amélioration {#enhancement}
 
-Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l&#x200B;**&#x200B;**&#x200B;aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
+Dans le cadre de cette mise à jour, Learning Manager fournit un point de terminaison <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> pour mettre à jour les utilisateurs dans une application. Vous pouvez accéder à ce point de terminaison de l&#39;API dans rôle d&#39;administrateur. À l****aide de ce point de terminaison, vous pouvez mettre à jour les informations suivantes sur les utilisateurs de Learning Manager :
 
 * Nom
 * Courrier électronique
@@ -3633,7 +3748,7 @@ L&#39;exportation des données d&#39;inscription échouait si l&#39;un des élè
 
 **Modèles de courrier électronique**
 
-* Le mot **partenaires**, utilisé pour représenter les groupes externes,**&#x200B;** est **&#x200B;**&#x200B;retiré du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
+* Le mot **partenaires**, utilisé pour représenter les groupes externes,**** est **** retiré du corps et du titre des modèles de courrier électronique. Les groupes externes ne sont pas nécessairement appelés des partenaires.\
   **Remarque :** ce modèle mis à jour n&#39;apparaît pas si le modèle par défaut a déjà été modifié. Pour afficher le modèle mis à jour, cliquez sur **Revenir à l&#39;original** dans la boîte de dialogue **Aperçu du modèle**.
 
 * Il est impossible de cliquer sur l&#39;URL dans le courrier électronique reçu par des administrateurs si les modèles de courriers électroniques **Profil créé (auto-enregistrement)** et **Profil créé (externe/partenaires)** ont été modifiés. Ce problème a été résolu.
