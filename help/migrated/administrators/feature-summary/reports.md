@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -1016,7 +1016,7 @@ La feuille exportée de rapports de tableau de bord fournit des informations dé
    *Axes pour les rapports*
 
 1. Choisissez la plage/les critères secondaires de **[!UICONTROL l’axe Y]** pour votre rapport parmi les options de la liste déroulante. Par exemple, pour une option d’inscription de programme d’apprentissage, choisissez un ou plusieurs états dans la liste déroulante États. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
-1. Choisissez les critères d’axe X&#x200B;**&#x200B;** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
+1. Choisissez les critères d’axe X**** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
 1. Dans la section Intervalle de temps, choisissez l’option appropriée dans la liste déroulante. Les options disponibles sont :
 
    * 30 derniers jours
@@ -1249,7 +1249,7 @@ Le rapport couvre les modifications apportées à :
 
 Le rapport est cumulatif uniquement : de nouveaux enregistrements de modification sont ajoutés au fil du temps et les entrées précédemment enregistrées ne sont jamais supprimées. Cela vous permet de passer en revue l’historique complet d’un paramètre sur plusieurs modifications, et pas seulement sa valeur actuelle.
 
-Le rapport est disponible pour tout utilisateur disposant de privilèges de rapport, y compris les administrateurs complets et les administrateurs personnalisés qui ont obtenu l’accès au rapport, et pas seulement les propriétaires de compte.
+Le rapport est disponible pour tout utilisateur disposant de privilèges de rapport. Cela inclut les administrateurs complets et les administrateurs personnalisés qui ont reçu un accès aux rapports, et pas seulement les propriétaires de comptes.
 
 ### Enregistrements et modifications {#recordschanges}
 
