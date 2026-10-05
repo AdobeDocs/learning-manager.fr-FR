@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Notes de mise à jour de Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Notes de mise à jour de Adobe Learning Manager
@@ -32,6 +32,15 @@ ht-degree: 63%
 
 **Partage de places :** le partage de places permet à un compte de partager une partie de ses places sous licence avec un autre compte, ce qui permet aux élèves du compte destinataire d’accéder à Adobe Learning Manager à l’aide des places partagées. Le partage de places est disponible uniquement pour les comptes Ultimate ; les comptes Prime ne peuvent ni partager ni recevoir de places et les comptes facturés par carte de crédit figurent par défaut sur la formule Prime. Les comptes d’évaluation sont une exception et peuvent recevoir des places partagées d’un compte Ultimate. Pendant une relation de partage de licences active, le compte d’évaluation reçoit un accès aux fonctionnalités de niveau Ultimate. [En savoir plus](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
 
+**Améliorations de l’agent de parcours d’apprentissage :** l’agent de parcours d’apprentissage offre désormais plus de flexibilité pour créer et affiner des parcours d’apprentissage personnalisés avant de les enregistrer.
+
+* **Créer d’autres parcours d’apprentissage :** les élèves peuvent désormais créer jusqu’à 20 parcours d’apprentissage, ce qui représente une augmentation par rapport à la limite précédente de 10.
+* **Affiner un parcours avant d&#39;enregistrer :** les élèves peuvent demander à l&#39;agent en langue naturelle d&#39;ajouter, de supprimer ou de remplacer des cours avant d&#39;enregistrer un parcours d&#39;apprentissage. L’agent met uniquement à jour le cours demandé tout en conservant le reste du parcours inchangé, ce qui permet aux élèves de continuer à affiner le parcours jusqu’à ce qu’il réponde à leurs besoins.
+* **Gestion améliorée des parcours d’apprentissage complets :** un parcours d’apprentissage peut contenir jusqu’à cinq cours. Si un élève demande à ajouter un autre cours à un chemin complet, l’agent l’invite à choisir un cours existant à remplacer.
+* **Conseils plus intelligents pour les modifications de cours :** si la demande d’un élève n’est pas claire, l’agent demande des éclaircissements avant de modifier le chemin. Si un cours de remplacement approprié n&#39;est pas disponible, l&#39;agent explique la limitation et recommande l&#39;alternative la plus proche.
+
+[En savoir plus](/help/migrated/learners/feature-summary/learning-path-agent.md).
+
 **Rapport de piste d&#39;audit de l&#39;administrateur :** Le rapport de piste d&#39;audit de l&#39;administrateur vous fournit un enregistrement historique des modifications de configuration afin que vous puissiez déterminer :
 
 * Qui a apporté la modification ?
@@ -44,69 +53,6 @@ Le rapport couvre les modifications apportées à :
 * Basics
 * Advanced
 * Intégrations
-
-Pour afficher la liste complète des paramètres et leurs détails sous chaque catégorie, vous pouvez sélectionner le lien **Télécharger la liste des paramètres** dans la fenêtre contextuelle Piste d&#39;audit de l&#39;administrateur qui apparaît avant de générer le rapport.
-
-Voici les options disponibles pour chaque catégorie :
-
-Basics
-
-* Basic Info
-* Modération de cours
-* Forum de discussion
-* Tentatives multiples
-* Visibilité des compétences, balises, produits et rôles
-* ID d’objet d’apprentissage uniques → activer
-* Affichage des panneaux de filtrage
-* Vue par défaut (rôle Élève) → Vue Liste
-* Gestion de l’instructeur
-* Aperçu du module
-* Activer la tarification pour les cours/parcours d’apprentissage/certifications
-* Activer Multi Item SKU Cart
-* Paramètres du lecteur
-* Les responsables peuvent marquer la formation comme étant terminée
-* Enregistrement automatique des utilisateurs
-* Supprimer automatiquement les utilisateurs internes (s’ils n’accèdent pas au système pendant (nombre configurable) jours)
-* Afficher les étiquettes de catalogue
-* Type de conformité personnalisé
-* Les élèves peuvent consulter leurs scores
-* E-mail de résumé
-* Activer Les Icônes De Cours/Parcours D’Apprentissage/Certification/Fiche D’Assistance À La Tâche
-* Liens du pied de page
-* Fuseau horaire du rapport
-* Intégration de Badgr
-* Afficher les évaluations
-* Fenêtre contextuelle Afficher l’évaluation par étoiles dans le Lecteur
-* Terminologie du produit
-* Mise à jour de la version du module
-* Retrait (cours, parcours d’apprentissage ou certification)
-* Retrait automatique (cours, parcours d’apprentissage ou certification)
-* Afficher tous les cours inscrits dans les résultats de recherche
-* Importation des compétences
-* Gradebook (visibilité de l’élève)
-* Purge automatique des utilisateurs supprimés
-* Crédits
-* Autres cours/parcours
-* Apprentissage externe
-
-Intégrations
-
-* Méthodes de connexion (internes et externes)
-* Configuration de l’authentification unique (SSO)
-* Sources de données — (Sources + Paramètres de synchronisation)
-* Ajouter des informations d’homologue
-
-Advanced
-
-* Libellés de catalogue → tous les libellés de catalogue
-* Étiquettes de catalogue → Paramètres (accès par valeur)
-* Dossier de contenu
-* Liste et éditeur des emplacements → salle de classe
-* Emplacements de salle de classe → droits d’auteur (paramètres)
-* Emplacements de salle de classe → Importation en bloc
-* Emplacements de salle de classe → migration du format d’emplacement
-* Calendrier des vacances
-* Rapports — Paramètres (tableaux de bord Conformité et réussite du groupe)
 
 Ce rapport peut également être généré par l’API de tâche. Voir [Rapport de journal d&#39;audit de l&#39;administrateur](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) et [API de tâche pour le rapport de journal d&#39;audit de l&#39;administrateur](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
 
