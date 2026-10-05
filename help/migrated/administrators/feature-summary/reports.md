@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '8793'
-ht-degree: 55%
+source-wordcount: '9042'
+ht-degree: 54%
 ---
 # Rapports {#reports}
 
@@ -1016,7 +1016,7 @@ La feuille exportée de rapports de tableau de bord fournit des informations dé
    *Axes pour les rapports*
 
 1. Choisissez la plage/les critères secondaires de **[!UICONTROL l’axe Y]** pour votre rapport parmi les options de la liste déroulante. Par exemple, pour une option d’inscription de programme d’apprentissage, choisissez un ou plusieurs états dans la liste déroulante États. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
-1. Choisissez les critères d’axe X&#x200B;**&#x200B;** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
+1. Choisissez les critères d’axe X**** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
 1. Dans la section Intervalle de temps, choisissez l’option appropriée dans la liste déroulante. Les options disponibles sont :
 
    * 30 derniers jours
@@ -1246,6 +1246,69 @@ Le rapport couvre les modifications apportées à :
 - Paramètres **de base**
 - Paramètres **avancés**
 - Paramètres des **intégrations**
+
+Pour afficher la liste complète des paramètres et leurs détails sous chaque catégorie, vous pouvez sélectionner le lien **Télécharger la liste des paramètres** dans la fenêtre contextuelle Piste d&#39;audit de l&#39;administrateur qui apparaît avant de générer le rapport.
+
+Voici les options disponibles pour chaque catégorie :
+
+**Notions de base**
+
+* Basic Info
+* Modération de cours
+* Forum de discussion
+* Tentatives multiples
+* Visibilité des compétences, balises, produits et rôles
+* ID d’objet d’apprentissage uniques → activer
+* Affichage des panneaux de filtrage
+* Vue par défaut (rôle Élève) → Vue Liste
+* Gestion de l’instructeur
+* Aperçu du module
+* Activer la tarification pour les cours/parcours d’apprentissage/certifications
+* Activer Multi Item SKU Cart
+* Paramètres du lecteur
+* Les responsables peuvent marquer la formation comme étant terminée
+* Enregistrement automatique des utilisateurs
+* Supprimer automatiquement les utilisateurs internes (s’ils n’accèdent pas au système pendant (nombre configurable) jours)
+* Afficher les étiquettes de catalogue
+* Type de conformité personnalisé
+* Les élèves peuvent consulter leurs scores
+* E-mail de résumé
+* Activer Les Icônes De Cours/Parcours D’Apprentissage/Certification/Fiche D’Assistance À La Tâche
+* Liens du pied de page
+* Fuseau horaire du rapport
+* Intégration de Badgr
+* Afficher les évaluations
+* Fenêtre contextuelle Afficher l’évaluation par étoiles dans le Lecteur
+* Terminologie du produit
+* Mise à jour de la version du module
+* Retrait (cours, parcours d’apprentissage ou certification)
+* Retrait automatique (cours, parcours d’apprentissage ou certification)
+* Afficher tous les cours inscrits dans les résultats de recherche
+* Importation des compétences
+* Gradebook (visibilité de l’élève)
+* Purge automatique des utilisateurs supprimés
+* Crédits
+* Autres cours/parcours
+* Apprentissage externe
+
+**Intégrations**
+
+* Méthodes de connexion (internes et externes)
+* Configuration de l’authentification unique (SSO)
+* Sources de données — (Sources + Paramètres de synchronisation)
+* Ajouter des informations d’homologue
+
+**Avancé**
+
+* Libellés de catalogue → tous les libellés de catalogue
+* Étiquettes de catalogue → Paramètres (accès par valeur)
+* Dossier de contenu
+* Liste et éditeur des emplacements → salle de classe
+* Emplacements de salle de classe → droits d’auteur (paramètres)
+* Emplacements de salle de classe → Importation en bloc
+* Emplacements de salle de classe → migration du format d’emplacement
+* Calendrier des vacances
+* Rapports — Paramètres (tableaux de bord Conformité et réussite du groupe)
 
 Le rapport est cumulatif uniquement : de nouveaux enregistrements de modification sont ajoutés au fil du temps et les entrées précédemment enregistrées ne sont jamais supprimées. Cela vous permet de passer en revue l’historique complet d’un paramètre sur plusieurs modifications, et pas seulement sa valeur actuelle.
 
