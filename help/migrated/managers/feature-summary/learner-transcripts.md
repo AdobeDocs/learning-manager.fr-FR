@@ -5,12 +5,10 @@ title: Relevés de notes de l'élève
 exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 85%
-
+source-wordcount: '920'
+ht-degree: 91%
 ---
-
-# Relevés de notes de l&#39;élève
+# Relevés de notes des élèves
 
 Découvrez comment télécharger le relevé de notes d’un élève en fonction des utilisateurs, des objets d’apprentissage ou des compétences dans Learning Manager.
 
@@ -26,7 +24,7 @@ Adobe Learning Manager permet aux responsables d&#39;une organisation de gén�
 
    *Créer des rapports pour les relevés de notes des élèves*
 
-1. Une boîte de dialogue concernant les relevés de notes des stagiaires s&#39;affiche. Sélectionnez la plage de dates pour laquelle vous souhaitez générer le relevé de notes.
+1. Une boîte de dialogue concernant les relevés de notes des stagiaires s’affiche. Sélectionnez la plage de dates pour laquelle vous souhaitez générer le relevé de notes.
 
    >[!NOTE]
    >
@@ -36,11 +34,11 @@ Adobe Learning Manager permet aux responsables d&#39;une organisation de gén�
 
 Vous pouvez sélectionner un élève ou un groupe d’élèves. Cliquez Ajouter des élèves pour en ajouter davantage.
 
-Les relevés de notes sont générés et téléchargés sur votre ordinateur en tant que fichiers .xls standard. Chaque fichier .xls excel comporte sept feuilles, dont les détails sont mentionnés ci-dessous :
+Les relevés de notes sont générés et téléchargés sur votre ordinateur en tant que fichiers .xls standard. Chaque fichier Excel (.xls) contient sept feuilles, dont les détails sont indiqués ci-dessous :
 
 ## Télécharger le relevé de notes de l’élève en fonction du fuseau horaire {#lt-timezone}
 
-Comme un administrateur, un responsable peut également choisir les colonnes à exporter. En outre, un responsable peut télécharger le relevé de notes de l’élève en fonction du fuseau horaire qu’il a sélectionné dans les paramètres du profil.
+Comme un administrateur, un responsable peut également choisir les colonnes à exporter. En outre, un responsable peut télécharger le relevé de notes de l’élève en fonction du fuseau horaire qu&#39;il a sélectionné dans les paramètres du profil.
 
 Si le responsable active cette option, le fuseau horaire est sélectionné à partir de celui défini dans la page des paramètres du profil, comme indiqué ci-dessous.
 
@@ -60,7 +58,7 @@ Un fichier typique de relevé de notes de l’élève se compose de six feuilles
 
 Dans la feuille Excel du relevé de notes de l’élève se trouvent des détails d’utilisation des objets d’apprentissage, comme sa date d’inscription, sa date de début, sa note obtenue, son score au quiz etc., en plus des informations relatives au profil de l’élève. Si des cours font partie d’un programme d’apprentissage, ils sont répertoriés séparément des détails de suivi des cours individuels.
 
-**1- Tableau de bord Activité d’apprentissage**
+**1 - Tableau de bord Activité d&#39;apprentissage**
 
 Dans ce tableau de bord spécifique aux objets d’apprentissage, vous pouvez afficher le nombre d’élèves inscrits à chaque cours, programme d’apprentissage ou certification. Vous pouvez afficher la fiche de progression des élèves suivant un objet d’apprentissage en particulier. Cette fiche présente des données telles que le nombre d’élèves ayant terminé le cours ou le programme d’apprentissage, les élèves en cours d’apprentissage et les échéances des élèves.
 

@@ -6,11 +6,9 @@ contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
 source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 65%
-
+source-wordcount: '2277'
+ht-degree: 67%
 ---
-
 # Package de site de référence Adobe Learning Manager (site de référence ALM) pour AEM Sites.
 
 Adobe Learning Manager (ALM) s’intègre aux sites Adobe Experience Manager (AEM). Cela vous permet de créer votre propre site web et des interfaces mobiles réactives pour Adobe Learning Manager avec un minimum d’effort de codage. Grâce à cette intégration, vous pouvez créer des expériences d&#39;apprentissage personnalisées pour vos utilisateurs.
@@ -90,7 +88,7 @@ Pour approuver l’application, cliquez sur **[!UICONTROL Approuver]**.
 ## Configuration d’un compte ALM dans AEM
 
 1. Lancez votre instance AEM.
-1. Cliquez sur Paramètres > Cloud Service.
+1. Cliquez sur Paramètres > Cloud Services.
 1. Cliquez sur Configuration de Adobe Learning Manager.
 
    ![](assets/alm-configuration.png)
@@ -214,7 +212,7 @@ Le package du site de référence ALM fournit un « Plan du site d’apprentissa
 
 1. Cliquez sur Suivant.
 
-1. Sur la page des propriétés, saisissez les métadonnées de la page. Cliquez sur Créer.
+1. Sur la page des propriétés, saisissez les métadonnées de page. Cliquez sur Créer.
 
    ![](assets/blueprint-properties.png)
    *Sélectionner le plan du site d&#39;apprentissage*
@@ -227,7 +225,7 @@ En plus d’utiliser les modèles intégrés et de créer votre site Web à part
 
 Le code se trouve dans le [Référentiel GitHub du site de référence](https://github.com/adobe/adobe-learning-manager-reference-site) pour que vous puissiez commencer.
 
-Les principales parties du modèle sont les suivantes :
+Les principales parties du modèle sont les suivantes :
 
 * core : offre groupée Java contenant toutes les fonctionnalités de base telles que les services OSGi, les écouteurs ou les planificateurs, ainsi que le code Java associé aux composants tels que les servlets ou les filtres de requête.
 * ui.apps : contient les parties /apps (et /etc) du projet, c&#39;est-à-dire les clients JS&amp;CSS, les composants et les modèles.

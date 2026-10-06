@@ -6,18 +6,16 @@ contentowner: manochan
 exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 72%
-
+source-wordcount: '261'
+ht-degree: 89%
 ---
-
 # Utilisateurs de tablettes Android et iPad
 
 Dans l&#39;application Learning Manager sur tablette iPad ou Android, une fois connecté en tant qu&#39;élève, l&#39;écran d&#39;**accueil** suivant s&#39;affiche :
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
+Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur la flèche déroulante **Menu**, puis choisissez l’option appropriée.
 
 ![](assets/menu-ipad.png)
 
@@ -25,7 +23,7 @@ Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez 
 
 Vous pouvez accéder à l’application Learning Manager hors ligne sur les tablettes Android et iPad. Téléchargez et prenez les cours en mode hors ligne, et synchronisez ensuite le contenu avec l’application en ligne quand vous connectez au réseau.
 
-1. Appuyez sur la liste déroulante Menu en haut de l’écran, puis sur l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
+1. Appuyez sur la flèche déroulante Menu en haut de l’écran, puis sélectionnez l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
 1. Appuyez sur l’icône de téléchargement au bas de chaque vignette d’objet de formation pour télécharger le contenu d’apprentissage.
 
 ![](assets/download-ipad.png)
@@ -36,7 +34,7 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
 
 Vous pouvez surveiller votre espace de stockage régulièrement.
 
-Appuyez sur l&#39;icône de profil dans le coin supérieur droit de l&#39;application et appuyez sur l&#39;option de menu **Stockage sur l&#39;appareil**.
+Appuyez sur l’icône de profil dans l’angle supérieur droit de l’application et appuyez sur l’option de menu **Stockage sur le périphérique**.
 
 ![](assets/app-device-storage.png)
 

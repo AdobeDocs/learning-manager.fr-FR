@@ -5,11 +5,9 @@ title: Prise en main en tant qu’élève
 contentowner: manochan
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 78%
-
+source-wordcount: '735'
+ht-degree: 94%
 ---
-
 
 
 # Prise en main en tant qu’élève
@@ -26,7 +24,7 @@ Après vous être connecté en tant qu’élève, vous pouvez voir les widgets s
 
 **Mes compétences** : vous pouvez également voir une carte des compétences en haut à droite de la page. Reportez-vous à la fonctionnalité [table des compétences](skills-levels.md) pour plus d&#39;informations.
 
-**Widget Objet d’apprentissage** : il se situe juste au-dessous de Mon apprentissage et affiche les objets d’apprentissage de l’utilisateur. Sous Mon apprentissage, vous pouvez afficher tous les [cours](courses.md), [programmes d&#39;apprentissage](learning-programs.md) et [certifications](certifications.md) que vous inscrivez ou qui vous sont attribués. Vous pouvez directement commencer à utiliser ou revisiter un objet d’apprentissage à partir de ce widget.
+**Widget Objet d’apprentissage** : il se situe juste au-dessous de Mon apprentissage et affiche les objets d’apprentissage de l’utilisateur. Au-dessous de Mon apprentissage, vous pouvez afficher tous les [cours](courses.md), [programmes d’apprentissage](learning-programs.md) et [certifications](certifications.md) auxquels vous êtes inscrit ou qui vous ont été attribués. Vous pouvez directement commencer à utiliser ou revisiter un objet d’apprentissage à partir de ce widget.
 
 **Calendrier d’apprentissage** : ce widget affiche la liste des apprentissages à venir et planifiés dans votre organisation pour chaque trimestre. L’état d’inscription indique Inscrit si vous êtes inscrit à un cours en particulier.
 
@@ -42,17 +40,17 @@ Si vous accédez à Learning Manager depuis un iPad ou une tablette Android, co
 
 La chronologie de l’apprentissage indique le planning de l’élève avec les cours qu’il doit suivre. Dans cette section, vous pouvez voir les alertes pour tous vos cours, certifications et programmes d’apprentissage dans l’ordre croissant des échéances. Les échéances pour chacune de vos activités d&#39;apprentissage sont affichées dans le volet de gauche.
 
-Cliquez sur chaque élément de formation dans le volet de gauche pour afficher les informations correspondantes sous forme de carte du cours sur le volet de droite. Vous pouvez cliquer sur la vignette cours/programme d’apprentissage/certification pour afficher les informations complètes de chaque objet d’apprentissage.
+Cliquez sur chaque élément de formation dans le volet de gauche pour afficher les informations correspondantes sous forme de carte du cours sur le volet de droite. Vous pouvez cliquer sur la vignette de cours/programme d’apprentissage/certification pour afficher l’ensemble des informations sur chaque objet de formation.
 
 Placez le pointeur de la souris sur la zone de la chronologie pour afficher la barre de défilement sur le côté droit. Utilisez la barre de défilement pour vous déplacer vers le haut ou vers le bas et afficher plus d’alertes.
 
 ## Utilisateurs de l’application pour iPad et Android {#ipadandandroidappusers}
 
-Dans l’application Learning Manager sur tablette iPad ou Android, une fois que vous vous êtes connecté en tant qu’élève, les informations de l’onglet Accueil s’affichent comme suit :
+Dans l’application sur iPad ou tablette Android de Learning Manager, une fois connecté en tant qu’élève, vous pouvez afficher les informations dans l’onglet Accueil comme suit :
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez sur la liste déroulante **Menu** et choisissez l&#39;option appropriée.
+Pour accéder aux fonctions d’apprentissage et de catalogue, appuyez sur la flèche déroulante **Menu**, puis choisissez l’option appropriée.
 
 ![](assets/menu-ipad.png)
 
@@ -60,7 +58,7 @@ Pour accéder aux fonctionnalités d&#39;apprentissage et de catalogue, appuyez 
 
 Vous pouvez accéder à l’application Learning Manager hors ligne sur les tablettes Android et iPad. Téléchargez et prenez les cours en mode hors ligne, et synchronisez ensuite le contenu avec l’application en ligne quand vous connectez au réseau.
 
-1. Appuyez sur la liste déroulante Menu en haut de l’écran, puis sur l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
+1. Appuyez sur la flèche déroulante Menu en haut de l’écran, puis sélectionnez l’option Apprentissage. Une liste de tous les cours disponibles s’affiche sous la forme de vignettes.
 1. Appuyez sur l’icône de téléchargement au bas de chaque vignette d’objet de formation pour télécharger le contenu d’apprentissage.
 
    ![](assets/download-ipad.png)
@@ -70,7 +68,7 @@ Vous pouvez accéder à l’application Learning Manager hors ligne sur les tab
 **Suivi de l’espace de stockage de votre périphérique**
 
 Vous pouvez surveiller votre espace de stockage régulièrement.\
-Appuyez sur l&#39;icône de profil dans le coin supérieur droit de l&#39;application et appuyez sur l&#39;option de menu **Stockage sur l&#39;appareil**.
+Appuyez sur l’icône de profil dans l’angle supérieur droit de l’application et appuyez sur l’option de menu **Stockage sur le périphérique**.
 
 ![](assets/device-storage-option-ipad.png)
 
