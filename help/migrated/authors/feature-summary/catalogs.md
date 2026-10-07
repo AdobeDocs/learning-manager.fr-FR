@@ -8,9 +8,7 @@ source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 88%
-
 ---
-
 # Les catalogues
 
 Les catalogues dans Learning Manager regroupent les cours, programmes d’apprentissage et certifications pour le rôle d’élève dans le compte Learning Manager.

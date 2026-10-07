@@ -1,14 +1,12 @@
 ---
 title: Extensibilité native
-description: Configurez des expériences personnalisées dans la version native de Adobe Learning Manager, ce qui vous permet de ne pas utiliser l’interface sans en-tête pour les cas moins complexes.
+description: Configurez des expériences personnalisées dans la version native d’Adobe Learning Manager, ce qui permet de ne pas utiliser l’approche headless pour les cas moins complexes.
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 48%
-
+source-wordcount: '760'
+ht-degree: 51%
 ---
-
 # Extensibilité native
 
 Vous pouvez configurer des expériences personnalisées dans la version native d’Adobe Learning Manager, ce qui vous permet de ne pas utiliser d’approche headless pour les cas moins complexes. Vous pouvez également créer des applications personnalisées et les placer à différents points de la version native des flux de travail de l’élève, du responsable, de l’administrateur, de l’auteur ou de l’instructeur.
@@ -25,7 +23,7 @@ Adobe Learning Manager prend en charge 15 points d’invocation dans l’applic
 
    Pour cet exemple, sélectionnez **[!UICONTROL Administrateur]**, **[!UICONTROL Auteur : cours]**, **[!UICONTROL Parcours d’apprentissage]** - **[!UICONTROL Instances]** - **[!UICONTROL Ligne d’instance]**.
 
-   ![image d&#39;extension](assets/list-native-extensions.png)
+   ![image d’extension](assets/list-native-extensions.png)
    *Sélectionner le point d&#39;appel*
 
 1. Saisissez l&#39;étiquette d&#39;extension qui apparaîtra sur l&#39;interface utilisateur dans le champ **[!UICONTROL Étiquette d&#39;extension]**.
@@ -58,7 +56,7 @@ Adobe Learning Manager prend en charge 15 points d’invocation dans l’applic
 1. Sélectionnez **[!UICONTROL Instances]** dans le panneau de gauche.
 1. Sélectionnez **[!UICONTROL Plus]** dans la section Instances. L’extension s’affiche dans la section Instances.
 
-   ![image d&#39;instances](assets/instances-extension.png)
+   ![image d’instances](assets/instances-extension.png)
    *Sélectionner l&#39;extension*
 
    Lorsque vous sélectionnez l’extension, celle-ci apparaît dans la fenêtre modale.
@@ -70,7 +68,7 @@ Adobe Learning Manager prend en charge 15 points d’invocation dans l’applic
 1. Sélectionnez **[!UICONTROL Instances]** dans le panneau de gauche.
 1. Sélectionnez **[!UICONTROL Plus]** dans la section Instances. L’extension s’affiche dans la section Instances.
 
-   ![image d&#39;instances](assets/instances-extension.png)
+   ![image d’instances](assets/instances-extension.png)
    *Accéder à l&#39;extension en tant qu&#39;auteur*
 
    Lorsque vous sélectionnez l’extension, celle-ci apparaît dans la fenêtre modale.
@@ -86,7 +84,7 @@ En tant qu’administrateur, vous pouvez afficher toutes les extensions sur la p
 
 En tant qu’auteur, sur la page Paramètres d’un cours, vous pouvez activer ou désactiver une extension pour un cours, une certification ou un parcours d’apprentissage.
 
-![activer l&#39;image d&#39;extension](assets/activate-extension.png)
+![activer l’image de l’extension](assets/activate-extension.png)
 *Activer une extension*
 
 ## Partage d’une clé d’accès
@@ -99,7 +97,7 @@ La clé d’accès doit être partagée pour l’inscription au cours ou au parc
 
 Dans l’onglet Paramètres, générez la clé.
 
-![partager l&#39;image clé](assets/share-extension.png)
+![partager l’image clé](assets/share-extension.png)
 *Partager la clé d&#39;accès*
 
 ## Téléchargement du rapport d’extension
@@ -110,7 +108,7 @@ Il existe deux façons de télécharger ce rapport.
 
 1. Dans la page Extensions natives, sélectionnez **[!UICONTROL Rapport de configuration de l’extension]**.
 
-   ![signaler l&#39;image](assets/extension-config-report.png)
+   ![signaler l’image](assets/extension-config-report.png)
    *Télécharger le rapport d&#39;extension*
 
    Le rapport est généré.
@@ -124,7 +122,7 @@ Il existe deux façons de télécharger ce rapport.
 
    * Nom de l’extension
    * Point d’invocation
-   * Étiquette
+   * Libellé
    * Ouvrir dans l’URL
    * Portée
    * Activation
@@ -137,7 +135,7 @@ Il existe deux façons de télécharger ce rapport.
 
 1. Dans **[!UICONTROL Rapports]** > **[!UICONTROL Rapports personnalisés]**, sélectionnez **[!UICONTROL Rapport de configuration d&#39;extension]**.
 
-   ![image de page des rapports](assets/extension-report-page.png)
+   ![image de la page rapports](assets/extension-report-page.png)
    *Téléchargez le rapport à partir de la page Rapports*
 
 L&#39;état doit être compris entre **0 et 4294967295** lors de la configuration de l&#39;état d&#39;inscription.
