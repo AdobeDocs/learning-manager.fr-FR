@@ -1,13 +1,14 @@
 ---
 title: Partagez votre écran en tant qu’instructeur dans Live Hub
 description: Découvrez comment les instructeurs partagent leur écran, utilisent le mode Fractionner, annotent le contenu partagé et permettent aux élèves de partager leur écran lors d’une session Live Hub.
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
-
 ---
-
 
 # Partager votre écran en tant qu’instructeur
 
@@ -113,7 +114,7 @@ Pour basculer entre le tableau blanc et l’écran partagé :
 
 Vous pouvez annoter du contenu partagé au cours d’une session pour mettre en évidence des informations importantes, expliquer des concepts ou guider visuellement les élèves. Les annotations sont appliquées à un instantané de l’écran partagé. Ils sont conçus pour des explications en temps réel et offrent une expérience ciblée et sans distraction.
 
-Lors du partage de votre écran, sélectionnez l’icône d’annotation (stylet) dans le coin supérieur droit de l’interface de partage d’écran. Les outils d’annotation apparaissent automatiquement dans l’interface de partage d’écran.
+Lors du partage de votre écran, sélectionnez l’icône d’annotation (en stylet) dans le coin supérieur droit de l’interface de partage d’écran. Les outils d’annotation apparaissent automatiquement dans l’interface de partage d’écran.
 
 ### Utilisation des outils d’annotation
 

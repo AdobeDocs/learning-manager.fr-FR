@@ -3,13 +3,14 @@ jcr-language: en_us
 title: xAPI dans le gestionnaire de formation
 description: L’API Expérience (xAPI) est une spécification de logiciel d’apprentissage en ligne qui permet aux contenus d’apprentissage et aux systèmes d’apprentissage de communiquer de sorte à enregistrer et suivre tous les types d’expériences d’apprentissage.
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 79%
-
 ---
-
 # xAPI dans Learning Manager
 
 ## Qu’est-ce que xAPI ? {#whatisxapi}
@@ -85,7 +86,7 @@ En tant qu’auteur, vous pouvez maintenant choisir le module xAPI tout en créa
 
 **Remarques :**
 
-* Learning Manager prend uniquement en charge mbox en tant qu’identifiant actuellement. Les autres identificateurs, notamment mboz_sha1, openid et account, ne sont pas pris en charge.
+* Learning Manager prend uniquement en charge mbox en tant qu’identifiant actuellement. Les autres identifiants, notamment mboz_sha1, openid et account, ne sont pas pris en charge.
 
 * stateId et profileId sont des UUID lorsqu’ils sont utilisés avec Learning Manager.
 * La demande du PUT ne remplace pas le document pour les xAPI agents/profil, activité/profil et activité/état

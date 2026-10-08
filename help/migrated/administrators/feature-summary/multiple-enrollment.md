@@ -2,13 +2,14 @@
 title: Inscription multiple dans Adobe Learning Manager
 description: En tant qu’administrateur du compte, l’une de vos principales tâches consiste à créer différentes instances de sessions VILT dans différents fuseaux horaires, voire des sessions destinées à des groupes d’utilisateurs spécifiques.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 63%
-
+source-wordcount: '624'
+ht-degree: 70%
 ---
-
 # Inscription multiple dans Adobe Learning Manager
 
 Dans Adobe Learning Manager, chaque cours peut présenter différentes instances. En tant qu’administrateur du compte, l’une de vos principales tâches consiste à créer différentes instances de sessions VILT dans différents fuseaux horaires, voire des sessions destinées à des groupes d’utilisateurs spécifiques.
@@ -27,9 +28,9 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Qu’est-ce que l’inscription multiple ?
 
-La fonctionnalité d’inscription multiple inscrit un élève plusieurs fois à un cours via différentes instances disponibles.  Un élève peut s’inscrire à plusieurs instances de cours, quel que soit son état d’inscription, de fin ou de démarrage. Lorsque l’auteur active l’option [!UICONTROL Inscription multiple], un élève peut s’inscrire à plusieurs instances du cours.
+La fonctionnalité d’inscription multiple inscrit un élève plusieurs fois à un cours via différentes instances disponibles.  Un élève peut s’inscrire à plusieurs instances de cours, quel que soit l’état : inscrit, terminé ou pas encore commencé. Lorsque l’auteur active l’option [!UICONTROL Inscription multiple], un élève peut s’inscrire à plusieurs instances du cours.
 
-![image à inscriptions multiples](assets/multi-enrollment-author.png)
+![image de multi-inscription](assets/multi-enrollment-author.png)
 *Lancer l&#39;inscription multiple à partir des paramètres*
 
 Il est possible d’effectuer le suivi de la progression de chaque instance et d’exporter un rapport de suivi de la progression de chaque instance.
@@ -43,11 +44,11 @@ Il est possible d’effectuer le suivi de la progression de chaque instance et d
 
 ## Procédure pour activer l’inscription multiple
 
-1. Connectez-vous à votre compte Adobe Learning Manager en tant qu’auteur.
-1. Sélectionnez le cours auquel vous souhaitez que les élèves s’inscrivent plusieurs fois.
+1. Connectez-vous à votre compte Adobe Learning Manager en tant qu’auteur.
+1. Sélectionnez le cours auquel les élèves doivent s’inscrire plusieurs fois.
 1. Dans le panneau de gauche, sélectionnez **[!UICONTROL Paramètres]** > **[!UICONTROL Modifier]** > **[!UICONTROL Configuration de l&#39;instance]** > **[!UICONTROL Activer l&#39;inscription multiple]**.
 
-![image à inscriptions multiples](assets/multi-enrollment-author.png)
+![image de multi-inscription](assets/multi-enrollment-author.png)
 *Activer l&#39;inscription multiple*
 
 >[!NOTE]
@@ -65,7 +66,7 @@ Si les élèves ne se sont pas inscrits, l’écran sous le cours affiche plusie
 
 Après l’inscription dans une instance, ils peuvent s’inscrire dans d’autres instances en sélectionnant l’option Afficher toutes les instances dans le volet de droite.
 
-![image du cours à inscriptions multiples](assets/enroll-instance.png)
+![image de cours à inscriptions multiples](assets/enroll-instance.png)
 *S&#39;inscrire à une instance*
 
 Il est possible d’effectuer le suivi de la progression de chaque instance comme suit :

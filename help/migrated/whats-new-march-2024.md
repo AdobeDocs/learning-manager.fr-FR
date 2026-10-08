@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # Résumé des nouvelles fonctionnalités {#new-features-summary}
 
 Découvrez les nouvelles fonctionnalités et les améliorations de la version de mars 2024 de Adobe Learning Manager.
@@ -31,7 +32,7 @@ Explorez quelques-unes des dernières fonctionnalités de Adobe Learning Manager
 
 ### Importation de compétences à partir de sources externes
 
-Importez des compétences à partir de fournisseurs de contenu, tels que LinkedIn et Go1, à l’aide des connecteurs respectifs. Cette amélioration fait partie de l&#39;objectif visant à renforcer la capacité de Learning Manager à s&#39;intégrer à des systèmes externes de gestion des compétences et des nuages. Les compétences importées seront ajoutées aux compétences définies par l’administrateur dans Learning Manager et seront disponibles pour les auteurs pendant le processus de création du cours. Des améliorations ont également été apportées à la fonctionnalité de recherche de compétences sur toute la plateforme afin de fournir une meilleure expérience de recherche lorsque le compte a un grand nombre de compétences.
+Importez des compétences à partir de fournisseurs de contenu, tels que LinkedIn et Go1, en utilisant les connecteurs respectifs. Cette amélioration fait partie de l&#39;objectif visant à renforcer la capacité de Learning Manager à s&#39;intégrer à des systèmes externes de gestion des compétences et des nuages. Les compétences importées seront ajoutées aux compétences définies par l’administrateur dans Learning Manager et seront disponibles pour les auteurs pendant le processus de création du cours. Des améliorations ont également été apportées à la fonctionnalité de recherche de compétences sur toute la plateforme afin de fournir une meilleure expérience de recherche lorsque le compte a un grand nombre de compétences.
 
 Affichez [Importer des compétences](administrators/feature-summary/import-skills-external-sources.md) pour en savoir plus.
 
@@ -266,7 +267,9 @@ Lorsque vous recherchez un utilisateur, les options **Télécharger l&#39;élèv
 
 * Les colonnes Balise(s) et Compétence(s) dans le rapport de formations sont remplacées par Balise et Compétences.
 * Ajout du rapport [Piste d&#39;audit de ludification](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Si un compte contient plus de 280000 élèves affectés à une compétence, le rapport d’élève est téléchargé au format csv compressé.Si le compte comporte moins de 250000 élèves, le même rapport est téléchargé au format CSV.Sur la page Administrateur, sélectionnez **Administrateur** > **Compétences** > **Compétence** > **Élèves**. Le rapport est téléchargé au format CSV.
+* Si un compte contient plus de 280000 élèves affectés à une compétence, le rapport d’élève est téléchargé au format csv compressé.
+Si le compte comporte moins de 250000 élèves, le même rapport est téléchargé au format CSV.
+Sur la page Administrateur, sélectionnez **Administrateur** > **Compétences** > **Compétence** > **Élèves**. Le rapport est téléchargé au format CSV.
 * Le [rapport Résumé de la session](administrators/feature-summary/reports.md#session-summary-report) comporte deux nouvelles colonnes : Informations d&#39;emplacement et Région d&#39;emplacement.
 
 ## Modifications apportées à la création de salles de classe
@@ -281,7 +284,8 @@ En tant qu’administrateur, vous pouvez appliquer des restrictions à un auteur
 
 ## Modifications apportées au parcours d’apprentissage flexible
 
-Tous les comptes (anciens et nouveaux) de commenceront à inclure Échéance d’inscription, Échéance de désinscription et Limite de places dans l’application de l’élève pour un parcours d’apprentissage flexible.Les élèves pourront désormais s’inscrire au parcours d’apprentissage flexible sans sélectionner d’instance du cours.
+Tous les comptes (anciens et nouveaux) de commenceront à inclure Échéance d’inscription, Échéance de désinscription et Limite de places dans l’application de l’élève pour un parcours d’apprentissage flexible.
+Les élèves pourront désormais s’inscrire au parcours d’apprentissage flexible sans sélectionner d’instance du cours.
 
 ## Nouveau déclencheur pour les plans d’apprentissage
 
@@ -339,9 +343,9 @@ Dans les versions antérieures de Adobe Learning Manager, un élève n’a pas e
 Dans la version de mars 2024 de Adobe Learning Manager, les nouvelles modifications sont les suivantes :
 
 * Détails de la session mis à jour et invitation à la session (pour l’élève et l’instructeur)
-   * Pour les sessions futures, les e-mails concernant la **mise à jour des détails de la session**, la **invitation à une session** pour les élèves inscrits et les instructeurs actuels seront déconseillés. Pour les sessions précédentes, les e-mails concernant les **détails de la session mis à jour** et l&#39;**invitation à la session** pour les élèves inscrits et les instructeurs actuels resteront inchangés.
+  * Pour les sessions futures, les e-mails concernant la **mise à jour des détails de la session**, la **invitation à une session** pour les élèves inscrits et les instructeurs actuels seront déconseillés. Pour les sessions précédentes, les e-mails concernant les **détails de la session mis à jour** et l&#39;**invitation à la session** pour les élèves inscrits et les instructeurs actuels resteront inchangés.
 * E-mails de rappel (pour l’administrateur et l’élève)
-   * Pour les sessions futures, seuls des e-mails de **rappel de session** seront envoyés.
+  * Pour les sessions futures, seuls des e-mails de **rappel de session** seront envoyés.
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ Dans cette version de l’application mobile, les élèves peuvent planifier et 
 * Me le rappeler dans 3 jours
 * Me le rappeler dans une semaine
 
-Sur Android : cliquez sur la notification push pour accéder à la page **Présentation du cours**.Sur iOS : cliquez sur la notification push pour accéder à la page d’accueil de l’application. Il s’agit d’une limitation connue dans iOS.
+Sur Android : cliquez sur la notification push pour accéder à la page **Présentation du cours**.
+Sur iOS : cliquez sur la notification push pour accéder à la page d’accueil de l’application. Il s’agit d’une limitation connue dans iOS.
 
 ### Modifications de la liste de contrôle dans l’application de l’élève sur Salesforce
 
@@ -428,7 +433,7 @@ Un élève peut fournir ses commentaires sur l’application Adobe Learning Mana
 
 Nous voulions vous informer que Bluejeans a atteint sa fin de vie (EOL) en février 2024. Après février 2024, Bluejeans ne recevra plus de mises à jour ni d’assistance. Nos équipes CSAM et support vous aideront pour toutes les questions ou préoccupations que vous pourriez avoir pendant cette période de transition.
 
-Consultez [Connecteurs dans Adobe Learning Manager](integration-admin/feature-summary/connectors.md) pour plus d&#39;informations sur la configuration des connecteurs.
+Affichez [Connecteurs dans Adobe Learning Manager](integration-admin/feature-summary/connectors.md) pour plus d&#39;informations sur la configuration des connecteurs.
 
 ### Modifications apportées au rapport d’accès de connexion
 
@@ -452,8 +457,8 @@ Un nouvel attribut, isExpiredsubmission, dans learningObjectResource, qui indiqu
 
 * API GET /account : renvoie le nouvel attribut **expiresubmissionDuration** X, où X est le nombre de jours défini. Si ce paramètre n’est pas défini, 0 est renvoyé
 * L&#39;API GET /LO avec ressource inclut le nouvel attribut **isExpiredsubmission** » True ou False.
-   * True, si l&#39;envoi a expiré et que « submissionUrl » ne s&#39;affiche pas.
-   * Si la valeur est False, l&#39;envoi n&#39;est pas expiré et « submissionUrl » est récupéré.
+  * True, si l&#39;envoi a expiré et que « submissionUrl » ne s&#39;affiche pas.
+  * Si la valeur est False, l&#39;envoi n&#39;est pas expiré et « submissionUrl » est récupéré.
 
 ### Modifications d’API dans la liste de contrôle
 
@@ -477,7 +482,7 @@ Si le compte est activé pour cette fonctionnalité et que le nombre d’inscrip
 
 ### Tracés obsolètes
 
-Actuellement, les API Learning Manager suivent une structure de données de graphique, qui vous permet de récupérer des données en parcourant le modèle d’API par le biais d’inclusions. Même si vous pouvez parcourir une API jusqu’à sept niveaux, la récupération des données à l’aide d’un seul appel API est coûteuse en termes de calcul.
+Actuellement, les API Learning Manager suivent une structure de données de graphe, qui vous permet de récupérer des données en parcourant le modèle d’API par le biais d’inclusions. Même si vous pouvez parcourir une API jusqu’à sept niveaux, la récupération des données à l’aide d’un seul appel API est coûteuse en termes de calcul.
 
 Nous recommandons à tous les clients existants et nouveaux de passer de petits appels plusieurs fois au lieu d&#39;un seul appel important. Cette approche empêchera le chargement de données indésirables dans l&#39;appel.
 
@@ -486,27 +491,27 @@ Nous recommandons à tous les clients existants et nouveaux de passer de petits 
 Les chemins suivants sont obsolètes :
 
 * /learningObjects
-   * Chemins d’accès obsolètes :
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * Chemins d’accès existants :
-      * enrollment.loInstance
-      * instances.loResources
+  * Chemins d’accès obsolètes :
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * Chemins d’accès existants :
+    * enrollment.loInstance
+    * instances.loResources
 * /learningObjects/{id}
-   * Chemin d’accès obsolète :
-      * enrollment.instances.subLoInstances.learningObject
-   * Chemin existant :
-      * enrollment.instances.subLoInstances
+  * Chemin d’accès obsolète :
+    * enrollment.instances.subLoInstances.learningObject
+  * Chemin existant :
+    * enrollment.instances.subLoInstances
 * /enrollments
-   * Chemin d’accès obsolète :
-      * loInstance.learningObject.enrollment
-   * Nouveau chemin :
-      * loInstance.learningObject
+  * Chemin d’accès obsolète :
+    * loInstance.learningObject.enrollment
+  * Nouveau chemin :
+    * loInstance.learningObject
 * /learningObjects/{id}
-   * Chemin d’accès obsolète :
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Nouveau chemin :
-      * instance.subLoInstances
+  * Chemin d’accès obsolète :
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Nouveau chemin :
+    * instance.subLoInstances
 
 ### Modifications de l’archivage des accès de connexion et du rapport d’audit utilisateur pour l’API de tâche
 

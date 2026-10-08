@@ -3,19 +3,20 @@ description: Connecteur FTP personnalisé dans Adobe Learning Manager
 jcr-language: en_us
 title: Connecteur FTP personnalisé
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
-
 ---
-
 
 # Connecteur FTP personnalisé dans Adobe Learning Manager
 
 ## Introduction
 
-Le connecteur FTP personnalisé de Adobe Learning Manager permet un exchange sécurisé et automatisé des données entre Adobe Learning Manager et le serveur FTP (SFTP) de votre organisation. Grâce à cette intégration, les administrateurs peuvent importer des données utilisateur à partir de systèmes externes et exporter les relevés de notes des élèves ou les données de compétence sur une base planifiée. Cette configuration rationalise la synchronisation des données, réduit le travail manuel et prend en charge l’intégration transparente avec les systèmes de RH ou de création de rapports tiers. La configuration nécessite la coordination de votre équipe informatique et l’assistance du gestionnaire de succès client (CSM) d’Adobe.
+Le Connecteur FTP personnalisé de Adobe Learning Manager permet un exchange automatisé et sécurisé des données entre Adobe Learning Manager et le serveur FTP (SFTP) de votre organisation. Grâce à cette intégration, les administrateurs peuvent importer des données utilisateur à partir de systèmes externes et exporter les relevés de notes des élèves ou les données de compétence sur une base planifiée. Cette configuration rationalise la synchronisation des données, réduit le travail manuel et prend en charge l’intégration transparente avec les systèmes de RH ou de création de rapports tiers. La configuration nécessite la coordination de votre équipe informatique et l’assistance du gestionnaire de succès client (CSM) d’Adobe.
 
 >[!NOTE]
 >

@@ -1,13 +1,14 @@
 ---
 title: Utiliser Live Hub (Beta) sur mobile en tant qu’élève
 description: Découvrez les fonctionnalités Live Hub disponibles pour les élèves dans l’application mobile Adobe Learning Manager, qu’il s’agisse de rejoindre ou de quitter une session.
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
-
 ---
-
 
 # Utiliser Live Hub (Beta) sur mobile en tant qu’élève
 
@@ -24,7 +25,7 @@ Le tableau suivant récapitule les fonctionnalités Live Hub disponibles pour le
 | **Fonctionnalité** | **Expérience mobile** |
 |----|----|
 | Rejoindre des sessions | Rejoignez les sessions Live Hub depuis l’application mobile Adobe Learning Manager. |
-| Audio et vidéo | Activez ou désactivez votre microphone et votre caméra, puis sélectionnez les appareils audio disponibles. |
+| Audio et vidéo | Activez ou désactivez le microphone et la caméra, puis sélectionnez les appareils audio disponibles. |
 | Conversation et questions | Participez aux conversations de chat et soumettez des questions pendant la session. |
 | Réactions et main levée | Envoyez des réactions et levez la main pour interagir avec l&#39;instructeur. |
 | Sondages | Répondre aux sondages publiés pendant la session. |
@@ -43,7 +44,7 @@ Rejoignez votre session Live Hub planifiée depuis l’application mobile Adobe 
 Avant de participer, vous pouvez vérifier les paramètres de votre caméra, de votre microphone et de votre périphérique audio pour vous assurer qu’ils sont correctement configurés.
 
 ![Écran De Pré-Adhésion Mobile](assets/mobile-pre-join-screen.png)
-*Vérifiez les paramètres de votre appareil photo, de votre microphone et de votre périphérique audio avant de participer à une session Live Hub sur mobile.*
+*Vérifiez les paramètres de votre caméra, de votre microphone et de votre appareil audio avant de rejoindre une session Live Hub sur mobile.*
 
 >[!NOTE]
 >
@@ -57,7 +58,7 @@ Utilisez les commandes de session pour :
 
 * Allumez ou éteignez votre microphone.
 
-* Allumez ou éteignez votre appareil photo.
+* Activer ou désactiver la caméra.
 
 * Lève la main.
 

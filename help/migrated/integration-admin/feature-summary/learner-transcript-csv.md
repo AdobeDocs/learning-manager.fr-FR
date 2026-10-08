@@ -4,13 +4,14 @@ title: Interpréter le fichier CSV du relevé de notes de l'élève
 description: Interpréter le fichier CSV du relevé de notes de l'élève
 contentowner: saghosh
 preview: true
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 88%
-
+source-wordcount: '2996'
+ht-degree: 93%
 ---
-
 
 
 # Interpréter le fichier CSV du relevé de notes de l&#39;élève
@@ -41,19 +42,19 @@ Le relevé de notes de l’élève généré via l’interface utilisateur sera 
 
 ## Exporter le relevé de notes de l’élève {#exportlearnertranscript}
 
-Lorsque le relevé de notes d’un élève doit être traité par un système externe, Learning Manager fournit une fonction appelée Exportation de données. Le relevé de notes de l’élève est l’un des types de données pouvant être exportés. Comme expliqué dans le préambule, cela est nécessaire pour l’intégration de Learning Manager à un système externe qui doit traiter les données de comportement d’apprentissage ou pour remplir un entrepôt de données d’entreprise avec des données de comportement d’apprentissage.
+Lorsque le relevé de notes d’un élève doit être traité par un système externe, Learning Manager fournit une fonction appelée Exportation de données. Le relevé de notes de l’élève est l’un des types de données pouvant être exportés. Comme expliqué en préambule, cela est nécessaire pour l’intégration de Learning Manager à un système externe qui doit traiter des données sur le comportement d’apprentissage ou pour alimenter un entrepôt de données d’entreprise avec des données sur le comportement d’apprentissage.
 
 Pour plus d&#39;informations sur la façon dont les connecteurs prennent en charge l&#39;exportation du relevé de notes de l&#39;élève, consultez la section [Exportation de données](/help/migrated/integration-admin/feature-summary/connectors.md) dans les connecteurs FTP, Box et PowerBI.
 
 L&#39;objectif de ces connecteurs est d&#39;exporter périodiquement (une fois tous les N jours) des données vers une application en aval. Ainsi, ces connecteurs n&#39;exportent que les données incrémentielles sur le comportement d&#39;apprentissage à chaque exécution. Notez que ces connecteurs ne permettent pas de récupérer les enregistrements relatifs à un sous-ensemble spécifique d&#39;utilisateurs ou d&#39;objets d&#39;apprentissage. Il s&#39;agit toujours de données concernant tous les utilisateurs et tous les objets d&#39;apprentissage de ce compte.
 
-Dans le cas de PowerBI, le client doit fournir un espace de travail dans lequel Learning Manager peut continuer à exporter ces données de manière incrémentielle dans un jeu de données créé de manière dynamique. Ce connecteur ne fait qu&#39;exporter des données, et les clients doivent construire leurs propres rapports/tableaux de bord basés sur cet ensemble de données, selon les besoins.
+Dans le cas de PowerBI, le client doit fournir un espace de travail où Learning Manager peut continuer à exporter ces données de façon incrémentielle vers un ensemble de données créé dynamiquement. Ce connecteur ne fait qu&#39;exporter des données, et les clients doivent construire leurs propres rapports/tableaux de bord basés sur cet ensemble de données, selon les besoins.
 
 La section suivante fournit des détails sur la manière dont un système en aval doit interpréter les dossiers du relevé de notes de l&#39;élève.
 
 ## Interpréter le relevé de note de l&#39;élève {#interpretthelearnertranscript}
 
-Chaque ligne d’un relevé de notes d’un élève correspond à un comportement d’apprentissage capturé dans Learning Manager au cours d’une période spécifique. En règle générale, les connecteurs exportent des « données incrémentielles ». Les lignes représentent donc les activités d&#39;apprentissage qui se sont produites entre la dernière exécution du connecteur et l&#39;exécution en cours.
+Chaque ligne du relevé de notes de l’élève peut être considérée comme un comportement d’apprentissage qui a été capturé dans Learning Manager sur une période spécifique. En règle générale, les connecteurs exportent des « données incrémentielles ». Les lignes représentent donc les activités d’apprentissage qui se sont produites entre la dernière exécution du connecteur et l’exécution en cours.
 
 Bien entendu, les connecteurs permettent également de récupérer sur demande le relevé de notes de l&#39;élève, et dans ce cas, l&#39;utilisateur peut spécifier une date de début, la date de fin étant supposée être maintenant. En général, cette opération intervient une fois au départ, puis le connecteur est configuré pour exporter le relevé de notes incrémentiel de l&#39;élève à un moment précis de la journée, une fois tous les N jours (la valeur par défaut de N étant 1).
 
@@ -61,7 +62,7 @@ Précisons maintenant ce que l&#39;on entend par Relevé de notes incrémentiel 
 
 Dans le relevé de notes de l&#39;élève, chaque ligne représente une activité spécifique impliquant un élève spécifique et un objet d&#39;apprentissage spécifique. Nous nous intéressons principalement à l’état d’un élève par rapport à l’objet d’apprentissage : **Inscrit**, **Commencé**, **En cours** et **Terminé**. Par conséquent, le relevé de notes de l&#39;élève capture également quatre dates correspondantes.
 
-Il existe désormais trois types d’objets d’apprentissage, dans lesquels Learning Manager suit la progression de l’élève. Les données exportées contiennent des informations de progression au niveau du module, qui est l’unité de contenu la plus granulaire qu’un élève peut expérimenter dans Learning Manager.
+Il existe maintenant trois types d’objets d’apprentissage où Learning Manager suit la progression de l’élève. Les données exportées contiennent des informations sur la progression au niveau du module, qui représente l’unité de contenu la plus granulaire possible dans Learning Manager.
 
 * **Cours** : composition d’un ou de plusieurs modules
 * **Programme d’apprentissage** : composition d’un ou de plusieurs cours

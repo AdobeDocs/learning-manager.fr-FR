@@ -4,7 +4,10 @@ jcr-language: en_us
 title: Rapports
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '9042'
 ht-degree: 54%
@@ -1016,7 +1019,7 @@ La feuille exportée de rapports de tableau de bord fournit des informations dé
    *Axes pour les rapports*
 
 1. Choisissez la plage/les critères secondaires de **[!UICONTROL l’axe Y]** pour votre rapport parmi les options de la liste déroulante. Par exemple, pour une option d’inscription de programme d’apprentissage, choisissez un ou plusieurs états dans la liste déroulante États. Les données de plage secondaire sont représentées sous forme de graphiques linéaires.
-1. Choisissez les critères d’axe X&#x200B;**&#x200B;** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
+1. Choisissez les critères d’axe X**** appropriés pour votre rapport dans les options déroulantes. Si l’axe X est sélectionné en tant que date, une option de regroupement de votre critère d’axe X par Jour, Mois, Trimestre et Année est disponible.
 1. Dans la section Intervalle de temps, choisissez l’option appropriée dans la liste déroulante. Les options disponibles sont :
 
    * 30 derniers jours

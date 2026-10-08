@@ -4,13 +4,14 @@ title: Impossible d’acquérir une compétence après avoir suivi un cours
 description: Même après avoir terminé un cours, un élève n’obtient pas de compétence. Les compétences attribuées à ce cours restent En cours pour l’élève.
 contentowner: nluke
 exl-id: d9c1e2a2-351d-4d6f-b2e6-f9e9278e6523
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 52%
-
+ht-degree: 72%
 ---
-
 # Impossible d’acquérir une compétence après avoir suivi un cours
 
 ## Problème
@@ -19,7 +20,7 @@ Même après avoir terminé un cours, un élève n’obtient pas de compétence.
 
 ## Cause
 
-Ce problème se produit si les **crédits requis** pour acquérir cette compétence sont supérieurs aux **crédits acquis** par l’élève après avoir terminé le cours.
+Ce problème se produit si les **Crédits requis** pour atteindre cette compétence sont supérieurs aux **Crédits acquis** par l’élève après avoir terminé le cours.
 
 ## Solution
 
@@ -33,7 +34,7 @@ Vérifiez les **crédits de compétence** et les **points** requis pour acquéri
    *Sélectionnez l’option Inclure les données de compétences et les fiches récapitulatives*
 
 1. Ouvrez le rapport Relevé de notes de l’élève téléchargé.
-1. Accédez à la feuille **[!UICONTROL Relevé des compétences]**. Ici, vous pouvez afficher les **[!UICONTROL crédits requis]** et les **[!UICONTROL crédits acquis]** par l’élève.
+1. Accédez à la feuille **[!UICONTROL Relevé des compétences]**. Vous pouvez afficher ici les **[!UICONTROL Crédits requis]** et les **[!UICONTROL Crédits acquis]** par l’élève.
 
    Dans l’exemple ci-dessous, les crédits requis pour acquérir la compétence pour un cours s’élèvent à 50. Mais l’élève n’a obtenu qu’un seul crédit.
 

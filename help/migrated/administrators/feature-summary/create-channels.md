@@ -1,13 +1,14 @@
 ---
 title: Créer des canaux (Beta)
 description: Découvrez comment activer, créer et modifier des canaux dans Adobe Learning Manager pour regrouper le contenu d’apprentissage vidéo à partir de pages web et de pages Confluence Cloud dans un emplacement unique et indexable pour les élèves.
-source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 0%
-
 ---
-
 
 # Créer des canaux (Beta)
 
@@ -49,7 +50,7 @@ Pour activer la fonctionnalité **Canaux** :
 
    ![Activer la fonctionnalité Canaux](assets/enable-channels-feature.png)
 
-   *Activez la fonctionnalité Canal dans l&#39;onglet **Paramètres**&#x200B;pour permettre aux administrateurs de créer des canaux pour le compte.*
+   *Activez la fonctionnalité Canal dans l&#39;onglet **Paramètres**pour permettre aux administrateurs de créer des canaux pour le compte.*
 
 1. Activez la fonctionnalité **Canal**.
 
@@ -108,7 +109,7 @@ Créez un canal pour définir la source de contenu que Adobe Learning Manager an
 
    ![Tester la connexion source du canal](assets/test-channel-source-connection.png)
 
-   *Utilisez **Tester maintenant**&#x200B;pour confirmer que les vidéos sont récupérées à partir de la source avant de créer le canal.*
+   *Utilisez **Tester maintenant**pour confirmer que les vidéos sont récupérées à partir de la source avant de créer le canal.*
 
 1. Sélectionnez **Créer un canal**. Le canal est créé et ajouté à la liste **Canaux**.
 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Impossible de charger le fichier CSV
 contentowner: saghosh
 exl-id: 10458499-1038-4c62-971f-f950d383e970
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
-
+source-wordcount: '545'
+ht-degree: 77%
 ---
-
 # Impossible de charger le fichier CSV
 
 ## Erreur : Troncation de données : Données trop longues pour la colonne
@@ -47,13 +48,13 @@ Le problème se produit lorsque le fichier CSV est enregistré au format UTF-8 d
 
 * **A :** Enregistrement via Excel :
 
-   1. Ouvrez le fichier CSV dans Excel.
-   1. Enregistrez le fichier au format CSV normal.
+  1. Ouvrez le fichier CSV dans Excel.
+  1. Enregistrez le fichier au format CSV normal.
 
 * **B:** enregistrement via le Bloc-notes ou le Bloc-notes ++ :
 
-   * Ouvrez le fichier CSV dans le Bloc-notes ou le Bloc-notes++.
-   * Enregistrez le fichier au format UTF-8.
+  * Ouvrez le fichier CSV dans le Bloc-notes ou le Bloc-notes++.
+  * Enregistrez le fichier au format UTF-8.
 
 ## Erreur : Adresse électronique de l’utilisateur déjà présente dans le système
 
@@ -76,7 +77,7 @@ Ce problème se produit si un utilisateur est déjà présent dans le système a
 Dans ce scénario, cette erreur s’explique par deux raisons :
 
 1. L’utilisateur que vous essayez d’ajouter est le gestionnaire d’un profil externe. Pour résoudre ce problème, ouvrez le profil externe dont fait partie l&#39;utilisateur, sélectionnez l&#39;utilisateur, cliquez sur **[!UICONTROL Actions]** > **[!UICONTROL Attribuer un rôle]** > **[!UICONTROL Responsable]**, puis modifiez le Responsable du profil.
-1. L’utilisateur que vous essayez d’ajouter a été purgé. Dans ce scénario, vous ne pourrez pas ajouter l’utilisateur avec la même adresse e-mail tant que le processus de purge n’est pas terminé. Pour résoudre ce problème **&#x200B; a**&#x200B;joutez une adresse e-mail secondaire à l’utilisateur pour lui donner accès à la plateforme. Une fois le processus de purge terminé, modifiez l’utilisateur et remplacez l’adresse e-mail par l’adresse correcte.
+1. L’utilisateur que vous essayez d’ajouter a été purgé. Dans ce scénario, vous ne pourrez pas ajouter l’utilisateur avec la même adresse e-mail tant que le processus de purge n’est pas terminé. Pour résoudre ce problème** a**joutez une adresse e-mail secondaire à l’utilisateur pour lui donner accès à la plateforme. Une fois le processus de purge terminé, modifiez l’utilisateur et remplacez l’adresse e-mail par l’adresse correcte.
 
 ### Scénario 2
 

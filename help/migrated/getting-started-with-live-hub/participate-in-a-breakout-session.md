@@ -1,13 +1,14 @@
 ---
 title: Participer à une salle d’atelier en tant qu’élève
 description: Découvrez à quoi s'attendre en tant qu'élève lors d'une session de petits groupes Live Hub, notamment rejoindre votre salle, consulter les instructions, collaborer avec votre groupe, demander de l'aide à votre instructeur et consulter le résumé de votre salle.
-source-git-commit: 225b1f20930eb5acd8d6aa30d8448305b33adaa1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
-
 ---
-
 
 # Participer à une séance en petits groupes
 
@@ -45,7 +46,7 @@ Dans votre salle de réunion, vous pouvez travailler avec les autres élèves de
 
 - **Microphone** : désactivez ou désactivez votre micro pour parler avec votre groupe.
 
-- **Appareil photo** : activez ou désactivez votre vidéo.
+- **Caméra** : activez ou désactivez votre vidéo.
 
 - **Réactions** : envoyez une réaction émoji rapide.
 

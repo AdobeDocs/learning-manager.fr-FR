@@ -2,13 +2,14 @@
 description: 'Découvrez ce dont vous avez besoin avant de lancer le compositeur de contenu : un compte de Creative Cloud, Google Chrome et des documents sources facultatifs pour guider l’IA.'
 jcr-language: en_us
 title: Ce dont vous avez besoin avant de commencer
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Avant de commencer
 
@@ -16,7 +17,7 @@ Avant de lancer Adobe Learning Manager Content Composer, vérifiez les points su
 
 >[!IMPORTANT]
 >
->Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/fr/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
+>Vous devez vous connecter avec un compte Adobe Creative Cloud valide. Si vous n’en avez pas encore, vous pouvez créer un compte gratuit via Adobe Express. Pour plus d&#39;informations, consultez [Créer un compte gratuit Adobe Express](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Après avoir créé vos informations d’identification d’Adobe, lancez le compositeur de contenu et connectez-vous pour commencer à créer des cours. Si votre organisation dispose déjà d’un abonnement de Creative Cloud, contactez votre administrateur pour provisionner un compte de Creative Cloud pour vous avant de vous connecter au compositeur de contenu.
 
 Pour une expérience optimale avec Content Composer, **Google Chrome est le navigateur recommandé**. Firefox et Safari peuvent présenter des différences de fonctionnalité ou de comportement.
 
@@ -28,4 +29,4 @@ Pour une expérience optimale avec Content Composer, **Google Chrome est le navi
 
 * Les documents sources sont facultatifs. Vous pouvez continuer sans télécharger de fichiers, et l’IA générera du contenu en fonction de vos entrées.
 
-* Si vous disposez de matériel existant, vous souhaitez que le cours tire son origine, vous pouvez le charger pendant l&#39;étape Brief. Les formats de fichiers pris en charge sont PDF, Markdown (.md), PowerPoint (.pptx) et autres, chacun jusqu’à 100 Mo.
+* Si vous disposez d&#39;un matériau existant, à partir duquel vous souhaitez que le cours dessine, vous pouvez le charger pendant l&#39;étape Brief. Les formats de fichiers pris en charge sont PDF, Markdown (.md), PowerPoint (.pptx) et autres, chacun jusqu’à 100 Mo.

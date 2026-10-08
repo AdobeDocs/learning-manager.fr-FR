@@ -1,23 +1,24 @@
 ---
-description: Découvrez comment intégrer le connecteur Workday à Adobe Learning Manager
+description: Découvrez comment intégrer Workday connecteur à Adobe Learning Manager
 jcr-language: en_us
 title: Connecteur Workday
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 1%
-
 ---
 
-
-# Connecteur Workday dans Adobe Learning Manager
+# connecteur Workday dans Adobe Learning Manager
 
 ## Introduction
 
 **Workday** est un système basé sur le cloud qui aide les organisations à gérer les données financières et les employés. Il est principalement utilisé pour les tâches de RH comme l&#39;embauche, la paie et le suivi du rendement. Lorsqu’il est connecté à Adobe Learning Manager, il permet la synchronisation automatique des données d’utilisateur et de compétence entre les deux plateformes.
 
-Le connecteur Workday vous permet d’intégrer Adobe Learning Manager de manière transparente au client Workday de votre organisation. Cette intégration permet la synchronisation automatique des données et des compétences des utilisateurs entre les deux systèmes, améliorant la précision des données et réduisant l&#39;effort manuel.
+Le Connecteur Workday vous permet d’intégrer Adobe Learning Manager de manière transparente au client Workday de votre organisation. Cette intégration permet la synchronisation automatique des données et des compétences des utilisateurs entre les deux systèmes, améliorant la précision des données et réduisant l&#39;effort manuel.
 
 ## Principaux avantages
 
@@ -37,7 +38,7 @@ Avant de configurer le connecteur Workday, demandez à votre administrateur Work
 
 ## Configuration du connecteur Workday
 
-Vous pouvez configurer le connecteur Workday dans Adobe Learning Manager pour vous permettre d’importer des données utilisateur à partir de Workday, de réexporter les compétences des utilisateurs vers Workday et de planifier des synchronisations automatisées afin que les deux systèmes restent à jour.
+Vous pouvez configurer le connecteur Workday dans Adobe Learning Manager pour vous permettre d’importer des données utilisateur à partir de Workday, de réexporter les compétences des utilisateurs vers Workday et de planifier des synchronisations automatiques afin que les deux systèmes restent à jour.
 
 Pour configurer le connecteur Workday :
 
@@ -54,7 +55,7 @@ Pour configurer le connecteur Workday :
    - **Nom d’utilisateur et mot de passe** : l’administrateur Workday crée un utilisateur ISU (Integrated System User) avec les privilèges de sécurité requis et le partage avec l’administrateur d’intégration.
 
    ![](assets/workday-connector2.png)
-   _Ajoutez les détails nécessaires pour configurer le connecteur Workday_
+   _Ajoutez les détails nécessaires pour configurer Workday connecteur_
 
 4. Sélectionnez **Se connecter** pour terminer la configuration.
 
@@ -70,7 +71,7 @@ Vous pouvez utiliser le connecteur Workday pour importer des utilisateurs actifs
 
 Avant d’importer des utilisateurs, vous devez mapper les attributs utilisateur entre Workday et Learning Manager.
 
-1. Accédez à la page **Présentation** dans le connecteur Workday.
+1. Accédez à la page **Présentation** dans le Connecteur Workday.
 2. Sélectionnez **Utilisateurs internes** dans la section **Importer**.
 
    ![](assets/workday-connector3.png)

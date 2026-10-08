@@ -3,13 +3,14 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Nouveautés de la version d’octobre 2025 de Adobe Learning Manager
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '5580'
+source-wordcount: '5644'
 ht-degree: 0%
-
 ---
-
 
 # Nouveautés de la version d’octobre 2025 de Adobe Learning Manager
 
@@ -282,11 +283,11 @@ GET /bulkimport/runStatus
 
 **Paramètres**
 
-* **migrationProjectId** : (obligatoire). Identificateur unique d&#39;un projet de migration. Un projet de migration est utilisé pour transférer des données et du contenu d’un système de gestion de l’apprentissage (LMS) existant vers Adobe Learning Manager. Chaque projet de migration peut se composer de plusieurs sprints, qui sont des unités plus petites de tâches de migration.
+* **migrationProjectId** : (obligatoire). Un identifiant unique pour un projet de migration. Un projet de migration est utilisé pour transférer des données et du contenu d’un système de gestion de l’apprentissage (LMS) existant vers Adobe Learning Manager. Chaque projet de migration peut se composer de plusieurs sprints, qui sont des unités plus petites de tâches de migration.
 
-* **sprintId** : (obligatoire). Identificateur unique d’un sprint dans un projet de migration. Un sprint est un sous-ensemble de tâches de migration qui inclut des éléments d’apprentissage spécifiques (par exemple, cours, modules, dossiers d’élève) à migrer d’un LMS existant vers Adobe Learning Manager. Chaque sprint peut être exécuté indépendamment, ce qui permet une migration progressive.
+* **sprintId** : (obligatoire). Identifiant unique pour un sprint dans un projet de migration. Un sprint est un sous-ensemble de tâches de migration qui inclut des éléments d’apprentissage spécifiques (par exemple, cours, modules, dossiers d’élève) à migrer d’un LMS existant vers Adobe Learning Manager. Chaque sprint peut être exécuté indépendamment, ce qui permet une migration progressive.
 
-* **sprintRunId** : (obligatoire). Identificateur unique utilisé pour suivre l’exécution d’un sprint spécifique dans un projet de migration. Elle est associée au processus de migration réel des éléments définis dans un sprint. Le sprintRunId permet de surveiller, de dépanner et de gérer le travail de migration.
+* **sprintRunId** : (obligatoire). Identifiant unique utilisé pour suivre l’exécution d’un sprint spécifique dans un projet de migration. Elle est associée au processus de migration réel des éléments définis dans un sprint. Le sprintRunId permet de surveiller, de dépanner et de gérer le travail de migration.
 
 **Réponse**
 
@@ -668,7 +669,7 @@ Auparavant, l’API publique ne prenait pas en charge le marquage d’achèvemen
 
 ### Définition de la préférence d’ID utilisateur pour les rapports SCORM
 
-Certains clients ont besoin de l’UUID (Universally Unique Identifier) de l’élève au lieu de l’id_utilisateur par défaut pour l’achèvement du contenu SCORM. L’utilisation de l’UUID fournit un suivi plus précis entre les programmes d’apprentissage et empêche la duplication de l’utilisation des licences dans les comptes MAU (Monthly Active User).
+Certains clients ont besoin de l’UUID de l’élève (Identifiant Universally Unique) au lieu de l’id_utilisateur par défaut pour l’achèvement du contenu SCORM. L’utilisation de l’UUID fournit un suivi plus précis entre les programmes d’apprentissage et empêche la duplication de l’utilisation des licences dans les comptes MAU (Monthly Active User).
 
 Pour prendre en charge ce paramètre, un nouveau paramètre au niveau du compte, `reporting_userid_preference`, a été ajouté. Lorsqu’il est activé, ce paramètre envoie l’UUID à la place de l’ID_utilisateur chaque fois que les élèves terminent le contenu SCORM.
 
@@ -744,7 +745,7 @@ Consultez [Télécharger le rapport d&#39;utilisateur](/help/migrated/administra
 
 Le rapport utilisateur est désormais disponible pour les connecteurs Box, FTP et FTP personnalisé, en plus des API de tâche existantes. Ces rapports fournissent des informations détaillées sur l’ID utilisateur interne, l’adresse e-mail de l’utilisateur, le nom, l’adresse e-mail du responsable, le type d’utilisateur, etc.
 
-Les rapports peuvent être générés à la demande ou de manière planifiée, les données étant stockées dans le connecteur correspondant pour faciliter l’accès et l’analyse. Cette amélioration améliore la surveillance et l&#39;audit des activités des utilisateurs, ce qui permet un meilleur suivi de la sécurité et de la conformité.
+Les rapports peuvent être générés à la demande ou programmés, les données étant stockées dans le connecteur correspondant pour en faciliter l’accès et l’analyse. Cette amélioration améliore la surveillance et l&#39;audit des activités des utilisateurs, ce qui permet un meilleur suivi de la sécurité et de la conformité.
 
 Ces rapports sont disponibles parallèlement aux rapports existants, tels que l’enregistrement des utilisateurs, l’accès par connexion, la ludification et la formation, ce qui permet aux administrateurs d’accéder à tous les rapports essentiels à partir d’un emplacement unique pour rationaliser la gestion et l’analyse des données.
 
@@ -798,7 +799,7 @@ Consultez [Rapport d&#39;assistances à la tâche](/help/migrated/administrators
 * La colonne Date du retour d&#39;informations des rapports de retour d&#39;informations affiche désormais la date correcte. Auparavant, les secondes étaient incorrectement transmises au constructeur Date, qui attend des millisecondes, ce qui entraînait l&#39;affichage des dates en janvier 1970. Cette erreur a été corrigée pour garantir un affichage précis des dates lors de la génération des rapports de retour d’informations.
 * Les élèves peuvent désormais mettre à jour l’inscription à un parcours d’apprentissage Flex même si l’une des instances de cours est retirée. Auparavant, la sélection d&#39;une nouvelle instance provoquait une erreur de console (Impossible de lire les propriétés de non défini) et empêchait la mise à jour.
 * Les noms de ressources dans les parcours d’apprentissage s’affichent désormais correctement sans sauter les mots intermédiaires.
-* Les webhooks linkedIn Learning sont désormais activés à partir du connecteur LIL lors de la création de connexions pour les nouveaux utilisateurs. Le système enregistre également le compte via l’API privée et affiche des informations de configuration supplémentaires (URL OAuth et URL du client) sur la page de configuration de LinkedIn Learning.
+* Les webhooks d’apprentissage linkedIn sont désormais activés à partir du connecteur LIL lors de la création de connexions pour les nouveaux utilisateurs. Le système enregistre également le compte via l’API privée et affiche des informations de configuration supplémentaires (URL OAuth et URL du client) sur la page de configuration de LinkedIn Learning.
 * Les valeurs d&#39;attribut utilisateur mises à jour via les workflows SAML (`UpdateUserWorkerTask`) sont désormais enregistrées avec leur casse d&#39;origine au lieu d&#39;être converties en minuscules.
 * La réorganisation des modules dans un cours ne réinitialise plus le nombre de modules obligatoires sur « Tous » ; le nombre reste désormais tel que configuré.
 * Les pipelines Go1 gèrent désormais les codes linguistiques de manière cohérente en mappant des codes à deux lettres à des codes à quatre lettres, à l’instar des pipelines LinkedIn Learning.

@@ -4,13 +4,14 @@ title: Personnalisation de la page d’accueil des élèves
 description: Un administrateur peut personnaliser la page d’accueil de l’élève et la rendre plus moderne, plus axée sur le contenu et plus personnalisée pour l’élève.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 63%
-
 ---
-
 # Personnalisation de la page d’accueil des élèves
 
 ## Présentation {#overview}
@@ -157,7 +158,7 @@ Pour les comptes existants, l&#39;option **Immersive** sera **OFF**. Il est acti
    <td>
     <p>Recommandé par l’organisation</p></td>
    <td>
-    <p>Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Chaque groupe d’utilisateurs peut cibler une ou plusieurs formations et le plan cible serait basé sur un calendrier. <br></p>
+    <p>Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Lorsqu’il est activé, ce widget recommande des formations à des groupes d’utilisateurs spécifiques. Chaque groupe d’utilisateurs peut cibler une ou plusieurs formations et le plan cible serait fondé sur un cadre de temps. <br></p>
     <ul>
      <li>
       <p>Tout d'abord, l'administrateur <a href="announcements.md#recommendation">crée une annonce</a> de type <b>Comme recommandation</b>, puis sélectionne la formation requise et utilise des groupes. Un stagiaire appartenant à un groupe d’utilisateurs pourra consulter la formation recommandée.</p></li>

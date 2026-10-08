@@ -2,13 +2,14 @@
 description: 'Bonnes pratiques pour générer des cours dans le compositeur de contenu : rédaction des objectifs d''apprentissage, révision des contours, restriction de la sortie IA et utilisation des composants.'
 jcr-language: en_us
 title: Bonnes pratiques pour la publication de Content Composer vers ALM
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
-
 ---
-
 
 # Bonnes pratiques pour la publication de Content Composer vers ALM
 

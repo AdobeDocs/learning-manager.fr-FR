@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Certifications
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 68%
-
+source-wordcount: '1029'
+ht-degree: 83%
 ---
-
 # Certifications
 
 Découvrez comment créer des certifications, inscrire des élèves et modifier des certifications publiées.
@@ -29,7 +30,7 @@ En tant qu’administrateur, vous pouvez créer un programme de certification h�
    1. Cliquez sur l&#39;onglet **[!UICONTROL Brouillon]** pour afficher toutes les certifications à l&#39;état de brouillon. Vous devez terminer leur création.
    1. Cliquez sur **[!UICONTROL Publié]** pour afficher toutes les certifications que vous avez publiées.
    1. Cliquez sur **[!UICONTROL Tous]** pour afficher les certifications dans tous les états.
-   1. Triez et affichez la liste des certifications par ordre croissant, décroissant ou selon la date à laquelle vous les avez mises à jour.
+   1. Triez et affichez la liste de certifications en ordre croissant, en ordre décroissant ou sur la base de la date de mise à jour.
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
@@ -79,7 +80,7 @@ En tant qu’administrateur, vous pouvez créer un programme de certification h�
   <tr>
    <td>Émetteur de la certification<br></td>
    <td>
-    <p>Choisissez <b>Interne</b> s'il appartient à votre organisation, ou choisissez <b>Externe</b> pour les certifications d'organisation externe.</p>
+    <p>Sélectionnez <b>Interne</b> si elle est émise par votre entreprise, ou sélectionnez <b>Externe</b> pour les certifications émises en dehors de votre entreprise.</p>
     <p>Lorsque vous choisissez <b>Certification externe</b>, deux options supplémentaires s’affichent :</p>
     <ul>
      <li>Identique à la date d’approbation<br></li>
@@ -110,10 +111,10 @@ Sélectionnez le niveau de produits, de rôles et de rôles dans la section **[!
 
 Choisissez les cours à ajouter à la certification dans l&#39;onglet **[!UICONTROL Cours]** > **[!UICONTROL Catalogue]**.
 
-Passez le curseur de la souris sur chaque vignette de cours, cliquez sur + pour les ajouter à la certification. Cliquez sur **[!UICONTROL Aperçu]** pour afficher le cours en tant qu&#39;élève avant de l&#39;ajouter.
+Placez le pointeur de la souris sur chaque vignette de cours, cliquez sur + pour les ajouter à la certification. Cliquez sur **[!UICONTROL Aperçu]** pour afficher le cours en tant qu’élève avant de l’ajouter.
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Curriculum]** pour afficher/vérifier la liste des cours que vous avez ajoutés.
-1. Cliquez sur **[!UICONTROL Publish]**.
+1. Cliquez sur **[!UICONTROL Publier]**.
 
 ## Mappage d’instance de cours pour les certifications {#courseinstancemappingforcertifications}
 
@@ -126,7 +127,7 @@ Pour mapper le cours et l’instance pour les certifications :
 1. Dans la fenêtre contextuelle qui s’affiche, sélectionnez l’instance de cours qui doit être fournie pour la certification sélectionnée.
 1. Cliquez sur Enregistrer.
 
-Un administrateur peut ajouter des cours de type salle de classe et salle de classe virtuelle à un programme d&#39;apprentissage. Quelle que soit la session donnée par l’auteur lors de la création du cours, elle devient l’instance par défaut. Lorsque l’administrateur ajoute des cours à un programme d’apprentissage, ils sont par défaut mappés à une instance par défaut de tous les types de cours mais l’administrateur peut modifier le mappage de l’instance. Le nombre de cours ajoutés à un programme d’apprentissage est également visible sur la page des instances comme indiqué ci-dessous.
+Un administrateur peut ajouter des cours de type salle de classe et de type classe virtuelle à un programme d’apprentissage. Quelle que soit la session donnée par l’auteur lors de la création du cours, elle devient l’instance par défaut. Lorsque l’administrateur ajoute des cours à un programme d’apprentissage, ils sont par défaut mappés à une instance par défaut de tous les types de cours mais l’administrateur peut modifier le mappage de l’instance. Le nombre de cours ajoutés à un programme d’apprentissage est également visible sur la page des instances comme indiqué ci-dessous.
 
 ## Activer le contrôle complet du catalogue {#catalog}
 
@@ -134,7 +135,7 @@ Un administrateur peut ajouter des cours de type salle de classe et salle de cla
 
 ## Inscrire ou désinscrire des élèves à la certification {#enrollorunenrolllearnerstothecertification}
 
-Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[&#x200B; Inscription des élèves](courses.md#main-pars_header_1058138132).
+Pour plus d’informations sur l’inscription des élèves et les étapes à suivre, voir[ Inscription des élèves](courses.md#main-pars_header_1058138132).
 
 ## Désinscription des stagiaires {#unenrollmentforlearners}
 
@@ -161,13 +162,13 @@ Les administrateurs peuvent marquer une certification comme terminée à lֹ’a
 
 Dans les versions précédentes de Learning Manager, l’achèvement du cours d’un élève en certification externe n’était pas obligatoire pour obtenir un certificat.
 
-Vous pouvez désormais rendre les cours obligatoires en activant l&#39;option **[!UICONTROL Définir les cours obligatoires comme étant obligatoires pour l&#39;obtention de la certification]** dans l&#39;onglet Curriculum lors de la modification de la certification.
+Vous pouvez maintenant rendre les cours obligatoires en activant l’option **[!UICONTROL Définir les cours comme étant obligatoires pour l’obtention de la certification]** dans l’onglet Curriculum lors de la modification de la certification.
 
 ## Modification d’une certification publiée {#editingapublishedcertification}
 
 Une certification peut être modifiée par un administrateur à l’état publié. À ce stade, l’administrateur peut modifier toutes les parties d’une certification et les republier.
 
-Pour modifier une certification publiée, cliquez sur la carte de certification et cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
+Pour éditer une certification publiée, cliquez sur la carte de certification et cliquez sur **[!UICONTROL Modifier]** dans le coin supérieur droit de la page.
 
 Lors de la modification des sections d’une certification, si vous devez vous extraire de la page, vous devez publier de nouveau la certification. Vous recevez une confirmation par l’intermédiaire d’une boîte de dialogue vous demandant de publier de nouveau la certification.
 

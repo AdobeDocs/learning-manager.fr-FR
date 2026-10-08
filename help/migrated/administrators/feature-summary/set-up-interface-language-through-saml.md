@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Configuration de la langue de l’interface via SAML
 contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 # Configuration de la langue de l’interface via SAML
 
 Adobe Learning Manager (ALM) accepte désormais un attribut SAML pour la langue. Cet attribut est ensuite associé aux paramètres de l’interface utilisateur et de la langue du contenu, ce qui garantit une interaction fluide avec le système de gestion de l’apprentissage dans la langue préférée. La configuration de ces paramètres linguistiques est gérée via la plateforme de gestion des identités et des accès (IAM), à l’aide de SAML pour l’authentification unique (SSO). Cela prend en charge les connexions initiées par le fournisseur de services (SP) et le fournisseur d’identité (IdP), ce qui permet aux utilisateurs de voir l’interface et le contenu dans la langue de leur choix. Le workflow est le suivant :
@@ -75,9 +76,9 @@ Pour configurer l’authentification unique dans ALM, procédez comme suit :
    * Sélectionnez **[!UICONTROL Initié par le FI]** dans la liste déroulante **[!UICONTROL Paramètres d’authentification unique (SSO)]**.
    * Pour **[!UICONTROL l&#39;URL d&#39;authentification initiée par l&#39;IDP]** :
 
-      * Ouvrez le fichier XML de métadonnées que vous avez téléchargé précédemment.
-      * Recherchez la valeur d’emplacement et copiez-la.
-      * Collez cette valeur dans le champ URL d’authentification initiée par le FI.
+     * Ouvrez le fichier XML de métadonnées que vous avez téléchargé précédemment.
+     * Recherchez la valeur d’emplacement et copiez-la.
+     * Collez cette valeur dans le champ URL d’authentification initiée par le FI.
 
    * Pour le **[!UICONTROL fichier XML de métadonnées]** : chargez le fichier .xml que vous avez téléchargé précédemment.
 

@@ -2,13 +2,14 @@
 description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version de mai 2026 du correctif
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '114'
 ht-degree: 0%
-
 ---
-
 
 # Modifications apportées aux API dans la version de mai 2026 du correctif
 

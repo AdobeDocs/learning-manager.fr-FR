@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Application des élèves pour les appareils mobiles et les tablettes
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 77%
-
 ---
-
 # Application des élèves pour les appareils mobiles et les tablettes
 
 Lisez cet article pour savoir comment télécharger l’application Élève Learning Manager sur les smartphones et les tablettes. Découvrez comment suivre les cours à l’aide d’un appareil mobile ou d’une tablette.
@@ -165,7 +166,7 @@ Appuyez sur un cours pour afficher ses détails et votre date d’achèvement (l
 
 **Affichage des catalogues**
 
-Appuyez sur l’icône en regard de l’icône de livre au bas de l’écran. Vous pouvez immédiatement consulter le catalogue et tous les objets d’apprentissage associés. Vous pouvez choisir de les afficher sous forme de grille ou en mode d’affichage détaillé. Sélectionnez les recommandations pour voir les recommandations de cours en fonction de votre historique d’apprentissage.
+Appuyez sur l’icône en regard de l’icône de livre au bas de l’écran. Vous pouvez immédiatement consulter le catalogue et tous les objets d’apprentissage associés. Vous pouvez choisir de les afficher dans la mise en page de la grille ou dans la vue détaillée. Sélectionnez les recommandations pour voir les recommandations de cours en fonction de votre historique d’apprentissage.
 
 ![](assets/4.png)
 
@@ -217,7 +218,7 @@ Dans cette mise à jour, les fonctionnalités suivantes ne sont pas prises en ch
 
 * Créer ou suivre un tableau.
 * Copier une URL dans une publication.
-* Ajouter un article en tant qu’article ou ajouter en tant qu’article favori ou épingler au début.
+* Ajouter un post en tant qu’article ou ajouter en tant que post favori ou épingle au début.
 * Afficher un tableau des scores des réseaux sociaux.
 
 L’Apprentissage par les réseaux sociaux est une plate-forme dans l’application mobile Learning Manager qui incite les utilisateurs à partager des idées et des informations significatives dans un environnement informel. Il s’agit d’une méthodologie qui complète l’idée de l’apprentissage traditionnel.
@@ -346,7 +347,7 @@ Dans l’application mobile, vous ne pouvez pas créer de forum. Pour créer un 
 * Modifier ou supprimer des commentaires dans un forum.
 * Modifier ou supprimer une publication en fonction des autorisations.
 * Signaler un abus de publication si elle porte atteinte à la vie privée ou si le contenu est inapproprié. Une fois qu’une publication a été signalée, une notification est envoyée à l’administrateur du forum et aux modérateurs pour effectuer d’autres actions.
-* Aimez ![](assets/prime-like.png) ou n&#39;aimez pas ![](assets/prime-dislike.png)   un post.
+* Aimez ![](assets/prime-like.png) ou n’aimez pas ![](assets/prime-dislike.png) une publication.
 * Aimez ![](assets/prime-like.png) ou n&#39;aimez pas ![](assets/prime-dislike.png) un commentaire.
 
 ## Créer une publication dans d’autres forums {#createapostinotherboards}

@@ -3,13 +3,14 @@ description: Manuel de référence pour les administrateurs d’intégration qui
 jcr-language: en_us
 title: Manuel de migration
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '8322'
+source-wordcount: '8327'
 ht-degree: 39%
-
 ---
-
 # Manuel de migration
 
 Manuel de référence pour les administrateurs d’intégration qui souhaitent migrer leur système LMS vers le LMS Learning Manager.
@@ -699,9 +700,9 @@ Créez une application ou un script qui effectue les opérations suivantes sur u
 
 Paramètres :
 
-* **lockaccount (booléen):** Le paramètre détermine si le compte doit être verrouillé au début de l&#39;exécution. Par défaut, elle est définie sur false. Il est recommandé aux utilisateurs d’éviter d’utiliser ce paramètre, sauf s’il existe une raison valide de verrouiller le compte.
-* **catalogid (entier) :** ce paramètre vous permet de sélectionner le catalogue de destination pendant la migration. Il est généralement défini lors de la création du projet de migration, mais peut être ajusté pour des exécutions individuelles. Lorsque le catalogue est modifié, les objets d’apprentissage ajoutés lors des exécutions suivantes sont placés dans le dernier catalogue choisi. S’il est nécessaire de revenir au catalogue sélectionné lors de la création du projet de migration, cela doit également être spécifié explicitement.
-* **migrationProjectId (entier) :** le paramètre est nécessaire pour déclencher un projet de migration spécifique lorsque plusieurs exécutions API sont activées dans le compte.
+* **lockaccount (Booléen):** Le paramètre détermine si le compte doit être verrouillé au début de l&#39;exécution. Par défaut, elle est définie sur false. Il est recommandé aux utilisateurs d’éviter d’utiliser ce paramètre, sauf s’il existe une raison valide de verrouiller le compte.
+* **catalogue (Entier) :** ce paramètre vous permet de sélectionner le catalogue de destination pendant la migration. Il est généralement défini lors de la création du projet de migration, mais peut être ajusté pour des exécutions individuelles. Lorsque le catalogue est modifié, les objets d’apprentissage ajoutés lors des exécutions suivantes sont placés dans le dernier catalogue choisi. S’il est nécessaire de revenir au catalogue sélectionné lors de la création du projet de migration, cela doit également être spécifié explicitement.
+* **migrationProjectId (Entier) :** le paramètre est nécessaire pour déclencher un projet de migration spécifique lorsque plusieurs exécutions API sont activées dans le compte.
 
 #### Vérifier si la synchronisation peut commencer
 
@@ -711,7 +712,7 @@ Assurez-vous que le contenu peut être synchronisé avec le dossier sprint. Ne c
 
 Paramètres :
 
-* **migrationProjectId (Integer)** Le paramètre est nécessaire pour déclencher un projet de migration spécifique lorsque plusieurs exécutions API sont activées dans le compte.
+* **migrationProjectId (Entier)** Le paramètre est nécessaire pour déclencher un projet de migration spécifique lorsque plusieurs exécutions API sont activées dans le compte.
 
 <b>Réponse réussie</b>
 
@@ -783,11 +784,11 @@ GET /bulkimport/runStatus
 
 **Paramètres**
 
-* **migrationProjectId** : (obligatoire). Identificateur unique d&#39;un projet de migration. Un projet de migration est utilisé pour transférer des données et du contenu d’un système de gestion de l’apprentissage (LMS) existant vers Adobe Learning Manager. Chaque projet de migration peut se composer de plusieurs sprints, qui sont des unités plus petites de tâches de migration.
+* **migrationProjectId** : (obligatoire). Un identifiant unique pour un projet de migration. Un projet de migration est utilisé pour transférer des données et du contenu d’un système de gestion de l’apprentissage (LMS) existant vers Adobe Learning Manager. Chaque projet de migration peut se composer de plusieurs sprints, qui sont des unités plus petites de tâches de migration.
 
-* **sprintId** : (obligatoire). Identificateur unique d’un sprint dans un projet de migration. Un sprint est un sous-ensemble de tâches de migration qui inclut des éléments d’apprentissage spécifiques (par exemple, cours, modules, dossiers d’élève) à migrer d’un LMS existant vers Adobe Learning Manager. Chaque sprint peut être exécuté indépendamment, ce qui permet une migration progressive.
+* **sprintId** : (obligatoire). Identifiant unique pour un sprint dans un projet de migration. Un sprint est un sous-ensemble de tâches de migration qui inclut des éléments d’apprentissage spécifiques (par exemple, cours, modules, dossiers d’élève) à migrer d’un LMS existant vers Adobe Learning Manager. Chaque sprint peut être exécuté indépendamment, ce qui permet une migration progressive.
 
-* **sprintRunId** : (obligatoire). Identificateur unique utilisé pour suivre l’exécution d’un sprint spécifique dans un projet de migration. Elle est associée au processus de migration réel des éléments définis dans un sprint. Le sprintRunId permet de surveiller, de dépanner et de gérer le travail de migration.
+* **sprintRunId** : (obligatoire). Identifiant unique utilisé pour suivre l’exécution d’un sprint spécifique dans un projet de migration. Elle est associée au processus de migration réel des éléments définis dans un sprint. Le sprintRunId permet de surveiller, de dépanner et de gérer le travail de migration.
 
 **Réponse**
 
@@ -862,7 +863,7 @@ Vous trouverez ci-dessous les spécifications CSV standard que vous pouvez utili
 
 3-learning_program_enrollment.xlsx : contient les descriptions de métadonnées nécessaires pour le fichier retrofit_learning_program_enrollment.csv.
 
-4-user_course_grades.xlsx-contient des descriptions des métadonnées requises pour le fichier retrofit_user_course_grades.csv.
+4-user_course_grades.xlsx : contient les descriptions de métadonnées nécessaires pour le fichier retrofit_user_course_grades.csv.
 [csv-specifications.zip](assets/csv-specifications.zip)
 
 >[!NOTE]
@@ -938,11 +939,11 @@ Quatre fichiers CSV sont impliqués dans la migration de la session VILT :
 
 Téléchargez les fichiers ci-dessus [ici](assets/csv-and-xlsx-migration-files.zip).
 
-Les quatre fichiers CSV acceptent `almCourseID` pour référencer des cours et `almModuleID` pour référencer des modules. Ces ID sont les identificateurs uniques attribués par ALM lors de la création d&#39;un cours ou d&#39;un module.
+Les quatre fichiers CSV acceptent `almCourseID` pour référencer des cours et `almModuleID` pour référencer des modules. Ces ID sont les identifiants uniques attribués par ALM lors de la création d&#39;un cours ou d&#39;un module.
 
 ### Définir la date de début des instances de cours et de parcours d’apprentissage
 
-Utilisez le fichier CSV de l&#39;instance de cours **1&rbrace; et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
+Utilisez le fichier CSV de l&#39;instance de cours **1} et le fichier CSV de l&#39;instance de programme d&#39;apprentissage** LP **pour ajouter ou mettre à jour la date de début sur une instance.** Cela s’applique aux instances créées par la migration et à celles créées par l’interface utilisateur (adaptation).
 
 **Fichier CSV de l&#39;instance de cours : ajoutez une date de début**
 
@@ -1193,7 +1194,7 @@ La phase 2 ne nécessite pas de fichier CSV distinct : vous ajoutez une colonne 
 
 #### Planifiez d’abord la hiérarchie des dossiers
 
-Avant de préparer le fichier CSV, mappez la structure de dossiers ou de catégories de votre système source à la hiérarchie à trois niveaux de Adobe Learning Manager. Adobe Learning Manager prend en charge trois niveaux maximum (Niveau 1 → Niveau 2 → Niveau 3). Si votre système source dispose d’imbrication plus profonde, aplatissez-le à trois niveaux avant de procéder à la migration.
+Avant de préparer le fichier CSV, mappez la structure de dossiers ou de catégories de votre système source à la hiérarchie à trois niveaux de Adobe Learning Manager. Adobe Learning Manager prend en charge une profondeur maximale de trois niveaux (Niveau 1 → Niveau 2 → Niveau 3). Si votre système source dispose d’imbrication plus profonde, aplatissez-le à trois niveaux avant de procéder à la migration.
 
 >[!NOTE]
 >
@@ -1207,7 +1208,7 @@ Utilisez `content_folder.csv` pour définir la hiérarchie des dossiers cibles. 
 
 | Colonne | Obligatoire | Description |
 | --- | --- | --- |
-| `id` | Oui | Identificateur unique que vous attribuez à ce dossier. Il s’agit de votre propre ID de référence, par exemple, un ID de catégorie de votre système source. Utilisé pour lier les dossiers parents et enfants dans le fichier et pour rendre la migration réexécutable en toute sécurité. |
+| `id` | Oui | Identifiant unique que vous affectez à ce dossier. Il s’agit de votre propre ID de référence, par exemple, un ID de catégorie de votre système source. Utilisé pour lier les dossiers parents et enfants dans le fichier et pour rendre la migration réexécutable en toute sécurité. |
 | `name` | Oui | Nom d&#39;affichage du dossier. 63 caractères maximum. Ne peut pas contenir de barre oblique (`/`). Doit être unique parmi les dossiers ayant le même parent. |
 | `description` | Non | Description facultative du dossier. 2 046 caractères maximum. |
 | `parentExternalId` | Non | `id` du dossier parent. Laissez vide pour les dossiers de niveau 1 (racine). Pour les dossiers de niveau 2, entrez le `id` du parent de niveau 1. Pour les dossiers de niveau 3, entrez le `id` du parent de niveau 2. |
@@ -1234,7 +1235,7 @@ Dans cet exemple :
 **Règles de validation :**
 
 * Un dossier ne peut pas être son propre ancêtre — les références circulaires ne sont pas autorisées
-* La profondeur maximale de dossier est de 3 niveaux (Niveau 1 → Niveau 2 → Niveau 3)
+* La profondeur maximale de dossiers est de 3 niveaux (Niveau 1 → Niveau 2 → Niveau 3)
 * Deux dossiers ayant le même parent ne peuvent pas avoir le même nom
 * Le `parentExternalId` doit faire référence à une autre ligne du même fichier CSV ou à un dossier existant déjà dans votre compte
 * Les dossiers parents doivent être répertoriés avant leurs dossiers enfants dans le fichier

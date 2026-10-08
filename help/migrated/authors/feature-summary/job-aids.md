@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Assistances à la tâche
 description: Les assistances à la tâche sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d'inscription ou d'achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l’aide afin d’effectuer toute activité ou tâche au sein d’une organisation.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 42%
-
 ---
-
 # Assistances à la tâche
 
 Les **assistances à la tâche** sont un référentiel de contenu de formation accessible aux élèves sans aucun critère d&#39;inscription ou d&#39;achèvement. Les élèves peuvent se reporter à ces assistances à la tâche pour obtenir de l’aide afin d’effectuer toute activité ou tâche au sein d’une organisation.
@@ -67,7 +68,7 @@ Les formats de fichiers suivants sont pris en charge pour les assistances à la 
 
 ## Assistances à la tâche multilingues
 
-Les assistances à la tâche multilingues dans Adobe Learning Manager (ALM) permettent aux auteurs et aux administrateurs de fournir des documents d’accompagnement, des guides ou des ressources dans plusieurs langues dans une seule entrée d’assistance à la tâche. Les élèves de différentes régions peuvent accéder aux documents pertinents dans leur langue préférée, ce qui améliore la compréhension, la conformité et l&#39;expérience utilisateur.
+Les assistances à la tâche multilingues dans Adobe Learning Manager (ALM) permettent aux auteurs et aux administrateurs de fournir des documents d’accompagnement, des guides ou des ressources dans plusieurs langues dans une seule entrée d’assistance à la tâche. Les élèves de différentes régions peuvent accéder aux matériaux pertinents dans leur langue préférée, ce qui améliore la compréhension, la conformité et l&#39;expérience utilisateur.
 
 **Cas d’utilisation**
 

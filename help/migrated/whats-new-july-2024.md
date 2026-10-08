@@ -3,13 +3,14 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2336'
+source-wordcount: '2392'
 ht-degree: 2%
-
 ---
-
 # Résumé des nouvelles fonctionnalités - Juillet 2024 {#new-features-summary-july-2024}
 
 Découvrez les nouvelles fonctionnalités et les améliorations de la version de juillet 2024 de Adobe Learning Manager.
@@ -294,7 +295,7 @@ Dans cette version, le rapport **[!UICONTROL Piste d&#39;audit de contenu]** inc
 * Lorsqu’un cours est inclus dans un catalogue spécifique auquel un utilisateur peut accéder (alors que le catalogue par défaut est désactivé), malgré le paramètre qui empêche les élèves non inscrits de consulter le cours, vous pouvez toujours récupérer les métadonnées du cours via le point de terminaison de l’objet d’apprentissage/de l’ID.
 * Le filtre de compétences ne fonctionne pas comme prévu lorsque skillname comporte des virgules dans le nom de l’API GET /learningObject.
 * Il existe une incohérence dans les métadonnées d’horodatage du fichier dans le processus de rétention des données pour SFTP.
-* Si un connecteur est supprimé et reconfiguré, le statut de migration du projet semble être fermé.
+* Si un connecteur est supprimé et reconfiguré, l’état de la migration du projet semble être défini sur Fermé.
 * Le rapport de formation a « Balise(s) » comme en-tête de colonne au lieu de « Balises ».
 * L’exportation du connecteur Commerce échoue si le catalogue est désactivé et si l’un des cours exportés ne fait que partie du catalogue désactivé.
 

@@ -4,18 +4,19 @@ title: Prise en charge du domaine personnalisé
 description: Les domaines personnalisés ne sont pas pris en charge dans une instance Azure de Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # Prise en charge du domaine personnalisé
 
 Les domaines personnalisés ne sont pas pris en charge dans une instance Azure de Learning Manager.
 
-## Vue d’ensemble {#overview}
+## Présentation {#overview}
 
 La prise en charge du domaine personnalisé permet aux clients d’avoir un contrôle total sur le nom de domaine qu’ils peuvent utiliser pour leur compte dans Learning Manager. Un client doit acheter le domaine personnalisé séparément et collaborer avec l’équipe Adobe pour le configurer comme URL de connexion pour sa plate-forme d’apprentissage.
 
@@ -25,10 +26,10 @@ Par exemple, vous souhaitez personnaliser votre domaine afin que vos utilisateur
 
 >[!NOTE]
 >
->Comme condition préalable, vous devez enregistrer le domaine, puis l’Adobe vous guidera dans la personnalisation de l’url.
+>Vous devez au préalable enregistrer le domaine ; Adobe vous aidera ensuite à personnaliser l’URL.
 
 
-La fonctionnalité de domaine personnalisé est disponible moyennant des frais supplémentaires. Pour plus d’informations, contactez votre gestionnaire de succès client.
+La fonctionnalité de domaine personnalisé est disponible moyennant des frais supplémentaires. Pour plus de détails, veuillez contacter votre gestionnaire de la réussite client.
 
 * Pour le rôle d’élève, le domaine commencera par `https://cdn.<customer_custom_domain>/`. Par exemple, `https://cdn.elearningstage1.cpdomaintest.in/`
 * Pour tous les autres rôles, le domaine commencera par `https://<customer_custom_domain>/`. Par exemple, `https://elearningstage1.cpdomaintest.in/`
@@ -40,7 +41,7 @@ La fonctionnalité de domaine personnalisé est disponible moyennant des frais s
 
 ## Comment configurer un domaine personnalisé sur un compte {#howtosetupacustomdomainonanaccount}
 
-Comme condition préalable, un client doit posséder un nom de domaine et acheter le domaine auprès d’un fournisseur.
+Un client doit posséder au préalable un nom de domaine et acheter le domaine auprès d’un fournisseur.
 
 Par exemple, imaginons qu’un client possède un domaine fictif, **acme.com**. Le client souhaite que le contenu Learning Manager soit distribué à partir de **learning.acme.com**.
 

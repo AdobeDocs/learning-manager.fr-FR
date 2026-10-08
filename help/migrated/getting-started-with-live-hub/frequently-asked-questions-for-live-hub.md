@@ -1,13 +1,14 @@
 ---
 title: Live Hub (Beta) Foire aux questions
 description: Questions fréquentes sur Live Hub dans Adobe Learning Manager, organisées par rôle pour les administrateurs, les auteurs, les instructeurs et les élèves.
-source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '4473'
 ht-degree: 0%
-
 ---
-
 
 # Forum aux questions sur Live Hub (Beta)
 
@@ -103,7 +104,7 @@ Oui. Les instructeurs peuvent participer à la session avant l’heure de début
 
 +++Que puis-je configurer avant le début d’une session ?
 
-Avant le début de la session, les instructeurs peuvent préparer la salle virtuelle en configurant les autorisations des élèves, en créant des sondages et des questionnaires, en configurant des salles d’atelier, en connectant Miro pour la collaboration et en téléchargeant des documents de référence pour prendre en charge les questions et réponses alimentées par l’IA pendant la session.
+Avant le début de la session, les instructeurs peuvent préparer la salle virtuelle en configurant les autorisations des élèves, en créant des sondages et des questionnaires, en configurant des salles d’atelier, en connectant Miro pour la collaboration et en téléchargeant des matériaux de référence pour prendre en charge les questions et réponses alimentées par l’IA pendant la session.
 
 +++
 
@@ -357,7 +358,7 @@ Oui. Les instructeurs peuvent prolonger une session d’atelier active en sélec
 
 +++Comment puis-je améliorer la précision des réponses générées par l’IA ?
 
-Avant le début de la session, téléchargez des documents de référence pertinents pour aider l&#39;IA à générer des réponses plus précises et contextuelles. Dans le panneau Conversation, sélectionnez Charger des références IA, puis chargez les fichiers que vous souhaitez que l’IA utilise comme contenu de référence.
+Avant le début de la session, téléchargez les matériaux de référence pertinents pour aider l&#39;IA à générer des réponses plus précises et contextuelles. Dans le panneau Conversation, sélectionnez Charger des références IA, puis chargez les fichiers que vous souhaitez que l’IA utilise comme contenu de référence.
 
 +++
 
@@ -379,9 +380,9 @@ Oui. Les réponses générées par l’IA sont modifiables. Vous pouvez examiner
 
 +++
 
-+++Pourquoi télécharger des documents de référence sur l’IA ?
++++Pourquoi télécharger des matériaux de référence IA ?
 
-Les documents de référence fournissent un contexte supplémentaire qui aide l’IA à générer des réponses qui sont plus pertinentes pour le contenu de la session, ce qui réduit la nécessité de répondre manuellement aux questions fréquemment posées.
+Les matériaux de référence fournissent un contexte supplémentaire qui aide l’IA à générer des réponses qui sont plus pertinentes pour le contenu de la session, ce qui réduit la nécessité de répondre manuellement aux questions fréquemment posées.
 
 +++
 
@@ -495,7 +496,7 @@ Le panneau Participants affiche les participants inscrits et indique s’ils son
 
 +++Puis-je désactiver tous les microphones des élèves en même temps ?
 
-Oui. À partir du panneau Participants, vous pouvez couper le son des microphones de tous les participants afin de réduire le bruit de fond et de rester concentré pendant la session.
+Oui. À partir du panneau Participants, vous pouvez couper le son des microphones de tous les participants afin de réduire le bruit en arrière-plan et de rester concentré pendant la session.
 
 +++
 

@@ -3,7 +3,10 @@ description: Découvrez comment intégrer Salesforce connecteur à Adobe Learnin
 jcr-language: en_us
 title: Connecteur Salesforce
 contentowner: mmanuel
-source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2251'
 ht-degree: 4%
@@ -361,7 +364,7 @@ Vous pouvez soit utiliser des profils existants, soit créer des profils personn
 
 **Créer des profils personnalisés**
 
-1. Accédez à **Configurer** et sélectionnez **&#x200B; utilisateurs. &#x200B;**
+1. Accédez à **Configurer** et sélectionnez** utilisateurs. **
 2. Sélectionnez **Profils**.
 3. Cliquez sur **Nouveau profil**.
 4. Créez un profil personnalisé basé sur un profil existant, adapté aux utilisateurs de Adobe Learning Manager.

@@ -1,13 +1,14 @@
 ---
 title: Configuration de l’écran de pré-jointure dans Live Hub (Beta)
 description: Découvrez comment fonctionne l’écran de pré-jointure Live Hub, comment autoriser les autorisations du navigateur et comment configurer les commandes audio et de caméra avant de rejoindre une session.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 
 # Configuration de l’écran de pré-jointure
 
@@ -17,7 +18,7 @@ Cet article explique comment une session fonctionne du début à la fin et passe
 
 ## Ce que vous verrez sur l’écran de pré-jointure
 
-L’écran de pré-inscription est l’endroit où l’instructeur et l’élève atterrissent avant d’entrer dans la salle de classe. Il affiche les détails de la session et vous fournit les commandes audio et de caméra afin que vous puissiez vérifier tout ce qui fonctionne en premier. Lorsque l’écran se charge, un indicateur de chargement bref peut apparaître pendant la récupération des informations de session. Vous pouvez consulter le titre de la session ou le nom du module, l’instructeur, le cours et la description de la session.
+L’écran de pré-inscription est l’endroit où l’instructeur et l’élève atterrissent avant d’entrer dans la salle de classe. Il affiche les détails de la session et vous offre des commandes audio et de caméra afin que vous puissiez vérifier tout ce qui fonctionne en premier. Lorsque l’écran se charge, un indicateur de chargement bref peut apparaître pendant la récupération des informations de session. Vous pouvez consulter le titre de la session ou le nom du module, l’instructeur, le cours et la description de la session.
 
 ### Autoriser les autorisations du navigateur
 
@@ -43,7 +44,7 @@ Pour tester le microphone et le haut-parleur :
 
 1. (Facultatif) Sélectionnez **Tester l&#39;enceinte** pour vérifier la sortie de l&#39;enceinte.
 
-### Modification de l’arrière-plan de l’appareil photo
+### Modification de l’arrière-plan de la caméra
 
 Utilisez le menu **Caméra** dans l&#39;écran de pré-jointure pour appliquer un arrière-plan virtuel.
 
@@ -51,7 +52,7 @@ Pour modifier l’arrière-plan :
 
 1. Sélectionnez la liste déroulante **Caméra**. La liste déroulante **Caméra** s&#39;affiche.
 
-   ![Liste déroulante Arrière-plan de l’appareil photo](assets/camera-background-dropdown.png)
-   *Sélectionnez la liste déroulante Caméra, puis sélectionnez Modifier l’arrière-plan pour choisir un arrière-plan virtuel.*
+   Menu Déroulant Arrière-Plan De La Caméra ![](assets/camera-background-dropdown.png)
+   *Sélectionnez la liste déroulante Caméra, puis sélectionnez Modifier l&#39;arrière-plan pour choisir un arrière-plan virtuel.*
 
 1. Sélectionnez **Modifier l&#39;arrière-plan** et choisissez un arrière-plan virtuel. L’aperçu est immédiatement mis à jour.

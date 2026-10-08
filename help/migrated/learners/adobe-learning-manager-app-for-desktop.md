@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Application de bureau Adobe Learning Manager
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 79%
-
 ---
-
 # Application de bureau Adobe Learning Manager
 
 Découvrez comment utiliser l’application de bureau Adobe Learning Manager pour créer du contenu pouvant être partagé sur l&#39;Apprentissage par les réseaux sociaux ou l&#39;améliorer.
@@ -199,7 +200,7 @@ Pour modifier ou supprimer un fichier de la galerie, cliquez sur les trois point
 
 Les notifications dans Learning Manager apparaissent dans la fenêtre de notification, que l’élève soit connecté ou non à l’application Web Learning Manager. Les notifications incluent les publications ou les forums que les utilisateurs ont créés, suivent ou auxquels ils ont participé. En cliquant sur la notification, l’utilisateur sera redirigé vers le site Web de l&#39;Apprentissage par les réseaux sociaux Learning Manager.
 
-Pour désactiver les notifications, cliquez sur **[!UICONTROL Menu Profil*]* > &#x200B;** [!UICONTROL Paramètres] > **[!UICONTROL Notifications silencieuses]**.
+Pour désactiver les notifications, cliquez sur **[!UICONTROL Menu Profil*]* > **[!UICONTROL Paramètres] > **[!UICONTROL Notifications silencieuses]**.
 
 ## Paramètres dans l’application de bureau Adobe Learning Manager {#settingsinadobecaptivateprimedesktopapplication}
 

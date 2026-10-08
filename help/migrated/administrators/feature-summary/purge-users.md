@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Purger les utilisateurs
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1442'
 ht-degree: 45%
-
 ---
-
 # Purger les utilisateurs
 
 En savoir plus sur la fonction qui permet de purger les données utilisateur dans Learning Manager.
@@ -25,7 +26,7 @@ Une action Purger l’utilisateur peut avoir les conséquences suivantes :
 * Si un auteur est purgé, son nom est remplacé par le nom de l’administrateur qui a purgé cet utilisateur.
 * Si des instructeurs sont purgés, ils sont supprimés des sessions. L’administrateur doit remplacer/ajouter des instructeurs pour ces sessions.
 * Purger un utilisateur dans Learning Manager ne supprime pas l’utilisateur dans d’autres applications externes (systèmes tiers ou autres applications que vous avez écrites). Contactez les propriétaires des applications externes pour obtenir la suppression des utilisateurs dans ces applications.
-* Si un utilisateur purgé est référencé dans les paramètres de configuration d’un connecteur, ce dernier est désactivé. L&#39;administrateur doit reconfigurer le connecteur pour reprendre.
+* Si un utilisateur purgé est référencé dans les paramètres de configuration d’un connecteur, ce dernier est désactivé. Le connecteur doit être reconfiguré par l’administrateur pour reprendre.
 
 <!--
 ### Manage users

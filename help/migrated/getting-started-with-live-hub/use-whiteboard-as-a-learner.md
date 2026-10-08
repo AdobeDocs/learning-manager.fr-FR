@@ -1,13 +1,14 @@
 ---
 title: Utiliser le tableau blanc en tant qu’élève dans Live Hub
 description: Découvrez comment les élèves dessinent, ajoutent des formes et du texte, et effacent du contenu sur un tableau blanc partagé lors d’une session Live Hub.
-source-git-commit: 8752d9ef9c0d6bfdae134e5e8d3386ae555850bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 
 # Utiliser le tableau blanc en tant qu’élève
 

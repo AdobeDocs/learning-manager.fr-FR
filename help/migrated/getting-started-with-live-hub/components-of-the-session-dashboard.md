@@ -1,13 +1,14 @@
 ---
 title: Composants du tableau de bord de session dans Live Hub
 description: Découvrez les sections Tableau de bord de session dans Live Hub, notamment les résumés, les enregistrements, les interactions, les sous-sessions, l'activité des participants et les rapports.
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
-
 ---
-
 
 # Composants du tableau de bord de session
 
@@ -160,7 +161,7 @@ Affichez les attributs suivants des mesures Q&amp;R :
 
 Affichez les réactions des élèves pendant la session, y compris l&#39;accord, le désaccord, les applaudissements et les rires.
 
-Affichez les détails suivants sur le graphique :
+Affichez les détails suivants sur le graphe :
 
 * Total des réactions.
 
@@ -195,7 +196,7 @@ Le tableau affiche les informations suivantes pour l’activité de l’élève 
 
 * **Temps de parole** : durée pendant laquelle le participant a parlé pendant la session.
 
-* **Durée de la prise de vue** : durée pendant laquelle la caméra de l’élève était active.
+* **Heure de Caméra** : durée pendant laquelle la caméra de l’élève était active.
 
 * **Questions posées** : nombre de questions posées par le participant.
 

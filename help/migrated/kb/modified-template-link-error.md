@@ -5,13 +5,14 @@ description: Les liens de courrier électronique déclenchés à partir de modè
 contentowner: nluke
 preview: true
 exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 78%
-
 ---
-
 # Les liens de courrier électronique déclenchés à partir de modèles modifiés renvoient une erreur dans Learning Manager
 
 ## Problème

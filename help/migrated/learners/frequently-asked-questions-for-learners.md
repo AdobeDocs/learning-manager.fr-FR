@@ -5,7 +5,10 @@ description: Forum aux questions pour les élèves de Adobe Learning Manager
 contentowner: admin
 preview: true
 exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
-source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2402'
 ht-degree: 78%
@@ -157,7 +160,7 @@ Pour plus d&#39;informations, consultez la fonctionnalité [badges](feature-summ
 
 +++Qu’est-ce qu’un programme d’apprentissage ?
 
-Les programmes d’apprentissage sont des ensembles de cours uniquement destinés à réaliser les objectifs spécifiques des élèves. Seuls les administrateurs peuvent créer des programmes d’apprentissage pour les élèves. Lorsqu&#39;un administrateur affecte une instance de programme d&#39;apprentissage aux élèves, il voit cette **instance de programme &#x200B;** dans l&#39;onglet Programmes. Les élèves peuvent également consulter et s’inscrire eux-mêmes à tout type de programmes d’apprentissage.
+Les programmes d’apprentissage sont des ensembles de cours uniquement destinés à réaliser les objectifs spécifiques des élèves. Seuls les administrateurs peuvent créer des programmes d’apprentissage pour les élèves. Lorsqu&#39;un administrateur affecte une instance de programme d&#39;apprentissage aux élèves, il voit cette **instance de programme **dans l&#39;onglet Programmes. Les élèves peuvent également consulter et s’inscrire eux-mêmes à tout type de programmes d’apprentissage.
 
 Pour commencer à suivre le programme d’apprentissage, cliquez sur le programme qui vous est assigné. Vous pouvez afficher les informations détaillées de ce programme particulier.
 

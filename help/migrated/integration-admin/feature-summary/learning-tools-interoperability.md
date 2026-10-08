@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Interopérabilité des outils d’apprentissage (LTI)
 description: En savoir plus sur l’intégration LTI ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1993'
 ht-degree: 1%
-
 ---
-
 # Intégration LTI
 
 ## Qu’est-ce que LTI ?
@@ -74,7 +75,7 @@ Procédez comme suit pour partager les informations d’identification LTI avec 
 
 À l’aide des informations d’identification partagées par l’administrateur Adobe Learning Manager, l’administrateur LMS externe enregistre Adobe Learning Manager et génère des informations d’identification. Ces informations d’identification seront ajoutées au portail Adobe Learning Manager en tant que dernière étape de la configuration de Adobe Learning Manager en tant que fournisseur d’outils. Voici les informations d’identification générées par le LMS externe :
 
-* **[!UICONTROL ID d&#39;émetteur ou de plateforme]** : identifiant unique pour le LMS ou la plateforme qui envoie la demande de lancement LTI au fournisseur d&#39;outils.
+* **[!UICONTROL ID de l’émetteur ou de la plateforme]** : identifiant unique pour le LMS ou la plateforme qui envoie la demande de lancement LTI au fournisseur d’outils.
 * **[!UICONTROL ID client]** : identifiant unique attribué à l’outil LTI par le LMS à des fins d’autorisation.
 * **[!UICONTROL ID de déploiement]** : identifiant qui lie un déploiement d&#39;outil LTI spécifique au LMS pour la gestion de plusieurs instances.
 * **[!UICONTROL URL du jeton]** : point de terminaison où le LMS demande un jeton d’accès pour authentifier et autoriser les interactions avec l’outil LTI.
@@ -120,7 +121,8 @@ Procédez comme suit pour exporter le cours à partir de Adobe Learning Manager 
 
 ## Adobe Learning Manager en tant que consommateur LTI - Workflow d’administration
 
-En tant que consommateur LTI, Adobe Learning Manager vous permet d’utiliser l’activité, les outils, le contenu et les widgets de fournisseurs LTI externes.Pour ajouter Adobe Learning Manager en tant que consommateur LTI, vous avez besoin des informations d’identification suivantes du fournisseur LTI externe :
+En tant que consommateur LTI, Adobe Learning Manager vous permet d’utiliser l’activité, les outils, le contenu et les widgets de fournisseurs LTI externes.
+Pour ajouter Adobe Learning Manager en tant que consommateur LTI, vous avez besoin des informations d’identification suivantes du fournisseur LTI externe :
 
 * URL d’ouverture de session
 * URL du lien cible
@@ -164,7 +166,8 @@ Les fournisseurs LTI vous fournissent un lien de lancement ou un fichier IMSCC p
 4. Tapez **[!UICONTROL Launch Link]** et **[!UICONTROL Custom Parameters]** à partir du fournisseur LTI.
 5. Sélectionnez votre [!UICONTROL fournisseur LTI] dans le menu déroulant **[!UICONTROL Fournisseur d&#39;outils]**.
 6. Recherchez et sélectionnez **[!UICONTROL Public]** dans l&#39;option **[!UICONTROL Ajouter au dossier]**. Cela rend les cours disponibles pour tous les auteurs.
-7. Sélectionnez **[!UICONTROL Enregistrer]**.Une fois le contenu créé, vous pouvez ajouter ce contenu lors de la création du cours.
+7. Sélectionnez **[!UICONTROL Enregistrer]**.
+Une fois le contenu créé, vous pouvez ajouter ce contenu lors de la création du cours.
 
 ### Créer un cours avec du contenu LTI - Flux de production de l&#39;auteur
 

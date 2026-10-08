@@ -1,18 +1,19 @@
 ---
-description: Découvrez comment exporter un thème de cours Content Composer sous forme de fichier JSON pour personnaliser des propriétés en dehors de l’application, le partager avec d’autres auteurs ou l’utiliser comme base pour un nouveau thème.
+description: Découvrez comment exporter un thème de cours Content Composer en tant que Fichier JSON pour personnaliser des propriétés en dehors de l’application, le partager avec d’autres auteurs ou l’utiliser comme base pour un nouveau thème.
 jcr-language: en_us
 title: Exportation d’un thème
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 0%
-
 ---
-
 
 # Exportation d’un thème
 
-Exportez un thème au format JSON pour le personnaliser en dehors du compositeur de contenu ou le partager avec d’autres auteurs.
+Exportez un thème en tant que Fichier JSON pour le personnaliser en dehors du compositeur de contenu ou le partager avec d’autres auteurs.
 
 1. Sélectionnez **Thèmes** dans la barre d&#39;outils pour ouvrir le panneau **Thèmes de cours**.
 

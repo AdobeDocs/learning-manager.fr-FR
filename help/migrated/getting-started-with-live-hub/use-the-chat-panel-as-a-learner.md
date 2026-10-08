@@ -1,13 +1,14 @@
 ---
 title: Utiliser le panneau Conversation en tant qu’élève dans Live Hub
 description: Découvrez comment les élèves accèdent aux messages dans le panneau Conversation, les personnalisent et les gèrent lors d’une session Live Hub, y compris l’envoi de messages privés.
-source-git-commit: 907477a48c3d623ba4c79879d59afe44adf25fe3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
-
 ---
-
 
 # Utiliser le panneau Conversation en tant qu’élève
 

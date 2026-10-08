@@ -2,13 +2,14 @@
 description: Découvrez comment publier un cours Content Composer terminé dans la bibliothèque de contenu Adobe Learning Manager, notamment comment définir le nom du projet, ajouter une description et envoyer le cours en tant que module prêt à être affecté.
 jcr-language: en_us
 title: Publier sur Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
-
 ---
-
 
 # Publish d’un cours du compositeur de contenu vers Adobe Learning Manager
 

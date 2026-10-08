@@ -1,13 +1,14 @@
 ---
 title: Ajouter et gérer des instructeurs dans Live Hub
 description: Découvrez comment les administrateurs ajoutent des instructeurs, créent leurs profils, définissent les compétences et les langues, et configurent l’utilisation et la disponibilité dans Live Hub.
-source-git-commit: 259729710daebda869d93aa16b32c6c53db9103c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 2%
-
 ---
-
 
 # Ajouter et gérer des instructeurs
 

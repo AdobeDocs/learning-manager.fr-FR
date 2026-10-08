@@ -3,13 +3,14 @@ description: Découvrez comment utiliser les champs actifs dans Adobe Learning M
 jcr-language: en_us
 title: Configuration des champs actifs dans Adobe Learning Manager
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # Champs actifs
 
 Les champs actifs dans Adobe Learning Manager sont des attributs utilisateur personnalisés qui aident les administrateurs à organiser et à gérer efficacement les utilisateurs. Ils vous permettent de capturer des informations supplémentaires sur l’utilisateur, telles que le service, le lieu ou la fonction. Les administrateurs peuvent utiliser ces données pour créer des groupes d’utilisateurs, personnaliser l’apprentissage et filtrer les rapports plus efficacement.
@@ -126,6 +127,6 @@ Dans certains cas, les administrateurs préfèrent que les élèves remplissent 
 
 Si un fichier CSV ne comprend pas tous les champs actifs, l’administrateur doit saisir manuellement les valeurs manquantes après l’importation.
 
-Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Consultez cet [article](/help/migrated/integration-admin/feature-summary/connectors.md) pour plus d&#39;informations sur les connecteurs.
+Par défaut, chaque champ actif doit être mappé à un champ correspondant dans le fichier CSV source. Toutefois, si vous ne souhaitez pas mapper un champ actif spécifique à une colonne du fichier CSV, vous pouvez sélectionner la valeur **DontImportFromSource** dans la liste déroulante pendant les processus d&#39;importation Box et FTP. Cette option est disponible lors de l’importation d’utilisateurs via des connecteurs FTP ou Box. Reportez-vous à cet [article](/help/migrated/integration-admin/feature-summary/connectors.md) pour plus d&#39;informations sur les connecteurs.
 
 

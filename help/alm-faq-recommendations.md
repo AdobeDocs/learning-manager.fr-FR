@@ -2,13 +2,14 @@
 title: Cycle de vie du compte d’administration Adobe Learning Manager
 description: Ce document fournit un résumé complet des fonctionnalités de gestion, de configuration et de conformité des comptes de sécurité (ALM) de Adobe Learning Manager alignées sur les recommandations FedRAMP.
 jcr-language: en-us
-source-git-commit: 06051e44c0a6bc8ae60e44272ba088f2f6ff281f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 0%
-
 ---
-
 
 # recommandations de sécurité Adobe Learning Manager
 
@@ -26,10 +27,10 @@ Les deux types de comptes privilégiés de Adobe Learning Manager, Administrateu
 ### Administrateur d’intégration : ce qu’il peut faire :
 
 * Les administrateurs d’intégration gèrent les inscriptions d’applications OAuth 2.0 dans Administrateur d’intégration > Applications > S’inscrire. Ils sélectionnent l’une des six portées OAuth, allant de l’accès en lecture de l’élève à l’accès en lecture/écriture du rôle d’administrateur. La portée de lecture/écriture de l’administrateur accorde à l’application enregistrée les mêmes privilèges qu’un administrateur complet via l’API.
-* Les administrateurs d’intégration configurent FTP, SFTP, Salesforce, Workday et d’autres connecteurs qui importent des enregistrements d’utilisateur, des attributions de rôle et des terminaisons de cours, et exportent des données de plateforme vers des systèmes externes.
+* Les administrateurs d’intégration configurent FTP, SFTP, Salesforce, Workday et d’autres connecteurs qui importent des enregistrements d’utilisateur, des attributions de rôle et des achèvements de cours, et exportent des données de plateforme vers des systèmes externes.
 * Portée OAuth pour les applications enregistrées : portée minimale requise. N’accordez jamais l’accès en lecture/écriture au rôle Administrateur sauf en cas de nécessité absolue.
 * Les administrateurs d’intégration configurent des webhooks qui envoient des données d’événement ALM en temps réel (inscriptions, achèvements, changements de rôle) aux URL externes. Un point d’entrée webhook compromis ou mal configuré représente un risque d’exfiltration des données.
-* Les administrateurs d’intégration peuvent configurer les intégrations LTI. Une fois activé, LTI ne peut pas être désactivé. Les identifiants LTI exposés permettent un accès non autorisé au contenu du cours à partir de plates-formes LMS externes.
+* Les administrateurs d’intégration peuvent configurer les intégrations LTI. Une fois activé, LTI ne peut pas être désactivé. Les informations d&#39;identification LTI Exposées permettent un accès non autorisé au contenu du cours à partir de plates-formes LMS externes.
 
 
 ## Quelles sont les valeurs par défaut sécurisées recommandées pour les comptes administratifs et privilégiés de niveau supérieur dans Adobe Learning Manager, et où sont-elles configurées ?
@@ -53,7 +54,7 @@ Les deux types de comptes privilégiés de Adobe Learning Manager, Administrateu
 ### Valeurs par défaut de l’administrateur d’intégration :
 
 * Portée de l’API OAuth : sélectionnez la portée la plus restrictive qui répond aux exigences de l’intégration. N’accordez pas à l’administrateur l’accès en lecture/écriture aux applications nécessitant uniquement un accès en lecture à l’élève.
-* Informations d’identification du connecteur, informations d’identification LTI et URL de webhook : ne les partagez jamais par e-mail ni ne les validez pour le contrôle de code source.
+* Informations d’identification de connecteur, informations d’identification LTI et URL de webhook : ne les partagez jamais par e-mail et ne validez jamais le contrôle de code source.
 
 ## Adobe Learning Manager offre-t-il aux administrateurs un moyen de comparer les paramètres de compte actuels aux paramètres sécurisés par défaut recommandés ?
 
@@ -94,7 +95,7 @@ Adobe Learning Manager prend en charge l’exportation des données de configura
 
 * L’API des tâches ALM prend en charge la génération à la demande de rapports utilisateur (y compris les attributions de rôles) au format CSV. Ils peuvent être programmés et utilisés par des outils de conformité externe ou SIEM.
 
-Voir [Adobe Learning Manager- Manuel du développeur d&#39;applications](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/developer-manual) pour plus d&#39;informations.
+Voir [Adobe Learning Manager- Manuel du développeur d&#39;applications](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) pour plus d&#39;informations.
 
 ## Adobe Learning Manager fournit-il une API qui permet d’afficher et d’ajuster par programmation les paramètres relatifs à la sécurité ?
 
@@ -119,16 +120,16 @@ Adobe Learning Manager fournit une API REST v2 complète qui permet l’affichag
 ### Récupération de la configuration du compte
 
 * `GET /account` — renvoie la configuration au niveau du compte, y compris les données des paramètres de compte au format JSON, y compris les champs tels que :
-   * `complianceLabelDefaultID`
-   * `showComplianceLabel`
-   * `custom_injections`
+  * `complianceLabelDefaultID`
+  * `showComplianceLabel`
+  * `custom_injections`
 
 ### API User Management d’Adobe (couche Admin Console)
 
 * L’API de gestion des utilisateurs d’Adobe (UMAPI) fournit un accès par programme aux opérations du Admin Console :
-   * Approvisionnement des utilisateurs
-   * Attribution de droits sur les produits
-   * Attribution du rôle d’administrateur système au niveau de l’organisation
+  * Approvisionnement des utilisateurs
+  * Attribution de droits sur les produits
+  * Attribution du rôle d’administrateur système au niveau de l’organisation
 * UMAPI est une interface distincte de l’API REST ALM et fonctionne au niveau de l’organisation de l’Adobe. Utilisez-le pour automatiser les attributions de rôle de Admin Console et le provisionnement des utilisateurs.
 
 ## Adobe Learning Manager publie-t-il ses conseils de configuration sécurisée (valeurs par défaut recommandées) dans un format lisible par machine tel qu’OSCAL, JSON ou YAML ?
@@ -152,29 +153,29 @@ Adobe Learning Manager conserve un historique des versions détaillé et accessi
 
 * Adobe publie des notes de mise à jour numérotées pour chaque mise à jour de Adobe Learning Manager (par exemple, *Mise à jour 100*, *Mise à jour 99*).
 * Ceux-ci sont publiés sur **Experience League** et le document :
-   * Nouvelles fonctionnalités
-   * Modifications apportées aux paramètres existants
-   * Ajouts et suppressions d’API
-   * Modifications apportées au connecteur
-   * Fonctionnalités obsolètes
+  * Nouvelles fonctionnalités
+  * Modifications apportées aux paramètres existants
+  * Ajouts et suppressions d’API
+  * Modifications apportées au connecteur
+  * Fonctionnalités obsolètes
 * Chaque note de mise à jour comprend une section dédiée aux **modifications d’API**, répertoriant :
-   * Nouveaux points de terminaison
-   * Champs de réponse modifiés
-   * Dépréciations
-   * Ils concernent directement les capacités de configuration relatives à la sécurité.
+  * Nouveaux points de terminaison
+  * Champs de réponse modifiés
+  * Dépréciations
+  * Ils concernent directement les capacités de configuration relatives à la sécurité.
 
 ### Pages « Nouveautés » — Récapitulatifs des fonctionnalités par version
 
 * Chaque version majeure dispose d&#39;une page **« Nouveautés »** dédiée documentant les nouvelles fonctionnalités de sécurité en contexte.
 * Voici quelques exemples de mises à jour de sécurité documentées :
-   * Modifications apportées à la gestion des autorisations de rôle personnalisé
-   * Ajout de visibilité des autorisations créées au format CSV pour les rôles personnalisés
-   * Modifications de la limitation du taux d’API
+  * Modifications apportées à la gestion des autorisations de rôle personnalisé
+  * Ajout de visibilité des autorisations créées au format CSV pour les rôles personnalisés
+  * Modifications de la limitation du taux d’API
 
 ### Liste des API obsolètes : enregistrement faisant autorité des fonctionnalités API supprimées
 
 * L&#39;Adobe conserve une page dédiée **Dépréciations d&#39;API** répertoriant tous les points d&#39;entrée d&#39;API ALM obsolètes et supprimés, y compris la version dans laquelle chaque dépréciation s&#39;est produite.
 * Voici quelques exemples de dépréciations liées à la sécurité :
-   * Modifications apportées au comportement de tri et de remplacement du point de terminaison `GET /users`
-   * Notification, filtre de date de rapport
+  * Modifications apportées au comportement de tri et de remplacement du point de terminaison `GET /users`
+  * Notification, filtre de date de rapport
 

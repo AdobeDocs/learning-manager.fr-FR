@@ -4,20 +4,21 @@ jcr-language: en_us
 title: Compétences et niveaux
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 86%
-
+source-wordcount: '327'
+ht-degree: 94%
 ---
-
 # Compétences et niveaux
 
 Lisez cet article pour découvrir comment acquérir des compétences en tant qu’élève dans Learning Manager.
 
 Une carte de compétences est un regroupement d’ensembles de compétences, de connaissances et de caractéristiques d’un employé dans une organisation. Ces compétences aident les entreprises/organisations à définir ou augmenter leurs attentes concernant les performances de leurs employés. Les compétences permettent aux employés d’aligner leurs comportements sur les attentes de leur entreprise.
 
-Adobe Learning Manager vous permet de déterminer les performances des élèves en fonction de leurs compétences à l’aide du widget des compétences. Une fois que les élèves ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en cliquant sur Compétences dans la page d’accueil des élèves.
+Adobe Learning Manager vous permet de déterminer les performances des élèves en fonction de leurs compétences à l’aide du widget des compétences. Lorsque des élèves ont terminé certains cours, ils peuvent connaître leur positionnement par rapport à chaque compétence en cliquant sur Compétences sur la page d’accueil des élèves.
 
 ## Afficher les compétences {#viewskills}
 

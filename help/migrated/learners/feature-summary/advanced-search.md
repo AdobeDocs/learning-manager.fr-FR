@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Recherche optimisée par l’IA dans Adobe Learning Manager
 description: En savoir plus sur la recherche optimisée par l’IA dans Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1221'
 ht-degree: 0%
-
 ---
-
 # Recherche avancée d’IA dans Adobe Learning Manager
 
 ## Introduction
@@ -43,12 +44,12 @@ La fonctionnalité de recherche est importante pour plusieurs raisons :
 
 ## Évolution des comportements de recherche sur le Web
 
-Lorsque les gens font des recherches en ligne, leur façon de faire change, et les moteurs de recherche s&#39;adaptent pour suivre le rythme. Voici quelques-unes des principales façons dont les gens recherchent de l&#39;information ces derniers temps :
+Lorsque les gens font des recherches en ligne, leur façon de faire change et les moteurs de recherche s&#39;adaptent pour suivre. Voici quelques-unes des principales façons dont les gens recherchent de l&#39;information ces derniers temps :
 
-* **Piloté par l’intention** : au lieu de taper des mots-clés exacts, les utilisateurs expriment désormais leurs besoins avec des expressions comme Je le souhaite ou comme Je le dois. Les moteurs de recherche modernes comprennent le but derrière ces phrases et donnent des résultats plus pertinents.
+* **Piloté par l’intention** : au lieu de taper des mots-clés exacts, les utilisateurs expriment désormais leurs besoins avec des expressions comme Je le souhaite ou comme Je le dois. Les moteurs de recherche modernes comprennent le but derrière ces expressions et donnent des résultats plus pertinents.
 * **Résultats classés** : les résultats de la recherche sont organisés en fonction de ce que les autres utilisateurs ont trouvé utile. Cela signifie que le contenu le plus utile apparaît en haut, ce qui facilite la recherche d’informations de qualité.
 * **Sources multiples** : plus un moteur de recherche couvre de sources, meilleurs sont les résultats. En tirant des informations de diverses sources fiables, les moteurs de recherche fournissent des réponses plus complètes et plus précises.
-* **Personnalisé** : les moteurs de recherche ajustent les résultats en fonction de facteurs tels que le temps, le lieu et les préférences de l’utilisateur. Cela permet aux utilisateurs de trouver plus facilement des informations qui correspondent à leurs besoins spécifiques du moment.
+* **Personnalisé** : les moteurs de recherche ajustent les résultats en fonction de facteurs tels que la durée, le lieu et les préférences de l’utilisateur. Cela permet aux utilisateurs de trouver plus facilement des informations qui correspondent à leurs besoins spécifiques du moment.
 
 ## Pourquoi la recherche de Adobe Learning Manager est-elle meilleure ?
 

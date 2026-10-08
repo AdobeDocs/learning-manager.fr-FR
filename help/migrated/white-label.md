@@ -4,13 +4,14 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
-
 ---
-
 # Étiquetage blanc dans l’application mobile Adobe Learning Manager
 
 L’application mobile Adobe Learning Manager prend désormais en charge l’étiquetage blanc, ce qui signifie que vous pouvez désormais publier l’application sous votre propre marque.
@@ -45,214 +46,110 @@ Les éléments suivants peuvent être personnalisés :
 
 ### Champs
 
-<table>
-
- <tbody>
-
-  <tr>
-
-   <td>
-
-    <p>ID de compte</p>
-
-   </td>
-
-   <td>
-
-    <p>ID de votre compte. Notez que les élèves qui appartiennent à un autre compte n’auront pas accès à l’application avec étiquette blanche.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Id De Compte Supplémentaires</p>
-
-   </td>
-
-   <td>
-
-    <p>Ajoutez plusieurs comptes (sous-domaines) si vous le souhaitez. Ajoutez les sous-domaines en les séparant par des virgules, sans espaces. Par exemple, acc01,acc02,acc03, etc.<br> <b>Remarque :</b> vous devez ajouter l'ID de compte lors de la spécification des sous-domaines.</br> </p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Nom de l’application</p></td>
-
-   <td>
-
-    <p>Nom à utiliser pour l’application.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Nom court de l’application</p>
-
-   </td>
-
-   <td>
-
-    <p>Si le nom de l’application est long, donnez à l’application un nom court qui apparaît sur l’appareil.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Nom de l’application interne</p></td>
-
-   <td>
-
-    <p>Nom sous lequel le système d’exploitation identifie l’application. Le format généralement utilisé est : com.company-name.product-name.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Nom de l’application interne - iOS</p>
-
-   </td>
-
-   <td>
-
-    <p>Donnez un autre nom à l’application si vos utilisateurs se trouvent sur iOS. Nous vous recommandons d’utiliser le même nom pour iOS et Android.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Icône d’application</p>
-
-   </td>
-
-   <td>
-
-    <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png. Les dimensions de l’icône de l’application sont de 512 × 512 pixels.<div>Veuillez noter qu’Apple n’autorise pas le canal Alpha dans les icônes d’application. Assurez-vous donc de supprimer le canal Alpha de la ressource avant de la soumettre.</div></p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Écran de démarrage de l’application</p></td>
-
-   <td>
-
-    <p>Dans l’écran de démarrage de votre application, indiquez une image (png) qui s’affiche lorsque vos utilisateurs lancent l’application. Le format à nommer est account-id_splashIcon.png. Les dimensions des écrans de démarrage à base carrée sont de 1 052 × 1 052 pixels et celles des écrans de démarrage à base circulaire sont de 768 x 768 pixels.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>ID client et secret client</p>
-
-   </td>
-
-   <td>
-
-    <p>L’administrateur d’intégration de votre compte fournit les détails lors de l’enregistrement de l’application. L’administrateur de l’intégration doit utiliser les éléments suivants :<ul><li>learner:read, learner:write as role</li><li>application interne name://redirect comme URL de redirection</li></ul></p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Logo du compte</p>
-
-   </td>
-
-   <td>
-
-    <p>URL qui héberge le logo de votre organisation. Fournissez un lien vers le contenu comme logo du compte. L’URL doit être codée en Web.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>ID App Store de l’application (iOS)</p>
-
-   </td>
-
-   <td>
-
-    <p>ID requis pour la mise à jour de force. L’application doit savoir que l’élève doit être redirigé vers l’App Store pour mettre à jour l’application.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Identifiant Google Play Store pour l’application (Android)</p>
-
-   </td>
-
-   <td>
-
-    <p>ID requis pour la mise à jour de force.</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Nom d’hôte pour la liaison approfondie</p>
-
-   </td>
-
-   <td>
-
-    <p>Pour héberger vos liens profonds, utilisez learningmanager. Si vous souhaitez utiliser une autre URL de nom d’hôte comme lien profond, indiquez l’URL de l’hôte. Par exemple, learningmanager.adobe.com.</p>
-
-   </td>
-
-  </tr>
-
- </tbody>
-
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p>ID de compte</p>
+   </td>
+   <td>
+    <p>ID de votre compte. Notez que les élèves qui appartiennent à un autre compte n’auront pas accès à l’application avec étiquette blanche.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Id De Compte Supplémentaires</p>
+   </td>
+   <td>
+    <p>Ajoutez plusieurs comptes (sous-domaines) si vous le souhaitez. Ajoutez les sous-domaines en les séparant par des virgules, sans espaces. Par exemple, acc01,acc02,acc03, etc.<br> <b>Remarque :</b> vous devez ajouter l'ID de compte lors de la spécification des sous-domaines.</br> </p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Nom de l’application</p></td>
+   <td>
+    <p>Nom à utiliser pour l’application.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Nom court de l’application</p>
+   </td>
+   <td>
+    <p>Si le nom de l’application est long, donnez à l’application un nom court qui apparaît sur l’appareil.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Nom de l’application interne</p></td>
+   <td>
+    <p>Nom sous lequel le système d’exploitation identifie l’application. Le format généralement utilisé est : com.company-name.product-name.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Nom de l’application interne - iOS</p>
+   </td>
+   <td>
+    <p>Donnez un autre nom à l’application si vos utilisateurs se trouvent sur iOS. Nous vous recommandons d’utiliser le même nom pour iOS et Android.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Icône d’application</p>
+   </td>
+   <td>
+    <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png. Les dimensions de l’icône de l’application sont de 512 × 512 pixels.<div>Veuillez noter qu’Apple n’autorise pas le Canal Alpha dans les icônes d’application. Assurez-vous donc de supprimer le Canal Alpha de la ressource avant de la soumettre.</div></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Écran de démarrage de l’application</p></td>
+   <td>
+    <p>Dans l’écran de démarrage de votre application, indiquez une image (png) qui s’affiche lorsque vos utilisateurs lancent l’application. Le format à nommer est account-id_splashIcon.png. Les dimensions des écrans de démarrage à base carrée sont de 1 052 × 1 052 pixels et celles des écrans de démarrage à base circulaire sont de 768 x 768 pixels.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>ID client et secret client</p>
+   </td>
+   <td>
+    <p>L’administrateur d’intégration de votre compte fournit les détails lors de l’enregistrement de l’application. L’administrateur de l’intégration doit utiliser les éléments suivants :<ul><li>learner:read, learner:write as role</li><li>application interne name://redirect comme URL de redirection</li></ul></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Logo du compte</p>
+   </td>
+   <td>
+    <p>URL qui héberge le logo de votre organisation. Fournissez un lien vers le contenu comme logo du compte. L’URL doit être codée en Web.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>ID App Store de l’application (iOS)</p>
+   </td>
+   <td>
+    <p>ID requis pour la mise à jour de force. L’application doit savoir que l’élève doit être redirigé vers l’App Store pour mettre à jour l’application.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Identifiant Google Play Store pour l’application (Android)</p>
+   </td>
+   <td>
+    <p>ID requis pour la mise à jour de force.</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Nom d’hôte pour la liaison approfondie</p>
+   </td>
+   <td>
+    <p>Pour héberger vos liens profonds, utilisez learningmanager. Si vous souhaitez utiliser une autre URL de nom d’hôte comme lien profond, indiquez l’URL de l’hôte. Par exemple, learningmanager.adobe.com.</p>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 >[!NOTE]
@@ -355,12 +252,12 @@ Pour télécharger le fichier services.json, procédez comme suit :
    >   Le format d’entrée du projet sera &lt;-accountname->@appspot.gserviceaccount.com.
 
 1. Accédez à l&#39;onglet **Touches** et sélectionnez **Ajouter une touche**.
-1. S&#39;il n&#39;y a pas de clé, sélectionnez **Créer une clé** et sélectionnez **JSON** comme type de clé. Cette opération génère et télécharge le fichier JSON.
-1. S&#39;il existe déjà une clé, sélectionnez **Télécharger la clé existante**, collez la clé, puis chargez-la. Cette opération génère et télécharge le fichier JSON.
+1. S&#39;il n&#39;y a pas de clé, sélectionnez **Créer une clé** et sélectionnez **JSON** comme type de clé. Cette opération génère et télécharge le Fichier JSON.
+1. S&#39;il existe déjà une clé, sélectionnez **Télécharger la clé existante**, collez la clé, puis chargez-la. Cette opération génère et télécharge le Fichier JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
-Contactez l’équipe CSM et partagez le fichier JSON pour ajouter l’entrée aux services SNS sur AWS. Les utilisateurs devront obtenir l’entrée enregistrée dans le service SNS pour la notification push, qui les obligera à partager les certificats générés ci-dessus pour validation.
+Contactez l’équipe CSM et partagez le Fichier JSON pour ajouter l’entrée aux services SNS sur AWS. Les utilisateurs devront obtenir l’entrée enregistrée dans le service SNS pour la notification push, qui les obligera à partager les certificats générés ci-dessus pour validation.
 
 ## Créer un projet dans Firebase {#create-project-in-firebase}
 

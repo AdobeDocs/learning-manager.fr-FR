@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Thèmes de couleur
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 43%
-
+source-wordcount: '1327'
+ht-degree: 51%
 ---
-
 # Thèmes de couleur
 
 Thèmes de couleur et image de marque dans Learning Manager
@@ -33,21 +34,21 @@ Cliquez sur **[!UICONTROL Identité visuelle]** dans le volet de gauche pour met
 
 Cliquez sur **[!UICONTROL Modifier]** pour définir l&#39;apparence de votre logo et du nom de votre société dans l&#39;application Learning Manager.
 
-Cliquez sur **[!UICONTROL Télécharger le nouveau logo]**, puis sélectionnez le logo à transférer depuis votre ordinateur. Vous pouvez prévisualiser l&#39;aspect du logo et le nom de votre organisation ci-dessous. Choisissez le style d&#39;en-tête de votre choix et cliquez sur **[!UICONTROL Enregistrer]**.
+Cliquez sur **[!UICONTROL Télécharger le nouveau logo]**, puis sélectionnez le logo à transférer depuis votre ordinateur. Vous pouvez prévisualiser l&#39;aspect du logo et le nom de votre organisation ci-dessous. Sélectionnez le style d&#39;en-tête de votre choix, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Thèmes {#themes}
 
 Un ensemble de cinq images représentatives vous donne un aperçu de vos modifications de thèmes chromatiques avant de les appliquer à votre application. Consultez ces images en cliquant sur les symboles &lt; and > à gauche et à droite des images à prévisualiser. Une autre solution consiste à cliquer sur les cercles de navigation au bas de ces images pour parcourir l&#39;ensemble des aperçus d&#39;écran.
 
-**Sélectionnez un thème** 
+**Sélectionnez un thème**
 
-Cliquez sur **[!UICONTROL Afficher les conseils]** sous cette section pour afficher les conseils sur l&#39;image comme indiqué ci-dessous.
+Cliquez sur **[!UICONTROL Afficher les conseils]** dans cette section pour afficher les conseils sur l’image comme indiqué ci-dessous.
 
 ![](assets/themes-preview-images.png)
 
 *Afficher des conseils sur un thème*
 
-L’application Learning Manager propose cinq options de thème de couleur à ses utilisateurs :
+L&#39;application Learning Manager propose cinq options du thème de couleur à ses utilisateurs :
 
 * Le calque Prime par défaut
 * Galets
@@ -73,15 +74,15 @@ Pour personnaliser, sélectionnez le type de thème dans le volet de gauche et c
 
 Cliquez sur **[!UICONTROL Réinitialiser le thème]** pour restaurer les paramètres d&#39;origine du thème. Cliquez sur **[!UICONTROL Enregistrer]** après avoir effectué les modifications.
 
-**Aperçu en direct** 
+**Aperçu en direct**
 
-Cliquez sur **[!UICONTROL Aperçu en direct]** dans le coin inférieur gauche de la section des thèmes. Une fenêtre contextuelle s’affiche, comme illustré ci-dessous :
+Cliquez sur **[!UICONTROL Aperçu en direct]** dans le coin inférieur gauche de la section des thèmes. Une fenêtre contextuelle s’affiche comme illustré ci-dessous :
 
 ![](assets/live-theme-preview.png)
 
 *Fenêtre contextuelle Aperçu en direct*
 
-Sélectionnez le thème de votre choix dans la liste déroulante, réglez les paramètres et cliquez sur **[!UICONTROL Aperçu]** pour afficher en direct les modifications de votre application. Désormais, vous pouvez parcourir toutes les fonctions de l&#39;application et constater les modifications. Vous pouvez également modifier vos rôles tout en visionnant l&#39;aperçu en direct. Une fois que vous êtes satisfait des modifications, vous pouvez revenir à la fonctionnalité contextuelle Aperçu du thème en direct et cliquer sur **[!UICONTROL Appliquer le thème]**.
+Sélectionnez le thème de votre choix dans la liste déroulante, réglez les paramètres et cliquez sur **[!UICONTROL Aperçu]** pour afficher en direct les modifications de votre application. Désormais, vous pouvez parcourir toutes les fonctions de l&#39;application et constater les modifications. Vous pouvez également modifier vos rôles tout en visionnant l&#39;aperçu en direct. Une fois que vous êtes satisfait des modifications, vous pouvez revenir à la synchronisation automatique d&#39;aperçu en direct de thème, puis cliquer sur **[!UICONTROL Appliquer le thème]**.
 
 Lorsque vous prévisualisez les modifications en direct, la fenêtre d&#39;aperçu en direct du thème s&#39;affiche toujours dans la partie inférieure de l&#39;écran. Vous pouvez réduire la fenêtre.
 
@@ -146,7 +147,7 @@ La liste ci-dessous répertorie les composants personnalisables. Pour personnali
     <p> </p>
     <ul>
      <li>Jusqu’à 12 couleurs personnalisées uniquement. </li>
-     <li>Les couleurs sont appliquées à tous les objets d’apprentissage. Les couleurs seront appliquées de manière séquentielle à tous les objets d’apprentissage (formations) et le code couleur hexadécimal est le format requis pour toutes les couleurs, par exemple #ffffff.</li>
+     <li>Les couleurs sont appliquées à tous les objets d’apprentissage. Les couleurs sont appliquées de manière séquentielle à tous les objets d’apprentissage (formations) et le format requis pour toutes les couleurs est un code couleur hexadécimal, par exemple #ffffff.</li>
      <li>Si une seule couleur est fournie, elle est appliquée à tous les objets d’apprentissage.</li>
     </ul>
     <p> </p></td>
@@ -192,7 +193,7 @@ La liste ci-dessous répertorie les composants personnalisables. Pour personnali
   </tr>
    <tr>
    <td>
-    <p>Icône favorite</p></td>
+    <p>Favicône</p></td>
    <td>
     <p>Les administrateurs ne peuvent pas modifier l’icône favorite du compte Adobe Learning Manager. Pour mettre à jour l'icône favorite, contactez l'équipe d'assistance à l'adresse <a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a> </p>
     <p>Vous avez besoin de l’image que vous devez appliquer à l’arrière-plan de l’élève.</p>
@@ -234,11 +235,11 @@ Sur la page **Général**, vous disposez des options suivantes :
    <td>
     <p>Permettre à l’élève de découvrir les centres d’intérêt</p></td>
    <td>
-    <p>Applicable uniquement à l’expérience Classique. Choisissez <strong>Oui </strong> ou <strong>Non</strong>.<br></p></td>
+    <p>Applicable uniquement à l’expérience Classique. Choisissez <strong>Oui </strong>ou <strong>Non</strong>.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Demandez aux utilisateurs de sélectionner des domaines (compétences) <br></p></td>
+    <p>Inviter les utilisateurs à sélectionner des zones d’intérêt (compétences) <br></p></td>
    <td>
     <p>Applicable uniquement à l’expérience Immersive. Choisissez <strong>Oui</strong> ou <strong>Non</strong>. </p></td>
   </tr>

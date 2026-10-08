@@ -1,15 +1,16 @@
 ---
 title: Nouveautés de cette version (avril 2023)
 description: Découvrez les nouvelles fonctionnalités et améliorations d’Adobe Learning Manager
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 70%
-
 ---
-
 # Nouveautés de cette version (avril 2023)
 
 ## Application Adobe Learning Manager pour Microsoft Teams
@@ -418,7 +419,7 @@ La réponse contient un nouvel attribut, currencyCode.
 
 ### Association de compétences et de niveaux de compétence pour les instructeurs
 
-Nous avons introduit une nouvelle fonctionnalité, qui capture l&#39;expertise des instructeurs, c&#39;est-à-dire que pour chaque instructeur, leur expertise est maintenue, et cela peut être mis à disposition pour les opérations en aval comme la recherche et le filtrage.
+Nous avons introduit une nouvelle fonctionnalité, qui capture l&#39;expertise des instructeurs, c&#39;est-à-dire que pour chaque instructeur, leur expertise est conservée, et cela peut être mis à disposition pour les opérations en aval comme la recherche et le filtrage.
 
 Les attributs suivants sont ajoutés :
 
@@ -525,9 +526,9 @@ DELETE /userGroups/{id}/users
 ]   
 ```
 
-### Filtrage du groupe d&#39;utilisateurs des annonces pour les pertes dans l&#39;application Élève
+### Filtrage de groupe d’utilisateurs d’annonce pour les utilisateurs perdus dans l’application Élève
 
-* L&#39;API GET /users/{userId}/userGroups a un nouveau paramètre, filter.announcementsGroupsOnly, qui prend une valeur booléenne (true/false). Cela permet de filtrer uniquement les groupes d’utilisateurs que l’administrateur annonce. La valeur par défaut de ce paramètre est false.
+* L&#39;API GET /users/{userId}/userGroups a un nouveau paramètre, filter.announcementsGroupesOnly, qui prend une valeur de Booléen (true/false). Cela permet de filtrer uniquement les groupes d’utilisateurs que l’administrateur annonce. La valeur par défaut de ce paramètre est false.
 * L’API GET /learningObjects possède un nouveau paramètre, filter.announcementsGroupes, qui accepte les ID de groupe d’annonces pour filtrer les résultats.
 * L&#39;API GET /search a un nouveau paramètre, filter.announcementsGroups, qui accepte les ID de groupe d&#39;annonces pour filtrer les résultats.
 

@@ -3,18 +3,19 @@ description: En savoir plus sur la configuration des paramètres avancés dans A
 jcr-language: en_us
 title: Paramètres avancés dans Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 1%
-
 ---
-
 # Paramètres avancés dans Adobe Learning Manager
 
 ## Étiquettes de catalogue
 
-Les étiquettes de catalogue dans Adobe Learning Manager sont utilisées pour baliser les objets d’apprentissage (cours, certifications, parcours d’apprentissage, etc.) avec des champs et des valeurs spécifiques. Ces étiquettes vous aident, vous et les auteurs, à classer et organiser efficacement le contenu, ce qui permet un meilleur filtrage, suivi et création de rapports.
+Les étiquettes de catalogue dans Adobe Learning Manager sont utilisées pour baliser les objets d’apprentissage (cours, certifications, parcours d’apprentissage, etc.) avec des champs et des valeurs spécifiques. Ces étiquettes vous aident, vous et les auteurs, à classer et organiser efficacement le contenu, ce qui permet un meilleur filtrage, un meilleur suivi et un reporting plus efficace.
 
 Voir [Étiquettes de catalogue dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/catalog-labels.md) pour plus d&#39;informations.
 
@@ -244,7 +245,7 @@ Les pratiques suivantes vous aident à créer une structure de dossiers qui évo
 
    * Niveau 3 : Ressources du PDF
 
-3. **Les noms doivent être courts, descriptifs et uniques dans leur parent.** Évitez les noms génériques tels que « Module 1 » ou « Contenu ». Utilisez des identifiants adaptés aux auteurs qui parcourent la bibliothèque.
+3. **Les noms doivent être courts, descriptifs et uniques dans leur parent.** Évitez les noms génériques tels que « Module 1 » ou « Contenu ». Utilisez des identifiants compréhensibles pour les auteurs parcourant la bibliothèque.
 
 4. **Attribuer un accès au rôle personnalisé au niveau 1 uniquement.** L&#39;accès se propageant automatiquement en cascade, l&#39;affectation au niveau 1 est suffisante et simplifie la gestion de l&#39;accès. Vous n’avez pas besoin de mettre à jour l’accès lorsque vous ajoutez des sous-dossiers de niveau 2 ou 3.
 
@@ -302,17 +303,17 @@ Sessions de hub.
 
 Les jours fériés sont un ensemble de jours non ouvrables gérés au niveau du compte, avec les propriétés suivantes :
 
-&#x200B;- Seul l’administrateur peut ajouter, modifier ou supprimer des congés.
+- Seul l’administrateur peut ajouter, modifier ou supprimer des congés.
 
-&#x200B;- Les jours fériés s’appliquent à l’ensemble de l’organisation et apparaissent sur le calendrier de chaque instructeur sous la forme de jours non ouvrables.
+- Les jours fériés s’appliquent à l’ensemble de l’organisation et apparaissent sur le calendrier de chaque instructeur sous la forme de jours non ouvrables.
 
-&#x200B;- Les jours fériés marquant les instructeurs comme indisponibles, les sessions Live Hub ne peuvent pas être planifiées à ces dates.
+- Les jours fériés marquant les instructeurs comme indisponibles, les sessions Live Hub ne peuvent pas être planifiées à ces dates.
 
-&#x200B;- Chaque jour férié nécessite une date et un nom ; une description est facultative.
+- Chaque jour férié nécessite une date et un nom ; une description est facultative.
 
-&#x200B;- Vous pouvez ajouter des jours fériés un par un ou importer plusieurs jours fériés à la fois à l’aide d’un fichier CSV.
+- Vous pouvez ajouter des jours fériés un par un ou importer plusieurs jours fériés à la fois à l’aide d’un fichier CSV.
 
-&#x200B;- Une fois ajoutés, les jours fériés apparaissent sur la page **Jours fériés**, où vous pouvez les consulter, les rechercher et les gérer.
+- Une fois ajoutés, les jours fériés apparaissent sur la page **Jours fériés**, où vous pouvez les consulter, les rechercher et les gérer.
 
 Voir [Gérer les jours fériés](../../../getting-started-with-live-hub/manage-holidays.md) pour plus d&#39;informations.
 

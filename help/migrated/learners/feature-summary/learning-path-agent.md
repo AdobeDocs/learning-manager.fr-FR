@@ -2,7 +2,10 @@
 description: L’agent Parcours d’apprentissage de Adobe Learning Manager est un assistant optimisé par l’IA qui génère un plan d’apprentissage personnalisé et séquencé en fonction de vos objectifs, de votre expérience et du temps disponible.
 jcr-language: en_us
 title: Agent du parcours d’apprentissage (bêta) dans Adobe Learning Manager
-source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2201'
 ht-degree: 0%

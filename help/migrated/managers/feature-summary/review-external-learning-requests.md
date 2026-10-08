@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Soumettre un apprentissage externe dans Adobe Learning Manager
 description: Les responsables peuvent examiner les demandes d’apprentissage externes soumises par les membres de leur équipe, vérifier les détails et tout justificatif d’accomplissement, et approuver ou rejeter chaque demande avec un commentaire facultatif. Les envois approuvés sont ajoutés au relevé de notes de l’élève.
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 1%
-
 ---
-
 
 # Examiner les demandes d’apprentissage externes en tant que responsable
 
@@ -105,4 +106,4 @@ Le relevé de notes de l’élève administrateur et le relevé de notes de l’
 
 Les champs personnalisés configurés par votre administrateur apparaissent sous forme de colonnes dynamiques à la fin des deux exportations de relevé de notes une fois qu’une soumission est approuvée.
 
-Le filtrage basé sur la date dans le relevé de notes de l&#39;élève administrateur pour les lignes d&#39;apprentissage externes est basé sur la **date d&#39;achèvement**, qui correspond à la date d&#39;approbation.
+Le filtrage basé sur la date dans le relevé de notes de l&#39;élève administrateur pour les lignes d&#39;apprentissage externes est fondé sur la **date d&#39;achèvement**, qui correspond à la date d&#39;approbation.

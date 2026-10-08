@@ -1,13 +1,14 @@
 ---
 title: Rôle des auteurs dans la session Live Hub
 description: Découvrez ce que fait un auteur dans Adobe Learning Manager lors de la création, la configuration et la publication de cours de classe virtuelle qui utilisent Live Hub pour une formation en direct dirigée par un instructeur.
-source-git-commit: 9c6d29b7ed2741069378bc016a765a4427191143
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
-
 ---
-
 
 # Rôle des auteurs dans la session Live Hub
 

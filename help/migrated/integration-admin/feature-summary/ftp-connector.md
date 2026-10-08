@@ -3,21 +3,22 @@ description: Découvrez comment intégrer le connecteur FTP à Adobe Learning Ma
 jcr-language: en_us
 title: Connecteur FTP
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 0%
-
 ---
 
-
-# Connecteur FTP dans Adobe Learning Manager
+# CONNECTEUR FTP dans Adobe Learning Manager
 
 ## Introduction
 
 FTP (File Transfer Protocol) est un protocole réseau standard utilisé pour transférer des fichiers entre un client et un serveur via Internet ou un réseau local. Il permet aux utilisateurs de charger, télécharger et gérer des fichiers sur un serveur distant. Pour les transferts de fichiers sécurisés, des variantes telles que SFTP (SSH File Transfer Protocol) et FTPS (FTP Secure) sont couramment utilisées. Le protocole FTP est largement adopté dans les environnements d’entreprise pour automatiser l’exchange des données entre les systèmes, comme la synchronisation des données utilisateur ou de formation entre Adobe Learning Manager et les plates-formes externes.
 
-Ce document fournit aux administrateurs d’intégration des instructions détaillées sur la configuration et l’utilisation du connecteur FTP dans Adobe Learning Manager. Le connecteur FTP permet un exchange automatisé des données entre Learning Manager et les systèmes externes à l’aide de protocoles de transfert de fichiers sécurisés.
+Ce document fournit aux administrateurs d’intégration des instructions détaillées sur la configuration et l’utilisation du connecteur FTP dans Adobe Learning Manager. Le connecteur FTP permet un exchange automatisé des données entre Learning Manager et des systèmes externes à l’aide de protocoles de transfert de fichiers sécurisés.
 
 Vous apprendrez à configurer des connexions FTP, à mapper des champs de données, à planifier des importations ou des exportations automatisées d’utilisateurs et à surveiller l’activité de synchronisation. Ce guide prend en charge une intégration fluide et sécurisée avec des plateformes d’apprentissage externes ou des systèmes de RH. Vous pouvez importer des utilisateurs internes et des instructions xAPI, et exporter des compétences utilisateur, des relevés de notes d’élèves et des données xAPI.
 
@@ -36,7 +37,7 @@ Effectuez ces opérations à la demande ou en configurant une planification qui 
 
 Avant de configurer le connecteur FTP, assurez-vous que votre environnement répond aux exigences suivantes :
 
-- Rôle d&#39;administrateur d&#39;intégration avec autorisations du connecteur FTP.
+- Rôle d’administrateur d’intégration avec autorisations de connecteur FTP.
 - Connexion Internet stable avec bande passante suffisante pour les transferts de fichiers.
 - Configuration du pare-feu permettant le trafic FTP sur les ports requis.
 - Accès au port requis, en fonction de vos exigences de sécurité
@@ -100,7 +101,7 @@ Pour configurer le connecteur FTP :
    ![](assets/ftp-connector1.png)
    _L&#39;interface du connecteur FTP de Adobe Learning Manager affiche le bouton Prise en main_
 
-3. Sélectionnez **Suivant** pour continuer avec l&#39;Assistant de configuration du connecteur FTP.
+3. Sélectionnez **Suivant** pour poursuivre l&#39;exécution de l&#39;assistant de configuration du connecteur FTP.
 
    ![](assets/ftp-connector2.png)
    La page de configuration _affiche le bouton Suivant pour poursuivre la configuration du connecteur FTP_
@@ -173,12 +174,12 @@ Le mappage d’attributs établit la connexion entre vos données externes et la
 
 Pour mapper les attributs :
 
-1. Sélectionnez **Utilisateurs internes** dans la page **Connecteur FTP**.
+1. Sélectionnez **Utilisateurs internes** dans la page **connecteur FTP**.
 2. Sélectionnez **Mappage de colonnes**.
 3. Dans la page **Attributs de mappage** :
    - Le **côté gauche** affiche les champs requis dans Adobe Learning Manager.
    - Le **côté droit** affiche les noms des colonnes CSV. Initialement, ce côté contient des listes déroulantes vides.
-   - Sélectionnez **Choisir CSV** pour charger un exemple de fichier CSV. Cette opération renseigne la liste déroulante de droite avec les noms de colonne de votre fichier CSV. Consultez [cet article](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/migration-manual#csv).
+   - Sélectionnez **Choisir CSV** pour charger un exemple de fichier CSV. Cette opération renseigne la liste déroulante de droite avec les noms de colonne de votre fichier CSV. Consultez [cet article](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv).
    - Mappez chaque champ Adobe Learning Manager à la colonne CSV correspondante.
 
    ![](assets/ftp-connector6.png)
@@ -205,7 +206,7 @@ Pour configurer une source :
    _Page de gestion des configurations avec le bouton Ajouter une nouvelle configuration et la liste de configuration existante_
 
 3. Saisissez **Nom** et **Nom du fichier source** :
-   - **Nom :** Identificateur descriptif pour cette source xAPI (par exemple, intégration LMS ou système de formation externe).
+   - **Nom :** identifiant descriptif pour cette source xAPI (par exemple, intégration LMS ou système de formation externe).
    - **Nom du fichier source :** nom de fichier exact qui sera chargé dans votre dossier FTP (doit correspondre exactement, extension de fichier comprise).
 
    ![](assets/ftp-connector8.png)
@@ -248,13 +249,13 @@ Pour mapper les champs :
 
 3. Par défaut, mappez les champs obligatoires suivants :
    - **actor.mbox :** Cela représente l’adresse e-mail de l’élève (l’acteur qui exécute le cours)
-l&#39;action). Il identifie de manière unique l&#39;auteur de l&#39;activité.
-   - **verb.id:** Il s&#39;agit de l&#39;identifiant de l&#39;action effectuée par l&#39;élève, tel que
-terminé, tenté ou réussi. Cette option spécifie l’action de l’élève.
+     l&#39;action). Il identifie de manière unique l&#39;auteur de l&#39;activité.
+   - **verb.id:** Il s&#39;agit de l&#39;identifiant de l&#39;action effectuée par l&#39;élève, telle que
+     terminé, tenté ou réussi. Cette option spécifie l’action de l’élève.
    - **object.id:** Cela indique l’objet ou l’activité d’apprentissage avec lequel l’élève a interagi,
-comme un cours, un module ou un parcours d’apprentissage.
+     comme un cours, un module ou un parcours d’apprentissage.
 4. Sélectionnez **Ajouter un nouveau mappage** pour mapper des champs supplémentaires.
-5. Pour chaque champ, sélectionnez le **type de données** approprié (chaîne, nombre, booléen ou date).
+5. Pour chaque champ, sélectionnez le **type de données** approprié (chaîne, nombre, Booléen ou date).
 6. Sélectionnez **Enregistrer** pour terminer le mappage.
 
 ## Planification de l’importation
@@ -308,9 +309,9 @@ Pour afficher l’état d’exécution :
    - **Durée :** temps total requis pour le traitement.
    - **Type d&#39;importation :** si l&#39;importation a été planifiée ou à la demande.
    - **État actuel :** informations d&#39;état en temps réel.
-      - **En cours :** importation en cours d&#39;exécution
-      - **Terminé :** Terminé avec succès avec un nombre d&#39;enregistrements
-      - **Échec :** une erreur s&#39;est produite avec les informations de diagnostic
+     - **En cours :** importation en cours d&#39;exécution
+     - **Terminé :** Terminé avec succès avec un nombre d&#39;enregistrements
+     - **Échec :** une erreur s&#39;est produite avec les informations de diagnostic
 
 ## Résolution des problèmes d’importation
 

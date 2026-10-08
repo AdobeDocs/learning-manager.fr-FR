@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Tableau de bord de réussite du groupe
 description: En savoir plus sur le tableau de bord de réussite de groupe dans Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
-
 ---
-
 # Tableau de bord de réussite du groupe
 
 ## Introduction
@@ -26,9 +27,9 @@ Le tableau de bord de réussite de groupe offre les éléments suivants :
 
 * **Simplifie le suivi de la progression des élèves** : le tableau de bord de réussite de groupe fournit une vue conviviale en temps réel des données des élèves, réduisant ainsi le besoin de relevés de notes Excel. Les responsables et les administrateurs peuvent afficher rapidement les inscriptions des élèves et la progression du cours pour prendre en charge des scénarios clés tels que :
 
-   * **Préparation à l&#39;examen des performances** : les responsables peuvent évaluer la progression du cours pour les membres de l&#39;équipe avant les cycles d&#39;évaluation.
-   * **Surveillance de la conformité** : identifiez les élèves qui n&#39;ont pas terminé les formations obligatoires.
-   * **Suivi au niveau de l’équipe** : les responsables des franchises, des magasins ou des régions peuvent s’assurer que leurs équipes terminent l’apprentissage requis à temps.
+  * **Préparation à l&#39;examen des performances** : les responsables peuvent évaluer la progression du cours pour les membres de l&#39;équipe avant les cycles d&#39;évaluation.
+  * **Surveillance de la conformité** : identifiez les élèves qui n&#39;ont pas terminé les formations obligatoires.
+  * **Suivi au niveau de l’équipe** : les responsables des franchises, des magasins ou des régions peuvent s’assurer que leurs équipes terminent l’apprentissage requis à temps.
 
 * **Facilite la gestion d’équipe** : le tableau de bord de réussite de groupe est utile pour les responsables disposant de petites équipes (moins de 50 personnes), tels que les responsables de magasins, les responsables de franchise, les responsables de concession ou les équipes internes. Elle fournit une vue d’équipe et permet aux responsables de vérifier rapidement si leur équipe a terminé l’ensemble de cours requis pour atteindre les objectifs de l’entreprise.
 
@@ -41,7 +42,7 @@ Un administrateur peut activer et créer les tableaux de bord en leur donnant un
 L’administrateur doit activer le tableau de bord de réussite de groupe pour le compte. Pour activer le tableau de bord de réussite de groupe, procédez comme suit :
 
 1. Connectez-vous en tant qu’administrateur.
-2. Sélectionnez **[!UICONTROL Paramètres]**&#x200B;puis **[!UICONTROL Rapports]**.
+2. Sélectionnez **[!UICONTROL Paramètres]**puis **[!UICONTROL Rapports]**.
 3. Sélectionnez le bouton bascule **[!UICONTROL Visibilité du tableau de bord]**.
 4. Tapez le nom du tableau de bord (par exemple, **[!UICONTROL Tableau de bord du gestionnaire de magasins]**).
    ![](assets/enable-gsd.png)

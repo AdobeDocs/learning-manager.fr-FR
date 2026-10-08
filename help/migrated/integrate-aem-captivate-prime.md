@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Intégration de Adobe Learning Manager à AEM
 description: Découvrez comment intégrer Adobe Learning Manager à Adobe Experience Manager (AEM)
 contentowner: saghosh
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 74%
-
 ---
-
 
 
 # Intégration de Learning Manager à AEM
@@ -34,7 +35,7 @@ Installez le package de contenu Learning Manager à l’aide du Gestionnaire de 
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=fr#how-to-work-with-packages).
+>Pour plus d&#39;informations sur l&#39;installation des packs, voir [***Utilisation des packs***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. En tant qu’auteur AEM, ouvrez le Gestionnaire de packages AEM.
 

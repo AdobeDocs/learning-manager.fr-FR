@@ -4,13 +4,14 @@ title: Ajouter des utilisateurs par groupe
 description: Découvrez comment ajouter plusieurs utilisateurs à la fois.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 23%
-
+source-wordcount: '369'
+ht-degree: 37%
 ---
-
 # Ajouter des utilisateurs par groupe
 
 >[!INFO]
@@ -29,9 +30,9 @@ Vous pouvez ajouter plusieurs utilisateurs à la fois en procédant comme suit :
 
 1. Après l’importation du fichier, vous devez mapper le contenu du fichier.csv avec les libellés de l’application lorsque vous chargez un fichier.csv pour la première fois.
 
-   Pour tous les téléchargements ultérieurs, les paramètres précédents des libellés sont pris en compte. Cliquez sur **[!UICONTROL Enregistrer]** après avoir terminé le mappage des données et cliquez sur **[!UICONTROL Ajouter]** pour télécharger le fichier .csv mappé.
+   Pour tous les téléchargements ultérieurs, les paramètres précédents des libellés sont pris en compte. Cliquez sur **[!UICONTROL Enregistrer]** après l’exécution du mappage des données et cliquez sur **[!UICONTROL Ajouter]** pour télécharger le fichier .csv mappé.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** après avoir terminé le mappage des données et cliquez sur **[!UICONTROL Ajouter]** pour télécharger le fichier .csv mappé.
+1. Cliquez sur **[!UICONTROL Enregistrer]** après l’exécution du mappage des données et cliquez sur **[!UICONTROL Ajouter]** pour télécharger le fichier .csv mappé.
 
 ## Téléchargement CSV avec les champs obligatoires {#csvuploadwithmandatoryfields}
 
@@ -43,9 +44,9 @@ Dans ce cas, par défaut, l’administrateur de votre société est traité comm
 >
 >Pour ajouter de nouveaux utilisateurs, créez un fichier CSV avec leurs détails et chargez-le. La mise à jour et le rechargement d’un fichier CSV existant ne sont pas pris en charge.
 
-**Exemple CSV** 
+**Exemple CSV**
 
-L’exemple de fichier CSV pour Learning Manager est disponible ci-dessous avec des champs obligatoires.
+L&#39;exemple de fichier CSV pour Learning Manager est disponible ci-dessous avec les champs obligatoires.
 [Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
 ## Téléchargement CSV avec tous les champs {#csvuploadwithallthefields}
@@ -58,9 +59,9 @@ Avant d’inclure l’ID de messagerie du responsable pour tout employé, assure
 
 En outre, les administrateurs d&#39;une organisation peuvent s&#39;ajouter **eux-mêmes** en tant qu&#39;employés et mentionner l&#39;ID de messagerie de leur responsable en tant que racine.
 
-**Exemple CSV** 
+**Exemple CSV**
 
-L’exemple de fichier CSV pour Learning Manager est disponible ci-dessous avec tous les champs.
+L’exemple de fichier CSV pour Learning Manager est disponible ci-dessous avec tous les champs.
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
 
 Reportez-vous au contenu d&#39;aide sur l&#39;[utilisation du chargement CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md) pour plus d&#39;informations.

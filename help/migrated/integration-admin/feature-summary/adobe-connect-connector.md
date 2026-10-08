@@ -1,17 +1,18 @@
 ---
-description: Découvrez comment intégrer le connecteur Adobe Connect à Adobe Learning Manager
+description: Découvrez comment intégrer Adobe Connect connecteur à Adobe Learning Manager
 jcr-language: en_us
-title: Connecteur Adobe Connect
+title: connecteur Adobe Connect
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 2%
-
 ---
 
-
-# Connecteur Adobe Connect dans Adobe Learning Manager
+# connecteur Adobe Connect dans Adobe Learning Manager
 
 ## Introduction
 
@@ -25,7 +26,7 @@ Pour configurer Adobe Connect :
 2. Passez le curseur de la souris sur la vignette **Adobe Connect** et sélectionnez **Se connecter**.
 
    ![](assets/adobe-connect-connector1.png)
-   _Sélectionnez Se connecter pour configurer Adobe Connect Connector_
+   _Sélectionnez Se connecter pour configurer Adobe Connect Connecteur_
 
 3. Saisissez les informations suivantes :
 
@@ -117,5 +118,5 @@ L’administrateur peut alors consulter les résultats importés :
 
 - **Présence et score :** affichez les scores et la présence du quiz final.
 - **Score du quiz L2 :**
-   - **Par utilisateur :** affiche les scores individuels en points et en pourcentages.
-   - **Par question :** affiche les résultats du quiz dans un graphique de rapport.
+  - **Par utilisateur :** affiche les scores individuels en points et en pourcentages.
+  - **Par question :** affiche les résultats du quiz dans un graphique de rapport.

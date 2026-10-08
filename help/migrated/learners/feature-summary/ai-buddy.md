@@ -3,13 +3,14 @@ description: L’assistant AI (Beta) pour les élèves est un compagnon de conve
 jcr-language: en_us
 title: Assistant IA pour les élèves dans Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 0%
-
 ---
-
 # Assistant d’IA pour les élèves
 
 L’assistant AI (Beta) pour les élèves les aide à trouver rapidement des réponses à partir du contenu d’apprentissage attribué sans parcourir l’intégralité des cours. Vous pouvez poser des questions dans un langage simple et recevoir des réponses précises et ciblées avec des liens sources vers le contenu du cours concerné.
@@ -96,7 +97,7 @@ L’assistant AI aide Marcus à :
 
 ### Intégration d’un nouvel employé
 
-Jennifer vient de se joindre à l&#39;entreprise et est submergée par la quantité de matériel de formation. Elle a besoin d’un moyen de trouver des informations spécifiques sans passer en revue l’intégralité des cours.
+Jennifer vient de se joindre à la compagnie et est submergée par la quantité de matériau de formation. Elle a besoin d’un moyen de trouver des informations spécifiques sans passer en revue l’intégralité des cours.
 
 L’assistant AI aide Jennifer à :
 

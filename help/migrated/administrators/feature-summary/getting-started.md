@@ -4,13 +4,14 @@ title: Prise en main en tant qu’administrateur
 description: Utilisez la page de prise en main pour parcourir les principales fonctionnalités d’administration de Adobe Learning Manager.
 contentowner: manochan
 exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 66%
-
+source-wordcount: '167'
+ht-degree: 90%
 ---
-
 # Prise en main en tant qu’administrateur
 
 La page Prise en main vous permet de parcourir les principales fonctionnalités de l’application.
@@ -19,7 +20,7 @@ Dès que vous ouvrez une session en tant qu’administrateur, vous pouvez visual
 
 ## Affichage d’exemples de vidéos {#viewsamplevideos}
 
-Parcourez les didacticiels des exemples de vidéos pour comprendre les principales fonctionnalités de votre rôle en tant qu’administrateur. Si vous ne souhaitez pas que cette fenêtre contextuelle apparaisse lors de la connexion, vous pouvez la désactiver en cliquant sur l&#39;option **[!UICONTROL Ne pas afficher à la connexion]** dans le coin inférieur droit de la fenêtre contextuelle.
+Parcourez les didacticiels des exemples de vidéos pour comprendre les principales fonctionnalités de votre rôle en tant qu’administrateur. Si vous ne voulez pas que cette fenêtre contextuelle apparaisse pendant la connexion, vous pouvez la désactiver en cliquant sur l’option **[!UICONTROL Ne pas afficher à la connexion]**, dans l’angle inférieur droit de la fenêtre.
 
 Cliquez sur **[!UICONTROL Fermer la fenêtre]** pour fermer la fenêtre contextuelle.
 

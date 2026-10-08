@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Catalogues
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 26%
-
 ---
-
 # Les catalogues
 
 Découvrez comment utiliser les catalogues dans Learning Manager afin d’afficher les objets d’apprentissage éligibles
@@ -21,7 +22,7 @@ Les élèves peuvent visionner tous les objets d’apprentissage éligibles qui 
 
 Vous pouvez trier les objets d’apprentissage en fonction de différentes catégories, telles que les produits, les rôles professionnels, les types, le temps nécessaire, les compétences et les mots-clés. Vous pouvez également filtrer à l’aide des options du volet de gauche : par objet d’apprentissage, par compétence et par état d’achèvement.
 
-Utilisez la barre de recherche située en haut de la page pour saisir les noms de vos objets d’apprentissage familiers. Les élèves peuvent passer de la grille à la vue liste en sélectionnant cette icône ![](assets/icon-list.png).
+Utilisez la barre de recherche située en haut de la page pour saisir les noms de vos objets d’apprentissage familiers. Les élèves peuvent basculer entre la vue grille et la vue liste en sélectionnant cette icône ![](assets/icon-list.png).
 
 ![](assets/catalogs.png)
 *Afficher les catalogues*

@@ -4,16 +4,17 @@ jcr-language: en_us
 title: Emprunt d’identité de l’élève et du responsable
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 56%
-
+source-wordcount: '518'
+ht-degree: 59%
 ---
-
 # Emprunt d’identité de l’élève et du responsable {#impersonation-of-learner-and-manager}
 
-Dans les grandes organisations, le personnel du service clientèle a besoin d’une fonctionnalité d’emprunt d’identité pour déboguer les problèmes rencontrés par les élèves.
+Dans les grandes entreprises, le personnel du service client a besoin d’une fonctionnalité d’emprunt d’identité pour déboguer les problèmes rencontrés par les élèves.
 
 Grâce à cette possibilité d’emprunter l’identité d’autres utilisateurs, les administrateurs peuvent identifier et effectuer toutes les activités effectuées par les élèves et les responsables de leur organisation.
 
@@ -83,12 +84,12 @@ Chaque connexion est comptée séparément dans le rapport.
 Oui, la connexion d’un utilisateur est indépendante de l’emprunt d’identité.
 +++
 
-+++ Les événements d’emprunt d’identité sont-ils comptabilisés de manière unique ?
++++Les événements d’emprunt d’identité sont-ils comptabilisés de manière unique ?
 
 Oui, chaque accès/visite de connexion par l’administrateur pendant l’emprunt d’identité sera compté séparément.
 +++
 
-+++Quel est le délai d’expiration de l’emprunt d’identité ?
++++Quel est le délai d’expiration de l’emprunt d’identité ?  
 
 Il est de 60 minutes. Si un utilisateur qui emprunte l’identité ferme la fenêtre du navigateur, puis accède à une URL principale dans les 60 minutes, l’activité d’emprunt d’identité se poursuit et le message de bannière doit s’afficher.
 +++

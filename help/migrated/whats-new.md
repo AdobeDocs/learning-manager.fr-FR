@@ -3,13 +3,14 @@ description: Découvrez les nouvelles fonctionnalités et améliorations de la v
 jcr-language: en_us
 title: Nouveautés de la version d’août 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 5820baa285787af20e7257001b4fb35337d5972a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version d’août 2026 de Adobe Learning Manager
 
 ## Gradebook
@@ -90,7 +91,7 @@ Adobe Learning Manager inclut désormais le compositeur de contenu, un outil de 
 
 Fonctionnalités clés :
 
-* L&#39;IA conversationnelle guide les auteurs à travers les objectifs de formation, le matériel source et les objectifs d&#39;apprentissage pour générer un résumé et un plan de cours complets.
+* L&#39;IA conversationnelle guide les auteurs à travers les objectifs de formation, le matériau source et les objectifs d&#39;apprentissage pour générer un résumé et un plan de cours complets.
 * La génération basée sur les documents limite la sortie de l’IA à vos fichiers chargés, ce qui est essentiel pour la conformité, la réglementation et la formation basée sur les procédures.
 * Génération d’un cours complet en une seule passe, par exemple des leçons, des sujets, du texte, des images, des vérifications de connaissances et des questionnaires notés.
 * Système de thème visuel avec modes clair et sombre, commandes de police, prise en charge des en-têtes et pieds de page et exportation JSON pour une personnalisation avancée.

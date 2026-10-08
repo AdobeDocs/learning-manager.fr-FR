@@ -3,13 +3,14 @@ description: Apprenez à créer un contenu aligné sur les cours en tant que con
 jcr-language: en_us
 title: Bibliothèque de contenu
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 33%
-
 ---
-
 # Bibliothèque de contenu
 
 Apprenez à créer un contenu aligné sur les cours en tant que contenu d’auto-apprentissage.
@@ -54,7 +55,7 @@ Le tableau ci-dessous affiche les types de fichiers interactifs et statiques que
    <p>Pour les évaluations à enjeux élevés ou surveillées (comme les examens de conformité ou de certification), l’Adobe recommande :</p>
    <ul>
       <li>Conserver le contenu SCORM lourd en évaluation dans les catalogues qui ne sont pas configurés comme sources de l’assistant de l’élève, ou</li>
-      <li>Concevoir les évaluations de sorte que la simple reformulation du matériel pédagogique n’expose pas de manière banale les bonnes réponses.</li>
+      <li>Concevoir des évaluations de sorte que la simple reformulation du matériau d’apprentissage n’expose pas de manière triviale les bonnes réponses.</li>
    </ul>
    <p>Ce comportement est attendu : Adobe Learning Manager n’empêche pas l’Assistant Élève d’expliquer le contenu qui se trouve dans les catalogues que vous sélectionnez explicitement comme sources d’IA.</p>
     </td>
@@ -798,7 +799,7 @@ Cela aidera les élèves à obtenir la dernière version du contenu.
 
 Consultez ce [blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) pour plus d&#39;informations.
 
-### Contrôle de version du contenu pour les élèves qui ont terminé un cours
+### Gestion de versions de contenu pour les élèves qui ont terminé un cours
 
 Adobe Learning Manager offre désormais aux auteurs des options plus claires pour gérer les mises à jour de contenu. Les auteurs peuvent mettre à jour le contenu déjà disponible dans un cours. Lorsqu’une nouvelle version est ajoutée, le numéro de version apparaît en regard du contenu.
 

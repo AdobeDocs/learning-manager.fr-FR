@@ -2,13 +2,14 @@
 description: Trouvez des réponses aux questions courantes du compositeur de contenu sur la modification des contours, le comportement du quiz, la compatibilité des Captivate, la publication et le partage pour révision.
 jcr-language: en_us
 title: FAQ sur Adobe Learning Manager Content Composer
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 0%
-
 ---
-
 
 # FAQ sur Adobe Learning Manager Content Composer
 

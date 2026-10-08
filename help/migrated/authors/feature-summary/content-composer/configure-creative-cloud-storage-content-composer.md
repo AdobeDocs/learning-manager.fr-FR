@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Configuration du stockage dans un Creative Cloud pour Adobe Learning Manager Content Composer
 description: Découvrez comment configurer le stockage dans un Creative Cloud pour Adobe Learning Manager Content Composer. Ce guide explique pourquoi le stockage des mots de Creative Cloud est requis, comment les administrateurs peuvent attribuer l’offre d’abonnement gratuit dans Adobe Admin Console et comment résoudre les problèmes d’accès liés au stockage.
 contentowner: saghosh
-source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # Configuration du stockage dans un Creative Cloud pour Adobe Learning Manager Content Composer
 
@@ -94,4 +95,4 @@ Vérifiez que l’utilisateur dispose d’un droit de stockage par Creative Clou
 
 Si l’administrateur Adobe Admin Console face un problème lors de l’affectation d’un stockage de mot de Creative Cloud ou du débogage de problèmes d’accès, le problème peut nécessiter une prise en charge au niveau du compte d’entreprise. Dans ce cas, contactez l’assistance aux entreprises d’Adobe via les options d’assistance disponibles en Admin Console.
 
-Pour plus d&#39;informations, consultez les [options de support Adobe Enterprise](https://helpx.adobe.com/fr/business/enterprise/get-help/support-options/support-for-enterprise.html)
+Pour plus d&#39;informations, consultez les [options de support Adobe Enterprise](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)

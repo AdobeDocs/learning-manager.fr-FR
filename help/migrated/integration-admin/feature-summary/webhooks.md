@@ -4,13 +4,14 @@ title: Webhooks
 description: Découvrez les webhooks pour envoyer des informations en temps réel, telles que les inscriptions aux cours, la création de cours et d’autres informations, à une URL spécifique
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1648'
 ht-degree: 0%
-
 ---
-
 # Webhooks
 
 ## Introduction
@@ -287,7 +288,7 @@ Vous pouvez utiliser ces événements de webhook pour :
 
 **Déclencher des workflows en aval** tels que des réaffectations, des notifications ou le recalcul de certifications et de badges.
 
-**Conserver les journaux d’audit** en consignant l’eventId, l’horodatage et l’eventInfo avec les identifiants de l’élève et du parcours d’apprentissage.
+**Conserver les journaux d’audit** en enregistrant les événements eventId, timestamp et eventInfo avec les identifiants de l’élève et du parcours d’apprentissage.
 
 Au minimum, votre gestionnaire de webhook doit :
 
@@ -331,7 +332,7 @@ Deux nouveaux types d’événements de webhook affichent les statuts finaux :
 
 * `accountId` identifie le compte ALM.
 * `events` est un tableau d&#39;objets d&#39;événement.
-* `eventId` correspond à l&#39;identificateur de demande asynchrone d&#39;origine.
+* `eventId` correspond à l&#39;identifiant de la demande asynchrone d&#39;origine.
 * `eventName` indique une opération d&#39;ajout ou de suppression.
 * `timestamp` affiche l&#39;heure d&#39;achèvement.
 * `data.status` signale actuellement « SUCCESS » pour les lots réussis.

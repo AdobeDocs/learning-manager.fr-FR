@@ -1,21 +1,22 @@
 ---
-description: Découvrez comment intégrer le connecteur ADFS à Adobe Learning Manager
+description: Découvrez comment intégrer ADFS connecteur à Adobe Learning Manager
 jcr-language: en_us
-title: Connecteur ADFS
+title: CONNECTEUR ADFS
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
-
 ---
 
-
-# Connecteur ADFS dans Adobe Learning Manager
+# CONNECTEUR ADFS dans Adobe Learning Manager
 
 ## Introduction
 
-Le connecteur ADFS dans Adobe Learning Manager vous permet d’intégrer Microsoft Azure Active Directory à l’aide des services ADFS (Active Directory Federation Services). Cette intégration permet la synchronisation automatique des données utilisateur d’Azure AD vers Learning Manager. Grâce à des fonctionnalités telles que le mappage des attributs, le filtrage des utilisateurs et les importations planifiées, le connecteur permet de rationaliser la gestion des utilisateurs et garantit que les données des élèves restent précises et à jour. Elle est particulièrement utile pour les organisations qui s’appuient sur ADFS pour la gestion centralisée des identités et des accès.
+Le Connecteur ADFS dans Adobe Learning Manager vous permet d’intégrer Microsoft Azure Active Directory à l’aide des services ADFS (Active Directory Federation Services). Cette intégration permet la synchronisation automatique des données utilisateur d’Azure AD vers Learning Manager. Grâce à des fonctionnalités telles que le mappage d’attributs, le filtrage utilisateur et les importations planifiées, le connecteur permet de rationaliser la gestion des utilisateurs et de s’assurer que les données des élèves restent exactes et à jour. Elle est particulièrement utile pour les organisations qui s’appuient sur ADFS pour la gestion centralisée des identités et des accès.
 
 ## Conditions préalables
 
@@ -48,7 +49,7 @@ Pour créer un secret client :
 Pour ajouter une autorisation d’API :
 
 1. Sélectionnez **Autorisations API**, puis **Ajouter une autorisation**.
-2. Sélectionnez **Microsoft Graph**, puis **Autorisations de l&#39;application**.
+2. Sélectionnez **Graphe Microsoft**, puis **Autorisations de l&#39;application**.
 3. Recherchez et sélectionnez les autorisations suivantes :
 
    - **Directory.Read.All** - Lire les données du répertoire
@@ -56,14 +57,14 @@ Pour ajouter une autorisation d’API :
 4. Sélectionnez **Ajouter des autorisations**.
 5. Accordez le **consentement de l&#39;administrateur** pour les autorisations.
 
-## Configuration du connecteur ADFS dans Learning Manager
+## Configuration du Connecteur ADFS dans Learning Manager
 
 Vous pouvez configurer le connecteur ADFS dans Adobe Learning Manager pour importer les données utilisateur à partir d’ADFS, exporter les compétences des utilisateurs vers ADFS et planifier des synchronisations automatisées pour maintenir les deux systèmes à jour.
 
 Pour configurer le connecteur ADFS :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
-2. Survolez la vignette du connecteur **ADFS**.
+2. Survolez la vignette de connecteur **ADFS**.
 3. Sélectionnez **Se connecter**.
 
    ![](assets/adfs-connector1.png)

@@ -4,13 +4,14 @@ title: Impossible d’afficher le calendrier
 description: Lorsqu’un administrateur tente de modifier la date d’expiration d’un profil d’inscription externe et clique sur le calendrier pour modifier la date d’expiration, le calendrier ne s’affiche pas.
 contentowner: saghosh
 exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 88%
-
+source-wordcount: '171'
+ht-degree: 95%
 ---
-
 # Impossible d’afficher le calendrier
 
 ## Problème
@@ -26,7 +27,7 @@ Lorsqu’un administrateur tente de modifier la date d’expiration d’un profi
 Le problème se produit pour les raisons suivantes :
 
 * Le niveau de zoom du navigateur est supérieur à 100 %.
-* L’échelle et la disposition dans les paramètres d’affichage sont supérieures à 100 %.
+* L’échelle et la disposition des paramètres d’affichage sont supérieures à 100 %.
 
 ## Résolution
 
