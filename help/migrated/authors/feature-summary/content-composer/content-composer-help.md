@@ -2,13 +2,14 @@
 title: Aide de Adobe Learning Manager Content Composer (Beta)
 description: Adobe Learning Manager Content Composer transforme une invite en langage clair en un cours prêt à la publication avec des leçons, des évaluations et des médias à l’aide de l’IA.
 contentowner: saghosh
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
-
 ---
-
 
 # Aide de Adobe Learning Manager Content Composer (Beta)
 
@@ -20,12 +21,12 @@ ht-degree: 0%
 
 Adobe Learning Manager Content Composer est un outil de création de cours d’IA qui transforme une invite en langage clair en un cours structuré et prêt à être publié, comprenant des leçons, des évaluations et des médias, sans nécessiter d’expérience préalable de conception pédagogique.
 
-Le compositeur de contenu guide les auteurs à travers les objectifs de formation, le matériel source et les objectifs d’apprentissage par la conversation, puis génère des cours qui sont pédagogiquement solides, adaptés à la marque et prêts à être publiés directement sur Adobe Learning Manager.
+Le compositeur de contenu guide les auteurs à travers les objectifs de formation, le matériau source et les objectifs d’apprentissage par la conversation, puis génère des cours qui sont pédagogiquement solides, adaptés à la marque et prêts à être publiés directement sur Adobe Learning Manager.
 
 **Principales caractéristiques**
 
 - **Création de cours guidés par l’IA** : une IA conversationnelle pose des questions ciblées pour transformer les objectifs de formation en objectifs d’apprentissage clairs et mesurables.
-- **Génération basée sur le document** : les auteurs chargent des documents, des stratégies ou des platines existants. L’IA génère un résumé et un plan à partir de ce matériel ; les auteurs acceptent ou modifient le contenu avant de construire quoi que ce soit.
+- **Génération basée sur le document** : les auteurs chargent des documents, des stratégies ou des platines existants. L&#39;IA génère un résumé et un plan à partir de ce matériau ; les auteurs acceptent ou modifient avant que quoi que ce soit ne soit construit.
 - **Sortie didactique** : les cours, évaluations et médias sont générés à l&#39;aide de principes d&#39;apprentissage structurés, ce qui garantit une sortie pédagogique efficace et pas seulement rapide à produire.
 - **Publication directe sur Adobe Learning Manager** : les cours terminés sont publiés directement sur Adobe Learning Manager ; aucun outil de création distinct, aucune exportation SCORM manuelle.
 - **Workflow à système unique** : la création de cours, la gestion des élèves et la génération de rapports restent sur une seule plateforme, ce qui élimine la charge de travail liée à la gestion de plusieurs outils de création et de diffusion.

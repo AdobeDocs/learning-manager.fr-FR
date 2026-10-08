@@ -2,13 +2,14 @@
 description: Ce document résume les modifications apportées aux rapports d’août 2026 dans Adobe Learning Manager. Elle couvre les colonnes nouvelles et mises à jour du relevé de notes de l'élève, de la formation, de l'inscription, de la liste d'attente, de la présence, de l'audit de contenu et des rapports utilisateur. Il explique également le comportement adaptatif du cours, la notation des classeurs, les enregistrements d’apprentissage externes, les rapports de crédit d’IA générale, le suivi de la certification racine, la normalisation des horodatages et les mises à jour des auteurs d’API.
 jcr-language: en_us
 title: Rapports sur les modifications de la version d’août 2026 de Adobe Learning Manager
-source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 2%
-
 ---
-
 
 # Rapports sur les modifications de la version d’août 2026 de Adobe Learning Manager
 
@@ -137,7 +138,7 @@ Dans le relevé de notes de l’élève administrateur, toutes les nouvelles col
 
 ### Colonne Type dans le relevé de notes de l’élève
 
-Les entrées d’apprentissage externe apparaissent désormais à côté des objets d’apprentissage existants (cours, parcours d’apprentissage, certifications) dans Administrator LT. La colonne **Type** inclut une nouvelle classification d&#39;apprentissage externe pour un filtrage facile.
+Les entrées d’apprentissage externe apparaissent désormais à côté des objets d’apprentissage existants (cours, parcours d’apprentissage, certifications) dans Administrator LT. La colonne **Type** inclut une nouvelle classification d&#39;apprentissage externe pour faciliter le filtrage.
 
 Les données d’apprentissage externes sont transférées à la fois dans le relevé de notes de l’élève et dans Admin LT. Les champs de base tels que la date d&#39;achèvement, l&#39;état et le score sont mappés aux colonnes existantes. Les champs personnalisés sont ajoutés en tant que colonnes supplémentaires.
 
@@ -178,7 +179,7 @@ Le tableau de bord présente les mesures suivantes au niveau du compte.
 
 ### Certification racine : ID de formation racine
 
-Une nouvelle colonne **ID de formation racine** est ajoutée à la fin du **relevé de notes de l’élève administrateur** et du **relevé de notes de l’élève** (vue en libre-service de l’élève). Il capture l&#39;identifiant unique qui lie toutes les récurrences d&#39;une certification à une seule entité racine. Cela permet d&#39;associer toutes les instances récurrentes d&#39;une certification à un seul ID racine pour le suivi et le filtrage.
+Une nouvelle colonne **ID de formation racine** est ajoutée à la fin du **relevé de notes de l’élève administrateur** et du **relevé de notes de l’élève** (vue en libre-service de l’élève). Il capture l&#39;identifiant unique qui lie toutes les récurrences d&#39;une certification à une seule entité racine. Cela permet d’associer toutes les instances récurrentes d’une certification à un ID racine unique pour le suivi et le filtrage.
 
 ### Normalisation de l’horodatage du webhook et du relevé de notes de l’élève
 

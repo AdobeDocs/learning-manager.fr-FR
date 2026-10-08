@@ -4,13 +4,14 @@ title: Manuel du développeur d’applications
 description: Découvrez comment intégrer et personnaliser des applications à l’aide d’API RESTful, couvrant des sujets essentiels tels que l’authentification OAuth 2.0, les scénarios d’utilisation des API et les modèles de données. Améliorez vos applications d’entreprise avec des fonctionnalités telles que la création de cours, le suivi des progrès des élèves, le mappage des compétences, la certification, la ludification, etc. Ce guide fournit des instructions étape par étape et des exemples réels pour aider les développeurs à créer des workflows transparents et efficaces. Idéal pour les développeurs qui cherchent à tirer parti des fonctionnalités de Adobe Learning Manager pour créer des applications centrées sur l’élève.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
-ht-degree: 7%
-
+source-wordcount: '4577'
+ht-degree: 6%
 ---
-
 
 # Manuel du développeur Adobe Learning Manager
 
@@ -54,14 +55,14 @@ Intégrez Adobe Learning Manager à des applications externes pour une plus gran
    * **[!UICONTROL Description]** : brève description de l&#39;action de l&#39;application.
    * **[!UICONTROL Domaines]** : sélectionnez l’une des six options disponibles pour définir la portée de votre application. En fonction de votre choix mentionné ici, les points de terminaison de l’API Learning Manager sont accessibles pour votre application. Par exemple, si vous avez choisi Accès en lecture au rôle d’élève, tous les points de terminaison de l’API de l’élève Learning Manager sont accessibles en lecture seule à votre application.
 
-      * Accès en lecture/écriture au rôle d’administrateur : permet à l’application d’accéder aux données ou de les modifier en tant qu’administrateur.
-      * Accès en lecture/écriture au rôle d’élève : permet à l’application d’accéder aux données des élèves ou de les modifier.
-      * Accès en lecture/écriture xAPI : permet à l’application d’accéder aux instructions Experience API (xAPI) et de les envoyer.
+     * Accès en lecture/écriture au rôle d’administrateur : permet à l’application d’accéder aux données ou de les modifier en tant qu’administrateur.
+     * Accès en lecture/écriture au rôle d’élève : permet à l’application d’accéder aux données des élèves ou de les modifier.
+     * Accès en lecture/écriture xAPI : permet à l’application d’accéder aux instructions Experience API (xAPI) et de les envoyer.
 
    * **[!UICONTROL Pour ce compte uniquement ?]**
 
-      * **[!UICONTROL Oui]** : si vous choisissez Oui, l&#39;application n&#39;est pas visible pour les autres administrateurs de compte.
-      * **[!UICONTROL Non]** : si vous choisissez Non, les autres administrateurs de compte peuvent également accéder à cette application, mais ils doivent utiliser l’id de l’application pour y accéder. L’identifiant de l’application est généré et affiché dans le mode Édition de l’application Learning Manager.
+     * **[!UICONTROL Oui]** : si vous choisissez Oui, l&#39;application n&#39;est pas visible pour les autres administrateurs de compte.
+     * **[!UICONTROL Non]** : si vous choisissez Non, les autres administrateurs de compte peuvent également accéder à cette application, mais ils doivent utiliser l’id de l’application pour y accéder. L’identifiant de l’application est généré et affiché dans le mode Édition de l’application Learning Manager.
 
      ![Texte optionnel](assets/register-an-app.png)
 

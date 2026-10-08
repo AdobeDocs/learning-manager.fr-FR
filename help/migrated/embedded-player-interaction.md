@@ -4,13 +4,14 @@ title: Documentation sur les API d’interaction avec le lecteur intégré
 description: Découvrez les différentes API permettant d’écouter des événements et de déclencher des actions dans le lecteur intégré de Adobe Learning Manager
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 70%
-
 ---
-
 # Documentation sur les API d’interaction avec le lecteur intégré
 
 Adobe Learning Manager fournit une bibliothèque pouvant être intégrée dans une application. Cette bibliothèque fournit diverses API permettant d’écouter des événements et de déclencher des actions dans le lecteur intégré.

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Ajout d’utilisateurs dans Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 2%
-
 ---
-
 
 # Ajout d’utilisateurs dans Adobe Learning Manager
 
@@ -38,7 +39,7 @@ Les administrateurs peuvent ajouter des utilisateurs internes à l’aide des m�
 
 ### Ajouter manuellement un utilisateur interne
 
-Les administrateurs peuvent ajouter manuellement un utilisateur en indiquant son nom, son adresse e-mail, son identifiant unique et le nom du responsable. L’identifiant unique dans Adobe Learning Manager est un identifiant obligatoire que les administrateurs doivent attribuer lors de la création d’un utilisateur. Il doit être unique pour chaque utilisateur et servir de référence cohérente dans tout le système.
+Les administrateurs peuvent ajouter manuellement un utilisateur en indiquant son nom, son adresse e-mail, son identifiant unique et le nom du responsable. L’Identifiant Unique dans Adobe Learning Manager est un identifiant obligatoire que les administrateurs doivent attribuer lors de la création d’un utilisateur. Il doit être unique pour chaque utilisateur et servir de référence cohérente dans tout le système.
 
 >[!INFO]
 >
@@ -57,7 +58,8 @@ Pour ajouter un seul utilisateur à Adobe Learning Manager :
    ![](assets/add-a-user-prompt.png)
    _Champs pour saisir le nom, l’adresse électronique, l’identifiant unique et le profil d’un nouvel utilisateur_
 5. Recherchez le responsable de l’utilisateur et sélectionnez le nom dans la liste des responsables.
-6. Sélectionnez **Ajouter**.L’utilisateur reçoit un e-mail de bienvenue contenant une URL de connexion pour y accéder.
+6. Sélectionnez **Ajouter**.
+L’utilisateur reçoit un e-mail de bienvenue contenant une URL de connexion pour y accéder.
 
 
 ### Autoriser l’auto-inscription pour les utilisateurs internes

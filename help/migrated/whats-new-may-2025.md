@@ -3,13 +3,14 @@ description: Découvrez les nouvelles fonctionnalités et améliorations de la v
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
-
 ---
-
 # Résumé des nouvelles fonctionnalités - Mai 2025
 
 La prochaine version de Adobe Learning Manager introduit une variété de nouvelles fonctionnalités et d’améliorations visant à rationaliser la plate-forme et à améliorer ses capacités.
@@ -51,7 +52,7 @@ Dans les configurations d’apprentissage complexes, les administrateurs peuvent
 
 L’Assistant Admin AI (Beta) de Adobe Learning Manager permet aux administrateurs de trouver rapidement des réponses aux questions courantes, d’explorer les fonctionnalités du système et de comprendre comment effectuer une tâche essentielle, simplement en posant des questions en langage clair. Que vous débutiez avec Adobe Learning Manager ou que vous recherchiez des moyens plus rapides de résoudre les problèmes, l’Assistant Admin AI (Beta) simplifie votre workflow en fournissant une aide contextuelle directement dans la plateforme.
 
-Il utilise les fonctionnalités d’IA d’Adobe pour activer les requêtes en langage naturel dans le contenu d’apprentissage et les workflows système.  Les administrateurs peuvent poser des questions telles que **Comment ajouter des utilisateurs à Adobe Learning Manager** ou **Comment ajouter des parcours d’apprentissage**. L&#39;assistant Adobe Learning Manager Admin AI Assistant (Beta) est formé exclusivement à la documentation publique appartenant à l&#39;Adobe, telle que les ressources hébergées sur **[!UICONTROL Experience League]**. Il n’apprend pas ni n’accède au contenu client, au matériel de formation interne ou aux données générées par les utilisateurs.
+Il utilise les fonctionnalités d’IA d’Adobe pour activer les requêtes en langage naturel dans le contenu d’apprentissage et les workflows système.  Les administrateurs peuvent poser des questions telles que **Comment ajouter des utilisateurs à Adobe Learning Manager** ou **Comment ajouter des parcours d’apprentissage**. L&#39;assistant Adobe Learning Manager Admin AI Assistant (Beta) est formé exclusivement à la documentation publique appartenant à l&#39;Adobe, telle que les ressources hébergées sur **[!UICONTROL Experience League]**. Il n’apprend pas ni n’accède au contenu client, au matériau de formation interne ou aux données générées par les utilisateurs.
 
 Consultez cet [article](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) pour plus d&#39;informations sur l&#39;Assistant IA (Beta).
 
@@ -76,7 +77,7 @@ Consultez cet [article](/help/migrated/administrators/feature-summary/content-ma
 
 ## Rapport d’accès à la connexion via FTP, FTP personnalisé et Box {#log-in-access-report}
 
-Les rapports d’accès de connexion sont désormais disponibles pour les connecteurs Box, FTP et FTP personnalisé, en plus des API de tâche existantes. Ce rapport fournit des informations détaillées sur les activités de connexion utilisateur, notamment le statut d&#39;exécution, les paramètres de compression et les options de planification. Le rapport peut être généré à la demande ou de manière planifiée, et les données sont stockées dans le connecteur spécifié pour un accès et une analyse faciles. Cette amélioration améliore la capacité à surveiller et à auditer les activités de connexion des utilisateurs, assurant ainsi un meilleur suivi de la sécurité et de la conformité.
+Les rapports d’accès de connexion sont désormais disponibles pour les connecteurs Box, FTP et FTP personnalisé, en plus des API de tâche existantes. Ce rapport fournit des informations détaillées sur les activités de connexion utilisateur, notamment le statut d&#39;exécution, les paramètres de compression et les options de planification. Le rapport peut être généré à la demande ou de manière planifiée, et les données sont stockées dans le connecteur spécifié pour en faciliter l’accès et l’analyse. Cette amélioration améliore la capacité à surveiller et à auditer les activités de connexion des utilisateurs, assurant ainsi un meilleur suivi de la sécurité et de la conformité.
 
 Le rapport est désormais disponible dans les champs FTP, FTP et Box personnalisés, ainsi que les rapports existants, tels que la progression de l’élève et l’achèvement du cours. Cette intégration permet aux administrateurs d’accéder à tous les rapports nécessaires à partir d’une source unique, ce qui facilite la gestion et l’analyse des données.
 
@@ -103,7 +104,7 @@ Purger des utilisateurs signifie supprimer définitivement leurs données du sys
 
 Reportez-vous à cet [article](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging) pour plus d&#39;informations.
 
-## Améliorations du connecteur Adobe Connect
+## Améliorations d’Adobe Connect connecteur
 
 ### Prise en charge de séminaires destinés à un large public
 
@@ -148,7 +149,7 @@ Ce champ n&#39;est valide que si `hasQuiz` a la valeur true. En outre, si seul `
 * `QUIZ_PASSED` signifie que l’élève sera marqué comme ayant réussi le quiz, s’il réussit le quiz conformément aux critères définis dans le contenu du quiz. Par exemple, le module Scorm définit les critères et les signale à Adobe Learning Manager.
 * `QUIZPASSED_OR_LIMITREACHED` signifie que l’élève sera marqué comme ayant réussi le quiz si l’élève a réussi le quiz ou a dépassé le nombre limite.
 
-`successViewPercent` : accepte les valeurs entières comprises entre 0 et 100.
+`successViewPercent` : accepte des valeurs entiers comprises entre 0 et 100.
 
 * Ce critère accepte une valeur de pourcentage que l’élève doit obtenir pour réussir le quiz
 Modifications apportées au webhook.

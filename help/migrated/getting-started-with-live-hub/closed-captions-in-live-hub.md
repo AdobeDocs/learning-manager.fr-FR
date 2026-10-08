@@ -1,13 +1,14 @@
 ---
 title: Sous-titres dans les sessions Live Hub
 description: Découvrez comment les sous-titres affichent le contenu parlé en temps réel afin que les instructeurs et les élèves puissent suivre les sessions Live Hub.
-source-git-commit: e5c05e030c1254b41d8a3197a168b6cd1aafb18b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 
 Les sous-titres transcrivent le contenu parlé en temps réel pendant une session Live Hub. Les participants voient le texte parlé à l’écran pendant la conversation. Les sous-titres sont utiles lorsque le son n’est pas clair, par exemple, dans des environnements bruyants ou lorsque les participants préfèrent lire en même temps. Les sous-titres sont particulièrement utiles dans les situations où le son n’est pas clair, comme dans les environnements bruyants ou lorsque les participants préfèrent lire en même temps que la discussion.
 

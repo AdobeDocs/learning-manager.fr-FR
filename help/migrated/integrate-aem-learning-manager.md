@@ -4,13 +4,14 @@ title: Intégration de Adobe Learning Manager à AEM
 description: Learning Manager est un système de gestion de l’apprentissage doté d’un système de gestion de contenu d’apprentissage intégré. Les utilisateurs gèrent leur contenu d’apprentissage en le chargeant vers Learning Manager, de sorte que Learning Manager exécute le contrôle de version, l’allocation aux cours, la définition de la visibilité pour les élèves, le suivi de la consommation et la génération de rapports aux administrateurs.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3817'
 ht-degree: 45%
-
 ---
-
 
 # Intégration de Adobe Learning Manager à AEM
 
@@ -115,7 +116,7 @@ Pour approuver l’application, cliquez sur **[!UICONTROL Approuver]**.
 ## Configuration d’un compte ALM dans AEM
 
 1. Lancez votre instance AEM.
-1. Cliquez sur **Paramètres** > **Cloud Service**.
+1. Cliquez sur **Paramètres** > **Cloud Services**.
 1. Cliquez sur **Configuration Adobe Learning Manager**.
 
    ![](assets/alm-configuration.png)
@@ -361,7 +362,7 @@ Pour la configuration du widget, l’auteur AEM n’a besoin que du jeton d’ac
 
 Vous pouvez également définir plusieurs configurations de compte dans plusieurs pages.
 
-1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Configuration du widget Learning Manager]**.
+1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Configuration du widget Learning Manager]**.
 1. Cliquez sur **[!UICONTROL Créer]**.
 1. Entrez ici le jeton d’actualisation. Configurez les autres paramètres.
 1. Le nom d&#39;hôte doit être remplacé par **learningmanagereu** pour les régions de l&#39;UE.
@@ -419,19 +420,19 @@ Les options du catalogue contiennent les options suivantes :
 
 * **[!UICONTROL ID de catalogue]:** ID de catalogue séparés par des virgules pour lesquels la formation doit être affichée.
 * **[!UICONTROL Trier]:** ordre de tri pour la formation. Les options de tri suivantes sont disponibles :
-   * name : trie les objets d&#39;apprentissage par ordre alphabétique de A à Z.
-   * -name : Trie les objets d&#39;apprentissage par ordre alphabétique de Z à A.
-   * date : trie par date par ordre croissant.
-   * -date : trie par date dans l’ordre décroissant (au plus tard en premier).
-   * dateCreated : trie par date de création de l&#39;objet d&#39;apprentissage (le plus ancien en premier).
-   * -dateCreated : Trie par date de création (la plus récente en premier).
-   * dateEnrolled : trie les données par date d’inscription de l’élève (au plus tôt).
-   * -dateEnrolled : trie par date d’inscription (la plus récente en premier).
-   * Évaluation : Trie les données par évaluation de l’élève (de la plus basse à la plus élevée).
-   * -rating : Trie par notes (du plus haut au plus bas).
-   * dueDate : Trie les données par date d&#39;échéance du cours (première échéance).
-   * efficacité : trie par scores d&#39;efficacité en fonction des commentaires des élèves.
-   * progression : trie par progression de l’élève (de la plus faible à la plus élevée).
+  * name : trie les objets d&#39;apprentissage par ordre alphabétique de A à Z.
+  * -name : Trie les objets d&#39;apprentissage par ordre alphabétique de Z à A.
+  * date : trie par date par ordre croissant.
+  * -date : trie par date dans l’ordre décroissant (au plus tard en premier).
+  * dateCreated : trie par date de création de l&#39;objet d&#39;apprentissage (le plus ancien en premier).
+  * -dateCreated : Trie par date de création (la plus récente en premier).
+  * dateEnrolled : trie les données par date d’inscription de l’élève (au plus tôt).
+  * -dateEnrolled : trie par date d’inscription (la plus récente en premier).
+  * Évaluation : Trie les données par évaluation de l’élève (de la plus basse à la plus élevée).
+  * -rating : Trie par notes (du plus haut au plus bas).
+  * dueDate : Trie les données par date d&#39;échéance du cours (première échéance).
+  * efficacité : trie par scores d&#39;efficacité en fonction des commentaires des élèves.
+  * progression : trie par progression de l’élève (de la plus faible à la plus élevée).
 * **[!UICONTROL État de l’élève]:** renvoie toutes les formations qui utilisent les éléments suivants en tant que filtres : inscrit, démarré, terminé et non inscrit. Les résultats de la recherche ne s’affichent pas si l’option de tri est dateEnrolled (date d’inscription), dueDate (date d’échéance) ou dateEnrolled.
 * **[!UICONTROL Nom de la compétence]:** Compétence utilisée pour filtrer la formation exacte.
 * **[!UICONTROL Nom de la balise]:** La balise utilisée pour filtrer les résultats exacts.

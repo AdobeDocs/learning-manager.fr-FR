@@ -1,22 +1,23 @@
 ---
 jcr-language: en_us
 title: Guide de déploiement Learning Manager
-description: Learning Manager est un système de gestion de l’apprentissage (LMS) qui permet aux professionnels de la formation de fournir des supports d’apprentissage attrayants et suivis qui peuvent contribuer aux besoins ou aux objectifs d’une organisation. Learning Manager permet principalement aux formateurs ou responsables d’affecter des cours et autres objets d’apprentissage, dans un ordre spécifique.
+description: Learning Manager est un système de gestion de l’apprentissage (LMS) qui permet aux professionnels de la formation de proposer des matériaux d’apprentissage attrayants et suivis qui peuvent contribuer aux besoins ou aux objectifs d’une organisation. Learning Manager permet principalement aux formateurs ou responsables d’affecter des cours et autres objets d’apprentissage, dans un ordre spécifique.
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3264'
 ht-degree: 76%
-
 ---
-
 # Guide de déploiement Learning Manager
 
 ## Introduction {#introduction}
 
-Learning Manager est un système de gestion de l’apprentissage (LMS) qui permet aux professionnels de la formation de fournir des supports d’apprentissage attrayants et suivis qui peuvent contribuer aux besoins ou aux objectifs d’une organisation. Learning Manager permet principalement aux formateurs ou responsables d’affecter des cours et autres objets d’apprentissage, dans un ordre spécifique. Cet outil offre également plusieurs fonctionnalités puissantes, dont un lecteur fluidique multiformat, la gamification, les badges, le tableau de bord des élèves facile à utiliser. Toutefois, pour tirer parti de toutes ces fonctionnalités, il est essentiel de configurer Learning Manager au préalable.
+Learning Manager est un système de gestion de l’apprentissage (LMS) qui permet aux professionnels de la formation de proposer des matériaux d’apprentissage attrayants et suivis qui peuvent contribuer aux besoins ou aux objectifs d’une organisation. Learning Manager permet principalement aux formateurs ou responsables d’affecter des cours et autres objets d’apprentissage, dans un ordre spécifique. Cet outil offre également plusieurs fonctionnalités puissantes, dont un lecteur fluidique multiformat, la gamification, les badges, le tableau de bord des élèves facile à utiliser. Toutefois, pour tirer parti de toutes ces fonctionnalités, il est essentiel de configurer Learning Manager au préalable.
 
 Ce guide fournit des instructions détaillées pour se familiariser avec Learning Manager. Ce document fournit également les informations de configuration et d’installation, en détail. Lisez ce qui suit pour bien démarrer avec Learning Manager.
 

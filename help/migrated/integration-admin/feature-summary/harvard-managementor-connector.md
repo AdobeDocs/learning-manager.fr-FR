@@ -3,13 +3,14 @@ description: Découvrez comment intégrer Harvard ManageMentor à Adobe Learning
 jcr-language: en_us
 title: Connecteur Harvard ManageMentor
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 1%
-
 ---
-
 
 # Connecteur Harvard ManageMentor dans Adobe Learning Manager
 
@@ -33,7 +34,7 @@ Pour configurer le connecteur :
 
 1. Connectez-vous en tant qu’administrateur d’intégration.
 2. Sélectionnez **Harvard ManageMentor** sur la page d&#39;accueil.
-3. Sélectionnez l’une des options suivantes sur la mosaïque du connecteur :
+3. Sélectionnez l’une des options suivantes sur la vignette de connecteur :
    - **Prise en main**
    - **Connexion**
    - **Gérer les connexions**
@@ -74,7 +75,7 @@ Pour activer la connexion :
 4. Sélectionnez **Activer la connexion**, puis **Enregistrer**.
 
    ![](assets/harvard-managementor-connector5.png)
-   _Activez le connecteur Harvard ManageMentor pour importer les données_
+   _Activer le connecteur Harvard ManageMentor pour importer les données_
 
 ### Planification de la synchronisation
 
@@ -144,5 +145,5 @@ Assurez-vous que les fichiers suivants sont présents dans le dossier Harvard Ma
 
 **Fichiers d’exemple**
 
-- [Fichier de métadonnées de cours pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=fr)
-- [Fichier de flux utilisateur pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=fr)
+- [Fichier de métadonnées de cours pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
+- [Fichier de flux utilisateur pour le connecteur Harvard ManageMentor](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)

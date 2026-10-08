@@ -1,13 +1,14 @@
 ---
 title: À propos des sondages dans Live Hub
 description: Découvrez comment la fonctionnalité d’interrogation permet aux instructeurs de créer et de lancer des sondages, et aux élèves de répondre en temps réel, lors d’une session Live Hub.
-source-git-commit: d83ea719a3a7ecfa9fba64f12d249213850ba29a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
-
 ---
-
 
 # À propos des sondages
 

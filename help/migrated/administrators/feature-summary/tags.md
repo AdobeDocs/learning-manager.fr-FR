@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Balises
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 63%
-
+source-wordcount: '775'
+ht-degree: 71%
 ---
-
 # Balises
 
 Les administrateurs peuvent désormais gérer les balises dans Learning Manager. Utilisez un meilleur balisage et une base de données gérable pour faciliter les recherches pour les élèves et obtenir des résultats de recherche appropriés plus rapidement. Vous pouvez gérer les balises redondantes, mal orthographiées et non pertinentes à l’aide de cette fonctionnalité. Vous pouvez également ajouter, modifier, supprimer, associer ou remplacer des balises.
@@ -48,12 +49,12 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 ## Remplacement des balises {#replacetags}
 
-1. Sélectionnez les balises que vous voulez remplacer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le menu déroulant **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Remplacer]**.
+1. Sélectionnez les balises que vous voulez remplacer. Vous pouvez sélectionner jusqu’à 50 balises en même temps. Ouvrez le menu déroulant **[!UICONTROL Actions]** et sélectionnez **[!UICONTROL Remplacer]**.
 1. La boîte de dialogue **[!UICONTROL Remplacer les balises]** apparaît et affiche les balises sélectionnées.
 
 1. Dans l’option **[!UICONTROL Nom pour les balises remplacées]**, saisissez le nom de la nouvelle balise par laquelle vous souhaitez remplacer les balises sélectionnées. Vous pouvez les remplacer par une balise existante dans le menu déroulant ou ajouter une nouvelle balise.
 
-   Un point-virgule ou une virgule ne peut pas faire partie du nom de la balise.  Notez que les balises sans point-virgule et l’affichage de messages d’erreur lors de l’utilisation de ces balises dans certains objets d’apprentissage ne seront pas traités pour les scénarios de migration.
+   Les points-virgules ou les virgules ne peuvent pas faire partie du nom de balise.  Notez que les balises sans point-virgule et l’affichage de messages d’erreur lors de l’utilisation de ces balises dans certains objets d’apprentissage ne seront pas traités pour les scénarios de migration.
 
 1. Cliquez sur **[!UICONTROL Remplacer]**.
 
@@ -61,7 +62,7 @@ Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
 Dans le cas d’une opération d’ajout de balises, la balise nouvelle/existante est ajoutée à toutes les listes d’objets d’apprentissage et de groupes de contenus associés aux balises sélectionnées.
 
-1. Sélectionnez les balises que vous voulez associer. Vous pouvez sélectionner jusqu’à 50 balises à la fois. Ouvrez le menu déroulant Actions et sélectionnez **[!UICONTROL Ajouter]**.
+1. Sélectionnez les balises que vous voulez associer. Vous pouvez sélectionner jusqu’à 50 balises en même temps. Ouvrez le menu déroulant Actions et sélectionnez **[!UICONTROL Ajouter]**.
 1. La boîte de dialogue **[!UICONTROL Ajouter des balises]** s&#39;affiche et indique les balises sélectionnées.
 1. Vous pouvez associer une balise supplémentaire à tous les éléments d’apprentissage avec les balises sélectionnées en saisissant le nom de la **[!UICONTROL nouvelle balise]** ou dans la liste déroulante des balises existantes. La nouvelle balise sera associée à tous les éléments d’apprentissage dans Learning Manager.
 
@@ -81,6 +82,6 @@ En tant qu’administrateur, vous pouvez autoriser l’auteur à créer des bali
 
   Un message d’erreur s’affiche, suggérant que la balise sélectionnée n’est plus valide. Les nouvelles balises seront créées en supprimant les caractères non pris en charge. Dans ce cas, l’auteur doit s’assurer que ses anciennes balises ont bien été modifiées avant de les enregistrer.
 
-* Si l’utilisateur ne dispose pas des autorisations nécessaires pour créer de nouvelles balises, un message d’erreur s’affiche pour indiquer que la balise sélectionnée n’est plus valide. Les auteurs peuvent contacter l’administrateur pour modifier les balises non valides.
+* Si l’utilisateur n’a pas les autorisations nécessaires pour créer de nouvelles balises, un message d’erreur apparaît, informant que la balise sélectionnée n’est plus valide. Les auteurs peuvent contacter l’administrateur pour modifier les balises non valides.
 
-  Les auteurs ne peuvent pas créer ou enregistrer de balises non valides. Ils peuvent supprimer les balises non valides et ajouter toute autre balise valide existante, puis continuer.
+  Les auteurs ne peuvent pas créer ou enregistrer de balises non valides. Ils peuvent supprimer des balises non valides et ajouter des balises valides existantes et continuer.

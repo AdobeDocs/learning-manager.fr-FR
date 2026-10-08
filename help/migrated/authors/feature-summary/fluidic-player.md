@@ -4,13 +4,14 @@ title: Aperçu en tant qu’élève
 description: Le lecteur Fluidic est une plate-forme destinée aux élèves qui leur permet d’aborder le contenu avec une expérience d’apprentissage ininterrompue et mixte. Tous les formats pris en charge sont lus uniformément dans ce lecteur. Les auteurs et les administrateurs peuvent prévisualiser le contenu par le biais du lecteur.
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 68%
-
 ---
-
 # Aperçu en tant qu’élève
 
 ## Lecteur Fluidic {#fluidicplayer}

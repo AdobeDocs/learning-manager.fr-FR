@@ -1,21 +1,22 @@
 ---
-description: Découvrez comment intégrer le connecteur LinkedIn Learning à Adobe Learning Manager
+description: Découvrez comment intégrer LinkedIn Learning connecteur à Adobe Learning Manager
 jcr-language: en_us
 title: Connecteur LinkedIn Learning
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
-
 ---
 
-
-# Connecteur linkedIn Learning dans Adobe Learning Manager
+# connecteur d’apprentissage linkedIn dans Adobe Learning Manager
 
 ## Introduction
 
-Le connecteur LinkedIn Learning vous permet d’intégrer facilement du contenu LinkedIn Learning à Adobe Learning Manager. Grâce à ce connecteur, les organisations peuvent automatiquement importer des cours LinkedIn Learning dans Adobe Learning Manager afin que les élèves puissent y rechercher des cours LinkedIn, s’y inscrire et les terminer directement sur la plateforme.
+Le connecteur d’apprentissage LinkedIn vous permet d’intégrer facilement du contenu d’apprentissage LinkedIn à Adobe Learning Manager. Avec ce connecteur, les organisations peuvent automatiquement importer des cours LinkedIn Learning dans Adobe Learning Manager afin que les élèves puissent y rechercher des cours, s’y inscrire et les terminer directement sur la plateforme.
 
 Lors de la configuration, la progression des élèves sur le contenu d’apprentissage LinkedIn est suivie dans Adobe Learning Manager, ce qui permet aux administrateurs de surveiller les terminaisons et le temps passé. Vous pouvez planifier la synchronisation automatique du contenu, exécuter des importations à la demande et filtrer les cours importés dans votre système par langue, bibliothèque ou balises personnalisées.
 
@@ -40,24 +41,24 @@ Pour configurer les paramètres du portail d’apprentissage LinkedIn :
 7. Sélectionnez **Activer l&#39;intégration AICC**.
 
    ![](assets/linkedin-connector1.png)
-   _Sélectionnez Activer l’intégration AICC pour configurer le connecteur LinkedIn Learning_
+   _Sélectionnez Activer l’intégration AICC pour configurer le connecteur d’apprentissage LinkedIn_
 
 ## Connecter LinkedIn Learning à Adobe Learning Manager
 
-Pour configurer le connecteur LinkedIn Learning :
+Pour configurer le connecteur d’apprentissage LinkedIn :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
 2. Passez le curseur de la souris sur la vignette **LinkedIn Learning** et sélectionnez **Connect**.
 
    ![](assets/linkedin-connector2.png)
-   _Sélectionnez Se connecter pour configurer le connecteur LinkedIn Learning_
+   _Sélectionnez Se connecter pour configurer LinkedIn Learning connecteur_
 
 3. Sur la page de configuration de la connexion :
    - Tapez un **nom de connexion**.
    - Saisissez la **clé d&#39;application** et la **clé secrète**.
 
    ![](assets/linkedin-connector3.png)
-   _Tapez le nom de connexion, la clé d&#39;application et la clé secrète pour configurer le connecteur LinkedIn Learning_
+   _Tapez le nom de connexion, la clé d&#39;application et la clé secrète pour configurer le connecteur d&#39;apprentissage LinkedIn_
 
    >[!NOTE]
    >
@@ -74,14 +75,14 @@ Pour modifier une connexion existante, sélectionnez **Gérer les connexions** s
 
 ## Gestion de la connexion et de la synchronisation
 
-Pour gérer le connecteur LinkedIn Learning :
+Pour gérer le connecteur d’apprentissage LinkedIn :
 
 1. Sélectionnez **Gérer les connexions** et sélectionnez la connexion.
 2. Dans le volet de gauche, sélectionnez **Configurer**.
 3. Sélectionnez **Activer la connexion**.
 
    ![](assets/linkedin-connector4.png)
-   _Sélectionnez Activer la connexion dans la page Configurer le connecteur LinkedIn Learning_
+   _Sélectionnez Activer la connexion dans la page Configurer le connecteur d’apprentissage LinkedIn_
 
 4. Sélectionnez **Modifier** pour mettre à jour les informations d&#39;identification. Utilisez **Réinitialiser** pour annuler les modifications.
 5. Pour automatiser la synchronisation, sélectionnez **Activer la planification**.
@@ -113,7 +114,7 @@ Sélectionnez **État d’exécution** dans le volet de gauche pour afficher l�
 
 ## Filtrer le contenu d’apprentissage LinkedIn
 
-Lors de la configuration de votre connecteur, vous pouvez filtrer les cours d’apprentissage LinkedIn à importer.
+Lors de la configuration de votre connecteur, vous pouvez filtrer les cours LinkedIn Learning à importer.
 
 Pour configurer votre filtre :
 
@@ -122,7 +123,7 @@ Pour configurer votre filtre :
    - **Aucun filtre** - Importer tous les cours.
    - **Langue** : filtrez les cours par langue spécifique.
    - **Bibliothèque** : filtre les cours par bibliothèques d’apprentissage LinkedIn.
-3. Si vous effectuez un filtrage par **langue**, sélectionnez les langues souhaitées. Par exemple, **anglais** et **espagnol**.
+3. Si vous avez un filtrage de **langue**, sélectionnez les langues souhaitées. Par exemple, **anglais** et **espagnol**.
 4. Dans **Importer les formations dans**, sélectionnez l&#39;emplacement où les cours seront importés.
 5. Choisissez comment organiser les cours importés.
 6. Sélectionnez l’une des options ci-dessous pour l’option **Séparer les formations en fonction de** :
@@ -139,7 +140,7 @@ Pour configurer votre filtre :
 8. Dans le champ **Balise personnalisée**, saisissez une balise personnalisée que vous souhaitez attribuer. Séparez les balises par des virgules.
 
    ![](assets/linkedin-connector6.png)
-   _Sélectionnez les options de filtre pour importer les données à partir du connecteur LinkedIn Learning_
+   _Sélectionnez les options de filtrage pour importer les données du connecteur d’apprentissage LinkedIn_
 
 9. Si vous souhaitez que les élèves puissent se désinscrire de ces cours, sélectionnez **Les utilisateurs peuvent se désinscrire**.
 10. Sélectionnez **Enregistrer** pour appliquer votre filtre et importer les paramètres.

@@ -1,13 +1,14 @@
 ---
 title: Configuration requise pour Live Hub
 description: Configuration requise pour configurer et exécuter les sessions Live Hub dans Adobe Learning Manager, y compris les navigateurs pris en charge, les systèmes d’exploitation, les résolutions d’écran et le matériel.
-source-git-commit: 577448e876bc7ba56c6191705c7c894fc5991770
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 1%
-
 ---
-
 
 # Configuration système
 
@@ -27,4 +28,4 @@ Live Hub est disponible dans les sessions de salle de classe virtuelle et ne né
 
 >[!NOTE]
 >
->Les navigateurs Linux, les appareils Chromebook, Firefox Mobile, Opera (pour poste de travail et mobile), Internet Explorer 11 et les versions de navigateur plus anciennes ne sont pas pris en charge.
+>Les navigateurs Linux, les appareils Chromebook, Firefox Mobile, Opera (pour poste de travail et mobile), Internet Explorateur 11 et les versions de navigateur plus anciennes ne sont pas pris en charge.

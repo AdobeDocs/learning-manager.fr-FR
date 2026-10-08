@@ -1,13 +1,14 @@
 ---
 title: Participer en tant qu’élève à une session Live Hub
 description: Découvrez comment les élèves rejoignent une session Live Hub, participent en utilisant le chat, les sondages, les quiz et les salles de réunion, puis passent en revue l’enregistrement.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
-
 ---
-
 
 # Participer en tant qu’élève à une session Live Hub
 

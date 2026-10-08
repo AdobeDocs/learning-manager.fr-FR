@@ -3,13 +3,14 @@ description: Découvrez les nouvelles fonctionnalités et les améliorations de 
 jcr-language: en_us
 title: Résumé des nouvelles fonctionnalités, novembre 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # Résumé des nouvelles fonctionnalités, novembre 2024 {#new-features-summary}
 
 Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2024 de Adobe Learning Manager.
@@ -268,7 +269,7 @@ Voici les conditions pour la colonne `completionCriteria` :
 
 * Le type de données doit être une chaîne ou un nombre ; il s&#39;agit d&#39;un champ facultatif.
 * Les valeurs doivent être `ALL`, `X` et `SELECTEDMODULES`.
-* X est une valeur entière qui doit être supérieure à 0 et inférieure au nombre total de modules.
+* X est une valeur entier qui doit être supérieure à 0 et inférieure au nombre total de modules.
 * Si vous définissez `completionCriteria` sur `SELECTEDMODULES`, vous devez marquer les modules obligatoires dans le fichier [course_module.csv](assets/course_module.csv).
 * Dans la colonne `optionalCriteria`, saisissez `TRUE` ou `FALSE`. Si vous définissez la valeur sur `TRUE`, le module deviendra obligatoire.
 
@@ -553,7 +554,7 @@ Le rapport **[!UICONTROL Résumé de la session]** contiendra trois nouvelles co
 * Ajout de la prise en charge de l’inclusion des caractères spéciaux « + » et « - » dans les adresses électroniques lors de la création d’utilisateurs externes.
 * Correction d’un problème en raison duquel la synchronisation du rapport unifié du connecteur Marketo échouait si le rapport de compétences de l’utilisateur contenait des guillemets doubles dans la valeur d’enregistrement CSV.
 * Correction d’un problème en raison duquel le point de terminaison `/skills` renvoyait l’état correct pour l’API d’administration, mais que l’API de l’élève affichait systématiquement des données incorrectes ou mises en cache.
-* Correction d’un problème d’intégration Go1 pour les cours freemium qui échouait lorsque le connecteur Go1 n’était pas configuré sur le compte.
+* Correction d’un problème d’intégration Go1 pour les cours freemium qui échouait lorsque le compte n’avait pas configuré le connecteur Go1.
 * Correction d’un problème en raison duquel les cours du parcours d’apprentissage ne sont pas accessibles via la migration si l’élève a déjà terminé le parcours d’apprentissage.
 * Correction d’un problème en raison duquel le fichier CSV de l’utilisateur incrémentiel échouait lorsque le gestionnaire de l’utilisateur et le gestionnaire de niveau d’erreur étaient définis en tant que SU (Super utilisateur) au lieu d’administrateur et n’étaient pas inclus dans le fichier CSV.
 * Correction des problèmes d&#39;étendue pour les responsables de magasins dans les rapports de tableau de bord.

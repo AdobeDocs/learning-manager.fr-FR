@@ -4,16 +4,17 @@ title: Marché de contenus
 description: Learning Manager propose désormais un Marché de contenus qui vous permet d’explorer et d’acheter des formations. Explorez plus de 70 000 cours couvrant un large éventail de sujets, disponibles dans plusieurs formats. Faites votre choix parmi des listes de lecture sélectionnées qui correspondent à une grande variété de rôles et répondent à vos besoins en matière d’apprentissage et d’acquisition de compétences.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # Marché de contenus
 
-Les administrateurs d’apprentissage rencontrent souvent des difficultés pour rechercher et télécharger du contenu de qualité. Le Marché de contenus de Adobe Learning Manager simplifie ce processus en permettant l’attribution de licences pour des cours premium proposés par des fournisseurs de confiance, ce qui accélère et rend plus évolutive la prestation de l’apprentissage. À l’aide du Marché de contenus, les administrateurs peuvent parcourir, prévisualiser et acheter la licence de cours tiers proposés par des fournisseurs.
+Les administrateurs de l’apprentissage ont souvent face des problèmes de sourcing et de chargement de contenu de qualité. Le Marché de contenus de Adobe Learning Manager simplifie ce processus en permettant l’attribution de licences pour des cours premium proposés par des fournisseurs de confiance, ce qui accélère et rend plus évolutive la prestation de l’apprentissage. À l’aide du Marché de contenus, les administrateurs peuvent parcourir, prévisualiser et acheter la licence de cours tiers proposés par des fournisseurs.
 
 Le Marché de contenus propose les formules suivantes pour l’acquisition de contenu :
 
@@ -65,7 +66,7 @@ Pour parcourir et acquérir du contenu provenant de fournisseurs de contenu, pro
 
 2. Les administrateurs peuvent prévisualiser et explorer le Hub de contenu pour les formules **[!UICONTROL Premium Essentials]** et **[!UICONTROL Premium Essentials Plus]**.
 
-Les fournisseurs de contenu gèrent la suppression du contenu obsolète, en veillant à ce qu’aucun matériel d’apprentissage ne soit mis hors service sans avis préalable.
+Les fournisseurs de contenu gèrent la suppression du contenu obsolète, en veillant à ce qu’aucun matériau d’apprentissage ne soit mis hors service sans notification préalable.
 
 <!--
 Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.

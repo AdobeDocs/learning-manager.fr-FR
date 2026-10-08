@@ -3,13 +3,14 @@ description: Connecteur Box dans Adobe Learning Manager
 jcr-language: en_us
 title: Connecteur Box
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 1%
-
 ---
-
 
 # Connecteur Box dans Adobe Learning Manager
 
@@ -23,11 +24,11 @@ Avec ce connecteur, les administrateurs peuvent :
 - Exportez les données de compétence utilisateur et les relevés de notes des élèves vers des systèmes externes.
 - Importez des instructions d’activité xAPI à partir de systèmes tiers pris en charge.
 
-Le connecteur prend en charge le mappage des attributs, la synchronisation planifiée et l’exécution à la demande, ce qui aide les organisations à maintenir à jour les données utilisateur et d’apprentissage sur toutes les plateformes.
+Le connecteur prend en charge le mappage des attributs, la synchronisation planifiée et l’exécution à la demande, ce qui aide les organisations à maintenir à jour les données d’utilisateur et d’apprentissage sur toutes les plateformes.
 
 ## Configuration du connecteur Box
 
-Pour configurer le connecteur Box dans Adobe Learning Manager :
+Pour configurer le Connecteur Box dans Adobe Learning Manager :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
 2. Survolez la vignette **Box**.
@@ -58,7 +59,7 @@ Dans la page **Aperçu**, sélectionnez l&#39;une des actions suivantes :
 - **Exporter le relevé de notes de l’élève**
 - **Exporter le rapport d&#39;activité xAPI**
 
-Une fois connecté, Box Connector est prêt à synchroniser les données entre Adobe Learning Manager et vos systèmes externes.
+Une fois connecté, le Connecteur Box est prêt pour la synchronisation des données entre Adobe Learning Manager et vos systèmes externes.
 
 ## Importer les utilisateurs internes
 
@@ -70,7 +71,7 @@ Le mappage d’attributs établit la connexion entre vos données externes et la
 
 Pour mapper les attributs :
 
-1. Sélectionnez **Utilisateurs internes** dans la page du connecteur Box.
+1. Sélectionnez **Utilisateurs internes** dans la page connecteur Box.
 2. Sélectionnez **Mappage de colonnes**.
 3. Dans la page **Attributs de mappage** :
    - Le côté gauche affiche les champs requis dans Adobe Learning Manager.
@@ -98,7 +99,7 @@ Pour configurer une source :
 1. Accédez à la section de configuration xAPI.
 2. Sélectionnez **Ajouter une nouvelle configuration** dans la liste de configuration.
 3. Saisissez le **nom** et le **nom du fichier source**.
-   - Nom : identificateur descriptif de cette source xAPI (par exemple, Intégration LMS ou Système de formation externe).
+   - Nom : identifiant descriptif de cette source xAPI (par exemple, Intégration LMS ou Système de formation externe).
    - Nom du fichier source : nom de fichier exact qui sera chargé dans votre dossier Box (doit correspondre exactement, y compris l’extension de fichier).
 
    ![](assets/box-connector3.png)
@@ -174,6 +175,6 @@ Pour afficher l’état d’exécution :
    - **Durée :** temps total requis pour le traitement
    - **Type d&#39;importation :** si l&#39;importation a été planifiée ou à la demande
    - **État actuel :** informations d&#39;état en temps réel
-      - **En cours :** importation en cours d&#39;exécution
-      - **Terminé :** Terminé avec succès avec un nombre d&#39;enregistrements
-      - **Échec :** une erreur s&#39;est produite avec les informations de diagnostic
+     - **En cours :** importation en cours d&#39;exécution
+     - **Terminé :** Terminé avec succès avec un nombre d&#39;enregistrements
+     - **Échec :** une erreur s&#39;est produite avec les informations de diagnostic

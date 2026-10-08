@@ -1,13 +1,14 @@
 ---
 title: Bonnes pratiques pour une session Live Hub (Beta)
 description: Suivez ces bonnes pratiques pour préparer, exécuter et suivre une session Live Hub dans Adobe Learning Manager, pour les auteurs, les administrateurs, les instructeurs et les élèves.
-source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 0%
-
 ---
-
 
 # Bonnes pratiques pour une session Live Hub (Beta)
 
@@ -81,13 +82,13 @@ Choisissez la méthode d’affectation des participants en fonction de vos besoi
 
 * **Attribution manuelle** : permet aux instructeurs de placer les participants dans des salles spécifiques.
 
-### Charger des documents de référence sur l’IA
+### Charger des matériaux de référence IA
 
-Si votre session utilise des fonctionnalités de questions et réponses assistées par l’IA, chargez les documents d’accompagnement avant le début de la session.
+Si votre session utilise des fonctionnalités de questions et réponses assistées par l’IA, chargez les matériaux d’accompagnement avant le début de la session.
 
-Ajoutez des diapositives de présentation, des documents ou d’autres documents sources que les élèves sont censés référencer. La fourniture de contenu pertinent aide l’IA à générer des réponses plus précises et alignées sur les objectifs de la session.
+Ajoutez des diapositives de présentation, des documents ou d’autres matériaux sources que les élèves sont censés référencer. La fourniture de contenu pertinent aide l’IA à générer des réponses plus précises et alignées sur les objectifs de la session.
 
-Gardez les supports téléchargés à jour et incluez uniquement le contenu pertinent pour la session de formation.
+Gardez les matériaux chargés à jour et incluez uniquement le contenu pertinent pour la session de formation.
 
 ## Pendant la session
 
@@ -173,7 +174,7 @@ Encouragez les élèves à soumettre leurs commentaires avant de quitter la sess
 
 Après la session, accédez à l&#39;enregistrement à partir de la page **Sessions** > **Aperçu** et passez-le en revue avant de le partager avec les élèves.
 
-Utilisez les outils de modification pour supprimer les activités de configuration, les pauses ou tout autre contenu non essentiel afin que les élèves puissent se concentrer sur le matériel pédagogique.
+Utilisez les outils de modification pour supprimer les activités de configuration, les pauses ou tout autre contenu non essentiel afin que les élèves puissent se concentrer sur le matériau pédagogique.
 
 La transcription générée pendant l’enregistrement fournit une ressource d’apprentissage supplémentaire en rendant le contenu consultable et plus accessible pour les élèves qui réviseront la session ultérieurement.
 

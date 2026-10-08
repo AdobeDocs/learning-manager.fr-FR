@@ -1,14 +1,15 @@
 ---
 title: Recommandations dans Adobe Learning Manager
-description: Le cœur du moteur de recommandations est basé sur le nouvel algorithme de classement des cours de Learning Manager. L'algorithme utilise 50 millions de points de données et cinq années de données d'apprentissage agrégées sur des millions d'utilisateurs pour classer les cours en fonction de leur probabilité d'inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
+description: Le cœur du moteur de recommandation est basé sur le nouvel algorithme de classement des cours de Learning Manager. L'algorithme utilise 50 millions de points de données et cinq années de données d'apprentissage agrégées sur des millions d'utilisateurs pour classer les cours en fonction de leur probabilité d'inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 56%
-
 ---
-
 # Recommandations dans Adobe Learning Manager
 
 ## Introduction
@@ -25,7 +26,7 @@ Pour commencer à utiliser cette fonctionnalité, vous devez l’activer dans l�
 
 ## Algorithme de classement des cours
 
-Le noyau du moteur de recommandations est piloté par le nouvel **[!UICONTROL algorithme de classement des cours]** de Learning Manager. L&#39;algorithme utilise 50 millions de points de données et cinq années de données d&#39;apprentissage agrégées sur des millions d&#39;utilisateurs pour classer les cours en fonction de leur probabilité d&#39;inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
+Le noyau du moteur de recommandation est piloté par le nouvel **[!UICONTROL algorithme de classement des cours]** de Learning Manager. L&#39;algorithme utilise 50 millions de points de données et cinq années de données d&#39;apprentissage agrégées sur des millions d&#39;utilisateurs pour classer les cours en fonction de leur probabilité d&#39;inscription. Ce classement garantit que la plupart des cours auxquels les élèves peuvent s’inscrire sont affichés à l’avance.
 
 ## Termes clés
 
@@ -45,7 +46,7 @@ Trois workflows principaux sont impliqués dans la configuration du nouveau mote
 
 Les administrateurs configurent les valeurs des paramètres Produits, Rôles et Niveaux du compte. Par exemple, un fournisseur de solutions informatiques dont la clientèle principale est les banques peut configurer le paramètre « Product » pour qu’il ait des valeurs telles que Payment Gateway, Secure Cloud Storage, Fraud Detection System, Trading Platform, etc., et le paramètre « Role » pour qu’il ait des valeurs telles que Spécialiste de l’intégration, Administrateur réseau, Analyste des risques, Responsable de la conformité, etc.
 
-Les administrateurs bénéficient d’un workflow guidé dans Learning Manager pour configurer de manière optimale le moteur de recommandations et le personnaliser en fonction du cas d’utilisation du compte. En outre, les administrateurs peuvent également configurer des recommandations PRL en chargeant une seule fois un fichier CSV.
+Les administrateurs bénéficient d’un workflow guidé dans Learning Manager pour configurer de manière optimale le moteur de recommandation et personnaliser le moteur en fonction du cas d’utilisation du compte. En outre, les administrateurs peuvent également configurer des recommandations PRL en chargeant une seule fois un fichier CSV.
 
 1. Sélectionnez **[!UICONTROL Recommendations]** dans l&#39;application d&#39;administration.
 

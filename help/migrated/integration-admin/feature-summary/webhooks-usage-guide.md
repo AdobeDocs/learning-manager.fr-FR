@@ -4,13 +4,14 @@ title: Guide d’utilisation des webhooks
 description: En savoir plus sur l’utilisation des webhooks, les bonnes pratiques et les limitations
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 1%
-
 ---
-
 # Guide d’utilisation des webhooks
 
 Les webhooks permettent aux applications web de communiquer entre elles automatiquement et en temps réel.
@@ -188,11 +189,12 @@ L’un des cas d’utilisation pour lesquels les webhooks peuvent être utiles e
 
 La question est la suivante : comment les clients peuvent-ils créer une base de données en utilisant des événements de webhooks ?
 
-Étant donné que Adobe Learning Manager n’expose pas directement les enregistrements de table et le schéma, les clients peuvent compter sur la solution Webhooks pour créer une base de données externe en utilisant les événements pour la remplir. Dans cette version, nous fournissons des événements pour les objets d&#39;apprentissage, les instances d&#39;objets d&#39;apprentissage, l&#39;inscription, la désinscription, l&#39;achèvement, la progression et les statistiques des instances de cours.
+Étant donné que Adobe Learning Manager n’expose pas directement aux enregistrements de table et au schéma, les clients peuvent s’appuyer sur la solution Webhooks pour créer une base de données externe en utilisant les événements pour la remplir. Dans cette version, nous fournissons des événements pour les objets d&#39;apprentissage, les instances d&#39;objets d&#39;apprentissage, l&#39;inscription, la désinscription, l&#39;achèvement, la progression et les statistiques des instances de cours.
 
 ### Création d&#39;une base de données à partir d&#39;événements d&#39;objets d&#39;apprentissage
 
-Les événements d&#39;objet d&#39;apprentissage affichent `loId` et `loType` pour identifier une entité. Toutefois, ces attributs ne suffisent pas à créer une base de données d’objets d’apprentissage externes. Les clients auront besoin de champs supplémentaires pour décrire davantage l’objet d’apprentissage.Il existe deux approches pour récupérer les données supplémentaires :
+Les événements d&#39;objet d&#39;apprentissage exposent `loId` et `loType` à identifier une entité. Toutefois, ces attributs ne suffisent pas à créer une base de données d’objets d’apprentissage externes. Les clients auront besoin de champs supplémentaires pour décrire davantage l’objet d’apprentissage.
+Il existe deux approches pour récupérer les données supplémentaires :
 
 #### Générer un rapport de données de formation pour récupérer toutes les données
 
@@ -224,7 +226,7 @@ L’inscription, la désinscription, l’achèvement et la progression des élè
 
 #### Exporter le rapport d’utilisateur à partir de l’administrateur ou des connecteurs
 
-Cette approche doit être suivie chaque fois que des workflows en bloc sont impliqués, tels que l’inscription en bloc, la désinscription en bloc, etc. Le rapport d’utilisateur de Adobe Learning Manager contient toutes les informations relatives à un utilisateur. En corrélant le `userId` obtenu à partir de l’événement webhook, les clients peuvent consulter ce rapport (qui peut être exposé côté client en tant que point de terminaison de base de données, de cache ou d’API) pour récupérer des détails supplémentaires tels que le nom, l’adresse e-mail, l’UUID, etc. Cette approche peut être utilisée pour synchroniser les utilisateurs sur une base hebdomadaire ou quotidienne.
+Cette approche doit être suivie chaque fois que des workflows en bloc sont impliqués, tels que l’inscription en bloc, la désinscription en bloc, etc. Le rapport d’utilisateur de Adobe Learning Manager contient toutes les informations relatives à un utilisateur. En corrélant le `userId` obtenu à partir de l’événement webhook, les clients peuvent consulter ce rapport (qui peut être exposé côté client comme point de terminaison de base de données, de cache ou d’API) pour récupérer des détails supplémentaires tels que le nom, l’adresse e-mail, l’UUID, etc. Cette approche peut être utilisée pour synchroniser les utilisateurs sur une base hebdomadaire ou quotidienne.
 
 #### Requête d’informations à partir du GET d’API public /des utilisateurs - Portée d’administration
 
@@ -238,7 +240,8 @@ Le délai d’expiration de la connexion ALM est configuré sur 10 secondes et c
 
 ### Conservation des données
 
-Les événements sont conservés pendant 7 jours. Si elles ne sont pas traitées dans ce délai, elles sont définitivement perdues. Si la récupération a lieu le dernier jour et qu’un délai supplémentaire est nécessaire, le système ne prolonge pas la période de rétention.Si des événements sont produits plus rapidement qu’ils ne sont consommés, certains événements peuvent être perdus. Bien que cela soit rare, les abonnés doivent surveiller pour éviter que cela ne devienne un problème à long terme.
+Les événements sont conservés pendant 7 jours. Si elles ne sont pas traitées dans ce délai, elles sont définitivement perdues. Si la récupération a lieu le dernier jour et qu’un délai supplémentaire est nécessaire, le système ne prolonge pas la période de rétention.
+Si des événements sont produits plus rapidement qu’ils ne sont consommés, certains événements peuvent être perdus. Bien que cela soit rare, les abonnés doivent surveiller pour éviter que cela ne devienne un problème à long terme.
 
 ### Webhooks désactivés
 
@@ -248,7 +251,7 @@ Le processus de nouvelle tentative démarre avec un intervalle initial de 5 seco
 
 ### Duplication d’événements
 
-Si un abonné met plus de 5 secondes à répondre après le traitement d&#39;un événement, le système peut essayer de traiter à nouveau le même événement. Il est recommandé d’utiliser des ID d’événement pour suivre les événements déjà traités. En outre, si le webhook se bloque après l’envoi de l’événement mais avant l’enregistrement de son traitement, le même groupe d’événements peut être retenté. Il est recommandé d’utiliser des ID de lot ou des ID d’événement individuels pour reconnaître et ignorer les doublons.
+Si un abonné met plus de 5 secondes à répondre après le traitement d&#39;un événement, le système peut essayer de traiter à nouveau le même événement. Il est recommandé d’utiliser des ID d’événement pour suivre les événements déjà traités. En outre, si le webhook effectue un crash après l’envoi de l’événement mais avant l’enregistrement de son traitement, le même groupe d’événements peut être retenté. Il est recommandé d’utiliser des ID de lot ou des ID d’événement individuels pour reconnaître et ignorer les doublons.
 
 ### Recommandation pour la tolérance aux pannes
 

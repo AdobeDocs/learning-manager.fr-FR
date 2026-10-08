@@ -3,13 +3,14 @@ description: En savoir plus sur les relevés de notes des élèves
 jcr-language: en_us
 title: Modifications apportées aux relevés de notes des élèves
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # Modifications apportées aux relevés de notes des élèves dans la version d’avril
 
 ## Colonne Méthode d’achèvement
@@ -84,9 +85,9 @@ Les commentaires des réviseurs des modules de liste de contrôle sont désormai
 
 | Zone | Ancien nom de colonne | Nom de la nouvelle colonne | Annotations |
 |------|-----------------|-----------------|-------|
-| Relevés de notes des élèves (administrateur) | Commentaire de soumission | Remarques de l’évaluateur | S’applique à toutes les sources LT d’administration : interface utilisateur, API de tâche, connecteurs. |
+| Relevés de notes des élèves (administrateur) | Commentaire de soumission | Remarques de l’évaluateur | S’applique à toutes les sources LT d’administration : interface utilisateur, API de tâche, Connecteurs. |
 
-Cette modification s’applique uniformément à toutes les sources LT d’administration (exportations d’interface utilisateur, rapports d’API de tâche et connecteurs, le cas échéant). LT exporté par connecteur affichera les remarques du réviseur dans une colonne dédiée à la fin (pour les connecteurs qui n’exposaient pas précédemment le commentaire de soumission), ce qui garantit que les intégrations en aval peuvent distinguer le retour du réviseur des autres commentaires.
+Cette modification s’applique uniformément à toutes les sources LT d’administration (exportations d’interface utilisateur, rapports d’API de tâche et connecteurs, le cas échéant). LT exporté vers le connecteur affichera les remarques du réviseur dans une colonne dédiée à la fin (pour les connecteurs qui n’exposaient pas auparavant les commentaires de soumission), garantissant ainsi que les intégrations en aval peuvent distinguer les commentaires du réviseur des autres commentaires.
 
 **Impact :** permet aux élèves et aux administrateurs d&#39;afficher un retour d&#39;informations consolidé, améliorant la transparence et prenant en charge l&#39;évaluation des performances.
 

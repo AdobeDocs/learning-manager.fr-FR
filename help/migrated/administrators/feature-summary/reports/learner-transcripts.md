@@ -3,13 +3,14 @@ description: Les relevés de notes des élèves dans Adobe Learning Manager (ALM
 jcr-language: en_us
 title: Relevés de notes des élèves dans Adobe Learning Manager
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4883'
+source-wordcount: '4899'
 ht-degree: 7%
-
 ---
-
 # Relevés de notes des élèves dans Adobe Learning Manager
 
 ## Présentation
@@ -140,7 +141,7 @@ Les colonnes suivantes capturent l&#39;activité, la progression ou les tentativ
 | Tentatives effectuées | Nombre total de tentatives effectuées par l’élève jusqu’à présent pour ce module. |
 | Nombre maximal de tentatives autorisées | Nombre maximal de tentatives autorisées pour que l’élève utilise le module. |
 | Commentaires d’envoi | Commentaires du responsable d’un élève après avoir terminé un objet d’apprentissage.<br>Les données des commentaires d’envoi fournies par l’instructeur sont incluses dans le module d’envoi du fichier. Voir <a href="https://experienceleague.adobe.com/fr/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Modules-Adobe Learning Manager pour plus d&#39;informations.</a></br> |
-| Source d’achèvement | Fait référence à l’origine ou à la méthode par laquelle l’accomplissement d’un cours, d’un parcours d’apprentissage ou d’une certification par un élève est enregistré. Cela aide les administrateurs à comprendre comment l’achèvement a été atteint ou comment ils se sont connectés au système. La colonne indique si l’achèvement a été déclaré par l’utilisateur ou facilité par un rôle ou une configuration spécifique. Remarque : pour les workflows d’assiduité du connecteur VC, lorsqu’un élève est marqué comme étant automatiquement assidu, la source affiche « SELF, &lt;learner_email> ». |
+| Source d’achèvement | Fait référence à l’origine ou à la méthode par laquelle l’accomplissement d’un cours, d’un parcours d’apprentissage ou d’une certification par un élève est enregistré. Cela aide les administrateurs à comprendre comment l’achèvement a été atteint ou comment ils se sont connectés au système. La colonne indique si l’achèvement a été déclaré par l’utilisateur ou facilité par un rôle ou une configuration spécifique. Remarque : pour les workflows de participation au connecteur VC, lorsqu’un élève est marqué comme étant automatiquement présent, la source affiche « SELF, &lt;learner_email> ». |
 | Commentaire d’achèvement | Commentaires effectués par l’administrateur lorsqu’il marque un élève comme terminé après qu’il a terminé un cours, une certification ou un parcours d’apprentissage. L’administrateur peut ajouter les commentaires d’achèvement pour un ou plusieurs élèves. |
 
 **Informations relatives aux objets d’apprentissage**
@@ -181,7 +182,7 @@ Il s’agit des cours, modules, parcours d’apprentissage, certifications, etc.
 
 | Champs | Description |
 |---|---|
-| ID de formation | Identificateur unique généré par le système et affecté à chaque objet d’apprentissage (cours, certification ou parcours d’apprentissage). L’ID de formation reste le même pour tous les élèves et toutes les inscriptions à cet objet d’apprentissage. Il est utilisé pour identifier le contenu lui-même, pas les inscriptions individuelles des élèves. |
+| ID de formation | Identifiant unique généré par le système affecté à chaque objet d’apprentissage (cours, certification ou parcours d’apprentissage). L’ID de formation reste le même pour tous les élèves et toutes les inscriptions à cet objet d’apprentissage. Il est utilisé pour identifier le contenu lui-même, pas les inscriptions individuelles des élèves. |
 | Durée de la formation ou du module (min) | Cette colonne affiche la durée attendue (en minutes) d&#39;un cours, d&#39;un module ou d&#39;une activité de formation telle que définie lors de la création du cours. Ce n’est pas le temps réel passé par un élève, mais la durée configurée/affectée qui représente la durée prévue de la formation.  Cette colonne affiche la durée totale (en minutes) de l’élément d’apprentissage attribué, qui peut être un parcours d’apprentissage ou un cours individuel. <br><b>Durée du parcours d’apprentissage :</b> si l’élément de formation est un parcours d’apprentissage, sa durée est calculée comme la somme des durées de tous les cours dans le parcours d’apprentissage.</br><br>Exemple : si le cours 1 = 50 minutes et le cours 2 = 60 minutes, alors la durée du parcours d’apprentissage = 110 minutes.</br><br><b>Durée du cours individuel :</b>Si l’élément de formation est un cours individuel (ne faisant pas partie d’un parcours d’apprentissage), la durée reflète le temps nécessaire pour ce cours uniquement.</br> |
 | Embedded_Course_ID | La colonne est remplie lorsque la ligne représente un parcours d’apprentissage ou une certification proprement dite. Elle affiche les ID des cours individuels intégrés dans le parcours d’apprentissage ou la certification. Il n&#39;est pas renseigné lorsque la ligne elle-même est un cours uniquement, car il n&#39;y a pas d&#39;éléments incorporés. |
 | ID du parcours intégré | La colonne identifie l’ID unique des parcours d’apprentissage intégrés. Cela permet de suivre les cours dans les Parcours d’apprentissage et fournit une visibilité sur la structure hiérarchique des Parcours d’apprentissage. |
@@ -250,7 +251,7 @@ Suivez les élèves qui ont des échéances à venir pour des cours clés, des p
 |---|---|
 | Nom | Nom complet de l’élève associé au relevé de notes de compétence. |
 | Courrier électronique | Adresse électronique de l’élève. |
-| ID utilisateur unique | Identificateur unique défini par l’organisation pour l’élève. |
+| ID utilisateur unique | Identifiant unique défini par l’organisation pour l’élève. |
 | Compétence | Nom de la compétence affectée à l’élève (par exemple, Programmation Java, Leadership). |
 | Niveau de compétence | Niveau d’expertise au sein de la compétence que l’élève est censé atteindre (par exemple, débutant, intermédiaire, avancé). |
 | Crédits requis | Nombre de crédits d’apprentissage nécessaires pour atteindre le niveau de compétence attribué. |
@@ -327,7 +328,7 @@ Les administrateurs personnalisés avec une portée définie (par exemple, limit
 
 Ainsi, les administrateurs personnalisés dont la portée est limitée visualisent uniquement les données et le contenu d’apprentissage de l’élève qu’ils sont autorisés à gérer.
 
-**Prise en charge du connecteur**
+**Assistance Connecteur**
 
 Le rapport Relevé de notes de l&#39;élève est accessible via l&#39;interface utilisateur de l&#39;administrateur, [FTP, Box, l&#39;API de tâche ou Power BI](/help/migrated/integration-admin/feature-summary/connectors.md). Il n’est pas inclus dans les rapports unifiés de Salesforce, Power BI et Marketo Engage.
 

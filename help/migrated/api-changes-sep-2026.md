@@ -2,7 +2,10 @@
 description: Points d’entrée API publics destinés aux élèves pour la liste, la récupération, l’inscription et la suppression de parcours d’apprentissage personnalisés dans Adobe Learning Manager et points d’entrée API pour vérifier si un ou plusieurs objets d’apprentissage sont directement accessibles à un élève donné via un catalogue qui lui est attribué.
 jcr-language: en_us
 title: Modifications d’API en septembre 2026
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 3%

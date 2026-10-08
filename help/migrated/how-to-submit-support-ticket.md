@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Comment soumettre un ticket de support sur Experience League
 description: Découvrez comment soumettre une demande d’assistance sur Experience League
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # Comment envoyer un ticket d’assistance sur Experience League
 
 Le processus de soumission des tickets de support Adobe Learning Manager est désormais directement intégré à la plateforme de support Experience League. Il s’agit d’un portail en libre-service qui a été récemment repensé pour offrir plus de personnalisation et de facilité d’utilisation aux clients autorisés. Consultez ce guide ci-dessous pour en savoir plus sur l’accès au portail de support Experience League et l’enregistrement d’un ticket.

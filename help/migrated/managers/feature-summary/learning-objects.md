@@ -3,13 +3,14 @@ description: Ce document comprend des informations sur les objets d’apprentiss
 jcr-language: en_us
 title: Objets d’apprentissage
 exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 76%
-
 ---
-
 # Objets d’apprentissage
 
 Ce document comprend des informations sur les objets d’apprentissage pour les responsables.
@@ -111,7 +112,7 @@ Selon le diagramme circulaire ci-dessus, le retour d’informations L3 de la par
 Adobe Learning Manager vous permet de trouver rapidement les cours/parcours d’apprentissage de votre choix. Vous pouvez rechercher vos cours de deux manières :
 
 1. À l’aide du champ Rechercher. Cliquez sur l&#39;icône Rechercher affichée dans l&#39;angle supérieur droit. Un champ de recherche s&#39;affiche. Saisissez le nom du cours ou tout mot-clé associé à vos cours pour localiser vos cours/parcours d’apprentissage. Vous pouvez également effectuer une recherche à l’aide des balises prédéfinies comme Captivate, C, Java et HTML. Les balises sont indexées à l’intérieur du champ de recherche, ce qui signifie que les balises s’affichent dans le champ de recherche lors de la saisie. La recherche peut également être exécutée à l’aide de l’ID unique.
-1. En filtrant la liste des cours/parcours d’apprentissage/certifications à l’aide des filtres. Vous pouvez filtrer les cours par état (Tous, Publié et Retiré).
+1. Par filtrage liste de cours/parcours d’apprentissage/certifications utilisant les filtres. Vous pouvez filtrer les cours par état (Tous, Publié et Retiré).
 
 Vous pouvez effectuer une recherche en fonction des compétences en sélectionnant **Compétences** et en les choisissant. En tant que responsable, vous pouvez trier les cours de quatre manières, afin de mieux localiser les cours requis. Cliquez sur Trier par et choisissez l’ordre croissant alphabétique, l’ordre décroissant alphabétique, la date de mise à jour du cours, la date de création du cours ou l’efficacité des cours :
 

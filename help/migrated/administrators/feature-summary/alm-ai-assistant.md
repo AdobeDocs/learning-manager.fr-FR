@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Admin AI Assistant (Beta) dans Adobe Learning Manager
 description: En savoir plus sur Adobe Learning Manager Admin AI Assistant (Beta)
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 1%
-
 ---
-
 # Admin AI Assistant (Beta) dans Adobe Learning Manager
 
 ## Introduction
@@ -18,7 +19,7 @@ Dans les configurations d’apprentissage complexes, les administrateurs peuvent
 
 L’Assistant Admin AI (Beta) de Adobe Learning Manager permet aux administrateurs de trouver rapidement des réponses aux questions courantes, d’explorer les fonctionnalités du système et de comprendre comment effectuer une tâche essentielle, simplement en posant des questions en langage clair. Que vous débutiez avec Adobe Learning Manager ou que vous recherchiez des moyens plus rapides de résoudre les problèmes, l’Assistant Admin AI (Beta) simplifie votre workflow en fournissant une aide contextuelle directement dans la plateforme.
 
-Il utilise les fonctionnalités d’IA d’Adobe pour activer les requêtes en langage naturel dans le contenu d’apprentissage et les workflows système.  Les administrateurs peuvent poser des questions telles que **Comment ajouter des utilisateurs à Adobe Learning Manager** ou **Comment ajouter des parcours d’apprentissage**. L&#39;assistant Adobe Learning Manager Admin AI Assistant (Beta) est formé exclusivement à la documentation publique appartenant à l&#39;Adobe, telle que les ressources hébergées sur **[!UICONTROL Experience League]**. Il n’apprend pas ni n’accède au contenu client, au matériel de formation interne ou aux données générées par les utilisateurs.
+Il utilise les fonctionnalités d’IA d’Adobe pour activer les requêtes en langage naturel dans le contenu d’apprentissage et les workflows système.  Les administrateurs peuvent poser des questions telles que **Comment ajouter des utilisateurs à Adobe Learning Manager** ou **Comment ajouter des parcours d’apprentissage**. L&#39;assistant Adobe Learning Manager Admin AI Assistant (Beta) est formé exclusivement à la documentation publique appartenant à l&#39;Adobe, telle que les ressources hébergées sur **[!UICONTROL Experience League]**. Il n’apprend pas ni n’accède au contenu client, au matériau de formation interne ou aux données générées par les utilisateurs.
 
 Cet assistant réduit la dépendance à la navigation manuelle, raccourcit le temps de découverte et permet d’afficher rapidement des informations exploitables.
 
@@ -86,19 +87,19 @@ Pour utiliser l’assistant Admin AI (Beta) :
 Voici quelques exemples d’invites que les administrateurs peuvent utiliser pour utiliser efficacement l’assistant Admin AI (Beta) :
 
 * **Attribuer un cours à un utilisateur**
-   * **Invite** : « Comment puis-je attribuer un cours à un utilisateur ? »
+  * **Invite** : « Comment puis-je attribuer un cours à un utilisateur ? »
 
   ![](assets/prompt-1.png)
   _Réponse à l&#39;invite Comment assigner un cours à un utilisateur_
 
 * **Dernier rapport d&#39;inscription**
-   * **Invite** : Afficher le dernier rapport d&#39;inscription.
+  * **Invite** : Afficher le dernier rapport d&#39;inscription.
 
   ![](assets/prompt-2.png)
   _Réponse à l’invite Afficher le dernier rapport d’inscription_
 
 * **Supprimer un utilisateur**
-   * **Invite** : « Comment puis-je supprimer un utilisateur ? »
+  * **Invite** : « Comment puis-je supprimer un utilisateur ? »
 
   ![](assets/prompt-3.png)
   _Réponse à l’invite Comment puis-je supprimer un utilisateur_

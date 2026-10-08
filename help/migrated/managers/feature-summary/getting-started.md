@@ -3,13 +3,14 @@ description: Prise en main de Learning Manager en tant que responsable.
 jcr-language: en_us
 title: Prise en main pour les responsables
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 67%
-
+source-wordcount: '175'
+ht-degree: 90%
 ---
-
 
 # Prise en main pour les responsables
 
@@ -21,7 +22,7 @@ Dès que vous ouvrez une session en tant que Responsable, vous pouvez visualiser
 
 ## Affichage d’exemples de vidéos {#viewsamplevideos}
 
-Parcourez les didacticiels des exemples de vidéos pour comprendre les principales fonctionnalités de votre rôle en tant que responsable. Si vous ne souhaitez pas que cette fenêtre contextuelle apparaisse lors de la connexion, vous pouvez la désactiver en cliquant sur l’option Ne pas afficher lors de la connexion dans le coin inférieur droit de la fenêtre contextuelle.
+Parcourez les didacticiels des exemples de vidéos pour comprendre les principales fonctionnalités de votre rôle en tant que responsable. Si vous ne voulez pas que cette fenêtre contextuelle apparaisse pendant la connexion, vous pouvez la désactiver en cliquant sur l’option Ne pas afficher à la connexion, dans l’angle inférieur droit de la fenêtre.
 
 Cliquez sur **[!UICONTROL Fermer la fenêtre]** pour fermer la fenêtre contextuelle.
 

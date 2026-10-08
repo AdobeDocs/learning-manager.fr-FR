@@ -4,7 +4,10 @@ title: Résolution des problèmes d’intégration de Salesforce (SFDC) avec Ado
 description: Résolvez les problèmes courants d’intégration de Salesforce (SFDC) à Adobe Learning Manager (ALM), notamment les échecs d’exportation, les problèmes d’autorisation de champ dans les objets personnalisés SFDC et les notes importantes sur la compatibilité SFDC-ALM.
 contentowner: saghosh
 exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%

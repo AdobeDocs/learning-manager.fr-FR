@@ -1,19 +1,20 @@
 ---
 title: Ajouter des lieux de salles de classe
 description: Découvrez comment les administrateurs peuvent configurer les paramètres et ajouter, migrer, modifier et supprimer des emplacements de salle de classe dans Adobe Learning Manager, et comment ajouter des traductions pour un emplacement de salle de classe.
-source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 3%
-
+source-wordcount: '1740'
+ht-degree: 5%
 ---
-
 
 # Ajouter des lieux de salles de classe
 
 Les administrateurs peuvent créer et gérer une bibliothèque d’emplacements de salle de classe à réutiliser lors de la configuration d’événements de formation dirigée par un instructeur dans le module Salle de classe et salles de classe virtuelles. Pour chaque emplacement, vous pouvez définir des détails tels que le nom de l’emplacement, la limite de places et des informations supplémentaires, y compris une URL d’emplacement. Les auteurs peuvent ensuite sélectionner ces emplacements prédéfinis lors de la création d&#39;un cours.
 
-Par défaut, Adobe Learning Manager utilise un format d’emplacement à champ unique. Pour les organisations qui gèrent les emplacements de salle de classe dans plusieurs pays et langues, Learning Manager prend également en charge un format structuré à quatre champs qui comprend **Pays**, **État/Province/Région**, **Ville** et **Nom de l’emplacement**. Ce format fournit des fonctionnalités supplémentaires telles que le filtrage basé sur l’emplacement et la prise en charge linguistique pour des emplacements individuels. Les administrateurs peuvent passer au format à quatre champs par le biais d’une migration unique.
+Par défaut, Adobe Learning Manager utilise un format d’emplacement à champ unique. Pour les organisations qui gèrent les emplacements de salle de classe dans plusieurs pays et langues, Learning Manager prend également en charge un format structuré à quatre champs qui comprend **Pays**, **État/Province/Région**, **Ville** et **Nom de l’emplacement**. Ce format fournit des fonctionnalités supplémentaires, telles que le filtrage basé sur l’emplacement et la prise en charge linguistique pour des emplacements individuels. Les administrateurs peuvent passer au format à quatre champs par le biais d’une migration unique.
 
 >[!NOTE]
 >
@@ -67,8 +68,8 @@ Vous pouvez ajouter un lieu de salle de classe en utilisant le format de champ u
    1. Saisissez la description de l’emplacement dans le champ **Informations de localisation**. Ce champ est facultatif.
    1. Saisissez l’**URL de localisation**. Les élèves peuvent voir ces informations dans les détails de la salle de classe. L’URL peut également être une URL d’emplacement de mappage, si nécessaire. Il s’agit d’un champ facultatif.
    1. Tapez et sélectionnez la **région d&#39;emplacement**. Ce champ est facultatif.
-   1. Saisissez le nombre de places disponibles dans le champ **Limite de places**. Cela indique la capacité en sièges de la salle de classe. Cette valeur peut être modifiée lors de la création de l’événement de formation dirigée par un instructeur.
-      ![Ajouter un emplacement de salle de classe en utilisant le format à champ unique](assets/add-classroom-location-single-field-format.jpeg)
+   1. Saisissez le nombre de places disponibles dans le champ **Limite de siège**. Cela indique la capacité en sièges de la salle de classe. Cette valeur peut être modifiée lors de la création de l’événement de formation dirigée par un instructeur.
+      ![Ajouter un emplacement de salle de classe à l’aide du format de champ unique](assets/add-classroom-location-single-field-format.jpeg)
       *Ajoutez un emplacement de salle de classe en utilisant le format à champ unique.*
 
 ### Migration des emplacements de salle de classe vers le format à quatre champs
@@ -84,8 +85,8 @@ Pour migrer des emplacements existants :
 
    Un fichier CSV avec vos emplacements de salle de classe existants est téléchargé. Les colonnes suivantes sont disponibles :
 
-   1. **room_id** : identifiant unique de l&#39;emplacement.
-   1. **paramètres régionaux** : paramètres régionaux pour le nom d&#39;emplacement traduit et les informations d&#39;emplacement.
+   1. **room_id** : identifiant unique pour l&#39;emplacement.
+   1. **paramètres régionaux** : paramètres régionaux pour le nom d&#39;emplacement et les informations d&#39;emplacement translatés.
    1. **name** : nom de la salle de classe.
    1. **pays** : pays où se trouve la salle de classe.
    1. **état** : État, province ou région où se trouve la salle de classe.
@@ -164,8 +165,8 @@ Pour importer des emplacements de salle de classe en bloc :
 
    Un fichier CSV contenant vos emplacements de salle de classe existants est téléchargé. Les colonnes suivantes sont disponibles :
 
-   1. **room_id** : identifiant unique de l&#39;emplacement.
-   1. **paramètres régionaux** : paramètres régionaux pour le nom d&#39;emplacement traduit et les informations d&#39;emplacement.
+   1. **room_id** : identifiant unique pour l&#39;emplacement.
+   1. **paramètres régionaux** : paramètres régionaux pour le nom d&#39;emplacement et les informations d&#39;emplacement translatés.
    1. **name** : nom de la salle de classe.
    1. **pays** : pays où se trouve la salle de classe.
    1. **état** : État, province ou région où se trouve la salle de classe.
@@ -213,7 +214,7 @@ Pour ajouter des traductions pour un emplacement de salle de classe :
 
 >[!NOTE]
 >
->Seuls les champs **Nom de l&#39;emplacement** et **Informations d&#39;emplacement** prennent en charge les traductions. Les détails de l&#39;emplacement tels que **Pays**, **État/Province/Région** et **Ville** ne sont pas traduits.
+>Seuls les champs **Nom de l&#39;emplacement** et **Informations d&#39;emplacement** prennent en charge les traductions. Les détails de l&#39;emplacement tels que **Pays**, **État/Province/Région** et **Ville** ne sont pas translatés.
 
 ## Modifier un emplacement de salle de classe
 
@@ -263,5 +264,5 @@ Oui. Après la migration, les rapports qui incluent les informations de localisa
 
    Ce format remplace la valeur d’emplacement de champ unique précédente.
 
-1. **Que se passe-t-il si je n&#39;active pas le format d&#39;emplacement à quatre champs ?**<br>
+1. **Que se passe-t-il si je n’active pas le format d’emplacement à quatre champs ?**<br>
 Rien ne change pour les auteurs ou les élèves. Les emplacements de salle de classe continuent d’apparaître et de fonctionner comme à l’heure actuelle, en utilisant le format de champ unique existant jusqu’à ce qu’un administrateur termine la migration et active le format à quatre champs.

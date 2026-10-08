@@ -3,13 +3,14 @@ title: Équivalents et variantes dans Adobe Learning Manager
 description: Proposez une expérience d’apprentissage fluide et éliminez les formations redondantes avec des équivalents et des suppléants dans ALM. Cette nouvelle fonctionnalité permet aux administrateurs de configurer des règles unidirectionnelles (alternatives) ou bidirectionnelles (équivalentes), où l’accomplissement d’une formation accorde automatiquement l’accomplissement alternatif d’une autre formation
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3474'
 ht-degree: 0%
-
 ---
-
 # Suppléants et équivalents
 
 ## Introduction
@@ -49,7 +50,7 @@ Lorsqu’une formation source configurée est terminée, ALM produit automatique
 
 ## Quels problèmes cela résout-il ?
 
-Sans alternatives, les administrateurs et les élèves sont confrontés à plusieurs problèmes récurrents :
+Sans alternatives, les administrateurs et les élèves mettent face à plusieurs problèmes récurrents :
 
 * Les élèves sont fréquemment invités à répéter des cours qui couvrent le contenu qu&#39;ils ont déjà terminé dans une version ou un format différent.
 * La mise à jour des programmes de conformité est plus simple, car les administrateurs peuvent remplacer ou restructurer les formations sans forcer les élèves qui ont terminé les anciennes versions à reprendre le contenu alternatif ou remplacé.
@@ -107,7 +108,7 @@ Les élèves peuvent ouvrir la carte objet d’apprentissage pour afficher des d
 
 Cela assure la transparence.
 
-#### Filtrage et vues
+#### Filtrage et points de vue
 
 ##### Filtre Méthode d’achèvement
 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Apprentissage par les réseaux sociaux dans Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3455'
 ht-degree: 76%
-
 ---
-
 # Apprentissage par les réseaux sociaux dans Learning Manager
 
 Apprenez à utiliser l’apprentissage par les réseaux sociaux en tant qu’élève
@@ -245,7 +246,8 @@ Les élèves ayant accès au forum pour les réseaux sociaux peuvent baliser d&#
 
 ### Balisage des utilisateurs dans les publications sur les forums de réseaux sociaux
 
-Vous pouvez baliser des membres de forum spécifiques dans les publications ou les commentaires à l’aide de @username. Le balisage est limité aux membres ayant accès à ce forum.Pour baliser des utilisateurs dans un forum sur les réseaux sociaux :
+Vous pouvez baliser des membres de forum spécifiques dans les publications ou les commentaires à l’aide de @username. Le balisage est limité aux membres ayant accès à ce forum.
+Pour baliser des utilisateurs dans un forum sur les réseaux sociaux :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’élève.
 2. Sélectionnez **[!UICONTROL Apprentissage par les réseaux sociaux]** dans le navigateur de gauche.

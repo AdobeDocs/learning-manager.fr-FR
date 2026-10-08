@@ -2,13 +2,14 @@
 description: Découvrez comment utiliser les propriétés de thème avancées dans le compositeur de contenu pour personnaliser les polices, les couleurs, l’espacement et la mise en page des titres et des éléments de texte.
 jcr-language: en_us
 title: Personnalisation avancée du thème
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 
 # Personnalisation avancée du thème dans le compositeur de contenu
 
@@ -28,7 +29,7 @@ Utilisez les propriétés de thème avancées pour un contrôle plus précis sur
 
 3. Définissez la liste des éléments : **Nom de la leçon**, **Nom de la rubrique**, **En-tête de bloc**, **Sous-titre**, **Légende** et **Paragraphe**. Sélectionnez l’élément que vous souhaitez personnaliser.
 
-4. Dans le panneau [!UICONTROL Propriétés visuelles], vous pouvez ajuster la disposition et l&#39;espacement dans le cours.
+4. Dans le panneau [!UICONTROL Propriétés visuelles], vous pouvez ajuster la mise en page et l&#39;espacement sur l&#39;ensemble du cours.
 
    - Définissez l’espacement entre les éléments à l’aide des options de densité du contenu.
 

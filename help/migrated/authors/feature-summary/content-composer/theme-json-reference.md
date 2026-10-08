@@ -2,17 +2,18 @@
 description: Une référence complète pour chaque propriété du schéma JSON du thème du compositeur de contenu, y compris les jetons de palette, les piles de polices, le rayon et les jetons d’espacement, les valeurs de rôle de texte, les propriétés des composants et le style d’évaluation.
 jcr-language: en_us
 title: Référence des propriétés JSON du thème du compositeur de contenu Adobe Learning Manager
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 5%
-
 ---
-
 
 # Référence des propriétés JSON du thème du compositeur de contenu Adobe Learning Manager
 
-Une référence complète pour chaque propriété dans un fichier JSON de thème du compositeur de contenu, avec des descriptions et des valeurs d’exemple.
+Une référence complète pour chaque propriété dans un Fichier JSON de thème du compositeur de contenu, avec des descriptions et des exemples de valeurs.
 
 Champs de niveau supérieur qui identifient et décrivent le thème.
 
@@ -20,7 +21,7 @@ Champs de niveau supérieur qui identifient et décrivent le thème.
 
 | **Propriété** | **Type** | **Description** | **Valeur d&#39;ardoise** |
 |--------------|----------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| l&#39;identifiant | chaîne | Identificateur de thème unique. Minuscules, tirets uniquement, pas d’espaces ni de caractères spéciaux. Utilisé en interne pour référencer le thème. | « ardoise » |
+| l&#39;identifiant | chaîne | Identifiant de thème unique. Minuscules, tirets uniquement, pas d’espaces ni de caractères spéciaux. Utilisé en interne pour référencer le thème. | « ardoise » |
 | name | chaîne | Nom d&#39;affichage affiché dans le panneau Thèmes de cours. | « Ardoise » |
 | version | chaîne | Numéro de version sémantique. Utilisez « 1.0.0 » pour les nouveaux thèmes. | &quot;1.0.0&quot; |
 | description | chaîne | Brève description du caractère visuel du thème. | « Un thème chaleureux et faisant autorité avec un arrière-plan crème, des accents rouge Adobe et le système de polices Roboto Slab + Roboto » |
@@ -44,29 +45,29 @@ Les sept jetons de couleur de base qui forment la base de couleur du thème. Tou
 
 ## **foundation.fonts**
 
-Deux piles de polices appliquées à tous les rôles de texte dans le thème. Référence dans les valeurs d’élément à l’aide de var(—font-heading) ou var(—font-body).
+Deux piles de police sont appliquées à tous les rôles de texte dans le thème. Référence dans les valeurs d’élément à l’aide de var(—font-heading) ou var(—font-body).
 
 | **Propriété** | **Type** | **Description** | **Valeur d&#39;ardoise** |
 |--------------|-------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| en-tête | chaîne de la pile de polices | Famille de polices pour les titres de leçon, les titres de rubrique et les titres d’affichage. Incluez des options de secours sécurisées pour le web. | « Roboto Slab, Géorgie, &#39;Times New Roman&#39;, empattement » |
-| corps | chaîne de la pile de polices | Famille de polices pour le texte de paragraphe, les légendes, les questions de quiz et les étiquettes d’interface utilisateur. Incluez des options de secours sécurisées pour le web. | « Roboto, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif » |
+| en-tête | chaîne de pile de la police | Famille de polices pour les titres de leçon, les titres de rubrique et les titres d’affichage. Incluez des options de secours sécurisées pour le web. | « Roboto Slab, Géorgie, &#39;Times New Roman&#39;, empattement » |
+| corps | chaîne de pile de la police | Famille de polices pour le texte de paragraphe, les légendes, les questions de quiz et les étiquettes d’interface utilisateur. Incluez des options de secours sécurisées pour le web. | « Roboto, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif » |
 
-## **foundation.spacing**
+## **foundation.espacement**
 
 Jetons d’espacement horizontal et vertical utilisés comme ligne de base. Les composants sont mis à l’échelle à partir de ceux-ci en utilisant les multiplicateurs horizontalSpacingScale et verticalSpacingScale.
 
 | **Chemin** | **Type** | **Description** | **Valeur d&#39;ardoise** |
 |---------------|----------|-------------------------------------|-----------------|
-| horizontal.xs | valeur px | Plus petite unité d’espacement horizontal | 4px |
+| horizontal.xs | valeur px | Plus petite unité d’espacement horizontale | 4px |
 | horizontal.s | valeur px | Petite unité d&#39;espacement horizontale | 8px |
 | horizontal.m | valeur px | Unité d&#39;espacement horizontale moyenne | 12px |
 | horizontal.l | valeur px | Grande unité d&#39;espacement horizontale | 16px |
-| horizontal.xl | valeur px | Extra-grande unité d&#39;espacement horizontal | 24px |
-| vertical.xs | valeur px | Plus petite unité d’espacement vertical | 4px |
+| horizontal.xl | valeur px | Très grande unité d&#39;espacement horizontale | 24px |
+| vertical.xs | valeur px | Plus petite unité d&#39;espacement vertical | 4px |
 | vertical.s | valeur px | Petite unité d&#39;espacement vertical | 8px |
-| vertical.m | valeur px | Unité d&#39;espacement vertical moyenne | 16px |
+| vertical.m | valeur px | Unité d&#39;espacement verticale moyenne | 16px |
 | vertical.l | valeur px | Grande unité d&#39;espacement vertical | 24px |
-| vertical.xl | valeur px | Extra-grande unité d&#39;espacement vertical | 32px |
+| vertical.xl | valeur px | Très grande unité d&#39;espacement vertical | 32px |
 
 ## **foundation.radius**
 
@@ -109,7 +110,7 @@ Les propriétés suivantes s’appliquent à chaque rôle de texte répertorié 
 
 | **Propriété** | **Type** | **Valeurs acceptées** | **Description** |
 |--------------------|-----------------------|--------------------------------------------------------------------|---------------------------------------------------------|
-| fontFamily | Var CSS ou pile de polices | var(—font-heading), var(—font-body) ou une chaîne de pile de polices complète | Famille de polices pour ce rôle de texte. |
+| fontFamily | CSS var ou pile de police | var(—font-heading), var(—font-body) ou une chaîne de pile de police complète | Famille de polices pour ce rôle de texte. |
 | fontSize | valeur px | Toute valeur de pixel | Taille de la police. |
 | fontWeight | chaîne | « bold » ou « normal » uniquement - les valeurs numériques ne sont pas prises en charge | Épaisseur de la police. |
 | fontStyle | chaîne | « normal » ou « italique » | Style de police. |
@@ -166,8 +167,8 @@ Ces propriétés apparaissent sur tous les composants de bloc de contenu : parag
 | cardShadowOffset | chaîne | Décalage X et Y de l’ombre portée de la carte, par exemple « 0px 2px 6px ». |
 | cardShadowColor | CSS var ou color | Couleur de l’ombre portée de la carte. |
 | cardShadowOpacity | chaîne de pourcentage | Opacité de l’ombre portée de la carte. Définissez sur « 0 % » pour supprimer l’ombre. |
-| horizontalSpacingScale | chaîne numérique | Multiplicateur appliqué aux jetons d’espacement horizontal pour ce composant. « 1 » utilise l’espacement par défaut. |
-| verticalSpacingScale | chaîne numérique | Multiplicateur appliqué aux jetons d’espacement vertical pour ce composant. « 1 » utilise l’espacement par défaut. |
+| horizontalSpacingScale | chaîne numérique | Multiplicateur appliqué aux jetons d’espacement horizontaux pour ce composant. « 1 » utilise l’espacement par défaut. |
+| verticalSpacingScale | chaîne numérique | Multiplicateur appliqué aux jetons d’espacement verticaux pour ce composant. « 1 » utilise l’espacement par défaut. |
 | radiusScale | chaîne numérique | Multiplicateur appliqué aux jetons de rayon pour ce composant. « 1 » utilise le rayon par défaut. |
 | nestedAccentColor | CSS var ou color | Couleur d’accentuation pour les éléments imbriqués dans le composant. S’applique uniquement à paragraphBlock. |
 
@@ -190,8 +191,8 @@ Propriétés uniques à chaque type de composant.
 | **Composant** | **Propriété** | **Type** | **Description** | **Valeur d&#39;ardoise** |
 |----------------|--------------------------|----------|------------------------------------------------------------------|-------------------------|
 | paragraphBlock | nestedAccentColor | CSS var | Couleur d’accentuation pour les éléments imbriqués dans le bloc de paragraphe | var(—accent) |
-| flipCard | cardFrontBackgroundColor | CSS var | Couleur d&#39;arrière-plan de la face avant de la carte à clef | var(—backgroundSubtle) |
-| flipCard | cardBackBackgroundColor | CSS var | Couleur d’arrière-plan de la face arrière de la carte de visite : couleur de révélation | var(—accent) |
+| flipCard | cardFrontBackgroundColor | CSS var | Couleur d&#39;arrière-plan de la face avant de la carte à clapet | var(—backgroundSubtle) |
+| flipCard | cardBackBackgroundColor | CSS var | Couleur d’arrière-plan de la face de retour de la carte - la couleur de révélation | var(—accent) |
 | flipCard | arrowColor | CSS var | Couleur de l’icône en forme de flèche de l’indicateur de symétrie | var(—textInverse) |
 | onglets | activeBg | CSS var | Couleur d’arrière-plan de l’onglet actuellement sélectionné | var(—accent) |
 | onglets | inactiveBg | CSS var | Couleur d’arrière-plan des onglets non sélectionnés | var(—backgroundSubtle) |
@@ -223,7 +224,7 @@ Propriétés des composants de quiz et de vérification des connaissances.
 | feedbackTextColor | couleur hexadécimale | Couleur du texte dans le panneau de commentaires | #111111 |
 | optionBorderCorrectColor | couleur hexadécimale | Couleur de la bordure sur l’option de réponse correcte une fois la réponse révélée | #079355 |
 | optionBorderIncorrectColor | couleur hexadécimale | Couleur de la bordure d’une option sélectionnée incorrectement une fois la réponse affichée | #D73220 |
-| horizontalSpacingScale | chaîne numérique | Multiplicateur pour l&#39;espacement horizontal au sein du composant d&#39;évaluation | &quot;1&quot; |
+| horizontalSpacingScale | chaîne numérique | Multiplicateur pour l’espacement horizontal dans la composante d’évaluation | &quot;1&quot; |
 | verticalSpacingScale | chaîne numérique | Multiplicateur pour l&#39;espacement vertical dans le composant d&#39;évaluation | &quot;1&quot; |
 | radiusScale | chaîne numérique | Multiplicateur du rayon de bordure dans le composant d&#39;évaluation | &quot;1&quot; |
 

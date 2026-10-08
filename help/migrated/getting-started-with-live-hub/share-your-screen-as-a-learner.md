@@ -1,13 +1,14 @@
 ---
 title: Partager votre écran en tant qu’élève dans Live Hub
 description: Découvrez comment les élèves affichent le contenu partagé et partagent leur propre écran lors d’une session Live Hub, lorsqu’un instructeur l’autorise.
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
-
 ---
-
 
 # Partager votre écran en tant qu’élève
 
@@ -42,4 +43,4 @@ Pour partager votre écran :
 
 ## Utilisation des outils d’annotation
 
-Lorsque vous partagez votre écran, vous pouvez y ajouter des annotations pour mettre en évidence des informations ou expliquer le contenu à d’autres personnes au cours de la session. Pour annoter, sélectionnez l’icône d’annotation (plume) dans le coin supérieur droit de l’écran partagé. Voir [Utiliser les outils d&#39;annotation](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-annotation-tools) pour plus d&#39;informations.
+Lorsque vous partagez votre écran, vous pouvez y ajouter des annotations pour mettre en évidence des informations ou expliquer le contenu à d’autres personnes au cours de la session. Pour annoter, sélectionnez l’icône d’annotation (en stylet) dans le coin supérieur droit de l’écran partagé. Voir [Utiliser les outils d&#39;annotation](../getting-started-with-live-hub/share-your-screen-as-an-instructor.md#use-annotation-tools) pour plus d&#39;informations.

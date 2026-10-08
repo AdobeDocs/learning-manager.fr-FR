@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Création, modification et publication de cours
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '10239'
 ht-degree: 56%
-
 ---
-
 # Création, modification et publication de cours
 
 Pour apprendre à créer des cours, des certifications et des programmes d’apprentissage dans Learning Manager, lisez cet article.
@@ -455,7 +456,7 @@ Le style par défaut peut ne pas répondre aux besoins de tous. Les personnalisa
 
 ### MODIFICATIONS DE L’API POUR ACTIVER LA GÉNÉRATION DES PRÉSENTATIONS DE TEXTE ENRICHI
 
-Lorsque les clients construisent une interface sans en-tête, ils doivent afficher les objets d’apprentissage dans cette interface utilisateur personnalisée qu’ils développent. Pour ce faire, on utilise généralement l’API [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) qui est exposée. Maintenant que Learning Manager prend en charge la capture de « texte enrichi » pour le champ de présentation, le modèle de données des objets d’apprentissage dans les réponses API expose également les mêmes éléments. Consultez le champ nommé « richTextOverview » dans le fragment du modèle dans la réponse de l’API ci-dessous. Notez également que le champ exposé précédemment (« présentation ») reste inchangé pour la rétrocompatibilité.
+Lorsque les clients construisent une interface sans en-tête, ils doivent afficher les objets d’apprentissage dans cette interface utilisateur personnalisée qu’ils développent. Pour ce faire, on utilise généralement l’API [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) qui est exposée. Maintenant que Learning Manager prend en charge la capture de « texte enrichi » pour le champ de présentation, le modèle de données des objets d’apprentissage dans les réponses API expose également la même fonction. Consultez le champ nommé « richTextOverview » dans le fragment du modèle dans la réponse de l’API ci-dessous. Notez également que le champ exposé précédemment (« présentation ») reste inchangé pour la rétrocompatibilité.
 
 ```
 { 
@@ -706,7 +707,7 @@ Seul un auteur peut créer une liste de contrôle. Une liste de contrôle est un
 
    >[!NOTE]
    >
-   >ALM ne traduit pas automatiquement les questions dans ces langues supplémentaires. Vous devez traduire les questions dans les langues respectives.
+   >ALM ne translate pas automatiquement les questions dans ces langues supplémentaires. Vous devez translater les questions dans les langues respectives.
 
 5. Sélectionnez **Enregistrer**. Les questions sont enregistrées dans toutes les langues.
 6. Sélectionnez toutes les autres options pertinentes et sélectionnez **Ajouter**. La liste de contrôle est créée dans toutes les langues dans lesquelles le cours est disponible.
@@ -795,7 +796,7 @@ Sur cette page, saisissez les informations suivantes :
 Les commentaires de liste de contrôle permettent aux auteurs d&#39;activer le **retour contextuel** lors des évaluations basées sur la liste de contrôle.\
 Lorsque cette option est activée, les réviseurs (instructeurs ou responsables) peuvent ajouter des remarques pour expliquer les résultats de l’évaluation au-delà des scores ou du statut Réussite/Échec.
 
-Cette fonctionnalité transforme les listes de contrôle d&#39;un outil purement évaluatif en un **mécanisme d&#39;apprentissage guidé par les commentaires**, améliorant la compréhension, la transparence et les actions de suivi de l&#39;élève.
+Cette fonctionnalité transforme les listes de contrôle d&#39;un outil purement évaluatif vers un **mécanisme d&#39;apprentissage guidé par les commentaires**, améliorant la compréhension, la transparence et les actions de suivi de l&#39;élève.
 
 Ainsi, les auteurs peuvent :
 
@@ -907,7 +908,7 @@ Veiller à ce que les évaluateurs comprennent clairement les critères de la li
 2. Accédez à la section **Configurer les questions**.
 3. Utilisez les **onglets de langue** pour basculer entre les langues disponibles.
 4. Pour chaque langue :
-   * Ajouter la version traduite de chaque question de la liste de contrôle
+   * Ajout de la version translatée de chaque question de la liste de contrôle
    * Conserver une signification et une intention d’évaluation équivalentes dans toutes les langues
 5. Définissez des critères de liste de contrôle (Oui/Non, basés sur une échelle ou basés sur un score) selon vos besoins.
 

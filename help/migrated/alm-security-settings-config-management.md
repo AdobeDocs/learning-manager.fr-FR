@@ -3,13 +3,14 @@ title: Adobe Learning Manager - gestion des paramètres de sécurité et de la c
 description: Ce document décrit les types de comptes administratifs de Adobe Learning Manager, les paramètres de sécurité, les paramètres par défaut sécurisés recommandés, les fonctionnalités d’API, les fonctionnalités d’exportation, les méthodes de comparaison des configurations, les méthodes de publication et l’historique des versions. Il fournit des conseils détaillés sur le fonctionnement des comptes privilégiés, leurs implications en matière de sécurité et la prise en charge de la gestion de la configuration sur l’ensemble de la plateforme.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
-
 ---
-
 # Gestion des paramètres de sécurité et de configuration
 
 Ce guide fournit des réponses détaillées aux recommandations FedRAMP (FRR-RSC-03 à FRR-RSC-08) pour Adobe Learning Manager (ALM). Il décrit les bonnes pratiques en matière de sécurité, les valeurs par défaut sécurisées recommandées et les outils d’audit, d’exportation et de gestion des paramètres de compte privilégié. Ce document est destiné aux administrateurs et aux équipes de conformité afin de garantir une configuration et une gestion sécurisées des comptes ALM.
@@ -65,7 +66,7 @@ Les documents Adobe Learning Manager recommandent des valeurs par défaut sécur
 **Valeurs par défaut de l&#39;administrateur d&#39;intégration** :
 
 * Portée de l’API OAuth : sélectionnez la portée la plus restrictive qui répond aux exigences de l’intégration. N’accordez pas à l’administrateur l’accès en lecture/écriture aux applications nécessitant uniquement un accès en lecture à l’élève.
-* Informations d’identification du connecteur, informations d’identification LTI et URL de webhook : ne les partagez jamais par e-mail ni ne les validez pour le contrôle de code source.
+* Informations d’identification de connecteur, informations d’identification LTI et URL de webhook : ne les partagez jamais par e-mail et ne validez jamais le contrôle de code source.
 
 **Références** :
 

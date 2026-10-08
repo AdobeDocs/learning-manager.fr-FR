@@ -4,13 +4,14 @@ title: Problèmes liés au retrait d’un programme d’apprentissage
 description: Problèmes liés au retrait d’un programme d’apprentissage dans Adobe Learning Manager
 contentowner: nluke
 exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 55%
-
+ht-degree: 61%
 ---
-
 # Problèmes liés au retrait d’un programme d’apprentissage
 
 ## Problème
@@ -29,7 +30,7 @@ Pour vérifier le cours contenant une instance qui a été retirée, procédez c
 
 1. Connectez-vous en tant qu’administrateur et lancez le programme d’apprentissage correspondant.
 
-1. Cliquez sur **[!UICONTROL Instances]** > **CCours**. La page répertorie tous les cours qui font partie de ce programme d’apprentissage. Vous pourrez voir le cours qui contient une instance retirée.
+1. Cliquez sur **[!UICONTROL Instances]** > **CCours**. La page répertorie tous les cours qui font partie de ce programme d’apprentissage. Vous pourrez voir le cours contenant une instance retirée.
 
    ![](assets/retired-instance.png)
 

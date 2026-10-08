@@ -4,13 +4,14 @@ title: Credly
 description: Découvrez l’intégration de Credly à ALM pour gérer et partager des badges externes à partir de la plateforme sur divers canaux de médias sociaux.
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '381'
 ht-degree: 0%
-
 ---
-
 # Credly
 
 [Credly](https://info.credly.com/) est une plateforme d’identification numérique qui permet aux élèves et aux organisations d’obtenir, de partager et de vérifier des réalisations professionnelles, telles que des badges ou des certifications. Les élèves peuvent gérer et partager des badges via leur profil Credly sur les réseaux sociaux et d’autres endroits.
@@ -19,15 +20,15 @@ ht-degree: 0%
 
 Configurez un compte Creative Cloud pour votre organisation. Ajoutez des élèves à Credly à l’aide de leurs ID de messagerie dans Adobe Learning Manager. Cela permettra aux élèves de voir les badges sur Credly et Adobe Learning Manager.
 
-## Ajout du Credly Connector à Adobe Learning Manager
+## Ajout du Connecteur Credly dans Adobe Learning Manager
 
-Procédez comme suit pour ajouter le connecteur Credly à Adobe Learning Manager :
+Procédez comme suit pour ajouter le Connecteur Credly à Adobe Learning Manager :
 
 1. Connectez-vous en tant qu&#39;**[!UICONTROL administrateur d&#39;intégration]**.
 2. Sélectionnez **[!UICONTROL Credly]** > **Connect** pour ajouter le connecteur **[!UICONTROL Credly]** à Adobe Learning Manager.
 
    ![](assets/connector-credly.png)
-   _Ajouter un connecteur Credly_
+   _Ajouter un connecteur crédible_
 
 3. Tapez le **[!UICONTROL nom de la connexion]**.
 4. Tapez l&#39;**[!UICONTROL ID d&#39;organisation]** et le **[!UICONTROL jeton d&#39;autorisation]**.

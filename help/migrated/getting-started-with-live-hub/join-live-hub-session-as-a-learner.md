@@ -1,13 +1,14 @@
 ---
 title: Rejoindre une session Live Hub en tant qu’élève
 description: Découvrez comment les élèves rejoignent une session Live Hub à partir du cours auquel ils sont inscrits, y compris en testant les paramètres audio et de caméra avant d'entrer dans la salle.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 4%
-
 ---
-
 
 # Rejoindre une session Live Hub (Beta) en tant qu’élève
 

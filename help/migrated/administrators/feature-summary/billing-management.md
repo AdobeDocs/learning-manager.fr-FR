@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gérer les commandes et la facturation Learning Manager
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 53%
-
 ---
-
 
 # Gérer les commandes et la facturation Learning Manager
 
@@ -39,7 +40,7 @@ La page Facturation contient les onglets suivants :
 
 **Détails du compte**
 
-La carte **Détails du compte** en haut de l&#39;onglet **Abonnement** affiche quatre identificateurs en lecture seule pour votre compte.
+La carte **Détails du compte** en haut de l&#39;onglet **Abonnement** affiche quatre identifiants en lecture seule pour votre compte.
 
 | Champ | Description |
 |---|---|
@@ -97,7 +98,7 @@ Si votre compte a été configuré indépendamment et que le champ **ID d&#39;or
 1. Sélectionnez **[!UICONTROL Facturation]**, puis sélectionnez l&#39;onglet **[!UICONTROL Abonnement]**.
 2. Dans la carte **Détails du compte**, sélectionnez **[!UICONTROL Lier l’organisation IMS]**.
 3. Une fenêtre de connexion s’ouvre. Saisissez les informations d’identification de votre compte Adobe et sélectionnez votre organisation dans la liste. Adobe Learning Manager confirme que le compte qui se connecte possède le rôle d’administrateur système dans l’organisation Adobe Admin Console et que le même compte possède le rôle d’administrateur dans Adobe Learning Manager.
-4. Si les deux vérifications réussissent, le lien est établi. Le champ **ID d&#39;organisation IMS** est mis à jour avec l&#39;identifiant de votre organisation et le solde de crédit apparaît dans la section **Licences**.
+4. Si les deux vérifications réussissent, le lien est établi. Le champ **ID d’organisation IMS** est mis à jour avec l’identifiant de votre organisation et le solde de crédit apparaît dans la section **Licences**.
 5. Si l’une des vérifications échoue, un message d’erreur s’affiche. Confirmez les conditions préalables ci-dessus et réessayez.
 
 ### Dissocier votre compte

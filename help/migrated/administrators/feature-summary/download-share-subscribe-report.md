@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Jeux de données disponibles dans Report Builder
 description: Générez des rapports, partagez-les avec d’autres administrateurs et planifiez leur livraison dans le Report Builder Adobe Learning Manager.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 2%
-
 ---
-
 
 # Téléchargement, partage et abonnement à un rapport
 

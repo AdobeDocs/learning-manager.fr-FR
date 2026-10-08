@@ -2,13 +2,14 @@
 description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version d’août 2026 de Adobe Learning Manager
-source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3357'
 ht-degree: 3%
-
 ---
-
 
 # Modifications apportées aux API dans la version d’août 2026 de Adobe Learning Manager
 
@@ -481,7 +482,7 @@ Lorsqu&#39;une certification récurrente est renouvelée, Adobe Learning Manager
 
 Les certifications récurrentes génèrent un nouvel ID de certification à chaque renouvellement. Dans l’expérience d’élève Adobe Learning Manager native, seule la version adaptée à chaque élève est affichée. Les anciennes versions sont masquées automatiquement lorsqu’un élève passe à une nouvelle version.
 
-Si votre intégration récupère les données de certification indépendamment, par exemple pour afficher les informations de certification sur un portail externe, il se peut qu’elle n’applique pas automatiquement ce filtrage. Sans cela, un élève pourrait voir chaque version historique d’une certification récurrente, y compris celles qui ne le concernent plus, sans indication sur laquelle agir.
+Si votre intégration récupère des données de certification de manière indépendante, par exemple pour afficher des informations de certification sur un portail externe, il se peut qu’elle n’applique pas automatiquement ce filtrage. Sans cela, un élève pourrait voir chaque version historique d’une certification récurrente, y compris celles qui ne le concernent plus, sans indication sur laquelle agir.
 
 Cette API a comblé cette lacune. Étant donné l&#39;ID de certification racine, il renvoie la version de certification spécifique qui s&#39;applique à un élève donné, en tenant compte de son historique d&#39;inscription et de toutes les récurrences.
 
@@ -575,7 +576,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' \
 
 La réponse utilise la même structure qu’une réponse d’objet d’apprentissage standard, renvoyant la certification résolue.
 
-**Important :** le champ d&#39;ID dans la réponse est l&#39;ID de la certification **résolu**, la version spécifique applicable à cet élève. Il sera généralement différent de l’ID de certification racine que vous avez transmis en tant que loId, puisque l’objectif de cette API est de traduire un ID racine dans la version actuelle correcte.
+**Important :** le champ d&#39;ID dans la réponse est l&#39;ID de la certification **résolu**, la version spécifique applicable à cet élève. Il sera généralement différent de l’ID de certification racine que vous avez transmis en tant que loId, puisque l’objectif de cette API est de translater un ID racine dans la version correcte.
 
 ```
 {

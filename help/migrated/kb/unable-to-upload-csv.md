@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Impossible de charger le fichier CSV
 contentowner: saghosh
 exl-id: 10458499-1038-4c62-971f-f950d383e970
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
-
+source-wordcount: '545'
+ht-degree: 77%
 ---
-
 # Impossible de charger le fichier CSV
 
 ## Erreur : Troncation de données : Données trop longues pour la colonne
@@ -47,13 +48,13 @@ Le problème se produit lorsque le fichier CSV est enregistré au format UTF-8 d
 
 * **A :** Enregistrement via Excel :
 
-   1. Ouvrez le fichier CSV dans Excel.
-   1. Enregistrez le fichier au format CSV normal.
+  1. Ouvrez le fichier CSV dans Excel.
+  1. Enregistrez le fichier au format CSV normal.
 
 * **B:** enregistrement via le Bloc-notes ou le Bloc-notes ++ :
 
-   * Ouvrez le fichier CSV dans le Bloc-notes ou le Bloc-notes++.
-   * Enregistrez le fichier au format UTF-8.
+  * Ouvrez le fichier CSV dans le Bloc-notes ou le Bloc-notes++.
+  * Enregistrez le fichier au format UTF-8.
 
 ## Erreur : Adresse électronique de l’utilisateur déjà présente dans le système
 

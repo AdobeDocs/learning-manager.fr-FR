@@ -4,13 +4,14 @@ title: xAPI dans le gestionnaire de formation
 description: L’API Expérience (xAPI) est une spécification de logiciel d’apprentissage en ligne qui permet aux contenus d’apprentissage et aux systèmes d’apprentissage de communiquer de sorte à enregistrer et suivre tous les types d’expériences d’apprentissage. Les expériences d’apprentissage sont enregistrées dans une boutique d’enregistrements d’apprentissage (Learning Record Store, LRS). Les LRS peuvent exister dans les systèmes de gestion d’apprentissage (LMS) traditionnels ou seuls.
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 68%
-
 ---
-
 
 
 # xAPI dans Learning Manager
@@ -97,7 +98,7 @@ En tant qu’auteur, vous pouvez maintenant choisir le module xAPI tout en créa
 
 **Remarques :**
 
-* Learning Manager ne prend actuellement en charge que mbox en tant qu’identifiant. Les autres identificateurs, notamment mboz_sha1, openid , account, ne sont pas pris en charge.
+* Learning Manager ne prend actuellement en charge que mbox en tant qu’identifiant. Les autres identifiants, notamment mboz_sha1, openid, account, ne sont pas pris en charge.
 
 * stateId et profileId sont des UUID lorsqu’ils sont utilisés avec Learning Manager.
 * La demande du PUT ne remplace pas le document pour les xAPI agents/profil, activité/profil et activité/état
@@ -114,7 +115,7 @@ Le rapport téléchargé récupère toutes les informations publiées par l’é
 
 Les mêmes rapports peuvent être générés/planifiés à l’aide des connecteurs FTP et Box pour toute intégration tierce. Procédez comme suit :
 
-Connectez-vous en tant qu&#39;**Administrateur de l&#39;intégration > Ouvrir le connecteur FTP/Box > Sélectionner le rapport d&#39;activité xAPI** dans le panneau de gauche. Choisissez de planifier/générer un rapport.
+Connectez-vous en tant qu&#39;**Administrateur d&#39;intégration > Ouvrir le connecteur FTP/Box > Sélectionner le rapport d&#39;activité xAPI** dans le panneau de gauche. Choisissez de planifier/générer un rapport.
 
 ![](assets/xapischedule.png)
 

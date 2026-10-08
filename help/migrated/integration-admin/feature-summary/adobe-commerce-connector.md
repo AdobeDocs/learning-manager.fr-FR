@@ -1,27 +1,28 @@
 ---
-description: Découvrez comment intégrer le connecteur Adobe Commerce
+description: Découvrez comment intégrer Adobe Commerce connecteur
 jcr-language: en_us
 title: Connecteur Adobe Commerce
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 4%
-
 ---
 
-
-# Connecteur Adobe Commerce dans Adobe Learning Manager
+# connecteur Adobe Commerce dans Adobe Learning Manager
 
 ## Connecteur Adobe Commerce
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement si Adobe Learning Manager est vendu en tant que **module complémentaire** à Adobe Experience Manager. Le connecteur peut également être activé pour les comptes **d&#39;essai**.
+>Cette fonctionnalité est disponible uniquement si Adobe Learning Manager est vendu en tant que **module complémentaire** à Adobe Experience Manager. Le connecteur peut également être activé pour les comptes d&#39;**évaluation**.
 
 Adobe Learning Manager s’intègre à Adobe Commerce, une solution d’e-commerce extensible et évolutive qui vous permet de proposer des expériences commerciales multicanaux aux clients B2B et B2C. Utilisez le connecteur Adobe Commerce pour connecter Adobe Learning Manager à Adobe Commerce afin d’activer les fonctionnalités de formation payante et de commerce électronique dans votre plate-forme d’apprentissage.
 
-Lorsque le connecteur est activé, Learning Manager envoie des données de formation à Adobe Commerce afin que les élèves puissent acheter des cours, des parcours d’apprentissage ou des certifications. Le connecteur collecte également des informations d’achat pour valider les transactions et accorder aux élèves l’accès à leur formation.
+Lorsque le connecteur est activé, Learning Manager envoie les données de formation à Adobe Commerce afin que les élèves puissent acheter des cours, des parcours d’apprentissage ou des certifications. Le connecteur collecte également des informations d’achat pour valider les transactions et accorder aux élèves l’accès à leur formation.
 
 ## Conditions préalables
 
@@ -41,20 +42,20 @@ Autres exigences de configuration :
 - Limite des options de remplacement à l’aide d’un module personnalisé. Cette étape est facultative, mais recommandée pour les jeux de données volumineux.
 - Activez toutes les **API asynchrones**. Les jeux de données de formation volumineux sont exportés de manière asynchrone. Lorsque Learning Manager appelle les API Adobe Commerce, les demandes sont placées en file d’attente et traitées par un client qui crée des produits du côté commercial. Le traitement asynchrone doit être activé, car il n’est pas disponible par défaut dans Adobe Commerce.
 - Ajoutez un **lien de retour** à Learning Manager sur la page de réussite du paiement dans Adobe Commerce.
-   - Utilisez cette [URL de retour](https://learningmanager.adobe.com/app/learner#/postPayment) :
+  - Utilisez cette [URL de retour](https://learningmanager.adobe.com/app/learner#/postPayment) :
 - Remplacez **indexation** de **À l&#39;enregistrement** par **Planifiée**. Voir la [Base de connaissances](https://experienceleague.adobe.com/fr/support?support-tab=home#home) pour plus d&#39;informations.
 - Appliquez les **correctifs** requis. Voir [Documentation sur l&#39;application des correctifs](https://experienceleague.adobe.com/fr/docs/commerce-cloud-service/start/overview) pour obtenir des instructions.
 - Configurez **Fastly** pour Adobe Commerce sur l’infrastructure cloud (préparation et production). Voir [Configurer Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) pour plus d&#39;informations.
 
 ## Configuration du connecteur
 
-Pour configurer Adobe Commerce Connector :
+Pour configurer Adobe Commerce Connecteur :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
-2. Passez le curseur de la souris sur la vignette du connecteur **Adobe Commerce** et sélectionnez **Se connecter**.
+2. Survolez la vignette de connecteur **Adobe Commerce** et sélectionnez **Se connecter**.
 
    ![](assets/adobe-commerce-connector1.png)
-   _Sélectionnez Se connecter pour configurer le connecteur Adobe Commerce_
+   _Sélectionnez Se connecter pour configurer Adobe Commerce connecteur_
 
 3. Saisissez les informations suivantes :
 

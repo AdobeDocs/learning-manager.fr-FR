@@ -2,13 +2,14 @@
 description: Découvrez comment ajouter un en-tête et un pied de page à un cours du compositeur de contenu, charger un logo, activer les bascules et prévisualiser les modifications de thème en direct dans la zone de travail.
 jcr-language: en_us
 title: Ajouter un en-tête et un pied de page
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
-
 ---
-
 
 # Ajouter un en-tête et un pied de page
 

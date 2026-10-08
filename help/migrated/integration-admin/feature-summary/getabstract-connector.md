@@ -3,26 +3,27 @@ description: connecteur getAbstract dans Adobe Learning Manager
 jcr-language: en_us
 title: Connecteur getAbstract
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%
-
 ---
 
-
-# connecteur getAbstract pour Adobe Learning Manager
+# getAbstract connecteur pour Adobe Learning Manager
 
 ## Introduction
 
-Le **connecteur getAbstract** est conçu pour les entreprises clientes de [getAbstract.com](https://www.getabstract.com/). Cela permet aux élèves de découvrir et d’utiliser du contenu getAbstract directement via Adobe Learning Manager. Le connecteur permet également aux administrateurs d’importer les données d’engagement des utilisateurs et de suivre automatiquement les enregistrements d’achèvement des élèves.
+Le **connecteur getAbstract** est conçu pour les entreprises clientes de [getAbstract.com](https://www.getabstract.com/). Cela permet aux élèves de découvrir et d’utiliser du contenu getAbstract directement via Adobe Learning Manager. Le connecteur permet également aux administrateurs d’importer des données d’engagement des utilisateurs et de suivre automatiquement les enregistrements d’achèvement des élèves.
 
 Adobe Learning Manager souhaite offrir aux élèves des possibilités d’apprentissage continu et autonome axées sur le leadership et les compétences non techniques. Au lieu de développer tout le contenu en interne, l’administrateur connecte le compte getAbstract de l’organisation à Adobe Learning Manager à l’aide du connecteur getAbstract.
 
 - Importe automatiquement du contenu getAbstract dans Adobe Learning Manager.
 - Suit la consommation des cours et des parcours d’apprentissage par les élèves.
 
-Cet article décrit les étapes à suivre pour configurer et gérer le connecteur getAbstract dans Adobe Learning Manager.
+Cet article décrit les étapes de configuration et de gestion du connecteur getAbstract dans Adobe Learning Manager.
 
 ## Conditions préalables
 
@@ -162,7 +163,7 @@ Pour garantir le bon fonctionnement de la synchronisation :
 
 - Un fichier de flux utilisateur valide doit se trouver dans le dossier FTP getAbstract pour les dates de synchronisation spécifiées.
 - Le fichier doit suivre le format de dénomination :
-   - report_export_yyyy_MM_dd_HHmmss.xlsx ou,
-   - report_export_yyyy_MM_dd.xlsx
+  - report_export_yyyy_MM_dd_HHmmss.xlsx ou,
+  - report_export_yyyy_MM_dd.xlsx
 
-Téléchargez un [exemple de fichier de flux utilisateur getAbstract](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=fr) pour comprendre le format.
+Téléchargez un [exemple de fichier de flux utilisateur getAbstract](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en) pour comprendre le format.

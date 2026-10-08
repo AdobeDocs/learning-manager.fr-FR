@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Surveillance et modération de l’Apprentissage par les réseaux sociaux en tant qu’administrateur
 contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3793'
 ht-degree: 75%
-
 ---
-
 # Surveillance et modération de l’Apprentissage par les réseaux sociaux en tant qu’administrateur
 
 En tant qu’administrateur, vous pouvez activer, désactiver et surveiller les activités effectuées dans l’Apprentissage par les réseaux sociaux. Une fois que la fonction d’Apprentissage par les réseaux sociaux est activée, les élèves peuvent la visualiser et commencer à participer à l’Apprentissage par les réseaux sociaux.

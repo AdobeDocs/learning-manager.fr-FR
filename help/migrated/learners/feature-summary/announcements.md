@@ -3,18 +3,19 @@ jcr-language: en_us
 title: Annonces
 description: Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur diffuse pour un ensemble défini d’utilisateurs.
 exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 61%
-
+ht-degree: 84%
 ---
-
 # Annonces
 
 Une annonce est un message multimédia (texte, image ou vidéo) qu’un administrateur diffuse pour un ensemble défini d’utilisateurs.
 
-L&#39;administrateur peut diffuser des annonces aux élèves les informant de l&#39;occurrence d&#39;un événement ou d&#39;une activité. Lorsqu&#39;une annonce est diffusée à un groupe particulier ou à des utilisateurs d&#39;objets d&#39;apprentissage, tous les élèves associés au groupe cible reçoivent des notifications.
+L’administrateur peut diffuser les annonces pour les élèves les informant de l’occurrence d’un événement ou d’une activité. Lorsqu’une annonce est diffusée pour un groupe particulier ou pour des utilisateurs d’objet d’apprentissage, tous les élèves associés à ce groupe cible reçoivent des notifications.
 
 ## Notification d’annonces {#announcementsnotification}
 

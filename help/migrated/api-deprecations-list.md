@@ -4,13 +4,14 @@ title: Dépréciations d’API dans Adobe Learning Manager
 description: À mesure que les API dans Adobe Learning Manager évoluent, elles sont régulièrement réorganisées ou mises à niveau. Lorsque les API évoluent, l’ancienne API est obsolète et finalement supprimée. Cette page contient les informations que vous devez connaître lors de la migration de versions d’API obsolètes vers des versions d’API plus récentes et plus stables.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # Dépréciations et modifications d’API dans Adobe Learning Manager
 
 ## Dépréciations d’API dans la version de mars 2024 de Adobe Learning Manager
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 Les chemins suivants sont obsolètes :
 
 * /learningObjects
-   * Chemins d’accès obsolètes :
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * Nouveaux tracés :
-      * enrollment.loInstance.loResources
-      * instances.loResources
+  * Chemins d’accès obsolètes :
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * Nouveaux tracés :
+    * enrollment.loInstance.loResources
+    * instances.loResources
 
 * /learningObjects/{id}
-   * Chemin d’accès obsolète :
-      * enrollment.instances.subLoInstances.learningObject
-   * Nouveau chemin :
-      * enrollment.instances.subLoInstances
+  * Chemin d’accès obsolète :
+    * enrollment.instances.subLoInstances.learningObject
+  * Nouveau chemin :
+    * enrollment.instances.subLoInstances
 
 * /enrollments
-   * Chemin d’accès obsolète :
-      * loInstance.learningObject.enrollment
-   * Nouveau chemin :
-      * loInstance.learningObject
+  * Chemin d’accès obsolète :
+    * loInstance.learningObject.enrollment
+  * Nouveau chemin :
+    * loInstance.learningObject
 
 * /learningObjects/{id}
-   * Chemin d’accès obsolète :
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Nouveau chemin :
-      * instance.subLoInstances
+  * Chemin d’accès obsolète :
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Nouveau chemin :
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

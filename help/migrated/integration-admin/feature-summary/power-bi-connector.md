@@ -1,21 +1,22 @@
 ---
-description: Découvrez comment intégrer le connecteur Power BI à Adobe Learning Manager
+description: Découvrez comment intégrer Power BI connecteur à Adobe Learning Manager
 jcr-language: en_us
 title: Connecteur Power BI
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
-
 ---
 
-
-# Connecteur Power BI dans Adobe Learning Manager
+# connecteur Power BI dans Adobe Learning Manager
 
 ## Introduction
 
-Le connecteur Power BI vous permet d’intégrer Adobe Learning Manager à Microsoft Power BI (licence commerciale) afin que vous puissiez analyser, visualiser et partager vos données d’apprentissage.
+Le connecteur vous permet d’intégrer Adobe Learning Manager à Microsoft Power BI (licence commerciale) afin d’analyser, de visualiser et de partager vos données d’apprentissage.
 
 Grâce à cette intégration, l’administrateur d’intégration peut exporter automatiquement des jeux de données dynamiques tels que les relevés de notes des élèves, les compétences des utilisateurs et les rapports d’activité xAPI directement vers un espace de travail Power BI sélectionné.
 
@@ -31,15 +32,15 @@ Une fois connecté, vous pouvez utiliser toutes les fonctionnalités de Power BI
 - Assurez-vous que vous êtes autorisé à créer des applications Power BI et des espaces de travail.
 - Obtenez votre **nom de client**, votre **ID client d&#39;application**, votre **secret client d&#39;application** et votre **ID d&#39;espace de travail** (facultatif).
 
-## Configuration du connecteur de Power BI
+## Configuration du connecteur
 
 Pour connecter ALM à Power BI :
 
 1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur d’intégration.
-2. Passez le curseur de la souris sur la vignette du connecteur **Power BI** et sélectionnez **Connecter**.
+2. Survolez la vignette de connecteur **Power BI** et sélectionnez **Se connecter**.
 
    ![](assets/power-bi-connector1.png)
-   _Sélectionnez Se connecter pour configurer le connecteur de Power BI_
+   _Sélectionnez Se connecter pour configurer Power BI_
 
 3. Saisissez les informations suivantes :
 
@@ -212,18 +213,18 @@ L’affichage des **parcours d’apprentissage** dans vos rapports dépend de vo
 
 - **Connexions existantes :**
 
-   - Si **Parcours d’apprentissage** est désactivé, aucune ligne ou colonne associée n’est incluse.
-   - Si cette option est activée, le rapport inclut le parcours d’apprentissage (niveau supérieur) pour les élèves inscrits.
+  - Si **Parcours d’apprentissage** est désactivé, aucune ligne ou colonne associée n’est incluse.
+  - Si cette option est activée, le rapport inclut le parcours d’apprentissage (niveau supérieur) pour les élèves inscrits.
 
 - **Nouvelles connexions :**
 
-   - Si le parcours d’apprentissage est désactivé, les colonnes affichent :
+  - Si le parcours d’apprentissage est désactivé, les colonnes affichent :
 
-      - **Parcours intégré :** nom du programme d’apprentissage.
-      - **ID du parcours intégré :** ID pour le programme d’apprentissage.
-      - **ID de cours intégré :** ID de cours dans le parcours d’apprentissage.
-   - Si cette option est activée, la colonne **Type** utilise le parcours d’apprentissage (niveau supérieur), le cas échéant.
-   - Pour les nouvelles connexions, les modifications s’appliquent après 30 jours.
+    - **Parcours intégré :** nom du programme d’apprentissage.
+    - **ID du parcours intégré :** ID pour le programme d’apprentissage.
+    - **ID de cours intégré :** ID de cours dans le parcours d’apprentissage.
+  - Si cette option est activée, la colonne **Type** utilise le parcours d’apprentissage (niveau supérieur), le cas échéant.
+  - Pour les nouvelles connexions, les modifications s’appliquent après 30 jours.
 
 ### Où voir vos données **
 

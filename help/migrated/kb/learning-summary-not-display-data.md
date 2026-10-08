@@ -4,16 +4,17 @@ title: Le Résumé de l’apprentissage n’affiche pas les données actuelles
 description: Le Résumé de l’apprentissage n’affiche pas les données actuelles dans Adobe Learning Manager
 contentowner: saghosh
 exl-id: 97a3435e-c447-41dd-b71f-46b58a7131ac
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 48%
-
+ht-degree: 86%
 ---
-
 # Le Résumé de l’apprentissage n’affiche pas les données actuelles
 
-## Le problème 
+## Le problème
 
 Dans Adobe Learning Manager, le Résumé de l’apprentissage n’affiche pas les données actuelles pour Inscription, Achèvement ou Progressions.
 
@@ -28,7 +29,7 @@ Le problème se produit car le Résumé de l’apprentissage est mis à jour à 
 Les données Résumé de l’apprentissage sont actualisées selon les calendriers suivants :
 
 1. **Ce mois-ci :** les données sont actualisées tous les jours. Vous pouvez afficher l’heure de la dernière actualisation au bas de la page.
-1. **3 derniers mois complets :** ces données sont actualisées une fois par mois.
+1. **3 derniers mois complets :** ces données sont actualisées une fois par mois.
 1. **12 derniers mois complets :** ces données sont actualisées une fois par mois.
 
 ![](assets/learning-summary.png)

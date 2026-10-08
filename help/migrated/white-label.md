@@ -4,13 +4,14 @@ title: Étiquetage blanc dans l’application mobile Adobe Learning Manager
 description: L’étiquetage blanc est une pratique consistant à renommer une application ou un service avec votre propre marque et à le personnaliser comme si vous en étiez le créateur d’origine. Dans Adobe Learning Manager, vous pouvez appliquer un étiquetage blanc à l’application mobile, afin de pouvoir renommer l’application et la rendre disponible pour vos utilisateurs sous votre propre marque.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
-
 ---
-
 # Étiquetage blanc dans l’application mobile Adobe Learning Manager
 
 L’application mobile Adobe Learning Manager prend désormais en charge l’étiquetage blanc, ce qui signifie que vous pouvez désormais publier l’application sous votre propre marque.
@@ -151,7 +152,7 @@ Les éléments suivants peuvent être personnalisés :
 
    <td>
 
-    <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png. Les dimensions de l’icône de l’application sont de 512 × 512 pixels.<div>Veuillez noter qu’Apple n’autorise pas le canal Alpha dans les icônes d’application. Assurez-vous donc de supprimer le canal Alpha de la ressource avant de la soumettre.</div></p>
+    <p>L’icône de l’application est png. Cette icône s’affiche sur votre application. Le format à nommer est account-id_appIcon.png. Les dimensions de l’icône de l’application sont de 512 × 512 pixels.<div>Veuillez noter qu’Apple n’autorise pas le Canal Alpha dans les icônes d’application. Assurez-vous donc de supprimer le Canal Alpha de la ressource avant de la soumettre.</div></p>
 
    </td>
 
@@ -355,12 +356,12 @@ Pour télécharger le fichier services.json, procédez comme suit :
    >   Le format d’entrée du projet sera &lt;-accountname->@appspot.gserviceaccount.com.
 
 1. Accédez à l&#39;onglet **Touches** et sélectionnez **Ajouter une touche**.
-1. S&#39;il n&#39;y a pas de clé, sélectionnez **Créer une clé** et sélectionnez **JSON** comme type de clé. Cette opération génère et télécharge le fichier JSON.
-1. S&#39;il existe déjà une clé, sélectionnez **Télécharger la clé existante**, collez la clé, puis chargez-la. Cette opération génère et télécharge le fichier JSON.
+1. S&#39;il n&#39;y a pas de clé, sélectionnez **Créer une clé** et sélectionnez **JSON** comme type de clé. Cette opération génère et télécharge le Fichier JSON.
+1. S&#39;il existe déjà une clé, sélectionnez **Télécharger la clé existante**, collez la clé, puis chargez-la. Cette opération génère et télécharge le Fichier JSON.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
-Contactez l’équipe CSM et partagez le fichier JSON pour ajouter l’entrée aux services SNS sur AWS. Les utilisateurs devront obtenir l’entrée enregistrée dans le service SNS pour la notification push, qui les obligera à partager les certificats générés ci-dessus pour validation.
+Contactez l’équipe CSM et partagez le Fichier JSON pour ajouter l’entrée aux services SNS sur AWS. Les utilisateurs devront obtenir l’entrée enregistrée dans le service SNS pour la notification push, qui les obligera à partager les certificats générés ci-dessus pour validation.
 
 ## Créer un projet dans Firebase {#create-project-in-firebase}
 

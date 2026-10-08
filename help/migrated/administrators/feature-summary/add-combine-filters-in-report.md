@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Ajout et combinaison de filtres dans un rapport
 description: Restreignez les données de rapport dans le Report Builder Adobe Learning Manager à l’aide de filtres uniques, de la logique ET/OU et de groupes de filtres imbriqués.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # Ajout et combinaison de filtres dans un rapport
 

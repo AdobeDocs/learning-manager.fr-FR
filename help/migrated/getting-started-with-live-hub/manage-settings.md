@@ -1,13 +1,14 @@
 ---
 title: Gestion des paramètres dans Live Hub
 description: Découvrez comment les instructeurs accèdent aux paramètres en salle et les configurent dans Live Hub, y compris les autorisations des participants, l’enregistrement, les assistants IA et la confidentialité.
-source-git-commit: 8e0b7d983fc0736ae2890e6ec58e870bafc37fd0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
-
 ---
-
 
 # Gestion des paramètres de la salle
 
@@ -26,7 +27,7 @@ Dans une session Live Hub, les instructeurs peuvent contrôler les autorisations
 
 1. Sélectionnez l’onglet correspondant dans le panneau de gauche :
 
-   1. **Autorisations des participants** : contrôlez ce que les participants peuvent faire pendant la session, comme utiliser leur microphone, leur appareil photo, leur partage d’écran, leur tableau blanc et leur conversation privée.
+   1. **Autorisations des participants** : contrôlez ce que les participants peuvent faire pendant la session, comme utiliser leur microphone, leur caméra, leur partage d’écran, leur tableau blanc et leur conversation privée.
 
    1. **Enregistrement** : choisissez ce qui est capturé dans l&#39;enregistrement, y compris les flux vidéo des participants, les sondages et la transcription de la conversation.
 
@@ -58,7 +59,7 @@ Les paramètres suivants vous aident à gérer la session en contrôlant ce que 
 <tbody>
 <tr>
 <td rowspan="5"><p><strong>Autorisations des participants</strong></p>
-<p><strong>Par défaut</strong> : les participants peuvent utiliser leur microphone, partager leur caméra et envoyer des messages privés par chat.</p></td>
+<p><strong>Par défaut</strong> : les participants peuvent utiliser leur microphone, partager leur caméra et envoyer des messages privés dans la conversation.</p></td>
 <td>Utiliser un microphone</td>
 <td>Permet aux participants de s'exprimer pendant la session.</td>
 </tr>

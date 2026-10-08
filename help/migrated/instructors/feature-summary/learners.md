@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gestion des élèves pour votre session
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
-
 ---
-
 # Gestion des élèves pour votre session
 
 Lisez cet article pour savoir comment gérer les participants et envoyer des courriers électroniques concernant un cours et des rappels pour vos sessions.
@@ -123,8 +124,8 @@ Le code QR est téléchargé en tant que PDF et peut être partagé numériqueme
 * Les élèves scannent le code QR à l&#39;aide d&#39;un appareil mobile.
 * Adobe Learning Manager valide l’élève et la session.
 * En fonction du type de code QR :
-   * Les élèves sont inscrits à l’instance de cours, ou
-   * La présence et l&#39;achèvement sont enregistrés pour la session
+  * Les élèves sont inscrits à l’instance de cours, ou
+  * La présence et l&#39;achèvement sont enregistrés pour la session
 
 Toutes les mises à jour sont automatiquement répercutées dans les dossiers, les relevés de notes et les rapports des élèves.
 
@@ -147,9 +148,9 @@ Toutes les mises à jour sont automatiquement répercutées dans les dossiers, l
 * Lorsqu’un élève ou un instructeur est inscrit à une session de classe ou de classe virtuelle, Learning Manager envoie une invitation de calendrier (fichier ICS).
 * L’invitation au calendrier comprend :
 
-   * Date et heure de la session
-   * Détails de la session
-   * **Lien de participation directe à la session** dans la description du calendrier
+  * Date et heure de la session
+  * Détails de la session
+  * **Lien de participation directe à la session** dans la description du calendrier
 
   ![](assets/calendar-invite-session.png)
 

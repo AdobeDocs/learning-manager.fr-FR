@@ -2,13 +2,14 @@
 description: Configurez le score pondéré des élèves dans l'annuaire de notes afin que l'achèvement du cours puisse être lié à l'atteinte d'un seuil de score minimum.
 jcr-language: en_us
 title: Gradebook pour les auteurs
-source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 
 # Gradebook pour les auteurs
 

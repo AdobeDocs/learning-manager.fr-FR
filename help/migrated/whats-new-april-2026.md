@@ -3,13 +3,14 @@ description: Découvrez les nouvelles fonctionnalités et améliorations, y comp
 jcr-language: en_us
 title: Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 87edde0d142a151322869fd967a8b17d9871fdc2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
-
 ---
-
 # Nouveautés de la version d’avril 2026 de Adobe Learning Manager
 
 **Pour les élèves :** le lecteur Fluidic affiche désormais le nom du module suivant et un bouton de sortie clair.
@@ -22,7 +23,7 @@ La langue du lecteur peut être définie via LTI pour une expérience cohérente
 
 La prise en charge multilingue est disponible pour les assistances à la tâche, les questions de liste de contrôle et les pistes de texte vidéo. L’assistant AI aide les élèves à obtenir des réponses dans l’expérience d’apprentissage.
 
-**Pour les administrateurs et les auteurs :** le connecteur Zoom prend en charge plusieurs sessions VILT simultanées. Les cours partagés dans des comptes de pairs affichent le véritable auteur au lieu du terme « Auteur externe ». Les administrateurs peuvent restreindre le moment où les modules peuvent être démarrés. Les dates d’expiration des objets d’apprentissage sont affichées dans les API des élèves. Les modules de liste de contrôle prennent en charge la notation pondérée, le texte de question multilingue et les commentaires de réviseur facultatifs. Les certificats personnalisés offrent un éditeur glisser-déposer avec des champs dynamiques et des arrière-plans générés par l’IA. Le créateur d’expériences hors connexion vous permet de créer des pages d’apprentissage publiques sans nécessiter de connexion.
+**Pour les administrateurs et les auteurs :** le connecteur Zoom prend en charge plusieurs sessions VILT simultanées. Les cours partagés dans des comptes de pairs affichent le véritable auteur au lieu du terme « Auteur externe ». Les administrateurs peuvent restreindre le moment où les modules peuvent être démarrés. Les dates d’expiration des objets d’apprentissage sont exposées dans les API des élèves. Les modules de liste de contrôle prennent en charge la notation pondérée, le texte de question multilingue et les commentaires de réviseur facultatifs. Les certificats personnalisés offrent un éditeur glisser-déposer avec des champs dynamiques et des arrière-plans générés par l’IA. Le créateur d’expériences hors connexion vous permet de créer des pages d’apprentissage publiques sans nécessiter de connexion.
 
 **Pour les instructeurs :** générez des codes QR pour l&#39;inscription à l&#39;instance et la participation aux sessions. Ajoutez des commentaires ou des commentaires pendant l’évaluation de la liste de contrôle.
 
@@ -76,7 +77,7 @@ Afficher la [liste de contrôle avec commentaires](/help/migrated/authors/featur
 
 ## Prise en charge multilingue de la liste de contrôle
 
-Cette fonctionnalité vous permet de créer et de gérer des modules de liste de contrôle dans plusieurs langues. Chaque question de liste de contrôle, instruction et critère d&#39;évaluation peuvent être traduits afin que les réviseurs et les élèves interagissent avec la liste de contrôle dans leur langue préférée. Le système affiche la liste de contrôle dans la langue de contenu sélectionnée par l’utilisateur, ce qui améliore l’accessibilité et la conformité pour les équipes mondiales.
+Cette fonctionnalité vous permet de créer et de gérer des modules de liste de contrôle dans plusieurs langues. Chaque question de liste de contrôle, instruction et critère d&#39;évaluation peuvent être translatés afin que les réviseurs et les élèves interagissent avec la liste de contrôle dans leur langue préférée. Le système affiche la liste de contrôle dans la langue de contenu sélectionnée par l’utilisateur, ce qui améliore l’accessibilité et la conformité pour les équipes mondiales.
 
 Afficher [Créer une liste de contrôle multilingue dans les modules](/help/migrated/authors/feature-summary/courses.md#create-a-multi-language-checklist)
 
@@ -112,13 +113,13 @@ Les élèves peuvent désormais également voir les objets d’apprentissage ins
 
 ## Assistances à la tâche multilingues
 
-Les assistances à la tâche multilingues dans Adobe Learning Manager (ALM) permettent aux auteurs et aux administrateurs de fournir des documents d’accompagnement, des guides ou des ressources dans plusieurs langues dans une seule entrée d’assistance à la tâche. Les élèves de différentes régions peuvent accéder aux documents pertinents dans leur langue préférée, ce qui améliore la compréhension, la conformité et l&#39;expérience utilisateur.
+Les assistances à la tâche multilingues dans Adobe Learning Manager (ALM) permettent aux auteurs et aux administrateurs de fournir des documents d’accompagnement, des guides ou des ressources dans plusieurs langues dans une seule entrée d’assistance à la tâche. Les élèves de différentes régions peuvent accéder aux matériaux pertinents dans leur langue préférée, ce qui améliore la compréhension, la conformité et l&#39;expérience utilisateur.
 
 Affichez [Ajouter des assistances à la tâche multilingues](/help/migrated/authors/feature-summary/job-aids.md#create-a-multilingual-job-aid) pour plus d&#39;informations.
 
 ## Prise en charge des pistes de texte vidéo multilingues (VTT) (pour les auteurs)
 
-La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Learning Manager permet aux auteurs de fournir des sous-titres et des légendes pour le contenu vidéo et audio dans plusieurs langues. Cette fonctionnalité rationalise la localisation, rend la formation accessible à un public international et garantit la conformité aux normes d’accessibilité. Les auteurs peuvent générer, traduire, réviser et modifier automatiquement les fichiers VTT directement sur la plateforme.
+La prise en charge des pistes de texte vidéo multilingues (VTT) dans Adobe Learning Manager permet aux auteurs de fournir des sous-titres et des légendes pour le contenu vidéo et audio dans plusieurs langues. Cette fonctionnalité rationalise la localisation, rend la formation accessible à un public international et garantit la conformité aux normes d’accessibilité. Les auteurs peuvent générer, translater, réviser et modifier automatiquement les fichiers VTT directement sur la plateforme.
 
 Pour plus d&#39;informations, consultez la [Prise en charge de VTT multilingue](/help/migrated/authors/feature-summary/content-library.md#multi-lingual-vtt-support).
 

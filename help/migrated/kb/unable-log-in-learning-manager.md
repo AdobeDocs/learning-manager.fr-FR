@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Impossible de se connecter à Learning Manager
 contentowner: saghosh
 exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 72%
-
+source-wordcount: '306'
+ht-degree: 95%
 ---
-
 # Impossible de se connecter à Learning Manager
 
 ## Problème
@@ -45,7 +46,7 @@ Utilisez le mode de navigation privée dans votre navigateur, puis connectez-vou
 
 Si vous ne parvenez toujours pas à vous connecter, contactez l’administrateur du compte. L’administrateur peut vérifier si vous êtes un élève inscrit dans le compte.
 
-Si vous faites partie du compte et que vous ne parvenez toujours pas à vous connecter, l’administrateur doit vérifier si votre Adobe ID est le même que celui avec lequel vous tentez de vous connecter.
+Si vous faites partie du compte et que vous ne parvenez toujours pas à vous connecter, l’administrateur doit vérifier si votre ID Adobe est le même que celui avec lequel vous tentez de vous connecter.
 
 Parfois, l’Adobe ID est différent de l’ID Adobe Learning Manager du compte.
 

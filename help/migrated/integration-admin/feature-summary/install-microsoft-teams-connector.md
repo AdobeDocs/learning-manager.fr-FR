@@ -4,14 +4,15 @@ jcr-language: en_us
 title: Connecteur Microsoft Teams
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 51%
-
 ---
-
-# Connecteur Microsofts Teams dans Adobe Learning Manager
+# connecteur Microsofts Teams dans Adobe Learning Manager
 
 ## Introduction
 
@@ -58,7 +59,7 @@ Vous pouvez accéder au connecteur Microsoft Teams si vous avez Office 365 E3 ou
 >
 >Le compte doit utiliser le format `<username>@<company name>.onmicrosoft.com`.
 
-## Création d’une application pour le connecteur de Microsofts Teams
+## Création d’une application pour le connecteur Microsofts Teams
 
 1. Rendez-vous sur le [portail Microsoft Azure®](https://portal.azure.com/).
 1. Connectez-vous avec le compte Microsoft E5 créé à la section précédente.
@@ -92,7 +93,7 @@ Notez bien le secret du client, qui sera utilisé par la suite lors de l’inté
 1. Cliquez sur l’application que vous avez créée à la section précédente.
 1. Cliquez sur **[!UICONTROL Autorisations d’API]**.
 1. Cliquez sur **[!UICONTROL Ajouter une autorisation]**.
-1. Sélectionnez **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Autorisations de l&#39;application]** et ajoutez les autorisations suivantes :
+1. Sélectionnez **[!UICONTROL Graphe Microsoft]** > **[!UICONTROL Autorisations de l&#39;application]** et ajoutez les autorisations suivantes :
 
    1. Chat.Read.All
    1. Directory.Read.All
@@ -120,7 +121,7 @@ Notez bien le secret du client, qui sera utilisé par la suite lors de l’inté
 
 ## Configurer la stratégie d’accès à l’aide de scripts PowerShell
 
-Pour configurer la stratégie d&#39;accès de l&#39;application pour le connecteur de Microsofts Teams en exécutant des scripts PowerShell, suivez la procédure décrite dans ce [document](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
+Pour configurer la stratégie d&#39;accès de l&#39;application pour le connecteur Microsofts Teams en exécutant des scripts PowerShell, suivez la procédure décrite dans ce [document](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
 Cela permet au connecteur d’accéder aux réunions en ligne de Microsoft Teams.
 
@@ -132,7 +133,7 @@ Cela permet au connecteur d’accéder aux réunions en ligne de Microsoft Teams
 
 1. Connectez-vous à Learning Manager en tant qu&#39;**administrateur d&#39;intégration**.
 
-1. Dans la page Connecteurs, sélectionnez Connecteur Microsofts Teams et cliquez sur **[!UICONTROL Connecter]**.
+1. Dans la page Connecteurs, sélectionnez connecteur Microsofts Teams et cliquez sur **[!UICONTROL Se connecter]**.
 
 1. Saisissez les valeurs suivantes :
 

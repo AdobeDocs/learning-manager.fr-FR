@@ -3,13 +3,14 @@ description: En savoir plus sur la création de formulaires de retour d’inform
 jcr-language: en_us
 title: Formulaire de retour d'informations L1
 exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
-
 ---
-
 # Formulaire de retour d&#39;informations L1
 
 >[!IMPORTANT]
@@ -98,7 +99,7 @@ _L’écran Formulaires de retour d’informations affiche l’option Aperçu po
 
 ### Ajout de formulaires de commentaires dans d’autres langues
 
-Créez des traductions pour les questions du formulaire de retour d’informations dans plusieurs langues. Cependant, vous ne pouvez ajouter ou supprimer des questions que dans la langue par défaut (l’anglais, par exemple). Pour les autres langues, vous ne pouvez traduire que les questions ajoutées initialement dans la langue par défaut. Il n’est pas possible d’ajouter ou de supprimer des questions directement dans les versions traduites.
+Créez des traductions pour les questions du formulaire de retour d’informations dans plusieurs langues. Cependant, vous ne pouvez ajouter ou supprimer des questions que dans la langue par défaut (l’anglais, par exemple). Pour les autres langues, vous ne pouvez translater que les questions ajoutées initialement dans la langue par défaut. Il n’est pas possible d’ajouter ou de supprimer des questions directement dans les versions translatées.
 
 1. Sélectionnez **[!UICONTROL Ajouter une nouvelle langue]** dans le formulaire de retour d&#39;informations.
 
@@ -106,14 +107,14 @@ Créez des traductions pour les questions du formulaire de retour d’informatio
    _Ajouter une nouvelle version linguistique au formulaire de retour d&#39;informations_
 2. Choisissez la langue souhaitée et sélectionnez **[!UICONTROL Enregistrer]**.
 3. Accédez à l’onglet correspondant à la langue que vous avez ajoutée.
-4. Sélectionnez **[!UICONTROL Traduire]** en regard de chaque question pour ajouter votre traduction.
+4. Sélectionnez **[!UICONTROL Translater]** en regard de chaque question pour ajouter votre traduction.
 
    ![](assets/translate.png)
-   _Écran de formulaire de retour d&#39;informations affichant l&#39;option Traduire pour traduire les questions dans les langues respectives_
+   _Écran de formulaire de retour d&#39;informations affichant l&#39;option Translater pour translater les questions dans les langues respectives_
 
    >[!NOTE]
    >
-   >La question Score d’efficacité du cours se traduit automatiquement.
+   >La question Score d’efficacité du cours translate automatiquement.
 
 5. Après avoir ajouté les traductions, sélectionnez **[!UICONTROL Enregistrer]**.
 

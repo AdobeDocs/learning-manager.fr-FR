@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Accessibilité dans Adobe Learning Manager
 description: Ce document décrit la prise en charge de l’accessibilité fournie par le système de gestion d’apprentissage d’Adobe Learning Manager pour les élèves présentant un handicap. Il fournit également aux utilisateurs des options de navigation et des fonctionnalités d’accessibilité sur la plate-forme.
 contentowner: saghosh
-source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 78%
 ---
-
 
 # Accessibilité dans Adobe Learning Manager
 
@@ -17,7 +18,7 @@ Ce document décrit la prise en charge de l’accessibilité fournie par le syst
 
 Learning Manager suit les normes d’accessibilité WCAG 2.1 de niveau A et AA de W3C pour la plateforme.
 
-Le rôle Élève de Adobe Learning Manager permet aux élèves de parcourir la plateforme et de tirer parti des fonctionnalités d’accessibilité clés suivantes :
+Le rôle Élève d’Adobe Learning Manager permet aux élèves de parcourir la plateforme et de profiter des fonctionnalités d’accessibilité clés suivantes :
 
 * Lecteur d’écran
 * Clavier
@@ -201,7 +202,7 @@ Le rôle Élève dans Learning Manager prend en charge plusieurs autres fonction
 Pour plus d’informations, voir :
 
 * [Rapport de conformité d’accessibilité pour un élève](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Rapport de conformité d&#39;accessibilité pour tous les rôles](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Rapport de conformité d’accessibilité pour tous les rôles](https://www.adobe.com/fr/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
 
 ## Workflows principaux de Learning Manager (rôle Élève) {#captivateprimetopworkflowslearnerrole}
 
@@ -219,10 +220,10 @@ Utilisez la touche `kbd Tab` pour naviguer dans les éléments de la page. Utili
 
 ## Suivre une formation dans Adobe Learning Manager {#consumeatraininginadobecaptivateprime}
 
-1. Une fois qu&#39;une formation est identifiée, utilisez `kbd Tab` ou `kbd Shift + Tab` pour accéder au bouton S&#39;inscrire/Démarrer. Le statut du bouton dépend de votre statut d’inscription pour cette formation.
+1. Une fois qu&#39;une formation est identifiée, utilisez `kbd Tab` ou `kbd Shift + Tab` pour accéder au bouton S&#39;inscrire/Démarrer. L’état du bouton dépend de votre statut d’inscription à cette formation.
 
 1. Appuyez sur `kbd ENTER` pour commencer la formation.
-1. Voici les commandes qui apparaissent quel que soit le type de contenu :
+1. Voici les commandes qui apparaissent quel que soit le type de contenu :
 
    * Table des matières
    * Notes

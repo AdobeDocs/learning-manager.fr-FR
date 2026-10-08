@@ -1,13 +1,14 @@
 ---
 title: Rôle des instructeurs dans une session Live Hub
 description: Découvrez les workflows des instructeurs dans Live Hub, de la préparation d’une session à la révision des résultats en passant par la gestion des interactions des élèves.
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # Rôle des instructeurs dans une session Live Hub
 
@@ -33,7 +34,7 @@ Depuis la chambre, vous pourrez :
 
 * Concevez des salles de réunion, affectez des élèves et ajoutez des instructions pour chaque salle. Voir [Créer et gérer des salles de petits groupes](./create-and-manage-breakout-rooms.md#design-a-breakout-session) pour plus d&#39;informations.
 
-* Chargez des documents de référence afin que l’IA puisse générer des réponses précises et contextuelles aux questions des élèves au cours de la session. Afficher [Utiliser le panneau de conversation en tant qu&#39;instructeur](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses) pour plus d&#39;informations.
+* Chargez des matériaux de référence afin que l’IA puisse générer des réponses précises et contextuelles aux questions des élèves au cours de la session. Afficher [Utiliser le panneau de conversation en tant qu&#39;instructeur](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses) pour plus d&#39;informations.
 
 ### Gérer la session
 

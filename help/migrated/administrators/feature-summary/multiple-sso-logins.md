@@ -3,13 +3,14 @@ description: Adobe Learning Manager prend en charge plusieurs méthodes de conne
 title: Plusieurs connexions SSO
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 38%
-
+source-wordcount: '806'
+ht-degree: 43%
 ---
-
 # Plusieurs connexions SSO {#multiple-sso-logins}
 
 Un administrateur peut configurer plusieurs méthodes de connexion pour les utilisateurs internes et externes. Adobe Learning Manager prend en charge plusieurs connexions SSO qui aideront les administrateurs à configurer la méthode de connexion en fonction de leurs besoins et cas d’utilisation.
@@ -34,7 +35,7 @@ Lorsque l’authentification unique multiple est activée, la méthode de connex
 >
 >Les administrateurs et les administrateurs personnalisés disposant des autorisations nécessaires peuvent effectuer ces étapes.
 
-Pour configurer une authentification unique, procédez comme suit :
+Pour configurer une connexion SSO, procédez comme suit :
 
 1. Cliquez sur Configurer l’authentification unique (SSO).
 1. Cliquez sur Ajouter une nouvelle configuration SSO.\
@@ -44,10 +45,10 @@ Pour configurer une authentification unique, procédez comme suit :
    * Entrez le nom de la connexion SSO.
    * Sélectionnez le type de SSO - Initié par le fournisseur d’identités (IDP) ou Initié par le fournisseur de services (SP).
 
-      * Si vous avez sélectionné Initié par le FI, saisissez l’URL du FI. Il s’agit de l’URL qui sera l’identifiant unique de votre application et des informations fournies par votre fournisseur de services IDP. Il s’agit de l’URL vers laquelle tous les utilisateurs de Adobe Learning Manager seront redirigés après s’être connectés.
-      * Chargez le fichier XML de métadonnées des métadonnées IDP à partir de votre fournisseur IDP. Ce fichier contient des informations sur le fournisseur d’identité qui permettent à Adobe Learning Manager d’accepter les assertions SAML qu’il contient
-      * Si vous avez sélectionné Initié SP, saisissez l’ID d’entité. L’ID d’entité est une URL fournie par le fournisseur de services (SP).
-      * Entrez l’URL de connexion SP. Cette URL est utilisée par les utilisateurs pour se connecter à l’application.
+     * Si vous avez sélectionné Initié par le FI, saisissez l’URL du FI. Il s’agit de l’URL qui sera l’identifiant unique de votre application et des informations fournies par votre fournisseur de services IDP. Il s’agit de l’URL vers laquelle tous les utilisateurs de Adobe Learning Manager seront redirigés après s’être connectés.
+     * Chargez le fichier XML de métadonnées des métadonnées IDP à partir de votre fournisseur IDP. Ce fichier contient des informations sur le fournisseur d’identité qui permettent à Adobe Learning Manager d’accepter les assertions SAML qu’il contient
+     * Si vous avez sélectionné Initié SP, saisissez l’ID d’entité. L’ID d’entité est une URL fournie par le fournisseur de services (SP).
+     * Entrez l’URL de connexion SP. Cette URL est utilisée par les utilisateurs pour se connecter à l’application.
 
 1. La configuration SSO est ajoutée à la liste.
 
@@ -94,7 +95,7 @@ Procédez comme suit :
 1. Cliquez sur Paramètres > Méthodes de connexion.
 1. Cochez la case **[!UICONTROL Activer l’authentification unique (SSO) multiple]** pour la connexion.
 1. Liez la configuration SSO au profil externe créé.
-1. Enregistrez les paramètres.
+1. Enregistrez les modifications.
 
 Après avoir enregistré les paramètres du profil, une fois enregistrée, l’URL du profil externe copiée redirige les utilisateurs vers l’authentification unique liée au profil.
 
@@ -105,7 +106,7 @@ Après avoir enregistré les paramètres du profil, une fois enregistrée, l’U
 L’administrateur et l’administrateur personnalisé peuvent activer plusieurs connexions SSO.
 +++
 
-+++ Puis-je utiliser un champ actif à valeur unique existant ou nouveau ?
++++Puis-je utiliser un champ actif à valeur unique existant ou nouveau ?
 
 Oui, vous pouvez utiliser un champ actif à valeur unique existant ou nouveau pour configurer plusieurs SSO.
 +++
@@ -115,12 +116,12 @@ Oui, vous pouvez utiliser un champ actif à valeur unique existant ou nouveau po
 Non, cela n’affectera pas la configuration des connexions SSO. Les utilisateurs seront redirigés vers une authentification unique déjà configurée.
 +++
 
-+++ Un administrateur peut-il ajouter de nouvelles valeurs au champ actif de la page lors de la configuration de l’authentification unique multiple ?
++++Un administrateur peut-il ajouter de nouvelles valeurs au champ actif de la page lors de la configuration de l’authentification unique multiple ?
 
 Oui, un administrateur peut ajouter de nouvelles valeurs aux champs actifs.
 +++
 
-+++ Puis-je désactiver ou supprimer des champs liés à l’authentification unique ?
++++Puis-je désactiver ou supprimer des champs liés à l’authentification unique ?
 
 Oui, vous pouvez désactiver ou supprimer des champs liés à l’authentification unique jusqu’à ce que vous dissociiez les champs de la page de configuration de l’authentification unique.
 +++

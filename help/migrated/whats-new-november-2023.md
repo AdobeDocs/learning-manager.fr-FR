@@ -2,13 +2,14 @@
 title: Nouveautés de cette version
 description: Découvrez les nouvelles fonctionnalités et les améliorations de la version de novembre 2023 de Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 73%
-
 ---
-
 # Nouveautés de cette version
 
 ## Réorganisation de l’interface utilisateur
@@ -245,7 +246,7 @@ Le processus de migration prend désormais en charge les étiquettes de catalogu
 
 ## Améliorations de l’API pour filtrer les cours complexes
 
-Le filtrage avancé des cours par balises et étiquettes de catalogue (en utilisant une combinaison des conditions « ET » et « OU ») sera désormais possible via les API Learning Manager.
+Un filtrage avancé des cours par étiquettes et étiquettes de catalogue (en associant les conditions « ET » et « OU ») sera désormais possible via les API Learning Manager.
 
 ## Modifications apportées aux API dans cette version
 

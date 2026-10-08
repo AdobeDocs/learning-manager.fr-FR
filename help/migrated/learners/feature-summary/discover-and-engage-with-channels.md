@@ -1,13 +1,14 @@
 ---
 title: Découvrir et interagir avec les canaux
 description: Apprenez à rechercher du contenu vidéo disponible sur les canaux de Adobe Learning Manager, à vous y abonner, à le regarder, à l’aimer et à participer à des discussions.
-source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
-
 ---
-
 
 # Découvrir et utiliser les canaux (Beta)
 

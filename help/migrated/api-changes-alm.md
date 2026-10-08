@@ -3,13 +3,14 @@ description: Modifications d’API dans ALM
 jcr-language: en_us
 title: Modifications apportées aux API dans la version d’avril
 exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4106'
 ht-degree: 0%
-
 ---
-
 # Modifications apportées aux API dans la version d’avril 2026
 
 La version d’avril 2026 de Adobe Learning Manager introduit des améliorations ciblées de l’API publique concernant les alternatives et les équivalents, l’accès au contenu par fenêtre temporelle, les tentatives de quiz axées sur le contenu, les expériences hors connexion et la gestion des assistances à la tâche. Les modifications sont conçues pour être largement rétrocompatibles, tout en permettant des intégrations plus précises.
@@ -23,7 +24,7 @@ Les critères d’évaluation suivants sont concernés :
 - GET /primeapi/v2/learningObjects?filter.loTypes=learningPath
 - GET /primeapi/v2/learningObjects/{loId}
 
-Un nouvel attribut booléen, attributes.isAdaptive, indique qu&#39;un programme d&#39;apprentissage utilise des règles adaptatives. Lorsque cet indicateur est défini sur true, l’attribut sections est interprété de manière adaptative.
+Un nouvel attribut de Booléen, attributes.isAdaptive, indique qu&#39;un programme d&#39;apprentissage utilise des règles adaptatives. Lorsque cet indicateur est défini sur true, l’attribut sections est interprété de manière adaptative.
 
 Pour les appels d&#39;élève, seules les sections visibles par l&#39;élève actuel sont renvoyées. Chaque section comprend la liste des ID d’objet d’apprentissage (loId), un indicateur obligatoire et un compte de liste de valeurs obligatoire calculés en fonction de la configuration adaptative pour cet élève, ainsi que l’ID de section. La relation relations.subLOs est désormais également filtrée, de sorte qu’elle contient uniquement les objets de sous-apprentissage qui sont visibles par cet élève.
 
@@ -64,9 +65,9 @@ Les points de terminaison de l’objet d’apprentissage contiennent désormais 
 - GET /primeapi/v2/learningObjects/{loId}
 ```
 
-Un nouvel attribut booléen attributes.isAlternateComplete indique si l’achèvement par l’élève pour un objet d’apprentissage donné est le résultat d’un objet d’apprentissage alternatif ou équivalent plutôt que l’objet lui-même. Lorsque c’est le cas, la relation relationship.alternateCompletions répertorie les objets d’apprentissage qui jouaient le rôle d’alternatives. Cela permet aux rapports et aux tableaux de bord en aval de faire la distinction entre les déclarations directes et les déclarations de fin de production de remplacement et de montrer quel produit de remplacement a satisfait à l&#39;exigence.
+Un nouvel attribut attribute.isAlternateComplete indique si l&#39;achèvement par l&#39;élève pour un objet d&#39;apprentissage donné est le résultat d&#39;un objet d&#39;apprentissage alternatif ou équivalent plutôt que de l&#39;objet lui-même. Lorsque c’est le cas, la relation relationship.alternateCompletions répertorie les objets d’apprentissage qui jouaient le rôle d’alternatives. Cela permet aux rapports et aux tableaux de bord en aval de faire la distinction entre les déclarations directes et les déclarations de fin de production de remplacement et de montrer quel produit de remplacement a satisfait à l&#39;exigence.
 
-En outre, une vue objets d’apprentissage associés permet de découvrir des alternatives potentielles pouvant satisfaire un objet d’apprentissage. Cette action est exposée via :
+En outre, une vue objets d’apprentissage associés permet de découvrir des alternatives potentielles pouvant satisfaire un objet d’apprentissage. Ceci est exposé via :
 
 ```
 GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}
@@ -83,8 +84,8 @@ Les intégrations de rapports qui consomment des données d&#39;achèvement (par
 - Quand isAlternateComplete == false :\
   Considérez l&#39;enregistrement comme une __achèvement direct__ de l&#39;objet d&#39;apprentissage, comme aujourd&#39;hui.
 - Quand isAlternateComplete == true :
-   - Marquez l&#39;enregistrement comme __autre achèvement__ dans votre rapport (par exemple, une colonne « Méthode d&#39;achèvement » avec les valeurs DIRECT et ALTERNATE).
-   - Utilisez relations.alternateCompletions.data[*].id pour capturer __le(s) objet(s) d&#39;apprentissage source__ ayant accordé cette achèvement (par exemple, « Cours B terminé via l&#39;autre cours A »).
+  - Marquez l&#39;enregistrement comme __autre achèvement__ dans votre rapport (par exemple, une colonne « Méthode d&#39;achèvement » avec les valeurs DIRECT et ALTERNATE).
+  - Utilisez relations.alternateCompletions.data[*].id pour capturer __le(s) objet(s) d&#39;apprentissage source__ ayant accordé cette achèvement (par exemple, « Cours B terminé via l&#39;autre cours A »).
 
 Cas d’utilisation typiques :
 
@@ -96,13 +97,13 @@ Sans incorporer ces deux champs, les rapports en aval traiteront les autres ach�
 
 ## Comportement de l’API LO Élève/Administrateur
 
-La structure d’assistance à la tâche multilingue est identique dans les API LO de l’élève et de l’administrateur. La portée de l’élève renvoie uniquement les assistances à la tâche visibles par l’élève, mais pour chaque assistance à la tâche visible, elle expose toutes les langues configurées via plusieurs entités de ressource (une par langue) et plusieurs paramètres régionaux localizedMetadata. La portée d’administrateur renvoie toutes les assistances à la tâche que l’administrateur peut gérer, avec les mêmes ID de ressource spécifiques au modèle d’objet d’apprentissage et aux paramètres régionaux. Les clients avec une étendue d’élève doivent choisir la ressource dont les attributs.locale correspondent le mieux à la langue du contenu de l’élève, tandis que les outils d’administration peuvent énumérer toutes les langues pour la création de rapports et la gestion.
+La structure d’assistance à la tâche multilingue est identique dans les API LO de l’élève et de l’administrateur. La portée de l’élève renvoie uniquement les assistances à la tâche visibles par l’élève, mais pour chaque assistance à la tâche visible, elle expose toutes les langues configurées via plusieurs entités de ressource (une par langue) et plusieurs langues localiséesMetadata. La portée d’administrateur renvoie toutes les assistances à la tâche que l’administrateur peut gérer, avec les mêmes ID de ressource spécifiques au modèle d’objet d’apprentissage et aux paramètres régionaux. Les clients avec une étendue d’élève doivent choisir la ressource dont les attributs.locale correspondent le mieux à la langue du contenu de l’élève, tandis que les outils d’administration peuvent énumérer toutes les langues pour la création de rapports et la gestion.
 
 ## Liste de contrôle avec possibilité de commentaire
 
 Pour prendre en charge les workflows dans lesquels les réviseurs peuvent partager des commentaires structurés sur les activités basées sur des listes de contrôle, cette version affiche des *commentaires de liste de contrôle* et des contrôles de visibilité des réviseurs via l&#39;API de ressource d&#39;objet d&#39;apprentissage.
 
-Les métadonnées liées à la liste de contrôle sont affichées sur les entités learningObjectResource (JApiLOResource, « type » : « learningObjectResource ») qui représentent des ressources de liste de contrôle dans un cours ou un autre objet d’apprentissage.
+Les métadonnées liées à la liste de contrôle sont exposées sur les entités learningObjectResource (JApiLOResource, « type » : « learningObjectResource ») qui représentent des ressources de liste de contrôle dans un cours ou un autre objet d’apprentissage.
 
 Les informations sont disponibles via :
 
@@ -120,15 +121,15 @@ Pour les ressources de liste de contrôle, les attributs suivants peuvent être 
   Commentaire en texte libre laissé par le réviseur pour l’élève, par exemple :\
   « checklistComment »: « Excellente performance ! Tous les protocoles de sécurité ont été suivis correctement. »\
   Cet attribut est renseigné _uniquement si_ :
-   - showChecklistComment est true, et
-   - la configuration de liste de contrôle a enable_reviewer_comments activée.
+  - showChecklistComment est true, et
+  - la configuration de liste de contrôle a enable_reviewer_comments activée.
 - attributes.showChecklistComment\
-  Indicateur booléen indiquant si les remarques des réviseurs doivent être affichées à l’élève :\
+  Un indicateur de Booléen indiquant si les remarques des réviseurs doivent être affichées à l’élève :\
   « showChecklistComment » : true\
   Cet attribut est présent _uniquement lorsque_ enable_reviewer_comments est activé dans la configuration de liste de contrôle.\
   Les clients doivent utiliser cet indicateur pour décider s’ils souhaitent rendre checklistComment dans les expériences des élèves.
 - attributes.showReviewerNameToLearner\
-  Indicateur booléen contrôlant si l’élève doit voir l’identité du réviseur :\
+  Indicateur de Booléen contrôlant si l’élève doit voir l’identité du réviseur :\
   « showReviewerNameToLearner » : true\
   Lorsque la valeur est True, les clients peuvent utiliser la relation checklistReviewedBy (voir ci-dessous) pour résoudre et afficher le nom du réviseur (par exemple, via une API de recherche d’utilisateur).
 
@@ -171,17 +172,17 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
 - Dans la réponse :
-   - Utilisez relations.instances de l’objet d’apprentissage principal pour localiser les entrées learningObjectInstance pertinentes dans incluses.
-   - À partir de chaque learningObjectInstance, suivez relationship.loResources pour trouver les entrées learningObjectResource.
-   - Filtrer les entrées learningObjectResource où :
-      - attributes.resourceSubType == « CHECKLIST » (pour les ressources de liste de contrôle), et
-      - facultativement attributes.showChecklistComment == true pour rechercher des listes de contrôle avec des commentaires visibles par l’élève.
+  - Utilisez relations.instances de l’objet d’apprentissage principal pour localiser les entrées learningObjectInstance pertinentes dans incluses.
+  - À partir de chaque learningObjectInstance, suivez relationship.loResources pour trouver les entrées learningObjectResource.
+  - Filtrer les entrées learningObjectResource où :
+    - attributes.resourceSubType == « CHECKLIST » (pour les ressources de liste de contrôle), et
+    - facultativement attributes.showChecklistComment == true pour rechercher des listes de contrôle avec des commentaires visibles par l’élève.
 
 - Pour chaque liste de contrôle learningObjectResource, utilisez :
-   - attributes.checklistComment (si présent et showChecklistComment a la valeur true)
-   - attributes.checklistEvaluationStatus (par exemple, « PASSED »)
-   - attributes.showReviewerNameToLearner
-   - relations.checklistReviewéBy (le cas échéant) pour identifier le réviseur.
+  - attributes.checklistComment (si présent et showChecklistComment a la valeur true)
+  - attributes.checklistEvaluationStatus (par exemple, « PASSED »)
+  - attributes.showReviewerNameToLearner
+  - relations.checklistReviewéBy (le cas échéant) pour identifier le réviseur.
 
 Ce modèle permet aux clients sans en-tête ou personnalisés de générer une expérience de liste de contrôle complète, comprenant le statut, les indicateurs obligatoires/facultatifs et les commentaires des réviseurs, directement à partir des API Prime.
 
@@ -189,14 +190,14 @@ Ce modèle permet aux clients sans en-tête ou personnalisés de générer une e
 
 - _Reporting et analyses_
 Les intégrations qui suivent les performances des élèves sur les listes de contrôle peuvent incorporer :
-   - checklistEvaluationStatus pour les réussites/échecs ou d’autres indicateurs d’état.
-   - isChecklistObligatoire pour différencier les activités de liste de contrôle obligatoires des activités de liste de contrôle facultatives.
-   - Présence ou absence de checklistComment et showChecklistComment pour les audits de la couverture des commentaires.
+  - checklistEvaluationStatus pour les réussites/échecs ou d’autres indicateurs d’état.
+  - isChecklistObligatoire pour différencier les activités de liste de contrôle obligatoires des activités de liste de contrôle facultatives.
+  - Présence ou absence de checklistComment et showChecklistComment pour les audits de la couverture des commentaires.
 - _Expériences des élèves_
 Les implémentations de l’interface utilisateur doivent :
-   - Respectez showChecklistComment avant d’afficher les remarques.
-   - Utilisez showReviewerNameToLearner et checklistReviewedBy pour décider d’afficher le nom du réviseur ou de conserver l’anonymat de la révision.
-   - Revenez en arrière gracieusement lorsque les commentaires sont désactivés ou absents, en affichant toujours l’état d’évaluation et les informations de soumission.
+  - Respectez showChecklistComment avant d’afficher les remarques.
+  - Utilisez showReviewerNameToLearner et checklistReviewedBy pour décider d’afficher le nom du réviseur ou de conserver l’anonymat de la révision.
+  - Revenez en arrière gracieusement lorsque les commentaires sont désactivés ou absents, en affichant toujours l’état d’évaluation et les informations de soumission.
 
 ## Prise en charge multilingue de l’assistance à la tâche
 
@@ -208,7 +209,7 @@ _Objet d’apprentissage_ (lo) → _learningObjectResource_ (loResource) → _re
 
 Aucune modification n’est requise pour le contrat d’API. Toute assistance à la tâche localisée s’intègre naturellement dans cette structure, avec des entités de ressources distinctes par locale et des métadonnées localisées partagées aux niveaux learningObject / learningObjectResource.
 
-Les données d’assistance à la tâche sont affichées via :
+Les données d’assistance à la tâche sont exposées via :
 
 ```
 GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources.resources
@@ -221,21 +222,21 @@ Lorsqu’une assistance à la tâche comporte plusieurs variantes de langue, le 
 Utilisation d’assistances à la tâche multilingues :
 
 - _learningObject (type : learningObject)_
-   - Contient des métadonnées localisées avec plusieurs entrées (par exemple, en-US, fr-FR) afin que les clients puissent présenter le titre/la description de l’assistance à la tâche dans la langue appropriée.
+  - Contient des métadonnées localisées avec plusieurs entrées (par exemple, en-US, fr-FR) afin que les clients puissent présenter le titre/la description de l’assistance à la tâche dans la langue appropriée.
 - _learningObjectInstance (type : learningObjectInstance)_
-   - Fait référence à une ou plusieurs entrées learningObjectResource via relations.loResources.
+  - Fait référence à une ou plusieurs entrées learningObjectResource via relations.loResources.
 - _learningObjectResource (type : learningObjectResource)_
-   - Contient la configuration commune (type de contenu, version, etc.) et localizedMetadata multilingue.
-   - Liens vers une ou plusieurs entités de ressource via relations.resources.
+  - Contient la configuration commune (type de contenu, version, etc.) et localizedMetadata multilingue.
+  - Liens vers une ou plusieurs entités de ressource via relations.resources.
 - _ressource (type : ressource)_
-   - *Une par locale*, chacune avec son propre identifiant, sa propre langue, son propre nom et sa propre URL (location/downloadUrl).
+  - *Une par locale*, chacune avec son propre identifiant, sa propre langue, son propre nom et sa propre URL (location/downloadUrl).
 
 Dans le cas d’une assistance à la tâche multilingue, le schéma typique est le suivant :
 
 - learningObjectResource avec localizedMetadata pour en-US et fr-FR
 - relations.resources.data pointant vers :
-   - ressource avec paramètres régionaux : « fr-FR »
-   - ressource avec paramètres régionaux : « fr-FR »
+  - ressource avec paramètres régionaux : « fr-FR »
+  - ressource avec paramètres régionaux : « fr-FR »
 
 Les clients peuvent sélectionner la ressource appropriée en faisant correspondre les paramètres régionaux de l’élève au champ resource.attributes.locale.
 
@@ -249,7 +250,7 @@ Auparavant, les ressources d’assistance à la tâche utilisaient un format d�
 
 jobAid:131032_-1_-1_2_resource
 
-Ce format ne codait pas les paramètres régionaux et les API n’exposaient efficacement qu’une seule ressource (généralement en-US).
+Ce format ne codait pas les paramètres régionaux et les API n’exposaient en fait qu’une seule ressource (généralement en-US).
 
 _Nouveau format d&#39;ID de ressource (compatible multilingue)_
 
@@ -261,7 +262,7 @@ jobAid:<jobAidId>_<version>_<localeCode>
 
 Exemples :
 
-- jobAid:131032_2_en-US
+- jobAid:131032_2_fr-FR
 - jobAid:131032_2_fr_FR
 - jobAid:131032_2_es_ES
 
@@ -298,24 +299,24 @@ Le point de terminaison de ressource hérité reste disponible :
 
 Il est désormais _rétrocompatible_ avec les anciens et les nouveaux formats d&#39;ID :
 
-- _Ancien format d&#39;ID_ (par exemple, jobAid:131032_-1_-1_2_resource)
-   - Continue à travailler.
-   - Retourne la _première ressource créée_ associée à cet identifiant hérité (généralement la ressource en-US d&#39;origine).
+- _Ancien format d’ID_ (par exemple, jobAid:131032_-1_-1_2_resource)
+  - Continue à travailler.
+  - Retourne la _première ressource créée_ associée à cet identifiant hérité (généralement la ressource en-US d&#39;origine).
 - _Nouveau format d&#39;ID_ (par exemple, jobAid:131032_2_fr_FR)
-   - Retourne la _ressource exacte spécifique aux paramètres régionaux_ correspondant à cet ID.
-   - Cela permet une récupération et une manipulation précises des variantes d’assistance à la tâche localisées.
+  - Retourne la _ressource exacte spécifique aux paramètres régionaux_ correspondant à cet ID.
+  - Cela permet une récupération et une manipulation précises des variantes d’assistance à la tâche localisées.
 
 Les intégrations qui stockent ou référencent actuellement les anciens ID de ressource peuvent continuer à fonctionner sans changement, tandis que les implémentations plus récentes sont encouragées à adopter le nouveau format d&#39;ID pour les opérations spécifiques aux paramètres régionaux.
 
 ### Considérations relatives à l’intégration et à l’expérience utilisateur
 
 - _Interface utilisateur Élève/Administrateur_
-   - Utilisez learningObject.localizedMetadata et learningObjectResource.localizedMetadata pour présenter les titres et les descriptions dans la langue appropriée.
-   - Utilisez resource.attributes.locale pour sélectionner l’URL correcte (emplacement / downloadUrl) pour les paramètres régionaux de l’élève.
-   - Mettez en œuvre un comportement de secours (par exemple, revenir à en-US) si les paramètres régionaux exacts d’un élève ne sont pas disponibles.
+  - Utilisez learningObject.localizedMetadata et learningObjectResource.localizedMetadata pour présenter les titres et les descriptions dans la langue appropriée.
+  - Utilisez resource.attributes.locale pour sélectionner l’URL correcte (emplacement / downloadUrl) pour les paramètres régionaux de l’élève.
+  - Mettez en œuvre un comportement de secours (par exemple, revenir à en-US) si les paramètres régionaux exacts d’un élève ne sont pas disponibles.
 - _API et stockage_
-   - Pour les nouvelles intégrations, stockez les _ID de ressource au nouveau format_ (`jobAid:<jobAidId>_<version>_<localeCode>`) pour permettre une récupération non ambiguë spécifique aux paramètres régionaux.
-   - Les ID hérités peuvent toujours être utilisés avec /resources/{resourceId}, mais ils ne feront pas la distinction entre les paramètres régionaux.
+  - Pour les nouvelles intégrations, stockez les _ID de ressource au nouveau format_ (`jobAid:<jobAidId>_<version>_<localeCode>`) pour permettre une récupération non ambiguë spécifique aux paramètres régionaux.
+  - Les ID hérités peuvent toujours être utilisés avec /resources/{resourceId}, mais ils ne feront pas la distinction entre les paramètres régionaux.
 
 ## Contraintes de créneau horaire pour le démarrage de modules
 
@@ -343,7 +344,7 @@ Via :
 
 `GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
-Les ressources d’objet d’apprentissage peuvent désormais exposer un attribut booléen hasContentDrivenAttemptTracking. Lorsque c’est le cas, le quiz ou module gère les tentatives en interne (par exemple, via la logique SCORM ou xAPI) et les compteurs de tentatives standard de la plateforme peuvent ne pas refléter entièrement l’expérience de l’élève.
+Les ressources d’objet d’apprentissage peuvent désormais exposer un attribut de Booléen hasContentDrivenAttemptTracking. Lorsque c’est le cas, le quiz ou module gère les tentatives en interne (par exemple, via la logique SCORM ou xAPI) et les compteurs de tentatives standard de la plateforme peuvent ne pas refléter entièrement l’expérience de l’élève.
 
 Les intégrations qui affichent le nombre de tentatives ou contrôlent le comportement des nouvelles tentatives doivent cocher cet indicateur. Lorsqu’elle est activée, ils ne doivent pas déduire de limites de tentatives uniquement à partir des métadonnées de la plateforme et doivent être prêts à s’appuyer sur des rapports côté contenu (par exemple, via des instructions xAPI) ou sur des règles spécifiques à l’entreprise.
 
@@ -369,7 +370,7 @@ Les composants sont les suivants :
 - `<version>` : numéro de version de l&#39;assistance à la tâche (par exemple, 2),
 - `<localeCode>` : code de paramètres régionaux (par exemple, en_US, fr_FR, es_ES).
 
-Toute intégration qui indexe des ressources ou est conservée dans les ID de ressources d&#39;assistance à la tâche doit mettre à jour sa logique d&#39;analyse et de stockage pour reconnaître le nouveau format. Étant donné que les identificateurs eux-mêmes changent, il est fortement recommandé de reconstruire tous les index locaux clés par des ID de ressource d’assistance à la tâche après la mise à niveau vers la version d’avril 2026.
+Toute intégration qui indexe des ressources ou est conservée dans les ID de ressources d&#39;assistance à la tâche doit mettre à jour sa logique d&#39;analyse et de stockage pour reconnaître le nouveau format. Étant donné que les identifiants eux-mêmes changent, il est fortement recommandé de reconstruire tous les index locaux clés par les ID de ressource d’assistance à la tâche après la mise à niveau vers la version d’avril 2026.
 
 ## Définition d’images de bannière de cours via la migration
 
@@ -429,8 +430,8 @@ Le champ de bannière fonctionne dans les deux scénarios :
 Lorsqu&#39;un cours est créé pour la première fois à partir de course.csv et que la colonne de bannière est remplie, cette bannière est immédiatement définie.
 - _Cours existants (mise à niveau/corrections)_
 Si vous réexécutez la migration avec le même ID de cours et une nouvelle valeur de bannière :
-   - Learning Manager localise le cours existant.
-   - L&#39;image de bannière est _mise à jour_ vers la nouvelle image spécifiée dans le fichier CSV.
+  - Learning Manager localise le cours existant.
+  - L&#39;image de bannière est _mise à jour_ vers la nouvelle image spécifiée dans le fichier CSV.
 
 Vos noms et chemins de colonne réels doivent correspondre à la _spécification CSV téléchargée_ et à la mise en page de votre référentiel de contenu.
 
@@ -453,10 +454,10 @@ Vous devez traiter la colonne d’ordre héritée comme supprimée ou ignorée :
 
 - Ne vous fiez pas à afin de contrôler la séquence de cours dans un programme d’apprentissage pendant la migration.
 - Si vous disposez toujours d’une colonne de commande provenant d’anciens modèles :
-   - Learning Manager l’ignorera pour la commande.
-   - Vous pouvez le supprimer en toute sécurité de votre fichier CSV au fil du temps pour simplifier vos fichiers de migration.
+  - Learning Manager l’ignorera pour la commande.
+  - Vous pouvez le supprimer en toute sécurité de votre fichier CSV au fil du temps pour simplifier vos fichiers de migration.
 - La mise en correspondance essentielle requise demeure la suivante :
-   - ID du programme d’apprentissage ↔ ID du cours (et toute autre colonne encore documentée telle que id, learningProgramId, courseId et dates).
+  - ID du programme d’apprentissage ↔ ID du cours (et toute autre colonne encore documentée telle que id, learningProgramId, courseId et dates).
 
 Reportez-vous toujours aux [_spécifications CSV_](https://experienceleague.adobe.com/fr/docs/learning-manager/using/integration/migration-manual) les plus récentes de votre compte Learning Manager (via csv_specifications.zip) pour confirmer l’ensemble d’en-têtes et les exigences actuelles.
 
@@ -501,7 +502,7 @@ Exemple :
 
 ### Comment résoudre timeZoneCode
 
-Le code de fuseau horaire numérique est une clé de recherche dans le catalogue de fuseau horaire du compte, qui s’affiche via l’API de compte :
+Le code de fuseau horaire numérique est une clé de recherche dans le catalogue de fuseau horaire du compte, qui est exposé via l’API de compte :
 
 ```http
 GET /primeapi/v2/account
@@ -561,9 +562,9 @@ Ces API font partie de la surface standard de l&#39;__API d&#39;administration v
 - [URL de base (prod)](https://learningmanager.adobe.com/docs/primeapi/v2/)
 - Auth : jeton d’accès OAuth 2.0 avec portée `admin:write`
 - En-têtes requis :
-   - Autorisation : Bearer &lt;access_token>
-   - Content-Type : application/json
-   - Accepter : application/json
+  - Autorisation : Bearer &lt;access_token>
+  - Content-Type : application/json
+  - Accepter : application/json
 
 Pour connaître le comportement et les portées de l’API d’administration, voir :
 
@@ -592,7 +593,7 @@ Les options __ajouter__ et __supprimer__ utilisent exactement la même forme de 
 
 #### données (obligatoire)
 
-données est la liste des identificateurs de ressources utilisateur pour ce lot.
+données est la liste des identifiants de ressources utilisateur pour ce lot.
 
 - `type` doit être « utilisateur ».
 - `id` est l&#39;_ID utilisateur numérique_ dans ALM (pas l&#39;adresse e-mail, pas l&#39;UUID).
@@ -614,7 +615,7 @@ Utilisation standard :
 
 - `event_id` - ID de corrélation que vous générez.
 - `sourceSystem` - nom de votre système en amont.
-- `batchId` - identifiants de lot ou de tâche.
+- `batchId` - identifiants de traitement par lots ou de traitement.
 
 Le service renvoie cet objet sans le modifier dans la réponse du webhook, afin que vous puissiez faire correspondre le rappel à votre tâche interne.
 
@@ -638,7 +639,7 @@ Comportement :
 
 Vous devez toujours :
 
-- Stockez ce `event_id` en tant qu&#39;identificateur principal pour le lot.
+- Stockez ce `event_id` en tant qu&#39;identifiant principal du lot.
 - Attendez-vous à recevoir la même valeur dans le rappel de webhook.
 
 Affichez [Webhooks pour l’ajout et la suppression d’appartenances à un groupe d’utilisateurs](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-adding-and-removing-user-group-membership) pour plus de détails.
@@ -693,7 +694,7 @@ Utilisation :
 
 Cela renvoie des structures de menu et de page filtrées pour les utilisateurs anonymes, adaptées à Experience Builder ou à d’autres sites sans en-tête.
 
-_Qu&#39;est-ce qui a changé dans le filtrage des assistances à la tâche avec effectiveModifiedDate ?_
+_Qu&#39;est-ce qui a changé dans le filtrage d&#39;assistance à la tâche avec effectiveModifiedDate ?_
 
 Les demandes qui combinent filter.effectiveModifiedDate avec filter.loTypes=jobAid retournent désormais correctement uniquement les assistances à la tâche dans la fenêtre de date spécifiée.
 

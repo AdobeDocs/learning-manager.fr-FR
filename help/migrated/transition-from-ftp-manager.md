@@ -2,13 +2,14 @@
 title: Transition depuis Adobe FTP Manager
 description: Adobe Learning Manager prend en charge un nouveau connecteur utilisant le protocole SFTP d’AWS Transfer Family. Vous pouvez remplacer n’importe quel client FTP open source par Adobe FTP Manager.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 69%
-
 ---
-
 # Transition depuis Adobe FTP Manager
 
 Adobe Learning Manager prend en charge un nouveau connecteur utilisant le protocole SFTP d’AWS Transfer Family.
@@ -24,9 +25,9 @@ Certains clients FTP recommandés par AWS sont [répertoriés ici](https://docs.
 
 ## Configuration du connecteur FTP AWS
 
-Vous devez configurer le nouveau connecteur FTP basé sur AWS sur l’administrateur de l’intégration.
+Vous devez configurer le nouveau connecteur FTP basé sur AWS dans l’administration de l’intégration.
 
-![image des connecteurs](assets/alm-ftp.png)
+Image ![connecteur](assets/alm-ftp.png)
 *Sélectionnez l&#39;option FTP*
 
 Une fois la connexion établie, la page Détails de la connexion s’affiche.
@@ -84,7 +85,7 @@ Configurez la connexion sur un client FTP (recommandé dans la section précéde
 1. Connectez-vous au nouveau connecteur FTP ALM. Cliquez sur Se connecter.
 
    ![connecter l’image](assets/connect-client.png)
-   *Se connecter au nouveau connecteur FTP ALM*
+   *Se connecter au nouveau Connecteur FTP ALM*
 
 1. Pour vous connecter via une authentification de base par mot de passe, entrez le nom de domaine et le nom d’utilisateur FTP, puis définissez un mot de passe selon les critères de validation du mot de passe. Cliquez sur Se connecter. La nouvelle connexion FTP sera créée et sera accessible via le client SFTP de votre choix.
 

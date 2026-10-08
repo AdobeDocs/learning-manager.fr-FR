@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Cours adaptatifs dans Adobe Learning Manager
 contentowner: mmanuel
 hide: true
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
-
 ---
-
 
 # Cours adaptatifs dans Adobe Learning Manager
 
@@ -20,7 +21,7 @@ Au lieu de créer des cours distincts pour chaque rôle, région ou profil de co
 
 ## Résolution des problèmes liés aux cours adaptatifs
 
-Les organisations qui forment un personnel nombreux et diversifié sont confrontées à un défi commun : la confidentialité des données, l&#39;éthique au travail et la sécurité doivent atteindre les apprenants avec des rôles, des lieux ou des obligations de conformité différents.
+Les organisations qui forment un personnel nombreux et diversifié sont confrontées à un défi commun : la confidentialité des faces, l&#39;éthique au travail et la sécurité doivent atteindre les apprenants avec des rôles, des lieux ou des obligations de conformité différents.
 
 Cela crée une duplication : les auteurs maintiennent plusieurs cours presque identiques, le reporting est fragmenté et lorsque le contenu de base change, chaque copie doit être mise à jour.
 

@@ -1,13 +1,14 @@
 ---
 title: Présentation de Live Hub (Beta)
 description: Découvrez les panneaux et les commandes qui composent la salle de session du hub en direct, notamment la barre de contrôle, le panneau Participants, le panneau Conversation et le panneau Éruptions.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 1%
-
 ---
-
 
 # Présentation de Live Hub (Beta)
 
@@ -16,7 +17,7 @@ Dans Adobe Learning Manager Live Hub, la salle de session est conçue pour aider
 Cet article fournit une vue d’ensemble de l’interface Live Hub et de sa mise en page. Il explique les différents composants de la salle, tels que le panneau de contrôle, le panneau Participants et d’autres éléments clés, avec des références étiquetées pour vous aider à naviguer dans l’interface.
 
 ![Présentation de la mise en page du hub en direct](assets/live-hub-layout-overview.png)
-*A : commandes de microphone, B : options de caméra, C : réactions, D : lever la main, E : écran de partage, F : autres actions, G : quitter la session, H : panneau Conversation, I : panneau Participants, J : panneau Sondages et questionnaires, K : Éclatement, L : autres applications, M : engagement des participants.*
+*A : commandes de microphone, B : options de Caméra, C : réactions, D : lever la main, E : écran de partage, F : autres actions, G : quitter la session, H : panneau Conversation, I : panneau Participants, J : panneau Sondages et questionnaires, K : Éclatement, L : autres applications, M : engagement des participants.*
 
 ## Composants clés de la disposition de la salle de classe
 

@@ -3,13 +3,14 @@ description: En savoir plus sur la façon dont les paramètres de base vous aide
 jcr-language: en_us
 title: Paramètres de base
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6386'
+source-wordcount: '6326'
 ht-degree: 4%
-
 ---
-
 # Paramètres de base dans Adobe Learning Manager
 
 ## Présentation
@@ -252,7 +253,7 @@ Cette option permet aux administrateurs de mettre à jour le contenu d&#39;un mo
 
 ### Enregistrement automatique des utilisateurs
 
-Cette option vous permet d&#39;inscrire automatiquement des utilisateurs à des catalogues spécifiques ou à du contenu d&#39;apprentissage lorsqu&#39;ils sont ajoutés au système. Cela garantit que les utilisateurs ont un accès immédiat aux supports d’apprentissage pertinents sans nécessiter d’intervention manuelle.
+Cette option vous permet d&#39;inscrire automatiquement des utilisateurs à des catalogues spécifiques ou à du contenu d&#39;apprentissage lorsqu&#39;ils sont ajoutés au système. Cela permet aux utilisateurs d’avoir un accès immédiat aux matériaux d’apprentissage pertinents sans nécessiter d’intervention manuelle.
 
 * Les nouveaux utilisateurs sont automatiquement enregistrés dans des catalogues ou des cours prédéfinis lorsqu’ils sont ajoutés au système.
 * Les administrateurs peuvent définir des règles pour déterminer les catalogues ou cours auxquels les utilisateurs sont automatiquement inscrits, en fonction d&#39;attributs utilisateur tels que des rôles, des groupes ou d&#39;autres critères. Pour plus d&#39;informations, voir [Plans d&#39;apprentissage dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/learning-plans.md) ou [Inscription automatique des groupes d&#39;utilisateurs externes aux cours](https://elearning.adobe.com/2024/05/automatically-enroll-external-user-groups-in-courses-upon-registration/) lors de l&#39;inscription.
@@ -363,7 +364,7 @@ Pour les comptes existants, si l’option Efficacité du cours était activée p
 
 ### Vue par défaut (rôle Élève)
 
-Cette option fait référence à l’affichage du catalogue de cours par les élèves. Cochez la case Mode liste pour passer de la vue grille par défaut à la vue liste.
+Cette option fait référence à l’affichage du catalogue de cours par les élèves. Cochez la case Mode liste pour passer de la vue de grille par défaut à la vue de liste.
 
 ### Parcours d’apprentissage
 
@@ -645,7 +646,7 @@ Cette option permet aux auteurs de retirer du contenu de formation (cours, parco
 1. Une fois retirés, les élèves inscrits pourront afficher et effectuer des actions, mais les élèves non encore inscrits perdront l’accès :
 a. Élèves inscrits :
 i. Les élèves déjà inscrits au cours ou au parcours d’apprentissage retiré peuvent toujours accéder au contenu.
-ii. Ils peuvent continuer à effectuer des actions telles que terminer le cours ou consulter le matériel.
+ii. Ils peuvent continuer à effectuer des actions telles que terminer le cours ou consulter le matériau.
 b. Élèves non encore inscrits :
 i. Les élèves qui ne sont pas inscrits au cours ou au parcours d’apprentissage avant son retrait ne verront plus le contenu dans le catalogue.
 ii. Ils perdront complètement l’accès au contenu retiré.

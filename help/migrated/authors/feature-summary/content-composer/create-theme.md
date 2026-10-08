@@ -2,13 +2,14 @@
 description: Découvrez comment créer un thème de cours personnalisé dans le compositeur de contenu, soit à partir de zéro à l’aide de l’option Créer, soit en exportant un thème existant au format JSON, en modifiant ses propriétés et en l’important à nouveau.
 jcr-language: en_us
 title: Créer un thème
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 
 # Créer un thème
 
@@ -16,7 +17,7 @@ Deux façons de créer un thème personnalisé, qui ajoutent toutes les deux le 
 
 - **Créez à partir de zéro** à l’aide de l’option **Créer** dans la barre d’outils : configurez la palette de couleurs, les polices et d’autres propriétés, puis **Enregistrez en tant que nouveau**.
 
-- **Importer un fichier JSON personnalisé** : exportez un thème existant au format JSON, modifiez-le dans un éditeur de texte ou de code, puis réimportez-le.
+- **Importer un Fichier JSON personnalisé** : exportez un thème existant au format JSON, modifiez-le dans un éditeur de texte ou de code, puis réimportez-le.
 
 **Besoin de plus de contrôle ?**
 
@@ -37,14 +38,14 @@ Pour la typographie par élément (noms de leçon, noms de rubrique, en-têtes d
 
 1. Sélectionnez **Thèmes** dans la barre d&#39;outils pour ouvrir le panneau **Thèmes de cours**.
 
-2. Passez la souris sur le thème que vous souhaitez utiliser comme base et sélectionnez **Exporter** pour le télécharger en tant que fichier JSON.
+2. Passez la souris sur le thème que vous souhaitez utiliser comme base et sélectionnez **Exporter** pour le télécharger en tant que Fichier JSON.
 
-3. Ouvrez le fichier JSON dans un éditeur de texte ou de code et mettez à jour ses propriétés, telles que le rayon, l’espacement, la palette de couleurs ou les polices.
+3. Ouvrez le Fichier JSON dans un éditeur de texte ou de code et mettez à jour ses propriétés, telles que le rayon, l’espacement, la palette de couleurs ou les polices.
 
-4. Enregistrez le fichier JSON.
+4. Enregistrez le Fichier JSON.
 
 5. Dans le compositeur de contenu, sélectionnez **Importer** à partir du panneau **Thèmes de cours**.
 
-6. Sélectionnez le fichier JSON mis à jour sur votre ordinateur.
+6. Choisissez le Fichier JSON mis à jour sur votre ordinateur.
 
 7. Sélectionnez **Enregistrer comme nouveau** pour ajouter le thème à votre liste de thèmes **personnalisés**.

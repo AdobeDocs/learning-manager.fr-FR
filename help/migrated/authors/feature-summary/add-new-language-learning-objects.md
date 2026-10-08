@@ -4,14 +4,15 @@ jcr-language: en_us
 title: Ajouter des objets d’apprentissage à diverses endroits
 contentowner: shhivkum
 exl-id: 566ecf70-31ba-423d-a61f-1fe3b7cce531
-source-git-commit: 9b983d6b3b8526e7d92c74b504403bd76180993b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '644'
 ht-degree: 28%
-
 ---
-
-# Ajouter des objets d’apprentissage à diverses endroits
+# Ajouter des objets d’apprentissage dans diverses langues
 
 Consultez cette rubrique pour savoir comment ajouter des cours, des certifications et des plans d’apprentissage dans différentes langues.
 
@@ -60,7 +61,7 @@ Procédez comme suit pour créer un cours dans plusieurs langues :
    >La procédure sera également la même pour le module Salle de classe.
 
    ![](assets/vc-page.png)
-Ajouter une nouvelle langue pour le module VC
+   Ajouter une nouvelle langue pour le module VC
 
 7. Saisissez le **[!UICONTROL Titre]** et la **[!UICONTROL Description]** sur chaque onglet de langue et sélectionnez **[!UICONTROL Ajouter]**.
 8. Saisissez les détails requis pour le cours et publiez-le.
