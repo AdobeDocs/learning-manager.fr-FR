@@ -3,13 +3,11 @@ description: En savoir plus sur Experience Builder, un outil sans code/à code f
 jcr-language: en_us
 title: Experience Builder dans Adobe Learning Manager
 exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: a32d8ccf872aa77202bc1660b76e66c12466f8e6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # Présentation
 
 Experience Builder est un outil sans code/à code faible dans Adobe Learning Manager qui vous aide à créer des portails d’apprentissage personnalisés. Il vous permet de concevoir des portails d’apprentissage conviviaux et de marque sans avoir besoin de compétences techniques ou de connaissances approfondies en codage.
@@ -18,16 +16,14 @@ Avec Experience Builder, les administrateurs peuvent facilement créer des pages
 
 De nombreuses entreprises peinent à personnaliser leurs portails d’apprentissage sans aide technique ni intégrateurs système coûteux. Ils veulent des portails qui correspondent à leur marque, offrent un contenu ciblé et s’adaptent à différents groupes d’élèves tout en étant rapides et faciles à créer.
 
-Experience Builder est un outil sans code/à code faible dans Adobe Learning Manager qui vous aide à créer des portails d’apprentissage personnalisés. Il vous permet de concevoir des portails d’apprentissage conviviaux et de marque sans avoir besoin de compétences techniques ou de connaissances approfondies en codage.Avec Experience Builder, vous pouvez créer de nouvelles pages, de nouveaux menus et de nouveaux widgets pour proposer rapidement et facilement des expériences d’apprentissage personnalisées à votre public. Avec Experience Builder, vous pouvez rapidement créer de nouvelles pages, de nouveaux menus et de nouveaux widgets pour offrir des expériences d’apprentissage personnalisées à votre public.
-
 ## Problème résolu par Experience Builder
 
-Experience Builder répond aux défis courants auxquels les entreprises sont confrontées dans la personnalisation de leurs portails d’apprentissage sans aide technique significative ni intégrateurs système coûteux. Il comble le fossé entre deux options principales :
+Experience Builder répond à la face commune des organisations en matière de personnalisation de leurs portails d’apprentissage sans aide technique importante ni intégrateurs système coûteux. Il comble le fossé entre deux options principales :
 
 * L’expérience standard prête à l’emploi, qui offre une personnalisation limitée et peut rendre chaque portail d’apprentissage similaire.
 * Une mise en œuvre sans interface graphique, qui permet des portails ludiques entièrement personnalisés, mais s’accompagne de défis importants, notamment un long délai de mise sur le marché (généralement de 3 à 6 mois), la dépendance à l’égard d’une équipe de développement et des coûts élevés.
 
-Experience Builder offre un juste milieu, permettant la création de portails sur la marque et de parcours d’apprentissage uniques sans les coûts et les frais de développement élevés d’une approche sans interface utilisateur.
+Experience Builder fournit un sol intermédiaire, permettant la création de portails sur la marque et de parcours d’apprentissage uniques sans les coûts et frais de développement élevés d’une approche sans en-tête.
 
 ## Principaux avantages de l’utilisation d’Experience Builder
 
