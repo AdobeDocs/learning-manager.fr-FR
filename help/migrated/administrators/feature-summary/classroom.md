@@ -6,7 +6,7 @@ product_v2:
     internal-label: Learning Manager
 source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1724'
 ht-degree: 5%
 ---
 
@@ -128,7 +128,7 @@ Pour ajouter un emplacement de salle de classe :
 
    ![Onglet Tous les emplacements](assets/all-locations-tab.png)
 
-   *Sélectionnez l&#39;onglet **Tous les emplacements**&#x200B;pour ajouter un emplacement de salle de classe.*
+   *Sélectionnez l&#39;onglet **Tous les emplacements**pour ajouter un emplacement de salle de classe.*
 
 1. Sélectionnez **Ajouter** > **Nouvel emplacement** dans le coin supérieur droit.
 

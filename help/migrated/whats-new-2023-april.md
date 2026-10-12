@@ -8,8 +8,8 @@ product_v2:
     internal-label: Learning Manager
 source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '3234'
-ht-degree: 70%
+source-wordcount: '3274'
+ht-degree: 69%
 ---
 # Nouveautés de cette version (avril 2023)
 
