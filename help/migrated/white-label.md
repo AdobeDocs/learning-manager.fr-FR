@@ -9,7 +9,7 @@ product_v2:
     internal-label: Learning Manager
 source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2241'
 ht-degree: 0%
 ---
 # Étiquetage blanc dans l’application mobile Adobe Learning Manager

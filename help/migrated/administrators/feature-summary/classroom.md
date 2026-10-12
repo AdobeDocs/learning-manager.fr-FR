@@ -6,7 +6,7 @@ product_v2:
     internal-label: Learning Manager
 source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1724'
 ht-degree: 5%
 ---
 
