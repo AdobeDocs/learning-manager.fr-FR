@@ -38,7 +38,7 @@ Lorsqu&#39;un projet est partagé pour révision, vous accédez au cours en tant
 
 ## Signaler un contenu offensant
 
-Si vous rencontrez du contenu qui enfreint les [conditions d&#39;utilisation](https://www.adobe.com/legal/terms.html) d&#39;Adobe lors de la révision d&#39;un cours partagé du compositeur de contenu, vous pouvez le signaler.
+Si vous rencontrez du contenu qui enfreint les [conditions d&#39;utilisation](https://www.adobe.com/fr/legal/terms.html) d&#39;Adobe lors de la révision d&#39;un cours partagé du compositeur de contenu, vous pouvez le signaler.
 
 Sélectionnez **Rapport** en haut à droite et remplissez le formulaire. Vous pouvez également signaler un abus par e-mail à l&#39;adresse [abuse@adobe.com](mailto:abuse@adobe.com). 
 

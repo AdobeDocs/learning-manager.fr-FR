@@ -38,7 +38,7 @@ Bien que le RGPD soit un règlement de l’UE, il s’applique aux entités comm
 
 Conformément au RGPD, si votre entreprise fournit un produit ou un service à des résidents de l&#39;UE et détermine comment et pourquoi collecter, suivre et surveiller leurs données, vous êtes considéré comme un [responsable du traitement des données](https://gdpr-info.eu/art-24-gdpr/). En tant que client Adobe Learning Manager, si vous effectuez l’une de ces activités, vous êtes considéré comme un responsable du traitement des données.
 
-Les entreprises qui traitent des données pour le compte de contrôleurs sont considérées comme des [processeurs de données](https://gdpr-info.eu/art-28-gdpr/). En tant que fournisseur du système de gestion de l’apprentissage hébergé dans le cloud Learning Manager, Adobe joue le rôle d’entité de traitement des données. Voici quelques détails supplémentaires sur le [RGPD et votre entreprise](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Les entreprises qui traitent des données pour le compte de contrôleurs sont considérées comme des [processeurs de données](https://gdpr-info.eu/art-28-gdpr/). En tant que fournisseur du système de gestion de l’apprentissage hébergé dans le cloud Learning Manager, Adobe joue le rôle d’entité de traitement des données. Voici quelques détails supplémentaires sur le [RGPD et votre entreprise](https://www.adobe.com/fr/privacy/general-data-protection-regulation.html).
 
 +++
 
