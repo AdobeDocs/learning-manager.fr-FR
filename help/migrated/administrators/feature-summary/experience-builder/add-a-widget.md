@@ -7,9 +7,7 @@ source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 0%
-
 ---
-
 # Ajout et configuration de widgets
 
 ## Widget Calendrier
@@ -285,13 +283,13 @@ Le widget Iframe sera ajouté à la page. Les administrateurs peuvent ajouter d�
 Les administrateurs doivent inclure le jeton d’accès en tant que paramètre de requête dans l’URL iframe pour récupérer les informations correctes. Par exemple, pour afficher des informations de Adobe Learning Manager dans un iframe, l’URL doit inclure les paramètres suivants :
 
 * userId : identifiant unique de l’élève
-* accountId : Identifiant de compte associé à l’élève
+* accountId : identifiant du compte associé à l’élève
 * jeton : jeton d’authentification requis pour les appels API
 * locale : langue de l’élève ou préférence de langue
 
 ## Widget Mon apprentissage
 
-Le widget Mon apprentissage fournit aux élèves une vue personnalisée de tous les cours, programmes d’apprentissage et certifications qui leur sont attribués ou auxquels ils s’inscrivent. Il organise le contenu d’apprentissage par type et par échéance, ce qui permet aux élèves de suivre facilement leur progression et d’accéder au matériel d’apprentissage. Ce widget aide les élèves à rester concentrés sur la formation dont ils ont besoin et à voir brièvement les échéances à venir.
+Le widget Mon apprentissage fournit aux élèves une vue personnalisée de tous les cours, programmes d’apprentissage et certifications qui leur sont attribués ou auxquels ils s’inscrivent. Il organise le contenu d’apprentissage par type et par échéance, ce qui permet aux élèves de suivre facilement leur progression et d’accéder aux matériaux d’apprentissage. Ce widget aide les élèves à rester concentrés sur la formation dont ils ont besoin et à voir brièvement les échéances à venir.
 
 ### Ajout d’un widget Mon apprentissage
 

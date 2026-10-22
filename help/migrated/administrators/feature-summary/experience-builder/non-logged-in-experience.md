@@ -3,13 +3,11 @@ description: Explique comment Experience Builder peut publier des pages d’appr
 jcr-language: en_us
 title: Configuration et gestion des pages non connectées dans Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
+source-git-commit: 1098caed370839d7adad2abf564e8f6ed137d10b
 workflow-type: tm+mt
-source-wordcount: '6058'
+source-wordcount: '6051'
 ht-degree: 1%
-
 ---
-
 
 # Expérience hors connexion dans Experience Builder
 
@@ -23,7 +21,7 @@ Les visiteurs peuvent parcourir le catalogue, afficher des détails sur les cour
 
 Les administrateurs peuvent configurer les pages et widgets visibles pour les utilisateurs qui ne sont pas connectés, en s’assurant que seul le contenu approprié est affiché. Les pages peuvent être définies pour être accessibles aux utilisateurs connectés et non connectés, ou exclusivement pour l’un de ces groupes. Experience Builder offre un mode d’aperçu, qui vous permet de voir exactement comment vos pages apparaîtront aux visiteurs avant leur publication.
 
-Pour activer cette fonctionnalité, votre administrateur d’intégration ALM doit activer le connecteur d’accès aux données de formation. Ce connecteur garantit que les métadonnées de cours sont accessibles au public.
+Pour activer cette fonctionnalité, votre administrateur d’intégration ALM doit activer le Connecteur d’accès aux données de formation. Ce connecteur garantit que les métadonnées des cours sont accessibles au public.
 
 L’image de marque et la localisation sont entièrement prises en charge, ce qui vous permet de personnaliser les titres de page, les icônes et les paramètres linguistiques pour les aligner sur l’identité de votre organisation et répondre aux besoins de votre public. Dans le cadre de la transition vers cette expérience améliorée, la fonctionnalité héritée de la page d’accueil pour les utilisateurs non connectés sera obsolète. Par conséquent, tout nouveau contenu public doit être créé à l’aide d’Experience Builder.
 
@@ -37,7 +35,7 @@ L’expérience hors connexion dans Experience Builder permet aux organisations 
 - **Exploration avant inscription** : les élèves peuvent parcourir les cours disponibles, afficher des aperçus et explorer les catégories avant de décider de s&#39;inscrire ou de se connecter, ce qui les aide à prendre des décisions éclairées en matière d&#39;inscription.
 - **Portails de formation d’entreprise** : les entreprises peuvent fournir un portail public pour les informations de conformité ou d’intégration, ce qui permet aux nouveaux embauchés ou sous-traitants de voir quelle formation est disponible avant de recevoir des informations d’identification.
 - **Pages de destination des événements ou des campagnes** : les organisations qui mènent des campagnes d’apprentissage ou des événements peuvent créer des pages publiques dédiées pour mettre en évidence les cours, calendriers ou ressources en vedette, ce qui augmente la visibilité et l’engagement.
-- **SEO et découvrabilité** : en rendant publiques certaines pages et certains catalogues, les organisations améliorent la visibilité de leurs moteurs de recherche, ce qui permet aux utilisateurs de découvrir plus facilement leurs offres d’apprentissage en ligne.
+- **SEO et découvrabilité** : en rendant publiques certaines pages et catalogues, les organisations améliorent la visibilité de leurs moteurs de recherche, ce qui permet aux utilisateurs de découvrir plus facilement leurs offres d’apprentissage en ligne.
 
 ## Concepts clés de l’expérience hors connexion
 
@@ -50,7 +48,7 @@ L’expérience hors connexion d’Experience Builder vous permet de présenter 
 - **Activer la recherche globale** : les visiteurs recherchent des cours et du contenu, mais n&#39;obtiennent que des fonctionnalités de recherche de base sans intégration avancée de l&#39;IA.
 - **Autoriser les visiteurs à parcourir les aperçus de catalogue et de cours** : les visiteurs explorent les pages de catalogue, les détails de cours et les instances, mais doivent se connecter pour s&#39;inscrire ou accéder à des fonctionnalités personnalisées.
 - **Personnalisation de l&#39;image de marque et de la localisation** : vous définissez des favicons et des paramètres de langue pour répondre aux besoins de votre organisation en matière d&#39;image de marque et d&#39;accessibilité.
-- **Activer le connecteur d&#39;accès aux données de formation** : vous activez ce connecteur pour exporter les métadonnées du cours pour un affichage public, en conservant les pages non connectées à jour.
+- **Activer le Connecteur d&#39;accès aux données de formation** : vous activez ce connecteur pour exporter les métadonnées du cours pour un affichage public, en conservant les pages non connectées à jour.
 - **Gérer un trafic élevé avec une infrastructure partagée** : le système gère de gros volumes de visiteurs anonymes à l&#39;aide de ressources partagées et de la limitation de débit.
 - **Optimiser pour le référencement** : la plateforme prépare des pages publiques pour l&#39;indexation des moteurs de recherche, ce qui facilite la recherche de votre contenu d&#39;apprentissage.
 
@@ -63,11 +61,11 @@ L’expérience hors connexion d’Experience Builder vous permet de présenter 
 
 Le connecteur Training Data Access (TDA) est un prérequis essentiel à l’activation de la nouvelle fonctionnalité du créateur d’expérience hors connexion dans ALM. Ce connecteur facilite l’exportation des métadonnées de formation, ce qui permet à votre portail d’afficher des informations sur les cours pour les utilisateurs qui ne sont pas connectés.
 
-- **Activation du connecteur** : vous devez activer le connecteur TDA à partir du panneau d&#39;administration de l&#39;intégration. Cette étape déverrouille la fonctionnalité du créateur d’expérience non connectée et rend les options d’interface utilisateur pertinentes visibles dans votre interface d’administration.
+- **Activation de Connecteur** : vous devez activer le connecteur TDA à partir du panneau d&#39;administration de l&#39;intégration. Cette étape déverrouille la fonctionnalité du créateur d’expérience non connectée et rend les options d’interface utilisateur pertinentes visibles dans votre interface d’administration.
 - **Exportation de métadonnées** : une fois activé, le connecteur exporte les métadonnées de formation essentielles (telles que le nom du cours, la description, la présentation, l’évaluation, la durée et les compétences) d’ALM vers un référentiel public. Ces données sont utilisées pour remplir les pages et les widgets non connectés.
 - **Planification et synchronisation** : le processus d&#39;exportation peut être planifié (par exemple, quotidiennement) pour s&#39;assurer que votre portail reflète les dernières mises à jour de cours. Les modifications apportées dans ALM apparaîtront sur vos pages non connectées après le prochain cycle d’exportation, sous réserve de la mise en cache et de la fréquence d’exportation.
-- **Disponibilité des fonctionnalités** : les fonctionnalités du créateur d’expérience non connectées, y compris la création de menus, la prise en charge des widgets et la visibilité des catalogues, ne sont accessibles qu’après l’initialisation du connecteur TDA. Si le connecteur n’est pas activé, votre Experience Builder restera limité aux scénarios d’utilisateur connecté.
-- **Migration et prise en charge** : pour les comptes en transition à partir des fonctionnalités héritées de la page d’accueil non connectées, l’initialisation du connecteur TDA est la première étape vers la migration. Cela vous permet de tirer parti de la flexibilité et des fonctionnalités améliorées du nouveau créateur d’expérience.
+- **Disponibilité des fonctionnalités** : les fonctionnalités du créateur d’expérience non connectées, y compris la création de menus, la prise en charge des widgets et la visibilité des catalogues, ne sont accessibles qu’après l’initialisation du connecteur TDA. Si le connecteur n’est pas activé, votre créateur d’expérience restera limité aux scénarios d’utilisateur connecté.
+- **Migration et prise en charge** : pour les comptes qui effectuent une transition à partir de fonctionnalités héritées de la page d’accueil non connectées, l’initialisation du connecteur TDA est la première étape vers la migration. Cela vous permet de tirer parti de la flexibilité et des fonctionnalités améliorées du nouveau créateur d’expérience.
 
 ## Ce que les visiteurs peuvent faire sans se connecter
 
@@ -116,7 +114,7 @@ Si un utilisateur tente de s’inscrire, le système exige qu’il se connecte d
 
 ### Configuration du connecteur d&#39;accès aux données de formation
 
-Vous devez activer le connecteur d’accès aux données de formation dans le panneau d’administration de l’intégration avant de pouvoir utiliser la fonctionnalité du créateur d’expérience non connecté. Ce connecteur exporte les métadonnées de formation d’ALM vers un référentiel public, ce qui les rend accessibles via des API pour vos pages non connectées. La configuration du connecteur est un prérequis pour l’activation de la fonctionnalité et garantit que votre portail affiche des informations de formation à jour.
+Vous devez activer le connecteur d’accès aux données de formation dans le panneau d’administration de l’intégration avant de pouvoir utiliser la fonctionnalité du créateur d’expérience non connecté. Ce connecteur exporte les métadonnées de formation d’ALM vers un référentiel public, ce qui les rend accessibles via des API pour vos pages non connectées. La configuration du connecteur est un préalable à l’activation de la fonctionnalité et garantit que votre portail affiche des informations de formation à jour.
 
 Exportation et synchronisation des métadonnées\
 Le connecteur exporte des champs de métadonnées clés tels que le nom du cours, la présentation, la description, l’évaluation, la durée et les compétences. Vous pouvez planifier des exportations (par exemple, quotidiennes) pour que votre portail reste synchronisé avec ALM. Tous les champs de métadonnées ne peuvent pas être inclus ; consultez les ingénieurs pour obtenir une liste complète. Les données exportées sont utilisées pour remplir les pages non connectées, et les modifications dans ALM apparaîtront après le prochain cycle d’exportation.
@@ -134,14 +132,14 @@ Les pages non connectées et connectées peuvent avoir des URL différentes pour
 
 ### Pile partagée et pile Premium
 
-La pile partagée permet à plusieurs clients d’utiliser le créateur d’expérience hors connexion sur l’infrastructure commune, prenant en charge les niveaux de trafic standard. La pile Premium est une option payante qui fournit des ressources dédiées, des fonctionnalités en temps réel et des limites de places plus élevées pour les clients ayant des besoins avancés. Choisissez la pile en fonction de votre trafic et de vos besoins commerciaux attendus.
+La pile partagée permet à plusieurs clients d’utiliser le créateur d’expérience hors connexion sur une infrastructure commune, prenant en charge les niveaux de trafic standard. La pile Premium est une option payante qui fournit des ressources dédiées, des fonctionnalités en temps réel et des places plus longues pour les clients ayant des besoins avancés. Choisissez la pile en fonction du trafic et des besoins de votre entreprise.
 
 ### Limites de trafic et limitation du débit
 
-La pile partagée applique des limites de trafic pour garantir une utilisation équitable entre les clients. L’ingénierie mettra en œuvre une limitation de débit pour empêcher un seul client de consommer toutes les ressources. Si vous planifiez des campagnes marketing ou prévoyez un trafic élevé, coordonnez-vous avec les ingénieurs pour comprendre vos limites et éviter les interruptions de service. La limitation de débit permet de maintenir la stabilité du système et les performances pour tous les utilisateurs.
+La pile partagée applique des limites de trafic pour assurer une utilisation équitable entre les clients. L’ingénierie mettra en œuvre une limitation de débit pour empêcher un seul client de consommer toutes les ressources. Si vous planifiez des campagnes marketing ou prévoyez un trafic élevé, coordonnez-vous avec les ingénieurs pour comprendre vos limites et éviter les interruptions de service. La limitation de débit permet de maintenir la stabilité du système et les performances pour tous les utilisateurs.
 
 Considérations relatives au multi-location et au référencement\
-La plateforme prend en charge le multi-location, permettant à plusieurs clients d’héberger leurs portails sur des infrastructures partagées. Les pages non connectées sont SEO-friendly, ainsi que sitemap.xml et robots.txt pour optimiser la visibilité des moteurs de recherche. Cela garantit que votre portail est détectable et indexé de manière appropriée par les moteurs de recherche.
+La plateforme prend en charge le multi-location, permettant à plusieurs clients d’héberger leurs portails sur des infrastructures partagées. Les pages non connectées sont SEO-friendly, ainsi que sitemap.xml et robots.txt pour optimiser la visibilité des moteurs de recherche. Ainsi, les moteurs de recherche peuvent détecter et indexer votre portail de manière appropriée.
 
 ## Migration et dépréciation
 
@@ -164,7 +162,7 @@ L’expérience hors connexion prend en charge tous les types de connexion dispo
 
 ### API de l’objet d’apprentissage d’administrateur
 
-Les pages Experience Builder non connectées et les portails sans tête organisent ou filtrent souvent les cours en fonction du produit et du rôle. L’API Admin LO a été améliorée pour garantir que ces associations sont accessibles de manière cohérente pour les intégrations back-end et headless, ainsi que pour le connecteur TDA.
+Les pages Experience Builder non connectées et les portails sans tête organisent ou filtrent souvent les cours en fonction du produit et du rôle. L’API Admin LO a été améliorée pour s’assurer que ces associations sont accessibles de manière cohérente pour les intégrations back-end et headless, ainsi que pour le connecteur TDA.
 
 **Point de terminaison et comportement**
 
@@ -175,10 +173,10 @@ GET /primeapi/v2/learningObjects/{loId}?forcedFields[learningObject]=products,ro
 
 Où :
 
-- loId est l&#39;ID de l&#39;objet d&#39;apprentissage (par exemple, course:12345).
+- loId est l’ID de l’objet d’apprentissage (par exemple course:12345).
 - forcedFields[learningObject] indique à l&#39;API d&#39;inclure explicitement des produits et des rôles pour cet objet d&#39;apprentissage.
 
-Pour ce faire, assurez-vous que les associations de produit et de rôle de l’objet d’apprentissage sont présentes dans la réponse lorsque celle-ci est demandée par l’intermédiaire des champs appliqués. La réponse contient ensuite, dans les attributs, les métadonnées de produit et de rôle nécessaires pour calculer ou afficher les produits recommandés (rec_products) et les rôles (rec_roles) pour Experience Builder et les autres utilisateurs.
+Pour ce faire, assurez-vous que les associations de produit et de rôle de l’objet d’apprentissage sont présentes dans la réponse lorsque celle-ci est demandée par l’intermédiaire des champs appliqués. La réponse contient ensuite, dans les attributs, les métadonnées de produit et de rôle nécessaires pour calculer ou exposer les produits recommandés (rec_products) et les rôles (rec_roles) pour Experience Builder et les autres utilisateurs.
 
 Un appel typique d’un administrateur ou d’une intégration se présente comme suit :
 
@@ -295,7 +293,7 @@ Cela est particulièrement utile lorsque vous créez un site sans en-tête non c
 
 ## Autoriser la liste de domaines personnalisés
 
-La pile non connectée se compose des éléments suivants :
+La pile hors connexion comprend :
 
 - Domaine CDN public (par exemple cpcontents.adobe.com ou yourdomain.example.com) qui sert les mises en page, la configuration JSON et les actifs statiques.
 - Point de terminaison d&#39;Elasticsearch public (ES) qui fournit des données de catalogue et de recherche, mais uniquement si la demande provient d&#39;un **domaine autorisé** pour ce compte ALM.
@@ -313,11 +311,11 @@ Avant de mettre un domaine personnalisé en liste blanche pour les utilisateurs 
 Ces étapes garantissent que :
 
 - Votre compte a un **compte JSON** non connecté (souvent référencé sous le nom de accountConfig / experienceBuilderConfig), qui inclut des champs tels que cpDomain, almDomain, almCdnBaseUrl, esBaseUrl et des domaines inscrits dans la liste autorisée.
-- La pile non connectée sait où servir les données et à partir de quels domaines elle doit accepter les demandes.
+- La pile de données non connectée sait où envoyer les données et à partir de quels domaines elle doit accepter les demandes.
 
 ### Fonctionnement de la liste autorisée
 
-La liste autorisée est stockée dans la configuration exportée par TDA et lue par la pile non connectée. Cette configuration comprend :
+La liste autorisée est stockée dans la configuration exportée par TDA et lue par la pile hors connexion. Cette configuration comprend :
 
 - Domaines ALM (cpDomain, almDomain).
 - **URL de base CDN** pour le contenu non connecté (almCdnBaseUrl).
@@ -343,7 +341,7 @@ Travaillez avec Adobe pour enregistrer votre domaine, par exemple academy.yourco
 
 Assurez-vous que :
 
-- Le **connecteur Training Data Access** est activé.
+- Le **connecteur d&#39;accès aux données de formation** est activé.
 - La fonctionnalité **Experience Builder** non connecté est activée pour le compte.
 
 L’activation de TDA crée ou met à jour le compte non connecté JSON. Pour les nouveaux comptes, le processus autorise également le nouveau domaine CDN non connecté (cpcontent.adobe.com) par défaut, de sorte que le point de terminaison ES public attend des appels de ce domaine.
@@ -352,19 +350,20 @@ Pour les comptes qui utilisaient déjà l’ancienne pile non connectée, la sp�
 
 **Ajouter le domaine personnalisé à la liste autorisée**
 
-La partie critique indique à la pile ES non connectée que academy.yourcompany.com est une origine approuvée. Il existe deux chemins communs.
+La partie critique consiste à indiquer à la pile ES non connectée que academy.yourcompany.com est une origine approuvée. Il existe deux chemins communs.
 
 1. **Réactivez le connecteur TDA (simple, en libre-service)**
 
-Le wiki Experience Builder M45 explique que les utilisateurs natifs non connectés existants devront supprimer et réactiver la connexion TDA afin que le nouveau domaine soit automatiquement autorisé. Cela permet d’atteindre deux objectifs :
-1. Le compte JSON non connecté est régénéré.
-2. Les domaines autorisés répertoriés sont mis à jour pour inclure le nouveau domaine CDN non connecté et votre domaine personnalisé.
+   Les utilisateurs natifs non connectés existants devront supprimer et réactiver la connexion TDA afin que le nouveau domaine soit automatiquement autorisé à figurer dans la liste. Cela permet d’atteindre deux objectifs :
 
-Cette option est recommandée lorsque vous disposez d&#39;un petit nombre de comptes et que vous tolérez la désactivation et la réactivation temporaires du connecteur.
+   * Le compte JSON non connecté est régénéré.
+   * Les domaines de la liste autorisée sont mis à jour pour inclure le nouveau domaine CDN non connecté et votre domaine personnalisé.
 
-1. **Vérifiez que le domaine est bien autorisé**
+   Cette option est recommandée lorsque vous disposez d’un petit nombre de comptes et que vous pouvez tolérer la désactivation et la réactivation temporaires du connecteur.
 
-Après la liste autorisée, ouvrez votre site non connecté sur le domaine personnalisé et inspectez les appels réseau du navigateur.
+2. **Vérifiez que le domaine est bien autorisé**
+
+   Après la liste autorisée, ouvrez votre site non connecté sur le domaine personnalisé et inspectez les appels réseau du navigateur.
 
 Vous voulez voir :
 
@@ -389,11 +388,11 @@ Par conséquent, Recommendations en mode hors connexion est :
 
 ### Métadonnées et API prenant en charge les recommandations
 
-En coulisse, les pages non connectées utilisent :
+Derrière les scènes, les pages non connectées utilisent :
 
 - Le **connecteur TDA** pour exporter les métadonnées des objets d&#39;apprentissage (cours, parcours, certifications, assistances à la tâche) vers un index de recherche public.
 - La **pile de recherche publique** pour répondre aux requêtes des widgets non connectés (catalogue, recherche, cours et parcours, catégories).
-- L&#39;**API Admin Learning Objects** pour exposer les métadonnées de produit et de rôle qui peuvent être utilisées pour les règles de recommandation.
+- L&#39;**API Admin Learning Objects** pour exposer aux métadonnées de produit et de rôle qui peuvent être utilisées pour les règles de recommandation.
 
 Dans cette version, l’API Admin LO a été étendue afin que les associations de produits et de rôles soient disponibles de manière fiable :
 
@@ -482,17 +481,17 @@ Sur l&#39;**interface utilisateur**, les assistances à la tâche participent à
 Par exemple, sur une page de destination publique, vous pouvez configurer une bande intitulée « Ressources utiles » qui affiche uniquement les assistances à la tâche, et une autre bande intitulée « Cours recommandés » qui affiche les cours et les parcours.
 
 1. **Page de catalogue et recherche**\
-   Les surfaces **catalogue** et **recherche** non connectées utilisent l&#39;index de recherche publique (alimenté par le connecteur Training Data Access). Cet index prend désormais correctement en charge les assistances à la tâche.
+   Les surfaces **catalogue** et **recherche** non connectées utilisent l&#39;index de recherche publique (alimenté par le connecteur d&#39;accès aux données de formation). Cet index prend désormais correctement en charge les assistances à la tâche.
    1. Les résultats de recherche hors connexion peuvent inclure des assistances à la tâche.
    2. Filtres de catalogue non connectés (par type, produit, balises, etc.) peut inclure des assistances à la tâche tant que la configuration de votre compte et les widgets sont configurés pour les afficher.
 2. **Pages de présentation LO**\
    Lorsqu&#39;un visiteur clique sur une assistance à la tâche à partir d&#39;un widget ou du catalogue, il accède à une **page de présentation LO** pour cette assistance à la tâche en mode non connecté. De là, ils peuvent lire sa description et ses métadonnées. Le téléchargement ou la consommation réels nécessitent généralement toujours une connexion, mais la présence et la découvrabilité de l&#39;assistance à la tâche elle-même sont gérées par l&#39;expérience hors connexion.
 
-### Affichage des assistances à la tâche via des API non connectées
+### Comment les assistances à la tâche sont exposées via des API non connectées
 
 Du côté **API**, les assistances à la tâche sont prises en charge par :
 
-1. **Connecteur Training Data Access et recherche publique**\
+1. Le **connecteur d&#39;accès aux données de formation et la recherche publique**\
    TDA exporte les métadonnées des assistances à la tâche ainsi que d’autres types d’objet d’apprentissage vers l’index de recherche public qui sert aux requêtes de recherche et de catalogue non connectées. C’est ce sur quoi reposent Experience Builder et les systèmes frontaux sans tête.
 2. La liste **Objets d’apprentissage avec effectiveModifiedDate**\
    Dans cette version, le point de terminaison de liste LO a été corrigé afin que les assistances à la tâche fonctionnent correctement avec le filtre effectiveModifiedDate. Vous pouvez désormais appeler :
@@ -511,7 +510,7 @@ Avant cette modification, la combinaison effectiveModifiedDate avec loTypes=jobA
 L’exemple de réponse dans le document M45 montre un learningObject avec loType : « jobAid » et loFormat : « Content » retourné lors de l’utilisation de ce modèle.
 
 1. **API Admin LO**\
-   Bien qu’il ne soit pas spécifique aux objets non connectés, M45 met également à jour l’API d’objet d’apprentissage d’administrateur pour afficher de manière cohérente les métadonnées de produit et de rôle pour tous les types d’objet d’apprentissage via :
+   Bien qu’il ne soit pas spécifique aux objets non connectés, M45 met également à jour l’API d’objet d’apprentissage d’administrateur pour exposer de manière cohérente aux métadonnées de produit et de rôle pour tous les types d’objet d’apprentissage via :
 
 GET /primeapi/v2/learningObjects/{loId}?forcedFields[learningObject]=products,roles
 
@@ -527,12 +526,12 @@ Dans l’état non connecté :
 
 ## Modifications apportées à la « brève description » dans la recherche LO (non connecté)
 
-Dans la pile non connectée, la recherche et la liste des objets d’apprentissage sont optimisées par le connecteur TDA (Training Data Access) et un index d’Elasticsearch publics. Historiquement, cette pile utilisait un seul champ de présentation/description pour chaque objet d’apprentissage. Les clients qui créent des portails sans en-tête non connectés voulaient afficher la même brève description sur les vignettes d’objet d’apprentissage que celle de l’interface utilisateur des élèves connectés, plutôt que la seule vue d’ensemble longue.
+Dans la pile de données non connectée, la recherche et la liste des objets d’apprentissage (LO) sont optimisées par le connecteur Training Data Access (TDA) et un index d’Elasticsearch publics. Historiquement, cette pile utilisait un seul champ de présentation/description pour chaque objet d’apprentissage. Les clients qui créent des portails sans en-tête non connectés voulaient afficher la même brève description sur les vignettes d’objet d’apprentissage que celle de l’interface utilisateur des élèves connectés, plutôt que la seule vue d’ensemble longue.
 
 La modification introduit la prise en charge de l&#39;objet d&#39;apprentissage **brève description** dans les API de recherche et de liste non connectées :
 
 - Pour **cours**, la sémantique de l’interface utilisateur existante est la suivante :
-   - Les cartes connectées affichent « Brève description » (champ de 140 caractères) si elles sont présentes ; sinon, elles se limitent à la longue « Vue d’ensemble détaillée ».
+  - Les cartes connectées affichent « Brève description » (champ de 140 caractères) si elles sont présentes ; sinon, elles se limitent à la longue « Vue d’ensemble détaillée ».
 - Pour les **parcours d’apprentissage**, l’interface utilisateur connectée utilise le champ « Avantages » comme brève description, si elle est définie, et revient à la vue d’ensemble dans les autres cas.
 - Pour les **certifications**, une brève « Description » est utilisée, avec une « Présentation de la certification » plus longue comme solution de secours.
 - Pour les **assistances à la tâche**, le champ de description principal est utilisé.
