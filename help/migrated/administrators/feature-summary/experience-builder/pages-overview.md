@@ -7,9 +7,7 @@ source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
-
 ---
-
 # Présentation
 
 Une page dans Experience Builder est un espace personnalisable qui sert de base à l’organisation et à la présentation du contenu d’apprentissage, des ressources et des éléments interactifs dans votre portail d’apprentissage. Il agit comme un canevas numérique où les administrateurs peuvent organiser divers widgets, tels que des listes de cours, des calendriers d&#39;événements, l&#39;état de conformité, des bannières et des flux sociaux.
@@ -19,7 +17,7 @@ Ajoutez une marque à chaque page avec des couleurs, des logos et des thèmes d�
 
 Imaginez une entreprise de services financiers ayant des besoins de formation spécifiques pour ses équipes de ventes et de succès client. À l’aide d’Experience Builder, l’organisation crée des pages d’apprentissage dédiées et personnalisées en fonction des besoins de chaque groupe.
 
-* **Page de l’équipe commerciale** : la page d’apprentissage du service commercial met en évidence les derniers modules de formation sur les produits, les cours de conformité à la réglementation, les supports de présentation à jour et un widget de tableau des scores intégré pour encourager une concurrence saine. Les utilisateurs commerciaux qui accèdent à cette page voient immédiatement du contenu et des ressources destinés à améliorer leurs compétences spécifiques et leurs performances commerciales.
+* **Page de l’équipe commerciale** : la page d’apprentissage du service commercial met en évidence les derniers modules de formation sur les produits, les cours de conformité à la réglementation, les matériaux de présentation à jour et un widget de tableau des scores intégré pour favoriser une concurrence saine. Les utilisateurs commerciaux qui accèdent à cette page voient immédiatement du contenu et des ressources destinés à améliorer leurs compétences spécifiques et leurs performances commerciales.
 
 * **Page de l’équipe de réussite client** : pendant ce temps, la page d’apprentissage de l’équipe de réussite client affiche des certifications dans le service client, des guides de dépannage, des cours basés sur des scénarios, un calendrier des ateliers d’intégration des clients à venir et un flux social pour partager des conseils. Cela permet à l’équipe de réussite client d’accéder au contenu pertinent pour améliorer la satisfaction du client et l’excellence du support.
 
