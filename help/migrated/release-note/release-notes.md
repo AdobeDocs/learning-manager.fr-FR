@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: d3f02c23826e56305a160eab428a50406a837184
 workflow-type: tm+mt
-source-wordcount: '35301'
+source-wordcount: '35530'
 ht-degree: 63%
 ---
 # Notes de mise à jour de Adobe Learning Manager
@@ -26,6 +26,22 @@ ht-degree: 63%
 </table>
 
 -->
+
++++Mise à jour 113 : version du 27 octobre 2026 de Adobe Learning Manager
+
+## Amélioration de cette version
+
+**Intégration Go1 :** l&#39;intégration Go1 dans Adobe Learning Manager a été améliorée pour rendre le suivi de l&#39;achèvement des cours plus fiable. Les finalisations Go1 des élèves sont désormais enregistrées avec précision, même si elles quittent le lecteur de cours immédiatement après avoir terminé. Ce correctif permet de s’assurer que les relevés de notes des élèves et les rapports d’administrateur restent complets et à jour. Aucune configuration n’est nécessaire et les cours Go1 existants continuent de fonctionner comme avant. [En savoir plus](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+
+## Corrections de bugs
+
+**Appareil mobile :** sur les iPhone utilisant iOS Safari, le lancement d’un cours en orientation portrait à partir du catalogue ou du CTA de recherche a affiché l’invite « Veuillez faire pivoter votre appareil ». L&#39;invite est restée même après la rotation vers Paysage, empêchant le cours de démarrer. Ce problème a été résolu. Le lecteur récupère maintenant lors de la rotation et lance le cours comme prévu.
+
+**Élève :** les élèves n&#39;ont pas pu envoyer Excel, PowerPoint, vidéo, ZIP et d&#39;autres types de fichiers dans les modules d&#39;envoi de fichier et ont reçu une erreur générique. Ce problème a été résolu, et les élèves peuvent désormais charger et envoyer ces types de fichiers comme prévu.
+
+**Modèle d&#39;e-mail :** les e-mails d&#39;invitation au calendrier affichaient un corps vide et une description d&#39;événement .ics vide lorsque les modèles de session étaient dissociés de la disposition globale. Ce problème a été résolu, et les modèles non liés affichent désormais les détails de la session configurés et le contenu de la mise en page dans la description de l’événement d’e-mail et de calendrier comme prévu.
+
++++
 
 +++Mise à jour 112 : version du 30 septembre 2026 de Adobe Learning Manager
 
