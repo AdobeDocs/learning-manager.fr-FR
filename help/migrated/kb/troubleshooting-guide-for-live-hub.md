@@ -4,7 +4,7 @@ description: Messages d’erreur et notifications courants que vous pouvez renco
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Au cours d’une session Live Hub, les instructeurs peuvent rencontrer des messages d’erreur ou des notifications qui empêchent certaines actions de se dérouler comme prévu. Cet article décrit les erreurs courantes rencontrées par les instructeurs, leurs causes possibles et les étapes à suivre pour les résoudre.
 
-## Problèmes de connexion
+## Problèmes de connexion {#connection-issues}
 
 | Message d’erreur | Scénario | Suggestions pour surmonter l’erreur |
 |---|---|---|
@@ -61,7 +61,7 @@ Les messages ci-dessous apparaissent sous forme de notifications toast lorsqu’
 | « FileName.pdf » dépasse la limite de 1 Mo. | Un instructeur charge un fichier de PDF dont la taille dépasse la limite de 1 Mo. | Compressez ou réduisez la taille du fichier du PDF à moins de 1 Mo, puis rechargez-le. |
 | « FileName.pptx » dépasse la limite de 3 Mo. | Un instructeur charge un fichier PPT dont la taille dépasse la limite de 3 Mo. | Compressez ou réduisez la taille du fichier PPT à moins de 3 Mo, puis rechargez-le. |
 
-## Problèmes de session en petits groupes
+## Problèmes de session en petits groupes {#breakout-issues}
 
 Les messages ci-dessous peuvent apparaître lorsqu’un instructeur tente de démarrer une session en petits groupes.
 

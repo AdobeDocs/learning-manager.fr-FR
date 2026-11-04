@@ -4,7 +4,7 @@ description: Découvrez comment fonctionne l’écran de pré-jointure Live Hub,
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Lorsque votre navigateur vous y invite, sélectionnez **Autoriser** pour activer
 ![Invite Autoriser Les Autorisations Du Navigateur](assets/allow-browser-permissions-prompt.png)
 *Sélectionnez Autoriser lorsque votre navigateur vous invite à accéder au microphone et à la caméra.*
 
-### Configuration des commandes audio
+### Configuration des commandes audio {#audio-controls}
 
 Votre microphone et votre haut-parleur sont sélectionnés automatiquement. Utilisez la commande audio de l’écran de pré-jointure pour confirmer leur bon fonctionnement ou passez à un autre appareil.
 
