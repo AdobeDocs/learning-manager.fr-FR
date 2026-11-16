@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
+source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Virtual Coach prend en charge neuf langues et peut être utilisé comme assistan
 
 ## Citations du parcours d’apprentissage dans l’assistant de l’élève
 
-Les réponses de l’assistant de l’élève citent désormais le parcours d’apprentissage qui contient un cours source, ainsi que le cours lui-même. Les élèves ouvrent la présentation du cours ou la page du parcours d’apprentissage à partir de la citation. Les réponses tirées d’une assistance à la tâche incluent un lien de téléchargement. Cela aide les élèves à trouver la formation qui répond à leur question.
+Les réponses de l’assistant de l’élève citent désormais le parcours d’apprentissage qui contient un cours source, ainsi que le cours lui-même. Les élèves ouvrent la présentation du cours ou la page Parcours d’apprentissage à partir de la citation. Les réponses tirées d’une assistance à la tâche incluent un lien de téléchargement. Cela aide les élèves à trouver la formation qui répond à leur question.
 
 ## Configurations de l’assistant AI
 
@@ -236,7 +236,7 @@ Pour afficher le nom complet, survolez le nom abrégé.
 
 ## Informations sur le badge pour les cours et les parcours d’apprentissage
 
-Lorsque les auteurs ajoutent un cours ou un parcours d’apprentissage, une fenêtre répertorie les cours et parcours d’apprentissage existants avec des informations de badge. La fenêtre affiche le nom, le type (cours ou parcours d’apprentissage), l’état de la publication et le format du cours, tel que auto-apprentissage, virtuel, salle de classe ou fusionné.
+Lorsque les auteurs ajoutent un cours ou un parcours d’apprentissage, une fenêtre répertorie les cours et parcours d’apprentissage existants avec des informations de badge. La fenêtre affiche le nom, le type (cours ou parcours d’apprentissage), l’état de la publication et le format du cours, tel que libre, virtuel, en salle de classe ou fusionné.
 
 ## Améliorations hors connexion
 
@@ -258,7 +258,6 @@ Les visiteurs de votre académie publique peuvent désormais lire du contenu sé
 
 Les administrateurs peuvent désormais sélectionner les catalogues spécifiques qui apparaissent dans l’académie publique. Seuls ces catalogues peuvent être consultés par des visiteurs anonymes et indexés par les moteurs de recherche et les assistants d&#39;IA, de sorte que les cours de test ou le contenu interne restent privés.
  
-
 ### Trouvez-vous dans les moteurs de recherche et les assistants IA (Beta)
 
 Adobe Learning Manager peut désormais rendre votre académie publique détectable par les moteurs de recherche tels que Google et par les assistants d’IA tels que ChatGPT, Claude et Gemini. Vos cours peuvent ensuite apparaître dans les résultats de recherche et les réponses générées par l&#39;IA, attribués à votre académie.
@@ -285,7 +284,7 @@ Lorsque les utilisateurs sélectionnent **S&#39;abonner** à partir d&#39;une pa
 
 ## Stocker les dates de dernier accès pour les inscriptions au parcours d’apprentissage
 
-Adobe Learning Manager vous permet désormais d’associer des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription au parcours d’apprentissage. Vous le définissez et le lisez via l’API, ce qui vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
+Adobe Learning Manager vous permet désormais d’associer des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription au parcours d’apprentissage. Vous le définissez et le lisez via l’API, qui vous aide à suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
 
 Les inscriptions au cours prennent déjà en charge une date de dernier accès via l’API, qui contrôle la durée pendant laquelle un élève peut accéder au cours. Les inscriptions au parcours d’apprentissage proposent désormais un champ de métadonnées générique, ce qui vous permet de stocker une date de dernier accès ou toute autre valeur que vous souhaitez suivre.
 
@@ -404,7 +403,7 @@ L’API d’inscription prend désormais en charge les instances multi-inscrites
 
 ### Date du dernier accès pour l’inscription aux parcours d’apprentissage
 
-Vous pouvez désormais stocker des métadonnées personnalisées, telles qu’une date de dernier accès, sur une inscription au parcours d’apprentissage, puis les définir et les lire via l’API. Cela vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
+Vous pouvez désormais stocker des métadonnées personnalisées, telles qu’une date de dernier accès, sur une inscription au parcours d’apprentissage, puis les définir et les lire via l’API. Cela vous aide à suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
 
 * Définissez les métadonnées sur une inscription existante ou lorsque vous inscrivez un élève à l’aide d’un jeton d’administration.
 * Lisez-le avec un jeton d’administrateur ou d’élève.
