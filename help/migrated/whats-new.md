@@ -6,15 +6,15 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
 workflow-type: tm+mt
-source-wordcount: '4685'
+source-wordcount: '4684'
 ht-degree: 0%
 ---
 
 # Nouveautés de la version de décembre 2026 de Adobe Learning Manager
 
-La prochaine version de Adobe Learning Manager introduit de nouvelles fonctionnalités et améliorations visant à rationaliser la plate-forme et à étendre ses capacités. Ces mises à jour simplifient les workflows quotidiens, améliorent l’organisation et la diffusion du contenu de formation, et rendent l’expérience globale plus cohérente et intuitive.
+Cette version de Adobe Learning Manager introduit de nouvelles fonctionnalités et améliorations visant à rationaliser la plate-forme et à étendre ses capacités. Ces mises à jour simplifient les workflows quotidiens, améliorent l’organisation et la diffusion du contenu de formation, et rendent l’expérience globale plus cohérente et intuitive.
 
 ## Graphiques et tableaux de bord Report Builder
 
@@ -92,7 +92,7 @@ Les administrateurs peuvent modifier chaque description d’outil pour ajouter d
 
 Les élèves peuvent désormais supprimer les rubriques ou cours suggérés en une seule étape, en plus de l&#39;option existante permettant d&#39;affiner les listes de rubriques et de cours par le biais de la conversation.
 
-Les administrateurs peuvent désormais repositionner la bande des parcours d’apprentissage personnalisés sur la page d’accueil de l’élève via la page Identité visuelle.
+Les administrateurs peuvent désormais repositionner la bande Parcours d’apprentissage personnalisés sur la page d’accueil de l’élève via la page Identité visuelle.
 
 ## Entraînez-vous avec des jeux de rôle dans Virtual Coach
 
@@ -258,7 +258,6 @@ Les visiteurs de votre académie publique peuvent désormais lire du contenu sé
 
 Les administrateurs peuvent désormais sélectionner les catalogues spécifiques qui apparaissent dans l’académie publique. Seuls ces catalogues peuvent être consultés par des visiteurs anonymes et indexés par les moteurs de recherche et les assistants d&#39;IA, de sorte que les cours de test ou le contenu interne restent privés.
  
-
 ### Trouvez-vous dans les moteurs de recherche et les assistants IA (Beta)
 
 Adobe Learning Manager peut désormais rendre votre académie publique détectable par les moteurs de recherche tels que Google et par les assistants d’IA tels que ChatGPT, Claude et Gemini. Vos cours peuvent ensuite apparaître dans les résultats de recherche et les réponses générées par l&#39;IA, attribués à votre académie.
@@ -285,7 +284,7 @@ Lorsque les utilisateurs sélectionnent **S&#39;abonner** à partir d&#39;une pa
 
 ## Stocker les dates de dernier accès pour les inscriptions au parcours d’apprentissage
 
-Adobe Learning Manager vous permet désormais d’associer des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription à un parcours d’apprentissage. Vous le définissez et le lisez via l’API, ce qui vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
+Adobe Learning Manager vous permet désormais d’associer des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription au parcours d’apprentissage. Vous le définissez et le lisez via l’API, ce qui vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
 
 Les inscriptions au cours prennent déjà en charge une date de dernier accès via l’API, qui contrôle la durée pendant laquelle un élève peut accéder au cours. Les inscriptions au parcours d’apprentissage proposent désormais un champ de métadonnées générique, ce qui vous permet de stocker une date de dernier accès ou toute autre valeur que vous souhaitez suivre.
 
@@ -302,7 +301,7 @@ Les types de travaux existants, y compris `generateQuizReport`, sont inchangés.
 
 ## Modifications de l’en-tête de colonne dans les rapports téléchargés
 
-Report Builder inclut désormais le nom de l&#39;ensemble de données dans les en-têtes de colonne par défaut des rapports téléchargés. Le nom de l&#39;ensemble de données de l&#39;objet d&#39;apprentissage apparaît donc comme **Objet d&#39;apprentissage - Nom** au lieu de **Nom**. Pour les colonnes agrégées, l’en-tête inclut également la fonction, telle que « **Nombre d’objets d’apprentissage - ID** ». Si vous saisissez un nom personnalisé dans le champ **Alias** d&#39;une colonne, cet alias est utilisé comme en-tête et reste inchangé.
+Report Builder inclut désormais le nom de l&#39;ensemble de données dans les en-têtes de colonne par défaut des rapports téléchargés. Le nom de l&#39;ensemble de données de l&#39;objet d&#39;apprentissage apparaît donc comme **Objet d&#39;apprentissage - Nom** au lieu de **Nom**. Pour les colonnes agrégées, l&#39;en-tête inclut également la fonction, telle que **Nombre d&#39;objets d&#39;apprentissage - ID**. Si vous saisissez un nom personnalisé dans le champ **Alias** d&#39;une colonne, cet alias est utilisé comme en-tête et reste inchangé.
 
 Après la mise à niveau, les rapports existants sans alias personnalisés affichent les en-têtes mis à jour, tandis que les données de rapport, les filtres et les planifications ne sont pas affectés. Si vos scripts, feuilles de calcul, tableaux de bord Business Intelligence ou intégrations font référence à des colonnes par en-tête, mettez-les à jour vers les nouveaux noms ou définissez un alias personnalisé pour conserver un en-tête spécifique.
 
@@ -324,7 +323,7 @@ L’interface Live Hub apparaît désormais dans la langue sélectionnée pour l
 
 Les participants du monde entier bénéficient ainsi d’une expérience cohérente sur toute la plateforme et dans les enregistrements de session.
 
-## Sessions Live Hub pouvant accueillir jusqu’à 5 000 participants
+## Sessions Live Hub jusqu’à 5 000 participants
 
 Live Hub prend désormais en charge des sessions à grande échelle comptant jusqu’à 5 000 participants, ce qui permet aux organisations de mener des sessions de formation de grande envergure. Les auteurs peuvent choisir une capacité de 5 000 participants lors de l’ajout d’un module de salle de classe virtuelle à un cours. Live Hub configure automatiquement la salle en fonction de la taille de l&#39;audience et applique des restrictions d&#39;interaction spécifiques.
 
