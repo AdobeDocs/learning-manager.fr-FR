@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
+source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ Les visiteurs de votre académie publique peuvent désormais lire du contenu sé
 
 Les administrateurs peuvent désormais sélectionner les catalogues spécifiques qui apparaissent dans l’académie publique. Seuls ces catalogues peuvent être consultés par des visiteurs anonymes et indexés par les moteurs de recherche et les assistants d&#39;IA, de sorte que les cours de test ou le contenu interne restent privés.
  
-
 ### Trouvez-vous dans les moteurs de recherche et les assistants IA (Beta)
 
 Adobe Learning Manager peut désormais rendre votre académie publique détectable par les moteurs de recherche tels que Google et par les assistants d’IA tels que ChatGPT, Claude et Gemini. Vos cours peuvent ensuite apparaître dans les résultats de recherche et les réponses générées par l&#39;IA, attribués à votre académie.
@@ -402,9 +401,9 @@ Cette version inclut de nouvelles API qui prennent en charge les notifications d
 
 L’API d’inscription prend désormais en charge les instances multi-inscrites dans l’application Élève. Ajoutez le paramètre facultatif `includeMultiInstanceEnrollments=true` à `GET /enrollments` pour les inclure. La valeur par défaut est `false`. Par conséquent, les intégrations existantes, y compris les implémentations sans en-tête, continuent de fonctionner sans modification.
 
-### Date du dernier accès pour l’inscription au parcours d’apprentissage
+### Date du dernier accès pour l’inscription aux parcours d’apprentissage
 
-Vous pouvez désormais stocker des métadonnées personnalisées, telles qu’une date de dernier accès, sur une inscription à un parcours d’apprentissage, puis les définir et les lire via l’API. Cela vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
+Vous pouvez désormais stocker des métadonnées personnalisées, telles qu’une date de dernier accès, sur une inscription au parcours d’apprentissage, puis les définir et les lire via l’API. Cela vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
 
 * Définissez les métadonnées sur une inscription existante ou lorsque vous inscrivez un élève à l’aide d’un jeton d’administration.
 * Lisez-le avec un jeton d’administrateur ou d’élève.
