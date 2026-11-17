@@ -6,13 +6,17 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
+source-git-commit: 6fe06d8c4a60f611b3ceb243079daad28a48a710
 workflow-type: tm+mt
-source-wordcount: '4684'
+source-wordcount: '4832'
 ht-degree: 0%
 ---
 
 # Nouveautés de la version de décembre 2026 de Adobe Learning Manager
+
+>[!IMPORTANT]
+>
+>Les fonctionnalités Beta peuvent contenir des défauts et sont fournies « EN L’ÉTAT » sans garantie d’aucune sorte. Adobe a la seule discrétion de rendre les fonctionnalités bêta généralement disponibles. Adobe n’a aucune obligation de maintenir, de corriger, de mettre à jour, de modifier ou de prendre en charge d’une autre manière (par le biais des Services d’assistance d’Adobe ou autrement) les fonctionnalités bêta. Si une fonctionnalité Beta devient disponible de manière générale, elle peut être soumise à des conditions générales supplémentaires, y compris les frais applicables. Les fonctionnalités Beta peuvent être modifiées sans préavis, y compris être arrêtées. Il est conseillé aux clients d’être prudents et de ne pas compter de quelque manière que ce soit sur le fonctionnement ou les performances ininterrompus ou sans erreur des fonctionnalités bêta. Par conséquent, toute utilisation des fonctionnalités Beta est entièrement à la charge du Client. Les fonctionnalités du produit et la documentation associée peuvent changer au fur et à mesure de leur évolution. Cette documentation reflète l’expérience Beta actuelle et ne doit pas être considérée comme une documentation finale ou complète du produit.
 
 Cette version de Adobe Learning Manager introduit de nouvelles fonctionnalités et améliorations visant à rationaliser la plate-forme et à étendre ses capacités. Ces mises à jour simplifient les workflows quotidiens, améliorent l’organisation et la diffusion du contenu de formation, et rendent l’expérience globale plus cohérente et intuitive.
 
