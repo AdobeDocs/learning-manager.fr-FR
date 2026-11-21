@@ -743,25 +743,25 @@ vrai. False par défaut.
 
 **Corps de la réponse**
 
-{
+&lbrace;
 
-« links » : {
+« links » : &lbrace;
 
 « self » : « [https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true) »,
 
-« next » : « [https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true&amp;page\[cursor\]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjOjOjOjEwLCJsZWFybmluZ1B2dyYcn0i} »](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)
+« next » : « [https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true&amp;page\[cursor\]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjOjOjOjEwLCJsZWFybmluZ1B2dyYcn0i&rbrace; »](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)
 
-},
+&rbrace;,
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:15067_30122_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « completionDeadline » : « 2026-02-24T10:50:45.000Z »,
 
@@ -775,73 +775,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:15067 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:15067_30122 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:15067_30122_41715_1_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:1108800_1997400_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « enrollmentSource »: « SELF_ENROLL »,
 
@@ -853,73 +853,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:1108800 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:1108800_1997400 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:1108800_1997400_2174574_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:2027668_3707328_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « enrollmentSource »: « MGR_APPROVAL »,
 
@@ -931,73 +931,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2027668 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2027668_3707328 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:2027668_3707328_2665897_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:2030067_3709862_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « enrollmentSource »: « MGR_APPROVAL »,
 
@@ -1009,73 +1009,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2030067 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2030067_3709862 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:2030067_3709862_2668467_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:3081896_5749155_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « enrollmentSource »: « MGR_APPROVAL »,
 
@@ -1087,81 +1087,81 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:3081896 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:3081896_5749155 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:3081896_5749155_3737554_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:3081896_5749155_3737555_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:2037893_3717940_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « enrollmentSource »: « MGR_APPROVAL »,
 
@@ -1173,73 +1173,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2037893 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2037893_3717940 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:2037893_3717940_3676856_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:3049434_5713130_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « completionDeadline » : « 2020-05-05T18:29:59.000Z »,
 
@@ -1253,73 +1253,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:3049434 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:3049434_5713130 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:3049434_5713130_3693595_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:2001397_3679403_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « enrollmentSource »: « MGR_APPROVAL »,
 
@@ -1331,73 +1331,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2001397 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2001397_3679403 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:2001397_3679403_2635974_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:2037862_3717900_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « enrollmentSource »: « MGR_APPROVAL »,
 
@@ -1409,73 +1409,73 @@ vrai. False par défaut.
 
 « state »: « APPROBATION_EN_ATTENTE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2037862 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2037862_3717900 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:2037862_3717900_3676816_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-{
+&lbrace;
 
 « id »: « course:2037837_3717863_3400468 »,
 
 « type »: « learningObjectInstanceEnenrollment »,
 
-« attributes » : {
+« attributes » : &lbrace;
 
 « completionDeadline » : « 2020-02-29T18:29:59.000Z »,
 
@@ -1489,69 +1489,69 @@ vrai. False par défaut.
 
 « state »: « AUTRE »
 
-},
+&rbrace;,
 
-« relations » : {
+« relations » : &lbrace;
 
-« learner » : {
+« learner » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « 3400468 »,
 
 « type »: « utilisateur »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« learningObject » : {
+« learningObject » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2037837 »,
 
 « type »: « learningObject »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loInstance » : {
+« loInstance » : &lbrace;
 
-« data » : {
+« data » : &lbrace;
 
 « id »: « course:2037837_3717863 »,
 
 « type »: « learningObjectInstance »
 
-}
+&rbrace;
 
-},
+&rbrace;,
 
-« loResourceGrades » : {
+« loResourceGrades » : &lbrace;
 
-« data » : \[
+« data » : \&lbrack;
 
-{
+&lbrace;
 
 « id »: « course:2037837_3717863_3597363_0_3400468 »,
 
 « type »: « learningObjectResourceGrade »
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-}
+&rbrace;
 
-\]
+\&rbrack;
 
-}
+&rbrace;
 
 ## Date du dernier accès pour l’inscription au parcours d’apprentissage {#last-access-date-lp-enrollment}
 

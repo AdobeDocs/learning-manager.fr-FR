@@ -59,7 +59,7 @@ Les cas d’utilisation suivants montrent comment les notifications de l’instr
 
 ### Événements inclus
 
-Le résumé inclut les nouvelles publications, les nouveaux commentaires et les nouvelles réponses lorsque le paramètre correspondant est `true` dans l&#39;API [`boardSubscriptionSettings` ](api-changes-dec-2026.md#api-create-settings) : `notifyNewPost`, `notifyComment` et `notifyReply`. Vous les avez définies avec `POST` ou `PATCH /boardSubscriptionSettings`. Tous les paramètres sont `false` par défaut.
+Le résumé inclut les nouvelles publications, les nouveaux commentaires et les nouvelles réponses lorsque le paramètre correspondant est `true` dans l&#39;API [`boardSubscriptionSettings` &#x200B;](api-changes-dec-2026.md#api-create-settings) : `notifyNewPost`, `notifyComment` et `notifyReply`. Vous les avez définies avec `POST` ou `PATCH /boardSubscriptionSettings`. Tous les paramètres sont `false` par défaut.
 
 ### Événements exclus
 
