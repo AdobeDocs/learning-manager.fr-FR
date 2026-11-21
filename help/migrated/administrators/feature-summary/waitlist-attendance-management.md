@@ -7,10 +7,10 @@ exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 72%
+source-wordcount: '430'
+ht-degree: 38%
 ---
 # Gestion de l’assiduité et de la liste d’attente
 
@@ -18,21 +18,43 @@ Les administrateurs peuvent gérer l’assiduité et les listes d’attente des 
 
 ## Gestion de la liste d’attente {#waitlistmanagement}
 
-Les élèves sont mis en liste d’attente pour un cours en salle de classe lorsque les places sont limitées, dans l’ordre de leur inscription. Pour tous les cours en salle de classe, les administrateurs peuvent sélectionner des élèves en liste d’attente et attribuer des places indépendamment du nombre limite de places. Les élèves sont inscrits au cours dès l’attribution de la place par l’administrateur.
+Les élèves sont sur liste d&#39;attente pour un cours en salle de classe lorsque les places sont limitées, en fonction de l&#39;ordre de leur inscription. Lorsque toutes les places réservées à un groupe d’utilisateurs sont remplies, les membres supplémentaires de ce groupe sont placés sur la liste d’attente du groupe. Les élèves en dehors des groupes d&#39;utilisateurs sont placés sur la **liste d&#39;attente ouverte**.
 
-1. Cliquez sur **[!UICONTROL Cours]** dans le volet de gauche après vous être connecté en tant qu&#39;administrateur.
-1. Dans la liste des cours disponibles, cliquez sur le nom d’un cours en salle de classe de votre choix. Une nouvelle page apparaît avec des informations détaillées sur le cours.
+Les administrateurs peuvent consulter la liste d’attente et gérer les élèves inscrits sur liste d’attente. Adobe Learning Manager peut également promouvoir automatiquement les élèves inscrits sur liste d’attente lorsqu’une place devient disponible.
 
-![](assets/waitlist-and-attendance-mgmnt.png)
+Pour gérer les élèves inscrits sur liste d’attente :
 
-*Sélectionnez l&#39;option Liste d&#39;attente*
+1. Sélectionnez **Cours** dans le volet de gauche.
+1. Sélectionnez le nom d’un cours en salle de classe dans les cours disponibles.
 
-1. Cliquez sur **[!UICONTROL Liste d&#39;attente]** dans le volet gauche de la page de détails du cours. La liste des élèves en liste d’attente apparaît sur la page.
-1. Sélectionnez les élèves et cliquez sur **[!UICONTROL Attribuer des places]** pour les inscrire directement aux cours dépassant la limite de places.
+   Une nouvelle page apparaît avec des informations détaillées sur le cours.
 
->[!NOTE]
->
->Les élèves inscrits ne peuvent pas être déplacés vers la liste d&#39;attente et leurs places ne peuvent pas être réattribuées à d&#39;autres élèves.
+1. Sélectionnez **Liste d&#39;attente** dans le volet gauche de la page de détails du cours.
+
+   La page de liste d&#39;attente s&#39;ouvre avec l&#39;**état de liste d&#39;attente** suivant :
+
+   * **Limite de places :** nombre total de places disponibles pour la session.
+   * **Remplie :** nombre de places actuellement occupées.
+   * **Dans la liste d&#39;attente :** nombre d&#39;élèves en attente d&#39;inscription.
+
+1. Sélectionnez les onglets suivants dans la page **Liste d&#39;attente** :
+
+   1. **Liste d&#39;attente par groupe d&#39;utilisateurs** : répertorie les élèves sur liste d&#39;attente sous chaque groupe d&#39;utilisateurs.
+
+   >[!NOTE]
+   >
+   >Cet onglet apparaît uniquement si le paramètre **Inscription de groupe** est activé.
+
+   1. **Ouvrir la liste d&#39;attente** : répertorie les élèves inscrits sur liste d&#39;attente qui ne sont réservés pour aucun groupe d&#39;utilisateurs.
+
+   ![Page de liste d&#39;attente affichant l&#39;onglet Liste d&#39;attente par groupe d&#39;utilisateurs](assets/waitlist-by-user-group-tab.png "Page de liste d&#39;attente affichant l&#39;onglet Liste d&#39;attente par groupe d&#39;utilisateurs")
+
+1. En regard d’un élève, sélectionnez l’une des actions suivantes :
+
+   | **Action** | **Description** |
+   |---|---|
+   | **Confirmer** | Inscrit l’élève sur liste d’attente dans la session et le supprime de la liste d’attente. |
+   | **Se désinscrire** | Supprime l’élève de la liste d’attente et met à jour les positions des autres élèves inscrits sur liste d’attente. |
 
 ## Gestion de l’assiduité {#attendancemanagement}
 

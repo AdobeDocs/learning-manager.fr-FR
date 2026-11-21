@@ -5,9 +5,9 @@ title: Agent du parcours d’apprentissage (bêta) dans Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: b01b116a2edd22350d0d20eb53984f1a66d494e3
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2336'
 ht-degree: 0%
 ---
 
@@ -147,23 +147,34 @@ Lorsque le chemin vous convient, demandez à l’agent de l’enregistrer en tap
 ![](assets/create-lp.png)
 -->
 
-### Ajuster votre parcours d’apprentissage avant d’enregistrer
+### Ajuster un parcours d’apprentissage avant d’enregistrer {#adjust-lp-before-saving}
 
-Avant d&#39;enregistrer votre parcours, vous pouvez demander à l&#39;agent d&#39;ajouter, de supprimer ou de remplacer un cours. Décrivez la modification en langage simple. L&#39;agent met uniquement à jour le cours que vous mentionnez. Le reste de votre chemin reste le même.
+Supprimez, ajoutez ou remplacez des rubriques et des cours dans un parcours d’apprentissage généré à l’aide de l’icône de suppression ou de la conversation, avant de l’enregistrer.
 
-Par exemple :
+Lorsque vous demandez à l’agent du parcours d’apprentissage dans Adobe Learning Manager de créer un parcours personnalisé, il propose d’abord des rubriques, puis fait correspondre les cours à celles-ci. Avant d’enregistrer le tracé, vous pouvez les affiner afin que le tracé final corresponde à vos objectifs.
 
-- J&#39;ai déjà terminé le deuxième cours. Supprimez-le.
-- Ajoutez un cours sur [rubrique]. Je n&#39;en vois pas dans la liste.
-- Le quatrième cours semble trop avancé. Pourriez-vous la remplacer par quelque chose de plus fondamental?
-
-L&#39;agent applique votre modification et vous indique le chemin mis à jour. Continuez à ajuster jusqu’à ce que vous soyez satisfait, puis enregistrez le tracé.
+Vous pouvez ajuster le chemin en sélectionnant l’icône de suppression sur une carte ou en saisissant une demande dans la conversation.
 
 >[!NOTE]
 >
->Un parcours d’apprentissage peut contenir jusqu’à cinq cours. Si vous demandez l&#39;ajout d&#39;un cours alors que le chemin est déjà plein, l&#39;agent vous demande quel cours existant vous souhaitez remplacer.
+>L’agent du parcours d’apprentissage est disponible au niveau Ultimate ou en tant que module complémentaire au niveau Prime. Chaque demande utilise des crédits IA. Si vous ne voyez pas l&#39;agent, contactez votre administrateur.
 
-Si votre demande n&#39;est pas claire, l&#39;agent pose une question de clarification avant d&#39;apporter une modification. S&#39;il n&#39;existe pas de remplacement approprié pour un cours que vous souhaitez échanger, l&#39;agent explique pourquoi et suggère le cours correspondant le plus proche à la place.
+1. Dans l’assistant de l’élève, demandez à l’agent du parcours d’apprentissage de générer un parcours d’apprentissage. Répondez aux questions de clarification posées par l&#39;agent. Par exemple, saisissez M’aider à créer un parcours d’apprentissage pour passer du rôle de coordinateur marketing à celui d’analyste de données.
+2. Répondez aux questions de clarification posées par l&#39;agent. L&#39;agent génère ensuite une liste de rubriques.
+3. Passez en revue les rubriques, puis ajustez-les selon vos besoins :
+
+   * Pour supprimer une rubrique, sélectionnez l’icône de suppression sur sa carte ou saisissez une demande telle que « Supprimer cette rubrique ».
+   * Pour ajouter une rubrique, tapez une demande décrivant la rubrique souhaitée.
+
+4. Confirmez les rubriques. L&#39;agent fait correspondre les cours de votre compte à chaque rubrique.
+5. Passez en revue les cours suggérés, puis ajustez-les selon vos besoins :
+
+   * Pour supprimer un cours, sélectionnez l&#39;icône de suppression sur sa carte ou demandez à l&#39;agent de le supprimer.
+   * Pour ajouter un cours, saisissez une demande décrivant ce que vous souhaitez apprendre.
+   * Pour échanger un cours, demandez à l&#39;agent de le remplacer. L&#39;agent suggère une alternative basée sur votre demande originale.
+
+6. Répétez les étapes 3 et 5 jusqu’à ce que le tracé corresponde à vos objectifs.
+7. Enregistrez le parcours d’apprentissage.
 
 ### Enregistrement et accès à votre parcours d’apprentissage
 

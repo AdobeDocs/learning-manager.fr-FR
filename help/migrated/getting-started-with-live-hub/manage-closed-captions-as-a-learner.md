@@ -4,15 +4,19 @@ description: Découvrez comment les élèves affichent les sous-titres et person
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 ---
 
 # Gérer les sous-titres en tant qu’élève
 
 Les sous-titres affichent le contenu parlé sous forme de texte à l’écran, ce qui facilite le suivi d’une session Live Hub, par exemple, si vous êtes dans un environnement bruité ou si vous préférez lire en même temps que l’audio. Vous pouvez contrôler vos propres sous-titres à l’aide du bouton Sous-titres (CC) de la barre de contrôle. Ce guide explique comment afficher, ajuster et masquer les légendes en tant qu’élève.
+
+>[!NOTE]
+>
+>Les légendes s’affichent dans la langue sélectionnée par l’instructeur pour la session.
 
 ## Afficher les sous-titres
 

@@ -5,10 +5,10 @@ title: Insights Agent (bêta) dans Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
 workflow-type: tm+mt
-source-wordcount: '2929'
-ht-degree: 1%
+source-wordcount: '4257'
+ht-degree: 0%
 ---
 
 # Qu’est-ce qu’Insights Agent ?
@@ -21,9 +21,9 @@ Insights Agent est conçu pour réduire les étapes entre une question sur les d
 
 Vous pouvez utiliser Insights Agent pour :
 
-- Vérifier les mesures d&#39;achèvement et de conformité par région, service ou groupe d&#39;utilisateurs
-- Analyser les tendances d’inscription dans les cours ou les parcours d’apprentissage
-- Afficher les données de progression pour un cours ou un parcours d’apprentissage spécifique
+* Vérifier les mesures d&#39;achèvement et de conformité par région, service ou groupe d&#39;utilisateurs
+* Analyser les tendances d’inscription dans les cours ou les parcours d’apprentissage
+* Afficher les données de progression pour un cours ou un parcours d’apprentissage spécifique
 
 Chaque requête renvoie une table formatée ou un fichier CSV téléchargeable, ainsi qu’une explication en langage clair de la façon dont les résultats ont été calculés.
 
@@ -31,9 +31,9 @@ Chaque requête renvoie une table formatée ou un fichier CSV téléchargeable, 
 
 Les types de données suivants sont actuellement en dehors de la portée de Insights Agent :
 
-- Commentaires et données d’enquête
-- Points et badges de ludification
-- Historique d’audit et journaux des modifications
+* Commentaires et données d’enquête
+* Points et badges de ludification
+* Historique d’audit et journaux des modifications
 
 Les requêtes qui font référence à ces types de données ne renvoient pas de résultats. Par exemple, « Combien de points de ludification ont été attribués le trimestre dernier ? » ou « Quels élèves ont obtenu un badge de conformité ? » renvoie une erreur ou des données incomplètes.
 
@@ -298,3 +298,127 @@ Utilisez-les comme point de départ. Adaptez-les en remplaçant les noms de cont
 **Les requêtes envoyées dans des scripts non latins ne sont pas prises en charge**
 
 Insights Agent prend en charge les requêtes écrites en anglais et dans les langues de l&#39;alphabet latin telles que le français et l&#39;espagnol. Les requêtes soumises à l’aide de scripts non latins, notamment le japonais, le chinois, l’arabe, le coréen, l’hindi et le russe, ne sont pas traitées. L&#39;agent affiche un message indiquant que la requête n&#39;a pas pu être terminée. Si vous soumettez une requête dans l’une de ces langues, démarrez une nouvelle requête et reformulez-la en anglais.
+
+## Création d’un rapport à partir d’une réponse d’Insights Agent
+
+Dans Adobe Learning Manager, vous pouvez poser une question à Insights Agent en langage clair et ouvrir la réponse sous forme de rapport dans le Report Builder. Vous pouvez ensuite modifier le rapport et le réutiliser, afin de ne pas avoir à le reconstruire à partir de zéro.
+
+## Qu’est-ce que l’intégration d’Insights Agent à Report Builder ?
+
+Insights Agent et Report Builder permettent d’accéder aux mêmes données dans Adobe Learning Manager. Les deux fonctionnent sur la même plate-forme de données.
+
+* **Insights Agent** vous permet de poser des questions en langage naturel.
+* **Report Builder** vous permet de créer un rapport en sélectionnant des ensembles de données, des colonnes, des agrégations et des filtres. Vous pouvez également l’utiliser pour créer des rapports récurrents, vous abonner à des rapports et modifier des rapports existants.
+
+L&#39;intégration relie les deux. Vous commencez par une question, vous passez en revue la réponse et vous l’ouvrez dans le Report Builder. À partir de là, vous pouvez modifier le rapport et continuer à travailler dessus comme vous le feriez avec n’importe quel autre rapport. Actuellement, cette intégration est disponible pour les administrateurs.
+
+Toutes les réponses d’Insights Agent ne peuvent pas devenir un rapport. Insights Agent ouvre une réponse dans le Report Builder uniquement lorsque le rapport conserve l&#39;intention de la réponse de l&#39;agent et votre question.
+
+## Fonctionnement de l’intégration
+
+Lorsque vous posez une question, Insights Agent génère une requête de données et récupère le résultat correspondant. Si la requête peut être translatée dans des structures de Report Builder, Adobe Learning Manager crée un rapport de Report Builder provisoire à partir de la requête générée.
+
+Insights Agent :
+
+1. Génère une requête à partir de votre question.
+1. Mappe la requête générée aux jeux de données et aux champs de Report Builder.
+1. Crée un rapport provisoire.
+1. Valide le rapport par rapport à la réponse et à la question d&#39;origine de l&#39;agent.
+1. Ouvre le rapport en Report Builder pour révision.
+
+## Création d’un rapport à partir d’une réponse d’Insights Agent
+
+1. Lancez **Insights Agent**.
+
+1. Saisissez votre question en langage clair. Attendez la réponse. Insights Agent prépare le rapport en arrière-plan, de sorte que la conversation continue sans interruption.
+
+   ![Réponse de l’agent Insights à une question](assets/Insights-Agent-Integration-with-Report-Builder-image1.png "Réponse de l’agent Insights")
+
+1. Passez en revue la réponse générée une fois que les agents Insights ont levé l’ambiguïté et/ou ont fourni une approche sur la façon dont ils ont généré la réponse.
+
+1. Sélectionnez **Modifier dans Report Builder**.
+
+   ![Option Modifier dans Report Builder](assets/Insights-Agent-Integration-with-Report-Builder-image2.png "Modifier dans Report Builder")
+
+   Le Report Builder ouvre le rapport généré avec les colonnes et applique automatiquement les fonctions grouper par ou agréger, si nécessaire. Le nom et la description du rapport sont également générés automatiquement.
+
+   >[!NOTE]
+   >
+   >L&#39;option **Modifier dans Report Builder** apparaît également lorsque Insights Agent ne trouve aucune donnée pour votre question. Vous pouvez créer le rapport et le modifier ultérieurement. Les données peuvent apparaître après la création du rapport, de sorte que ce dernier reste vide jusqu’à ce que des données correspondantes existent.
+
+   ![Rapport généré ouvert dans Report Builder](assets/Insights-Agent-Integration-with-Report-Builder-image3.png "Rapport généré")
+
+1. Vérifiez le rapport généré. Report Builder mappe les champs de la réponse à ses propres champs, par exemple, le nom et la description du cours. Si Insights Agent n’a pas pu convertir une partie de votre question, le rapport répertorie ces éléments comme des espaces en regard du rapport.
+
+1. Modifiez le rapport si nécessaire. Par exemple, ajoutez ou modifiez des colonnes, des agrégations ou des filtres.
+
+1. Enregistrez le rapport. Sélectionnez **Enregistrer le rapport**.
+
+Le rapport s’ouvre dans le Report Builder avec les champs convertis et les données correspondantes. Vous pouvez désormais le modifier et le gérer comme n’importe quel autre rapport.
+
+## Modifier le rapport généré
+
+Une fois le rapport ouvert dans Report Builder, vous pouvez :
+
+* Ajouter ou supprimer des colonnes.
+* Mettez à jour les filtres.
+* Modifiez les agrégations.
+* Modifier le tri.
+* Enregistrez le rapport.
+* Partagez le rapport.
+* Ajoutez des visualisations.
+* Créer des tableaux de bord.
+
+## Comment Insights Agent convertit une réponse en rapport
+
+Insights Agent et Report Builder sont conçus différemment. Une réponse dans Insights Agent peut donc inclure des données que le Report Builder ne peut pas représenter entièrement. Pour gérer cela, Insights Agent convertit chaque réponse par étapes.
+
+| Scène | Que se passe-t-il ? |
+|---|---|
+| Requête | Insights Agent détermine la requête qui répond à votre question. Le Report Builder commence par la même requête en même temps, de sorte que votre conversation n&#39;est jamais bloquée. |
+| Mappage des champs | La requête est mappée à des ensembles de données et des champs de Report Builder. Un rapport de travail est créé à partir de ce mappage. |
+| Brouillon d’IA | L’IA rédige le rapport et le vérifie. |
+| Évaluer | Le rapport est comparé à la requête élaborée et à votre question d&#39;origine. La validation s’exécute en même temps. |
+| Correction | Si la validation détecte des erreurs, elles sont corrigées automatiquement. |
+| Liste des espaces | Toute partie de votre question que les champs de Report Builder ne peuvent pas exprimer est répertoriée en regard du rapport. |
+
+## Comment Insights Agent décide si une réponse peut s’ouvrir dans Report Builder
+
+Insights Agent suit deux règles : préserver l&#39;intention de la réponse de l&#39;agent et votre question, et être ouvert sur ce qu&#39;il n&#39;a pas pu convertir.
+
+* **Conserver l&#39;intention.** Insights Agent vous permet d’ouvrir une réponse dans le Report Builder uniquement lorsque le rapport reflète toujours le noyau de la réponse Insights Agent. Si la conversion perd son intention, vous ne pouvez pas passer au Report Builder.
+* **Divulguer les lacunes**. Si une partie de votre question ne peut pas être exprimée en Report Builder, Insights Agent ne la laisse pas tomber en silence. Il tente de répertorier les parties les plus importantes comme des lacunes à côté du rapport. Si quelque chose semble risqué, le rapport reste disponible afin que vous puissiez le consulter vous-même.
+
+Insights Agent décide si un champ ou un calcul manquant est essentiel pour votre question, en fonction de son intention.
+
+>[!NOTE]
+>
+>Insights Agent vérifie la conversion principalement par rapport à sa propre réponse, et seulement secondairement par rapport à votre question. Si la réponse ne répond pas entièrement à votre question, vous pouvez toujours la convertir en rapport dans Report Builder. Passez en revue le rapport avant de vous y fier.
+
+| Situation | Résultat |
+|---|---|
+| Le Report Builder comporte des champs pour chaque partie de la réponse Insights Agent | Le rapport est créé et prêt à être examiné. |
+| Une partie de la réponse d’Insights Agent ne peut pas être exprimée dans le Report Builder | L&#39;article est répertorié en tant qu&#39;espace. Le rapport reste disponible pour examen. |
+| Un champ de la réponse n’est pas disponible dans le Report Builder et le champ est mineur par rapport à la réponse | Vous pouvez ouvrir le rapport dans le Report Builder. Le champ est répertorié en tant qu’espace. |
+| Un champ dans la réponse n’est pas disponible dans le Report Builder et le champ est au centre de la réponse | Vous ne pouvez pas ouvrir la réponse dans le Report Builder. Par exemple, le nom ou l’ID de la compétence. |
+| La réponse utilise un champ calculé que Report Builder ne prend pas en charge. Le calcul peut être de deux types : un calcul complexe qui crée un nouveau champ ou un calcul d’agrégation construit sur des champs de Report Builder existants. Le premier type ne peut pas être converti, mais le second le peut. | Le calcul est répertorié sous la forme d&#39;un écart. S’il est au cœur de la réponse, vous ne pouvez pas l’ouvrir dans le Report Builder. |
+| La réponse est complexe, par exemple avec plusieurs requêtes jointes | Le rapport converti peut être moins précis. S’il reflète toujours l’intention de la réponse, il s’ouvre pour que vous puissiez le vérifier. |
+| Insights Agent ne trouve aucune donnée pour votre question | L&#39;option **Modifier dans Report Builder** apparaît toujours. Vous pouvez créer le rapport et le modifier ultérieurement. Le rapport affiche les données lorsque des données correspondantes deviennent disponibles. |
+
+## Résolution des problèmes de conversion de rapport
+
+| Problème | Solution |
+|---|---|
+| Vous ne pouvez pas ouvrir la réponse au Report Builder. | Un champ ou un calcul au centre de votre question n’est pas disponible dans le Report Builder. Reformulez votre question sans ce champ ni ce calcul, puis posez-la à nouveau. |
+| Le rapport comporte moins de colonnes que la réponse. | Vérifiez les lacunes répertoriées à côté du rapport. Impossible de convertir les éléments répertoriés ici. |
+| Le rapport ne correspond pas à ce que vous attendiez d&#39;une question complexe. | Vérifiez le rapport par rapport à votre question d’origine. Divisez la question en questions plus petites et convertissez chaque réponse séparément. |
+| Insights Agent dit n&#39;avoir trouvé aucune donnée, mais **Modifier dans Report Builder** est toujours disponible. | C&#39;est ce qui est attendu. Vous pouvez quand même créer le rapport, le modifier dans Report Builder et le vérifier à nouveau lorsque de nouvelles données sont disponibles. |
+| Le rapport s’ouvre vide dans le Report Builder. | Aucune donnée correspondante n’existe pour le moment pour votre question. Modifiez le rapport ou ouvrez-le à nouveau une fois que de nouvelles données sont disponibles. |
+
+### Articles connexes
+
+* [Création de rapports avec Report Builder](/help/migrated/administrators/feature-summary/alm-create-report.md)
+* [Création de tableaux de bord à partir de rapports de Report Builder et visualisation des données de rapport avec des graphiques](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+* [Utilisation d’Insights Agent pour la création de rapports](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insight-agent-answer)
+* [Partage et abonnement aux rapports](/help/migrated/administrators/feature-summary/download-share-subscribe-report.md)
+* Visualiser les données du rapport avec des graphiques

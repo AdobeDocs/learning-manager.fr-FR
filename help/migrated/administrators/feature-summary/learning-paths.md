@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # Parcours d’apprentissage
 
@@ -78,9 +78,9 @@ Si vous sélectionnez Ordonné, les cours s’affichent dans la séquence dans l
 
 Pour ajouter un cours dans le parcours d’apprentissage, cliquez sur **[!UICONTROL Ajouter des cours ou des parcours d’apprentissage]**.
 
-Dans la boîte de dialogue qui s’affiche, sélectionnez la formation que vous souhaitez ajouter au parcours d’apprentissage.
+Dans la fenêtre qui s’affiche, sélectionnez la formation à ajouter au parcours d’apprentissage. Chaque entrée affiche le nom, le type (cours ou parcours d’apprentissage), l’état de la publication et le format du cours, tel que libre, virtuel, en salle de classe ou fusionné.
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *Ajouter une formation au parcours d’apprentissage*
 

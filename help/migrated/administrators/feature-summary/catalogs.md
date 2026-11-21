@@ -7,10 +7,10 @@ exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '3238'
-ht-degree: 63%
+source-wordcount: '3588'
+ht-degree: 57%
 ---
 # Catalogues
 
@@ -26,6 +26,49 @@ Dans cette formation, vous apprendrez à créer et à gérer des catalogues.
 
 Si vous ne pouvez pas lancer la formation, écrivez à <almacademy@adobe.com>.
 
+## Recherche de catalogues {#search-catalogs}
+
+La recherche de catalogue classe les résultats par pertinence. Une correspondance exacte pour votre terme de recherche apparaît en haut de la liste, suivie des correspondances les plus proches suivantes. Cela vous aide à trouver le catalogue souhaité sans faire défiler de longues listes de noms similaires.
+
+### A propos de la recherche de catalogue basée sur la pertinence
+
+La recherche de catalogue renvoie les résultats par ordre décroissant de pertinence. Il utilise le même type de classement de recherche et de correspondance exacte qui est déjà disponible dans d&#39;autres expériences de recherche Adobe Learning Manager pour les élèves et les administrateurs.
+
+Avant la version de décembre 2026 de Adobe Learning Manager, les résultats de recherche n’étaient pas classés par pertinence. Si votre compte comporte de nombreux catalogues avec des noms similaires, tels qu’un préfixe partagé suivi d’une date, d’un mois ou d’un ID, le catalogue que vous souhaitiez peut apparaître loin en bas de la liste.
+
+Avec la recherche basée sur la pertinence :
+
+* Une correspondance exacte pour votre terme de recherche s’affiche en premier.
+* La correspondance la plus proche suivante apparaît en deuxième position.
+* Les résultats restants suivent par ordre décroissant de pertinence.
+
+### Recherche d’un catalogue
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+
+1. Sélectionnez **Catalogues** dans le volet de navigation de gauche.
+
+1. Dans la zone de recherche, entrez le nom du catalogue ou d’une partie de celui-ci.
+
+Examinez les résultats. La correspondance la plus proche apparaît en haut de la liste. Sélectionnez le catalogue requis dans la liste.
+
+### Exemple de résultat de recherche
+
+Supposons que votre compte inclut des catalogues dont les noms ne diffèrent que de quelques caractères. Le tableau suivant montre comment les résultats sont classés lorsque vous recherchez le terme 5 mars.
+
+| Terme de recherche | Position du résultat | Type de correspondance |
+|---|---|---|
+| 5 mars | Les premiers | Correspondance exacte |
+| 5 mars suivi de caractères supplémentaires, tels que 52 mars | Deuxième | Correspondance la plus proche |
+| Autres catalogues contenant du texte similaire | Après les correspondances les plus proches | Pertinence moindre |
+
+Si vous recherchez plutôt mars 52, le catalogue nommé mars 52 apparaît en premier, suivi des correspondances les plus proches.
+
+La recherche basée sur la pertinence est particulièrement utile si votre organisation gère des centaines ou des milliers de catalogues. Il vous aide à :
+
+* Repérez un catalogue spécifique sans faire défiler ni effectuer de recherche manuelle.
+* Distinguer les catalogues ayant des modèles de dénomination communs.
+* Obtenez un comportement de recherche cohérent avec les autres expériences de recherche Adobe Learning Manager.
 
 ## Création d’un catalogue {#createacatalog}
 

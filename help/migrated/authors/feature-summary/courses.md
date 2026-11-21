@@ -7,10 +7,10 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
 workflow-type: tm+mt
-source-wordcount: '10239'
-ht-degree: 56%
+source-wordcount: '12332'
+ht-degree: 47%
 ---
 # Création, modification et publication de cours
 
@@ -53,7 +53,7 @@ Pour créer un cours, suivez les étapes ci-dessous :
 1. Connectez-vous à Adobe Learning Manager en tant qu’auteur, car seuls les auteurs ont le droit de créer des cours. Maintenant, sur la page d&#39;accueil, sélectionnez **[!UICONTROL Créer des cours]**. La page Catalogue de cours s&#39;ouvre et une liste de cours s&#39;affiche.
 2. Sélectionnez **Ajouter** en haut à droite. Une page s’ouvre pour créer un nouveau cours.
 3. Saisissez un nom pour le cours et une brève description. Cette description est affichée sur la carte du cours. Cette description ne doit pas dépasser 140 caractères. Saisissez ensuite la présentation détaillée du cours, qui s’affiche sur la page Détails du cours. La description ne doit pas dépasser 1 500 caractères.
-4. Pour rendre votre cours disponible dans d’autres langues, cliquez sur Ajouter une nouvelle langue dans le coin supérieur gauche de la page. Sélectionnez la ou les langues dans lesquelles vous souhaitez rendre votre cours disponible. Cliquez sur **[!UICONTROL Enregistrer]**. Pour plus d’informations, voir [Ajouter du contenu pour différentes langues](/help/migrated/authors/feature-summary/content-library.md).
+4. Pour rendre votre cours disponible dans d&#39;autres langues, sélectionnez **Ajouter une nouvelle langue** dans le coin supérieur gauche de la page. Sélectionnez la ou les langues dans lesquelles vous souhaitez rendre votre cours disponible. **Sélectionnez** **[!UICONTROL Enregistrer]**. Pour plus d’informations, voir [Ajouter du contenu pour différentes langues](/help/migrated/authors/feature-summary/content-library.md).
 5. **Modification des paramètres d’un cours**
 
    a. Sur la page Paramètres du cours, sélectionnez une compétence pour le cours. Dans la liste déroulante Compétence, sélectionnez la compétence requise. Puis, dans la liste déroulante Niveau, sélectionnez le niveau requis.
@@ -151,6 +151,124 @@ Après avoir activé le Gradebook, ajoutez vos modules de contenu et affectez un
 >
 >L&#39;échelle de notation ne doit pas nécessairement correspondre entre les types de livraison. Une session de classe notée sur 100 et un module SCORM noté sur 10 peuvent coexister dans le même Gradebook. La formule normalise automatiquement chaque contribution.
 
+### Ajout d’un module de soumission basé sur l’équipe dans Adobe Learning Manager
+
+Ajoutez un module de soumission de fichier basé sur l’équipe afin qu’un membre de l’équipe puisse charger un fichier pour toute l’équipe, et choisissez comment il est révisé et noté.
+
+Un module d’envoi de fichiers basé sur une équipe permet à un élève d’envoyer un fichier au nom d’une équipe. L’instructeur l’évalue une fois et le résultat s’applique à chaque membre de l’équipe. Vous devez ajouter le module avant de publier le cours.
+
+### Ajout du module à un cours
+
+1. Se connecter à Adobe Learning Manager en tant qu’auteur.
+
+1. Dans l&#39;application de création, créez un cours ou ouvrez un cours non publié.
+
+1. Ajoutez un nouveau module d’activité.
+
+1. Sélectionnez le type d&#39;activité d&#39;envoi de fichier.
+
+1. Sélectionnez l’option Équipe. L&#39;option individuelle correspond au module d&#39;envoi de fichier précédent pour les élèves uniques.
+
+   ![Option basée sur l&#39;équipe pour le module d&#39;envoi de fichiers](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Option basée sur l&#39;équipe")
+
+1. Sélectionnez le ou les instructeurs.
+
+1. Définissez la durée du module.
+
+Un cours peut comporter des modules de soumission individuels et basés sur une équipe. Tous les modules d&#39;équipe d&#39;une instance de cours partagent les mêmes équipes.
+
+### Choisir les options de révision et de notation
+
+1. Ouvrez le module d’envoi de fichiers basé sur l’équipe.
+
+1. Choisissez si l&#39;approbation du **réviseur est requise**.
+
+   * Si vous l’activez, un instructeur doit approuver ou rejeter chaque envoi avant que le module ne se termine.
+   * Si vous la désactivez, le module est complété pour tous les membres de l&#39;équipe dès que celle-ci envoie son contenu.
+
+1. Choisir une méthode de notation :
+
+   * Sélectionnez l’évaluation manuelle pour permettre à l’instructeur de saisir une évaluation globale.
+   * Sélectionnez l&#39;évaluation basée sur des critères pour calculer le score à partir des points de chaque option de plan d&#39;évaluation. Cette méthode nécessite un plan d&#39;évaluation.
+
+     ![Options de révision et de notation pour le module d&#39;envoi de fichiers basé sur l&#39;équipe](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+
+>[!CAUTION]
+>
+>Après avoir publié le cours, vous ne pouvez pas supprimer le module, modifier ses paramètres ou utiliser plusieurs types de livraison pour celui-ci.
+
+### Ajout d’un plan d’évaluation à un module de soumission de fichiers
+
+Créez un plan d’évaluation pour les soumissions individuelles ou d’équipe en ajoutant des questions objectives et subjectives à un module de soumission de fichier.
+
+Un plan d&#39;évaluation est l&#39;ensemble de questions que les instructeurs utilisent pour évaluer une soumission. Chaque module comporte un plan d&#39;évaluation, et vous ne pouvez pas le réutiliser dans un autre module. Vous pouvez ajouter un plan d&#39;évaluation à un module de soumission de fichier individuel ou à un module de soumission basé sur l&#39;équipe. Ajoutez-le avant de publier le cours.
+
+#### Activer le plan d’évaluation
+
+1. Activez le plan d’évaluation.
+
+1. Saisissez une description de l&#39;évaluation.
+
+1. Indiquez si les élèves peuvent consulter le plan d&#39;évaluation avant de le soumettre. Cette option est désactivée par défaut. Les élèves voient la description de l&#39;évaluation et la description de chaque critère. Ils ne voient pas les options de réponse, les points ou la pondération.
+
+   ![Paramètres du plan d&#39;évaluation pour un module de soumission de fichiers](assets/Group-Team-submission-and-rubric-based-assessments-image6.png "Paramètres du plan d&#39;évaluation")
+
+#### Ajout de paramètres d&#39;évaluation au plan d&#39;évaluation
+
+Vous pouvez ajouter jusqu’à 100 paramètres d’évaluation. Chaque paramètre est objectif ou subjectif.
+
+1. Sélectionnez **Définir les paramètres**. Saisissez le texte du paramètre dans le champ Paramètre/Question.
+
+   ![Définir les paramètres avec le champ Paramètre/Question](assets/Group-Team-submission-and-rubric-based-assessments-image7.png "Définir les paramètres")
+
+1. Sélectionnez le type de paramètre :
+
+   * **Objectif :** l&#39;instructeur sélectionne parmi les options de réponse. Ajoutez les options.
+
+     ![Paramètre d&#39;objectif avec options de réponse](assets/Group-Team-submission-and-rubric-based-assessments-image8.png "Paramètre d&#39;objectif")
+
+   * **Subjectif :** l&#39;instructeur écrit une réponse descriptive.
+
+     ![Paramètre subjectif avec une réponse descriptive](assets/Group-Team-submission-and-rubric-based-assessments-image9.png "Paramètre subjectif")
+
+1. Dans le cas d&#39;un paramètre d&#39;objectif avec notation basée sur des critères, entrez le nombre entier de points pour chaque option. Les nombres négatifs sont autorisés. Chaque option requiert une valeur de point.
+
+1. Choisissez les paramètres suivants :
+
+   * **Obligatoire :** l&#39;instructeur doit répondre au paramètre. Les paramètres non obligatoires affichent une balise facultative pour l’instructeur.
+   * **Autoriser les remarques des réviseurs :** l&#39;instructeur peut ajouter des remarques au paramètre. Cette option s’affiche uniquement pour les paramètres d’objectif.
+
+1. Pour permettre aux instructeurs d’ajouter un commentaire pour l’ensemble du plan d’évaluation, activez les remarques générales.
+
+1. Répétez l’opération pour chaque question.
+
+1. Sélectionnez **Enregistrer**.
+
+>[!NOTE]
+>
+>Les paramètres subjectifs n&#39;ont pas de points.
+
+#### Calculer le score global
+
+Lorsque vous choisissez une évaluation basée sur des critères, Adobe Learning Manager calcule le score global à partir des points sur les options sélectionnées par l’instructeur. Seuls les paramètres d&#39;évaluation objectifs sont pris en compte. Les paramètres d&#39;évaluation subjective ne contribuent pas au score.
+
+* **Sans plafond :** le score global est la somme des points pour les options sélectionnées.
+* **Avec un plafond :** le score global est la somme des points, divisée par le maximum de points possible, multipliée par le plafond et arrondie à un nombre entier. Le plafond peut être un nombre entier compris entre 1 et 100. La valeur par défaut est 100.
+
+Dans la mesure où une option peut avoir des points négatifs, le calcul peut produire un nombre inférieur à 0. Lorsque cela se produit, Adobe Learning Manager définit le score global sur 0. Le score global n’est jamais inférieur à 0.
+
+Par exemple, supposons que le maximum de points possibles est 12 et que le plafond est 10. Si le total des options sélectionnées est égal à 6, le score total est de 5. S’ils s’additionnent jusqu’à 10, le score global est de 8, ce qui correspond à 8,33 arrondis. S’ils s’additionnent jusqu’à − 3, le calcul donne un nombre inférieur à 0, de sorte que le score global est de 0.
+
+Pour choisir entre l&#39;évaluation manuelle et l&#39;évaluation basée sur des critères, suivez les étapes d&#39;évaluation dans le module Ajouter une soumission basée sur une équipe.
+
+#### Ajout de paramètres d’évaluation pour chaque locale
+
+Les paramètres régionaux d’un module suivent ceux du cours. Ajoutez manuellement les paramètres d&#39;évaluation pour chaque locale utilisée par le cours. Les instructeurs voient les paramètres d’évaluation dans leurs paramètres régionaux de contenu.
+
+#### Publish du cours
+
+Publish du cours une fois la formule terminée. Les nouvelles instances du cours bénéficient du même plan. Après la publication, vous ne pouvez modifier que le texte des paramètres et options d’évaluation. Vous ne pouvez pas modifier la configuration, ajouter des paramètres ou activer ou désactiver la formule.
+
 ### Définition de la note de passage minimale
 
 * Dans l&#39;éditeur de cours, recherchez la section **Critères de réussite**.
@@ -194,6 +312,142 @@ Après avoir configuré tous les paramètres du Gradebook, publiez le cours à l
 * Utilisez le paramètre **Maximale** pour les tentatives multiples lorsque les modules sont des évaluations que les élèves doivent réessayer. Utilisez **Dernière** lorsque vous souhaitez capturer le niveau de connaissances actuel plutôt que les meilleures performances.
 * Vérifiez que l&#39;indicateur **Pondération totale** affiche exactement 100 % avant d&#39;enregistrer.
 
+## Configuration de la création automatique d’équipes dans Adobe Learning Manager
+
+Définissez les règles de création automatique d&#39;équipe pour un cours afin que Adobe Learning Manager divise les élèves inscrits en équipes avant le démarrage d&#39;une instance.
+
+La création automatique d’équipes fait office de solution de secours lorsque les instructeurs n’ont pas créé d’équipes manuellement. Vous pouvez activer la formation automatique d&#39;équipe pour tout cours disposant d&#39;un module d&#39;envoi de fichiers basé sur l&#39;équipe, même si le paramètre de compte est désactivé. Si votre administrateur a activé le paramètre de compte, les nouveaux cours commencent avec la planification du compte et vous pouvez l&#39;ajuster lors de la configuration du cours.
+
+Le cours doit inclure un module de soumission basé sur l’équipe. Chaque instance a besoin d’une date de début.
+
+## Définition des règles d’équipe pour un cours
+
+1. Dans l&#39;application d&#39;auteur, ouvrez un cours comportant un module de soumission basé sur l&#39;équipe.
+
+1. Ouvrez les paramètres du cours, puis recherchez le paramètre **Formation automatique d&#39;équipe pour les soumissions d&#39;équipe**. Il s’affiche uniquement lorsque le cours comporte au moins un module d’envoi de fichiers basé sur l’équipe.
+
+1. Sélectionnez **Activer**.
+
+   ![Activer l&#39;option de formation automatique d&#39;équipe dans les paramètres du cours](assets/Group-Team-submission-and-rubric-based-assessments-image10.png "Activer la formation automatique d&#39;équipe")
+
+1. Consultez le **planning de formation d&#39;équipe**. Si votre administrateur a activé le paramètre de compte, il affiche le nombre de jours qu’il a définis. Des équipes sont créées plusieurs jours avant la date de début de l’instance.
+
+1. Facultatif : pour modifier le nombre de jours de ce cours, sélectionnez **Modifier**, sélectionnez **Oui** dans l&#39;avertissement, puis entrez un nouveau nombre.
+
+   ![Avertissement affiché lors de la modification du planning de formation d&#39;équipe](assets/Group-Team-submission-and-rubric-based-assessments-image11.png "Modifier l&#39;avertissement")
+
+1. Modifiez la valeur.
+
+   ![Champ de valeur du planning de formation d&#39;équipe](assets/Group-Team-submission-and-rubric-based-assessments-image12.png "Valeur du planning de formation d&#39;équipe")
+
+1. Consultez le **planning de formation d&#39;équipe**. Il commence par la valeur du compte. Pour utiliser un délai différent, entrez un nouveau nombre de jours.
+
+1. Choisissez comment former des équipes. Entrez 1 ou une valeur supérieure. Une équipe peut compter jusqu’à 100 membres.
+
+   * Sélectionnez **Membres par équipe** et entrez le nombre d&#39;élèves par équipe.
+
+     Option ![Membres par équipe](assets/Group-Team-submission-and-rubric-based-assessments-image13.png "Membres par équipe")
+
+   * Sélectionnez **Nombre d&#39;équipes** et entrez le nombre total d&#39;équipes.
+
+     Option ![Nombre d’équipes](assets/Group-Team-submission-and-rubric-based-assessments-image14.png "Nombre d’équipes")
+
+1. Enregistrez vos modifications, puis publiez le cours.
+
+>[!WARNING]
+>
+>Après avoir publié, vous ne pouvez pas activer ou désactiver la formation automatique d’équipe pour le cours, et vous ne pouvez pas modifier le délai. Vous pouvez toujours modifier la règle de formation des équipes et sa valeur.
+
+![Cours publié avec paramètres de formation d’équipe automatiques](assets/Group-Team-submission-and-rubric-based-assessments-image15.png "Paramètres de cours publiés")
+
+## Définir la date de début de l&#39;instance
+
+1. Ouvrez l&#39;instance de cours.
+
+1. Entrez une date de début et sélectionnez **Enregistrer**.
+
+   ![Champ de date de début de l&#39;instance](assets/Group-Team-submission-and-rubric-based-assessments-image16.png "Date de début de l&#39;instance")
+
+Les équipes sont créées à 12 h le jour de l’avance, dans le fuseau horaire de l’instance. Par exemple, avec un délai de 3 jours, les équipes sont créées à 00h00 trois jours avant la date de début. La date de début définit uniquement cette durée. Cela ne bloque pas l&#39;inscription.
+
+## Modification des règles d’équipe après la publication
+
+Vous pouvez modifier la règle, **Membres par équipe** ou **Nombre d&#39;équipes** à tout moment. La modification s’applique à toutes les instances, mais ne prend effet que lorsque des équipes n’ont pas encore été créées. Les équipes qui existent déjà ne sont jamais regroupées.
+
+## Utiliser des cours en équipe dans les parcours d’apprentissage
+
+Les équipes appartiennent à l’instance de cours. Si vous ajoutez un cours basé sur l’équipe à un parcours d’apprentissage, définissez le délai et la date de début sur l’instance de cours, pas sur le parcours d’apprentissage. Pour connaître la répartition des élèves, voir Paramètres et limites de l’équipe.
+
+## Dépannage
+
+**Les équipes n&#39;ont pas été créées pour une instance.** Vérifiez que l&#39;instance a une date de début. La création automatique ne s’exécute pas sans. Vérifiez également que la formation automatique d’équipe est activée pour le cours. Les équipes n’ont pas été créées pour une instance qui démarre bientôt.
+
+**Le paramètre de niveau cours est introuvable.** Le paramètre s’affiche uniquement lorsque le cours comporte au moins un module basé sur l’équipe. Ajoutez-en un avant de publier.
+
+**Vous avez modifié les règles, mais les équipes n&#39;ont pas changé.** Les règles s’appliquent uniquement si des équipes n’ont pas été créées pour l’instance. Pour modifier des équipes existantes, demandez à l’instructeur de les modifier.
+
+## Configuration de la fenêtre d’inscription et de l’attribution de places pour un cours en salle de classe
+
+Vous pouvez définir quand différents groupes d&#39;élèves peuvent s&#39;inscrire, attribuer un nombre spécifique de places à des groupes d&#39;utilisateurs sélectionnés et promouvoir automatiquement les élèves éligibles à partir de la liste d&#39;attente lorsque des places deviennent disponibles.
+
+Les auteurs peuvent allouer des places aux groupes d&#39;utilisateurs uniquement après qu&#39;un administrateur a activé le paramètre **Inscription de groupe**. Consultez l’article sur les paramètres généraux pour plus d’informations.
+
+Pour configurer l’attribution de places pour les groupes d’utilisateurs :
+
+1. Se connecter à Adobe Learning Manager en tant qu’auteur.
+1. Sélectionnez **Cours** dans la navigation de gauche.
+1. Créez un cours en **classe**. Voir les modules de cours pour plus d’informations.
+1. Configurez les paramètres suivants :
+
+   | Paramètre | Description |
+   |---|---|
+   | **Limite de places** | Affiche la limite de places la plus basse configurée dans les modules de salle de classe ou de classe virtuelle. Ce champ est en lecture seule. Pour allouer des places aux groupes d’utilisateurs, commencez par définir une limite de places dans le module Salle de classe ou Salle de classe virtuelle. |
+   | **Date d&#39;inscription active** | Sélectionnez la date à laquelle tout le monde, y compris les groupes d’utilisateurs sélectionnés, peut s’inscrire. |
+   | **Attribuer des places par groupe d’utilisateurs** | Activez cette option pour réserver des places à des groupes d’utilisateurs spécifiques.<p>**Remarque:**<ul><li>Réservez 100 % des places disponibles pour des groupes d&#39;utilisateurs spécifiques afin que seuls les élèves de ces groupes puissent s&#39;inscrire au cours.</li><li>Vous ne pouvez pas activer ou désactiver cette option une fois le cours publié.</li></ul> |
+   | **Places non allouées** | Affiche le nombre de places qui restent disponibles pour les élèves en dehors des groupes d&#39;utilisateurs sélectionnés. |
+   | **Date d’inscription en cours pour les groupes** | Sélectionnez la date à partir de laquelle les membres des groupes d’utilisateurs sélectionnés peuvent commencer à s’inscrire. |
+
+
+1. Sélectionnez **Ajouter une allocation de groupe** et configurez les éléments suivants :
+
+   1. **Groupe d&#39;utilisateurs** : sélectionnez le groupe d&#39;utilisateurs pour lequel vous souhaitez réserver des places.
+   1. **Places allouées** : entrez le nombre de places à réserver pour le groupe d’utilisateurs sélectionné.
+
+   ![Attribution de places et paramètres d’effacement automatique de la liste d’attente dans un cours en salle de classe](assets/seat-allocation-and-waitlist-clearance-settings.png "Attribution de places et paramètres d’effacement automatique de la liste d’attente dans un cours en salle de classe")
+
+1. Sélectionnez **Enregistrer**.
+
+### Gestion des allocations de groupes d’utilisateurs
+
+Une fois que vous avez ajouté un groupe d’utilisateurs, le groupe et ses places allouées apparaissent dans la liste d’allocation. Utilisez les actions disponibles pour modifier l’attribution.
+
+![Liste d&#39;attribution de groupes d&#39;utilisateurs avec actions Modifier et Supprimer](assets/user-group-allocation-list.png "Liste d&#39;attribution de groupes d&#39;utilisateurs avec actions Modifier et Supprimer")
+
+| **Action** | **Description** |
+|---|---|
+| **Modifier** | Modifiez le nombre de places allouées au groupe d’utilisateurs. |
+| **Supprimer** | Supprimez l’attribution de places pour le groupe d’utilisateurs. |
+
+>[!NOTE]
+>
+>Le nombre total de places allouées aux groupes d’utilisateurs ne peut pas dépasser la limite de places.
+
+### Configurer l’effacement automatique de la liste d’attente
+
+Lorsqu&#39;un administrateur active l&#39;inscription de groupe, l&#39;autorisation automatique de liste d&#39;attente favorise le prochain élève sur liste d&#39;attente éligible lorsqu&#39;une place s&#39;ouvre. Cette option est activée par défaut.
+
+Pour configurer l’effacement automatique de la liste d’attente :
+
+1. Activez **Autoriser l&#39;effacement automatique de la liste d&#39;attente** dans la page **Présentation du cours**.
+1. (Facultatif)Sélectionnez une date dans le sélecteur de **date limite de promotion automatique**.
+1. Sélectionnez **Enregistrer**.
+La promotion automatique s&#39;arrête après la coupure.
+
+>[!NOTE]
+>
+>* Si vous allouez également des sièges par groupe d&#39;utilisateurs, seuls les membres d&#39;un groupe sont promus dans les sièges de ce groupe.
+>* La date limite de **promotion automatique** s&#39;applique à la fois au groupe d&#39;utilisateurs et aux listes d&#39;attente ouvertes. Les promotions automatiques cessent pour les deux listes d&#39;attente après cette date.
+
 ## Ajouter des étiquettes de conformité au cours/parcours d’apprentissage/certification {#add-custom-compliance-label}
 
 Pour ajouter les étiquettes de conformité aux cours, procédez comme suit :
@@ -233,8 +487,10 @@ Pour créer une instance, procédez comme suit :
    * Dans le champ **[!UICONTROL Nom de l&#39;instance]**, saisissez le nom de l&#39;instance que vous souhaitez associer au cours. Assurez-vous d&#39;utiliser un nom unique pour l&#39;instance.
    * **Date de début :** Il s&#39;agit de la date de début du cours. Deux courriers électroniques de rappel peuvent être envoyés à l’élève à deux dates différentes sélectionnées avant cette date de début. La date de début doit être antérieure à la date d&#39;achèvement. Une fois que vous avez sélectionné la date de début, cette date sera mise en surbrillance bleue dans le calendrier dans la section **Alertes de notification** de l&#39;instance.
      ![](assets/start-date-instance.png)
-     ![](assets/start-date-highlighted-instance.png)
    * Spécifiez l&#39;échéance d&#39;achèvement de l&#39;instance. Les élèves doivent avoir achevé le cours au plus tard à cette date.
+     ![](assets/start-date-highlighted-instance.png)
+   * **Date d&#39;inscription à l&#39;ouverture** (facultatif) : date à partir de laquelle les élèves peuvent s&#39;inscrire. Si des places sont allouées à des groupes d’utilisateurs, cette date s’applique aux élèves en dehors de ces groupes.
+   * **Découpage de la promotion automatique** (facultatif) : après cette date, la promotion automatique de la liste d&#39;attente s&#39;arrête pour l&#39;instance. Ce champ apparaît lorsque l’effacement automatique de la liste d’attente est activé.
    * Sélectionnez **[!UICONTROL Afficher plus d&#39;options]** pour afficher d&#39;autres options d&#39;échéance.
    * **[!UICONTROL Échéance d&#39;inscription]:** Il s&#39;agit de la date à laquelle un élève doit s&#39;inscrire à un objet d&#39;apprentissage en cas d&#39;auto-inscription.
    * **[!UICONTROL Échéance de désinscription]:** Vous pouvez choisir de restreindre la désinscription par l&#39;élève lui-même en fixant une échéance de désinscription.
@@ -1241,7 +1497,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 

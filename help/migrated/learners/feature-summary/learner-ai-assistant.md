@@ -6,9 +6,9 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3457'
 ht-degree: 0%
 ---
 # Assistant d’IA pour les élèves
@@ -26,48 +26,72 @@ Utilisez l’assistant AI pour obtenir des réponses rapides et précises à par
 >Cette fonctionnalité n’est pas disponible dans les environnements autorisés par FedRAMP. Voir [Disponibilité des fonctionnalités dans les environnements FedRAMP](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) pour plus de détails.
 
 
-## Qu’est-ce que l’assistant IA pour les élèves ?
+## Citations et agents du parcours d’apprentissage dans l’assistant de l’élève {#learning-path-citations}
 
-L’assistant AI est un compagnon de chat alimenté par l’IA générative dans Adobe Learning Manager qui fournit des réponses rapides et précises à l’aide de votre contenu d’apprentissage de confiance. Il comprend des citations afin que vous sachiez toujours la source de l&#39;information.
+L’assistant de l’élève cite désormais les parcours d’apprentissage pertinents en plus des cours, afin que les élèves puissent trouver un apprentissage structuré plus large sur leur sujet. Les administrateurs peuvent également activer ou désactiver individuellement les agents de l’assistant d’élève pour contrôler les fonctionnalités d’IA que les élèves peuvent utiliser dans Adobe Learning Manager.
 
-### Capacités
+### Citations du parcours d’apprentissage dans les réponses de l’assistant de l’élève
 
-- **Réponse intelligente à une question**
-  - Conversations à tour unique et à plusieurs tours
-  - Compréhension du langage naturel en anglais
-  - Réponses dérivées de cours, certifications, parcours d’apprentissage et assistances à la tâche
-  - Questions intelligentes de clarification lorsque les requêtes sont ambiguës
+L’assistant de l’élève cite désormais les parcours d’apprentissage pertinents en plus des cours, afin que les élèves puissent trouver un apprentissage structuré plus large sur leur sujet.
 
-- **Sources de contenu et citations**
-  - Récupère les réponses des ressources disponibles dans les catalogues pris en charge
-  - Fournit des citations avec des liens directs vers les matériaux sources
-  - Prend en charge tous les formats de contenu Learning Manager (statique et interactif) : PDF, DOCX, PPTX, XLSX, audio (MP3, WAV, M4A), vidéo (MP4, MOV, WMV), HTML, SCORM 2004 et SCORM 1.2
+### Fonctionnement des citations du parcours d’apprentissage dans l’assistant de l’élève
 
-- **Expérience utilisateur**
-  - Interface du panneau latéral accessible à partir de toutes les pages de l’élève
-  - Responsive design qui s’adapte à la zone de contenu
-  - Historique de conversation conservé dans la session du navigateur
-  - Nettoyer l’ardoise lors de la nouvelle connexion ou de l’actualisation de la page
-  - Ton amical, clair et pédagogique
+Lorsque l&#39;Assistant Élève répond à une question, il répertorie le contenu d&#39;apprentissage utilisé comme citation. Les versions précédentes mentionnaient uniquement les cours. L’assistant d’élève cite désormais également les parcours d’apprentissage et les certifications qui sont pertinents pour la question. Les élèves peuvent ouvrir une citation du parcours d’apprentissage pour voir l’apprentissage structuré lié à leur sujet.
 
-- **Contrôles administrateur**
-  - Activer ou désactiver la fonctionnalité au niveau du compte
-  - Sélectionner les catalogues inclus pour les réponses de l’IA
-  - Exigences d’acceptation des Conditions d’utilisation conformément aux directives d’Adobe AI
+### Ce qui détermine quelles citations apparaissent
 
-## Ce que l’assistant d’IA peut faire
+* L’assistant de l’élève affiche une citation uniquement lorsque le contenu d’apprentissage est pertinent pour la question et visible par l’élève dans le catalogue.
+* Si un cours ou un parcours d’apprentissage n’est pas visible par l’élève, l’assistant de l’élève ne l’affiche pas.
+* Si un cours et un parcours d’apprentissage pertinent sont tous deux visibles, l’assistant de l’élève peut afficher les deux dans un format hiérarchique.
+* La sélection d’une citation de parcours d’apprentissage ouvre ce parcours.
 
-L’assistant AI est un compagnon de conversation alimenté par l’IA générative qui répond aux questions à l’aide du contenu d’apprentissage qui vous est attribué. Chaque réponse comprend des citations avec des liens directs vers le matériau source, ce qui vous permet de vérifier les informations et de poursuivre l’apprentissage en contexte.
+### Trouver un parcours d’apprentissage via l’assistant de l’élève
 
-En plus de répondre aux questions, l’assistant IA peut :
+1. Ouvrez l&#39;**Assistant Élève** et posez une question sur un sujet.
 
-- **Résumé des objets d’apprentissage** : générez une présentation rapide de tout cours, assistance à la tâche, parcours d’apprentissage ou certification dans votre catalogue sans l’ouvrir
-- **Comparer les objets d&#39;apprentissage** — Identifiez les différences entre deux cours côte à côte pour décider lequel correspond à vos objectifs d&#39;apprentissage
-- **Répondre aux questions pratiques** : réponses sources d’Adobe Experience League, la documentation d’aide officielle d’Adobe, pour les questions sur l’utilisation de Adobe Learning Manager en tant qu’élève
-- **Interrogation de contenu tiers** — Posez des questions sur les cours Go1 ou LinkedIn Learning si votre administrateur a ajouté ces catalogues
-- **Créer un parcours d’apprentissage personnalisé** : discutez avec l’assistant IA pour créer un plan d’apprentissage personnalisé et séquencé en fonction de vos objectifs, de votre expérience et du temps disponible.
+1. Vérifiez la réponse et les citations qui l’accompagnent.
 
-Votre administrateur contrôle les catalogues utilisés par l’assistant AI. Si vous n&#39;avez pas accès à un cours, l&#39;assistant IA n&#39;en extraira pas d&#39;informations.
+1. Sélectionnez un cours ou une citation de parcours d’apprentissage pour l’ouvrir.
+
+### Dépannage des citations de parcours d’apprentissage
+
+**Un parcours d’apprentissage n’apparaît pas sous forme de citation**
+
+Confirmez que le parcours d’apprentissage est pertinent pour la question et visible par l’élève dans le catalogue. L’assistant de l’élève n’affiche pas le contenu masqué pour l’élève.
+
+## Configuration des agents de l’assistant d’élève
+
+Activez ou désactivez chaque agent de l’assistant d’élève pour contrôler les fonctionnalités d’IA que vos élèves peuvent utiliser dans Adobe Learning Manager.
+
+### Que sont les agents de l’assistant d’élève ?
+
+Les administrateurs peuvent activer ou désactiver l’assistant Élève pour l’ensemble du compte. À partir de cette version, les administrateurs peuvent également contrôler les agents individuels qui composent l’assistant Élève. Vous pouvez activer n&#39;importe quelle combinaison d&#39;agents.
+
+| Agent | Ce qu’il fournit | Crédits IA |
+|---|---|---|
+| **Agent de connaissances** | Agent par défaut. Disponible lorsque l’assistant IA dédiée aux élèves est activé. | Aucun crédit consommé |
+| **Agent de réponse** | Répond aux questions avec du contenu disponible dans le catalogue | Utilise les crédits IA achetés par requête |
+| **Agent du parcours d’apprentissage** | Crée des parcours d’apprentissage personnalisés pour les élèves. | Utilise les crédits IA achetés par requête |
+
+>[!NOTE]
+>
+>L&#39;Assistant IA de l&#39;administrateur a les mêmes contrôles au niveau de l&#39;agent, avec l&#39;**Agent de connaissances** et l&#39;**Agent d&#39;informations**.
+
+### Activation ou désactivation des agents de l’assistant d’élève
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+
+1. Sélectionnez **IA dans Learning** dans le volet de navigation de gauche.
+
+   Option ![L’IA dans l’apprentissage dans le volet de navigation de gauche](assets/Learning-paths-in-Learner-Assistant-citations-image1.png "L’IA dans l’apprentissage")
+
+1. Dans la section Assistant IA de l&#39;élève, sélectionnez **Modifier** et activez ou désactivez chaque agent selon vos besoins.
+
+   ![Section de l’assistant d’IA dédiée aux élèves avec activation et désactivation de l’agent](assets/Learning-paths-in-Learner-Assistant-citations-image2.png "Agents de l’assistant")
+
+1. Enregistrez vos modifications.
+
+L&#39;Assistant Élève présente désormais tous les agents activés, qu&#39;un élève peut commencer à utiliser.
 
 ## Types de contenu pris en charge
 
@@ -357,7 +381,7 @@ L’assistant d’apprentissage de Adobe Learning Manager peut répondre aux que
 
 >[!IMPORTANT]
 >
->Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/fr/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
+>Comme condition préalable, un administrateur doit ajouter les catalogues requis à l’assistant de l’élève. Voir[Configurer l&#39;accès à l&#39;assistant IA](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) pour plus de détails.
 
 
 Lorsqu’un administrateur ajoute un catalogue Go1 ou LinkedIn Learning à Adobe Learning Manager, le contenu du catalogue passe par un processus d’ingestion planifié. Une fois l&#39;ingestion terminée, les objets d&#39;apprentissage de ce catalogue deviennent disponibles pour que l&#39;Assistant Apprentissage puisse les interroger.
@@ -379,8 +403,9 @@ Pour que l’assistant d’apprentissage interroge le contenu d’apprentissage 
 
 ## Résolution des problèmes de l’assistant AI
 
-> **REMARQUE**
-> Après avoir configuré un nouveau catalogue, attendez 4 à 5 heures pour que le contenu soit indexé et disponible pour les réponses de l&#39;Assistant IA.
+>[!NOTE]
+>
+>Après avoir configuré un nouveau catalogue, attendez 4 à 5 heures pour que le contenu soit indexé et disponible pour les réponses de l&#39;Assistant IA.
 
 ### Pas d’accès au contenu
 
@@ -429,10 +454,14 @@ Pour que l’assistant d’apprentissage interroge le contenu d’apprentissage 
 
 L’assistant AI est conçu pour répondre aux questions uniquement en fonction du contenu d’apprentissage attribué et ne répond pas aux requêtes hors du champ d’application.
 
-### Les cours Go1 ou LinkedIn Learning n’apparaissent pas dans la recherche de l’Assistant d’apprentissage
-
+**Les cours Go1 ou LinkedIn Learning n’apparaissent pas dans la recherche de l’Assistant d’apprentissage**
 Vérifiez auprès de votre administrateur que le catalogue Go1 ou LinkedIn Learning a été ajouté à Adobe Learning Manager et que l’ingestion du catalogue est terminée. L’ingestion peut prendre jusqu’à une à deux heures après l’ajout du catalogue.
 
-### Un cours récemment ajouté n’est pas encore disponible
-
+**Un cours récemment ajouté n’est pas encore disponible**
 Attendez la fin de la synchronisation de catalogue planifiée. Si le cours n’apparaît toujours pas après deux heures, contactez votre administrateur pour confirmer que la connexion au catalogue est active.
+
+**Un parcours d’apprentissage n’apparaît pas sous forme de citation**
+Confirmez que le parcours d’apprentissage est pertinent pour la question et visible par l’élève dans le catalogue. L’assistant de l’élève n’affiche pas le contenu masqué pour l’élève.
+
+**Que voient les élèves lorsqu&#39;un agent est désactivé ?**
+L&#39;Assistant Élève n&#39;exécute pas un agent désactivé. Par exemple, si vous désactivez l&#39;**Agent de réponse** et qu&#39;un élève pose une question qui en a besoin, l&#39;Assistant Élève ne renvoie pas de résumé basé sur le cours. Elle offre des options provenant des agents qui sont toujours activés.

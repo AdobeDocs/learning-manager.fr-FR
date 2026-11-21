@@ -4,9 +4,9 @@ description: Découvrez comment les instructeurs activent, affichent et personna
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '353'
 ht-degree: 0%
 ---
 
@@ -14,7 +14,26 @@ ht-degree: 0%
 
 Les sous-titres affichent le contenu parlé sous forme de texte à l’écran, ce qui facilite le suivi d’une session Live Hub, par exemple, lorsque vous présentez, répondez aux questions des participants ou travaillez dans un environnement bruité. En tant qu&#39;instructeur, vous pouvez gérer vos propres sous-titres à partir du menu **Autres actions** de la salle.
 
-Cet article explique comment afficher, personnaliser et masquer les sous-titres pendant une session Live Hub.
+Cet article explique comment sélectionner la langue des sous-titres, afficher les sous-titres et modifier leur apparence au cours d’une session Live Hub.
+
+## Sélection de la langue des sous-titres
+
+Sélectionnez la langue utilisée pour afficher les sous-titres pendant la session. Tous les participants voient les légendes dans la langue sélectionnée.
+
+>[!NOTE]
+>
+>Les fonctionnalités optimisées par l’IA sont disponibles uniquement pour les cours en anglais. Si la langue du cours est définie sur une autre langue, l&#39;onglet **Sous-titres** indique que les fonctionnalités optimisées par l&#39;IA ne sont pas disponibles.
+
+Pour sélectionner la langue des sous-titres :
+
+1. Sélectionnez **Autres actions** dans la barre de contrôle.
+1. Sélectionnez **Paramètres**.
+
+   La boîte de dialogue Paramètres de la salle s’ouvre.
+
+1. Sélectionnez **Sous-titres**.
+1. Sélectionnez une langue dans le menu déroulant Langue d’affichage des sous-titres.
+1. Sélectionnez **Terminé**.
 
 ## Afficher les sous-titres
 

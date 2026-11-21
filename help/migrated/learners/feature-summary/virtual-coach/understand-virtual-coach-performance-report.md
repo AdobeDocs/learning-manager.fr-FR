@@ -6,9 +6,9 @@ exl-id: 57607597-3949-4787-b71d-39c80d22a1ae
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 0723ac982ace844ac74b1b9ffbaa66b6520231f7
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1351'
 ht-degree: 0%
 ---
 
@@ -17,6 +17,41 @@ ht-degree: 0%
 Votre bulletin de l&#39;entraîneur virtuel montre comment vous vous êtes comporté dans un jeu de rôle, y compris les sujets que vous avez abordés, la façon dont vous avez communiqué et les domaines spécifiques à améliorer avant votre prochaine tentative.
 
 Chaque session terminée génère automatiquement un rapport. Accédez-y immédiatement après une session en sélectionnant **Voir l&#39;analyse**, ou revenez-y à tout moment à partir de l&#39;historique des sessions dans **Mes apprentissages**. Vous pouvez également télécharger votre rapport en tant que PDF pour le conserver dans vos propres dossiers ou le partager avec un responsable.
+
+## Téléchargement de l’analyse de votre session Virtual Coach
+
+Téléchargez l’analyse de votre session Virtual Coach en tant que PDF signé dans Adobe Learning Manager et partagez-la avec votre responsable ou instructeur.
+
+Une fois la session de Virtual Coach terminée, Adobe Learning Manager génère une analyse de vos performances. Vous pouvez l’afficher à nouveau après avoir fermé le lecteur, reprendre la session et télécharger l’analyse en tant que PDF signé.
+
+1. Ouvrez le cours ou l’assistance à la tâche contenant votre session d’entraîneur virtuel.
+
+1. Sélectionnez **Analyse de session**.
+
+   ![Option d&#39;analyse de session pour une session Virtual Coach](assets/vc-enhancements-image1.png "Analyse de session")
+
+1. Examinez votre analyse. La génération de l’analyse peut prendre un certain temps.
+
+1. Sélectionnez **Télécharger** pour enregistrer le PDF signé de l&#39;analyse.
+
+Partagez le PDF avec votre responsable ou votre instructeur comme preuve de votre performance. Le fichier comprend une signature C2PA. Pour plus d&#39;informations, voir [À propos des signatures C2PA dans les PDF d&#39;analyse de session](#c2pa-signatures).
+
+### À propos des signatures C2PA dans les PDF d’analyse de session {#c2pa-signatures}
+
+L’IA génère l’analyse de la session Virtual Coach. Pour aider les autres utilisateurs à approuver une copie téléchargée, Learning Manager signe le PDF avec une signature [C2PA](https://c2pa.org/).
+
+C2PA est une norme ouverte de l’industrie pour l’authenticité du contenu. Adobe Learning Manager utilise le même service de signature Adobe que les autres produits Adobe.
+
+#### Ce que contient la signature
+
+La signature est un manifeste signé cryptographiquement incorporé dans le PDF. Il note que :
+
+* Adobe Learning Manager a généré l’analyse
+* L&#39;analyse a été générée à une date spécifique
+
+#### Pourquoi la signature est importante
+
+Lorsque vous partagez le PDF avec un responsable ou un instructeur, la signature fournit la preuve que le fichier est authentique et n’a pas été modifié après le téléchargement.
 
 ## Mode de calcul de votre score global
 

@@ -6,10 +6,10 @@ contentowner: mmanuel
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 6c26277dfbd20374e57273f8371b360ee770a0df
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 2%
+source-wordcount: '747'
+ht-degree: 1%
 ---
 
 # Création d’un rapport personnalisé dans Report Builder
@@ -46,7 +46,24 @@ Dans cet exemple, vous identifierez les élèves de chaque responsable qui sont 
    ![](assets/report-builder-0014.png)
 
 7. Réorganisez les colonnes en les faisant glisser dans la zone de travail.
-8. Pour renommer une colonne, entrez un nom dans le champ d&#39;alias de la colonne. L’alias apparaît comme l’en-tête de colonne dans le fichier téléchargé.
+8. Pour renommer une colonne, saisissez un nom dans le champ **Alias** de la colonne. Si vous spécifiez un alias, il est utilisé comme en-tête de colonne. Si vous ne spécifiez pas d&#39;alias, l&#39;en-tête de colonne par défaut inclut le nom du jeu de données. Par exemple, le nom du jeu de données Objet d’apprentissage s’affiche sous la forme Objet d’apprentissage - Nom.
+
+   **En-têtes de colonne**
+
+   Report Builder inclut le nom du jeu de données dans les en-têtes de colonne par défaut pour aider à distinguer les colonnes avec des noms similaires dans les jeux de données. Par exemple, si vous sélectionnez Nom dans le jeu de données Objet d’apprentissage, l’en-tête de colonne apparaît sous la forme Objet d’apprentissage - Nom.
+
+   Si vous spécifiez un alias personnalisé pour une colonne, Report Builder utilise l&#39;alias au lieu de l&#39;en-tête de colonne par défaut.
+
+   **Impact sur les rapports existants**
+
+   Après la mise à niveau, les rapports existants qui utilisent des noms de colonne par défaut sans alias personnalisé affichent les en-têtes de colonne mis à jour. Par exemple, le nom du jeu de données de l’objet d’apprentissage passe de Nom à Objet d’apprentissage - Nom.
+
+   Les données de rapport, les filtres et les planifications ne sont pas affectés.
+
+   Si vous utilisez la sortie de rapport dans des scripts, des feuilles de calcul, des tableaux de bord BI ou des intégrations qui référencent des colonnes par en-tête, vérifiez vos systèmes en aval et mettez à jour les références aux en-têtes de colonnes précédents selon vos besoins.
+
+   Pour conserver un en-tête de colonne spécifique, définissez un alias personnalisé pour la colonne.
+
 9. Sélectionnez **Enregistrer le rapport**.
 
 ## Télécharger le rapport
@@ -106,6 +123,10 @@ Regrouper les enregistrements par responsable pour :
 4. Sélectionnez **Count** comme fonction d&#39;agrégation pour les colonnes.
 
    ![](assets/report-builder-0019.png)
+
+   **En-têtes de colonne pour les colonnes agrégées :**
+
+   Lorsque vous appliquez une fonction d&#39;agrégation, l&#39;en-tête de colonne par défaut inclut la fonction d&#39;agrégation. Par exemple, lorsque vous appliquez **Nombre** à **Objet d’apprentissage - ID**, l’en-tête de colonne s’affiche comme **Nombre** de **Objet d’apprentissage - ID**. Si vous avez spécifié un alias personnalisé, celui-ci reste inchangé.
 
 5. Répétez l’opération pour Objet d’apprentissage - Nom de l’objet d’apprentissage.
 
