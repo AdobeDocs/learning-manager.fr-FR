@@ -1,16 +1,16 @@
 ---
-title: Présentation de Live Hub (Beta)
+title: Présentation de Live Hub
 description: Découvrez les panneaux et les commandes qui composent la salle de session du hub en direct, notamment la barre de contrôle, le panneau Participants, le panneau Conversation et le panneau Éruptions.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '820'
 ht-degree: 1%
 ---
 
-# Présentation de Live Hub (Beta)
+# Présentation de Live Hub
 
 Dans Adobe Learning Manager Live Hub, la salle de session est conçue pour aider les instructeurs et les élèves à collaborer efficacement pendant les sessions en direct. La disposition comprend plusieurs panneaux et commandes qui vous permettent de gérer l’audio, la vidéo, les participants et les interactions en temps réel.
 

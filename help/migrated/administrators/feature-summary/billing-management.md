@@ -7,10 +7,10 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
 workflow-type: tm+mt
-source-wordcount: '2471'
-ht-degree: 53%
+source-wordcount: '3562'
+ht-degree: 37%
 ---
 
 # Gérer les commandes et la facturation Learning Manager
@@ -51,7 +51,11 @@ La carte **Détails du compte** en haut de l&#39;onglet **Abonnement** affiche q
 
 **Licences**
 
-La section **Licences** répertorie chaque licence ou droit actif sur le compte. Chaque bloc indique le nom de la licence, une description du forfait, le cas échéant, et une ligne de statistiques indiquant les chiffres de consommation pour la période du contrat en cours.
+La section **Licences** répertorie chaque licence ou droit actif sur le compte, y compris les heures de formation Live Hub pour les formules Ultimate. Chaque bloc indique le nom de la licence, une description du forfait, le cas échéant, et une ligne de statistiques indiquant les chiffres de consommation pour la période du contrat en cours.
+
+>[!IMPORTANT]
+>
+> Live Hub est en version Beta pour les clients Prime.
 
 Les colonnes des lignes de statistiques varient selon le type de licence :
 
@@ -66,6 +70,7 @@ Sélectionnez **[!UICONTROL Afficher les détails d&#39;utilisation]** sous la l
 - Une table **Utilisation globale** avec des colonnes : Acheté / Utilisé par ce compte / Utilisé par des comptes de pairs / Restant
 - Un lien **Afficher la répartition du compte** pour voir l&#39;utilisation répartie entre les différents comptes de pairs
 - Lien **Télécharger le rapport détaillé** pour exporter les données d&#39;utilisation sous forme de fichier
+- Dans l&#39;onglet Live Hub, votre utilisation des heures de formation Live Hub est exprimée en heures. Afficher les [heures de formation Live Hub](#live-hub-training-hours) pour plus d&#39;informations.
 
 **Bloc de licence Agent Orchestrator**
 
@@ -274,6 +279,91 @@ Tout utilisateur qui effectue les actions suivantes ou atteint ses objectifs sui
    - **Utilisation globale :** vous pouvez vérifier le nombre total d’utilisateurs actifs, le nombre d’utilisateurs qui consomment Learning Manager au cours d’un mois et le nombre d’utilisateurs qui ne se sont pas encore inscrits à un cours.
    - **Utilisation mensuelle :** vous pouvez voir un tableau des utilisateurs actifs uniques par mois.
 
+## Heures de formation Live Hub {#live-hub-training-hours}
+
+Live Hub est inclus dans les formules d’abonnement Ultimate et ne nécessite pas de licence de base ni d’activation de Live Hub distinctes. L&#39;utilisation de Live Hub est mesurée en heures de formation, que les administrateurs peuvent suivre à partir de la page **Facturation**.
+
+### Heures de formation à la formule d’abonnement {#subscription-plan-training-hours}
+
+Le nombre d’heures de formation Live Hub disponibles dépend de votre formule d’abonnement.
+
+| Formule | Heures de formation incluses |
+|---|---|
+| Ultimate | Illimité. L’utilisation est toujours enregistrée et affichée. |
+| Version d’essai gratuite | 100 heures pour l&#39;ensemble de l&#39;essai. La balance ne se réinitialise pas pendant la période d’essai. |
+
+### Limites de sessions Live Hub {#live-hub-session-limits}
+
+Les formules Ultimate offrent les mêmes fonctionnalités Live Hub et les mêmes limites de sessions :
+
+* Seuls les administrateurs, les auteurs et les instructeurs peuvent lancer des sessions Live Hub.
+* Les participants doivent être des utilisateurs Adobe Learning Manager authentifiés, soit par authentification native, soit par authentification unique (SSO).
+* Une session peut durer jusqu’à huit heures. Vous pouvez prolonger la session deux fois, par incréments de 15 minutes, jusqu’à 30 minutes supplémentaires.
+
+### Calcul des heures de formation {#how-training-hours-are-calculated}
+
+Les heures de formation sont calculées en fonction de la durée planifiée d&#39;une session Live Hub, et non de l&#39;heure réelle d&#39;exécution de la session.
+
+Tenez compte des points suivants lors du calcul de l’utilisation des heures de formation :
+
+* Si une session se termine plus tôt, sa durée planifiée complète est comptée.
+* Une session annulée avant l&#39;heure de début planifiée n&#39;est pas comptée. Si vous annulez la session après son démarrage, la durée planifiée est comptabilisée même si aucun participant ne participe.
+* Chaque occurrence d&#39;une session récurrente est comptée séparément.
+* Une session dupliquée est comptabilisée comme une session distincte.
+* Si vous modifiez l’heure de début ou de fin d’une session fournie et que vous la réutilisez, la session réutilisée est comptabilisée comme une occurrence distincte.
+* Les salles de réunion et les extensions de session n’augmentent pas l’utilisation des heures de formation.
+* Les sessions envoyées via d’autres connecteurs, tels que Zoom ou Microsofts Teams, ne sont pas comptabilisées dans les heures de formation Live Hub.
+* Si vous déplacez une session planifiée vers une autre année d’attribution de licence, ses heures de formation sont comptabilisées dans l’année d’attribution de licence au cours de laquelle elle est désormais planifiée.
+* Les heures d&#39;entraînement ne sont pas arrondies. Par exemple, une session de 90 minutes compte pour 1,5 heure de formation.
+
+#### Sessions s’étendant sur plusieurs jours {#sessions-spanning-multiple-days}
+
+Pour les sessions de plus d&#39;un jour, chaque période complète de 24 heures compte comme **huit heures de formation**. Toute durée restante est comptée à sa longueur réelle, jusqu’à huit heures.
+
+Par exemple :
+
+* Une session de 30 heures répartie sur deux jours compte 14 heures de formation, dont huit heures pour la première période de 24 heures et six heures pour la durée restante.
+* Une session de 10 heures, répartie sur deux jours, représente huit heures de formation.
+
+### Afficher votre utilisation de Live Hub {#view-live-hub-usage}
+
+1. Connectez-vous à Adobe Learning Manager en tant qu’administrateur.
+1. Sélectionnez **Facturation**.
+1. Accédez à **Licences** dans l&#39;onglet **Abonnement**.
+1. Sélectionnez **Afficher les détails d&#39;utilisation**.
+
+   La section **Détails d&#39;utilisation** s&#39;affiche.
+
+   ![Section Détails d&#39;utilisation de la page Facturation](assets/billing-usage-details.png "Section Détails d&#39;utilisation de la page Facturation")
+
+1. Sélectionnez l&#39;onglet **Live Hub**.
+
+   La section **Utilisation de Live Hub (en heures)** affiche les éléments suivants :
+
+   | Champ | Description |
+   |---|---|
+   | **Acheté** | Les heures de formation disponibles pour le compte, qui sont illimitées pour les clients Ultimate. |
+   | **Utilisé par ce compte** | Nombre d’heures de formation comptabilisées jusqu’à présent au cours de la période de licence actuelle. |
+   | **Restant** | Heures de formation restantes. Affiche Illimité pour les comptes Ultimate. |
+   | **Réinitialisation suivante** | Date à laquelle le solde est réinitialisé pour l’année de licence suivante. |
+
+### Lorsque toutes les heures de formation sont utilisées {#when-all-training-hours-are-used}
+
+Le fait d’atteindre la limite d’heures de formation disponible ne vous empêche pas d’utiliser Live Hub. Les comptes d’essai gratuits peuvent également continuer à utiliser Live Hub après avoir consommé leurs 100 heures de formation.
+
+* **Administrateurs :** un avertissement de surconsommation apparaît sur la page **Facturation** avec d&#39;autres avertissements de licence.
+* **Auteurs :** aucun avertissement relatif aux heures de formation n&#39;apparaît lors de la planification de sessions Live Hub.
+* **Comptes Ultimate :** aucun avertissement de surconsommation n&#39;apparaît, car les heures de formation sont illimitées.
+* **Parent et sous-comptes MAU :** un seul avertissement s&#39;affiche au niveau du compte parent. Voir [Parent et sous-comptes MAU](#mau-parent-and-sub-accounts) pour plus d&#39;informations.
+
+Pour acheter des heures de formation supplémentaires, contactez learningmanagersales@adobe.com.
+
+### Parent et sous-comptes MAU {#mau-parent-and-sub-accounts}
+
+Pour les comptes d’utilisateur actif mensuel (MAU) avec une relation parent-sous-compte établie, l’intégralité des droits d’heure de formation du compte parent Live Hub est disponible pour ses comptes enfants. Ce pool partagé inclut les heures de formation incluses pour le parent et les heures de module complémentaire achetées. Les comptes enfants ne reçoivent pas d’allocation distincte ou de plafond d’heures de Live Hub.
+
+Les heures Live Hub utilisées par le parent et ses comptes enfants MAU sont déduites du même pool parent. La page **Facturation** du parent affiche les droits mis en commun, la consommation, les heures restantes et l&#39;utilisation par sous-compte. Voir [Comptes de pairs](../feature-summary/peer-account.md) pour plus d&#39;informations.
+
 ## Télécharger le rapport d’utilisation {#downloadusagereport}
 
 Vous pouvez également télécharger les données concernant le nombre d’utilisateurs actifs par mois et par année. Pour effectuer le téléchargement, cliquez sur **[!UICONTROL Télécharger le rapport détaillé]**.
@@ -422,6 +512,38 @@ Contactez [FastSpring](https://fastspring.com/) pour obtenir une facture pour vo
 
 - Créez une demande de service avec FastSpring en utilisant le lien `https://questionacharge.com`.
 - Envoyez un e-mail à FastSpring le `orders@fastspring.com` pour lui demander la facture.
+
+**Les licences Live Hub s’appliquent-elles aux clients Prime ?**
+
+Non. Live Hub est actuellement en version Beta pour les comptes Prime. Par conséquent, les licences pendant l’heure de formation et le suivi de l’utilisation ne s’appliquent pas aux clients Prime pendant la période Beta. Ces exigences s’appliqueront aux comptes Prime une fois que Live Hub quittera la version Beta. Pour les comptes Ultimate, la licence des heures de formation et le suivi de l’utilisation sont applicables.
+
+**Dois-je acheter Live Hub séparément ?**
+
+Non. Live Hub est inclus dans les formules d’abonnement Ultimate et ne nécessite pas d’activation distincte. La formule Ultimate comprend des heures de formation illimitées.
+
+**Une session Live Hub annulée est-elle comptabilisée dans mes heures de formation ?**
+
+Cela dépend du moment où vous annulez la session. Une session annulée avant l&#39;heure de début planifiée n&#39;est pas comptée. Si vous annulez une session après son démarrage, sa durée planifiée complète est comptée, même si aucun participant ne la rejoint.
+
+**Que se passe-t-il lorsque j&#39;utilise toutes mes heures de formation Live Hub ?**
+
+Live Hub reste disponible après avoir utilisé toutes vos heures de formation. Les comptes d’essai gratuit peuvent continuer à planifier et à mener des sessions Live Hub. Les administrateurs voient un avertissement de surconsommation sur la page **Facturation**. Pour acheter des heures de formation supplémentaires, contactez learningmanagersales@adobe.com.
+
+**Les heures de formation ou de module complémentaire inutilisées sont-elles reportées ?**
+
+Non. Les heures de formation incluses non utilisées ne sont pas reportées à l’année de délivrance de la licence suivante. Les heures de formation du module complémentaire expirent également à la fin de la période de licence actuelle de votre formule de base.
+
+**Puis-je acheter le module complémentaire d’heures de formation avec une carte de crédit ?**
+
+Non. Les modules complémentaires d’heures de formation ne sont disponibles que par le biais des ventes Adobe. Pour acheter des heures de formation supplémentaires, contactez learningmanagersales@adobe.com.
+
+**Combien d’heures de formation complémentaire un Live Hub fournit-il ?**
+
+Actuellement, vous ne pouvez pas acheter d’heures de formation supplémentaires.
+
+**Les sous-comptes MAU peuvent-ils utiliser les heures de formation Live Hub de leur compte parent ?**
+
+Oui. Les sous-comptes MAU partagent le pool d’heures de formation Live Hub du compte parent. Chaque sous-compte peut accéder à l’ensemble du pool disponible sans allocation distincte. Les heures de formation consommées par les sous-comptes sont déduites du solde partagé du compte parent.
 
 
 <!--

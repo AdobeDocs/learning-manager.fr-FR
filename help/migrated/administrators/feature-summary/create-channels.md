@@ -1,20 +1,16 @@
 ---
-title: Créer des canaux (Beta)
+title: Créer des couches
 description: Découvrez comment activer, créer et modifier des canaux dans Adobe Learning Manager pour regrouper le contenu d’apprentissage vidéo à partir de pages web et de pages Confluence Cloud dans un emplacement unique et indexable pour les élèves.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: c02f1e407df6d2476ebd6e5b09d8d495e760f70c
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1157'
 ht-degree: 0%
 ---
 
-# Créer des canaux (Beta)
-
->[!IMPORTANT]
->
->Les fonctionnalités Beta peuvent contenir des défauts et sont fournies « EN L’ÉTAT » sans garantie d’aucune sorte. Adobe a la seule discrétion de rendre les fonctionnalités bêta généralement disponibles. Adobe n’a aucune obligation de maintenir, de corriger, de mettre à jour, de modifier ou de prendre en charge d’une autre manière (par le biais des Services d’assistance d’Adobe ou autrement) les fonctionnalités bêta. Si une fonctionnalité Beta devient disponible de manière générale, elle peut être soumise à des conditions générales supplémentaires, y compris les frais applicables. Les fonctionnalités Beta peuvent être modifiées sans préavis, y compris être arrêtées. Il est conseillé aux clients d’être prudents et de ne pas compter de quelque manière que ce soit sur le fonctionnement ou les performances ininterrompus ou sans erreur des fonctionnalités bêta. Par conséquent, toute utilisation des fonctionnalités Beta est entièrement à la charge du Client. Les fonctionnalités du produit et la documentation associée peuvent changer au fur et à mesure de leur évolution. Cette documentation reflète l’expérience Beta actuelle et ne doit pas être considérée comme une documentation finale ou complète du produit.
+# Créer des couches
 
 Les organisations stockent souvent des sessions de partage de connaissances, des enregistrements de formation et d&#39;autres contenus vidéo sur des contenus d&#39;apprentissage informels organisés sur le web et des pages Confluence Cloud. Les canaux connectent Adobe Learning Manager à ces sources de contenu, ce qui facilite la découverte et l’utilisation des vidéos sans que les élèves aient à parcourir plusieurs systèmes. Les canaux vous permettent d’organiser et de partager du contenu de formation basé sur la vidéo à partir de pages Web d’entreprise et de pages Confluence Cloud dans un emplacement unique et indexable. Au lieu de parcourir plusieurs sites internes, les élèves peuvent découvrir et accéder à des enregistrements pertinents directement depuis Adobe Learning Manager. Consultez [Découvrir et interagir avec les canaux](../../learners/feature-summary/discover-and-engage-with-channels.md) pour plus d&#39;informations.
 

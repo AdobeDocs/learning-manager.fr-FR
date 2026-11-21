@@ -3,10 +3,10 @@ user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
 nudge: true
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 34%
+source-wordcount: '1953'
+ht-degree: 32%
 ---
 
 # Guide de l’utilisateur Adobe Learning Manager {#using}
@@ -14,7 +14,7 @@ ht-degree: 34%
 * [Guide de l’utilisateur Adobe Learning Manager](user-guide.md)
 * {hide-from-toc}[Guide de l&#39;utilisateur de Adobe Learning Manager](user-guide-redesign.md)
 * Introduction {#introduction}
-  * [Résumé des nouvelles fonctionnalités - Décembre 2026](whats-new.md)
+  * [Résumé des nouvelles fonctionnalités décembre 2026](whats-new.md)
   * [Résumé des nouvelles fonctionnalités - Août 2026](whats-new-aug-2026.md)
   * [Résumé des nouvelles fonctionnalités - Avril 2026](whats-new-april-2026.md)
   * [Résumé des nouvelles fonctionnalités d’octobre 2025](/help/migrated/whats-new-october-2025.md)
@@ -41,6 +41,7 @@ ht-degree: 34%
   * [Dépréciations et modifications d’API dans Adobe Learning Manager](api-deprecations-list.md)
   * [Recommandations dans Adobe Learning Manager](recommendations-adobe-learning-manager.md)
   * [Anticrènelage dans Adobe Learning Manager](white-label.md)
+  * [Résumé des e-mails du forum de discussion (notifications de l&#39;instructeur](/help/migrated/discussion-board-instructor-notifications.md)
 * Disponibilité des fonctionnalités dans les versions {#feature-availability}
   * [Disponibilité des fonctionnalités dans la version d’août 2026](/help/migrated/feature-availability-aug-2026.md)
 * Prise en main {#get-started}
@@ -50,21 +51,27 @@ ht-degree: 34%
   * [Prise en main en tant qu’élève](learners/feature-summary/getting-started-learner.md)
   * [Prise en main pour les responsables](managers/feature-summary/getting-started-manager.md)
   * [Prise en main de Learning Manager en tant qu’instructeur](instructors/feature-summary/getting-started.md)
-  * [Prise en main de Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
+  * [Prise en main de Live Hub](./getting-started-with-live-hub/getting-started-live-hub.md)
 * L’administrateur {#admin}
   * IA dans l’apprentissage (Beta) {#ai-in-learning}
-    * [Activer Live Hub (Beta)](./administrators/feature-summary/enable-live-hub.md)
+    * [Activer Live Hub](./administrators/feature-summary/enable-live-hub.md)
   * [Admin AI Assistant (Beta) dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Insights Agent (bêta) dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
+  * [Présentation du serveur MCP ALM](/help/migrated/administrators/feature-summary/intro-alm-mcp.md)
+  * [Configuration d’un serveur MCP](/help/migrated/administrators/feature-summary/configure-mcp-admin.md)
+  * [Ajouter ALM à votre client IA d’entreprise](/help/migrated/administrators/feature-summary/add-alm-to-ai-client.md)
   * [Connexion utilisateur](administrators/feature-summary/user-login.md)
   * Gestion des utilisateurs {#user-management}
     * [Ajout d’utilisateurs dans Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
     * [Groupes d’utilisateurs dans Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
     * [Champs actifs](/help/migrated/administrators/feature-summary/active-fields.md)
+  * [Activer l&#39;Explorateur d&#39;examens sécurisé](./administrators/feature-summary/safe-exam-browser.md)
   * [Ajouter des emplacements de salle de classe](administrators/feature-summary/classroom.md)
   * [Création d’instances de cours et de parcours d’apprentissage](administrators/feature-summary/courses.md)
+  * [Soumissions de groupe (équipe) et évaluations basées sur des rubriques](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
   * [Contrôle du temps d&#39;accès au module](/help/migrated/administrators/feature-summary/module-access-time-control.md)
   * [Gérer les vacances](./getting-started-with-live-hub/manage-holidays.md)
+  * [Identité visuelle de l’administrateur : repositionnement des bandes de pages d’accueil PLP et VC](/help/migrated/administrators/feature-summary/admin-branding-repositioning.md)
   * Experience Builder dans Adobe Learning Manager {#experience-builder}
     * [Présentation](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Composants de base d’Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -82,6 +89,7 @@ ht-degree: 34%
       * [Personnaliser Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
     * [Directives et limitations d’Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
     * [Expérience hors connexion dans Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+    * [Utiliser une URL de menu non connectée pour l&#39;auto-inscription](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
   * Paramètres {#settings}
     * [Présentation](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
     * [Paramètres de base](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
@@ -105,8 +113,9 @@ ht-degree: 34%
     * [Examen des performances de l’instructeur avec Report Builder](administrators/feature-summary/review-instructor-performance-with-report-builder.md)
     * [Suivi de l’engagement par groupe d’utilisateurs dans Report Builder](administrators/feature-summary/track-engagement-by-user-group-in-report-builder.md)
     * [Création d’un rapport de tendances dans Report Builder](administrators/feature-summary/build-trend-report-in-report-builder.md)
-    * [Téléchargement, partage et abonnement à un rapport](administrators/feature-summary/download-share-subscribe-report.md)
+    * [Téléchargez, partagez et abonnez-vous à un rapport](administrators/feature-summary/download-share-subscribe-report.md)
     * [Duplication et réutilisation d’un rapport dans Report Builder](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
+    * [Visualisations dans Report Builder](administrators/feature-summary/report-builder-visualization.md)
     * [Foire aux questions](administrators/feature-summary/faq-report-builder.md)
     * [Limites du Report Builder](administrators/feature-summary/limitations-report-builder.md)
   * [Tableau de bord de réussite du groupe](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
@@ -120,7 +129,7 @@ ht-degree: 34%
   * Coach virtuel {#virtualcoachadmin}
     * [Gérer l’utilisation et la facturation du Virtual Coach](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
     * [Rapports Virtual Coach](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
-  * [Créer des canaux (Beta)](administrators/feature-summary/create-channels.md)
+  * [Créer des couches](administrators/feature-summary/create-channels.md)
   * [Certifications](administrators/feature-summary/certifications.md)
   * [Création et personnalisation d’un certificat](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [Catalogues](administrators/feature-summary/catalogs.md)
@@ -165,9 +174,12 @@ ht-degree: 34%
   * [Programmes d’apprentissage](administrators/feature-summary/learning-programs.md)
   * [Terminologie du produit](administrators/feature-summary/product-terminology.md)
 * Administrateur d’intégration {#integration}
+  * [Configuration du serveur MCP ALM](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
   * [Manuel du développeur d’applications](/help/migrated/integration-admin/feature-summary/developer-manual.md)
   * [Intégration de l’assistant d’élève avec iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [Manuel de migration](integration-admin/feature-summary/migration-manual.md)
+  * [Déclencheur d’annulation/de mise à jour ALM-Workfront](integration-admin/feature-summary/alm-workfront-cancellation.md)
+  * [Suivi de l’assiduité via les vues d’enregistrement Adobe Connect](integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
   * Connecteurs Learning Manager {#connectors}
     * [Présentation des connecteurs](integration-admin/feature-summary/connectors.md)
     * [CONNECTEUR ADFS](integration-admin/feature-summary/adfs-connector.md)
@@ -189,14 +201,17 @@ ht-degree: 34%
   * [API non connectées](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhooks {#webhooks}
     * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
-    * [Suivi de l’achèvement Go1 avec webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Guide d’utilisation des webhooks](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
+    * [Événements de webhook pour les modifications d’instance LO par les instructeurs](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+    * [Suivi de l’achèvement de Go1 avec webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
   * [Credly](integration-admin/feature-summary/credly-integration.md)
   * [Interopérabilité des outils d’apprentissage](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
   * [Liens profonds LTI](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
+  * [Prise en charge LTI pour NRPS](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
   * AEM Sites {#aem-sites}
     * [Package de site de référence ALM pour AEM Sites](/help/migrated/adobe-learning-manager-integration-aem.md)
     * [Intégration de Learning Manager à AEM](integrate-aem-learning-manager.md)
+    * [Intégration des ressources AEM](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
   * [Installation du package Salesforce dans Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
   * Guide de déploiement {#deployment-guide}
     * [Introduction](/help/migrated/deployment-guide/introduction.md)
@@ -211,8 +226,11 @@ ht-degree: 34%
   * [Connexion utilisateur](authors/feature-summary/user-login.md)
   * [Bibliothèque de contenu](authors/feature-summary/content-library.md)
   * [Création, modification et publication de cours](authors/feature-summary/courses.md)
+  * [Création d&#39;un cours avec l&#39;Explorateur d&#39;examens sécurisé](./authors/feature-summary/create-a-course-with-safe-exam-browser.md)
+  * [Création d’un parcours d’apprentissage](/help/migrated/authors/feature-summary/create-learning-path.md)
   * [Catalogues](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[Cours adaptatif](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[Inscription multiple au cours adaptatif](authors/feature-summary/multi-enrollment-for-adaptive-courses.md)
   * Entraînement virtuel {#virtual-coach}
     * [Qu’est-ce que Virtual Coach ?](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
     * [Rassembler des matériaux pour un jeu de rôle de Coach virtuel](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
@@ -229,6 +247,7 @@ ht-degree: 34%
   * [Ajouter des objets d’apprentissage dans diverses langues](authors/feature-summary/add-new-language-learning-objects.md)
   * [Notifications aux utilisateurs](authors/feature-summary/user-notifications.md)
   * [Modèles de courriers électroniques](authors/feature-summary/email-templates-author.md)
+  * [Personnalisation des e-mails de cours et d’instance dans Email Builder](authors/feature-summary/customize-course-instance-emails.md)
   * [Comment choisir les modules de cours ?](authors/how-to-choose-modules.md)
   * [Aperçu en tant qu’élève](authors/feature-summary/fluidic-player.md)
   * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
@@ -285,8 +304,10 @@ ht-degree: 34%
       * [Référence de la propriété JSON du thème](authors/feature-summary/content-composer/theme-json-reference.md)
   * [Paramètres](authors/feature-summary/settings.md)
 * L’instructeur {#instructor}
-  * [Modules](instructors/feature-summary/modules.md)
+  * [Modules](/help/migrated/instructors/feature-summary/modules.md)
+  * [Évaluer et annuler l’envoi d’une soumission d’équipe](/help/migrated/instructors/feature-summary/learners.md)
   * [Gestion des élèves pour votre session](instructors/feature-summary/learners.md)
+  * [Renvoyer l’invitation à la session](instructors/feature-summary/resend-session-invite.md)
 * Gestion {#learner}
   * [Se connecter](learners/feature-summary/user-login.md)
   * [Paramètres de profils](learners/feature-summary/settings.md)
@@ -297,15 +318,18 @@ ht-degree: 34%
   * [Inscription en un clic](learners/feature-summary/learner-one-click-enrollment.md)
   * [Widget Enregistré par moi](learners/feature-summary/saved-by-me-widget.md)
   * [Mon apprentissage](learners/feature-summary/courses.md)
+  * [Lancer un quiz dans l&#39;Explorateur d&#39;examens sécurisé](./learners/feature-summary/launch-safe-exam-browser.md)
+  * [Les cours auxquels plusieurs élèves sont inscrits s&#39;afficheront dans le widget Conformité des élèves](learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
   * {hide-from-toc}[Cours adaptatif](learners/feature-summary/adaptive-course-learner.md)
   * [Lecteur Fluidic](learners/feature-summary/fluidic-player.md)
   * [Programmes d’apprentissage](learners/feature-summary/learning-programs.md)
   * [Certifications](learners/feature-summary/certifications.md)
   * [Assistances à la tâche](learners/feature-summary/job-aids.md)
-  * [Découvrir et utiliser les canaux (Beta)](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [Découvrir et interagir avec les canaux](learners/feature-summary/discover-and-engage-with-channels.md)
   * [Chariot multi-articles dans ALM](learners/feature-summary/multi-item-cart.md)
   * [Classeur pour les élèves](learners/feature-summary/alm-learner-gradebook.md)
   * [Envoyer un apprentissage externe](learners/feature-summary/submit-external-learning.md)
+  * [Soumettre un devoir en tant qu’équipe](learners/feature-summary/submit-assignment-as-team.md)
   * [Badges](learners/feature-summary/badges.md)
   * [Compétences et niveaux](learners/feature-summary/skills-levels.md)
   * [Ludification](learners/feature-summary/gamification.md)
@@ -313,6 +337,10 @@ ht-degree: 34%
   * [Annonces](learners/feature-summary/announcements.md)
   * [Gestion de l’assiduité et de la liste d’attente](learners/feature-summary/waitlist-attendance-management.md)
   * [Assistant d’IA pour les élèves](learners/feature-summary/learner-ai-assistant.md)
+  * [Connecter le client AI à ALM](learners/feature-summary/connect-ai-client-to-alm-learner.md)
+  * [Ajouter ALM à Claude](learners/feature-summary/add-alm-to-claude-learner.md)
+  * [Référence des outils de l’élève](learners/feature-summary/learner-tools-reference.md)
+  * [Exemples d’invites pour les élèves](learners/feature-summary/sample-prompts-for-learners.md)
   * [Agent du parcours d’apprentissage (bêta) dans Adobe Learning Manager](learners/feature-summary/learning-path-agent.md)
   * [Recherche optimisée par l’IA dans Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
   * [Application Learning Manager pour Salesforce](learners/feature-summary/sfdc-app.md)
@@ -333,7 +361,7 @@ ht-degree: 34%
   * [Relevés de notes des élèves](managers/feature-summary/learner-transcripts.md)
   * [Paramètres](managers/feature-summary/settings.md)
   * [Utilisateurs de tablettes Android et iPad](managers/feature-summary/ipad-android-tablet-users.md)
-* Utilisation de Live Hub (Beta) {#work-with-live-hub}
+* Utilisation de Live Hub {#work-with-live-hub}
   * [Configuration système](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
   * Rôles dans Live Hub {#roles-in-live-hub}
     * [L’administrateur](../migrated/getting-started-with-live-hub/administrator.md)
@@ -394,19 +422,20 @@ ht-degree: 34%
       * [Afficher le tableau de bord de session](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [Composants du tableau de bord de session](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [Bonnes pratiques](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [Utiliser Live Hub (Beta) sur mobile en tant qu’élève](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [Utiliser Live Hub sur mobile en tant qu’élève](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Forum aux questions {#faq}
   * [Questions fréquentes des administrateurs](administrators/frequently-asked-questions-for-administrators.md)
   * [Questions fréquemment posées pour les auteurs](authors/frequently-asked-questions-for-authors.md)
   * [Forum aux questions pour les instructeurs](instructors/frequently-asked-questions-for-instructors.md)
   * [Questions fréquemment posées par les responsables](managers/frequently-asked-questions-for-managers.md)
   * [Questions fréquemment posées par les élèves](learners/frequently-asked-questions-for-learners.md)
-  * [Forum aux questions pour une session Live Hub (Beta)](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [Forum aux questions pour une session Live Hub](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [Nouvelles annonces de ligue d&#39;expérience](/help/migrated/new-experience-league-announcement.md)
   * [Comment envoyer un ticket d’assistance sur Experience League](/help/migrated/how-to-submit-support-ticket.md)
   * [Création d’un compte d’évaluation dans Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Modifications apportées à l’API {#api-changes}
   * [Rapport utilisateur incrémentiel (API de tâche)](/help/migrated/incremental-user-report.md)
+  * [Modifications apportées aux API dans la version de décembre 2026](/help/migrated/api-changes-dec-2026.md)
   * [Modifications apportées aux API dans la version de septembre 2026](/help/migrated/api-changes-sep-2026.md)
   * [Modifications apportées aux API dans la version d’août 2026](/help/migrated/api-changes-august-2026.md)
   * [Modifications apportées aux API dans la version d’avril 2026](/help/migrated/api-changes-alm.md)

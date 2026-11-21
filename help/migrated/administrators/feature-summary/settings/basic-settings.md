@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
 workflow-type: tm+mt
-source-wordcount: '6326'
+source-wordcount: '7201'
 ht-degree: 4%
 ---
 # Paramètres de base dans Adobe Learning Manager
@@ -243,6 +243,14 @@ Voir Terminologie du produit dans Adobe Learning Manager pour plus d’informati
 
 Lorsque cette option est activée, les auteurs et les instructeurs peuvent enregistrer le nombre de crédits d’enseignement pour chaque session ou module. Les crédits représentent le temps d’instruction qu’un élève recevra pour avoir terminé l’activité. Les valeurs de crédit apparaissent dans les relevés de notes des élèves, les rapports d’apprentissage et contribuent aux calculs de durée totale des parcours d’apprentissage. Si vous désactivez ce paramètre, les valeurs de crédit précédemment saisies sont conservées et restaurées si le paramètre est réactivé.
 
+### Inscription de groupe
+
+Activez ce paramètre pour permettre aux auteurs de définir des dates d&#39;ouverture d&#39;inscription et de réserver des places pour des groupes d&#39;utilisateurs spécifiques dans une instance de cours avant l&#39;ouverture de l&#39;inscription générale. Si ce paramètre est désactivé, l&#39;option Allouer des places par groupe d&#39;utilisateurs n&#39;est pas disponible lors de la configuration d&#39;une instance de cours.
+
+### Intégration de Safe Exam Browser
+
+Activez ce paramètre pour permettre aux auteurs de configurer les quiz avec l&#39;intégration de l&#39;Explorateur d&#39;examens sécurisé. Pour activer cette intégration, les administrateurs doivent télécharger le fichier de configuration Explorateur d&#39;examens sans échec pour leur cluster ou environnement. Si ce paramètre est désactivé, l&#39;option Navigateur d&#39;examen sécurisé n&#39;est pas disponible pour les auteurs lors de la configuration des quiz.
+
 ### Mise à jour de la version du module
 
 Cette option permet aux administrateurs de mettre à jour le contenu d&#39;un module sans interrompre la progression des élèves déjà inscrits aux cours contenant ce module. Cela permet aux élèves de poursuivre leur parcours d’apprentissage en douceur, tandis que les auteurs peuvent maintenir le contenu à jour. Lorsque l’option est activée, les auteurs peuvent télécharger une nouvelle version d’un module (par exemple, les packages SCORM, AICC ou xAPI) pour remplacer l’existant.
@@ -311,7 +319,7 @@ Cette option vous permet de personnaliser la section de pied de page de l&#39;ap
 
 Voici comment personnaliser les liens du pied de page :
 
-1. **[!UICONTROL Ajouter des liens]** : sélectionnez **[!UICONTROL Ajouter davantage]** et saisissez le nom et l’URL ou l’ID de messagerie dans les champs spécifiés. Vérifiez que l’URL est précédée du préfixe http:// ou https://.
+1. **[!UICONTROL Ajouter des liens]** : sélectionnez **[!UICONTROL Ajouter davantage]** et saisissez le nom et l’URL ou l’ID de messagerie dans les champs spécifiés. Assurez-vous que l’URL a pour préfixe `http://` ou `https://`.
 2. **[!UICONTROL Répliquer entre les langues]** : sélectionnez **[!UICONTROL Répliquer]** pour appliquer les modifications en cascade à toutes les langues, en vous assurant que toutes les langues obtiennent le même nom et la même URL.
 3. Sélectionnez **[!UICONTROL Enregistrer]** pour appliquer les modifications.
 
@@ -394,6 +402,48 @@ Lorsque les cours sont payants, les auteurs peuvent spécifier le cours, le parc
 >
 >Certains types de formation, tels que les certifications récurrentes et les cours approuvés par le responsable, ne peuvent pas être achetés.
 
+## Activation de la formation automatique d’équipe dans Adobe Learning Manager
+
+Activez la formation automatique d&#39;équipe dans les paramètres de l&#39;administrateur, afin que les groupes Adobe Learning Manager inscrivent les élèves dans des équipes avant le démarrage de chaque instance de cours.
+
+Ce paramètre est facultatif. Les soumissions d’équipe fonctionnent sans cela et les instructeurs peuvent créer des équipes manuellement.
+
+Lorsque vous activez ce paramètre de compte, Adobe Learning Manager regroupe automatiquement les élèves inscrits en équipes un nombre défini de jours avant le début de chaque instance de cours. Ce paramètre est désactivé par défaut. Les auteurs peuvent ajuster la planification de leurs cours, et les instructeurs peuvent toujours créer des équipes manuellement.
+
+### Activer la formation automatique d’équipe
+
+1. Dans l&#39;application administrateur, sélectionnez **Paramètres** > **Général**.
+
+1. Dans la section **Formation automatique d&#39;équipe pour les soumissions basées sur l&#39;équipe**, sélectionnez **Modifier**. L’option reste désactivée par défaut.
+
+   ![Section Formation automatique d&#39;équipe dans les paramètres généraux](assets/Group-Team-submission-and-rubric-based-assessments-image1.png "Section Formation automatique d&#39;équipe")
+
+1. Cochez la case **Activer**.
+
+   ![Activer la case à cocher pour la formation automatique d&#39;équipe](assets/Group-Team-submission-and-rubric-based-assessments-image2.png "Activer la case à cocher")
+
+1. Sous **Planning de formation d&#39;équipe**, entrez le nombre de jours dans le champ **Créer des équipes**. La valeur doit être égale ou supérieure à 0. Ce champ est obligatoire.
+
+   ![Champ Créer des équipes dans le planning de formation d&#39;équipe](assets/Group-Team-submission-and-rubric-based-assessments-image3.png "Planning de formation d&#39;équipe")
+
+1. Sélectionnez **Enregistrer**.
+
+Ce paramètre fonctionne uniquement pour les cours disposant d&#39;un module d&#39;envoi de fichiers basé sur l&#39;équipe et d&#39;une date de début d&#39;instance.
+
+## Comment les modifications affectent les cours
+
+Lorsque vous modifiez ce paramètre, la modification s’applique uniquement aux cours que vous créez après l’avoir enregistré. Les cours qui existent déjà conservent la configuration avec laquelle ils ont été publiés, que la formation automatique d’équipe ait été activée ou non, et ils conservent leur calendrier. Par exemple, si vous activez ce paramètre en mars, les cours créés en février ne l’obtiennent pas, contrairement aux cours créés en mars ou ultérieurement.
+
+Adobe Learning Manager n’applique pas la modification aux cours existants, car cela pourrait perturber les auteurs, les instructeurs et les élèves qui travaillent déjà sur ces cours. Les auteurs et les instructeurs peuvent continuer avec la configuration avec laquelle le cours a été publié. Si quelqu’un a besoin d’une configuration différente, il peut créer un nouveau cours et informer les personnes concernées de ce qui change.
+
+Vous pouvez modifier ce paramètre à tout moment. Tout ce que vous choisissez s’applique à tous les cours créés par la suite, jusqu’à ce que vous le modifiiez à nouveau. Cela vous permet de définir la stratégie qui convient à votre organisation.
+
+* Si vous désactivez ce paramètre, les cours qui utilisent déjà la formation automatique d’équipe continuent de fonctionner comme configurés.
+* Les équipes déjà formées restent en place et les instructeurs peuvent toujours les modifier.
+* Lorsque les auteurs créent un nouveau cours, ils peuvent ajuster la planification pour ce cours. Découvrez comment les auteurs définissent les règles d’équipe.
+
+Une fois le paramètre désactivé, les équipes déjà formées restent en place. Les instructeurs peuvent toujours les modifier.
+
 ### Activer Multi Item SKU Cart
 
 Cette option permet aux élèves d’ajouter plusieurs éléments de formation (cours, parcours d’apprentissage, certifications) à un panier et de les acheter ensemble. Cette fonctionnalité fait partie de la fonctionnalité de commerce électronique intégrée à Adobe Commerce.
@@ -403,7 +453,7 @@ Cette fonctionnalité est particulièrement utile pour les organisations qui ven
 **Fonctionnalités clés :**
 
 * Achats multiples : les élèves peuvent ajouter plusieurs articles à leur panier et les acheter en une seule transaction. Voir Panier multi-articles pour plus d&#39;informations.
-*Paiement simplifié : réduit la nécessité pour les élèves d’effectuer des achats distincts pour chaque élément de formation.
+* Paiement rationalisé : réduit la nécessité pour les élèves d’effectuer des achats distincts pour chaque élément de formation.
 * Gestion des SKU : les administrateurs peuvent gérer les SKU des cours, des parcours d’apprentissage et des certifications pour assurer un suivi et un reporting appropriés.
 
 ### Autres cours/parcours
@@ -574,7 +624,9 @@ Après avoir activé la fonctionnalité, configurez les champs qui apparaissent 
 
 5. Sélectionnez **Enregistrer**.
 
-**Remarque :** le champ **Titre** est toujours obligatoire et ne peut pas être masqué ni rendu facultatif.
+>[!NOTE]
+>
+>Le champ **Titre** est toujours obligatoire et ne peut pas être masqué ni rendu facultatif.
 
 Le formulaire de soumission de l’élève reflète immédiatement vos modifications. Les envois existants ne sont pas affectés par les modifications de configuration du formulaire.
 
@@ -634,10 +686,10 @@ a.    Sélectionnez l&#39;onglet **[!UICONTROL Élèves]** dans le volet de gauc
 b.    Sélectionnez l’élève dont vous souhaitez marquer l’assiduité.
 c.    Sélectionnez **[!UICONTROL Actions]** > **[!UICONTROL Marquer comme terminé]**.
 
-**Remarques supplémentaires :**
-
-* Les responsables peuvent également exporter la liste des élèves à des fins de création de rapports.
-* Si un cours comprend plusieurs instances, les responsables peuvent afficher et gérer les élèves séparément pour chaque instance.
+>[!NOTE]
+>
+> Les responsables peuvent également exporter la liste des élèves à des fins de création de rapports.
+> Si un cours comprend plusieurs instances, les responsables peuvent afficher et gérer les élèves séparément pour chaque instance.
 
 ### Suppression
 
@@ -656,6 +708,24 @@ i. Les élèves qui étaient déjà inscrits au cours ou au parcours d’apprent
 ii. Ils ne pourront plus afficher ni effectuer d’actions sur le contenu retiré.
 b. Élèves non encore inscrits :
 i. Les élèves qui ne sont pas inscrits au cours ou au parcours d’apprentissage perdront également l’accès, car le contenu n’apparaîtra plus dans le catalogue.
+
+### Impact du retrait sur les objets d’apprentissage de niveau supérieur {#retiral-impact-ho-lo}
+
+Le paramètre **Impact du retrait sur les objets d’apprentissage de niveau supérieur** contrôle ce qui se passe pour un parcours d’apprentissage ou une certification lorsque l’un de ses cours ou parcours d’apprentissage imbriqués est retiré. Elle s’applique uniquement aux objets d’apprentissage d’ordre supérieur : parcours d’apprentissage et certifications. Sélectionnez l’une des options suivantes :
+
+* **Bloquer les nouvelles inscriptions aux objets d&#39;apprentissage de niveau supérieur qui contiennent l&#39;objet d&#39;apprentissage retiré.**
+
+  Lorsqu’un objet d’apprentissage de niveau inférieur est retiré, tout parcours d’apprentissage ou certification qui le contient devient indisponible pour les nouvelles inscriptions. Les élèves déjà inscrits conservent l&#39;accès à l&#39;objet d&#39;apprentissage retiré de l&#39;objet d&#39;apprentissage de niveau supérieur et peuvent le poursuivre et l&#39;achever.
+
+* **Supprimez l’objet d’apprentissage retiré des parcours d’apprentissage et des certifications qui le contiennent, afin qu’il reste disponible pour les nouvelles inscriptions.**
+
+  Lorsqu’un objet d’apprentissage d’ordre inférieur est retiré, il est supprimé des parcours d’apprentissage et des certifications qui le contiennent, exactement comme s’il avait été supprimé manuellement. L&#39;objet d&#39;apprentissage de niveau supérieur reste disponible pour les nouvelles inscriptions et les nouveaux élèves le considèrent comme si l&#39;objet retiré n&#39;en faisait jamais partie. Les élèves déjà inscrits continuent sans l&#39;objet retiré, leur progression existante étant conservée dans le relevé de notes de l&#39;élève et les pourcentages d&#39;achèvement recalculés en conséquence. Les élèves qui ont déjà terminé l’objet d’apprentissage de niveau supérieur conservent leur achèvement et leur note finale.
+
+  Si le retrait d&#39;un objet d&#39;apprentissage laisse l&#39;objet d&#39;apprentissage de niveau supérieur sans contenu restant (par exemple, lorsque tous ses objets d&#39;apprentissage ou tous ses objets d&#39;apprentissage requis sont retirés), l&#39;objet n&#39;est pas supprimé et l&#39;objet d&#39;apprentissage de niveau supérieur est bloqué pour les nouvelles inscriptions.
+
+>[!NOTE]
+>
+>La suppression ne s’applique pas aux certifications récurrentes, qui restent inchangées lors de la révocation.
 
 ### Suppression automatique
 

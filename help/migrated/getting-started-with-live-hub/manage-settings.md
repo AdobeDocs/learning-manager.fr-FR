@@ -4,9 +4,9 @@ description: Découvrez comment les instructeurs accèdent aux paramètres en sa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,11 @@ Dans une session Live Hub, les instructeurs peuvent contrôler les autorisations
 
    1. **Enregistrement** : choisissez ce qui est capturé dans l&#39;enregistrement, y compris les flux vidéo des participants, les sondages et la transcription de la conversation.
 
+   1. **Sous-titres** : sélectionnez la langue dans laquelle les sous-titres sont générés pendant la session.
+
    1. **IA** : activez ou désactivez les assistants IA de la session, y compris l&#39;assistant Q&amp;R, l&#39;assistant de sondage, l&#39;agent de surveillance des sous-groupes et la génération de sujets d&#39;enregistrement.
 
-   1. **Confidentialité** : affichez ou masquez les participants inscrits qui n&#39;ont pas encore rejoint la session.
+   1. **Confidentialité** : affichez ou masquez les participants inscrits qui n&#39;ont pas encore rejoint la session.Sélectionnez l’onglet correspondant dans le panneau de gauche :
 
 1. Modifiez les paramètres requis.
 
@@ -94,6 +96,12 @@ Les paramètres suivants vous aident à gérer la session en contrôlant ce que 
 <td>Ajoute la transcription de la conversation à l’enregistrement.</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>Légendes</strong></p>
+<p><strong>Par défaut</strong> : anglais</p></td>
+<td>Langue d’affichage des sous-titres</td>
+<td>Définit la langue dans laquelle les légendes sont générées pour tous les participants. Les légendes ne sont pas translatées. La langue sélectionnée doit donc correspondre à la langue parlée par l’instructeur.</td>
+</tr>
 <td rowspan="4"><p><strong>AI</strong></p>
 <p><strong>Par défaut</strong> : tous les assistants IA sont activés si les administrateurs les ont activés.</p></td>
 <td>Activer l’assistant Q&amp;R et la génération de réponses</td>

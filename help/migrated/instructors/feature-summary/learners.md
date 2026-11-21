@@ -7,10 +7,10 @@ exl-id: 2f4f8589-2350-4683-a141-809084d6309a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a56c810d5222b6ab6f128db9661ff7fb6d2c93
 workflow-type: tm+mt
-source-wordcount: '1898'
-ht-degree: 47%
+source-wordcount: '3424'
+ht-degree: 26%
 ---
 # Gestion des élèves pour votre session
 
@@ -270,3 +270,230 @@ Si les élèves ont téléchargé des documents tels que des devoirs, des rappor
    Si vous avez déjà défini des rappels pour vos sessions, vous pouvez les voir sous les vignettes Rappel existant. De plus, vous pouvez également ajouter de nouveaux rappels à vos rappels existants.
 
    Pour supprimer un rappel existant, cliquez dessus. Dans la fenêtre contextuelle qui s’affiche, cliquez sur l’icône de suppression (corbeille) pour supprimer le rappel.
+
+## Création et gestion d’équipes dans Adobe Learning Manager
+
+Créez manuellement des équipes à partir des élèves d&#39;une instance de cours, puis ajoutez, déplacez, supprimez, renommez ou supprimez des équipes jusqu&#39;à ce qu&#39;une équipe se verrouille.
+
+En tant qu’instructeur, vous créez des équipes pour chaque instance d’un cours qui dispose d’un module d’envoi basé sur les équipes. Tout instructeur affecté à l’instance peut gérer ses équipes. Adobe Learning Manager peut également créer des équipes automatiquement. Une fois les équipes formées, les élèves peuvent soumettre leur travail et vous pouvez évaluer les soumissions d&#39;équipe.
+
+### Ouvrir la page de gestion des équipes
+
+1. Dans l&#39;application Instructeur, sélectionnez **Équipes** dans le volet de navigation de gauche. La page répertorie les instances de cours en équipe auxquelles les élèves sont affectés.
+
+   Option ![Équipes dans le volet de navigation de gauche](assets/Group-Team-submission-and-rubric-based-assessments-image17.png "Page de gestion des équipes")
+
+1. Pour trouver un cours, recherchez-le ou triez la liste par date de dernière mise à jour.
+
+1. Sélectionnez l&#39;instance de cours. La page de l’instance affiche les élèves non affectés et les équipes.
+
+### Création d’équipes avec une règle
+
+1. Sur la page de l’instance, sélectionnez les élèves non affectés à diviser en équipes.
+
+1. Choisissez une règle. Sélectionnez **Action** > **Former une seule équipe** ou **Former plusieurs équipes**.
+
+   ![Menu d&#39;action avec règles de formation d&#39;équipe](assets/Group-Team-submission-and-rubric-based-assessments-image18.png "Menu d&#39;action")
+
+1. Si vous sélectionnez **Former plusieurs équipes**, entrez le nombre d&#39;élèves par équipe. La valeur doit être supérieure ou égale à 1. La page indique le nombre d’équipes qui seront créées. Par exemple, avec 94 élèves et 2 élèves par équipe, 47 équipes sont créées. Si le nombre est supérieur au nombre d’élèves inscrits, un message d’erreur s’affiche. Entrez un nombre plus petit.
+
+   ![Nombre d’élèves par équipe et nombre d’équipes qui en résulte](assets/Group-Team-submission-and-rubric-based-assessments-image19.png "Élèves par équipe")
+
+   Si vous entrez une valeur supérieure au nombre d&#39;élèves inscrits, un message d&#39;erreur s&#39;affiche.
+
+   ![Message d’erreur pour une valeur supérieure au nombre d’élèves inscrits](assets/Group-Team-submission-and-rubric-based-assessments-image20.png "Message d’erreur")
+
+1. Sélectionnez **Créer des équipes**. Les équipes apparaissent dans l&#39;onglet **Équipes**.
+
+   ![Onglet Équipes affichant les équipes créées](assets/Group-Team-submission-and-rubric-based-assessments-image21.png "Équipes créées")
+
+1. Confirmez, puis enregistrez. Les équipes apparaissent dans l&#39;onglet **Équipes**.
+
+La règle s’applique uniquement aux élèves non affectés que vous sélectionnez. Pour regrouper tout le monde, supprimez d’abord les équipes existantes. Leurs élèves retournent à la liste non attribuée.
+
+Option ![Supprimer pour les équipes existantes](assets/Group-Team-submission-and-rubric-based-assessments-image22.png "Supprimer des équipes")
+
+Après avoir sélectionné **Supprimer**, vous obtenez la boîte de dialogue de confirmation suivante :
+
+![Boîte de dialogue de confirmation Supprimer les équipes](assets/Group-Team-submission-and-rubric-based-assessments-image23.png "Confirmation de suppression")
+
+Sélectionnez **Supprimer les équipes**. Tous les élèves reviennent à la liste non attribuée.
+
+### Créer une seule équipe
+
+1. Sélectionnez les élèves non affectés à inclure dans l’équipe.
+
+1. Sélectionnez **Action** > **Former une seule équipe**. Une équipe est créée avec le nombre spécifié d’élèves.
+
+   ![Former une seule équipe](assets/Group-Team-submission-and-rubric-based-assessments-image24.png "Former une seule équipe")
+
+1. Sauvegardez l’équipe. Une équipe a besoin d’au moins un élève, et un élève ne peut appartenir qu’à une seule équipe dans l’instance.
+
+1. Répétez les étapes pour créer des équipes une par une.
+
+### Ajouter des élèves à une équipe existante
+
+1. Sélectionnez les élèves non affectés à ajouter.
+
+1. Choisissez de les affecter à une équipe existante, puis sélectionnez l’équipe.
+
+   ![Affecter des élèves non affectés à une équipe existante](assets/Group-Team-submission-and-rubric-based-assessments-image25.png "Affecter à une équipe existante")
+
+1. Confirmez votre choix. Sélectionnez **Attribuer un élève**.
+
+### Déplacement ou suppression d’élèves
+
+1. Ouvrez l&#39;onglet **Équipes**, puis développez une équipe pour afficher ses membres.
+
+1. Sélectionnez les élèves à déplacer.
+
+   ![Membres de l’équipe sélectionnés pour le déplacement](assets/Group-Team-submission-and-rubric-based-assessments-image26.png "Déplacer des élèves")
+
+1. Choisissez de les déplacer, puis sélectionnez l’équipe de destination.
+
+1. Pour supprimer un élève d’une équipe, sélectionnez-le et supprimez-le. L’élève revient à la liste des éléments non attribués.
+
+Lorsqu’une équipe ne compte plus d’élèves, elle est automatiquement supprimée.
+
+### Renommer une équipe
+
+1. Dans l&#39;onglet **Équipes**, sélectionnez l&#39;équipe, puis choisissez de la renommer.
+
+1. Sélectionnez **Action** > **Renommer**.
+
+   ![Option Renommer dans le menu Action](assets/Group-Team-submission-and-rubric-based-assessments-image27.png "Option Renommer")
+
+1. Saisissez un nom unique, tel que Alpha de l’équipe.
+
+   ![Boîte de dialogue Renommer l’équipe](assets/Group-Team-submission-and-rubric-based-assessments-image28.png "Boîte de dialogue Renommer l’équipe")
+
+1. Sélectionnez **Renommer l&#39;équipe**.
+
+Les noms ne peuvent pas être répétés et vous ne pouvez pas utiliser le format généré par le système, tel que Team-1.
+
+### Supprimer les équipes
+
+1. Dans l&#39;onglet **Équipes**, sélectionnez une ou plusieurs équipes.
+
+1. Sélectionnez **Action** > **Supprimer**.
+
+1. Sélectionnez **Supprimer l&#39;équipe**.
+
+   ![Boîte de dialogue de confirmation Supprimer l’équipe](assets/Group-Team-submission-and-rubric-based-assessments-image29.png "Supprimer l’équipe")
+
+1. Confirmer. Les élèves des équipes supprimées reviennent dans la liste des élèves non attribués.
+
+### Gérer les inscriptions et les désinscriptions en retard
+
+* Un élève qui s’inscrit après la création d’équipes apparaît dans la liste Non affecté. Ajouter l’élève à une équipe.
+* Si toutes les équipes sont verrouillées, créez une nouvelle équipe pour l’élève.
+* Un élève qui se désinscrit est automatiquement supprimé de son équipe. L’équipe continue et une équipe vide est supprimée.
+
+### Dépannage
+
+**Vous ne pouvez pas sélectionner une équipe ni déplacer ses membres.** Un verrou d&#39;équipe se verrouille après sa première soumission et s&#39;applique à chaque module d&#39;équipe de l&#39;instance. Pour déverrouiller l’équipe, annulez l’envoi. Afficher **Évaluer et annuler l&#39;envoi des soumissions d&#39;équipe**.
+
+**Vous ne pouvez pas renommer une équipe.** Le nom est déjà utilisé ou correspond au format généré par le système. Entrez un autre nom.
+
+**Une erreur s’affiche lorsque vous créez des équipes.** Une équipe ne peut pas compter plus de 100 membres. Réduisez le nombre de membres par équipe.
+
+**Vous ne pouvez pas ouvrir la gestion des équipes pour une instance.** La création automatique d’équipe est peut-être en cours d’exécution. Access revient une fois l&#39;opération terminée.
+
+**Votre enregistrement est rejeté et la page se recharge.** Un autre instructeur ou la tâche automatique a d’abord enregistré les modifications. Passez en revue les équipes mises à jour, puis rétablissez votre modification.
+
+**Une équipe a disparu.** Une équipe sans élèves est automatiquement supprimée.
+
+## Évaluer et annuler l’envoi des soumissions d’équipe
+
+Passez en revue le fichier soumis par une équipe, terminez le plan d&#39;évaluation, approuvez ou rejetez le travail, ou annulez sa soumission afin que l&#39;équipe puisse le soumettre à nouveau.
+
+Lorsque vous évaluez une soumission d&#39;équipe, le résultat s&#39;applique à chaque membre de l&#39;équipe, et chaque membre reçoit une notification. Seuls les instructeurs affectés à l’instance peuvent évaluer. Les étapes sont les mêmes pour les soumissions individuelles, excepté que les soumissions individuelles n’ont pas de détails d’équipe. Assurez-vous d’abord que les équipes existent. Voir **Créer et gérer des équipes**.
+
+Les équipes créées automatiquement peuvent être modifiées de la même manière que les équipes manuelles.
+
+### Rechercher une soumission
+
+1. Dans l&#39;application Instructeur, ouvrez la zone d&#39;envois, puis sélectionnez **Envois d&#39;équipe**. Sélectionnez **Envois individuels** pour les modules mono-élèves.
+
+1. Pour rechercher un module, effectuez une recherche par nom de session ou de module.
+
+1. Sélectionnez le nom du module.
+
+   ![Liste des modules dans la zone des soumissions](assets/Group-Team-submission-and-rubric-based-assessments-image35.png "Liste des modules")
+
+1. Pour affiner la liste, filtrez par statut : **Envoi en attente**, **Révision en attente**, **Approuvé**, **Rejeté** ou **Terminé**.
+
+1. Pour afficher les membres de l’équipe, développez l’équipe. Les noms et les adresses e-mail s&#39;affichent et l&#39;élève qui a envoyé le fichier a une balise **Émetteur**.
+
+1. Pour télécharger le fichier envoyé, sélectionnez l’option de téléchargement pour l’équipe.
+
+### Évaluer une soumission
+
+1. Recherchez l&#39;équipe avec le statut **Révision en attente**.
+
+1. Ouvrez le fichier envoyé et examinez le contenu.
+
+1. Sélectionnez **Action** > **Évaluer**.
+
+   ![Évaluer l&#39;option dans le menu Action](assets/Group-Team-submission-and-rubric-based-assessments-image36.png "Évaluer l&#39;option")
+
+1. Terminer le plan d&#39;évaluation :
+
+   * Répondez à toutes les questions requises.
+   * Pour les questions objectives, sélectionnez une option. Avec la notation basée sur des critères, le score est mis à jour au fur et à mesure de votre sélection.
+   * Pour les questions subjectives, entrez votre réponse.
+   * Lorsque des remarques sont autorisées, ajouter des remarques à la question ou à l&#39;ensemble de l&#39;évaluation.
+
+   ![Plan d’évaluation avec questions objectives et subjectives](assets/Group-Team-submission-and-rubric-based-assessments-image37.png "Plan d’évaluation")
+
+1. Si le module nécessite l&#39;approbation du réviseur, sélectionnez **Approuver** ou **Rejeter**. Ajoutez un commentaire lorsque vous le rejetez, afin que l’équipe sache quoi corriger.
+
+   ![Options d&#39;approbation et de rejet](assets/Group-Team-submission-and-rubric-based-assessments-image38.png "Approuver ou rejeter")
+
+1. Si le module utilise l&#39;évaluation manuelle, entrez l&#39;évaluation globale.
+
+   ![Champ de score global pour l&#39;évaluation manuelle](assets/Group-Team-submission-and-rubric-based-assessments-image39.png "Score global")
+
+   **Facultatif** : entrez une note privée en sélectionnant l&#39;option **Ajouter une note privée au score**. Une note privée n&#39;est visible que par les instructeurs affectés à l&#39;instance. Les élèves ne peuvent pas l&#39;afficher, même lorsque vous sélectionnez **Afficher le commentaire**.
+
+1. Soumettez l’évaluation. Sélectionnez **Envoyer**. L&#39;état de l&#39;envoi passe à **Approuvé**.
+
+   ![Option Envoyer pour l&#39;évaluation](assets/Group-Team-submission-and-rubric-based-assessments-image40.png "Envoyer l&#39;évaluation")
+
+D’autres instructeurs peuvent également évaluer la même soumission, à condition qu’elle n’ait pas déjà été approuvée. Une évaluation ultérieure remplace une évaluation antérieure jusqu&#39;à ce que la soumission soit approuvée.
+
+Si le module ne nécessite pas l&#39;approbation du réviseur, il est complété pour tous les membres de l&#39;équipe lors de la soumission de celle-ci. Seule l’option d’envoi s’affiche et vous ne pouvez pas modifier le score ou les remarques par la suite.
+
+Après avoir approuvé ou rejeté la soumission d&#39;une équipe, un élève peut afficher l&#39;état de la soumission et le résultat de l&#39;évaluation.
+
+![Vue de l’élève de l’état de la soumission et du résultat de l’évaluation](assets/Group-Team-submission-and-rubric-based-assessments-image41.png "Vue de l’élève de l’état")
+
+La sélection du résultat d&#39;évaluation affiche les paramètres d&#39;évaluation et les commentaires de l&#39;instructeur.
+
+![Paramètres d&#39;évaluation et commentaires dans le résultat d&#39;évaluation](assets/Group-Team-submission-and-rubric-based-assessments-image42.png "Résultat d&#39;évaluation")
+
+## Réviser ou modifier une évaluation
+
+1. Recherchez une équipe avec le statut **Refusé**.
+
+1. Pour ouvrir l&#39;évaluation terminée, sélectionnez **Afficher l&#39;évaluation**.
+
+1. Pour effectuer une nouvelle évaluation, sélectionnez l’option Réévaluer et soumettez vos modifications. Vous ne pouvez le faire que pour les envois rejetés. **Impossible de modifier les envois approuvés**.
+
+### Annuler l’envoi d’une soumission
+
+Annulez l&#39;envoi d&#39;une soumission lorsque l&#39;équipe doit à nouveau l&#39;envoyer, lorsque l&#39;évaluation doit recommencer ou lorsque vous devez modifier une équipe verrouillée. Pour une soumission individuelle, vous pouvez également l&#39;utiliser pour corriger une évaluation entrée pour le mauvais élève.
+
+1. Recherchez une équipe ou un élève disposant d&#39;une soumission.
+
+1. Sélectionnez **Annuler l&#39;envoi**.
+
+   ![Option d&#39;annulation de l&#39;envoi](assets/Group-Team-submission-and-rubric-based-assessments-image43.png "option d&#39;annulation de l&#39;envoi")
+
+1. Saisissez vos commentaires, puis sélectionnez **Annuler l&#39;envoi**.
+
+   ![Annuler l’envoi de la boîte de dialogue avec un champ de remarques](assets/Group-Team-submission-and-rubric-based-assessments-image44.png "Annuler l’envoi")
+
+L&#39;envoi est supprimé et l&#39;état revient à **Envoi en attente**. L’équipe se déverrouille pour que vous puissiez modifier ses membres. Les membres de l’équipe reçoivent une notification et un e-mail. Tout membre peut alors soumettre à nouveau le document, et le nouveau fichier remplace le précédent. La nouvelle évaluation remplace l&#39;évaluation précédente et aucun historique n&#39;est conservé.
+
+Une fois le cours terminé pour un membre de l’équipe, vous ne pouvez pas annuler l’envoi, car l’achèvement est irréversible.

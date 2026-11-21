@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Créateur d’e-mails basé sur des composants
 description: Créez votre adresse e-mail en fonction des différents composants disponibles.
 contentowner: mmanuel
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3470'
 ht-degree: 2%
-
 ---
-
 
 ## Créateur d’e-mails basé sur des composants
 
@@ -84,7 +82,7 @@ Le conteneur d’e-mails est l’enveloppe externe de chaque e-mail. Ses paramè
 
    ![](assets/email_builder_0004.png)
 
-   * **Espacement des lignes :** l&#39;écart vertical appliqué entre toutes les lignes de la disposition
+   * **espacement de ligne :** l&#39;écart vertical entre toutes les lignes de la disposition
 
    ![](assets/email_builder_0005.png)
 
@@ -230,7 +228,30 @@ Configurez les éléments suivants :
 
 3. Sélectionnez **Enregistrer**.
 
-## Ajout et configuration de composants individuels
+## Options de formatage d’Email Builder
+
+Recherchez les options de police, de couleur, de ligne et de bouton que vous pouvez définir dans Adobe Learning Manager Email Builder et la manière dont les remplacements de formatage s’appliquent.
+
+Utilisez ces options pour mettre en forme l’intégralité d’un e-mail, des lignes individuelles, du contenu dynamique et des boutons.
+
+### Options de formatage des e-mails
+
+| **Option** | **S&#39;applique à** | **Ce que vous pouvez définir** |
+|----|----|----|
+| Propriétés au niveau de l’e-mail | L’e-mail complet | Famille de polices, taille de police, couleur d’arrière-plan et style du conteneur |
+| Propriétés au niveau de la ligne | Chaque ligne, stylisée indépendamment | Style qui met en évidence les sections de l’annonce, différencie les zones d’appel à l’action ou met l’accent sur les informations importantes |
+| Contenu dynamique | Sections de contenu dynamique | Formatage qui hérite du conteneur parent |
+| Boutons | Boutons d’action | Texte, style et aspect visuel du bouton |
+
+### Priorité de formatage
+
+Le formatage défini à un niveau inférieur remplace le formatage défini à un niveau supérieur. Par exemple, une modification apportée à un modèle de cours remplace la valeur par défaut définie par un administrateur dans le modèle de compte.
+
+| **Niveau** | **Utilisation standard** | **Remplacé par** |
+|----|----|----|
+| Modèle de compte | Polices et couleurs par défaut pour l’ensemble du compte | Modèles de cours et d’instance |
+| Modèle de cours | Modifications spécifiques à un cours | Modèle d’instance |
+| Modèle d’instance | Modifications spécifiques à la cohorte, à la session ou à la région | Rien, car il s’agit du niveau de personnalisation le plus élevé |
 
 ### Composant de texte
 
@@ -249,7 +270,7 @@ Le composant de texte prend en charge l’édition de texte enrichi complet.
    * **Exposant** et **Indice**
    * **Couleur du texte** et **Couleur d&#39;arrière-plan** (surbrillance du texte)
    * **Alignement :** à gauche, au centre, à droite ou justifier
-   * **Interligne :** multiplicateur de hauteur de ligne
+   * **espacement de ligne :** multiplicateur d&#39;height de ligne
    * **Remplissage horizontal et vertical :** espacement interne dans le bloc de texte
 5. Pour ajouter un hyperlien :
    * Sélectionnez le texte à lier
@@ -274,11 +295,11 @@ Le composant de texte prend en charge l’édition de texte enrichi complet.
    * **Type de bordure :** définit le style de la bordure de l&#39;image. Les options disponibles sont les suivantes : Aucun, Continu et Pointillé.
    * **Couleur de la bordure :** définit la couleur de la bordure de l&#39;image lorsqu&#39;un style de bordure est appliqué.
    * **Rayon :** contrôle l&#39;arrondi des angles de l&#39;image. Des valeurs élevées créent des angles plus arrondis.
-   * **Ligne de bordure :** ajuste l&#39;épaisseur (largeur) de la bordure de l&#39;image.
+   * **Ligne de bordure :** ajuste le thickness (la largeur) de la bordure de l&#39;image.
    * **Espacement supérieur :** ajoute de l&#39;espace au-dessus de l&#39;image.
    * **Espacement inférieur :** ajoute de l&#39;espace sous l&#39;image.
-   * **Espacement à gauche :** ajoute de l&#39;espace à gauche de l&#39;image.
-   * **Espacement à droite :** ajoute de l&#39;espace à droite de l&#39;image.
+   * **Espacement gauche :** ajoute de l&#39;espace à gauche de l&#39;image.
+   * **Espacement droit :** ajoute de l&#39;espace à droite de l&#39;image.
    * **Alignement horizontal :** détermine la position de l&#39;image dans son conteneur. Les options incluent généralement l’alignement à gauche, au centre et à droite.
 
 ### Composant Button
@@ -293,7 +314,7 @@ Le composant de texte prend en charge l’édition de texte enrichi complet.
    * **Police :** famille et taille de police pour l’étiquette du bouton
    * **Couleur du texte :** couleur du libellé
    * **Couleur d&#39;arrière-plan :** couleur de remplissage du bouton
-   * **Taille :** largeur et hauteur du bouton
+   * **Taille :** largeur et height du bouton
    * **Style d&#39;angle :** arrondi, carré ou circulaire
    * **Alignement :** à gauche, au centre ou à droite dans la colonne
    * **Remplissage :** espacement interne entre le texte de l&#39;étiquette et les bords du bouton
@@ -303,11 +324,11 @@ Le composant de texte prend en charge l’édition de texte enrichi complet.
 **Séparateur :** ajoute une ligne horizontale visible entre les sections de contenu.
 
 1. Faites glisser un composant **Diviseur** dans une colonne.
-2. Définissez le **style de ligne** (continu, en pointillés, en pointillés), la **couleur**, la **largeur** et la **hauteur** (espace vertical au-dessus et au-dessous de la ligne) dans le panneau Propriétés.
+2. Définissez le **style de ligne** (continu, en pointillés, en pointillés), la **couleur**, la **largeur** et l&#39;**Height** (espace vertical au-dessus et au-dessous de la ligne) dans le panneau Propriétés.
 
    **Espaceur :** ajoute un espace vertical invisible entre les éléments sans ligne visible.
 
-3. Faites glisser un composant d&#39;**espacement** et définissez sa **hauteur** dans le panneau Propriétés.
+3. Faites glisser un composant d&#39;**espacement** et définissez son **Height** dans le panneau Propriétés.
 
 ## Insertion et gestion de variables
 
@@ -526,7 +547,7 @@ Chaque version linguistique est stockée indépendamment. La modification d’un
 
 1. Sélectionnez **Aperçu** dans la barre d&#39;outils de l&#39;éditeur.
 2. Un aperçu s’ouvre et affiche l’e-mail tel qu’il apparaîtra aux destinataires.
-3. Vérifiez la mise en page, l’espacement, les images et les jetons d’espace réservé variables.
+3. Vérifiez la mise en page, l’espacement, les images et les jetons d’espace réservé de variable.
 4. Fermez l’aperçu pour continuer les modifications.
 
 ## Rétrocompatibilité
@@ -549,7 +570,7 @@ Le modèle a été dissocié. Pour confirmer et corriger :
 
 1. Ouvrez le modèle.
 2. Si l&#39;en-tête et le pied de page sont **modifiables** (non grisés), le modèle est dissocié.
-3. Pour restaurer l&#39;héritage de la mise en page globale, sélectionnez **Rétablir l&#39;original** et confirmez.
+3. Pour restaurer l&#39;héritage global de la mise en page, sélectionnez **Revenir à l&#39;original** et confirmez.
 
 **Un modèle est différent de la disposition globale**
 
