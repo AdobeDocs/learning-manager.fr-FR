@@ -428,5 +428,5 @@ Vérifiez que le lien d’aperçu public est activé, que le contenu est SCORM 1
 **Liens associés :**
 
 * [Gestion du contenu dans la bibliothèque de contenu](/help/migrated/authors/feature-summary/content-library.md)
-* [Documentation Adobe Admin Console](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Documentation Adobe Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Documentation Adobe Admin Console](https://experienceleague.adobe.com/fr/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Documentation Adobe Experience Manager Assets](https://experienceleague.adobe.com/fr/docs/experience-manager-learn/assets/overview)
