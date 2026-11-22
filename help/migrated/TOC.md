@@ -3,9 +3,9 @@ user-guide-title: Guide Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentation pour Adobe Learning Manager
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1946'
 ht-degree: 32%
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 32%
     * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
     * [Guide d’utilisation des webhooks](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
     * [Événements de webhook pour les modifications d’instance LO par les instructeurs](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
-    * [Suivi de l’achèvement de Go1 avec webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
+    * Suivi de l’achèvement de [Go1 avec webhooks](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
   * [Credly](integration-admin/feature-summary/credly-integration.md)
   * [Interopérabilité des outils d’apprentissage](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
   * [Liens profonds LTI](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)
@@ -305,7 +305,6 @@ ht-degree: 32%
   * [Paramètres](authors/feature-summary/settings.md)
 * L’instructeur {#instructor}
   * [Modules](/help/migrated/instructors/feature-summary/modules.md)
-  * [Évaluer et annuler l’envoi d’une soumission d’équipe](/help/migrated/instructors/feature-summary/learners.md)
   * [Gestion des élèves pour votre session](instructors/feature-summary/learners.md)
   * [Renvoyer l’invitation à la session](instructors/feature-summary/resend-session-invite.md)
 * Gestion {#learner}
@@ -443,7 +442,7 @@ ht-degree: 32%
 * Signaler les modifications {#reporting-changes}
   * [Rapports sur les modifications de la version d’août 2026](/help/migrated/reporting-changes-august-2026.md)
 * Base de connaissances {#knowledge-base}
-  * [Guide de dépannage pour Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Guide de dépannage pour Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
   * [Impossible de se connecter à Learning Manager](kb/unable-log-in-learning-manager.md)
   * [Le Résumé de l’apprentissage n’affiche pas les données actuelles](kb/learning-summary-not-display-data.md)
   * [Impossible de charger un fichier CSV](kb/unable-to-upload-csv.md)
