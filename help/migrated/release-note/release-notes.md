@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 078d9e7c6d0422027818541965135865cc761c20
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '39568'
+source-wordcount: '39583'
 ht-degree: 56%
 ---
 # Notes de mise à jour de Adobe Learning Manager
@@ -37,25 +37,41 @@ Live Hub prend désormais en charge les sessions de 5 000 participants maximum, 
 
 ## Fonctionnalités de cette version
 
-**Graphiques et tableaux de bord de Report Builder :** les administrateurs peuvent désormais visualiser les données de rapport dans Report Builder. Créez des graphiques en grand nombre, linéaires, à barres et en secteurs, ainsi que des tableaux croisés dynamiques à partir de colonnes de rapport, avec agrégation et filtrage dans chaque graphique. Un tableau de bord de rapports contient des graphiques créés à partir d&#39;un rapport. Un tableau de bord personnalisé combine les graphiques de plusieurs rapports et prend en charge jusqu’à 20 widgets. Les graphiques appartenant à un rapport sont partagés lorsque vous partagez le rapport. Impossible d’exporter les tableaux de bord. [En savoir plus](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+**Graphiques et tableaux de bord de Report Builder :** les administrateurs peuvent désormais visualiser les données de rapport dans Report Builder. Créez des graphiques en grand nombre, linéaires, à barres et en secteurs, ainsi que des tableaux croisés dynamiques à partir de colonnes de rapport, avec agrégation et filtrage dans chaque graphique. Un tableau de bord de rapports contient des graphiques créés à partir d&#39;un rapport. Un tableau de bord personnalisé combine les graphiques de plusieurs rapports et prend en charge jusqu’à 20 widgets. Les graphiques appartenant à un rapport sont partagés lorsque vous partagez le rapport. Impossible d’exporter les tableaux de bord.
 
-**Rapports Insights Agent dans Report Builder :** les administrateurs peuvent ouvrir, réviser, modifier et enregistrer une réponse Insights Agent en tant que rapport de Report Builder, puis utiliser des fonctionnalités de Report Builder telles que les abonnements. Si une partie d’une question ne peut pas être exprimée avec des champs de Report Builder, le rapport répertorie cette partie comme une lacune.[En savoir plus](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+[En savoir plus](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 
-**Intégration d&#39;Adobe Experience Manager Assets :** les auteurs peuvent parcourir et sélectionner du contenu d&#39;apprentissage et des ressources d&#39;image approuvés depuis Experience Manager Assets sans quitter Adobe Learning Manager. Lorsqu’un actif change dans le gestionnaire d’actifs numériques, la mise à jour peut être répercutée dans les cours qui l’utilisent. Les auteurs ne voient que les ressources auxquelles ils ont déjà accès dans Experience Manager Assets.[En savoir plus](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+**Rapports Insights Agent dans Report Builder :** les administrateurs peuvent ouvrir, réviser, modifier et enregistrer une réponse Insights Agent en tant que rapport de Report Builder, puis utiliser des fonctionnalités de Report Builder telles que les abonnements. Si une partie d’une question ne peut pas être exprimée avec des champs de Report Builder, le rapport répertorie cette partie comme une lacune.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
+
+**Intégration d&#39;Adobe Experience Manager Assets :** les auteurs peuvent parcourir et sélectionner du contenu d&#39;apprentissage et des ressources d&#39;image approuvés depuis Experience Manager Assets sans quitter Adobe Learning Manager. Lorsqu’un actif change dans le gestionnaire d’actifs numériques, la mise à jour peut être répercutée dans les cours qui l’utilisent. Les auteurs ne voient que les ressources auxquelles ils ont déjà accès dans Experience Manager Assets.
+
+[En savoir plus](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 **Améliorations de l&#39;envoi de fichiers :** les modules d&#39;envoi de fichiers prennent désormais en charge les éléments suivants :
 
 * **Soumissions d&#39;équipe :** les instructeurs créent des équipes comptant jusqu&#39;à 100 membres. Chaque équipe soumet un fichier, et l’évaluation de l’instructeur s’applique à chaque membre. Les instructeurs gèrent les équipes sur la nouvelle page **Gestion des équipes**.
+
+  [En savoir plus](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 * **Évaluations du plan d&#39;évaluation :** les auteurs définissent un plan d&#39;évaluation, avec des questions objectives comportant des options notées et des questions subjectives ayant fait l&#39;objet d&#39;une révision par écrit. Un plan d&#39;évaluation peut contenir jusqu&#39;à 100 questions.
+
 * **Approbation de l&#39;instructeur ou achèvement automatique :** les auteurs choisissent si une soumission nécessite l&#39;approbation de l&#39;instructeur ou est terminée automatiquement. Ce paramètre est indépendant du plan d’évaluation.
 
-[En savoir plus]
+[En savoir plus](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
-**Serveur de protocole de contexte de modèle pour l&#39;Assistant Élève :** les élèves peuvent accéder à Learning Manager à partir d&#39;outils qu&#39;ils utilisent déjà, tels que ChatGPT, Claude et des agents personnalisés, via un serveur MCP (Model Context Protocol). Les administrateurs configurent le serveur dans l’application Administrateur d’intégration. Elle fournit des fonctionnalités de recherche, de liste des inscriptions, d’obtention d’objet d’apprentissage, d’obtention de profil utilisateur, de réponse aux questions sur le contenu d’apprentissage et d’obtention de parcours d’apprentissage personnalisé. [En savoir plus](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+**Serveur de protocole de contexte de modèle pour l&#39;Assistant Élève :** les élèves peuvent accéder à Learning Manager à partir d&#39;outils qu&#39;ils utilisent déjà, tels que ChatGPT, Claude et des agents personnalisés, via un serveur MCP (Model Context Protocol). Les administrateurs configurent le serveur dans l’application Administrateur d’intégration. Elle fournit des fonctionnalités de recherche, de liste des inscriptions, d’obtention d’objet d’apprentissage, d’obtention de profil utilisateur, de réponse aux questions sur le contenu d’apprentissage et d’obtention de parcours d’apprentissage personnalisé.
 
-**Email Builder pour les cours et les instances :** l’expérience complète d’Email Builder est désormais disponible pour les e-mails au niveau du cours et de l’instance. Les administrateurs définissent les mises en page et les modèles de compte, et les auteurs personnalisent les e-mails des cours et des instances tout en héritant de la mise en page et du formatage. Un modèle est lié à la mise en page disponible la plus proche et vous pouvez dissocier un modèle pour le modifier indépendamment. Les paramètres de **bannière** et de **signature** sont passés de l&#39;onglet **Paramètres**, qui a été supprimé, à la **Disposition globale**. Si Email Builder est déjà activé pour votre compte, vous recevez automatiquement ces modifications. [En savoir plus](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+[En savoir plus](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-**Intégration de l&#39;Explorateur d&#39;examens sécurisé pour les quiz :** les administrateurs peuvent activer l&#39;intégration au niveau du compte et charger un fichier de configuration de l&#39;Explorateur d&#39;examens sécurisé (.seb) pour définir les restrictions d&#39;évaluation. Les auteurs choisissent les quiz nécessitant Safe Exam Browser. Les élèves qui tentent un tel quiz sont invités à lancer, ou à télécharger, l&#39;Explorateur d&#39;examens sécurisé. [En savoir plus](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
+**Email Builder pour les cours et les instances :** l’expérience complète d’Email Builder est désormais disponible pour les e-mails au niveau du cours et de l’instance. Les administrateurs définissent les mises en page et les modèles de compte, et les auteurs personnalisent les e-mails des cours et des instances tout en héritant de la mise en page et du formatage. Un modèle est lié à la mise en page disponible la plus proche et vous pouvez dissocier un modèle pour le modifier indépendamment. Les paramètres de **bannière** et de **signature** sont passés de l&#39;onglet **Paramètres**, qui a été supprimé, à la **Disposition globale**. Si Email Builder est déjà activé pour votre compte, vous recevez automatiquement ces modifications.
+
+[En savoir plus](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**Intégration de l&#39;Explorateur d&#39;examens sécurisé pour les quiz :** les administrateurs peuvent activer l&#39;intégration au niveau du compte et charger un fichier de configuration de l&#39;Explorateur d&#39;examens sécurisé (.seb) pour définir les restrictions d&#39;évaluation. Les auteurs choisissent les quiz nécessitant Safe Exam Browser. Les élèves qui tentent un tel quiz sont invités à lancer, ou à télécharger, l&#39;Explorateur d&#39;examens sécurisé.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 **Améliorations hors connexion :** Learning Manager permet désormais un accès contrôlé au contenu d’apprentissage sans que les utilisateurs aient à se connecter.
 
@@ -67,66 +83,129 @@ Live Hub prend désormais en charge les sessions de 5 000 participants maximum, 
 >
 >La documentation de cette fonctionnalité sera disponible sous peu.
 
-**Coach virtuel :** Virtual Coach est une solution de coaching et de jeu de rôle basée sur l&#39;IA qui permet aux élèves de s&#39;entraîner à des conversations réalistes en milieu de travail. Il prend en charge neuf langues et peut être utilisé comme aide à la tâche autonome ou intégré à un cours. [En savoir plus](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+**Coach virtuel :** Virtual Coach est une solution de coaching et de jeu de rôle basée sur l&#39;IA qui permet aux élèves de s&#39;entraîner à des conversations réalistes en milieu de travail. Il prend en charge neuf langues et peut être utilisé comme aide à la tâche autonome ou intégré à un cours.
 
-**Live Hub :** Live Hub est désormais généralement disponible pour les clients Ultimate et reste en version bêta pour les clients Prime. [En savoir plus](../administrators/feature-summary/billing-management.md)
+[En savoir plus](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
-**Prise en charge de 5 000 participants maximum dans Live Hub** : les auteurs peuvent désormais sélectionner une capacité maximale de 5 000 participants lors de l’ajout d’un module de salle de classe virtuelle. Pour les sessions volumineuses, l’accès aux caméras, le partage d’écran et les fonctionnalités du tableau blanc sont réservés aux instructeurs. Les salles de petits groupes ne sont pas disponibles pour ces séances. [En savoir plus](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+**Live Hub :** Live Hub est désormais généralement disponible pour les clients Ultimate et reste en version bêta pour les clients Prime.
 
-**Sous-titres multilingues dans le hub en direct** : les instructeurs peuvent désormais sélectionner la langue des sous-titres dans les **paramètres de la salle**. Tous les participants affichent les légendes dans la langue sélectionnée par l’instructeur. [En savoir plus](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+[En savoir plus](../administrators/feature-summary/billing-management.md)
 
-**Réservation d&#39;inscription de groupe et gestion des listes d&#39;attente :** les auteurs peuvent allouer des places dans les cours en salle de classe et en salle de classe virtuelle à des groupes d&#39;utilisateurs spécifiques, définir des dates d&#39;ouverture d&#39;inscription distinctes pour ces groupes et pour tous les autres élèves et activer la promotion automatique des listes d&#39;attente avec une date limite. [En savoir plus](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+**Prise en charge de 5 000 participants maximum dans Live Hub** : les auteurs peuvent désormais sélectionner une capacité maximale de 5 000 participants lors de l’ajout d’un module de salle de classe virtuelle. Pour les sessions volumineuses, l’accès aux caméras, le partage d’écran et les fonctionnalités du tableau blanc sont réservés aux instructeurs. Les salles de petits groupes ne sont pas disponibles pour ces séances.
 
-**Prise en charge de plusieurs connexions Zoom :** les administrateurs d’intégration peuvent configurer plusieurs connexions Zoom dans un seul compte et les affecter à des rôles ou des groupes d’utilisateurs spécifiques. Les auteurs sélectionnent une connexion parmi celles qui leur sont disponibles lorsqu’ils créent ou modifient une session. [En savoir plus](../integration-admin/feature-summary/zoom-connector.md)
+[En savoir plus](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
-**Canaux :** les canaux sont généralement disponibles pour tous les clients. [En savoir plus](../administrators/feature-summary/create-channels.md)
+**Sous-titres multilingues dans le hub en direct** : les instructeurs peuvent désormais sélectionner la langue des sous-titres dans les **paramètres de la salle**. Tous les participants affichent les légendes dans la langue sélectionnée par l’instructeur.
+
+[En savoir plus](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
+**Réservation d&#39;inscription de groupe et gestion des listes d&#39;attente :** les auteurs peuvent allouer des places dans les cours en salle de classe et en salle de classe virtuelle à des groupes d&#39;utilisateurs spécifiques, définir des dates d&#39;ouverture d&#39;inscription distinctes pour ces groupes et pour tous les autres élèves et activer la promotion automatique des listes d&#39;attente avec une date limite.
+
+[En savoir plus](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+
+**Prise en charge de plusieurs connexions Zoom :** les administrateurs d’intégration peuvent configurer plusieurs connexions Zoom dans un seul compte et les affecter à des rôles ou des groupes d’utilisateurs spécifiques. Les auteurs sélectionnent une connexion parmi celles qui leur sont disponibles lorsqu’ils créent ou modifient une session.
+
+[En savoir plus](../integration-admin/feature-summary/zoom-connector.md)
+
+**Canaux :** les canaux sont généralement disponibles pour tous les clients.
+
+[En savoir plus](../administrators/feature-summary/create-channels.md)
 
 ## Améliorations de cette version
 
-**Modification personnalisée du parcours d’apprentissage et bandes de marque :** les élèves peuvent supprimer les rubriques ou les cours suggérés en une seule étape. Les administrateurs peuvent repositionner la bande Parcours d’apprentissage personnalisés sur la page d’accueil des élèves via la page **Identité visuelle**. [En savoir plus](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
+**Modification personnalisée du parcours d’apprentissage et bandes de marque :** les élèves peuvent supprimer les rubriques ou les cours suggérés en une seule étape. Les administrateurs peuvent repositionner la bande Parcours d’apprentissage personnalisés sur la page d’accueil des élèves via la page **Identité visuelle**.
 
-**Citations du parcours d’apprentissage dans l’assistant Élève :** les réponses citent désormais le parcours d’apprentissage qui contient un cours source, ainsi que le cours. Les réponses tirées d’une assistance à la tâche incluent un lien de téléchargement. [En savoir plus](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+[En savoir plus](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
-**Configurations de l&#39;assistant AI :** l&#39;assistant administrateur propose deux agents, Insights Agent et Knowledge Agent. L’assistant de l’élève propose trois agents : Agent de connaissances, Agent de réponse et Agent du parcours d’apprentissage. Vous pouvez configurer chaque agent individuellement. [En savoir plus](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+**Citations du parcours d’apprentissage dans l’assistant Élève :** les réponses citent désormais le parcours d’apprentissage qui contient un cours source, ainsi que le cours. Les réponses tirées d’une assistance à la tâche incluent un lien de téléchargement.
 
-**Renvoyer les invitations à une session de classe virtuelle :** les administrateurs avec l’autorisation de modification de cours peuvent renvoyer une invitation à une session à partir de la page d’instance. L’option est disponible pour les sessions actuelles et futures. [En savoir plus](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+[En savoir plus](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
 
-**Participation automatique à partir des vues d&#39;enregistrement Adobe Connect :** Learning Manager marque la participation lorsqu&#39;un élève lit l&#39;enregistrement d&#39;une session de classe virtuelle manquée. Une intégration planifiée compare le temps de visionnage réel avec les critères d’achèvement définis pour le compte. [En savoir plus](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
+**Configurations de l&#39;assistant AI :** l&#39;assistant administrateur propose deux agents, Insights Agent et Knowledge Agent. L’assistant de l’élève propose trois agents : Agent de connaissances, Agent de réponse et Agent du parcours d’apprentissage. Vous pouvez configurer chaque agent individuellement.
+
+[En savoir plus](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
+
+**Renvoyer les invitations à une session de classe virtuelle :** les administrateurs avec l’autorisation de modification de cours peuvent renvoyer une invitation à une session à partir de la page d’instance. L’option est disponible pour les sessions actuelles et futures.
+
+[En savoir plus](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
+**Participation automatique à partir des vues d&#39;enregistrement Adobe Connect :** Learning Manager marque la participation lorsqu&#39;un élève lit l&#39;enregistrement d&#39;une session de classe virtuelle manquée. Une intégration planifiée compare le temps de visionnage réel avec les critères d’achèvement définis pour le compte.
+
+[En savoir plus](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 **Modifications des en-têtes de colonne dans les rapports de Report Builder téléchargés :** Les en-têtes de colonne par défaut dans les rapports de Report Builder téléchargés incluent désormais le nom du jeu de données. Par exemple, **Nom** du jeu de données de l’objet d’apprentissage apparaît sous la forme **Objet d’apprentissage - Nom**. Pour les colonnes agrégées, l&#39;en-tête inclut également la fonction, telle que **Nombre d&#39;objets d&#39;apprentissage - ID**. Les titres qui utilisent un nom personnalisé dans le champ **Alias** restent inchangés.
 
-**Cours avec inscriptions multiples dans le widget de conformité :** Le widget de conformité répertorie chaque instance d&#39;un cours avec inscriptions multiples qu&#39;un élève doit suivre. Si une instance a une échéance, les instances sans échéance sont masquées. [En savoir plus](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
+**Cours avec inscriptions multiples dans le widget de conformité :** Le widget de conformité répertorie chaque instance d&#39;un cours avec inscriptions multiples qu&#39;un élève doit suivre. Si une instance a une échéance, les instances sans échéance sont masquées.
 
-**Classement de la pertinence dans la recherche du catalogue de l&#39;administrateur :** la recherche du catalogue dans la vue Administrateur classe les résultats par pertinence. Les correspondances exactes apparaissent en premier, suivies des correspondances partielles. [En savoir plus](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
+[En savoir plus](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
 
-**Retirer un cours sans rendre un parcours d’apprentissage inaccessible :** un cours retiré ou un parcours d’apprentissage imbriqué est supprimé de l’objet d’apprentissage de niveau supérieur, qui reste ouvert pour les nouvelles inscriptions.  [En savoir plus](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+**Classement de la pertinence dans la recherche du catalogue de l&#39;administrateur :** la recherche du catalogue dans la vue Administrateur classe les résultats par pertinence. Les correspondances exactes apparaissent en premier, suivies des correspondances partielles.
 
-**Synchronisation des annulations de session à partir d’Adobe Workfront :** les sessions annulées dans Adobe Workfront sont transférées vers Learning Manager via la migration. La migration ajoute une colonne facultative **État** qui accepte **Actif** ou **Annulé**. [En savoir plus](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+[En savoir plus](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
-**Limite de caractères pour les prénoms :** Le champ de prénom accepte désormais jusqu&#39;à 255 caractères, contre 63 auparavant. Cette limite s’applique aux utilisateurs ajoutés dans l’interface, via l’importation CSV, lors de l’auto-inscription et en tant qu’utilisateurs externes. Les utilisateurs existants ne sont pas affectés. Les noms longs sont raccourcis dans les cellules de tableau, les éléments de liste déroulante et les résultats de recherche. Survolez un nom abrégé pour l’afficher dans son intégralité. [En savoir plus](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+**Retirer un cours sans rendre un parcours d’apprentissage inaccessible :** un cours retiré ou un parcours d’apprentissage imbriqué est supprimé de l’objet d’apprentissage de niveau supérieur, qui reste ouvert pour les nouvelles inscriptions.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+
+**Synchronisation des annulations de session à partir d’Adobe Workfront :** les sessions annulées dans Adobe Workfront sont transférées vers Learning Manager via la migration. La migration ajoute une colonne facultative **État** qui accepte **Actif** ou **Annulé**.
+
+[En savoir plus](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+
+**Limite de caractères pour les prénoms :** Le champ de prénom accepte désormais jusqu&#39;à 255 caractères, contre 63 auparavant. Cette limite s’applique aux utilisateurs ajoutés dans l’interface, via l’importation CSV, lors de l’auto-inscription et en tant qu’utilisateurs externes. Les utilisateurs existants ne sont pas affectés. Les noms longs sont raccourcis dans les cellules de tableau, les éléments de liste déroulante et les résultats de recherche. Survolez un nom abrégé pour l’afficher dans son intégralité.
+
+[En savoir plus](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
 
 **Interface Live Hub et lecteur d&#39;enregistrement localisés** : Live Hub affiche désormais son interface dans la langue sélectionnée pour Adobe Learning Manager, prenant en charge les mêmes 18 langues. Le lecteur d’enregistrement est localisé en fonction de la langue du cours.
 
-**Informations de badge pour les cours et les parcours d’apprentissage :** lorsque les auteurs ajoutent un cours ou un parcours d’apprentissage, la fenêtre répertorie les cours et parcours d’apprentissage existants avec les informations de badge, l’état de la publication et le format du cours. [En savoir plus](/help/migrated/authors/feature-summary/create-learning-path.md)
+**Informations de badge pour les cours et les parcours d’apprentissage :** lorsque les auteurs ajoutent un cours ou un parcours d’apprentissage, la fenêtre répertorie les cours et parcours d’apprentissage existants avec les informations de badge, l’état de la publication et le format du cours.
 
-**URL de page non connectée pour les profils d’auto-inscription :** chaque profil d’auto-inscription peut avoir sa propre URL de menu non connectée partageable, intégrée à Experience Builder. Les utilisateurs qui sélectionnent **S&#39;abonner** à partir de cette URL sont ajoutés au profil auquel ils appartiennent. [En savoir plus](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+[En savoir plus](/help/migrated/authors/feature-summary/create-learning-path.md)
+
+**URL de page non connectée pour les profils d’auto-inscription :** chaque profil d’auto-inscription peut avoir sa propre URL de menu non connectée partageable, intégrée à Experience Builder. Les utilisateurs qui sélectionnent **S&#39;abonner** à partir de cette URL sont ajoutés au profil auquel ils appartiennent.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
 **Attributs d’élève personnalisés dans l’interopérabilité des outils d’apprentissage :** Learning Manager lit les attributs d’élève personnalisés via le point de terminaison facultatif Noms et services de provisionnement de rôle et à partir de la demande de lancement. Certains systèmes d’apprentissage, tels que Moodle, ne prennent pas en charge ce point de terminaison.
 
-**Notifications des instructeurs du forum de discussion :** les clients sans tête peuvent envoyer aux instructeurs et aux responsables de cohorte un résumé de l&#39;activité du forum de discussion via l&#39;API. [En savoir plus](/help/migrated/discussion-board-instructor-notifications.md)
+[En savoir plus](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
-**Webhooks pour les modifications d&#39;instructeur apportées aux instances d&#39;objets d&#39;apprentissage :** Le webhook de modification d&#39;instance d&#39;objet d&#39;apprentissage se déclenche désormais également lorsqu&#39;un instructeur modifie une session de classe virtuelle. [En savoir plus](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+**Notifications des instructeurs du forum de discussion :** les clients sans tête peuvent envoyer aux instructeurs et aux responsables de cohorte un résumé de l&#39;activité du forum de discussion via l&#39;API.
 
-**Date de dernier accès pour les inscriptions au parcours d’apprentissage :** vous pouvez joindre des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription au parcours d’apprentissage via l’API. [En savoir plus](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
+[En savoir plus](/help/migrated/discussion-board-instructor-notifications.md)
+
+**Webhooks pour les modifications d&#39;instructeur apportées aux instances d&#39;objets d&#39;apprentissage :** Le webhook de modification d&#39;instance d&#39;objet d&#39;apprentissage se déclenche désormais également lorsqu&#39;un instructeur modifie une session de classe virtuelle.
+
+[En savoir plus](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
+**Date de dernier accès pour les inscriptions au parcours d’apprentissage :** vous pouvez joindre des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription au parcours d’apprentissage via l’API.
+
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## Modifications de l’API
 
 * **Commande de l&#39;API de signets et gestion du contenu retiré :** les signets sont désormais renvoyés en premier et les signets vers les objets d&#39;apprentissage retirés ne sont plus renvoyés. Aucun point de terminaison, paramètre ou attribut de réponse n’est ajouté.
+
+  [En savoir plus](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 * **API pour les forums de discussion Notifications de l&#39;instructeur :** les nouvelles API abonnent les instructeurs et les responsables de cohorte aux forums de discussion et contrôlent l&#39;activité qui apparaît dans leurs e-mails de résumé.
+
+  [En savoir plus](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 * **Prise en charge de l&#39;API pour les instances multi-inscrites dans l&#39;application de l&#39;élève :** Ajoutez le paramètre facultatif `includeMultiInstanceEnrollments=true` à `GET /enrollments` pour inclure les instances multi-inscrites. La valeur par défaut est `false`.
+
+  [En savoir plus](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
+
 * **Date de dernier accès pour l’inscription aux parcours d’apprentissage :** définissez des métadonnées personnalisées pour une inscription à un parcours d’apprentissage avec un jeton d’administration. Lisez-le avec un jeton d’administrateur ou d’élève.
+
+  [En savoir plus](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 * **Type de tâche API de tâche pour les exportations de Report Builder :** Le nouveau type de tâche `generateCustomReport` exporte un rapport de Report Builder enregistré par ID de rapport. Les types de travaux existants, y compris `generateQuizReport`, sont inchangés.
-* **API pour le connecteur Zoom :** les nouvelles API récupèrent et gèrent les connexions Zoom, enregistrent les informations d&#39;identification Zoom et définissent les groupes d&#39;utilisateurs et les rôles personnalisés qui peuvent utiliser une connexion. Les API utilisent l’authentification basée sur la session et nécessitent une connexion d’administrateur d’intégration. [En savoir plus](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
+
+  [En savoir plus](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
+
+* **API pour le connecteur Zoom :** les nouvelles API récupèrent et gèrent les connexions Zoom, enregistrent les informations d&#39;identification Zoom et définissent les groupes d&#39;utilisateurs et les rôles personnalisés qui peuvent utiliser une connexion. Les API utilisent l’authentification basée sur la session et nécessitent une connexion d’administrateur d’intégration.
+
+  [En savoir plus](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
 
 ## Modifications de dernière minute dans cette version
 

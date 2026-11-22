@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Lorsque l&#39;Assistant Élève répond à une question, il répertorie le conte
 
 Confirmez que le parcours d’apprentissage est pertinent pour la question et visible par l’élève dans le catalogue. L’assistant de l’élève n’affiche pas le contenu masqué pour l’élève.
 
-## Configuration des agents de l’assistant d’élève
+## Configuration des agents de l’assistant d’élève {#configure-la-agents}
 
 Activez ou désactivez chaque agent de l’assistant d’élève pour contrôler les fonctionnalités d’IA que vos élèves peuvent utiliser dans Adobe Learning Manager.
 

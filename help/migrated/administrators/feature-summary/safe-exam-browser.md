@@ -1,9 +1,9 @@
 ---
 title: Explorateur d’examens sécurisé
 description: Activez l’intégration de l’Explorateur d’examens sécurisé au niveau du compte dans Adobe Learning Manager afin que les auteurs puissent demander un environnement de navigateur sécurisé pour les quiz natifs.
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ Cet article explique comment activer l’intégration du navigateur Safe Exam po
 
 ## Activer l&#39;intégration de Safe Exam Browser
 
-Activez l’intégration du navigateur d’examen sécurisé pour rendre l’option disponible pour les auteurs lorsqu’ils configurent des quiz. Avant de commencer, assurez-vous que vous disposez du fichier Explorateur d’examens sécurisés pour votre compte.
+Configurez l&#39;intégration de Safe Exam Browser pour rendre l&#39;option disponible pour les auteurs lorsqu&#39;ils configurent des quiz. Avant de commencer, assurez-vous que vous disposez du fichier Explorateur d’examens sécurisés pour votre compte.
 
 Pour activer l&#39;intégration de Safe Exam Browser :
 
@@ -36,6 +36,8 @@ Pour activer l&#39;intégration de Safe Exam Browser :
 1. Sélectionnez **Enregistrer**.
 
    L’Explorateur d’examens sans échec est désormais disponible pour que les auteurs puissent l’activer lors de la configuration des questionnaires pris en charge.
+
+Consultez [Créer un cours avec SEB](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md) pour plus d&#39;informations sur la configuration de Safe Exam Browser en tant qu&#39;**auteur**.
 
 ### Configuration du fichier .seb pour macOS {#configure-the-seb-file-for-macos}
 

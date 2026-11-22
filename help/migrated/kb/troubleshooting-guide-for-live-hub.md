@@ -1,16 +1,16 @@
 ---
-title: Guide de dépannage pour Live Hub (Beta)
+title: Guide de dépannage pour Live Hub
 description: Messages d’erreur et notifications courants que vous pouvez rencontrer au cours d’une session Live Hub, leurs causes et les étapes à suivre pour les résoudre.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1070'
 ht-degree: 2%
 ---
 
-# Guide de dépannage pour Live Hub (Beta)
+# Guide de dépannage pour Live Hub
 
 Au cours d’une session Live Hub, les instructeurs peuvent rencontrer des messages d’erreur ou des notifications qui empêchent certaines actions de se dérouler comme prévu. Cet article décrit les erreurs courantes rencontrées par les instructeurs, leurs causes possibles et les étapes à suivre pour les résoudre.
 

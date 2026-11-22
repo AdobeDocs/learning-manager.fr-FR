@@ -3,7 +3,7 @@ description: Découvrez comment utiliser les paramètres d’abonnement au forum
 jcr-language: en_us
 title: Modifications apportées aux API en novembre 2026
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Modifications apportées aux API en décembre 2026
 
-## API pour les notifications des instructeurs des forums de discussion
+## API pour les notifications des instructeurs des forums de discussion {#api-discussion-board-instructors}
 
 Cet article décrit les nouvelles API qui prennent en charge les notifications des instructeurs des forums de discussion. Utilisez-les pour abonner des instructeurs et des gestionnaires de cohorte à des forums de discussion et pour contrôler quelle activité apparaît dans leurs courriels de résumé.
 
@@ -585,7 +585,7 @@ La réponse n&#39;a pas de corps.
 | 401 | Il manque des informations d&#39;identification valides à la demande ou l&#39;accès a été refusé en raison d&#39;informations d&#39;identification non valides. |
 | 404 | La ressource demandée, telle que le forum ou l&#39;abonnement, n&#39;a pas été trouvée. |
 
-## Commande d’API de signet et gestion du contenu retiré
+## Commande d’API de signet et gestion du contenu retiré {#bookmark-api-ordering-retired-content}
 
 ### Objectif de l’API
 
@@ -721,7 +721,7 @@ Un cas d’utilisation courant est une liste « Enregistré pour plus tard » da
 3. Supprimez tout filtrage de tri côté client ou de contenu retiré que vous avez ajouté comme solution de contournement.
 4. Afficher le nombre de signets en utilisant le nombre d’éléments de la réponse. Les signets vers les objets d&#39;apprentissage retirés ne sont plus inclus.
 
-### Prise en charge d’API pour les instances multi-inscrites dans le widget Conformité des élèves dans l’application Élève
+### Prise en charge d’API pour les instances multi-inscrites dans le widget Conformité des élèves dans l’application Élève {#api-multienrolled-instances-lc-widget}
 
 L’API publique prend en charge ce comportement via un paramètre de requête facultatif sur le point d’entrée des inscriptions existantes. Si vous omettez le paramètre, l’API renvoie les mêmes résultats qu’auparavant, de sorte que les intégrations existantes, y compris les implémentations sans en-tête, continuent de fonctionner sans modification.
 
@@ -1553,7 +1553,7 @@ vrai. False par défaut.
 
 &rbrace;
 
-## Date du dernier accès pour l’inscription au parcours d’apprentissage {#last-access-date-lp-enrollment}
+## Date du dernier accès pour l’inscription au parcours d’apprentissage {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager vous permet de stocker des métadonnées personnalisées, telles qu’une date de dernier accès, lors d’une inscription à un parcours d’apprentissage. Vous définissez et lisez les métadonnées via l’API. Cela vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
 
@@ -1638,7 +1638,7 @@ Les portails externes et les intégrations utilisent les mêmes appels API. Util
 * **Afficher la valeur dans votre portail :** Envoyez la demande de GET pour votre type de jeton à partir du tableau ci-dessus et lisez l&#39;objet `metadata` à partir de la réponse.
 * **Mettez à jour la valeur à partir d&#39;un système externe, tel qu&#39;une plateforme commerciale :** envoyez la demande du PATCH avec un jeton d&#39;administration.
 
-## API de tâche : exportation des rapports de Report Builder avec generateCustomReport
+## API de tâche : exportation des rapports de Report Builder avec generateCustomReport {#api-job-report-builder-exports}
 
 La version de décembre 2026 de Adobe Learning Manager ajoute un nouveau type de tâche, `generateCustomReport`, à l’API de tâche. Utilisez-le pour exporter automatiquement tout rapport que vous avez créé dans Report Builder en transmettant l’ID de rapport.
 

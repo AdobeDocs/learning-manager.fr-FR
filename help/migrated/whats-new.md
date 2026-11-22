@@ -6,10 +6,10 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 9f214ebfdf686375a53896b186deac31bbe1658c
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '4884'
-ht-degree: 1%
+source-wordcount: '4846'
+ht-degree: 2%
 ---
 
 >[!IMPORTANT]
@@ -70,6 +70,8 @@ Les instructeurs peuvent désormais créer des équipes pour les envois de fichi
 
 Les instructeurs gèrent les équipes sur une nouvelle page **Gestion des équipes** et examinent le travail sur une page de soumissions d&#39;équipe. Les instructeurs peuvent également annuler l’envoi d’une soumission approuvée pour déverrouiller l’équipe lorsque des modifications sont nécessaires, par exemple lorsqu’un membre de l’équipe quitte l’application. Une équipe peut accueillir jusqu’à 100 membres. Les élèves peuvent afficher leur équipe, ses membres et le résultat de l&#39;évaluation. Les modules d’équipe ne peuvent pas être ajoutés ou supprimés après la publication d’un cours.
 
+[En savoir plus](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 ### Évaluations basées sur des règles (plan d&#39;évaluation)
 
 Les auteurs peuvent désormais définir une rubrique, appelée Plan d&#39;évaluation, pour les modules de soumission de fichiers. Une rubrique prend en charge les questions objectives avec les options notées et les questions subjectives avec l&#39;examen écrit.
@@ -80,6 +82,8 @@ Les auteurs peuvent également configurer les paramètres suivants :
 * Indique si le score est un score global ou un score pour chaque critère
 
 Chaque question peut être marquée comme requise et configurée pour permettre aux réviseurs de formuler des remarques. Une évaluation basée sur une rubrique peut contenir jusqu’à 100 questions, et les auteurs saisissent les questions séparément pour chaque locale. Après la publication d’un cours, seul le texte de la question peut changer.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
 ### Approbation de l’instructeur ou achèvement automatique
 
@@ -123,25 +127,37 @@ Virtual Coach prend en charge neuf langues et peut être utilisé comme assistan
 
 Les réponses de l’assistant de l’élève citent désormais le parcours d’apprentissage qui contient un cours source, ainsi que le cours lui-même. Les élèves ouvrent la présentation du cours ou la page du parcours d’apprentissage à partir de la citation. Les réponses tirées d’une assistance à la tâche incluent un lien de téléchargement. Cela aide les élèves à trouver la formation qui répond à leur question.
 
+[En savoir plus](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+
 ## Configurations de l’assistant AI
 
 L’assistant administrateur propose deux agents : Insights Agent et Knowledge Agent. Ils peuvent être configurés individuellement. L’assistant de l’élève propose trois agents : Agent de connaissances, Agent de réponse et Agent du parcours d’apprentissage. Ils peuvent être configurés avec la configuration du catalogue.
+
+[En savoir plus](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
 
 ## Webhooks pour les modifications des instructeurs sur les instances d’objets d’apprentissage
 
 Le webhook de modification de l&#39;instance d&#39;objet d&#39;apprentissage se déclenche désormais lorsqu&#39;un instructeur modifie une session de classe virtuelle, en plus des modifications d&#39;administrateur et d&#39;auteur. Les modifications telles que les horaires de la session, le lieu et la limite d’inscription la déclenchent. Les clients sans en-tête peuvent ensuite récupérer les détails de la session via l’API publique et transmettre les mises à jour aux élèves.
 
+[En savoir plus](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
 ## Cours multi-inscrits dans le widget de conformité
 
 Le widget de conformité répertorie désormais chaque instance d’un cours à inscriptions multiples qu’un élève doit effectuer. Chaque entrée affiche le nom de l&#39;instance. Si une instance a une échéance, toute instance sans échéance est masquée. Le point de terminaison des inscriptions de l’API publique prend en charge le même comportement via un paramètre facultatif.
+
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ## Renvoyer les invitations à une session de classe virtuelle
 
 Les administrateurs disposant d’une autorisation de modification de cours peuvent désormais renvoyer une invitation à une session à partir de la page d’instance. Sélectionnez **Renvoyer**, recherchez l’élève et envoyez. L’option est disponible pour les sessions de classe virtuelle actuelles et futures. Pour les élèves dans plusieurs instances, l’invitation n’est envoyée qu’à l’instance sélectionnée. Les élèves qui ne sont pas inscrits à la session sont ignorés avec un avertissement.
 
+[En savoir plus](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
 ## Participation automatique à partir des vues d’enregistrement Adobe Connect
 
 Adobe Learning Manager marque désormais la présence lorsqu’un élève lit l’enregistrement d’une session de classe virtuelle manquée. Une intégration planifiée extrait les données du lecteur d’Adobe Connect et compare le temps de lecture avec les critères d’achèvement définis pour le compte. Les administrateurs définissent la planification dans l’application d’administration de l’intégration. Adobe Learning Manager ne prend en compte que la durée réelle de visionnage lors de la détermination de l’assiduité. Par conséquent, ignorer un enregistrement n’est pas pris en compte dans les critères d’achèvement.
+
+[En savoir plus](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 ## Email Builder pour les cours et les instances
 
@@ -160,8 +176,6 @@ Les administrateurs créent des modèles et des mises en page de courrier élect
 Les paramètres de bannière et de signature ont été déplacés. Auparavant, ces paramètres apparaissaient dans un onglet **Paramètres** distinct. Cet onglet est supprimé et la **bannière** et la **signature** apparaissent désormais dans la **disposition globale**.
 
 Avec Email Builder, vous pouvez ajouter des titres d’e-mail avec la variable Titre.
-
-[En savoir plus](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ### Fonctionnement de la hiérarchie d’Email Builder
 
@@ -202,17 +216,25 @@ Les administrateurs créent une mise en page de compte, créent un modèle de co
 
 Si Email Builder est déjà activé pour votre compte, vous recevez automatiquement les nouvelles modifications et n’avez rien à faire. La fonctionnalité de messagerie existante continue de fonctionner indépendamment des activités de migration d’Email Builder.
 
+[En savoir plus](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
 ## Attributs d’élève personnalisés dans l’interopérabilité des outils d’apprentissage
 
 Adobe Learning Manager lit désormais les attributs personnalisés de l’élève via le point de terminaison facultatif Noms et services de provisionnement des rôles de l’interopérabilité des outils d’apprentissage. Il les lit également à partir de la demande de lancement. Les attributs tels que le pays ou la ville sont stockés dans des champs de profil regroupables. Les paramètres de lancement nécessitent un préfixe permettant à Adobe Learning Manager de les reconnaître. Certains systèmes d’apprentissage, tels que Moodle, ne prennent pas en charge ce point de terminaison.
+
+[En savoir plus](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
 ## Notifications de l&#39;instructeur du forum de discussion
 
 Les clients sans en-tête peuvent désormais envoyer aux instructeurs et aux responsables de cohorte un résumé de l’activité du forum de discussion. À l’aide de l’API, vous ajoutez des abonnés à un forum. Ils reçoivent les nouvelles publications, les nouveaux commentaires et les nouvelles réponses dans un seul e-mail, à un intervalle que vous définissez. Les mentions J’aime et Je n’aime pas ne sont pas incluses. Vous activez la fonctionnalité par le biais de l’API.
 
+[En savoir plus](/help/migrated/discussion-board-instructor-notifications.md)
+
 ## Classement de pertinence dans la recherche de catalogue d’administration
 
 La recherche de catalogue dans la vue Administrateur classe désormais les résultats par pertinence, en utilisant le même service de recherche que la recherche d’élève et d’administrateur ailleurs. Une correspondance exacte, telle qu’un nom de catalogue avec une date spécifique, apparaît en premier, suivie de correspondances partielles. La liste de suggestions lors de la saisie suit le même ordre.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
 ## Synchronisation des annulations de session depuis Adobe Workfront
 
@@ -224,6 +246,8 @@ Deux comportements s’appliquent aux sessions annulées :
 * Le fait de définir l’état sur Actif réactive la session, et vous pouvez ensuite mettre à jour ses détails ou l’annuler à nouveau.
 
 Les mises à jour de session continuent de fonctionner comme avant.
+
+[En savoir plus](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
 
 ## Limite de caractères pour les prénoms
 
@@ -253,9 +277,13 @@ Les noms longs peuvent être plus larges que l’espace disponible dans certaine
 
 Pour afficher le nom complet, survolez le nom abrégé.
 
+[En savoir plus](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+
 ## Informations sur le badge pour les cours et les parcours d’apprentissage
 
 Lorsque les auteurs ajoutent un cours ou un parcours d’apprentissage, une fenêtre répertorie les cours et parcours d’apprentissage existants avec des informations de badge. La fenêtre affiche le nom, le type (cours ou parcours d’apprentissage), l’état de la publication et le format du cours, tel que auto-apprentissage, virtuel, salle de classe ou fusionné.
+
+[En savoir plus](/help/migrated/authors/feature-summary/create-learning-path.md)
 
 ## Améliorations hors connexion
 
@@ -292,9 +320,15 @@ Adobe Learning Manager peut désormais rendre votre académie publique détectab
 >
 >L’IA et la découverte de recherche sur Adobe Learning Manager natif nécessitent un domaine personnalisé. Les déploiements sans interface utilisateur devront implémenter certaines parties de la configuration dans leur propre environnement.
 
+>[!NOTE]
+>
+>La documentation de cette fonctionnalité sera disponible sous peu.
+
 ## Retirer un cours sans rendre un parcours d’apprentissage inaccessible
 
 Un cours retiré ou un parcours d’apprentissage imbriqué est supprimé de l’objet d’apprentissage de niveau supérieur, qui reste ouvert aux nouvelles inscriptions. Le retrait d’un cours ne rend plus le parcours d’apprentissage inaccessible.
+
+[En savoir plus](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
 
 ## URL de page non connectée pour les profils d&#39;auto-inscription
 
@@ -302,22 +336,15 @@ Les profils d’auto-inscription permettent aux utilisateurs externes, tels que 
 
 Lorsque les utilisateurs sélectionnent **S&#39;abonner** à partir d&#39;une page accessible via cette URL, ils sont ajoutés au profil auquel l&#39;URL appartient. Cela permet de conserver les utilisateurs de différentes organisations, telles que des agences distinctes ou des sociétés partenaires, dans des profils distincts.
 
+[En savoir plus](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+
 ## Stocker les dates de dernier accès pour les inscriptions au parcours d’apprentissage
 
 Adobe Learning Manager vous permet désormais d’associer des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription à un parcours d’apprentissage. Vous le définissez et le lisez via l’API, ce qui vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
 
 Les inscriptions au cours prennent déjà en charge une date de dernier accès via l’API, qui contrôle la durée pendant laquelle un élève peut accéder au cours. Les inscriptions au parcours d’apprentissage proposent désormais un champ de métadonnées générique, ce qui vous permet de stocker une date de dernier accès ou toute autre valeur que vous souhaitez suivre.
 
-## Exportation de rapports de Report Builder avec l’API de tâche
-
-Cette version de Adobe Learning Manager ajoute un nouveau type de tâche API de tâche, `generateCustomReport`. Transmettez un ID de rapport pour exporter automatiquement tout rapport créé dans Report Builder.
-
-Associé au nouveau jeu de données de quiz L2 dans Report Builder, vous pouvez désormais :
-
-* Exportez les données de quiz au niveau des questions (L2) entre plusieurs cours et modules dans un seul rapport, plutôt que d&#39;exécuter `generateQuizReport` une fois par cours.
-* Automatisez les exportations récurrentes, telles qu’une exportation incrémentielle quotidienne vers votre entrepôt de données ou votre outil de Business Intelligence.
-
-Les types de travaux existants, y compris `generateQuizReport`, sont inchangés.
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## Modifications de l’en-tête de colonne dans les rapports téléchargés
 
@@ -329,7 +356,7 @@ Après la mise à niveau, les rapports existants sans alias personnalisés affic
 
 Live Hub est désormais généralement disponible pour les clients Ultimate et reste en version Beta pour les clients Prime.
 
-[En savoir plus](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
+[En savoir plus](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
 
 ## Prise en charge multilingue des sous-titres dans Live Hub
 
@@ -360,7 +387,7 @@ Dans les sessions volumineuses, les capacités et comportements suivants s’app
 
 Cela permet aux organisations d’organiser de grandes sessions de formation au sein de la même plateforme, avec une salle qui peut être définie sur la taille de public attendue.
 
-[En savoir plus](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+[En savoir plus](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
 ## Canaux
 
@@ -427,13 +454,19 @@ Cette mise à jour corrige les deux problèmes suivants :
 
 Aucun nouveau point de terminaison, paramètre ou attribut de réponse n’est ajouté. Les intégrations existantes continuent donc de fonctionner sans modifications.
 
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 ### API pour les notifications des instructeurs des forums de discussion
 
 Cette version inclut de nouvelles API qui prennent en charge les notifications des instructeurs des forums de discussion. Utilisez-les pour abonner des instructeurs et des gestionnaires de cohorte à des forums de discussion et pour contrôler quelle activité apparaît dans leurs courriels de résumé.
 
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 ### Prise en charge d’API pour les instances multi-inscrites dans l’application de l’élève
 
 L’API d’inscription prend désormais en charge les instances multi-inscrites dans l’application Élève. Ajoutez le paramètre facultatif `includeMultiInstanceEnrollments=true` à `GET /enrollments` pour les inclure. La valeur par défaut est `false`. Par conséquent, les intégrations existantes, y compris les implémentations sans en-tête, continuent de fonctionner sans modification.
+
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ### Date du dernier accès pour l’inscription au parcours d’apprentissage
 
@@ -444,11 +477,15 @@ Vous pouvez désormais stocker des métadonnées personnalisées, telles qu’un
 
 Les métadonnées sont destinées à votre propre suivi. Il ne contrôle pas l’accès et n’est pas appliqué aux cours du chemin.
 
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 ### Type de tâche d’API de tâche pour les exportations de Report Builder
 
 L&#39;API de tâche a un nouveau type de tâche, `generateCustomReport`, qui exporte tout rapport de Report Builder enregistré lorsque vous transmettez son ID de rapport. Avec le nouveau jeu de données de quiz L2, vous pouvez exporter les données de quiz au niveau des questions entre plusieurs cours dans un seul rapport et automatiser les exportations récurrentes.
 
 Les types de travaux existants, y compris `generateQuizReport`, sont inchangés.
+
+[En savoir plus](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
 
 ### API pour le connecteur Zoom
 
