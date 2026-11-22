@@ -305,6 +305,7 @@ Les visiteurs de votre académie publique peuvent désormais lire du contenu sé
 
 Les administrateurs peuvent désormais sélectionner les catalogues spécifiques qui apparaissent dans l’académie publique. Seuls ces catalogues peuvent être consultés par des visiteurs anonymes et indexés par les moteurs de recherche et les assistants d&#39;IA, de sorte que les cours de test ou le contenu interne restent privés.
  
+
 ### Trouvez-vous dans les moteurs de recherche et les assistants IA (Beta)
 
 Adobe Learning Manager peut désormais rendre votre académie publique détectable par les moteurs de recherche tels que Google et par les assistants d’IA tels que ChatGPT, Claude et Gemini. Vos cours peuvent ensuite apparaître dans les résultats de recherche et les réponses générées par l&#39;IA, attribués à votre académie.
