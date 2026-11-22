@@ -3,9 +3,9 @@ description: Importez du contenu d’apprentissage et des images d’Adobe Exper
 jcr-language: en_us
 title: Intégration d’AEM Assets
 exl-id: cd33c0f2-59df-4f35-a7d9-d7bff6b9ffba
-source-git-commit: 3c0f45721777421361401cf836a21b88cee3a259
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3447'
 ht-degree: 0%
 ---
 
@@ -424,3 +424,9 @@ Vérifiez que le lien d’aperçu public est activé, que le contenu est SCORM 1
 **Q. ALM génère-t-il un lien d’aperçu public ?**
 
 **A.** Oui, uniquement pour les fichiers SCORM 1.2, SCORM 2004 et HTML. Cela est possible uniquement lorsque la fonctionnalité d’aperçu public est activée par l’administrateur d’intégration.
+
+**Liens associés :**
+
+* [Gestion du contenu dans la bibliothèque de contenu](/help/migrated/authors/feature-summary/content-library.md)
+* [Documentation Adobe Admin Console](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Documentation Adobe Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
