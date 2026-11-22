@@ -1,9 +1,9 @@
 ---
 title: Création d'un cours avec l'Explorateur d'examens sécurisé
 description: Créez un quiz avec le mode Explorateur d'examens sans échec et ajoutez-le à un cours en tant que module d'auto-apprentissage dans Adobe Learning Manager pour fournir un environnement d'évaluation restreint.
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ Pour créer un quiz en mode Explorateur d&#39;examens sans échec :
 
    >[!NOTE]
    >
-   > Si l&#39;administrateur active cette option, vous pouvez activer ou désactiver la configuration requise de l&#39;Explorateur d&#39;examens sécurisé (SEB) pour un module de quiz de cours. Si l’administrateur désactive cette option, SEB devient obligatoire pour le quiz et vous ne pouvez pas modifier cette exigence.
+   > Si l&#39;administrateur active cette option, vous pouvez activer ou désactiver la configuration requise de l&#39;Explorateur d&#39;examens sécurisé (SEB) pour un module de quiz de cours. Si l’administrateur désactive cette option, SEB devient obligatoire pour le quiz et vous ne pouvez pas modifier cette exigence. Voir [Activer l&#39;intégration du navigateur Safe Exam Browser](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration) pour plus d&#39;informations.
 
 1. Sélectionnez **Publish**.
 
@@ -68,3 +68,5 @@ Pour ajouter le quiz à un cours :
 1. Sélectionnez **Enregistrer** > **Publish**.
 
    Le cours inclut désormais une évaluation qui exige que les élèves utilisent l’Explorateur d’examens sécurisé.
+
+Consultez [Lancer un quiz dans l&#39;Explorateur d&#39;examens sécurisé](../../learners/feature-summary/launch-safe-exam-browser.md) pour savoir comment les élèves peuvent accéder et répondre aux quiz à l&#39;aide de l&#39;Explorateur d&#39;examens sécurisé.

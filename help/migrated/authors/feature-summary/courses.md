@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # Création, modification et publication de cours
@@ -169,7 +169,7 @@ Un module d’envoi de fichiers basé sur une équipe permet à un élève d’e
 
 1. Sélectionnez l’option Équipe. L&#39;option individuelle correspond au module d&#39;envoi de fichier précédent pour les élèves uniques.
 
-   ![Option basée sur l&#39;équipe pour le module d&#39;envoi de fichiers](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Option basée sur l&#39;équipe")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. Sélectionnez le ou les instructeurs.
 
@@ -191,7 +191,7 @@ Un cours peut comporter des modules de soumission individuels et basés sur une 
    * Sélectionnez l’évaluation manuelle pour permettre à l’instructeur de saisir une évaluation globale.
    * Sélectionnez l&#39;évaluation basée sur des critères pour calculer le score à partir des points de chaque option de plan d&#39;évaluation. Cette méthode nécessite un plan d&#39;évaluation.
 
-     ![Options de révision et de notation pour le module d&#39;envoi de fichiers basé sur l&#39;équipe](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
@@ -1497,7 +1497,7 @@ Vous pouvez également publier les modules de cours vers Learning Manager à pa
 1. Connectez-vous avec les informations d’identification Adobe. Si vous n’avez pas d’Adobe ID, cliquez sur **[!UICONTROL Créer un compte]**. Après autorisation, vous êtes redirigé vers la page de publication de module.
 1. Fournissez toutes les informations de base sur le module, puis cliquez sur Publier.
 
-Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/fr/captivate/classic/publish-project-to-captivate-prime.html).
+Vous pouvez voir le module publié à la page de modules de Learning Manager Pour plus d’informations, consultez [Publier un projet sur Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Efficacité des cours {#courseeffectiveness}
 
