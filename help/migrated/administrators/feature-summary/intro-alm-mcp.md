@@ -3,9 +3,9 @@ description: Permettez aux élèves de découvrir les cours, de suivre la progre
 jcr-language: en_us
 title: Serveur Adobe Learning Manager Model Context Protocol
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ Pour obtenir la liste complète, consultez la **référence des outils de l&#39;
 
 La formation des clients et des partenaires est une utilisation principale du serveur MCP. Les organisations qui créent leurs propres agents IA d’entreprise peuvent connecter ces agents aux outils d’apprentissage Adobe Learning Manager. Leurs clients et partenaires apprennent alors à l’intérieur de l’assistant qu’ils utilisent déjà, sans passer à un assistant d’apprentissage distinct.
 
-Par exemple, Acme Inc. crée son propre assistant IA d’entreprise. Un partenaire d&#39;Acme Inc. visite l&#39;environnement de Lenovo pour en savoir plus sur les produits Lenovo. L’assistant d’Acme se connecte à son compte Adobe Learning Manager via le serveur MCP et renvoie des réponses liées à l’apprentissage, de sorte que le partenaire ne quitte jamais l’expérience Acme.
+Par exemple, Acme Inc. crée son propre assistant IA d’entreprise. Un partenaire d&#39;Acme Inc. visite l&#39;environnement de Tech Corp pour en apprendre davantage sur les produits de Tech Corp. L’assistant d’Acme se connecte à son compte Adobe Learning Manager via le serveur MCP et renvoie des réponses liées à l’apprentissage, de sorte que le partenaire ne quitte jamais l’expérience Acme.
 
 Cette approche permet aux organisations :
 
