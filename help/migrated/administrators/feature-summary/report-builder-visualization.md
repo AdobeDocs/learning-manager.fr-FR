@@ -1,9 +1,9 @@
 ---
 title: Visualisations dans Report Builder
 description: Créez des graphiques et des tableaux de bord à partir des rapports enregistrés dans le Report Builder Adobe Learning Manager pour comparer les groupes, repérer les tendances et partager les résultats.
-source-git-commit: 8354c2285602189dd7c8211b8b44900385dc6c8b
+source-git-commit: 27a1b9f6669097ce85d1c4994537fb8cdf571abe
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3975'
 ht-degree: 0%
 ---
 
@@ -64,6 +64,7 @@ Confirmez ce qui suit :
 * **Enregistrez le rapport.** L’option permettant d’ajouter un graphique apparaît sur la page de Report Builder après l’enregistrement du rapport.
 * **Utilisez votre propre rapport.** Dupliquez un rapport partagé pour créer votre propre copie, puis utilisez-le pour créer des graphiques.
 * **Vérifier la taille.** Impossible de tracer un rapport de plus de 10 millions de lignes. Un rapport résumé avec plus de 10 000 points de données n&#39;est pas tracé. Voir Limites des graphiques et des tableaux de bord.
+* **Optimiser les données pour la visualisation.** Appliquez les filtres appropriés au niveau du rapport ou du graphique pour limiter la quantité de données tracées. Le temps nécessaire pour charger un graphique dépend de facteurs tels que le volume des données du rapport, la plage de dates sélectionnée et la combinaison de jeux de données et de tables utilisée dans le rapport. Le chargement des rapports qui traitent de gros volumes de données ou des combinaisons complexes de jeux de données peut prendre plus de temps ou peut expirer. Si cela se produit, réduisez les filtres ou la plage de dates et réessayez.
 * **Connaître vos colonnes.** L&#39;axe X (dimension) et l&#39;axe Y (mesure) du graphique proviennent des colonnes de votre rapport. Pour résumer le rapport lui-même, utilisez **Grouper par** et les agrégats. Pour plus d&#39;informations, voir Application de groupes par et d&#39;agrégations.
 
 ### Configuration d&#39;un graphique {#configure-chart}
