@@ -3,9 +3,9 @@ title: Ajout et configuration de widgets dans Experience Builder
 description: Découvrez comment ajouter, personnaliser et configurer divers widgets dans Experience Builder dans Adobe Learning Manager. Ce guide couvre les widgets couramment utilisés tels que les calendriers, les catégories, l’état de conformité, les cours et les parcours, la ludification, le contenu de HTML, les IFrames, l’apprentissage par les réseaux sociaux, etc.
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
+source-git-commit: fefdedcb70c7006bd818646c505fb5d09f0c0035
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '3102'
 ht-degree: 0%
 ---
 # Ajout et configuration de widgets
@@ -312,6 +312,38 @@ Pour configurer le widget Mon apprentissage :
 9. Sélectionnez **[!UICONTROL Ajouter un widget]**.
 
 Le widget Mon apprentissage sera ajouté à la page. Les administrateurs peuvent ajouter d’autres widgets et publier la page.
+
+## Widget Parcours d’apprentissage personnalisé {#add-a-plp}
+
+Le widget Parcours d’apprentissage personnalisé est une bande de contenu que vous pouvez ajouter aux pages des élèves dans Experience Builder. Elle affiche aux élèves le parcours d’apprentissage généré pour eux par l’agent de parcours d’apprentissage personnalisé (PLP) dans l’assistant de l’élève, afin qu’ils puissent voir leurs cours recommandés et reprendre l’apprentissage sans quitter la page.
+
+Utilisez le widget Parcours d’apprentissage personnalisé pour afficher aux élèves un ensemble personnalisé de cours sur une page dans Experience Builder.
+
+## Avant de commencer
+
+* Assurez-vous que l’agent du parcours d’apprentissage personnalisé est activé pour votre compte. Il est inclus dans le niveau Ultimate ou disponible en tant que module complémentaire au niveau Prime.
+* Assurez-vous que l&#39;Assistant Élève et l&#39;agent du parcours d&#39;apprentissage personnalisé sont activés dans les paramètres de l&#39;**Assistant IA**.
+* Assurez-vous d’avoir le rôle d’administrateur.
+
+### Ajout du widget Parcours d’apprentissage personnalisé
+
+1. Connectez-vous à Adobe Learning Manager en tant qu&#39;**administrateur**.
+
+2. Dans le volet de gauche, sélectionnez **Identité visuelle**.
+
+3. Sélectionnez **Pages personnalisées**.
+
+4. Sélectionnez **Modifier**, puis sélectionnez la mise en page. Sélectionnez ensuite
+
+5. Sélectionnez **Ajouter un widget**, puis sélectionnez **Parcours d’apprentissage personnalisé**.
+
+6. Sous **Titre du widget**, saisissez un titre pour le widget.
+
+7. (Facultatif) Sous **Description du widget**, saisissez une brève description. Vous pouvez saisir jusqu’à 180 caractères.
+
+8. Vérifiez l’aperçu sur le côté droit de l’écran. Chaque carte indique le format du cours, sa durée, ses compétences, son évaluation, son titre et son auteur, ainsi qu&#39;un bouton **Continuer**.
+
+9. Sélectionnez **Ajouter un widget**, puis cliquez sur **Publish** pour mettre la page à la disposition des élèves.
 
 ## Widget Enregistré par moi {#bookmark-widget}
 

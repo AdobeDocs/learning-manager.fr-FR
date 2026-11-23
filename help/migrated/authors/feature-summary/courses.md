@@ -7,7 +7,7 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: f752ede2a7b2980bad014fcbcaa2d7028d695321
 workflow-type: tm+mt
 source-wordcount: '12311'
 ht-degree: 47%
@@ -312,7 +312,7 @@ Après avoir configuré tous les paramètres du Gradebook, publiez le cours à l
 * Utilisez le paramètre **Maximale** pour les tentatives multiples lorsque les modules sont des évaluations que les élèves doivent réessayer. Utilisez **Dernière** lorsque vous souhaitez capturer le niveau de connaissances actuel plutôt que les meilleures performances.
 * Vérifiez que l&#39;indicateur **Pondération totale** affiche exactement 100 % avant d&#39;enregistrer.
 
-## Configuration de la création automatique d’équipes dans Adobe Learning Manager
+## Configuration de la création automatique d’équipes dans Adobe Learning Manager {#enable-automatic-team-formation}
 
 Définissez les règles de création automatique d&#39;équipe pour un cours afin que Adobe Learning Manager divise les élèves inscrits en équipes avant le démarrage d&#39;une instance.
 
