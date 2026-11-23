@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Jeux de données disponibles dans Report Builder
 description: Guide de référence des jeux de données, des champs et des champs dérivés disponibles dans le Report Builder Adobe Learning Manager.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 27%
-
+source-wordcount: '1478'
+ht-degree: 29%
 ---
-
 
 # Jeux de données disponibles dans Report Builder
 
@@ -61,10 +59,31 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * % d’achèvement utilisateur
 * % de conformité des utilisateurs
 
+### Quiz L2 après champ personnalisé (utilisateur)
+
+* Nombre de tentatives
+* ID du cours
+* ID d’instance de cours
+* Nom du cours
+* Type d’interaction
+* ID de module
+* Nom du module
+* Version du module
+* Question - Réponse correcte
+* Question - ID
+* Question - Score maximal possible
+* Question - Texte
+* Réponse - Score obtenu
+* Réponse - Réponse
+* Réponse - Est correct
+* Réponse - Horodatage
+* ID utilisateur
+
 ### Objet d’apprentissage
 
 * Noms des auteurs
 * Date de suppression automatique
+* Validité du certificat (mois)
 * Nombre d&#39;achèvements
 * Date de création
 * Durée (minutes)
@@ -135,6 +154,8 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * Date d&#39;inscription
 * Source d’inscription
 * État de l’inscription
+* Est l’inscription principale
+* Métadonnées
 * ID de l’objet d’apprentissage
 * Nom de l’objet d’apprentissage
 * ID d’instance de l’objet d’apprentissage
@@ -156,6 +177,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * ID du cours
 * ID de module
 * Nom du module
+* Statut de réussite du module
 * Date de réussite
 * Pourcentage de progression
 * Score total du module de quiz
@@ -218,7 +240,10 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 
 ### Groupe d’utilisateurs (personnalisé)
 
+* Création par e-mail de l’utilisateur
+* Création par nom d’utilisateur
 * Date de création
+* Description
 * ID
 * Nombre de membres
 * Nom
@@ -227,6 +252,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 ### Groupe d’utilisateurs (équipe directe)
 
 * Date de création
+* Description
 * ID
 * Nombre de membres
 * Nom
@@ -239,6 +265,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 ### Groupe d’utilisateurs (intégré)
 
 * Date de création
+* Description
 * ID
 * Nombre de membres
 * Nom
@@ -247,6 +274,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 ### Groupe d’utilisateurs (équipe)
 
 * Date de création
+* Description
 * ID
 * Nombre de membres
 * Description
