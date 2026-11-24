@@ -1,19 +1,25 @@
 ---
-description: Permettez aux élèves de découvrir les cours, de suivre la progression et d’obtenir des réponses à partir du contenu Adobe Learning Manager dans Claude, ChatGPT Enterprise et les agents personnalisés.
+description: Étendez Adobe Learning Manager à Claude, ChatGPT Enterprise et aux agents personnalisés afin que les élèves puissent trouver des cours, suivre la progression et obtenir des réponses.
 jcr-language: en_us
 title: Serveur Adobe Learning Manager Model Context Protocol
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
+source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '765'
 ht-degree: 0%
 ---
 
 # Serveur Adobe Learning Manager Model Context Protocol
 
-## Présentation
+Le protocole MCP (Model Context Protocol) est une norme ouverte qui permet à un client AI de découvrir et d’appeler des outils externes. Le serveur Adobe Learning Manager MCP expose les outils d’apprentissage Adobe Learning Manager à tout client compatible MCP, tel qu’un agent d’entreprise personnalisé, Claude ou ChatGPT Enterprise. Les élèves accèdent à leur formation et à leur progression à partir du client qu’ils utilisent déjà, tandis que le contenu et les enregistrements d’apprentissage restent dans Adobe Learning Manager.
 
-Le protocole MCP (Model Context Protocol) est un moyen standard pour un client AI de se connecter aux outils. Le serveur MCP Adobe Learning Manager permet aux élèves de suivre leur formation là où ils travaillent déjà. Cela expose les outils de l’élève Adobe Learning Manager à tout client d’IA qui prend en charge MCP, tel qu’un agent d’entreprise personnalisé, Claude ou ChatGPT. Les élèves peuvent ensuite accéder à leurs formations et progresser depuis le même client, tandis que le contenu reste dans Adobe Learning Manager.
+## Fonctionnement du logiciel
+
+Un élève envoie une demande en langue naturelle à un client IA. Le client sélectionne l’outil d’élève le plus pertinent et appelle le serveur MCP avec le jeton d’accès OAuth de l’élève. Adobe Learning Manager exécute l’outil en tant qu’élève et renvoie le résultat, puis le client compose la réponse finale.
+
+Chaque appel indique l’identité de l’élève. Un élève peut donc récupérer uniquement le contenu et les enregistrements auxquels il est déjà autorisé à accéder.
+
+Le client AI appelle le serveur MCP, qui achemine chaque demande vers l’outil d’apprentissage correspondant.
 
 ## Capacités de l’élève
 
@@ -23,35 +29,36 @@ Les élèves travaillent en langage naturel dans le client d’IA qu’ils utili
 * Suivez leurs inscriptions, la progression et les échéances, y compris l&#39;apprentissage qui est sur le point d&#39;expirer.
 * Obtenez des réponses basées sur le contenu d’apprentissage.
 * Générez un parcours d’apprentissage personnalisé à partir de leurs objectifs et enregistrez-le.
-Pour obtenir la liste complète, consultez la **référence des outils de l&#39;élève**.
-
-Le client AI appelle le serveur MCP, qui achemine chaque demande vers l’outil d’apprentissage correspondant.
 
 Pour obtenir la liste complète, consultez la **référence des outils de l&#39;élève**.
 
 ## Formation des clients et des partenaires
 
+>[!IMPORTANT]
+>
+>Les clients qui créent leurs propres agents d’entreprise peuvent également se connecter au serveur. Par exemple, une organisation partenaire peut offrir à ses propres clients l’accès à l’apprentissage par l’intermédiaire de son propre agent.
+
 La formation des clients et des partenaires est une utilisation principale du serveur MCP. Les organisations qui créent leurs propres agents IA d’entreprise peuvent connecter ces agents aux outils d’apprentissage Adobe Learning Manager. Leurs clients et partenaires apprennent alors à l’intérieur de l’assistant qu’ils utilisent déjà, sans passer à un assistant d’apprentissage distinct.
 
-Par exemple, Acme Inc. crée son propre assistant IA d’entreprise. Un partenaire d&#39;Acme Inc. visite l&#39;environnement de Tech Corp pour en apprendre davantage sur les produits de Tech Corp. L’assistant d’Acme se connecte à son compte Adobe Learning Manager via le serveur MCP et renvoie des réponses liées à l’apprentissage, de sorte que le partenaire ne quitte jamais l’expérience Acme.
+Par exemple, Acme Inc. crée son propre assistant IA d’entreprise. Un partenaire Acme Inc. rend visite à l’assistant pour en savoir plus sur les produits Acme Inc. L’assistant se connecte au compte Adobe Learning Manager Acme Inc. via le serveur MCP et renvoie des réponses liées à l’apprentissage. Le partenaire ne quitte jamais l&#39;expérience Acme Inc.
 
 Cette approche permet aux organisations :
 
-* Proposer un apprentissage dans le cadre de l’expérience d’IA existante d’un partenaire.
-* Laissez les agents d’entreprise personnalisés utiliser les outils d’apprentissage Adobe Learning Manager.
+* Proposez un apprentissage intégré à l’expérience d’IA existante d’un partenaire.
+* Étendez les agents d’entreprise personnalisés avec les outils d’élève de Adobe Learning Manager.
 * Intégrer l’apprentissage dans leurs propres workflows.
 * Intégrer l’apprentissage à leur écosystème d’IA d’entreprise.
 
 ## Formation des employés
 
-Les employés qui utilisent déjà un client d’IA, comme Claude, peuvent y obtenir leurs informations d’apprentissage. Par exemple, un employé peut vérifier l’apprentissage attribué, consulter les inscriptions, rechercher des cours sur une rubrique ou demander un parcours d’apprentissage, sans passer par Adobe Learning Manager. Pour des exemples de demandes, voir [exemples d’invites pour les élèves](https://word-edit.officeapps.live.com/docs/sample-prompts-adobe-learning-manager-learners).
+Les employés qui utilisent déjà un client d’IA, comme Claude, peuvent y obtenir leurs informations d’apprentissage. Par exemple, un employé peut vérifier l’apprentissage attribué, consulter les inscriptions, rechercher des cours sur une rubrique ou demander un parcours d’apprentissage, sans passer par Adobe Learning Manager. Pour obtenir des exemples de demande, découvrez les [exemples d’invite pour les élèves](/help/migrated/learners/feature-summary/sample-prompts-for-learners.md).
 
 Cette approche permet aux employés :
 
 * Restez dans les outils qu’ils utilisent déjà.
 * Parvenir à leur apprentissage où qu’ils travaillent.
-* Utilisez n’importe quel client AI prenant en charge MCP comme point d’entrée vers Adobe Learning Manager.
-* Obtenez des informations d’apprentissage sans modifier le contexte.
+* Utilisez n’importe quel client AI compatible MCP comme point d’entrée vers Adobe Learning Manager.
+* Récupérez les informations d’apprentissage sans modifier le contexte.
 
 ## Un serveur pour les deux publics
 
@@ -64,17 +71,18 @@ La formation des clients et des partenaires et la formation des employés utilis
 
 ## Configuration des rôles
 
-La configuration est répartie entre trois rôles.
+La configuration est divisée en trois rôles.
 
-* **Administrateur :** crée une application cliente MCP dans Adobe Learning Manager et la gère. Voir [configurer un serveur MCP](https://word-edit.officeapps.live.com/docs/configure-model-context-protocol-server-adobe-learning-manager).
+* **Administrateur :** crée une application cliente MCP dans Adobe Learning Manager et la gère. En savoir plus sur la [configuration d&#39;un serveur MCP](/help/migrated/administrators/feature-summary/configure-mcp-admin.md).
 * **Administrateur du client IA :** ajoute le serveur au client IA d&#39;entreprise de l&#39;organisation, tel que Claude ou ChatGPT Enterprise.
 * **Élève :** sélectionne **Connect** dans le client AI, authentifie la connexion et fournit les détails de son compte Adobe Learning Manager.
 
 ## Sécurité des demandes des élèves
 
-Chaque élève authentifie la connexion et fournit les détails de son compte Adobe Learning Manager. La demande s’exécute en tant qu’élève. Le client AI renvoie donc uniquement les informations auxquelles l’élève peut accéder dans Adobe Learning Manager. Le serveur ne donne pas aux élèves un accès supplémentaire.
+Chaque élève authentifie la connexion et fournit les détails de son compte Adobe Learning Manager. Chaque demande s’exécute en tant qu’élève. Par conséquent, le client AI renvoie uniquement les informations auxquelles l’élève peut accéder dans Adobe Learning Manager. Le serveur n’accorde pas d’accès supplémentaire aux élèves.
 
-## Limitations de MCP dans cette mise à jour
+## Limitations
 
+* Le serveur MCP est disponible uniquement pour les comptes Adobe Learning Manager Ultimate.
 * La disponibilité des outils dépend de ce que votre client AI prend en charge.
-* Chaque demande est traitée comme nouvelle. Les conversations multi-tours ne fonctionnent que si votre client AI conserve le contexte de la conversation.
+* Le serveur traite chaque demande comme nouvelle. Les conversations multi-tours ne fonctionnent que si votre client AI conserve le contexte de la conversation.
