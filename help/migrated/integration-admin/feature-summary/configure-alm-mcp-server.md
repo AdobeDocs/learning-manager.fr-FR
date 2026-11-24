@@ -238,7 +238,7 @@ Claude et ChatGPT les découvrent automatiquement. Ils sont répertoriés ici po
 | URL d’autorisation | [https://\[alm-host\]/oauth/o/allow](https://[alm-host]/oauth/o/allow) |
 | URL du jeton | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | Actualiser l’URL | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Base du serveur d’autorisations | [https://\[alm-host](https://[alm-host)\] |
+| Base du serveur d’autorisations | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | Ressource | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Portée | élève:write |
 
