@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Jeux de données disponibles dans Report Builder
 description: Guide de référence des jeux de données, des champs et des champs dérivés disponibles dans le Report Builder Adobe Learning Manager.
 contentowner: mmanuel
-source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
+source-git-commit: 3cb434b8a4eeebab140981b71da72fad380ded24
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 29%
+source-wordcount: '1493'
+ht-degree: 31%
 ---
 
 # Jeux de données disponibles dans Report Builder
@@ -59,7 +59,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * % d’achèvement utilisateur
 * % de conformité des utilisateurs
 
-### Quiz L2 après champ personnalisé (utilisateur)
+### Quiz L2
 
 * Nombre de tentatives
 * ID du cours
@@ -108,6 +108,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * Balises
 * Type
 * ID unique
+* Validité du certificat (mois)
 
 ### Instance de l’objet d’apprentissage
 
@@ -170,6 +171,8 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * Score utilisateur le plus élevé
 * ID utilisateur
 * Score utilisateur le plus récent
+* Est l’inscription principale
+* Métadonnées
 
 ### Transcript (module)
 
@@ -189,6 +192,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * ID utilisateur
 * Score utilisateur le plus récent
 * Nom d’utilisateur
+* Statut de réussite du module
 
 ### Utilisateur
 
@@ -229,6 +233,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * Nombre de membres
 * Nom
 * Statut
+* Nombre de membres
 
 ### Groupe d’utilisateurs (champ actif)
 
@@ -237,6 +242,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * Nombre de membres
 * Nom
 * Statut
+* Nombre de membres
 
 ### Groupe d’utilisateurs (personnalisé)
 
@@ -261,6 +267,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * Nom du propriétaire
 * ID du propriétaire unique
 * Statut
+* Description
 
 ### Groupe d’utilisateurs (intégré)
 
@@ -270,6 +277,7 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * Nombre de membres
 * Nom
 * Statut
+* Description
 
 ### Groupe d’utilisateurs (équipe)
 
@@ -285,6 +293,8 @@ Les informations figurant dans le tableau ne sont pas exhaustives. Consultez la 
 * État du propriétaire
 * ID du propriétaire unique
 * Statut
+* Description
+* Nombre de membres
 
 ## Liaison des jeux de données
 
