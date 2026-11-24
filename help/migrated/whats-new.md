@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 2%
 ---
 
@@ -102,14 +102,14 @@ Le serveur fournit les fonctionnalités suivantes :
 * Répondre à la question sur le contenu d’apprentissage
 * Obtenir un parcours d’apprentissage personnalisé
 
-Les administrateurs peuvent modifier chaque description d’outil pour ajouter des exemples spécifiques à l’organisation. Les clients lisent les détails d&#39;autorisation à partir des métadonnées du serveur ; la configuration n&#39;a donc besoin que d&#39;un ID client et d&#39;un secret client.
+Les administrateurs peuvent modifier chaque description d’outil pour ajouter des exemples spécifiques à l’organisation. Les clients lisent les détails de l’autorisation à partir des métadonnées du serveur ; la configuration n’a donc besoin que d’un ID client et d’un secret client.
 
 [En savoir plus](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
 ## Modification personnalisée du parcours d’apprentissage et bandes de marque
 
 * Les élèves peuvent désormais supprimer les rubriques ou cours suggérés en une seule étape, en plus de l&#39;option existante permettant d&#39;affiner les listes de rubriques et de cours par le biais de la conversation.
-* Les administrateurs peuvent désormais repositionner la bande des parcours d’apprentissage personnalisés sur la page d’accueil de l’élève via la page Identité visuelle.
+* Les administrateurs peuvent désormais repositionner la bande Parcours d’apprentissage personnalisés sur la page d’accueil de l’élève via la page Identité visuelle.
 
 [En savoir plus](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
@@ -121,7 +121,7 @@ Les auteurs créent des scénarios à partir de leurs propres matériaux de réf
 
 Virtual Coach prend en charge neuf langues et peut être utilisé comme assistance à la tâche autonome ou intégré à un cours.
 
-[En savoir plus](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[En savoir plus](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Citations du parcours d’apprentissage dans l’assistant de l’élève
 
@@ -161,7 +161,7 @@ Adobe Learning Manager marque désormais la présence lorsqu’un élève lit l�
 
 ## Email Builder pour les cours et les instances
 
-Email Builder dans Adobe Learning Manager permet aux administrateurs et aux auteurs de créer des modèles de communication de marque pour les élèves. Dans la version de décembre 2026 d’ALM, l’expérience complète du générateur d’e-mails est disponible pour les e-mails au niveau du cours et de l’instance. Les auteurs peuvent personnaliser ces e-mails tout en héritant des mises en page et du formatage définis par les administrateurs.
+Email Builder dans Adobe Learning Manager permet aux administrateurs et aux auteurs de créer des modèles de communication d’élèves de marque. Dans la version de décembre 2026 d’ALM, l’expérience complète du générateur d’e-mails est disponible pour les e-mails au niveau du cours et de l’instance. Les auteurs peuvent personnaliser ces e-mails tout en héritant des mises en page et du formatage définis par les administrateurs.
 
 Avec Email Builder, vous pouvez :
 
@@ -338,14 +338,6 @@ Lorsque les utilisateurs sélectionnent **S&#39;abonner** à partir d&#39;une pa
 
 [En savoir plus](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## Stocker les dates de dernier accès pour les inscriptions au parcours d’apprentissage
-
-Adobe Learning Manager vous permet désormais d’associer des métadonnées personnalisées, telles qu’une date de dernier accès, à une inscription à un parcours d’apprentissage. Vous le définissez et le lisez via l’API, ce qui vous permet de suivre l’accès limité dans le temps aux parcours d’apprentissage que vous attribuez.
-
-Les inscriptions au cours prennent déjà en charge une date de dernier accès via l’API, qui contrôle la durée pendant laquelle un élève peut accéder au cours. Les inscriptions au parcours d’apprentissage proposent désormais un champ de métadonnées générique, ce qui vous permet de stocker une date de dernier accès ou toute autre valeur que vous souhaitez suivre.
-
-[En savoir plus](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## Modifications de l’en-tête de colonne dans les rapports téléchargés
 
 Report Builder inclut désormais le nom de l&#39;ensemble de données dans les en-têtes de colonne par défaut des rapports téléchargés. Le nom de l&#39;ensemble de données de l&#39;objet d&#39;apprentissage apparaît donc comme **Objet d&#39;apprentissage - Nom** au lieu de **Nom**. Pour les colonnes agrégées, l’en-tête inclut également la fonction, telle que « **Nombre d’objets d’apprentissage - ID** ». Si vous saisissez un nom personnalisé dans le champ **Alias** d&#39;une colonne, cet alias est utilisé comme en-tête et reste inchangé.
@@ -356,7 +348,7 @@ Après la mise à niveau, les rapports existants sans alias personnalisés affic
 
 Live Hub est désormais généralement disponible pour les clients Ultimate et reste en version Beta pour les clients Prime.
 
-[En savoir plus](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[En savoir plus](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Prise en charge multilingue des sous-titres dans Live Hub
 
@@ -387,7 +379,7 @@ Dans les sessions volumineuses, les capacités et comportements suivants s’app
 
 Cela permet aux organisations d’organiser de grandes sessions de formation au sein de la même plateforme, avec une salle qui peut être définie sur la taille de public attendue.
 
-[En savoir plus](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[En savoir plus](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## Canaux
 
