@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
+source-git-commit: be7170bc8e384e0084eaa62b6f31ac0332bac6b5
 workflow-type: tm+mt
-source-wordcount: '7201'
+source-wordcount: '7194'
 ht-degree: 4%
 ---
 # Paramètres de base dans Adobe Learning Manager
@@ -402,15 +402,13 @@ Lorsque les cours sont payants, les auteurs peuvent spécifier le cours, le parc
 >
 >Certains types de formation, tels que les certifications récurrentes et les cours approuvés par le responsable, ne peuvent pas être achetés.
 
-## Activation de la formation automatique d’équipe dans Adobe Learning Manager
+### Formation automatique des équipes pour les envois en équipe {#enable-auto-team-formation}
 
 Activez la formation automatique d&#39;équipe dans les paramètres de l&#39;administrateur, afin que les groupes Adobe Learning Manager inscrivent les élèves dans des équipes avant le démarrage de chaque instance de cours.
 
 Ce paramètre est facultatif. Les soumissions d’équipe fonctionnent sans cela et les instructeurs peuvent créer des équipes manuellement.
 
 Lorsque vous activez ce paramètre de compte, Adobe Learning Manager regroupe automatiquement les élèves inscrits en équipes un nombre défini de jours avant le début de chaque instance de cours. Ce paramètre est désactivé par défaut. Les auteurs peuvent ajuster la planification de leurs cours, et les instructeurs peuvent toujours créer des équipes manuellement.
-
-### Activer la formation automatique d’équipe
 
 1. Dans l&#39;application administrateur, sélectionnez **Paramètres** > **Général**.
 
@@ -430,7 +428,7 @@ Lorsque vous activez ce paramètre de compte, Adobe Learning Manager regroupe au
 
 Ce paramètre fonctionne uniquement pour les cours disposant d&#39;un module d&#39;envoi de fichiers basé sur l&#39;équipe et d&#39;une date de début d&#39;instance.
 
-## Comment les modifications affectent les cours
+#### Comment les modifications affectent les cours
 
 Lorsque vous modifiez ce paramètre, la modification s’applique uniquement aux cours que vous créez après l’avoir enregistré. Les cours qui existent déjà conservent la configuration avec laquelle ils ont été publiés, que la formation automatique d’équipe ait été activée ou non, et ils conservent leur calendrier. Par exemple, si vous activez ce paramètre en mars, les cours créés en février ne l’obtiennent pas, contrairement aux cours créés en mars ou ultérieurement.
 
