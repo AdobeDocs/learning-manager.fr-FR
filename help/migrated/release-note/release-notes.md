@@ -7,10 +7,10 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
 workflow-type: tm+mt
-source-wordcount: '39583'
-ht-degree: 56%
+source-wordcount: '40345'
+ht-degree: 55%
 ---
 # Notes de mise à jour de Adobe Learning Manager
 
@@ -316,6 +316,46 @@ Lorsque les paramètres régionaux de l’interface utilisateur sont définis su
 Ce comportement se produit lors de l’exportation des emplacements de salle de classe à partir du profil Administrateur > Paramètres > Emplacements de salle de classe. Bien que les données d’emplacement dans le fichier soient renvoyées correctement, les en-têtes de colonne ne sont pas translatés pour correspondre aux paramètres régionaux de l’interface utilisateur choisis par l’administrateur. Par conséquent, un administrateur travaillant dans des paramètres régionaux non anglais voit les noms de colonnes en anglais dans un environnement localisé.
 
 Seule la ligne d’en-tête est affectée ; les données d’emplacement sous-jacentes dans le fichier exporté ne sont pas affectées. Aucun correctif n’est inclus dans cette version et le problème est en cours d’évaluation pour une version ultérieure.
+
+**L’instructeur ne peut pas rejoindre la salle de classe virtuelle entre les modules**
+Les instructeurs ne peuvent pas rejoindre la salle de classe virtuelle lorsqu’ils tentent d’entrer dans une salle en dehors de l’heure planifiée pour le module de cours qui leur est attribué.
+
+Adobe Learning Manager utilise une seule salle de classe virtuelle pour tous les modules d’un cours. Lorsqu&#39;un instructeur lance l&#39;espace, la session est associée au module lié à l&#39;URL de jointure de cet instructeur. Toute demande de jointure ultérieure doit correspondre au module actif associé à l&#39;espace. Si un autre instructeur tente de rejoindre la session à l’aide d’un lien de jointure d’un autre module alors qu’un autre module est actif, l’accès à la salle est refusé. Un seul module peut être actif dans la salle partagée à la fois.
+
+Ce comportement est attendu dans la version actuelle. Des améliorations permettant aux instructeurs de cours de rejoindre la salle, quel que soit le module actif, sont prévues pour une prochaine version.
+
+**L’audio se rompt lorsque le micro et le haut-parleur diffèrent dans macOS**
+L’audio peut se rompre par intermittence ou sembler confus lors d’une session de classe virtuelle sur macOS lorsque le microphone et le haut-parleur sélectionnés sont des périphériques différents. Ce comportement peut se produire lorsque différents périphériques sont utilisés pour l’entrée et la sortie audio, tels que les AirPods pour le microphone et le haut-parleur intégré pour la lecture. Comme chaque périphérique introduit son propre retard audio, l’annulation des échos est moins efficace et la suppression des bruits en arrière-plan peut parfois confondre certaines parties de la parole avec le bruit. Cela peut entraîner de brèves interruptions audio. Le problème est plus perceptible lorsque la voix du locuteur est capturée à un volume faible, par exemple lorsque le microphone est placé plus loin.
+
+Il s’agit d’une limitation de plateforme connue et elle n’est pas spécifique à Adobe Learning Manager. Un comportement similaire a été observé dans d&#39;autres applications de conférence. Aucun correctif n’est inclus dans cette version et le problème est en cours d’évaluation pour une version ultérieure.
+
+Utilisez le même appareil pour le microphone et les haut-parleurs afin d’éviter ce comportement.
+
+**La vidéo partagée se bloque dans Chrome après avoir perdu le focus**
+Lorsqu’un instructeur partage une fenêtre Chrome en lisant une vidéo, puis change de focus, les participants peuvent voir le contenu partagé se figer ou afficher un écran noir. La vidéo continue d’être lue en local pour l’instructeur, mais les participants à distance peuvent ne pas voir la mise à jour du contenu lorsque la fenêtre partagée n’est pas active. Le comportement varie selon le système d’exploitation :
+
+* Sous Windows, les participants voient un écran noir.
+* Sur macOS, les participants voient le dernier cadre vidéo affiché.
+
+La lecture vidéo pour les participants reprend généralement lorsque le focus revient à la fenêtre de navigateur partagée.
+
+Il s’agit d’une limitation du navigateur et du système d’exploitation qui n’est pas spécifique à Adobe Learning Manager. Aucun correctif spécifique au produit n’est disponible pour cette version.
+
+Maintenez la fenêtre du navigateur partagé active lors de la présentation du contenu vidéo. Évitez de revenir à la fenêtre Salle de classe virtuelle pendant la lecture.
+
+**Les élèves peuvent participer à une session Live Hub avant la fenêtre de 15 minutes autorisée à l&#39;aide d&#39;une URL directe**
+Dans Adobe Learning Manager, les élèves peuvent rejoindre une session Live Hub via le portail uniquement dans les 15 minutes suivant l’heure de début prévue. Toutefois, les élèves disposant d’une URL de session directe, telle qu’une URL partagée par un instructeur, peuvent rejoindre la session plus tôt, à condition d’être connectés à Adobe Learning Manager. Il s’agit d’une limitation connue qui pourra être résolue dans une version ultérieure.
+
+**L&#39;instructeur ne peut pas rejoindre un module déjà utilisé**
+Lorsque les instructeurs tentent de lancer deux modules de cours qui utilisent la même salle de classe virtuelle en même temps, seul le premier instructeur peut entrer avec succès dans la salle.
+
+Adobe Learning Manager utilise une seule salle de classe virtuelle partagée pour une instance de cours. Lorsque le premier instructeur rejoint l&#39;espace, celui-ci est associé à son module. Les demandes de jointure supplémentaires sont validées par rapport au module actif. Si un autre instructeur tente de participer à l’aide d’un lien de module différent, l’accès est refusé. Par conséquent, des sessions simultanées dirigées par un instructeur ne peuvent pas être menées au sein de la même instance de cours à l’aide de modules distincts qui partagent une salle.
+
+Ce comportement est attendu dans la version actuelle et est cohérent avec l&#39;architecture d&#39;espace existante. La fonctionnalité est en cours d’examen pour une amélioration future sur la base des commentaires des clients.
+
+**Le mode plein écran ne fonctionne pas dans Firefox sur iPad**
+Lorsque les participants accèdent à une session Live Hub à l’aide du navigateur Firefox sur un iPad, la sélection du bouton Plein écran ne fait pas basculer la session en mode plein écran. La session reste dans la vue standard du navigateur au lieu de s’étendre pour remplir l’écran.
+Il s’agit d’une limitation connue du navigateur spécifique à Firefox sur iPad. La fonctionnalité plein écran n’est pas disponible dans cette combinaison de navigateurs et d’appareils. Il s’agit d’une limitation connue qui pourra être résolue dans une version ultérieure.
 
 **Limitations de qualité des sous-titres dans Live Hub**
 
