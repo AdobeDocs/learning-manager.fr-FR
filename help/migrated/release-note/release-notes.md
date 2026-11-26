@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40345'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Notes de mise à jour de Adobe Learning Manager
@@ -355,6 +355,7 @@ Ce comportement est attendu dans la version actuelle et est cohérent avec l&#39
 
 **Le mode plein écran ne fonctionne pas dans Firefox sur iPad**
 Lorsque les participants accèdent à une session Live Hub à l’aide du navigateur Firefox sur un iPad, la sélection du bouton Plein écran ne fait pas basculer la session en mode plein écran. La session reste dans la vue standard du navigateur au lieu de s’étendre pour remplir l’écran.
+
 Il s’agit d’une limitation connue du navigateur spécifique à Firefox sur iPad. La fonctionnalité plein écran n’est pas disponible dans cette combinaison de navigateurs et d’appareils. Il s’agit d’une limitation connue qui pourra être résolue dans une version ultérieure.
 
 **Limitations de qualité des sous-titres dans Live Hub**
